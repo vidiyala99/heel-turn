@@ -66,6 +66,41 @@ export const CHARACTERS = {
       { kind: 'shoes', color: 'secondary', sole: 'secondary' },
     ],
   },
+  // The broadcast crew (arena/booth.js): Rex and Dot at the announce desk, and the ring announcer for the intros.
+  // ids match the voice speakers (voice/voices.js), so a voice event names the body that is talking.
+  rex: {
+    name: 'Rex Ramsey', full: 'Rex Ramsey', role: 'Play-by-play',
+    body: 'male', build: [1.02, 1.0, 1.02], hair: ['Hair_SimpleParted'], hairColor: 0x3a2a1e,
+    palette: { ui: 0xf5c542, primary: 0x1b2a4a, secondary: 0x0d1220, accent: 0xdfe7f5, skin: 0xeec9ae },
+    attire: [
+      { kind: 'slacks', color: 'secondary' },
+      { kind: 'refShirt', color: 'accent', stripe: 'accent' },
+      { kind: 'coat', color: 'primary', trim: 'secondary' },
+      { kind: 'shoes', color: 'secondary', sole: 'secondary' },
+    ],
+  },
+  dot: {
+    name: 'Dot Calloway', full: 'Dot Calloway', role: 'Color commentary',
+    body: 'female', build: [0.96, 0.98, 0.96], hair: ['Hair_Long'], hairColor: 0x9b2335,
+    palette: { ui: 0xe8333b, primary: 0x5a1020, secondary: 0x121014, accent: 0x1c1a20, skin: 0xe2bea6 },
+    attire: [
+      { kind: 'slacks', color: 'secondary' },
+      { kind: 'refShirt', color: 'accent', stripe: 'accent' },
+      { kind: 'coat', color: 'primary', trim: 'secondary' },
+      { kind: 'shoes', color: 'secondary', sole: 'secondary' },
+    ],
+  },
+  ring: {
+    name: 'Ring announcer', full: 'Ring announcer', role: 'Ring announcer',
+    body: 'male', build: [1.0, 1.0, 1.0], hair: ['Hair_SimpleParted'], hairColor: 0x141012,
+    palette: { ui: 0xf2f2f2, primary: 0x0c0c10, secondary: 0x050507, accent: 0xf4f4f2, skin: 0xd9b199 },
+    attire: [
+      { kind: 'slacks', color: 'secondary' },
+      { kind: 'refShirt', color: 'accent', stripe: 'accent' },
+      { kind: 'coat', color: 'primary', trim: 'secondary' },
+      { kind: 'shoes', color: 'secondary', sole: 'secondary' },
+    ],
+  },
 };
 // Lou is 'ref' in the bible; older code calls him 'lou'.
 CHARACTERS.lou = CHARACTERS.ref;

@@ -1,4 +1,4 @@
-// One row per speaker. runware = { model, voice } on Runware, picked from 21 rendered candidates (Inworld TTS-2, xAI
+// One row per speaker. runware = { model, voice } on Runware, picked from 28 rendered candidates (Inworld TTS-2, xAI
 // TTS, Qwen3 VoiceDesign) by measured pitch, loudness and pace: see docs/lanes/runware-audio.md and voice/assets/manifest.json;
 // openai = gpt-4o-mini-tts voice + style instructions (the default until a Runware key exists);
 // pitch/rate = browser speechSynthesis fallback, spread apart so the six stay distinct on one system voice.

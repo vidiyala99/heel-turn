@@ -4,4 +4,6 @@ data/events.jsonl
 logs/
 __pycache__/
 *.py[cod]
-# .bruin.yml is tracked on purpose: it holds only the ${OPENAI_API_KEY} placeholder, never a key.
+# bruin appends the line below on every run. .bruin.yml is still tracked (added before the line): it
+# holds only the ${OPENAI_API_KEY} placeholder, never a key.
+.bruin.yml

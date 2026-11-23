@@ -18,9 +18,14 @@ with sync_playwright() as p:
     pg.wait_for_function("window.HEEL_UI && HEEL_UI.state === 'title'", timeout=30000)
     st = lambda: pg.evaluate("HEEL_UI.state")
     def key(k, w=400): pg.keyboard.press(k); pg.wait_for_timeout(w)
-    key("Enter"); print("after title:", st())
-    key("Enter"); print("after menu enter:", st())
-    key("ArrowRight", 200); key("Enter"); key("Enter", 300)
+    def until(state, k="Enter"):  # press k until the shell reaches state (keys during a screen wipe are dropped)
+        for _ in range(20):
+            if st() == state: return
+            key(k, 500)
+        raise SystemExit(f"stuck at {st()}, wanted {state}")
+    until("menu"); print("after title:", st())
+    until("select"); print("after menu enter:", st())
+    key("ArrowRight", 200); key("Enter", 300)  # pick P1; Exhibition draws a random opponent and goes to versus
     pg.screenshot(path=str(OUT / "play-select.png")); print("select->", st())
     pg.wait_for_function("HEEL_UI.state === 'match'", timeout=8000); print("in match")
     pg.wait_for_timeout(3500)

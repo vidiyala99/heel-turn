@@ -1,0 +1,6 @@
+ts	phase	decision	why	evidence	result
+2026-11-22T23:09	frame	Target sponsor prizes Bruin, Telem, BAND, Runware, AdaL; skip Lingcode, Casuro, Finch	All listed cash prizes are best-use-of-sponsor; no overall winner listed	luma.com/finch-jd7i; prep/sponsors.md	VERIFIED
+2026-11-22T23:12	frame	Baseline concept Takes (film track, Bruin memory across takes)	Lowest live-demo risk; Bruin as memory is natural	docs/PLAN.md	open
+2026-11-22T23:16	design	Run arena on concept + architecture (2 runners + judge) per pstack figure-it-out	One-way-door design; skipped arena earlier	docs/arena/	open
+2026-11-22T23:18	design	Probe: failing Bruin check skips downstream assets	Both arena designs gate on check failure	prep/bruin/probe (UPSTREAM FAILED)	VERIFIED
+2026-11-22T23:20	design	Base = A Mary Celeste Inquiry; graft B physical beats, replay-first demo, endings histogram; C memory_refs	Judge 26/25/18; A strongest Bruin depth, reach, optics	docs/arena/judge.md	open (owner can veto)

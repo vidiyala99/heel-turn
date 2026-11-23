@@ -28,8 +28,8 @@ Reachable cash if every target lands at the top: about $2,700 plus AdaL Pro.
 ### Definition of done (falsifiable)
 By 17:55 the submission site shows a public repo URL and a demo video, and:
 1. The video (1-3 min, cut in AdaL) shows at least 3 animated 3D characters moving and speaking in distinct voices,
-   an on-screen decision ledger (who decided what and why), and two takes of the same setup with different endings.
-2. The different ending is caused by memory: take 2's decisions cite rows Bruin produced from take 1.
+   an on-screen decision ledger (who decided what and why), an exhibit stamped INADMISSIBLE by a Bruin check, and two takes with different verdicts.
+2. The different ending is caused by memory: a later take's decisions cite credibility rows Bruin produced from earlier takes.
 3. The repo README has a "Sponsors" table: one row per sponsor, each linking to the file where it does real work.
 4. `bruin run` passes its quality checks on the take data, live, in the demo or the video.
 
@@ -37,45 +37,46 @@ By 17:55 the submission site shows a public repo URL and a demo video, and:
 High on disqualifiers (Bruin used, public repo, video, deadline), because missing one zeroes everything.
 Low on polish beyond the demo path. One checkpoint: the idea, below, before coding starts at 11:30.
 
-## Idea: pick by risk, since prizes don't depend on track
+## Decision: arena result (2026-11-22 23:20)
+pstack figure-it-out says a one-way-door design gets an arena. Two independent designs (Opus, Sonnet) plus this
+plan's original "Takes" idea were scored by a Sonnet judge on 6 criteria (`docs/arena/judge.md`):
+**A Mary Celeste Inquiry 26/30**, B Last Pod 25/30, C Takes 18/30. Takes lost on Bruin depth, delight and optics.
 
-| | Film: agents write the plot | Co-op game: 2 humans + 3 agents | Coaching: agents train a human |
+**Base: A, "The Mary Celeste Inquiry"** (full spec: `docs/arena/candidate-1.md`, Track 1 film). Six BAND agents
+re-stage the 1872 ghost-ship inquiry on a 3D deck. An exhibit counts only if a Bruin check proves its quote is in the
+page the agent fetched through Telem, so invented evidence gets stamped INADMISSIBLE on screen. The Judge rules only
+from Bruin metrics. Credibility carries across takes, so endings change. Real history, no living people.
+
+**Grafted in:**
+1. From B: physical beats (tilting deck, characters crossing to the board and stand, a finale) so it is not talking heads.
+2. From B: a dummy-agent take first, and a recorded replay with cached voices as the primary demo; the live take is a bonus.
+3. From B: an endings histogram over 5-8 takes, and a within-take trust mart.
+4. From C: `memory_refs` on every event, and the 9:30-11:30 sponsor-prize questions.
+5. Judge fix: BAND decides turns (the Judge agent picks the next speaker); our code only observes. Engine-driven turns fail BAND's "delete test".
+
+**Verified tonight:** a failing Bruin check marks its asset failed and skips everything downstream
+(`UPSTREAM FAILED`), so "check failure blocks the exhibit" works as designed (probe: `prep/bruin/probe`).
+`bruin query` has `--semantic-model`, `--metric`, `--dimension` flags (from `--help`); the semantic model file format
+is still unverified, with SQL on the mart as fallback.
+**Still unverified:** Telem trace id in the API response, Runware per-voice parameter, BAND SDK on Windows.
+
+## Phase B: Build order (from A, riskiest first, each step ends in a check)
+| # | Time | Unit | Check |
 |---|---|---|---|
-| Live-demo risk | **Lowest**: decisions run ahead, render and record | Highest: realtime networking for 2 humans | Medium: realtime voice loop |
-| Bruin as memory across takes | **Natural** (take N learns from take N-1) | Good (economy data) | Good |
-| "Different endings" built into the brief | Yes | No | No |
-| Fits 5.5 solo hours | **Yes** | Tight | Possible |
+| 0 | 9:30-11:30 | Ask sponsors: can one project win several prizes? What does "best use" mean to each judge? Credits? | Answers in this file |
+| 1 | 11:30-12:05 | Bruin over a fixture (2 sources, 3 exhibits, 1 forged quote) | `bruin run` passes; forged row `quote_found=false`; metric returns in <10 s |
+| 2 | 12:05-12:35 | BAND: 2 registered agents @mention, one calls a tool, observer writes JSONL | Console room shows it; JSONL has the lines |
+| 3 | 12:35-13:00 | Telem `research()` stores a real fetch | Real quote passes Bruin, invented one fails, trace id saved |
+| L | lunch | Runware asset script: portraits, ship GLB, 6 voice samples | Files on disk |
+| 4 | 14:00-15:00 | Full cast, one take (dummy agents first, then LLM) | Verdict reached, at least 1 exhibit rejected, marts refresh per round |
+| 5 | 15:00-16:15 | Three.js stage: deck, moves to marks, bubbles, board stamps, ledger, replay | Full take replays at 1080p, no console errors |
+| 6 | 16:15-16:45 | Voices per line; 4 more takes in background | `mart_run_outcomes` shows 2+ endings; credibility shifts |
+| 7 | 16:45-17:20 | Record take 1 vs take N; AdaL cut 90-150 s | Video exported |
+| 8 | 17:20-17:45 | README sponsor table with file links; make repo public; submit | Submission page shows repo + video |
 
-**Recommendation: Track 1, Agent Animated Film, as "Takes".** A small cast (heist crew with a hidden traitor, or
-another setup Aakash prefers) plays the same opening several times. Between takes, Bruin turns what happened into an
-`agent_memory` table, so the characters remember who betrayed whom and change their choices. The film shows
-take 1 against take 3. Telem pulls a real live headline that sets each take's opening event, so no two runs start
-alike. This hits every required element and all three bonuses (3D, voice, learning) with the least that can break live.
-Setup/cast/world is Aakash's taste call; the pipeline below is the same for any cast.
-
-## Phase B: Design
-
-### Data shape first
-`DecisionEvent { take: int, t: float, agent: str, action: str, target: str|null, line: str, reason: str, memory_refs: [str] }`
-Every layer reads or writes this: BAND messages produce it, Bruin ingests it, the 3D stage replays it, the ledger shows it.
-
-### Units, riskiest first (each ends in a check)
-| # | Time | Unit | Check (on the real artifact) |
-|---|---|---|---|
-| 0 | 9:30-11:30 | At sponsor demos ask: can one project win several sponsor prizes? What does each judge want for "best use"? Any event credits? | Answers written into this file |
-| 1 | 11:30-12:15 | BAND: 3-4 characters as separate BAND agents, @mention-routed, play one scene, emit DecisionEvents | Room log shows 10+ messages across 3+ agents; events JSON written |
-| 2 | 12:15-13:00 | Bruin pipeline: raw events -> checked decisions -> `agent_memory` and `take_outcomes`; semantic metrics (e.g. trust by character) | `bruin run` all checks pass; `bruin query` returns memory rows |
-| 3 | 14:00-15:30 | 3D stage (three.js + free rigged glTF characters) replays a take's events: move, act, face, subtitles, ledger panel | Screen recording of one take, 3+ characters moving |
-| 4 | 15:30-16:15 | Runware TTS voice per character; Telem headline sets the opening event | Take plays with 3 distinct voices; opening cites a live headline URL |
-| 5 | 16:15-17:00 | Memory loop: run takes 1-3, characters read `agent_memory` before deciding; ending changes | Take 3 ending differs and its events cite take-1 memory rows |
-| 6 | 17:00-17:40 | AdaL demo video (1-3 min); README sponsor table with file links | Video exported; every table link opens the right file |
-| 7 | 17:40-17:55 | Submit on hackathons.crewbasecollective.com | Submission page shows repo + video |
-
-Fan-out: units 3 and 4 can run as parallel workers on separate branches once unit 1's event shape is fixed.
-
-### Cut list, in order, if behind
-Glasser -> Runware TTS to browser speech -> Telem to a fixed headline -> 3D to 2D sprites (loses a bonus) -> takes 3 to 2.
-Never cut: Bruin memory, BAND agents, video, submission.
+### Cut list, in order
+Ship GLB -> side-room collusion -> live take (replay only) -> Runware voices (browser speech) -> endings chart.
+Never cut: Bruin checks gating exhibits, Telem as the only fact source, 6 BAND agents, the ledger, video, submission.
 
 ## Phase C/D: Run log
 Append a row per unit as it lands (time, unit, check result VERIFIED / NOT VERIFIED / INCONCLUSIVE, evidence path).

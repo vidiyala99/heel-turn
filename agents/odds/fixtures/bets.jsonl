@@ -1,0 +1,5 @@
+{"type": "bet", "bet_id": "fx-1", "fan": "fan_ana", "match": "m4", "market": "winner", "pick": "vex", "stake": 100, "decimal_odds": 3.1, "ts": 1}
+{"type": "bet", "bet_id": "fx-2", "fan": "fan_bo", "match": "m4", "market": "winner", "pick": "brutus", "stake": 200, "decimal_odds": 4.0, "ts": 2}
+{"type": "bet", "bet_id": "fx-3", "fan": "fan_ana", "match": "m4", "market": "envelope", "pick": "yes", "stake": 50, "decimal_odds": 1.8, "ts": 3}
+{"type": "result", "match": "m4", "market": "winner", "outcome": "vex", "ts": 4}
+{"type": "result", "match": "m4", "market": "envelope", "outcome": "no", "ts": 5}

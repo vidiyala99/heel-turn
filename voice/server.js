@@ -66,7 +66,7 @@ async function line({ event, speaker = 'dot', example }) {
   });
   const out = await r.json();
   if (!r.ok) throw Object.assign(new Error(`openai ${r.status}`), { code: 502 });
-  return out.choices?.[0]?.message?.content?.trim().replace(/^"|"$/g, '') ?? '';
+  return out.choices?.[0]?.message?.content?.trim().replace(/^"|"$/g, '').replace(/\s*[—–]\s*/g, ', ') ?? '';
 }
 
 export function createServer() {

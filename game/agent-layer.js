@@ -159,6 +159,8 @@ export function createAgentLayer({ logRow, call }) {
         const changed = last[p.wrestler] !== `${p.intent}|${p.target}|${(p.cites?.[0] || '').match(/\/(strike|grapple|block)$/)?.[1] || null}`;
         const expect = show(p, meta);
         if (changed && p.wrestler !== 'lou' && meta?.source === 'openai') m.aiPlansLog.push(`${NAMES[p.wrestler] || p.wrestler} (LLM): ${p.reason}`);
+        // a crooked count only arrives once the commissioner approved the bribe (brain._ref_job): Lou then misses rope breaks
+        if (p.wrestler === 'lou' && p.intent === 'count_fast') m.refBribed = true;
         if (p.wrestler !== 'lou' && cur && m === cur.m) m.extPlan = { intent: p.intent, target: p.target, expect, at: m.clock, source: meta?.source };
       });
     }).catch((e) => {

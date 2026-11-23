@@ -116,6 +116,7 @@ export function pinStep(m, ctl, dt, kickout, win) {
   const p = m.pin; if (!p) return;
   const P = S.pin, victim = m.w[p.victim], human = ctl[p.victim].human;
   p.t += dt;
+  if (ropeBreak(m, p, victim)) return;
   if (p.kickAt === undefined) p.kickAt = human ? Infinity : aiKickAt(victim);
   if (human ? p.mash >= 6 + p.count * 3 : p.t >= p.kickAt * P.count) {
     const at = p.t / P.count, att = m.w[p.att];
@@ -130,6 +131,30 @@ export function pinStep(m, ctl, dt, kickout, win) {
     p.count++; emit(m, { k: 'banner', text: String(p.count), secs: 0.6 }); emit(m, { k: 'pincount', n: p.count });
     if (p.count === 3) win(m, p.att, 'PINFALL');
   }
+}
+
+// Rope break: the pinned wrestler is under the ropes (sim position within ROPE_REACH m of the mat edge) while Lou
+// counts -> he stops the count and the attacker lets go. A bribed Lou (m.refBribed, set from an approved bribe)
+// "misses" it once per pin. Events: banner, call, rope_break {slot, missed}, fact rope_break (actor = victim).
+const ROPE_REACH = 0.45;
+export const underRopes = (w) => RING - Math.max(Math.abs(w.x), Math.abs(w.z)) < ROPE_REACH;
+function ropeBreak(m, p, victim) {
+  if (p.ropeSeen || !underRopes(victim)) return false;
+  p.ropeSeen = true;
+  const att = m.w[p.att], fact = { k: 'fact', t_ms: Math.round((m.clock || 0) * 1000), kind: 'rope_break', actor: p.victim, target: p.att, situation: 'cornered' };
+  if (m.refBribed) {
+    emit(m, { k: 'rope_break', slot: p.victim, missed: true });
+    emit(m, { k: 'call', text: `${short(victim)}'s foot is on the rope... and Lou doesn't see it! He keeps counting!` });
+    return false;
+  }
+  m.events.push(fact);
+  emit(m, { k: 'rope_break', slot: p.victim, missed: false });
+  emit(m, { k: 'banner', text: 'ROPE BREAK!', secs: 1.1 });
+  emit(m, { k: 'call', text: `Rope break! Lou waves it off: ${short(victim)} is under the ropes. ${short(att)} has to let go.` });
+  att.state = 'idle'; anim(att, 'Idle');
+  victim.state = 'down'; victim.t = 0.6;
+  m.pin = null;
+  return true;
 }
 
 // When an AI victim kicks out, in counts. Healthy: early. Hurt: at 2.9 (a near-fall) or not at all.

@@ -17,3 +17,4 @@ logs/*.log
 __pycache__/
 *.py[cod]
 logs/queries
+game/assets-raw/

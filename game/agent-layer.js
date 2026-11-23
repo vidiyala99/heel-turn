@@ -86,6 +86,7 @@ css.textContent = `
 .dl-row { display: block; border-left: 3px solid var(--tint); padding-left: 8px; animation: dl-in .18s cubic-bezier(.2,.8,.2,1); }
 .dl-src { font: 600 9.5px/1 ui-monospace, Consolas, monospace; letter-spacing: .08em; color: #05060a; background: var(--tint); padding: 2px 4px; margin-right: 6px; vertical-align: 1px; }
 .dl-t { color: #fff; }
+.dl-x { font: 600 10.5px ui-monospace, Consolas, monospace; color: var(--gold, #f5c542); }
 .dl-v { color: #7ee0a1; font-size: 11px; } .dl-v.no { color: #ff8a8a; }
 .dl-r { display: block; color: #cfd6e1; }
 .dl-c { display: block; font: 10.5px/1.35 ui-monospace, Consolas, monospace; color: #9aa3b2; word-break: break-word; }

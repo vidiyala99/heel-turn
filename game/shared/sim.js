@@ -176,12 +176,16 @@ function aiThink(m, i, dt) {
       where = 'overall';
     }
     const total = h.strike + h.grapple + h.block, fav = Object.entries(h).sort((a, b) => b[1] - a[1])[0];
+    const prevIntent = m.aiIntent;
     m.aiIntent = fav[1] / total > 0.45 ? `counter_${fav[0]}` : 'pressure';
     const html = m.aiIntent.startsWith('counter')
       ? `<em>${short(me)}</em> plan: expect your <em>${fav[0]}</em> (${Math.round(fav[1] / total * 100)}% ${where}, ${seen(h)} moves seen), answer with <em>${COUNTER[fav[0]]}</em>.`
       : `<em>${short(me)}</em> plan: no clear habit yet (${seen(h)} moves seen), apply pressure.`;
-    m.aiPlansLog.push(html.replace(/<[^>]+>/g, ''));
-    emit(m, { k: 'log', html });
+    // Same intent as last time: the log updates that line (key) instead of adding a copy.
+    if (m.aiIntent !== prevIntent || !m.aiPlansLog.length) m.aiPlansLog.push(html.replace(/<[^>]+>/g, ''));
+    else m.aiPlansLog[m.aiPlansLog.length - 1] = html.replace(/<[^>]+>/g, '');
+    emit(m, { k: 'log', html, key: `plan-${i}-${m.aiIntent}`, same: m.aiIntent === prevIntent && m.aiPlanN > 0 });
+    m.aiPlanN = (m.aiPlanN || 0) + 1;
   }
   if (busy(me)) return;
   if (you.state === 'down' && tryPin(m, i)) return;
@@ -227,6 +231,7 @@ export function step(m, dt, ctl) {
   }
   m.clock += dt; m.blockT = Math.max(0, m.blockT - dt);
   const [A, B] = m.w;
+  const before = m.w.map((w) => [w.x, w.z]);
   for (let i = 0; i < 2; i++) {
     const w = m.w[i], c = ctl[i];
     if (m.over) continue;
@@ -282,6 +287,11 @@ export function step(m, dt, ctl) {
     const push = gap * 0.5 + 0.01;
     A.x += sx * push; A.z += sz * push; B.x -= sx * push; B.z -= sz * push;
   }
+  // A walk/run clip only plays while the wrestler really moves; standing still (in range, blocked by the
+  // ropes or the separation push) goes back to idle, so nobody walks in place.
+  m.w.forEach((w, i) => {
+    if ((w.anim === 'Walking' || w.anim === 'Running') && Math.hypot(w.x - before[i][0], w.z - before[i][1]) < 0.4 * dt) anim(w, 'Idle');
+  });
   // pin count: a human victim mashes K to kick out, an AI victim kicks out by chance (more likely when healthy)
   const p = m.pin;
   if (p) {

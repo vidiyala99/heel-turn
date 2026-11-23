@@ -144,9 +144,12 @@ const $ = (id) => document.getElementById(id);
 let bannerT = 0;
 function banner(text, secs = 1.4) { const b = $('banner'); if (!b) return; b.textContent = text; b.style.opacity = 1; bannerT = secs; }
 function call(text) { const c = $('call'); if (c) c.textContent = text; }
-function log(html) {
+function log(html, key, same) {
   const l = $('log'); if (!l) return;
-  const p = document.createElement('p'); p.innerHTML = html; l.prepend(p);
+  // A repeated plan (same key, same intent) updates its line with a count instead of a new copy.
+  const old = key && same && [...l.children].find((c) => c.dataset.key === key);
+  if (old) { old.dataset.n = String(Number(old.dataset.n || 1) + 1); old.innerHTML = `${html} <span class="dl-x">x${old.dataset.n}</span>`; return; }
+  const p = document.createElement('p'); p.innerHTML = html; if (key) p.dataset.key = key; l.prepend(p);
   while (l.children.length > 12) l.lastChild.remove();
 }
 function setText(id, text) { const e = $(id); if (e) e.textContent = text; }
@@ -339,7 +342,7 @@ function handleEvents(evs) {
   for (const e of evs) {
     if (e.k === 'banner') banner(e.text, e.secs);
     else if (e.k === 'call') call(e.text);
-    else if (e.k === 'log') log(e.html);
+    else if (e.k === 'log') log(e.html, e.key, e.same);
     else if (e.k === 'shake') shake = Math.max(shake, e.v * shakeScale());
     else if (e.k === 'finisher') { nextFinisher = true; shake = 0.6 * shakeScale(); bloom.strength = 1.6; }
     else if (e.k === 'wobble') wobble(e.ax, e.sign);

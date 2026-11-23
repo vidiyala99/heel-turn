@@ -35,7 +35,7 @@ with sync_playwright() as p:
     for n in range(MATCHES):
         pg.wait_for_function("HEEL_UI.state === 'match'", timeout=15000)
         pg.wait_for_timeout(3500)
-        strikes = 0
+        strikes = 0; walk_samples = []
         for i in range(70):
             # walk at the AI, strike every 200 ms
             dx = pg.evaluate("G.P2 && G.P1 ? G.P2.x - G.P1.x : 0")
@@ -43,6 +43,9 @@ with sync_playwright() as p:
             pg.keyboard.press("KeyJ"); strikes += 1
             pg.wait_for_timeout(200)
             pg.keyboard.up("KeyD"); pg.keyboard.up("KeyA")
+            # walk-in-place probe: sample the AI over 3 frames; walking anim while not moving is a bug
+            smp = pg.evaluate("""() => new Promise((res) => { const a = [G.P2.x, G.P2.z]; requestAnimationFrame(() => requestAnimationFrame(() => requestAnimationFrame(() => res({ anim: G.P2.anim, moved: Math.hypot(G.P2.x - a[0], G.P2.z - a[1]) })))); })""")
+            walk_samples.append(smp)
             log = pg.inner_text("#log") if pg.query_selector("#log") else ""
             if re.search(r"expect your strike.*answer with block", log):
                 ok = True
@@ -51,6 +54,11 @@ with sync_playwright() as p:
         pg.screenshot(path=str(OUT / f"agents-match{n + 1}.png"))
         print(f"match {n + 1}: strike keys {strikes}; decision log now:")
         print("  " + (pg.inner_text("#log") if pg.query_selector("#log") else "(no #log)").replace("\n", "\n  "))
+        stuck = [x for x in walk_samples if x["anim"] in ("Walking", "Running") and x["moved"] < 0.005]
+        print(f"  walk-in-place samples: {len(stuck)} of {len(walk_samples)}")
+        lines = [l for l in (pg.inner_text("#log") or "").splitlines() if "plan:" in l]
+        dup = sum(1 for a, b in zip(lines, lines[1:]) if re.sub(r"\(.*?\)", "", a) == re.sub(r"\(.*?\)", "", b))
+        print(f"  adjacent repeated plan lines: {dup}")
         print("  habits:", json.dumps(pg.evaluate("G.state && G.state.habits")))
         extra = pg.evaluate("window.HEEL_DEBUG ? JSON.stringify(HEEL_DEBUG()) : null")
         if extra: print("  debug:", extra[:2000])

@@ -13,6 +13,7 @@ import { join, extname, normalize } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { VOICES } from './voices.js';
 import { warmLines } from './lines.js';
+import { announcerLines } from './announcer.js';
 
 const ROOT = fileURLToPath(new URL('.', import.meta.url));
 const CACHE = process.env.VOICE_CACHE_DIR || join(ROOT, '.cache');
@@ -85,7 +86,7 @@ export async function tts(speaker, text, kind) {
 }
 
 // Pre-render every template line with every roster name, a few workers at a time so live requests still get through.
-export async function warmCache(lines = warmLines(), workers = 6) {
+export async function warmCache(lines = [...announcerLines(), ...warmLines()], workers = 6) {
   if (!provider()) return warm;
   const t0 = Date.now(); let i = 0;
   warm.total = lines.length;

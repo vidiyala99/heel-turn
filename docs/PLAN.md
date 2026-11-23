@@ -9,7 +9,7 @@ Default pick is the shooter (Aakash: "both seem good"; shooter leads on fun, att
 browser (three.js + Vite)          Colyseus server (Node/TS)                  AI + data
 - angled 3D camera, input  <--->  - room state @20 Hz, rounds, hitscan  --->  events.jsonl -> DuckDB
 - push-to-talk (Web Speech)       - bots: waypoint graph, fast shoot          Bruin: events -> habit tables (+checks)
-- plan panel, decision log        - every 4 s + round start: ask strategist   Claude strategists read habit tables,
+- plan panel, decision log        - every 4 s + round start: ask strategist   OpenAI strategists read habit tables,
 - replay / director camera        - applies approved plan to its bots         post plans in BAND rooms; veto; human ok
                                                                               Runware TTS for hero replies
 ```
@@ -36,7 +36,7 @@ plans), Wildcard (flanker, trash talk). Names and art chosen at U2 from CC0 pack
 | U3 | Rounds (plant/defend, 2 sites), bots on waypoint graph, hitscan | 14:45 | a headless bot-vs-bot round ends with a winner |
 | U4 | Event stream -> events.jsonl -> DuckDB | 15:00 | row counts per kind for one round |
 | U5 | Bruin pipeline: habit tables + checks (+ inference asset labelling callouts) | 15:30 | `bruin run` green; a planted bad row fails a check and blocks downstream |
-| U6 | Strategists (Claude) + BAND rooms: caller plans, scout handoff, anchor veto, human approve | 16:15 | Band console shows handoff + veto + approval for one round; decision log on screen |
+| U6 | Strategists (OpenAI) + BAND rooms: caller plans, scout handoff, anchor veto, human approve | 16:15 | Band console shows handoff + veto + approval for one round; decision log on screen |
 | U7 | Learning batch: N headless rounds memory on vs off -> chart | 16:30 | chart shows N and both lines (overlap reported honestly) |
 | U8 | Push-to-talk -> strategist -> Runware voice reply | 16:45 | reply under 3 s, measured |
 | U9 | Replay/director cam, README ("Bruin Features Used"), AdaL cut, submit | 17:30 | VIDEO.md Phase E checklist passes |
@@ -47,6 +47,6 @@ plans), Wildcard (flanker, trash talk). Names and art chosen at U2 from CC0 pack
 
 ## Needs from Aakash at the venue
 - Confirm the shooter (or say wrestling now, before U0).
-- Keys: BAND, Runware, Anthropic (Bruin inference + strategists), Telem only if used.
+- Keys: BAND, Runware, OpenAI (Bruin inference `provider: openai` + strategists; Aakash has no Anthropic key, 10:56), Telem only if used.
 - The announced deadline and whether a public GitHub repo is required at submit (making it public is his call).
 - Ask the Bruin team at their demo what they judge on; note answers in docs/decisions.tsv.

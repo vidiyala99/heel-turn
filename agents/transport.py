@@ -12,10 +12,27 @@ Every call is appended to `console` so the demo can print a BAND console.
 from __future__ import annotations
 
 import itertools
+import json
 import os
 import re
 import time
 from dataclasses import dataclass, field
+from datetime import datetime
+from pathlib import Path
+
+ROOM_LIMIT = 250  # BAND max_chat_rooms per account (403 limit_reached at 250/250)
+POOL_FILE = Path(__file__).parent / ".band_rooms.json"
+
+
+class BandRoomLimit(RuntimeError):
+    """BAND refused to create a room: the account hit max_chat_rooms."""
+
+    reason = "BAND: room limit"
+
+
+def _is_room_limit(err: Exception) -> bool:
+    text = f"{err} {getattr(err, 'body', '')}"
+    return "limit_reached" in text or "room limit" in text.lower()
 
 
 @dataclass
@@ -64,8 +81,19 @@ class MockBand:
             r["members"].append(participant)
         self._log(f"band_add_participant room={room}({r['title']}) by={actor} add={participant}")
 
+    def remove_participant(self, room: str, actor: str, participant: str) -> None:
+        r = self.rooms[room]
+        if actor != r["owner"]:
+            raise PermissionError(f"{actor} does not own {room}")
+        if participant in r["members"]:
+            r["members"].remove(participant)
+        self._log(f"band_remove_participant room={room}({r['title']}) by={actor} remove={participant}")
+
     def participants(self, room: str) -> list[str]:
         return list(self.rooms[room]["members"])
+
+    def room_usage(self) -> int:
+        return len(self.rooms)
 
     def send(self, room: str, sender: str, text: str, mentions: list[str]) -> Message:
         r = self.rooms[room]
@@ -139,7 +167,13 @@ class LiveBand:
     def create_room(self, owner: str, title: str) -> str:
         from band_rest import ChatRoomRequest
 
-        resp = self._client(owner).agent_api_chats.create_agent_chat(chat=ChatRoomRequest(title=title), request_options=self._opts())
+        try:
+            resp = self._client(owner).agent_api_chats.create_agent_chat(chat=ChatRoomRequest(title=title),
+                                                                         request_options=self._opts())
+        except Exception as e:
+            if _is_room_limit(e):
+                raise BandRoomLimit(f"BAND refused room {title!r}: max_chat_rooms reached") from e
+            raise
         rid = _dig_id(resp)
         self.rooms[rid] = {"title": title, "owner": owner, "members": [owner]}
         self._log(f"band_create_chatroom by={owner} title={title!r} -> {rid}")
@@ -157,16 +191,43 @@ class LiveBand:
         self._log(f"band_lookup_peers by={actor} -> {[p['id'] for p in peers]}")
         return peers
 
+    def sync_room(self, room: str, owner: str, title: str) -> None:
+        """Adopt an existing room (from the pool file): read its roster so adds and removes stay idempotent."""
+        resp = self._client(owner).agent_api_participants.list_agent_chat_participants(room, request_options=self._opts())
+        by_id = {v: k for k, v in self.ids.items()}
+        members = [by_id[p.id] for p in (getattr(resp, "data", None) or []) if p.id in by_id]
+        self.rooms[room] = {"title": title, "owner": owner, "members": members or [owner]}
+
     def add_participant(self, room: str, actor: str, participant: str) -> None:
         from band_rest import ParticipantRequest
 
+        if participant in self.rooms[room]["members"]:
+            return
         self._client(actor).agent_api_participants.add_agent_chat_participant(
             room, participant=ParticipantRequest(participant_id=self.ids[participant]), request_options=self._opts())
         self.rooms[room]["members"].append(participant)
         self._log(f"band_add_participant room={room}({self.rooms[room]['title']}) by={actor} add={participant}")
 
+    def remove_participant(self, room: str, actor: str, participant: str) -> None:
+        self._client(actor).agent_api_participants.remove_agent_chat_participant(
+            room, self.ids[participant], request_options=self._opts())
+        if participant in self.rooms[room]["members"]:
+            self.rooms[room]["members"].remove(participant)
+        self._log(f"band_remove_participant room={room}({self.rooms[room]['title']}) by={actor} remove={participant}")
+
     def participants(self, room: str) -> list[str]:
         return list(self.rooms[room]["members"])
+
+    def room_usage(self) -> int:
+        """Distinct rooms our agents own (the rooms that count against the account's max_chat_rooms)."""
+        owned = set()
+        for pid, kind in self.cast.items():
+            if kind != "agent":
+                continue
+            for row in list_rooms(self._client(pid)):
+                if any(p.get("id") == self.ids[pid] and p.get("role") == "owner" for p in row.get("participants") or []):
+                    owned.add(row["id"])
+        return len(owned)
 
     def send(self, room: str, sender: str, text: str, mentions: list[str]) -> Message:
         from band_rest import ChatMessageRequest, ChatMessageRequestMentionsItem
@@ -180,7 +241,7 @@ class LiveBand:
         resp = self._client(sender).agent_api_messages.create_agent_chat_message(
             room, message=ChatMessageRequest(content=content, mentions=items), request_options={"max_retries": 0})
         self._log(f"band_send_message room={room}({self.rooms[room]['title']}) from={sender} @{','.join(mentions)}: {text}")
-        return Message(_dig_id(resp) or "?", room, sender, text, list(mentions))
+        return Message(_dig_id(resp) or "?", room, sender, text, list(mentions), _ts(_dig(resp, "data", "inserted_at")))
 
     def inbox(self, viewer: str, room: str | None = None) -> list[Message]:
         raise NotImplementedError("live inbox: open the Band app console")
@@ -194,12 +255,45 @@ class LiveBand:
         for m in data:
             sender = getattr(m, "sender_id", None) or getattr(getattr(m, "sender", None), "id", None)
             if sender == judge_id:
-                out.append(Message(getattr(m, "id", "?"), room, judge, getattr(m, "content", ""), [proposer]))
+                out.append(Message(getattr(m, "id", "?"), room, judge, getattr(m, "content", ""), [proposer],
+                                   _ts(getattr(m, "inserted_at", None))))
         return out
 
 
 def _env(pid: str, suffix: str) -> str | None:
     return os.environ.get(f"HEEL_BAND_{pid.upper()}_{suffix}")
+
+
+def _dig(resp, *path):
+    cur = resp
+    for k in path:
+        cur = cur.get(k) if isinstance(cur, dict) else getattr(cur, k, None)
+    return cur
+
+
+def _ts(value) -> float:
+    """Server timestamp -> epoch seconds (verdicts are compared on the server's clock, not ours)."""
+    if isinstance(value, datetime):
+        return value.timestamp()
+    if isinstance(value, str):
+        try:
+            return datetime.fromisoformat(value.replace("Z", "+00:00")).timestamp()
+        except ValueError:
+            pass
+    return time.time()
+
+
+def list_rooms(client, page_size: int = 100) -> list[dict]:
+    """Every room an agent is in, with its roster (band_rest list_agent_chats, all pages)."""
+    rows, page = [], 1
+    while True:
+        resp = client.agent_api_chats.list_agent_chats(page=page, page_size=page_size, include="participants")
+        d = resp.model_dump() if hasattr(resp, "model_dump") else resp
+        rows += d.get("data") or []
+        meta = d.get("metadata") or {}
+        if page >= (meta.get("total_pages") or 1):
+            return rows
+        page += 1
 
 
 def _dig_id(resp) -> str:
@@ -220,6 +314,47 @@ def parse_verdict(text: str) -> str | None:
     if not m:
         return None
     return "approve" if m.group(1).lower().startswith("approv") else "block"
+
+
+class RoomPool:
+    """A fixed set of BAND rooms, one per purpose, created once and reused by every match.
+
+    Matches are told apart by a [match] tag in message text, not by new rooms, so playing never walks the account
+    into the 250-room cap. Live mode persists {purpose: {id, owner, title}} in agents/.band_rooms.json (gitignored).
+    """
+
+    def __init__(self, band, path: Path | None):
+        self.band = band
+        self.path = path
+        self.rooms: dict[str, dict] = {}
+        if path and path.exists():
+            for purpose, r in json.loads(path.read_text()).items():
+                try:
+                    band.sync_room(r["id"], r["owner"], r["title"])
+                except Exception as e:  # deleted or unreadable room: recreate it on first use
+                    band.console.append(f"pool: dropped {purpose} ({type(e).__name__})")
+                    continue
+                self.rooms[purpose] = r
+
+    def get(self, purpose: str, owner: str) -> str:
+        if purpose not in self.rooms:
+            title = f"HEEL TURN {purpose}"
+            self.rooms[purpose] = {"id": self.band.create_room(owner, title), "owner": owner, "title": title}
+            if self.path:
+                self.path.write_text(json.dumps(self.rooms, indent=2))
+        return self.rooms[purpose]["id"]
+
+    def reset(self, baseline: dict[str, set[str]]) -> None:
+        """Between matches: remove everyone the last match added, so the next entrants are real adds again."""
+        for purpose, r in self.rooms.items():
+            keep = baseline.get(purpose, set()) | {r["owner"]}
+            for m in self.band.participants(r["id"]):
+                if m not in keep:
+                    self.band.remove_participant(r["id"], r["owner"], m)
+
+
+def make_pool(band) -> RoomPool:
+    return RoomPool(band, POOL_FILE if band.mode == "live" else None)
 
 
 def make_transport(cast: dict[str, str]):

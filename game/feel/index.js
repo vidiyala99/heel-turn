@@ -84,8 +84,12 @@ export function createFeel({ scene, camera, getViews }) {
   }
 
   // ---------- clock: freeze on hitstop, slow-mo for near-falls and finishers ----------
+  let lastNow = 0;
   function begin(dt, st) {
-    t += dt;
+    // Slow-mo spans are real seconds: the clock and the ease run on wall time, not on main's clamped dt or a
+    // per-frame factor, so a frame-rate dip inside a cinematic does not stretch it.
+    const now = performance.now() / 1000, real = lastNow ? Math.min(now - lastNow, 0.25) : dt; lastNow = now;
+    t += real;
     if (hasBase) camera.position.copy(base);   // drop last frame's shake so main's lerp works from the clean path
     // near-fall: the third slap is coming (pin past 2.5 counts) -> slow the world down
     const pinDrama = st?.pin && st.pin.t / T.sim.pin.count >= 2.5;
@@ -93,7 +97,7 @@ export function createFeel({ scene, camera, getViews }) {
     else if (cut?.kind === 'nearfall' && !st?.pin) cut.until = Math.min(cut.until, t + 0.5);
     if (t > slowUntil) slowTarget = 1;
     const target = reduced() ? Math.max(slowTarget, 0.6) : slowTarget;
-    scale += (target - scale) * (target < scale ? 0.5 : 0.12); // snap into slow-mo, ease back out
+    scale += (target - scale) * (1 - Math.pow(target < scale ? 0.5 : 0.88, real * 60)); // snap into slow-mo, ease back out (60 fps rates)
     if (Math.abs(scale - 1) < 0.01) scale = 1;
     // metrics
     if (scale < 0.95 && !slowStart) slowStart = performance.now();

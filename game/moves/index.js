@@ -161,6 +161,12 @@ export function playSolo(moveId, obj, opts = {}) {
 
 export const isBusy = (obj) => [...plays].some((p) => !p.ended && p.actors.some((a) => a.obj === obj));
 export const stopMoves = (obj) => detach(obj);
+// Let go of a held (or running) move: it blends back to the clip pose over BLEND_OUT instead of snapping.
+export function releaseMoves(obj) {
+  for (const play of plays) for (const a of play.actors) if (a.obj === obj && a.releaseAt == null) { a.hold = false; a.releaseAt = play.t; }
+}
+// Id of the move currently driving obj (null when the mixer alone does), for anim probes.
+export const activeMove = (obj) => { for (const p of plays) if (p.actors.some((a) => a.obj === obj)) return p.id + (p.ended ? ':held' : ''); return null; };
 
 const _world = new THREE.Matrix4();
 const _km = new THREE.Matrix4();
@@ -185,7 +191,8 @@ function applyActor(actor, play, t) {
   const [a, b, e] = segment(keys, Math.min(t, dur));
   let wIn = smooth(Math.min(1, t / BLEND_IN));
   let wOut = 1;
-  if (t > dur && !actor.hold) wOut = 1 - smooth(Math.min(1, (t - dur) / BLEND_OUT));
+  const outAt = actor.releaseAt ?? dur;
+  if (t > outAt && !actor.hold) wOut = 1 - smooth(Math.min(1, (t - outAt) / BLEND_OUT));
 
   for (const bone of BONES) {
     const node = rig.bones[bone];
@@ -210,7 +217,7 @@ function applyActor(actor, play, t) {
     obj.position.copy(_pos);
     obj.quaternion.copy(_rq);
   }
-  return t > dur + BLEND_OUT && !actor.hold;
+  return t > (actor.releaseAt ?? dur) + BLEND_OUT && !actor.hold;
 }
 
 export function updateMoves(dt) {

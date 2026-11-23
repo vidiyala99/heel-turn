@@ -12,10 +12,15 @@ import { createMatch, step, newControl, normHabits, ROSTER, INTRO_SECS } from '.
 import { createAgentLayer, planHtml } from './agent-layer.js';
 import { createRoyal, stepRoyal, verdict as royalVerdict } from './shared/royal.js';
 import { createRoyalClient } from './royal-client.js';
-import { playPaired, playSolo, updateMoves, isBusy, stopMoves, getRig } from './moves/index.js';
+import { playPaired, playSolo, updateMoves, isBusy, stopMoves, releaseMoves, getRig, activeMove } from './moves/index.js';
 import { createFeel } from './feel/index.js';
 import { T } from './shared/tuning.js';
 import { loadBodies } from './arena/bodies.js';
+import { createAnimator, animFor } from './shared/anims.js';
+import { createReferee } from './arena/referee.js';
+import { createEntrance } from './feel/entrance.js';
+import { winnerLine } from '../voice/announcer.js';
+import { CHARACTERS, cssHex } from './shared/characters.js';
 
 // ---------- renderer / scene ----------
 const renderer = new THREE.WebGLRenderer({ antialias: true });
@@ -158,6 +163,7 @@ function log(html, key, same) {
   while (l.children.length > 12) l.lastChild.remove();
 }
 function setText(id, text) { const e = $(id); if (e) e.textContent = text; }
+function nameColor(i, id) { const e = $('n' + i), c = CHARACTERS[id]; if (e && c) e.style.color = cssHex(c.palette.ui); }
 function setWidth(id, pct) { const e = $(id); if (e) e.style.width = pct + '%'; }
 
 // Invite chip for online rooms, created here so index.html stays the shell's.
@@ -195,22 +201,15 @@ const royal = createRoyalClient({
 const loader = new GLTFLoader();
 // Roster bodies (arena/bodies.js, config in shared/roster-assets.js); the sim stays the source of truth.
 const bodies = await loadBodies(loader);
-const CLIP = { Idle: 'idle', Walking: 'walk', Running: 'run' };
 
 function makeView(w) {
   const { obj, animations } = bodies.make(w.id);
   obj.position.set(w.x, w.y, w.z); obj.rotation.y = w.facing; scene.add(obj);
   getRig(obj);
-  const mixer = new THREE.AnimationMixer(obj);
-  const actions = {}; for (const c of animations) actions[c.name] = mixer.clipAction(c);
-  return { id: w.id, holder: obj, root: obj, mixer, actions, cur: null, seq: -1, anim: null, lying: false };
+  return { id: w.id, holder: obj, root: obj, anim8: createAnimator(obj, animations), seq: -1, anim: null, lying: false };
 }
-function play(v, name, speed = 1) {
-  const a = v.actions[name]; if (!a || v.cur === a) { if (a) a.timeScale = speed; return; }
-  a.reset(); a.timeScale = speed; a.fadeIn(T.view.locomotionFade).play();
-  if (v.cur) v.cur.fadeOut(T.view.locomotionFade);
-  v.cur = a;
-}
+// Clip names and timing live in shared/anims.js.
+function play(v, name, speed = 1) { v.anim8.play(name, speed); }
 let views = [];
 let nextFinisher = false;
 const GRAPPLES = ['bodyslam', 'suplex', 'ddt'];
@@ -219,11 +218,16 @@ function onAnim(i, w, prev) {
   const v = views[i], o = views[w.foe ?? 1 - i];
   if (!o) return;
   const name = w.anim;
-  if (CLIP[name]) { play(v, CLIP[name], name === 'Idle' ? 1 : Math.max(0.8, w.animSpeed * 0.8)); return; }
-  const follow = () => { const s = current()?.w[i]; return s && { position: s, yaw: s.facing }; }; // strikes track the sim
-  if (name === 'Punch') safe(() => playSolo('jab', v.root, { speed: T.view.jabSpeed, follow }));
-  else if (name === 'No' && w.state === 'stun') safe(() => { if (!isBusy(v.root)) playSolo('hitReact', v.root, { speed: T.view.hitReactSpeed, follow }); });
-  else if (name === 'Death') {
+  const over = !!current()?.over;
+  const clip = animFor(w, over);
+  if (clip) {
+    // on its feet again (pin cover after a kickout, the win): ease out of any held pose into the clip
+    if (isBusy(v.root) && (w.state === 'idle' || over)) safe(() => releaseMoves(v.root));
+    const loco = clip === 'walk' || clip === 'run' || clip === 'sprint';
+    play(v, clip, loco ? Math.max(0.8, w.animSpeed * 0.8) : 1); return;
+  }
+  play(v, 'idle'); // under a procedural move the clip layer settles to idle
+  if (name === 'Death') {
     const id = nextFinisher ? 'suplex' : GRAPPLES[Math.floor(Math.random() * GRAPPLES.length)];
     const fin = nextFinisher; nextFinisher = false;
     safe(() => {
@@ -234,52 +238,37 @@ function onAnim(i, w, prev) {
       });
     });
     v.lying = true;
-  } else if (name === 'Sitting') safe(() => { stopMoves(v.root); playPaired('pin', v.root, o.root, {}); });
-  else if (name === 'Dance' || name === 'ThumbsUp') safe(() => { if (!isBusy(v.root)) playSolo(i === 0 ? 'tauntArms' : 'chestPound', v.root, {}); });
+  } else if (name === 'Sitting') safe(() => {
+    // The cover is rooted at the sim, on the mat: never at the victim's drawn body, which may still be mid-slam
+    // in the air or where the slam's track left it. The pin track lays the victim 0.75 m along the root's +z.
+    const vs = current()?.w[1 - i]; if (!vs) return;
+    const yaw = Math.atan2(vs.x - w.x, vs.z - w.z);
+    const root = { position: new THREE.Vector3(vs.x - Math.sin(yaw) * 0.75, MAT_Y, vs.z - Math.cos(yaw) * 0.75), yaw };
+    stopMoves(v.root); stopMoves(o.root); playPaired('pin', v.root, o.root, { root });
+  });
   else if (name === 'Standing') { safe(() => { stopMoves(v.root); playSolo('kipup', v.root, { root: { position: v.root.position, yaw: v.root.rotation.y } }); }); v.lying = false; }
 }
 function clearViews() {
   for (const v of views) { safe(() => stopMoves(v.root)); scene.remove(v.holder); } views = [];
-  if (ref) { safe(() => stopMoves(ref.root)); scene.remove(ref.holder); ref = null; }
+  if (ref) { safe(() => ref.dispose()); ref = null; }
 }
 
-// Referee Lou Varga (an agent on the server side): white shirt, black joints, works the ropes and counts pins.
+// Referee Lou Varga (an agent on the server side): body and behavior in arena/referee.js.
 let ref = null;
-function makeRef() {
-  const v = makeView({ id: 'lou', tint: 0xf1f1f1, x: 0, y: MAT_Y, z: -RING + 0.55, facing: 0 });
-  v.holder.traverse((o) => { if (o.isMesh && o.name.includes('Joints')) o.material.color.set(0x111111); });
-  v.holder.scale.setScalar(0.94);
-  play(v, 'idle'); v.pinSeen = false; v.home = new THREE.Vector3(0, MAT_Y, -RING + 0.55);
-  feel.alive(v.root, { role: 'ref', target: () => views[1] && views[0].holder.position.clone().lerp(views[1].holder.position, 0.5) });
-  return v;
-}
 function updateRef(st, dt) {
-  if (!ref) ref = makeRef();
-  const inRing = st.w.filter((w) => w.entered !== false && !w.out);
-  const [A, B] = inRing.length > 1 ? inRing : st.w;
-  if (st.pin && !ref.pinSeen) {
-    // slide in beside the pinned wrestler and slap the mat: one, two, (three)
-    ref.pinSeen = true;
-    const vic = st.w[st.pin.victim], side = Math.sign(vic.z || 1);
-    const at = new THREE.Vector3(vic.x + 0.35, MAT_Y, vic.z - side * 0.75);
-    safe(() => { stopMoves(ref.root); playSolo('refcount', ref.root, { root: { position: at, yaw: side > 0 ? 0 : Math.PI } }); });
-  } else if (!st.pin && ref.pinSeen) { ref.pinSeen = false; safe(() => stopMoves(ref.root)); } // refcount holds its pose until released
-  if (!isBusy(ref.root)) {
-    // shadow the action along the near-side ropes, always facing the wrestlers
-    const mid = { x: inRing.reduce((s, w) => s + w.x, 0) / Math.max(1, inRing.length), z: inRing.reduce((s, w) => s + w.z, 0) / Math.max(1, inRing.length) };
-    const want = new THREE.Vector3(THREE.MathUtils.clamp(mid.x * 0.6, -RING + 0.6, RING - 0.6), MAT_Y, mid.z > 0 ? -RING + 0.55 : RING - 0.55);
-    const moving = ref.root.position.distanceTo(want) > 0.08;
-    ref.root.position.lerp(want, Math.min(1, dt * 1.6));
-    ref.root.rotation.set(0, Math.atan2(mid.x - ref.root.position.x, mid.z - ref.root.position.z) + (st.lou?.away ? Math.PI : 0), 0);
-    play(ref, moving ? 'walk' : 'idle', moving ? 0.9 : 1);
-  }
-  ref.mixer.update(dt);
+  ref ||= createReferee({
+    body: bodies.make('lou'), matY: MAT_Y, ring: RING,
+    alive: (root, o) => feel.alive(root, { ...o, target: () => views[1] && views[0].holder.position.clone().lerp(views[1].holder.position, 0.5) }),
+  });
+  if (!ref.obj.parent) scene.add(ref.obj);
+  ref.update(st, dt);
 }
+const _tp = new THREE.Vector3(), _tq = new THREE.Quaternion(), _te = new THREE.Euler();
 function syncViews(ws, dt) {
   ws.forEach((w, i) => {
     if (!views[i] || views[i].id !== w.id) {
       if (views[i]) scene.remove(views[i].holder);
-      views[i] = makeView(w); setText('n' + i, w.name); play(views[i], 'idle');
+      views[i] = makeView(w); setText('n' + i, w.name); nameColor(i, w.id); play(views[i], 'idle');
     }
   });
   ws.forEach((w, i) => {
@@ -287,13 +276,14 @@ function syncViews(ws, dt) {
     v.holder.visible = w.state !== 'waiting';
     if (w.animSeq !== v.seq) { const prev = v.anim; v.anim = w.anim; v.seq = w.animSeq; onAnim(i, w, prev); }
     if (!isBusy(v.root)) {
-      v.root.position.set(w.x, w.y, w.z);
-      v.root.rotation.set(w.rotX, w.facing, 0, 'YXZ');
-      if (w.rotX) v.root.position.y = w.y + 0.12;
+      // follow the sim; after a move lets go (it may end a step away, e.g. off the pin cover) ease over instead of popping
+      _tp.set(w.x, w.y + (w.rotX ? 0.12 : 0), w.z); _tq.setFromEuler(_te.set(w.rotX, w.facing, 0, 'YXZ'));
+      const gap = v.root.position.distanceTo(_tp);
+      if (gap > 0.12 && gap < 2.5 && dt > 0) { const k = 1 - Math.exp(-dt * 14); v.root.position.lerp(_tp, k); v.root.quaternion.slerp(_tq, k); }
+      else { v.root.position.copy(_tp); v.root.quaternion.copy(_tq); }
     }
-    v.mixer.update(dt);
+    v.anim8.update(dt);
   });
-  if (dt > 0) updateMoves(dt);
 }
 
 // ---------- session: none (attract mode), exhibition (local sim) or online (Colyseus room) ----------
@@ -314,7 +304,7 @@ function withTimeout(p, ms, what) {
 function startLocal(p1, p2) {
   const match = createMatch(p1, p2, savedHabits);
   savedHabits = match.habits;
-  session = { mode: 'exhibition', slot: 0, match, ctl: [newControl(true), newControl(false)] };
+  session = { mode: 'exhibition', slot: 0, match, ctl: [newControl(true), newControl(false)], entrance: true };
   // Bruin memory: the AI's habit table for you comes from the marts when they answer before/at the bell.
   const id = 'm' + Date.now().toString(36);
   const started = layer.matchStart({ match: id, wrestlers: [p1, p2], humans: [true, false] });
@@ -381,6 +371,7 @@ async function startMatch(cfg = {}) {
 }
 
 function toMenu() {
+  entrance.finish();
   if (session?.room) session.room.leave().catch(() => {});
   session = null; clearViews(); hideInvite(); paused = false; royal.stop();
   bannerT = 0; const b = $('banner'); if (b) b.style.opacity = 0;
@@ -423,6 +414,7 @@ function matchEnded(e) {
     aiPlansLog: e.aiPlansLog,
     winnerId: st.w[e.winner].id, winnerName: st.w[e.winner].name, mode: session.mode, mySlot: Math.max(0, session.slot),
   };
+  setTimeout(() => layer.announce(winnerLine(result.winnerId)), 1400); // after the bell: the ring announcer
   for (const cb of endCbs) { try { cb(result); } catch (err) { console.error(err); } }
   if (session.mode === 'exhibition') layer.matchEnd();
 }
@@ -492,6 +484,31 @@ window.HEEL = {
   get roster() { return ROSTER; },
   get session() { return session && { mode: session.mode, slot: session.slot, room: session.room?.roomId, invite: session.invite }; },
 };
+// Animation probe (game/tools/anim_check.py): per character, the clip and move driving it, the chest's angle
+// to the body root, and the largest per-frame chest jump since the last read (a twist shows as a spike).
+const _qa = new THREE.Quaternion(), _qb = new THREE.Quaternion(), _qc = new THREE.Quaternion();
+function chestRel(v, out) {
+  if (!v?.root || !v.holder) return null;
+  const sp = getRig(v.root).bones.spine2; if (!sp) return null;
+  v.holder.getWorldQuaternion(_qa); sp.getWorldQuaternion(out);
+  return out.premultiply(_qa.invert());
+}
+function trackChest(v) {
+  if (!v || !v.root || !v.holder) return; // the ref (arena/referee.js) has its own shape
+  if (!chestRel(v, _qb)) return;
+  if (v.prevChest) v.maxStep = Math.max(v.maxStep || 0, 2 * Math.acos(Math.min(1, Math.abs(v.prevChest.dot(_qb)))) * 180 / Math.PI);
+  (v.prevChest ||= new THREE.Quaternion()).copy(_qb);
+}
+function probe(v, w) {
+  const rel = chestRel(v, _qc), step = v.maxStep || 0; v.maxStep = 0;
+  const m = v.anim8, a = m.action; const miss = m.miss; m.miss = null;
+  return { id: v.id, state: w?.state ?? null, anim: w?.anim ?? null, clip: m.name, req: m.req,
+    once: a ? a.loop === THREE.LoopOnce : false, clipTime: a ? +a.time.toFixed(3) : null, miss,
+    move: activeMove(v.root), step: +step.toFixed(1),
+    chest: rel ? +(2 * Math.acos(Math.min(1, Math.abs(rel.w))) * 180 / Math.PI).toFixed(2) : null };
+}
+window.HEEL_ANIM = () => ({ t: performance.now(), over: !!current()?.over,
+  w: views.map((v, i) => probe(v, current()?.w[i])), ref: ref ? probe(ref, null) : null });
 window.G = {
   get P1() { return currentRaw()?.w[0]; }, get P2() { return currentRaw()?.w[1]; },
   get state() { return currentRaw(); }, get session() { return window.HEEL.session; },
@@ -500,11 +517,14 @@ window.G = {
 // ---------- loop ----------
 const clock = new THREE.Clock();
 const feel = createFeel({ scene, camera, getViews: () => views });
+const entrance = createEntrance({ scene, camera, screen, matY: MAT_Y, ring: RING, getViews: () => views, play, layer });
 function frame() {
   const dt = Math.min(clock.getDelta(), 0.05);
   const t = clock.elapsedTime;
   const { simDt, viewDt } = feel.begin(dt, current());
-  if (session?.mode === 'exhibition' && !paused) {
+  // entrances (exhibition only): start once both bodies exist; the sim waits for the bell until they finish
+  if (session?.entrance && views.length === 2) { session.entrance = false; entrance.start(session.match); }
+  if (session?.mode === 'exhibition' && !paused && !entrance.active) {
     (session.royal ? stepRoyal : step)(session.match, simDt, session.ctl);
     handleEvents(session.match.events); session.match.events = [];
     if (session.royal) royal.tick(session.match); // BAND plans + proposals for the battle royal
@@ -512,7 +532,11 @@ function frame() {
   }
   const st = current();
   if (st) royal.frame(st);
-  if (st) { const sdt = paused && session.mode === 'exhibition' ? 0 : viewDt; syncViews(st.w, sdt); safe(() => updateRef(st, sdt)); }
+  if (st) {
+    const sdt = paused && session.mode === 'exhibition' ? 0 : viewDt;
+    safe(() => updateRef(st, sdt)); syncViews(st.w, sdt);
+    if (sdt > 0) updateMoves(sdt); // after every clip layer (ref included), so moves blend over a fresh pose
+  }
   // crowd bob (louder when meters are high)
   const hype = feel.hype(st);
   for (let i = 0; i < CROWD; i++) {
@@ -523,7 +547,8 @@ function frame() {
   crowd.instanceMatrix.needsUpdate = true;
   for (const r of ropes) { if (r.userData.wob) { r.userData.wob *= 0.9; r.position.y = r.userData.base.y + Math.sin(t * 40) * r.userData.wob * 0.15; } }
   spots.forEach((s, i) => { s.intensity = 52 + Math.sin(t * 0.7 + i) * 5; });
-  if (!st) {
+  if (st && entrance.frame(paused ? 0 : dt)) feel.frame(dt, st);
+  else if (!st) {
     feel.frame(dt, null);
     // attract mode: slow orbit around the empty ring
     const a = t * 0.12;
@@ -552,6 +577,7 @@ function frame() {
   }
   bloom.strength = THREE.MathUtils.lerp(bloom.strength, 0.35, 0.05);
   if (bannerT > 0) { bannerT -= dt; if (bannerT <= 0 && $('banner')) $('banner').style.opacity = 0; }
+  views.forEach(trackChest); trackChest(ref);
   composer.render();
   requestAnimationFrame(frame);
 }

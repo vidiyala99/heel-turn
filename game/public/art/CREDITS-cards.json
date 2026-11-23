@@ -1,0 +1,51 @@
+{
+ "portrait-kane.jpg": {
+  "file": "portrait-kane.jpg",
+  "model": "flux-kontext-pro",
+  "seed": 64003,
+  "input": "render-kane.png",
+  "prompt": "Repaint this 3D character render as stylized original illustrated wrestling game art, bold painterly comic-book style, dramatic arena lighting, no real brands. Keep the exact same character: same face, same hair, same outfit pieces and the same colors as the render. Chest-up portrait of Brutus Kane: huge muscular man, short red hair and red beard, red wrestling singlet with black straps, black elbow pads, gold wrist tape. Confident wrestler expression, dark blurred arena background, red fire and smoke rim light. No text."
+ },
+ "portrait-silas.jpg": {
+  "file": "portrait-silas.jpg",
+  "model": "flux-kontext-pro",
+  "seed": 64005,
+  "input": "render-silas.png",
+  "prompt": "Repaint this 3D character render as stylized original illustrated wrestling game art, bold painterly comic-book style, dramatic arena lighting, no real brands. Keep the exact same character: same face, same hair, same outfit pieces and the same colors as the render. Chest-up portrait of Silas Crane: slim man with long black hair, long black coat with purple lapels and cuffs worn open over a bare chest, purple tights. Confident wrestler expression, dark blurred arena background, purple mist with green-tinged spotlights rim light. No text."
+ },
+ "entrance-silas.jpg": {
+  "file": "entrance-silas.jpg",
+  "model": "flux-kontext-pro",
+  "seed": 64006,
+  "input": "render-silas.png",
+  "prompt": "Repaint this 3D character render as stylized original illustrated wrestling game art, bold painterly comic-book style, dramatic arena lighting, no real brands. Keep the exact same character: same face, same hair, same outfit pieces and the same colors as the render. Wide cinematic wrestler entrance screen: Silas Crane (slim man with long black hair, long black coat with purple lapels and cuffs worn open over a bare chest, purple tights) standing on the entrance ramp, purple mist with green-tinged spotlights stage, huge clean text \"SILAS CRANE\" at the bottom. No other text."
+ },
+ "portrait-mae.jpg": {
+  "file": "portrait-mae.jpg",
+  "model": "flux-kontext-pro",
+  "seed": 64007,
+  "input": "render-mae.png",
+  "prompt": "Repaint this 3D character render as stylized original illustrated wrestling game art, bold painterly comic-book style, dramatic arena lighting, no real brands. Keep the exact same character: same face, same hair, same outfit pieces and the same colors as the render. Chest-up portrait of Old Iron Mae: tough veteran woman, silver-white hair in two buns, black singlet with silver side panels and silver straps, silver wrist tape. Confident wrestler expression, dark blurred arena background, cold silver steel sparks and white spotlights rim light. No text."
+ },
+ "entrance-mae.jpg": {
+  "file": "entrance-mae.jpg",
+  "model": "flux-kontext-pro",
+  "seed": 64008,
+  "input": "render-mae.png",
+  "prompt": "Repaint this 3D character render as stylized original illustrated wrestling game art, bold painterly comic-book style, dramatic arena lighting, no real brands. Keep the exact same character: same face, same hair, same outfit pieces and the same colors as the render. Wide cinematic wrestler entrance screen: Old Iron Mae (tough veteran woman, silver-white hair in two buns, black singlet with silver side panels and silver straps, silver wrist tape) standing on the entrance ramp, cold silver steel sparks and white spotlights stage, huge clean text \"OLD IRON MAE\" at the bottom. No other text."
+ },
+ "portrait-ref.jpg": {
+  "file": "portrait-ref.jpg",
+  "model": "flux-kontext-pro",
+  "seed": 64009,
+  "input": "render-ref.png",
+  "prompt": "Repaint this 3D character render as stylized original illustrated wrestling game art, bold painterly comic-book style, dramatic arena lighting, no real brands. Keep the exact same character: same face, same hair, same outfit pieces and the same colors as the render. Chest-up portrait of Lou Varga: referee with short dark parted hair, black-and-white vertically striped referee shirt with black collar, black slacks. Confident wrestler expression, dark blurred arena background, neutral white spotlights rim light. No text."
+ },
+ "entrance-kane.jpg": {
+  "file": "entrance-kane.jpg",
+  "model": "flux-kontext-pro",
+  "seed": 64201,
+  "input": "render-kane.png",
+  "prompt": "Repaint this 3D character render as stylized original illustrated wrestling game art, bold painterly comic-book style, dramatic arena lighting, no real brands. Keep the exact same character: same face, same hair, same outfit pieces and the same colors as the render. Wide cinematic wrestler entrance screen: Brutus Kane (huge muscular man, short red hair and red beard, red wrestling singlet with black straps, black elbow pads, gold wrist tape) standing on the entrance ramp, red fire and smoke stage, huge clean text \"BRUTUS KANE\" at the bottom. No other text."
+ }
+}

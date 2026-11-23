@@ -23,9 +23,6 @@ export const T = {
     pin: { count: 0.85, nearFallAt: 2.9, earlyKickHp: 55, keepFightingHp: 12 },
   },
   view: {
-    locomotionFade: 0.08,   // s crossfade into walk/run/idle clips (was 0.15)
-    jabSpeed: 1.5,          // jab clip plays faster so its impact pose lines up with the 7f startup
-    hitReactSpeed: 1.4,
     slowmo: { nearFall: 0.3, finisher: 0.35, finisherSecs: 1.1 }, // time scale and real seconds
     shake: { strike: 0.28, block: 0.15, slam: 0.55, finisher: 0.9, whip: 0.2 },  // camera trauma 0-1
     punchIn: { strike: 0.12, slam: 0.28, finisher: 0.45 },                         // fraction toward the action

@@ -18,12 +18,15 @@ from pathlib import Path
 
 from . import memory as mem
 from . import planner as pl
-from .transport import make_transport, parse_verdict
+from .transport import make_pool, make_transport, parse_verdict
 
 CAST = json.loads((Path(__file__).parent / "personalities.json").read_text())
 WRESTLERS = {w["id"]: w for w in CAST["wrestlers"]}
 REF = CAST["referee"]
 COMM = CAST["commissioner"]["id"]
+# Who stays in each pooled room between matches; everyone else is removed so the next match's adds are real.
+BASELINE = {"ring": {REF["id"], COMM}, "heel locker room": {"silas"}, "face locker room": {"kane"},
+            "commissioner desk": {"silas", COMM}, "back room": {"silas"}}
 TRIANGLE = {k: v for k, v in CAST["fight_triangle"].items() if not k.startswith("_")}
 
 
@@ -31,6 +34,7 @@ class Director:
     def __init__(self, transport=None, memory=None, planner=None):
         cast = {**{w: "agent" for w in WRESTLERS}, REF["id"]: "agent", COMM: "human"}
         self.band = transport or make_transport(cast)
+        self.pool = make_pool(self.band)
         self.memory = memory or mem.Memory()
         self.planner = planner or pl.Planner()
         self.bribe_at_ms = int(os.environ.get("HEEL_BRIBE_AT_MS", "15000"))
@@ -41,7 +45,7 @@ class Director:
 
     # --- match setup -------------------------------------------------------------------------
     def _start(self, state: dict) -> None:
-        self.match = state.get("match", "m?")
+        match = state.get("match", "m?")
         self.memory.refresh()  # read marts before the match
         self.in_ring: list[str] = []
         self.alliances: dict[str, str] = {}
@@ -49,18 +53,24 @@ class Director:
         self.bribes: dict[str, bool] = {}
         self.bribe_offered = False
         self.last_intent: dict[str, str] = {}
-        b = self.band
+        b, pool = self.band, self.pool
+        pool.reset(BASELINE)
         self.rooms = {
-            "ring": b.create_room(REF["id"], f"{self.match} ring"),
-            "heel": b.create_room("silas", f"{self.match} heel locker room"),
-            "face": b.create_room("kane", f"{self.match} face locker room"),
-            "desk": b.create_room("silas", f"{self.match} commissioner desk"),
+            "ring": pool.get("ring", REF["id"]),
+            "heel": pool.get("heel locker room", "silas"),
+            "face": pool.get("face locker room", "kane"),
+            "desk": pool.get("commissioner desk", "silas"),
         }
         b.add_participant(self.rooms["ring"], REF["id"], COMM)
         b.add_participant(self.rooms["desk"], "silas", COMM)
+        self.match = match  # only once the rooms exist, so a refused room retries setup on the next tick
         for w in state.get("wrestlers", []):
             if w["id"] in WRESTLERS:
                 self._enter(w["id"], t_ms=state.get("t_ms", 0), runtime=False)
+
+    def _say(self, room: str, sender: str, text: str, mentions: list[str]):
+        """Every message carries the match tag: rooms are shared across matches, the tag keeps them apart."""
+        return self.band.send(room, sender, f"[{self.match}] {text}", mentions)
 
     def _side_room(self, wid: str) -> str:
         return self.rooms[WRESTLERS[wid]["side"]]
@@ -78,7 +88,7 @@ class Director:
         if owner != wid:
             b.add_participant(self._side_room(wid), owner, wid)
         self.in_ring.append(wid)
-        b.send(self.rooms["ring"], REF["id"], f"{'NEW ENTRANT' if runtime else 'In the ring'}: {WRESTLERS[wid]['name']}!",
+        self._say(self.rooms["ring"], REF["id"], f"{'NEW ENTRANT' if runtime else 'In the ring'}: {WRESTLERS[wid]['name']}!",
                [wid, COMM])
         if runtime:
             self._offers_to_newcomer(wid, t_ms)
@@ -93,14 +103,14 @@ class Director:
                 self._alliance(m, wid, self._side_room(wid), t_ms)
         # the schemer always tries to poach a newcomer in a fresh private room
         if WRESTLERS[wid]["side"] != "heel" and "silas" in self.in_ring:
-            room = self.band.create_room("silas", f"{self.match} silas x {wid}")
+            room = self.pool.get(f"silas x {wid}", "silas")
             self.band.add_participant(room, "silas", wid)
             self._alliance("silas", wid, room, t_ms)
 
     # --- signal 3: alliance offer answered by its target -----------------------------------
     def _alliance(self, offerer: str, target: str, room: str, t_ms: int) -> dict:
         b = self.band
-        offer = b.send(room, offerer, f"ALLIANCE? {WRESTLERS[offerer]['lines']['ally']}", [target])
+        offer = self._say(room, offerer, f"ALLIANCE? {WRESTLERS[offerer]['lines']['ally']}", [target])
         # dependent handoff: the target answers only what actually reached its inbox
         received = [m for m in b.inbox(target, room) if m.id == offer.id] if b.mode == "mock" else [offer]
         assert received, f"{target} never received the offer"
@@ -110,7 +120,7 @@ class Director:
         reply, meta = self.planner.decide(p, f"{offerer} offers an alliance: {offer.text!r}. Accept (ally) or refuse (target)?",
                                           {"t_ms": t_ms}, snap, ("ally", "target"), (offerer,), fb)
         reply["room"] = room
-        b.send(room, target, ("ACCEPT. " if reply["intent"] == "ally" else "REFUSE. ") + reply["reason"], [offerer])
+        self._say(room, target, ("ACCEPT. " if reply["intent"] == "ally" else "REFUSE. ") + reply["reason"], [offerer])
         if reply["intent"] == "ally":
             self.alliances[offerer] = target
             self.alliances[target] = offerer
@@ -123,8 +133,10 @@ class Director:
         room = self.rooms["desk"]
         plan ={k: v for k, v in plan.items() if not k.startswith("_")}
         plan["room"] = room
-        self.band.send(room, proposer, f"PROPOSAL {pid}: {text} Reply 'approve {pid}' or 'block {pid}'.", [COMM])
-        self.proposals[pid] = {"id": pid, "kind": kind, "plan": plan, "proposer": proposer, "status": "pending", "room": room}
+        msg = self._say(room, proposer, f"PROPOSAL {pid}: {text} Reply 'approve {pid}' or 'block {pid}'.", [COMM])
+        # since: the desk room outlives the match, so only verdicts posted after this proposal count
+        self.proposals[pid] = {"id": pid, "kind": kind, "plan": plan, "proposer": proposer, "status": "pending", "room": room,
+                               "since": msg.t}
         self._record(dict(plan), {"who": proposer, "task": f"propose {pid}", "source": "proposal", "ms": 0})
         return self.proposals[pid]
 
@@ -132,7 +144,7 @@ class Director:
         """Mock/UI path: the commissioner types the verdict into the desk room (live: they type it in the Band app)."""
         with self.lock:
             p = self.proposals[pid]
-            self.band.send(p["room"], COMM, f"{decision} {pid}", [p["proposer"]])
+            self._say(p["room"], COMM, f"{decision} {pid}", [p["proposer"]])
             self._poll_verdicts()
             return p
 
@@ -142,7 +154,7 @@ class Director:
                 continue
             for m in self.band.verdicts(p["room"], COMM, p["proposer"]):
                 v = parse_verdict(m.text)
-                if v and pid in m.text:
+                if v and pid in m.text and m.t >= p.get("since", 0):
                     p["status"] = "approved" if v == "approve" else "blocked"
                     row = dict(p["plan"])
                     row["approved_by" if v == "approve" else "vetoed_by"] = COMM
@@ -164,9 +176,9 @@ class Director:
     def _bribe(self, briber: str, t_ms: int) -> None:
         self.bribe_offered = True
         b = self.band
-        room = b.create_room(briber, f"{self.match} back room")
+        room = self.pool.get("back room", briber)
         b.add_participant(room, briber, REF["id"])
-        b.send(room, briber, "Envelope's under the turnbuckle. Count fast for me tonight.", [REF["id"]])
+        self._say(room, briber, "Envelope's under the turnbuckle. Count fast for me tonight.", [REF["id"]])
         score, cites, why = pl.ref_bribe_score(REF, self.memory)
         fb = pl.plan_row(t_ms, REF["id"], "bribe_accept" if score > 0 else "bribe_decline", briber, why, cites, room)
         snap = self.memory.snapshot_for(REF["id"], [])
@@ -174,7 +186,7 @@ class Director:
                                         {"t_ms": t_ms}, snap, ("bribe_accept", "bribe_decline"), (briber,), fb)
         row["room"] = room
         line = REF["lines"]["accept" if row["intent"] == "bribe_accept" else "decline"]
-        b.send(room, REF["id"], f"{line} ({row['reason']})", [briber])
+        self._say(room, REF["id"], f"{line} ({row['reason']})", [briber])
         if row["intent"] == "bribe_accept":  # the proposal records the row; commissioner decides if it stands
             self._propose("bribe", row, briber,
                           f"Lou Varga accepted {briber}'s envelope to fast-count. {row['reason']}")
@@ -287,7 +299,7 @@ class Director:
         room = self._side_room(wid)
         mates = [m for m in self.band.participants(room) if m != wid and m in WRESTLERS]
         if mates:
-            self.band.send(room, wid, f"plan: {row['intent']} {row['target'] or ''} - {row['reason']}", mates)
+            self._say(room, wid, f"plan: {row['intent']} {row['target'] or ''} - {row['reason']}", mates)
 
     def _record(self, row: dict, meta: dict) -> None:
         self.log.append({k: v for k, v in row.items() if not k.startswith("_")})

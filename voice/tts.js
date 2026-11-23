@@ -11,7 +11,7 @@ export const MUTED = typeof navigator !== 'undefined' && navigator.webdriver ===
 
 const START_BUDGET_MS = 2000; // a clip not ready this long after its cue is skipped (or swapped for its cached fallback)
 
-export function createTTS({ base = '/voice/api', onDuck = () => {}, onStart = () => {}, mode = 'auto', ctx = () => null, now = () => performance.now() } = {}) {
+export function createTTS({ base = '/voice/api', onDuck = () => {}, onStart = () => {}, mode = 'auto', ctx = () => null, now = () => performance.now(), muted = MUTED } = {}) {
   let neural = mode === 'neural' || mode === 'runware' ? Promise.resolve(true)
     : mode === 'browser' ? Promise.resolve(false)
     : fetch(`${base}/health`).then(r => r.json()).then(h => !!(h.tts ?? h.runware)).catch(() => false);
@@ -29,7 +29,7 @@ export function createTTS({ base = '/voice/api', onDuck = () => {}, onStart = ()
     }
     return clips.get(k);
   }
-  async function prefetch(l) { if (l?.text && await neural) clip(l).catch(() => {}); }
+  async function prefetch(l) { if (!muted && l?.text && await neural) clip(l).catch(() => {}); }
 
   // broadcast voice bus, built once per AudioContext
   let bus = null;
@@ -74,7 +74,8 @@ export function createTTS({ base = '/voice/api', onDuck = () => {}, onStart = ()
 
   function speakBrowser(line) {
     return new Promise(resolve => {
-      if (!('speechSynthesis' in globalThis)) { onStart(line, 'none'); return resolve(); }
+      // never under automation, even when a test unmutes the neural path: the OS voice ignores --mute-audio
+      if (!('speechSynthesis' in globalThis) || globalThis.navigator?.webdriver) { onStart(line, 'none'); return resolve(); }
       const v = VOICES[line.speaker] ?? VOICES.rex;
       const u = new SpeechSynthesisUtterance(line.text);
       const voice = pickVoice(v); if (voice) u.voice = voice;
@@ -91,7 +92,7 @@ export function createTTS({ base = '/voice/api', onDuck = () => {}, onStart = ()
   const timeout = (ms) => new Promise((_, rej) => setTimeout(() => rej(new Error('stale')), Math.max(0, ms)));
 
   async function speak(line) {
-    if (MUTED) { onStart(line, 'muted'); return; }
+    if (muted) { onStart(line, 'muted'); return; }
     onDuck(true);
     try {
       if (await neural) {

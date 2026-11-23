@@ -1,0 +1,48 @@
+$ bruin query -c duckdb-default -q "$(cat queries/habits_for.sql)" --var player=p1 --var situation=opening
+┌─────────┬───┬───────┬───────────────────────────┐
+│ MOVE    │ N │ SHARE │ CITE                      │
+├─────────┼───┼───────┼───────────────────────────┤
+│ strike  │ 7 │ 0.54  │ habits:p1/opening/strike  │
+│ grapple │ 4 │ 0.31  │ habits:p1/opening/grapple │
+│ block   │ 2 │ 0.15  │ habits:p1/opening/block   │
+└─────────┴───┴───────┴───────────────────────────┘
+
+$ bruin query -c duckdb-default -q "$(cat queries/counter_pick.sql)" --var player=p2 --var situation=cornered
+┌─────────┬───────┬─────────┬────────────────────────────┐
+│ EXPECT  │ SHARE │ COUNTER │ CITE                       │
+├─────────┼───────┼─────────┼────────────────────────────┤
+│ grapple │ 0.4   │ strike  │ habits:p2/cornered/grapple │
+└─────────┴───────┴─────────┴────────────────────────────┘
+
+$ bruin query -c duckdb-default -q "$(cat queries/feelings_of.sql)" --var me=brutus
+┌───────┬───────┬────────┬───────────────┬────────────────────────────┐
+│ ABOUT │ TRUST │ GRUDGE │ LAST_BETRAYAL │ CITE                       │
+├───────┼───────┼────────┼───────────────┼────────────────────────────┤
+│ silas │ 0.15  │ 3      │ m2            │ relationships:brutus/silas │
+│ vex   │ 0.5   │ 2      │ <nil>         │ relationships:brutus/vex   │
+│ p2    │ 0.5   │ 0      │ <nil>         │ relationships:brutus/p2    │
+│ p1    │ 0.5   │ 0      │ <nil>         │ relationships:brutus/p1    │
+│ mae   │ 0.75  │ 0      │ <nil>         │ relationships:brutus/mae   │
+└───────┴───────┴────────┴───────────────┴────────────────────────────┘
+
+$ bruin query -c duckdb-default -q "$(cat queries/leaderboard.sql)" 
+┌──────────────┬──────┬──────────────┬───────────┐
+│ DISPLAY_NAME │ WINS │ ELIMINATIONS │ BETRAYALS │
+├──────────────┼──────┼──────────────┼───────────┤
+│ Vex          │ 2    │ 9            │ 0         │
+│ Brutus Kane  │ 1    │ 4            │ 0         │
+│ Silas Crane  │ 1    │ 2            │ 1         │
+│ Old Iron Mae │ 0    │ 5            │ 0         │
+│ Player One   │ 0    │ 0            │ 0         │
+│ Player Two   │ 0    │ 0            │ 0         │
+└──────────────┴──────┴──────────────┴───────────┘
+
+$ node memory.mjs counter_pick player=p1 situation=after_block   # what main.js gets
+[
+ {
+  "expect": "grapple",
+  "share": 0.5,
+  "counter": "strike",
+  "cite": "habits:p1/after_block/grapple"
+ }
+]

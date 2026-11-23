@@ -72,10 +72,15 @@ def facts_for(memory: mem.Memory, speaker: str, opponent: str, state: dict) -> l
                                 f"({float(r['share']):.0%})"})
 
     for r in memory.ref_ledger("lou"):
-        if r["bribe_from"] == opponent and r["accepted"]:
+        # stub rows are per match (bribe_from, match); the Bruin mart is per briber (briber, offers, accepted, caught)
+        if (r.get("bribe_from") or r.get("briber")) != opponent or not r.get("accepted"):
+            continue
+        if "match" in r:
             how = "and got caught" if r["caught"] else "and nobody caught it"
-            out.append({"cite": mem.cite("ref_ledger", r), "kind": "bribe", "row": r,
-                        "fact": f"{opp_name} paid referee Lou in {r['match']}, {how}"})
+            fact = f"{opp_name} paid referee Lou in {r['match']}, {how}"
+        else:
+            fact = f"{opp_name} has paid referee Lou {r['accepted']} of {r['offers']} times, caught {r['caught']}"
+        out.append({"cite": mem.cite("ref_ledger", r), "kind": "bribe", "row": r, "fact": fact})
 
     board = {r["wrestler"]: r for r in memory.tables["leaderboard"]}
     for who, kind in ((speaker, "my_record"), (opponent, "their_record")):

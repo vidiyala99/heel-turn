@@ -419,6 +419,7 @@ function matchEnded(e) {
     winnerId: st.w[e.winner].id, winnerName: st.w[e.winner].name, mode: session.mode, mySlot: Math.max(0, session.slot),
   };
   setTimeout(() => layer.announce(winnerLine(result.winnerId)), 450); // as the results banner lands (its wipe is ~420 ms)
+  layer.promoPost(result, st.w); // winner then loser promo on the results screen
   for (const cb of endCbs) { try { cb(result); } catch (err) { console.error(err); } }
   if (session.mode === 'exhibition') layer.matchEnd();
 }
@@ -530,7 +531,7 @@ function frame() {
   const { simDt, viewDt } = feel.begin(dt, current());
   // entrances (exhibition only): start once both bodies exist; the sim waits for the bell until they finish
   if (session?.entrance && views.length === 2) { session.entrance = false; entrance.start(session.match); }
-  if (session?.mode === 'exhibition' && !paused && !entrance.active) {
+  if (session?.mode === 'exhibition' && !paused && !entrance.active && !layer.holding) { // holding: the pre-match promo
     (session.royal ? stepRoyal : step)(session.match, simDt, session.ctl);
     handleEvents(session.match.events); session.match.events = [];
     if (session.royal) royal.tick(session.match); // BAND plans + proposals for the battle royal

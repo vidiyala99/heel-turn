@@ -91,6 +91,7 @@ export function createEntrance({ scene, camera, screen, matY, ring, getViews, pl
     seq.match.introT = Math.min(seq.match.introT, 0.01); // straight to the bell
     log('bell', { skipped: seq.phase !== 'done' });
     seq = null;
+    globalThis.dispatchEvent?.(new CustomEvent('heel:entrance-end')); // agent-layer.js runs the pre-match promo, then the bell
   }
 
   globalThis.addEventListener?.('keydown', (e) => { if (seq && e.code === 'Enter') { e.preventDefault(); finish(); } });

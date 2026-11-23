@@ -8,8 +8,11 @@ import { createCommentary } from '../voice/commentary.js';
 import { createTTS } from '../voice/tts.js';
 import { createCrowd } from '../voice/crowd.js';
 import { mountMusic } from '../voice/music.js';
+import { createPromo } from './ui/promo.js';
+import './ui/promo.css';
 
 const SIM_TO_ROSTER = { kane: 'brutus' };
+const PROMO_BASE = `${location.protocol}//${location.hostname}:8789`;
 const PLAN_EVERY_S = 4;
 const NAMES = { vex: 'Vex', kane: 'Kane', brutus: 'Kane', silas: 'Crane', mae: 'Mae', lou: 'Lou', commissioner: 'Commissioner' };
 const TINT = { vex: '#2b8cff', kane: '#e8333b', silas: '#8b5cf6', mae: '#c0c6cf', lou: '#f1f1f1' };
@@ -79,6 +82,7 @@ export function createAgentLayer({ logRow, call }) {
   async function matchStart({ match, wrestlers, humans }) {
     if (cur) { clearInterval(cur.flushT); flush(); }
     cur = { match, wrestlers, humans, ids: ids(wrestlers, humans), buf: [], flushT: setInterval(flush, 1000) };
+    promoPre(wrestlers, humans);
     const ai = wrestlers.find((_, i) => !humans[i]);
     if (!ai) return null;
     // Memory: the AI reads the player's habits and its grudges from the Bruin marts before the bell.
@@ -108,7 +112,7 @@ export function createAgentLayer({ logRow, call }) {
     }
   }
 
-  function facts(list) { if (cur) { cur.buf.push(...list); list.forEach(toBooth); } }
+  function facts(list) { if (cur) { cur.buf.push(...list); list.forEach(toBooth); list.forEach(promoMid); } }
 
   async function matchEnd() {
     if (!cur) return;
@@ -190,11 +194,98 @@ export function createAgentLayer({ logRow, call }) {
 
   // the entrance (feel/entrance.js) and the winner call use the same voice bus, crowd and music
   // announce(line) resolves when the line has finished (or its estimate, when muted); hush() drops queued ones.
-  const announce = (line) => { caption(line); return voiced(line, true); };
+  let lastAnnounce = Promise.resolve();
+  const announce = (line) => { caption(line); return (lastAnnounce = voiced(line, true)); };
   const hush = () => { try { tts.stop(); } catch { /* nothing playing */ } };
   const swell = (a, s) => { try { crowd.start(); crowd.swell(a, s); } catch {} };
   const sting = (id) => music.sting(id);
-  return { matchStart, facts, matchEnd, tick, bind(m) { if (cur) cur.m = m; }, debug, announce, hush, swell, sting };
+
+  // --- promos (agents/promo on :8789): each wrestler cuts a promo from its Bruin memory, voiced through the booth's
+  // TTS bus. pre: after the entrances, before the bell (main.js holds the sim while `holding`); mid: one line on a
+  // knockdown or a kickout, at most every MID_EVERY_MS; post: winner then loser on the results screen.
+  const MID_EVERY_MS = 10000;
+  const promo = createPromo({
+    base: PROMO_BASE,
+    // the cue sits ahead so a clip rendered during the fetch still plays (tts.js drops clips late past their cue)
+    speak: (l) => voiced({ speaker: l.speaker, text: l.text, kind: 'promo', eventAt: performance.now() + 4000 }, true),
+    stop: () => hush(),
+  });
+  const promoDebug = (debug.promos = []);
+  let holding = false, pre = null, preGen = 0, midAt = -1e9, busy = false;
+  const promoState = (extra = {}) => {
+    if (!cur) return extra;
+    const players = {}; let n = 0;
+    cur.wrestlers.forEach((w, i) => { if (cur.humans[i]) players[w] = `p${++n}`; });
+    return { match: cur.match, players, ...extra };
+  };
+  // shorter promos: pre keeps each speaker's best line (one that quotes memory, else the first)
+  function trim(out, moment) {
+    if (!out?.lines?.length || moment !== 'pre') return out;
+    const by = new Map();
+    for (const l of out.lines) { const b = by.get(l.speaker); if (!b || (!b.cites?.length && l.cites?.length)) by.set(l.speaker, l); }
+    return { ...out, lines: [...by.values()] };
+  }
+  async function fetchPromo(req) {
+    const t = performance.now();
+    const out = trim(await promo.fetchLines(req), req.moment);
+    promoDebug.push({ moment: req.moment, speaker: req.speaker, opponent: req.opponent, ms: Math.round(performance.now() - t), meta: out.meta, lines: out.lines });
+    out.lines.forEach((l) => tts.prefetch({ speaker: l.speaker, text: l.text, kind: 'promo' }));
+    return out;
+  }
+  async function showPromo(out, moment) {
+    if (!out?.lines?.length) return;
+    busy = true;
+    try { await promo.show(out.lines, moment); } finally { busy = false; }
+  }
+  // HEEL_PROMO.play(moment, speaker, opponent, state): fetch + show; never throws; resolves when the promo ends
+  async function play(moment, speaker, opponent, state = {}) {
+    try { const out = await fetchPromo({ moment, speaker, opponent, match_state: promoState(state) }); await showPromo(out, moment); return out; }
+    catch (e) { debug.errors.push('promo ' + e.message); return null; }
+  }
+  function promoPre(wrestlers, humans) {
+    promo.close(); pre = null; holding = false; midAt = performance.now();
+    const me = wrestlers[humans.indexOf(true)] ?? wrestlers[0];
+    const rival = wrestlers.find((w) => w !== me && !humans[wrestlers.indexOf(w)]) ?? wrestlers.find((w) => w !== me);
+    if (!rival) return;
+    holding = true;
+    const gen = ++preGen;
+    setTimeout(() => { if (gen === preGen && pre) { pre = null; holding = false; } }, 60000); // no entrance-end: never strand the bell
+    const req = { moment: 'pre', speaker: rival, opponent: me, match_state: promoState() };
+    pre = { at: performance.now(), out: fetchPromo(req).catch((e) => { debug.errors.push('promo ' + e.message); return null; }) };
+    // Over the Top has no entrances: the promo runs as soon as its lines arrive
+    if (wrestlers.length > 2) runPre();
+  }
+  async function runPre() {
+    const p = pre; pre = null;
+    if (!p) { holding = false; return; }
+    const out = await Promise.race([p.out, new Promise((r) => setTimeout(() => r(null), 4500))]);
+    try { if (out && cur && window.HEEL_UI?.state !== 'menu') await showPromo(out, 'pre'); }
+    finally { holding = false; }
+  }
+  addEventListener('heel:entrance-end', () => { if (pre) runPre(); });
+  function promoMid(f) {
+    if (!cur || busy || holding || (f.kind !== 'knockdown' && f.kind !== 'kickout')) return;
+    const now = performance.now(); if (now - midAt < MID_EVERY_MS) return;
+    const speaker = cur.wrestlers[f.actor], opponent = cur.wrestlers[f.target];
+    if (!speaker || !opponent) return;
+    midAt = now;
+    play('mid', speaker, opponent, { event: f.kind === 'kickout' ? 'near_fall' : 'opponent_down' });
+  }
+  // post: winner then loser, after the winner call lands
+  async function promoPost(result, w) {
+    const ids = w.map((x) => x.id), me = ids[result.mySlot ?? 0];
+    const winner = result.winnerId, loser = winner === me ? ids.find((x) => x !== winner) : me;
+    if (!winner || !loser) return;
+    promo.close();
+    const req = { moment: 'post', speaker: winner, opponent: loser, match_state: promoState({ winner, finish: result.how }) };
+    const out = fetchPromo(req).catch((e) => { debug.errors.push('promo ' + e.message); return null; });
+    await new Promise((r) => setTimeout(r, 700)); await lastAnnounce.catch(() => {});
+    const o = await out; if (window.HEEL_UI?.state === 'results') await showPromo(o, 'post');
+  }
+  window.HEEL_PROMO = { play, el: promo.el, get holding() { return holding; } };
+
+  return { matchStart, facts, matchEnd, tick, bind(m) { if (cur) cur.m = m; }, debug, announce, hush, swell, sting, promoPost,
+    get holding() { return holding; } };
 }
 
 // One decision-log row: source chip, who -> intent (target), the reason, then the mart rows it cites.

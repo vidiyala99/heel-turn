@@ -31,6 +31,9 @@ with sync_playwright() as p:
     # the entrance is paced by the ring announcer's lines (muted: reading-speed estimates); wait for the bell
     pg.wait_for_function("(window.HEEL_ENTRANCE_LOG || []).some(e => e.ev === 'bell')", timeout=60000)
     print("entrance:", " ".join(e["ev"] for e in pg.evaluate("HEEL_ENTRANCE_LOG")))
+    # the pre-match promo holds the bell until both wrestlers have spoken (or the promo server is down)
+    pg.wait_for_function("!(window.HEEL_PROMO && HEEL_PROMO.holding)", timeout=45000)
+    print("pre-match promo:", pg.evaluate("(HEEL_DEBUG().promos || []).map(p => p.moment + ' ' + (p.meta && p.meta.source) + ' ' + p.lines.length + ' lines').join('; ') || 'none'"))
     pg.wait_for_timeout(1500)
     # walk in and fight for real
     pg.keyboard.down("KeyD")

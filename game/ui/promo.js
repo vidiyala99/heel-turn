@@ -13,7 +13,7 @@ const HOLD_MS = 900;           // after typing, plus reading time below
 const READ_MS_PER_CHAR = 38;
 
 export function createPromo({ base = 'http://127.0.0.1:8789', art = '/art', root = document.body, speak = null,
-  timeoutMs = 4000 } = {}) {
+  stop = null, timeoutMs = 4000 } = {}) {
   const el = document.createElement('div');
   el.className = 'promo';
   el.setAttribute('role', 'status');
@@ -49,7 +49,7 @@ export function createPromo({ base = 'http://127.0.0.1:8789', art = '/art', root
   function hold(ms, until) {
     return new Promise(resolve => {
       const done = () => { clearTimeout(t); skip = null; resolve(); };
-      skip = done;
+      skip = () => { stop?.(); done(); }; // a skipped line cuts its voice
       const t = setTimeout(() => until.then(done), ms);
     });
   }
@@ -99,6 +99,7 @@ export function createPromo({ base = 'http://127.0.0.1:8789', art = '/art', root
       }
     } finally {
       el.classList.remove('on');
+      stop?.();
       if (speak && 'speechSynthesis' in globalThis) speechSynthesis.cancel();
     }
   }

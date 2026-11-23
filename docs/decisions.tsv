@@ -21,3 +21,4 @@ ts	phase	decision	why	evidence	result
 2026-11-23T00:25	frame	Aakash direction: original hero tactical shooter (Valorant genre); framed with 5-item finish line, 4 premises, verdict	pstack figure-it-out Phase A; product direction from the human	docs/FRAME.md	open
 2026-11-23T00:25	frame	R3 designs (meter/SCE) discarded	Built on skewed grounding (old SCE work over-weighted)	docs/arena/r3-*	VERIFIED
 2026-11-23T00:50	video	Demo video plan: 2:15 target, 8-shot list, replay/director camera, capture-as-you-go, mute test	figure-it-out; experience first; build the lever; prove it works	docs/VIDEO.md	open
+2026-11-23T00:55	stack	Recommend three.js + Vite client, Colyseus 0.18 server, recast-navigation-js bots, Quaternius/Kenney CC0 assets; fallback Playroom + R3F; browser over Windows	Survey of engines, netcode, assets, MCPs with sources	prep/stack-survey.md	open (prototype 3 risks first)

@@ -11,6 +11,8 @@
 // Situations (Bruin stg_events): opening | after_block | low_stamina | cornered, read off the human in slot 0.
 // Control per slot: { human, mx, mz, queue: ['strike'|'grapple'|'block'|'blockUp'|'taunt'] }.
 
+import { think } from './ai.js';
+
 export const RING = 3.2;
 export const MAT_Y = 1.1;
 export const INTRO_SECS = 3;
@@ -44,8 +46,8 @@ export function createMatch(p1 = 'vex', p2 = 'kane', habits = null) {
   const m = {
     w: [makeWrestler(p1, -1.6), makeWrestler(p2, 1.6)],
     over: false, winner: -1, how: null, pin: null, introT: INTRO_SECS, events: [],
-    habits: normHabits(habits), clock: 0, blockT: 0,
-    aiPlanT: 0, aiIntent: 'pressure', aiPlansLog: [],
+    habits: normHabits(habits), clock: 0, blockT: 0, seed: (Date.now() % 100000) + 1,
+    aiPlanT: 3, aiIntent: 'pressure', aiPlansLog: [],
   };
   emit(m, { k: 'call', text: `${m.w[0].name} and ${m.w[1].name} make their way to the ring.` });
   return m;
@@ -101,13 +103,10 @@ function resolve(m, att, def) {
   const kind = att.move;
   const ai = m.w.indexOf(att), di = 1 - ai, base = kind === 'finisher' ? 'grapple' : kind;
   if (dist(att, def) > (kind === 'strike' ? 1.45 : 1.35) || def.out) {
-    // one log line per whiff burst: the next one logs only after a connect or 3 s without a whiff
-    if (m.clock - (att.lastWhiff ?? -99) > 3) emit(m, { k: 'log', html: `<em>${short(att)}</em> whiffs the ${kind}.` });
-    att.lastWhiff = m.clock;
+    // a whiff is not a decision: it goes to Bruin as a failed move, not to the decision log
     fact(m, base, ai, di, { success: false });
     return;
   }
-  att.lastWhiff = -99;
   if (def.state === 'down' || def.state === 'thrown' || def.state === 'pinned') return;
   if (kind === 'strike') {
     if (def.state === 'block') {
@@ -163,10 +162,17 @@ function tryPin(m, i) {
 function aiThink(m, i, dt) {
   const me = m.w[i], you = m.w[1 - i];
   if (me.out) return;
+  // The LLM plan (agents server, set by the client as m.extPlan) is the decider; this frame loop only executes it.
+  // The scripted planner below runs only while no fresh LLM plan exists, and says so in the log.
+  const ext = m.extPlan && m.clock - m.extPlan.at < 12 ? m.extPlan : null;
+  if (ext) {
+    m.aiIntent = ext.intent === 'counter' && COUNTER[ext.expect] ? `counter_${ext.expect}` : ext.intent === 'taunt' ? 'taunt' : 'pressure';
+    m.aiPlanT = 3.5;
+  }
   // Planning is thinking, not acting: the clock runs while the AI is stunned or down, so a player who
   // keeps landing hits still gets read (an early return here froze the plan at "0 moves seen").
-  m.aiPlanT -= dt;
-  if (m.aiPlanT <= 0) {
+  if (!ext) m.aiPlanT -= dt;
+  if (!ext && m.aiPlanT <= 0) {
     m.aiPlanT = 3.5;
     const sit = situationOf(m), seen = (h) => h.strike + h.grapple + h.block - 3;
     let h = m.habits[sit], where = sit.replace('_', ' ');
@@ -179,8 +185,8 @@ function aiThink(m, i, dt) {
     const prevIntent = m.aiIntent;
     m.aiIntent = fav[1] / total > 0.45 ? `counter_${fav[0]}` : 'pressure';
     const html = m.aiIntent.startsWith('counter')
-      ? `<em>${short(me)}</em> plan: expect your <em>${fav[0]}</em> (${Math.round(fav[1] / total * 100)}% ${where}, ${seen(h)} moves seen), answer with <em>${COUNTER[fav[0]]}</em>.`
-      : `<em>${short(me)}</em> plan: no clear habit yet (${seen(h)} moves seen), apply pressure.`;
+      ? `<em>${short(me)}</em> (fallback, scripted) plan: expect your <em>${fav[0]}</em> (${Math.round(fav[1] / total * 100)}% ${where}, ${seen(h)} moves seen), answer with <em>${COUNTER[fav[0]]}</em>.`
+      : `<em>${short(me)}</em> (fallback, scripted) plan: no clear habit yet (${seen(h)} moves seen), apply pressure.`;
     // Same intent as last time: the log updates that line (key) instead of adding a copy.
     if (m.aiIntent !== prevIntent || !m.aiPlansLog.length) m.aiPlansLog.push(html.replace(/<[^>]+>/g, ''));
     else m.aiPlansLog[m.aiPlansLog.length - 1] = html.replace(/<[^>]+>/g, '');
@@ -188,16 +194,20 @@ function aiThink(m, i, dt) {
     m.aiPlanN = (m.aiPlanN || 0) + 1;
   }
   if (busy(me)) return;
-  if (you.state === 'down' && tryPin(m, i)) return;
-  if (dist(me, you) > 1.3) { moveToward(me, you.x, you.z, dt, 2.4); return; }
-  if (Math.random() > dt * 1.25) return; // reaction rate (~1.25 actions/s)
-  if (me.mo >= 100) return act(m, i, 'grapple');
-  if (you.state === 'wind' && you.move === 'grapple') return act(m, i, 'strike');
-  if (you.state === 'wind' && you.move === 'strike') return act(m, i, Math.random() < 0.6 ? 'block' : 'strike');
-  if (m.aiIntent.startsWith('counter_')) return act(m, i, COUNTER[m.aiIntent.slice(8)]);
-  const pick = ['strike', 'strike', 'grapple', 'block'][Math.floor(Math.random() * 4)];
-  if (pick === 'block') { me.state = 'block'; me.stats.blocks++; anim(me, 'No', 1.6); me.t = 0.6; me.autoBlock = true; return; }
-  act(m, i, pick);
+  // Execute: the behavior state machine in shared/ai.js turns the plan into continuous movement and attacks.
+  think(m, i, dt, {
+    act: (k) => act(m, i, k), block: (secs) => aiBlock(m, i, secs), tryPin: () => tryPin(m, i),
+    step: (x, z, speed) => moveToward(me, x, z, dt, speed), dist, busy,
+    say: (text) => emit(m, { k: 'call', text: `${short(me)}: "${text}"`, speaker: me.id, trash: true }),
+  });
+}
+
+// A timed block (released after secs). The AI never holds block as a standing state.
+function aiBlock(m, i, secs) {
+  const me = m.w[i];
+  if (busy(me)) return;
+  fact(m, 'block', i, 1 - i);
+  me.state = 'block'; me.stats.blocks++; anim(me, 'No', 1.6); me.t = secs; me.autoBlock = true;
 }
 
 function moveToward(w, x, z, dt, speed) {

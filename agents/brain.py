@@ -223,6 +223,18 @@ class Director:
         p = WRESTLERS[wid]
         foes = [h["id"] for h in state.get("humans", [])] + [w for w in self.in_ring if w != wid]
         snap = self.memory.snapshot_for(wid, foes)
+        # This match's live habit counts from the game (humans[].habits = {situation: {move: n}}): the LLM reads them
+        # next to the Bruin marts, cited as live:<player>/<situation>/<move>.
+        live = []
+        for h in state.get("humans", []):
+            for sit, moves in (h.get("habits") or {}).items():
+                total = sum(max(0, int(n)) for n in moves.values()) or 1
+                for mv, n in moves.items():
+                    if int(n) > 0:
+                        live.append({"cite": f"live:{h['id']}/{sit}/{mv}", "player": h["id"], "situation": sit,
+                                     "move": mv, "n": int(n), "share": round(int(n) / total, 2), "now": sit == h.get("situation")})
+        if live:
+            snap = {**snap, "rows": live + snap["rows"]}
         targets = tuple(foes)
         allies = dict(self.alliances)
         if any(pr["proposer"] == wid and pr["kind"] == "betray" for pr in self.proposals.values()):
@@ -230,7 +242,11 @@ class Director:
 
         def run():
             fb = pl.fallback_wrestler(p, state, self.memory, TRIANGLE, allies)
-            return self.planner.decide(p, "plan your next 4 seconds", state, snap, pl.WRESTLER_INTENTS, targets, fb)
+            task = ("plan your next 4 seconds. Fight triangle: block beats strike, strike beats grapple, grapple beats block. "
+                    "Rows marked now=true are the human's habits in their current situation. To counter, use intent counter, "
+                    "target the human, and put the habit row you are countering FIRST in cites. Reason: what you expect and "
+                    "your answer, e.g. 'you strike 78% on opening -> I block, then grapple'.")
+            return self.planner.decide(p, task, state, snap, pl.WRESTLER_INTENTS, targets, fb)
         return run
 
     def _ref_job(self, state: dict):

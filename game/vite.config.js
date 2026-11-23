@@ -5,6 +5,7 @@ export default {
   build: { target: 'esnext' },
   plugins: [memoryPlugin()],
   server: {
+    fs: { allow: ['..'] }, // the booth imports ../voice/*.js
     proxy: {
       '/agents': { target: 'http://localhost:8788', rewrite: (p) => p.replace(/^\/agents/, '') },
       '/voice/api': { target: 'http://localhost:8787' },

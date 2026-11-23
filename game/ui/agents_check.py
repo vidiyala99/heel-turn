@@ -9,6 +9,7 @@ from playwright.sync_api import sync_playwright
 
 URL = sys.argv[1] if len(sys.argv) > 1 else "http://localhost:5173"
 MATCHES = int(sys.argv[2]) if len(sys.argv) > 2 else 1
+MODE = sys.argv[3] if len(sys.argv) > 3 else "strike"  # "switch": strike for half the match, then block
 OUT = Path(__file__).resolve().parents[2] / "docs" / "shots"
 OUT.mkdir(parents=True, exist_ok=True)
 
@@ -40,7 +41,11 @@ with sync_playwright() as p:
             # walk at the AI, strike every 200 ms
             dx = pg.evaluate("G.P2 && G.P1 ? G.P2.x - G.P1.x : 0")
             pg.keyboard.down("KeyD" if dx > 1.1 else "KeyA") if abs(dx) > 1.1 else None
-            pg.keyboard.press("KeyJ"); strikes += 1
+            pg.evaluate("G.P1.hp = Math.max(G.P1.hp, 40)")  # keep the player in it so plans have time to change
+            if pg.evaluate("!!(G.state.pin && G.state.pin.victim === 0)"):
+                for _ in range(8): pg.keyboard.press("KeyK")
+            pg.keyboard.press("KeyJ" if i < 35 or MODE != "switch" else "KeyL"); strikes += 1
+            if i == 30: pg.screenshot(path=str(OUT / f"agents-plans{n + 1}.png"))
             pg.wait_for_timeout(200)
             pg.keyboard.up("KeyD"); pg.keyboard.up("KeyA")
             # walk-in-place probe: sample the AI over 3 frames; walking anim while not moving is a bug
@@ -60,8 +65,14 @@ with sync_playwright() as p:
         dup = sum(1 for a, b in zip(lines, lines[1:]) if re.sub(r"\(.*?\)", "", a) == re.sub(r"\(.*?\)", "", b))
         print(f"  adjacent repeated plan lines: {dup}")
         print("  habits:", json.dumps(pg.evaluate("G.state && G.state.habits")))
-        extra = pg.evaluate("window.HEEL_DEBUG ? JSON.stringify(HEEL_DEBUG()) : null")
-        if extra: print("  debug:", extra[:2000])
+        dbg = pg.evaluate("window.HEEL_DEBUG ? HEEL_DEBUG() : null") or {}
+        print("  agents:", dbg.get("agents"), "errors:", dbg.get("errors"), "voice:", dbg.get("voice"))
+        for ln in dbg.get("spoken", []):
+            print(f"  spoke t={ln['t_s']:7.2f}s {ln['speaker']:6} {ln.get('source')!s:8} {ln['text']}")
+        chip = pg.evaluate("(document.querySelector('.dl-chip') || {}).textContent || ''")
+        print("  status chip:", chip)
+        for pl in dbg.get("plans", []):
+            print(f"  plan t={pl['t']/1000:5.1f}s {pl['wrestler']:5} {pl.get('source')!s:8} {pl.get('ms')!s:>7}ms {pl['intent']}->{pl.get('target')} | {pl['reason']} | {pl.get('cites', [])[:2]}")
         # finish the match so it ends (and memory refreshes), then rematch
         pg.evaluate("G.P2.hp = 1; G.P1.mo = 100")
         for i in range(120):

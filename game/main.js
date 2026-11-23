@@ -176,7 +176,7 @@ function showInvite(link) {
 }
 function hideInvite() { const el = $('heel-invite'); if (el) el.style.display = 'none'; }
 
-const layer = createAgentLayer({ logRow: (html) => log(html), call: (t) => call(t) });
+const layer = createAgentLayer({ logRow: (html, key, same) => log(html, key, same), call: (t) => call(t) });
 
 // ---------- wrestler views (render only; state lives in shared/sim.js) ----------
 const loader = new GLTFLoader();
@@ -231,7 +231,41 @@ function onAnim(i, w, prev) {
   else if (name === 'Dance' || name === 'ThumbsUp') safe(() => { if (!isBusy(v.root)) playSolo(i === 0 ? 'tauntArms' : 'chestPound', v.root, {}); });
   else if (name === 'Standing') { safe(() => { stopMoves(v.root); playSolo('kipup', v.root, { root: { position: v.root.position, yaw: v.root.rotation.y } }); }); v.lying = false; }
 }
-function clearViews() { for (const v of views) { safe(() => stopMoves(v.root)); scene.remove(v.holder); } views = []; }
+function clearViews() {
+  for (const v of views) { safe(() => stopMoves(v.root)); scene.remove(v.holder); } views = [];
+  if (ref) { safe(() => stopMoves(ref.root)); scene.remove(ref.holder); ref = null; }
+}
+
+// Referee Lou Varga (an agent on the server side): white shirt, black joints, works the ropes and counts pins.
+let ref = null;
+function makeRef() {
+  const v = makeView({ id: 'lou', tint: 0xf1f1f1, x: 0, y: MAT_Y, z: -RING + 0.55, facing: 0 });
+  v.holder.traverse((o) => { if (o.isMesh && o.name.includes('Joints')) o.material.color.set(0x111111); });
+  v.holder.scale.setScalar(0.94);
+  play(v, 'idle'); v.pinSeen = false; v.home = new THREE.Vector3(0, MAT_Y, -RING + 0.55);
+  return v;
+}
+function updateRef(st, dt) {
+  if (!ref) ref = makeRef();
+  const [A, B] = st.w;
+  if (st.pin && !ref.pinSeen) {
+    // slide in beside the pinned wrestler and slap the mat: one, two, (three)
+    ref.pinSeen = true;
+    const vic = st.w[st.pin.victim], side = Math.sign(vic.z || 1);
+    const at = new THREE.Vector3(vic.x + 0.35, MAT_Y, vic.z - side * 0.75);
+    safe(() => { stopMoves(ref.root); playSolo('refcount', ref.root, { root: { position: at, yaw: side > 0 ? 0 : Math.PI } }); });
+  } else if (!st.pin && ref.pinSeen) { ref.pinSeen = false; safe(() => stopMoves(ref.root)); } // refcount holds its pose until released
+  if (!isBusy(ref.root)) {
+    // shadow the action along the near-side ropes, always facing the wrestlers
+    const mid = { x: (A.x + B.x) / 2, z: (A.z + B.z) / 2 };
+    const want = new THREE.Vector3(THREE.MathUtils.clamp(mid.x * 0.6, -RING + 0.6, RING - 0.6), MAT_Y, mid.z > 0 ? -RING + 0.55 : RING - 0.55);
+    const moving = ref.root.position.distanceTo(want) > 0.08;
+    ref.root.position.lerp(want, Math.min(1, dt * 1.6));
+    ref.root.rotation.set(0, Math.atan2(mid.x - ref.root.position.x, mid.z - ref.root.position.z), 0);
+    play(ref, moving ? 'walk' : 'idle', moving ? 0.9 : 1);
+  }
+  ref.mixer.update(dt);
+}
 function syncViews(ws, dt) {
   ws.forEach((w, i) => {
     if (!views[i] || views[i].id !== w.id) {
@@ -273,7 +307,9 @@ function startLocal(p1, p2) {
   session = { mode: 'exhibition', slot: 0, match, ctl: [newControl(true), newControl(false)] };
   // Bruin memory: the AI's habit table for you comes from the marts when they answer before/at the bell.
   const id = 'm' + Date.now().toString(36);
-  layer.matchStart({ match: id, wrestlers: [p1, p2], humans: [true, false] }).then((h) => {
+  const started = layer.matchStart({ match: id, wrestlers: [p1, p2], humans: [true, false] });
+  layer.bind(match);
+  started.then((h) => {
     if (h && session?.match === match) { match.habits = normHabits(h); savedHabits = match.habits; }
   });
 }
@@ -441,9 +477,10 @@ function frame() {
   if (session?.mode === 'exhibition' && !paused) {
     step(session.match, dt, session.ctl);
     handleEvents(session.match.events); session.match.events = [];
+    layer.tick(session.match); // posts to the agents server every ~4 s; never awaited here
   }
   const st = current();
-  if (st) syncViews(st.w, paused && session.mode === 'exhibition' ? 0 : dt);
+  if (st) { const sdt = paused && session.mode === 'exhibition' ? 0 : dt; syncViews(st.w, sdt); safe(() => updateRef(st, sdt)); }
   // crowd bob (louder when meters are high)
   const hype = 1 + (st ? (st.w[0].mo + st.w[1].mo) / 100 : 0);
   for (let i = 0; i < CROWD; i++) {

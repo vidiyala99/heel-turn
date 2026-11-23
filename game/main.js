@@ -461,12 +461,13 @@ window.HEEL = {
 // to the body root, and the largest per-frame chest jump since the last read (a twist shows as a spike).
 const _qa = new THREE.Quaternion(), _qb = new THREE.Quaternion(), _qc = new THREE.Quaternion();
 function chestRel(v, out) {
+  if (!v?.root || !v.holder) return null;
   const sp = getRig(v.root).bones.spine2; if (!sp) return null;
   v.holder.getWorldQuaternion(_qa); sp.getWorldQuaternion(out);
   return out.premultiply(_qa.invert());
 }
 function trackChest(v) {
-  if (!v) return;
+  if (!v || !v.root || !v.holder) return; // the ref (arena/referee.js) has its own shape
   if (!chestRel(v, _qb)) return;
   if (v.prevChest) v.maxStep = Math.max(v.maxStep || 0, 2 * Math.acos(Math.min(1, Math.abs(v.prevChest.dot(_qb)))) * 180 / Math.PI);
   (v.prevChest ||= new THREE.Quaternion()).copy(_qb);

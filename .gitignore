@@ -10,3 +10,9 @@ tools/.pstack-lite.tgz
 .u1-dist/
 game/server.log
 game/dev.log
+logs/
+
+logs/runs
+logs/*.log
+__pycache__/
+*.py[cod]

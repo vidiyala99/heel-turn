@@ -215,7 +215,8 @@ export function updateMoves(dt) {
   for (const play of [...plays]) {
     if (play.hitstop > 0) play.hitstop = Math.max(0, play.hitstop - dt);
     else {
-      play.t += dt;
+      play.t += dt * (play.opts.speed || 1);
+      if (play.opts.follow) { const r = rootFrom(play.opts.follow()); if (r) for (const a of play.actors) a.moveRoot = r; }
       while (play.fired < play.events.length && play.events[play.fired].t <= play.t) fire(play, play.events[play.fired++]);
       if (!play.ended && play.t >= play.move.duration) {
         play.ended = true;

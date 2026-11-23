@@ -10,6 +10,8 @@ import { OutputPass } from 'three/examples/jsm/postprocessing/OutputPass.js';
 import { Client } from '@colyseus/sdk';
 import { createMatch, step, newControl, ROSTER, INTRO_SECS } from './shared/sim.js';
 import { playPaired, playSolo, updateMoves, isBusy, stopMoves, getRig } from './moves/index.js';
+import { createFeel } from './feel/index.js';
+import { T } from './shared/tuning.js';
 
 // ---------- renderer / scene ----------
 const renderer = new THREE.WebGLRenderer({ antialias: true });
@@ -195,8 +197,8 @@ function makeView(w) {
 }
 function play(v, name, speed = 1) {
   const a = v.actions[name]; if (!a || v.cur === a) { if (a) a.timeScale = speed; return; }
-  a.reset(); a.timeScale = speed; a.fadeIn(0.15).play();
-  if (v.cur) v.cur.fadeOut(0.15);
+  a.reset(); a.timeScale = speed; a.fadeIn(T.view.locomotionFade).play();
+  if (v.cur) v.cur.fadeOut(T.view.locomotionFade);
   v.cur = a;
 }
 let views = [];
@@ -208,8 +210,9 @@ function onAnim(i, w, prev) {
   if (!o) return;
   const name = w.anim;
   if (CLIP[name]) { play(v, CLIP[name], name === 'Idle' ? 1 : Math.max(0.8, w.animSpeed * 0.8)); return; }
-  if (name === 'Punch') safe(() => playSolo('jab', v.root, {}));
-  else if (name === 'No' && w.state === 'stun') safe(() => { if (!isBusy(v.root)) playSolo('hitReact', v.root, {}); });
+  const follow = () => { const s = current()?.w[i]; return s && { position: s, yaw: s.facing }; }; // strikes track the sim
+  if (name === 'Punch') safe(() => playSolo('jab', v.root, { speed: T.view.jabSpeed, follow }));
+  else if (name === 'No' && w.state === 'stun') safe(() => { if (!isBusy(v.root)) playSolo('hitReact', v.root, { speed: T.view.hitReactSpeed, follow }); });
   else if (name === 'Death') {
     const id = nextFinisher ? 'suplex' : GRAPPLES[Math.floor(Math.random() * GRAPPLES.length)];
     const fin = nextFinisher; nextFinisher = false;
@@ -327,6 +330,7 @@ let shake = 0;
 const shakeScale = () => (window.HEEL_SETTINGS?.shake === false || window.HEEL_SETTINGS?.shake === 0 ? 0 : 1);
 function handleEvents(evs) {
   for (const e of evs) {
+    feel.onEvent(e, currentRaw());
     if (e.k === 'banner') banner(e.text, e.secs);
     else if (e.k === 'call') call(e.text);
     else if (e.k === 'log') log(e.html);
@@ -372,7 +376,7 @@ function current() {
 
 // ---------- input: the local player's wrestler (slot 0 offline, the assigned slot online) ----------
 const keysDown = new Set();
-const ACTION_KEYS = { KeyJ: 'strike', KeyK: 'grapple', KeyL: 'block', Space: 'taunt' };
+const ACTION_KEYS = { KeyJ: 'strike', KeyK: 'grapple', KeyL: 'block', Space: 'taunt', KeyI: 'whip' };
 function send(a) {
   if (!session || paused) return;
   if (session.mode === 'exhibition') session.ctl[0].queue.push(a);
@@ -382,9 +386,10 @@ function sendMove() {
   if (!session) return;
   const mx = paused ? 0 : (keysDown.has('KeyD') ? 1 : 0) - (keysDown.has('KeyA') ? 1 : 0);
   const mz = paused ? 0 : (keysDown.has('KeyS') ? 1 : 0) - (keysDown.has('KeyW') ? 1 : 0);
-  if (session.mode === 'exhibition') { session.ctl[0].mx = mx; session.ctl[0].mz = mz; return; }
-  const key = `${mx},${mz}`;
-  if (key !== session.sentMove) { session.sentMove = key; session.room.send('in', { k: 'move', x: mx, z: mz }); }
+  const run = !paused && feel.running(keysDown);
+  if (session.mode === 'exhibition') { session.ctl[0].mx = mx; session.ctl[0].mz = mz; session.ctl[0].run = run; return; }
+  const key = `${mx},${mz},${run}`;
+  if (key !== session.sentMove) { session.sentMove = key; session.room.send('in', { k: 'move', x: mx, z: mz, run }); }
 }
 addEventListener('keydown', (e) => {
   if (e.repeat || !session || e.target?.tagName === 'INPUT') return;
@@ -421,17 +426,19 @@ window.G = {
 
 // ---------- loop ----------
 const clock = new THREE.Clock();
+const feel = createFeel({ scene, camera, getViews: () => views });
 function frame() {
   const dt = Math.min(clock.getDelta(), 0.05);
   const t = clock.elapsedTime;
+  const { simDt, viewDt } = feel.begin(dt, current());
   if (session?.mode === 'exhibition' && !paused) {
-    step(session.match, dt, session.ctl);
+    step(session.match, simDt, session.ctl);
     handleEvents(session.match.events); session.match.events = [];
   }
   const st = current();
-  if (st) syncViews(st.w, paused && session.mode === 'exhibition' ? 0 : dt);
+  if (st) syncViews(st.w, paused && session.mode === 'exhibition' ? 0 : viewDt);
   // crowd bob (louder when meters are high)
-  const hype = 1 + (st ? (st.w[0].mo + st.w[1].mo) / 100 : 0);
+  const hype = feel.hype(st);
   for (let i = 0; i < CROWD; i++) {
     const s = crowdSeat[i];
     tmp.position.set(s.x, s.y + 0.45 + Math.max(0, Math.sin(t * 6 * hype + s.p)) * 0.08 * hype, s.z);
@@ -441,6 +448,7 @@ function frame() {
   for (const r of ropes) { if (r.userData.wob) { r.userData.wob *= 0.9; r.position.y = r.userData.base.y + Math.sin(t * 40) * r.userData.wob * 0.15; } }
   spots.forEach((s, i) => { s.intensity = 52 + Math.sin(t * 0.7 + i) * 5; });
   if (!st) {
+    feel.frame(dt, null);
     // attract mode: slow orbit around the empty ring
     const a = t * 0.12;
     camera.position.lerp(new THREE.Vector3(Math.sin(a) * 13, 6.5, Math.cos(a) * 13), 0.05);
@@ -456,8 +464,9 @@ function frame() {
       want = new THREE.Vector3(Math.sin(a) * r, 4 + 4 * (1 - k), Math.cos(a) * r);
     } else want = new THREE.Vector3(mid.x * 0.5 + Math.sin(t * 0.12) * 2, 5.2 + spread * 0.35, mid.z + 8.5 + spread * 0.6);
     camera.position.lerp(want, st.introT > 0 ? 0.06 : 0.04);
-    if (shake > 0) { camera.position.x += (Math.random() - 0.5) * shake; camera.position.y += (Math.random() - 0.5) * shake; shake *= 0.88; if (shake < 0.01) shake = 0; }
+    feel.addTrauma(shake * 0.5); shake = 0;
     camera.lookAt(mid.x, MAT_Y + 0.9, mid.z);
+    feel.frame(dt, st, mid);
     st.w.forEach((w, i) => { setWidth('h' + i, w.hp); setWidth('s' + i, w.st); setWidth('m' + i, w.mo); });
   }
   bloom.strength = THREE.MathUtils.lerp(bloom.strength, 0.35, 0.05);

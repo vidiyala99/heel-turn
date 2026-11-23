@@ -6,7 +6,11 @@
 // Wrestler: position x/y/z, velocity vx/vz, facing, rotX (fall tilt), hp, st (stamina), mo (meter),
 //   state, t (state timer), move, anim/animSpeed/animSeq (renderer hint), stats.
 // Events (drained by the caller each step): banner, call, log, shake, finisher, wobble, bell, end.
-// Control per slot: { human, mx, mz, queue: ['strike'|'grapple'|'block'|'blockUp'|'taunt'] }.
+// Control per slot: { human, mx, mz, run, queue: ['strike'|'grapple'|'block'|'blockUp'|'taunt'|'whip'] }.
+// Feel (hitstop, run, whip, heat, fired up, near-falls) lives in shared/drama.js; its numbers in shared/tuning.js.
+
+import { T } from './tuning.js';
+import { preStep, moveSpeed, onHit, impact, whip, pinStep } from './drama.js';
 
 export const RING = 3.2;
 export const MAT_Y = 1.1;
@@ -17,10 +21,10 @@ export const ROSTER = {
   silas: { name: 'Silas Crane', tint: 0x8b5cf6 },
   mae: { name: 'Old Iron Mae', tint: 0xc0c6cf },
 };
-export const INPUTS = ['strike', 'grapple', 'block', 'blockUp', 'taunt'];
-const MOVES = { strike: { wind: 0.22, active: 0.12, rec: 0.3, stam: 9 }, grapple: { wind: 0.42, active: 0.12, rec: 0.35, stam: 14 } };
+export const INPUTS = ['strike', 'grapple', 'block', 'blockUp', 'taunt', 'whip'];
+const MOVES = T.sim.moves;
 const COUNTER = { strike: 'block', grapple: 'strike', block: 'grapple' };
-const BUSY = ['wind', 'active', 'rec', 'stun', 'down', 'thrown', 'taunt', 'pinning', 'pinned', 'out', 'intro'];
+const BUSY = ['wind', 'active', 'rec', 'stun', 'down', 'thrown', 'taunt', 'pinning', 'pinned', 'out', 'intro', 'whipped', 'rebound'];
 
 const lerp = (a, b, k) => a + (b - a) * k;
 const clamp = (v, lo, hi) => Math.max(lo, Math.min(hi, v));
@@ -101,11 +105,13 @@ function resolve(m, att, def) {
 }
 
 function hit(m, def, dmg, att) {
+  if (onHit(m, def, dmg, att)) return;
   def.hp = Math.max(0, def.hp - dmg); def.state = 'stun'; def.t = 0.26; anim(def, 'No', 2);
   let ax = def.x - att.x, az = def.z - att.z; const len = Math.hypot(ax, az) || 1;
   def.vx += (ax / len) * 3.2; def.vz += (az / len) * 3.2;
   emit(m, { k: 'shake', v: 0.12 });
   def.mo = Math.min(100, def.mo + 4);
+  impact(m, def, att, 'strike', dmg);
 }
 
 function throwW(m, def, att, dmg, toss) {
@@ -116,7 +122,7 @@ function throwW(m, def, att, dmg, toss) {
   const reach = toss ? 3.2 : 1.1;
   let tx = def.x + dx * reach, tz = def.z + dz * reach;
   if (!toss) { tx = clamp(tx, -RING + 0.4, RING - 0.4); tz = clamp(tz, -RING + 0.4, RING - 0.4); }
-  def.arc = { fx: def.x, fy: def.y, fz: def.z, tx, tz, dur: toss ? 1.0 : 0.6, toss };
+  def.arc = { fx: def.x, fy: def.y, fz: def.z, tx, tz, dur: toss ? 1.0 : 0.6, toss, dmg };
   anim(def, 'Death', 1.6); emit(m, { k: 'shake', v: 0.35 });
 }
 
@@ -160,6 +166,7 @@ function aiThink(m, i, dt) {
 function moveToward(w, x, z, dt, speed) {
   const dx = x - w.x, dz = z - w.z, len = Math.hypot(dx, dz);
   if (len < 0.05) return;
+  speed *= T.sim.aiSpeedScale;
   w.x += (dx / len) * speed * dt; w.z += (dz / len) * speed * dt;
   w.facing = Math.atan2(dx, dz); anim(w, 'Walking', 1.3);
 }
@@ -169,12 +176,14 @@ function handleInput(m, i, kind) {
   if (m.over || m.introT > 0) return;
   if (kind === 'blockUp') { if (w.state === 'block' && !w.autoBlock) w.state = 'idle'; return; }
   if (m.pin && m.pin.victim === i && kind === 'grapple') m.pin.mash += 1;
+  if (kind === 'whip') return whip(m, i);
   if (kind === 'grapple') { if (!tryPin(m, i)) act(m, i, 'grapple'); return; }
   act(m, i, kind);
 }
 
 // Advance the match by dt seconds. ctl[i].queue is consumed.
 export function step(m, dt, ctl) {
+  if (preStep(m, dt)) return;
   for (let i = 0; i < 2; i++) { for (const k of ctl[i].queue) handleInput(m, i, k); ctl[i].queue.length = 0; }
   if (m.introT > 0) {
     m.introT -= dt;
@@ -192,7 +201,7 @@ export function step(m, dt, ctl) {
     if (c.human) {
       if (!busy(w) && w.state !== 'block') {
         const len = Math.hypot(c.mx, c.mz);
-        if (len > 0) { w.x += (c.mx / len) * 2.8 * dt; w.z += (c.mz / len) * 2.8 * dt; w.facing = Math.atan2(c.mx, c.mz); anim(w, 'Running', 1.1); }
+        if (len > 0) { const v = moveSpeed(w, c); w.x += (c.mx / len) * v * dt; w.z += (c.mz / len) * v * dt; w.facing = Math.atan2(c.mx, c.mz); anim(w, 'Running', v / 3.8); }
         else anim(w, 'Idle');
       }
     } else aiThink(m, i, dt);
@@ -241,18 +250,7 @@ export function step(m, dt, ctl) {
     const push = gap * 0.5 + 0.01;
     A.x += sx * push; A.z += sz * push; B.x -= sx * push; B.z -= sz * push;
   }
-  // pin count: a human victim mashes K to kick out, an AI victim kicks out by chance (more likely when healthy)
-  const p = m.pin;
-  if (p) {
-    p.t += dt;
-    const victim = m.w[p.victim];
-    if (!ctl[p.victim].human && p.t > 0.6 && Math.random() < dt * (victim.hp / 100) * 2.4 * 1.4) kickout(m);
-    else if (ctl[p.victim].human && p.mash >= 6 + p.count * 3) kickout(m);
-    else if (p.t > (p.count + 1) * 0.85) {
-      p.count++; emit(m, { k: 'banner', text: String(p.count), secs: 0.6 });
-      if (p.count === 3) win(m, p.att, 'PINFALL');
-    }
-  }
+  pinStep(m, ctl, dt, kickout, win);
 }
 
 function kickout(m) {
@@ -278,6 +276,6 @@ export const newControl = (human) => ({ human, mx: 0, mz: 0, queue: [] });
 export function snapshot(m) {
   return {
     w: m.w.map(({ arc, ...w }) => w), over: m.over, winner: m.winner, how: m.how,
-    introT: m.introT, pin: m.pin && { victim: m.pin.victim, count: m.pin.count },
+    introT: m.introT, freeze: m.freeze || 0, pin: m.pin && { victim: m.pin.victim, count: m.pin.count, t: m.pin.t },
   };
 }

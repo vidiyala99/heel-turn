@@ -194,6 +194,31 @@ export const MOVES = {
     hold: true,
   },
 
+  jab: {
+    kind: 'solo', label: 'Jab', duration: 0.42,
+    meta: { damage: 8, stamina: 6, range: 1.2, startup: 6 },
+    track: [
+      k(0, 'stand', [0, 0, 0], []),
+      k(0.08, 'stance', [0, -0.04, -0.04], [], 'outCubic'),
+      k(0.17, 'slamReach', [0, -0.02, 0.14], [['y', -18]], 'outQuad'),
+      k(0.42, 'stand', [0, 0, 0], [], 'outCubic'),
+    ],
+    events: [imp(0.17, 8)],
+    hold: false,
+  },
+
+  hitReact: {
+    kind: 'solo', label: 'Hit reaction', duration: 0.45,
+    meta: { damage: 0, stamina: 0, range: 0, startup: 0 },
+    track: [
+      k(0, 'stand', [0, 0, 0], []),
+      k(0.08, 'limp', [0, -0.06, -0.16], [['x', -12]], 'outQuad'),
+      k(0.45, 'stand', [0, 0, 0], [], 'outCubic'),
+    ],
+    events: [],
+    hold: false,
+  },
+
   kipup: {
     kind: 'solo', label: 'Kip-up', duration: 1.5,
     meta: { damage: 0, stamina: 8, range: 0, startup: 51 },

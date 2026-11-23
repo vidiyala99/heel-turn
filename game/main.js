@@ -9,6 +9,7 @@ import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPa
 import { OutputPass } from 'three/examples/jsm/postprocessing/OutputPass.js';
 import { Client } from '@colyseus/sdk';
 import { createMatch, step, newControl, ROSTER, INTRO_SECS } from './shared/sim.js';
+import { playPaired, playSolo, updateMoves, isBusy, stopMoves, getRig } from './moves/index.js';
 
 // ---------- renderer / scene ----------
 const renderer = new THREE.WebGLRenderer({ antialias: true });
@@ -173,49 +174,76 @@ function hideInvite() { const el = $('heel-invite'); if (el) el.style.display = 
 
 // ---------- wrestler views (render only; state lives in shared/sim.js) ----------
 const loader = new GLTFLoader();
-const gltf = await loader.loadAsync('/models/RobotExpressive.glb');
-const box = new THREE.Box3().setFromObject(gltf.scene); const H = box.max.y - box.min.y;
-const SCALE = 1.9 / H;
+// Xbot (Mixamo humanoid) wrestlers; the sim stays the source of truth, paired moves are visual.
+const gltf = await loader.loadAsync('/models/Xbot.glb');
+const CLIP = { Idle: 'idle', Walking: 'walk', Running: 'run' };
 
 function makeView(w) {
-  const root = skClone(gltf.scene); root.scale.setScalar(SCALE);
-  root.traverse((o) => {
+  const obj = skClone(gltf.scene);
+  obj.traverse((o) => {
     if (o.isMesh) {
-      o.castShadow = true; o.material = o.material.clone();
-      if (o.material.color && o.material.color.getHSL({}).s > 0.2) o.material.color.set(w.tint);
-      o.material.metalness = 0.35; o.material.roughness = 0.45;
+      o.castShadow = true; o.frustumCulled = false; o.material = o.material.clone();
+      o.material.color.set(w.tint);
+      if (o.name.includes('Joints')) o.material.color.multiplyScalar(0.45);
     }
   });
-  const holder = new THREE.Group(); holder.add(root); holder.position.set(w.x, w.y, w.z); holder.rotation.y = w.facing; scene.add(holder);
-  const mixer = new THREE.AnimationMixer(root);
+  obj.position.set(w.x, w.y, w.z); obj.rotation.y = w.facing; scene.add(obj);
+  getRig(obj);
+  const mixer = new THREE.AnimationMixer(obj);
   const actions = {}; for (const c of gltf.animations) actions[c.name] = mixer.clipAction(c);
-  for (const n of ['Punch', 'Death', 'Jump', 'Yes', 'No', 'ThumbsUp', 'Wave', 'Dance', 'Standing']) {
-    if (actions[n]) { actions[n].setLoop(THREE.LoopOnce); actions[n].clampWhenFinished = true; }
-  }
-  return { id: w.id, holder, root, mixer, actions, cur: null, seq: -1 };
+  return { id: w.id, holder: obj, root: obj, mixer, actions, cur: null, seq: -1, anim: null, lying: false };
 }
 function play(v, name, speed = 1) {
   const a = v.actions[name]; if (!a || v.cur === a) { if (a) a.timeScale = speed; return; }
-  a.reset(); a.timeScale = speed; a.fadeIn(0.12).play();
-  if (v.cur) v.cur.fadeOut(0.12);
+  a.reset(); a.timeScale = speed; a.fadeIn(0.15).play();
+  if (v.cur) v.cur.fadeOut(0.15);
   v.cur = a;
 }
 let views = [];
-function clearViews() { for (const v of views) scene.remove(v.holder); views = []; }
+let nextFinisher = false;
+const GRAPPLES = ['bodyslam', 'suplex', 'ddt'];
+function safe(fn) { try { fn(); } catch (e) { console.warn('[heel] move', e); } }
+function onAnim(i, w, prev) {
+  const v = views[i], o = views[1 - i];
+  if (!o) return;
+  const name = w.anim;
+  if (CLIP[name]) { play(v, CLIP[name], name === 'Idle' ? 1 : Math.max(0.8, w.animSpeed * 0.8)); return; }
+  if (name === 'Punch') safe(() => playSolo('jab', v.root, {}));
+  else if (name === 'No' && w.state === 'stun') safe(() => { if (!isBusy(v.root)) playSolo('hitReact', v.root, {}); });
+  else if (name === 'Death') {
+    const id = nextFinisher ? 'suplex' : GRAPPLES[Math.floor(Math.random() * GRAPPLES.length)];
+    const fin = nextFinisher; nextFinisher = false;
+    safe(() => {
+      stopMoves(o.root); stopMoves(v.root);
+      playPaired(id, o.root, v.root, {
+        onCamera: (cue) => { if (fin && cue === 'low-angle') shake = Math.max(shake, 0.5 * shakeScale()); },
+        onImpact: () => { shake = Math.max(shake, (fin ? 0.6 : 0.3) * shakeScale()); },
+      });
+    });
+    v.lying = true;
+  } else if (name === 'Sitting') safe(() => { stopMoves(v.root); playPaired('pin', v.root, o.root, {}); });
+  else if (name === 'Dance' || name === 'ThumbsUp') safe(() => { if (!isBusy(v.root)) playSolo(i === 0 ? 'tauntArms' : 'chestPound', v.root, {}); });
+  else if (name === 'Standing') { safe(() => { stopMoves(v.root); playSolo('kipup', v.root, { root: { position: v.root.position, yaw: v.root.rotation.y } }); }); v.lying = false; }
+}
+function clearViews() { for (const v of views) { safe(() => stopMoves(v.root)); scene.remove(v.holder); } views = []; }
 function syncViews(ws, dt) {
   ws.forEach((w, i) => {
     if (!views[i] || views[i].id !== w.id) {
       if (views[i]) scene.remove(views[i].holder);
-      views[i] = makeView(w); setText('n' + i, w.name);
+      views[i] = makeView(w); setText('n' + i, w.name); play(views[i], 'idle');
     }
+  });
+  ws.forEach((w, i) => {
     const v = views[i];
-    v.holder.position.set(w.x, w.y, w.z);
-    v.holder.rotation.y = THREE.MathUtils.lerp(v.holder.rotation.y, w.facing, 0.25);
-    v.root.rotation.x = w.rotX;
-    if (w.animSeq !== v.seq) { play(v, w.anim, w.animSpeed); v.seq = w.animSeq; }
-    else if (v.cur) v.cur.timeScale = w.animSpeed;
+    if (w.animSeq !== v.seq) { const prev = v.anim; v.anim = w.anim; v.seq = w.animSeq; onAnim(i, w, prev); }
+    if (!isBusy(v.root)) {
+      v.root.position.set(w.x, w.y, w.z);
+      v.root.rotation.set(w.rotX, w.facing, 0, 'YXZ');
+      if (w.rotX) v.root.position.y = w.y + 0.12;
+    }
     v.mixer.update(dt);
   });
+  if (dt > 0) updateMoves(dt);
 }
 
 // ---------- session: none (attract mode), exhibition (local sim) or online (Colyseus room) ----------
@@ -303,7 +331,7 @@ function handleEvents(evs) {
     else if (e.k === 'call') call(e.text);
     else if (e.k === 'log') log(e.html);
     else if (e.k === 'shake') shake = Math.max(shake, e.v * shakeScale());
-    else if (e.k === 'finisher') { shake = 0.6 * shakeScale(); bloom.strength = 1.6; }
+    else if (e.k === 'finisher') { nextFinisher = true; shake = 0.6 * shakeScale(); bloom.strength = 1.6; }
     else if (e.k === 'wobble') wobble(e.ax, e.sign);
     else if (e.k === 'end') matchEnded(e);
   }

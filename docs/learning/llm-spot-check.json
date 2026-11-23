@@ -1,0 +1,192 @@
+{
+  "excluded_zero_move_matches": 2,
+  "note": "SMALL N spot check, not the learning proof. Memory OFF both arms; same seeds and bot humans.",
+  "openai_key_present": true,
+  "plan_sources": {
+    "openai": 154
+  },
+  "errors": [],
+  "counting": {
+    "mean": 0.396,
+    "ci95": 0.059,
+    "n": 9
+  },
+  "llm": {
+    "mean": 0.499,
+    "ci95": 0.06,
+    "n": 9
+  },
+  "llm_minus_counting_paired": {
+    "mean": 0.103,
+    "ci95": 0.066,
+    "n": 9
+  },
+  "plan_latency_ms": {
+    "n": 154,
+    "p50": 1188,
+    "p90": 1579,
+    "max": 2523
+  },
+  "rows": [
+    {
+      "arm": "counting",
+      "persona": "striker",
+      "seed": 7001,
+      "human_moves": 29,
+      "countered": 10,
+      "rate": 0.3448275862068966
+    },
+    {
+      "arm": "llm",
+      "persona": "striker",
+      "seed": 7001,
+      "human_moves": 26,
+      "countered": 13,
+      "rate": 0.5
+    },
+    {
+      "arm": "counting",
+      "persona": "turtle",
+      "seed": 7002,
+      "human_moves": 11,
+      "countered": 3,
+      "rate": 0.2727272727272727
+    },
+    {
+      "arm": "llm",
+      "persona": "turtle",
+      "seed": 7002,
+      "human_moves": 9,
+      "countered": 5,
+      "rate": 0.5555555555555556
+    },
+    {
+      "arm": "counting",
+      "persona": "grappler",
+      "seed": 7003,
+      "human_moves": 13,
+      "countered": 5,
+      "rate": 0.38461538461538464
+    },
+    {
+      "arm": "llm",
+      "persona": "grappler",
+      "seed": 7003,
+      "human_moves": 12,
+      "countered": 4,
+      "rate": 0.3333333333333333
+    },
+    {
+      "arm": "counting",
+      "persona": "striker",
+      "seed": 7004,
+      "human_moves": 22,
+      "countered": 8,
+      "rate": 0.36363636363636365
+    },
+    {
+      "arm": "llm",
+      "persona": "striker",
+      "seed": 7004,
+      "human_moves": 17,
+      "countered": 8,
+      "rate": 0.47058823529411764
+    },
+    {
+      "arm": "counting",
+      "persona": "turtle",
+      "seed": 7005,
+      "human_moves": 17,
+      "countered": 6,
+      "rate": 0.35294117647058826
+    },
+    {
+      "arm": "llm",
+      "persona": "turtle",
+      "seed": 7005,
+      "human_moves": 16,
+      "countered": 8,
+      "rate": 0.5
+    },
+    {
+      "arm": "counting",
+      "persona": "grappler",
+      "seed": 7006,
+      "human_moves": 19,
+      "countered": 11,
+      "rate": 0.5789473684210527
+    },
+    {
+      "arm": "llm",
+      "persona": "grappler",
+      "seed": 7006,
+      "human_moves": 15,
+      "countered": 9,
+      "rate": 0.6
+    },
+    {
+      "arm": "counting",
+      "persona": "striker",
+      "seed": 7007,
+      "human_moves": 13,
+      "countered": 5,
+      "rate": 0.38461538461538464
+    },
+    {
+      "arm": "llm",
+      "persona": "striker",
+      "seed": 7007,
+      "human_moves": 20,
+      "countered": 11,
+      "rate": 0.55
+    },
+    {
+      "arm": "counting",
+      "persona": "turtle",
+      "seed": 7008,
+      "human_moves": 21,
+      "countered": 8,
+      "rate": 0.38095238095238093
+    },
+    {
+      "arm": "llm",
+      "persona": "turtle",
+      "seed": 7008,
+      "human_moves": 21,
+      "countered": 8,
+      "rate": 0.38095238095238093
+    },
+    {
+      "arm": "counting",
+      "persona": "grappler",
+      "seed": 7009,
+      "human_moves": 18,
+      "countered": 9,
+      "rate": 0.5
+    },
+    {
+      "arm": "llm",
+      "persona": "grappler",
+      "seed": 7009,
+      "human_moves": 40,
+      "countered": 24,
+      "rate": 0.6
+    },
+    {
+      "arm": "counting",
+      "persona": "striker",
+      "seed": 7010,
+      "human_moves": 0,
+      "countered": 0,
+      "rate": 0
+    },
+    {
+      "arm": "llm",
+      "persona": "striker",
+      "seed": 7010,
+      "human_moves": 0,
+      "countered": 0,
+      "rate": 0
+    }
+  ]
+}

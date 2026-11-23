@@ -1,0 +1,112 @@
+// Read learning/results.csv, write docs/learning/counter-rate.svg and docs/learning/summary.json.
+//   node learning/chart.mjs [learning/results.csv]
+// Per point: mean counter rate over the R independent series at that match number, 95% CI = mean +- 1.96 * sd / sqrt(R).
+// Summary differences (ON - OFF) are paired by series (same seeds), averaged per series first, so the CI counts series,
+// not matches (matches inside one series are not independent under memory ON).
+import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+
+const src = process.argv[2] || 'learning/results.csv';
+const [head, ...lines] = readFileSync(src, 'utf8').trim().split('\n');
+const cols = head.split(',');
+const all = lines.map((l) => Object.fromEntries(l.split(',').map((v, i) => [cols[i], isNaN(+v) ? v : +v])));
+// A match the AI wins before the human starts a move (~0.6%, about 5 s long) has no counter rate: excluded, and counted.
+const rows = all.filter((r) => r.human_moves > 0);
+// chance on the declared denominator (every human move): shuffle baseline among engaged moves x engaged share
+for (const r of rows) r.chance = r.human_moves ? (r.chance_engaged * r.engaged) / r.human_moves : 0;
+
+const personas = [...new Set(rows.map((r) => r.persona))];
+const K = Math.max(...rows.map((r) => r.match)), R = new Set(rows.map((r) => r.rep)).size;
+const mean = (a) => a.reduce((s, x) => s + x, 0) / a.length;
+const ci = (a) => { const m = mean(a), sd = Math.sqrt(a.reduce((s, x) => s + (x - m) ** 2, 0) / (a.length - 1)); return [m, 1.96 * sd / Math.sqrt(a.length)]; };
+const sel = (p, c, f = () => true) => rows.filter((r) => r.persona === p && r.condition === c && f(r));
+
+function perSeriesDiff(p, f, key = 'counter_rate') {
+  const d = [];
+  for (let rep = 0; rep < R; rep++) {
+    const on = sel(p, 'on', (r) => r.rep === rep && f(r)), off = sel(p, 'off', (r) => r.rep === rep && f(r));
+    if (on.length && off.length) d.push(mean(on.map((r) => r[key])) - mean(off.map((r) => r[key])));
+  }
+  return ci(d);
+}
+const fmt = ([m, h]) => `${(m * 100).toFixed(1)}% +- ${(h * 100).toFixed(1)}`;
+const pp = ([m, h]) => `${m >= 0 ? '+' : ''}${(m * 100).toFixed(1)} pp +- ${(h * 100).toFixed(1)}`;
+
+const summary = { R, K, matches_per_persona_per_condition: R * K, total_matches: all.length, excluded_zero_move_matches: all.length - rows.length, personas: {} };
+for (const p of personas) {
+  const late = (r) => r.match > 1; // match 1 is identical in both conditions (no memory yet), so it is excluded
+  const s = {
+    off: fmt(ci(sel(p, 'off', late).map((r) => r.counter_rate))),
+    on: fmt(ci(sel(p, 'on', late).map((r) => r.counter_rate))),
+    on_minus_off_matches_2_to_K: pp(perSeriesDiff(p, late)),
+    on_minus_off_engaged_only: pp(perSeriesDiff(p, late, 'counter_rate_engaged')),
+    chance_baseline: fmt(ci(sel(p, 'off', late).map((r) => r.chance))),
+    engaged_share_off: fmt(ci(sel(p, 'off', late).map((r) => r.engaged / Math.max(1, r.human_moves)))),
+    human_moves_per_match: +mean(sel(p, 'off').map((r) => r.human_moves)).toFixed(1),
+    ai_win_rate: { off: fmt(ci(sel(p, 'off', late).map((r) => +(r.winner === 'ai')))), on: fmt(ci(sel(p, 'on', late).map((r) => +(r.winner === 'ai')))) },
+  };
+  if (p === 'switcher') {
+    const h = K / 2;
+    s.before_switch_on_minus_off = pp(perSeriesDiff(p, (r) => r.match > 1 && r.match <= h));
+    s.first3_after_switch_on_minus_off = pp(perSeriesDiff(p, (r) => r.match > h && r.match <= h + 3));
+    s.last3_on_minus_off = pp(perSeriesDiff(p, (r) => r.match > K - 3));
+  }
+  summary.personas[p] = s;
+}
+mkdirSync('docs/learning', { recursive: true });
+writeFileSync('docs/learning/summary.json', JSON.stringify(summary, null, 2) + '\n');
+console.log(JSON.stringify(summary, null, 2));
+
+// --- chart: small multiples, one panel per persona; x = match number in the series, y = counter rate ---------------
+const C = { on: '#2a78d6', off: '#eb6834', ink: '#0b0b0b', ink2: '#52514e', grid: '#e4e3df', surface: '#fcfcfb', chance: '#8a8984' };
+const PW = 330, PH = 230, ML = 46, MT = 92, GAP = 34, PB = 44;
+const W = ML + personas.length * PW + (personas.length - 1) * GAP + 16, H = MT + PH + PB + 40;
+const Y0 = 0, Y1 = 0.8;
+const yOf = (v) => MT + PH - ((v - Y0) / (Y1 - Y0)) * PH;
+const out = [];
+const t = (x, y, s, o = '') => out.push(`<text x="${x}" y="${y}" ${o}>${s}</text>`);
+out.push(`<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" font-family="Inter, system-ui, sans-serif" font-size="12" fill="${C.ink}">`);
+out.push(`<rect width="${W}" height="${H}" fill="${C.surface}"/>`);
+t(ML, 28, 'AI counter rate per match: memory ON vs OFF', 'font-size="18" font-weight="600"');
+t(ML, 48, `Share of the bot human's moves the AI met with the move that beats it. Each point = mean of ${R} independent series (same seeds both conditions), 95% CI band.`, `fill="${C.ink2}"`);
+t(ML, 64, `N = ${R} series x ${K} matches = ${R * K} matches per persona per condition (${all.length} total, ${all.length - rows.length} with no human move excluded). Dashed gray = shuffle-chance baseline. Generated by learning/batch.mjs + chart.mjs.`, `fill="${C.ink2}"`);
+// legend
+const lx = W - 300;
+for (const [i, [c, lab]] of [['on', 'memory ON (habits carried)'], ['off', 'memory OFF (reset each match)']].entries()) {
+  out.push(`<line x1="${lx}" x2="${lx + 18}" y1="${20 + i * 16}" y2="${20 + i * 16}" stroke="${C[c]}" stroke-width="2"/>`);
+  t(lx + 24, 24 + i * 16, lab, `fill="${C.ink2}"`);
+}
+out.push(`<line x1="${lx}" x2="${lx + 18}" y1="52" y2="52" stroke="${C.chance}" stroke-width="1.5" stroke-dasharray="4 3"/>`);
+t(lx + 24, 56, 'chance (AI answers shuffled)', `fill="${C.ink2}"`);
+
+personas.forEach((p, pi) => {
+  const x0 = ML + pi * (PW + GAP), xOf = (k) => x0 + ((k - 1) / (K - 1)) * PW;
+  t(x0, MT - 12, p + (p === 'switcher' ? ' (striker, then grappler)' : ''), 'font-size="14" font-weight="600"');
+  for (const v of [0, 0.2, 0.4, 0.6, 0.8]) {
+    out.push(`<line x1="${x0}" x2="${x0 + PW}" y1="${yOf(v)}" y2="${yOf(v)}" stroke="${C.grid}" stroke-width="1"/>`);
+    if (pi === 0) t(x0 - 8, yOf(v) + 4, `${v * 100}%`, `text-anchor="end" fill="${C.ink2}" font-size="11"`);
+  }
+  for (const k of [1, 5, 10, 15, 20].filter((k) => k <= K)) t(xOf(k), MT + PH + 16, k, `text-anchor="middle" fill="${C.ink2}" font-size="11"`);
+  t(x0 + PW / 2, MT + PH + 34, 'match number in series', `text-anchor="middle" fill="${C.ink2}" font-size="11"`);
+  if (p === 'switcher') {
+    const xs = (xOf(K / 2) + xOf(K / 2 + 1)) / 2;
+    out.push(`<line x1="${xs}" x2="${xs}" y1="${MT}" y2="${MT + PH}" stroke="${C.ink2}" stroke-width="1" stroke-dasharray="2 3"/>`);
+    t(xs + 4, MT + 12, 'habit switch', `fill="${C.ink2}" font-size="11"`);
+  }
+  const chance = [];
+  for (let k = 1; k <= K; k++) chance.push([k, mean(rows.filter((r) => r.persona === p && r.match === k).map((r) => r.chance))]);
+  out.push(`<polyline fill="none" stroke="${C.chance}" stroke-width="1.5" stroke-dasharray="4 3" points="${chance.map(([k, v]) => `${xOf(k).toFixed(1)},${yOf(v).toFixed(1)}`).join(' ')}"/>`);
+  for (const c of ['off', 'on']) {
+    const pts = [];
+    for (let k = 1; k <= K; k++) pts.push([k, ...ci(sel(p, c, (r) => r.match === k).map((r) => r.counter_rate))]);
+    const band = [...pts.map(([k, m, h]) => `${xOf(k).toFixed(1)},${yOf(m + h).toFixed(1)}`), ...pts.reverse().map(([k, m, h]) => `${xOf(k).toFixed(1)},${yOf(m - h).toFixed(1)}`)];
+    pts.reverse();
+    out.push(`<polygon points="${band.join(' ')}" fill="${C[c]}" fill-opacity="0.16"/>`);
+    out.push(`<polyline fill="none" stroke="${C[c]}" stroke-width="2" points="${pts.map(([k, m]) => `${xOf(k).toFixed(1)},${yOf(m).toFixed(1)}`).join(' ')}"/>`);
+    for (const [k, m, h] of pts) out.push(`<circle cx="${xOf(k).toFixed(1)}" cy="${yOf(m).toFixed(1)}" r="6" fill="transparent"><title>${p}, memory ${c.toUpperCase()}, match ${k}: ${(m * 100).toFixed(1)}% (95% CI +- ${(h * 100).toFixed(1)})</title></circle>`);
+  }
+  const s = summary.personas[p];
+  t(x0, MT + PH + 56, `ON - OFF (matches 2-${K}): ${s.on_minus_off_matches_2_to_K}`, `fill="${C.ink}" font-size="11"`);
+});
+out.push('</svg>');
+writeFileSync('docs/learning/counter-rate.svg', out.join('\n') + '\n');
+console.error('wrote docs/learning/counter-rate.svg and docs/learning/summary.json');

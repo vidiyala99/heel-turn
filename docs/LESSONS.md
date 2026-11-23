@@ -11,3 +11,4 @@
 - **Read the builder, not a memory line** (2026-11-23). Designs must grow from the resume and GitHub (docs/GROUNDING.md), not "data engineer and Dagster contributor".
 - **Own the churn** (2026-11-23). Aakash gave two directions (hero shooter, wrestling); the other eight concepts were mine and generic. Never describe my own churn as "we switched".
 - **Verify the first-run experience, not just the mechanic** (2026-11-23 11:44). The prototype passed my fight-logic checks but opened straight into a match Aakash lost before touching a key: no title, menu, mode or character select. "Prove it works" means what a player sees from the first frame.
+- **Design stack on every visual change** (2026-11-23 11:52). I built the prototype arena and HUD with no design skills and left the stack out of the art and move-lab briefs. Rule now in MultiplayerAI/CLAUDE.md; the prototype HUD/arena gets a full design-stack pass after the menu agent lands.

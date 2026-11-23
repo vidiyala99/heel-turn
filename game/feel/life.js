@@ -69,7 +69,7 @@ export function createLife() {
         animate(v.root, {
           seed: i * 2.3, flinchK: flinch[i],
           energy: 0.7 + (w.heat || 0) / 120 + (w.fired > 0 ? 0.5 : 0) - (w.st < 30 ? 0.3 : 0),
-          target: o ? () => o.holder.position : null, stance: w.anim !== 'Running',
+          target: o ? () => o.holder.position : null, stance: w.anim !== 'Running' && w.state !== 'taunt',
         });
       });
       for (const x of extras) { if (x.root.parent && !isBusy(x.root)) animate(x.root, x); }

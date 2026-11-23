@@ -32,6 +32,24 @@ No WWE marks: original wrestlers, original names, the battle royal is called "Ov
 - **metric (declared now)**: counter rate = share of human moves met by the move that beats it, per match; memory on
   vs off, same seeds, N matches each (N set by what fits in 20 min of headless runs).
 
+## Cast and treachery (Aakash 12:28: referee and tag partners are agents who can betray; agents learn)
+Every character below is its own BAND agent with its own memory in Bruin. Commentators narrate only.
+- **Wrestlers (4):** Vex (showboat), Brutus Kane (brute), Silas Crane (schemer), Old Iron Mae (veteran).
+- **Referee "Lou Varga" (agent):** counts pins and calls rope breaks. Honest by default, but corruptible: a heel can
+  offer a bribe in a private BAND room, and Lou weighs it against his reputation (how often he got caught, crowd heat).
+  He can fast-count, slow-count, or "miss" a rope break. The bribe offer goes to the human commissioner in the room, who
+  approves or blocks it (blockable verdict). Caught bribes cost Lou reputation, which he remembers next match.
+- **Tag partners (AI):** your AI partner trusts you or not, from the `relationships` mart (who saved whom, who tagged
+  out at the wrong time). Low trust and a better offer from the other side -> a heel turn: walks out, cheap shot, or
+  refuses the tag. A visible trust meter warns the human.
+- **Sabotage:** distraction plays (one agent argues with the ref while a partner cheats), run-ins in the battle royal,
+  low blows only when the ref is not looking (the ref agent's attention is part of the state).
+- **Learning (all agents, from Bruin marts):** counter rate vs each human's habits (the charted metric, memory on vs
+  off); trust and grudges updated after every betrayal so alliances change match to match; the ref's bribe ledger. The
+  decision log cites the mart row behind every plan, bribe and betrayal.
+- **New Bruin marts:** `ref_ledger(ref, match, bribe_from, accepted, caught)`, `partner_trust(a, b, trust, last_event)`.
+- **Tom & Jerry** (BAND onboarding demo, registered 12:24, verified replying) are a connection smoke test only, not cast.
+
 ## Agents (each its own BAND agent; LLM = OpenAI, chosen by measured latency)
 4 original wrestlers with gimmicks (picked at U2): the showboat, the brute, the schemer (betrays first), the veteran
 (reads habits, counters). 2 commentators (play-by-play + color) voiced by Runware; they narrate, not counted for BAND.

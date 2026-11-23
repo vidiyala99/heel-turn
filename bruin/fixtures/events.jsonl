@@ -1,0 +1,464 @@
+{"event_id": "m1-0000", "match": "m1", "t_ms": 683, "actor": "brutus", "kind": "entry", "situation": "opening"}
+{"event_id": "m1-0001", "match": "m1", "t_ms": 1321, "actor": "p2", "kind": "entry", "situation": "opening"}
+{"event_id": "m1-0002", "match": "m1", "t_ms": 2113, "actor": "mae", "kind": "entry", "situation": "opening"}
+{"event_id": "m1-0003", "match": "m1", "t_ms": 2729, "actor": "silas", "kind": "entry", "situation": "opening"}
+{"event_id": "m1-0004", "match": "m1", "t_ms": 3112, "actor": "p1", "kind": "entry", "situation": "opening"}
+{"event_id": "m1-0005", "match": "m1", "t_ms": 3558, "actor": "vex", "kind": "entry", "situation": "opening"}
+{"event_id": "m1-0006", "match": "m1", "t_ms": 4081, "actor": "booth", "kind": "commentary", "situation": "opening", "text": "Over the Top, m1: six bodies, one ring."}
+{"event_id": "m1-0007", "match": "m1", "t_ms": 4351, "actor": "mae", "kind": "block", "situation": "opening", "target": "p2", "success": true}
+{"event_id": "m1-0008", "match": "m1", "t_ms": 5243, "actor": "p2", "kind": "block", "situation": "after_block", "target": "mae", "success": false}
+{"event_id": "m1-0009", "match": "m1", "t_ms": 5864, "actor": "p2", "kind": "grapple", "situation": "after_block", "target": "brutus", "success": false}
+{"event_id": "m1-0010", "match": "m1", "t_ms": 6699, "actor": "brutus", "kind": "grapple", "situation": "after_block", "target": "p2", "success": false}
+{"event_id": "m1-0011", "match": "m1", "t_ms": 7270, "actor": "silas", "kind": "alliance_offer", "situation": "opening", "target": "brutus", "text": "Silas: you and me clear the ring, then we settle it."}
+{"event_id": "m1-0012", "match": "m1", "t_ms": 7687, "actor": "silas", "kind": "grapple", "situation": "after_block", "target": "p1", "success": false}
+{"event_id": "m1-0013", "match": "m1", "t_ms": 8119, "actor": "p1", "kind": "strike", "situation": "after_block", "target": "silas", "success": true}
+{"event_id": "m1-0014", "match": "m1", "t_ms": 8955, "actor": "p2", "kind": "strike", "situation": "after_block", "target": "vex", "success": false}
+{"event_id": "m1-0015", "match": "m1", "t_ms": 9809, "actor": "vex", "kind": "block", "situation": "after_block", "target": "p2", "success": true}
+{"event_id": "m1-0016", "match": "m1", "t_ms": 10170, "actor": "brutus", "kind": "alliance_reply", "situation": "opening", "target": "silas", "success": true, "text": "Fine. Watch my back."}
+{"event_id": "m1-0017", "match": "m1", "t_ms": 11054, "actor": "p2", "kind": "grapple", "situation": "cornered", "target": "silas", "success": true}
+{"event_id": "m1-0018", "match": "m1", "t_ms": 11808, "actor": "silas", "kind": "block", "situation": "cornered", "target": "p2", "success": false}
+{"event_id": "m1-0019", "match": "m1", "t_ms": 12484, "actor": "p2", "kind": "block", "situation": "opening", "target": "mae", "success": true}
+{"event_id": "m1-0020", "match": "m1", "t_ms": 12965, "actor": "mae", "kind": "strike", "situation": "after_block", "target": "p2", "success": false}
+{"event_id": "m1-0021", "match": "m1", "t_ms": 13252, "actor": "vex", "kind": "grapple", "situation": "opening", "target": "brutus", "success": true}
+{"event_id": "m1-0022", "match": "m1", "t_ms": 13772, "actor": "brutus", "kind": "strike", "situation": "opening", "target": "vex", "success": true}
+{"event_id": "m1-0023", "match": "m1", "t_ms": 14578, "actor": "silas", "kind": "block", "situation": "cornered", "target": "p1", "success": false}
+{"event_id": "m1-0024", "match": "m1", "t_ms": 15072, "actor": "p1", "kind": "block", "situation": "after_block", "target": "silas", "success": false}
+{"event_id": "m1-0025", "match": "m1", "t_ms": 15953, "actor": "p2", "kind": "block", "situation": "opening", "target": "mae", "success": false}
+{"event_id": "m1-0026", "match": "m1", "t_ms": 16274, "actor": "mae", "kind": "grapple", "situation": "after_block", "target": "p2", "success": true}
+{"event_id": "m1-0027", "match": "m1", "t_ms": 16576, "actor": "vex", "kind": "block", "situation": "cornered", "target": "p2", "success": false}
+{"event_id": "m1-0028", "match": "m1", "t_ms": 16937, "actor": "p2", "kind": "grapple", "situation": "after_block", "target": "vex", "success": true}
+{"event_id": "m1-0029", "match": "m1", "t_ms": 17741, "actor": "p1", "kind": "strike", "situation": "opening", "target": "mae", "success": false}
+{"event_id": "m1-0030", "match": "m1", "t_ms": 18565, "actor": "mae", "kind": "block", "situation": "opening", "target": "p1", "success": true}
+{"event_id": "m1-0031", "match": "m1", "t_ms": 19226, "actor": "p1", "kind": "block", "situation": "opening", "target": "mae", "success": false}
+{"event_id": "m1-0032", "match": "m1", "t_ms": 19506, "actor": "mae", "kind": "grapple", "situation": "after_block", "target": "p1", "success": true}
+{"event_id": "m1-0033", "match": "m1", "t_ms": 20325, "actor": "p1", "kind": "strike", "situation": "opening", "target": "silas", "success": false}
+{"event_id": "m1-0034", "match": "m1", "t_ms": 21120, "actor": "silas", "kind": "block", "situation": "opening", "target": "p1", "success": true}
+{"event_id": "m1-0035", "match": "m1", "t_ms": 21837, "actor": "p2", "kind": "strike", "situation": "after_block", "target": "brutus", "success": false}
+{"event_id": "m1-0036", "match": "m1", "t_ms": 22414, "actor": "brutus", "kind": "grapple", "situation": "after_block", "target": "p2", "success": false}
+{"event_id": "m1-0037", "match": "m1", "t_ms": 23153, "actor": "p2", "kind": "block", "situation": "cornered", "target": "silas", "success": true}
+{"event_id": "m1-0038", "match": "m1", "t_ms": 23954, "actor": "silas", "kind": "grapple", "situation": "after_block", "target": "p2", "success": true}
+{"event_id": "m1-0039", "match": "m1", "t_ms": 24839, "actor": "p1", "kind": "strike", "situation": "after_block", "target": "silas", "success": true}
+{"event_id": "m1-0040", "match": "m1", "t_ms": 25373, "actor": "silas", "kind": "strike", "situation": "after_block", "target": "p1", "success": false}
+{"event_id": "m1-0041", "match": "m1", "t_ms": 25666, "actor": "brutus", "kind": "block", "situation": "cornered", "target": "p2", "success": false}
+{"event_id": "m1-0042", "match": "m1", "t_ms": 25997, "actor": "p2", "kind": "grapple", "situation": "after_block", "target": "brutus", "success": true}
+{"event_id": "m1-0043", "match": "m1", "t_ms": 26652, "actor": "p2", "kind": "strike", "situation": "low_stamina", "target": "vex", "success": false}
+{"event_id": "m1-0044", "match": "m1", "t_ms": 27202, "actor": "vex", "kind": "grapple", "situation": "low_stamina", "target": "p2", "success": false}
+{"event_id": "m1-0045", "match": "m1", "t_ms": 27638, "actor": "p1", "kind": "taunt", "situation": "after_block", "target": "vex", "text": "Is that all you've got?"}
+{"event_id": "m1-0046", "match": "m1", "t_ms": 27936, "actor": "vex", "kind": "block", "situation": "after_block", "target": "p2", "success": true}
+{"event_id": "m1-0047", "match": "m1", "t_ms": 28803, "actor": "p2", "kind": "strike", "situation": "after_block", "target": "vex", "success": false}
+{"event_id": "m1-0048", "match": "m1", "t_ms": 29377, "actor": "p2", "kind": "strike", "situation": "low_stamina", "target": "mae", "success": false}
+{"event_id": "m1-0049", "match": "m1", "t_ms": 30173, "actor": "mae", "kind": "strike", "situation": "low_stamina", "target": "p2", "success": false}
+{"event_id": "m1-0050", "match": "m1", "t_ms": 30555, "actor": "p1", "kind": "grapple", "situation": "after_block", "target": "vex", "success": false}
+{"event_id": "m1-0051", "match": "m1", "t_ms": 30845, "actor": "vex", "kind": "grapple", "situation": "after_block", "target": "p1", "success": false}
+{"event_id": "m1-0052", "match": "m1", "t_ms": 31154, "actor": "p2", "kind": "strike", "situation": "low_stamina", "target": "mae", "success": true}
+{"event_id": "m1-0053", "match": "m1", "t_ms": 31841, "actor": "mae", "kind": "block", "situation": "low_stamina", "target": "p2", "success": true}
+{"event_id": "m1-0054", "match": "m1", "t_ms": 32255, "actor": "mae", "kind": "knockdown", "situation": "low_stamina", "target": "p2", "success": true}
+{"event_id": "m1-0055", "match": "m1", "t_ms": 32929, "actor": "mae", "kind": "elimination", "situation": "cornered", "target": "p2", "success": true, "text": "p2 goes over the top rope"}
+{"event_id": "m1-0056", "match": "m1", "t_ms": 33555, "actor": "silas", "kind": "strike", "situation": "opening", "target": "p1", "success": true}
+{"event_id": "m1-0057", "match": "m1", "t_ms": 34315, "actor": "p1", "kind": "block", "situation": "opening", "target": "silas", "success": true}
+{"event_id": "m1-0058", "match": "m1", "t_ms": 34629, "actor": "p1", "kind": "grapple", "situation": "after_block", "target": "vex", "success": true}
+{"event_id": "m1-0059", "match": "m1", "t_ms": 35279, "actor": "vex", "kind": "strike", "situation": "after_block", "target": "p1", "success": true}
+{"event_id": "m1-0060", "match": "m1", "t_ms": 35808, "actor": "silas", "kind": "block", "situation": "opening", "target": "brutus", "success": false}
+{"event_id": "m1-0061", "match": "m1", "t_ms": 36230, "actor": "brutus", "kind": "block", "situation": "after_block", "target": "silas", "success": false}
+{"event_id": "m1-0062", "match": "m1", "t_ms": 36549, "actor": "p1", "kind": "block", "situation": "low_stamina", "target": "brutus", "success": false}
+{"event_id": "m1-0063", "match": "m1", "t_ms": 36948, "actor": "brutus", "kind": "block", "situation": "after_block", "target": "p1", "success": false}
+{"event_id": "m1-0064", "match": "m1", "t_ms": 37517, "actor": "brutus", "kind": "grapple", "situation": "after_block", "target": "mae", "success": false}
+{"event_id": "m1-0065", "match": "m1", "t_ms": 38058, "actor": "mae", "kind": "grapple", "situation": "after_block", "target": "brutus", "success": false}
+{"event_id": "m1-0066", "match": "m1", "t_ms": 38883, "actor": "p1", "kind": "grapple", "situation": "low_stamina", "target": "silas", "success": false}
+{"event_id": "m1-0067", "match": "m1", "t_ms": 39276, "actor": "silas", "kind": "strike", "situation": "low_stamina", "target": "p1", "success": true}
+{"event_id": "m1-0068", "match": "m1", "t_ms": 39641, "actor": "silas", "kind": "knockdown", "situation": "low_stamina", "target": "p1", "success": true}
+{"event_id": "m1-0069", "match": "m1", "t_ms": 40208, "actor": "silas", "kind": "elimination", "situation": "cornered", "target": "p1", "success": true, "text": "p1 goes over the top rope"}
+{"event_id": "m1-0070", "match": "m1", "t_ms": 41105, "actor": "vex", "kind": "strike", "situation": "opening", "target": "brutus", "success": false}
+{"event_id": "m1-0071", "match": "m1", "t_ms": 41878, "actor": "brutus", "kind": "strike", "situation": "opening", "target": "vex", "success": false}
+{"event_id": "m1-0072", "match": "m1", "t_ms": 42200, "actor": "mae", "kind": "strike", "situation": "opening", "target": "vex", "success": false}
+{"event_id": "m1-0073", "match": "m1", "t_ms": 42584, "actor": "vex", "kind": "block", "situation": "opening", "target": "mae", "success": true}
+{"event_id": "m1-0074", "match": "m1", "t_ms": 42834, "actor": "vex", "kind": "grapple", "situation": "opening", "target": "mae", "success": false}
+{"event_id": "m1-0075", "match": "m1", "t_ms": 43479, "actor": "mae", "kind": "block", "situation": "opening", "target": "vex", "success": false}
+{"event_id": "m1-0076", "match": "m1", "t_ms": 43743, "actor": "silas", "kind": "strike", "situation": "opening", "target": "vex", "success": true}
+{"event_id": "m1-0077", "match": "m1", "t_ms": 44590, "actor": "vex", "kind": "grapple", "situation": "opening", "target": "silas", "success": false}
+{"event_id": "m1-0078", "match": "m1", "t_ms": 45466, "actor": "silas", "kind": "grapple", "situation": "opening", "target": "mae", "success": true}
+{"event_id": "m1-0079", "match": "m1", "t_ms": 45886, "actor": "mae", "kind": "strike", "situation": "opening", "target": "silas", "success": true}
+{"event_id": "m1-0080", "match": "m1", "t_ms": 46764, "actor": "mae", "kind": "block", "situation": "after_block", "target": "brutus", "success": false}
+{"event_id": "m1-0081", "match": "m1", "t_ms": 47533, "actor": "brutus", "kind": "grapple", "situation": "after_block", "target": "mae", "success": true}
+{"event_id": "m1-0082", "match": "m1", "t_ms": 47994, "actor": "vex", "kind": "block", "situation": "low_stamina", "target": "silas", "success": false}
+{"event_id": "m1-0083", "match": "m1", "t_ms": 48516, "actor": "silas", "kind": "strike", "situation": "after_block", "target": "vex", "success": false}
+{"event_id": "m1-0084", "match": "m1", "t_ms": 49206, "actor": "vex", "kind": "strike", "situation": "low_stamina", "target": "silas", "success": true}
+{"event_id": "m1-0085", "match": "m1", "t_ms": 49521, "actor": "silas", "kind": "grapple", "situation": "low_stamina", "target": "vex", "success": false}
+{"event_id": "m1-0086", "match": "m1", "t_ms": 50283, "actor": "vex", "kind": "knockdown", "situation": "low_stamina", "target": "silas", "success": true}
+{"event_id": "m1-0087", "match": "m1", "t_ms": 50634, "actor": "vex", "kind": "pin", "situation": "low_stamina", "target": "silas", "success": true}
+{"event_id": "m1-0088", "match": "m1", "t_ms": 51137, "actor": "vex", "kind": "elimination", "situation": "cornered", "target": "silas", "success": true, "text": "silas goes over the top rope"}
+{"event_id": "m1-0089", "match": "m1", "t_ms": 51730, "actor": "brutus", "kind": "block", "situation": "low_stamina", "target": "vex", "success": false}
+{"event_id": "m1-0090", "match": "m1", "t_ms": 52557, "actor": "vex", "kind": "strike", "situation": "after_block", "target": "brutus", "success": false}
+{"event_id": "m1-0091", "match": "m1", "t_ms": 52839, "actor": "vex", "kind": "taunt", "situation": "low_stamina", "target": "brutus", "text": "Hold the applause, I'm only getting started."}
+{"event_id": "m1-0092", "match": "m1", "t_ms": 53300, "actor": "vex", "kind": "grapple", "situation": "low_stamina", "target": "mae", "success": true}
+{"event_id": "m1-0093", "match": "m1", "t_ms": 53895, "actor": "mae", "kind": "grapple", "situation": "low_stamina", "target": "vex", "success": false}
+{"event_id": "m1-0094", "match": "m1", "t_ms": 54239, "actor": "vex", "kind": "knockdown", "situation": "low_stamina", "target": "mae", "success": true}
+{"event_id": "m1-0095", "match": "m1", "t_ms": 54980, "actor": "vex", "kind": "elimination", "situation": "cornered", "target": "mae", "success": true, "text": "mae goes over the top rope"}
+{"event_id": "m1-0096", "match": "m1", "t_ms": 55247, "actor": "vex", "kind": "grapple", "situation": "low_stamina", "target": "brutus", "success": false}
+{"event_id": "m1-0097", "match": "m1", "t_ms": 56075, "actor": "brutus", "kind": "strike", "situation": "low_stamina", "target": "vex", "success": true}
+{"event_id": "m1-0098", "match": "m1", "t_ms": 56394, "actor": "brutus", "kind": "knockdown", "situation": "low_stamina", "target": "vex", "success": true}
+{"event_id": "m1-0099", "match": "m1", "t_ms": 56980, "actor": "brutus", "kind": "pin", "situation": "low_stamina", "target": "vex", "success": false}
+{"event_id": "m1-0100", "match": "m1", "t_ms": 57380, "actor": "vex", "kind": "kickout", "situation": "low_stamina", "target": "brutus", "success": true}
+{"event_id": "m1-0101", "match": "m1", "t_ms": 57935, "actor": "brutus", "kind": "block", "situation": "low_stamina", "target": "vex", "success": true}
+{"event_id": "m1-0102", "match": "m1", "t_ms": 58727, "actor": "vex", "kind": "strike", "situation": "after_block", "target": "brutus", "success": false}
+{"event_id": "m1-0103", "match": "m1", "t_ms": 59324, "actor": "vex", "kind": "grapple", "situation": "low_stamina", "target": "brutus", "success": true}
+{"event_id": "m1-0104", "match": "m1", "t_ms": 59731, "actor": "brutus", "kind": "block", "situation": "low_stamina", "target": "vex", "success": false}
+{"event_id": "m1-0105", "match": "m1", "t_ms": 60036, "actor": "vex", "kind": "grapple", "situation": "low_stamina", "target": "brutus", "success": true}
+{"event_id": "m1-0106", "match": "m1", "t_ms": 60366, "actor": "brutus", "kind": "grapple", "situation": "low_stamina", "target": "vex", "success": false}
+{"event_id": "m1-0107", "match": "m1", "t_ms": 60797, "actor": "vex", "kind": "knockdown", "situation": "low_stamina", "target": "brutus", "success": true}
+{"event_id": "m1-0108", "match": "m1", "t_ms": 61279, "actor": "vex", "kind": "pin", "situation": "low_stamina", "target": "brutus", "success": false}
+{"event_id": "m1-0109", "match": "m1", "t_ms": 61902, "actor": "brutus", "kind": "kickout", "situation": "low_stamina", "target": "vex", "success": true}
+{"event_id": "m1-0110", "match": "m1", "t_ms": 62414, "actor": "brutus", "kind": "block", "situation": "low_stamina", "target": "vex", "success": false}
+{"event_id": "m1-0111", "match": "m1", "t_ms": 62883, "actor": "vex", "kind": "strike", "situation": "after_block", "target": "brutus", "success": false}
+{"event_id": "m1-0112", "match": "m1", "t_ms": 63683, "actor": "brutus", "kind": "knockdown", "situation": "low_stamina", "target": "vex", "success": true}
+{"event_id": "m1-0113", "match": "m1", "t_ms": 64084, "actor": "brutus", "kind": "elimination", "situation": "cornered", "target": "vex", "success": true, "text": "vex goes over the top rope"}
+{"event_id": "m1-0114", "match": "m1", "t_ms": 64837, "actor": "booth", "kind": "commentary", "situation": "opening", "target": "brutus", "text": "brutus is the last one standing!"}
+{"event_id": "m2-0000", "match": "m2", "t_ms": 806, "actor": "p1", "kind": "entry", "situation": "opening"}
+{"event_id": "m2-0001", "match": "m2", "t_ms": 1282, "actor": "silas", "kind": "entry", "situation": "opening"}
+{"event_id": "m2-0002", "match": "m2", "t_ms": 2134, "actor": "p2", "kind": "entry", "situation": "opening"}
+{"event_id": "m2-0003", "match": "m2", "t_ms": 2820, "actor": "brutus", "kind": "entry", "situation": "opening"}
+{"event_id": "m2-0004", "match": "m2", "t_ms": 3122, "actor": "vex", "kind": "entry", "situation": "opening"}
+{"event_id": "m2-0005", "match": "m2", "t_ms": 3756, "actor": "mae", "kind": "entry", "situation": "opening"}
+{"event_id": "m2-0006", "match": "m2", "t_ms": 4328, "actor": "booth", "kind": "commentary", "situation": "opening", "text": "Over the Top, m2: six bodies, one ring."}
+{"event_id": "m2-0007", "match": "m2", "t_ms": 4766, "actor": "p2", "kind": "taunt", "situation": "opening", "target": "p1", "text": "You're finished, old timer."}
+{"event_id": "m2-0008", "match": "m2", "t_ms": 5356, "actor": "p1", "kind": "strike", "situation": "cornered", "target": "vex", "success": false}
+{"event_id": "m2-0009", "match": "m2", "t_ms": 6072, "actor": "vex", "kind": "block", "situation": "cornered", "target": "p1", "success": true}
+{"event_id": "m2-0010", "match": "m2", "t_ms": 6956, "actor": "silas", "kind": "plan", "situation": "opening", "target": "brutus", "text": "betray brutus: he is tired and the ring is crowded"}
+{"event_id": "m2-0011", "match": "m2", "t_ms": 7372, "actor": "p1", "kind": "strike", "situation": "opening", "target": "mae", "success": false}
+{"event_id": "m2-0012", "match": "m2", "t_ms": 8090, "actor": "mae", "kind": "strike", "situation": "opening", "target": "p1", "success": false}
+{"event_id": "m2-0013", "match": "m2", "t_ms": 8575, "actor": "silas", "kind": "block", "situation": "after_block", "target": "p1", "success": true}
+{"event_id": "m2-0014", "match": "m2", "t_ms": 8969, "actor": "p1", "kind": "block", "situation": "after_block", "target": "silas", "success": false}
+{"event_id": "m2-0015", "match": "m2", "t_ms": 9257, "actor": "silas", "kind": "betray", "situation": "opening", "target": "brutus", "success": true, "text": "Nothing personal, big man."}
+{"event_id": "m2-0016", "match": "m2", "t_ms": 9782, "actor": "p1", "kind": "grapple", "situation": "after_block", "target": "mae", "success": false}
+{"event_id": "m2-0017", "match": "m2", "t_ms": 10566, "actor": "mae", "kind": "strike", "situation": "after_block", "target": "p1", "success": true}
+{"event_id": "m2-0018", "match": "m2", "t_ms": 10817, "actor": "p1", "kind": "grapple", "situation": "opening", "target": "mae", "success": false}
+{"event_id": "m2-0019", "match": "m2", "t_ms": 11344, "actor": "mae", "kind": "strike", "situation": "opening", "target": "p1", "success": true}
+{"event_id": "m2-0020", "match": "m2", "t_ms": 12018, "actor": "p1", "kind": "block", "situation": "low_stamina", "target": "p2", "success": false}
+{"event_id": "m2-0021", "match": "m2", "t_ms": 12449, "actor": "p2", "kind": "strike", "situation": "after_block", "target": "p1", "success": false}
+{"event_id": "m2-0022", "match": "m2", "t_ms": 12884, "actor": "p1", "kind": "strike", "situation": "low_stamina", "target": "silas", "success": true}
+{"event_id": "m2-0023", "match": "m2", "t_ms": 13721, "actor": "silas", "kind": "block", "situation": "low_stamina", "target": "p1", "success": true}
+{"event_id": "m2-0024", "match": "m2", "t_ms": 14033, "actor": "p2", "kind": "block", "situation": "opening", "target": "brutus", "success": true}
+{"event_id": "m2-0025", "match": "m2", "t_ms": 14287, "actor": "brutus", "kind": "strike", "situation": "after_block", "target": "p2", "success": false}
+{"event_id": "m2-0026", "match": "m2", "t_ms": 14987, "actor": "p1", "kind": "strike", "situation": "low_stamina", "target": "silas", "success": true}
+{"event_id": "m2-0027", "match": "m2", "t_ms": 15736, "actor": "silas", "kind": "grapple", "situation": "low_stamina", "target": "p1", "success": false}
+{"event_id": "m2-0028", "match": "m2", "t_ms": 16625, "actor": "brutus", "kind": "grapple", "situation": "opening", "target": "p1", "success": false}
+{"event_id": "m2-0029", "match": "m2", "t_ms": 16875, "actor": "p1", "kind": "grapple", "situation": "opening", "target": "brutus", "success": false}
+{"event_id": "m2-0030", "match": "m2", "t_ms": 17372, "actor": "brutus", "kind": "knockdown", "situation": "low_stamina", "target": "p1", "success": true}
+{"event_id": "m2-0031", "match": "m2", "t_ms": 17655, "actor": "brutus", "kind": "pin", "situation": "low_stamina", "target": "p1", "success": true}
+{"event_id": "m2-0032", "match": "m2", "t_ms": 18244, "actor": "brutus", "kind": "elimination", "situation": "cornered", "target": "p1", "success": true, "text": "p1 goes over the top rope"}
+{"event_id": "m2-0033", "match": "m2", "t_ms": 18816, "actor": "vex", "kind": "grapple", "situation": "opening", "target": "p2", "success": false}
+{"event_id": "m2-0034", "match": "m2", "t_ms": 19703, "actor": "p2", "kind": "block", "situation": "opening", "target": "vex", "success": false}
+{"event_id": "m2-0035", "match": "m2", "t_ms": 20359, "actor": "p2", "kind": "strike", "situation": "opening", "target": "brutus", "success": false}
+{"event_id": "m2-0036", "match": "m2", "t_ms": 21025, "actor": "brutus", "kind": "grapple", "situation": "opening", "target": "p2", "success": false}
+{"event_id": "m2-0037", "match": "m2", "t_ms": 21856, "actor": "brutus", "kind": "block", "situation": "after_block", "target": "p2", "success": true}
+{"event_id": "m2-0038", "match": "m2", "t_ms": 22159, "actor": "p2", "kind": "block", "situation": "after_block", "target": "brutus", "success": false}
+{"event_id": "m2-0039", "match": "m2", "t_ms": 22589, "actor": "p2", "kind": "grapple", "situation": "opening", "target": "mae", "success": true}
+{"event_id": "m2-0040", "match": "m2", "t_ms": 22901, "actor": "mae", "kind": "grapple", "situation": "opening", "target": "p2", "success": false}
+{"event_id": "m2-0041", "match": "m2", "t_ms": 23532, "actor": "p2", "kind": "grapple", "situation": "after_block", "target": "brutus", "success": true}
+{"event_id": "m2-0042", "match": "m2", "t_ms": 23944, "actor": "brutus", "kind": "grapple", "situation": "after_block", "target": "p2", "success": false}
+{"event_id": "m2-0043", "match": "m2", "t_ms": 24224, "actor": "silas", "kind": "grapple", "situation": "opening", "target": "brutus", "success": true}
+{"event_id": "m2-0044", "match": "m2", "t_ms": 25043, "actor": "brutus", "kind": "block", "situation": "opening", "target": "silas", "success": false}
+{"event_id": "m2-0045", "match": "m2", "t_ms": 25649, "actor": "p2", "kind": "taunt", "situation": "opening", "target": "mae", "text": "Good match. Now get out of my ring."}
+{"event_id": "m2-0046", "match": "m2", "t_ms": 26204, "actor": "brutus", "kind": "grapple", "situation": "cornered", "target": "mae", "success": false}
+{"event_id": "m2-0047", "match": "m2", "t_ms": 26653, "actor": "mae", "kind": "grapple", "situation": "cornered", "target": "brutus", "success": false}
+{"event_id": "m2-0048", "match": "m2", "t_ms": 26939, "actor": "p2", "kind": "grapple", "situation": "cornered", "target": "mae", "success": true}
+{"event_id": "m2-0049", "match": "m2", "t_ms": 27571, "actor": "mae", "kind": "strike", "situation": "cornered", "target": "p2", "success": true}
+{"event_id": "m2-0050", "match": "m2", "t_ms": 27940, "actor": "p2", "kind": "strike", "situation": "after_block", "target": "silas", "success": false}
+{"event_id": "m2-0051", "match": "m2", "t_ms": 28529, "actor": "silas", "kind": "block", "situation": "after_block", "target": "p2", "success": true}
+{"event_id": "m2-0052", "match": "m2", "t_ms": 29278, "actor": "p2", "kind": "strike", "situation": "low_stamina", "target": "mae", "success": true}
+{"event_id": "m2-0053", "match": "m2", "t_ms": 29713, "actor": "mae", "kind": "strike", "situation": "low_stamina", "target": "p2", "success": false}
+{"event_id": "m2-0054", "match": "m2", "t_ms": 30374, "actor": "p2", "kind": "strike", "situation": "low_stamina", "target": "vex", "success": false}
+{"event_id": "m2-0055", "match": "m2", "t_ms": 31234, "actor": "vex", "kind": "grapple", "situation": "low_stamina", "target": "p2", "success": false}
+{"event_id": "m2-0056", "match": "m2", "t_ms": 32096, "actor": "p2", "kind": "grapple", "situation": "low_stamina", "target": "brutus", "success": false}
+{"event_id": "m2-0057", "match": "m2", "t_ms": 32348, "actor": "brutus", "kind": "strike", "situation": "low_stamina", "target": "p2", "success": true}
+{"event_id": "m2-0058", "match": "m2", "t_ms": 32996, "actor": "mae", "kind": "grapple", "situation": "opening", "target": "p2", "success": false}
+{"event_id": "m2-0059", "match": "m2", "t_ms": 33828, "actor": "p2", "kind": "grapple", "situation": "opening", "target": "mae", "success": false}
+{"event_id": "m2-0060", "match": "m2", "t_ms": 34468, "actor": "mae", "kind": "knockdown", "situation": "low_stamina", "target": "p2", "success": true}
+{"event_id": "m2-0061", "match": "m2", "t_ms": 34932, "actor": "mae", "kind": "pin", "situation": "low_stamina", "target": "p2", "success": true}
+{"event_id": "m2-0062", "match": "m2", "t_ms": 35584, "actor": "mae", "kind": "elimination", "situation": "cornered", "target": "p2", "success": true, "text": "p2 goes over the top rope"}
+{"event_id": "m2-0063", "match": "m2", "t_ms": 35978, "actor": "silas", "kind": "block", "situation": "cornered", "target": "vex", "success": false}
+{"event_id": "m2-0064", "match": "m2", "t_ms": 36590, "actor": "vex", "kind": "block", "situation": "after_block", "target": "silas", "success": false}
+{"event_id": "m2-0065", "match": "m2", "t_ms": 36862, "actor": "brutus", "kind": "strike", "situation": "opening", "target": "vex", "success": false}
+{"event_id": "m2-0066", "match": "m2", "t_ms": 37391, "actor": "vex", "kind": "grapple", "situation": "opening", "target": "brutus", "success": false}
+{"event_id": "m2-0067", "match": "m2", "t_ms": 38225, "actor": "silas", "kind": "grapple", "situation": "after_block", "target": "brutus", "success": true}
+{"event_id": "m2-0068", "match": "m2", "t_ms": 38962, "actor": "brutus", "kind": "strike", "situation": "after_block", "target": "silas", "success": true}
+{"event_id": "m2-0069", "match": "m2", "t_ms": 39407, "actor": "mae", "kind": "grapple", "situation": "after_block", "target": "brutus", "success": false}
+{"event_id": "m2-0070", "match": "m2", "t_ms": 40131, "actor": "brutus", "kind": "block", "situation": "after_block", "target": "mae", "success": false}
+{"event_id": "m2-0071", "match": "m2", "t_ms": 40743, "actor": "brutus", "kind": "strike", "situation": "opening", "target": "silas", "success": false}
+{"event_id": "m2-0072", "match": "m2", "t_ms": 41038, "actor": "silas", "kind": "block", "situation": "opening", "target": "brutus", "success": true}
+{"event_id": "m2-0073", "match": "m2", "t_ms": 41404, "actor": "silas", "kind": "knockdown", "situation": "low_stamina", "target": "brutus", "success": true}
+{"event_id": "m2-0074", "match": "m2", "t_ms": 41671, "actor": "silas", "kind": "pin", "situation": "low_stamina", "target": "brutus", "success": false}
+{"event_id": "m2-0075", "match": "m2", "t_ms": 42446, "actor": "brutus", "kind": "kickout", "situation": "low_stamina", "target": "silas", "success": true}
+{"event_id": "m2-0076", "match": "m2", "t_ms": 43029, "actor": "silas", "kind": "grapple", "situation": "after_block", "target": "mae", "success": false}
+{"event_id": "m2-0077", "match": "m2", "t_ms": 43407, "actor": "mae", "kind": "grapple", "situation": "after_block", "target": "silas", "success": false}
+{"event_id": "m2-0078", "match": "m2", "t_ms": 44177, "actor": "mae", "kind": "grapple", "situation": "opening", "target": "brutus", "success": false}
+{"event_id": "m2-0079", "match": "m2", "t_ms": 44591, "actor": "brutus", "kind": "strike", "situation": "opening", "target": "mae", "success": true}
+{"event_id": "m2-0080", "match": "m2", "t_ms": 45252, "actor": "vex", "kind": "block", "situation": "opening", "target": "mae", "success": true}
+{"event_id": "m2-0081", "match": "m2", "t_ms": 45804, "actor": "mae", "kind": "grapple", "situation": "after_block", "target": "vex", "success": true}
+{"event_id": "m2-0082", "match": "m2", "t_ms": 46104, "actor": "vex", "kind": "plan", "situation": "cornered", "target": "silas", "text": "counter silas's cornered habit"}
+{"event_id": "m2-0083", "match": "m2", "t_ms": 46740, "actor": "vex", "kind": "block", "situation": "cornered", "target": "silas", "success": true}
+{"event_id": "m2-0084", "match": "m2", "t_ms": 47457, "actor": "silas", "kind": "block", "situation": "after_block", "target": "vex", "success": false}
+{"event_id": "m2-0085", "match": "m2", "t_ms": 47769, "actor": "silas", "kind": "grapple", "situation": "after_block", "target": "brutus", "success": true}
+{"event_id": "m2-0086", "match": "m2", "t_ms": 48032, "actor": "brutus", "kind": "strike", "situation": "after_block", "target": "silas", "success": true}
+{"event_id": "m2-0087", "match": "m2", "t_ms": 48640, "actor": "brutus", "kind": "block", "situation": "low_stamina", "target": "vex", "success": false}
+{"event_id": "m2-0088", "match": "m2", "t_ms": 49089, "actor": "vex", "kind": "strike", "situation": "after_block", "target": "brutus", "success": false}
+{"event_id": "m2-0089", "match": "m2", "t_ms": 49760, "actor": "brutus", "kind": "taunt", "situation": "low_stamina", "target": "mae", "text": "Nobody stands up after Brutus Kane."}
+{"event_id": "m2-0090", "match": "m2", "t_ms": 50317, "actor": "silas", "kind": "block", "situation": "opening", "target": "brutus", "success": true}
+{"event_id": "m2-0091", "match": "m2", "t_ms": 50657, "actor": "brutus", "kind": "grapple", "situation": "after_block", "target": "silas", "success": true}
+{"event_id": "m2-0092", "match": "m2", "t_ms": 50925, "actor": "silas", "kind": "grapple", "situation": "low_stamina", "target": "vex", "success": true}
+{"event_id": "m2-0093", "match": "m2", "t_ms": 51650, "actor": "vex", "kind": "block", "situation": "low_stamina", "target": "silas", "success": false}
+{"event_id": "m2-0094", "match": "m2", "t_ms": 51964, "actor": "brutus", "kind": "strike", "situation": "low_stamina", "target": "silas", "success": true}
+{"event_id": "m2-0095", "match": "m2", "t_ms": 52456, "actor": "silas", "kind": "strike", "situation": "low_stamina", "target": "brutus", "success": false}
+{"event_id": "m2-0096", "match": "m2", "t_ms": 53257, "actor": "brutus", "kind": "knockdown", "situation": "low_stamina", "target": "silas", "success": true}
+{"event_id": "m2-0097", "match": "m2", "t_ms": 53916, "actor": "brutus", "kind": "elimination", "situation": "cornered", "target": "silas", "success": true, "text": "silas goes over the top rope"}
+{"event_id": "m2-0098", "match": "m2", "t_ms": 54273, "actor": "brutus", "kind": "plan", "situation": "low_stamina", "target": "mae", "text": "counter mae's low_stamina habit"}
+{"event_id": "m2-0099", "match": "m2", "t_ms": 54835, "actor": "brutus", "kind": "strike", "situation": "low_stamina", "target": "mae", "success": true}
+{"event_id": "m2-0100", "match": "m2", "t_ms": 55330, "actor": "mae", "kind": "grapple", "situation": "low_stamina", "target": "brutus", "success": false}
+{"event_id": "m2-0101", "match": "m2", "t_ms": 55910, "actor": "brutus", "kind": "knockdown", "situation": "low_stamina", "target": "mae", "success": true}
+{"event_id": "m2-0102", "match": "m2", "t_ms": 56191, "actor": "brutus", "kind": "pin", "situation": "low_stamina", "target": "mae", "success": false}
+{"event_id": "m2-0103", "match": "m2", "t_ms": 56581, "actor": "mae", "kind": "kickout", "situation": "low_stamina", "target": "brutus", "success": true}
+{"event_id": "m2-0104", "match": "m2", "t_ms": 57250, "actor": "mae", "kind": "strike", "situation": "low_stamina", "target": "vex", "success": true}
+{"event_id": "m2-0105", "match": "m2", "t_ms": 57676, "actor": "vex", "kind": "grapple", "situation": "low_stamina", "target": "mae", "success": false}
+{"event_id": "m2-0106", "match": "m2", "t_ms": 58059, "actor": "mae", "kind": "knockdown", "situation": "low_stamina", "target": "vex", "success": true}
+{"event_id": "m2-0107", "match": "m2", "t_ms": 58556, "actor": "mae", "kind": "pin", "situation": "low_stamina", "target": "vex", "success": false}
+{"event_id": "m2-0108", "match": "m2", "t_ms": 59247, "actor": "vex", "kind": "kickout", "situation": "low_stamina", "target": "mae", "success": true}
+{"event_id": "m2-0109", "match": "m2", "t_ms": 60040, "actor": "vex", "kind": "grapple", "situation": "low_stamina", "target": "mae", "success": false}
+{"event_id": "m2-0110", "match": "m2", "t_ms": 60638, "actor": "mae", "kind": "grapple", "situation": "low_stamina", "target": "vex", "success": false}
+{"event_id": "m2-0111", "match": "m2", "t_ms": 61125, "actor": "brutus", "kind": "strike", "situation": "low_stamina", "target": "vex", "success": false}
+{"event_id": "m2-0112", "match": "m2", "t_ms": 61547, "actor": "vex", "kind": "grapple", "situation": "low_stamina", "target": "brutus", "success": false}
+{"event_id": "m2-0113", "match": "m2", "t_ms": 62092, "actor": "mae", "kind": "strike", "situation": "low_stamina", "target": "vex", "success": true}
+{"event_id": "m2-0114", "match": "m2", "t_ms": 62764, "actor": "vex", "kind": "block", "situation": "low_stamina", "target": "mae", "success": true}
+{"event_id": "m2-0115", "match": "m2", "t_ms": 63392, "actor": "vex", "kind": "knockdown", "situation": "low_stamina", "target": "mae", "success": true}
+{"event_id": "m2-0116", "match": "m2", "t_ms": 64231, "actor": "vex", "kind": "elimination", "situation": "cornered", "target": "mae", "success": true, "text": "mae goes over the top rope"}
+{"event_id": "m2-0117", "match": "m2", "t_ms": 64550, "actor": "brutus", "kind": "grapple", "situation": "low_stamina", "target": "vex", "success": false}
+{"event_id": "m2-0118", "match": "m2", "t_ms": 65066, "actor": "vex", "kind": "strike", "situation": "low_stamina", "target": "brutus", "success": true}
+{"event_id": "m2-0119", "match": "m2", "t_ms": 65639, "actor": "brutus", "kind": "plan", "situation": "low_stamina", "target": "vex", "text": "counter vex's low_stamina habit"}
+{"event_id": "m2-0120", "match": "m2", "t_ms": 66383, "actor": "brutus", "kind": "strike", "situation": "low_stamina", "target": "vex", "success": false}
+{"event_id": "m2-0121", "match": "m2", "t_ms": 67252, "actor": "vex", "kind": "grapple", "situation": "low_stamina", "target": "brutus", "success": false}
+{"event_id": "m2-0122", "match": "m2", "t_ms": 67829, "actor": "brutus", "kind": "knockdown", "situation": "low_stamina", "target": "vex", "success": true}
+{"event_id": "m2-0123", "match": "m2", "t_ms": 68689, "actor": "brutus", "kind": "pin", "situation": "low_stamina", "target": "vex", "success": false}
+{"event_id": "m2-0124", "match": "m2", "t_ms": 69503, "actor": "vex", "kind": "kickout", "situation": "low_stamina", "target": "brutus", "success": true}
+{"event_id": "m2-0125", "match": "m2", "t_ms": 69907, "actor": "brutus", "kind": "grapple", "situation": "low_stamina", "target": "vex", "success": true}
+{"event_id": "m2-0126", "match": "m2", "t_ms": 70481, "actor": "vex", "kind": "strike", "situation": "low_stamina", "target": "brutus", "success": true}
+{"event_id": "m2-0127", "match": "m2", "t_ms": 71087, "actor": "vex", "kind": "knockdown", "situation": "low_stamina", "target": "brutus", "success": true}
+{"event_id": "m2-0128", "match": "m2", "t_ms": 71849, "actor": "vex", "kind": "elimination", "situation": "cornered", "target": "brutus", "success": true, "text": "brutus goes over the top rope"}
+{"event_id": "m2-0129", "match": "m2", "t_ms": 72611, "actor": "booth", "kind": "commentary", "situation": "opening", "target": "vex", "text": "vex is the last one standing!"}
+{"event_id": "m3-0000", "match": "m3", "t_ms": 798, "actor": "p2", "kind": "entry", "situation": "opening"}
+{"event_id": "m3-0001", "match": "m3", "t_ms": 1414, "actor": "p1", "kind": "entry", "situation": "opening"}
+{"event_id": "m3-0002", "match": "m3", "t_ms": 2225, "actor": "vex", "kind": "entry", "situation": "opening"}
+{"event_id": "m3-0003", "match": "m3", "t_ms": 2987, "actor": "silas", "kind": "entry", "situation": "opening"}
+{"event_id": "m3-0004", "match": "m3", "t_ms": 3422, "actor": "brutus", "kind": "entry", "situation": "opening"}
+{"event_id": "m3-0005", "match": "m3", "t_ms": 3713, "actor": "mae", "kind": "entry", "situation": "opening"}
+{"event_id": "m3-0006", "match": "m3", "t_ms": 4098, "actor": "booth", "kind": "commentary", "situation": "opening", "text": "Over the Top, m3: six bodies, one ring."}
+{"event_id": "m3-0007", "match": "m3", "t_ms": 4820, "actor": "brutus", "kind": "strike", "situation": "opening", "target": "p2", "success": true}
+{"event_id": "m3-0008", "match": "m3", "t_ms": 5071, "actor": "p2", "kind": "grapple", "situation": "opening", "target": "brutus", "success": false}
+{"event_id": "m3-0009", "match": "m3", "t_ms": 5337, "actor": "p1", "kind": "grapple", "situation": "opening", "target": "vex", "success": true}
+{"event_id": "m3-0010", "match": "m3", "t_ms": 6188, "actor": "vex", "kind": "strike", "situation": "opening", "target": "p1", "success": true}
+{"event_id": "m3-0011", "match": "m3", "t_ms": 6965, "actor": "silas", "kind": "alliance_offer", "situation": "opening", "target": "brutus", "text": "Let bygones be bygones?"}
+{"event_id": "m3-0012", "match": "m3", "t_ms": 7717, "actor": "p2", "kind": "taunt", "situation": "cornered", "target": "silas", "text": "Good match. Now get out of my ring."}
+{"event_id": "m3-0013", "match": "m3", "t_ms": 8134, "actor": "p1", "kind": "strike", "situation": "opening", "target": "p2", "success": false}
+{"event_id": "m3-0014", "match": "m3", "t_ms": 8710, "actor": "p2", "kind": "block", "situation": "opening", "target": "p1", "success": true}
+{"event_id": "m3-0015", "match": "m3", "t_ms": 9317, "actor": "brutus", "kind": "alliance_reply", "situation": "opening", "target": "silas", "success": false, "text": "You stabbed me in the back last time."}
+{"event_id": "m3-0016", "match": "m3", "t_ms": 10053, "actor": "p1", "kind": "strike", "situation": "opening", "target": "silas", "success": true}
+{"event_id": "m3-0017", "match": "m3", "t_ms": 10551, "actor": "silas", "kind": "block", "situation": "opening", "target": "p1", "success": true}
+{"event_id": "m3-0018", "match": "m3", "t_ms": 11436, "actor": "brutus", "kind": "grapple", "situation": "cornered", "target": "p2", "success": false}
+{"event_id": "m3-0019", "match": "m3", "t_ms": 11979, "actor": "p2", "kind": "block", "situation": "cornered", "target": "brutus", "success": false}
+{"event_id": "m3-0020", "match": "m3", "t_ms": 12424, "actor": "brutus", "kind": "strike", "situation": "cornered", "target": "vex", "success": false}
+{"event_id": "m3-0021", "match": "m3", "t_ms": 12761, "actor": "vex", "kind": "grapple", "situation": "cornered", "target": "brutus", "success": false}
+{"event_id": "m3-0022", "match": "m3", "t_ms": 13606, "actor": "p2", "kind": "block", "situation": "opening", "target": "vex", "success": false}
+{"event_id": "m3-0023", "match": "m3", "t_ms": 13932, "actor": "vex", "kind": "grapple", "situation": "after_block", "target": "p2", "success": true}
+{"event_id": "m3-0024", "match": "m3", "t_ms": 14183, "actor": "silas", "kind": "block", "situation": "cornered", "target": "p1", "success": true}
+{"event_id": "m3-0025", "match": "m3", "t_ms": 14802, "actor": "p1", "kind": "grapple", "situation": "after_block", "target": "silas", "success": true}
+{"event_id": "m3-0026", "match": "m3", "t_ms": 15607, "actor": "vex", "kind": "plan", "situation": "after_block", "target": "p2", "text": "counter p2's after_block habit"}
+{"event_id": "m3-0027", "match": "m3", "t_ms": 16295, "actor": "vex", "kind": "strike", "situation": "after_block", "target": "p2", "success": false}
+{"event_id": "m3-0028", "match": "m3", "t_ms": 17183, "actor": "p2", "kind": "block", "situation": "after_block", "target": "vex", "success": true}
+{"event_id": "m3-0029", "match": "m3", "t_ms": 17703, "actor": "p1", "kind": "taunt", "situation": "opening", "target": "brutus", "text": "Come on, crowd, let me hear you!"}
+{"event_id": "m3-0030", "match": "m3", "t_ms": 18071, "actor": "p2", "kind": "grapple", "situation": "opening", "target": "brutus", "success": true}
+{"event_id": "m3-0031", "match": "m3", "t_ms": 18725, "actor": "brutus", "kind": "strike", "situation": "opening", "target": "p2", "success": true}
+{"event_id": "m3-0032", "match": "m3", "t_ms": 19302, "actor": "p2", "kind": "grapple", "situation": "low_stamina", "target": "mae", "success": false}
+{"event_id": "m3-0033", "match": "m3", "t_ms": 20180, "actor": "mae", "kind": "grapple", "situation": "low_stamina", "target": "p2", "success": false}
+{"event_id": "m3-0034", "match": "m3", "t_ms": 20456, "actor": "p2", "kind": "strike", "situation": "low_stamina", "target": "vex", "success": false}
+{"event_id": "m3-0035", "match": "m3", "t_ms": 21009, "actor": "vex", "kind": "block", "situation": "low_stamina", "target": "p2", "success": true}
+{"event_id": "m3-0036", "match": "m3", "t_ms": 21818, "actor": "vex", "kind": "knockdown", "situation": "low_stamina", "target": "p2", "success": true}
+{"event_id": "m3-0037", "match": "m3", "t_ms": 22692, "actor": "vex", "kind": "elimination", "situation": "cornered", "target": "p2", "success": true, "text": "p2 goes over the top rope"}
+{"event_id": "m3-0038", "match": "m3", "t_ms": 23010, "actor": "brutus", "kind": "strike", "situation": "after_block", "target": "vex", "success": true}
+{"event_id": "m3-0039", "match": "m3", "t_ms": 23273, "actor": "vex", "kind": "strike", "situation": "after_block", "target": "brutus", "success": false}
+{"event_id": "m3-0040", "match": "m3", "t_ms": 23916, "actor": "p1", "kind": "grapple", "situation": "opening", "target": "vex", "success": false}
+{"event_id": "m3-0041", "match": "m3", "t_ms": 24754, "actor": "vex", "kind": "strike", "situation": "opening", "target": "p1", "success": true}
+{"event_id": "m3-0042", "match": "m3", "t_ms": 25285, "actor": "brutus", "kind": "block", "situation": "cornered", "target": "silas", "success": true}
+{"event_id": "m3-0043", "match": "m3", "t_ms": 26091, "actor": "silas", "kind": "grapple", "situation": "after_block", "target": "brutus", "success": true}
+{"event_id": "m3-0044", "match": "m3", "t_ms": 26824, "actor": "p1", "kind": "block", "situation": "low_stamina", "target": "brutus", "success": true}
+{"event_id": "m3-0045", "match": "m3", "t_ms": 27576, "actor": "brutus", "kind": "grapple", "situation": "after_block", "target": "p1", "success": true}
+{"event_id": "m3-0046", "match": "m3", "t_ms": 28121, "actor": "brutus", "kind": "knockdown", "situation": "low_stamina", "target": "p1", "success": true}
+{"event_id": "m3-0047", "match": "m3", "t_ms": 29010, "actor": "brutus", "kind": "pin", "situation": "low_stamina", "target": "p1", "success": false}
+{"event_id": "m3-0048", "match": "m3", "t_ms": 29600, "actor": "p1", "kind": "kickout", "situation": "low_stamina", "target": "brutus", "success": true}
+{"event_id": "m3-0049", "match": "m3", "t_ms": 30148, "actor": "vex", "kind": "block", "situation": "cornered", "target": "brutus", "success": false}
+{"event_id": "m3-0050", "match": "m3", "t_ms": 30840, "actor": "brutus", "kind": "grapple", "situation": "after_block", "target": "vex", "success": true}
+{"event_id": "m3-0051", "match": "m3", "t_ms": 31191, "actor": "p1", "kind": "taunt", "situation": "low_stamina", "target": "brutus", "text": "Is that all you've got?"}
+{"event_id": "m3-0052", "match": "m3", "t_ms": 31613, "actor": "mae", "kind": "block", "situation": "opening", "target": "p1", "success": false}
+{"event_id": "m3-0053", "match": "m3", "t_ms": 32217, "actor": "p1", "kind": "grapple", "situation": "after_block", "target": "mae", "success": true}
+{"event_id": "m3-0054", "match": "m3", "t_ms": 33018, "actor": "p1", "kind": "block", "situation": "low_stamina", "target": "brutus", "success": false}
+{"event_id": "m3-0055", "match": "m3", "t_ms": 33517, "actor": "brutus", "kind": "grapple", "situation": "after_block", "target": "p1", "success": true}
+{"event_id": "m3-0056", "match": "m3", "t_ms": 34362, "actor": "p1", "kind": "grapple", "situation": "low_stamina", "target": "vex", "success": true}
+{"event_id": "m3-0057", "match": "m3", "t_ms": 34936, "actor": "vex", "kind": "strike", "situation": "low_stamina", "target": "p1", "success": true}
+{"event_id": "m3-0058", "match": "m3", "t_ms": 35727, "actor": "vex", "kind": "knockdown", "situation": "low_stamina", "target": "p1", "success": true}
+{"event_id": "m3-0059", "match": "m3", "t_ms": 36233, "actor": "vex", "kind": "pin", "situation": "low_stamina", "target": "p1", "success": true}
+{"event_id": "m3-0060", "match": "m3", "t_ms": 36556, "actor": "vex", "kind": "elimination", "situation": "cornered", "target": "p1", "success": true, "text": "p1 goes over the top rope"}
+{"event_id": "m3-0061", "match": "m3", "t_ms": 36969, "actor": "brutus", "kind": "block", "situation": "opening", "target": "vex", "success": false}
+{"event_id": "m3-0062", "match": "m3", "t_ms": 37836, "actor": "vex", "kind": "grapple", "situation": "after_block", "target": "brutus", "success": true}
+{"event_id": "m3-0063", "match": "m3", "t_ms": 38187, "actor": "mae", "kind": "grapple", "situation": "opening", "target": "silas", "success": false}
+{"event_id": "m3-0064", "match": "m3", "t_ms": 38608, "actor": "silas", "kind": "grapple", "situation": "opening", "target": "mae", "success": false}
+{"event_id": "m3-0065", "match": "m3", "t_ms": 39037, "actor": "brutus", "kind": "strike", "situation": "opening", "target": "mae", "success": false}
+{"event_id": "m3-0066", "match": "m3", "t_ms": 39488, "actor": "mae", "kind": "strike", "situation": "opening", "target": "brutus", "success": false}
+{"event_id": "m3-0067", "match": "m3", "t_ms": 40291, "actor": "vex", "kind": "block", "situation": "opening", "target": "silas", "success": true}
+{"event_id": "m3-0068", "match": "m3", "t_ms": 40779, "actor": "silas", "kind": "grapple", "situation": "after_block", "target": "vex", "success": true}
+{"event_id": "m3-0069", "match": "m3", "t_ms": 41283, "actor": "mae", "kind": "grapple", "situation": "opening", "target": "brutus", "success": true}
+{"event_id": "m3-0070", "match": "m3", "t_ms": 41870, "actor": "brutus", "kind": "strike", "situation": "opening", "target": "mae", "success": true}
+{"event_id": "m3-0071", "match": "m3", "t_ms": 42633, "actor": "mae", "kind": "block", "situation": "opening", "target": "vex", "success": false}
+{"event_id": "m3-0072", "match": "m3", "t_ms": 42886, "actor": "vex", "kind": "block", "situation": "after_block", "target": "mae", "success": false}
+{"event_id": "m3-0073", "match": "m3", "t_ms": 43493, "actor": "mae", "kind": "knockdown", "situation": "low_stamina", "target": "vex", "success": true}
+{"event_id": "m3-0074", "match": "m3", "t_ms": 44142, "actor": "mae", "kind": "elimination", "situation": "cornered", "target": "vex", "success": true, "text": "vex goes over the top rope"}
+{"event_id": "m3-0075", "match": "m3", "t_ms": 44862, "actor": "brutus", "kind": "block", "situation": "opening", "target": "mae", "success": true}
+{"event_id": "m3-0076", "match": "m3", "t_ms": 45408, "actor": "mae", "kind": "grapple", "situation": "after_block", "target": "brutus", "success": true}
+{"event_id": "m3-0077", "match": "m3", "t_ms": 46068, "actor": "brutus", "kind": "block", "situation": "after_block", "target": "mae", "success": false}
+{"event_id": "m3-0078", "match": "m3", "t_ms": 46810, "actor": "mae", "kind": "strike", "situation": "after_block", "target": "brutus", "success": false}
+{"event_id": "m3-0079", "match": "m3", "t_ms": 47597, "actor": "silas", "kind": "strike", "situation": "cornered", "target": "brutus", "success": false}
+{"event_id": "m3-0080", "match": "m3", "t_ms": 48183, "actor": "brutus", "kind": "block", "situation": "cornered", "target": "silas", "success": true}
+{"event_id": "m3-0081", "match": "m3", "t_ms": 48830, "actor": "brutus", "kind": "plan", "situation": "opening", "target": "silas", "text": "counter silas's opening habit"}
+{"event_id": "m3-0082", "match": "m3", "t_ms": 49631, "actor": "brutus", "kind": "strike", "situation": "opening", "target": "silas", "success": false}
+{"event_id": "m3-0083", "match": "m3", "t_ms": 50158, "actor": "silas", "kind": "block", "situation": "opening", "target": "brutus", "success": true}
+{"event_id": "m3-0084", "match": "m3", "t_ms": 50566, "actor": "silas", "kind": "grapple", "situation": "after_block", "target": "mae", "success": false}
+{"event_id": "m3-0085", "match": "m3", "t_ms": 50925, "actor": "mae", "kind": "block", "situation": "after_block", "target": "silas", "success": false}
+{"event_id": "m3-0086", "match": "m3", "t_ms": 51404, "actor": "silas", "kind": "grapple", "situation": "opening", "target": "mae", "success": false}
+{"event_id": "m3-0087", "match": "m3", "t_ms": 52099, "actor": "mae", "kind": "strike", "situation": "opening", "target": "silas", "success": true}
+{"event_id": "m3-0088", "match": "m3", "t_ms": 52838, "actor": "brutus", "kind": "plan", "situation": "low_stamina", "target": "mae", "text": "counter mae's low_stamina habit"}
+{"event_id": "m3-0089", "match": "m3", "t_ms": 53493, "actor": "brutus", "kind": "block", "situation": "low_stamina", "target": "mae", "success": false}
+{"event_id": "m3-0090", "match": "m3", "t_ms": 53984, "actor": "mae", "kind": "grapple", "situation": "after_block", "target": "brutus", "success": true}
+{"event_id": "m3-0091", "match": "m3", "t_ms": 54250, "actor": "silas", "kind": "taunt", "situation": "cornered", "target": "mae", "text": "Shake my hand. Go on. What could happen?"}
+{"event_id": "m3-0092", "match": "m3", "t_ms": 55103, "actor": "brutus", "kind": "strike", "situation": "low_stamina", "target": "mae", "success": true}
+{"event_id": "m3-0093", "match": "m3", "t_ms": 55539, "actor": "mae", "kind": "block", "situation": "low_stamina", "target": "brutus", "success": true}
+{"event_id": "m3-0094", "match": "m3", "t_ms": 56204, "actor": "mae", "kind": "knockdown", "situation": "low_stamina", "target": "brutus", "success": true}
+{"event_id": "m3-0095", "match": "m3", "t_ms": 56551, "actor": "mae", "kind": "pin", "situation": "low_stamina", "target": "brutus", "success": false}
+{"event_id": "m3-0096", "match": "m3", "t_ms": 57390, "actor": "brutus", "kind": "kickout", "situation": "low_stamina", "target": "mae", "success": true}
+{"event_id": "m3-0097", "match": "m3", "t_ms": 57667, "actor": "brutus", "kind": "block", "situation": "low_stamina", "target": "mae", "success": true}
+{"event_id": "m3-0098", "match": "m3", "t_ms": 58225, "actor": "mae", "kind": "block", "situation": "after_block", "target": "brutus", "success": false}
+{"event_id": "m3-0099", "match": "m3", "t_ms": 58775, "actor": "brutus", "kind": "knockdown", "situation": "low_stamina", "target": "mae", "success": true}
+{"event_id": "m3-0100", "match": "m3", "t_ms": 59339, "actor": "brutus", "kind": "elimination", "situation": "cornered", "target": "mae", "success": true, "text": "mae goes over the top rope"}
+{"event_id": "m3-0101", "match": "m3", "t_ms": 59862, "actor": "silas", "kind": "grapple", "situation": "cornered", "target": "brutus", "success": true}
+{"event_id": "m3-0102", "match": "m3", "t_ms": 60448, "actor": "brutus", "kind": "grapple", "situation": "cornered", "target": "silas", "success": false}
+{"event_id": "m3-0103", "match": "m3", "t_ms": 61132, "actor": "silas", "kind": "strike", "situation": "opening", "target": "brutus", "success": true}
+{"event_id": "m3-0104", "match": "m3", "t_ms": 61860, "actor": "brutus", "kind": "grapple", "situation": "opening", "target": "silas", "success": false}
+{"event_id": "m3-0105", "match": "m3", "t_ms": 62282, "actor": "silas", "kind": "knockdown", "situation": "low_stamina", "target": "brutus", "success": true}
+{"event_id": "m3-0106", "match": "m3", "t_ms": 62754, "actor": "silas", "kind": "elimination", "situation": "cornered", "target": "brutus", "success": true, "text": "brutus goes over the top rope"}
+{"event_id": "m3-0107", "match": "m3", "t_ms": 63529, "actor": "booth", "kind": "commentary", "situation": "opening", "target": "silas", "text": "silas is the last one standing!"}
+{"event_id": "m4-0000", "match": "m4", "t_ms": 717, "actor": "silas", "kind": "entry", "situation": "opening"}
+{"event_id": "m4-0001", "match": "m4", "t_ms": 1260, "actor": "mae", "kind": "entry", "situation": "opening"}
+{"event_id": "m4-0002", "match": "m4", "t_ms": 1623, "actor": "brutus", "kind": "entry", "situation": "opening"}
+{"event_id": "m4-0003", "match": "m4", "t_ms": 1901, "actor": "p2", "kind": "entry", "situation": "opening"}
+{"event_id": "m4-0004", "match": "m4", "t_ms": 2678, "actor": "p1", "kind": "entry", "situation": "opening"}
+{"event_id": "m4-0005", "match": "m4", "t_ms": 3183, "actor": "vex", "kind": "entry", "situation": "opening"}
+{"event_id": "m4-0006", "match": "m4", "t_ms": 3949, "actor": "booth", "kind": "commentary", "situation": "opening", "text": "Over the Top, m4: six bodies, one ring."}
+{"event_id": "m4-0007", "match": "m4", "t_ms": 4568, "actor": "p2", "kind": "grapple", "situation": "opening", "target": "brutus", "success": true}
+{"event_id": "m4-0008", "match": "m4", "t_ms": 5186, "actor": "brutus", "kind": "strike", "situation": "opening", "target": "p2", "success": true}
+{"event_id": "m4-0009", "match": "m4", "t_ms": 5535, "actor": "p1", "kind": "strike", "situation": "opening", "target": "vex", "success": true}
+{"event_id": "m4-0010", "match": "m4", "t_ms": 5859, "actor": "vex", "kind": "block", "situation": "opening", "target": "p1", "success": true}
+{"event_id": "m4-0011", "match": "m4", "t_ms": 6312, "actor": "brutus", "kind": "alliance_offer", "situation": "opening", "target": "mae", "text": "You fight fair. Partners?"}
+{"event_id": "m4-0012", "match": "m4", "t_ms": 6680, "actor": "silas", "kind": "taunt", "situation": "after_block", "target": "p1", "text": "Trust is for people who lose."}
+{"event_id": "m4-0013", "match": "m4", "t_ms": 6965, "actor": "p2", "kind": "grapple", "situation": "after_block", "target": "brutus", "success": true}
+{"event_id": "m4-0014", "match": "m4", "t_ms": 7810, "actor": "brutus", "kind": "strike", "situation": "after_block", "target": "p2", "success": true}
+{"event_id": "m4-0015", "match": "m4", "t_ms": 8589, "actor": "mae", "kind": "alliance_reply", "situation": "opening", "target": "brutus", "success": true, "text": "Partners, till the bell."}
+{"event_id": "m4-0016", "match": "m4", "t_ms": 9238, "actor": "p1", "kind": "strike", "situation": "opening", "target": "brutus", "success": true}
+{"event_id": "m4-0017", "match": "m4", "t_ms": 9809, "actor": "brutus", "kind": "block", "situation": "opening", "target": "p1", "success": true}
+{"event_id": "m4-0018", "match": "m4", "t_ms": 10524, "actor": "p1", "kind": "strike", "situation": "cornered", "target": "vex", "success": true}
+{"event_id": "m4-0019", "match": "m4", "t_ms": 11034, "actor": "vex", "kind": "block", "situation": "cornered", "target": "p1", "success": true}
+{"event_id": "m4-0020", "match": "m4", "t_ms": 11637, "actor": "mae", "kind": "strike", "situation": "cornered", "target": "silas", "success": true}
+{"event_id": "m4-0021", "match": "m4", "t_ms": 12261, "actor": "silas", "kind": "grapple", "situation": "cornered", "target": "mae", "success": false}
+{"event_id": "m4-0022", "match": "m4", "t_ms": 12575, "actor": "p2", "kind": "grapple", "situation": "opening", "target": "brutus", "success": false}
+{"event_id": "m4-0023", "match": "m4", "t_ms": 13363, "actor": "brutus", "kind": "strike", "situation": "opening", "target": "p2", "success": true}
+{"event_id": "m4-0024", "match": "m4", "t_ms": 13666, "actor": "brutus", "kind": "grapple", "situation": "opening", "target": "mae", "success": true}
+{"event_id": "m4-0025", "match": "m4", "t_ms": 13995, "actor": "mae", "kind": "strike", "situation": "opening", "target": "brutus", "success": true}
+{"event_id": "m4-0026", "match": "m4", "t_ms": 14859, "actor": "p1", "kind": "strike", "situation": "cornered", "target": "p2", "success": false}
+{"event_id": "m4-0027", "match": "m4", "t_ms": 15413, "actor": "p2", "kind": "strike", "situation": "cornered", "target": "p1", "success": false}
+{"event_id": "m4-0028", "match": "m4", "t_ms": 16041, "actor": "vex", "kind": "strike", "situation": "after_block", "target": "mae", "success": false}
+{"event_id": "m4-0029", "match": "m4", "t_ms": 16407, "actor": "mae", "kind": "grapple", "situation": "after_block", "target": "vex", "success": false}
+{"event_id": "m4-0030", "match": "m4", "t_ms": 16967, "actor": "p2", "kind": "grapple", "situation": "low_stamina", "target": "mae", "success": true}
+{"event_id": "m4-0031", "match": "m4", "t_ms": 17218, "actor": "mae", "kind": "strike", "situation": "low_stamina", "target": "p2", "success": true}
+{"event_id": "m4-0032", "match": "m4", "t_ms": 17813, "actor": "mae", "kind": "knockdown", "situation": "low_stamina", "target": "p2", "success": true}
+{"event_id": "m4-0033", "match": "m4", "t_ms": 18553, "actor": "mae", "kind": "pin", "situation": "low_stamina", "target": "p2", "success": true}
+{"event_id": "m4-0034", "match": "m4", "t_ms": 19161, "actor": "mae", "kind": "elimination", "situation": "cornered", "target": "p2", "success": true, "text": "p2 goes over the top rope"}
+{"event_id": "m4-0035", "match": "m4", "t_ms": 19768, "actor": "silas", "kind": "grapple", "situation": "after_block", "target": "p1", "success": true}
+{"event_id": "m4-0036", "match": "m4", "t_ms": 20158, "actor": "p1", "kind": "block", "situation": "after_block", "target": "silas", "success": false}
+{"event_id": "m4-0037", "match": "m4", "t_ms": 20633, "actor": "p1", "kind": "block", "situation": "low_stamina", "target": "silas", "success": false}
+{"event_id": "m4-0038", "match": "m4", "t_ms": 21324, "actor": "silas", "kind": "strike", "situation": "after_block", "target": "p1", "success": false}
+{"event_id": "m4-0039", "match": "m4", "t_ms": 22026, "actor": "p1", "kind": "grapple", "situation": "low_stamina", "target": "vex", "success": false}
+{"event_id": "m4-0040", "match": "m4", "t_ms": 22749, "actor": "vex", "kind": "strike", "situation": "low_stamina", "target": "p1", "success": true}
+{"event_id": "m4-0041", "match": "m4", "t_ms": 23210, "actor": "vex", "kind": "knockdown", "situation": "low_stamina", "target": "p1", "success": true}
+{"event_id": "m4-0042", "match": "m4", "t_ms": 24054, "actor": "vex", "kind": "elimination", "situation": "cornered", "target": "p1", "success": true, "text": "p1 goes over the top rope"}
+{"event_id": "m4-0043", "match": "m4", "t_ms": 24351, "actor": "vex", "kind": "strike", "situation": "cornered", "target": "brutus", "success": false}
+{"event_id": "m4-0044", "match": "m4", "t_ms": 25059, "actor": "brutus", "kind": "strike", "situation": "cornered", "target": "vex", "success": false}
+{"event_id": "m4-0045", "match": "m4", "t_ms": 25898, "actor": "mae", "kind": "block", "situation": "opening", "target": "silas", "success": true}
+{"event_id": "m4-0046", "match": "m4", "t_ms": 26284, "actor": "silas", "kind": "block", "situation": "after_block", "target": "mae", "success": false}
+{"event_id": "m4-0047", "match": "m4", "t_ms": 26742, "actor": "mae", "kind": "grapple", "situation": "after_block", "target": "vex", "success": false}
+{"event_id": "m4-0048", "match": "m4", "t_ms": 27475, "actor": "vex", "kind": "grapple", "situation": "after_block", "target": "mae", "success": false}
+{"event_id": "m4-0049", "match": "m4", "t_ms": 27808, "actor": "brutus", "kind": "block", "situation": "after_block", "target": "silas", "success": true}
+{"event_id": "m4-0050", "match": "m4", "t_ms": 28422, "actor": "silas", "kind": "strike", "situation": "after_block", "target": "brutus", "success": false}
+{"event_id": "m4-0051", "match": "m4", "t_ms": 28976, "actor": "silas", "kind": "grapple", "situation": "opening", "target": "vex", "success": true}
+{"event_id": "m4-0052", "match": "m4", "t_ms": 29243, "actor": "vex", "kind": "strike", "situation": "opening", "target": "silas", "success": true}
+{"event_id": "m4-0053", "match": "m4", "t_ms": 29528, "actor": "mae", "kind": "grapple", "situation": "opening", "target": "vex", "success": true}
+{"event_id": "m4-0054", "match": "m4", "t_ms": 29796, "actor": "vex", "kind": "grapple", "situation": "opening", "target": "mae", "success": false}
+{"event_id": "m4-0055", "match": "m4", "t_ms": 30406, "actor": "brutus", "kind": "strike", "situation": "opening", "target": "mae", "success": false}
+{"event_id": "m4-0056", "match": "m4", "t_ms": 31107, "actor": "mae", "kind": "grapple", "situation": "opening", "target": "brutus", "success": false}
+{"event_id": "m4-0057", "match": "m4", "t_ms": 31848, "actor": "mae", "kind": "block", "situation": "after_block", "target": "brutus", "success": false}
+{"event_id": "m4-0058", "match": "m4", "t_ms": 32257, "actor": "brutus", "kind": "strike", "situation": "after_block", "target": "mae", "success": false}
+{"event_id": "m4-0059", "match": "m4", "t_ms": 32755, "actor": "silas", "kind": "plan", "situation": "after_block", "target": "brutus", "text": "counter brutus's after_block habit"}
+{"event_id": "m4-0060", "match": "m4", "t_ms": 33092, "actor": "silas", "kind": "block", "situation": "after_block", "target": "brutus", "success": false}
+{"event_id": "m4-0061", "match": "m4", "t_ms": 33813, "actor": "brutus", "kind": "block", "situation": "after_block", "target": "silas", "success": false}
+{"event_id": "m4-0062", "match": "m4", "t_ms": 34613, "actor": "silas", "kind": "block", "situation": "cornered", "target": "mae", "success": false}
+{"event_id": "m4-0063", "match": "m4", "t_ms": 34934, "actor": "mae", "kind": "grapple", "situation": "after_block", "target": "silas", "success": true}
+{"event_id": "m4-0064", "match": "m4", "t_ms": 35608, "actor": "mae", "kind": "knockdown", "situation": "low_stamina", "target": "silas", "success": true}
+{"event_id": "m4-0065", "match": "m4", "t_ms": 35858, "actor": "mae", "kind": "elimination", "situation": "cornered", "target": "silas", "success": true, "text": "silas goes over the top rope"}
+{"event_id": "m4-0066", "match": "m4", "t_ms": 36225, "actor": "vex", "kind": "block", "situation": "opening", "target": "brutus", "success": false}
+{"event_id": "m4-0067", "match": "m4", "t_ms": 36556, "actor": "brutus", "kind": "grapple", "situation": "after_block", "target": "vex", "success": true}
+{"event_id": "m4-0068", "match": "m4", "t_ms": 37390, "actor": "mae", "kind": "grapple", "situation": "cornered", "target": "brutus", "success": true}
+{"event_id": "m4-0069", "match": "m4", "t_ms": 38079, "actor": "brutus", "kind": "grapple", "situation": "cornered", "target": "mae", "success": false}
+{"event_id": "m4-0070", "match": "m4", "t_ms": 38952, "actor": "mae", "kind": "strike", "situation": "cornered", "target": "brutus", "success": true}
+{"event_id": "m4-0071", "match": "m4", "t_ms": 39375, "actor": "brutus", "kind": "strike", "situation": "cornered", "target": "mae", "success": false}
+{"event_id": "m4-0072", "match": "m4", "t_ms": 40201, "actor": "vex", "kind": "plan", "situation": "opening", "target": "brutus", "text": "counter brutus's opening habit"}
+{"event_id": "m4-0073", "match": "m4", "t_ms": 40871, "actor": "vex", "kind": "grapple", "situation": "opening", "target": "brutus", "success": true}
+{"event_id": "m4-0074", "match": "m4", "t_ms": 41397, "actor": "brutus", "kind": "block", "situation": "opening", "target": "vex", "success": false}
+{"event_id": "m4-0075", "match": "m4", "t_ms": 41774, "actor": "vex", "kind": "knockdown", "situation": "low_stamina", "target": "brutus", "success": true}
+{"event_id": "m4-0076", "match": "m4", "t_ms": 42352, "actor": "vex", "kind": "pin", "situation": "low_stamina", "target": "brutus", "success": true}
+{"event_id": "m4-0077", "match": "m4", "t_ms": 43149, "actor": "vex", "kind": "elimination", "situation": "cornered", "target": "brutus", "success": true, "text": "brutus goes over the top rope"}
+{"event_id": "m4-0078", "match": "m4", "t_ms": 43651, "actor": "vex", "kind": "block", "situation": "opening", "target": "mae", "success": true}
+{"event_id": "m4-0079", "match": "m4", "t_ms": 44174, "actor": "mae", "kind": "block", "situation": "after_block", "target": "vex", "success": false}
+{"event_id": "m4-0080", "match": "m4", "t_ms": 44843, "actor": "mae", "kind": "grapple", "situation": "opening", "target": "vex", "success": false}
+{"event_id": "m4-0081", "match": "m4", "t_ms": 45700, "actor": "vex", "kind": "grapple", "situation": "opening", "target": "mae", "success": false}
+{"event_id": "m4-0082", "match": "m4", "t_ms": 46212, "actor": "mae", "kind": "block", "situation": "after_block", "target": "vex", "success": true}
+{"event_id": "m4-0083", "match": "m4", "t_ms": 46790, "actor": "vex", "kind": "grapple", "situation": "after_block", "target": "mae", "success": true}
+{"event_id": "m4-0084", "match": "m4", "t_ms": 47250, "actor": "mae", "kind": "block", "situation": "opening", "target": "vex", "success": false}
+{"event_id": "m4-0085", "match": "m4", "t_ms": 48118, "actor": "vex", "kind": "block", "situation": "after_block", "target": "mae", "success": false}
+{"event_id": "m4-0086", "match": "m4", "t_ms": 48515, "actor": "mae", "kind": "strike", "situation": "opening", "target": "vex", "success": true}
+{"event_id": "m4-0087", "match": "m4", "t_ms": 48898, "actor": "vex", "kind": "block", "situation": "opening", "target": "mae", "success": true}
+{"event_id": "m4-0088", "match": "m4", "t_ms": 49780, "actor": "vex", "kind": "block", "situation": "cornered", "target": "mae", "success": false}
+{"event_id": "m4-0089", "match": "m4", "t_ms": 50368, "actor": "mae", "kind": "grapple", "situation": "after_block", "target": "vex", "success": true}
+{"event_id": "m4-0090", "match": "m4", "t_ms": 50793, "actor": "mae", "kind": "taunt", "situation": "low_stamina", "target": "vex", "text": "Thank you all, this one's for the folks in the cheap seats!"}
+{"event_id": "m4-0091", "match": "m4", "t_ms": 51571, "actor": "vex", "kind": "strike", "situation": "low_stamina", "target": "mae", "success": true}
+{"event_id": "m4-0092", "match": "m4", "t_ms": 51940, "actor": "mae", "kind": "block", "situation": "low_stamina", "target": "vex", "success": true}
+{"event_id": "m4-0093", "match": "m4", "t_ms": 52454, "actor": "mae", "kind": "knockdown", "situation": "low_stamina", "target": "vex", "success": true}
+{"event_id": "m4-0094", "match": "m4", "t_ms": 53230, "actor": "mae", "kind": "pin", "situation": "low_stamina", "target": "vex", "success": false}
+{"event_id": "m4-0095", "match": "m4", "t_ms": 53504, "actor": "vex", "kind": "kickout", "situation": "low_stamina", "target": "mae", "success": true}
+{"event_id": "m4-0096", "match": "m4", "t_ms": 54355, "actor": "mae", "kind": "grapple", "situation": "low_stamina", "target": "vex", "success": true}
+{"event_id": "m4-0097", "match": "m4", "t_ms": 54925, "actor": "vex", "kind": "grapple", "situation": "low_stamina", "target": "mae", "success": false}
+{"event_id": "m4-0098", "match": "m4", "t_ms": 55319, "actor": "mae", "kind": "grapple", "situation": "low_stamina", "target": "vex", "success": true}
+{"event_id": "m4-0099", "match": "m4", "t_ms": 55676, "actor": "vex", "kind": "grapple", "situation": "low_stamina", "target": "mae", "success": false}
+{"event_id": "m4-0100", "match": "m4", "t_ms": 56306, "actor": "mae", "kind": "knockdown", "situation": "low_stamina", "target": "vex", "success": true}
+{"event_id": "m4-0101", "match": "m4", "t_ms": 56853, "actor": "mae", "kind": "pin", "situation": "low_stamina", "target": "vex", "success": false}
+{"event_id": "m4-0102", "match": "m4", "t_ms": 57391, "actor": "vex", "kind": "kickout", "situation": "low_stamina", "target": "mae", "success": true}
+{"event_id": "m4-0103", "match": "m4", "t_ms": 57843, "actor": "vex", "kind": "strike", "situation": "low_stamina", "target": "mae", "success": false}
+{"event_id": "m4-0104", "match": "m4", "t_ms": 58437, "actor": "mae", "kind": "grapple", "situation": "low_stamina", "target": "vex", "success": false}
+{"event_id": "m4-0105", "match": "m4", "t_ms": 59273, "actor": "vex", "kind": "strike", "situation": "low_stamina", "target": "mae", "success": false}
+{"event_id": "m4-0106", "match": "m4", "t_ms": 60052, "actor": "mae", "kind": "grapple", "situation": "low_stamina", "target": "vex", "success": false}
+{"event_id": "m4-0107", "match": "m4", "t_ms": 60813, "actor": "vex", "kind": "knockdown", "situation": "low_stamina", "target": "mae", "success": true}
+{"event_id": "m4-0108", "match": "m4", "t_ms": 61386, "actor": "vex", "kind": "pin", "situation": "low_stamina", "target": "mae", "success": true}
+{"event_id": "m4-0109", "match": "m4", "t_ms": 62271, "actor": "vex", "kind": "elimination", "situation": "cornered", "target": "mae", "success": true, "text": "mae goes over the top rope"}
+{"event_id": "m4-0110", "match": "m4", "t_ms": 62973, "actor": "booth", "kind": "commentary", "situation": "opening", "target": "vex", "text": "vex is the last one standing!"}

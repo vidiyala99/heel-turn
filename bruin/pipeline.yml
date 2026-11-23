@@ -1,0 +1,4 @@
+name: heel_turn_memory
+catchup: false
+default_connections:
+  duckdb: duckdb-default

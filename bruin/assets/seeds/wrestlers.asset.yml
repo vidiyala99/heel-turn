@@ -1,0 +1,19 @@
+name: seeds.wrestlers
+type: duckdb.seed
+description: The roster. Every actor in an event must be one of these.
+
+parameters:
+  path: wrestlers.csv
+
+columns:
+  - name: wrestler
+    type: varchar
+    primary_key: true
+    checks:
+      - name: not_null
+      - name: unique
+  - name: role
+    type: varchar
+    checks:
+      - name: accepted_values
+        value: [human, ai, referee, commentary]

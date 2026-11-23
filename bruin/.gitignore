@@ -1,0 +1,9 @@
+data/*.duckdb
+data/*.duckdb.wal
+data/events.jsonl
+logs/
+__pycache__/
+*.py[cod]
+# bruin appends the line below on every run. .bruin.yml is still tracked (added before the line): it
+# holds only the ${OPENAI_API_KEY} placeholder, never a key.
+.bruin.yml

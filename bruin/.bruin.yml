@@ -1,0 +1,10 @@
+default_environment: default
+environments:
+  default:
+    connections:
+      duckdb:
+        - name: duckdb-default
+          path: data/heel_turn.duckdb
+      openai:
+        - name: openai-default
+          api_key: "${OPENAI_API_KEY}"

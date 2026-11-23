@@ -1,0 +1,75 @@
+=== planted: {"event_id": "m1-0000", "match": "m1", "t_ms": 999999, "actor": "silas", "kind": "suplex", "target": "ghost", "situation": "on_fire", "success": true}
+=== bruin run with the bad row (expect FAIL + UPSTREAM FAILED)
+==================================================
+
+PASS seeds.wrestlers ...
+PASS raw.events 
+PASS staging.stg_events F....F.F..F
+UPSTREAM FAILED marts.counter_rate UUUU
+UPSTREAM FAILED marts.habits UUUUUUU
+UPSTREAM FAILED marts.leaderboard UUUUUU
+UPSTREAM FAILED marts.relationships UUUUUU
+UPSTREAM FAILED marts.taunt_tone UUU
+
+
+bruin run completed with failures in 974ms
+
+ ✗ Assets executed      1 failed due to checks / 2 succeeded / 5 skipped
+ ✗ Quality checks       4 failed / 10 succeeded / 26 skipped
+
+
+1 assets failed
+└── staging.stg_events
+    ├── kind.accepted_values - column 'kind' has 1 rows that are not in the accepted values
+    ├── situation.accepted_values - column 'situation' has 1 rows that are not in the accepted values
+    ├── event_id.unique - column 'event_id' has 1 non-unique values
+    └── every actor is on the roster custom check - custom check 'every actor is on the roster' has returned 1 instead of the expected 0
+
+=== exit code: 1
+=== tamper the marts directly: a habit share of 1.5 and a relationship about 'ghost'; run checks only
+==================================================
+
+SKIP marts.habits ..FF...
+
+
+bruin run completed with failures in 28ms
+
+ ✗ Quality checks       2 failed / 5 succeeded
+
+
+1 assets failed
+└── marts.habits
+    ├── habit share is a proportion custom check - custom check 'habit share is a proportion' has returned 1 instead of the expected 0
+    └── shares sum to 1 per player and situation custom check - custom check 'shares sum to 1 per player and situation' has returned 1 instead of the expected 0
+
+==================================================
+
+SKIP marts.relationships .....F
+
+
+bruin run completed with failures in 23ms
+
+ ✗ Quality checks       1 failed / 5 succeeded
+
+
+1 assets failed
+└── marts.relationships
+    └── relationships only name known wrestlers custom check - custom check 'relationships only name known wrestlers' has returned 2 instead of the expected 0
+
+=== bad row removed, bruin run again (expect green; rebuilds the tampered marts)
+==================================================
+
+PASS seeds.wrestlers ...
+PASS raw.events 
+PASS staging.stg_events ...........
+PASS marts.habits .......
+PASS marts.leaderboard ......
+PASS marts.counter_rate ....
+PASS marts.relationships ......
+PASS marts.taunt_tone ...
+
+
+bruin run completed successfully in 1.405s
+
+ ✓ Assets executed      8 succeeded
+ ✓ Quality checks       40 succeeded

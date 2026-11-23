@@ -2,6 +2,8 @@ import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import * as SkeletonUtils from 'three/examples/jsm/utils/SkeletonUtils.js';
+import { loadBodies } from './arena/bodies.js';
+import { contactReport } from './moves/index.js';
 import { MOVES, playPaired, playSolo, updateMoves, stopMoves, getRig } from './moves/index.js';
 
 const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
@@ -73,7 +75,19 @@ for (const y of [0.45, 0.85, 1.25]) {
 
 // Bodies.
 const gltf = await new GLTFLoader().loadAsync('/models/Xbot.glb');
+// ?bodies=kane,vex dresses attacker,victim (and the ref) in roster bodies instead of tinted Xbots.
+const bodyIds = new URLSearchParams(location.search).get('bodies')?.split(',');
+const bodies = bodyIds ? await loadBodies(new GLTFLoader()) : null;
+let bodyIdx = 0;
 function makeBot(tint) {
+  if (bodies) {
+    const { obj, animations } = bodies.make(bodyIds[bodyIdx++] || 'ref');
+    scene.add(obj);
+    getRig(obj);
+    const mixer = new THREE.AnimationMixer(obj);
+    mixer.clipAction(animations.find((a) => a.name === 'idle')).play();
+    return { obj, mixer };
+  }
   const obj = SkeletonUtils.clone(gltf.scene);
   obj.traverse((o) => {
     if (o.isMesh) {
@@ -292,5 +306,6 @@ window.lab = {
   },
   play(id) { paused = false; SLOTS.find(([, sid]) => sid === id)[2](); },
   rig: () => getRig(A.obj),
+  contacts: contactReport,
   reset,
 };

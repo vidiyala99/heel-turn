@@ -10,11 +10,13 @@ import * as THREE from 'three';
 import { Rig, BONES, offsetQuat } from './rig.js';
 import { POSES, mirror } from './poses.js';
 import { MOVES } from './moves.js';
+import { solveContacts, lastReport, REF_HIP } from './contact.js';
 
 export { MOVES, POSES, mirror, Rig };
+// Per-hand contact errors from the last solved frame: [{ by, hand, on, w, err }] (meters).
+export const contactReport = () => lastReport.map((r) => ({ ...r }));
 
-// Root offsets are authored for Xbot (pelvis ~1.0 m); other rigs scale by hip height.
-const REF_HIP = 1.04;
+// Root offsets are authored for Xbot (pelvis ~1.0 m); other rigs scale by hip height (REF_HIP).
 const BLEND_IN = 0.14;
 const BLEND_OUT = 0.22;
 const D2R = Math.PI / 180;
@@ -223,6 +225,8 @@ export function updateMoves(dt) {
       }
     }
     play.actors = play.actors.filter((actor) => !applyActor(actor, play, play.t));
+    const roles = Object.fromEntries(play.actors.map((a) => [a.role, a]));
+    if (roles.attacker && roles.victim) solveContacts(play.move, roles, play.t);
     if (!play.actors.length) plays.delete(play);
   }
 }

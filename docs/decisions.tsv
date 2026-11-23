@@ -34,3 +34,4 @@ ts	phase	decision	why	evidence	result
 2026-11-23T12:30	B	Cast: corruptible referee agent, betraying AI tag partners, sabotage; learning via Bruin marts incl ref_ledger and partner_trust	Aakash 12:28 (ref and tag partners can betray; agents learn)	docs/PLAN.md	planned; band brief updated
 2026-11-23T12:29	C	BAND Tom & Jerry onboarding done: registered, LangGraph+OpenAI, Tom replied to verify token	smoke-tests our BAND path	tom-jerry-agents/ (creds gitignored)	VERIFIED (verify_agent_reply exit 0)
 2026-11-23T12:45	C	Merged lane/bruin	re-ran bash bruin/run.sh locally: 7 assets, 37 checks green (inference skipped: no key exported in that shell)	docs/lanes/bruin.md	VERIFIED locally
+2026-11-23T12:47	C	Merged lane/voice	local: node tests pass, latency stub 2-16 ms; Runware never called live (no key); browser audio unheard	docs/lanes/voice.md	PARTIAL

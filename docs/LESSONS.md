@@ -9,3 +9,4 @@
 - **Show the design work locally** (Landfall). Run the full design stack and give Aakash pages to open, not descriptions.
 - **No recipes as a playbook** (Aakash, 2026-11-23). The organizer recipes and track-brief examples are what every team copies; BAD CREDIT was The Agent Market reskinned. Encoded as hard exclusions in docs/GROUNDING.md.
 - **Read the builder, not a memory line** (2026-11-23). Designs must grow from the resume and GitHub (docs/GROUNDING.md), not "data engineer and Dagster contributor".
+- **Own the churn** (2026-11-23). Aakash gave two directions (hero shooter, wrestling); the other eight concepts were mine and generic. Never describe my own churn as "we switched".

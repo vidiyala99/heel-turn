@@ -57,7 +57,11 @@ voice push-to-talk to a partner -> generated entrance cards -> commentator voice
 **Never cut:** U1, U5 checks, U6 BAND approve/block, U7 chart with baseline, finish-line item 4.
 
 ## Open, settled by U0/U2 probes (not by asking)
-- Stack: rig + animation source, physics (real vs tweened knockback), multiplayer kit (prep/stack-wrestling.md).
+- Stack picked (prep/stack-wrestling.md): Quaternius Universal Base Characters + Universal Animation Library 1/2 (CC0, one
+  rig, GLB; fallback KayKit); kinematic fighters, grapples faked (one clip on both bodies, tweened rope toss), Rapier only
+  if needed; Colyseus authoritative rooms (fallback Playroom Kit), hosted via tunnel/Render; ring from primitives,
+  InstancedMesh crowd. Probes: U0 rig + Punch_Jab/Hit_Chest in a blank page; U1 two tabs through a tunnel URL;
+  U3 two-body grapple + rope toss tween.
 - Whether Bruin inference with `provider: openai` runs locally (U5; the pipeline stands without it).
 
 ## Needs from Aakash

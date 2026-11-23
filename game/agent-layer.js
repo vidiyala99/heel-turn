@@ -7,6 +7,7 @@ import { situationOf } from './shared/sim.js';
 import { createCommentary } from '../voice/commentary.js';
 import { createTTS } from '../voice/tts.js';
 import { createCrowd } from '../voice/crowd.js';
+import { mountMusic } from '../voice/music.js';
 
 const SIM_TO_ROSTER = { kane: 'brutus' };
 const PLAN_EVERY_S = 4;
@@ -22,20 +23,22 @@ export function createAgentLayer({ logRow, call }) {
   // --- the booth: Rex and Dot call every fact; captions ride the ticker. Runware voices when the proxy has a key,
   // browser speechSynthesis otherwise (no key yet). The crowd starts on the first key press (autoplay rules).
   const crowd = createCrowd();
-  const tts = createTTS({ onDuck: (on) => crowd.duck(on) });
+  const tts = createTTS({ onDuck: (on) => crowd.duck(on), ctx: () => crowd.context });
   const t0 = performance.now();
-  let booth = createCommentary({ say: (line) => tts.speak(line), onCaption: caption });
+  const story = { grudge: null, plot: [] }; // Bruin grudge + recent BAND plans: the LLM lines call back to them
+  const boothOpts = { say: (line) => tts.speak(line), prefetch: (line) => tts.prefetch(line), story: () => story, onCaption: caption };
+  let booth = createCommentary(boothOpts);
   fetch('/voice/api/health').then((r) => r.json()).then((h) => {
     debug.voice = h;
-    if (h.llm) booth = createCommentary({ say: (line) => tts.speak(line), llm: '/voice/api/line', onCaption: caption });
+    if (h.llm) booth = createCommentary({ ...boothOpts, llm: '/voice/api/line' });
   }).catch(() => { debug.voice = { offline: true }; });
+  // menus get music; the booth and crowd only live from the bell to the results screen
+  mountMusic(undefined, { onScreen: (s) => { if (s === 'match') { try { crowd.start(); } catch {} } crowd.setLive(s === 'match' || s === 'pause'); } });
   function caption(line) {
     const who = { rex: 'Rex', dot: 'Dot', vex: 'Vex', kane: 'Kane', silas: 'Crane', mae: 'Mae' }[line.speaker] || line.speaker;
     debug.spoken.push({ t_s: +((performance.now() - t0) / 1000).toFixed(2), speaker: line.speaker, source: line.source, text: line.text });
     call(`${who}: ${line.text}`);
   }
-  const startCrowd = () => { try { crowd.start(); } catch {} removeEventListener('keydown', startCrowd); removeEventListener('pointerdown', startCrowd); };
-  addEventListener('keydown', startCrowd); addEventListener('pointerdown', startCrowd);
   function toBooth(f) {
     if (!cur) return;
     const sim = (i) => (i == null ? undefined : cur.wrestlers[i]); // the booth names wrestlers, not players
@@ -78,6 +81,7 @@ export function createAgentLayer({ logRow, call }) {
       if (best) logRow(planHtml({ wrestler: ai, intent: 'memory', reason: `read Bruin before the bell: you ${best.mv} ${Math.round(best.share * 100)}% of the time when ${best.sit.replace('_', ' ')}`, cites: [best.cite] }, 'BRUIN'));
       else logRow(planHtml({ wrestler: ai, intent: 'memory', reason: 'Bruin has no habits for you yet: first meeting', cites: [] }, 'BRUIN'));
       const g = (mem.feelings || [])[0];
+      story.grudge = g && g.grudge > 0 ? { who: ai, about: g.about, trust: g.trust, grudge: g.grudge, last_betrayal: g.last_betrayal } : null;
       if (g && g.grudge > 0) logRow(planHtml({ wrestler: ai, intent: 'grudge', target: g.about, reason: `trust ${g.trust}, grudge ${g.grudge}${g.last_betrayal ? `, betrayed in ${g.last_betrayal}` : ''}`, cites: [g.cite] }, 'BRUIN'));
       debug.memoryText = `${who} habits from Bruin`;
       return best ? habits : null;
@@ -150,6 +154,7 @@ export function createAgentLayer({ logRow, call }) {
       debug.agents = { band: res.band, planner: res.planner, memory: res.memory, latency_ms: res.latency_ms, rtt_ms: Math.round(performance.now() - t0), pending: (res.pending || []).map((x) => x.id) };
       (res.plans || []).forEach((p, k) => {
         const meta = res.meta?.[k];
+        if (p.intent && p.intent !== 'attack') story.plot = [...story.plot, { who: p.wrestler, intent: p.intent, target: p.target, reason: p.reason }].slice(-4);
         debug.plans.push({ t: body.t_ms, wrestler: p.wrestler, intent: p.intent, target: p.target, reason: p.reason, cites: p.cites, source: meta?.source, ms: meta?.ms, error: meta?.error });
         const changed = last[p.wrestler] !== `${p.intent}|${p.target}|${(p.cites?.[0] || '').match(/\/(strike|grapple|block)$/)?.[1] || null}`;
         const expect = show(p, meta);

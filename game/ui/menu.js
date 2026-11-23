@@ -262,6 +262,7 @@ function render(next, opts = {}) {
   ui.querySelectorAll('.screen').forEach((s) => s.classList.toggle('on', s.id === `s-${next}`));
   state = next;
   document.body.classList.toggle('in-match', next === 'match');
+  dispatchEvent(new CustomEvent('heel:screen', { detail: { screen: next, p1: match.p1, p2: match.p2 } })); // voice/music.js
   if (next === 'settings') paintSettings();
   if (next === 'select') paintSelect();
   setFocus(opts.focus ?? 0, false);

@@ -3,6 +3,37 @@
 Goal: two commentators (Rex Ramsey, play-by-play, excitable; Dot Calloway, color, dry and heel-sympathetic) and
 taunts for Vex, Brutus Kane, Silas Crane and Old Iron Mae, over a procedural crowd. All code lives in `voice/`.
 
+## 2026-11-23: neural booth (OpenAI TTS until the Runware key arrives)
+Problem: with no `RUNWARE_API_KEY`, every line fell back to browser `speechSynthesis`, which sounded robotic.
+- Provider order in `server.js`: Runware (sponsor) -> OpenAI `gpt-4o-mini-tts` -> browser. Per-speaker voice and
+  style instructions live in `voices.js` (Rex `ash`, earnest hyped play-by-play that screams big moments; Dot
+  `ballad`, smug cackling heel sympathizer; Vex `verse`, Kane `onyx`, Silas `fable`, Mae `shimmer`). Disk cache key
+  = sha256(model|voice|style|text). Start with `cd voice && npm start` (loads `../.env`).
+- Warm cache: at start the server renders all 511 template lines (every roster name pair, taunts, move calls), 6 at
+  a time. First run takes about 3 minutes and then lives on disk.
+- Browser (`tts.js`): clips are prefetched when a line is queued, played through a voice bus on the crowd's
+  AudioContext (110 Hz high-pass, -3 dB at 300 Hz, +4 dB at 3.2 kHz, 4:1 compressor). A clip not ready 2 s after its
+  cue is dropped. An LLM line that is late swaps to its pre-rendered template line.
+- Booth (`commentary.js`): stale threshold 2 s, measured from the cue (a follow-up's cue is the end of Rex's call).
+  Dot answers 0.4 to 1 s after Rex ends on big moments. `ev.move` (body_slam, suplex, ddt, clothesline, irish_whip)
+  gets a named call. The sim only emits strike, grapple (called as a slam), finisher, toss and reversal today, so
+  the named-move banks wait for the sim to send `move`. LLM lines get `story` (Bruin grudge plus the last 4 BAND
+  plan intents) from `agent-layer.js`.
+- Crowd: fades in at the match screen and out at the results screen. Ring bell on entry or `bell`, three rings on an elimination.
+- Music (`music.js`): synth hard-rock loop on title, menu, select, versus and results. Plays after the first key
+  press, follows the Settings volume, ducks on screen changes, and plays a per-wrestler sting on versus.
+  `game/ui/menu.js` dispatches `heel:screen`.
+- Silence under automation: with `navigator.webdriver` set, or `?mute=1`, nothing speaks or plays. speechSynthesis
+  is never called under webdriver, even in tests.
+
+Measured (n=12 each, local server, `node voice/test/latency-neural.mjs`): cached first byte p50 3.6 ms (2.5 to 6.6),
+uncached p50 1463 ms (1112 to 1761). Headless Chromium with `--mute-audio` (`node voice/test/browser-neural.mjs`):
+6/6 lines started on the neural path 11 to 30 ms after their cue, AudioContext running, 0 speechSynthesis calls,
+no page errors. Samples: `docs/audio/sample-1-bell.mp3` "There's the bell! Here we GO!", `-2-strike` "Brutus Kane
+lights up Vex!", `-3-slam` "Brutus Kane picks up Vex, BODY SLAM!", `-4-near-fall` "Cover! One! Two! NO!",
+`-5-kickout` (Dot) "Oh, stay DOWN. Nobody paid to watch you hope.", `-6-finisher` "HERE IT COMES! Silas Crane hits the finisher!".
+Not verified: nobody has listened to the voices or the music yet, and the live game booth has not been heard end to end.
+
 ## Files
 - `commentary.js`: game event -> line. Shuffle-bag templates (`lines.js`), one voice at a time, priority queue, OpenAI follow-ups for big moments.
 - `tts.js`: `speak(line)`. Uses Runware mp3 through the proxy when the proxy has a key, browser `speechSynthesis` otherwise. Calls `onDuck(true/false)` around each line.

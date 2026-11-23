@@ -2,10 +2,10 @@
 // const crowd = createCrowd(); crowd.start() after a user gesture; crowd.onEvent(ev); crowd.duck(true|false).
 import { MUTED } from './tts.js';
 
-const SWELL = { strike: 0.15, grapple: 0.3, knockdown: 0.35, pin: 0.5, kickout: 0.8, finisher: 0.9, elimination: 1, betray: 1, entry: 0.7, taunt: 0.25 };
+const SWELL = { bell: 0.6, strike: 0.15, grapple: 0.3, knockdown: 0.35, pin: 0.5, kickout: 0.8, finisher: 0.9, elimination: 1, betray: 1, entry: 0.7, taunt: 0.25 };
 
-export function createCrowd({ ctx = null, volume = 0.5 } = {}) {
-  let ac = ctx, master, bed, bedFilter, lfoGain, noise;
+export function createCrowd({ ctx = null, volume = 0.5, muted = MUTED } = {}) {
+  let ac = ctx, master, bed, bedFilter, lfoGain, noise, live = true, lastBell = -9;
 
   function noiseBuffer(seconds = 3) {
     const buf = ac.createBuffer(1, ac.sampleRate * seconds, ac.sampleRate);
@@ -20,7 +20,7 @@ export function createCrowd({ ctx = null, volume = 0.5 } = {}) {
   }
 
   function start() {
-    if (MUTED) return Promise.resolve();
+    if (muted) return Promise.resolve();
     if (master) return ac.resume();
     ac ??= new AudioContext();
     noise = noiseBuffer();
@@ -73,16 +73,40 @@ export function createCrowd({ ctx = null, volume = 0.5 } = {}) {
   }
 
   function duck(on) {
-    if (!master) return;
+    if (!master || !live) return;
     master.gain.setTargetAtTime(on ? volume * 0.35 : volume, ac.currentTime, on ? 0.05 : 0.4);
+  }
+
+  // the arena only exists during a match: fade the whole crowd in at the bell, out at the results
+  function setLive(on) {
+    live = on;
+    if (master) master.gain.setTargetAtTime(on ? volume : 0, ac.currentTime, on ? 0.3 : 0.25);
+  }
+
+  // ring bell: inharmonic partials of a struck plate, rung `times` in quick succession
+  function bell(times = 1) {
+    if (!master) return;
+    const t0 = ac.currentTime + 0.02;
+    for (let k = 0; k < times; k++) {
+      const t = t0 + k * 0.32;
+      [[1, 0.5], [2.76, 0.28], [5.4, 0.16], [8.93, 0.08]].forEach(([m, g0]) => {
+        const o = ac.createOscillator(); o.frequency.value = 820 * m;
+        const g = ac.createGain(); g.gain.setValueAtTime(0, t);
+        g.gain.linearRampToValueAtTime(g0, t + 0.004); g.gain.exponentialRampToValueAtTime(0.0005, t + 1.6 / Math.sqrt(m));
+        o.connect(g).connect(ac.destination); o.start(t); o.stop(t + 1.7);
+      });
+    }
   }
 
   function onEvent(ev) {
     const a = SWELL[ev.kind]; if (a == null || ev.success === false && ev.kind !== 'betray') return;
     swell(a);
+    const now = ac?.currentTime ?? 0;
+    if ((ev.kind === 'entry' || ev.kind === 'bell') && now - lastBell > 3) { lastBell = now; bell(1); }
+    if (ev.kind === 'elimination') bell(3);
     if (ev.kind === 'kickout' || ev.kind === 'entry') chant('clap', 2);
     if (ev.kind === 'taunt') chant('hey', 1);
   }
 
-  return { start, swell, chant, duck, onEvent, get context() { return ac; } };
+  return { start, swell, chant, duck, bell, setLive, onEvent, get context() { return ac; } };
 }

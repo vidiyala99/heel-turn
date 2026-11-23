@@ -85,7 +85,6 @@ ui.innerHTML = `
   <div class="wordmark">
     <h1 class="display">Heel <b>Turn</b></h1>
     <div class="slashbar"></div>
-    <p class="tag">A wrestling game where the other guy remembers everything you did.</p>
   </div>
   <button class="press display" data-act="start">Press Enter</button>
 </section>

@@ -3,13 +3,14 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "concurrently -k -n web,arena,agents,voice -c blue,red,green,magenta \"vite --host\" \"npm --prefix server run dev\" \"npm run agents\" \"npm run voice\"",
+    "dev": "concurrently -k -n web,arena,agents,voice,odds -c blue,red,green,magenta,yellow \"vite --host\" \"npm --prefix server run dev\" \"npm run agents\" \"npm run voice\" \"npm run odds\"",
     "dev:web": "vite --host",
     "server": "npm --prefix server start",
     "postinstall": "npm --prefix server install",
     "build": "vite build",
     "agents": "python -u tools/agents_up.py",
-    "voice": "node --env-file-if-exists=../.env ../voice/server.js"
+    "voice": "node --env-file-if-exists=../.env ../voice/server.js",
+    "odds": "cd .. && python -u -m agents.odds"
   },
   "dependencies": {
     "@colyseus/sdk": "0.18.10",

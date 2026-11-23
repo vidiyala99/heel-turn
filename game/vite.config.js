@@ -7,8 +7,8 @@ export default {
   server: {
     fs: { allow: ['..'] }, // the booth imports ../voice/*.js
     proxy: {
-      '/agents': { target: 'http://localhost:8788', rewrite: (p) => p.replace(/^\/agents/, '') },
-      '/voice/api': { target: 'http://localhost:8787' },
+      '/agents': { target: `http://localhost:${process.env.HEEL_AGENTS_PORT || 8788}`, rewrite: (p) => p.replace(/^\/agents/, '') },
+      '/voice/api': { target: `http://localhost:${process.env.HEEL_VOICE_PORT || 8787}` },
     },
   },
 };

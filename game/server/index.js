@@ -4,6 +4,7 @@
 import { Server, Room } from 'colyseus';
 import { createMatch, step, snapshot, newControl, INPUTS, ROSTER, INTRO_SECS } from '../shared/sim.js';
 import { appendFacts, refreshSoon, rosterIds } from './memory.js';
+import { RoyalRoom } from './royal-room.js';
 
 const TICK_MS = 1000 / 30;
 const WAIT_FOR_RIVAL_MS = 30000; // an online host waits this long for the invite link before the AI fills slot 2
@@ -84,5 +85,6 @@ function clampAxis(v) { const n = Number(v); return Number.isFinite(n) ? Math.ma
 const port = Number(process.env.PORT || 2567);
 const server = new Server();
 server.define('ring', RingRoom);
+server.define('royal', RoyalRoom); // OVER THE TOP battle royal
 await server.listen(port);
 console.log(`HEEL TURN server on ws://localhost:${port}`);

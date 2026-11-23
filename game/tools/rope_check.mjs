@@ -5,7 +5,7 @@ import { createMatch, step, newControl, RING } from '../shared/sim.js';
 
 function pinAt(x, bribed) {
   const m = createMatch('vex', 'kane');
-  m.introT = 0; m.refBribed = bribed;
+  m.introT = 0; m.clock = 10; m.refBribed = bribed; // past the pin grace period
   const [A, B] = m.w;
   for (const w of m.w) { w.state = 'idle'; }
   B.x = x; B.z = 0; A.x = x - 0.6; A.z = 0; B.state = 'down'; B.t = 5; B.hp = 5;

@@ -18,3 +18,5 @@ ts	phase	decision	why	evidence	result
 2026-11-23T00:06	frame	Hard exclusions: no recipes, no brief examples, no reskins	Aakash: stop using recipes; BAD CREDIT = Agent Market	docs/GROUNDING.md	VERIFIED
 2026-11-23T00:07	design	Fixed weighted rubric + two-judge noise floor written before the round	Explain the number: decision rule before run	docs/RUBRIC.md	open
 2026-11-23T00:12	run	Probe Bruin inference asset syntax + providers (anthropic supported)	Riskiest Bruin unknown for any design	docs/GROUNDING.md Phase C	VERIFIED (docs) / NOT VERIFIED (local run)
+2026-11-23T00:25	frame	Aakash direction: original hero tactical shooter (Valorant genre); framed with 5-item finish line, 4 premises, verdict	pstack figure-it-out Phase A; product direction from the human	docs/FRAME.md	open
+2026-11-23T00:25	frame	R3 designs (meter/SCE) discarded	Built on skewed grounding (old SCE work over-weighted)	docs/arena/r3-*	VERIFIED

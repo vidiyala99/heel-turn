@@ -81,7 +81,7 @@ def facts_for(memory: mem.Memory, speaker: str, opponent: str, state: dict) -> l
     for who, kind in ((speaker, "my_record"), (opponent, "their_record")):
         r = board.get(who)
         if r:
-            nm = "me" if who == speaker else opp_name
+            nm = PERSONAS.get(who, {}).get("name", who) if who == speaker else opp_name
             out.append({"cite": mem.cite("leaderboard", r), "kind": kind, "row": r,
                         "fact": f"{nm}: {r['wins']} wins, {r['eliminations']} eliminations, {r['betrayals']} betrayals"})
 

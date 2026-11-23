@@ -46,10 +46,12 @@ export function newBrain(seed) {
 }
 
 // api: { act, block, tryPin, step (move toward x,z at speed), dist, busy, near ropes, say (caption) }
+// api.foe / api.intent (optional): the wrestler to fight and this wrestler's own plan intent, for N-wrestler rings
+// (shared/royal.js). Without them it is the 1v1 rival and the match-wide plan.
 export function think(m, i, dt, api) {
-  const me = m.w[i], you = m.w[1 - i];
+  const me = m.w[i], you = api.foe || m.w[1 - i];
   const b = me.brain || (me.brain = newBrain((m.seed || 1) + i * 7919));
-  const att = attitudeFor(m.extPlan?.intent || m.aiIntent?.split('_')[0] || 'pressure');
+  const att = attitudeFor(api.intent || m.extPlan?.intent || m.aiIntent?.split('_')[0] || 'pressure');
   const expect = m.aiIntent?.startsWith('counter_') ? m.aiIntent.slice(8) : null;
   const r = b.rng, d = api.dist(me, you);
   b.t += dt;

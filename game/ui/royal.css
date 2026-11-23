@@ -66,3 +66,7 @@ body:not(.in-match) .rr-strip, body:not(.in-match) .rr-card { display: none; }
   body.royal .log { width: auto; left: 16px; top: auto; bottom: 52px; max-height: 18vh; }
 }
 @media (prefers-reduced-motion: reduce) { .rr-card { transition: none; } .rr-hp i { transition: none; } }
+
+/* crowd heat meter (feel/overlay.js) sits under the roster strip, not on top of the first card */
+body.royal #feel-heat { top: 92px; }
+@media (max-width: 720px) { body.royal #feel-heat { top: 62px; } }

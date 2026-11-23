@@ -3,6 +3,7 @@
 // driven by the scripted AI.
 import { Server, Room } from 'colyseus';
 import { createMatch, step, snapshot, newControl, INPUTS, ROSTER, INTRO_SECS } from '../shared/sim.js';
+import { appendFacts, refreshSoon, rosterIds } from './memory.js';
 
 const TICK_MS = 1000 / 30;
 const WAIT_FOR_RIVAL_MS = 30000; // an online host waits this long for the invite link before the AI fills slot 2
@@ -61,10 +62,22 @@ class RingRoom extends Room {
     const waiting = !this.slots[1] && Date.now() < this.waitUntil;
     if (waiting) this.match.introT = INTRO_SECS; // hold the intro until the rival joins or the wait ends
     else step(this.match, dt, this.ctl);
+    this.remember();
     this.broadcast('s', { ...snapshot(this.match), waiting, ev: this.match.events, slots: this.slots });
     this.match.events = [];
   }
 }
+
+// Sim facts -> Bruin events (one match id per sim match); the refresh runs between matches, off the tick.
+RingRoom.prototype.remember = function remember() {
+  const m = this.match, facts = m.events.filter((e) => e.k === 'fact');
+  if (!m.memId) m.memId = 'm' + Date.now().toString(36);
+  if (facts.length) {
+    try { appendFacts(m.memId, facts, rosterIds(m.w.map((w) => w.id), this.ctl.map((c) => c.human))); }
+    catch (e) { console.warn('[memory] append failed', e.message); }
+  }
+  if (m.events.some((e) => e.k === 'end')) refreshSoon();
+};
 
 function clampAxis(v) { const n = Number(v); return Number.isFinite(n) ? Math.max(-1, Math.min(1, n)) : 0; }
 

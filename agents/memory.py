@@ -23,7 +23,8 @@ def cite(mart: str, row: dict) -> str:
     if mart == "leaderboard":
         return f"leaderboard.{row['wrestler']}"
     if mart == "ref_ledger":
-        return f"ref_ledger.{row['ref']}/{row['match']}"
+        # stub rows are per match; the Bruin mart is per briber (offers, accepted, caught, caught_rate)
+        return f"ref_ledger.{row['ref']}/{row.get('match') or row.get('briber')}"
     return f"{mart}.?"
 
 

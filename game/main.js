@@ -8,7 +8,8 @@ import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass.js';
 import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass.js';
 import { OutputPass } from 'three/examples/jsm/postprocessing/OutputPass.js';
 import { Client } from '@colyseus/sdk';
-import { createMatch, step, newControl, ROSTER, INTRO_SECS } from './shared/sim.js';
+import { createMatch, step, newControl, normHabits, ROSTER, INTRO_SECS } from './shared/sim.js';
+import { createAgentLayer } from './agent-layer.js';
 import { playPaired, playSolo, updateMoves, isBusy, stopMoves, getRig } from './moves/index.js';
 import { createFeel } from './feel/index.js';
 import { T } from './shared/tuning.js';
@@ -145,10 +146,13 @@ const $ = (id) => document.getElementById(id);
 let bannerT = 0;
 function banner(text, secs = 1.4) { const b = $('banner'); if (!b) return; b.textContent = text; b.style.opacity = 1; bannerT = secs; }
 function call(text) { const c = $('call'); if (c) c.textContent = text; }
-function log(html) {
+function log(html, key, same) {
   const l = $('log'); if (!l) return;
-  const p = document.createElement('p'); p.innerHTML = html; l.prepend(p);
-  while (l.children.length > 9) l.lastChild.remove();
+  // A repeated plan (same key, same intent) updates its line with a count instead of a new copy.
+  const old = key && same && [...l.children].find((c) => c.dataset.key === key);
+  if (old) { old.dataset.n = String(Number(old.dataset.n || 1) + 1); old.innerHTML = `${html} <span class="dl-x">x${old.dataset.n}</span>`; return; }
+  const p = document.createElement('p'); p.innerHTML = html; if (key) p.dataset.key = key; l.prepend(p);
+  while (l.children.length > 12) l.lastChild.remove();
 }
 function setText(id, text) { const e = $(id); if (e) e.textContent = text; }
 function setWidth(id, pct) { const e = $(id); if (e) e.style.width = pct + '%'; }
@@ -173,6 +177,8 @@ function showInvite(link) {
   el.querySelector('input').value = link; el.style.display = 'flex';
 }
 function hideInvite() { const el = $('heel-invite'); if (el) el.style.display = 'none'; }
+
+const layer = createAgentLayer({ logRow: (html, key, same) => log(html, key, same), call: (t) => call(t) });
 
 // ---------- wrestler views (render only; state lives in shared/sim.js) ----------
 const loader = new GLTFLoader();
@@ -228,7 +234,42 @@ function onAnim(i, w, prev) {
   else if (name === 'Dance' || name === 'ThumbsUp') safe(() => { if (!isBusy(v.root)) playSolo(i === 0 ? 'tauntArms' : 'chestPound', v.root, {}); });
   else if (name === 'Standing') { safe(() => { stopMoves(v.root); playSolo('kipup', v.root, { root: { position: v.root.position, yaw: v.root.rotation.y } }); }); v.lying = false; }
 }
-function clearViews() { for (const v of views) { safe(() => stopMoves(v.root)); scene.remove(v.holder); } views = []; }
+function clearViews() {
+  for (const v of views) { safe(() => stopMoves(v.root)); scene.remove(v.holder); } views = [];
+  if (ref) { safe(() => stopMoves(ref.root)); scene.remove(ref.holder); ref = null; }
+}
+
+// Referee Lou Varga (an agent on the server side): white shirt, black joints, works the ropes and counts pins.
+let ref = null;
+function makeRef() {
+  const v = makeView({ id: 'lou', tint: 0xf1f1f1, x: 0, y: MAT_Y, z: -RING + 0.55, facing: 0 });
+  v.holder.traverse((o) => { if (o.isMesh && o.name.includes('Joints')) o.material.color.set(0x111111); });
+  v.holder.scale.setScalar(0.94);
+  play(v, 'idle'); v.pinSeen = false; v.home = new THREE.Vector3(0, MAT_Y, -RING + 0.55);
+  feel.alive(v.root, { role: 'ref', target: () => views[1] && views[0].holder.position.clone().lerp(views[1].holder.position, 0.5) });
+  return v;
+}
+function updateRef(st, dt) {
+  if (!ref) ref = makeRef();
+  const [A, B] = st.w;
+  if (st.pin && !ref.pinSeen) {
+    // slide in beside the pinned wrestler and slap the mat: one, two, (three)
+    ref.pinSeen = true;
+    const vic = st.w[st.pin.victim], side = Math.sign(vic.z || 1);
+    const at = new THREE.Vector3(vic.x + 0.35, MAT_Y, vic.z - side * 0.75);
+    safe(() => { stopMoves(ref.root); playSolo('refcount', ref.root, { root: { position: at, yaw: side > 0 ? 0 : Math.PI } }); });
+  } else if (!st.pin && ref.pinSeen) { ref.pinSeen = false; safe(() => stopMoves(ref.root)); } // refcount holds its pose until released
+  if (!isBusy(ref.root)) {
+    // shadow the action along the near-side ropes, always facing the wrestlers
+    const mid = { x: (A.x + B.x) / 2, z: (A.z + B.z) / 2 };
+    const want = new THREE.Vector3(THREE.MathUtils.clamp(mid.x * 0.6, -RING + 0.6, RING - 0.6), MAT_Y, mid.z > 0 ? -RING + 0.55 : RING - 0.55);
+    const moving = ref.root.position.distanceTo(want) > 0.08;
+    ref.root.position.lerp(want, Math.min(1, dt * 1.6));
+    ref.root.rotation.set(0, Math.atan2(mid.x - ref.root.position.x, mid.z - ref.root.position.z), 0);
+    play(ref, moving ? 'walk' : 'idle', moving ? 0.9 : 1);
+  }
+  ref.mixer.update(dt);
+}
 function syncViews(ws, dt) {
   ws.forEach((w, i) => {
     if (!views[i] || views[i].id !== w.id) {
@@ -268,6 +309,13 @@ function startLocal(p1, p2) {
   const match = createMatch(p1, p2, savedHabits);
   savedHabits = match.habits;
   session = { mode: 'exhibition', slot: 0, match, ctl: [newControl(true), newControl(false)] };
+  // Bruin memory: the AI's habit table for you comes from the marts when they answer before/at the bell.
+  const id = 'm' + Date.now().toString(36);
+  const started = layer.matchStart({ match: id, wrestlers: [p1, p2], humans: [true, false] });
+  layer.bind(match);
+  started.then((h) => {
+    if (h && session?.match === match) { match.habits = normHabits(h); savedHabits = match.habits; }
+  });
 }
 
 const ROOM_CHARS = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
@@ -329,11 +377,13 @@ let shake = 0;
 // Shell settings: { volume, shake } on window.HEEL_SETTINGS (read live, so 'heel:settings' needs no listener).
 const shakeScale = () => (window.HEEL_SETTINGS?.shake === false || window.HEEL_SETTINGS?.shake === 0 ? 0 : 1);
 function handleEvents(evs) {
+  const facts = evs.filter((e) => e.k === 'fact');
+  if (facts.length && session?.mode === 'exhibition') layer.facts(facts);
   for (const e of evs) {
     feel.onEvent(e, currentRaw());
     if (e.k === 'banner') banner(e.text, e.secs);
     else if (e.k === 'call') call(e.text);
-    else if (e.k === 'log') log(e.html);
+    else if (e.k === 'log') log(e.html, e.key, e.same);
     else if (e.k === 'shake') shake = Math.max(shake, e.v * shakeScale());
     else if (e.k === 'finisher') { nextFinisher = true; shake = 0.6 * shakeScale(); bloom.strength = 1.6; }
     else if (e.k === 'wobble') wobble(e.ax, e.sign);
@@ -352,6 +402,7 @@ function matchEnded(e) {
     winnerId: st.w[e.winner].id, winnerName: st.w[e.winner].name, mode: session.mode, mySlot: Math.max(0, session.slot),
   };
   for (const cb of endCbs) { try { cb(result); } catch (err) { console.error(err); } }
+  if (session.mode === 'exhibition') layer.matchEnd();
 }
 
 // Render state: the local match, or the server snapshot interpolated INTERP_MS behind real time.
@@ -434,9 +485,10 @@ function frame() {
   if (session?.mode === 'exhibition' && !paused) {
     step(session.match, simDt, session.ctl);
     handleEvents(session.match.events); session.match.events = [];
+    layer.tick(session.match); // posts to the agents server every ~4 s; never awaited here
   }
   const st = current();
-  if (st) syncViews(st.w, paused && session.mode === 'exhibition' ? 0 : viewDt);
+  if (st) { const sdt = paused && session.mode === 'exhibition' ? 0 : viewDt; syncViews(st.w, sdt); safe(() => updateRef(st, sdt)); }
   // crowd bob (louder when meters are high)
   const hype = feel.hype(st);
   for (let i = 0; i < CROWD; i++) {

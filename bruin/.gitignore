@@ -7,3 +7,5 @@ __pycache__/
 # bruin appends the line below on every run. .bruin.yml is still tracked (added before the line): it
 # holds only the ${OPENAI_API_KEY} placeholder, never a key.
 .bruin.yml
+data/bets.jsonl
+data/ref_ledger.jsonl

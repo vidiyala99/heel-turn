@@ -85,7 +85,11 @@ def fallback_wrestler(p: dict, state: dict, memory: mem.Memory, triangle: dict, 
 
 def ref_bribe_score(p: dict, memory: mem.Memory) -> tuple[float, list[str], str]:
     rows = memory.ref_ledger(p["id"])
-    caught = sum(1 for r in rows if r["caught"]) / len(rows) if rows else 0.0
+    agg = next((r for r in rows if r.get("briber") == "_any" and r.get("caught_rate") is not None), None)
+    if agg:  # Bruin mart: one aggregate row over every briber
+        caught = float(agg["caught_rate"])
+    else:    # stub rows: one per match
+        caught = sum(1 for r in rows if r["caught"]) / len(rows) if rows else 0.0
     score = p["traits"]["greed"] - p["traits"]["reputation_weight"] * caught
     why = f"greed {p['traits']['greed']:.2f} - rep_weight {p['traits']['reputation_weight']:.2f} x caught {caught:.2f} = {score:+.2f}"
     return score, [mem.cite("ref_ledger", r) for r in rows], why
@@ -152,7 +156,9 @@ class Planner:
                "Decide your next plan from your memory rows. Reply with JSON only: "
                '{"intent": str, "target": str|null, "reason": str (<= 20 words, in character), "cites": [cite ids]}. '
                f"intent must be one of {list(intents)}; target one of {list(targets)} or null; cites must be cite ids from memory.")
-        user = json.dumps({"task": task, "state": state, "memory": snapshot["rows"], "default_plan": fallback})
+        # DuckDB marts hand back Decimal/date values: numbers go to float, anything else to str
+        user = json.dumps({"task": task, "state": state, "memory": snapshot["rows"], "default_plan": fallback},
+                          default=lambda v: float(v) if hasattr(v, "as_integer_ratio") else str(v))
         req_body = {"model": self.model, "response_format": {"type": "json_object"},
                     "messages": [{"role": "system", "content": sys}, {"role": "user", "content": user}]}
         if self.reasoning:

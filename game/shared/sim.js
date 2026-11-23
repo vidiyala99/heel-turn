@@ -5,12 +5,17 @@
 //   { w: [Wrestler, Wrestler], over, winner, how, pin, introT, events: [Event], habits, ... }
 // Wrestler: position x/y/z, velocity vx/vz, facing, rotX (fall tilt), hp, st (stamina), mo (meter),
 //   state, t (state timer), move, anim/animSpeed/animSeq (renderer hint), stats.
-// Events (drained by the caller each step): banner, call, log, shake, finisher, wobble, bell, end.
+// Events (drained by the caller each step): banner, call, log, shake, finisher, wobble, bell, end, and
+// fact: { k: 'fact', t_ms, kind, actor: slot, target: slot|null, situation, success? } in the docs/PLAN.md
+// event vocabulary (the caller maps slots to roster ids and sends facts to Bruin, the booth and the agents).
+// Situations (Bruin stg_events): opening | after_block | low_stamina | cornered, read off the human in slot 0.
 // Control per slot: { human, mx, mz, run, queue: ['strike'|'grapple'|'block'|'blockUp'|'taunt'|'whip'] }.
 // Feel (hitstop, run, whip, heat, fired up, near-falls) lives in shared/drama.js; its numbers in shared/tuning.js.
 
 import { T } from './tuning.js';
 import { preStep, moveSpeed, onHit, impact, whip, pinStep } from './drama.js';
+
+import { think } from './ai.js';
 
 export const RING = 3.2;
 export const MAT_Y = 1.1;
@@ -24,6 +29,7 @@ export const ROSTER = {
 export const INPUTS = ['strike', 'grapple', 'block', 'blockUp', 'taunt', 'whip'];
 const MOVES = T.sim.moves;
 const COUNTER = { strike: 'block', grapple: 'strike', block: 'grapple' };
+export const SITUATIONS = ['opening', 'after_block', 'low_stamina', 'cornered'];
 const BUSY = ['wind', 'active', 'rec', 'stun', 'down', 'thrown', 'taunt', 'pinning', 'pinned', 'out', 'intro', 'whipped', 'rebound'];
 
 const lerp = (a, b, k) => a + (b - a) * k;
@@ -44,12 +50,28 @@ export function createMatch(p1 = 'vex', p2 = 'kane', habits = null) {
   const m = {
     w: [makeWrestler(p1, -1.6), makeWrestler(p2, 1.6)],
     over: false, winner: -1, how: null, pin: null, introT: INTRO_SECS, events: [],
-    habits: habits || { opening: { strike: 1, grapple: 1, block: 1 }, after_hit: { strike: 1, grapple: 1, block: 1 } },
-    lastSituation: 'opening', aiPlanT: 0, aiIntent: 'pressure', aiPlansLog: [],
+    habits: normHabits(habits), clock: 0, blockT: 0, seed: (Date.now() % 100000) + 1,
+    aiPlanT: 3, aiIntent: 'pressure', aiPlansLog: [],
   };
   emit(m, { k: 'call', text: `${m.w[0].name} and ${m.w[1].name} make their way to the ring.` });
   return m;
 }
+
+// habits[situation][move] = times the human in slot 0 started that move there (a Laplace 1 per cell).
+export function normHabits(h) {
+  const out = {};
+  for (const s of SITUATIONS) out[s] = { strike: 1, grapple: 1, block: 1, ...(h && h[s]) };
+  return out;
+}
+export function situationOf(m) {
+  const w = m.w[0];
+  if (w.st < 30) return 'low_stamina';
+  if (nearRopes(w)) return 'cornered';
+  if (m.blockT > 0) return 'after_block';
+  return 'opening';
+}
+const fact = (m, kind, actor, target, extra = {}) =>
+  m.events.push({ k: 'fact', t_ms: Math.round(m.clock * 1000), kind, actor, target, situation: situationOf(m), ...extra });
 
 export const short = (w) => w.name.split(' ').slice(-1)[0].replace(/"/g, '');
 const emit = (m, e) => m.events.push(e);
@@ -61,20 +83,21 @@ function anim(w, name, speed = 1) {
   w.anim = name; w.animSpeed = speed; w.animSeq++;
 }
 
+// Count a move the human actually started (not a key mashed while busy or gassed).
 function recordHabit(m, i, move) {
   if (i !== 0 || !COUNTER[move]) return;
-  m.habits[m.lastSituation][move] += 1;
+  m.habits[situationOf(m)][move] += 1;
 }
 
 function act(m, i, kind) {
   const w = m.w[i], opp = m.w[1 - i];
   if (busy(w)) return;
-  recordHabit(m, i, kind);
-  if (kind === 'block') { w.state = 'block'; w.stats.blocks++; anim(w, 'No', 1.6); return; }
-  if (kind === 'taunt') { w.state = 'taunt'; w.t = 1.2; anim(w, i === 0 ? 'Dance' : 'ThumbsUp', 1.4); emit(m, { k: 'call', text: `${short(w)} plays to the crowd!` }); return; }
+  if (kind === 'block') { recordHabit(m, i, kind); fact(m, 'block', i, 1 - i); w.state = 'block'; w.stats.blocks++; anim(w, 'No', 1.6); return; }
+  if (kind === 'taunt') { fact(m, 'taunt', i, null); w.state = 'taunt'; w.t = 1.2; anim(w, i === 0 ? 'Dance' : 'ThumbsUp', 1.4); emit(m, { k: 'call', text: `${short(w)} plays to the crowd!` }); return; }
   if (kind === 'grapple' && w.mo >= 100 && dist(w, opp) < 1.6) kind = 'finisher';
   const mv = MOVES[kind === 'finisher' ? 'grapple' : kind];
   if (w.st < mv.stam * 0.5) { emit(m, { k: 'call', text: `${short(w)} is gassed!` }); return; }
+  recordHabit(m, i, kind === 'finisher' ? 'grapple' : kind);
   if (kind === 'strike') w.stats.strikes++; else w.stats.grapples++;
   w.st -= mv.stam; w.state = 'wind'; w.move = kind; w.t = mv.wind;
   anim(w, kind === 'strike' ? 'Punch' : 'Jump', kind === 'strike' ? 2.4 : 1.8);
@@ -82,26 +105,33 @@ function act(m, i, kind) {
 
 function resolve(m, att, def) {
   const kind = att.move;
-  if (dist(att, def) > (kind === 'strike' ? 1.45 : 1.35) || def.out) { emit(m, { k: 'log', html: `<em>${short(att)}</em> whiffs the ${kind}.` }); return; }
+  const ai = m.w.indexOf(att), di = 1 - ai, base = kind === 'finisher' ? 'grapple' : kind;
+  if (dist(att, def) > (kind === 'strike' ? 1.45 : 1.35) || def.out) {
+    // a whiff is not a decision: it goes to Bruin as a failed move, not to the decision log
+    fact(m, base, ai, di, { success: false });
+    return;
+  }
   if (def.state === 'down' || def.state === 'thrown' || def.state === 'pinned') return;
   if (kind === 'strike') {
     if (def.state === 'block') {
       def.st -= 6; def.stats.reversals++; att.state = 'stun'; att.t = 0.45; anim(att, 'No');
-      emit(m, { k: 'call', text: `${short(def)} blocks and shoves ${short(att)} back.` }); m.lastSituation = 'after_hit'; return;
+      emit(m, { k: 'call', text: `${short(def)} blocks and shoves ${short(att)} back.` });
+      fact(m, 'strike', ai, di, { success: false }); fact(m, 'reversal', di, ai); m.blockT = 1.5; return;
     }
     const cutoff = def.state === 'wind' && def.move !== 'strike';
+    fact(m, 'strike', ai, di, { success: true });
     hit(m, def, 8, att);
-    if (cutoff) { att.stats.reversals++; emit(m, { k: 'call', text: `${short(att)} cuts off the grapple attempt!` }); }
-    att.mo = Math.min(100, att.mo + 12); m.lastSituation = 'after_hit';
+    if (cutoff) { att.stats.reversals++; fact(m, 'reversal', ai, di); emit(m, { k: 'call', text: `${short(att)} cuts off the grapple attempt!` }); }
+    att.mo = Math.min(100, att.mo + 12);
     return;
   }
   const fin = kind === 'finisher';
   const toss = nearRopes(def) && def.hp < 40;
   att.mo = fin ? 0 : Math.min(100, att.mo + 18);
+  fact(m, 'grapple', ai, di, { success: true, ...(fin ? { finisher: true } : {}) });
   throwW(m, def, att, fin ? 28 : 15, toss);
   if (fin) { emit(m, { k: 'banner', text: 'FINISHER!', secs: 1.4 }); emit(m, { k: 'finisher' }); emit(m, { k: 'call', text: `${short(att)} hits the HEEL TURN DRIVER! The building shakes!` }); }
   else emit(m, { k: 'call', text: toss ? `${short(att)} launches ${short(def)} OVER THE TOP ROPE!` : `${short(att)} with a thunderous slam!` });
-  m.lastSituation = 'after_hit';
 }
 
 function hit(m, def, dmg, att) {
@@ -131,36 +161,59 @@ function tryPin(m, i) {
   if (busy(att) || def.state !== 'down' || dist(att, def) > 1.6) return false;
   att.state = 'pinning'; def.state = 'pinned';
   m.pin = { att: i, victim: 1 - i, t: 0, count: 0, mash: 0 };
-  anim(att, 'Sitting'); emit(m, { k: 'call', text: `${short(att)} goes for the cover!` });
+  anim(att, 'Sitting'); emit(m, { k: 'call', text: `${short(att)} goes for the cover!` }); fact(m, 'pin', i, 1 - i);
   return true;
 }
 
 function aiThink(m, i, dt) {
   const me = m.w[i], you = m.w[1 - i];
-  if (me.out || busy(me)) return;
-  m.aiPlanT -= dt;
-  if (m.aiPlanT <= 0) {
+  if (me.out) return;
+  // The LLM plan (agents server, set by the client as m.extPlan) is the decider; this frame loop only executes it.
+  // The scripted planner below runs only while no fresh LLM plan exists, and says so in the log.
+  const ext = m.extPlan && m.clock - m.extPlan.at < 12 ? m.extPlan : null;
+  if (ext) {
+    m.aiIntent = ext.intent === 'counter' && COUNTER[ext.expect] ? `counter_${ext.expect}` : ext.intent === 'taunt' ? 'taunt' : 'pressure';
     m.aiPlanT = 3.5;
-    const h = m.habits[m.lastSituation];
-    const fav = Object.entries(h).sort((a, b) => b[1] - a[1])[0];
-    const total = h.strike + h.grapple + h.block;
+  }
+  // Planning is thinking, not acting: the clock runs while the AI is stunned or down, so a player who
+  // keeps landing hits still gets read (an early return here froze the plan at "0 moves seen").
+  if (!ext) m.aiPlanT -= dt;
+  if (!ext && m.aiPlanT <= 0) {
+    m.aiPlanT = 3.5;
+    const sit = situationOf(m), seen = (h) => h.strike + h.grapple + h.block - 3;
+    let h = m.habits[sit], where = sit.replace('_', ' ');
+    if (seen(h) < 3) { // too few moves in this situation yet: read all of them
+      h = { strike: 1, grapple: 1, block: 1 };
+      for (const s of SITUATIONS) for (const k in h) h[k] += m.habits[s][k] - 1;
+      where = 'overall';
+    }
+    const total = h.strike + h.grapple + h.block, fav = Object.entries(h).sort((a, b) => b[1] - a[1])[0];
+    const prevIntent = m.aiIntent;
     m.aiIntent = fav[1] / total > 0.45 ? `counter_${fav[0]}` : 'pressure';
     const html = m.aiIntent.startsWith('counter')
-      ? `<em>${short(me)}</em> plan: expect your <em>${fav[0]}</em> (${Math.round(fav[1] / total * 100)}% ${m.lastSituation.replace('_', ' ')}), answer with <em>${COUNTER[fav[0]]}</em>.`
-      : `<em>${short(me)}</em> plan: no clear habit yet (${total - 3} moves seen), apply pressure.`;
-    m.aiPlansLog.push(html.replace(/<[^>]+>/g, ''));
-    emit(m, { k: 'log', html });
+      ? `<em>${short(me)}</em> (fallback, scripted) plan: expect your <em>${fav[0]}</em> (${Math.round(fav[1] / total * 100)}% ${where}, ${seen(h)} moves seen), answer with <em>${COUNTER[fav[0]]}</em>.`
+      : `<em>${short(me)}</em> (fallback, scripted) plan: no clear habit yet (${seen(h)} moves seen), apply pressure.`;
+    // Same intent as last time: the log updates that line (key) instead of adding a copy.
+    if (m.aiIntent !== prevIntent || !m.aiPlansLog.length) m.aiPlansLog.push(html.replace(/<[^>]+>/g, ''));
+    else m.aiPlansLog[m.aiPlansLog.length - 1] = html.replace(/<[^>]+>/g, '');
+    emit(m, { k: 'log', html, key: `plan-${i}-${m.aiIntent}`, same: m.aiIntent === prevIntent && m.aiPlanN > 0 });
+    m.aiPlanN = (m.aiPlanN || 0) + 1;
   }
-  if (you.state === 'down' && tryPin(m, i)) return;
-  if (dist(me, you) > 1.3) { moveToward(me, you.x, you.z, dt, 2.4); return; }
-  if (Math.random() > dt * 1.25) return; // reaction rate (~1.25 actions/s)
-  if (me.mo >= 100) return act(m, i, 'grapple');
-  if (you.state === 'wind' && you.move === 'grapple') return act(m, i, 'strike');
-  if (you.state === 'wind' && you.move === 'strike') return act(m, i, Math.random() < 0.6 ? 'block' : 'strike');
-  if (m.aiIntent.startsWith('counter_')) return act(m, i, COUNTER[m.aiIntent.slice(8)]);
-  const pick = ['strike', 'strike', 'grapple', 'block'][Math.floor(Math.random() * 4)];
-  if (pick === 'block') { me.state = 'block'; me.stats.blocks++; anim(me, 'No', 1.6); me.t = 0.6; me.autoBlock = true; return; }
-  act(m, i, pick);
+  if (busy(me)) return;
+  // Execute: the behavior state machine in shared/ai.js turns the plan into continuous movement and attacks.
+  think(m, i, dt, {
+    act: (k) => act(m, i, k), block: (secs) => aiBlock(m, i, secs), tryPin: () => tryPin(m, i),
+    step: (x, z, speed) => moveToward(me, x, z, dt, speed), dist, busy,
+    say: (text) => emit(m, { k: 'call', text: `${short(me)}: "${text}"`, speaker: me.id, trash: true }),
+  });
+}
+
+// A timed block (released after secs). The AI never holds block as a standing state.
+function aiBlock(m, i, secs) {
+  const me = m.w[i];
+  if (busy(me)) return;
+  fact(m, 'block', i, 1 - i);
+  me.state = 'block'; me.stats.blocks++; anim(me, 'No', 1.6); me.t = secs; me.autoBlock = true;
 }
 
 function moveToward(w, x, z, dt, speed) {
@@ -189,12 +242,15 @@ export function step(m, dt, ctl) {
     m.introT -= dt;
     if (m.introT <= 0) {
       for (const w of m.w) { w.state = 'idle'; anim(w, 'Idle'); }
+      fact(m, 'entry', 0, null); fact(m, 'entry', 1, null);
       emit(m, { k: 'bell' }); emit(m, { k: 'banner', text: 'FIGHT!', secs: 1.2 });
       emit(m, { k: 'call', text: `The bell rings. ${short(m.w[0])} and ${short(m.w[1])} circle each other.` });
     }
     return;
   }
+  m.clock += dt; m.blockT = Math.max(0, m.blockT - dt);
   const [A, B] = m.w;
+  const before = m.w.map((w) => [w.x, w.z]);
   for (let i = 0; i < 2; i++) {
     const w = m.w[i], c = ctl[i];
     if (m.over) continue;
@@ -225,8 +281,8 @@ export function step(m, dt, ctl) {
       w.rotX = -k * Math.PI * 0.5;
       if (k >= 1) {
         emit(m, { k: 'shake', v: 0.4 });
-        if (a.toss) { w.state = 'out'; w.out = true; win(m, 1 - i, 'OVER THE TOP'); }
-        else { w.state = 'down'; w.t = 2.2 + (100 - w.hp) / 40; }
+        if (a.toss) { w.state = 'out'; w.out = true; fact(m, 'elimination', 1 - i, i); win(m, 1 - i, 'OVER THE TOP'); }
+        else { w.state = 'down'; w.t = 2.2 + (100 - w.hp) / 40; fact(m, 'knockdown', 1 - i, i); }
       }
     } else if (w.state === 'down') {
       w.t -= dt; if (w.t <= 0) { w.state = 'idle'; w.rotX = 0; anim(w, 'Standing', 1.5); emit(m, { k: 'call', text: `${short(w)} is back on his feet!` }); }
@@ -250,11 +306,17 @@ export function step(m, dt, ctl) {
     const push = gap * 0.5 + 0.01;
     A.x += sx * push; A.z += sz * push; B.x -= sx * push; B.z -= sz * push;
   }
+  // A walk/run clip only plays while the wrestler really moves; standing still (in range, blocked by the
+  // ropes or the separation push) goes back to idle, so nobody walks in place.
+  m.w.forEach((w, i) => {
+    if ((w.anim === 'Walking' || w.anim === 'Running') && Math.hypot(w.x - before[i][0], w.z - before[i][1]) < 0.4 * dt) anim(w, 'Idle');
+  });
   pinStep(m, ctl, dt, kickout, win);
 }
 
 function kickout(m) {
   const p = m.pin, att = m.w[p.att], victim = m.w[p.victim];
+  fact(m, 'kickout', p.victim, p.att);
   emit(m, { k: 'call', text: `KICK OUT! ${short(victim)} kicks out at ${p.count}!` }); emit(m, { k: 'banner', text: 'KICK OUT!', secs: 0.8 });
   victim.stats.reversals++;
   att.state = 'idle'; anim(att, 'Idle'); victim.state = 'down'; victim.t = 0.6; m.pin = null;
@@ -262,6 +324,7 @@ function kickout(m) {
 
 function win(m, i, how) {
   const w = m.w[i];
+  if (how === 'PINFALL') fact(m, 'elimination', i, 1 - i); // Bruin's leaderboard: a win = entered, not eliminated
   m.over = true; m.winner = i; m.how = how; m.pin = null;
   emit(m, { k: 'banner', text: `${short(w).toUpperCase()} WINS`, secs: 999 });
   emit(m, { k: 'call', text: `${how}! ${w.name} wins!` });

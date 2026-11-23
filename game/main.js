@@ -19,6 +19,8 @@ import { loadBodies } from './arena/bodies.js';
 import { createAnimator, animFor } from './shared/anims.js';
 import { createReferee } from './arena/referee.js';
 import { createEntrance } from './feel/entrance.js';
+import { createBooth } from './arena/booth.js';
+import { mountLowerThird } from './feel/lowerthird.js';
 import { winnerLine } from '../voice/announcer.js';
 import { CHARACTERS, cssHex } from './shared/characters.js';
 
@@ -201,6 +203,8 @@ const royal = createRoyalClient({
 const loader = new GLTFLoader();
 // Roster bodies (arena/bodies.js, config in shared/roster-assets.js); the sim stays the source of truth.
 const bodies = await loadBodies(loader);
+// the broadcast: Rex and Dot at the announce desk (arena/booth.js) and the speaker name strap (feel/lowerthird.js)
+const booth = createBooth({ scene, bodies, matY: MAT_Y, ring: RING }); mountLowerThird();
 
 function makeView(w) {
   const { obj, animations } = bodies.make(w.id);
@@ -393,7 +397,7 @@ function handleEvents(evs) {
   if (facts.length && session?.mode === 'exhibition') layer.facts(facts);
   if (royal.active) royal.events(evs, currentRaw());
   for (const e of evs) {
-    feel.onEvent(e, currentRaw());
+    feel.onEvent(e, currentRaw()); booth.onEvent(e);
     if (e.k === 'banner') banner(e.text, e.secs);
     else if (e.k === 'call') call(e.text);
     else if (e.k === 'log') log(e.html, e.key, e.same);
@@ -414,7 +418,7 @@ function matchEnded(e) {
     aiPlansLog: e.aiPlansLog,
     winnerId: st.w[e.winner].id, winnerName: st.w[e.winner].name, mode: session.mode, mySlot: Math.max(0, session.slot),
   };
-  setTimeout(() => layer.announce(winnerLine(result.winnerId)), 1400); // after the bell: the ring announcer
+  setTimeout(() => layer.announce(winnerLine(result.winnerId)), 450); // as the results banner lands (its wipe is ~420 ms)
   for (const cb of endCbs) { try { cb(result); } catch (err) { console.error(err); } }
   if (session.mode === 'exhibition') layer.matchEnd();
 }
@@ -517,10 +521,12 @@ window.G = {
 // ---------- loop ----------
 const clock = new THREE.Clock();
 const feel = createFeel({ scene, camera, getViews: () => views });
-const entrance = createEntrance({ scene, camera, screen, matY: MAT_Y, ring: RING, getViews: () => views, play, layer });
+const entrance = createEntrance({ scene, camera, screen, matY: MAT_Y, ring: RING, getViews: () => views, play, layer,
+  announcer: (({ obj, animations }) => ({ obj, anim8: createAnimator(obj, animations) }))(bodies.make('ring')) });
 function frame() {
   const dt = Math.min(clock.getDelta(), 0.05);
   const t = clock.elapsedTime;
+  booth.restore(camera); booth.update(dt);
   const { simDt, viewDt } = feel.begin(dt, current());
   // entrances (exhibition only): start once both bodies exist; the sim waits for the bell until they finish
   if (session?.entrance && views.length === 2) { session.entrance = false; entrance.start(session.match); }
@@ -573,6 +579,7 @@ function frame() {
     feel.addTrauma(shake * 0.5); shake = 0;
     camera.lookAt(mid.x, MAT_Y + 0.9, mid.z);
     feel.frame(dt, st, mid);
+    booth.direct(camera); // a 1.2 s cutaway to the desk after a near-fall or a finisher
     st.w.forEach((w, i) => { setWidth('h' + i, w.hp); setWidth('s' + i, w.st); setWidth('m' + i, w.mo); });
   }
   bloom.strength = THREE.MathUtils.lerp(bloom.strength, 0.35, 0.05);

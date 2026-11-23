@@ -23,10 +23,27 @@ export function createAgentLayer({ logRow, call }) {
   // --- the booth: Rex and Dot call every fact; captions ride the ticker. Runware voices when the proxy has a key,
   // browser speechSynthesis otherwise (no key yet). The crowd starts on the first key press (autoplay rules).
   const crowd = createCrowd();
-  const tts = createTTS({ onDuck: (on) => crowd.duck(on), ctx: () => crowd.context });
+  // Voice events for the screen (arena/booth.js leans the speaker in, feel/lowerthird.js shows the name strap):
+  // window 'heel:voice' { phase: 'start'|'end', speaker, text, mode }. Muted or voiceless runs (automation, no
+  // TTS) still get an 'end' after a reading-speed estimate, so the visuals and the entrance keep real timing.
+  const voice = (phase, line, mode) => dispatchEvent(new CustomEvent('heel:voice', { detail: { phase, speaker: line.speaker, text: line.text, mode, t: performance.now() } }));
+  const started = new Map(); // speaker -> { mode, at }
+  const tts = createTTS({ onDuck: (on) => crowd.duck(on), ctx: () => crowd.context, onStart: (line, mode) => { started.set(line.speaker, { mode, at: performance.now() }); voice('start', line, mode); } });
+  const estMs = (line) => (600 + line.text.split(/\s+/).length * (line.speaker === 'ring' ? 430 : 330));
+  // speak, then 'end'. hold=true: the promise also waits out the estimate when no real audio played (the entrance).
+  async function voiced(line, hold = false) {
+    const t = performance.now();
+    try { await tts.speak(line); } catch { /* a failed voice must not stall */ }
+    const s = started.get(line.speaker);
+    if (!s || s.at < t) return; // never started (dropped as stale): no strap
+    const left = s.mode === 'neural' || s.mode === 'speechSynthesis' ? 0 : estMs(line) - (performance.now() - s.at);
+    if (left > 0 && hold) await new Promise((r) => setTimeout(r, left));
+    if (left > 0 && !hold) { setTimeout(() => voice('end', line, s.mode), left); return; }
+    voice('end', line, s.mode);
+  }
   const t0 = performance.now();
   const story = { grudge: null, plot: [] }; // Bruin grudge + recent BAND plans: the LLM lines call back to them
-  const boothOpts = { say: (line) => tts.speak(line), prefetch: (line) => tts.prefetch(line), story: () => story, onCaption: caption };
+  const boothOpts = { say: (line) => voiced(line), prefetch: (line) => tts.prefetch(line), story: () => story, onCaption: caption };
   let booth = createCommentary(boothOpts);
   fetch('/voice/api/health').then((r) => r.json()).then((h) => {
     debug.voice = h;
@@ -172,10 +189,12 @@ export function createAgentLayer({ logRow, call }) {
   }
 
   // the entrance (feel/entrance.js) and the winner call use the same voice bus, crowd and music
-  const announce = (line) => { caption(line); return tts.speak(line); };
+  // announce(line) resolves when the line has finished (or its estimate, when muted); hush() drops queued ones.
+  const announce = (line) => { caption(line); return voiced(line, true); };
+  const hush = () => { try { tts.stop(); } catch { /* nothing playing */ } };
   const swell = (a, s) => { try { crowd.start(); crowd.swell(a, s); } catch {} };
   const sting = (id) => music.sting(id);
-  return { matchStart, facts, matchEnd, tick, bind(m) { if (cur) cur.m = m; }, debug, announce, swell, sting };
+  return { matchStart, facts, matchEnd, tick, bind(m) { if (cur) cur.m = m; }, debug, announce, hush, swell, sting };
 }
 
 // One decision-log row: source chip, who -> intent (target), the reason, then the mart rows it cites.

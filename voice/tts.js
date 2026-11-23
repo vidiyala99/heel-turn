@@ -38,6 +38,7 @@ export function createTTS({ base = '/voice/api', onDuck = () => {}, onStart = ()
   }
   async function prefetch(l) { if (!muted && l?.text && await neural) clip(l).catch(() => {}); }
 
+  let playing = null; // stop hook for the line playing now
   // broadcast voice bus, built once per AudioContext
   let bus = null;
   function voiceBus(ac) {
@@ -60,6 +61,7 @@ export function createTTS({ base = '/voice/api', onDuck = () => {}, onStart = ()
       return new Promise(resolve => {
         const src = ac.createBufferSource(); src.buffer = buf;
         src.connect(voiceBus(ac)); src.onended = resolve;
+        playing = () => { try { src.stop(); } catch {} resolve(); };
         src.start(); onStart(line, 'neural');
       });
     }
@@ -67,6 +69,7 @@ export function createTTS({ base = '/voice/api', onDuck = () => {}, onStart = ()
     try {
       await new Promise((resolve, reject) => {
         const a = new Audio(url);
+        playing = () => { a.pause(); resolve(); };
         a.onplaying = () => onStart(line, 'neural');
         a.onended = resolve; a.onerror = reject;
         a.play().catch(reject);
@@ -122,5 +125,8 @@ export function createTTS({ base = '/voice/api', onDuck = () => {}, onStart = ()
     } finally { onDuck(false); }
   }
 
-  return { speak, prefetch, voices: VOICES };
+  // stop(): cut whatever line is playing now (the entrance skip); its speak() resolves at once.
+  function stop() { const p = playing; playing = null; p?.(); if ('speechSynthesis' in globalThis) speechSynthesis.cancel(); }
+
+  return { speak, prefetch, stop, voices: VOICES };
 }

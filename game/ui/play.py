@@ -28,7 +28,10 @@ with sync_playwright() as p:
     key("ArrowRight", 200); key("Enter", 300)  # pick P1; Exhibition draws a random opponent and goes to versus
     pg.screenshot(path=str(OUT / "play-select.png")); print("select->", st())
     pg.wait_for_function("HEEL_UI.state === 'match'", timeout=8000); print("in match")
-    pg.wait_for_timeout(3500)
+    # the entrance is paced by the ring announcer's lines (muted: reading-speed estimates); wait for the bell
+    pg.wait_for_function("(window.HEEL_ENTRANCE_LOG || []).some(e => e.ev === 'bell')", timeout=60000)
+    print("entrance:", " ".join(e["ev"] for e in pg.evaluate("HEEL_ENTRANCE_LOG")))
+    pg.wait_for_timeout(1500)
     # walk in and fight for real
     pg.keyboard.down("KeyD")
     for i in range(40):

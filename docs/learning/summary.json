@@ -1,0 +1,63 @@
+{
+  "R": 200,
+  "K": 20,
+  "matches_per_persona_per_condition": 4000,
+  "total_matches": 32000,
+  "personas": {
+    "striker": {
+      "off": "46.4% +- 0.5",
+      "on": "48.8% +- 0.5",
+      "on_minus_off_matches_2_to_K": "+2.4 pp +- 0.4",
+      "on_minus_off_engaged_only": "+1.9 pp +- 0.5",
+      "chance_baseline": "30.8% +- 0.4",
+      "engaged_share_off": "70.8% +- 0.5",
+      "human_moves_per_match": 19,
+      "ai_win_rate": {
+        "off": "59.4% +- 1.6",
+        "on": "59.9% +- 1.6"
+      }
+    },
+    "turtle": {
+      "off": "38.3% +- 0.5",
+      "on": "39.6% +- 0.5",
+      "on_minus_off_matches_2_to_K": "+1.2 pp +- 0.5",
+      "on_minus_off_engaged_only": "+2.2 pp +- 0.7",
+      "chance_baseline": "26.3% +- 0.4",
+      "engaged_share_off": "59.1% +- 0.5",
+      "human_moves_per_match": 16.4,
+      "ai_win_rate": {
+        "off": "75.8% +- 1.4",
+        "on": "77.8% +- 1.3"
+      }
+    },
+    "grappler": {
+      "off": "48.2% +- 0.5",
+      "on": "49.2% +- 0.5",
+      "on_minus_off_matches_2_to_K": "+0.9 pp +- 0.4",
+      "on_minus_off_engaged_only": "+1.1 pp +- 0.5",
+      "chance_baseline": "35.5% +- 0.4",
+      "engaged_share_off": "68.7% +- 0.4",
+      "human_moves_per_match": 18.9,
+      "ai_win_rate": {
+        "off": "25.5% +- 1.4",
+        "on": "25.5% +- 1.4"
+      }
+    },
+    "switcher": {
+      "off": "47.6% +- 0.5",
+      "on": "49.3% +- 0.5",
+      "on_minus_off_matches_2_to_K": "+1.7 pp +- 0.5",
+      "on_minus_off_engaged_only": "+0.2 pp +- 0.6",
+      "chance_baseline": "33.5% +- 0.4",
+      "engaged_share_off": "70.0% +- 0.4",
+      "human_moves_per_match": 18.9,
+      "ai_win_rate": {
+        "off": "42.4% +- 1.6",
+        "on": "47.4% +- 1.6"
+      },
+      "before_switch_on_minus_off": "+2.6 pp +- 0.7",
+      "first3_after_switch_on_minus_off": "+0.9 pp +- 1.5",
+      "last3_on_minus_off": "+0.3 pp +- 1.3"
+    }
+  }
+}

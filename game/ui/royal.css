@@ -10,7 +10,8 @@ body.royal.log-collapsed .log #log { display: none; }
 body.royal.banner-on .log { opacity: .2; }
 body.royal #banner { z-index: 30; }
 body.royal .keys { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: calc(100vw - 32px); box-sizing: border-box; }
-body.royal .odds-panel { z-index: 25; }
+body.royal .odds-panel { z-index: 25; background: rgba(7, 8, 12, .97); }
+body.royal.odds-open .log { opacity: 0; pointer-events: none; }
 
 .rr-strip {
   position: fixed; top: 14px; left: 50%; transform: translateX(-50%); z-index: 12; display: flex; gap: 8px;

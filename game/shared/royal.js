@@ -212,6 +212,13 @@ export function adoptBand(m, pending) {
     const kind = bp.kind, plan = bp.plan || {};
     if (m.proposals.some((p) => p.bandId === bp.id)) continue;
     const mine = m.proposals.find((p) => p.kind === kind && p.status === 'pending' && !p.bandId);
+    // the commissioner already ruled on ours before BAND's copy arrived: tie them and send that ruling to the room
+    const ruled = !mine && m.proposals.find((p) => p.kind === kind && !p.bandId && p.status !== 'pending');
+    if (ruled) {
+      ruled.bandId = bp.id;
+      emit(m, { k: 'verdict', id: ruled.id, kind, decision: ruled.status === 'approved' ? 'approve' : 'block', bandId: bp.id, late: true });
+      continue;
+    }
     if (mine) { mine.bandId = bp.id; if (plan.reason) mine.reason = `${mine.reason} | LLM: ${plan.reason}`; if (plan.cites?.length) mine.cites = [...new Set([...mine.cites, ...plan.cites])]; continue; }
     const al = m.alliance;
     if (kind === 'betray' && al && !m.betray && !m.proposals.some((p) => p.kind === 'betray')) {

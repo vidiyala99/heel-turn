@@ -12,9 +12,16 @@ export const MUTED = typeof navigator !== 'undefined' && navigator.webdriver ===
 const START_BUDGET_MS = 2000; // a clip not ready this long after its cue is skipped (or swapped for its cached fallback)
 
 export function createTTS({ base = '/voice/api', onDuck = () => {}, onStart = () => {}, mode = 'auto', ctx = () => null, now = () => performance.now(), muted = MUTED } = {}) {
+  // The OS browser voice sounds robotic (owner, 15:09), so it is opt-in only (?browserVoice=1). Neural is re-probed
+  // until the voice server answers, so a page opened while the server was restarting still gets the real voices.
+  const BROWSER_VOICE = typeof location !== 'undefined' && new URLSearchParams(location.search).get('browserVoice') === '1';
+  const probe = () => fetch(`${base}/health`).then(r => r.json()).then(h => !!(h.tts ?? h.runware)).catch(() => false);
   let neural = mode === 'neural' || mode === 'runware' ? Promise.resolve(true)
-    : mode === 'browser' ? Promise.resolve(false)
-    : fetch(`${base}/health`).then(r => r.json()).then(h => !!(h.tts ?? h.runware)).catch(() => false);
+    : mode === 'browser' ? Promise.resolve(false) : probe();
+  if (mode === 'auto') {
+    const retry = async () => { if (!(await neural)) { neural = probe(); setTimeout(retry, 3000); } };
+    setTimeout(retry, 3000);
+  }
 
   const clips = new Map(); // `${speaker}|${kind}|${text}` -> Promise<ArrayBuffer>
   const keyOf = (l) => `${l.speaker}|${l.kind ?? ''}|${l.text}`;
@@ -106,9 +113,11 @@ export function createTTS({ base = '/voice/api', onDuck = () => {}, onStart = ()
             try { return await play(await Promise.race([clip({ ...line, text: line.fallbackText }), timeout(400)]), { ...line, text: line.fallbackText }); } catch { /* drop */ }
           }
           if (e.message === 'stale') return; // late audio is dropped, never talked over the action
-          console.warn('[voice] neural tts failed, using browser voice', e);
+          console.warn('[voice] neural tts failed, line dropped', e);
+          if (!BROWSER_VOICE) return;
         }
       }
+      if (!BROWSER_VOICE) return; // silence beats the robotic OS voice; captions still show the line
       return await speakBrowser(line);
     } finally { onDuck(false); }
   }

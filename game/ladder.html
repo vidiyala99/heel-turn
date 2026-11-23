@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>HEEL TURN · Ladder Match</title>
+<style>
+  :root {
+    --bg: #05060a;
+    --panel: rgba(10, 12, 18, 0.82);
+    --line: rgba(220, 226, 235, 0.12);
+    --text: #e6e9ee;
+    --muted: #8d96a3;
+    --red: #e0483e;
+    --blue: #4f7fbf;
+    --gold: #f5c542;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--text); overflow: hidden;
+    font: 14px/1.4 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  canvas { display: block; }
+  .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; backdrop-filter: blur(6px); }
+  #title { position: fixed; top: 16px; left: 16px; padding: 10px 14px; }
+  #title b { display: block; font: 800 18px/1.1 system-ui, sans-serif; letter-spacing: 0.04em; text-transform: uppercase; }
+  #title span { color: var(--muted); font-size: 13px; }
+  #plates { position: fixed; top: 16px; left: 50%; transform: translateX(-50%); display: flex; gap: 10px; }
+  .plate { width: 190px; padding: 8px 12px; }
+  .plate .n { font-weight: 700; font-size: 13px; display: flex; justify-content: space-between; }
+  .plate .n i { font-style: normal; color: var(--muted); font-weight: 500; font-variant-numeric: tabular-nums; }
+  .bar { height: 5px; margin-top: 6px; border-radius: 3px; background: rgba(255, 255, 255, 0.08); overflow: hidden; }
+  .bar > div { height: 100%; width: 100%; transition: width 200ms ease-out; }
+  #p1 .bar > div { background: var(--red); }
+  #p2 .bar > div { background: var(--blue); }
+  #feed { position: fixed; top: 16px; right: 16px; width: min(320px, calc(100vw - 32px)); padding: 10px 12px; font-size: 13px; color: var(--muted); }
+  #feed h2 { margin: 0 0 6px; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+  #feed p { margin: 0; padding: 3px 0; border-top: 1px solid var(--line); }
+  #feed p:first-of-type { border-top: 0; }
+  #feed b { color: var(--text); font-weight: 600; }
+  #feed .k { font: 600 10px/1 ui-monospace, monospace; text-transform: uppercase; padding: 2px 5px; border-radius: 4px;
+    border: 1px solid var(--line); margin-right: 6px; color: var(--text); }
+  #feed .k.betray, #feed .k.tip { border-color: var(--red); color: #ffb3ad; }
+  #feed .k.grab { border-color: var(--gold); color: var(--gold); }
+  #feed .s { color: var(--muted); font-size: 11px; }
+  #keys { position: fixed; left: 16px; bottom: 16px; padding: 10px 12px; display: grid; grid-template-columns: auto auto; gap: 4px 10px; font-size: 13px; }
+  #keys h2 { grid-column: 1 / -1; margin: 0 0 2px; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+  kbd { font: 600 12px/1 ui-monospace, monospace; color: var(--text); background: rgba(255, 255, 255, 0.06);
+    border: 1px solid var(--line); border-bottom-width: 2px; border-radius: 5px; padding: 3px 6px; display: inline-block; min-width: 22px; text-align: center; }
+  #keys span { color: var(--muted); align-self: center; }
+  #hint { position: fixed; left: 50%; bottom: 22px; transform: translateX(-50%); padding: 10px 16px; font-size: 15px; font-weight: 600;
+    white-space: nowrap; transition: opacity 160ms ease-out; }
+  #hint kbd { margin-right: 6px; }
+  #banner { position: fixed; inset: 0; display: grid; place-items: center; pointer-events: none; opacity: 0;
+    transition: opacity 240ms ease-out, transform 240ms cubic-bezier(.2,.9,.3,1.2); transform: scale(0.96); }
+  #banner.on { opacity: 1; transform: scale(1); }
+  #banner div { text-align: center; padding: 18px 34px; }
+  #banner b { display: block; font: 900 min(9vw, 84px)/1 Anton, Impact, system-ui, sans-serif; color: var(--gold); letter-spacing: 0.02em;
+    text-shadow: 0 6px 40px rgba(245, 197, 66, 0.35); }
+  #banner span { color: var(--text); font-size: 15px; }
+  @media (max-width: 760px) { #feed, #plates { display: none; } }
+  @media (prefers-reduced-motion: reduce) { #banner, #hint, .bar > div { transition: none; } }
+</style>
+</head>
+<body>
+<div id="title" class="panel"><b>Ladder match</b><span>First to pull down the briefcase wins</span></div>
+<div id="plates">
+  <div id="p1" class="plate panel"><div class="n">You <i>stamina</i></div><div class="bar"><div></div></div></div>
+  <div id="p2" class="plate panel"><div class="n">Silas Crane <i>AI</i></div><div class="bar"><div></div></div></div>
+</div>
+<section id="feed" class="panel" aria-live="polite"><h2>Ladder log</h2><div id="feedList"></div></section>
+<section id="keys" class="panel" aria-label="Controls">
+  <h2>Controls</h2>
+  <kbd>WASD</kbd><span>Move</span>
+  <kbd>E</kbd><span>Pick up / set up ladder</span>
+  <kbd>Q</kbd><span>Drop ladder / step off</span>
+  <kbd>Space</kbd><span>Climb (hold)</span>
+  <kbd>H</kbd><span>Hold ladder steady</span>
+  <kbd>F</kbd><span>Shove ladder (betray if holding)</span>
+  <kbd>G</kbd><span>Grab the briefcase</span>
+  <kbd>R</kbd><span>Restart</span>
+</section>
+<div id="hint" class="panel" role="status"></div>
+<div id="banner" aria-live="assertive"><div class="panel"><b id="bannerText"></b><span id="bannerSub"></span></div></div>
+<script type="module" src="/ladder/main.js"></script>
+</body>
+</html>

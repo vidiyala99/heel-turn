@@ -1,4 +1,4 @@
-// Menu music: a synthesized arena hard-rock loop (no samples, no licensed themes) for title, menu, select, versus
+// Menu music: the Runware-generated hard-rock loop (assets/music/menu-loop.mp3), else a synthesized one, for title, menu, select, versus
 // and results; a short entrance sting per wrestler on the versus screen. During a match it fades out so the booth
 // and the crowd own the audio. mountMusic() listens to the UI's `heel:screen` and `heel:settings` events and starts
 // on the first key or pointer press (autoplay policy). Silent under automation or ?mute=1 (see tts.js MUTED).
@@ -70,11 +70,23 @@ export function createMusic({ volume = () => window.HEEL_SETTINGS?.volume ?? 0.7
     while (nextBar < ac.currentTime + 0.25) { scheduleBar(nextBar, bar++); nextBar += BAR; }
   }
 
+  // Runware-rendered tracks (voice/assets/music, see CREDITS.md). Decoded once; any failure keeps the synth loop.
+  const buffers = new Map();
+  const load = (name) => {
+    if (!buffers.has(name)) buffers.set(name, fetch(new URL(`./assets/music/${name}.mp3`, import.meta.url))
+      .then(r => r.ok ? r.arrayBuffer() : Promise.reject(new Error(r.status))).then(b => ac.decodeAudioData(b)).catch(() => null));
+    return buffers.get(name);
+  };
+  let track = null;
   function play() {
     if (!init() || playing) return;
     ac.resume(); playing = true;
-    nextBar = ac.currentTime + 0.08; bar = 0;
-    timer = setInterval(loop, 50); loop();
+    load('menu-loop').then((buf) => {
+      if (!playing || track) return;
+      if (!buf) { nextBar = ac.currentTime + 0.08; bar = 0; timer = setInterval(loop, 50); loop(); return; }
+      track = ac.createBufferSource(); track.buffer = buf; track.loop = true;
+      track.connect(out); track.start();
+    });
     out.gain.cancelScheduledValues(ac.currentTime);
     out.gain.setTargetAtTime(level(), ac.currentTime, 0.3);
   }
@@ -83,7 +95,8 @@ export function createMusic({ volume = () => window.HEEL_SETTINGS?.volume ?? 0.7
     playing = false;
     out.gain.cancelScheduledValues(ac.currentTime);
     out.gain.setTargetAtTime(0, ac.currentTime, fade / 4);
-    const t = timer; setTimeout(() => clearInterval(t), fade * 1000 + 300);
+    const t = timer, src = track; track = null;
+    setTimeout(() => { clearInterval(t); src?.stop(); }, fade * 1000 + 300);
   }
   // duck under a sting or a transition, then come back
   function duck(seconds = 1.2) {
@@ -93,9 +106,22 @@ export function createMusic({ volume = () => window.HEEL_SETTINGS?.volume ?? 0.7
     out.gain.setTargetAtTime(level() * 0.25, t, 0.05);
     out.gain.setTargetAtTime(level(), t + seconds, 0.4);
   }
-  function sting(wrestler) {
+  // Entrance theme from Runware (first `seconds`, faded out) when the file loads; the synth sting otherwise.
+  // Versus uses a 1.3 s cut so the two stings stay apart; entrance(w) plays the full 18 s.
+  async function sting(wrestler, seconds = 1.3) {
     if (!init()) return;
-    ac.resume(); duck(2);
+    ac.resume();
+    const id = wrestler === 'brutus' ? 'kane' : wrestler;
+    const buf = await load(`entrance-${id}`);
+    if (buf) {
+      duck(seconds + 0.6);
+      const src = ac.createBufferSource(), g = ac.createGain(), t = ac.currentTime;
+      src.buffer = buf; g.gain.setValueAtTime(0.9 * volume(), t);
+      g.gain.setTargetAtTime(0, t + seconds - 0.3, 0.12);
+      src.connect(g).connect(ac.destination); src.start(t); src.stop(t + seconds + 0.5);
+      return;
+    }
+    duck(2);
     const [root, motif] = STINGS[wrestler] ?? [0, [0, 7, 12]];
     const t = ac.currentTime + 0.05, base = E1 * 2 * 2 ** (root / 12);
     kick(t); hiss(t, { freq: 3000, dur: 1.6, gain: 0.45 });
@@ -104,7 +130,9 @@ export function createMusic({ volume = () => window.HEEL_SETTINGS?.volume ?? 0.7
   }
   function setVolume() { if (ac && playing) out.gain.setTargetAtTime(level(), ac.currentTime, 0.1); }
 
-  return { play, stop, duck, sting, setVolume, get playing() { return playing; }, get context() { return ac; } };
+  const entrance = (wrestler) => sting(wrestler, 18);
+
+  return { play, stop, duck, sting, entrance, setVolume, get playing() { return playing; }, get context() { return ac; } };
 }
 
 // screen: title | menu | howto | settings | online | select | vs | match | pause | results

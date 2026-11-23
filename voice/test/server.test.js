@@ -49,7 +49,8 @@ test('tts proxies Runware once per text, then serves the disk cache', async (t) 
   assert.equal(runwareCalls[0].auth, 'Bearer test-key');
   const task = runwareCalls[0].body[0];
   assert.equal(task.taskType, 'audioInference');
-  assert.deepEqual(task.speech, { text: 'KANE SMASH.', voice: 'Hades', speed: 0.85 });
+  assert.equal(task.model, 'xai:tts@0');
+  assert.deepEqual(task.speech, { text: 'KANE SMASH.', voice: 'zagan' });
   assert.equal((await readdir(process.env.VOICE_CACHE_DIR)).length, 1);
 
   // six speakers map to six distinct Runware voices

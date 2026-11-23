@@ -18,7 +18,7 @@ import { announcerLines } from './announcer.js';
 const ROOT = fileURLToPath(new URL('.', import.meta.url));
 const CACHE = process.env.VOICE_CACHE_DIR || join(ROOT, '.cache');
 const RUNWARE_URL = process.env.RUNWARE_URL || 'https://api.runware.ai/v1';
-const RUNWARE_MODEL = process.env.RUNWARE_TTS_MODEL || 'fishaudio:s2.1@pro'; // owner pick 15:28 (Fish over Inworld/HeyGen)
+const RUNWARE_MODEL = process.env.RUNWARE_TTS_MODEL || null;
 const OPENAI_URL = process.env.OPENAI_URL || 'https://api.openai.com/v1/chat/completions';
 const OPENAI_MODEL = process.env.OPENAI_MODEL || 'gpt-4.1-mini';
 const OPENAI_TTS_URL = process.env.OPENAI_TTS_URL || 'https://api.openai.com/v1/audio/speech';
@@ -42,12 +42,19 @@ const warm = { total: 0, done: 0, failed: 0, ms: 0 };
 
 const style = (speaker, kind) => VOICES[speaker].openai.style + (speaker === 'rex' && HYPE.has(kind) ? ' This is a huge moment: peak energy, scream it.' : '');
 
+// Per-speaker Runware model and voice (voices.js); RUNWARE_TTS_MODEL forces one model for every speaker.
+// Inworld takes speed; xAI takes inline tags like [laugh] and has no speed, so tags are stripped for other models.
+const runwareVoice = (v) => ({ model: RUNWARE_MODEL ?? v.runware.model, voice: v.runware.voice });
 async function callRunware(v, text) {
+  const { model, voice } = runwareVoice(v);
+  // Fish (owner pick 15:28): voice is a 32-hex id, omitted for the default voice (Rex); speed per speaker
+  const speech = model.startsWith('xai:') ? { text, voice }
+    : model.startsWith('fishaudio:') ? { text, ...(voice ? { voice } : {}), speed: v.speedRunware ?? 1.0 }
+    : { text: text.replace(/\s*\[[a-z ]+\]/gi, ''), voice, ...(model.startsWith('inworld:') ? { speed: v.speed } : {}) };
   const r = await fetch(RUNWARE_URL, {
     method: 'POST',
     headers: { 'content-type': 'application/json', authorization: `Bearer ${process.env.RUNWARE_API_KEY}` },
-    body: JSON.stringify([{ taskType: 'audioInference', taskUUID: crypto.randomUUID(), model: RUNWARE_MODEL,
-      speech: { text, ...(v.runware ? { voice: v.runware } : {}), speed: v.speedRunware ?? v.speed }, outputFormat: 'MP3', outputType: 'base64Data' }]),
+    body: JSON.stringify([{ taskType: 'audioInference', taskUUID: crypto.randomUUID(), model, speech, outputFormat: 'MP3', outputType: 'base64Data' }]),
     signal: AbortSignal.timeout(15000),
   });
   const out = await r.json().catch(() => ({}));
@@ -72,7 +79,9 @@ export async function tts(speaker, text, kind) {
   if (!v || typeof text !== 'string' || text.length < 2 || text.length > 500) throw Object.assign(new Error('bad request'), { code: 400 });
   if (!p) throw Object.assign(new Error('no TTS key set'), { code: 503 });
   const instructions = style(speaker, kind);
-  const id = p === 'runware' ? `${RUNWARE_MODEL}|${v.runware}|${v.speedRunware ?? v.speed}` : `${OPENAI_TTS_MODEL}|${v.openai.voice}|${instructions}`;
+  // provider, model and voice are all in the key: switching any of them re-renders instead of serving the old clip
+  const rv = runwareVoice(v);
+  const id = p === 'runware' ? `runware|${rv.model}|${rv.voice}|${v.speed}` : `openai|${OPENAI_TTS_MODEL}|${v.openai.voice}|${instructions}`;
   const key = createHash('sha256').update(`${id}|${text}`).digest('hex').slice(0, 32);
   const file = join(CACHE, `${key}.mp3`);
   try { return { buf: await readFile(file), cached: true }; } catch { /* miss */ }

@@ -60,6 +60,32 @@ from Bruin metrics. Credibility carries across takes, so endings change. Real hi
 is still unverified, with SQL on the mart as fallback.
 **Still unverified:** Telem trace id in the API response, Runware per-voice parameter, BAND SDK on Windows.
 
+## What judges score (grounded 2026-11-22 23:30; sources `prep/event-site.md`, `prep/sponsor-signals.md`)
+1. **Gate, not points:** 5 must-haves in every track (characters, visual output, movement, 3+ agents with own goals,
+   visible decision log). The site's self-check marks a project "not eligible" below 5/5.
+2. **Boosters:** 3D, learning/memory that changes decisions, a distinct voice per agent.
+3. **Judge form** (submission platform bundle; may be the platform default): 0-100 on **Presentation, Execution,
+   Innovation, Impact, Implementation**, plain average (20% each), plus a separate "how much would you invest" leaderboard.
+   So the pitch needs an Impact/investable story, not only a fun film.
+4. **Pitfalls the site names:** chatbot with a face; secretly scripted plot ("run it twice"); text-only agents; invisible reasoning.
+5. **Demo advice from the site:** open with agents moving/deciding, show the decision log, run it twice, name track + sponsor tools.
+6. **Mechanics:** judging groups follow submission order, ~5 min per project. **Submit early.** Submission asks which sponsor
+   tools you used and how. A Teamily agent thread counts as proof of how the human + agent team worked.
+7. **Sponsor signals (what each team is pushing this week):** Bruin inference assets (a model fills a typed column per row);
+   BAND persistent memory across rooms via cognee, multi-agent handoffs; Runware HeyGen Avatar 6 lip-sync and directed
+   Gemini TTS, and it sponsors an AI film award; Glasser posted about this hackathon ("agents agree on something real").
+
+### Changes to the design from grounding
+- Keep base A (re-scored against the real rubric; Innovation and Presentation strong). Raise **Impact**: pitch the
+  mechanic, "agents that cannot cite what they did not verify", as evidence-gated deliberation for any multi-agent
+  decision; the 1872 inquiry is the demo.
+- **Bruin:** add an inference asset that classifies each exhibit's theory and stance as a typed column, with checks on it.
+- **BAND:** use the cognee integration so each character's memory outlasts the room across takes (BAND's own push).
+- **Runware:** directed TTS per character; stretch: Avatar 6 lip-synced close-up when a character speaks.
+- **Demo:** run two takes side by side to prove it is unscripted; name sponsors on screen. Submit by ~17:30, not 17:55.
+- **Teamily:** keep a short agent thread during the build as the human + agent proof (cheap).
+- Glasser stays cut unless a real data need appears ($100, no fit for 1872).
+
 ## Phase B: Build order (from A, riskiest first, each step ends in a check)
 | # | Time | Unit | Check |
 |---|---|---|---|

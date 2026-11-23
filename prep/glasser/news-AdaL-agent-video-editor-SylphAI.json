@@ -1,0 +1,38 @@
+{
+  "id": "03418a79-38ac-4307-bd8a-9518ebfbe0df",
+  "run_url": "https://app.glasser.ai/runs/03418a79-38ac-4307-bd8a-9518ebfbe0df",
+  "provider": "serper",
+  "endpoint": "/news",
+  "endpoint_version": 2,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "q": "AdaL agent video editor SylphAI"
+  },
+  "output": {
+    "news": [],
+    "searchParameters": {
+      "q": "AdaL agent video editor SylphAI",
+      "num": 10,
+      "page": 1,
+      "type": "news",
+      "engine": "google",
+      "allowSuggested": true
+    }
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.001",
+  "charge_basis": {
+    "clause": "NO_RESULT",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:27:53.937Z",
+  "started_at": "2026-11-23T07:27:53.973Z",
+  "completed_at": "2026-11-23T07:27:54.905Z",
+  "task_id": "tsk_7574e0e1639fdb03",
+  "metadata": {}
+}

@@ -1,0 +1,109 @@
+{
+  "id": "c974f354-e879-45f8-9faa-c33509ea93ff",
+  "run_url": "https://app.glasser.ai/runs/c974f354-e879-45f8-9faa-c33509ea93ff",
+  "provider": "serper",
+  "endpoint": "/news",
+  "endpoint_version": 2,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "q": "BAND band.ai agents"
+  },
+  "output": {
+    "news": [
+      {
+        "date": "3 days ago",
+        "link": "https://towardsdatascience.com/how-to-oversee-ai-agents-at-scale-with-a-three-tier-architecture/",
+        "title": "61% of Orgs Report Silent Failures. Human Review Won't Scale for AI Agents",
+        "source": "Towards Data Science",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6Y-kU67cPUxQ3N-oOxrA-8oqpVNLSjnvUyPNc_KaqqgJ99eje8blrT8peYejPocCHVKD7VMmGOjBgsYCCu2ZGsg3uNYX6Nl4Vo_8CtSAdiCk&s"
+      },
+      {
+        "date": "2 weeks ago",
+        "link": "https://www.theregister.com/ai-and-ml/2026/11/10/14-year-old-creates-tool-for-ai-agents-to-band-together-like-a-team/5308841",
+        "title": "14-year-old creates tool for AI agents to band together like a team",
+        "source": "The Register",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2zk9_T2tURuQLKW_PTfKV_DtMoLmRjMX83TVjqKLBcFpxO5SEONtPcduf9W4fnXlR3UxnTkZZ502W4PzuzRe9sGNf_JvkZEan_LoJRo2JR4kJ&s"
+      },
+      {
+        "date": "Apr 23, 2026",
+        "link": "https://venturebeat.com/orchestration/talking-to-ai-agents-is-one-thing-what-about-when-they-talk-to-each-other-new-startup-band-debuts-universal-orchestrator",
+        "title": "New startup BAND debuts agentic mesh with deterministic routing to govern multiple enterprise AI agents across model providers, channels",
+        "source": "VentureBeat",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMnFx3CCsBHbSQ92lyGLkZgELnWoMzjbg8qeAv18faOWqdHa_IdUMGvmSlyddbqkn0zUzIRjsBcQJE39mtzRPYpnvS0rPg4DlMgty29xq4JAZ_&s"
+      },
+      {
+        "date": "1 month ago",
+        "link": "https://gizmodo.com/the-fear-of-a-one-man-band-weaponizing-ai-agents-is-becoming-reality-2000827754",
+        "title": "The Fear of a One-Man-Band Weaponizing AI Agents Is Becoming Reality",
+        "source": "Gizmodo",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWhr50AX4m7tzE_sqSs3oqweeAdPC0VdWWvPIJ7ew887Zw2U2oMpFLlFx7GyW4PT3uaU1FatECxraHfNhhiH7G9HTPhdgRiKFbSWvF6wNcaTY&s"
+      },
+      {
+        "date": "Sep 9, 2026",
+        "link": "https://www.sfchronicle.com/entertainment/music/article/muse-band-meta-ai-22424100.php",
+        "title": "British rock band loses its longtime social media handle to Meta’s new AI tool",
+        "source": "San Francisco Chronicle",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ14kQn-13gUIpFCwPCax4WwPKUKqMnIkent8mnhdeDnLs8QSHusMfQ0Fvlhm6Uxl58vjSaoqiEOj2b8cm4n5A_g7b3aIIAiQ5WLI0Ucu-4FGtk&s"
+      },
+      {
+        "date": "Apr 24, 2026",
+        "link": "https://www.ynetnews.com/business/article/hkkpu5utbe",
+        "title": "BAND launches with $17 million to connect AI agents",
+        "source": "Ynetnews",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCJb3bV36mb6eJM21g-HDjL57PuVmAwgCyIOxET-uz7UOoQrjV7nu3KDtXEixTLeu9McF6onqXJS_n4abaUkTe10F6QyOPUgQJ7PNcHNSHyeYu&s"
+      },
+      {
+        "date": "Apr 23, 2026",
+        "link": "https://www.calcalistech.com/ctechnews/article/hkuomtva11l",
+        "title": "Ex-Sygnia and Ermetic founder raises $17 million Seed round to build the ‘WhatsApp for AI agents’",
+        "source": "CTech",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM9Jk6oqF1lgKDuaGPpp_ZEZPur-I-DkHBTBlnAunhtBjn-AO72eudZy4-Gcq_b9ikacZicfyW3ez4FRIzK7xKCFidgMMU2ulvrVAjPmHy028&s"
+      },
+      {
+        "date": "Sep 9, 2026",
+        "link": "https://www.engadget.com/2254419/muse-the-band-lost-its-social-media-handles-to-muse-meta-s-new-ai-agent/",
+        "title": "Muse, The Band, Lost Its Social Media Handles To Muse, Meta's New AI Agent",
+        "source": "Engadget",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiTU172hNugN1ggrDDMuAIpAL912hjFVin6r4XJXFgd0qHE91__fmYhkUnhxWN4Qatz61Z6AdMPDT6gZqoosh53cjvxPVvqKQVIqM5RnxOA2I&s"
+      },
+      {
+        "date": "Apr 23, 2026",
+        "link": "https://www.citybiz.co/article/836273/band-launches-with-17-million-seed-to-build-ai-agent-infrastructure/",
+        "title": "BAND Launches With $17 Million Seed to Build AI Agent Infrastructure",
+        "source": "citybiz",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnSzk-iHt-vyP3jKJ8JU1kpmaZr1lL9U1fzSVokF8iwFcSdB264sZrgf6FfyTlZpPoHLr7xZQyWMitO4kyGRcAKS56llYY3-5aDczZJY-f7EPy&s"
+      },
+      {
+        "date": "Sep 9, 2026",
+        "link": "https://stereogum.com/2510793/meta-kicks-muse-off-their-social-handles-to-launch-new-ai-agent/news",
+        "title": "Meta Kicks Muse Off Their Social Handles To Launch New AI Agent",
+        "source": "Stereogum",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZWVib-OPuIoa5PpoBvQV6c8IA1LbcwLq7tRBarYcswma7acM2SDbCl9RtR6h8JoT_cIhT13BE384aSRbz73Ra4PFApy2oEysK_MxBtwbE4QY&s"
+      }
+    ],
+    "searchParameters": {
+      "q": "BAND band.ai agents",
+      "num": 10,
+      "page": 1,
+      "type": "news",
+      "engine": "google",
+      "allowSuggested": true
+    }
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.001",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:27:53.700Z",
+  "started_at": "2026-11-23T07:27:53.781Z",
+  "completed_at": "2026-11-23T07:27:55.152Z",
+  "task_id": "tsk_7574e0e1639fdb03",
+  "metadata": {}
+}

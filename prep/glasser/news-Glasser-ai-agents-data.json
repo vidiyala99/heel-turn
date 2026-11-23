@@ -1,0 +1,102 @@
+{
+  "id": "b1246029-e0e5-46f4-97ac-dc17c603ae60",
+  "run_url": "https://app.glasser.ai/runs/b1246029-e0e5-46f4-97ac-dc17c603ae60",
+  "provider": "serper",
+  "endpoint": "/news",
+  "endpoint_version": 2,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "q": "Glasser.ai agents data"
+  },
+  "output": {
+    "news": [
+      {
+        "date": "27 minutes ago",
+        "link": "https://superpowerdaily.com/events/multiplayer-ai-hackathon-thanksgiving-special-6cd0d1a9-dfc7-4309-9093-8dea902b20ec",
+        "title": "Multiplayer AI Hackathon (Thanksgiving Special)",
+        "source": "Superpower Daily",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSInEwsdoYA2kZWKjWkEBMWrk1MZbfE99HdKXUnDURiHfKEB4KgFFkmEEmDgAROTSs47g8gFWmLd1yvB7aoG9pubbyhjPHW&s"
+      },
+      {
+        "date": "4 weeks ago",
+        "link": "https://www.testingcatalog.com/glasser-now-lets-ai-agents-buy-premium-data-per-api-call/",
+        "title": "Glasser now lets AI agents buy premium data per API call",
+        "source": "TestingCatalog AI News",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxMxRzszJc69vwsv2Tn8RwO5Wu6WerX7-8QT5TUkBBIxUaaFxyeyl6xkJy2hwBovNcr0t5BhMGvYt_ToMzvtdFus8cp26ZZq4iVpHn7MIDlOI&s"
+      },
+      {
+        "date": "4 weeks ago",
+        "link": "https://www.testingcatalog.com/nvidia-and-meta-expand-muse-collaboration-for-ai-agents/",
+        "title": "NVIDIA and Meta expand Muse collaboration for AI agents",
+        "source": "TestingCatalog AI News",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSdVa55ck1p6GOsKjLb2zpVv9exepjiUXGuLwAwol6Er_Z-vsjSQ4aYFnVvWEt_pFjvzkXRut3QRp3i7i2HknL-RSfj4B3bJrGs9ahNE0CJu4&s"
+      },
+      {
+        "date": "Sep 2, 2026",
+        "link": "https://www.testingcatalog.com/wonderful-raises-550m-for-its-enterprise-ai-agent-platform/",
+        "title": "Wonderful raises $550M for its enterprise AI agent platform",
+        "source": "TestingCatalog AI News",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN8nrknGjhcVvvUah7w1jlktAVMlkg-LgeYw1_1ZE0bNEDALS-CHO6XOBBbNvLkPqya2o8S8HZYmZ5DSQsLiwnGVLjp0LExsZ4h5dscoLNNBI&s"
+      },
+      {
+        "date": "Jun 30, 2026",
+        "link": "https://www.testingcatalog.com/apify-lets-ai-agents-pay-via-coinbase-x402-for-web-tools/",
+        "title": "Apify lets AI Agents pay via Coinbase x402 for web tools",
+        "source": "TestingCatalog AI News",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfn1LzOiF0l81rN0N6L5S_jBsLJp-VcMjph_CNp6_QXnCYxF_M02WKP_a5JW4WbkwLgkIKc40lAi8w22t9arwRTKdAovk3azjZ2AkrYye4S2Br&s"
+      },
+      {
+        "date": "Sep 7, 2026",
+        "link": "https://www.testingcatalog.com/shannon-3-0-ai-pentester-gets-through-aikido-and-xbow/",
+        "title": "Shannon 3.0 AI pentester gets through Aikido and XBOW",
+        "source": "TestingCatalog AI News",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWJ_KcIO4aWFxTTk15UtWYlSM3DQ8aPS6bQ8Zxl9xBlikf0xzNIy8-bhf3BUpOQsadVKJou5myChhE4-vR6v2unIoA0H4cimFaSXKB_KA4766s&s"
+      },
+      {
+        "date": "Jun 23, 2026",
+        "link": "https://www.testingcatalog.com/clickup-rolls-out-brain2-ai-with-deep-workspace-context/",
+        "title": "ClickUp rolls out Brain² AI with deep workspace context",
+        "source": "TestingCatalog AI News",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3byXU0RrRr6Y9jGgcI8s3BbEyAzxQZb1Kd9bhrpMgVn2rHxtE08gN-iuUcJx7bUNG71-Tj0S2QY_43HezIKXvbErfTFzz6QJFePVE4P9Cu0U&s"
+      },
+      {
+        "date": "Jun 9, 2026",
+        "link": "https://www.testingcatalog.com/mora-launches-ai-analytics-platform-with-sql-transparency-for-teams/",
+        "title": "Mora launches AI analytics platform with SQL transparency",
+        "source": "TestingCatalog AI News",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGL7q0lzyYiVJnCuX7dPYmJW7YPkssgAe4qUaN9FFdVy7xb1j-oXeGziaC8EBAmvy9zg6Z52YcPhqp6JBRu-dP8mkBVc-6WqoOJ0ZwqVZw4jI&s"
+      },
+      {
+        "date": "May 26, 2026",
+        "link": "https://www.testingcatalog.com/capafy-launches-new-ai-skills-marketplace-for-creators/",
+        "title": "Capafy launches new AI Skills Marketplace for creators",
+        "source": "TestingCatalog AI News",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT17g8OPY8iTL_h2-Oh3MMHDJUa1V9gzHp-TME2CoBQGCFTu41qj4cq_5VZ1C-rQyDz_8hScyVle2Yps_kZf-CjBSYbq0eW8B9MRm_p8l7tGmx4&s"
+      }
+    ],
+    "searchParameters": {
+      "q": "Glasser.ai agents data",
+      "num": 10,
+      "page": 1,
+      "type": "news",
+      "engine": "google",
+      "allowSuggested": true
+    }
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.001",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:27:54.007Z",
+  "started_at": "2026-11-23T07:27:54.060Z",
+  "completed_at": "2026-11-23T07:27:54.726Z",
+  "task_id": "tsk_7574e0e1639fdb03",
+  "metadata": {}
+}

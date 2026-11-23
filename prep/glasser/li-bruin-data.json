@@ -1,0 +1,62 @@
+{
+  "id": "0d78be8c-30a0-41c1-865d-69c749c1bd4f",
+  "run_url": "https://app.glasser.ai/runs/0d78be8c-30a0-41c1-865d-69c749c1bd4f",
+  "provider": "scrapecreators",
+  "endpoint": "/v1/linkedin/company/posts",
+  "endpoint_version": 4,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "url": "https://www.linkedin.com/company/bruin-data"
+  },
+  "output": {
+    "posts": [
+      {
+        "id": "7528485927048966144",
+        "url": "https://www.linkedin.com/posts/bruin-data_data-engineer-vengeance-mode-vs-agent-mode-activity-7528485927048966144-2yO1",
+        "text": "data engineer: vengeance mode vs agent mode",
+        "datePublished": "2026-11-17T15:55:17.512Z"
+      },
+      {
+        "id": "7526229101339389952",
+        "url": "https://www.linkedin.com/posts/bruin-data_bruin-october-2026-product-updates-activity-7526229101339389952-lKna",
+        "text": "October at Bruin: AI that fills in your columns, reverse ETL that puts them in your CRM, and Bruin on the Slack and Teams marketplaces.\n\nWhat we shipped:\n\n→ Inference assets: ask a model a question about every row and get a typed column back. Every answer is checked against its type and allowed choices.\n→ Reverse ETL, now part of ingestr: sync tested tables to HubSpot, Salesforce, Attio and CleverTap. A failing check holds the sync.\n→ Bruin is listed on the Slack Marketplace and Microsoft Marketplace.\n→ bruin import ssis: turn SSIS packages and SQL Server Agent jobs into a Bruin pipeline.\n→ CDC from a Postgres 16+ read replica, plus snapshot-free starts, hard deletes and StarRocks as a destination.\n→ Quality checks for your semantic layer, with bruin semantic check.\n→ In Bruin Cloud: rerun options, resizable dashboards, AI cost by agent, asset health and alerts to any webhook.\n\nDetails in the carousel, links in the comments.",
+        "datePublished": "2026-11-11T10:27:28.333Z"
+      },
+      {
+        "id": "7521912204313399297",
+        "url": "https://www.linkedin.com/posts/bruin-data_monster-data-stack-activity-7521912204313399297-txmI",
+        "text": "Halloween is a nice break from the usual horror, for many data people.\nIf it gets too spooky, look for the pink bear 🐾",
+        "datePublished": "2026-10-30T12:33:39.878Z"
+      },
+      {
+        "id": "7518315110868643841",
+        "url": "https://www.linkedin.com/posts/bruin-data_what-can-you-get-done-in-a-second-if-you-activity-7518315110868643841-pTJE",
+        "text": "What can you get done in a second?\nIf you run on ingestr, move 10,000 rows from MySQL to Postgres. Twice.\n\n- 160 sources\n- 40 destinations\n- Fastest in 76 of 79 benchmarks against Airbyte, dlt, Sling and Spark",
+        "datePublished": "2026-10-20T14:20:05.970Z"
+      },
+      {
+        "id": "7516803404283871232",
+        "url": "https://www.linkedin.com/posts/bruin-data_pipeline-failed-data-engineer-activity-7516803404283871232-8izb",
+        "text": "pipeline: failed\ndata engineer:",
+        "datePublished": "2026-10-16T10:13:07.034Z"
+      }
+    ],
+    "success": true
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00188",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:27:53.539Z",
+  "started_at": "2026-11-23T07:27:53.690Z",
+  "completed_at": "2026-11-23T07:27:56.348Z",
+  "task_id": "tsk_a2399d9b5d5fefae",
+  "metadata": {}
+}

@@ -1,0 +1,56 @@
+{
+  "id": "30281231-7c95-4c0a-9242-a246a677b32a",
+  "run_url": "https://app.glasser.ai/runs/30281231-7c95-4c0a-9242-a246a677b32a",
+  "provider": "scrapecreators",
+  "endpoint": "/v1/linkedin/company/posts",
+  "endpoint_version": 4,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "url": "https://www.linkedin.com/company/sylphai"
+  },
+  "output": {
+    "posts": [
+      {
+        "id": "7530468707098054656",
+        "url": "https://www.linkedin.com/posts/adalagent_huge-success-on-agent-builder-breakfast-last-activity-7530468707098054656-WOWu",
+        "text": "HUGE SUCCESS on agent builder breakfast last friday!\n\nThank you Agent 37 (YC F26) and Amarachi for hosting this event.\n\nMet so many great founders including Utsav from Interact AI, CJ from Limitr, Mark from LogicStar AI, Julia from aimea.ai, Hennadii from Breka!",
+        "datePublished": "2026-11-23T03:14:09.114Z"
+      },
+      {
+        "id": "7528573587566329858",
+        "url": "https://www.linkedin.com/posts/adalagent_gpt-62-sol-and-gpt-62-astra-are-now-in-activity-7528573587566329858-NZJm",
+        "text": "GPT-6.2 Sol and GPT-6.2 Astra are now in AdaL\n\nMake videos with your chatgpt plan in adalagent.ai",
+        "datePublished": "2026-11-17T21:43:37.408Z"
+      },
+      {
+        "id": "7528539770306613250",
+        "url": "https://www.linkedin.com/posts/adalagent_last-monday-we-helped-130-attendees-create-activity-7528539770306613250-ZCAP",
+        "text": "Last Monday, we helped 130 attendees create awesome demo videos for their projects at Vapi hackathon.\n\nGreat to partner with Build Club, Vapi, Deepgram, Exa, Manus AI, TypeSafe AI",
+        "datePublished": "2026-11-17T19:29:14.745Z"
+      },
+      {
+        "id": "7528503034583257090",
+        "url": "https://www.linkedin.com/posts/adalagent_we-are-helping-builders-in-london-create-activity-7528503034583257090-KEhZ",
+        "text": "We are helping builders in London create awesome demo videos with GlassFlow and Straiker 📹\n\nSee you Dec 3 at Civo Tech Junction from 6p.m. - 9p.m.\n\n👇 rsvp below",
+        "datePublished": "2026-11-17T17:03:16.266Z"
+      }
+    ],
+    "success": true
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00188",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:27:53.473Z",
+  "started_at": "2026-11-23T07:27:53.559Z",
+  "completed_at": "2026-11-23T07:27:58.603Z",
+  "task_id": "tsk_a2399d9b5d5fefae",
+  "metadata": {}
+}

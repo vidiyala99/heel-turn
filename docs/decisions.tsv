@@ -4,3 +4,6 @@ ts	phase	decision	why	evidence	result
 2026-11-22T23:16	design	Run arena on concept + architecture (2 runners + judge) per pstack figure-it-out	One-way-door design; skipped arena earlier	docs/arena/	open
 2026-11-22T23:18	design	Probe: failing Bruin check skips downstream assets	Both arena designs gate on check failure	prep/bruin/probe (UPSTREAM FAILED)	VERIFIED
 2026-11-22T23:20	design	Base = A Mary Celeste Inquiry; graft B physical beats, replay-first demo, endings histogram; C memory_refs	Judge 26/25/18; A strongest Bruin depth, reach, optics	docs/arena/judge.md	open (owner can veto)
+2026-11-22T23:30	ground	Judge form = 5 equal criteria + invest leaderboard; musts are a gate; submit early	Read from site data JS and submission bundle	prep/event-site.md:35-92	VERIFIED (form may be platform default)
+2026-11-22T23:30	ground	Sponsor signals via Glasser ($0.18)	What each sponsor is pushing this week	prep/sponsor-signals.md; prep/glasser/	VERIFIED
+2026-11-22T23:32	design	Keep A; add Impact pitch, Bruin inference asset, BAND cognee memory, Runware directed TTS, early submit	Re-scored against real rubric and signals; no second arena (settled design)	docs/PLAN.md	open

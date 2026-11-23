@@ -1,0 +1,92 @@
+{
+  "id": "4c656595-6643-4051-9ec8-1beb56fcc351",
+  "run_url": "https://app.glasser.ai/runs/4c656595-6643-4051-9ec8-1beb56fcc351",
+  "provider": "scrapecreators",
+  "endpoint": "/v1/linkedin/company/posts",
+  "endpoint_version": 4,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "url": "https://www.linkedin.com/company/bandhq"
+  },
+  "output": {
+    "posts": [
+      {
+        "id": "7529182961628262400",
+        "url": "https://www.linkedin.com/posts/bandhq_weve-got-some-exciting-news-weve-joined-activity-7529182961628262400-4vRe",
+        "text": "We've got some exciting news! We've joined forces with Gong for our event on Sunday night - awesome content, same hackathon, different location.\n\nJoin us at Gong's offices for a fantastic event and the Dark Factory Hackathon Kickoff! You'll hear speakers from Gong, MongoDB, Imagen, NVIDIA, and of course our very own Vlad Luzin!\n\n📅 November 22 | 17:30–20:00 | Gong HQ\n\n👉 Register here: https://lnkd.in/dcyWG7hg\n\nPlus, you can still register for our virtual hackathon here: https://luma.com/1trh9gax",
+        "datePublished": "2026-11-19T14:05:03.506Z"
+      },
+      {
+        "id": "7528833055998877696",
+        "url": "https://www.linkedin.com/posts/bandhq_give-your-agents-a-space-to-talk-to-each-activity-7528833055998877696-aCYU",
+        "text": "A reviewer agent finds three problems on a page and writes them in the chat. The implementing agent fixes the first one. Then the chat gets compacted, or the session restarts, and the other two findings drop out of its context.\n\nThe messages might still be there somewhere. But now the work depends on the agent finding them again, or on someone remembering they existed.\n\nIn this video, our CTO Vlad Luzin explains why pasting every chat into every agent doesn't fix it. That gives every agent more to read and makes the few things that matter harder to find. What has to survive is much smaller: the two open findings, who owns them, and whether they've been resolved.\n\nBAND Desktop keeps that as shared work outside any one agent's session. Each agent gets the context it needs, and its working context doesn't turn into the team's filing cabinet.\n\nThe chat can be temporary. The work the team is relying on can't be.",
+        "datePublished": "2026-11-18T14:54:39.503Z"
+      },
+      {
+        "id": "7528480595648364545",
+        "url": "https://www.linkedin.com/posts/bandhq_see-you-at-reversim-on-december-1-a-group-activity-7528480595648364545-Fh9o",
+        "text": "See you at Reversim on December 1!\n\nA group of us from BAND will be at TLV Expo for the day, and we want to talk to anyone running more than one coding agent. How do you split the work between them, how do they hand things off, and where do you still end up passing notes between them yourself?\n\nThat last part is what BAND for Developers is built to take off your plate. Your coding agents communicate, delegate and hand off work directly, and BAND Desktop shows you who owns what, what's stuck and what's waiting on you.\n\nFind us there and say hi.",
+        "datePublished": "2026-11-17T15:34:06.406Z"
+      },
+      {
+        "id": "7528121495282266112",
+        "url": "https://www.linkedin.com/posts/bandhq_google-antigravity-agents-can-now-join-your-activity-7528121495282266112-01Vw",
+        "text": "Google Antigravity agents can now join your team in BAND.\n\nIf you have the Antigravity CLI, go to Settings → Integrations in BAND Desktop and turn it on. BAND installs Google's Antigravity ACP server for you, and Antigravity shows up as a runtime when you create a new agent. Sign in with Google, pick the model and session mode, and you're set.\n\nFrom there it works with the rest of your coding agents, handing work back and forth with them. It asks you questions in the room and shows its plans in BAND Desktop.\n\nBuilding your own agents? Python SDK 7.1 adds an Antigravity ACP adapter, with a runnable example in the docs.\n\nhttps://lnkd.in/ecciZv2V",
+        "datePublished": "2026-11-16T15:47:10.207Z"
+      },
+      {
+        "id": "7527777192156708864",
+        "url": "https://www.linkedin.com/posts/bandhq_tel-aviv-join-us-on-sunday-november-22-activity-7527777192156708864-VzPe",
+        "text": "Tel Aviv, join us on Sunday, November 22 at Team8 for an evening on building an AI software factory.\n\nFrom 5 to 8pm we'll have a panel on what it takes to build one, a walkthrough of BAND Desktop, and time to meet other builders. Speakers include Arick Goomanovsky and Vlad Luzin from BAND, Team8's CTO Uri Shamay, and Shahar Polak (Outside The Box).\n\nThe meetup also kicks off the BAND Dark Factory Hackathon. You'll have a week, until November 29, to build a team of AI agents that turns a spec into working software, with no humans needed. Your agents work together inside BAND Desktop, and each one keeps its own tools, models, and memory.\n\nThere's over ₪10,000 in prizes, including an iPhone 18, a Mac Mini, and AirPods Max. Enter solo or with a crew, at any experience level. It's free.\n\nCome to the meetup, the hackathon, or both: https://luma.com/1trh9gax",
+        "datePublished": "2026-11-15T16:59:01.945Z"
+      },
+      {
+        "id": "7526706641963032576",
+        "url": "https://www.linkedin.com/posts/bandhq_restart-an-agent-and-three-weeks-of-decisions-activity-7526706641963032576-SbAo",
+        "text": "Restart an agent and three weeks of decisions disappear with it. cognee's new integration gives any BAND agent a memory that outlasts the room. Each BAND room becomes a Cognee session: before your agent answers, it recalls what's relevant, and after it answers, the exchange is stored and later consolidated into a knowledge graph. It wraps the adapter you already have, so LangGraph, Anthropic, CrewAI, and Pydantic AI agents get it without touching their prompts.\n\nThe memory is also shared. Tell Claude Code something in your terminal, let it sync, then ask your BAND agent in a room. It knows.\n\nWe wrote it up with the Cognee team, including why a memory outage should never come out as \"I have no record of that.\" Read now: https://lnkd.in/eb5crKyk",
+        "datePublished": "2026-11-12T18:05:02.889Z"
+      },
+      {
+        "id": "7525926318085980160",
+        "url": "https://www.linkedin.com/posts/bandhq_dark-factory-buildathon-activity-7525926318085980160-lVlq",
+        "text": "You don't need to be in San Francisco to win the BAND Dark Factory Buildathon.\n\nThe kickoff is in person at the AWS Loft on November 13, but the build week is fully online. Can't make it? Watch the kickoff live, then build from anywhere. Form a team on HackerSquad and push your repo by Friday, November 20 at 17:00 PT. Whatever's in your repo at the deadline is what gets judged.\n\nThere is one reason to show up in person, though. The highest-ranked team with at least one member at the kickoff wins a Mac mini, on top of the $2,000, $1,500, and $1,000 cash prizes. Nimble, cognee, and SIERRA Ventures are joining us as sponsors as well.\n\nFinals are live-streamed on Monday, November 30.\n\nRegister here: https://lnkd.in/ertsMnv3",
+        "datePublished": "2026-11-10T14:24:19.180Z"
+      },
+      {
+        "id": "7525586043090354178",
+        "url": "https://www.linkedin.com/posts/bandhq_well-be-at-ai-engineer-code-summit-tomorrow-activity-7525586043090354178-VpWk",
+        "text": "We'll be at AI Engineer Code Summit tomorrow. Come meet our team!\n\nHere's what's waiting for you at booth S22:\n🧌 An orc. He's only there tomorrow, and he has strong opinions about orchestration.\n⚔️ Lightsabers, while they last.\n🤖 Live demos of BAND for developers: watch coding agents coordinate with each other, hand off work, and flag questions to you when they actually need you.\n🤩 Our team, who'd love to hear what you're building.\n\nHilton Union Square, San Francisco, November 11-12. See you there!",
+        "datePublished": "2026-11-09T15:52:11.299Z"
+      },
+      {
+        "id": "7525245007948279808",
+        "url": "https://www.linkedin.com/posts/bandhq_bands-cto-tells-lds-why-coding-agents-still-activity-7525245007948279808-JNwF",
+        "text": "Lets Data Science interviewed our CTO Vlad Luzin, and they spoke about shared rooms, repository controls, and agent handoffs.\n\nHis starting advice is modest: one developer, one repository, two agents. One implements, the other reviews.\n\nFull interview with Let's Data Science:\nhttps://lnkd.in/exRysiUQ",
+        "datePublished": "2026-11-08T17:17:02.185Z"
+      },
+      {
+        "id": "7524104384562073600",
+        "url": "https://www.linkedin.com/posts/bandhq_stay-on-top-of-your-agents-work-with-band-activity-7524104384562073600-gyq_",
+        "text": "You come back from lunch to three agent chats, each one now thousands of pages long, and one simple question: where are we?\n\nThe answer is in there somewhere. To find it, you cross-reference the original plan with tool output, corrections, review comments, and newer messages that replaced earlier decisions. Then you do it twice more.\n\nChat is good at showing why an agent made a decision and how it reached a result. It's much worse at telling you what's true right now: what's done, what's left, what's blocked, and whether anyone needs your input.\n\nIn this video, our CTO Vlad Luzin shows how BAND desktop separates those two jobs. The reasoning stays in the chat for when you need it. The current state of the work stays on screen, so you don't reread the history to find it.\n\nEvery group of agents you add brings its own wall of text, and every wall keeps growing. The current state should stay simple enough to read at a glance.",
+        "datePublished": "2026-11-05T13:44:36.377Z"
+      }
+    ],
+    "success": true
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00188",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:27:53.524Z",
+  "started_at": "2026-11-23T07:27:53.595Z",
+  "completed_at": "2026-11-23T07:27:57.434Z",
+  "task_id": "tsk_a2399d9b5d5fefae",
+  "metadata": {}
+}

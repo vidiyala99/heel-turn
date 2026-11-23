@@ -1,0 +1,109 @@
+{
+  "id": "f91bfdac-0333-446e-8432-7ca496aeb4ab",
+  "run_url": "https://app.glasser.ai/runs/f91bfdac-0333-446e-8432-7ca496aeb4ab",
+  "provider": "serper",
+  "endpoint": "/news",
+  "endpoint_version": 2,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "q": "Runware AI"
+  },
+  "output": {
+    "news": [
+      {
+        "date": "Aug 8, 2026",
+        "link": "https://www.forbes.com/sites/gabrielalinzainescu/2026/08/08/runware-squeezes-a-1mw-ai-data-center-into-a-20-foot-shipping-container/",
+        "title": "Runware Squeezes A 1MW AI Data Center Into A 20-Foot Shipping Container",
+        "source": "Forbes",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJfAIKhteFCpjMJnTrhvL6CmwewIT6GR1LzWmq3foSBYdP4cppFr7psMTNuWHT9D_nkaFolCSh_OoqPEcsJOAsVJGd915iC_8h7YeaCPz2qqs&s"
+      },
+      {
+        "date": "3 weeks ago",
+        "link": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/",
+        "title": "Can AI data centers be mass-produced like cars? This startup aims to find out",
+        "source": "TechCrunch",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTY3MsJnWBcAP92oIXIKSX1OXLqp3wYy46XVtH9QkeS3LkaJmNra71eed6Rz_KkCIEfPIFjqxUzqHg8xK8FYYMRBWVk-3zPUTFi8QCJkKVJxqr&s"
+      },
+      {
+        "date": "Aug 4, 2026",
+        "link": "https://finance.yahoo.com/technology/ai/articles/runware-unveils-sonic-inference-pod-140000938.html",
+        "title": "Runware Unveils the Sonic Inference Pod, a Modular Data Center Built Specifically for AI Inference",
+        "source": "Yahoo Finance",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSctg0BpfP3wAnbXTsE1Zuq_QZaWCYNxITtLvdG1N1SB-u5Shlh2efPjCfQmVOOr4ft4Az8sHtlJgqrqoKx4_iwHRZGBurKiBNZUukwztKR2vs&s"
+      },
+      {
+        "date": "3 weeks ago",
+        "link": "https://superpowerdaily.com/posts/runware-aims-to-mass-produce-ai-data-centers-at-30-megawatts-a-day-by-2028",
+        "title": "Runware aims to mass-produce AI data centers at 30 megawatts a day by 2028",
+        "source": "Superpower Daily",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_TDFbk4jBRl7hPVrDfMqkf_PbydXdv5wS1qsfCvHQ6TkKSyjUXvsaUbnq_MoEb7sHd-vB8zl3d2BqpmAts6eg61FEWr1B5Y6vZ1g6ETDRg5A&s"
+      },
+      {
+        "date": "2 weeks ago",
+        "link": "https://www.lohud.com/press-release/story/251375/runware-expands-engineering-leadership-with-senior-hires-from-nvidia-openai-and-netapp/",
+        "title": "Runware expands engineering leadership with senior hires from NVIDIA, OpenAI and NetApp",
+        "source": "Lohud",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxtjjS3IcaWjBuP6s8pn_5VqEvfvH1lZSr8vuYinl7t0YOSrR8LxFE1fyRZqZBPPblgFjdbeRcILE1JOhVjN1G1LH9Mw3RF7yxi8jBpZA89Rs&s"
+      },
+      {
+        "date": "Aug 4, 2026",
+        "link": "https://www.hpcwire.com/off-the-wire/runware-debuts-containerized-ai-inference-pods-for-faster-gpu-deployment/",
+        "title": "Runware Debuts Containerized AI Inference Pods for Faster GPU Deployment",
+        "source": "HPCwire",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5N3koAfMpoGWLDGoDJJ2GYFqg8OxEMTJ4a2tdYavQpmLUw3wjxPonrie1Nc3K1hIpyEqRgg_Wbp2YOsKEtYJaWyIbmk8Jhri5MQdYrv3A5p0&s"
+      },
+      {
+        "date": "3 weeks ago",
+        "link": "https://finance.biggo.com/news/16a641b1-aea1-462d-bc44-ec50c91bb6b3",
+        "title": "Runware Bets on Assembly-Line Production for AI Data Centers, Targets 30 MW a Day by 2028",
+        "source": "BigGo Finance",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0nfHjdzfEbGbXB3ic-e4V-mPTG7C1PNDN1Ce_yMXnWAu1rW-WVnT0d8tgRgqC5oxQoF16jFojtUI9zd95456VRkNS0F28jjxMsNVwG4E-7VE&s"
+      },
+      {
+        "date": "Aug 4, 2026",
+        "link": "https://www.unite.ai/runware-ships-containerized-ai-data-centers-for-cheaper-inference/",
+        "title": "Runware Ships Containerized AI Data Centers for Cheaper Inference",
+        "source": "Unite.AI",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBMmDIVZCSdUMDrJSTKVAXDC_scOxfW7Uzhkv7p1Z9cZASsCjkr0Jm72ruZNt2FqGDuRwtYpeQ0msMj2F4p63PN_JxS8zhSYF5PN5wNSDolWY&s"
+      },
+      {
+        "date": "Aug 11, 2026",
+        "link": "https://www.scientific-computing.com/article/runware-packs-1mw-ai-inference-20-foot-container",
+        "title": "Runware packs 1MW of AI inference into a 20-foot container",
+        "source": "Scientific Computing World",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTveTrva0QDwntt_tQYMqkeM3bH9ZwZa4g5hk1T-Gau6SPIE2HW5zlFczH7nUXGVUrKrmwib3lPvYPYLO1dLxjolNnh0YjsZRDhTTFnF1wY69A9&s"
+      },
+      {
+        "date": "3 weeks ago",
+        "link": "https://explainx.ai/blog/runware-sonic-pod-factory-30-megawatts-per-day-2028-prefab-ai-data-centers-48-hours-what-is-claimed",
+        "title": "Runware Sonic Pod Factory: 30 MW/Day Claim, Checked",
+        "source": "explainx.ai",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThyoJ7fbbpckAYohsYxhl7bUw5fsXhUGczKEoSUK_fNE1hy6xV3_Hz3Gj32_oEUDQ6UBjZSq0TYH_p0MB-2xiPzL9WV-qQ-5hvFTKiE5z-r2aw&s"
+      }
+    ],
+    "searchParameters": {
+      "q": "Runware AI",
+      "num": 10,
+      "page": 1,
+      "type": "news",
+      "engine": "google",
+      "allowSuggested": true
+    }
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.001",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:27:53.868Z",
+  "started_at": "2026-11-23T07:27:53.917Z",
+  "completed_at": "2026-11-23T07:27:55.192Z",
+  "task_id": "tsk_7574e0e1639fdb03",
+  "metadata": {}
+}

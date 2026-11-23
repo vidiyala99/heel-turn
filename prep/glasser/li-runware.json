@@ -1,0 +1,92 @@
+{
+  "id": "3373f080-fd2d-4f80-a2f7-11cdb2ed87a4",
+  "run_url": "https://app.glasser.ai/runs/3373f080-fd2d-4f80-a2f7-11cdb2ed87a4",
+  "provider": "scrapecreators",
+  "endpoint": "/v1/linkedin/company/posts",
+  "endpoint_version": 4,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "url": "https://www.linkedin.com/company/runware"
+  },
+  "output": {
+    "posts": [
+      {
+        "id": "7529624040429305856",
+        "url": "https://www.linkedin.com/posts/runware_heygens-avatar-6-is-now-live-on-runware-activity-7529624040429305856-nWwN",
+        "text": "HeyGen's Avatar 6 is now live on Runware\n\nAvatar 6 is HeyGen's new audio-driven avatar model. Give it speech and a subject, and it generates the lip sync, facial expressions and gestures to match what's being said, at up to 2K. HeyGen reports that 84% of participants in its internal Turing-style test rated the avatar as realistic as a real person, and that Avatar 6 ranked first on New Measure's Avatar Arena.\n\n- Three ways in: Animate a single photo, one of HeyGen's stock avatars, or a short clip of an animated or illustrated character.\n- Motion prompts up to 1,200 characters: Cue a gesture to a specific line, set posture and expression, and call camera moves like a slow push-in.\n- Audio sets the length: Pass your own voice track and the video runs its full length, or give a stock avatar a script of up to 5,000 characters and a HeyGen voice.\n- 1080p or 2K output: Photo and clip inputs keep their aspect ratio, and stock avatars render at 16:9, 9:16, 1:1, 5:4 or 4:5.\n- Captions and backgrounds for stock avatars: Burn in captions with an SRT file alongside, or swap in a solid colour or image background.\n- Avatar 6 Turbo: Run the same inputs at a lower price for high-volume work where turnaround and cost matter.\n\nPricing on Runware, per second of video:\n- Avatar 6: $0.10 at 1080p, $0.145 at 2K\n- Avatar 6 Turbo: $0.05 at 1080p, $0.0875 at 2K\n\nCall it with taskType videoInference and model heygen:avatar@6 or heygen:avatar@6-turbo.\n\nGet started through Runware's API: https://lnkd.in/gqZGWcvg",
+        "datePublished": "2026-11-20T19:17:44.887Z"
+      },
+      {
+        "id": "7529581135840952320",
+        "url": "https://www.linkedin.com/posts/runware_google-deepminds-gemini-38-flash-tts-is-activity-7529581135840952320-UbKU",
+        "text": "Google DeepMind's Gemini 3.8 Flash TTS is now live on Runware\n\nGemini 3.8 Flash TTS takes delivery directions in plain language and covers 130+ languages, up from 70+ on Gemini 3.1 Flash TTS. Google built it for creative production like games, audiobooks and podcasts.\n\n- Plain-language delivery direction: Describe the tone, pace and emotion you want in settings.style, and it applies to every turn of the read.\n- Inline sound and pause tags: Write , or into the script exactly where you want them.\n- Two-speaker dialogue: Generate a podcast segment or a scripted scene in one request by giving each speaker one of the 30 prebuilt voices.\n- 130+ languages with automatic detection: Send the script in the language you need, with no language code to set.\n\nPricing on Runware, per 1M tokens:\n- $1.00 text input\n- $18.00 audio output\n\nAudio output runs at 25 tokens per second, so a minute of speech costs $0.027 in output tokens. Output is down from $20.00 per 1M on Gemini 3.1 Flash TTS, and input stays at $1.00.\n\nGemini 3.1 Flash TTS deactivates on December 18. Switch to 3.8 by setting the model AIR to google:gemini@3.8-flash-tts and removing speech.language, since 3.8 detects the language on its own.\n\nGet started through Runware's API: https://lnkd.in/g6n-MC8g",
+        "datePublished": "2026-11-20T16:27:15.636Z"
+      },
+      {
+        "id": "7529331619745226753",
+        "url": "https://www.linkedin.com/posts/runware_the-chroma-awards-season-2-is-one-month-in-activity-7529331619745226753-205o",
+        "text": "The Chroma Awards Season 2 is one month in, and there are 49 days left to submit your entry! Runware is proud to be a Title Sponsor this season.\n\nChroma is an AI film and media competition, now in its fourth year. Last season drew more than 6,500 submissions from over 5,500 participants.\n\nThis season’s prize pool:\n- $450,000+ in cash prizes and travel perks: split across Film & TV, Ad, Music Video, Game, Behind-the-Scenes and Student divisions.\n- $1M in free trials and promotions: try the sponsored tools while you build your entry.\n- Creative Tools awards: use a sponsored tool in any category to qualify for extra cash prizes.\n- Student Awards: enter any category at ages 18 to 24 to compete for paid Summer 2027 internships.\n\nSubmissions close January 7. Finalists move to public voting and judging from January 21, and winners are announced February 11.\n\nSee the categories and prizes: https://chromaawards.com\nSubmit your entry: https://lnkd.in/eEa9a6g2",
+        "datePublished": "2026-11-19T23:55:46.363Z"
+      },
+      {
+        "id": "7529281219008606209",
+        "url": "https://www.linkedin.com/posts/runware_kling-40-4k-hdr-activity-7529281219008606209-cnvr",
+        "text": "Kling AI's Kling VIDEO 4.0 now generates native 4K and 10-bit HDR video on Runware\n\nKling VIDEO 4.0 launched on Runware in October at resolutions up to 1080p. Kling has now added native 4K output and 10-bit HDR, and both run on the same model ID through our API. Kling built the update for film, animation and advertising work.\n\n- Native 4K in four aspect ratios: Render 3840x2160 for widescreen, 2160x3840 for vertical, 2880x2880 for square or 4396x1884 at 21:9, with no upscaling pass after a 1080p render.\n- 10-bit HDR at 1080p and 4K: Deliver files with 1,024 levels per color channel instead of 8-bit's 256, giving colorists more room in night scenes, backlit shots and neon-lit sets.\n- One model ID for every resolution: Move a pipeline from 1080p to 4K or HDR by changing the request, not the model.\n\nPricing on Runware, per second of video without an input video:\n- $0.157 at 720p\n- $0.235 at 1080p\n- $0.282 at 1080p HDR\n- $0.549 at 4K\n- $0.627 at 4K HDR\n\nAlready using Kling 4.0? keep the model AIR klingai:kling-video@4.0 and add the 4K dimensions or the dynamic range setting.\n\nGet started through Runware's API: https://lnkd.in/g3Tq2_bH",
+        "datePublished": "2026-11-19T20:35:29.891Z"
+      },
+      {
+        "id": "7529227079574310913",
+        "url": "https://www.linkedin.com/posts/runware_ideogram-46-launch-activity-7529227079574310913-Rc8N",
+        "text": "Ideogram's Ideogram 4.6 is now live on Runware on D0\n\nIdeogram 4.6 raises generation to native 4K, up to 4096x4096, from the fixed 1K to 2K presets of Ideogram 4.5. It ships with Ideogram 4.6 Precise Edit, which applies one plain-language instruction and returns the source at its exact dimensions. Ideogram focused the update on what its customers asked for most: keeping characters recognizable, hitting exact colors, and repairing product detail.\n\n- 4K generation at any size: Set width and height anywhere on a 32px grid up to 4096x4096, at ratios up to 6:1, and request a transparent background when the asset needs to sit on other layouts.\n- Multi-image editing: Edit a source image with up to four more images as references, for product shots, brand recoloring and campaign variations.\n- Exact-size precise edits: Send a source up to 8192x8192 with an instruction, add a mask to limit the change, and get the result back at the source's exact dimensions. Ideogram 4.5 kept exact size only for sources up to 4 megapixels.\n- Full-resolution regional edits: Limit an edit to one region of a 4K or 8K image to retouch or fix a product detail without downscaling the file.\n\nIdeogram's own evaluation against 4.5, measured as the share of results good enough to use on the same requests:\n- Character consistency: 85%, up from 69%\n- Exact color to a brand hex code: 83%, up from 46%\n- Product detail repair: 86%, up from 61%\n- Product shots: 88%, up from 66%\n- Masked edits: 90%, up from 82%\n\nPricing on Runware, per image:\n- Ideogram 4.6: $0.008 to $0.10 at 2K, $0.06 to $0.20 at 4K\n- Ideogram 4.6 Precise Edit: $0.008 to $0.22 at 2K, $0.06 to $0.60 at 4K\n\nThe range runs from very_low to high quality, and very_low renders at 2K only. High-quality 2K generation is $0.10, down from $0.20 on Ideogram 4.5.\n\nTeams already on Ideogram 4.5 can switch by setting the model AIR to ideogram:4.6@0, and send masked edits to ideogram:4.6@precise-edit.\n\nGet started through Runware's API: https://lnkd.in/g_9583in",
+        "datePublished": "2026-11-19T17:00:22.043Z"
+      },
+      {
+        "id": "7528870331638468608",
+        "url": "https://www.linkedin.com/posts/runware_runware-is-sponsoring-a-series-of-five-wan30-activity-7528870331638468608-FsvZ",
+        "text": "Runware is sponsoring a series of five Wan3.0 video Challenge Crucibles on Civitai with 3,000,000 Civitai credits (Buzz) in prizes across the series.\n\nCrucibles are Civitai's community-judged contests. Voters watch two entries side by side and pick one, and every vote moves both entries' ratings. Each of the five runs for seven days on a different theme and has its own 600,000 Buzz pool, split among the top 10 with 150,000 Buzz for 1st. Entry is free, with up to two clips per person per Crucible, each up to 30 seconds and made with Wan3.0.\n\n- Waifus & Husbandos: November 18 to 25\n- Fantasy Unleashed: November 21 to 28\n- Neon Dreams: November 25 to December 2\n- The Impossible: November 28 to December 5\n- Chaos & Comedy: December 2 to 9\n\nEntries close a day before each Crucible ends, so voting has time to settle.\n\n- Enter the first Crucible: https://lnkd.in/gD4zxYc5\n- Get started with Wan3.0 on Runware's API: https://runware.ai/wan-3-0",
+        "datePublished": "2026-11-18T17:22:46.708Z"
+      },
+      {
+        "id": "7528578993923522562",
+        "url": "https://www.linkedin.com/posts/runware_gpt-62-astra-sol-activity-7528578993923522562-Xpm_",
+        "text": "OpenAI's GPT-6.2 Astra and GPT-6.2 Sol are now live on Runware on D0\n\nBoth models finish tasks with fewer output tokens than the versions they replace. On its internal GDPval v2 eval, OpenAI reports Astra up 6.2 points over GPT-6 Astra while using 22% fewer output tokens, and Sol up 5.3 points over GPT-6.1 Sol. Astra is OpenAI's model for complex professional work, and Sol is its everyday model for coding and agents at scale.\n\n- GPT-6.2 Astra for documents, research and computer use: Produce slides, spreadsheets and documents that follow your templates, and run agents that plan, execute and verify long tasks.\n- GPT-6.2 Sol for everyday coding and high-volume agents: OpenAI reports it lands within 0.5 points of Astra on Cognition's FrontierCode 2.0 at about one-fifth the cost per task.\n- 1.05M-token context window on both: Fit full repos, long filings and multi-step agent histories in one request, with up to 128,000 output tokens back.\n- Reasoning from low to max: Set the effort level per request and save the higher settings for hard tasks.\n- Image input, tool calling and structured outputs: Pass in screenshots or charts, call your own functions, and get responses that follow your JSON schema.\n\nOpenAI's reported results:\n- Agents' Last Exam v1.1: Astra up 5.2 points over GPT-6 Astra, at under a third of the cost per task\n- Terminal-Bench-Science 0.1: Astra up 9 points over GPT-6 Astra\n- GDPval v2 (internal): Astra up 6.2 points with 22% fewer output tokens, Sol up 5.3 points over GPT-6.1 Sol\n\nPricing on Runware, per 1M tokens, for requests up to 272K input tokens:\n- GPT-6.2 Astra: $8.00 input, $0.40 cached input, $40.00 output\n- GPT-6.2 Sol: $2.00 input, $0.10 cached input, $10.00 output\n\nBoth run on our OpenAI-compatible endpoints, Chat Completions and Responses. Existing OpenAI SDK code works by changing the base URL, and teams already on GPT-6 Astra or GPT-6.1 Sol switch by setting the model to openai:gpt@6.2-astra or openai:gpt@6.2-sol\n\nGet started through Runware's API: https://lnkd.in/gmsbsr3M",
+        "datePublished": "2026-11-17T22:05:06.384Z"
+      },
+      {
+        "id": "7528531959304585216",
+        "url": "https://www.linkedin.com/posts/runware_wan30-pricing-promo-activity-7528531959304585216-_Mei",
+        "text": "Wan3.0 is 70% off on Runware through November 23\n\nAlibaba's multimodal video model takes text, images, video, audio, documents and webpages as input, and returns up to 30 seconds of 1080p video with native audio in one request. The discount applies to every input type and workflow.\n\nPricing on Runware, per second of video:\n- 480p: $0.015 (regular $0.05)\n- 720p: $0.03 (regular $0.10)\n- 1080p: $0.06 (regular $0.20)\n\nDuring the promo, a 10-second 1080p clip costs $0.60 and a full 30-second 1080p clip costs $1.80.\n\nWan3.0 Prime runs the same model at lower latency and is 50% off through the same date: $0.034, $0.07 and $0.14 per second.\n\nCall it with the videoInference task and the model ID alibaba:wan@3.0, or alibaba:wan@3.0-prime for Prime.\n\nGet started through Runware's API: https://runware.ai/wan-3-0",
+        "datePublished": "2026-11-17T18:58:12.457Z"
+      },
+      {
+        "id": "7528472219698700288",
+        "url": "https://www.linkedin.com/posts/runware_kling-image-40-activity-7528472219698700288-ucTa",
+        "text": "Kling AI's Kling IMAGE 4.0 is now live on Runware on D0\n\nKling IMAGE 4.0 generates at native 2K, 4K and 8K, up from the 2K to 4K range of Kling IMAGE 3.0. In one request it can also plan a set of up to 10 images or lay out a whole product page.\n\n- 8K output: Generate stills up to 10880×6144 at 16:9 or 12544×5376 at 21:9 for campaign visuals and product shoots.\n- Up to 2,000 characters of legible text: Put headlines, labels and body copy into the image itself, in seven languages.\n- 10-image series: Set a series length from 2 to 10, or let the model choose. You get a storyboard or slide sequence back in order, with the same subjects and style throughout.\n- 10 references and elements per request: Combine reference images with reusable elements. Each element is built from a frontal image plus up to 3 extra angles, so a product or character stays the same across shots.\n- Pages as one image: Pass a product photo and get an e-commerce detail page with about 2 to 18 sections, or describe a site and get a full webpage design.\n\nPricing on Runware, per output image:\n- $0.063 at 2K\n- $0.094 at 4K\n- $0.157 at 8K\n- $0.549 at 1K and $0.596 at 2K for a webpage design\n- $0.003 per input image\n\nA 10-image series at 4K comes to $0.94.\n\nIt runs as an imageInference task. Teams already on Kling IMAGE 3.0 switch by setting the model AIR to klingai:kling-image@4.0\n\nGet started through Runware's API: https://lnkd.in/gevMfg_Y",
+        "datePublished": "2026-11-17T15:00:49.425Z"
+      },
+      {
+        "id": "7528150641551233024",
+        "url": "https://www.linkedin.com/posts/runware_qwen4-max-activity-7528150641551233024-QqMk",
+        "text": "Qwen's Qwen4-Max is now live on Runware\n\nQwen4-Max is the first Qwen4 model on Runware and Alibaba's flagship for the generation. Alibaba says it builds on Qwen3.8-Max with stronger world knowledge, perception and professional tool use, aimed at coding, office work, front-end design and complex agent tasks.\n\n- 1M-token context window: Fit large codebases, long documents and multi-step agent histories in one request, with up to 128K output tokens.\n- Image and video input: Pass screenshots, scanned documents or video clips alongside text for analysis.\n- Configurable reasoning effort: Set the effort per request, and lower it on steps that don't need deep reasoning.\n- Function calling and JSON Schema output: Call your own tools and get responses that follow your schema, for coding agents and agents that operate graphical interfaces.\n\nPricing on Runware, per 1M tokens:\n- $1.50 input\n- $4.50 output, including thinking tokens\n- $0.075 cached input\n- $1.875 cache writes\n\nThinking and non-thinking modes cost the same, and input stays at one rate up to the full 1M tokens. A 200K-token codebase prompt with 8K tokens of output comes to about $0.34, and repeated context read from cache costs 20× less than fresh input.\n\nIt runs on Runware's OpenAI-compatible endpoints, on both Chat Completions and the Responses API. Existing OpenAI SDK code works by changing the base URL and setting the model to alibaba:qwen@4-max\n\nGet started through Runware's API: https://lnkd.in/g7BvC-e2",
+        "datePublished": "2026-11-16T17:42:59.220Z"
+      }
+    ],
+    "success": true
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00188",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:27:53.457Z",
+  "started_at": "2026-11-23T07:27:53.525Z",
+  "completed_at": "2026-11-23T07:27:56.195Z",
+  "task_id": "tsk_a2399d9b5d5fefae",
+  "metadata": {}
+}

@@ -1,0 +1,13 @@
+# Sponsor signals (Glasser, 2026-11-22 23:30)
+
+Source: Glasser runs (Apollo org enrich, ScrapeCreators LinkedIn company posts, Serper news). Raw JSON in `prep/glasser/`.
+Total spend $0.18 of $67.74 balance. LinkedIn posts are the strongest signal: they show what each team is pushing this week.
+
+| Sponsor | Company facts (Apollo) | What they are pushing now (LinkedIn, last 2 weeks) | What "best use" likely means |
+|---|---|---|---|
+| **Bruin** ($1000/$500) | UK, founded 2023, 18 people, Techstars seed | Oct release: **inference assets** ("ask a model a question about every row and get a typed column back"), reverse ETL to CRM, Slack/Teams apps; ingestr speed benchmarks; "data engineer: agent mode" | Use their newest feature: an **inference asset** that has a model judge every row (e.g. classify each agent decision/exhibit) with Bruin checks on the typed result. Show the pipeline, checks and lineage. |
+| **BAND** ($500) | 34 people, $17M seed Apr 2026 (Sierra, Team8, Hetz) | Agents losing findings after context compaction; **memory that outlasts the room via the cognee integration**; multi-agent handoffs in a "software factory"; Antigravity agents joining BAND | Many agents handing work off through BAND rooms, and **persistent memory across rooms/sessions** (cognee integration), not one script playing every role. |
+| **Runware** ($200) | SF, 54 people, $53M (Series A Dec 2025, Insight, a16z speedrun) | **HeyGen Avatar 6 live on Runware** (audio-driven lip sync, expressions, gestures); **Gemini 3.8 Flash TTS** with plain-language delivery direction, "built for creative production like games"; title sponsor of the **Chroma Awards AI film competition**; Kling 4K video | Characters that **speak with lip-synced talking avatars** and directed voices. They care about AI film, so the film track is their home turf. |
+| **Glasser** ($100) | 4 people | A post about this exact hackathon: "Three agents minimum, every decision on screen ... When your agents need to agree on something real, they can pull company, people and social data through one key" | Agents that **agree on something using real-world data** pulled through Glasser, shown in the decision log. |
+| **AdaL** (Pro plans) | SylphAI, 11 people, 2024 | Helping attendees make demo videos at hackathons (130 at a Vapi hackathon); GPT-6.2 in AdaL | A polished demo video made in AdaL. Low bar, everyone competes. |
+| **Telem** ($500/$300/$100) | Apollo had no record; no LinkedIn posts found | (no public signal) | Unknown. Ask at the 10:30 sponsor demos. Their console traces every call, so showing traces is a safe bet. |

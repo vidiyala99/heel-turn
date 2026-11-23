@@ -1,0 +1,38 @@
+{
+  "id": "fe683ccf-2686-4745-8b88-00db8619a3fe",
+  "run_url": "https://app.glasser.ai/runs/fe683ccf-2686-4745-8b88-00db8619a3fe",
+  "provider": "serper",
+  "endpoint": "/news",
+  "endpoint_version": 2,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "q": "Bruin data getbruin"
+  },
+  "output": {
+    "news": [],
+    "searchParameters": {
+      "q": "Bruin data getbruin",
+      "num": 10,
+      "page": 1,
+      "type": "news",
+      "engine": "google",
+      "allowSuggested": true
+    }
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.001",
+  "charge_basis": {
+    "clause": "NO_RESULT",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:27:53.716Z",
+  "started_at": "2026-11-23T07:27:53.808Z",
+  "completed_at": "2026-11-23T07:27:54.834Z",
+  "task_id": "tsk_7574e0e1639fdb03",
+  "metadata": {}
+}

@@ -1,0 +1,92 @@
+{
+  "id": "60bce4d2-e925-41fe-aae4-4492419ea44f",
+  "run_url": "https://app.glasser.ai/runs/60bce4d2-e925-41fe-aae4-4492419ea44f",
+  "provider": "scrapecreators",
+  "endpoint": "/v1/linkedin/company/posts",
+  "endpoint_version": 4,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "url": "https://www.linkedin.com/company/glasser-ai"
+  },
+  "output": {
+    "posts": [
+      {
+        "id": "7529700860579209216",
+        "url": "https://www.linkedin.com/posts/glasser-ai_so-many-good-mcp-servers-in-one-room-last-activity-7529700860579209216-s9WO",
+        "text": "So many good MCP servers in one room last night. 🔌\n\nAt MCP Analytics Night with PostHog , we saw teams demo what they're shipping and dig into a hard question: how do you know your MCP is actually useful to agents?\n\nWe also demoed Glasser, showing how agents reach real company, people and social data through one key to 2,000+ data tools and APIs 👀\n\nThanks to the PostHog team Kliment Minchev Lucas Faria hosting🙏",
+        "datePublished": "2026-11-21T00:23:00.238Z"
+      },
+      {
+        "id": "7529326722811428864",
+        "url": "https://www.linkedin.com/posts/glasser-ai_join-us-tonight-at-mcp-analytics-night-with-activity-7529326722811428864-Njco",
+        "text": "Join us tonight at MCP Analytics Night with PostHog in San Francisco! 🎤\n\nThe Glasser team is demoing live: watch agents call real company, people and social data through Glasser's MCP.\n\nWe'll also share a first look at our December launch, so stick around after the demo 👀\n\nThank you to Kliment Minchev for making this happen 🙏\n📍Register: https://lnkd.in/g8KewxTF",
+        "datePublished": "2026-11-19T23:36:18.843Z"
+      },
+      {
+        "id": "7529305659964645377",
+        "url": "https://www.linkedin.com/posts/glasser-ai_three-agents-minimum-every-decision-on-screen-activity-7529305659964645377-w0Kf",
+        "text": "Three agents minimum, every decision on screen. This one is going to be fun to watch 👀\n\nWhen your agents need to agree on something real, they can pull company, people and social data through one key to 2,000+ data tools and APIs. See you there!",
+        "datePublished": "2026-11-19T22:12:37.069Z"
+      },
+      {
+        "id": "7529296637500895234",
+        "url": "https://www.linkedin.com/posts/glasser-ai_glasser-is-now-live-in-pabbly-connect-activity-7529296637500895234-NDOG",
+        "text": "Glasser is now live in Pabbly Connect! 🎉Big thanks to the Pabbly team for making it happen.\nWhich workflow are you building first?",
+        "datePublished": "2026-11-19T21:36:45.946Z"
+      },
+      {
+        "id": "7528861044161683456",
+        "url": "https://www.linkedin.com/posts/glasser-ai_agents-can-already-reason-code-and-browse-activity-7528861044161683456-w6VP",
+        "text": "Agents can already reason, code and browse the web.\nSo what's still missing?\n\nWe spent the afternoon trading ideas with founders, developers, researchers and investors about where agents are heading and what it takes to build products people actually need.\n\nIt comes back to data.\nGlasser.ai gives agents one key to 2,000+ data tools and APIs, pay per call.\n\nFinch AI Start Academy OPCAT Labs Taku Dafu Gao OnePiece Labs Jessica Young Zuzka Pelechova Apify",
+        "datePublished": "2026-11-18T16:45:52.401Z"
+      },
+      {
+        "id": "7528211581688598529",
+        "url": "https://www.linkedin.com/posts/glasser-ai_friday-night-in-san-francisco-agents-that-activity-7528211581688598529-Sl9L",
+        "text": "Friday night in San Francisco: agents that cut videos, drive browsers and remember what happened last session.\n\nWhen an agent needs real-world context, like company profiles, people data or social trends, Glasser.ai is one key to 2,000+ data tools and APIs.\n\nThanks too to fellow sponsors AdaL Crewbase Collective Finch Tavily Build Club and Ivan Smiljanic, OLY provided such a good venue. See you at the next one!",
+        "datePublished": "2026-11-16T21:45:08.481Z"
+      },
+      {
+        "id": "7527733662096785408",
+        "url": "https://www.linkedin.com/posts/glasser-ai_your-website-doesnt-have-a-design-problem-activity-7527733662096785408-q3u0",
+        "text": "Your website doesn't have a design problem. It has a nobody-can-find-it problem.\n\nThat's why we partnered with MeDo. Starting today, MeDo's SEO Research runs on real search data through Glasser: real keyword demand, what drives traffic to competing sites, and rewrites to your titles and FAQs.\n\nOne prompt. No extra API keys. No SEO subscription.\n\nThrilled to build this with the MeDo team.",
+        "datePublished": "2026-11-15T14:06:03.571Z"
+      },
+      {
+        "id": "7526825513647210496",
+        "url": "https://www.linkedin.com/posts/glasser-ai_tomorrow-glasserai-is-joining-when-si-meets-activity-7526825513647210496-Tpod",
+        "text": "Tomorrow Glasser.ai is joining When SI Meets Agents, a meetup at the SGLang Summit hosted by Finch ME GROUP and AI Start Academy.\n\nFounders, developers, researchers and investors will talk about where superintelligence and agents are heading, and what product-market fit looks like.\n\nIf you're building agents, here's what we bring:\n🏴‍☠️One key to 2,000+ data tools and APIs, pay per call. Your agent can pull company, people, market and social data, so it can work from real data instead of guesses.\n\nThanks to fellow partners OnePiece Labs OPCAT Labs.\n📍 AI Start Academy, 1769 15th St, SF\n🗓 Fri, Nov 13 · 1–4 PM PT\nDrop the details in comment⬇️",
+        "datePublished": "2026-11-13T01:57:24.107Z"
+      },
+      {
+        "id": "7526403482527072256",
+        "url": "https://www.linkedin.com/posts/glasser-ai_your-next-customer-might-not-search-in-english-activity-7526403482527072256-Vxyx",
+        "text": "Your next customer might not search in English.\n\nglasser.ai is now available in Simplified Chinese (简体中文), Spanish (Español) and Portuguese (Português). If your team or clients work in one of those languages, you can now send them the setup page in it.\n\nGetting their agent connected hasn't changed. It's still one line:\nSet up https://lnkd.in/gHSK6GjR\n\nOne key covers 1,558 data endpoints from 29 providers, and you pay only for what you use.",
+        "datePublished": "2026-11-11T22:00:24.048Z"
+      },
+      {
+        "id": "7526398127961120768",
+        "url": "https://www.linkedin.com/posts/glasser-ai_most-agents-today-can-talk-fewer-can-produce-activity-7526398127961120768-e3j6",
+        "text": "Most agents today can talk. Fewer can produce real output, operate real software and remember what happened last session. And almost none can get the real-world data they need to do the job.\n\nThis Friday, we're sponsoring the Full-Stack Agents Hackathon in San Francisco with AdaL and CrewBase. Here's what your agent can pull through Glasser on each track:\n\n🌐 Browser automation: company profiles, people and contact data, so your account-research and lead-enrichment agents start from real records\n\n🎬 AI video: social data from X, TikTok, Instagram and YouTube, so your agent can see what's trending before it writes the script\n\n🧠 Agent memory: live market and company data to keep your agent's context fresh across sessions\n\nIt's one key for every source, and you pay per call.\n\nThanks to our fellow sponsors and partners Finch Tavily Tenki Cloud by Luxor and Build Club.\n\n📍 FOCUS Innovation Studio, SF\n🗓 Fri, Nov 13 · 2–9 PM PT\n\nBring a laptop and an idea, or find a team on site:\nhttps://lnkd.in/gnAhKzzH",
+        "datePublished": "2026-11-11T21:39:07.420Z"
+      }
+    ],
+    "success": true
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00188",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:27:53.543Z",
+  "started_at": "2026-11-23T07:27:53.715Z",
+  "completed_at": "2026-11-23T07:27:56.932Z",
+  "task_id": "tsk_a2399d9b5d5fefae",
+  "metadata": {}
+}

@@ -1,0 +1,109 @@
+{
+  "id": "27b5c877-085b-49d8-9ae2-fb807e7e0e80",
+  "run_url": "https://app.glasser.ai/runs/27b5c877-085b-49d8-9ae2-fb807e7e0e80",
+  "provider": "serper",
+  "endpoint": "/news",
+  "endpoint_version": 2,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "q": "Telem AI agents web"
+  },
+  "output": {
+    "news": [
+      {
+        "date": "27 minutes ago",
+        "link": "https://superpowerdaily.com/events/multiplayer-ai-hackathon-thanksgiving-special-6cd0d1a9-dfc7-4309-9093-8dea902b20ec",
+        "title": "Multiplayer AI Hackathon (Thanksgiving Special)",
+        "source": "Superpower Daily",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSInEwsdoYA2kZWKjWkEBMWrk1MZbfE99HdKXUnDURiHfKEB4KgFFkmEEmDgAROTSs47g8gFWmLd1yvB7aoG9pubbyhjPHW&s"
+      },
+      {
+        "date": "2 weeks ago",
+        "link": "https://www.reuters.com/business/media-telecom/ai-shopping-agents-could-threaten-amazon-walmarts-ad-business-2026-11-04/",
+        "title": "AI shopping agents could threaten Amazon and Walmart's ad business",
+        "source": "Reuters",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAhVb1XNkV6djHFVrb9RzCzuB9WlA2oJ4Im41oaiCOQfMMQritC6IT6yDTZ-5k58XEi0nFID5i7yHCuqYxqJb2jnUJJ3bnzb6Ig-iCzG00qVs&s"
+      },
+      {
+        "date": "4 weeks ago",
+        "link": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
+        "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
+        "source": "BleepingComputer",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlm6lb3A_9UQ2S6ig5X6aWw62pufLWZLr8FeHxWID5LhaYzGZa_oH5UvZovU1LzZlST-0tk_7CdseTJAPLTRGRfwUe2LJ2HTU3MVcHbuEizx4&s"
+      },
+      {
+        "date": "Sep 18, 2026",
+        "link": "https://www.telecomstechnews.com/news/nokia-and-microsoft-automate-telecom-networks-ai-agents/",
+        "title": "Nokia and Microsoft automate telecom networks with AI agents",
+        "source": "Telecoms Tech News",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSewCZNPDJOIWqsW-XDpL33L_yWlvIZfb2hJ3zHX_caB8zyq9t1UJb-J6OIF8_PMoqcOP4crgRIRSfIJcJLqTGqoYBwqQHfBynRjF-BQaCliM0&s"
+      },
+      {
+        "date": "Aug 13, 2026",
+        "link": "https://aws.amazon.com/blogs/machine-learning/monitor-on-premises-and-multi-cloud-ai-agents-with-agentcore-observability/",
+        "title": "Monitor on-premises and multi-cloud AI agents with AgentCore Observability | Artificial Intelligence",
+        "source": "Amazon Web Services",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd6rUlMdneksJdgk_wjWHgb2ywrQWLGrneGJfQ0hV6LGtbSGhToyDWoY93Agl-HXpE4N5meLcvEaHekgTKTltCXnsfiF0kRsSrW9MTrsWk73jG&s"
+      },
+      {
+        "date": "Sep 8, 2026",
+        "link": "https://aimultiple.com/agentic-ai",
+        "title": "40+ Agentic AI Use Cases with Real-life Examples",
+        "source": "AIMultiple",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwXzM_s8TF-5dVWYnRNrcuCThCp3-0pExE6UndBf9mKKJi6B1xRi-cj2ZJAChx_Msj67NBI89dBOuBevUmizil089lj8lP1qqViKfzw-Fh1q6K&s"
+      },
+      {
+        "date": "Jun 18, 2026",
+        "link": "https://rcrwireless.com/20260618/ai/sk-telecom-ai-agents-2",
+        "title": "SK Telecom's plan to give every worker an AI agent",
+        "source": "RCR Wireless News",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo2LHGkTi-YfNbHzwHQnWVJjWJJkAniSJp59jmDMoE-d7Ddhmg1qTcDMRWzo_7-CjqTqGrrz7dr8fmRj7cnQ2uLh10l9LuYgZNw7T8oaOuouk&s"
+      },
+      {
+        "date": "Mar 3, 2026",
+        "link": "https://unit42.paloaltonetworks.com/ai-agent-prompt-injection/",
+        "title": "Fooling AI Agents: Web-Based Indirect Prompt Injection Observed in the Wild",
+        "source": "Unit 42",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsm2VPPDl89_Qa1ujiVUAsxBIRRLPGzzW02-_kcbyPHItGKnxRBTm2byLfvMxxSXpGqY7jMaJ7mIPZS7IHaji_SJP_vRvb7IVcQ286l1Loi9x0&s"
+      },
+      {
+        "date": "Jul 7, 2026",
+        "link": "https://www.sophos.com/en-us/blog/2607_agents_vs_telemetry",
+        "title": "When AI agents look like attackers: what behavioral telemetry tells us",
+        "source": "Sophos",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-rUStW1qL1X8Q5x3St6y1PhSQm0ENbjRN9dsPAxZbmlfg_t3TkFkH1hkEkFK6DROEj5Gh10I4J1sAOyXGT9NwEN2yR9IcQtjqq_77RVKu9dk&s"
+      },
+      {
+        "date": "Nov 18, 2025",
+        "link": "https://www.deloitte.com/us/en/insights/industry/technology/technology-media-and-telecom-predictions/2026/saas-ai-agents.html",
+        "title": "SaaS meets AI agents: Transforming budgets, customer experience, and workforce dynamics",
+        "source": "Deloitte",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgLjIsT4O1hWlBYleH2tF1O2g-c4QmLJUo5Hi60je-vWa-a_oKbyfTzU_N0ZJyxHbygsenxbR02jTL_0emoBIGatotcuDGJLgOAyjX7oJPogs&s"
+      }
+    ],
+    "searchParameters": {
+      "q": "Telem AI agents web",
+      "num": 10,
+      "page": 1,
+      "type": "news",
+      "engine": "google",
+      "allowSuggested": true
+    }
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.001",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:27:53.825Z",
+  "started_at": "2026-11-23T07:27:53.883Z",
+  "completed_at": "2026-11-23T07:27:54.663Z",
+  "task_id": "tsk_7574e0e1639fdb03",
+  "metadata": {}
+}

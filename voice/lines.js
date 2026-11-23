@@ -7,6 +7,10 @@ export const NAMES = {
 };
 
 export const CALLS = {
+  bell: {
+    rex: ['There\'s the bell! Here we GO!', 'Ding ding, and we are UNDERWAY!', 'The bell rings and this place is ELECTRIC!'],
+    dot: ['Finally. Wake me when somebody cheats.', 'Let\'s see who has the guts to bend the rules.'],
+  },
   strike: {
     rex: [
       '{a} lights up {t}!', 'Right hand from {a}!', '{a} with a stiff shot!', 'Big strike, {t} staggers!',
@@ -14,6 +18,7 @@ export const CALLS = {
     ],
     dot: [
       'Efficient. I like it.', '{t} walked right into that.', 'Fundamentals, Rex.', 'That was rude. Good.',
+      'Hit him again, the ref is looking at his shoes.', 'Ha! The fans hated that. I loved it.',
     ],
   },
   slam: {
@@ -23,7 +28,7 @@ export const CALLS = {
     ],
     dot: [
       'Gravity remains undefeated.', '{t} should invest in a chiropractor.', 'Textbook. Painful textbook.',
-      'That mat has a family, Rex.',
+      'That mat has a family, Rex.', 'Oh, quit whining, {t}. You signed the contract.',
     ],
   },
   near_fall: {
@@ -32,7 +37,7 @@ export const CALLS = {
       'The ref\'s hand was coming down! Not yet!', 'Pin attempt by {a}, the crowd is losing it!',
     ],
     dot: [
-      'Should\'ve hooked both legs.', 'Lazy cover. I\'d have sat on him.', 'Lou counts like he\'s paid by the hour.',
+      'Should\'ve hooked both legs.', 'Lazy cover. I\'d have sat on him.', 'Lou counts like he\'s paid by the hour.', 'Count faster, Lou! I have a dinner reservation.',
     ],
   },
   kickout: {
@@ -41,7 +46,7 @@ export const CALLS = {
       'At the last second, {t} escapes!', 'NO! {t} is not done!',
     ],
     dot: [
-      'Stubborn. Annoyingly stubborn.', 'Someone tell {t} the script.', 'That only delays the inevitable.',
+      'Stubborn. Annoyingly stubborn.', 'Oh, stay DOWN. Nobody paid to watch you hope.', 'Someone tell {t} the script.', 'That only delays the inevitable.',
     ],
   },
   elimination: {
@@ -51,7 +56,7 @@ export const CALLS = {
     ],
     dot: [
       'Take the stairs next time, {t}.', 'One less mouth to feed.', 'Elimination is a mindset. {a} has it.',
-      'I\'ll miss {t}. No I won\'t.',
+      'I\'ll miss {t}. No I won\'t.', 'Bye bye! Hahaha! Wave to the cheap seats!',
     ],
   },
   entry: {
@@ -79,7 +84,7 @@ export const CALLS = {
     ],
     dot: [
       'Now THAT is wrestling.', 'Beautiful. Just beautiful.', '{t} never saw it coming. I did.',
-      'I told you, Rex. Expiration date.', 'Business is business.',
+      'I told you, Rex. Expiration date.', 'Business is business.', 'Oh, I LOVE this business!',
     ],
   },
   finisher: {
@@ -88,12 +93,12 @@ export const CALLS = {
       'OH MY! {a} with the big one!', '{a} calls for it, and DELIVERS!',
     ],
     dot: [
-      'Somebody check if {t} is still in the building.', 'Signature. Undeniable.', 'And that is why {a} gets top billing.',
+      'Somebody check if {t} is still in the building.', 'Signature. Undeniable.', 'And that is why {a} gets top billing.', 'Hahaha! Lights out, sweetheart.',
     ],
   },
   bribe: {
     rex: ['Is the referee taking something from {a}?!', 'Wait, what did {a} just hand Lou?'],
-    dot: ['Lou has a mortgage, Rex.', 'Free market. Look it up.'],
+    dot: ['Lou has a mortgage, Rex.', 'Free market. Look it up.', 'That is not a bribe, Rex. That is a gratuity.'],
   },
 };
 
@@ -124,3 +129,29 @@ export const TAUNTS = {
     betray: ['Sorry, kid. Survival first.'],
   },
 };
+
+// Named moves, used when a sim event carries ev.move (the sim's generic grapple reads as a body slam).
+export const MOVE_CALLS = {
+  body_slam: ['{a} picks up {t}, BODY SLAM!', 'Body slam! {a} folds {t} in half!'],
+  suplex: ['SUPLEX! {a} drops {t} on the back of the neck!', '{a} with a beautiful suplex!'],
+  ddt: ['DDT! {a} spikes {t} head first!', 'Oh my, a DDT! {t} is out cold!'],
+  clothesline: ['CLOTHESLINE! {a} nearly took {t}\'s head off!', '{a} turns {t} inside out with a clothesline!'],
+  irish_whip: ['Irish whip from {a}, {t} bounces off the ropes!', '{a} whips {t} into the ropes!'],
+};
+
+// Every template line with every roster name, for the server's warm cache: { speaker, text, kind }.
+export function warmLines(roster = ['vex', 'kane', 'silas', 'mae']) {
+  const out = new Map();
+  const add = (speaker, kind, tpl) => {
+    const a = tpl.includes('{a}'), t = tpl.includes('{t}');
+    const pairs = a || t ? roster.flatMap(x => roster.filter(y => y !== x).map(y => [x, y])) : [[null, null]];
+    for (const [x, y] of pairs) {
+      const text = tpl.replaceAll('{a}', NAMES[x]).replaceAll('{t}', NAMES[y]);
+      out.set(`${speaker}|${kind}|${text}`, { speaker, text, kind });
+    }
+  };
+  for (const [kind, by] of Object.entries(CALLS)) for (const [sp, bank] of Object.entries(by)) bank.forEach(l => add(sp, kind, l));
+  for (const bank of Object.values(MOVE_CALLS)) bank.forEach(l => add('rex', 'slam', l));
+  for (const [sp, by] of Object.entries(TAUNTS)) for (const bank of Object.values(by)) bank.forEach(l => add(sp, 'taunt', l));
+  return [...out.values()];
+}

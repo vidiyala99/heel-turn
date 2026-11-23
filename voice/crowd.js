@@ -1,5 +1,7 @@
 // Procedural crowd: filtered noise murmur + swells + clap/chant bursts. All synthesized, no samples.
 // const crowd = createCrowd(); crowd.start() after a user gesture; crowd.onEvent(ev); crowd.duck(true|false).
+import { MUTED } from './tts.js';
+
 const SWELL = { strike: 0.15, grapple: 0.3, knockdown: 0.35, pin: 0.5, kickout: 0.8, finisher: 0.9, elimination: 1, betray: 1, entry: 0.7, taunt: 0.25 };
 
 export function createCrowd({ ctx = null, volume = 0.5 } = {}) {
@@ -18,6 +20,7 @@ export function createCrowd({ ctx = null, volume = 0.5 } = {}) {
   }
 
   function start() {
+    if (MUTED) return Promise.resolve();
     if (master) return ac.resume();
     ac ??= new AudioContext();
     noise = noiseBuffer();

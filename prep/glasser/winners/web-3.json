@@ -1,0 +1,130 @@
+{
+  "id": "9ea6d0ae-e78f-4f4d-b9d3-de9196316e6a",
+  "run_url": "https://app.glasser.ai/runs/9ea6d0ae-e78f-4f4d-b9d3-de9196316e6a",
+  "provider": "serper",
+  "endpoint": "/search",
+  "endpoint_version": 2,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "q": "Devpost winner multi-agent simulation 2026"
+  },
+  "output": {
+    "organic": [
+      {
+        "date": "Feb 15, 2026",
+        "link": "https://devpost.com/software/aimogus",
+        "title": "aimogus",
+        "snippet": "2026 Winner [Greylock] Best multi-turn agent (Courtside tickets to Warriors game ($10k value) Office hours with Greylock Partners)",
+        "position": 1,
+        "displayedLink": "https://devpost.com › software › aimogus"
+      },
+      {
+        "date": "Jan 22, 2026",
+        "link": "https://elasticsearch.devpost.com/",
+        "title": "Elasticsearch Agent Builder Hackathon: Build context ... - Devpost",
+        "snippet": "View the winners. Your mission is to design agents that actually get work done. Compete for a share of $20,000 in prizes, 2026 Devpost, Inc.",
+        "position": 2,
+        "displayedLink": "https://elasticsearch.devpost.com"
+      },
+      {
+        "link": "https://la-hacks-2026.devpost.com/project-gallery",
+        "title": "Come find your spark at LA Hacks 2026! - Devpost",
+        "snippet": "The first agent-eval platform built for multi-agent orchestration. Graph + Gantt trace viewer, A/B compare with Wilson CIs, and a meta-agent that evolves ...",
+        "position": 3,
+        "displayedLink": "https://la-hacks-2026.devpost.com › project-gallery"
+      },
+      {
+        "link": "https://treehacks-2026.devpost.com/",
+        "title": "TreeHacks 2026: The largest collegiate hackathon in ... - Devpost",
+        "snippet": "Build, launch and monetise AI Agents on Agentverse that turn user intent into real outcomes. Best Multi-Agent Workflow - $1500 Best Monetised Agent - $1000) $5 ...",
+        "position": 4,
+        "displayedLink": "https://treehacks-2026.devpost.com"
+      },
+      {
+        "date": "May 6, 2026",
+        "link": "https://www.solo.io/blog/celebrating-the-winners-of-the-2026-hackathon-for-mcp-ai-agents",
+        "title": "Celebrating the Winners of the 2026 Hackathon for MCP & AI Agents",
+        "snippet": "The winner of this track is Denys Vasyliev (UK), a long-time contributor to kagent. He built a Kubernetes-native multi-cluster inventory ...",
+        "position": 5,
+        "displayedLink": "https://www.solo.io › blog › celebrating-the-winners-of-..."
+      },
+      {
+        "link": "https://treehacks-2026.devpost.com/project-gallery",
+        "title": "Project gallery - TreeHacks 2026 - Devpost",
+        "snippet": "Physics-Grounded Multi-Agent Copilot for Rapid Wildfire Containment. Winner. Maanit Goel Kyle Tianshi Grace Yan Nathan Zhou.",
+        "position": 6,
+        "displayedLink": "https://treehacks-2026.devpost.com › project-gallery"
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=DCXjvKmUIGY",
+        "title": "How to Win the All Things Agentic Hackathon: Judging Criteria Live Q&A",
+        "snippet": "All Things Agentic Hackathon ・ $180,000 in prizes. Submissions close August 31, 2026. $180K total, $50K grand prize ・ powers hackathons",
+        "position": 7,
+        "displayedLink": "https://www.youtube.com › watch"
+      },
+      {
+        "date": "Jun 18, 2026",
+        "link": "https://devblogs.microsoft.com/powerplatform/agent-academy-hackathon-winners/",
+        "title": "Meet the Agent Academy Hackathon Winners | Power Platform ...",
+        "snippet": "Meet the 12 winning AI agents from the Agent Academy Hackathon. From May 12 to June 2, 2026, designing, building, and shipping real, working AI ...",
+        "position": 8,
+        "displayedLink": "https://devblogs.microsoft.com › powerplatform › agent-academy-hackathon-win..."
+      },
+      {
+        "link": "https://sw26.devpost.com/project-gallery",
+        "title": "Tech@NYU's Premier Buildathon. Real Products. Real Opportunities.",
+        "snippet": "Walk into court already prepared. A multi-agent AI courtroom that simulates opposing counsel, flags objections instantly, and generates attorney-ready reports ...",
+        "position": 9,
+        "displayedLink": "https://sw26.devpost.com › project-gallery"
+      },
+      {
+        "link": "https://www.instagram.com/p/DVVqlAODQ8G/",
+        "title": "Elasticsearch Agent Builder Hackathon – $20K AI ...",
+        "snippet": "Elastic presents the Agent Builder Hackathon on Devpost – build context-driven, multi ... Winners announced: Mar 16, 2026 #Elasticsearch ...",
+        "position": 10,
+        "displayedLink": "https://www.instagram.com › p › DVVqlAODQ8G"
+      }
+    ],
+    "relatedSearches": [
+      {
+        "query": "Devpost winner multi agent simulation 2026 github"
+      },
+      {
+        "query": "TreeHacks 2026 winners"
+      },
+      {
+        "query": "TreeHacks 2026 Devpost"
+      },
+      {
+        "query": "TreeHacks 2027"
+      },
+      {
+        "query": "TreeHacks 2026 prizes"
+      },
+      {
+        "query": "TreeHacks devpost"
+      }
+    ],
+    "searchParameters": {
+      "q": "Devpost winner multi-agent simulation 2026",
+      "type": "search",
+      "engine": "google"
+    }
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.001",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:30:14.106Z",
+  "started_at": "2026-11-23T07:30:14.368Z",
+  "completed_at": "2026-11-23T07:30:15.172Z",
+  "task_id": "tsk_74bda46026fdde4e",
+  "metadata": {}
+}

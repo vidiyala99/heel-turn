@@ -1,0 +1,1 @@
+{"error":{"code":"cli_error","message":"Invalid value for flag --input: \"{\"q\":\"\"best use of\" Bruin hackathon winner\"}\". Expected: Input is not valid JSON: Expected ',' or '}' after property value in JSON at position 7 (line 1 column 8)","hint":"Run `glasser --help` for usage."}}

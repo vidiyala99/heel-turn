@@ -1,0 +1,148 @@
+{
+  "id": "a7ed364b-9cd7-4efe-9209-f8937648ae8f",
+  "run_url": "https://app.glasser.ai/runs/a7ed364b-9cd7-4efe-9209-f8937648ae8f",
+  "provider": "serper",
+  "endpoint": "/search",
+  "endpoint_version": 2,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "q": "hackathon winner agents society simulation 3D 2026"
+  },
+  "output": {
+    "organic": [
+      {
+        "date": "May 6, 2026",
+        "link": "https://www.solo.io/blog/celebrating-the-winners-of-the-2026-hackathon-for-mcp-ai-agents",
+        "title": "Celebrating the Winners of the 2026 Hackathon for MCP & AI Agents",
+        "snippet": "The winner of this track is Denys Vasyliev (UK), a long-time contributor to kagent. He built a Kubernetes-native multi-cluster inventory ...",
+        "position": 1,
+        "displayedLink": "https://www.solo.io › blog › celebrating-the-winners-of-..."
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=-4U_SbjS41M",
+        "title": "AI Coding Hackathon Winners Revealed LIVE ($17K in Prizes)",
+        "snippet": "The moment is here - I'm revealing the winners of the Dynamous x Kiro AI Coding Hackathon! $17,000 in prizes. 10 winners.",
+        "position": 2,
+        "displayedLink": "https://www.youtube.com › watch"
+      },
+      {
+        "date": "Jun 23, 2026",
+        "link": "https://community.neo4j.com/t/aura-agent-hackathon-winners-announced/79568",
+        "title": "Aura Agent Hackathon Winners Announced",
+        "snippet": "The quality of submissions was outstanding. Selecting the winners required balancing graph modeling, technical execution, creativity, real-world ...",
+        "position": 3,
+        "displayedLink": "https://community.neo4j.com › t › aura-agent-hackathon-winner... › 79568"
+      },
+      {
+        "date": "Nov 6, 2026",
+        "link": "https://www.isi.edu/news/89492/hackathon-gives-ai-agents-room-to-grow/",
+        "title": "Hackathon Gives AI Agents Room to Grow",
+        "snippet": "A self-improving AI agent that could predict whether a modified video-game character would become more or less popular.",
+        "position": 4,
+        "displayedLink": "https://www.isi.edu › news › 89492 › hackathon-gives-ai-agents-r..."
+      },
+      {
+        "link": "https://www.gsa.gov/super-intelligence/si-community-of-practice/events-and-training/mcp-server-and-si-agent-government-hackathon",
+        "title": "Model Context Protocol Server and SI Agent Government Hackathon",
+        "snippet": "Join the Model Context Protocol Server and SI Agent Government Hackathon and help connect SI systems to real-world data and services.",
+        "position": 5,
+        "displayedLink": "https://www.gsa.gov › super-intelligence › ... › mcp-server-and-si-agent-gov..."
+      },
+      {
+        "link": "https://www.creatio.com/page/agent-arena-hackathon-2026",
+        "title": "Creatio Agent Arena Hackathon 2026 | Build an AI Agent, Win Prizes",
+        "snippet": "Build a working AI agent with Creatio AI Studio and AI Twin. Kickoff September 16, submissions close September 30, winners crowned at the AI Summer Finale.",
+        "position": 6,
+        "displayedLink": "https://www.creatio.com › page › agent-arena-hackathon-2026"
+      },
+      {
+        "date": "Aug 4, 2026",
+        "link": "https://forum.uipath.com/t/here-are-the-uipath-agenthack-2026-winners/5766658",
+        "title": "Here are the UiPath AgentHack 2026 winners! 🏆",
+        "snippet": "Congratulations to Srajan Gupta, Tanya, Swati, and Astitve on winning $5,000 and earning recognition as the top solution in the category. : ...",
+        "position": 7,
+        "displayedLink": "https://forum.uipath.com › t › here-are-the-uipath-agentha... › 5766658"
+      },
+      {
+        "link": "https://cloud.google.com/resources/agents-for-impact-2026",
+        "title": "Agents for Impact",
+        "snippet": "Phase III: Digital Hackathon [January-March 2027]- Individuals will submit their agentic AI solutions for social impact on a rolling basis with cash prizes.",
+        "position": 8,
+        "displayedLink": "https://cloud.google.com › resources › agents-for-impact-2026"
+      },
+      {
+        "link": "https://microsoft.github.io/agent-academy/events/hackathon/",
+        "title": "Agent Academy Hackathon",
+        "snippet": "Agent Academy Hackathon ​ · Event dates: May 12 – June 2, 2026 · Status: Closed · Winners announced: June 18, 2026 · Start: May 12, 2026 at 12:00 AM Pacific ...",
+        "position": 9,
+        "displayedLink": "https://microsoft.github.io › agent-academy › events › hackathon"
+      },
+      {
+        "link": "https://developer.microsoft.com/en-us/reactor/events/26647/",
+        "title": "AI Dev Days Hackathon: Build the Future with AI Apps, Agents, and ...",
+        "snippet": "Opportunity to showcase your project and win prizes. 🎖️ Grand Prizes. Grand Prize: Build AI Applications & Agents using Microsoft AI Platform and tools, Grand ...",
+        "position": 10,
+        "displayedLink": "https://developer.microsoft.com › en-us › ... › 26647"
+      }
+    ],
+    "relatedSearches": [
+      {
+        "query": "Hackathon winner agents society simulation 3d 2026 free"
+      },
+      {
+        "query": "Hackathon winner agents society simulation 3d 2026 github"
+      },
+      {
+        "query": "Hackathon winner agents society simulation 3d 2026 online"
+      },
+      {
+        "query": "AI hackathon winners 2026"
+      },
+      {
+        "query": "AI agents Hackathon winners"
+      },
+      {
+        "query": "Agentic AI Hackathon winners"
+      },
+      {
+        "query": "Fintech hackathon winners"
+      },
+      {
+        "query": "Google ai hackathon winners"
+      },
+      {
+        "query": "AI agent hackathon ideas"
+      },
+      {
+        "query": "Hackathon ideas for winning"
+      },
+      {
+        "query": "Best hackathon projects"
+      },
+      {
+        "query": "Winning hackathon"
+      }
+    ],
+    "searchParameters": {
+      "q": "hackathon winner agents society simulation 3D 2026",
+      "type": "search",
+      "engine": "google"
+    }
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.001",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:30:13.957Z",
+  "started_at": "2026-11-23T07:30:14.287Z",
+  "completed_at": "2026-11-23T07:30:14.988Z",
+  "task_id": "tsk_74bda46026fdde4e",
+  "metadata": {}
+}

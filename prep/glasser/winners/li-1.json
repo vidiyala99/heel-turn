@@ -1,0 +1,35 @@
+{
+  "id": "963e5c7a-6525-4ba5-9884-19582ef26187",
+  "run_url": "https://app.glasser.ai/runs/963e5c7a-6525-4ba5-9884-19582ef26187",
+  "provider": "scrapecreators",
+  "endpoint": "/v1/linkedin/search/posts",
+  "endpoint_version": 4,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "query": "Crewbase Collective hackathon winner",
+    "date_posted": "last-month"
+  },
+  "output": null,
+  "provider_response": {
+    "http_status": 404,
+    "error": {
+      "error": "not_found",
+      "message": "No posts found",
+      "success": false,
+      "errorStatus": 404
+    }
+  },
+  "charge_usd": "0.00188",
+  "charge_basis": {
+    "clause": "NO_RESULT",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:30:13.777Z",
+  "started_at": "2026-11-23T07:30:13.967Z",
+  "completed_at": "2026-11-23T07:30:16.360Z",
+  "task_id": "tsk_a2399d9b5d5fefae",
+  "metadata": {}
+}

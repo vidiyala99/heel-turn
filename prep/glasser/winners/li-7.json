@@ -1,0 +1,665 @@
+{
+  "id": "66a59787-9986-4c74-9068-1ad85d6a7cc5",
+  "run_url": "https://app.glasser.ai/runs/66a59787-9986-4c74-9068-1ad85d6a7cc5",
+  "provider": "scrapecreators",
+  "endpoint": "/v1/linkedin/search/posts",
+  "endpoint_version": 4,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "query": "won Telem prize hackathon",
+    "date_posted": "last-month"
+  },
+  "output": {
+    "posts": [
+      {
+        "url": "https://www.linkedin.com/posts/foothillventures_searchhack-build-the-next-layer-of-ai-search-activity-7525649563920093186-Pkuv",
+        "image": null,
+        "media": null,
+        "author": {
+          "url": "https://www.linkedin.com/company/foothillventures",
+          "name": "Foothill Ventures",
+          "image": "https://media.licdn.com/dms/image/v2/C560BAQG5jdz36cd7gA/company-logo_100_100/company-logo_100_100/0/1630648419813/foothillventures_logo?e=2147483647&v=beta&t=1g4npVr_m2h9bCW0k8GEDU60szlRF64CPkYDbif6Tmk",
+          "followers": 14306
+        },
+        "images": [],
+        "comments": [],
+        "likeCount": 1,
+        "contentUrn": "urn:li:share:7525649563236642816",
+        "activityUrn": "urn:li:activity:7525649563920093186",
+        "description": "Looking for a hackathon? Check out this event with Telem on 11/14. Our own investor Sophia (Pengyang) Yu will be one of the judges.\n​\nSearchHack is a one-day hackathon for engineers, researchers, and founders working on how information gets found, retrieved, routed, and remembered by AI systems.\n\n​Prizes\n​1st place: iPhone 18 Pro + $1500 Telem AI credits + 30,000 Tavily credits\nhttps://luma.com/e13wf1bd\n\n#AIsearch #agenticsystems",
+        "commentCount": 0,
+        "datePublished": "2026-11-09T20:04:35.845Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/rameez-ansar_four-wins-across-two-industry-awards-and-activity-7526479666384306177-qlsj",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQGQIq0_eyGMEA/feedshare-shrink_1280/B56aHNtXobI8AI-/0/1794452585226?e=2147483647&v=beta&t=u4pJrmleDjG2RAPVmRaJSED6ni1TMvS4jQajKPVoi9g",
+        "media": "https://media.licdn.com/dms/image/v2/D5622AQGQIq0_eyGMEA/feedshare-shrink_1280/B56aHNtXobI8AI-/0/1794452585226?e=2147483647&v=beta&t=u4pJrmleDjG2RAPVmRaJSED6ni1TMvS4jQajKPVoi9g",
+        "author": {
+          "url": "https://sg.linkedin.com/in/rameez-ansar",
+          "name": "Rameez Ansar",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQFJe4yhl5vveA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1718313303967?e=2147483647&v=beta&t=e3fk26HTSih9Fh1FnaafDJlOkMDPofvmFMSdUAPm3bM",
+          "followers": 17202
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D5622AQGQIq0_eyGMEA/feedshare-shrink_1280/B56aHNtXobI8AI-/0/1794452585226?e=2147483647&v=beta&t=u4pJrmleDjG2RAPVmRaJSED6ni1TMvS4jQajKPVoi9g",
+          "https://media.licdn.com/dms/image/v2/D5622AQGrZNomz5oRoQ/feedshare-shrink_1280/B56aHNtXrtH0AI-/0/1794452585959?e=2147483647&v=beta&t=4vi8MspmmLo7zTIqf7Yli96Wc-QpKz8xSj-WSYeIeWk"
+        ],
+        "comments": [
+          {
+            "id": "7526502774373703681",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526479664781950976,7526502774373703681)",
+            "text": "Congratulations, Rameez Ansar and the Circles team.\n “Customer-centric” is the word I’d keep. Most mobile users only hear from their operator when a bill is due or a pack runs out.\n A digital operator can change that, because it can see what each person actually uses.\n Which of the four wins means the most to the team?",
+            "author": "Mihir Singh",
+            "linkedinUrl": "https://in.linkedin.com/in/mihir-singh-growth-leader",
+            "datePublished": "2026-11-12T04:34:57.071Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526508559690465280",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526479664781950976,7526508559690465280)",
+            "text": "Sanny Kumar Sri Hari T SQasim Rafi for the AI improvements  👏",
+            "author": "Bhadrinath Ramachandran",
+            "linkedinUrl": "https://sg.linkedin.com/in/bhadrinath-ramachandran-b6431015",
+            "datePublished": "2026-11-12T04:57:56.398Z",
+            "reactionCount": 5,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 95,
+        "contentUrn": "urn:li:ugcPost:7526479664781950976",
+        "activityUrn": "urn:li:activity:7526479666384306177",
+        "description": "Four wins across two industry awards, and a great moment for all of us at Circles!\n\nWe've always believed that the future of telecom can look very different. More digital, more intelligent, more customer-centric, and capable of creating value well beyond connectivity.\n\nThat belief has shaped how we've built Circles over the years, and it's rewarding to see the progress we're making recognised by the industry.\n\nFirst, Circles was named Best AI-Powered MVNO at the MVNO Nation Awards 2026, recognising our push to make AI native to the telco experience, rather than simply another layer of technology.\n\nWe then followed that up with three more wins at The Fast Mode Awards 2026!\n\n- Circles – MVNO & Digital Brand Catalyst | Growth\n- Circles.Life – AI & Agentic AI Pioneer | Performance\n- Jetpac – CX Champion | Performance\n\nWhat makes these wins particularly meaningful is seeing that ambition translate into real products and customer experiences across our businesses.\n\nWhether it's helping operators around the world launch and scale digital telcos, reinventing the consumer mobile experience through Circles.Life, or making global travel connectivity simpler with Jetpac, we're showing what's possible when we challenge the traditional way of doing things.\n\nIt's also a reflection of the industry's broader shift from Telco to Techco, something we've been working towards at Circles from the very beginning.\n\nA huge congratulations to our teams across Circles, Circles.Life and Jetpac! These wins belong to the people who continue to innovate, execute and push boundaries every day.\n\nThank you to MVNO Nation and The Fast Mode for the recognition!\n\nExcited for what we'll continue to build together, and plenty more to come from all of us at Circles!",
+        "commentCount": 2,
+        "datePublished": "2026-11-12T03:03:07.695Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/wemakedevs_the-cloud-native-hackathon-in-salt-lake-city-activity-7526864181510324225-lWY2",
+        "name": "The Cloud Native Hackathon in Salt Lake City brought us some exciting projects, including CapyKube! 🦫\n\nCapyKube works like a Kubernetes scheduler, but for conference attendees. When a talk reaches… | WeMakeDevs",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5605AQE7J4ty8LDFPg/mp4-720p-30fp-crf28/B56aHPi3L_IsB8-/0/1794483397509?e=2147483647&v=beta&t=RV_xREbcyzQ76HdNrHgnEo6sQCokOVrbpKw9E2l_DN0",
+        "author": {
+          "url": "https://in.linkedin.com/company/wemakedevs",
+          "name": "WeMakeDevs",
+          "image": "https://media.licdn.com/dms/image/v2/D4E0BAQF8DWqdP1iw8g/company-logo_100_100/B4EZ_M9NCIIAAI-/0/1785850024295/wemakedevs_logo?e=2147483647&v=beta&t=FusCFn7i2EVnzsBVuNYzYR0zGXdFv79QDzUP1RHjXIg",
+          "followers": 44416
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7527007587838345217",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526608841451483136,7527007587838345217)",
+            "text": "Going from 857 ms to about 20 ms is a big jump. Having OpenTelemetry in place from the start is what makes a number like that easy to trust, because you can see which step the time came from.",
+            "author": "Lucas Brito",
+            "linkedinUrl": "https://br.linkedin.com/in/lucasfbrito23",
+            "datePublished": "2026-11-13T14:00:53.980Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 16,
+        "contentUrn": "urn:li:ugcPost:7526608841451483136",
+        "transcript": "It's 2:00 at Cube Con. The talk you came for is full and so is the hallway. Meet Kathy, a cube scheduler for humans. Rooms are nodes and people are pods. Every capybara here is 10 attendees. When room 155 E fills up, Cappy schedules the overflow filter talks starting now with open seats. Score closest topic, shortest walk, emptiest room bind. Hold the seats so we never send 200 people to a room with 30. The whole decision is 1 elastic search query, a filter and a vector score written in painless. It takes about 10 milliseconds and E SQL counts the demand nobody could see before on your phone. Just asking your own words. Elasticsearch fuses keywords and vectors so something on E BPF and security finds the right talks. Roomful Cappy shows its pick and why one tap and your seat is held while you walk over and with Gina embeddings on Elastic Cloud. You can ask in any language. At a full door, scan the sign. No app, no account. Your Plan B is already there. Prefer somewhere calmer. Quiet mode favors the emptier room. Need a step free route One switch and rooms behind stairs Drop out, hold your seat and Kathy tells you why it fits in one sentence written from the two talks. Elastic search found. Everything is open telemetry IN-01 trace follows a tap from the browser to Elasticsearch and the model. Cappie's mood is our SLO and when search felt slow, Agent 0 found the cause. The embedding call was 92% of the request. We cashed it and 800 milliseconds became 20. It runs on our teams Kubernetes cluster. Argo CD ships every merge and our agent drives it through radars. MCP server. When the first rollout got stuck Radar. Code. Why a private image? Then we ran a radar AI investigation on our app. It traced 2 readiness warnings to our own rollouts. Every deploy took the app down for about 20 seconds. We changed the rollout and measured the next one. One failed request out of 359, and radars checks went from 5 findings to two. Every feature landed through a pull request reviewed by guitar against our own rules. It caught a docker file that would have broken every deploy and fixed it itself. In all, Guitar raised 12 findings and everyone was fixed before merge. A door control anyone could use, a seat held without telling you, and our own rule checks every manifest against the clusters budget. At a real cube con, there's nothing to install. Door staff tap full and the sign has a QR code. Next badges do the counting. One NFC tap at the door and every count is automatic. Organizers size next year's rooms on real demand, not guesses. Cappy Cube, stay chill, Cappy's got your seat.",
+        "uploadDate": "2026-11-13T04:31:03.245Z",
+        "activityUrn": "urn:li:activity:7526864181510324225",
+        "description": "The Cloud Native Hackathon in Salt Lake City brought us some exciting projects, including CapyKube! 🦫\n\nCapyKube works like a Kubernetes scheduler, but for conference attendees. When a talk reaches capacity, it finds attendees another session that matches their interests, checks walking distance and available seats, and reserves a spot before they arrive.\n\nThe project makes heavy use of Elasticsearch for hybrid and multilingual talk search, along with its scheduling engine to find the best alternative sessions. Dash0 powers observability through OpenTelemetry traces, metrics, logs, and browser monitoring. Its Agent0 also helped identify a slow embedding call, bringing search latency down from 857 ms to around 20 ms.\n\nA big thank you to everyone who participated and to our sponsors Elastic, Dash0, Skyhook Radar, and Sonar for making this event possible! 🙌",
+        "commentCount": 2,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQE7J4ty8LDFPg/videocover-high/B56aHPi3L_IsBM-/0/1794483387271?e=2147483647&v=beta&t=ovYouJmvbyPBcI6Va5GpQL47XfphnbA4SsDhPgFJBjI",
+        "datePublished": "2026-11-13T04:31:03.245Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/langerpatrick_%F0%9D%97%A7%F0%9D%97%B2%F0%9D%97%BA%F0%9D%97%BD%F0%9D%97%BC%F0%9D%97%BF%F0%9D%97%AE%F0%9D%97%B9-%F0%9D%97%99%F0%9D%97%BC%F0%9D%98%82%F0%9D%97%BB%F0%9D%97%B1%F0%9D%97%AE%F0%9D%98%81%F0%9D%97%B6%F0%9D%97%BC%F0%9D%97%BB-activity-7526308905178611712-VW-p",
+        "name": "🚀 𝗧𝗲𝗺𝗽𝗼𝗿𝗮𝗹 𝗙𝗼𝘂𝗻𝗱𝗮𝘁𝗶𝗼𝗻 𝗠𝗼𝗱𝗲𝗹𝘀 𝗮𝗿𝗲 𝗵𝗲𝗿𝗲. 𝗧𝘂𝗿𝗻 𝘆𝗼𝘂𝗿 𝗶𝗻𝗱𝘂𝘀𝘁𝗿𝘆’𝘀 𝗯𝗶𝗴𝗴𝗲𝘀𝘁 𝗰𝗵𝗮𝗹𝗹𝗲𝗻𝗴𝗲 𝗶𝗻𝘁𝗼 𝘆𝗼𝘂𝗿 𝗻𝗲𝘅𝘁 𝗽𝗿𝗼𝗱𝘂𝗰𝘁.\n\nImageNet… | Patrick Langer | 29 comments",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4E05AQEsmPIGqVlf7w/mp4-720p-30fp-crf28/B4EaHLR7hIGoB4-/0/1794411868618?e=2147483647&v=beta&t=MsD4QWwu9rvhlrD7-8ADJxAPFjPWZTLU8JXzHgoFHAA",
+        "author": {
+          "url": "https://ch.linkedin.com/in/langerpatrick",
+          "name": "Patrick Langer",
+          "image": "https://media.licdn.com/dms/image/v2/C4E03AQEWKJQ6tYzTnA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1652215337070?e=2147483647&v=beta&t=QaeuR1fd6O-GxXPw91RLs8R4RNNH1FHwGacODL0qzwU",
+          "followers": 6011
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7526312704647753728",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526308748374581250,7526312704647753728)",
+            "text": "𝗝𝗼𝗶𝗻 𝘁𝗵𝗲 𝗧𝗶𝗺𝗲𝗡𝗲𝘁 𝗴𝗹𝗼𝗯𝗮𝗹 𝗼𝗻𝗹𝗶𝗻𝗲 𝗵𝗮𝗰𝗸𝗮𝘁𝗵𝗼𝗻\n→ 𝗖𝗵𝗮𝗹𝗹𝗲𝗻𝗴𝗲 𝗱𝗲𝘁𝗮𝗶𝗹𝘀 𝗮𝗻𝗱 𝗿𝗲𝗴𝗶𝘀𝘁𝗿𝗮𝘁𝗶𝗼𝗻: https://challenge.timenet.ai/\n→ 𝗝𝗼𝗶𝗻 𝗢𝗽𝗲𝗻𝗧𝗶𝗺𝗲 𝗼𝗻 𝗗𝗶𝘀𝗰𝗼𝗿𝗱: https://discord.com/invite/xtMwENvyd \n→ 𝗧𝗶𝗺𝗲𝗡𝗲𝘁 𝗾𝘂𝗶𝗰𝗸𝘀𝘁𝗮𝗿𝘁: https://docs.timenet.ai/get-started.html\n→ 𝗧𝗶𝗺𝗲𝗡𝗲𝘁 𝗿𝗲𝗹𝗲𝗮𝘀𝗲 𝗽𝗼𝘀𝘁: https://lnkd.in/p/eB3cYK2s",
+            "author": "Patrick Langer",
+            "linkedinUrl": "https://ch.linkedin.com/in/langerpatrick",
+            "datePublished": "2026-11-11T15:59:40.916Z",
+            "reactionCount": 14,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526315076111417344",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526308748374581250,7526315076111417344)",
+            "text": "TimeNet is a joint effort across research groups, organizations and contributors (1/2):\n\n\n→ Aionic Labs: Martin Maritsch, Timo Stoffregen, Thomas Kaar and Robert Jakob.\n\n→ Stanford University (Schmiedmayer Lab): Paul Schmiedmayer.\nDevelops computational methods connecting time-series signals, health records and language to advance personalized health through clinical translation and patient-facing applications.\nhttp://schmiedmayerlab.stanford.edu/\n\n→ ETH Agentic Systems Lab: Max Rosenblattl, Nicolas Zumarraga, Robin Deuber, Fan Wu, Robert Müller, Yichen Liu, Markus Kreft, Kevin O'Sullivan and Elgar Fleisch. Focuses on applied agentic AI and multimodal AI.\n\n→ Google (Consumer Health Research): Daniel McDuff, Maxwell A. Xu (MAX) and Dimitris Spathis.\n\n→ Griffith University (TrustAGI Lab): Ming Jin and Bosong Huang.\nReshaping the landscape of physical AI through time-series intelligence.\nhttps://trust-agi.github.io/",
+            "author": "Patrick Langer",
+            "linkedinUrl": "https://ch.linkedin.com/in/langerpatrick",
+            "datePublished": "2026-11-11T16:09:06.318Z",
+            "reactionCount": 13,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526315796877197312",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526308748374581250,7526315796877197312)",
+            "text": "TimeNet is a joint effort across research groups, organizations and contributors (2/2):\n\n→ TimeCopilot: Azul Garza and Renée Rosillo.\nBuilding a universal foundation for time-series forecasting.\nhttps://timecopilot.dev/\n→ UNSW Sydney (CRUISE group): Flora Salim FTSE and Sparsh Rastogi.\nBuilding robust AI to understand the dynamic physical world and human behaviours.\nhttps://cruiseresearchgroup.github.io\n\n→ UCLA (Health Intelligence Labs): Yuzhe Yang.\n\n→ Dartmouth: Arvind Pillai and Yu Yvonne Wu.\n\n→ TU Eindhoven: Aaqib Saeed.\n\n→ Sun Yat-sen University (ASCLL): Dan Li and Jian Lou.\nThe lab is developing assured, data-centric AI for time series and trustworthy language models.\n\n→ Harvard: Shvat Messica.\n\n→ Seattle Children's Hospital: Denys Herasymuk and Dmytro Lopushanskyy.\n\n→ NUS: Juncheng Liu.\n\n→ KAIST: Hyungjun Yoon.\n\n→ Cambridge: Yuwei Zhang.\n\n→ University of Virginia: Jaeho Kim.\n\n\nWe’re bringing our datasets, research and engineering together around shared, open infrastructure. If you’re working on related problems, we’d love to collaborate.",
+            "author": "Patrick Langer",
+            "linkedinUrl": "https://ch.linkedin.com/in/langerpatrick",
+            "datePublished": "2026-11-11T16:11:58.162Z",
+            "reactionCount": 15,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526316149999874049",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526308748374581250,7526316149999874049)",
+            "text": "A big thank you to Nebius, AWS and Google for supporting the TimeNet hackathon and the people building with us!\nWant to join as a sponsor? Get in touch. We’d love to have you involved.\nVideo Credit: Om Yande",
+            "author": "Patrick Langer",
+            "linkedinUrl": "https://ch.linkedin.com/in/langerpatrick",
+            "datePublished": "2026-11-11T16:13:22.353Z",
+            "reactionCount": 9,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526312159786516482",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526308748374581250,7526312159786516482)",
+            "text": "This is going to be the data technology that unlocks the next generation of temporally aware AI. This is a very exciting moment! Huge congratulations to everyone who has been working on this.",
+            "author": "Timo Stoffregen",
+            "linkedinUrl": "https://ch.linkedin.com/in/timo-stoffregen-a483a798",
+            "datePublished": "2026-11-11T15:57:31.012Z",
+            "reactionCount": 9,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526386813003988992",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526308748374581250,7526386813003988992)",
+            "text": "Temporal modeling becomes genuinely useful when it captures how a system evolves, not just isolated snapshots. I'd be interested in benchmarks for distribution shifts, delayed causality and intervention outcomes, especially where the model recommends an action rather than merely forecasting the next event.",
+            "author": "Devayush Rout",
+            "linkedinUrl": "https://in.linkedin.com/in/devayush-rout",
+            "datePublished": "2026-11-11T20:54:09.726Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526345806375768064",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526308748374581250,7526345806375768064)",
+            "text": "Patrick, time is the dimension that keeps getting skipped. Plenty of models are excellent on a snapshot and useless about what came before and after it, which is most of what matters in an industrial setting. Which domain are you aiming at first?",
+            "author": "Duncan Littlefield",
+            "linkedinUrl": "https://www.linkedin.com/in/duncanlittlefield",
+            "datePublished": "2026-11-11T18:11:12.983Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526316147655221248",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526308748374581250,7526316147655221248)",
+            "text": "Time to build! 👨🍳 🛳️",
+            "author": "Robert Jakob",
+            "linkedinUrl": "https://ch.linkedin.com/in/robertjakob",
+            "datePublished": null,
+            "reactionCount": null,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526322349667889153",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526308748374581250,7526322349667889153)",
+            "text": "Tom N. Dionysios Stamatiadis Yury O. Daniel Howard, PhD Shingai Samudzi Morgan Babbs McGee Young",
+            "author": "Jahed Momand",
+            "linkedinUrl": "https://es.linkedin.com/in/jahedmomand",
+            "datePublished": "2026-11-11T16:38:00.469Z",
+            "reactionCount": 4,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526314471611338752",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526308748374581250,7526314471611338752)",
+            "text": "Looking forward to it!",
+            "author": "Tony Chen",
+            "linkedinUrl": "https://www.linkedin.com/in/tonychen06",
+            "datePublished": "2026-11-11T16:06:42.194Z",
+            "reactionCount": 8,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 331,
+        "contentUrn": "urn:li:ugcPost:7526308748374581250",
+        "transcript": "Every AI breakthrough comes from years of work most people never see. In 2009, Faye Faye Lee and her team introduced Imagenet. Photos and videos are becoming an integral part of global life. Millions of images carefully labeled. This gave researchers around the world a challenge. Who could build a machine that recognized images most accurately? In 2012, A-Team built a system called Alex Net, far more accurate than any prior method A I learned to understand a cat, a container, a violin. A breakthrough that helped ignite the deep learning revolution and inspired. Generation of AI pioneers and some image net contributors even went on to found open AI shared data helped researchers make breakthroughs. AI learned to understand what but doesn't understand when. Intelligence for the real world, how to deal with high dimensional continuous noisy signal that the real world is, which your house cat is perfectly able to deal with today. All this data is processed at once in a limited context, a snapshot compressed. But the world is not a snapshot. It runs on continuous data heartbeats. A machine vibrating. What happens today can matter tomorrow. This is how the world really works. Every signal is a measurement recorded at a specific time, pieces of a bigger picture. Together they show how things change over time. But this data is scattered across systems, industries and formats. Each measurement captures only one moment. The real intelligence comes from connecting them, seeing patterns, understanding how things change over time. What's missing is a shared foundation to bring them together. Until now. Introducing Time Net 1 Shared Format, a global network of builders contributing data sets with context, linking signals and their interpretation. Imagenet helped AI learn to perceive moments. Timenet lays the foundation for AI to understand how they connect and you can shape what comes next. Bringing temporal AI to life. Time Net.",
+        "uploadDate": "2026-11-11T15:44:35.050Z",
+        "activityUrn": "urn:li:activity:7526308905178611712",
+        "description": "🚀 𝗧𝗲𝗺𝗽𝗼𝗿𝗮𝗹 𝗙𝗼𝘂𝗻𝗱𝗮𝘁𝗶𝗼𝗻 𝗠𝗼𝗱𝗲𝗹𝘀 𝗮𝗿𝗲 𝗵𝗲𝗿𝗲. 𝗧𝘂𝗿𝗻 𝘆𝗼𝘂𝗿 𝗶𝗻𝗱𝘂𝘀𝘁𝗿𝘆’𝘀 𝗯𝗶𝗴𝗴𝗲𝘀𝘁 𝗰𝗵𝗮𝗹𝗹𝗲𝗻𝗴𝗲 𝗶𝗻𝘁𝗼 𝘆𝗼𝘂𝗿 𝗻𝗲𝘅𝘁 𝗽𝗿𝗼𝗱𝘂𝗰𝘁.\n\nImageNet helped AI learn to understand images, sparking a revolution in deep learning. Today, AI can perceive and interpret images, audio, and text.\n\nOver the past few months, a global research community has come together to tackle the next frontier: teaching AI to 𝗰𝗼𝗻𝗻𝗲𝗰𝘁 𝘁𝗵𝗲𝘀𝗲 𝗽𝗲𝗿𝗰𝗲𝗽𝘁𝗶𝗼𝗻𝘀 𝗼𝘃𝗲𝗿 𝘁𝗶𝗺𝗲.\n\nWith the launch of TimeNet, we are building the open-source foundation for the next generation of intelligence: 𝗧𝗲𝗺𝗽𝗼𝗿𝗮𝗹 𝗔𝗜.\n\nTogether, we are building models that understand what's happening continuously, predict what comes next, explain why, and recommend what to do. The applications are everywhere, from industry and energy to healthcare, finance, and beyond.\nWith the 𝗧𝗶𝗺𝗲𝗡𝗲𝘁 𝗚𝗹𝗼𝗯𝗮𝗹 𝗛𝗮𝗰𝗸𝗮𝘁𝗵𝗼𝗻, we're inviting everyone to join us and start building today!\n\n🚀 𝗕𝗿𝗶𝗻𝗴 𝘆𝗼𝘂𝗿 𝗶𝗱𝗲𝗮\nPick a problem, bring your own dataset or find an existing one, prepare it with TimeNet, and train or fine-tune a temporal AI model (e.g. a Time-Series Language Model like OpenTSLM).\n\nSome inspiration from previous projects people have built: predicting machine failures, investigating robotics incidents, optimizing data center operations, detecting anomalies in satellite telemetry, spotting financial fraud, predicting supply-chain disruptions, Bitcoin prices, food shortages, or train delays.\nEven better, bring a challenge from your own industry!\n\n🤝 𝗙𝗶𝗻𝗱 𝘆𝗼𝘂𝗿 𝘁𝗲𝗮𝗺\nMeet collaborators, exchange ideas, and get support in our OpenTime Discord community. You may meet the next leading researcher in temporal AI, or your next co-founder to build something entirely new.\n\n🏆 𝗞𝗶𝗰𝗸𝘀𝘁𝗮𝗿𝘁 𝘆𝗼𝘂𝗿 𝘀𝘁𝗮𝗿𝘁𝘂𝗽\nCompete for AWS and Google Cloud credits, each starting at $𝟮𝟱,𝟬𝟬𝟬 𝗳𝗼𝗿 𝘄𝗶𝗻𝗻𝗶𝗻𝗴 𝘁𝗲𝗮𝗺𝘀, subject to terms. Each round has its own winners, plus an overall winner, and your team can win more than once!\n\nNeed compute to get started? Apply for a 𝗡𝗲𝗯𝗶𝘂𝘀 𝘃𝗼𝘂𝗰𝗵𝗲𝗿, subject to selection and availability.\n\n𝗖𝗵𝗮𝗹𝗹𝗲𝗻𝗴𝗲 𝗱𝗲𝘁𝗮𝗶𝗹𝘀, 𝗿𝗲𝗴𝗶𝘀𝘁𝗿𝗮𝘁𝗶𝗼𝗻, 𝗮𝗻𝗱 𝗗𝗶𝘀𝗰𝗼𝗿𝗱 𝗶𝗻 𝘁𝗵𝗲 𝗰𝗼𝗺𝗺𝗲𝗻𝘁𝘀. 👇\nBig thanks to our supporters at Nebius, AWS, and Google! More info about prizes, judges, and announcements coming over the next few days on Discord. 🚀",
+        "commentCount": 29,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQEsmPIGqVlf7w/videocover-high/B4EaHLR7hIGoBI-/0/1794487213075?e=2147483647&v=beta&t=gLU0z1zYKk9a0MQoTZmZZwu-ozi-6mUbagvVHUdDS4E",
+        "datePublished": "2026-11-11T15:44:35.050Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/mohan-zhang-b00b94180_at-searchhack-on-nov-14-in-sunnyvale-builders-activity-7526448090866757632-Aw1N",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQE77Fll4AFrcg/feedshare-image-high-res/B56aHNQqE5IQAU-/0/1794445058635?e=2147483647&v=beta&t=gEQv9bIEPfhti1jdvRAlG7EgGqxXnBcelLV539QmehY",
+        "media": "https://media.licdn.com/dms/image/v2/D5622AQE77Fll4AFrcg/feedshare-image-high-res/B56aHNQqE5IQAU-/0/1794445058635?e=2147483647&v=beta&t=gEQv9bIEPfhti1jdvRAlG7EgGqxXnBcelLV539QmehY",
+        "author": {
+          "url": "https://www.linkedin.com/in/mohan-zhang-b00b94180",
+          "name": "Mohan Zhang",
+          "image": "https://media.licdn.com/dms/image/v2/C4E03AQHljrS6rixA0g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1618882859184?e=2147483647&v=beta&t=4n2oRw1mJ9S782OOMmUh6QUS48iq6zU8RReoU2DJ3T0",
+          "followers": 4292
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D5622AQE77Fll4AFrcg/feedshare-image-high-res/B56aHNQqE5IQAU-/0/1794445058635?e=2147483647&v=beta&t=gEQv9bIEPfhti1jdvRAlG7EgGqxXnBcelLV539QmehY"
+        ],
+        "comments": [],
+        "likeCount": 58,
+        "contentUrn": "urn:li:share:7526448089927180288",
+        "activityUrn": "urn:li:activity:7526448090866757632",
+        "description": "At SearchHack on Nov 14 in Sunnyvale, builders will show their agentic search projects to six early-stage investors:\n\n▸ Tian Yu (T.Y.), Micron Ventures: invests in AI and compute startups for Micron’s $550M venture arm\n▸ Kyle Qi, Llama Ventures: Principal at a $300M+ Seed/Series A fund backing AI and B2B SaaS; ex-BCG and Serent Capital\n▸ Sophia (Pengyang) Yu, Foothill Ventures: focuses on agentic AI and physical AI at one of TIME’s Top VC Firms (2025 and 2026)\n▸ Mohan Zhang, Sixty Degree Capital: venture partner who previously led AI investments there; CEO of Telem AI\n▸ Ara K., Sky9 Capital: VP at a ~$2B global VC focused on AI infrastructure, hardware and deep tech\n▸ Paula Ramoneda, Plug and Play: Corporate Innovation Manager who connects startups with Fortune 500 partners\n\nPrizes include an iPhone 18 Pro, Apple Watch 12 and AirPods 5. Powered by Telem AI and sponsored by Tavily.\n\nCome build with us:\nhttps://luma.com/e13wf1bd",
+        "commentCount": 0,
+        "datePublished": "2026-11-12T00:57:39.505Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/desmond-zee_introducing-end2end-our-robotics-manipulation-activity-7527758791342292993-s7ku",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQEQZlHt-kJ95A/feedshare-shrink_800/B4EaHf4unXHwAg-/0/1794757553173?e=2147483647&v=beta&t=bi2n78rgCU0aGAeIX9M5JS2S117xnjVt2p0HxNiorLs",
+        "media": "https://media.licdn.com/dms/image/v2/D4E22AQEQZlHt-kJ95A/feedshare-shrink_800/B4EaHf4unXHwAg-/0/1794757553173?e=2147483647&v=beta&t=bi2n78rgCU0aGAeIX9M5JS2S117xnjVt2p0HxNiorLs",
+        "author": {
+          "url": "https://uk.linkedin.com/in/desmond-zee",
+          "name": "Desmond Zee",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQEWtfWr0hoaOg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1711029712833?e=2147483647&v=beta&t=U6CPXVzGBfOr3zqeDw_aQDoxoqvGZoYjp-8sSfyS4LI",
+          "followers": 1017
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D4E22AQEQZlHt-kJ95A/feedshare-shrink_800/B4EaHf4unXHwAg-/0/1794757553173?e=2147483647&v=beta&t=bi2n78rgCU0aGAeIX9M5JS2S117xnjVt2p0HxNiorLs"
+        ],
+        "comments": [
+          {
+            "id": "7527780819449421824",
+            "urn": "urn:li:comment:(urn:li:activity:7527758791342292993,7527780819449421824)",
+            "text": "Can’t wait to see how you take the robotics win forward 👀!",
+            "author": "AIEngine",
+            "linkedinUrl": "https://www.linkedin.com/company/ai-engine-hackathon",
+            "datePublished": "2026-11-15T17:13:26.762Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7528272523663216640",
+            "urn": "urn:li:comment:(urn:li:activity:7527758791342292993,7528272523663216640)",
+            "text": "Huge work Desmond!",
+            "author": "Azka Adziman",
+            "linkedinUrl": "https://uk.linkedin.com/in/azkaadziman",
+            "datePublished": "2026-11-17T01:47:18.182Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "6d"
+          },
+          {
+            "id": "7527781820445212673",
+            "urn": "urn:li:comment:(urn:li:activity:7527758791342292993,7527781820445212673)",
+            "text": "You're the best!! 👏🏽👏🏽👏🏽👏🏽👏🏽",
+            "author": "Alberto Muñoz",
+            "linkedinUrl": "https://mx.linkedin.com/in/luisalbertomunozubando",
+            "datePublished": "2026-11-15T17:17:25.418Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7527943381247938561",
+            "urn": "urn:li:comment:(urn:li:activity:7527758791342292993,7527943381247938561)",
+            "text": "Hackathons are getting seriously intense in robotics",
+            "author": "Karen Vo",
+            "linkedinUrl": "https://vn.linkedin.com/in/karen-vo-201755294",
+            "datePublished": "2026-11-16T03:59:24.514Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7527948416832946176",
+            "urn": "urn:li:comment:(urn:li:activity:7527758791342292993,7527948416832946176)",
+            "text": "Congratulations!!  👏",
+            "author": "Celia Molkentin",
+            "linkedinUrl": "https://fr.linkedin.com/in/celia-molkentin",
+            "datePublished": "2026-11-16T04:19:25.091Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7527796634789998592",
+            "urn": "urn:li:comment:(urn:li:activity:7527758791342292993,7527796634789998592)",
+            "text": "Congrats guys!",
+            "author": "Tommaso Petrelli",
+            "linkedinUrl": "https://it.linkedin.com/in/tommasopetrelli",
+            "datePublished": "2026-11-15T18:16:17.432Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7528081043229167616",
+            "urn": "urn:li:comment:(urn:li:activity:7527758791342292993,7528081043229167616)",
+            "text": "Congrats!",
+            "author": "Yuzhong Luo",
+            "linkedinUrl": "https://uk.linkedin.com/in/yuzhong-luo-1126452b0",
+            "datePublished": "2026-11-16T13:06:25.689Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "6d"
+          },
+          {
+            "id": "7527943618251255809",
+            "urn": "urn:li:comment:(urn:li:activity:7527758791342292993,7527943618251255809)",
+            "text": "Absolute goat  🔥",
+            "author": "Rohan Katreddy",
+            "linkedinUrl": "https://ca.linkedin.com/in/rohankatreddy",
+            "datePublished": "2026-11-16T04:00:21.021Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7527808125198831618",
+            "urn": "urn:li:comment:(urn:li:activity:7527758791342292993,7527808125198831618)",
+            "text": "Congratulations!!",
+            "author": "Erina Katoh",
+            "linkedinUrl": "https://www.linkedin.com/in/erina-katoh-aa15a33a6",
+            "datePublished": "2026-11-15T19:01:56.960Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 311,
+        "contentUrn": "urn:li:share:7527758790029623296",
+        "activityUrn": "urn:li:activity:7527758791342292993",
+        "description": "Introducing End2End: our robotics manipulation pipeline for adaptive inspection that won first prize at hack junction’s robotics track in Finland!\n\nIn less than 48 hours we collected over 1000+ episodes of teleop, fully post trained molmo-act vla, created a physically accurate twin of our environment in Isaac sim, trained DICE-rl style residuals in sim, built a mixture of experts cv ensemble for anomaly detection, and optimised our runtime for Intel Core Ultra Laptops.\n\nWe've open sourced all the teleop data we collected and models we post-trained!\n\nhttps://lnkd.in/e9djQYDV\n\nThanks to Wee Joe T. Shashank Durgad and Lucas Lim for teaming again, and to Intel robotics for sponsoring the track!",
+        "commentCount": 19,
+        "datePublished": "2026-11-15T15:45:54.850Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/omyande_congrats-team-aionic-labs-it-was-fun-cooking-activity-7526375336226443266-_QU0",
+        "name": "Congrats team Aionic Labs!\n\nIt was fun cooking the launch video for TimeNet! 🤜🤛 | Om Yande",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4E05AQEsmPIGqVlf7w/mp4-720p-30fp-crf28/B4EaHLR7hIGoB4-/0/1794411868618?e=2147483647&v=beta&t=MsD4QWwu9rvhlrD7-8ADJxAPFjPWZTLU8JXzHgoFHAA",
+        "author": {
+          "url": "https://www.linkedin.com/in/omyande",
+          "name": "Om Yande",
+          "image": "https://media.licdn.com/dms/image/v2/D4D03AQHMWJLEjIkUWQ/profile-displayphoto-scale_200_200/B4DaB5Bj3PI4Ac-/0/1788736851062?e=2147483647&v=beta&t=sE9q-wou3YvuGkqOIOMdXmsUW1_woGBWWCqXd6MDWUM",
+          "followers": 5736
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7526383445716017154",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526375335706349568,7526383445716017154)",
+            "text": "Thank you so much for all your help Om Yande!! Would totally recommend you for anyone trying to translate complex ideas. 😊",
+            "author": "Agustina Bigatti",
+            "linkedinUrl": "https://ch.linkedin.com/in/agustinabigatti/en",
+            "datePublished": "2026-11-11T20:40:46.902Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526725839812530176",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526375335706349568,7526725839812530176)",
+            "text": "Damnnn",
+            "author": "Aamish Azeem",
+            "linkedinUrl": "https://in.linkedin.com/in/aamish-azeem-614aaa20a",
+            "datePublished": "2026-11-12T19:21:20.015Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 8,
+        "contentUrn": "urn:li:ugcPost:7526375335706349568",
+        "uploadDate": "2026-11-11T20:08:33.447Z",
+        "activityUrn": "urn:li:activity:7526375336226443266",
+        "description": "Congrats team Aionic Labs!\n\nIt was fun cooking the launch video for TimeNet! 🤜🤛",
+        "commentCount": 3,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQEsmPIGqVlf7w/videocover-high/B4EaHLR7hIGoBI-/0/1794487213075?e=2147483647&v=beta&t=gLU0z1zYKk9a0MQoTZmZZwu-ozi-6mUbagvVHUdDS4E",
+        "datePublished": "2026-11-11T20:08:33.447Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/aidenguan_saw-a-post-similar-to-a-project-ive-been-activity-7526932544190119936-322p",
+        "name": "Saw a post similar to a project I’ve been working on, so I wanted to share.\n\nCourtVision turns a single-camera NBA broadcast into possessions, makes and misses, rebounds and a box score, running… | Aiden Guan | 14 comments",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5605AQGBKiQItN4LlA/mp4-640p-30fp-crf28/B56aHUJO8hHgB4-/0/1794560555337?e=2147483647&v=beta&t=o8z8bPD4P_GNztA-D5Sy2BDBs8jbrCzs2f-k9PHabkE",
+        "author": {
+          "url": "https://www.linkedin.com/in/aidenguan",
+          "name": "Aiden Guan",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQEMoGL4arEZGQ/profile-displayphoto-scale_200_200/B56aBvc5uHJsAc-/0/1788576246916?e=2147483647&v=beta&t=K0r8yXKjlfTcDVHOaADg_O6QmNV4CTLLimUxadgD-J8",
+          "followers": 936
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7527611108791136256",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526932501840433152,7527611108791136256)",
+            "text": "Distilling the ResNet-18 CenterNet from RF-DETR so it still catches a blurred ball is a smart trade off. Getting 97% on possession for recorded games is strong. How did you handle the rim CNN when the view is partly blocked?",
+            "author": "Aum Lenka",
+            "linkedinUrl": "https://in.linkedin.com/in/aum-lenka",
+            "datePublished": "2026-11-15T05:59:04.588Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7527959200153509888",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526932501840433152,7527959200153509888)",
+            "text": "how does jev play into edge cases such as ball stuck on the rim",
+            "author": "Ryder Xue",
+            "linkedinUrl": "https://www.linkedin.com/in/ryder-xue",
+            "datePublished": "2026-11-16T05:02:16.036Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7527778227877126144",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526932501840433152,7527778227877126144)",
+            "text": "What a coincidence🤣, I worked on this footage too, to test my tool",
+            "author": "İlkin Alishov",
+            "linkedinUrl": "https://az.linkedin.com/in/ilkin-alishov-13014837b",
+            "datePublished": "2026-11-15T17:03:08.883Z",
+            "reactionCount": 3,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526935900325482496",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526932501840433152,7526935900325482496)",
+            "text": "so this is what Claude is slaving on everyday",
+            "author": "Allen Hsieh",
+            "linkedinUrl": "https://www.linkedin.com/in/allenkhsieh",
+            "datePublished": "2026-11-13T09:16:02.345Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7528696485400580096",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526932501840433152,7528696485400580096)",
+            "text": "Aiden Guan how do you train Jev on “how big moment is” and what was the accuracy rate?",
+            "author": "Joseph S.",
+            "linkedinUrl": "https://www.linkedin.com/in/josephsobocan",
+            "datePublished": "2026-11-18T05:51:58.537Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "5d"
+          },
+          {
+            "id": "7527033725247823873",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526932501840433152,7527033725247823873)",
+            "text": "Awesome project! Did something similar. Sports analytics with computer vision has some real use cases for coaches and scouts. This could be productized! 🔥",
+            "author": "Timothy Do",
+            "linkedinUrl": "https://www.linkedin.com/in/do-timothy",
+            "datePublished": "2026-11-13T15:44:45.624Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526964961999290368",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526932501840433152,7526964961999290368)",
+            "text": "this is the most technical project i've ever seen a business major work on!",
+            "author": "Dylan Nguyen",
+            "linkedinUrl": "https://www.linkedin.com/in/dylan-nguyen-b765482a8",
+            "datePublished": "2026-11-13T11:11:31.188Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 90,
+        "contentUrn": "urn:li:ugcPost:7526932501840433152",
+        "uploadDate": "2026-11-13T09:02:42.178Z",
+        "activityUrn": "urn:li:activity:7526932544190119936",
+        "description": "Saw a post similar to a project I’ve been working on, so I wanted to share.\n\nCourtVision turns a single-camera NBA broadcast into possessions, makes and misses, rebounds and a box score, running locally on a Mac.\n\nHow it works:\n• Detection: a ResNet-18 CenterNet distilled from RF-DETR looks at 3 frames at once, so a blurred ball still stands out. It runs on Apple’s Neural Engine.\n• Court mapping: A broadcast camera only pans, tilts and zooms, so those are the only things it fits per frame.\n• Events: a rules engine turns the tracks into possessions, shots and rebounds. A small rim CNN re-judges every make or miss 2.5 s later.\n• Decision layer: Jev calls the play type, how big the moment is, and whether each line of Claude’s commentary is backed by the facts. Each call has a deadline of 1.5 s or less and a rule-based fallback.\nLive vs recorded:\n• Live: 21–30 fps against a 30 fps broadcast on an M3 Pro. Working towards getting it to live level, could probably do it with more compute.\n• Recorded: decides possession over the whole game at once, and gets the team with the ball right 97% of the time on held-out footage. The model has only been trained on ~42 games, a few shorter clips.\n\nCode: https://lnkd.in/gcC_J4Da\n(Note: have't worked on this in a bit, open to improvements)",
+        "commentCount": 14,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQGBKiQItN4LlA/videocover-high/B56aHUJO8hHgBM-/0/1794560554030?e=2147483647&v=beta&t=QO6HqpG_1U-QQ-F5P_gU4QPv0r16LcdoVde0OLCmIRg",
+        "datePublished": "2026-11-13T09:02:42.178Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/timnit-gebru-7b3b407_the-algorithmic-justice-league-to-honor-lindsey-activity-7528224828257112064-Ow5h",
+        "image": null,
+        "media": null,
+        "author": {
+          "url": "https://www.linkedin.com/in/timnit-gebru-7b3b407",
+          "name": "Timnit Gebru",
+          "followers": 118347
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7528263572393512960",
+            "urn": "urn:li:comment:(urn:li:activity:7528224828257112064,7528263572393512960)",
+            "text": "Was glad to be part of the online audience.",
+            "author": "Gillian Marcelle, PhD",
+            "linkedinUrl": "https://www.linkedin.com/in/gillianmarcelle",
+            "datePublished": "2026-11-17T01:11:44.032Z",
+            "reactionCount": 5,
+            "publishedTimeAgo": "6d"
+          },
+          {
+            "id": "7528227051116408833",
+            "urn": "urn:li:comment:(urn:li:activity:7528224828257112064,7528227051116408833)",
+            "text": "On the other side of the Justice League is The Legion of Doom (or Boom, same thing) which has to be all the 'Tech bros' who met back in late Sept. to rename AI as 'SI' (Sinister Intelligence if you keep with the theme). 😀",
+            "author": "JP Pulcini, MBA",
+            "linkedinUrl": "https://www.linkedin.com/in/jp-pulcini-mba",
+            "datePublished": "2026-11-16T22:46:36.682Z",
+            "reactionCount": 8,
+            "publishedTimeAgo": "6d"
+          },
+          {
+            "id": "7528397971508465664",
+            "urn": "urn:li:comment:(urn:li:activity:7528224828257112064,7528397971508465664)",
+            "text": "Congratulations to Joy and everyone at AJL on ten years of work. Recognising Lindsey is especially powerful because her experience shows that responsible AI isn't just about improving systems; it's about protecting the people who live with their consequences.",
+            "author": "Dr. Elsa Zekeng",
+            "linkedinUrl": "https://uk.linkedin.com/in/dr-elsa-zekeng-sokerdata",
+            "datePublished": "2026-11-17T10:05:47.278Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "5d"
+          },
+          {
+            "id": "7528394753374285824",
+            "urn": "urn:li:comment:(urn:li:activity:7528224828257112064,7528394753374285824)",
+            "text": "This is not a tech issue, it's a policing issue. Ironically they could use modern technology to address their sheer inability to properly analyse the data they have before they arrest someone. If the \"human in the loop\" is sitting idly by while AI tells them what to do we are all in serious trouble.",
+            "author": "Nicholas Shearer",
+            "linkedinUrl": "https://uk.linkedin.com/in/nicholasshearer",
+            "datePublished": "2026-11-17T09:53:00.016Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "5d"
+          },
+          {
+            "id": "7528264922435289090",
+            "urn": "urn:li:comment:(urn:li:activity:7528224828257112064,7528264922435289090)",
+            "text": "great seeing you on Saturday Timnit, it was truly a wonderful event!",
+            "author": "Chinasa T. Okolo, Ph.D.",
+            "linkedinUrl": "https://www.linkedin.com/in/chinasatokolo",
+            "datePublished": "2026-11-17T01:17:05.907Z",
+            "reactionCount": 4,
+            "publishedTimeAgo": "6d"
+          },
+          {
+            "id": "7528232135397167105",
+            "urn": "urn:li:comment:(urn:li:activity:7528224828257112064,7528232135397167105)",
+            "text": "Wow, so inspired by Lindsey’s bravery to speak out about what happened to her! Congrats on the honor.",
+            "author": "Moses Adams",
+            "linkedinUrl": "https://www.linkedin.com/in/moses-adams-career",
+            "datePublished": "2026-11-16T23:06:48.869Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "6d"
+          },
+          {
+            "id": "7528242993284288513",
+            "urn": "urn:li:comment:(urn:li:activity:7528224828257112064,7528242993284288513)",
+            "text": "Proud of you both!! 👏🏾👏🏾",
+            "author": "Rachel Ann Williams",
+            "linkedinUrl": "https://www.linkedin.com/in/rachwill",
+            "datePublished": "2026-11-16T23:49:57.591Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "6d"
+          },
+          {
+            "id": "7528327435868622848",
+            "urn": "urn:li:comment:(urn:li:activity:7528224828257112064,7528327435868622848)",
+            "text": "Happy decade to this trailblazer and her team.",
+            "author": "Caroline Simard",
+            "linkedinUrl": "https://www.linkedin.com/in/csimard",
+            "datePublished": "2026-11-17T05:25:30.271Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "6d"
+          },
+          {
+            "id": "7528309526639542272",
+            "urn": "urn:li:comment:(urn:li:activity:7528224828257112064,7528309526639542272)",
+            "text": "and they raised tons of money!",
+            "author": "William H.",
+            "linkedinUrl": "https://www.linkedin.com/in/williamhegwood",
+            "datePublished": "2026-11-17T04:14:20.379Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "6d"
+          }
+        ],
+        "likeCount": 435,
+        "contentUrn": "urn:li:share:7528224826797367298",
+        "activityUrn": "urn:li:activity:7528224828257112064",
+        "description": "I am so proud of my friend and collaborator extraordinaire Dr. Joy Buolamwini. The Algorithmic Justice League's 10th year anniversary event was incredible. We got to celebrate AJL's impact with friends and collaborators, learn the stories of people around the world fighting AI harms, and honor them with AJL's Global Justice Awards. This year the recipient was Lindsey Isaacs.\n\nHere's to another decade of impact 🎉 🎉 🎉 \n\n\"In October 2025, investigators with the Florida Highway Patrol used footage from automated license plate recognition cameras operated by Flock Safety to identify Isaacs' vehicle near the scene of a crash that killed three people. Despite conflicting witness accounts and a lack of physical evidence linking her vehicle to the crash, Isaacs was arrested in April 2026 on suspicion of vehicular homicide and spent 13 days in jail. Prosecutors subsequently declined to pursue charges against her, and another driver was arrested in connection with the crash.\n\nSince her release, Isaacs has spoken publicly about her experience and called for greater accountability in law enforcement's use of surveillance technology. On Sept. 23, 2026, she testified before the U.S. Senate Judiciary Subcommittee on Crime and Counterterrorism at a hearing examining Flock Safety's nationwide surveillance network. Her testimony highlighted the potentially devastating consequences of relying on AI-powered surveillance data without adequate scrutiny and verification.\"\n\nhttps://lnkd.in/g-xVBApz",
+        "commentCount": 16,
+        "datePublished": "2026-11-16T22:37:46.709Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/thulme_last-week-we-hosted-richard-socher-of-recursive-activity-7527058130808131585-7Tt-",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQFo8JkbJ4zr6g/feedshare-shrink_800/B4EaHV7ei7HAAg-/0/1794590502175?e=2147483647&v=beta&t=S6j2okXxN7RKkhlPQqxLUCKFWG9iFK6iibsndfzu0gc",
+        "media": "https://media.licdn.com/dms/image/v2/D4E22AQFo8JkbJ4zr6g/feedshare-shrink_800/B4EaHV7ei7HAAg-/0/1794590502175?e=2147483647&v=beta&t=S6j2okXxN7RKkhlPQqxLUCKFWG9iFK6iibsndfzu0gc",
+        "author": {
+          "url": "https://uk.linkedin.com/in/thulme",
+          "name": "Tom Hulme",
+          "image": "https://media.licdn.com/dms/image/v2/D4E03AQG1Bu469VEkmQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1675435514768?e=2147483647&v=beta&t=0YsI3zarSn9cuDIeEL-is8gx4ugmJ0Wa63kJY1-ZfWY",
+          "followers": 26555
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D4E22AQFo8JkbJ4zr6g/feedshare-shrink_800/B4EaHV7ei7HAAg-/0/1794590502175?e=2147483647&v=beta&t=S6j2okXxN7RKkhlPQqxLUCKFWG9iFK6iibsndfzu0gc"
+        ],
+        "comments": [
+          {
+            "id": "7527074815652859905",
+            "urn": "urn:li:comment:(urn:li:activity:7527058130808131585,7527074815652859905)",
+            "text": "I agree that the pattern is that more science and more socio-technical application leads to “more human flourishing”. The problem today is that our elites and managerial class are actively hostile to our flourishing. \n\nOn the idea that in the recent past “AI was far behind humans at almost every cognitive task”, but “it is on track to surpass us at almost everything we can do intellectually”, perhaps the __relative__ change is as much – or more – that human intellectualism __has regressed__, and that humanity is under-rated?\n\nWe so want to deny our abilities, our learning skills, and our agency that we almost wilfully submit to abstracted “non-human” process, to “the machine”. \n\nThese are three ideas that machine learning could not reach.",
+            "author": "Nico Macdonald",
+            "linkedinUrl": "https://uk.linkedin.com/in/nicomacdonald",
+            "datePublished": "2026-11-13T18:28:02.340Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 167,
+        "contentUrn": "urn:li:share:7527058127473639424",
+        "activityUrn": "urn:li:activity:7527058130808131585",
+        "description": "Last week we hosted Richard Socher of Recursive at the GV (Google Ventures) Ferry Building in San Francisco following the launch of Recursive's first model, Flint, and his new book, Eureka Machine.\n\nThe conversation ranged from how to budget compute across parallel research branches to whether AI can be as 'stubborn' as required to do the most difficult and non-obvious things.\n\nBeyond the technical debate, Richard pointed out a simple truth: when we were born, AI was far behind humans at almost every cognitive task: language, reasoning, perception. Within our lifetimes, it is on track to surpass us at almost everything we can do intellectually.\n\nDespite this, people are increasingly worried about AI in our future. Richard’s counter is simple: the future needs better marketing.\n\nIf you ask someone how AI changed their life this week, the answer usually feels incremental. But historically, the progression has always held true:\n\nMore science → more technology → more economic growth → more human flourishing.\n\nThat chain of progress is the reason billions of people can live on this planet today. With AI, the clock speed is tightening.\n\nYou can see that acceleration in Recursive's recent launch of Flint. A small team used their automated research system—the Eureka Machine—to build a frontier-class model from scratch in under four months, automating the entire pipeline from tokenizer to post-training.\n\nWhen Richard and I first discussed recursive self-improvement eighteen months ago, it was a deeply contrarian take. Today, it is reality. When the machine starts building the machine, we are no longer playing a zero-sum game. In fields like life sciences, we are just rapidly expanding the pie.\n\nHuge thanks to Richard and the brilliant room of AI researchers and founders from Google DeepMind, OpenAI, Mistral, Reflection AI, and UC Berkeley that attended. \n\nEureka Machine book on Amazon - https://lnkd.in/etG6YQZ9",
+        "commentCount": 5,
+        "datePublished": "2026-11-13T17:21:44.361Z"
+      }
+    ],
+    "query": "won Telem prize hackathon",
+    "cursor": "2",
+    "success": true
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00188",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:30:13.934Z",
+  "started_at": "2026-11-23T07:30:14.212Z",
+  "completed_at": "2026-11-23T07:30:23.227Z",
+  "task_id": "tsk_a2399d9b5d5fefae",
+  "metadata": {}
+}

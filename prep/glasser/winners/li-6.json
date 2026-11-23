@@ -1,0 +1,521 @@
+{
+  "id": "dd20d314-326b-4d65-9a85-57463f31f8c1",
+  "run_url": "https://app.glasser.ai/runs/dd20d314-326b-4d65-9a85-57463f31f8c1",
+  "provider": "scrapecreators",
+  "endpoint": "/v1/linkedin/search/posts",
+  "endpoint_version": 4,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "query": "won Runware prize hackathon",
+    "date_posted": "last-month"
+  },
+  "output": {
+    "posts": [
+      {
+        "url": "https://www.linkedin.com/posts/shenyoannubuya_thenextitgirl-runwayinthecloud-fashiontech-activity-7529616540460052480-lxbD",
+        "name": "Our Fashion Tech Hackathon is officially complete — and what an incredible event it was!\n\nFrom ideation to prototyping, AUC participants pushed boundaries, showed up for the challenged with vision, creativity, and a commitment to using an AI pattern generator to design a garment. Thank you to our amazing partners MontAIge and Spelman Innovation!\n\nAnd yes, our judges have decided on the two finalist teams moving on to Runway in the Cloud… but who?\n\nYou’ll see soon.😉\n\nThe next stop is Runway in the Cloud: The Fashion Tech Soirée — where our two finalist teams will showcase their concepts in front of industry leaders, innovators, and community leaders.\n\n\nJoin us on Saturday, Dec 5 • Tickets to Runway in the Cloud are selling fast — get yours today. https://lnkd.in/eNpAf833 \n\n#runwayinthecloud #AIinFashion #FashionTech #Fashion #ATLEvents",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQFbV0aGjYSFtw/feedshare-image-high-res/B4EaHwEeUYGsAQ-/0/1795029067384?e=2147483647&v=beta&t=jYf6Tcw0jd0Wrw4_sX1dQuDKl6D1QveV43xEG4Q52wc",
+        "media": "https://media.licdn.com/dms/image/v2/D4E22AQFbV0aGjYSFtw/feedshare-image-high-res/B4EaHwEeUYGsAQ-/0/1795029067384?e=2147483647&v=beta&t=jYf6Tcw0jd0Wrw4_sX1dQuDKl6D1QveV43xEG4Q52wc",
+        "author": {
+          "url": "https://www.linkedin.com/in/shenyoannubuya",
+          "name": "Napiya Nubuya",
+          "image": "https://media.licdn.com/dms/image/v2/D4E03AQEQTUAHTdzAWA/profile-displayphoto-shrink_200_200/B4EZOFkVRMHEAc-/0/1733112714674?e=2147483647&v=beta&t=l9BvknJQeuLWroqQIWJZJHyVGPLJhTRgoFGdHxvb9z4",
+          "followers": 2605
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D4E22AQFbV0aGjYSFtw/feedshare-image-high-res/B4EaHwEeUYGsAQ-/0/1795029067384?e=2147483647&v=beta&t=jYf6Tcw0jd0Wrw4_sX1dQuDKl6D1QveV43xEG4Q52wc",
+          "https://media.licdn.com/dms/image/v2/D4E22AQHASNXHTfXZTg/feedshare-image-high-res/B4EaHwEeX2I8AU-/0/1795029067594?e=2147483647&v=beta&t=vJNCLuJvpHiJEunaTQewQKAK67bfkU0-P9C48kB6JCI",
+          "https://media.licdn.com/dms/image/v2/D4E22AQHbq9w2mSCl-Q/feedshare-image-high-res/B4EaHwEdIwHMAQ-/0/1795029062555?e=2147483647&v=beta&t=mM4l8oFVI1wjO6_KhSIgj34bY4i7f618S9O0CTKsZ6c",
+          "https://media.licdn.com/dms/image/v2/D4E22AQFJ7eGsU5jMxQ/feedshare-image-high-res/B4EaHwEeaGIEAQ-/0/1795029067820?e=2147483647&v=beta&t=m0JD5z0OMOPZfc61EBCjBVVecirGyTMsJ4g6MotFcqE",
+          "https://media.licdn.com/dms/image/v2/D4E22AQFQbO31NzIgVg/feedshare-image-high-res/B4EaHwEd9wIgAQ-/0/1795029065910?e=2147483647&v=beta&t=cEbWyDXP6VPiV5ITFdPanI2VDJ-90Rpgbm0U7zlXBAo"
+        ],
+        "comments": [
+          {
+            "id": "7529617852765638657",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7529616539449331716,7529617852765638657)",
+            "text": "Wow, this is so cool! I'm a proponent of AI in fashion. A designer in Indiana created a piece for me and I used AI to render a few ideas for her. AI won't eliminate designers or artists. It should be an augmentation of capability, not a replacement. I'm glad to see this post as those who refuse to embrace using AI in their work will ultimately be replaced by those who do.",
+            "author": "Linda Calvin, JD (she/her/hers)",
+            "linkedinUrl": "https://www.linkedin.com/in/lindacalvin",
+            "datePublished": "2026-11-20T18:53:09.635Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2d"
+          },
+          {
+            "id": "7530218187657859073",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7529616539449331716,7530218187657859073)",
+            "text": "This is amazing! I can’t wait to see more at Runway in the Cloud next month!",
+            "author": "Abigail Reese-Kelley",
+            "linkedinUrl": "https://www.linkedin.com/in/abigail-reese-kelley",
+            "datePublished": "2026-11-22T10:38:40.627Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "20h"
+          }
+        ],
+        "likeCount": 8,
+        "contentUrn": "urn:li:ugcPost:7529616539449331716",
+        "activityUrn": "urn:li:activity:7529616540460052480",
+        "description": "Our annual fashion tech hackathon looked a little different this year, in the best way! This year we welcomed college students across the AUC and partnered with MontAIge (Founder, Mariama Barry) and Spelman Innovation Lab!\n\nThis year's theme: AI in Fashion, exploring how AI moves beyond simply generating images or designs. Students explored how an AI pattern generator (MontAIge) and computational fashion technologies can support the creative process, translate design intent into physical production, and help us rethink what fashion can do to address real-world social challenges.\n\nThe hackathon was just the beginning. Two finalists teams will now continue their journey to Runway in the Cloud, The Fashion-Tech Soirée on Saturday, December 5, where they will showcase their designs in the Innovation Gallery.\nRunway in the Cloud guests will be able to view and judge on the finished garments to cast their vote for viewers’s choice and win a grand prize! Tickets: https://lnkd.in/emMQUVAA #thenextitgirl #runwayinthecloud #fashiontech",
+        "commentCount": 3,
+        "datePublished": "2026-11-20T18:47:56.754Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/faith-carty_forward-deployed-a-curated-night-for-fdes-activity-7527220696113135616-XoXS",
+        "name": "Every AI founder I talk to asks me the same question: “Do you know any great FDEs?”\n\nIt makes sense. Forward deployed engineers are the ones who actually make AI work inside real companies. They take messy workflows, ship inside enterprises, and a lot of the time they’re the reason a deployment succeeds or doesn’t. Every great AI company wants more of them, and the best ones are being really thoughtful about where they go next.\n\nSo we figured, why not get them all in one room?\n\nOn Wednesday, November 18, Peri is hosting it's FDE Night, a small, invite-only evening for the best FDEs in the city and the AI teams building alongside them.\n\nFounders and engineering leaders from some of the fastest-growing AI companies will come up two at a time for a quick-fire panel. Short pitches, good questions, straight to the point. We’re keeping the lineup quiet until Monday, November 16, when confirmed guests will get it first. After that, it’s open bar, food, and yes, I’ll be DJ'ing 🎧 \n\nOne thing I’m really excited about: everyone gets a company handwritten on the back of their name tag. That’s our pick for who you should meet that night. If it clicks, we’ll make the intro.\nWe’re keeping it small on purpose. Most of the list is curated, but we’ve saved a few spots and I’ll be personally reviewing every request.\n\nIf you’re an FDE at a top startup, a very technical engineer looking to break into the FDE space, or you’re building a team that runs on FDEs, I’d love to see you there: https://luma.com/z7uj8rje\n\nPS: Shoutout to the Peri team who helped put this together! Miles Judd Porter Agatha Advincula Faith Carty Lochlain Healy Bryce James Anthony Lamelas\n\n#FDE #ForwardDeployedEngineering #AI #Startups",
+        "image": null,
+        "media": null,
+        "author": {
+          "url": "https://www.linkedin.com/in/faith-carty",
+          "name": "Faith Carty",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQGEpeRXfuui2A/profile-displayphoto-scale_200_200/B56aDWVko0IEAc-/0/1790302377647?e=2147483647&v=beta&t=08Xo_KOrB5M12WAHVk5iXO83AI0K5oIpWMQ7tiY8h-o",
+          "followers": 1168
+        },
+        "images": [],
+        "comments": [],
+        "likeCount": 3,
+        "contentUrn": "urn:li:share:7527220695530127361",
+        "activityUrn": "urn:li:activity:7527220696113135616",
+        "description": "Forward Deployed Engineer might be a relatively new title to a lot of people, but the demand for engineers who can do more than just write code is anything but new.\n\nBeen working behind the scenes to bring this one together, and I’m so excited to finally see it come to life.\n\nWe’re bringing some of NYC’s best FDEs and AI founders into one room. Really looking forward to the conversations that come out of this.\n\nIf you’re interested in joining us, be sure to register through the link in the original post!\n\nSee you Wednesday :)",
+        "commentCount": 0,
+        "datePublished": "2026-11-14T04:07:42.950Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/mark-michalski-b3b23411_deerfield-x-aws-activity-7525597224928456704-r1XL",
+        "name": "🤝 Deerfield is collaborating with Amazon Web Services (AWS) to help AI-native healthcare and life sciences companies build and scale.\n \nAs part of this new collaboration, select Deerfield portfolio companies will receive access to AWS’s AI and cloud technology, technical training, and support to help them apply agentic AI across efforts in drug discovery, operations, and care delivery.\n \nOur Deerfield Intelligence and Deerfield Discovery and Development (3DC) teams are also working to bring AWS’s AI services into how we research, evaluate, and operate.\n \n“Our Intelligence team is developing models that aim to transform how we source opportunities, evaluate science, and accelerate portfolio companies,” said our Managing Partner James Flynn. “With access to AWS healthcare services, we hope to empower companies to accelerate their development timelines as they build their own clinical solutions.”\n \nRead more about our newest collaboration at the link in the comments. 🔗",
+        "image": "https://media.licdn.com/dms/image/v2/D561FAQH_iHxjotT7tQ/feedshare-document-images_1280/B56aHAn67KHgAQ-/1/1794233053768?e=1796256000&v=beta&t=qeNbEy2V923QntnM66-p06Md2NZkONj739Gie2jlaB4",
+        "media": "https://media.licdn.com/dms/image/v2/D561FAQH_iHxjotT7tQ/feedshare-document-images_1280/B56aHAn67KHgAQ-/1/1794233053768?e=1796256000&v=beta&t=qeNbEy2V923QntnM66-p06Md2NZkONj739Gie2jlaB4",
+        "author": {
+          "url": "https://www.linkedin.com/in/mark-michalski-b3b23411",
+          "name": "Mark Michalski",
+          "image": "https://media.licdn.com/dms/image/v2/C5603AQFVAK73IGIL1Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1642140722320?e=2147483647&v=beta&t=m6wy3Rr1-XVcVXewraqDNlfVyasIJXgOOBVDd1ClFeA",
+          "followers": 8687
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D561FAQH_iHxjotT7tQ/feedshare-document-images_1280/B56aHAn67KHgAQ-/1/1794233053768?e=1796256000&v=beta&t=qeNbEy2V923QntnM66-p06Md2NZkONj739Gie2jlaB4",
+          "https://media.licdn.com/dms/image/v2/D561FAQH_iHxjotT7tQ/feedshare-document-images_1280/B56aHAn67KHgAQ-/2/1794233053768?e=1796256000&v=beta&t=b0qY-5fb4lGJl5U5PQ8JXzEqD5GsH6cpcYtfddkN4Uo",
+          "https://media.licdn.com/dms/image/v2/D561FAQH_iHxjotT7tQ/feedshare-document-images_1280/B56aHAn67KHgAQ-/3/1794233053768?e=1796256000&v=beta&t=yjXovdBnQ7DPgDZ4wxUM6a0Z-Trh-0SyraW5Un-Kubo"
+        ],
+        "comments": [
+          {
+            "id": "7527171822908252161",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7525597223976468480,7527171822908252161)",
+            "text": "Congratulations on the AWS collaboration, Mark. Scaling automation to providers usually runs into the variety of payer and EHR workflows more than compute. Which provider workflow is Ascertain scaling first with this partnership?",
+            "author": "Debanjan Purkayastha",
+            "linkedinUrl": "https://in.linkedin.com/in/debanjanpurkayastha",
+            "datePublished": "2026-11-14T00:53:30.672Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7527379042271055874",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7525597223976468480,7527379042271055874)",
+            "text": "Scaling AI automation for healthcare providers comes down to solving messy administrative bottlenecks—like prior authorization and care coordination—rather than raw model performance alone. Backing Ascertain and Deerfield's portfolio with AWS infrastructure puts serious muscle behind real clinical operations.",
+            "author": "MD SHAMIM SHEIKH",
+            "linkedinUrl": "https://bd.linkedin.com/in/mdshamim803",
+            "datePublished": "2026-11-14T14:36:55.618Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7525618571037630464",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7525597223976468480,7525618571037630464)",
+            "text": "Proud to be part of a portfolio investing in what’s next for healthcare AI, and excited to keep giving operations and clinical teams time back through workflow automation. Congrats to both the Deerfield and AWS teams!",
+            "author": "Ascertain",
+            "linkedinUrl": "https://www.linkedin.com/company/ascertain-ai",
+            "datePublished": "2026-11-09T18:01:26.567Z",
+            "reactionCount": 3,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7525611078999920640",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7525597223976468480,7525611078999920640)",
+            "text": "Congratulations to you and the Deerfield team! Big things ahead.",
+            "author": "Matt Streger",
+            "linkedinUrl": "https://www.linkedin.com/in/matt-streger",
+            "datePublished": "2026-11-09T17:31:40.326Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7525617111180812289",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7525597223976468480,7525617111180812289)",
+            "text": "Thanks to you and the Deerfield team for entrusting me with this. Big things to come!",
+            "author": "Adam Glasofer, MD, MSHI",
+            "linkedinUrl": "https://www.linkedin.com/in/adam-glasofer-md",
+            "datePublished": "2026-11-09T17:55:38.511Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 57,
+        "contentUrn": "urn:li:ugcPost:7525597223976468480",
+        "activityUrn": "urn:li:activity:7525597224928456704",
+        "description": "Yet another day one. A couple months in the making, excited to announce this collaboration.\n\nDeerfield Management will be working with Amazon Web Services (AWS) with the goal of bringing AI to our work in drug discovery, operations, and care delivery.\n\nThe Ascertain team--a Deerfield portfolio company--will work with AWS services to further scale automation services to providers.\n\nThanks to Nicole Cardosa, Eric Zimmerman, Matt Streger, Renée Knee, and Dan Sheeran at AWS for pulling it together and Adam Glasofer, MD, MSHI for playing the part of tireless shepherd in driving the partnership details.\n\nI’ll be talking about it with AWS at their evening event at HLTH Inc. on Monday, 11/16. If you’re there, come say hi.\n\n#AWS #HLTH2026",
+        "commentCount": 6,
+        "datePublished": "2026-11-09T16:36:37.256Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/colin-eberhardt-1464b4a_i-had-a-great-time-at-the-finos-osff-conference-activity-7525856984659587072-s6BJ",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQFaswEM3JPJdQ/feedshare-shrink_800/B4EaHE3C07HQAg-/0/1794304126548?e=2147483647&v=beta&t=0J11AFL4-5E9AQyTercPw1dFe8xeNNcEG-kYIbUkVI8",
+        "media": "https://media.licdn.com/dms/image/v2/D4E22AQFaswEM3JPJdQ/feedshare-shrink_800/B4EaHE3C07HQAg-/0/1794304126548?e=2147483647&v=beta&t=0J11AFL4-5E9AQyTercPw1dFe8xeNNcEG-kYIbUkVI8",
+        "author": {
+          "url": "https://uk.linkedin.com/in/colin-eberhardt-1464b4a",
+          "name": "Colin Eberhardt",
+          "image": "https://media.licdn.com/dms/image/v2/D4E03AQHFGRPah_Q8PA/profile-displayphoto-scale_200_200/B4EZ6MdwfeHoAc-/0/1780473073781?e=2147483647&v=beta&t=A15z_WVFbNjDvkcEGNrRZ3bIaSYmkvlRx8x2kJSOO18",
+          "followers": 3875
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D4E22AQFaswEM3JPJdQ/feedshare-shrink_800/B4EaHE3C07HQAg-/0/1794304126548?e=2147483647&v=beta&t=0J11AFL4-5E9AQyTercPw1dFe8xeNNcEG-kYIbUkVI8"
+        ],
+        "comments": [
+          {
+            "id": "7526306881624014848",
+            "urn": "urn:li:comment:(urn:li:activity:7525856984659587072,7526306881624014848)",
+            "text": "So how do you think AI generated code should be reviewed? How can we tell if other people have reviewed their AI generated code?",
+            "author": "Ruth Eberhardt",
+            "linkedinUrl": "https://uk.linkedin.com/in/ruth-eberhardt-55946814",
+            "datePublished": "2026-11-11T15:36:32.600Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7525858483813122049",
+            "urn": "urn:li:comment:(urn:li:activity:7525856984659587072,7525858483813122049)",
+            "text": "It was great to be part of the conversation Colin, and you and the Scott logic guys did very well corralling a room where everyone had an opinion on the challenges faced with using the technology. Lovely to catch up elsewhere as well!",
+            "author": "Paul Hands",
+            "linkedinUrl": "https://uk.linkedin.com/in/paul-hands-075720150",
+            "datePublished": "2026-11-10T09:54:46.231Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 34,
+        "contentUrn": "urn:li:share:7525856981522251777",
+        "activityUrn": "urn:li:activity:7525856984659587072",
+        "description": "I had a great time at the FINOS OSFF conference in NYC last week. A high point for me was the workshop during lunch, where the Scott Logic team held an open session on \"Rethinking Software Development for the AI Era\". Lots of great collaboration from the ~60 attendees. Key points below:\n\nChallenges\n• Trust, validation and human accountability - AI can generate substantial quantities of code, but appropriate review processes that establish trust remain difficult.\n• Security, regulation and governance - How can we ensure AI-generated software meets regulatory requirements, and that he development process itself is compliant and auditable?\n• Existing delivery processes - in most banks the SDLC limits velocity, for good and bad reasons! The ability to move quickly is increasingly important\n• Skills and knowledge - How will job satisfaction be impacted? What skills does the engineer of the future need?\n• Organisational commercial challenges - Business stakeholders and rapidly prototype, creating tensions and increased expectations of release velocity.\n\nOpportunities:\n• Legacy modernisation and tech debt - AI could significantly reduce the cost and effort of addressing tech debt.\n• Faster experimentation - AI lowers the cost of turning ideas into working software\n• Improved quality and security - Attendees acknowledged the risk of \"AI Slop\" but collectively felt this is a technology that, if used correctly, will improve quality\n• New approaches to engineering - As AI becomes more capable, many of the processes we have taken for granted will change.\n\nA fascinating conversation. We are at an interesting point, where it is clear that almost everything about how we engineer software is going to change - but how it will change, and what it will become is still quite unclear!",
+        "commentCount": 4,
+        "datePublished": "2026-11-10T09:48:48.802Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/contrahq_congratulations-to-the-winners-of-the-base44-activity-7526328832178700288-W2pP",
+        "name": "Congratulations to the winners of the Base44 Challenge! The entries on this one were incredible 🔥 | Contra",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4D05AQFQubS0__TaVQ/mp4-720p-30fp-crf28/B4DaHLaWYpJsB8-/0/1794414053675?e=2147483647&v=beta&t=FDzx4GYlPpGL2vVT1I8wlKbds8c7yEZd3HqwGvNT8tE",
+        "author": {
+          "url": "https://www.linkedin.com/company/contrahq",
+          "name": "Contra",
+          "image": "https://media.licdn.com/dms/image/v2/D4E0BAQF4tth1jz9Kzw/company-logo_100_100/B4EZvDruLkJ8AU-/0/1768514577945/contrahq_logo?e=2147483647&v=beta&t=J_8Vpjyx_bjAlFLpAPmNMxDpwh7Dp2HiL1Htuq_r8RU",
+          "followers": 69564
+        },
+        "images": [],
+        "comments": [],
+        "likeCount": 13,
+        "contentUrn": "urn:li:ugcPost:7526328831595638784",
+        "uploadDate": "2026-11-11T17:03:46.017Z",
+        "activityUrn": "urn:li:activity:7526328832178700288",
+        "description": "Congratulations to the winners of the Base44 Challenge! The entries on this one were incredible 🔥",
+        "commentCount": 1,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQFQubS0__TaVQ/videocover-high/B4DaHLaWYpJsBM-/0/1794414047463?e=2147483647&v=beta&t=ygrgFmx5rWlJoPjBR-qGBgnCFX42FsrMsq7YZkdKBBw",
+        "datePublished": "2026-11-11T17:03:46.017Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/mitzikrockover_texas-activity-7525653927682498560-N_Ah",
+        "name": "For our Women's Health Innovation founders in TEXAS! \n✨ FemHack is coming to Dallas! On December 6–7, @Fierce Foundry brings its all-female hackathon to Pegasus Park, and we're excited to help spread the word.\n\nOver two days, teams of female engineers, designers, clinicians, and business leads will build a working prototype, create a go-to-market strategy, and pitch a business plan to a panel of judges. First place takes home $3,000, with additional awards for prototype functionality and business viability.\n\nNo team or idea needed. Register with your skill set (dev, design, GTM, or business/clinical) and you'll be placed on a team: https://luma.com/qorbjli1\n\nThank you to @Lyda Hill Philanthropies and @Sapphire Labs for making it possible!\n\n#FemHackDallas #WomenInTech #InvestInWomen #DallasTech",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQHqlCPlu-_Ycg/feedshare-shrink_1280/B56aHBAfUNIAAI-/0/1794239493639?e=2147483647&v=beta&t=L1iDXZbkyY62NHAbMTxOFr0BRQm4htnbfaMtmcyATHQ",
+        "media": "https://media.licdn.com/dms/image/v2/D5622AQHqlCPlu-_Ycg/feedshare-shrink_1280/B56aHBAfUNIAAI-/0/1794239493639?e=2147483647&v=beta&t=L1iDXZbkyY62NHAbMTxOFr0BRQm4htnbfaMtmcyATHQ",
+        "author": {
+          "url": "https://www.linkedin.com/in/mitzikrockover",
+          "name": "Mitzi Krockover, MD",
+          "followers": 7787
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D5622AQHqlCPlu-_Ycg/feedshare-shrink_1280/B56aHBAfUNIAAI-/0/1794239493639?e=2147483647&v=beta&t=L1iDXZbkyY62NHAbMTxOFr0BRQm4htnbfaMtmcyATHQ"
+        ],
+        "comments": [
+          {
+            "id": "7526166004184276992",
+            "urn": "urn:li:comment:(urn:li:activity:7525653927682498560,7526166004184276992)",
+            "text": "Mixing scientists, engineers and marketers on a real women's health challenge is how you get ideas that survive past the weekend. So many women's health products start with one discipline and miss the other half. Hope FemHack Dallas draws a big crowd.",
+            "author": "Syed Ahsan Zaidi",
+            "linkedinUrl": "https://pk.linkedin.com/in/ahsanzaididigital",
+            "datePublished": "2026-11-11T06:16:44.801Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7527068552546316288",
+            "urn": "urn:li:comment:(urn:li:activity:7525653927682498560,7527068552546316288)",
+            "text": "Short sprints like this are a good way to get faculty and students working on women's health problems that rarely get a dedicated team. The ones that work usually start from one real clinical problem rather than a broad theme. Hope a few of the Texas teams carry on after the weekend.",
+            "author": "Bitsol",
+            "linkedinUrl": "https://www.linkedin.com/company/bitsol",
+            "datePublished": "2026-11-13T18:03:09.099Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 15,
+        "contentUrn": "urn:li:share:7525653926860308481",
+        "activityUrn": "urn:li:activity:7525653927682498560",
+        "description": "If you are in #Texas and want to create something epic for women's health, this is the place to be. Melissa Wallace is a rock star in getting teams together to create solutions in a short time. She did a great job at Tech Week in Arizona--it was fun, enlightening and the outputs were nothing short of amazing. Great opportunity to try your hand if you want to learn more about entrepreneurship--I'm looking at you faculty members, students, and anyone interested in working on a real women's health challenge. Scientists, business people, marketing pros, engineers should attend. The best ideas come from diverse teams. Can't wait to hear what emerges!",
+        "commentCount": 7,
+        "datePublished": "2026-11-09T20:21:56.247Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/thulme_last-week-we-hosted-richard-socher-of-recursive-activity-7527058130808131585-7Tt-",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQFo8JkbJ4zr6g/feedshare-shrink_800/B4EaHV7ei7HAAg-/0/1794590502175?e=2147483647&v=beta&t=S6j2okXxN7RKkhlPQqxLUCKFWG9iFK6iibsndfzu0gc",
+        "media": "https://media.licdn.com/dms/image/v2/D4E22AQFo8JkbJ4zr6g/feedshare-shrink_800/B4EaHV7ei7HAAg-/0/1794590502175?e=2147483647&v=beta&t=S6j2okXxN7RKkhlPQqxLUCKFWG9iFK6iibsndfzu0gc",
+        "author": {
+          "url": "https://uk.linkedin.com/in/thulme",
+          "name": "Tom Hulme",
+          "image": "https://media.licdn.com/dms/image/v2/D4E03AQG1Bu469VEkmQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1675435514768?e=2147483647&v=beta&t=0YsI3zarSn9cuDIeEL-is8gx4ugmJ0Wa63kJY1-ZfWY",
+          "followers": 26555
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D4E22AQFo8JkbJ4zr6g/feedshare-shrink_800/B4EaHV7ei7HAAg-/0/1794590502175?e=2147483647&v=beta&t=S6j2okXxN7RKkhlPQqxLUCKFWG9iFK6iibsndfzu0gc"
+        ],
+        "comments": [
+          {
+            "id": "7527074815652859905",
+            "urn": "urn:li:comment:(urn:li:activity:7527058130808131585,7527074815652859905)",
+            "text": "I agree that the pattern is that more science and more socio-technical application leads to “more human flourishing”. The problem today is that our elites and managerial class are actively hostile to our flourishing. \n\nOn the idea that in the recent past “AI was far behind humans at almost every cognitive task”, but “it is on track to surpass us at almost everything we can do intellectually”, perhaps the __relative__ change is as much – or more – that human intellectualism __has regressed__, and that humanity is under-rated?\n\nWe so want to deny our abilities, our learning skills, and our agency that we almost wilfully submit to abstracted “non-human” process, to “the machine”. \n\nThese are three ideas that machine learning could not reach.",
+            "author": "Nico Macdonald",
+            "linkedinUrl": "https://uk.linkedin.com/in/nicomacdonald",
+            "datePublished": "2026-11-13T18:28:02.340Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 167,
+        "contentUrn": "urn:li:share:7527058127473639424",
+        "activityUrn": "urn:li:activity:7527058130808131585",
+        "description": "Last week we hosted Richard Socher of Recursive at the GV (Google Ventures) Ferry Building in San Francisco following the launch of Recursive's first model, Flint, and his new book, Eureka Machine.\n\nThe conversation ranged from how to budget compute across parallel research branches to whether AI can be as 'stubborn' as required to do the most difficult and non-obvious things.\n\nBeyond the technical debate, Richard pointed out a simple truth: when we were born, AI was far behind humans at almost every cognitive task: language, reasoning, perception. Within our lifetimes, it is on track to surpass us at almost everything we can do intellectually.\n\nDespite this, people are increasingly worried about AI in our future. Richard’s counter is simple: the future needs better marketing.\n\nIf you ask someone how AI changed their life this week, the answer usually feels incremental. But historically, the progression has always held true:\n\nMore science → more technology → more economic growth → more human flourishing.\n\nThat chain of progress is the reason billions of people can live on this planet today. With AI, the clock speed is tightening.\n\nYou can see that acceleration in Recursive's recent launch of Flint. A small team used their automated research system—the Eureka Machine—to build a frontier-class model from scratch in under four months, automating the entire pipeline from tokenizer to post-training.\n\nWhen Richard and I first discussed recursive self-improvement eighteen months ago, it was a deeply contrarian take. Today, it is reality. When the machine starts building the machine, we are no longer playing a zero-sum game. In fields like life sciences, we are just rapidly expanding the pie.\n\nHuge thanks to Richard and the brilliant room of AI researchers and founders from Google DeepMind, OpenAI, Mistral, Reflection AI, and UC Berkeley that attended. \n\nEureka Machine book on Amazon - https://lnkd.in/etG6YQZ9",
+        "commentCount": 5,
+        "datePublished": "2026-11-13T17:21:44.361Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/smithingham_over-the-moon-about-this-panel-im-on-at-activity-7525237033733275648-RWCb",
+        "name": "Infinity Festival is where Hollywood meets Silicon Valley, bringing together the technologists and executives shaping the future of entertainment and technology. I am incredibly proud that Heidrick & Struggles is an official partner for this four day convergence across sports, film, animation, gaming, and AI.\n\nAs we continue outlining the six core sessions of our Future of Sports Tech track, we cannot talk about the future without looking at the massive data layer driving roster creation, athlete injury prevention, human performance optimization, betting insights, and streaming stats across the NFL, NBA, NHL, MLB, and thousands of other global leagues and federations.\n\nSession: Predictive Analytics and Sports Performance\n\nTheme: High frequency spatial tracking and machine learning models are transforming massive data pipelines into real time sports game strategy. Technical and engineering leaders explore how AI dictates front office roster optimization and delivers low latency, personalized sports broadcast augmentations.\n\nModerated by Taylor Bloom of the Sports Business Journal, we have assembled an incredible engineering brain trust:\n• Meghan Chayka (Co-Founder and Co-CEO, Stathletes)\n• Patrick Lucey (Chief Scientist and AI, Stats Perform)\n• Lewis Smithingham (Principal Product Manager, Media2, Nvidia)\n\nTickets: infinityfestival.com\n\n#InfinityFestival #PredictiveAnalytics #SportsData #TechLeadership #Heidrick #Stathletes #StatsPerform #NVIDIA #SportsBusinessJournal",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQEksglLhp6UbQ/feedshare-shrink_800/B56aGf7KofK8Ac-/0/1793684450295?e=2147483647&v=beta&t=ATUwYOSJL4mAnRPDSkHx2iNx8ZRoIDDBExEv2yOhPE4",
+        "media": "https://media.licdn.com/dms/image/v2/D5622AQEksglLhp6UbQ/feedshare-shrink_800/B56aGf7KofK8Ac-/0/1793684450295?e=2147483647&v=beta&t=ATUwYOSJL4mAnRPDSkHx2iNx8ZRoIDDBExEv2yOhPE4",
+        "author": {
+          "url": "https://www.linkedin.com/in/smithingham",
+          "name": "Lewis Smithingham",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQGgKua1Qvl1gg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1681948382285?e=2147483647&v=beta&t=C_Q5cDgbsjyuIvOSjjMwqHEKpJQO-Bk5DjI2yXiNiAw",
+          "followers": 9822
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D5622AQEksglLhp6UbQ/feedshare-shrink_800/B56aGf7KofK8Ac-/0/1793684450295?e=2147483647&v=beta&t=ATUwYOSJL4mAnRPDSkHx2iNx8ZRoIDDBExEv2yOhPE4"
+        ],
+        "comments": [
+          {
+            "id": "7525259426174545920",
+            "urn": "urn:li:comment:(urn:li:activity:7525237033733275648,7525259426174545920)",
+            "text": "Lewis in Hollywood - What would Herzog Think .............",
+            "author": "Thomas Turley",
+            "linkedinUrl": "https://www.linkedin.com/in/thomas-turley-5b30712",
+            "datePublished": "2026-11-08T18:14:19.760Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2w"
+          }
+        ],
+        "likeCount": 20,
+        "contentUrn": "urn:li:share:7525237032852357120",
+        "activityUrn": "urn:li:activity:7525237033733275648",
+        "description": "Over the moon about this panel I'm on at Infinity Festival Hollywood w/ Patrick Lucey and Meghan Chayka, moderated by Dean Fechner, who doesnt know that he's moderating a hockey panel! We'll talk about how accelerated computing makes more sophisticated AI practical in live workflows, delivering insight while there is still time to use it, bringing compute to the bench not just in the majors but also in the minors and more!\nOn a personal note, congrats to Mark Lieber on what he's built. I remember the very first Infinity Film Festival, Invisible won an award, and it's great to see the mini-CES that Mark has built over the years.",
+        "commentCount": 2,
+        "datePublished": "2026-11-08T16:45:20.984Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/psarlin_thrilled-to-welcome-6-new-ps-fellows-to-postscriptum-activity-7526162644991504385-5v5T",
+        "image": "https://media.licdn.com/dms/image/v2/D4D22AQHO1Gr9r5cnKQ/feedshare-shrink_800/B4DaHJNCbIIMAk-/0/1794377001814?e=2147483647&v=beta&t=cF5B8ObzK9e50GE9kRO3Gw7d7EPE9vi8pbfgAycqtBs",
+        "media": "https://media.licdn.com/dms/image/v2/D4D22AQHO1Gr9r5cnKQ/feedshare-shrink_800/B4DaHJNCbIIMAk-/0/1794377001814?e=2147483647&v=beta&t=cF5B8ObzK9e50GE9kRO3Gw7d7EPE9vi8pbfgAycqtBs",
+        "author": {
+          "url": "https://fi.linkedin.com/in/psarlin",
+          "name": "Peter Sarlin",
+          "followers": 64770
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D4D22AQHO1Gr9r5cnKQ/feedshare-shrink_800/B4DaHJNCbIIMAk-/0/1794377001814?e=2147483647&v=beta&t=cF5B8ObzK9e50GE9kRO3Gw7d7EPE9vi8pbfgAycqtBs"
+        ],
+        "comments": [
+          {
+            "id": "7526163062018613249",
+            "urn": "urn:li:comment:(urn:li:activity:7526162644991504385,7526163062018613249)",
+            "text": "Read more:\nhttps://postscriptum.ai/postscriptum-welcomes-five-new-ps-fellows-to-build-ai-out-of-europe/",
+            "author": "Peter Sarlin",
+            "linkedinUrl": "https://fi.linkedin.com/in/psarlin",
+            "datePublished": "2026-11-11T06:05:03.334Z",
+            "reactionCount": 9,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526193194334711808",
+            "urn": "urn:li:comment:(urn:li:activity:7526162644991504385,7526193194334711808)",
+            "text": "Impressive line-up. I like the mix of people who have built companies, alongside someone who explained why incentives matter when information is imperfect. That's the exact gap between deep tech founders and their first investors.",
+            "author": "Christian Said",
+            "linkedinUrl": "https://se.linkedin.com/in/christian-said-5493a823",
+            "datePublished": "2026-11-11T08:04:47.438Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526174045097148416",
+            "urn": "urn:li:comment:(urn:li:activity:7526162644991504385,7526174045097148416)",
+            "text": "What a stellar cast! Thanks for bringing such accomplished people together to make European entreprenurship shine more.\n\nAs for AI I think we need to do more work on all stacks. Silicon to Applications. Datacenters doesn't cut it.",
+            "author": "Sachin Kundu",
+            "linkedinUrl": "https://fi.linkedin.com/in/sachinkundu",
+            "datePublished": "2026-11-11T06:48:41.903Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526195397237612544",
+            "urn": "urn:li:comment:(urn:li:activity:7526162644991504385,7526195397237612544)",
+            "text": "Couldn’t agree more about the importance of ambition 🙏",
+            "author": "Rasmus Harmaala",
+            "linkedinUrl": "https://fi.linkedin.com/in/rasmus-harmaala",
+            "datePublished": "2026-11-11T08:13:32.650Z",
+            "reactionCount": 3,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526171195550097408",
+            "urn": "urn:li:comment:(urn:li:activity:7526162644991504385,7526171195550097408)",
+            "text": "What a group!",
+            "author": "Oliver Molander",
+            "linkedinUrl": "https://se.linkedin.com/in/olivermolander",
+            "datePublished": "2026-11-11T06:37:22.518Z",
+            "reactionCount": 4,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526164541966180352",
+            "urn": "urn:li:comment:(urn:li:activity:7526162644991504385,7526164541966180352)",
+            "text": "Mårten🔥🩵",
+            "author": "Tai Tran",
+            "linkedinUrl": "https://fi.linkedin.com/in/tranchitai",
+            "datePublished": "2026-11-11T06:10:56.181Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526235546386395136",
+            "urn": "urn:li:comment:(urn:li:activity:7526162644991504385,7526235546386395136)",
+            "text": "Wow!",
+            "author": "Konsta Saarela",
+            "linkedinUrl": "https://fi.linkedin.com/in/konsta",
+            "datePublished": "2026-11-11T10:53:04.954Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526184448179261441",
+            "urn": "urn:li:comment:(urn:li:activity:7526162644991504385,7526184448179261441)",
+            "text": "Congratulations! Just going to uni lecture and I hope that conversations there are as good as your are with your new PS Fellows.  👌",
+            "author": "Suvi Forsskåhl",
+            "linkedinUrl": "https://fi.linkedin.com/in/suvijokinen",
+            "datePublished": "2026-11-11T07:30:02.192Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526169608001871872",
+            "urn": "urn:li:comment:(urn:li:activity:7526162644991504385,7526169608001871872)",
+            "text": "What a SWAT lineup! Congratulations to all parties - now it's time to change the world for good!",
+            "author": "Aki Soudunsaari",
+            "linkedinUrl": "https://fi.linkedin.com/in/soudunsaari",
+            "datePublished": "2026-11-11T06:31:04.017Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526917120866070528",
+            "urn": "urn:li:comment:(urn:li:activity:7526162644991504385,7526917120866070528)",
+            "text": "Whoah - what a collection of talent! Congrats!!  🔥",
+            "author": "Kristian Segerstrale",
+            "linkedinUrl": "https://uk.linkedin.com/in/segerstrale",
+            "datePublished": "2026-11-13T08:01:24.972Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 690,
+        "contentUrn": "urn:li:share:7526162643330605056",
+        "activityUrn": "urn:li:activity:7526162644991504385",
+        "description": "Thrilled to welcome 6 new PS Fellows to PostScriptum: a Nobelist & ex-Skype, MySQL, DeepMind, Nokia & Index Ventures founders & executives. Bengt Holmstrom, Niklas Zennström, Neil Rimer, Mårten Mickos, Pekka Lundmark & Jussi Westergren! 💙🚀\n\nThese 6 PS Fellows are all luminaries in their own way.\n\nBengt received the Nobel prize for his contributions to contract theory and how organizations design incentives when information is imperfect, a foundation for how modern companies, boards and markets are structured.\n\nNiklas built Skype into Europe’s first unicorn, has ever since invested through Atomico, and has long argued that European founders should build with greater ambition and scale.\n\nNeil co-founded Index Ventures in 1996 and spent over 25 years backing and building companies like Supercell, Betfair, Revolut and Roblox.\n\nMårten scaled MySQL AB into Europe’s second unicorn by building the backbone of much of the modern web, and spent nearly a decade at HackerOne turning ethical hacking into mainstream security infrastructure.\n\nPekka led Nokia through its shift to 5G and 6G, and before that served as the CEO of Fortum, Konecranes and Hackman.\n\nJussi, a theoretical physicist with University of Oxford, was one of Google DeepMind’s founding investors, and has played a key role in founding and advising several companies and philanthropic projects like Academia .edu, Intellectual Ventures, Lateral Logic, G-cluster & Capacity Networks.\n\nWhat strikes me most is that each of them has built something that outlasted the moment it was built in: a company, a market, a technology, an idea. That is exactly the thinking we need as we build the next generation of European AI.\n\nThey join Meredith Whittaker (Signal Technology Foundation & ex-Google & New York University Professor) and Bernhard Schölkopf (ETH Zürich Professor, Max Planck Institute for Intelligent Systems Director and ELLIS - European Laboratory for Learning and Intelligent Systems founder) as PS Fellows, positions in which these exceptional people take on active roles at PostScriptum companies to drive their success.\n\nSeveral of us will be on stage at the AI Summit in Turku on 16 November. See you there.\n\nAll six, welcome to the team! 💙🚀",
+        "commentCount": 43,
+        "datePublished": "2026-11-11T06:03:23.905Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/ohad-pollak-90b6192_was-chatting-with-joanna-braunold-from-my-activity-7526191590089048064-8L-S",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQEBNQBQtohe2w/feedshare-shrink_800/B4EaHJnXh7JQAg-/0/1794383903355?e=2147483647&v=beta&t=pCCrFoCGswu6Qjcn5j31t_7fjD0x8eogKAYA0U5EQGA",
+        "media": "https://media.licdn.com/dms/image/v2/D4E22AQEBNQBQtohe2w/feedshare-shrink_800/B4EaHJnXh7JQAg-/0/1794383903355?e=2147483647&v=beta&t=pCCrFoCGswu6Qjcn5j31t_7fjD0x8eogKAYA0U5EQGA",
+        "author": {
+          "url": "https://il.linkedin.com/in/ohad-pollak-90b6192",
+          "name": "Ohad Pollak",
+          "followers": 6425
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D4E22AQEBNQBQtohe2w/feedshare-shrink_800/B4EaHJnXh7JQAg-/0/1794383903355?e=2147483647&v=beta&t=pCCrFoCGswu6Qjcn5j31t_7fjD0x8eogKAYA0U5EQGA",
+          "https://static.licdn.com/aero-v1/sc/h/dur0ryw0e9uscxa9b6zqvgvfs"
+        ],
+        "comments": [
+          {
+            "id": "7527365021178421250",
+            "urn": "urn:li:comment:(urn:li:activity:7526191590089048064,7527365021178421250)",
+            "text": "Remember the joke about how NASA spent years and $$$ to develop a pen that can write in zero gravity, and the Russians just used a pencil?\n\nWell, a Russian would probably leave their phone right next to the shower and use \"Hey Siri!\"...",
+            "author": "Gilad Nass",
+            "linkedinUrl": "https://il.linkedin.com/in/giladn",
+            "datePublished": "2026-11-14T13:41:12.729Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526224547662946304",
+            "urn": "urn:li:comment:(urn:li:activity:7526191590089048064,7526224547662946304)",
+            "text": "Leave the shower untouched, dear G-d!",
+            "author": "Rachel Glaser",
+            "linkedinUrl": "https://il.linkedin.com/in/rachel-glaser-a2ba0236",
+            "datePublished": "2026-11-11T10:09:22.654Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526335097315258369",
+            "urn": "urn:li:comment:(urn:li:activity:7526191590089048064,7526335097315258369)",
+            "text": "So dedicated to the hustle, he posted a LinkedIn status from his shower...",
+            "author": "Ari Soffer",
+            "linkedinUrl": "https://il.linkedin.com/in/ari-soffer-9222b143",
+            "datePublished": "2026-11-11T17:28:39.745Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 25,
+        "contentUrn": "urn:li:share:7526191588742643714",
+        "activityUrn": "urn:li:activity:7526191590089048064",
+        "description": "Was chatting with Joanna Braunold from my team today about how our brains work in mysterious ways.\n\nThe exact moments my mind decides to produce absolute genius, or just figure out the exact next tasks I should actually be working on:\n❌ During a 2-hour brainstorming meeting.\n❌ Staring blankly at a laptop with a triple espresso.\n✔️ 2 minutes into a hot shower with shampoo in my eyes.\n\nThe problem? By the time I turn off the water, grab a towel, and find my phone, that insight has evaporated into thin air, leaving me with nothing but a faint scent of lavender and regret.\n\nForget sending people to Mars, Elon. We need the waterproof Grok Bot Shower Button™️ next to the loofah. Modern problems require wet-fingered solutions.\nLet us dictate our shower thoughts before they go down the drain! 🚿💡\n(Attached: A preview of the only upgrade my bathroom actually needs 👇, generated by Gemini - I love Agents Collaboration 😊 )",
+        "commentCount": 3,
+        "datePublished": "2026-11-11T07:58:24.954Z"
+      }
+    ],
+    "query": "won Runware prize hackathon",
+    "cursor": "2",
+    "success": true
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00188",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:30:13.960Z",
+  "started_at": "2026-11-23T07:30:14.339Z",
+  "completed_at": "2026-11-23T07:30:24.223Z",
+  "task_id": "tsk_a2399d9b5d5fefae",
+  "metadata": {}
+}

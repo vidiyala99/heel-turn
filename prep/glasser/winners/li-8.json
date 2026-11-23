@@ -1,0 +1,721 @@
+{
+  "id": "24c551cb-3de1-43d3-84a8-bed6aa72fa72",
+  "run_url": "https://app.glasser.ai/runs/24c551cb-3de1-43d3-84a8-bed6aa72fa72",
+  "provider": "scrapecreators",
+  "endpoint": "/v1/linkedin/search/posts",
+  "endpoint_version": 4,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "query": "multi-agent hackathon winner 3D agents game",
+    "date_posted": "last-month"
+  },
+  "output": {
+    "posts": [
+      {
+        "url": "https://www.linkedin.com/posts/jessica-myles_super-excited-to-have-placed-3rd-at-the-hbs-activity-7526052272414523392-Xzy8",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQGZ-mKPd-6Qpg/feedshare-image-high-res/B56aHHoqWDJEAQ-/0/1794350687857?e=2147483647&v=beta&t=sWJq1CWGryDWuVS20o4IfPQ_YhzO5nrHCoZZlKJvKy8",
+        "media": "https://media.licdn.com/dms/image/v2/D5622AQGZ-mKPd-6Qpg/feedshare-image-high-res/B56aHHoqWDJEAQ-/0/1794350687857?e=2147483647&v=beta&t=sWJq1CWGryDWuVS20o4IfPQ_YhzO5nrHCoZZlKJvKy8",
+        "author": {
+          "url": "https://www.linkedin.com/in/jessica-myles",
+          "name": "Jessica Myles",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQGwXv5mabUepA/profile-displayphoto-scale_200_200/B56Zq.rx5DHQAY-/0/1764135739709?e=2147483647&v=beta&t=7pjJ8wfMM0sLiDFKPe2xOPaq7s7FyJzg-Y7H_yR2sas",
+          "followers": 2346
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D5622AQGZ-mKPd-6Qpg/feedshare-image-high-res/B56aHHoqWDJEAQ-/0/1794350687857?e=2147483647&v=beta&t=sWJq1CWGryDWuVS20o4IfPQ_YhzO5nrHCoZZlKJvKy8"
+        ],
+        "comments": [
+          {
+            "id": "7526108480236126208",
+            "urn": "urn:li:comment:(urn:li:activity:7526052272414523392,7526108480236126208)",
+            "text": "Congratulations 🎉\nLove the idea behind TripBlend — making group travel planning more personalized and collaborative is a great use case for AI.\nWe're glad Kalodata could be part of the HBS AI Hackathon and support teams turning creative ideas into real products. Excited to see where you take TripBlend next!",
+            "author": "Kalodata",
+            "linkedinUrl": "https://cn.linkedin.com/company/kalodata",
+            "datePublished": "2026-11-11T02:28:10.022Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526054656389697537",
+            "urn": "urn:li:comment:(urn:li:activity:7526052272414523392,7526054656389697537)",
+            "text": "I'm so grateful for the opportunity to collaborate with two talented \"Loveable Ladies\" on Trip Blend. What a blast, I learned a ton from you both! Thank you for getting us together, Jess!",
+            "author": "Cindy Phuong",
+            "linkedinUrl": "https://www.linkedin.com/in/cindy-phuong-hbs2027",
+            "datePublished": "2026-11-10T22:54:17.418Z",
+            "reactionCount": 3,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526109841321287680",
+            "urn": "urn:li:comment:(urn:li:activity:7526052272414523392,7526109841321287680)",
+            "text": "cool～",
+            "author": "Chris Chang",
+            "linkedinUrl": "https://cn.linkedin.com/in/chris-chang-6752b33b",
+            "datePublished": "2026-11-11T02:33:34.530Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526247562459181056",
+            "urn": "urn:li:comment:(urn:li:activity:7526052272414523392,7526247562459181056)",
+            "text": "A little help for the friend who always ends up making the spreadsheet. Congrats on third place, Jessica, Yvonne and Cindy!",
+            "author": "Lovable",
+            "linkedinUrl": "https://se.linkedin.com/company/lovable-dev",
+            "datePublished": "2026-11-11T11:40:49.809Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526096751888478208",
+            "urn": "urn:li:comment:(urn:li:activity:7526052272414523392,7526096751888478208)",
+            "text": "hell ya, way to go Jess",
+            "author": "Umair Khan",
+            "linkedinUrl": "https://ca.linkedin.com/in/umair434",
+            "datePublished": "2026-11-11T01:41:33.767Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526097301547786241",
+            "urn": "urn:li:comment:(urn:li:activity:7526052272414523392,7526097301547786241)",
+            "text": "I’m sure you are elated",
+            "author": "Ziad Hassan",
+            "linkedinUrl": "https://www.linkedin.com/in/ziad-has",
+            "datePublished": "2026-11-11T01:43:44.816Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 57,
+        "contentUrn": "urn:li:share:7526052270791086080",
+        "activityUrn": "urn:li:activity:7526052272414523392",
+        "description": "Super excited to have placed 3rd at the HBS Tech Club's AI Hackathon this past weekend alongside Yvonne Yan, CFA and Cindy Phuong!\n\nChallenged to build a consumer-focused product with real business potential, we created TripBlend - a \"Spotify playlist blend\" but for group trip planning.\n\nTripBlend gathers basic parameters (location, dates, budget), and hyper-personalized preferences from social media integrations, to create a trip itinerary that the whole group will love. We also envisioned a monetization model using a virtual credit card, that serves users by making splitting trip expenses super easy.\n\nCheck out our prototype here: https://lnkd.in/gGSHm7RM\n\nHuge thank you to the Tech Club at Harvard Business School for hosting, and Lovable & Kalodata for sponsoring this fun day!",
+        "commentCount": 6,
+        "datePublished": "2026-11-10T22:44:49.032Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/bianca-andreea-buzea_i-drank-beer-brewed-by-ai-agents-activity-7520068450816331776-oPS0",
+        "image": "https://media.licdn.com/dms/image/v2/D4D1FAQEBNEX-v7_5HA/feedshare-document-images_1920/B4DaFykefYJIAo-/1/1792923528590?e=1796256000&v=beta&t=drLcdpbnhWvmNYhuNjbyTsldq7sxhyeVUOEDrEqy_6I",
+        "media": "https://media.licdn.com/dms/image/v2/D4D1FAQEBNEX-v7_5HA/feedshare-document-images_1920/B4DaFykefYJIAo-/1/1792923528590?e=1796256000&v=beta&t=drLcdpbnhWvmNYhuNjbyTsldq7sxhyeVUOEDrEqy_6I",
+        "author": {
+          "url": "https://de.linkedin.com/in/bianca-andreea-buzea",
+          "name": "Bianca Buzea",
+          "followers": 3837
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D4D1FAQEBNEX-v7_5HA/feedshare-document-images_1920/B4DaFykefYJIAo-/1/1792923528590?e=1796256000&v=beta&t=drLcdpbnhWvmNYhuNjbyTsldq7sxhyeVUOEDrEqy_6I",
+          "https://media.licdn.com/dms/image/v2/D4D1FAQEBNEX-v7_5HA/feedshare-document-images_1920/B4DaFykefYJIAo-/2/1792923528590?e=1796256000&v=beta&t=clW0yIId0jdZemVlSHnTwQ33rUhkbIcHxR0HyBG9U_Y",
+          "https://media.licdn.com/dms/image/v2/D4D1FAQEBNEX-v7_5HA/feedshare-document-images_1920/B4DaFykefYJIAo-/3/1792923528590?e=1796256000&v=beta&t=wWcMjs1G-y0v14k4RNTUELmQgOxPQzGVdOzFu7-6M2o",
+          "https://media.licdn.com/dms/image/v2/D4D1FAQEBNEX-v7_5HA/feedshare-document-images_1920/B4DaFykefYJIAo-/4/1792923528590?e=1796256000&v=beta&t=DWYTmkM7DL_3d4KggY6ZXsLduogHvzJ66RQqlN86aas",
+          "https://media.licdn.com/dms/image/v2/D4D1FAQEBNEX-v7_5HA/feedshare-document-images_1920/B4DaFykefYJIAo-/5/1792923528590?e=1796256000&v=beta&t=FVi9W0d3cUCX26cR7LfbIP2R0Sv4QYLkfuNKHUx-2Jc",
+          "https://media.licdn.com/dms/image/v2/D4D1FAQEBNEX-v7_5HA/feedshare-document-images_1920/B4DaFykefYJIAo-/6/1792923528590?e=1796256000&v=beta&t=QGuimANxEWiGikF5lqmeC33nSUK8NdRubrHUD4surpU",
+          "https://media.licdn.com/dms/image/v2/D4D1FAQEBNEX-v7_5HA/feedshare-document-images_1920/B4DaFykefYJIAo-/7/1792923528590?e=1796256000&v=beta&t=eAWyua0xkXAOKFb_uRfmSTaLYUe4JTwJBbls7k5nwD4",
+          "https://media.licdn.com/dms/image/v2/D4D1FAQEBNEX-v7_5HA/feedshare-document-images_1920/B4DaFykefYJIAo-/8/1792923528590?e=1796256000&v=beta&t=v1XonYQakwCfYfqakXiBpypMYFpXtHkfMlVfNfXmkA0",
+          "https://media.licdn.com/dms/image/v2/D4D1FAQEBNEX-v7_5HA/feedshare-document-images_1920/B4DaFykefYJIAo-/9/1792923528590?e=1796256000&v=beta&t=qRNTFfet_Xrd87ERWyAsEo7z6VoTkKE8S5j8UZXLusk",
+          "https://media.licdn.com/dms/image/v2/D4D1FAQEBNEX-v7_5HA/feedshare-document-images_1920/B4DaFykefYJIAo-/10/1792923528590?e=1796256000&v=beta&t=b6i_S1_94lAZwLJuK3qn-VxGtTszXFd366X6GjsqcBs"
+        ],
+        "comments": [],
+        "likeCount": 27,
+        "contentUrn": "urn:li:ugcPost:7520068449469947904",
+        "activityUrn": "urn:li:activity:7520068450816331776",
+        "description": "Last Saturday, I went to an NVIDIA warm-up event for GTC Berlin and drank beer brewed by AI agents. 🦞🍺\n\nGerhard runs Lobster Lager. Agents built his website and handle the logistics, the ingredients, the recipes and the brewing. What they still haven't automated: taxes. Very German.\n\nHis line stuck with me: \"If I, at 68, can use this, imagine what you could be doing.\"\n\nAs a DevRel, I was just as hooked on how Mark Heaps ran the room. He turned every transition into a story, brought a bit of Texas to Berlin, and never pitched once. He put builders on stage and let them do the inspiring. Honestly, a masterclass in developer storytelling.\n\nWant to build something yourself? Here are some free resources from the event:\n- Build-a-Claw Resource Hub: https://lnkd.in/dyk89aAK\n- Free NemoClaw & OpenShell course: https://lnkd.in/dChQ6_tG\n- NVIDIA NemoClaw GitHub: https://lnkd.in/dfDSdNKR\n\nCheers!",
+        "commentCount": 1,
+        "datePublished": "2026-10-25T10:27:14.789Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/boson-ai_hackathon-ai-bosonai-activity-7525984396567269377-1dCI",
+        "name": "#hackathon #ai #bosonai #toronto #uoft | Boson AI",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5605AQFSPBXWARfY9Q/mp4-720p-30fp-crf28/B56aHGqxbKIQB8-/0/1794334499863?e=2147483647&v=beta&t=o-YwEaFeRCJoaA6mH9za5LDhOz8hd4PzmT3Q-IBHWrk",
+        "author": {
+          "url": "https://www.linkedin.com/company/boson-ai",
+          "name": "Boson AI",
+          "image": "https://media.licdn.com/dms/image/v2/D560BAQF3KE5X34LSsQ/company-logo_100_100/company-logo_100_100/0/1701404808688?e=2147483647&v=beta&t=BiSP1am2gwfoNXp1OuwXBABLJHXrTORoEPmnpqnnr1c",
+          "followers": 17045
+        },
+        "images": [],
+        "comments": [],
+        "likeCount": 22,
+        "contentUrn": "urn:li:ugcPost:7525984152710565888",
+        "transcript": "Dasarnya. Hai i mia. And I'll be your tour guide. We're standing right on Queens Park Crescent W, surrounded by some of Toronto's coolest history and architecture. So what are you in the mood for today? Are you craving some deep historical secrets? I'm interested in architecture and history. Perfect combo. I'm locking that in. Awesome. So here's the plan. We'll kick things off at the Notre Place Monument, then wander over to the Sea David Naylor building. After that, it's the Legislative Assembly of Ontario and we'll finish up at Hart House. Does that sound good to you? Perfect. Let's dive in. That's our first stop. No to place monument. Wait, actually before we begin, I'm interested in the building in front of me right now. Can you tell me what is it? Oh, good day. That's the Intact Center at 700 University Ave. It's a stunning example of modern architecture wrapped in this deep blue glass that reflects the whole city. It's pretty cool, right? All right, let's turn slightly left from where you are facing and walk about 50 meters northeast along the sidewalk. You'll pass that sleek blue glass building on your right, the intact Center, and then cut through a gap in the trees. Keep an eye out for a small cluster of tall. Mere polished steel columns catching the sunlight. That's the Noter Place monument, our first stop. I see. Yeah, again, I can see Now maybe can you tell me what these pillars represent? But those slender stainless steel columns are a tribute to the Franco Ontarian community, designed to evoke a forest of light and reflection. They're not just for show. Locals treat this quiet glade as a respectful pocket of civic memory, perfect for contemplation. I see. Let's go to the to our 2nd President. Got it. Let's hit the C David Naylor building from Notre Place. Just turn right and walk about 30 meters northeast along the sidewalk. You'll bump right into a compact greystone building at the corner, quietly prestigious, full of research offices. And it's where we'll stop next. Yeah, I think I can see it. I can see the building now. Can you tell me some interesting fact about it? It was officially unveiled in October 2015 and named to honor Doctor See David Naylor for his leadership in medical research. Now it houses key units of the Temerity Faculty of Medicine, including the Department of Medicine and the Institute of Medical Science. Want to hear a little trivia about the buildings, hidden quirks and this neighborhood? What can you tell me that trivia in Indonesia? OK, but give you a Mailer building such outrageous me Depeche October glass Dr. C David Naylor two we hold taste and doctor Doctor C David Naylor Stupini Guidoni monochrome unit unit. The only. Department to doctor and and institute ELMIA. OK, let's just go to our next stop. Perfect. Let's head over to the Legislative Assembly of Ontario. Just continue northeast from here for about 250 meters along the sidewalk. You'll pass the nailer building on your left and the big sandstone building with the copper cupola rising up ahead. Is the Ontario legislature OK? I'm actually a bit hungry right now. Can you find me some interesting place? To get a breakfast or coffee. Since you're hungry, how about we? 133 Richmond St. It's about 250 meters from here, just a quick left turn onto Richmond and a 5 minute walk. They've got a 4.5 star rating with over 200 reviews and people rave about their avocado toast. Want to grab a bite there before heading to Heart House? Yeah, sure. Let me just update the route to include Gold Struck first and then we'll head to heart.",
+        "uploadDate": "2026-11-10T18:15:06.169Z",
+        "activityUrn": "urn:li:activity:7525984396567269377",
+        "description": "Hackathon Winner Announcement: Winner 🏆\n\nA huge congratulations to team RoamAlong (Naufal Adityo, Rayan El Ghazzi, Priyanshu Dhingra and Alexander Khrulev), winners of the Higgs Audio Hackathon in collaboration with the Master of Science in Applied Computing (MScAC) team!\n\nRoamAlong is a hands-free walking guide that researches nearby places, plans a tour and tells you stories as you explore.\n\nCheck out their demo below.\n\nCheck out their GitHub here: https://lnkd.in/gHTghVJ5\n\nGreat job to the RoamAlong team! 🎉\n\n#Hackathon #AI #BosonAI #Toronto #UofT",
+        "commentCount": 0,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQFSPBXWARfY9Q/videocover-high/B56aHGqxbKIQBM-/0/1794334467572?e=2147483647&v=beta&t=kdU1ITQpauv8r0PNc-LqS-295Qe8GdxSBRePCQKM9oo",
+        "datePublished": "2026-11-10T18:15:06.169Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/dan-goncharov_get-early-hands-on-time-with-gemini-carbon-activity-7526044077977481216-MCtt",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQFz7yEh3UzGMw/feedshare-shrink_800/B56aHHhNTPKkAk-/0/1794348734220?e=2147483647&v=beta&t=5vAnuC3QShJm00cgXIYFCNbXsD0L-bQ7adq5erq7Fgk",
+        "media": "https://media.licdn.com/dms/image/v2/D5622AQFz7yEh3UzGMw/feedshare-shrink_800/B56aHHhNTPKkAk-/0/1794348734220?e=2147483647&v=beta&t=5vAnuC3QShJm00cgXIYFCNbXsD0L-bQ7adq5erq7Fgk",
+        "author": {
+          "url": "https://www.linkedin.com/in/dan-goncharov",
+          "name": "Daniel Goncharov",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQH2wwtk_pEsNQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1689028096989?e=2147483647&v=beta&t=8AA8MbsDd7hjOYnzoQM2K_FWftEGNKC-QviY1feny9c",
+          "followers": 30196
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D5622AQFz7yEh3UzGMw/feedshare-shrink_800/B56aHHhNTPKkAk-/0/1794348734220?e=2147483647&v=beta&t=5vAnuC3QShJm00cgXIYFCNbXsD0L-bQ7adq5erq7Fgk"
+        ],
+        "comments": [
+          {
+            "id": "7526051388217282560",
+            "urn": "urn:li:comment:(urn:li:activity:7526044077977481216,7526051388217282560)",
+            "text": "Looking forward to it!",
+            "author": "Eugenia Trakal",
+            "linkedinUrl": "https://www.linkedin.com/in/eugenia-trakal",
+            "datePublished": "2026-11-10T22:41:18.225Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7527056905949675521",
+            "urn": "urn:li:comment:(urn:li:activity:7526044077977481216,7527056905949675521)",
+            "text": "Excited for this !!",
+            "author": "Aymen El ouagouti",
+            "linkedinUrl": "https://fr.linkedin.com/in/aymen-elo",
+            "datePublished": "2026-11-13T17:16:52.334Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526155954506256384",
+            "urn": "urn:li:comment:(urn:li:activity:7526044077977481216,7526155954506256384)",
+            "text": "Looking forward to it, Dan!!",
+            "author": "Magne Jul Pedersen",
+            "linkedinUrl": "https://www.linkedin.com/in/magnejulpedersen",
+            "datePublished": "2026-11-11T05:36:48.770Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 43,
+        "contentUrn": "urn:li:share:7526044076538941440",
+        "activityUrn": "urn:li:activity:7526044077977481216",
+        "description": "Get early hands-on time with Gemini Carbon + Antigravity swarm CLI this Saturday at our University of California, Berkeley x Google DeepMind Hackathon!\n\nFounders and hackers - come ship with the new tools (with Antigravity CLI creator Shengzhe Y. joining us in person). Huge plus if you're raising right now, since winning teams pitch directly to our VC and founder judging panel.\n\nHere is our panel:\nGoogle DeepMind\nAmit Vadi- Head of Community, Google DeepMind\nJoana Carrasqueira - Senior Manager, Google DeepMind\n\nVenture Capital & Industry Experts\nEugenia Trakal - Investor, New Enterprise Associates (NEA)\nNick Rabjohn - Investor, Amity Ventures\nFannie Wang - VP, UpHonest Capital\nMatt Caspari - Managing Partner, Alumni Ventures\nParikshit Sharma - Partner, SOSV (fka IndieBio)\nVikram Venkat- Investor, Cota Capital\nZee Wang - Investor, Inventive Capital\nMagne Jul Pedersen - Investor, Exponential VC\nCapri Wheaton - Investor, super{set}\nTessa Osborne - Investor, Plug and Play\nKaran Brar- Founder, hiloop (YC S26)\nMd Shahrier Islam Arham - Founder, Tilion (YC F26)\nAbdul Basit Tonmoy - Founder, Tilion (YC F26)\n\nBerkeley & Stanford\nDevansh Shah - Haas AI Club @ Berkeley\nEmile Shah - President, Girls into VC @ Berkeley\nLisa Collier- Director, Girls into VC @ Berkeley\nRolando Perez, PhD - Senior Scientist, Stanford University\n\nGrab a spot here: https://luma.com/cqedho6j",
+        "commentCount": 5,
+        "datePublished": "2026-11-10T22:12:15.325Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/jefferson-zhou_presentation-sc26-schedule-activity-7527242703261114368-fwDY",
+        "image": null,
+        "media": null,
+        "author": {
+          "url": "https://www.linkedin.com/in/jefferson-zhou",
+          "name": "Jefferson Zhou",
+          "image": "https://media.licdn.com/dms/image/v2/D4E03AQF9MSkDk-LJ-Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1712238607503?e=2147483647&v=beta&t=pY7h4irLGCzsB5Yrf9fSgPi31LJUy86a0Aq4EYR7sto",
+          "followers": 1068
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7527431148377944064",
+            "urn": "urn:li:comment:(urn:li:activity:7527242703261114368,7527431148377944064)",
+            "text": "Congrats! Super impressive guys",
+            "author": "Ryan Cheng",
+            "linkedinUrl": "https://www.linkedin.com/in/ryan-zc",
+            "datePublished": "2026-11-14T18:03:58.682Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7527263797053403136",
+            "urn": "urn:li:comment:(urn:li:activity:7527242703261114368,7527263797053403136)",
+            "text": "Very excited to present this work with you Jefferson, excited for our future paper!",
+            "author": "Zenchang Sun",
+            "linkedinUrl": "https://www.linkedin.com/in/zenchang-sun",
+            "datePublished": "2026-11-14T06:58:59.017Z",
+            "reactionCount": 3,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7527280005312192512",
+            "urn": "urn:li:comment:(urn:li:activity:7527242703261114368,7527280005312192512)",
+            "text": "congrats Zenchang Sun!",
+            "author": "Anish M",
+            "linkedinUrl": "https://www.linkedin.com/in/amhwr",
+            "datePublished": "2026-11-14T08:03:23.366Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7528684117937434624",
+            "urn": "urn:li:comment:(urn:li:activity:7527242703261114368,7528684117937434624)",
+            "text": "Wowzers",
+            "author": "Ethan Xiao",
+            "linkedinUrl": "https://www.linkedin.com/in/etxiao",
+            "datePublished": "2026-11-18T05:02:49.904Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "5d"
+          },
+          {
+            "id": "7527360175385608192",
+            "urn": "urn:li:comment:(urn:li:activity:7527242703261114368,7527360175385608192)",
+            "text": "Congratulations and enjoy the conference! 🎊",
+            "author": "Yu Deng",
+            "linkedinUrl": "https://www.linkedin.com/in/yu-deng-57857551",
+            "datePublished": "2026-11-14T13:21:57.402Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7527365572800569344",
+            "urn": "urn:li:comment:(urn:li:activity:7527242703261114368,7527365572800569344)",
+            "text": "Congratulations, this is amazing!!!",
+            "author": "Arya Datla",
+            "linkedinUrl": "https://www.linkedin.com/in/arya-datla-351396258",
+            "datePublished": "2026-11-14T13:43:24.245Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7528118843295305729",
+            "urn": "urn:li:comment:(urn:li:activity:7527242703261114368,7528118843295305729)",
+            "text": "Congrats!!",
+            "author": "Keya Aggarwal",
+            "linkedinUrl": "https://www.linkedin.com/in/keyaaggarwal",
+            "datePublished": "2026-11-16T15:36:37.927Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "6d"
+          },
+          {
+            "id": "7527782422382370816",
+            "urn": "urn:li:comment:(urn:li:activity:7527242703261114368,7527782422382370816)",
+            "text": "so tuff twin",
+            "author": "Rohan Anne",
+            "linkedinUrl": "https://www.linkedin.com/in/rohan-anne-226b71268",
+            "datePublished": "2026-11-15T17:19:48.931Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7527422676890484736",
+            "urn": "urn:li:comment:(urn:li:activity:7527242703261114368,7527422676890484736)",
+            "text": "Aura",
+            "author": "Justin Roberts",
+            "linkedinUrl": "https://www.linkedin.com/in/jusroberts",
+            "datePublished": "2026-11-14T17:30:18.921Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7527397948062605313",
+            "urn": "urn:li:comment:(urn:li:activity:7527242703261114368,7527397948062605313)",
+            "text": "wooo congrats!!! 👏",
+            "author": "Michelle Zhou",
+            "linkedinUrl": "https://www.linkedin.com/in/michelle-zhou-ai",
+            "datePublished": "2026-11-14T15:52:03.109Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 92,
+        "contentUrn": "urn:li:share:7527242702178914304",
+        "activityUrn": "urn:li:activity:7527242703261114368",
+        "description": "Excited to share that I’ll be attending SC26 (Supercomputing 2026) in Chicago next week, my first academic conference!\n\nI’ll be presenting our poster, \"Sparse Matrix-Vector Multiplication on Cerebras WSE-3,\" alongside Zenchang Sun and Arman Margarian.\n\nOur work explores how to efficiently implement sparse matrix-vector multiplication (SpMV) on the Cerebras Wafer-Scale Engine, leveraging its massively parallel architecture to accelerate sparse computation at scale.\n\nI’m incredibly grateful to Professor Giulia Guidi for her mentorship and guidance throughout this project, and to everyone at the ALPS Research Lab for their support and collaboration.\n\nLooking forward to sharing our work, learning from the HPC community, and making new connections at SC26!\n\nPoster: https://lnkd.in/eDuEUqJm\n\n#SC26 #HPC #Supercomputing #Cerebras",
+        "commentCount": 17,
+        "datePublished": "2026-11-14T05:35:09.862Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/grishinrobotics_claritycare-announced-a-165-million-series-activity-7524535643843051520-kJeq",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQFeiPolVfK9SQ/feedshare-shrink_1280/B4EaGyFS5qGwAM-/0/1793989095339?e=2147483647&v=beta&t=zluNfuO6W4vnOcMSDTE2P0o0_OgxtkUWTSzWJbBudTE",
+        "media": "https://media.licdn.com/dms/image/v2/D4E22AQFeiPolVfK9SQ/feedshare-shrink_1280/B4EaGyFS5qGwAM-/0/1793989095339?e=2147483647&v=beta&t=zluNfuO6W4vnOcMSDTE2P0o0_OgxtkUWTSzWJbBudTE",
+        "author": {
+          "url": "https://www.linkedin.com/company/grishinrobotics",
+          "name": "Grishin Robotics",
+          "image": "https://media.licdn.com/dms/image/v2/C4E0BAQEB5XmLN8pGBw/company-logo_100_100/company-logo_100_100/0/1631334798116?e=2147483647&v=beta&t=lhB602f7hOwtWiGGzj6YwuP-Gn6KhgBw-TBW5YBDdZA",
+          "followers": 46015
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D4E22AQFeiPolVfK9SQ/feedshare-shrink_1280/B4EaGyFS5qGwAM-/0/1793989095339?e=2147483647&v=beta&t=zluNfuO6W4vnOcMSDTE2P0o0_OgxtkUWTSzWJbBudTE"
+        ],
+        "comments": [
+          {
+            "id": "7524827495141978112",
+            "urn": "urn:li:comment:(urn:li:activity:7524535643843051520,7524827495141978112)",
+            "text": "Where is your CMO with extensive prior auth experience? What if any clinical analysis is being done to mitigate prior Auth?",
+            "author": "Jay Locke MD",
+            "linkedinUrl": "https://www.linkedin.com/in/jay-locke-md-8603145",
+            "datePublished": "2026-11-07T13:37:59.376Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7525563984888885249",
+            "urn": "urn:li:comment:(urn:li:activity:7524535643843051520,7525563984888885249)",
+            "text": "Such a game-changing application of AI in healthcare! Tackling administrative inefficiencies and processing prior authorizations securely with an audit trail is a huge win. Congratulations to the entire team at ClarityCare on this funding round!",
+            "author": "FuzionDev LLC",
+            "linkedinUrl": "https://www.linkedin.com/company/fuziondev",
+            "datePublished": "2026-11-09T14:24:32.216Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7524660382225846272",
+            "urn": "urn:li:comment:(urn:li:activity:7524535643843051520,7524660382225846272)",
+            "text": "Exciting to work with this innovative team!",
+            "author": "Cindy Baker",
+            "linkedinUrl": "https://www.linkedin.com/in/cindy-baker-09513525",
+            "datePublished": "2026-11-07T02:33:56.553Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7525629177333567489",
+            "urn": "urn:li:comment:(urn:li:activity:7524535643843051520,7525629177333567489)",
+            "text": "Thanks for the shoutout!! Fax inbox to closed case is the whole game 📠🙌",
+            "author": "Alexandru Andrei",
+            "linkedinUrl": "https://www.linkedin.com/in/andreialexandru98",
+            "datePublished": "2026-11-09T18:43:35.307Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 97,
+        "contentUrn": "urn:li:share:7524535642580533248",
+        "activityUrn": "urn:li:activity:7524535643843051520",
+        "description": "ClarityCare announced a $16.5 million Series A led by Headline.\nIts AI agent, Electra, handles prior authorization paperwork for health plans and can approve or escalate requests for human review.\n\nA request may start in a fax inbox, pass through a clinical review queue, and end with a letter to a provider. ClarityCare says Electra can now create cases in a health plan’s utilization management system and send letters and faxes to close them. It checks clinical guidelines and member benefits, keeps an audit trail, and leaves denials to human reviewers.\n\nClarityCare AI plans to use the funding to grow its team, build new products, and expand its work in government healthcare. As Electra takes on more of the workflow, one measure of progress will be how quickly the hard cases reach a clinician with the information needed to make a decision.\n\nQuick facts👇\n● founders: Hermine T.; Alexandru Andrei\n● total capital raised: nearly $20 million\n● HQ: San Francisco, California\n● Investors: Headline; Arthur Ventures; FJ Labs; Maverick Ventures; firstminute capital; Top Harvest Capital; Transpose Platform; Entrepreneurs First",
+        "commentCount": 4,
+        "datePublished": "2026-11-06T18:18:16.603Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/alexanderharstrick_dualuse-activity-7524912525059227648-NmG9",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQHqgpcoNcIz7A/feedshare-shrink_800/B56aG3cENBIQAg-/0/1794078950505?e=2147483647&v=beta&t=iJqN833usJ9rc7SbWJQ5wjBUOKNgfBqDxEj4zHzk2QE",
+        "media": "https://media.licdn.com/dms/image/v2/D5622AQHqgpcoNcIz7A/feedshare-shrink_800/B56aG3cENBIQAg-/0/1794078950505?e=2147483647&v=beta&t=iJqN833usJ9rc7SbWJQ5wjBUOKNgfBqDxEj4zHzk2QE",
+        "author": {
+          "url": "https://www.linkedin.com/in/alexanderharstrick",
+          "name": "Alexander Harstrick",
+          "image": "https://media.licdn.com/dms/image/v2/D4E03AQHCuKzlSTLy0g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1719958834005?e=2147483647&v=beta&t=j3fQmQKjF8SX2cpz1mKBgrWdPkSNVVfHGvLjrcXRQ4Y",
+          "followers": 10743
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D5622AQHqgpcoNcIz7A/feedshare-shrink_800/B56aG3cENBIQAg-/0/1794078950505?e=2147483647&v=beta&t=iJqN833usJ9rc7SbWJQ5wjBUOKNgfBqDxEj4zHzk2QE"
+        ],
+        "comments": [
+          {
+            "id": "7524914918677041152",
+            "urn": "urn:li:comment:(urn:li:activity:7524912525059227648,7524914918677041152)",
+            "text": "You already dipped out?",
+            "author": "Andrew Bartholomew",
+            "linkedinUrl": "https://www.linkedin.com/in/andrewnbartholomew",
+            "datePublished": "2026-11-07T19:25:22.771Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7524981420918870016",
+            "urn": "urn:li:comment:(urn:li:activity:7524912525059227648,7524981420918870016)",
+            "text": "Great seeing you there",
+            "author": "Doug Walsh",
+            "linkedinUrl": "https://www.linkedin.com/in/douglas-walsh",
+            "datePublished": "2026-11-07T23:49:38.142Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7524936843180818432",
+            "urn": "urn:li:comment:(urn:li:activity:7524912525059227648,7524936843180818432)",
+            "text": "Im sure she had the best idea for hackathon 😂",
+            "author": "Gabriela Veloz",
+            "linkedinUrl": "https://www.linkedin.com/in/gveloz",
+            "datePublished": "2026-11-07T20:52:29.981Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2w"
+          }
+        ],
+        "likeCount": 128,
+        "contentUrn": "urn:li:share:7524912523700097026",
+        "activityUrn": "urn:li:activity:7524912525059227648",
+        "description": "Amazing dropping by the Code Metal x USSOCOM hackathon this weekend!\n\nThe developer community cross pollinating with the military is a delicate balance only a company of Codemetal’s caliber could pull off so consistently and it was amazing to see the entire floor of the building packed with #dualuse’s best and brightest.\n\nThis is how generational platforms get built.\n\nWell done team Code Metal!",
+        "commentCount": 4,
+        "datePublished": "2026-11-07T19:15:52.087Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/diegooberto_pinterest-seattle-activity-7525623412996653056-uZWi",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQGAYj0CLdnGCA/feedshare-shrink_800/B4EaHBinXmIgAg-/0/1794248439532?e=2147483647&v=beta&t=_I-uP5134rGmV_y8nBFpHfP70EWfCyYsz1STudHuG-o",
+        "media": "https://media.licdn.com/dms/image/v2/D4E22AQGAYj0CLdnGCA/feedshare-shrink_800/B4EaHBinXmIgAg-/0/1794248439532?e=2147483647&v=beta&t=_I-uP5134rGmV_y8nBFpHfP70EWfCyYsz1STudHuG-o",
+        "author": {
+          "url": "https://www.linkedin.com/in/diegooberto",
+          "name": "Diego Oberto",
+          "image": "https://media.licdn.com/dms/image/v2/D4E03AQEtkcCLozTlGw/profile-displayphoto-scale_200_200/B4EZ.v1uQ3JIAc-/0/1785361524296?e=2147483647&v=beta&t=HuNrkTuolxVZPACRTHiD1Z8NP2aF9uXQT7Qd2naWIGg",
+          "followers": 804
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D4E22AQGAYj0CLdnGCA/feedshare-shrink_800/B4EaHBinXmIgAg-/0/1794248439532?e=2147483647&v=beta&t=_I-uP5134rGmV_y8nBFpHfP70EWfCyYsz1STudHuG-o"
+        ],
+        "comments": [
+          {
+            "id": "7526006924040044544",
+            "urn": "urn:li:comment:(urn:li:activity:7525623412996653056,7526006924040044544)",
+            "text": "Diego! Were so excited for you to be joining us!",
+            "author": "Jennifer Clerici",
+            "linkedinUrl": "https://www.linkedin.com/in/jennifer-clerici-bb852532",
+            "datePublished": "2026-11-10T19:44:37.139Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7525746086418903040",
+            "urn": "urn:li:comment:(urn:li:activity:7525623412996653056,7525746086418903040)",
+            "text": "Congratulations man , Welcome to the Pin family 🙏🔥🔥🔥",
+            "author": "Lovinson Dieujuste",
+            "linkedinUrl": "https://www.linkedin.com/in/lovinson-dieujuste",
+            "datePublished": "2026-11-10T02:28:08.604Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7525641718029860866",
+            "urn": "urn:li:comment:(urn:li:activity:7525623412996653056,7525641718029860866)",
+            "text": "Congratulations!! The hard work paid of 👏🏾",
+            "author": "James Williams",
+            "linkedinUrl": "https://www.linkedin.com/in/james-williamsiv",
+            "datePublished": "2026-11-09T19:33:25.241Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7525755416413155328",
+            "urn": "urn:li:comment:(urn:li:activity:7525623412996653056,7525755416413155328)",
+            "text": "Seattle for summer 2027, that's a big one. what kind of work are you hoping to get into there?",
+            "author": "Ismaila Ahmed",
+            "linkedinUrl": "https://www.linkedin.com/in/ismaila-ahmed-8066b9272",
+            "datePublished": "2026-11-10T03:05:13.048Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7525628469695791105",
+            "urn": "urn:li:comment:(urn:li:activity:7525623412996653056,7525628469695791105)",
+            "text": "Let’s goooo, congratulations Diego!",
+            "author": "Bhagyesh Jethwani",
+            "linkedinUrl": "https://www.linkedin.com/in/bhagyeshjethwani",
+            "datePublished": "2026-11-09T18:40:46.592Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7525651079045234688",
+            "urn": "urn:li:comment:(urn:li:activity:7525623412996653056,7525651079045234688)",
+            "text": "Congrats!",
+            "author": "Anushka Ghugari",
+            "linkedinUrl": "https://www.linkedin.com/in/anushka-ghugari",
+            "datePublished": "2026-11-09T20:10:37.081Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7525685697333227520",
+            "urn": "urn:li:comment:(urn:li:activity:7525623412996653056,7525685697333227520)",
+            "text": "Congrats Diego!",
+            "author": "Anneliz Border-Rodriguez",
+            "linkedinUrl": "https://www.linkedin.com/in/anneliz-border",
+            "datePublished": "2026-11-09T22:28:10.724Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7525636218987118592",
+            "urn": "urn:li:comment:(urn:li:activity:7525623412996653056,7525636218987118592)",
+            "text": "Congrats!!",
+            "author": "Nicole Bustos",
+            "linkedinUrl": "https://www.linkedin.com/in/nicolebustos",
+            "datePublished": "2026-11-09T19:11:34.167Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7525624599338717186",
+            "urn": "urn:li:comment:(urn:li:activity:7525623412996653056,7525624599338717186)",
+            "text": "Congrats!!! Excited to see you again in Seattle!",
+            "author": "Palash Patel",
+            "linkedinUrl": "https://www.linkedin.com/in/palash-patel-1b001a210",
+            "datePublished": "2026-11-09T18:25:23.827Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 208,
+        "contentUrn": "urn:li:share:7525623411532824577",
+        "activityUrn": "urn:li:activity:7525623412996653056",
+        "description": "I'm excited to share that I've accepted an offer to join Pinterest as a Software Engineer Intern in San Francisco for Summer 2027! 📌\n\nI'm incredibly grateful for this opportunity and can't wait to learn from talented engineers, work on impactful projects, and continue growing both personally and professionally.\nA huge thank you to my recruiter, Jennifer Clerici, for her support and guidance throughout the recruiting process!\n\nLooking forward to an amazing summer in Seattle! 🚀\n#Pinterest #Seattle",
+        "commentCount": 33,
+        "datePublished": "2026-11-09T18:20:40.979Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/smaran-kudapa_yc-hackathon-naive-activity-7525390691540156416-0ABo",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQGikm6wBUFjmg/feedshare-shrink_1280/B56aG.O9QuH4AI-/0/1794192954657?e=2147483647&v=beta&t=Xum69y5MRg89x1mCtajce_DDbMWLJNuhsHc7HAnwETU",
+        "media": "https://media.licdn.com/dms/image/v2/D5622AQGikm6wBUFjmg/feedshare-shrink_1280/B56aG.O9QuH4AI-/0/1794192954657?e=2147483647&v=beta&t=Xum69y5MRg89x1mCtajce_DDbMWLJNuhsHc7HAnwETU",
+        "author": {
+          "url": "https://www.linkedin.com/in/smaran-kudapa",
+          "name": "Smaran Kudapa",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQFt1E0MhlKRow/profile-displayphoto-scale_200_200/B56aGKOiGEJYAg-/0/1793320428148?e=2147483647&v=beta&t=ows7MCryPjeRKwNQnPjEgt2RrG-wIjVexMLWtqK77Qs",
+          "followers": 554
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D5622AQGikm6wBUFjmg/feedshare-shrink_1280/B56aG.O9QuH4AI-/0/1794192954657?e=2147483647&v=beta&t=Xum69y5MRg89x1mCtajce_DDbMWLJNuhsHc7HAnwETU"
+        ],
+        "comments": [
+          {
+            "id": "7525679070911643648",
+            "urn": "urn:li:comment:(urn:li:activity:7525390691540156416,7525679070911643648)",
+            "text": "Amazing and very insightful and thoughtful for solving world problems, one at a time. Kudos Smaran Kudapa and everyone involved. Extremely happy to read this article and innovation at such a young age. Good luck with everything!",
+            "author": "Ranveer Ambati",
+            "linkedinUrl": "https://www.linkedin.com/in/ranveer-ambati-b21a326",
+            "datePublished": "2026-11-09T22:01:50.861Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7525391240511750144",
+            "urn": "urn:li:comment:(urn:li:activity:7525390691540156416,7525391240511750144)",
+            "text": "Amazing ✨✨ work 👨🚒🔥",
+            "author": "Tarang Goyal",
+            "linkedinUrl": "https://www.linkedin.com/in/tarang-goyal",
+            "datePublished": null,
+            "reactionCount": null,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7525441166138400768",
+            "urn": "urn:li:comment:(urn:li:activity:7525390691540156416,7525441166138400768)",
+            "text": "Contracts!",
+            "author": "Atul Modur",
+            "linkedinUrl": "https://www.linkedin.com/in/atul-modur",
+            "datePublished": "2026-11-09T06:16:29.943Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7525393245665710080",
+            "urn": "urn:li:comment:(urn:li:activity:7525390691540156416,7525393245665710080)",
+            "text": "🚀",
+            "author": "Nayel Rehman",
+            "linkedinUrl": "https://www.linkedin.com/in/nayelrehman",
+            "datePublished": "2026-11-09T03:06:04.813Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7525414422668963840",
+            "urn": "urn:li:comment:(urn:li:activity:7525390691540156416,7525414422668963840)",
+            "text": "Great job, Smaran!",
+            "author": "Nikhil Krishna",
+            "linkedinUrl": "https://www.linkedin.com/in/nikhil-rao-krishna",
+            "datePublished": "2026-11-09T04:30:13.804Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7525392152978149376",
+            "urn": "urn:li:comment:(urn:li:activity:7525390691540156416,7525392152978149376)",
+            "text": "More to come!",
+            "author": "Nick Dev",
+            "linkedinUrl": "https://www.linkedin.com/in/nickdev1",
+            "datePublished": "2026-11-09T03:01:44.296Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7525393466793693184",
+            "urn": "urn:li:comment:(urn:li:activity:7525390691540156416,7525393466793693184)",
+            "text": "Amazing project, Smaran!",
+            "author": "Neil Ramesh",
+            "linkedinUrl": "https://www.linkedin.com/in/neil-ramesh-9b464b358",
+            "datePublished": "2026-11-09T03:06:57.533Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7525441754498666496",
+            "urn": "urn:li:comment:(urn:li:activity:7525390691540156416,7525441754498666496)",
+            "text": "Interesting work Smaran. Can’t wait to see what you will do in the future.",
+            "author": "Sampath K Gopisetty",
+            "linkedinUrl": "https://www.linkedin.com/in/sampath-k-gopisetty",
+            "datePublished": "2026-11-09T06:18:50.220Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7525414655209529344",
+            "urn": "urn:li:comment:(urn:li:activity:7525390691540156416,7525414655209529344)",
+            "text": "Congrats for 4 th place , great achievement, almost there",
+            "author": "sairam kudapa",
+            "linkedinUrl": "https://www.linkedin.com/in/sairam-kudapa-14381a8",
+            "datePublished": "2026-11-09T04:31:09.245Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7525465866290003970",
+            "urn": "urn:li:comment:(urn:li:activity:7525390691540156416,7525465866290003970)",
+            "text": "Amazing work!",
+            "author": "Nived Nandakumar",
+            "linkedinUrl": "https://www.linkedin.com/in/nivednandakumar",
+            "datePublished": "2026-11-09T07:54:38.919Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 108,
+        "contentUrn": "urn:li:share:7525390688159662080",
+        "activityUrn": "urn:li:activity:7525390691540156416",
+        "description": "We placed 4th at the YC x Naïve Hackathon and created Claim OS, a fully autonomous company that appeals homeowners property taxes for them.\n\nView our demo here: https://lnkd.in/g8k5MXMd\n\nComing from the DMV, we've noticed that although many homeowners' properties are over assessed, very few (<5%) appeal. The appeal process is tedious and can be expensive to hire human tax agents, so many people put it off and overpay.\n\nThe challenge of the hackathon was to build a company that runs entirely on AI agents, using Naïve. So, we built Claim OS to file property tax appeals for homeowners, run entirely by agents.\n\nAs my first hackathon, this was an incredibly fun event. Great working with my teammates Nick Dev, Francesco Rosciano, and Tarang Goyal and thank you to Y Combinator, Naïve, AgentMail (YC S25), and Monid for making this event possible and for the credits!\n\nComment your feedback and thoughts!\n\n#yc #hackathon #naive",
+        "commentCount": 47,
+        "datePublished": "2026-11-09T02:55:55.859Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/codewithjha_mutiny-opensource-aiagents-activity-7519666257248559104-TP5u",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQGHijU507Q9LA/feedshare-shrink_800/B56aFs4nRqJYAk-/0/1792828142936?e=2147483647&v=beta&t=czZhKfWBO42rb8oB6pbLZyQI2xKtQKAApeJ29TWobOM",
+        "media": "https://media.licdn.com/dms/image/v2/D5622AQGHijU507Q9LA/feedshare-shrink_800/B56aFs4nRqJYAk-/0/1792828142936?e=2147483647&v=beta&t=czZhKfWBO42rb8oB6pbLZyQI2xKtQKAApeJ29TWobOM",
+        "author": {
+          "url": "https://in.linkedin.com/in/codewithjha",
+          "name": "Priyanshu Jha",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQG74kOlquaCZg/profile-displayphoto-scale_200_200/B56aBCzE4YHUAc-/0/1787827084009?e=2147483647&v=beta&t=0cVMdJjU96XCOLxBZ6RsadJYzBjSt6KUVWHVxXNqjoE",
+          "followers": 1137
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D5622AQGHijU507Q9LA/feedshare-shrink_800/B56aFs4nRqJYAk-/0/1792828142936?e=2147483647&v=beta&t=czZhKfWBO42rb8oB6pbLZyQI2xKtQKAApeJ29TWobOM"
+        ],
+        "comments": [
+          {
+            "id": "7519734238280159232",
+            "urn": "urn:li:comment:(urn:li:activity:7519666257248559104,7519734238280159232)",
+            "text": "Congrats! 🙌",
+            "author": "Cristian-George Farauanu",
+            "linkedinUrl": "https://ro.linkedin.com/in/george-farauanu",
+            "datePublished": "2026-10-24T12:19:12.313Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "4w"
+          }
+        ],
+        "likeCount": 13,
+        "contentUrn": "urn:li:share:7519666255713452032",
+        "activityUrn": "urn:li:activity:7519666257248559104",
+        "description": "🏆 𝗙𝗿𝗼𝗺 𝗮𝗻 𝗶𝗱𝗲𝗮 𝘁𝗼 𝟭𝘀𝘁 𝗣𝗹𝗮𝗰𝗲 𝗢𝘃𝗲𝗿𝗮𝗹𝗹 𝗮𝘁 𝗜𝗿𝗶𝘀 𝗛𝗮𝗰𝗸𝘀 𝗜𝗩. Here’s the story of 𝗠𝘂𝘁𝗶𝗻𝘆.\n\nHackathons have a funny way of turning one uncomfortable question into something real.\n\nOurs was simple:\n𝗪𝗵𝗮𝘁 𝗶𝗳 𝗮𝗻 𝗔𝗜 𝗮𝗴𝗲𝗻𝘁 𝗽𝗿𝗼𝗺𝗶𝘀𝗲𝘀 𝘁𝗼 𝗳𝗼𝗹𝗹𝗼𝘄 𝘁𝗵𝗲 𝗿𝘂𝗹𝗲𝘀 𝗯𝘂𝘁 𝗯𝗿𝗲𝗮𝗸𝘀 𝘁𝗵𝗲𝗺 𝘁𝗵𝗲 𝗺𝗼𝗺𝗲𝗻𝘁 𝘀𝗼𝗺𝗲𝗼𝗻𝗲 𝗳𝗶𝗻𝗱𝘀 𝘁𝗵𝗲 𝗿𝗶𝗴𝗵𝘁 𝗹𝗼𝗼𝗽𝗵𝗼𝗹𝗲?\n\nImagine an AI agent issuing an $850 refund without approval. Its response might sound perfectly reasonable but the action itself is a serious failure.\n\nWe decided to build something that could 𝗰𝗮𝘁𝗰𝗵 𝘁𝗵𝗮𝘁 𝗳𝗮𝗶𝗹𝘂𝗿𝗲, 𝗽𝗿𝗼𝘃𝗲 𝗶𝘁 𝗵𝗮𝗽𝗽𝗲𝗻𝗲𝗱 𝗮𝗻𝗱 𝗺𝗮𝗸𝗲 𝘀𝘂𝗿𝗲 𝗶𝘁 𝗱𝗼𝗲𝘀𝗻'𝘁 𝘀𝗶𝗹𝗲𝗻𝘁𝗹𝘆 𝗿𝗲𝘁𝘂𝗿𝗻.\n\nThat became 𝗠𝘂𝘁𝗶𝗻𝘆, an open-source behavioral fuzz-testing engine for AI agents.\n\n🔍 𝗪𝗵𝗮𝘁 𝗱𝗶𝗱 𝘄𝗲 𝗯𝘂𝗶𝗹𝗱?\n• Automated adversarial conversations to uncover unsafe agent behavior.\n• Deterministic policy checks against actual tool calls not just generated text.\n• Minimal, reproducible failure cases saved as regression tests.\n• A Python CLI and an OpenAI Agents SDK integration to help developers test their own agents.\n\nThe workflow: 𝗙𝗶𝗻𝗱 𝘁𝗵𝗲 𝘃𝗶𝗼𝗹𝗮𝘁𝗶𝗼𝗻 → 𝗣𝗿𝗼𝘃𝗲 𝗶𝘁 → 𝗙𝗶𝘅 𝗶𝘁 → 𝗣𝗿𝗲𝘃𝗲𝗻𝘁 𝗿𝗲𝗴𝗿𝗲𝘀𝘀𝗶𝗼𝗻𝘀.\n\nAnd the result?\n🥇 𝟭𝘀𝘁 𝗣𝗹𝗮𝗰𝗲 𝗢𝘃𝗲𝗿𝗮𝗹𝗹 𝗮𝘁 𝗜𝗿𝗶𝘀 𝗛𝗮𝗰𝗸𝘀 𝗜𝗩!\n\nBut the win is only one milestone. We're building Mutiny into something developers can actually use, extend and improve together.\n\n💻 𝗘𝘅𝗽𝗹𝗼𝗿𝗲 𝘁𝗵𝗲 𝗽𝗿𝗼𝗷𝗲𝗰𝘁:\n🔗 GitHub: https://lnkd.in/g-_R9Ci2\n\n🏆 Winning submission: https://lnkd.in/gRghWnz3\n\n📦 Install: https://lnkd.in/gWbJsP3p\n\nThe repository already has 𝟭𝟬+ 𝗰𝗼𝗻𝘁𝗿𝗶𝗯𝘂𝘁𝗼𝗿𝘀, and we're open to more!\n\nIf you're into Python, AI agents, backend engineering, testing or open source, check out our issues and contribute.\n\nBecause AI safety shouldn't depend on an agent simply saying, “Trust me, I followed the rules.” 😅\n\n𝗟𝗲𝘁'𝘀 𝗯𝘂𝗶𝗹𝗱 𝘀𝘆𝘀𝘁𝗲𝗺𝘀 𝘁𝗵𝗮𝘁 𝗰𝗮𝗻 𝗽𝗿𝗼𝘃𝗲 𝗶𝘁.\n\n𝗔 𝘀𝗽𝗲𝗰𝗶𝗮𝗹 𝘁𝗵𝗮𝗻𝗸 𝘆𝗼𝘂 to Iris Hacks for organizing the hackathon and Featherless AI for supporting the event with AI credits.\n\n#Mutiny #OpenSource #AIAgents #AISafety #Python #Hackathon",
+        "commentCount": 2,
+        "datePublished": "2026-10-24T07:49:04.370Z"
+      }
+    ],
+    "query": "multi-agent hackathon winner 3D agents game",
+    "cursor": "2",
+    "success": true
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00188",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:30:13.958Z",
+  "started_at": "2026-11-23T07:30:14.255Z",
+  "completed_at": "2026-11-23T07:30:22.198Z",
+  "task_id": "tsk_a2399d9b5d5fefae",
+  "metadata": {}
+}

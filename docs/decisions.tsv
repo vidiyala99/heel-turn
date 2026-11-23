@@ -7,3 +7,6 @@ ts	phase	decision	why	evidence	result
 2026-11-22T23:30	ground	Judge form = 5 equal criteria + invest leaderboard; musts are a gate; submit early	Read from site data JS and submission bundle	prep/event-site.md:35-92	VERIFIED (form may be platform default)
 2026-11-22T23:30	ground	Sponsor signals via Glasser ($0.18)	What each sponsor is pushing this week	prep/sponsor-signals.md; prep/glasser/	VERIFIED
 2026-11-22T23:32	design	Keep A; add Impact pitch, Bruin inference asset, BAND cognee memory, Runware directed TTS, early submit	Re-scored against real rubric and signals; no second arena (settled design)	docs/PLAN.md	open
+2026-11-22T23:40	ground	Mary Celeste mechanic is a Telem cliche (verify quotes in 3D)	SearchHack gallery dominated by claim verification	prep/winner-signals.md	VERIFIED
+2026-11-22T23:42	design	Premise failed (uniqueness); arena round 2 with real rubric + signals + cliche list; candidate C Continuity	pstack attack-the-premise; figure-it-out ground then commit	docs/arena/round2-*	open
+2026-11-22T23:45	ground	Scrape past wins (LinkedIn, Devpost, X) via Glasser, budget $3	Aakash asked; feeds the round-2 judge	prep/wins-scraped.md	open

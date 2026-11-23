@@ -1,0 +1,204 @@
+{
+  "id": "6fa2c076-f236-419a-8402-ef2d616a3e98",
+  "run_url": "https://app.glasser.ai/runs/6fa2c076-f236-419a-8402-ef2d616a3e98",
+  "provider": "scrapecreators",
+  "endpoint": "/v1/linkedin/search/posts",
+  "endpoint_version": 4,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "query": "AWS Builder Loft hackathon won first place agents",
+    "date_posted": "last-month"
+  },
+  "output": {
+    "posts": [
+      {
+        "url": "https://www.linkedin.com/posts/emresimdi_another-week-and-another-update-on-a-fast-activity-7526871544950624257-HrK8",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQEAVSZIYmbJ8w/feedshare-image-high-res/B4EaHSmw1DI0AQ-/0/1794534740540?e=2147483647&v=beta&t=__wex7VFleucTvzxGkpTJe9hXbPHkRJ7MKokiZUn2Yo",
+        "media": "https://media.licdn.com/dms/image/v2/D4E22AQEAVSZIYmbJ8w/feedshare-image-high-res/B4EaHSmw1DI0AQ-/0/1794534740540?e=2147483647&v=beta&t=__wex7VFleucTvzxGkpTJe9hXbPHkRJ7MKokiZUn2Yo",
+        "author": {
+          "url": "https://www.linkedin.com/in/emresimdi",
+          "name": "Emre Simdi",
+          "image": "https://media.licdn.com/dms/image/v2/C4D03AQHVUcu6bE1FiA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1658738519165?e=2147483647&v=beta&t=R6HYE-yxWa-sS0fee2iSuiCmaTTT7QMQMkCP14KKKcw",
+          "followers": 37945
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D4E22AQEAVSZIYmbJ8w/feedshare-image-high-res/B4EaHSmw1DI0AQ-/0/1794534740540?e=2147483647&v=beta&t=__wex7VFleucTvzxGkpTJe9hXbPHkRJ7MKokiZUn2Yo"
+        ],
+        "comments": [
+          {
+            "id": "7526876435819610112",
+            "urn": "urn:li:comment:(urn:li:activity:7526871544950624257,7526876435819610112)",
+            "text": "I don't think trainings are old-fashioned - we launched a well-received training program for 23k+ employees and combined it with hands-on exercises. It's needed for getting everyone aligned on the foundations. I do agree though that training alone isn't enough",
+            "author": "Grishma Jena",
+            "linkedinUrl": "https://www.linkedin.com/in/grishmajena",
+            "datePublished": "2026-11-13T05:19:44.902Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526893835185115136",
+            "urn": "urn:li:comment:(urn:li:activity:7526871544950624257,7526893835185115136)",
+            "text": "Love this! Creating workflows is an interesting challenge because often they need to be scalable and fungible to be truly effective in this environment. I always encourage others to work backwards from the outcomes they are trying to achieve.",
+            "author": "Devin Johnson",
+            "linkedinUrl": "https://www.linkedin.com/in/devin1",
+            "datePublished": "2026-11-13T06:28:53.233Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526906778882637824",
+            "urn": "urn:li:comment:(urn:li:activity:7526871544950624257,7526906778882637824)",
+            "text": "What a fun evening with thoughtful conversation and unforgettable Turkish food and wine! Thank you for the invite and getting my wheels turning with some new friends. We’re building the future, one set of behavior changes at a time.",
+            "author": "Kalia Waits-Smith ⛸️",
+            "linkedinUrl": "https://www.linkedin.com/in/kalia-waits-smith",
+            "datePublished": "2026-11-13T07:20:19.252Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7527221918366793728",
+            "urn": "urn:li:comment:(urn:li:activity:7526871544950624257,7527221918366793728)",
+            "text": "I like that the biggest takeaway was how people discover useful workflows by trying things themselves. The point about leaders being far from day to day work really rings true.",
+            "author": "Jahid Sajon",
+            "linkedinUrl": "https://my.linkedin.com/in/jahidsajon",
+            "datePublished": "2026-11-14T04:12:34.359Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 52,
+        "contentUrn": "urn:li:share:7526824245453135872",
+        "activityUrn": "urn:li:activity:7526871544950624257",
+        "description": "Another week and another update on a fast startup life:\nWe hosted our first dinner in San Francisco! On AI adoption!\nLeaders from Lyft, TaskRabbit, Freshworks, Abridge and others joined!\n\nSo what did we hear?\n\n1. Most leaders come up with AI workflows by experimenting themselves! They think ‘imagination’ is the key skill.\n\n2. Leaders can be far away from the ‘day to day work’ which makes it hard for them to identify and build useful AI workflows.\n\n3. Trainings are old fashioned, and it is not working for AI.\n\n4. There is a serious expectation for the new hires to be AI native from day one! Not an easy task to fulfill!\n\n5. Being ‘mostly accurate’ for an AI tool is not enough for regulated industries which really hinders the adoption.\n\n6. And unfortunately… the fear of being left behind and be replaced by AI... \n\nI picked a Turkish restaurant, so there was plenty of cultural chat among the AI chat :)\n\nWell, what are your takes on these?\n\nHow do you come up with AI workflows for your team? Do you ask Claude?\n\nIf you are looking for a job, how do you feel about the ‘AI native’ request?…\n\nWhat do you think is the best way to train on AI?\n\nAnd… if you are interested joining the next AI adoption dinner, we’re currently planning for big cities in the US, please DM me!\n\n--\nThank you for your time and presense! Alisa Liebowitz Chris Lambert Kanishka Thakur Kalia Waits-Smith ⛸️ Dilek Barlow Gurtej Gill Bethel Zelalem, MSOD, PMP Kevin Law Sameer Shariff",
+        "commentCount": 7,
+        "datePublished": "2026-11-13T05:00:18.826Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/misslers_on-monday-im-judging-the-multiplayer-ai-activity-7529619981584596993-fxER",
+        "image": "https://media.licdn.com/dms/image/v2/D4E10AQEKwrjptTcmvQ/image-shrink_1280/B4EaH6VZofJwAg-/0/1795201276898?e=2147483647&v=beta&t=2Cisdb3InLfsaWFJY5g0xGje5RuceV-ru48reoJR3k0",
+        "media": "https://media.licdn.com/dms/image/v2/D4E10AQEKwrjptTcmvQ/image-shrink_1280/B4EaH6VZofJwAg-/0/1795201276898?e=2147483647&v=beta&t=2Cisdb3InLfsaWFJY5g0xGje5RuceV-ru48reoJR3k0",
+        "author": {
+          "url": "https://www.linkedin.com/in/misslers",
+          "name": "Merve Isler",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQHcSZm3dbhRPQ/profile-displayphoto-scale_200_200/B56aGeYlmkIkAc-/0/1793658610097?e=2147483647&v=beta&t=o4esBsM3h822yJyhOQd8PNMWrIr97gkUrccm4EMbC98",
+          "followers": 20962
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D4E10AQEKwrjptTcmvQ/image-shrink_1280/B4EaH6VZofJwAg-/0/1795201276898?e=2147483647&v=beta&t=2Cisdb3InLfsaWFJY5g0xGje5RuceV-ru48reoJR3k0"
+        ],
+        "comments": [
+          {
+            "id": "7529619983375663105",
+            "urn": "urn:li:comment:(urn:li:activity:7529619981584596993,7529619983375663105)",
+            "text": "Join us here: luma.com/finch-jd7i",
+            "author": "Merve Isler",
+            "linkedinUrl": "https://www.linkedin.com/in/misslers",
+            "datePublished": "2026-11-20T19:01:37.612Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2d"
+          },
+          {
+            "id": "7529704925472313344",
+            "urn": "urn:li:comment:(urn:li:activity:7529619981584596993,7529704925472313344)",
+            "text": "Franklyn, thank you!! Hope we get to say hi.",
+            "author": "Merve Isler",
+            "linkedinUrl": "https://www.linkedin.com/in/misslers",
+            "datePublished": "2026-11-21T00:39:09.386Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2d"
+          },
+          {
+            "id": "7529628603337129984",
+            "urn": "urn:li:comment:(urn:li:activity:7529619981584596993,7529628603337129984)",
+            "text": "See you there, last time I could not say hi...",
+            "author": "Franklyn Rosario, MBA-ITM",
+            "linkedinUrl": "https://www.linkedin.com/in/franklynrosario",
+            "datePublished": "2026-11-20T19:35:52.771Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2d"
+          }
+        ],
+        "likeCount": 19,
+        "contentUrn": "urn:li:share:7529619980217171969",
+        "activityUrn": "urn:li:activity:7529619981584596993",
+        "description": "On Monday I’m judging the Multiplayer AI Hackathon in San Francisco.\n\nTeams will spend the day building AI agents that act like living characters, across three tracks: animated films, co-op games, and growing with agents.\n\nThank you to Crewbase Collective, AdaL and the AWS Builder Loft for having me. Happy that Marvelous is a partner on this one too.\n\nCan’t wait to see what you build. Link in the first comment.",
+        "commentCount": 3,
+        "datePublished": "2026-11-20T19:01:37.183Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/ayushgawai_howiswitch-aiagents-developertools-activity-7525119273862737920-ExfC",
+        "name": "#howiswitch #aiagents #developertools #softwareengineering | Ayush Gawai",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5605AQFuwk9FvATgZQ/mp4-720p-30fp-crf28/B56aG6X_SRJQB8-/0/1794128230474?e=2147483647&v=beta&t=7wT8AfWcPwFZLaGch3iQJMLw3CUmXXH2cjS0Vk9NRUY",
+        "author": {
+          "url": "https://www.linkedin.com/in/ayushgawai",
+          "name": "Ayush Gawai",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQFM4-V4jZwTfw/profile-displayphoto-scale_200_200/B56Zyh8wDJKAAY-/0/1772243587980?e=2147483647&v=beta&t=jL358gOoHcJZl20h3Bt1Mour8-l0C-Z63P7aincACs0",
+          "followers": 3693
+        },
+        "images": [],
+        "comments": [],
+        "likeCount": 20,
+        "contentUrn": "urn:li:ugcPost:7525119141075271680",
+        "transcript": "Every data team has shipped a change that silently broke someone else. One engineer renames a column and asks, Does this break anyone? No replies. 3 teams find out in production. Blast Radius gives every downstream repo an AI agent in team chat. Each agent tests the change in its own repo, files a JIRA ticket, and opens the fix PR. The upstream merge waits for every owner. Here's how it works. The upstream PR is announced in schema changes where a coordinator agent picks it up. Switch room links say three team rooms depend on IT, analytics, ML features and dashboards, each with its own agent. One mentioned fans out to all three. They filed JIRA tickets and open fix PR's, and the coordinator holds a blast radius check on the upstream PR. It all runs on switch rooms, room links, rolls, references, room documents, aliases, and one template. The agents run on Claude code, open AI Codex, and open code wired to Slack, Jira and GitHub. Here's a real run. Four agents on three providers, all set up and switch console with roles and aliases confirmed right in Slack upstream. One line changes user ID becomes account ID I dictate. Heads up with whisper flow and tag the coordinator. The coordinator names the three rooms that depend on schema changes and calls every impact checker. Each agent starts its own session. Each agent runs make test in the repo it speaks for. Two DBT models fail, 2 ML feature tests fail, 2 dashboard queries fail, 6 breakages and three repos. Every breakage gets a JIRA ticket and a fixed PR with passing tests posted in its team room. The upstream PR stays blocked. Manav tries to approve the dashboards fix. He isn't the owner, so Switch refuses him. That's enforced by Switch, not by a prompt Ayushmann's dashboard, so he approves it. Manav owns the DBT and ML repos and approves those. Each bot records the approval on its PR in Jira ticket and moves the ticket to Done. The coordinator keeps the impact report in a room document. Once every owner has approved, the blast radius check turns green. These agents can push branches and open PR's, so who may instruct each one as a switch access setting, not a prompt. Sensitive agents or owner only and every approval is on the record. One line change, four agents, 3 providers, 6 breakages, 3 JIRA tickets, three fixed PR's, 3 owner approvals, blast radius. Know what your schema change breaks before you merge it.",
+        "uploadDate": "2026-11-08T08:57:24.844Z",
+        "activityUrn": "urn:li:activity:7525119273862737920",
+        "description": "Your PR passes CI. But what breaks for the next team?\n\nWe built Blast Radius to catch that impact before a change merges.\n\nA schema rename in one repository can break analytics, ML pipelines, or dashboards owned by another team. The hard part is often finding who is affected and coordinating the fixes.\n\nBlast Radius brings that work into team chat.\n\nBuilt on Switch AI, it gives connected downstream repositories an AI agent that can test a proposed upstream change, report concrete failures, create Jira tickets, and open fix PRs for review.\n\nA coordinator pulls the findings together, tracks owners and approvals, and keeps the upstream check pending until the affected owners approve.\n\nTeams get test evidence and a clear path to a fix before merging. People review the proposed changes and make the final approval decisions.\n\nThe video walks through the workflow using a schema rename. It shows how coding agents can help teams investigate the impact of a change and coordinate fixes across repositories.\n\nBuilt for the Flip the Switch hackathon, hosted by WeMakeDevs and DevTools Academy | Developer Marketing Agency. A big thank you to my teammate Manav Patel for all the support along the way.\n\nI’m looking for software engineering and AI engineering opportunities in developer tools, data platforms, Machine Learning, Robotics and applied AI.\n\nIf your team is working on problems like this, I’d love to connect.\n\n#HowISwitch #AIAgents #DeveloperTools #SoftwareEngineering",
+        "commentCount": 0,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQFuwk9FvATgZQ/videocover-high/B56aG6X_SRJQBM-/0/1794128216155?e=2147483647&v=beta&t=8rUSFS5KVknqI4mGt24TbWS6QGt14DStle67bCexUCM",
+        "datePublished": "2026-11-08T08:57:24.844Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/oliane-piana-862aba15_awsbuilderloft-activity-7526387362898214913-7ICT",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQE1JHRb-fu7gA/feedshare-shrink_800/B56aHMZa88H4Ak-/0/1794430578782?e=2147483647&v=beta&t=qNv1Ymu6AAHo9Edshr9NHBWe0J877XNEsL31yI5Q9Bs",
+        "media": "https://media.licdn.com/dms/image/v2/D5622AQE1JHRb-fu7gA/feedshare-shrink_800/B56aHMZa88H4Ak-/0/1794430578782?e=2147483647&v=beta&t=qNv1Ymu6AAHo9Edshr9NHBWe0J877XNEsL31yI5Q9Bs",
+        "author": {
+          "url": "https://www.linkedin.com/in/oliane-piana-862aba15",
+          "name": "Oliane Piana",
+          "image": "https://media.licdn.com/dms/image/v2/C5603AQHC9kiDv6vm3g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1600212698870?e=2147483647&v=beta&t=4N08FE-4LaXV2RGwtKmm2CmA7qfBqQeliIwEtmak3z4",
+          "followers": 3274
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D5622AQE1JHRb-fu7gA/feedshare-shrink_800/B56aHMZa88H4Ak-/0/1794430578782?e=2147483647&v=beta&t=qNv1Ymu6AAHo9Edshr9NHBWe0J877XNEsL31yI5Q9Bs"
+        ],
+        "comments": [
+          {
+            "id": "7526387764012040192",
+            "urn": "urn:li:comment:(urn:li:activity:7526387362898214913,7526387764012040192)",
+            "text": "📖 Full lineup, descriptions, and registration links: https://builder.aws.com/content/3LyO5bwyxWf4hAmCfk6bJezd966/agents-demos-and-deep-dives-your-builder-loft-lineup-nov-11-20 \n\n👉 Builder Loft Fortnight Challenge: My Favorite Hack: https://builder.aws.com/content/3LZQGM7ce72gXFhOp9t8sfUMFxM/builder-loft-challenge-of-the-week-prompt-my-loft\n\n👉 Stay updated - Join the space: https://builder.aws.com/connect/space/5c1e07ec-3701-36b1-abd2-16fcc221b82f/aws-builder-loft-san-francisco-usa-community-and-events",
+            "author": "Oliane Piana",
+            "linkedinUrl": "https://www.linkedin.com/in/oliane-piana-862aba15",
+            "datePublished": "2026-11-11T20:57:56.464Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 29,
+        "contentUrn": "urn:li:share:7526387360482267137",
+        "activityUrn": "urn:li:activity:7526387362898214913",
+        "description": "🧠 Agents, Demos & Deep Dives: your #AWSBuilderLoft Roundup Is Here!\n\nNine events in under two weeks. The AWS Builder Loft in San Francisco is busy, and agents are at the center of almost all of it. 🚀\n\nA few highlights from the next two weeks:\n🔮 Builders from OpenAI on what comes after AI agents\n⭐ A Super Demo Day bringing back the standout startups from 500+ demos\n🧬 A full-day summit on frontier models, featuring LSTM co-inventor Jürgen Schmidhuber\n🤖 Two hackathons, one where coding agents build the software and one for personal agents that go beyond booking flights\n\nPlus agentic security, graphs for AI engineering, an AWS GameDay, and the AWS Partner Showcase with Anthropicc, Supabasee, and Grafana Labs.\n\nNone of this happens without the communities who bring it to life. A huge thank you to FounderCoHoo, AICampp, HackerSquadd, OSS4AI, tokens&, ReversingLabs, and Neo4jj. 🙌\n\nAnd if a past Loft hackathon still sticks with you, our Fortnight Challenge, My Favorite Hack, is open through Friday, Nov 20. Share your favorite build for a chance to win an AWS Builder Jacket. 🏆\n\nThe full program and registration links are in the article 👉 link in the first comment.\n\nSee you at the Loft! ☕🛠️",
+        "commentCount": 1,
+        "datePublished": "2026-11-11T20:56:20.829Z"
+      }
+    ],
+    "query": "AWS Builder Loft hackathon won first place agents",
+    "cursor": null,
+    "success": true
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00188",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:30:13.796Z",
+  "started_at": "2026-11-23T07:30:14.006Z",
+  "completed_at": "2026-11-23T07:30:21.672Z",
+  "task_id": "tsk_a2399d9b5d5fefae",
+  "metadata": {}
+}

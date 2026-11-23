@@ -1,0 +1,735 @@
+{
+  "id": "247df23d-8780-4046-a58c-31adf5d15b49",
+  "run_url": "https://app.glasser.ai/runs/247df23d-8780-4046-a58c-31adf5d15b49",
+  "provider": "scrapecreators",
+  "endpoint": "/v1/linkedin/search/posts",
+  "endpoint_version": 4,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "query": "2%Tech hackathon winner",
+    "date_posted": "last-month"
+  },
+  "output": {
+    "posts": [
+      {
+        "url": "https://www.linkedin.com/posts/e14fund_e14-fund-and-orrick-tech-flew-the-finalists-activity-7523844009392340992-dSH6",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQGwhWyTqIFB9w/feedshare-shrink_800/B56aGoQQCkKcAc-/0/1793824195408?e=2147483647&v=beta&t=v5C5BaRsSQOLqXBZdaNMIABAEAxus_IjBeqV8l6Lrj0",
+        "media": "https://media.licdn.com/dms/image/v2/D5622AQGwhWyTqIFB9w/feedshare-shrink_800/B56aGoQQCkKcAc-/0/1793824195408?e=2147483647&v=beta&t=v5C5BaRsSQOLqXBZdaNMIABAEAxus_IjBeqV8l6Lrj0",
+        "author": {
+          "url": "https://www.linkedin.com/company/e14fund",
+          "name": "E14 Fund",
+          "image": "https://media.licdn.com/dms/image/v2/D560BAQEPJslSS5_aiA/company-logo_100_100/company-logo_100_100/0/1697519540757/e14fund_logo?e=2147483647&v=beta&t=dIkQPRMvtp4oBeQFS81htORfJNbnlm1VhHlsVDrx2oM",
+          "followers": 7360
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D5622AQGwhWyTqIFB9w/feedshare-shrink_800/B56aGoQQCkKcAc-/0/1793824195408?e=2147483647&v=beta&t=v5C5BaRsSQOLqXBZdaNMIABAEAxus_IjBeqV8l6Lrj0",
+          "https://media.licdn.com/dms/image/v2/D5622AQFF9YsrsJO0dg/feedshare-shrink_800/B56aGoQP93HQAg-/0/1793824195590?e=2147483647&v=beta&t=goYW9gqIQ4tglhSca7-hKcSE_BudoN_zC2qLDagnap0",
+          "https://media.licdn.com/dms/image/v2/D5622AQHJm4-FiRvb9Q/feedshare-shrink_800/B56aGoQQH5K8Ac-/0/1793824196260?e=2147483647&v=beta&t=uIb-oUWoJIi8-A5X0Q_V4XnvDVXWHJtpUG8SGpi6euk",
+          "https://media.licdn.com/dms/image/v2/D5622AQHhU3WvMw_RWA/feedshare-shrink_800/B56aGoQP8sHgAc-/0/1793824195816?e=2147483647&v=beta&t=Xd2bXJtHq_MNxisbKNIPj8GCS7XJegQkRBtuzm6EpxQ",
+          "https://media.licdn.com/dms/image/v2/D5622AQEsLySkvHfT_A/feedshare-shrink_800/B56aGoQP7lKQAc-/0/1793824194847?e=2147483647&v=beta&t=3NWpGzcPd0zGQehBi_M5GOq4PfXuywn4HpGp0ciWa6o"
+        ],
+        "comments": [
+          {
+            "id": "7524611856045572096",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7523844008264110081,7524611856045572096)",
+            "text": "Thank you to E14 Fund, Orrick Tech, and the MIT AI Conference team for bringing us to Mountain View. I loved getting to share AMIRA’s work in women’s hormonal health and seeing what the other finalists built. Congratulations to Tom and Daniel of Experative, Isabella, and everyone who took the stage!",
+            "author": "MD S. Rana",
+            "linkedinUrl": "https://www.linkedin.com/in/sohelrana8",
+            "datePublished": "2026-11-06T23:21:07.010Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7523956241841344512",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7523844008264110081,7523956241841344512)",
+            "text": "Thank you so much for this amazing opportunity!",
+            "author": "Kristina Sakayeva",
+            "linkedinUrl": "https://www.linkedin.com/in/kristina-sakayeva-337637281",
+            "datePublished": "2026-11-05T03:55:56.403Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7523957759583666176",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7523844008264110081,7523957759583666176)",
+            "text": "Congratulations!",
+            "author": "Hack-Nation",
+            "linkedinUrl": "https://www.linkedin.com/company/hack-nation",
+            "datePublished": "2026-11-05T04:01:58.261Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7524178691015335937",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7523844008264110081,7524178691015335937)",
+            "text": "Big fan here!!",
+            "author": "HN12",
+            "linkedinUrl": "https://www.linkedin.com/company/hn12",
+            "datePublished": "2026-11-05T18:39:52.419Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2w"
+          }
+        ],
+        "likeCount": 35,
+        "contentUrn": "urn:li:ugcPost:7523844008264110081",
+        "activityUrn": "urn:li:activity:7523844009392340992",
+        "description": "E14 Fund and Orrick Tech flew the finalists of the MIT AI Conference Hackathon and Research Slam from Cambridge to Mountain View. After rising to the top of the competition at MIT, on October 17 they took the stage at the Computer History Museum in front of 500+ founders, researchers, and investors to compete for the top prize.\n\n🏆 Congratulations to the Hackathon winner, Experative (Tom Burkart and Daniel V. Hofmann) and to the Research Slam winner, Isabella Thiel!\n\nHuge shoutout to every finalist who took the stage!\n\nHackathon Teams\nAMIRA (MD S. Rana)\nAnaphora Labs (Samuel Chen, Emiliano Camacho-Almanza, Yaphet Lemiesa)\nAntemyth (Riccardo Neumarker, Massimo Perfetti)\nExperative (Daniel V. Hofmann, Tom Burkart)\nFirstSignal (Mingjia Zhang)\nGPU (Yolanda Hu)\nHaggl (Jay Vachhani, Hamza Malik, Susy Liu)\nLaufwerk (Ralf Boltshauser)\nVera Labs (Ana Rath, Tanmay Gupta)\nSona8 (YC F26) (Anton Hantel)\n\nResearch Slam: Aymane El Gadarri, Isabella Thiel, Kristina Sakayeva, Nicolas Emmenegger, Rohit Priyadarshi Sanatani\n\nThank you to the MITAS team and Orrick Tech, a true partner to early-stage founders. Here’s to 10 years of the MIT AI Conference, and see you next year! 🎉",
+        "commentCount": 4,
+        "datePublished": "2026-11-04T20:29:58.099Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/akash-chowdhry-5b8970114_microsoft-global-hackathon-2026-award-winner-activity-7525623761451106304-UFuP",
+        "image": null,
+        "media": null,
+        "author": {
+          "url": "https://in.linkedin.com/in/akash-chowdhry-5b8970114",
+          "name": "Akash Chowdhry",
+          "image": "https://media.licdn.com/dms/image/v2/C5103AQH5WR9AziMyLQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517395343278?e=2147483647&v=beta&t=t5eHWRS5sqnMXZteXOjw5b3J569bUQRkFO3kJ0svIK4",
+          "followers": 1059
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7525774203204046848",
+            "urn": "urn:li:comment:(urn:li:activity:7525623761451106304,7525774203204046848)",
+            "text": "Congratulations 🙌🏻",
+            "author": "Jeevant Deo",
+            "linkedinUrl": "https://in.linkedin.com/in/jeevant-deo",
+            "datePublished": "2026-11-10T04:19:52.168Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 13,
+        "contentUrn": "urn:li:share:7525623758498471936",
+        "activityUrn": "urn:li:activity:7525623761451106304",
+        "description": "🚀 Thrilled to share that our project won First Prize at the Microsoft Global Hackathon 2026! 🏆\nA couple of weeks ago, Microsoft hosted its Global Hackathon, bringing together innovators from across the globe for an inspiring celebration of creativity, collaboration, and problem-solving.\nIt’s been an incredible journey of ideation, problem-solving, and teamwork with some amazing minds, exploring how technology and AI can help turn feedback into meaningful insights and action.\nGrateful to everyone who was part of this journey and proud of what we achieved together! 🙌\nMicrosoft #GlobalHackathon #Innovation #AI #EmployeeExperience",
+        "commentCount": 1,
+        "datePublished": "2026-11-09T18:22:04.056Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/virginia-dillon_today-my-team-the-dynamic-trio-won-1st-activity-7525336064408948736-f58B",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQFxTCR23Uzmpw/feedshare-shrink_800/B4EaG9dRhWH0Ag-/0/1794179930471?e=2147483647&v=beta&t=PfypFAIFFDyic-UvaVbrZwHhREY9hU8D2dVt8HgjEt0",
+        "media": "https://media.licdn.com/dms/image/v2/D4E22AQFxTCR23Uzmpw/feedshare-shrink_800/B4EaG9dRhWH0Ag-/0/1794179930471?e=2147483647&v=beta&t=PfypFAIFFDyic-UvaVbrZwHhREY9hU8D2dVt8HgjEt0",
+        "author": {
+          "url": "https://www.linkedin.com/in/virginia-dillon",
+          "name": "Virginia Dillon",
+          "followers": 2197
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D4E22AQFxTCR23Uzmpw/feedshare-shrink_800/B4EaG9dRhWH0Ag-/0/1794179930471?e=2147483647&v=beta&t=PfypFAIFFDyic-UvaVbrZwHhREY9hU8D2dVt8HgjEt0"
+        ],
+        "comments": [
+          {
+            "id": "7525356650791112705",
+            "urn": "urn:li:comment:(urn:li:activity:7525336064408948736,7525356650791112705)",
+            "text": "So happy for you all! I knew you 3 would make a fantastic team!",
+            "author": "Cindy Phuong",
+            "linkedinUrl": "https://www.linkedin.com/in/cindy-phuong-hbs2027",
+            "datePublished": "2026-11-09T00:40:39.915Z",
+            "reactionCount": 3,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7525402395020001280",
+            "urn": "urn:li:comment:(urn:li:activity:7525336064408948736,7525402395020001280)",
+            "text": "Congrats Virginia! Hope that you're doing well!",
+            "author": "Maria Lagnese",
+            "linkedinUrl": "https://www.linkedin.com/in/maria-lagnese-691176133",
+            "datePublished": "2026-11-09T03:42:26.189Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7525415720311001088",
+            "urn": "urn:li:comment:(urn:li:activity:7525336064408948736,7525415720311001088)",
+            "text": "Congrats!",
+            "author": "Nicolás González Bogotá",
+            "linkedinUrl": "https://co.linkedin.com/in/nicolasgonzalezbogota",
+            "datePublished": "2026-11-09T04:35:23.186Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7525387623700496384",
+            "urn": "urn:li:comment:(urn:li:activity:7525336064408948736,7525387623700496384)",
+            "text": "congrats～",
+            "author": "Kalodata",
+            "linkedinUrl": "https://cn.linkedin.com/company/kalodata",
+            "datePublished": "2026-11-09T02:43:44.432Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7525548794243969024",
+            "urn": "urn:li:comment:(urn:li:activity:7525336064408948736,7525548794243969024)",
+            "text": "“Try something new” went rather well. Congratulations to the Dynamic Trio! 🫶",
+            "author": "Lovable",
+            "linkedinUrl": "https://se.linkedin.com/company/lovable-dev",
+            "datePublished": "2026-11-09T13:24:10.484Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7525539149467238400",
+            "urn": "urn:li:comment:(urn:li:activity:7525336064408948736,7525539149467238400)",
+            "text": "Outstanding!! Way to go team Dynamic Trio!",
+            "author": "John Dillon",
+            "linkedinUrl": "https://www.linkedin.com/in/johnedillon",
+            "datePublished": "2026-11-09T12:45:50.989Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7525367821783105536",
+            "urn": "urn:li:comment:(urn:li:activity:7525336064408948736,7525367821783105536)",
+            "text": "Yay great job!",
+            "author": "Michelle Edwards",
+            "linkedinUrl": "https://www.linkedin.com/in/michelle-edwards1",
+            "datePublished": "2026-11-09T01:25:03.287Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7525365277979582464",
+            "urn": "urn:li:comment:(urn:li:activity:7525336064408948736,7525365277979582464)",
+            "text": "Congratulations Virginia!",
+            "author": "Injil Muhammad Jr.",
+            "linkedinUrl": "https://www.linkedin.com/in/injil-muhammad-jr",
+            "datePublished": "2026-11-09T01:14:56.796Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7526256704599003137",
+            "urn": "urn:li:comment:(urn:li:activity:7525336064408948736,7526256704599003137)",
+            "text": "Congratulations to you and the team!",
+            "author": "Rafael Soltero",
+            "linkedinUrl": "https://www.linkedin.com/in/rsoltero",
+            "datePublished": "2026-11-11T12:17:09.465Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 171,
+        "contentUrn": "urn:li:share:7525336061930164224",
+        "activityUrn": "urn:li:activity:7525336064408948736",
+        "description": "Today my team, the Dynamic Trio, won 1st place out of 22 teams at the 2026 Everyday AI Hackathon at Harvard Business School!\n\nWe spent the day building a B2C product for users designing their home. This was my first hackathon, and it was a good reminder to continue trying new tools and embrace the journey of learning something new!\n\nThank you to the Tech Club at Harvard Business School for hosting and Lovable and Kalodata for sponsoring!\n\nBig shout-out to Sergio Vanegas and William Lamason for being amazing teammates!",
+        "commentCount": 14,
+        "datePublished": "2026-11-08T23:18:51.737Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/rebuildgreen_winners-of-the-hackathon-2026-activity-7526920846825762816-Iydy",
+        "image": "https://media.licdn.com/dms/image/v2/D4D1FAQFB6C2JqxdKlA/feedshare-document-images_800/B4DaHT.LH9GQAo-/1/1794557656063?e=1796256000&v=beta&t=RMpK6yHYbfbfQEUMCI3HixhFrPVX3QWxz1RSyGv3GwU",
+        "media": "https://media.licdn.com/dms/image/v2/D4D1FAQFB6C2JqxdKlA/feedshare-document-images_800/B4DaHT.LH9GQAo-/1/1794557656063?e=1796256000&v=beta&t=RMpK6yHYbfbfQEUMCI3HixhFrPVX3QWxz1RSyGv3GwU",
+        "author": {
+          "url": "https://www.linkedin.com/company/rebuildgreen",
+          "name": "Rebuild Green 2030",
+          "image": "https://media.licdn.com/dms/image/v2/D4D0BAQH-rbog5_7vJA/company-logo_100_100/B4DZsj2eTdIgAQ-/0/1765833041652?e=2147483647&v=beta&t=M3WNtNNX2mRxU48ZwSDwjiA6izfbOsR-I7b7cTciRGc",
+          "followers": 190
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D4D1FAQFB6C2JqxdKlA/feedshare-document-images_800/B4DaHT.LH9GQAo-/1/1794557656063?e=1796256000&v=beta&t=RMpK6yHYbfbfQEUMCI3HixhFrPVX3QWxz1RSyGv3GwU",
+          "https://media.licdn.com/dms/image/v2/D4D1FAQFB6C2JqxdKlA/feedshare-document-images_800/B4DaHT.LH9GQAo-/2/1794557656063?e=1796256000&v=beta&t=exToOMYO8N4arypempP1fY_P1fnKrKrCc38Ddu-Jv0g",
+          "https://media.licdn.com/dms/image/v2/D4D1FAQFB6C2JqxdKlA/feedshare-document-images_800/B4DaHT.LH9GQAo-/3/1794557656063?e=1796256000&v=beta&t=rlSVH0qAZNYnJi1pF_8UVd-uKF5uS23WEv7cKOT-JF8",
+          "https://media.licdn.com/dms/image/v2/D4D1FAQFB6C2JqxdKlA/feedshare-document-images_800/B4DaHT.LH9GQAo-/4/1794557656063?e=1796256000&v=beta&t=jL82b71mDDfPdQWMxpkZYHarO3f9CB7Nm-ZquriZsDQ",
+          "https://media.licdn.com/dms/image/v2/D4D1FAQFB6C2JqxdKlA/feedshare-document-images_800/B4DaHT.LH9GQAo-/5/1794557656063?e=1796256000&v=beta&t=5hly1ka5KVX4zfr3IZGG4p5ZTbeneSI3Hlae3gd32hw"
+        ],
+        "comments": [
+          {
+            "id": "7527034683885305857",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526920845315903488,7527034683885305857)",
+            "text": "Congrats to all the teams! Really nice to see Zhytomyr in second place 💚 It’s my hometown, and “Yard Restart” is exactly what those old housing blocks need: residents involved from day one, not just new facades.\nFunny enough, I studied industrial ecology there before tech pulled me in.",
+            "author": "Bogdan Y.",
+            "linkedinUrl": "https://es.linkedin.com/in/avasay",
+            "datePublished": "2026-11-13T15:48:34.181Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 16,
+        "contentUrn": "urn:li:ugcPost:7526920845315903488",
+        "activityUrn": "urn:li:activity:7526920846825762816",
+        "description": "🏆 The winners of Rebuild Green Hackathon 2026 have been announced!\nOn 12 November at ReBuild Ukraine in Warsaw, we celebrated the teams developing practical solutions for the sustainable recovery of Ukrainian communities.\n🥇 1ST PLACE — LVIV\nMedical Waste Management Hub\nAn integrated system connecting medical waste collection, digital tracking, steam treatment and safe material recovery.\n🎁 Award: €50,000 in expert support to help secure implementation funding, plus 10% of the required volume of Modulina Straw Panels materials for construction.\n🥈 2ND PLACE — ZHYTOMYR\nYard Restart\nA data-driven approach to renovating ageing housing and creating energy-efficient, inclusive neighbourhoods through resident engagement and new financing models.\n🎁 Award: 8% of the required volume of Modulina Straw Panels materials for construction.\n🥉 3RD PLACE — HELENDZHYK\nEcosystem for Veterans’ Reintegration\nA vision combining sustainable housing, rehabilitation and community spaces, therapeutic gardens, skills development and local livelihood opportunities.\n🎁 Award: 5% of the required volume of Modulina Straw Panels materials for construction.\n💚 Congratulations to the winning teams! Thank you to all participants, communities, mentors, jury members and partners who helped these ideas develop.\n🤝 Join us today, 13 November, at 12:00 for presentations of all seven community projects and conversations about partnerships for implementation.\n📍 ReBuild Ukraine · EXPO XXI, Warsaw\nHall 4 · Stand 4-C14\n🕛 Warsaw local time\n#RebuildGreen2030 #RebuildGreenHackathon #ReBuildUkraine #UkraineRecovery #SustainableReconstruction\n\nFIABCI-Ukraine SYNCHRO SPACE Modulina Straw Panels\nAlissa Bankovska Kateryna Pylypchuk 🇺🇦",
+        "commentCount": 1,
+        "datePublished": "2026-11-13T08:16:13.309Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/bhoopesh-v-06742a187_buildforindia-hackathon-voiceai-activity-7529541611366637568-aEdR",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQFBRfW-aVuRTQ/feedshare-shrink_800/B56aH5OLumIwAk-/0/1795182607496?e=2147483647&v=beta&t=g23smjez4jSrxiHKOfGy5Ek5cuPgvnQcepthiAR8Lr8",
+        "media": "https://media.licdn.com/dms/image/v2/D5622AQFBRfW-aVuRTQ/feedshare-shrink_800/B56aH5OLumIwAk-/0/1795182607496?e=2147483647&v=beta&t=g23smjez4jSrxiHKOfGy5Ek5cuPgvnQcepthiAR8Lr8",
+        "author": {
+          "url": "https://in.linkedin.com/in/bhoopesh-v-06742a187",
+          "name": "Bhoopesh V",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQFJY4N-TMXs4w/profile-displayphoto-scale_200_200/B56Z2R7U4jHgAY-/0/1776269745046?e=2147483647&v=beta&t=udyUFM2k9mrY5vTZ6-nCfEMVPfit49sDZcMOGa60hQc",
+          "followers": 253
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D5622AQFBRfW-aVuRTQ/feedshare-shrink_800/B56aH5OLumIwAk-/0/1795182607496?e=2147483647&v=beta&t=g23smjez4jSrxiHKOfGy5Ek5cuPgvnQcepthiAR8Lr8",
+          "https://media.licdn.com/dms/image/v2/D5622AQEOLTjs6y_K4g/feedshare-image-high-res/B56aH5OLnCJEAU-/0/1795182607048?e=2147483647&v=beta&t=DJthASA9FlrF8YfWfZGtpbuc4GNq1xNU-czfVeKEyho",
+          "https://media.licdn.com/dms/image/v2/D5622AQE5THgmVllsLA/feedshare-shrink_800/B56aH5OLtoHgAg-/0/1795182607480?e=2147483647&v=beta&t=iQs1F1qTGVSbiXUCYm-HORyOyEUQ48iqzGXAwpwaDVY",
+          "https://media.licdn.com/dms/image/v2/D5622AQFRTbJLwfCSEQ/feedshare-shrink_800/B56aH5OMRGIoAg-/0/1795182609816?e=2147483647&v=beta&t=FanwnvVUEFmvohitI_WutU8XBLAuQhQL-qhFhmNvoec"
+        ],
+        "comments": [
+          {
+            "id": "7529609049315848192",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7529541609198174208,7529609049315848192)",
+            "text": "🏆 Huge congratulations to you and Mirudhula! What impressed me about Saajhedar was how you connected opportunity discovery, shop operations, and supplier calls into one end-to-end solution rather than just another AI demo. Loved the ambition, execution, and the way you presented it! A well-deserved win. Keep building! 👏",
+            "author": "Anitha KishoreKumar",
+            "linkedinUrl": "https://in.linkedin.com/in/anithakishorekumar",
+            "datePublished": "2026-11-20T18:18:10.729Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "2d"
+          },
+          {
+            "id": "7529575814237986816",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7529541609198174208,7529575814237986816)",
+            "text": "Congratulations Mirudhula Anbarasan and  Bhoopesh V",
+            "author": "Albert G",
+            "linkedinUrl": "https://in.linkedin.com/in/albert-g-928251152",
+            "datePublished": "2026-11-20T16:06:06.869Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "2d"
+          },
+          {
+            "id": "7529818833419808768",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7529541609198174208,7529818833419808768)",
+            "text": "Congratulations 🎉",
+            "author": "Balaji R V",
+            "linkedinUrl": "https://in.linkedin.com/in/balajirv",
+            "datePublished": "2026-11-21T08:11:47.157Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1d"
+          },
+          {
+            "id": "7529856697121828865",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7529541609198174208,7529856697121828865)",
+            "text": "Congrats on the Build for India win, Bhoopesh! 🎉",
+            "author": "Parth Khandelwal",
+            "linkedinUrl": "https://in.linkedin.com/in/parrowdev",
+            "datePublished": "2026-11-21T10:42:14.567Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1d"
+          },
+          {
+            "id": "7529556891782238209",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7529541609198174208,7529556891782238209)",
+            "text": "Congratulations Bhoopesh V  Mirudhula Anbarasan",
+            "author": "vignesh kumar",
+            "linkedinUrl": "https://in.linkedin.com/in/vignesh-kumar-6820b0253",
+            "datePublished": "2026-11-20T14:50:55.404Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "2d"
+          }
+        ],
+        "likeCount": 58,
+        "contentUrn": "urn:li:ugcPost:7529541609198174208",
+        "activityUrn": "urn:li:activity:7529541611366637568",
+        "description": "What started as a weekend project turned into our first hackathon win!\n\nLast weekend, Mirudhula Anbarasan and I won the Build for India AI Hackathon in Chennai!\n\nIt was a great experience building Saajhedar together, taking an idea all the way to a working prototype and getting to celebrate the win! It was genuinely inspiring to see what like-minded people are building.\n\nWe built Saajhedar - an AI-powered voice partner for businesses\n\nHere’s what it does:\n- Discovers business opportunities: Analyses data from 157,000 shops using OpenStreetMap, Open-Meteo and AI-powered neighbourhood analysis to identify market gaps and estimate footfall.\n- Manages shop operations: Through multilingual voice.\n- Automates procurement: An AI voice agent that directly calls suppliers\n\nThe biggest challenge? Getting everything to work end to end rather than building isolated features. From integrating all the components to the usual last-minute debugging and deployment on Linux, there was never a dull moment!\n\nA big thank you to Om Prakash S for taking the time to mentor us and share some valuable feedback that helped us shape our pitch.\n\nThanks to Mohammed Amer & Om Nitin Tiwari for hosting us\n\nHuge shoutout to Navaneeth Ganesh for bringing great energy to the event and making the experience so memorable!\n\nA special thanks to Anitha KishoreKumar for her time and insights as one of our judges and our tech panel - Dax Percey Abraham, Bhabani Sankar Prusty\n\nLooking forward to building more!\n#BuildForIndia #Hackathon #VoiceAI #AgenticAI #Chennai",
+        "commentCount": 13,
+        "datePublished": "2026-11-20T13:50:12.267Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/jessica-myles_super-excited-to-have-placed-3rd-at-the-hbs-activity-7526052272414523392-Xzy8",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQGZ-mKPd-6Qpg/feedshare-image-high-res/B56aHHoqWDJEAQ-/0/1794350687857?e=2147483647&v=beta&t=sWJq1CWGryDWuVS20o4IfPQ_YhzO5nrHCoZZlKJvKy8",
+        "media": "https://media.licdn.com/dms/image/v2/D5622AQGZ-mKPd-6Qpg/feedshare-image-high-res/B56aHHoqWDJEAQ-/0/1794350687857?e=2147483647&v=beta&t=sWJq1CWGryDWuVS20o4IfPQ_YhzO5nrHCoZZlKJvKy8",
+        "author": {
+          "url": "https://www.linkedin.com/in/jessica-myles",
+          "name": "Jessica Myles",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQGwXv5mabUepA/profile-displayphoto-scale_200_200/B56Zq.rx5DHQAY-/0/1764135739709?e=2147483647&v=beta&t=7pjJ8wfMM0sLiDFKPe2xOPaq7s7FyJzg-Y7H_yR2sas",
+          "followers": 2346
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D5622AQGZ-mKPd-6Qpg/feedshare-image-high-res/B56aHHoqWDJEAQ-/0/1794350687857?e=2147483647&v=beta&t=sWJq1CWGryDWuVS20o4IfPQ_YhzO5nrHCoZZlKJvKy8"
+        ],
+        "comments": [
+          {
+            "id": "7526108480236126208",
+            "urn": "urn:li:comment:(urn:li:activity:7526052272414523392,7526108480236126208)",
+            "text": "Congratulations 🎉\nLove the idea behind TripBlend — making group travel planning more personalized and collaborative is a great use case for AI.\nWe're glad Kalodata could be part of the HBS AI Hackathon and support teams turning creative ideas into real products. Excited to see where you take TripBlend next!",
+            "author": "Kalodata",
+            "linkedinUrl": "https://cn.linkedin.com/company/kalodata",
+            "datePublished": "2026-11-11T02:28:10.022Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526054656389697537",
+            "urn": "urn:li:comment:(urn:li:activity:7526052272414523392,7526054656389697537)",
+            "text": "I'm so grateful for the opportunity to collaborate with two talented \"Loveable Ladies\" on Trip Blend. What a blast, I learned a ton from you both! Thank you for getting us together, Jess!",
+            "author": "Cindy Phuong",
+            "linkedinUrl": "https://www.linkedin.com/in/cindy-phuong-hbs2027",
+            "datePublished": "2026-11-10T22:54:17.418Z",
+            "reactionCount": 3,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526109841321287680",
+            "urn": "urn:li:comment:(urn:li:activity:7526052272414523392,7526109841321287680)",
+            "text": "cool～",
+            "author": "Chris Chang",
+            "linkedinUrl": "https://cn.linkedin.com/in/chris-chang-6752b33b",
+            "datePublished": "2026-11-11T02:33:34.530Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526247562459181056",
+            "urn": "urn:li:comment:(urn:li:activity:7526052272414523392,7526247562459181056)",
+            "text": "A little help for the friend who always ends up making the spreadsheet. Congrats on third place, Jessica, Yvonne and Cindy!",
+            "author": "Lovable",
+            "linkedinUrl": "https://se.linkedin.com/company/lovable-dev",
+            "datePublished": "2026-11-11T11:40:49.809Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526096751888478208",
+            "urn": "urn:li:comment:(urn:li:activity:7526052272414523392,7526096751888478208)",
+            "text": "hell ya, way to go Jess",
+            "author": "Umair Khan",
+            "linkedinUrl": "https://ca.linkedin.com/in/umair434",
+            "datePublished": "2026-11-11T01:41:33.767Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526097301547786241",
+            "urn": "urn:li:comment:(urn:li:activity:7526052272414523392,7526097301547786241)",
+            "text": "I’m sure you are elated",
+            "author": "Ziad Hassan",
+            "linkedinUrl": "https://www.linkedin.com/in/ziad-has",
+            "datePublished": "2026-11-11T01:43:44.816Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 57,
+        "contentUrn": "urn:li:share:7526052270791086080",
+        "activityUrn": "urn:li:activity:7526052272414523392",
+        "description": "Super excited to have placed 3rd at the HBS Tech Club's AI Hackathon this past weekend alongside Yvonne Yan, CFA and Cindy Phuong!\n\nChallenged to build a consumer-focused product with real business potential, we created TripBlend - a \"Spotify playlist blend\" but for group trip planning.\n\nTripBlend gathers basic parameters (location, dates, budget), and hyper-personalized preferences from social media integrations, to create a trip itinerary that the whole group will love. We also envisioned a monetization model using a virtual credit card, that serves users by making splitting trip expenses super easy.\n\nCheck out our prototype here: https://lnkd.in/gGSHm7RM\n\nHuge thank you to the Tech Club at Harvard Business School for hosting, and Lovable & Kalodata for sponsoring this fun day!",
+        "commentCount": 6,
+        "datePublished": "2026-11-10T22:44:49.032Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/m-piyush_microsoft-global-hackathon-2026-1st-place-activity-7525852123792834563-8i52",
+        "image": null,
+        "media": null,
+        "author": {
+          "url": "https://in.linkedin.com/in/m-piyush",
+          "name": "Piyush Mehrotra",
+          "followers": 430
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7525980523085737984",
+            "urn": "urn:li:comment:(urn:li:activity:7525852123792834563,7525980523085737984)",
+            "text": "Congrats Piyush, Ritika, and Suraj!",
+            "author": "Krishna Kinnal",
+            "linkedinUrl": "https://www.linkedin.com/in/krishnakinnal",
+            "datePublished": "2026-11-10T17:59:42.661Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7525921665025757184",
+            "urn": "urn:li:comment:(urn:li:activity:7525852123792834563,7525921665025757184)",
+            "text": "Congratulations Piyush 👏",
+            "author": "Jyoti Singh",
+            "linkedinUrl": "https://in.linkedin.com/in/jyoti-singh-36978a21",
+            "datePublished": "2026-11-10T14:05:49.806Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 37,
+        "contentUrn": "urn:li:share:7525852122496712704",
+        "activityUrn": "urn:li:activity:7525852123792834563",
+        "description": "Microsoft's Global Hackathon has always been a rewarding experience.\nYou get to see the spirit of innovation across the board with people creating different things, challenging the norms, exploring, ideating and having fun.\n\nExcited to share that this time, I had not just participated but was able to grab the first spot in the Executive Challenge, \"Hack to Empower the Digital Workforce\".\n\nThis was not just an individual achievement but a great collaboration with various folks who shared a common vision!\nRitika Mor, Suraj Dixit",
+        "commentCount": 2,
+        "datePublished": "2026-11-10T09:29:29.882Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/ethangao07_i-saw-probably-20-different-variations-of-activity-7524109285988081664-oMdl",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQGBLIOEcsMCFw/feedshare-shrink_800/B56aGpQtYaHsAg-/0/1793841092410?e=2147483647&v=beta&t=3tMtVMezERoswC1TGsOJd5bzNgpXxKHZ8KXLKYzGXis",
+        "media": "https://media.licdn.com/dms/image/v2/D5622AQGBLIOEcsMCFw/feedshare-shrink_800/B56aGpQtYaHsAg-/0/1793841092410?e=2147483647&v=beta&t=3tMtVMezERoswC1TGsOJd5bzNgpXxKHZ8KXLKYzGXis",
+        "author": {
+          "url": "https://www.linkedin.com/in/ethangao07",
+          "name": "Ethan Gao",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQH1cJ7QkO-Jlg/profile-displayphoto-scale_200_200/B56Z_.MVL3H4Ac-/0/1786676077370?e=2147483647&v=beta&t=n1z12lu0lp04WF3VLnogO2_mM3T0FRL2xrgzJQ2qI8g",
+          "followers": 2431
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D5622AQGBLIOEcsMCFw/feedshare-shrink_800/B56aGpQtYaHsAg-/0/1793841092410?e=2147483647&v=beta&t=3tMtVMezERoswC1TGsOJd5bzNgpXxKHZ8KXLKYzGXis"
+        ],
+        "comments": [
+          {
+            "id": "7524151737910460416",
+            "urn": "urn:li:comment:(urn:li:activity:7524109285988081664,7524151737910460416)",
+            "text": "Truth nuke\n\nAlso really hate the logistics lol, imagine being stuck in the same room for 48 hours unable to sleep or shower properly",
+            "author": "Srinidhaya Vempati",
+            "linkedinUrl": "https://www.linkedin.com/in/srinidhayav",
+            "datePublished": "2026-11-05T16:52:46.297Z",
+            "reactionCount": 8,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7524138047060316162",
+            "urn": "urn:li:comment:(urn:li:activity:7524109285988081664,7524138047060316162)",
+            "text": "Some valid points. I'm sure you agree, however, that the intent behind the idea is great. Execution, as always, differs. \n\nBut a hackathon always has the possibility to be something amazing. ( I realize now that this is a tangential reply.)",
+            "author": "Tarun B.",
+            "linkedinUrl": "https://se.linkedin.com/in/tarun-boddeda",
+            "datePublished": "2026-11-05T15:58:22.144Z",
+            "reactionCount": 5,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7524164668991578112",
+            "urn": "urn:li:comment:(urn:li:activity:7524109285988081664,7524164668991578112)",
+            "text": "I think Hackathons were a lot more useful as a metric before AI became the end all be all. It's really hard to argue how much value you contributed, how much you learned, or how useful your project is when Claude quite literally executed on every step in development.",
+            "author": "Dean David Menkis",
+            "linkedinUrl": "https://ca.linkedin.com/in/deanmenkis",
+            "datePublished": "2026-11-05T17:44:09.307Z",
+            "reactionCount": 7,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7524155494416945153",
+            "urn": "urn:li:comment:(urn:li:activity:7524109285988081664,7524155494416945153)",
+            "text": "It's kinda true, but you forgot that in 2026 attention is all you need 🤭. It's all about engagement, visibility, and maybe prep for YC, which is another circus of promises, with a lottery having 1:20k odds. Some people are doing it for the money, 'cuz they don't have a job, or networking, with the same goal. So I'm not sure what exactly to hate.",
+            "author": "Alisa Dynovitz",
+            "linkedinUrl": "https://www.linkedin.com/in/alisa-dynovitz",
+            "datePublished": "2026-11-05T17:07:41.919Z",
+            "reactionCount": 4,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7524152095776862208",
+            "urn": "urn:li:comment:(urn:li:activity:7524109285988081664,7524152095776862208)",
+            "text": "10000000% AGREEE!!! I find traditional networking events like career fairs and tech fests to result in better outcomes. Students should join engineering clubs and build year long projects. Way more people find internships/jobs that way.",
+            "author": "Waqar Abbas Baig",
+            "linkedinUrl": "https://ca.linkedin.com/in/waqar-abbas-baig-4939472b1",
+            "datePublished": "2026-11-05T16:54:11.619Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7524138536879411200",
+            "urn": "urn:li:comment:(urn:li:activity:7524109285988081664,7524138536879411200)",
+            "text": "hackathons have just become PM and UI/UX competitions  😂",
+            "author": "Chengming Wu",
+            "linkedinUrl": "https://www.linkedin.com/in/generalspecialist",
+            "datePublished": "2026-11-05T16:00:18.927Z",
+            "reactionCount": 4,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7524150058523725825",
+            "urn": "urn:li:comment:(urn:li:activity:7524109285988081664,7524150058523725825)",
+            "text": "let the people larp😁",
+            "author": "Mohamed Abdelmaksoud",
+            "linkedinUrl": "https://www.linkedin.com/in/mohamed-abdelmaksoud1",
+            "datePublished": "2026-11-05T16:46:05.901Z",
+            "reactionCount": 5,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7524125537288564737",
+            "urn": "urn:li:comment:(urn:li:activity:7524109285988081664,7524125537288564737)",
+            "text": "Based",
+            "author": "Yusuf Lee",
+            "linkedinUrl": "https://www.linkedin.com/in/yusuf-lee",
+            "datePublished": "2026-11-05T15:08:39.583Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7524131795089559552",
+            "urn": "urn:li:comment:(urn:li:activity:7524109285988081664,7524131795089559552)",
+            "text": "Real 💯",
+            "author": "Felix Hunt",
+            "linkedinUrl": "https://uk.linkedin.com/in/felix-hunt-b60a7a413",
+            "datePublished": "2026-11-05T15:33:31.558Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7524153623770058752",
+            "urn": "urn:li:comment:(urn:li:activity:7524109285988081664,7524153623770058752)",
+            "text": "Agreed",
+            "author": "Anand B",
+            "linkedinUrl": "https://in.linkedin.com/in/anandb71",
+            "datePublished": "2026-11-05T17:00:15.922Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2w"
+          }
+        ],
+        "likeCount": 312,
+        "contentUrn": "urn:li:share:7523914871084888064",
+        "activityUrn": "urn:li:activity:7524109285988081664",
+        "description": "I saw probably 20 different variations of “10x hackathon winner” titles in the last week.\n\nI fucking hate hackathons and lose respect for anyone who does them. They aren’t a filter for engineering talent. They show how big you can talk and how much you can overpromise. Did you actually “win,” or did you get 3rd place in the 6th category?\n\nYou are trying to create the best-looking product in 48 hours, and that’s a breeding ground for useless vaporware. It’s physically impossible to build a useful hardware project in 48 hours. Are you even capable of working on anything for over a week if you don’t get to pitch or announce it every 5 minutes?\n\nThe argument from all the npcs whose only goal in life is recognition is that “hackathons are meant to explore ideas,” but 99% of hackathon projects are abandoned. It’s only about winning, and it’s not even impressive because nobody has heard of any specific hackathon\n\nPeople with all these hackathon wins and openai anthropic startup school founder ambassador fellowships think they’re the shit, then wonder why they get ghosted after the first interview. When everybody’s primary goal is winning, being a better engineer matters less and less. I’ve seen hundreds of reels of people demoing a stupid Arduino project with a get-rich-quick scheme in mind, and I don’t know a single one of them who has executed it end to end.\n\nWe make fun of crypto people because they lack the discipline to work hard and look for a shortcut. Hackathons are the same thing. Nobody wants to do the kind of work that takes several months with no instant payoff, and we’re celebrating this get-rich-quick mentality as ambition.",
+        "commentCount": 33,
+        "datePublished": "2026-11-05T14:04:04.968Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/harshita-gandhi-a58228308_singaporeindiahackathon-sih2025-aicte-activity-7530468751427833856-PUDs",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQFaA3iADc3yzQ/feedshare-image-high-res/B56aIGZa6XG0AQ-/0/1795403657287?e=2147483647&v=beta&t=_poYYn-rOZgfV-iRL6pp2-YVbo6PVagctJqqMJtRs28",
+        "media": "https://media.licdn.com/dms/image/v2/D5622AQFaA3iADc3yzQ/feedshare-image-high-res/B56aIGZa6XG0AQ-/0/1795403657287?e=2147483647&v=beta&t=_poYYn-rOZgfV-iRL6pp2-YVbo6PVagctJqqMJtRs28",
+        "author": {
+          "url": "https://in.linkedin.com/in/harshita-gandhi-a58228308",
+          "name": "Harshita Gandhi",
+          "image": "https://media.licdn.com/dms/image/v2/D4D03AQH_pNzY-Hg3vg/profile-displayphoto-scale_200_200/B4DZxa7BOQHcAY-/0/1771051949915?e=2147483647&v=beta&t=CgsFgl7vGoBNKSfpD4pRxgpdLF056ynafke45rUw9HI",
+          "followers": 6190
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D5622AQFaA3iADc3yzQ/feedshare-image-high-res/B56aIGZa6XG0AQ-/0/1795403657287?e=2147483647&v=beta&t=_poYYn-rOZgfV-iRL6pp2-YVbo6PVagctJqqMJtRs28",
+          "https://media.licdn.com/dms/image/v2/D5622AQFAXssef0hMzg/feedshare-image-high-res/B56aIGZZZaGUAQ-/0/1795403650964?e=2147483647&v=beta&t=kIQHLjM1NG4JB5yXhL_rYvCHbYje9Wz9ymPwyYN3wWk",
+          "https://media.licdn.com/dms/image/v2/D5622AQG3G_CMddsN_g/feedshare-shrink_800/B56aIGZY72IEAg-/0/1795403649047?e=2147483647&v=beta&t=FR77eOUhyGgmqNf7PvvP1Km3drdHI_RonfCmfUsQoSY",
+          "https://media.licdn.com/dms/image/v2/D5622AQGnAU71dtpuHQ/feedshare-image-high-res/B56aIGZZf3JoAQ-/0/1795403651322?e=2147483647&v=beta&t=eZVcQDIQcgLKz8tTgg12OwUevEXv1FKOZeaFebV5uSs",
+          "https://media.licdn.com/dms/image/v2/D5622AQH_kNNpW5b7CA/feedshare-shrink_800/B56aIGZZBFLAAg-/0/1795403649357?e=2147483647&v=beta&t=yyMl6vmAZpzLZRMZisucQuLQ58V9NJpA4SxLPrUkg8Q"
+        ],
+        "comments": [
+          {
+            "id": "7530485737885085696",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7530468750056230913,7530485737885085696)",
+            "text": "Congratulations 🎊 👏 Harshita Gandhi!!!",
+            "author": "Harsh Pandhe",
+            "linkedinUrl": "https://in.linkedin.com/in/harshpandhe",
+            "datePublished": "2026-11-23T04:21:49.572Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "3h"
+          },
+          {
+            "id": "7530517940299993088",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7530468750056230913,7530517940299993088)",
+            "text": "Congratulations Harshita",
+            "author": "Ritesh Borse",
+            "linkedinUrl": "https://in.linkedin.com/in/ritesh-borse-293564223",
+            "datePublished": "2026-11-23T06:29:47.226Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1h"
+          },
+          {
+            "id": "7530480330122686464",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7530468750056230913,7530480330122686464)",
+            "text": "Congratulations Harshita🥳🥳",
+            "author": "Snehal Sanap",
+            "linkedinUrl": "https://in.linkedin.com/in/snehalsanap",
+            "datePublished": "2026-11-23T04:00:20.260Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "3h"
+          },
+          {
+            "id": "7530485199630147584",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7530468750056230913,7530485199630147584)",
+            "text": "Congratulations Harshita Gandhi 🎉🥳",
+            "author": "Darshana Mahajan",
+            "linkedinUrl": "https://in.linkedin.com/in/darshana-mahajan-b4a588289",
+            "datePublished": "2026-11-23T04:19:41.242Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "3h"
+          },
+          {
+            "id": "7530469539311022080",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7530468750056230913,7530469539311022080)",
+            "text": "Congratulations Harshita Gandhi !🎉🥳",
+            "author": "Sanchita Rajurkar",
+            "linkedinUrl": "https://in.linkedin.com/in/sanchita-rajurkar-840180297",
+            "datePublished": "2026-11-23T03:17:27.530Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "4h"
+          },
+          {
+            "id": "7530481783839158272",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7530468750056230913,7530481783839158272)",
+            "text": "Congratulations Harshita Gandhi 🎉🥳",
+            "author": "Peyusha Patil",
+            "linkedinUrl": "https://in.linkedin.com/in/peyusha-patil-653377316",
+            "datePublished": "2026-11-23T04:06:06.853Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "3h"
+          },
+          {
+            "id": "7530507740243496960",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7530468750056230913,7530507740243496960)",
+            "text": "Congratulations Harshita Gandhi 🥳🥳",
+            "author": "Aakanksha Sutrave",
+            "linkedinUrl": "https://in.linkedin.com/in/aakankshasutrave",
+            "datePublished": "2026-11-23T05:49:15.343Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1h"
+          },
+          {
+            "id": "7530528896027619328",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7530468750056230913,7530528896027619328)",
+            "text": "Congratulations Harshita Gandhi 🥳🎉",
+            "author": "Rutuja Gaikwad",
+            "linkedinUrl": "https://in.linkedin.com/in/rutuja-gaikwad-68761b28a",
+            "datePublished": "2026-11-23T07:13:19.275Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "16m"
+          },
+          {
+            "id": "7530532886224060416",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7530468750056230913,7530532886224060416)",
+            "text": "Congratulationss Harshita!!✨️",
+            "author": "Rutuja Nagare",
+            "linkedinUrl": "https://in.linkedin.com/in/rutuja-nagare-8916b5291",
+            "datePublished": "2026-11-23T07:29:10.612Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1m"
+          }
+        ],
+        "likeCount": 95,
+        "contentUrn": "urn:li:ugcPost:7530468750056230913",
+        "activityUrn": "urn:li:activity:7530468751427833856",
+        "description": "𝐀 𝐇𝐚𝐜𝐤𝐚𝐭𝐡𝐨𝐧 𝐖𝐢𝐧 𝐓𝐡𝐚𝐭 𝐓𝐨𝐨𝐤 𝐌𝐞 𝐁𝐞𝐲𝐨𝐧𝐝 𝐁𝐨𝐫𝐝𝐞𝐫𝐬.🇮🇳🇸🇬\n\nSome achievements open doors to opportunities you never imagined. Winning Smart India Hackathon (SIH) 2025 became one such milestone for me. In June 2026, as a previous SIH winner, I received an exclusive invitation to apply for the Singapore–India Hackathon 2026.\n𝐎𝐮𝐭 𝐨𝐟 1,000+ 𝐚𝐩𝐩𝐥𝐢𝐜𝐚𝐧𝐭𝐬, 𝐦𝐲 𝐢𝐝𝐞𝐚 𝐰𝐚𝐬 𝐬𝐡𝐨𝐫𝐭𝐥𝐢𝐬𝐭𝐞𝐝 𝐚𝐦𝐨𝐧𝐠 160 𝐜𝐚𝐧𝐝𝐢𝐝𝐚𝐭𝐞𝐬 𝐟𝐨𝐫 𝐢𝐧𝐭𝐞𝐫𝐯𝐢𝐞𝐰𝐬, 𝐚𝐧𝐝 𝐞𝐯𝐞𝐧𝐭𝐮𝐚𝐥𝐥𝐲, 𝐈 𝐰𝐚𝐬 𝐬𝐞𝐥𝐞𝐜𝐭𝐞𝐝 𝐚𝐦𝐨𝐧𝐠 𝐭𝐡𝐞 𝐓𝐨𝐩 60 𝐝𝐞𝐥𝐞𝐠𝐚𝐭𝐞𝐬 𝐭𝐨 𝐫𝐞𝐩𝐫𝐞𝐬𝐞𝐧𝐭 𝐈𝐧𝐝𝐢𝐚 𝐢𝐧 𝐒𝐢𝐧𝐠𝐚𝐩𝐨𝐫𝐞! 🇮🇳\n\nFrom spending 36 hours brainstorming, building and collaborating under the Sustainability Track at Singapore Management University (SMU) to working on a real-world agricultural traceability challenge, this experience was about so much more than a hackathon. Exchanging ideas, experiencing a new culture and connecting with talented innovators from two countries made every moment special.💯✨\nAnd the best part was the people who made this journey unforgettable Brod Cheong , Su Myat Myat Htay, Cheng Zuo Ang , Dhava Prasath and Tejasvi Jadhao.Grateful to my mentor PRIYA RAKIBE Ma'am for her constant guidance and support throughout this journey.\n\nA heartfelt thank you to All India Council for Technical Education (AICTE), Singapore Management University , Reactor School, SMU Global Innovation Immersion by IIE and K. K. Wagh Institute Nashik for making this incredible opportunity possible.\nI am especially grateful to Hon Sameer B Wagh ,Chairman, K.K.Wagh institute of Engineering Education & Research , Respected Director Keshav Nandurkar Sir and Snehal Kamalapur Ma'am, HOD Department of Computer Engineering, K K Wagh Institute of Engineering Education and Research for their encouragement and support.\n𝐆𝐫𝐚𝐭𝐞𝐟𝐮𝐥 𝐟𝐨𝐫 𝐭𝐡𝐞 𝐣𝐨𝐮𝐫𝐧𝐞𝐲, 𝐭𝐡𝐞 𝐩𝐞𝐨𝐩𝐥𝐞 𝐚𝐧𝐝 𝐭𝐡𝐞 𝐨𝐩𝐩𝐨𝐫𝐭𝐮𝐧𝐢𝐭𝐲 𝐭𝐨 𝐫𝐞𝐩𝐫𝐞𝐬𝐞𝐧𝐭 𝐈𝐧𝐝𝐢𝐚 𝐨𝐧 𝐚𝐧 𝐢𝐧𝐭𝐞𝐫𝐧𝐚𝐭𝐢𝐨𝐧𝐚𝐥 𝐩𝐥𝐚𝐭𝐟𝐨𝐫𝐦.\n𝐓𝐡𝐢𝐬 𝐢𝐬 𝐝𝐞𝐟𝐢𝐧𝐢𝐭𝐞𝐥𝐲 𝐚 𝐜𝐡𝐚𝐩𝐭𝐞𝐫 𝐈'𝐥𝐥 𝐚𝐥𝐰𝐚𝐲𝐬 𝐥𝐨𝐨𝐤 𝐛𝐚𝐜𝐤 𝐨𝐧 𝐰𝐢𝐭𝐡 𝐩𝐫𝐢𝐝𝐞.💯\n\nHere's to more learning, greater challenges and opportunities that take us places we never imagined. ✨🇮🇳🇸🇬\n\nUntil next time, Singapore! ✈️\n#SingaporeIndiaHackathon #SIH2025 #AICTE #SMU #Innovation #Sustainability #GlobalExposure #WomenInTech #YoungInnovators",
+        "commentCount": 19,
+        "datePublished": "2026-11-23T03:14:19.683Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/boson-ai_hackathon-ai-bosonai-activity-7525984396567269377-1dCI",
+        "name": "#hackathon #ai #bosonai #toronto #uoft | Boson AI",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5605AQFSPBXWARfY9Q/mp4-720p-30fp-crf28/B56aHGqxbKIQB8-/0/1794334499863?e=2147483647&v=beta&t=o-YwEaFeRCJoaA6mH9za5LDhOz8hd4PzmT3Q-IBHWrk",
+        "author": {
+          "url": "https://www.linkedin.com/company/boson-ai",
+          "name": "Boson AI",
+          "image": "https://media.licdn.com/dms/image/v2/D560BAQF3KE5X34LSsQ/company-logo_100_100/company-logo_100_100/0/1701404808688?e=2147483647&v=beta&t=BiSP1am2gwfoNXp1OuwXBABLJHXrTORoEPmnpqnnr1c",
+          "followers": 17045
+        },
+        "images": [],
+        "comments": [],
+        "likeCount": 22,
+        "contentUrn": "urn:li:ugcPost:7525984152710565888",
+        "transcript": "Dasarnya. Hai i mia. And I'll be your tour guide. We're standing right on Queens Park Crescent W, surrounded by some of Toronto's coolest history and architecture. So what are you in the mood for today? Are you craving some deep historical secrets? I'm interested in architecture and history. Perfect combo. I'm locking that in. Awesome. So here's the plan. We'll kick things off at the Notre Place Monument, then wander over to the Sea David Naylor building. After that, it's the Legislative Assembly of Ontario and we'll finish up at Hart House. Does that sound good to you? Perfect. Let's dive in. That's our first stop. No to place monument. Wait, actually before we begin, I'm interested in the building in front of me right now. Can you tell me what is it? Oh, good day. That's the Intact Center at 700 University Ave. It's a stunning example of modern architecture wrapped in this deep blue glass that reflects the whole city. It's pretty cool, right? All right, let's turn slightly left from where you are facing and walk about 50 meters northeast along the sidewalk. You'll pass that sleek blue glass building on your right, the intact Center, and then cut through a gap in the trees. Keep an eye out for a small cluster of tall. Mere polished steel columns catching the sunlight. That's the Noter Place monument, our first stop. I see. Yeah, again, I can see Now maybe can you tell me what these pillars represent? But those slender stainless steel columns are a tribute to the Franco Ontarian community, designed to evoke a forest of light and reflection. They're not just for show. Locals treat this quiet glade as a respectful pocket of civic memory, perfect for contemplation. I see. Let's go to the to our 2nd President. Got it. Let's hit the C David Naylor building from Notre Place. Just turn right and walk about 30 meters northeast along the sidewalk. You'll bump right into a compact greystone building at the corner, quietly prestigious, full of research offices. And it's where we'll stop next. Yeah, I think I can see it. I can see the building now. Can you tell me some interesting fact about it? It was officially unveiled in October 2015 and named to honor Doctor See David Naylor for his leadership in medical research. Now it houses key units of the Temerity Faculty of Medicine, including the Department of Medicine and the Institute of Medical Science. Want to hear a little trivia about the buildings, hidden quirks and this neighborhood? What can you tell me that trivia in Indonesia? OK, but give you a Mailer building such outrageous me Depeche October glass Dr. C David Naylor two we hold taste and doctor Doctor C David Naylor Stupini Guidoni monochrome unit unit. The only. Department to doctor and and institute ELMIA. OK, let's just go to our next stop. Perfect. Let's head over to the Legislative Assembly of Ontario. Just continue northeast from here for about 250 meters along the sidewalk. You'll pass the nailer building on your left and the big sandstone building with the copper cupola rising up ahead. Is the Ontario legislature OK? I'm actually a bit hungry right now. Can you find me some interesting place? To get a breakfast or coffee. Since you're hungry, how about we? 133 Richmond St. It's about 250 meters from here, just a quick left turn onto Richmond and a 5 minute walk. They've got a 4.5 star rating with over 200 reviews and people rave about their avocado toast. Want to grab a bite there before heading to Heart House? Yeah, sure. Let me just update the route to include Gold Struck first and then we'll head to heart.",
+        "uploadDate": "2026-11-10T18:15:06.169Z",
+        "activityUrn": "urn:li:activity:7525984396567269377",
+        "description": "Hackathon Winner Announcement: Winner 🏆\n\nA huge congratulations to team RoamAlong (Naufal Adityo, Rayan El Ghazzi, Priyanshu Dhingra and Alexander Khrulev), winners of the Higgs Audio Hackathon in collaboration with the Master of Science in Applied Computing (MScAC) team!\n\nRoamAlong is a hands-free walking guide that researches nearby places, plans a tour and tells you stories as you explore.\n\nCheck out their demo below.\n\nCheck out their GitHub here: https://lnkd.in/gHTghVJ5\n\nGreat job to the RoamAlong team! 🎉\n\n#Hackathon #AI #BosonAI #Toronto #UofT",
+        "commentCount": 0,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQFSPBXWARfY9Q/videocover-high/B56aHGqxbKIQBM-/0/1794334467572?e=2147483647&v=beta&t=kdU1ITQpauv8r0PNc-LqS-295Qe8GdxSBRePCQKM9oo",
+        "datePublished": "2026-11-10T18:15:06.169Z"
+      }
+    ],
+    "query": "2%Tech hackathon winner",
+    "cursor": "2",
+    "success": true
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00188",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:30:13.777Z",
+  "started_at": "2026-11-23T07:30:13.846Z",
+  "completed_at": "2026-11-23T07:30:21.183Z",
+  "task_id": "tsk_a2399d9b5d5fefae",
+  "metadata": {}
+}

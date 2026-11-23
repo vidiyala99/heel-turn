@@ -1,0 +1,122 @@
+{
+  "id": "4228524e-93cb-4fcd-8f93-887f9d367db5",
+  "run_url": "https://app.glasser.ai/runs/4228524e-93cb-4fcd-8f93-887f9d367db5",
+  "provider": "serper",
+  "endpoint": "/search",
+  "endpoint_version": 2,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "q": "Crewbase Collective hackathon winners"
+  },
+  "output": {
+    "organic": [
+      {
+        "link": "https://crewbasecollective.com/events/build-your-co-founder-hackathon-munnmrk8",
+        "title": "Build your Co Founder Hackathon - Crewbase Collective",
+        "snippet": "Winner Annoucements 8:00 PM – 10:00 PM. Founder @ Crewbase Collective Coding with AdaL. Yezhisai Murugesan · Founder @ Ask the W Colin Lowenberg · DevRel @ ...",
+        "position": 1,
+        "displayedLink": "https://crewbasecollective.com › events › build-your-co-founder-hacka..."
+      },
+      {
+        "link": "https://www.youtube.com/playlist?list=PLHTf8aeb05DE",
+        "title": "Crewbase Collective × Finch.AI (San Francisco 2026)",
+        "snippet": "Full talks and clips from the Universal Hackathon at the AWS Builder Loft in San Francisco on Monday 19 October 2026, organized by Crewbase Collective",
+        "position": 2,
+        "displayedLink": "https://www.youtube.com › playlist"
+      },
+      {
+        "link": "https://crewbasecollective.com/",
+        "title": "Crewbase Collective — Hackathons, Workshops & Events",
+        "snippet": "Building communities through hackathons, pitch competitions, workshops, and events that bring people together.",
+        "position": 3,
+        "displayedLink": "https://crewbasecollective.com"
+      },
+      {
+        "link": "https://www.instagram.com/reel/Devd6TeDAe6/",
+        "title": "what happens when creative people get together in sf :) talented creators ...",
+        "position": 4,
+        "displayedLink": "https://www.instagram.com › reel › Devd6TeDAe6"
+      },
+      {
+        "link": "https://www.linkedin.com/in/crewbase-collective",
+        "title": "Crewbase Collective - San Francisco, California, United States",
+        "snippet": "Location: 94107 · 35 connections on LinkedIn. View Crewbase Collective's profile on LinkedIn, a professional community of 1 billion members.",
+        "position": 5,
+        "displayedLink": "https://www.linkedin.com › in › crewbase-collective"
+      },
+      {
+        "date": "Sep 28, 2026",
+        "link": "https://partiful.com/e/0uiOA5nKmm7aFpcOe0gS",
+        "title": "Build Your AI-Co Founder Hackathon",
+        "snippet": "Build the Product challenge using AdaL prize: +1 month AdaL pro for the winners. Prizes: Gift cards for best context, most bugs found and an ...",
+        "position": 6,
+        "displayedLink": "https://partiful.com › e › 0uiOA5nKmm7aFpcOe0gS"
+      },
+      {
+        "date": "Oct 11, 2026",
+        "link": "https://www.hellyeahai.com/events/ai-native-startup-hackathon",
+        "title": "AI-Native Startup Hackathon - Hellyeah AI",
+        "snippet": "Exciting hackathon with over 10k cash and credit prizes and unique theme. having prizes for both Phases. Crewbase Collective is organization ...",
+        "position": 7,
+        "displayedLink": "https://www.hellyeahai.com › events › ai-native-startup-hackathon"
+      },
+      {
+        "date": "Nov 12, 2024",
+        "link": "https://solana.com/news/solana-radar-winners",
+        "title": "Announcing the Winners of the Solana Radar Hackathon",
+        "snippet": "The first prize goes to AlphaFC, a community platform for fan-operated sports teams, with an award of $30,000 in USDC. Additional prizes went to ...",
+        "position": 8,
+        "displayedLink": "https://solana.com › news › solana-radar-winners"
+      },
+      {
+        "link": "https://www.instagram.com/p/Den3iffFGuK/",
+        "title": "Congratulations to our AIC × CrowdStrike Hackathon winners ...",
+        "snippet": "Congratulations to our AIC × CrowdStrike Hackathon winners! Track 1 - Build: AI for SOC Analyst FalconBrief: Christopher Monroe",
+        "position": 9,
+        "displayedLink": "https://www.instagram.com › p › Den3iffFGuK"
+      },
+      {
+        "link": "https://crewbasecollective.com/events/applied-ai-intelligence-hackathon-ms5uf6tt",
+        "title": "Applied AI Intelligence Hackathon - Crewbase Collective",
+        "snippet": "Winners Announcement and Demos. Wednesday, Jun 3. 5:00 PM – 7:00 PM ... Get updates on upcoming hackathons, workshops, and community events across the Bay Area.",
+        "position": 10,
+        "displayedLink": "https://crewbasecollective.com › events › applied-ai-intelligence-hac..."
+      }
+    ],
+    "peopleAlsoAsk": [
+      {
+        "question": "What is the prize for the winner of a hackathon?"
+      },
+      {
+        "question": "Can I use ChatGPT in Hackathon?"
+      },
+      {
+        "question": "Is the Google Girl hackathon individual?"
+      },
+      {
+        "question": "What is the largest hackathon in the world?"
+      }
+    ],
+    "searchParameters": {
+      "q": "Crewbase Collective hackathon winners",
+      "type": "search",
+      "engine": "google"
+    }
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.001",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:30:13.921Z",
+  "started_at": "2026-11-23T07:30:14.174Z",
+  "completed_at": "2026-11-23T07:30:16.226Z",
+  "task_id": "tsk_74bda46026fdde4e",
+  "metadata": {}
+}

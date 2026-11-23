@@ -1,0 +1,640 @@
+{
+  "id": "22443fa0-cb1a-424e-88bb-33fb18736faf",
+  "run_url": "https://app.glasser.ai/runs/22443fa0-cb1a-424e-88bb-33fb18736faf",
+  "provider": "scrapecreators",
+  "endpoint": "/v1/linkedin/search/posts",
+  "endpoint_version": 4,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "query": "won BAND prize hackathon agents",
+    "date_posted": "last-month"
+  },
+  "output": {
+    "posts": [
+      {
+        "url": "https://www.linkedin.com/posts/larchenko_a-follow-up-to-our-9th-place-in-the-behavior-activity-7527086202777300992-YDAn",
+        "name": "A follow-up to our 9th place in the BEHAVIOR Challenge 2026: as promised, we open-sourced everything, and our team received the Open Source Prize 🏆\n\nOur solution is one VLA policy for all 100… | Ilia Larchenko",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5605AQFbmYR5UUYZpA/mp4-720p-30fp-crf28/B56aHWU9_8HUCA-/0/1794597190904?e=2147483647&v=beta&t=-PUJmq4_KLtSZLQg3uc1MKsmEZ0T3uiU2QmMJnBZiJI",
+        "author": {
+          "url": "https://th.linkedin.com/in/larchenko",
+          "name": "Ilia Larchenko",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQEhIFTnxBEa2w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1707732561897?e=2147483647&v=beta&t=Yw5p5Qmejxz40u_Mo2uRhnDOBlqxO60hbnD2KeSg5gk",
+          "followers": 6940
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7527267785081733120",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7527086146154102784,7527267785081733120)",
+            "text": "Go Go Go",
+            "author": "Alex de Vigan",
+            "linkedinUrl": "https://www.linkedin.com/in/alex-de-vigan-26388015",
+            "datePublished": "2026-11-14T07:14:49.836Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 79,
+        "contentUrn": "urn:li:ugcPost:7527086146154102784",
+        "uploadDate": "2026-11-13T19:13:17.240Z",
+        "activityUrn": "urn:li:activity:7527086202777300992",
+        "description": "A follow-up to our 9th place in the BEHAVIOR Challenge 2026: as promised, we open-sourced everything, and our team received the Open Source Prize 🏆\n\nOur solution is one VLA policy for all 100 household tasks (39.2%), plus a GPT-6 Astra coding agent that practices on training instances and takes over the hardest tasks (44.6% in total).\n\nIt was also great to see that many teams this year, including the top two, built on our open-source solution from last year. That's exactly why we share our work.\n\n📝 Blog post: https://lnkd.in/gHe2unfv\n📄 Tech report: https://lnkd.in/gFwMFZsZ\n🔧 Code: https://lnkd.in/gUM8iFrn\n🤗 Weights: https://lnkd.in/gKYbmM6R",
+        "commentCount": 1,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQFbmYR5UUYZpA/videocover-high/B56aHWU9_8HUBQ-/0/1794597187341?e=2147483647&v=beta&t=nKbbWHid0gOZsrK68BGmdbTpNCT8A3OmB2c-k7sPaGE",
+        "datePublished": "2026-11-13T19:13:17.240Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/andrea-pullen_andrea-pullen-meta-global-ai-developer-activity-7525631070155956224-bmZV",
+        "image": null,
+        "media": null,
+        "author": {
+          "url": "https://www.linkedin.com/in/andrea-pullen",
+          "name": "Andrea Pullen",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQGVev571FzC6Q/profile-displayphoto-scale_200_200/B56aGAEK4oKAAc-/0/1793149940046?e=2147483647&v=beta&t=RlBrmY2NSHAqPg3hvN8hQBbG5CREIXrDH1YrvjjX2CE",
+          "followers": 347
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7525914980471201793",
+            "urn": "urn:li:comment:(urn:li:activity:7525631070155956224,7525914980471201793)",
+            "text": "Congrats Andrea!",
+            "author": "Marven Sparks Jr",
+            "linkedinUrl": "https://www.linkedin.com/in/marven-sparks-jr-b41296248",
+            "datePublished": "2026-11-10T13:39:16.083Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 4,
+        "contentUrn": "urn:li:share:7525631069497446401",
+        "activityUrn": "urn:li:activity:7525631070155956224",
+        "description": "🥳I’m so excited to have been selected to participate in Meta’s AI global hackathon! Check out my project here:\n\nhttps://lnkd.in/g6Z4Fj5c",
+        "commentCount": 1,
+        "datePublished": "2026-11-09T18:51:06.587Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/aidenguan_saw-a-post-similar-to-a-project-ive-been-activity-7526932544190119936-322p",
+        "name": "Saw a post similar to a project I’ve been working on, so I wanted to share.\n\nCourtVision turns a single-camera NBA broadcast into possessions, makes and misses, rebounds and a box score, running… | Aiden Guan | 14 comments",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5605AQGBKiQItN4LlA/mp4-640p-30fp-crf28/B56aHUJO8hHgB4-/0/1794560555337?e=2147483647&v=beta&t=o8z8bPD4P_GNztA-D5Sy2BDBs8jbrCzs2f-k9PHabkE",
+        "author": {
+          "url": "https://www.linkedin.com/in/aidenguan",
+          "name": "Aiden Guan",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQEMoGL4arEZGQ/profile-displayphoto-scale_200_200/B56aBvc5uHJsAc-/0/1788576246916?e=2147483647&v=beta&t=K0r8yXKjlfTcDVHOaADg_O6QmNV4CTLLimUxadgD-J8",
+          "followers": 936
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7527611108791136256",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526932501840433152,7527611108791136256)",
+            "text": "Distilling the ResNet-18 CenterNet from RF-DETR so it still catches a blurred ball is a smart trade off. Getting 97% on possession for recorded games is strong. How did you handle the rim CNN when the view is partly blocked?",
+            "author": "Aum Lenka",
+            "linkedinUrl": "https://in.linkedin.com/in/aum-lenka",
+            "datePublished": "2026-11-15T05:59:04.588Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7527959200153509888",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526932501840433152,7527959200153509888)",
+            "text": "how does jev play into edge cases such as ball stuck on the rim",
+            "author": "Ryder Xue",
+            "linkedinUrl": "https://www.linkedin.com/in/ryder-xue",
+            "datePublished": "2026-11-16T05:02:16.036Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7527778227877126144",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526932501840433152,7527778227877126144)",
+            "text": "What a coincidence🤣, I worked on this footage too, to test my tool",
+            "author": "İlkin Alishov",
+            "linkedinUrl": "https://az.linkedin.com/in/ilkin-alishov-13014837b",
+            "datePublished": "2026-11-15T17:03:08.883Z",
+            "reactionCount": 3,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526935900325482496",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526932501840433152,7526935900325482496)",
+            "text": "so this is what Claude is slaving on everyday",
+            "author": "Allen Hsieh",
+            "linkedinUrl": "https://www.linkedin.com/in/allenkhsieh",
+            "datePublished": "2026-11-13T09:16:02.345Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7528696485400580096",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526932501840433152,7528696485400580096)",
+            "text": "Aiden Guan how do you train Jev on “how big moment is” and what was the accuracy rate?",
+            "author": "Joseph S.",
+            "linkedinUrl": "https://www.linkedin.com/in/josephsobocan",
+            "datePublished": "2026-11-18T05:51:58.537Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "5d"
+          },
+          {
+            "id": "7527033725247823873",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526932501840433152,7527033725247823873)",
+            "text": "Awesome project! Did something similar. Sports analytics with computer vision has some real use cases for coaches and scouts. This could be productized! 🔥",
+            "author": "Timothy Do",
+            "linkedinUrl": "https://www.linkedin.com/in/do-timothy",
+            "datePublished": "2026-11-13T15:44:45.624Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526964961999290368",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526932501840433152,7526964961999290368)",
+            "text": "this is the most technical project i've ever seen a business major work on!",
+            "author": "Dylan Nguyen",
+            "linkedinUrl": "https://www.linkedin.com/in/dylan-nguyen-b765482a8",
+            "datePublished": "2026-11-13T11:11:31.188Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 90,
+        "contentUrn": "urn:li:ugcPost:7526932501840433152",
+        "uploadDate": "2026-11-13T09:02:42.178Z",
+        "activityUrn": "urn:li:activity:7526932544190119936",
+        "description": "Saw a post similar to a project I’ve been working on, so I wanted to share.\n\nCourtVision turns a single-camera NBA broadcast into possessions, makes and misses, rebounds and a box score, running locally on a Mac.\n\nHow it works:\n• Detection: a ResNet-18 CenterNet distilled from RF-DETR looks at 3 frames at once, so a blurred ball still stands out. It runs on Apple’s Neural Engine.\n• Court mapping: A broadcast camera only pans, tilts and zooms, so those are the only things it fits per frame.\n• Events: a rules engine turns the tracks into possessions, shots and rebounds. A small rim CNN re-judges every make or miss 2.5 s later.\n• Decision layer: Jev calls the play type, how big the moment is, and whether each line of Claude’s commentary is backed by the facts. Each call has a deadline of 1.5 s or less and a rule-based fallback.\nLive vs recorded:\n• Live: 21–30 fps against a 30 fps broadcast on an M3 Pro. Working towards getting it to live level, could probably do it with more compute.\n• Recorded: decides possession over the whole game at once, and gets the team with the ball right 97% of the time on held-out footage. The model has only been trained on ~42 games, a few shorter clips.\n\nCode: https://lnkd.in/gcC_J4Da\n(Note: have't worked on this in a bit, open to improvements)",
+        "commentCount": 14,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQGBKiQItN4LlA/videocover-high/B56aHUJO8hHgBM-/0/1794560554030?e=2147483647&v=beta&t=QO6HqpG_1U-QQ-F5P_gU4QPv0r16LcdoVde0OLCmIRg",
+        "datePublished": "2026-11-13T09:02:42.178Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/arlequin-ai_hackprinceton-hackathon-ai-activity-7527160532894859264-zPg5",
+        "image": null,
+        "media": null,
+        "author": {
+          "url": "https://www.linkedin.com/company/arlequin-ai",
+          "name": "Arlequin AI",
+          "image": "https://media.licdn.com/dms/image/v2/D4E0BAQFwmw8UzWpVlQ/company-logo_100_100/B4EZ5tyApWG0AI-/0/1779958287251/arlequin_ai_logo?e=2147483647&v=beta&t=unR5hDoyUIz3_J1Alb1a29Jagdd-yjBAB0-HgeHl84k",
+          "followers": 6772
+        },
+        "images": [],
+        "comments": [],
+        "likeCount": 28,
+        "contentUrn": "urn:li:share:7527160531733037057",
+        "activityUrn": "urn:li:activity:7527160532894859264",
+        "description": "🚀 We’re thrilled to share that Arlequin AI is a gold sponsor of HackPrinceton, Princeton University’s bi-annual, student-organized hackathon!\n\nWe’re proposing two tracks for hackers who want to push themselves on real-world AI challenges:\n\n🔎 AI-driven Forensics\n🌐 Next-Gen AI Social Media Analysis\n\nThe hackathon kicks off tonight, and we’ll be on campus ground all weekend:\n\n📍 Saturday, 11:00 AM — JRR Atrium: Come find us at the career fair to chat, exchange ideas, and meet the team.\n🎤 Saturday 2PM — Friend 101: Our co-founders Hugo Micheron and Antoine JARDIN will give a talk on “Hybrid Societies in the Time of Increasing AI Capabilities.” Stick around afterward to meet the team and continue the conversation!\n\nA huge thank you to the student organizers who put this event together, and a special shout-out to Mohemeen, Arlequin’s alumni who was an incredible intern last summer and who is now helping bring HackPrinceton to life! 👏\n\nWhether you’re deep in your project or need a break from debugging, come say hi. We can’t wait to see what you build!\n\nLooking forward to meeting all the hackers 👀\n\n#HackPrinceton #Hackathon #AI #Forensics #NextGenSocialMediaAnalysis #Princeton",
+        "commentCount": 0,
+        "datePublished": "2026-11-14T00:08:38.921Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/tryvexoai_ai-wearables-vexohacks-activity-7526020211951665152-FEHU",
+        "name": "#ai #wearables #vexohacks | Vexo | 24 comments",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5605AQE-wKCix7uV0g/mp4-640p-30fp-crf28/B56aHHLcdVG4B4-/0/1794343034006?e=2147483647&v=beta&t=h7-raZ3Q_dW5b9masCsFOvauD9gux53BG1wxtw-xxNw",
+        "author": {
+          "url": "https://www.linkedin.com/company/tryvexoai",
+          "name": "Vexo",
+          "image": "https://media.licdn.com/dms/image/v2/D560BAQHWkrrtKrfE7g/company-logo_100_100/B56aELL1oFKQAI-/0/1791189015297/tryvexoai_logo?e=2147483647&v=beta&t=OTQIpg4emhp8VXwB5ne1Qz29VJLgbRefsi_WWOG2V48",
+          "followers": 683
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7526636931515060224",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526020142355533825,7526636931515060224)",
+            "text": "The best wearable earns its place on your wrist. What would you build for a moment when reaching for your phone is already too late?",
+            "author": "Daniel Cham MD",
+            "linkedinUrl": "https://www.linkedin.com/in/daniel-cham-md-669036285",
+            "datePublished": "2026-11-12T13:28:02.625Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526282205346590720",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526020142355533825,7526282205346590720)",
+            "text": "What inspired this one?",
+            "author": "Adam J Creedy",
+            "linkedinUrl": "https://es.linkedin.com/in/adam-j-creedy",
+            "datePublished": "2026-11-11T13:58:29.317Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526235400734953474",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526020142355533825,7526235400734953474)",
+            "text": "Everytime I see something like this I wish someone could fly me out or allow me to live in Cali because this is too fire 🔥",
+            "author": "Oluwatoyin Adande Kinti",
+            "linkedinUrl": "https://www.linkedin.com/in/olukinti",
+            "datePublished": "2026-11-11T10:52:30.228Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7527407156313124864",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526020142355533825,7527407156313124864)",
+            "text": "🔥🔥🔥",
+            "author": "Christopher Donaldson",
+            "linkedinUrl": "https://www.linkedin.com/in/christopher-donaldsonjr",
+            "datePublished": "2026-11-14T16:28:38.528Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526653347546869760",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526020142355533825,7526653347546869760)",
+            "text": "wooh that is insane wearables are the future",
+            "author": "Ruba Shakir",
+            "linkedinUrl": "https://pk.linkedin.com/in/ruba-shakir-bb8906327",
+            "datePublished": "2026-11-12T14:33:16.513Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526021095787941889",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526020142355533825,7526021095787941889)",
+            "text": "🤝🤝🤝",
+            "author": "Asad Hussain",
+            "linkedinUrl": "https://ca.linkedin.com/in/syed-ah",
+            "datePublished": "2026-11-10T20:40:55.947Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526060229978054657",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526020142355533825,7526060229978054657)",
+            "text": "bump",
+            "author": "Farqaleet Kiani",
+            "linkedinUrl": "https://www.linkedin.com/in/kianif",
+            "datePublished": "2026-11-10T23:16:26.265Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7528126405671366657",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526020142355533825,7528126405671366657)",
+            "text": "Good work",
+            "author": "Ehsan Kiani",
+            "linkedinUrl": "https://pk.linkedin.com/in/ehsan-kiani-936a74441",
+            "datePublished": "2026-11-16T16:06:40.938Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "6d"
+          },
+          {
+            "id": "7527958840395423744",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526020142355533825,7527958840395423744)",
+            "text": "holy wow!",
+            "author": "Pavan Kumar",
+            "linkedinUrl": "https://www.linkedin.com/in/pavankumarny",
+            "datePublished": "2026-11-16T05:00:50.262Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526058830435287040",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526020142355533825,7526058830435287040)",
+            "text": "lets go",
+            "author": "Haris Malik",
+            "linkedinUrl": "https://www.linkedin.com/in/haris-malik-",
+            "datePublished": "2026-11-10T23:10:52.587Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 354,
+        "contentUrn": "urn:li:ugcPost:7526020142355533825",
+        "transcript": "Hey guys, it's Kiani, Vikram and Hayes from Vexor. This Saturday, November 14th, we're hosting the hottest I Variable hackathon of the year at YC in San Francisco. You'll get to build with our very own bracelets. There are multiple tracks, vision, voice and building with the world around you. We've got over $15,000 in prizes, including some really cool AI wearables and the winning team also gets a WC final round interview. Our sponsors include Open AI, Google DeepMind, Brex, Stripe, Mastra. And more of your favorite companies. Sign up now. Spots are limited. See you on Saturday.",
+        "uploadDate": "2026-11-10T20:37:25.221Z",
+        "activityUrn": "urn:li:activity:7526020211951665152",
+        "description": "The hottest AI wearables hackathon of the year is almost here. 🔥\n\n$15,000+ in prizes. A YC final interview for the winning team. One day to build something people haven’t seen before.\n\nOn November 14, we’re bringing VexoHacks to Y Combinator in San Francisco for a full day of building with AI wearables, voice and vision.\n\nBring your ideas. We’ll have Vexo bracelets ready for teams who want to build with our voice tech.\n\nHuge thanks to OpenAI , Google DeepMind, ElevenLabs , Stripe , Brex , Mastra , MiniMax and Superserve (YC F26) for making it happen.\nLimited capacity. Entry by application only.\n\nApply before it’s too late.\n👉 https://lnkd.in/gQwSWuMr\n#AI #Wearables #VexoHacks",
+        "commentCount": 24,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQE-wKCix7uV0g/videocover-high/B56aHHLcdVG4BM-/0/1794343030952?e=2147483647&v=beta&t=58cRcCkCpv7BVu4P1RGLUodaQjioXDQnoRzbrFV8HxM",
+        "datePublished": "2026-11-10T20:37:25.221Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/zoezhouyt912_aiforclimate-cop31-climatetech-activity-7524496615735283712-OFGh",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQHXtEE1PsrERA/feedshare-shrink_1280/B4EaGxhzHJHwAI-/0/1793979790047?e=2147483647&v=beta&t=KkkOE4PLbXKY0a9709tS1WIxQaWsyFRLZ7ecJJCgMxo",
+        "media": "https://media.licdn.com/dms/image/v2/D4E22AQHXtEE1PsrERA/feedshare-shrink_1280/B4EaGxhzHJHwAI-/0/1793979790047?e=2147483647&v=beta&t=KkkOE4PLbXKY0a9709tS1WIxQaWsyFRLZ7ecJJCgMxo",
+        "author": {
+          "url": "https://uk.linkedin.com/in/zoezhouyt912",
+          "name": "Zoe Zhou",
+          "image": "https://media.licdn.com/dms/image/v2/D4E03AQHXotP9yBxefw/profile-displayphoto-scale_200_200/B4EZwEMfGYKAAc-/0/1769596910041?e=2147483647&v=beta&t=xDo5dvTuX4yQnqGgn-FS038fvdHHAYpbRgnrHmiACx4",
+          "followers": 1621
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D4E22AQHXtEE1PsrERA/feedshare-shrink_1280/B4EaGxhzHJHwAI-/0/1793979790047?e=2147483647&v=beta&t=KkkOE4PLbXKY0a9709tS1WIxQaWsyFRLZ7ecJJCgMxo"
+        ],
+        "comments": [
+          {
+            "id": "7524496789538795522",
+            "urn": "urn:li:comment:(urn:li:activity:7524496615735283712,7524496789538795522)",
+            "text": "Link to apply for Online Hackathon 14th - 15th Nov: https://luma.com/ag12jspz",
+            "author": "Zoe Zhou",
+            "linkedinUrl": "https://uk.linkedin.com/in/zoezhouyt912",
+            "datePublished": "2026-11-06T15:43:53.017Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7524496982590103552",
+            "urn": "urn:li:comment:(urn:li:activity:7524496615735283712,7524496982590103552)",
+            "text": "Join our AI for Climate London Hub Social on Friday 13th Nov: https://luma.com/mynoetic-fpci",
+            "author": "Zoe Zhou",
+            "linkedinUrl": "https://uk.linkedin.com/in/zoezhouyt912",
+            "datePublished": "2026-11-06T15:44:39.044Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7528426719297548288",
+            "urn": "urn:li:comment:(urn:li:activity:7524496615735283712,7528426719297548288)",
+            "text": "The sustainability reporting challenge stood out to me, Zoe! AI could be useful for identifying claims that need a closer look, but the real value comes from checking the evidence behind them. Curious to see what the teams come up with at COP31!",
+            "author": "Chenyang Bai",
+            "linkedinUrl": "https://www.linkedin.com/in/chenyangbai",
+            "datePublished": "2026-11-17T12:00:01.285Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "5d"
+          },
+          {
+            "id": "7524568762251939841",
+            "urn": "urn:li:comment:(urn:li:activity:7524496615735283712,7524568762251939841)",
+            "text": "Flagging unsupported claims in sustainability reports at scale is the tool that makes greenwashing costly instead of just embarrassing",
+            "author": "Lenon Muma",
+            "linkedinUrl": "https://uk.linkedin.com/in/lenon-muma",
+            "datePublished": "2026-11-06T20:29:52.649Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2w"
+          }
+        ],
+        "likeCount": 25,
+        "contentUrn": "urn:li:share:7524496614372061185",
+        "activityUrn": "urn:li:activity:7524496615735283712",
+        "description": "Noetic Hack is back, and this time we're taking AI builders to COP31 Türkiye 🌍\n\nWith ATOX, we're running AI for Climate, an online hackathon where you spend a weekend building an AI prototype for a real climate problem. Selected teams present at the GAUC Pavilion during COP31, the United Nations climate summit in Antalya, and meet climate experts and potential partners there.\n\nYou don't need a climate background. If you build with AI, this is a good weekend to find out whether climate is a problem you want to keep working on.\n\nThe kind of questions teams are tackling:\n• Forecasting tomorrow's solar and wind output well enough for the grid to plan around it\n• Spotting methane leaks or illegal logging from satellite images\n• Predicting which streets will flood in the next storm and warning residents in time\n• Flagging claims in sustainability reports that don't hold up\n\n12 Nov: Lightning pitches\n13 Nov: Teams finalised\n14–15 Nov: Online build, mentor feedback and demos\n18 Nov: Selected teams present at COP31\n\nApply solo or as a team of 4 to 6 by 13 Nov:\n\n🌐: https://luma.com/ag12jspz\n\nApplying from London? Join our London hub social on Fri 13 Nov, 6 to 9pm, to meet other London hackers and form your team before the build. Climate tech folks are welcome too.\n\nLimited spots:\n‼️: https://lnkd.in/epNxFk9p\n\n#AIforClimate #COP31 #ClimateTech #Hackathon",
+        "commentCount": 4,
+        "datePublished": "2026-11-06T15:43:11.577Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/peter-richards-70582261_excited-to-welcome-jake-belman-to-parkalytics-activity-7526264622535036929-aP9K",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQHEDz2Pwa4KBw/feedshare-shrink_800/B56aHKpylYJoAg-/0/1794401315425?e=2147483647&v=beta&t=sTsEdGFEFs9_o15sS6U8xwr2ITns853YolOR7TW7zZI",
+        "media": "https://media.licdn.com/dms/image/v2/D5622AQHEDz2Pwa4KBw/feedshare-shrink_800/B56aHKpylYJoAg-/0/1794401315425?e=2147483647&v=beta&t=sTsEdGFEFs9_o15sS6U8xwr2ITns853YolOR7TW7zZI",
+        "author": {
+          "url": "https://ca.linkedin.com/in/peter-richards-70582261",
+          "name": "Peter Richards",
+          "followers": 2464
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D5622AQHEDz2Pwa4KBw/feedshare-shrink_800/B56aHKpylYJoAg-/0/1794401315425?e=2147483647&v=beta&t=sTsEdGFEFs9_o15sS6U8xwr2ITns853YolOR7TW7zZI"
+        ],
+        "comments": [
+          {
+            "id": "7528074806706147328",
+            "urn": "urn:li:comment:(urn:li:activity:7526264622535036929,7528074806706147328)",
+            "text": "Getting the band back together! Bringing someone who already built ML and computer vision work with you at CurbIQ should speed things up a lot on the drone data side. Looking forward to seeing what you're keeping under wraps.",
+            "author": "Fahad Ullah",
+            "linkedinUrl": "https://pk.linkedin.com/in/fahadsemanticseo",
+            "datePublished": "2026-11-16T12:41:38.786Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "6d"
+          },
+          {
+            "id": "7526269587814965249",
+            "urn": "urn:li:comment:(urn:li:activity:7526264622535036929,7526269587814965249)",
+            "text": "Congratulations Jake Belman  💐",
+            "author": "Prem Kumar Thogiti",
+            "linkedinUrl": "https://in.linkedin.com/in/prem-thogiti",
+            "datePublished": "2026-11-11T13:08:21.063Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526617330198413313",
+            "urn": "urn:li:comment:(urn:li:activity:7526264622535036929,7526617330198413313)",
+            "text": "Way to go,  Jake!",
+            "author": "Doug Parker",
+            "linkedinUrl": "https://ca.linkedin.com/in/doug-parker-97bb2a15",
+            "datePublished": "2026-11-12T12:10:09.308Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526361944681762817",
+            "urn": "urn:li:comment:(urn:li:activity:7526264622535036929,7526361944681762817)",
+            "text": "Congrats Jake Belman, you're going to have a lot of fun!",
+            "author": "Michael Vaux",
+            "linkedinUrl": "https://www.linkedin.com/in/michael-vaux-a17696103",
+            "datePublished": "2026-11-11T19:15:20.656Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526367927122415616",
+            "urn": "urn:li:comment:(urn:li:activity:7526264622535036929,7526367927122415616)",
+            "text": "Congratulations!",
+            "author": "Jimenez Armine",
+            "linkedinUrl": "https://www.linkedin.com/in/jimenez-armine-5055ab183",
+            "datePublished": "2026-11-11T19:39:06.980Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526268605890674689",
+            "urn": "urn:li:comment:(urn:li:activity:7526264622535036929,7526268605890674689)",
+            "text": "Congratulations Jake Belman!!!!",
+            "author": "Gonzalo Martínez Santos",
+            "linkedinUrl": "https://uk.linkedin.com/in/gonzalo-ms",
+            "datePublished": "2026-11-11T13:04:26.954Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 77,
+        "contentUrn": "urn:li:share:7526264620454559744",
+        "activityUrn": "urn:li:activity:7526264622535036929",
+        "description": "🎉 Excited to welcome Jake Belman to Parkalytics! 🚀\n\nI had the pleasure of working with Jake for several years at CurbIQ, where he was behind some of our most innovative software initiatives. From machine learning and computer vision to automating complex processes, he consistently found creative ways to solve challenging problems as CurbIQ expanded globally.\n\nAs we continue to grow Parkalytics, I'm excited to be working together again. He'll be helping us refine our processes, strengthen our software architecture, and accelerate our growing pipeline of software enhancements and new products. There are a few exciting things in the works that we're not quite ready to share yet. 👀\n\nLooking forward to seeing what we come up with this time around!",
+        "commentCount": 6,
+        "datePublished": "2026-11-11T12:48:37.246Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/ohad-pollak-90b6192_was-chatting-with-joanna-braunold-from-my-activity-7526191590089048064-8L-S",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQEBNQBQtohe2w/feedshare-shrink_800/B4EaHJnXh7JQAg-/0/1794383903355?e=2147483647&v=beta&t=pCCrFoCGswu6Qjcn5j31t_7fjD0x8eogKAYA0U5EQGA",
+        "media": "https://media.licdn.com/dms/image/v2/D4E22AQEBNQBQtohe2w/feedshare-shrink_800/B4EaHJnXh7JQAg-/0/1794383903355?e=2147483647&v=beta&t=pCCrFoCGswu6Qjcn5j31t_7fjD0x8eogKAYA0U5EQGA",
+        "author": {
+          "url": "https://il.linkedin.com/in/ohad-pollak-90b6192",
+          "name": "Ohad Pollak",
+          "followers": 6425
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D4E22AQEBNQBQtohe2w/feedshare-shrink_800/B4EaHJnXh7JQAg-/0/1794383903355?e=2147483647&v=beta&t=pCCrFoCGswu6Qjcn5j31t_7fjD0x8eogKAYA0U5EQGA",
+          "https://static.licdn.com/aero-v1/sc/h/dur0ryw0e9uscxa9b6zqvgvfs"
+        ],
+        "comments": [
+          {
+            "id": "7527365021178421250",
+            "urn": "urn:li:comment:(urn:li:activity:7526191590089048064,7527365021178421250)",
+            "text": "Remember the joke about how NASA spent years and $$$ to develop a pen that can write in zero gravity, and the Russians just used a pencil?\n\nWell, a Russian would probably leave their phone right next to the shower and use \"Hey Siri!\"...",
+            "author": "Gilad Nass",
+            "linkedinUrl": "https://il.linkedin.com/in/giladn",
+            "datePublished": "2026-11-14T13:41:12.729Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526224547662946304",
+            "urn": "urn:li:comment:(urn:li:activity:7526191590089048064,7526224547662946304)",
+            "text": "Leave the shower untouched, dear G-d!",
+            "author": "Rachel Glaser",
+            "linkedinUrl": "https://il.linkedin.com/in/rachel-glaser-a2ba0236",
+            "datePublished": "2026-11-11T10:09:22.654Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526335097315258369",
+            "urn": "urn:li:comment:(urn:li:activity:7526191590089048064,7526335097315258369)",
+            "text": "So dedicated to the hustle, he posted a LinkedIn status from his shower...",
+            "author": "Ari Soffer",
+            "linkedinUrl": "https://il.linkedin.com/in/ari-soffer-9222b143",
+            "datePublished": "2026-11-11T17:28:39.745Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 25,
+        "contentUrn": "urn:li:share:7526191588742643714",
+        "activityUrn": "urn:li:activity:7526191590089048064",
+        "description": "Was chatting with Joanna Braunold from my team today about how our brains work in mysterious ways.\n\nThe exact moments my mind decides to produce absolute genius, or just figure out the exact next tasks I should actually be working on:\n❌ During a 2-hour brainstorming meeting.\n❌ Staring blankly at a laptop with a triple espresso.\n✔️ 2 minutes into a hot shower with shampoo in my eyes.\n\nThe problem? By the time I turn off the water, grab a towel, and find my phone, that insight has evaporated into thin air, leaving me with nothing but a faint scent of lavender and regret.\n\nForget sending people to Mars, Elon. We need the waterproof Grok Bot Shower Button™️ next to the loofah. Modern problems require wet-fingered solutions.\nLet us dictate our shower thoughts before they go down the drain! 🚿💡\n(Attached: A preview of the only upgrade my bathroom actually needs 👇, generated by Gemini - I love Agents Collaboration 😊 )",
+        "commentCount": 3,
+        "datePublished": "2026-11-11T07:58:24.954Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/winston-yan-5a5580295_ive-been-recently-in-the-recruiting-weeds-activity-7527079092270174208-Aqef",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQFDphaorRxdOA/feedshare-shrink_800/B56aHU4Z2zG4Ak-/0/1794572918431?e=2147483647&v=beta&t=lYQVTKNmS3_OwakPsxB-_sOrJ1WTurkeyKpo1XBkfVw",
+        "media": "https://media.licdn.com/dms/image/v2/D5622AQFDphaorRxdOA/feedshare-shrink_800/B56aHU4Z2zG4Ak-/0/1794572918431?e=2147483647&v=beta&t=lYQVTKNmS3_OwakPsxB-_sOrJ1WTurkeyKpo1XBkfVw",
+        "author": {
+          "url": "https://www.linkedin.com/in/winston-yan-5a5580295",
+          "name": "Winston Yan",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQGCTAqgyLkoaQ/profile-displayphoto-shrink_200_200/B56ZSX8WjNHsAY-/0/1737715968968?e=2147483647&v=beta&t=aICjPJaj-a6u7um_71PJEOKCP5mXI7-sROVTVfv-a74",
+          "followers": 699
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D5622AQFDphaorRxdOA/feedshare-shrink_800/B56aHU4Z2zG4Ak-/0/1794572918431?e=2147483647&v=beta&t=lYQVTKNmS3_OwakPsxB-_sOrJ1WTurkeyKpo1XBkfVw"
+        ],
+        "comments": [
+          {
+            "id": "7527980987671105536",
+            "urn": "urn:li:comment:(urn:li:activity:7527079092270174208,7527980987671105536)",
+            "text": "wowww",
+            "author": "Rohtak Patwardhan",
+            "linkedinUrl": "https://www.linkedin.com/in/rohtak-patwardhan",
+            "datePublished": "2026-11-16T06:28:50.585Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7527388513017970689",
+            "urn": "urn:li:comment:(urn:li:activity:7527079092270174208,7527388513017970689)",
+            "text": "Congratulations 🎈🎊🍾🎉",
+            "author": "Ronald Chiu",
+            "linkedinUrl": "https://www.linkedin.com/in/ronald-chiu-7590aa17",
+            "datePublished": "2026-11-14T15:14:33.620Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7527170534720122880",
+            "urn": "urn:li:comment:(urn:li:activity:7527079092270174208,7527170534720122880)",
+            "text": "Let me see what I can make happen Winston",
+            "author": "Logan Kim",
+            "linkedinUrl": "https://www.linkedin.com/in/logan-js-kim",
+            "datePublished": "2026-11-14T00:48:23.544Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7528131060338057217",
+            "urn": "urn:li:comment:(urn:li:activity:7527079092270174208,7528131060338057217)",
+            "text": "Congrats Winston! Crushing it",
+            "author": "Julia Burnham",
+            "linkedinUrl": "https://www.linkedin.com/in/juliaburnham",
+            "datePublished": "2026-11-16T16:25:10.697Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "6d"
+          },
+          {
+            "id": "7527088381353361408",
+            "urn": "urn:li:comment:(urn:li:activity:7527079092270174208,7527088381353361408)",
+            "text": "the goat 🔥",
+            "author": "Ohm Rajpal",
+            "linkedinUrl": "https://www.linkedin.com/in/ohmrajpal",
+            "datePublished": "2026-11-13T19:21:56.655Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7527089356453564416",
+            "urn": "urn:li:comment:(urn:li:activity:7527079092270174208,7527089356453564416)",
+            "text": "Goated",
+            "author": "Zhen Liu",
+            "linkedinUrl": "https://www.linkedin.com/in/zh3nl",
+            "datePublished": "2026-11-13T19:25:49.136Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 58,
+        "contentUrn": "urn:li:share:7526984374894907393",
+        "activityUrn": "urn:li:activity:7527079092270174208",
+        "description": "I've been recently in the recruiting weeds (While they're out partying, btw).\n\nBut I've got GOOGLE!! 😛 😛 😛\n\nBuuuuuut it's just team matching for now 😩 (Ahhhh almost almost almost).\n\nHowever, this does mean that I am actively looking for a team and project to bring my talents to. I'm super passionate about anything Systems or Cybersecurity (that's you GCP), and would love to chat or connect if you're looking for interns!\n\n(giggles for engagement)",
+        "commentCount": 7,
+        "datePublished": "2026-11-13T18:45:01.963Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/bianca-andreea-buzea_i-drank-beer-brewed-by-ai-agents-activity-7520068450816331776-oPS0",
+        "image": "https://media.licdn.com/dms/image/v2/D4D1FAQEBNEX-v7_5HA/feedshare-document-images_1920/B4DaFykefYJIAo-/1/1792923528590?e=1796256000&v=beta&t=drLcdpbnhWvmNYhuNjbyTsldq7sxhyeVUOEDrEqy_6I",
+        "media": "https://media.licdn.com/dms/image/v2/D4D1FAQEBNEX-v7_5HA/feedshare-document-images_1920/B4DaFykefYJIAo-/1/1792923528590?e=1796256000&v=beta&t=drLcdpbnhWvmNYhuNjbyTsldq7sxhyeVUOEDrEqy_6I",
+        "author": {
+          "url": "https://de.linkedin.com/in/bianca-andreea-buzea",
+          "name": "Bianca Buzea",
+          "followers": 3837
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D4D1FAQEBNEX-v7_5HA/feedshare-document-images_1920/B4DaFykefYJIAo-/1/1792923528590?e=1796256000&v=beta&t=drLcdpbnhWvmNYhuNjbyTsldq7sxhyeVUOEDrEqy_6I",
+          "https://media.licdn.com/dms/image/v2/D4D1FAQEBNEX-v7_5HA/feedshare-document-images_1920/B4DaFykefYJIAo-/2/1792923528590?e=1796256000&v=beta&t=clW0yIId0jdZemVlSHnTwQ33rUhkbIcHxR0HyBG9U_Y",
+          "https://media.licdn.com/dms/image/v2/D4D1FAQEBNEX-v7_5HA/feedshare-document-images_1920/B4DaFykefYJIAo-/3/1792923528590?e=1796256000&v=beta&t=wWcMjs1G-y0v14k4RNTUELmQgOxPQzGVdOzFu7-6M2o",
+          "https://media.licdn.com/dms/image/v2/D4D1FAQEBNEX-v7_5HA/feedshare-document-images_1920/B4DaFykefYJIAo-/4/1792923528590?e=1796256000&v=beta&t=DWYTmkM7DL_3d4KggY6ZXsLduogHvzJ66RQqlN86aas",
+          "https://media.licdn.com/dms/image/v2/D4D1FAQEBNEX-v7_5HA/feedshare-document-images_1920/B4DaFykefYJIAo-/5/1792923528590?e=1796256000&v=beta&t=FVi9W0d3cUCX26cR7LfbIP2R0Sv4QYLkfuNKHUx-2Jc",
+          "https://media.licdn.com/dms/image/v2/D4D1FAQEBNEX-v7_5HA/feedshare-document-images_1920/B4DaFykefYJIAo-/6/1792923528590?e=1796256000&v=beta&t=QGuimANxEWiGikF5lqmeC33nSUK8NdRubrHUD4surpU",
+          "https://media.licdn.com/dms/image/v2/D4D1FAQEBNEX-v7_5HA/feedshare-document-images_1920/B4DaFykefYJIAo-/7/1792923528590?e=1796256000&v=beta&t=eAWyua0xkXAOKFb_uRfmSTaLYUe4JTwJBbls7k5nwD4",
+          "https://media.licdn.com/dms/image/v2/D4D1FAQEBNEX-v7_5HA/feedshare-document-images_1920/B4DaFykefYJIAo-/8/1792923528590?e=1796256000&v=beta&t=v1XonYQakwCfYfqakXiBpypMYFpXtHkfMlVfNfXmkA0",
+          "https://media.licdn.com/dms/image/v2/D4D1FAQEBNEX-v7_5HA/feedshare-document-images_1920/B4DaFykefYJIAo-/9/1792923528590?e=1796256000&v=beta&t=qRNTFfet_Xrd87ERWyAsEo7z6VoTkKE8S5j8UZXLusk",
+          "https://media.licdn.com/dms/image/v2/D4D1FAQEBNEX-v7_5HA/feedshare-document-images_1920/B4DaFykefYJIAo-/10/1792923528590?e=1796256000&v=beta&t=b6i_S1_94lAZwLJuK3qn-VxGtTszXFd366X6GjsqcBs"
+        ],
+        "comments": [],
+        "likeCount": 27,
+        "contentUrn": "urn:li:ugcPost:7520068449469947904",
+        "activityUrn": "urn:li:activity:7520068450816331776",
+        "description": "Last Saturday, I went to an NVIDIA warm-up event for GTC Berlin and drank beer brewed by AI agents. 🦞🍺\n\nGerhard runs Lobster Lager. Agents built his website and handle the logistics, the ingredients, the recipes and the brewing. What they still haven't automated: taxes. Very German.\n\nHis line stuck with me: \"If I, at 68, can use this, imagine what you could be doing.\"\n\nAs a DevRel, I was just as hooked on how Mark Heaps ran the room. He turned every transition into a story, brought a bit of Texas to Berlin, and never pitched once. He put builders on stage and let them do the inspiring. Honestly, a masterclass in developer storytelling.\n\nWant to build something yourself? Here are some free resources from the event:\n- Build-a-Claw Resource Hub: https://lnkd.in/dyk89aAK\n- Free NemoClaw & OpenShell course: https://lnkd.in/dChQ6_tG\n- NVIDIA NemoClaw GitHub: https://lnkd.in/dfDSdNKR\n\nCheers!",
+        "commentCount": 1,
+        "datePublished": "2026-10-25T10:27:14.789Z"
+      }
+    ],
+    "query": "won BAND prize hackathon agents",
+    "cursor": "2",
+    "success": true
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00188",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:30:13.897Z",
+  "started_at": "2026-11-23T07:30:14.051Z",
+  "completed_at": "2026-11-23T07:30:24.012Z",
+  "task_id": "tsk_a2399d9b5d5fefae",
+  "metadata": {}
+}

@@ -7,7 +7,7 @@ import './ui/odds.css';
 import './ui/royal.css';
 import { mountOdds } from './ui/odds.js';
 import { ROSTER_ASSETS } from './shared/roster-assets.js';
-import { adoptBand } from './shared/royal.js';
+import { adoptBand, snapshotRoyal } from './shared/royal.js';
 
 // The fifth body (Kid Riot): registered here so shared/roster-assets.js stays the attire lane's file.
 ROSTER_ASSETS.riot ||= {
@@ -29,22 +29,35 @@ export function createRoyalClient({ logRow, planHtml, decide }) {
 
   function el(tag, cls, html) { const n = document.createElement(tag); n.className = cls; if (html != null) n.innerHTML = html; return n; }
 
-  function start({ matchId, commissioner = true, online = false }) {
+  // humans: [{ slot, id }] so the book names them by their wrestler ("Kane (you)"), never "Player one".
+  function start({ matchId, commissioner = true, online = false, humans = [], mySlot = 0 }) {
     stop();
     document.body.classList.add('royal');
+    const keys = document.querySelector('.keys');
+    const keysHtml = keys?.innerHTML;
+    if (keys) keys.innerHTML = '<kbd>WASD</kbd> move <kbd>J</kbd> strike <kbd>K</kbd> grapple <kbd>L</kbd> block <kbd>Y</kbd>/<kbd>N</kbd> rule <kbd>O</kbd> odds';
+    const logH = document.querySelector('.log h4');
+    const toggleLog = () => document.body.classList.toggle('log-collapsed');
+    logH?.addEventListener('click', toggleLog);
     const strip = el('div', 'rr-strip'); strip.setAttribute('aria-label', 'Wrestlers in the battle royal');
     const card = el('section', 'rr-card'); card.setAttribute('role', 'alertdialog'); card.setAttribute('aria-live', 'assertive'); card.hidden = true;
     document.body.append(strip, card);
     let odds = null;
-    try { odds = mountOdds(document.body, { match: matchId, api: oddsApi() }); } catch (e) { debug.errors.push('odds ' + e.message); }
-    cur = { matchId, commissioner, online, odds, strip, card, shown: null, inFlight: false, nextAt: 0, last: {}, oddsOn: true };
-    setOdds(true);
+    const names = {};
+    humans.forEach((h, k) => {
+      const n = `${NAMES[h.id]} (${h.slot === mySlot ? 'you' : 'rival'})`;
+      names[ODDS_ID[h.id] || h.id] = n; names[`p${k + 1}`] = n;
+    });
+    try { odds = mountOdds(document.body, { match: matchId, api: oddsApi(), title: 'Over the Top', names }); } catch (e) { debug.errors.push('odds ' + e.message); }
+    cur = { matchId, commissioner, online, odds, strip, card, shown: null, inFlight: false, nextAt: 0, last: {}, oddsOn: false,
+      undo: () => { if (keys) keys.innerHTML = keysHtml; logH?.removeEventListener('click', toggleLog); } };
+    setOdds(false); // closed by default; O slides it over
     card.addEventListener('click', (e) => { const b = e.target.closest('[data-v]'); if (b) vote(b.dataset.v); });
   }
   function stop() {
     if (!cur) return;
-    cur.strip.remove(); cur.card.remove(); cur.odds?.destroy();
-    document.body.classList.remove('royal', 'odds-open');
+    cur.strip.remove(); cur.card.remove(); cur.odds?.destroy(); cur.undo();
+    document.body.classList.remove('royal', 'odds-open', 'banner-on', 'log-collapsed');
     cur = null;
   }
   function setOdds(on) { if (!cur) return; cur.oddsOn = on; cur.odds?.show(on); document.body.classList.toggle('odds-open', !!(on && cur.odds)); }
@@ -84,9 +97,9 @@ export function createRoyalClient({ logRow, planHtml, decide }) {
   function paintStrip(st) {
     const al = st.alliance;
     const rows = st.w.map((w, i) => {
-      const ally = al && (al.a === i ? al.b : al.b === i ? al.a : -1);
-      const tag = w.out ? 'OUT' : !w.entered ? (st.nextEntry != null && st.w.findIndex((x) => !x.entered) === i ? `IN ${Math.ceil(st.nextEntry)}s` : 'WAITING')
-        : ally >= 0 && ally !== undefined ? `WITH ${NAMES[st.w[ally].id].toUpperCase()}` : w.human ? 'YOU' : '';
+      const ally = !al ? -1 : al.a === i ? al.b : al.b === i ? al.a : -1;
+      const tag = w.out ? 'ELIMINATED' : !w.entered ? (st.nextEntry != null && st.w.findIndex((x) => !x.entered) === i ? `IN ${Math.ceil(st.nextEntry)}s` : 'WAITING')
+        : ally >= 0 ? `WITH ${NAMES[st.w[ally].id].toUpperCase()}` : w.human ? 'YOU' : '';
       const target = al && al.target === i && !w.out ? ' rr-hunted' : '';
       return `<div class="rr-w${w.out ? ' out' : ''}${!w.entered ? ' wait' : ''}${target}" style="--t:${TINT[w.id] || '#f5c542'}">
         <div class="rr-n">${esc(NAMES[w.id] || w.id)}${w.human ? '<b>P' + (i + 1) + '</b>' : ''}</div>
@@ -100,7 +113,11 @@ export function createRoyalClient({ logRow, planHtml, decide }) {
 
   function frame(st) {
     if (!cur || !st || st.mode !== 'royal') return;
+    if (st.proposals) st = snapshotRoyal(st); // exhibition hands us the match; online already a snapshot
     paintStrip(st); paintCard(st);
+    // big banners sit above everything; the decision log dims while one shows
+    const b = document.getElementById('banner');
+    document.body.classList.toggle('banner-on', !!b && Number(b.style.opacity) > 0.5);
   }
 
   // ---------- odds feed: entries, eliminations, the envelope and the turn ----------

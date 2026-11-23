@@ -330,7 +330,7 @@ function startLocalRoyal(p1) {
   const id = 'r' + Date.now().toString(36);
   layer.matchStart({ match: id, wrestlers: match.w.map((w) => w.id), humans: match.w.map((w) => w.human) });
   layer.bind(match);
-  royal.start({ matchId: id, commissioner: true });
+  royal.start({ matchId: id, commissioner: true, humans: [{ slot: 0, id: p1 }], mySlot: 0 });
 }
 
 const ROOM_CHARS = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
@@ -539,6 +539,10 @@ function frame() {
       // intro sweep: swing from a high side angle down to the broadcast position over INTRO_SECS
       const k = 1 - st.introT / INTRO_SECS, a = (1 - k) * 2.2, r = 9 + 5 * (1 - k);
       want = new THREE.Vector3(Math.sin(a) * r, 4 + 4 * (1 - k), Math.cos(a) * r);
+    } else if (st.mode === 'royal') {
+      // battle royal: keep the whole ring centred and drift only a little toward the action
+      want = new THREE.Vector3(mid.x * 0.25 + Math.sin(t * 0.1) * 0.8, 7.4, 11.2 + mid.z * 0.25);
+      mid.multiplyScalar(0.25);
     } else want = new THREE.Vector3(mid.x * 0.5 + Math.sin(t * 0.12) * 2, 5.2 + spread * 0.35, mid.z + 8.5 + spread * 0.6);
     camera.position.lerp(want, st.introT > 0 ? 0.06 : 0.04);
     feel.addTrauma(shake * 0.5); shake = 0;

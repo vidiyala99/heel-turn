@@ -14,7 +14,7 @@ OUT.mkdir(parents=True, exist_ok=True)
 def run(b, key, tag):
     pg = b.new_page(viewport={"width": 1440, "height": 900})
     errs = []
-    pg.on("pageerror", lambda e: errs.append("pageerror: " + str(e)))
+    pg.on("pageerror", lambda e: errs.append("pageerror: " + str(e) + " " + (e.stack or "")[:700]))
     pg.on("console", lambda m: m.type == "error" and errs.append("console: " + m.text))
     pg.goto(URL)
     pg.wait_for_function("window.HEEL_UI && HEEL_UI.state === 'title'", timeout=60000)
@@ -35,8 +35,15 @@ def run(b, key, tag):
           entered: m.w.filter(w => w.entered).length, betray: m.betray && m.betray.status, alliance: !!m.alliance, card: !!document.querySelector('.rr-card:not([hidden])'),
           banner: (document.getElementById('banner') || {}).textContent, bannerOn: getComputedStyle(document.getElementById('banner')).opacity > 0.5,
           log: (document.getElementById('log') || {}).innerText || '' }; })()""")
-        if s["entered"] == 5 and s["inRing"] >= 4 and "ring" not in shots and tag == "approve":
+        if s["entered"] == 5 and "ring" not in shots and tag == "approve":
             shots.add("ring"); pg.screenshot(path=str(OUT / "royal-ring.png"))
+            pg.set_viewport_size({"width": 1920, "height": 1080}); pg.wait_for_timeout(400)
+            pg.screenshot(path=str(OUT / "royal-ring-1920.png"))
+            pg.keyboard.press("o"); pg.wait_for_timeout(1800)
+            pg.screenshot(path=str(OUT / "royal-odds-1920.png"))
+            pg.set_viewport_size({"width": 1440, "height": 900}); pg.wait_for_timeout(300)
+            pg.screenshot(path=str(OUT / "royal-odds.png"))
+            pg.keyboard.press("o")
         if "ALLIANCE" in s["log"] and "ally" not in shots:
             shots.add("ally"); pg.screenshot(path=str(OUT / f"royal-alliance-{tag}.png"))
         if s["card"]:

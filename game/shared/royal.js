@@ -15,14 +15,16 @@
 // Events (besides sim.js's): agent {row}, alliance {a, b, target}, entrant {slot}, eliminated {slot, by},
 //   betrayal {by, on}, verdict {id, kind, decision, bandId}, bribe {decision}.
 import { T } from './tuning.js';
-import { ROSTER, RING, MAT_Y, INTRO_SECS, short } from './sim.js';
+import { ROSTER, RING, MAT_Y, INTRO_SECS, short as fullShort } from './sim.js';
 import { think } from './ai.js';
 import { onHit, impact, moveSpeed } from './drama.js';
 
 export const ROYAL_EXTRA = { riot: { name: 'Kid Riot', tint: 0xf59e0b } }; // the fifth body for a full card
 const CAST = { ...ROSTER, ...ROYAL_EXTRA };
+const CALL = { vex: 'Vex', kane: 'Kane', silas: 'Crane', mae: 'Mae', riot: 'Riot' }; // what the booth calls them
+const short = (w) => CALL[w.id] || fullShort(w);
 export const R = {
-  max: 5, startAi: 2, entryEvery: 8, bribeAt: 15, tossHp: 40, spentHp: 15,
+  max: 5, startAi: 2, entryEvery: 5, bribeAt: 15, tossHp: 40, spentHp: 15,
   betrayAge: 10, betrayHp: 70, betrayMaxAge: 18, lapse: 20, awaySecs: 10, foeEvery: 1.2,
 };
 const AI_ORDER = ['silas', 'vex', 'mae', 'kane', 'riot'];
@@ -146,6 +148,10 @@ function director(m, dt) {
   if (al) {
     const A = m.w[al.a], B = m.w[al.b], tgt = m.w[al.target];
     if (A.out || B.out) { m.alliance = null; }
+    else if (!m.w.some((w) => !w.out && w !== A && w !== B)) { // only the partners are left: it is every man for himself
+      m.alliance = null; A.intent = B.intent = 'pressure';
+      emit(m, { k: 'call', text: `It's down to the two partners! ${short(A)} and ${short(B)} square up!` });
+    }
     else {
       if (!live(tgt)) { // the shared target is gone: pick the next human, or the alliance is all that is left
         const next = humans[0];
@@ -179,7 +185,7 @@ function director(m, dt) {
   if (m.betray && m.betray.status === 'executing') {
     m.betray.t += dt;
     const by = m.w[m.betray.by], on = m.w[m.betray.on];
-    if (!live(by) || !live(on) || m.betray.t > 14) { m.betray.status = 'fizzled'; if (live(by)) by.intent = 'pressure'; }
+    if (by.out || on.out || m.betray.t > 14) { m.betray.status = 'fizzled'; if (!by.out) by.intent = 'pressure'; }
     else { by.foe = on.slot; by.intent = 'betray'; }
   }
   if (m.lou.awayT > 0) {
@@ -194,7 +200,7 @@ function propose(m, kind, by, on, reason, cites, bandId = null) {
   const p = { id, kind, by, on, reason, cites, status: 'pending', at: m.clock, bandId };
   m.proposals.push(p);
   const w = m.w[by];
-  agent(m, { wrestler: kind === 'bribe' ? 'lou' : w.id, intent: kind === 'bribe' ? 'bribe_accept' : 'betray', target: kind === 'bribe' ? w.id : m.w[on].id, reason: `${reason} -> waits for the commissioner`, cites }, kind === 'bribe' ? 'REF' : 'BAND');
+  agent(m, { wrestler: kind === 'bribe' ? 'lou' : w.id, intent: kind === 'bribe' ? 'bribe_accept' : 'betray', target: kind === 'bribe' ? w.id : m.w[on].id, reason: `${reason}. Waiting on the commissioner.`, cites }, kind === 'bribe' ? 'REF' : 'BAND');
   emit(m, { k: 'proposal', id, kind });
   return p;
 }
@@ -227,7 +233,7 @@ export function verdict(m, id, decision, why = '') {
   if (p.kind === 'betray') {
     const on = m.w[p.on];
     agent(m, { wrestler: by.id, intent: 'betray', target: on.id, reason: ok ? `${short(by)} turns on ${short(on)}` : `${short(by)} stays with ${short(on)}, for now`, cites: p.cites, [ok ? 'approved_by' : 'vetoed_by']: who });
-    if (ok && live(by) && live(on)) {
+    if (ok && !by.out && !on.out) {
       m.betray = { by: p.by, on: p.on, status: 'executing', t: 0 };
       by.foe = p.on; by.intent = 'betray';
       emit(m, { k: 'call', text: `Wait... ${short(by)} is looking at ${short(on)}, not the target. Oh no.` });
@@ -348,6 +354,11 @@ function aiStep(m, i, dt) {
   if (busy(me)) return;
   const foe = m.w[me.foe];
   if (!foe) { anim(me, 'Idle'); return; }
+  // the turn: walk up behind the partner (who is busy with the shared target) and take him over the top
+  if (m.betray?.status === 'executing' && m.betray.by === i && foe.slot === m.betray.on) {
+    if (dist(me, foe) < 1.25 && !['down', 'thrown', 'out'].includes(foe.state)) return act(m, i, 'grapple');
+    if (dist(me, foe) >= 1.25) return moveToward(me, foe.x, foe.z, dt, 2.6);
+  }
   think(m, i, dt, {
     foe, intent: me.intent,
     act: (k) => act(m, i, k),

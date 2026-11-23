@@ -30,16 +30,20 @@ function run(decision, seed = 4242) {
   return out;
 }
 
-const a = run('approve'), b = run('block');
-console.log(JSON.stringify(a, null, 1)); console.log(JSON.stringify(b, null, 1));
+// Several seeds: the fights differ run to run; the agent beats must hold in every one (the betrayal toss in most).
+const SEEDS = [4242, 7, 99, 1234, 31337];
+const A = SEEDS.map((s) => run('approve', s)), B = SEEDS.map((s) => run('block', s));
+for (const [x, y] of A.map((a, k) => [a, B[k]])) console.log(JSON.stringify({ seed: SEEDS[A.indexOf(x)], approve: { betrayal: x.betrayal, bribe: x.bribe, elims: x.elims, winner: x.winner, secs: x.secs }, block: { betrayal: y.betrayal, bribe: y.bribe, elims: y.elims, winner: y.winner, secs: y.secs } }));
+const tossed = A.filter((a) => a.betrayal && a.elims.some((x) => x.startsWith('vex by silas'))).length;
 const checks = [
-  ['5 wrestlers entered (approve run)', a.entered === 5],
-  ['alliance on the human', !!a.alliance && a.alliance.endsWith('kane')],
-  ['approve: betrayal toss eliminates the partner', !!a.betrayal && a.elims.some((x) => x.startsWith('vex by silas'))],
-  ['approve: Lou takes the envelope', a.bribe === 'accept'],
-  ['block: no betrayal', !b.betrayal],
-  ['block: Lou refuses', b.bribe === 'decline'],
-  ['both runs end with a winner', !!a.winner && !!b.winner],
+  ['5 wrestlers entered in every run', [...A, ...B].every((r) => r.entered === 5)],
+  ['alliance on the human in every run', [...A, ...B].every((r) => r.alliance && r.alliance.endsWith('kane'))],
+  [`approve: the betrayer tosses his partner (an AI-caused elimination) in ${tossed}/${A.length} runs, >= 3`, tossed >= 3],
+  ['approve: Lou takes the envelope', A.every((a) => a.bribe === 'accept')],
+  ['block: never a betrayal', B.every((b) => !b.betrayal)],
+  ['block: Lou refuses', B.every((b) => b.bribe === 'decline')],
+  ['every run ends with a winner', [...A, ...B].every((r) => !!r.winner)],
+  ['approve and block change the outcome (order or winner) in most seeds', A.filter((a, k) => a.elims.join() !== B[k].elims.join()).length >= 3],
 ];
 let bad = 0;
 for (const [name, ok] of checks) { console.log(ok ? 'PASS' : 'FAIL', name); if (!ok) bad++; }

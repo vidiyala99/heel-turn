@@ -27,7 +27,7 @@ export function impact(m, def, att, kind, dmg) {
   const hs = S.hitstop[kind] ?? S.hitstop.strike;
   m.freeze = Math.max(m.freeze || 0, hs);
   if (att) addHeat(att, kind === 'strike' ? S.heat.strike : kind === 'finisher' ? S.heat.finisher : S.heat.slam);
-  emit(m, { k: 'impact', kind, slot: m.w.indexOf(def), dmg, hitstop: hs, x: def.x, y: def.y, z: def.z });
+  emit(m, { k: 'impact', kind, slot: m.w.indexOf(def), by: att ? m.w.indexOf(att) : -1, dmg, hitstop: hs, x: def.x, y: def.y, z: def.z });
 }
 
 // Top of step(). Returns true while the sim is frozen in hitstop.

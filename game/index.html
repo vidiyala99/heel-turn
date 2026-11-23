@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>HEEL TURN</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+<style>
+  :root { --red:#e8333b; --gold:#f5c542; --ink:#0b0d12; --steel:#9aa4b2; }
+  html,body { margin:0; height:100%; background:#05060a; overflow:hidden; font-family:Inter,system-ui,sans-serif; color:#fff; }
+  canvas { display:block; }
+  .hud { position:fixed; top:16px; left:0; right:0; display:flex; justify-content:space-between; padding:0 24px; pointer-events:none; }
+  .card { width:min(38vw,420px); }
+  .name { font-family:Anton,sans-serif; font-size:28px; letter-spacing:1px; text-transform:uppercase; text-shadow:0 2px 0 #000; }
+  .bar { height:14px; background:#1b1f29; border:2px solid #000; margin-top:4px; transform:skewX(-18deg); overflow:hidden; }
+  .bar > i { display:block; height:100%; background:linear-gradient(90deg,#ff5a5f,#e8333b); transition:width .15s; }
+  .bar.st > i { background:linear-gradient(90deg,#4fd1ff,#2b8cff); }
+  .bar.mo > i { background:linear-gradient(90deg,#ffe27a,#f5c542); }
+  .right { text-align:right; } .right .bar { transform:skewX(18deg); }
+  .center { position:fixed; top:34%; left:0; right:0; text-align:center; font-family:Anton,sans-serif; font-size:clamp(48px,9vw,128px); letter-spacing:2px; color:var(--gold); text-shadow:0 6px 0 #000, 0 0 40px rgba(245,197,66,.5); pointer-events:none; opacity:0; transition:opacity .2s; }
+  .ticker { position:fixed; bottom:0; left:0; right:0; background:linear-gradient(90deg,#c1121f,#7a0a12); font-weight:600; padding:10px 24px; font-size:15px; display:flex; gap:12px; align-items:center; }
+  .ticker b { font-family:Anton,sans-serif; font-weight:400; letter-spacing:1px; background:#000; padding:2px 10px; }
+  .log { position:fixed; right:16px; bottom:56px; width:340px; max-height:38vh; overflow:hidden; font-size:12.5px; background:rgba(5,6,10,.72); border:1px solid #2a2f3a; padding:10px 12px; }
+  .log h4 { margin:0 0 6px; font-family:Anton,sans-serif; font-weight:400; letter-spacing:1px; color:var(--gold); font-size:14px; }
+  .log p { margin:4px 0; color:#cfd6e1; } .log p em { color:#fff; font-style:normal; font-weight:600; }
+  .keys { position:fixed; left:16px; bottom:56px; font-size:12px; color:#9aa4b2; background:rgba(5,6,10,.6); padding:8px 10px; border:1px solid #2a2f3a; line-height:1.6; }
+  .keys kbd { background:#1b1f29; border:1px solid #3a404d; padding:0 5px; color:#fff; font-family:inherit; }
+</style>
+</head>
+<body>
+<div class="hud">
+  <div class="card"><div class="name" id="n0">You</div><div class="bar"><i id="h0"></i></div><div class="bar st"><i id="s0"></i></div><div class="bar mo"><i id="m0"></i></div></div>
+  <div class="card right"><div class="name" id="n1">Opponent</div><div class="bar"><i id="h1"></i></div><div class="bar st"><i id="s1"></i></div><div class="bar mo"><i id="m1"></i></div></div>
+</div>
+<div class="center" id="banner"></div>
+<div class="log"><h4>DECISION LOG</h4><div id="log"></div></div>
+<div class="keys">
+  <kbd>WASD</kbd> move · <kbd>J</kbd> strike · <kbd>K</kbd> grapple / pin · <kbd>L</kbd> block · <kbd>Space</kbd> taunt<br/>
+  Triangle: strike &gt; grapple &gt; block &gt; strike · full gold meter + <kbd>K</kbd> = finisher · <kbd>R</kbd> restart
+</div>
+<div class="ticker"><b>LIVE</b><span id="call">Welcome to HEEL TURN. The bell is about to ring.</span></div>
+<script type="module" src="/main.js"></script>
+</body>
+</html>

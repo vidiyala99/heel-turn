@@ -23,7 +23,7 @@ class RingRoom extends Room {
       const slot = this.slots.indexOf(client.sessionId);
       if (slot < 0 || !msg || typeof msg !== 'object') return;
       const c = this.ctl[slot];
-      if (msg.k === 'move') { c.mx = clampAxis(msg.x); c.mz = clampAxis(msg.z); }
+      if (msg.k === 'move') { c.mx = clampAxis(msg.x); c.mz = clampAxis(msg.z); c.run = !!msg.run; }
       else if (msg.k === 'act' && INPUTS.includes(msg.a) && c.queue.length < 8) c.queue.push(msg.a);
       else if (msg.k === 'rematch' && this.match.over) this.match = createMatch(this.match.w[0].id, this.match.w[1].id, this.match.habits);
     });

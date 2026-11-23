@@ -10,3 +10,4 @@
 - **No recipes as a playbook** (Aakash, 2026-11-23). The organizer recipes and track-brief examples are what every team copies; BAD CREDIT was The Agent Market reskinned. Encoded as hard exclusions in docs/GROUNDING.md.
 - **Read the builder, not a memory line** (2026-11-23). Designs must grow from the resume and GitHub (docs/GROUNDING.md), not "data engineer and Dagster contributor".
 - **Own the churn** (2026-11-23). Aakash gave two directions (hero shooter, wrestling); the other eight concepts were mine and generic. Never describe my own churn as "we switched".
+- **Verify the first-run experience, not just the mechanic** (2026-11-23 11:44). The prototype passed my fight-logic checks but opened straight into a match Aakash lost before touching a key: no title, menu, mode or character select. "Prove it works" means what a player sees from the first frame.

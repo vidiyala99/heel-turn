@@ -15,6 +15,9 @@ import { createFeel } from './feel/index.js';
 import { T } from './shared/tuning.js';
 import { loadBodies } from './arena/bodies.js';
 import { createAnimator, animFor } from './shared/anims.js';
+import { createReferee } from './arena/referee.js';
+import { createEntrance } from './feel/entrance.js';
+import { winnerLine } from '../voice/announcer.js';
 import { CHARACTERS, cssHex } from './shared/characters.js';
 
 // ---------- renderer / scene ----------
@@ -237,39 +240,18 @@ function onAnim(i, w, prev) {
 }
 function clearViews() {
   for (const v of views) { safe(() => stopMoves(v.root)); scene.remove(v.holder); } views = [];
-  if (ref) { safe(() => stopMoves(ref.root)); scene.remove(ref.holder); ref = null; }
+  if (ref) { safe(() => ref.dispose()); ref = null; }
 }
 
-// Referee Lou Varga (an agent on the server side): white shirt, black joints, works the ropes and counts pins.
+// Referee Lou Varga (an agent on the server side): body and behavior in arena/referee.js.
 let ref = null;
-function makeRef() {
-  const v = makeView({ id: 'lou', tint: 0xf1f1f1, x: 0, y: MAT_Y, z: -RING + 0.55, facing: 0 });
-  v.holder.traverse((o) => { if (o.isMesh && o.name.includes('Joints')) o.material.color.set(0x111111); });
-  v.holder.scale.setScalar(0.94);
-  play(v, 'idle'); v.pinSeen = false; v.home = new THREE.Vector3(0, MAT_Y, -RING + 0.55);
-  feel.alive(v.root, { role: 'ref', target: () => views[1] && views[0].holder.position.clone().lerp(views[1].holder.position, 0.5) });
-  return v;
-}
 function updateRef(st, dt) {
-  if (!ref) ref = makeRef();
-  const [A, B] = st.w;
-  if (st.pin && !ref.pinSeen) {
-    // slide in beside the pinned wrestler and slap the mat: one, two, (three)
-    ref.pinSeen = true;
-    const vic = st.w[st.pin.victim], side = Math.sign(vic.z || 1);
-    const at = new THREE.Vector3(vic.x + 0.35, MAT_Y, vic.z - side * 0.75);
-    safe(() => { stopMoves(ref.root); playSolo('refcount', ref.root, { root: { position: at, yaw: side > 0 ? 0 : Math.PI } }); });
-  } else if (!st.pin && ref.pinSeen) { ref.pinSeen = false; safe(() => stopMoves(ref.root)); } // refcount holds its pose until released
-  if (!isBusy(ref.root)) {
-    // shadow the action along the near-side ropes, always facing the wrestlers
-    const mid = { x: (A.x + B.x) / 2, z: (A.z + B.z) / 2 };
-    const want = new THREE.Vector3(THREE.MathUtils.clamp(mid.x * 0.6, -RING + 0.6, RING - 0.6), MAT_Y, mid.z > 0 ? -RING + 0.55 : RING - 0.55);
-    const moving = ref.root.position.distanceTo(want) > 0.08;
-    ref.root.position.lerp(want, Math.min(1, dt * 1.6));
-    ref.root.rotation.set(0, Math.atan2(mid.x - ref.root.position.x, mid.z - ref.root.position.z), 0);
-    play(ref, moving ? 'walk' : 'idle', moving ? 0.9 : 1);
-  }
-  ref.anim8.update(dt);
+  ref ||= createReferee({
+    body: bodies.make('lou'), matY: MAT_Y, ring: RING,
+    alive: (root, o) => feel.alive(root, { ...o, target: () => views[1] && views[0].holder.position.clone().lerp(views[1].holder.position, 0.5) }),
+  });
+  if (!ref.obj.parent) scene.add(ref.obj);
+  ref.update(st, dt);
 }
 const _tp = new THREE.Vector3(), _tq = new THREE.Quaternion(), _te = new THREE.Euler();
 function syncViews(ws, dt) {
@@ -311,7 +293,7 @@ function withTimeout(p, ms, what) {
 function startLocal(p1, p2) {
   const match = createMatch(p1, p2, savedHabits);
   savedHabits = match.habits;
-  session = { mode: 'exhibition', slot: 0, match, ctl: [newControl(true), newControl(false)] };
+  session = { mode: 'exhibition', slot: 0, match, ctl: [newControl(true), newControl(false)], entrance: true };
   // Bruin memory: the AI's habit table for you comes from the marts when they answer before/at the bell.
   const id = 'm' + Date.now().toString(36);
   const started = layer.matchStart({ match: id, wrestlers: [p1, p2], humans: [true, false] });
@@ -364,6 +346,7 @@ async function startMatch(cfg = {}) {
 }
 
 function toMenu() {
+  entrance.finish();
   if (session?.room) session.room.leave().catch(() => {});
   session = null; clearViews(); hideInvite(); paused = false;
   bannerT = 0; const b = $('banner'); if (b) b.style.opacity = 0;
@@ -404,6 +387,7 @@ function matchEnded(e) {
     aiPlansLog: e.aiPlansLog,
     winnerId: st.w[e.winner].id, winnerName: st.w[e.winner].name, mode: session.mode, mySlot: Math.max(0, session.slot),
   };
+  setTimeout(() => layer.announce(winnerLine(result.winnerId)), 1400); // after the bell: the ring announcer
   for (const cb of endCbs) { try { cb(result); } catch (err) { console.error(err); } }
   if (session.mode === 'exhibition') layer.matchEnd();
 }
@@ -505,11 +489,14 @@ window.G = {
 // ---------- loop ----------
 const clock = new THREE.Clock();
 const feel = createFeel({ scene, camera, getViews: () => views });
+const entrance = createEntrance({ scene, camera, screen, matY: MAT_Y, ring: RING, getViews: () => views, play, layer });
 function frame() {
   const dt = Math.min(clock.getDelta(), 0.05);
   const t = clock.elapsedTime;
   const { simDt, viewDt } = feel.begin(dt, current());
-  if (session?.mode === 'exhibition' && !paused) {
+  // entrances (exhibition only): start once both bodies exist; the sim waits for the bell until they finish
+  if (session?.entrance && views.length === 2) { session.entrance = false; entrance.start(session.match); }
+  if (session?.mode === 'exhibition' && !paused && !entrance.active) {
     step(session.match, simDt, session.ctl);
     handleEvents(session.match.events); session.match.events = [];
     layer.tick(session.match); // posts to the agents server every ~4 s; never awaited here
@@ -517,7 +504,7 @@ function frame() {
   const st = current();
   if (st) {
     const sdt = paused && session.mode === 'exhibition' ? 0 : viewDt;
-    syncViews(st.w, sdt); safe(() => updateRef(st, sdt));
+    safe(() => updateRef(st, sdt)); syncViews(st.w, sdt);
     if (sdt > 0) updateMoves(sdt); // after every clip layer (ref included), so moves blend over a fresh pose
   }
   // crowd bob (louder when meters are high)
@@ -530,7 +517,8 @@ function frame() {
   crowd.instanceMatrix.needsUpdate = true;
   for (const r of ropes) { if (r.userData.wob) { r.userData.wob *= 0.9; r.position.y = r.userData.base.y + Math.sin(t * 40) * r.userData.wob * 0.15; } }
   spots.forEach((s, i) => { s.intensity = 52 + Math.sin(t * 0.7 + i) * 5; });
-  if (!st) {
+  if (st && entrance.frame(paused ? 0 : dt)) feel.frame(dt, st);
+  else if (!st) {
     feel.frame(dt, null);
     // attract mode: slow orbit around the empty ring
     const a = t * 0.12;

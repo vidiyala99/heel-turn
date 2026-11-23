@@ -216,6 +216,11 @@ export const MOVES = {
     ],
     hold: true,
   },
+  refrise: {
+    kind: 'solo', label: 'Referee gets up', duration: 0.6,
+    meta: { damage: 0, stamina: 0, range: 0, startup: 0 },
+    track: [k(0, 'refDown', [0, -0.5, 0]), k(0.6, 'stand', [0, 0, 0], [], 'inOutCubic')],
+  },
 
   jab: {
     kind: 'solo', label: 'Jab', duration: 0.42,

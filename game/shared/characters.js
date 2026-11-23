@@ -7,7 +7,7 @@
 // attire: the garment list bodies.js builds as skinned shells over the base mesh, in draw order.
 export const CHARACTERS = {
   vex: {
-    name: 'Vex', full: 'Vex “The Voltage”', role: 'Showboat',
+    name: 'Vex', hometown: 'Neon Flats, Nevada', weight: 212, full: 'Vex “The Voltage”', role: 'Showboat',
     line: 'Fast hands, faster mouth. Wins the crowd first, the match second.', power: 55, speed: 90, technique: 70,
     body: 'male', build: [1, 1.02, 1], hair: ['Hair_Buzzed'], hairColor: 0x2b8cff,
     palette: { ui: 0x2b8cff, primary: 0x2b8cff, secondary: 0x0b1a3a, accent: 0xe9f3ff, skin: 0xf2d6c4 },
@@ -20,7 +20,7 @@ export const CHARACTERS = {
     ],
   },
   kane: {
-    name: 'Brutus Kane', full: 'Brutus Kane', role: 'Brute',
+    name: 'Brutus Kane', hometown: 'the Iron Range of Minnesota', weight: 318, full: 'Brutus Kane', role: 'Brute',
     line: 'Does not run the ropes. Runs through them.', power: 95, speed: 42, technique: 50,
     body: 'male', build: [1.16, 1.1, 1.16], hair: ['Hair_Beard', 'Hair_Buzzed'], hairColor: 0xa8401a,
     palette: { ui: 0xe8333b, primary: 0xb3242b, secondary: 0x141012, accent: 0xe8b04a, skin: 0xf0c4a8 },
@@ -33,7 +33,7 @@ export const CHARACTERS = {
     ],
   },
   silas: {
-    name: 'Silas Crane', full: 'Silas Crane', role: 'Schemer',
+    name: 'Silas Crane', hometown: 'Blackwater Parish, Louisiana', weight: 228, full: 'Silas Crane', role: 'Schemer',
     line: 'Studies you for three rounds, then takes the fourth.', power: 60, speed: 66, technique: 92,
     body: 'male', build: [0.97, 1.03, 0.97], hair: ['Hair_Long'], hairColor: 0x15101a,
     palette: { ui: 0x8b5cf6, primary: 0x6a35c4, secondary: 0x150d22, accent: 0x7be05a, skin: 0xe8d2c6 },
@@ -45,7 +45,7 @@ export const CHARACTERS = {
     ],
   },
   mae: {
-    name: 'Old Iron Mae', full: 'Old Iron Mae', role: 'Veteran',
+    name: 'Old Iron Mae', hometown: 'Gary, Indiana', weight: 186, full: 'Old Iron Mae', role: 'Veteran',
     line: 'Thirty years in the ring. She has a counter for everything you try.', power: 76, speed: 52, technique: 86,
     body: 'female', build: [0.95, 1.0, 0.95], hair: ['Hair_Buns'], hairColor: 0xd8dde4,
     palette: { ui: 0xc9ced8, primary: 0xb9c0cb, secondary: 0x16181d, accent: 0x6f7886, skin: 0xe6c3ae },

@@ -69,7 +69,7 @@ const MENU = [
   { id: 'exhibition', label: 'Exhibition', desc: 'One on one against the AI. It watches what you lean on and plans around it, match after match.' },
   { id: 'ladder', label: 'Ladder Match', desc: 'A briefcase hangs over the ring. Carry the ladder, climb it, and watch who shoves it over.' },
   { id: 'online', label: 'Online', desc: 'Make a room and send the link. Your friend lands straight on the roster screen.' },
-  { id: 'royal', label: 'Over the Top', locked: true, desc: 'Battle royal. Locked: needs 4+ wrestlers in one ring: building now.' },
+  { id: 'royal', label: 'Over the Top', desc: 'Battle royal: five wrestlers, one ring. The AIs make deals and break them; you rule on every bribe and betrayal.' },
   { id: 'tag', label: 'Tag Team', locked: true, desc: 'Two on two with hot tags. Locked: coming after Over the Top.' },
   { id: 'howto', label: 'How to Play', desc: 'Controls, the strike, grapple, block triangle, and how the AI learns.' },
   { id: 'settings', label: 'Settings', desc: 'Volume and camera shake.' },
@@ -306,6 +306,7 @@ function pick(id) {
   if (selPhase === 'p1') {
     match.p1 = id;
     if (match.mode === 'online') { match.p2 = null; return toVersus(); }
+    if (match.mode === 'royal') { match.p2 = null; return startMatch(); } // the card fills itself; straight to the bell
     // Exhibition and Ladder: the bookers pick your opponent from the other three, then straight on.
     const others = ROSTER.filter((w) => w.id !== id);
     match.p2 = others[Math.floor(Math.random() * others.length)].id;
@@ -330,7 +331,7 @@ function toVersus() {
 
 function startMatch() {
   const cfg = { mode: match.mode, p1: match.p1, p2: match.p2, difficulty: match.difficulty };
-  if (match.mode === 'online') { cfg.room = match.room; cfg.host = match.host; }
+  if (match.mode === 'online' || (match.mode === 'royal' && match.room)) { cfg.room = match.room; cfg.host = match.host; }
   const ok = callEngine('startMatch', cfg);
   if (!ok) toast('Engine not connected yet. Showing the practice fight.');
   go('match');
@@ -399,6 +400,7 @@ function activate(el) {
     blip('ok');
     if (id === 'exhibition') { match.mode = 'exhibition'; selPhase = 'p1'; go('select'); }
     if (id === 'ladder') { match.mode = 'ladder'; selPhase = 'p1'; go('select'); }
+    if (id === 'royal') { match.mode = 'royal'; selPhase = 'p1'; go('select'); }
     if (id === 'online') { match.mode = 'online'; newRoom(); go('online'); }
     if (id === 'howto') { howtoFrom = 'menu'; go('howto'); }
     if (id === 'settings') go('settings');
@@ -432,7 +434,7 @@ function back() {
       blip('back');
       if (selPhase === 'p2') { selPhase = 'p1'; match.p1 = null; paintSelect(); setFocus(0, false); }
       else if (match.mode === 'online' && match.host) go('online');
-      else go('menu', { focus: match.mode === 'online' ? 2 : match.mode === 'ladder' ? 1 : 0 });
+      else go('menu', { focus: match.mode === 'online' ? 2 : match.mode === 'ladder' ? 1 : match.mode === 'royal' ? 3 : 0 });
       break;
     case 'pause': resume(); break;
     case 'results': callEngine('toMenu'); go('menu'); break;
@@ -477,7 +479,8 @@ ui.addEventListener('click', (e) => {
 // ---------- boot ----------
 const roomParam = new URLSearchParams(location.search).get('room');
 if (roomParam) {
-  match.mode = 'online'; match.room = roomParam.toUpperCase().replace(/[^A-Z0-9]/g, '').slice(0, 12); match.host = false; selPhase = 'p1';
+  match.mode = new URLSearchParams(location.search).get('royal') ? 'royal' : 'online';
+  match.room = roomParam.toUpperCase().replace(/[^A-Z0-9]/g, '').slice(0, 12); match.host = false; selPhase = 'p1';
   render('select');
 } else {
   render('title');

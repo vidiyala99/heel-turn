@@ -1,0 +1,68 @@
+/* OVER THE TOP: roster strip + commissioner card. Same broadcast package as menu.css (red / gold / ink, Anton,
+   -14deg slashes); tokens repeated with fallbacks. The card is the one loud element; everything else stays quiet. */
+body.royal .hud { display: none; }
+/* decision log: a narrow right rail under the strip, newest 3 rows, older ones fade; click the title to collapse */
+body.royal .log { top: 96px; bottom: auto; right: 16px; width: 280px; max-height: 34vh; z-index: 11; transition: opacity 160ms ease; }
+body.royal .log h4 { cursor: pointer; }
+body.royal .log p:nth-child(2) { opacity: .72; } body.royal .log p:nth-child(3) { opacity: .45; }
+body.royal .log p:nth-child(n+4) { display: none; }
+body.royal.log-collapsed .log #log { display: none; }
+body.royal.banner-on .log { opacity: .2; }
+body.royal #banner { z-index: 30; }
+body.royal .keys { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: calc(100vw - 32px); box-sizing: border-box; }
+body.royal .odds-panel { z-index: 25; background: rgba(7, 8, 12, .97); }
+body.royal.odds-open .log { opacity: 0; pointer-events: none; }
+
+.rr-strip {
+  position: fixed; top: 14px; left: 50%; transform: translateX(-50%); z-index: 12; display: flex; gap: 8px;
+  pointer-events: none; max-width: calc(100vw - 32px); font-family: Inter, system-ui, sans-serif;
+}
+body:not(.in-match) .rr-strip, body:not(.in-match) .rr-card { display: none; }
+.rr-w { width: 128px; padding: 6px 8px 5px; background: rgba(7, 8, 12, .82); border-top: 4px solid var(--t); }
+.rr-w.out { opacity: .38; } .rr-w.out .rr-n { text-decoration: line-through; }
+.rr-w.wait { opacity: .6; border-top-style: dashed; }
+.rr-w.rr-hunted { box-shadow: inset 0 0 0 2px var(--red, #e8333b); }
+.rr-n { font: 400 19px/1 Anton, Impact, sans-serif; text-transform: uppercase; letter-spacing: .02em; display: flex; justify-content: space-between; align-items: baseline; }
+.rr-n b { font: 600 10px Inter, sans-serif; letter-spacing: .06em; color: #07080c; background: var(--t); padding: 1px 4px; }
+.rr-hp { height: 7px; margin-top: 5px; background: #1a1f2b; transform: skewX(-14deg); overflow: hidden; }
+.rr-hp i { display: block; height: 100%; background: var(--t); transform-origin: left; transition: transform 160ms cubic-bezier(.23, 1, .32, 1); }
+.rr-tag { min-height: 13px; margin-top: 4px; font: 600 10px/1.3 Inter, sans-serif; letter-spacing: .05em; color: #a9b1bf; font-variant-numeric: tabular-nums; }
+.rr-lou { align-self: center; padding: 8px 10px; font: 400 16px/1 Anton, Impact, sans-serif; letter-spacing: .03em; color: #07080c;
+  background: var(--gold, #f5c542); transform: skewX(-14deg); font-variant-numeric: tabular-nums; }
+
+/* commissioner card: bottom centre, above the ticker, between the key help and the decision log */
+.rr-card {
+  position: fixed; left: 50%; bottom: 60px; z-index: 22; width: min(440px, calc(100vw - 32px)); transform: translateX(-50%);
+  padding: 14px 16px 16px; background: rgba(7, 8, 12, .95); border-left: 6px solid var(--gold, #f5c542); color: #f4f1ea;
+  font: 13px/1.4 Inter, system-ui, sans-serif; box-shadow: 0 18px 48px rgba(0, 0, 0, .6);
+  transition: opacity 200ms cubic-bezier(.23, 1, .32, 1), transform 200ms cubic-bezier(.23, 1, .32, 1);
+  @starting-style { opacity: 0; transform: translate(-50%, 12px); }
+}
+.rr-card[hidden] { display: none; }
+.rr-card[data-kind="betray"] { border-left-color: var(--red, #e8333b); }
+.rr-who { font: 600 11px Inter, sans-serif; letter-spacing: .08em; color: var(--gold, #f5c542); }
+.rr-head { margin: 4px 0 2px; font: 400 26px/1.02 Anton, Impact, sans-serif; text-transform: uppercase; letter-spacing: .01em; text-wrap: balance; }
+.rr-ask { margin: 0 0 6px; color: #f4f1ea; }
+.rr-why { margin: 0; color: #a9b1bf; }
+.rr-cite { margin: 4px 0 0; font: 10.5px/1.35 ui-monospace, Consolas, monospace; color: #7f8899; word-break: break-word; }
+.rr-time { height: 3px; margin: 10px 0 12px; background: #1a1f2b; }
+.rr-time i { display: block; height: 100%; background: var(--gold, #f5c542); transform-origin: left; }
+.rr-btns { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.rr-b { min-height: 46px; display: flex; align-items: center; justify-content: center; gap: 10px; border: 0; cursor: pointer;
+  font: 400 22px/1 Anton, Impact, sans-serif; letter-spacing: .03em; text-transform: uppercase; transform: skewX(-14deg);
+  transition: transform 120ms cubic-bezier(.23, 1, .32, 1), filter 120ms; }
+.rr-b:active { transform: skewX(-14deg) scale(.97); }
+.rr-b:focus-visible { outline: 3px solid var(--gold, #f5c542); outline-offset: 2px; }
+.rr-b kbd { font: 600 12px Inter, sans-serif; padding: 2px 6px; border: 1px solid currentColor; transform: skewX(14deg); }
+.rr-yes { background: var(--gold, #f5c542); color: #07080c; }
+.rr-no { background: #1a1f2b; color: #f4f1ea; box-shadow: inset 0 -3px 0 var(--red, #e8333b); }
+@media (hover: hover) and (pointer: fine) { .rr-b:hover { filter: brightness(1.08); } }
+.rr-wait { margin: 0; color: #a9b1bf; }
+.rr-ally .dl-src { background: var(--gold, #f5c542); }
+
+@media (max-width: 720px) {
+  .rr-strip { gap: 4px; top: 8px; } .rr-w { width: 18vw; padding: 4px 5px; } .rr-n { font-size: 14px; } .rr-tag { display: none; }
+  .rr-card { bottom: 52px; }
+  body.royal .log { width: auto; left: 16px; top: auto; bottom: 52px; max-height: 18vh; }
+}
+@media (prefers-reduced-motion: reduce) { .rr-card { transition: none; } .rr-hp i { transition: none; } }

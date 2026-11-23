@@ -97,7 +97,7 @@ export function mountOdds(root, opts = {}) {
   }
 
   function paintBoard(odds, mine) {
-    $('.op-match').textContent = match === 'next' ? '' : match.toUpperCase();
+    $('.op-match').textContent = opts.title || ''; // a match name, never the raw id
     const ol = $('.op-rows');
     ol.replaceChildren(...odds.board.map((r) => {
       const li = el('li', 'op-row');
@@ -106,8 +106,9 @@ export function mountOdds(root, opts = {}) {
       li.classList.toggle('lost', !!odds.settled && !won);
       const btn = el('button', 'op-pick');
       btn.disabled = !!odds.settled;
-      btn.setAttribute('aria-label', `Bet ${chip} fan points on ${r.name}, pays ${r.decimal_odds} times`);
-      btn.append(el('span', 'op-name display', r.name), el('span', 'op-line', line(r.line)), el('span', 'op-pay', `x${r.decimal_odds}`));
+      const name = (opts.names || {})[r.wrestler] || r.name;
+      btn.setAttribute('aria-label', `Bet ${chip} fan points on ${name}, pays ${r.decimal_odds} times`);
+      btn.append(el('span', 'op-name display', name), el('span', 'op-line', line(r.line)), el('span', 'op-pay', `x${r.decimal_odds}`));
       const bar = el('span', 'op-bar');
       bar.style.setProperty('--p', r.win_prob);
       bar.append(el('span', 'op-pct', pct(r.win_prob)));
@@ -133,9 +134,9 @@ export function mountOdds(root, opts = {}) {
         v.setAttribute('aria-label', `Vote ${label(c)}: ${pct(p.share[c])} of ${total} votes`);
         const bar = el('span', 'op-vbar');
         bar.style.setProperty('--p', p.share[c] || 0);
-        v.append(bar, el('span', 'op-c display', label(c)), el('span', 'op-vp', pct(p.share[c] || 0)));
+        v.append(bar, el('span', 'op-c display', label(c)), el('span', 'op-vp', `${pct(p.share[c] || 0)} of fans`));
         v.onclick = () => vote(p.id, c);
-        const b = el('button', 'op-back', `+${chip} x${p.decimal_odds[c]}`);
+        const b = el('button', 'op-back', `Bet ${chip}, win ${Math.round(chip * p.decimal_odds[c])}`);
         b.disabled = p.status !== 'open';
         b.setAttribute('aria-label', `Bet ${chip} fan points on ${label(c)}`);
         b.onclick = () => bet(c, p.id);

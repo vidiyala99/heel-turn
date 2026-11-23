@@ -9,7 +9,9 @@ import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPa
 import { OutputPass } from 'three/examples/jsm/postprocessing/OutputPass.js';
 import { Client } from '@colyseus/sdk';
 import { createMatch, step, newControl, normHabits, ROSTER, INTRO_SECS } from './shared/sim.js';
-import { createAgentLayer } from './agent-layer.js';
+import { createAgentLayer, planHtml } from './agent-layer.js';
+import { createRoyal, stepRoyal, verdict as royalVerdict } from './shared/royal.js';
+import { createRoyalClient } from './royal-client.js';
 import { playPaired, playSolo, updateMoves, isBusy, stopMoves, releaseMoves, getRig, activeMove } from './moves/index.js';
 import { createFeel } from './feel/index.js';
 import { T } from './shared/tuning.js';
@@ -186,6 +188,14 @@ function showInvite(link) {
 function hideInvite() { const el = $('heel-invite'); if (el) el.style.display = 'none'; }
 
 const layer = createAgentLayer({ logRow: (html, key, same) => log(html, key, same), call: (t) => call(t) });
+// OVER THE TOP: the commissioner's verdict lands in the local sim, or goes to the arena server online.
+const royal = createRoyalClient({
+  logRow: (html, key, same) => log(html, key, same), planHtml,
+  decide: (id, decision) => {
+    if (session?.mode === 'online') session.room.send('in', { k: 'verdict', id, decision });
+    else if (session?.royal) royalVerdict(session.match, id, decision);
+  },
+});
 
 // ---------- wrestler views (render only; state lives in shared/sim.js) ----------
 const loader = new GLTFLoader();
@@ -205,7 +215,7 @@ let nextFinisher = false;
 const GRAPPLES = ['bodyslam', 'suplex', 'ddt'];
 function safe(fn) { try { fn(); } catch (e) { console.warn('[heel] move', e); } }
 function onAnim(i, w, prev) {
-  const v = views[i], o = views[1 - i];
+  const v = views[i], o = views[w.foe ?? 1 - i];
   if (!o) return;
   const name = w.anim;
   const over = !!current()?.over;
@@ -263,6 +273,7 @@ function syncViews(ws, dt) {
   });
   ws.forEach((w, i) => {
     const v = views[i];
+    v.holder.visible = w.state !== 'waiting';
     if (w.animSeq !== v.seq) { const prev = v.anim; v.anim = w.anim; v.seq = w.animSeq; onAnim(i, w, prev); }
     if (!isBusy(v.root)) {
       // follow the sim; after a move lets go (it may end a step away, e.g. off the pin cover) ease over instead of popping
@@ -303,13 +314,23 @@ function startLocal(p1, p2) {
   });
 }
 
+function startLocalRoyal(p1) {
+  const match = createRoyal({ humans: [p1] });
+  session = { mode: 'exhibition', royal: true, slot: 0, match, ctl: match.w.map((_, i) => newControl(i === 0)) };
+  const id = 'r' + Date.now().toString(36);
+  layer.matchStart({ match: id, wrestlers: match.w.map((w) => w.id), humans: match.w.map((w) => w.human) });
+  layer.bind(match);
+  royal.start({ matchId: id, commissioner: true, humans: [{ slot: 0, id: p1 }], mySlot: 0 });
+}
+
 const ROOM_CHARS = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
 const roomCode = (v) => String(v || '').toUpperCase().replace(/[^A-Z0-9]/g, '').slice(0, 12);
 async function startOnline(cfg, p1, p2) {
   const client = new Client(serverUrl());
   const code = roomCode(cfg.room || params.get('room')) || Array.from({ length: 6 }, () => ROOM_CHARS[Math.floor(Math.random() * ROOM_CHARS.length)]).join('');
   const join = () => withTimeout(client.joinById(code, { pick: p1 }), 4000, 'join');
-  const create = () => withTimeout(client.create('ring', { roomId: code, p1, p2 }), 4000, 'create');
+  const kind = cfg.mode === 'royal' ? 'royal' : 'ring';
+  const create = () => withTimeout(client.create(kind, { roomId: code, p1, p2 }), 4000, 'create');
   // Host creates the room under the shell's code; a guest joins it. Either falls back to the other,
   // so whoever arrives first opens the ring.
   const host = cfg.host ?? !(cfg.room || params.get('room'));
@@ -318,6 +339,7 @@ async function startOnline(cfg, p1, p2) {
   const s = { mode: 'online', slot: -1, room, snaps: [], latest: null, sentMove: '0,0' };
   session = s;
   const url = new URL(location.href); url.searchParams.set('room', room.roomId);
+  if (kind === 'royal') { url.searchParams.set('royal', '1'); royal.start({ matchId: 'r' + room.roomId, commissioner: host, online: true }); }
   history.replaceState(null, '', url);
   s.invite = url.toString();
   showInvite(s.invite);
@@ -326,7 +348,8 @@ async function startOnline(cfg, p1, p2) {
     snap.at = performance.now();
     s.snaps.push(snap); if (s.snaps.length > 12) s.snaps.shift();
     s.latest = snap; s.slot = snap.slots.indexOf(room.sessionId);
-    if (!s.full && snap.slots.every(Boolean)) { s.full = true; hideInvite(); }
+    if (snap.mode === 'royal') royal.setCommissioner(s.slot === 0); // player 1 rules on proposals
+    if (!s.full && snap.slots.filter(Boolean).length >= (snap.mode === 'royal' ? 2 : snap.slots.length)) { s.full = true; hideInvite(); }
     handleEvents(snap.ev);
   });
   room.onLeave(() => { if (session === s) { call('Lost the arena server. Back to the menu to play offline.'); s.lost = true; } });
@@ -336,10 +359,12 @@ async function startMatch(cfg = {}) {
   toMenu();
   const p1 = ROSTER[cfg.p1] ? cfg.p1 : 'vex';
   const p2 = ROSTER[cfg.p2] ? cfg.p2 : (p1 === 'kane' ? 'vex' : 'kane');
-  if (cfg.mode === 'online') {
+  if (cfg.mode === 'royal' && !(cfg.room || params.get('room'))) { startLocalRoyal(p1); return { mode: 'royal' }; }
+  if (cfg.mode === 'online' || cfg.mode === 'royal') {
     try { await startOnline(cfg, p1, p2); return { mode: 'online', room: session.room.roomId, invite: session.invite }; }
     catch (e) { console.warn('[heel] arena server unreachable, falling back to a local match', e); }
   }
+  if (cfg.mode === 'royal') { startLocalRoyal(p1); call('Arena server unreachable. Over the Top against the AI instead.'); return { mode: 'royal' }; }
   startLocal(p1, p2);
   if (cfg.mode === 'online') call('Arena server unreachable. Exhibition vs the AI instead.');
   return { mode: 'exhibition' };
@@ -348,7 +373,7 @@ async function startMatch(cfg = {}) {
 function toMenu() {
   entrance.finish();
   if (session?.room) session.room.leave().catch(() => {});
-  session = null; clearViews(); hideInvite(); paused = false;
+  session = null; clearViews(); hideInvite(); paused = false; royal.stop();
   bannerT = 0; const b = $('banner'); if (b) b.style.opacity = 0;
   keysDown.clear();
 }
@@ -356,6 +381,7 @@ function toMenu() {
 function rematch() {
   if (!session) return;
   if (session.mode === 'online') session.room.send('in', { k: 'rematch' });
+  else if (session.royal) startLocalRoyal(session.match.w[0].id);
   else { const [a, b] = session.match.w; startLocal(a.id, b.id); }
 }
 
@@ -365,6 +391,7 @@ const shakeScale = () => (window.HEEL_SETTINGS?.shake === false || window.HEEL_S
 function handleEvents(evs) {
   const facts = evs.filter((e) => e.k === 'fact');
   if (facts.length && session?.mode === 'exhibition') layer.facts(facts);
+  if (royal.active) royal.events(evs, currentRaw());
   for (const e of evs) {
     feel.onEvent(e, currentRaw());
     if (e.k === 'banner') banner(e.text, e.secs);
@@ -382,7 +409,7 @@ function matchEnded(e) {
   const st = currentRaw();
   const col = (k) => e.stats.map((x) => x[k]);
   const result = {
-    winner: e.winner === 0 ? 'p1' : 'p2', how: e.how,
+    winner: e.royal ? (e.winner === Math.max(0, session.slot) ? 'p1' : 'p2') : e.winner === 0 ? 'p1' : 'p2', how: e.how,
     stats: { strikes: col('strikes'), grapples: col('grapples'), blocks: col('blocks'), reversals: col('reversals') },
     aiPlansLog: e.aiPlansLog,
     winnerId: st.w[e.winner].id, winnerName: st.w[e.winner].name, mode: session.mode, mySlot: Math.max(0, session.slot),
@@ -498,11 +525,13 @@ function frame() {
   // entrances (exhibition only): start once both bodies exist; the sim waits for the bell until they finish
   if (session?.entrance && views.length === 2) { session.entrance = false; entrance.start(session.match); }
   if (session?.mode === 'exhibition' && !paused && !entrance.active) {
-    step(session.match, simDt, session.ctl);
+    (session.royal ? stepRoyal : step)(session.match, simDt, session.ctl);
     handleEvents(session.match.events); session.match.events = [];
-    layer.tick(session.match); // posts to the agents server every ~4 s; never awaited here
+    if (session.royal) royal.tick(session.match); // BAND plans + proposals for the battle royal
+    else layer.tick(session.match); // posts to the agents server every ~4 s; never awaited here
   }
   const st = current();
+  if (st) royal.frame(st);
   if (st) {
     const sdt = paused && session.mode === 'exhibition' ? 0 : viewDt;
     safe(() => updateRef(st, sdt)); syncViews(st.w, sdt);
@@ -526,14 +555,19 @@ function frame() {
     camera.position.lerp(new THREE.Vector3(Math.sin(a) * 13, 6.5, Math.cos(a) * 13), 0.05);
     camera.lookAt(0, MAT_Y + 0.6, 0);
   } else {
-    const [A, B] = views.map((v) => v.holder.position);
-    const mid = A.clone().add(B).multiplyScalar(0.5);
-    const spread = A.distanceTo(B);
+    const live = views.filter((v, i) => st.w[i] && st.w[i].state !== 'waiting' && !st.w[i].out).map((v) => v.holder.position);
+    const pts = live.length >= 2 ? live : views.slice(0, 2).map((v) => v.holder.position);
+    const mid = pts.reduce((a, p) => a.add(p), new THREE.Vector3()).multiplyScalar(1 / pts.length);
+    const spread = Math.max(...pts.map((p) => p.distanceTo(mid))) * 2;
     let want;
     if (st.introT > 0) {
       // intro sweep: swing from a high side angle down to the broadcast position over INTRO_SECS
       const k = 1 - st.introT / INTRO_SECS, a = (1 - k) * 2.2, r = 9 + 5 * (1 - k);
       want = new THREE.Vector3(Math.sin(a) * r, 4 + 4 * (1 - k), Math.cos(a) * r);
+    } else if (st.mode === 'royal') {
+      // battle royal: keep the whole ring centred and drift only a little toward the action
+      want = new THREE.Vector3(mid.x * 0.25 + Math.sin(t * 0.1) * 0.8, 7.4, 11.2 + mid.z * 0.25);
+      mid.multiplyScalar(0.25);
     } else want = new THREE.Vector3(mid.x * 0.5 + Math.sin(t * 0.12) * 2, 5.2 + spread * 0.35, mid.z + 8.5 + spread * 0.6);
     camera.position.lerp(want, st.introT > 0 ? 0.06 : 0.04);
     feel.addTrauma(shake * 0.5); shake = 0;

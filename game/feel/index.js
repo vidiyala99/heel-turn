@@ -56,7 +56,7 @@ export function createFeel({ scene, camera, getViews }) {
     if (e.k === 'impact') {
       lastImpact[e.slot] = t;
       const at = new THREE.Vector3(e.x, MAT_Y + 0.9, e.z), big = e.kind !== 'strike';
-      const att = w?.[1 - e.slot], dx = att ? e.x - att.x : 0, dz = att ? e.z - att.z : 0, len = Math.hypot(dx, dz) || 1;
+      const att = w?.[e.by ?? 1 - e.slot], dx = att ? e.x - att.x : 0, dz = att ? e.z - att.z : 0, len = Math.hypot(dx, dz) || 1;
       addTrauma(V.shake[big ? (e.kind === 'finisher' ? 'finisher' : 'slam') : 'strike'] * (0.6 + e.dmg / 25));
       kick(e.kind === 'finisher' ? 'finisher' : big ? 'slam' : 'strike', at);
       if (big) { fx.dust(e.x, e.z, e.kind === 'finisher' ? 1 : 0.65); fx.sweat(e.x, MAT_Y - 0.9, e.z, 0, 0, 0.5); sfx.thud(e.kind === 'finisher' ? 1 : 0.7); }
@@ -65,7 +65,7 @@ export function createFeel({ scene, camera, getViews }) {
         ui.flash(V.flash.finisher); sfx.pop(1); finisherLanding = true;
         slowmo(V.slowmo.finisher, 0.45);
         if (cut?.kind === 'finisher') cut.until = t + 1.3;
-        ui.announce(`<b>${w ? short(w[1 - e.slot]) : ''}</b> plants him. The building is shaking.`, 2.6);
+        ui.announce(`<b>${w?.[e.by ?? 1 - e.slot] ? short(w[e.by ?? 1 - e.slot]) : ''}</b> plants him. The building is shaking.`, 2.6);
       } else if (e.kind === 'clothesline') { sfx.pop(0.5); ui.announce('Off the ropes, <b>right into the clothesline!</b>'); }
     } else if (e.k === 'finisher') {
       cut = { kind: 'finisher', until: t + 3.2, slot: -1 }; ui.cinematic(true); slowmo(V.slowmo.finisher, V.slowmo.finisherSecs);

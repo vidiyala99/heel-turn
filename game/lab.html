@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Move Lab</title>
+<style>
+  :root {
+    --bg: #0e1116;
+    --panel: rgba(18, 22, 29, 0.86);
+    --line: rgba(220, 226, 235, 0.12);
+    --text: #e6e9ee;
+    --muted: #8d96a3;
+    --accent: #e0483e;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--text); overflow: hidden;
+    font: 14px/1.4 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  canvas { display: block; }
+  #bar { position: fixed; left: 16px; right: 16px; bottom: 16px; display: flex; flex-wrap: wrap; gap: 6px;
+    padding: 8px; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; }
+  button { appearance: none; border: 1px solid var(--line); background: transparent; color: var(--text);
+    border-radius: 7px; padding: 0 12px; min-height: 40px; font: inherit; cursor: pointer;
+    transition: background-color 120ms ease-out, transform 120ms ease-out; }
+  button:hover { background: rgba(255, 255, 255, 0.06); }
+  button:active { transform: scale(0.97); }
+  button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  button kbd { font: 600 12px/1 ui-monospace, monospace; color: var(--muted); margin-right: 6px; }
+  button[aria-pressed="true"] { border-color: var(--accent); color: #fff; }
+  #log { position: fixed; top: 16px; right: 16px; width: min(280px, calc(100vw - 32px)); padding: 10px 12px;
+    background: var(--panel); border: 1px solid var(--line); border-radius: 10px; font-size: 13px; color: var(--muted); }
+  #log b { color: var(--text); font-weight: 600; }
+  #log div + div { margin-top: 2px; }
+  #title { position: fixed; top: 16px; left: 16px; font-weight: 700; font-size: 18px; letter-spacing: -0.01em; }
+  #title span { color: var(--muted); font-weight: 400; font-size: 13px; display: block; }
+  #count { position: fixed; inset: 0; display: grid; place-items: center; pointer-events: none;
+    font: 800 min(22vw, 200px)/1 system-ui, sans-serif; color: #fff; opacity: 0;
+    text-shadow: 0 6px 40px rgba(224, 72, 62, 0.55); transition: opacity 180ms ease-out, transform 180ms ease-out; }
+  #count.on { opacity: 0.92; }
+  @media (max-width: 640px) { #log { display: none; } button { padding: 0 9px; } }
+</style>
+</head>
+<body>
+<div id="title">Move lab<span>Two Xbots, code-authored paired moves</span></div>
+<div id="log" aria-live="polite"></div>
+<div id="count" aria-hidden="true"></div>
+<div id="bar" role="toolbar" aria-label="Moves"></div>
+<script type="module" src="/lab.js"></script>
+</body>
+</html>

@@ -1,4 +1,5 @@
 # Frame: hero tactical shooter (pstack figure-it-out, Phase A, 2026-11-23 00:25)
+n> **Superseded 2026-11-23 11:20** by docs/PLAN.md (wrestling, HEEL TURN). Kept for the record.
 
 Aakash's direction: an original game in the Valorant genre (5v5-style attack/defend, heroes with personalities and
 abilities, good graphics), friends can join by link, and the point is to check whether the AI agents actually learn

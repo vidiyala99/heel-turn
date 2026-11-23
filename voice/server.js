@@ -47,7 +47,7 @@ async function callRunware(v, text) {
     method: 'POST',
     headers: { 'content-type': 'application/json', authorization: `Bearer ${process.env.RUNWARE_API_KEY}` },
     body: JSON.stringify([{ taskType: 'audioInference', taskUUID: crypto.randomUUID(), model: RUNWARE_MODEL,
-      speech: { text, voice: v.runware, speed: v.speed }, outputFormat: 'MP3', outputType: 'base64Data' }]),
+      speech: { text, ...(v.runware ? { voice: v.runware } : {}), speed: v.speedRunware ?? v.speed }, outputFormat: 'MP3', outputType: 'base64Data' }]),
     signal: AbortSignal.timeout(15000),
   });
   const out = await r.json().catch(() => ({}));
@@ -72,7 +72,7 @@ export async function tts(speaker, text, kind) {
   if (!v || typeof text !== 'string' || text.length < 2 || text.length > 500) throw Object.assign(new Error('bad request'), { code: 400 });
   if (!p) throw Object.assign(new Error('no TTS key set'), { code: 503 });
   const instructions = style(speaker, kind);
-  const id = p === 'runware' ? `${RUNWARE_MODEL}|${v.runware}|${v.speed}` : `${OPENAI_TTS_MODEL}|${v.openai.voice}|${instructions}`;
+  const id = p === 'runware' ? `${RUNWARE_MODEL}|${v.runware}|${v.speedRunware ?? v.speed}` : `${OPENAI_TTS_MODEL}|${v.openai.voice}|${instructions}`;
   const key = createHash('sha256').update(`${id}|${text}`).digest('hex').slice(0, 32);
   const file = join(CACHE, `${key}.mp3`);
   try { return { buf: await readFile(file), cached: true }; } catch { /* miss */ }

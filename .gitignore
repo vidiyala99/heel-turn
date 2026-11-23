@@ -9,3 +9,4 @@ vite.log
 tools/.pstack-lite.tgz
 .u1-dist/
 game/server.log
+game/dev.log

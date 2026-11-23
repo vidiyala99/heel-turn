@@ -23,7 +23,14 @@ with sync_playwright() as p:
     pg.goto(URL)
     pg.wait_for_function("window.HEEL_UI && HEEL_UI.state === 'title'", timeout=30000)
     def key(k, w=400): pg.keyboard.press(k); pg.wait_for_timeout(w)
-    key("Enter"); key("Enter"); key("ArrowRight", 200); key("Enter"); key("Enter", 300)
+    def until(state, k="Enter"):
+        for _ in range(20):
+            if pg.evaluate("HEEL_UI.state") == state: return
+            key(k, 500)
+        raise SystemExit(f"menu stuck at {pg.evaluate('HEEL_UI.state')}, wanted {state}")
+    until("menu"); key("Enter", 600)  # Exhibition is the first item
+    until("select", "Escape") if pg.evaluate("HEEL_UI.state") != "select" else None
+    key("ArrowRight", 200); key("Enter", 300)  # pick P1; the opponent is random
     print("menu state:", pg.evaluate("HEEL_UI.state"))
     for n in range(MATCHES):
         pg.wait_for_function("HEEL_UI.state === 'match'", timeout=15000)
@@ -56,8 +63,15 @@ with sync_playwright() as p:
         pg.wait_for_timeout(1500)
         print(f"  end state: {pg.evaluate('HEEL_UI.state')}")
         if n + 1 < MATCHES:
-            pg.wait_for_timeout(int(pg.evaluate("window.HEEL_REMATCH_WAIT_MS || 0")))
+            # wait for the server-side Bruin refresh this match triggered, so the next match reads it
+            for _ in range(90):
+                st = pg.evaluate("fetch('/mem/status').then(r => r.json())")
+                if st.get("refreshes", 0) >= n + 1 and not st.get("running"): break
+                pg.wait_for_timeout(1000)
+            print("  bruin:", st)
             pg.evaluate("document.querySelector('[data-act=rematch]').click()")
+    pg.wait_for_timeout(1000)
+    print("final bruin status:", pg.evaluate("fetch('/mem/status').then(r => r.json())"))
     print("ERRORS:", errs or "none")
     b.close()
 print("PASS counter plan seen in the decision log" if ok else "FAIL no counter plan in the decision log")

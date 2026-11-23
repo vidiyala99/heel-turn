@@ -8,7 +8,8 @@ import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass.js';
 import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass.js';
 import { OutputPass } from 'three/examples/jsm/postprocessing/OutputPass.js';
 import { Client } from '@colyseus/sdk';
-import { createMatch, step, newControl, ROSTER, INTRO_SECS } from './shared/sim.js';
+import { createMatch, step, newControl, normHabits, ROSTER, INTRO_SECS } from './shared/sim.js';
+import { createAgentLayer } from './agent-layer.js';
 import { playPaired, playSolo, updateMoves, isBusy, stopMoves, getRig } from './moves/index.js';
 
 // ---------- renderer / scene ----------
@@ -146,7 +147,7 @@ function call(text) { const c = $('call'); if (c) c.textContent = text; }
 function log(html) {
   const l = $('log'); if (!l) return;
   const p = document.createElement('p'); p.innerHTML = html; l.prepend(p);
-  while (l.children.length > 9) l.lastChild.remove();
+  while (l.children.length > 12) l.lastChild.remove();
 }
 function setText(id, text) { const e = $(id); if (e) e.textContent = text; }
 function setWidth(id, pct) { const e = $(id); if (e) e.style.width = pct + '%'; }
@@ -171,6 +172,8 @@ function showInvite(link) {
   el.querySelector('input').value = link; el.style.display = 'flex';
 }
 function hideInvite() { const el = $('heel-invite'); if (el) el.style.display = 'none'; }
+
+const layer = createAgentLayer({ logRow: (html) => log(html), call: (t) => call(t) });
 
 // ---------- wrestler views (render only; state lives in shared/sim.js) ----------
 const loader = new GLTFLoader();
@@ -265,6 +268,11 @@ function startLocal(p1, p2) {
   const match = createMatch(p1, p2, savedHabits);
   savedHabits = match.habits;
   session = { mode: 'exhibition', slot: 0, match, ctl: [newControl(true), newControl(false)] };
+  // Bruin memory: the AI's habit table for you comes from the marts when they answer before/at the bell.
+  const id = 'm' + Date.now().toString(36);
+  layer.matchStart({ match: id, wrestlers: [p1, p2], humans: [true, false] }).then((h) => {
+    if (h && session?.match === match) { match.habits = normHabits(h); savedHabits = match.habits; }
+  });
 }
 
 const ROOM_CHARS = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
@@ -326,6 +334,8 @@ let shake = 0;
 // Shell settings: { volume, shake } on window.HEEL_SETTINGS (read live, so 'heel:settings' needs no listener).
 const shakeScale = () => (window.HEEL_SETTINGS?.shake === false || window.HEEL_SETTINGS?.shake === 0 ? 0 : 1);
 function handleEvents(evs) {
+  const facts = evs.filter((e) => e.k === 'fact');
+  if (facts.length && session?.mode === 'exhibition') layer.facts(facts);
   for (const e of evs) {
     if (e.k === 'banner') banner(e.text, e.secs);
     else if (e.k === 'call') call(e.text);
@@ -348,6 +358,7 @@ function matchEnded(e) {
     winnerId: st.w[e.winner].id, winnerName: st.w[e.winner].name, mode: session.mode, mySlot: Math.max(0, session.slot),
   };
   for (const cb of endCbs) { try { cb(result); } catch (err) { console.error(err); } }
+  if (session.mode === 'exhibition') layer.matchEnd();
 }
 
 // Render state: the local match, or the server snapshot interpolated INTERP_MS behind real time.

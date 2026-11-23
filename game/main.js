@@ -14,6 +14,7 @@ import { playPaired, playSolo, updateMoves, isBusy, stopMoves, getRig } from './
 import { createFeel } from './feel/index.js';
 import { T } from './shared/tuning.js';
 import { loadBodies } from './arena/bodies.js';
+import { CHARACTERS, cssHex } from './shared/characters.js';
 
 // ---------- renderer / scene ----------
 const renderer = new THREE.WebGLRenderer({ antialias: true });
@@ -156,6 +157,7 @@ function log(html, key, same) {
   while (l.children.length > 12) l.lastChild.remove();
 }
 function setText(id, text) { const e = $(id); if (e) e.textContent = text; }
+function nameColor(i, id) { const e = $('n' + i), c = CHARACTERS[id]; if (e && c) e.style.color = cssHex(c.palette.ui); }
 function setWidth(id, pct) { const e = $(id); if (e) e.style.width = pct + '%'; }
 
 // Invite chip for online rooms, created here so index.html stays the shell's.
@@ -281,7 +283,7 @@ function syncViews(ws, dt) {
   ws.forEach((w, i) => {
     if (!views[i] || views[i].id !== w.id) {
       if (views[i]) scene.remove(views[i].holder);
-      views[i] = makeView(w); setText('n' + i, w.name); play(views[i], 'idle');
+      views[i] = makeView(w); setText('n' + i, w.name); nameColor(i, w.id); play(views[i], 'idle');
     }
   });
   ws.forEach((w, i) => {

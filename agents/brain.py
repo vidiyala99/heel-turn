@@ -239,6 +239,8 @@ class Director:
 
         def run():
             fb = pl.fallback_ref(REF, state, self.memory, bribes)
+            if not state.get("pin"):  # nothing to count: no LLM call, no invented targets
+                return fb, {"who": REF["id"], "task": "call the count", "source": "rule", "ms": 0.0}
             # a crooked count is only on the menu when an approved bribe backs it (the commissioner's block holds)
             allowed = ("count_fair",) if fb["intent"] == "count_fair" else ("count_fair", fb["intent"])
             return self.planner.decide(REF, "call the count", state, snap, allowed,

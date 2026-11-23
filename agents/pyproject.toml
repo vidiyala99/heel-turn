@@ -1,0 +1,11 @@
+[project]
+name = "heel-turn-agents"
+version = "0.1.0"
+requires-python = ">=3.11"
+# Core (mock BAND, fallback/OpenAI planner, server) is stdlib-only. Extras:
+#   live BAND:  band-sdk      (provides band_rest; HEEL_BAND_MODE=live)
+#   Bruin read: duckdb        (HEEL_BRUIN_DUCKDB=<path>)
+dependencies = []
+
+[project.optional-dependencies]
+live = ["band-sdk>1.6.0", "duckdb>=1.0"]

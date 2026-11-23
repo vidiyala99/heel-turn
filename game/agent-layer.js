@@ -33,7 +33,7 @@ export function createAgentLayer({ logRow, call }) {
     if (h.llm) booth = createCommentary({ ...boothOpts, llm: '/voice/api/line' });
   }).catch(() => { debug.voice = { offline: true }; });
   // menus get music; the booth and crowd only live from the bell to the results screen
-  mountMusic(undefined, { onScreen: (s) => { if (s === 'match') { try { crowd.start(); } catch {} } crowd.setLive(s === 'match' || s === 'pause'); } });
+  const music = mountMusic(undefined, { onScreen: (s) => { if (s === 'match') { try { crowd.start(); } catch {} } crowd.setLive(s === 'match' || s === 'pause'); } });
   function caption(line) {
     const who = { rex: 'Rex', dot: 'Dot', vex: 'Vex', kane: 'Kane', silas: 'Crane', mae: 'Mae' }[line.speaker] || line.speaker;
     debug.spoken.push({ t_s: +((performance.now() - t0) / 1000).toFixed(2), speaker: line.speaker, source: line.source, text: line.text });
@@ -169,7 +169,11 @@ export function createAgentLayer({ logRow, call }) {
     }).finally(() => { inFlight = false; });
   }
 
-  return { matchStart, facts, matchEnd, tick, bind(m) { if (cur) cur.m = m; }, debug };
+  // the entrance (feel/entrance.js) and the winner call use the same voice bus, crowd and music
+  const announce = (line) => { caption(line); return tts.speak(line); };
+  const swell = (a, s) => { try { crowd.start(); crowd.swell(a, s); } catch {} };
+  const sting = (id) => music.sting(id);
+  return { matchStart, facts, matchEnd, tick, bind(m) { if (cur) cur.m = m; }, debug, announce, swell, sting };
 }
 
 // One decision-log row: source chip, who -> intent (target), the reason, then the mart rows it cites.

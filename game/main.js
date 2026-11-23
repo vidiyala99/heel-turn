@@ -15,6 +15,8 @@ import { createFeel } from './feel/index.js';
 import { T } from './shared/tuning.js';
 import { loadBodies } from './arena/bodies.js';
 import { createReferee } from './arena/referee.js';
+import { createEntrance } from './feel/entrance.js';
+import { winnerLine } from '../voice/announcer.js';
 import { CHARACTERS, cssHex } from './shared/characters.js';
 
 // ---------- renderer / scene ----------
@@ -297,7 +299,7 @@ function withTimeout(p, ms, what) {
 function startLocal(p1, p2) {
   const match = createMatch(p1, p2, savedHabits);
   savedHabits = match.habits;
-  session = { mode: 'exhibition', slot: 0, match, ctl: [newControl(true), newControl(false)] };
+  session = { mode: 'exhibition', slot: 0, match, ctl: [newControl(true), newControl(false)], entrance: true };
   // Bruin memory: the AI's habit table for you comes from the marts when they answer before/at the bell.
   const id = 'm' + Date.now().toString(36);
   const started = layer.matchStart({ match: id, wrestlers: [p1, p2], humans: [true, false] });
@@ -350,6 +352,7 @@ async function startMatch(cfg = {}) {
 }
 
 function toMenu() {
+  entrance.finish();
   if (session?.room) session.room.leave().catch(() => {});
   session = null; clearViews(); hideInvite(); paused = false;
   bannerT = 0; const b = $('banner'); if (b) b.style.opacity = 0;
@@ -390,6 +393,7 @@ function matchEnded(e) {
     aiPlansLog: e.aiPlansLog,
     winnerId: st.w[e.winner].id, winnerName: st.w[e.winner].name, mode: session.mode, mySlot: Math.max(0, session.slot),
   };
+  setTimeout(() => layer.announce(winnerLine(result.winnerId)), 1400); // after the bell: the ring announcer
   for (const cb of endCbs) { try { cb(result); } catch (err) { console.error(err); } }
   if (session.mode === 'exhibition') layer.matchEnd();
 }
@@ -467,11 +471,14 @@ window.G = {
 // ---------- loop ----------
 const clock = new THREE.Clock();
 const feel = createFeel({ scene, camera, getViews: () => views });
+const entrance = createEntrance({ scene, camera, screen, matY: MAT_Y, ring: RING, getViews: () => views, play, layer });
 function frame() {
   const dt = Math.min(clock.getDelta(), 0.05);
   const t = clock.elapsedTime;
   const { simDt, viewDt } = feel.begin(dt, current());
-  if (session?.mode === 'exhibition' && !paused) {
+  // entrances (exhibition only): start once both bodies exist; the sim waits for the bell until they finish
+  if (session?.entrance && views.length === 2) { session.entrance = false; entrance.start(session.match); }
+  if (session?.mode === 'exhibition' && !paused && !entrance.active) {
     step(session.match, simDt, session.ctl);
     handleEvents(session.match.events); session.match.events = [];
     layer.tick(session.match); // posts to the agents server every ~4 s; never awaited here
@@ -489,7 +496,8 @@ function frame() {
   crowd.instanceMatrix.needsUpdate = true;
   for (const r of ropes) { if (r.userData.wob) { r.userData.wob *= 0.9; r.position.y = r.userData.base.y + Math.sin(t * 40) * r.userData.wob * 0.15; } }
   spots.forEach((s, i) => { s.intensity = 52 + Math.sin(t * 0.7 + i) * 5; });
-  if (!st) {
+  if (st && entrance.frame(paused ? 0 : dt)) feel.frame(dt, st);
+  else if (!st) {
     feel.frame(dt, null);
     // attract mode: slow orbit around the empty ring
     const a = t * 0.12;

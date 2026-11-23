@@ -22,3 +22,4 @@ ts	phase	decision	why	evidence	result
 2026-11-23T00:25	frame	R3 designs (meter/SCE) discarded	Built on skewed grounding (old SCE work over-weighted)	docs/arena/r3-*	VERIFIED
 2026-11-23T00:50	video	Demo video plan: 2:15 target, 8-shot list, replay/director camera, capture-as-you-go, mute test	figure-it-out; experience first; build the lever; prove it works	docs/VIDEO.md	open
 2026-11-23T00:55	stack	Recommend three.js + Vite client, Colyseus 0.18 server, recast-navigation-js bots, Quaternius/Kenney CC0 assets; fallback Playroom + R3F; browser over Windows	Survey of engines, netcode, assets, MCPs with sources	prep/stack-survey.md	open (prototype 3 risks first)
+2026-11-23T10:55	B	PLAN.md rewritten for hero shooter: data shapes, 4 heroes, U0-U9 build order with checks, cut order	Aakash at venue; shooter is default (his 2 directions, shooter leads); riskiest unit (2 browsers) first	docs/FRAME.md, docs/VIDEO.md, prep/stack-survey.md	draft, awaiting confirm

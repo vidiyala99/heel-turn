@@ -37,3 +37,4 @@ ts	phase	decision	why	evidence	result
 2026-11-23T12:47	C	Merged lane/voice	local: node tests pass, latency stub 2-16 ms; Runware never called live (no key); browser audio unheard	docs/lanes/voice.md	PARTIAL
 2026-11-23T12:52	C	Merged lane/band; registered Vex, Kane, Silas, Mae, Lou on BAND (same account as Tom/Jerry), creds in .env	lane verified mock BAND + live OpenAI planner; live BAND path untested	docs/lanes/band.md	merged; live BAND test next
 2026-11-23T12:56	C	Ladder lane relaunched	first run got a stray Bruin task line from my brief template and its ladder subagent was killed by the headless 10-min background cap; old branch deleted	docs/briefs/ladder.md	running
+2026-11-23T13:22	B	LLM (OpenAI via agents /plan) is the decider for every AI wrestler and the ref; habit counts and Bruin marts are inputs; scripted layer only executes; log tags LLM vs fallback	Aakash 13:22: agents must use LLMs	docs/lanes/band.md	sent to wiring agent

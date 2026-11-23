@@ -6,3 +6,4 @@ node_modules/
 dist/
 vite.log
 .playwright-mcp/
+tools/.pstack-lite.tgz

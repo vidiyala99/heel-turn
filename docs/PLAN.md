@@ -26,6 +26,15 @@ All project code is written at the event. How we got here: `docs/decisions.tsv`,
 | Compounds after posting | no (one-shot video) | **yes (play link, Discord)** | no |
 | Build risk solo | **lowest (pre-run replay)** | highest (live 2 humans, networking) | medium |
 
+## Update (23:55): default = BAD CREDIT + hidden Counterfeiter (Mafia layer)
+Aakash may change this in the morning. One player (an AI merchant or a human) is secretly the Counterfeiter, slipping
+fake goods into trades. Bruin's audit after each round is the evidence (broken promises, goods that do not add up,
+odd credit moves). Everyone argues, AI merchants accuse and sometimes frame a human, then all vote one player out of
+the market and their role is revealed. Townsfolk win by voting out the Counterfeiter; the Counterfeiter wins by
+surviving with the most coins. Why: social deduction gets the most attention (`prep/attention-teardown.md`), and using a
+live data audit as the clues keeps it unique versus plain AI Mafia (listed as an example in the track brief, so other
+teams will build it). Build order unchanged; add the vote/reveal step to unit 3 and the vote UI to unit 4.
+
 ## Decision (23:50): Track 2, BAD CREDIT, de-risked
 Base spec: `docs/arena/round2-candidate-B.md`. A night market where 2 humans and 4 BAND merchant agents trade IOUs.
 Every deal is a spoken promise; each round a Bruin pipeline audits promises against deliveries and mints credit scores

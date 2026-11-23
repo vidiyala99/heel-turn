@@ -2,16 +2,13 @@
 // Talks to the engine only through window.HEEL = { startMatch(cfg), onMatchEnd(cb), toMenu(), setPaused(bool) }.
 // The engine may load after this file (or not at all); every call is guarded.
 
-const ROSTER = [
-  { id: 'vex', name: 'Vex', full: 'Vex “The Voltage”', role: 'Showboat', tint: '#2b8cff',
-    line: 'Fast hands, faster mouth. Wins the crowd first, the match second.', power: 55, speed: 90, technique: 70 },
-  { id: 'kane', name: 'Brutus Kane', full: 'Brutus Kane', role: 'Brute', tint: '#e8333b',
-    line: 'Does not run the ropes. Runs through them.', power: 95, speed: 42, technique: 50 },
-  { id: 'silas', name: 'Silas Crane', full: 'Silas Crane', role: 'Schemer', tint: '#8b4dff',
-    line: 'Studies you for three rounds, then takes the fourth.', power: 60, speed: 66, technique: 92 },
-  { id: 'mae', name: 'Old Iron Mae', full: 'Old Iron Mae', role: 'Veteran', tint: '#c9ced8',
-    line: 'Thirty years in the ring. She has a counter for everything you try.', power: 76, speed: 52, technique: 86 },
-];
+import { CHARACTERS, WRESTLER_IDS, cssHex } from '/shared/characters.js';
+
+// Names, lines, stats and tints come from the character bible (shared/characters.js), same as the 3D models.
+const ROSTER = WRESTLER_IDS.map((id) => {
+  const c = CHARACTERS[id];
+  return { id, name: c.name, full: c.full, role: c.role, tint: cssHex(c.palette.ui), line: c.line, power: c.power, speed: c.speed, technique: c.technique };
+});
 const byId = Object.fromEntries(ROSTER.map((w) => [w.id, w]));
 const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
 

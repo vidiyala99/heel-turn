@@ -9,7 +9,7 @@ OUT = Path(__file__).resolve().parents[2] / "docs" / "shots"
 OUT.mkdir(parents=True, exist_ok=True)
 
 with sync_playwright() as p:
-    b = p.chromium.launch(args=["--use-gl=angle", "--enable-unsafe-swiftshader"])
+    b = p.chromium.launch(args=["--use-gl=angle", "--enable-unsafe-swiftshader", "--mute-audio"])
     pg = b.new_page(viewport={"width": 1280, "height": 800})
     errs = []
     pg.on("pageerror", lambda e: errs.append("pageerror: " + str(e)))
@@ -55,4 +55,5 @@ with sync_playwright() as p:
     pg.evaluate("document.querySelector('[data-act=rematch]').click()")
     pg.wait_for_timeout(3000); print("after rematch:", st(), pg.evaluate("!!G.state && !G.state.over"))
     print("ERRORS:", errs or "none")
+    pg.evaluate("window.speechSynthesis && speechSynthesis.cancel()")
     b.close()

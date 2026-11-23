@@ -17,3 +17,4 @@ ts	phase	decision	why	evidence	result
 2026-11-23T00:05	frame	Premise test: BAND delete test VERIFIED; Bruin INCONCLUSIVE (blog themes only)	Attack the premise before another design	docs/GROUNDING.md	partial
 2026-11-23T00:06	frame	Hard exclusions: no recipes, no brief examples, no reskins	Aakash: stop using recipes; BAD CREDIT = Agent Market	docs/GROUNDING.md	VERIFIED
 2026-11-23T00:07	design	Fixed weighted rubric + two-judge noise floor written before the round	Explain the number: decision rule before run	docs/RUBRIC.md	open
+2026-11-23T00:12	run	Probe Bruin inference asset syntax + providers (anthropic supported)	Riskiest Bruin unknown for any design	docs/GROUNDING.md Phase C	VERIFIED (docs) / NOT VERIFIED (local run)

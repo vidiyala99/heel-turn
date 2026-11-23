@@ -38,3 +38,15 @@ Premise every earlier design assumed: "sponsor judges reward a sponsor tool made
 2. No "agents verify claims/quotes in a 3D scene" (the Telem SearchHack cliché).
 3. Nothing about job seeking.
 4. Not a recreation of an existing named game (Among Us, Mafia/Werewolf as-is).
+
+## Phase C probes (tool unknowns, no project code)
+- **Bruin inference assets: VERIFIED from docs** (getbruin.com/docs/bruin/assets/inference.html). `type: inference` asset
+  with `parameters: {provider, model, input_asset|input_query, context, system_prompt}` and `columns[].inference:
+  {prompt, choices, minimum, maximum}`. Providers: openai, anthropic, google, openrouter, opencode, typesafe. Typed answers,
+  invalid answers fail the run, results cached per row, checks work on generated columns. **Experimental.** Bruin does not
+  run agents or tools; the model only fills columns. Runnable DuckDB example in the repo's `examples/inference`.
+  NOT yet run locally (needs a model key in `.bruin.yml`).
+- **Bruin showcase house style:** every featured project lists "Bruin Features Used" (Python/SQL/seed assets,
+  materialization, depends DAG, built-in + custom checks, glossary, schedule, Cloud AI analyst, column lineage).
+  The README should copy that format.
+- **Failing check blocks downstream: VERIFIED locally** (prep/bruin/probe, UPSTREAM FAILED).

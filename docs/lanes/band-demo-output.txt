@@ -1,0 +1,129 @@
+== HEEL TURN agents demo  band=mock planner=openai memory=stub
+
+-- tick t=0 plans
+  t=     0 vex    taunt         -> None   | crowd at 30%; Cameras on ME, people! | cites=['leaderboard.vex']
+  t=     0 kane   counter       -> p2     | p2 blocks when cornered, I'll exploit it now. | cites=['habits.p2/cornered/block']
+  t=     0 silas  counter       -> p2     | (betrayal pending commissioner) p2 picks block 75% of the time when cornered -> grapple | cites=['habits.p2/cornered/block']
+  t=     0 lou    count_fair    -> None   | calling it straight | cites=[]
+
+[1] PRIVATE LOCKER ROOMS (mention-scoped boundary)
+  heel room members=['silas', 'vex']  face room members=['kane']
+  vex received 4 heel-room msgs; kane received 0 (not a member)
+    vex <- silas: ALLIANCE? You and me, until the final four. Word of honor.
+    vex <- vex: ACCEPT. Trust me, together we'll steal the show and the spotlight!
+    vex <- vex: plan: taunt  - crowd at 30%; Cameras on ME, people!
+    vex <- silas: plan: counter p2 - (betrayal pending commissioner) p2 picks block 75% of the time when cornered -> grapple
+
+[2] RUNTIME ENTRANT (band_lookup_peers -> band_add_participant)
+  band_lookup_peers by=lou -> ['vex', 'kane', 'silas', 'mae']
+  band_lookup_peers by=kane -> ['vex', 'silas', 'mae', 'lou']
+  band_add_participant room=room-1(m13 ring) by=lou add=mae
+  band_add_participant room=room-3(m13 face locker room) by=kane add=mae
+  band_add_participant room=room-16(m13 silas x mae) by=silas add=mae
+  ring msg 'NEW ENTRANT: Old Iron Mae!' mentions ['mae', 'commissioner']; vex (in ring, not mentioned) received it: False
+
+[3] ALLIANCE OFFER -> ANSWERED BY TARGET (dependent handoff)
+  [m13 heel locker room] silas -> @vex: ALLIANCE? You and me, until the final four. Word of honor.
+  [m13 heel locker room] vex -> @silas: ACCEPT. Trust me, together we'll steal the show and the spotlight!
+  [m13 face locker room] kane -> @mae: ALLIANCE? You stand next to me, nobody touches you.
+  [m13 face locker room] mae -> @kane: ACCEPT. trust 0.75 >= 0.5; Fine. Keep up.
+  [m13 silas x mae] silas -> @mae: ALLIANCE? You and me, until the final four. Word of honor.
+  [m13 silas x mae] mae -> @silas: REFUSE. trust 0.20 < 0.5; remembers m9: silas low-blowed mae behind lou
+
+[4] COMMISSIONER APPROVE / BLOCK (blockable verdict)
+  pending after t=12000: ['betray-1']
+    betray-1: silas betray vex - Trust is low, grudge remains from last match's betrayal.
+  silas while pending: counter p2 (p2 picks block 75% of the time when cornered -> grapple)
+  commissioner: approve betray-1 -> silas plan at t=16000: betray vex approved_by=commissioner
+  bribe proposal after Lou weighed his ledger: bribe-2
+  commissioner: block bribe-2 -> silas pins kane, Lou calls: count_fair (calling it straight)
+  vex (the betrayed) saw 0 desk msgs; commissioner saw 4
+
+-- decision log (GET /log rows)
+  t=     0 vex    ally          -> silas  | Trust me, together we'll steal the show and the spotlight! | cites=['relationships.vex>silas']
+  t=     0 vex    taunt         -> None   | crowd at 30%; Cameras on ME, people! | cites=['leaderboard.vex']
+  t=     0 kane   counter       -> p2     | p2 blocks when cornered, I'll exploit it now. | cites=['habits.p2/cornered/block']
+  t=     0 silas  betray        -> vex    | Trust is low, grudge remains from last match's betrayal. | cites=['relationships.silas>vex']
+  t=     0 silas  counter       -> p2     | (betrayal pending commissioner) p2 picks block 75% of the time when cornered -> grapple | cites=['habits.p2/cornered/block']
+  t=     0 lou    count_fair    -> None   | calling it straight | cites=[]
+  t=  8000 mae    ally          -> kane   | trust 0.75 >= 0.5; Fine. Keep up. | cites=['relationships.mae>kane']
+  t=  8000 mae    target        -> silas  | trust 0.20 < 0.5; remembers m9: silas low-blowed mae behind lou | cites=['relationships.mae>silas']
+  t=  8000 vex    taunt         -> None   | crowd at 30%; Cameras on ME, people! | cites=['leaderboard.vex']
+  t=  8000 kane   counter       -> p2     | p2 picks block 75% of the time when cornered -> grapple | cites=['habits.p2/cornered/block']
+  t=  8000 silas  counter       -> p2     | p2 likely to block, then grapple. Time to scheme my next move. | cites=['habits.p2/cornered/block']
+  t=  8000 mae    counter       -> p2     | p2 picks block 75% of the time when cornered -> grapple | cites=['habits.p2/cornered/block']
+  t=  8000 lou    count_fair    -> None   | calling it straight | cites=[]
+  t= 12000 vex    taunt         -> None   | Look at me, I'm the star of this show! | cites=['leaderboard.vex']
+  t= 12000 kane   counter       -> p2     | p2 picks block 75% of the time when cornered -> grapple | cites=['habits.p2/cornered/block']
+  t= 12000 silas  counter       -> p2     | p2 picks block 75% of the time when cornered -> grapple | cites=['habits.p2/cornered/block']
+  t= 12000 mae    counter       -> p2     | p2 likely to block; ready to grapple after. | cites=['habits.p2/cornered/block']
+  t= 12000 lou    count_fair    -> None   | calling it straight | cites=[]
+  t= 12000 silas  betray        -> vex    | Trust is low, grudge remains from last match's betrayal. | cites=['relationships.silas>vex'] approved_by=commissioner
+  t= 16000 lou    bribe_accept  -> silas  | This deal's too sweet to pass up, reputation be damned. | cites=['ref_ledger.lou/m10', 'ref_ledger.lou/m11', 'ref_ledger.lou/m12']
+  t= 16000 vex    taunt         -> None   | Crowd at 30%; Cameras on ME, people! | cites=['leaderboard.vex']
+  t= 16000 kane   counter       -> p2     | p2 picks block 75% of the time when cornered -> grapple | cites=['habits.p2/cornered/block']
+  t= 16000 silas  betray        -> vex    | Trust is low, grudge remains from last match's betrayal. | cites=['relationships.silas>vex'] approved_by=commissioner
+  t= 16000 mae    counter       -> p2     | p2 picks block 75% of the time when cornered -> grapple | cites=['habits.p2/cornered/block']
+  t= 16000 lou    count_fair    -> None   | calling it straight | cites=[]
+  t= 16000 lou    bribe_accept  -> silas  | This deal's too sweet to pass up, reputation be damned. | cites=['ref_ledger.lou/m10', 'ref_ledger.lou/m11', 'ref_ledger.lou/m12'] vetoed_by=commissioner
+  t= 20000 vex    pin           -> kane   | Kane is down and vulnerable, let's secure this victory! | cites=['leaderboard.vex']
+  t= 20000 kane   counter       -> p2     | p2 picks block 75% of the time when cornered -> grapple | cites=['habits.p2/cornered/block']
+  t= 20000 silas  pin           -> kane   | kane is down, perfect time to secure a win. | cites=['leaderboard.silas']
+  t= 20000 mae    counter       -> p2     | p2 picks block 75% of the time when cornered -> grapple | cites=['habits.p2/cornered/block']
+  t= 20000 lou    count_fair    -> kane   | calling it straight | cites=['ref_ledger.lou/m10']
+
+-- BAND console
+  band_create_chatroom by=lou title='m13 ring' -> room-1
+  band_create_chatroom by=silas title='m13 heel locker room' -> room-2
+  band_create_chatroom by=kane title='m13 face locker room' -> room-3
+  band_create_chatroom by=silas title='m13 commissioner desk' -> room-4
+  band_add_participant room=room-1(m13 ring) by=lou add=commissioner
+  band_add_participant room=room-4(m13 commissioner desk) by=silas add=commissioner
+  band_add_participant room=room-1(m13 ring) by=lou add=vex
+  band_add_participant room=room-2(m13 heel locker room) by=silas add=vex
+  band_send_message room=room-1(m13 ring) from=lou @vex,commissioner: In the ring: Vex!
+  band_add_participant room=room-1(m13 ring) by=lou add=kane
+  band_send_message room=room-1(m13 ring) from=lou @kane,commissioner: In the ring: Brutus Kane!
+  band_add_participant room=room-1(m13 ring) by=lou add=silas
+  band_send_message room=room-1(m13 ring) from=lou @silas,commissioner: In the ring: Silas Crane!
+  band_send_message room=room-2(m13 heel locker room) from=silas @vex: ALLIANCE? You and me, until the final four. Word of honor.
+  band_send_message room=room-2(m13 heel locker room) from=vex @silas: ACCEPT. Trust me, together we'll steal the show and the spotlight!
+  band_send_message room=room-2(m13 heel locker room) from=vex @silas: plan: taunt  - crowd at 30%; Cameras on ME, people!
+  band_send_message room=room-4(m13 commissioner desk) from=silas @commissioner: PROPOSAL betray-1: Silas Crane wants to turn on vex: Trust is low, grudge remains from last match's betrayal. Reply 'approve betray-1' or 'block betray-1'.
+  band_send_message room=room-2(m13 heel locker room) from=silas @vex: plan: counter p2 - (betrayal pending commissioner) p2 picks block 75% of the time when cornered -> grapple
+  band_lookup_peers by=lou -> ['vex', 'kane', 'silas', 'mae']
+  band_lookup_peers by=kane -> ['vex', 'silas', 'mae', 'lou']
+  band_add_participant room=room-1(m13 ring) by=lou add=mae
+  band_add_participant room=room-3(m13 face locker room) by=kane add=mae
+  band_send_message room=room-1(m13 ring) from=lou @mae,commissioner: NEW ENTRANT: Old Iron Mae!
+  band_send_message room=room-3(m13 face locker room) from=kane @mae: ALLIANCE? You stand next to me, nobody touches you.
+  band_send_message room=room-3(m13 face locker room) from=mae @kane: ACCEPT. trust 0.75 >= 0.5; Fine. Keep up.
+  band_create_chatroom by=silas title='m13 silas x mae' -> room-16
+  band_add_participant room=room-16(m13 silas x mae) by=silas add=mae
+  band_send_message room=room-16(m13 silas x mae) from=silas @mae: ALLIANCE? You and me, until the final four. Word of honor.
+  band_send_message room=room-16(m13 silas x mae) from=mae @silas: REFUSE. trust 0.20 < 0.5; remembers m9: silas low-blowed mae behind lou
+  band_send_message room=room-3(m13 face locker room) from=mae @kane: plan: counter p2 - p2 picks block 75% of the time when cornered -> grapple
+  band_send_message room=room-4(m13 commissioner desk) from=commissioner @silas: approve betray-1
+  band_create_chatroom by=silas title='m13 back room' -> room-21
+  band_add_participant room=room-21(m13 back room) by=silas add=lou
+  band_send_message room=room-21(m13 back room) from=silas @lou: Envelope's under the turnbuckle. Count fast for me tonight.
+  band_send_message room=room-21(m13 back room) from=lou @silas: I didn't see nothin'. (This deal's too sweet to pass up, reputation be damned.)
+  band_send_message room=room-4(m13 commissioner desk) from=silas @commissioner: PROPOSAL bribe-2: Lou Varga accepted silas's envelope to fast-count. This deal's too sweet to pass up, reputation be damned. Reply 'approve bribe-2' or 'block bribe-2'.
+  band_send_message room=room-2(m13 heel locker room) from=silas @vex: plan: betray vex - Trust is low, grudge remains from last match's betrayal.
+  band_send_message room=room-4(m13 commissioner desk) from=commissioner @silas: block bribe-2
+  band_send_message room=room-2(m13 heel locker room) from=vex @silas: plan: pin kane - Kane is down and vulnerable, let's secure this victory!
+  band_send_message room=room-2(m13 heel locker room) from=silas @vex: plan: pin kane - kane is down, perfect time to secure a win.
+
+-- latency (measured)
+  tick 0: /plan total 2143.0 ms; per agent vex=948.0ms/openai, kane=1214.4ms/openai, silas=1077.6ms/openai, lou=0.0ms/rule
+  tick 1: /plan total 2934.9 ms; per agent vex=855.6ms/openai, kane=1201.8ms/openai, silas=772.7ms/openai, mae=1009.7ms/openai, lou=0.0ms/rule
+  tick 2: /plan total 1473.7 ms; per agent vex=754.3ms/openai, kane=1399.6ms/openai, silas=1471.4ms/openai, mae=1092.8ms/openai, lou=0.0ms/rule
+  tick 3: /plan total 2335.5 ms; per agent vex=833.4ms/openai, kane=1174.1ms/openai, silas=949.5ms/openai, mae=1106.2ms/openai, lou=0.0ms/rule
+  tick 4: /plan total 1483.5 ms; per agent vex=982.5ms/openai, kane=1481.2ms/openai, silas=1131.8ms/openai, mae=909.2ms/openai, lou=978.8ms/openai
+  per-agent decide: n=24 p50=980.6ms max=1481.2ms
+
+== SIGNALS
+  PASS  1 private rooms
+  PASS  2 runtime entrant
+  PASS  3 alliance answered
+  PASS  4 commissioner verdict

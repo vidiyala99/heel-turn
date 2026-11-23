@@ -10,9 +10,9 @@ import { ROSTER_ASSETS } from './shared/roster-assets.js';
 import { adoptBand, snapshotRoyal } from './shared/royal.js';
 
 // The fifth body (Kid Riot): registered here so shared/roster-assets.js stays the attire lane's file.
-ROSTER_ASSETS.riot ||= {
-  body: 'male', hair: ['Hair_Buzzed'], hairColor: 0xf59e0b, scale: [1.02, 0.98, 1.02],
-  skin: 0xc68a62, trunks: 0xd97706, top: null, legs: null, boots: 0x3a2206,
+ROSTER_ASSETS.riot ||= { // Vex's build and gear, recut in orange: the fifth body for a full card
+  ...ROSTER_ASSETS.vex, hairColor: 0xf59e0b, scale: [1.04, 0.98, 1.04],
+  palette: { ...ROSTER_ASSETS.vex.palette, ui: 0xf59e0b, primary: 0xd97706, secondary: 0x2a1604, accent: 0xfff1d6, skin: 0xc68a62 },
 };
 
 const ODDS_ID = { kane: 'brutus' }; // Bruin roster ids

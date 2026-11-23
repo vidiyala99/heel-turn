@@ -1,4 +1,5 @@
-// HEEL TURN prototype (throwaway, pstack prototype playbook). Keyboard only.
+// HEEL TURN client: arena rendering, wrestler views, and the window.HEEL contract for the shell (game/ui).
+// Combat rules live in shared/sim.js (run here for exhibition, on game/server for online).
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import { clone as skClone } from 'three/examples/jsm/utils/SkeletonUtils.js';
@@ -6,6 +7,8 @@ import { EffectComposer } from 'three/examples/jsm/postprocessing/EffectComposer
 import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass.js';
 import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass.js';
 import { OutputPass } from 'three/examples/jsm/postprocessing/OutputPass.js';
+import { Client } from '@colyseus/sdk';
+import { createMatch, step, newControl, ROSTER, INTRO_SECS } from './shared/sim.js';
 
 // ---------- renderer / scene ----------
 const renderer = new THREE.WebGLRenderer({ antialias: true });
@@ -134,278 +137,273 @@ function screenTex(text) {
 const screen = new THREE.Mesh(new THREE.PlaneGeometry(12, 6), new THREE.MeshBasicMaterial({ map: screenTex('HEEL TURN') }));
 screen.position.set(0, 10, -19); scene.add(screen);
 
-// ---------- UI helpers ----------
+// ---------- UI helpers (ids owned by the shell's index.html; all optional) ----------
 const $ = (id) => document.getElementById(id);
 let bannerT = 0;
-function banner(text, secs = 1.4) { $('banner').textContent = text; $('banner').style.opacity = 1; bannerT = secs; }
-function call(text) { $('call').textContent = text; }
+function banner(text, secs = 1.4) { const b = $('banner'); if (!b) return; b.textContent = text; b.style.opacity = 1; bannerT = secs; }
+function call(text) { const c = $('call'); if (c) c.textContent = text; }
 function log(html) {
-  const p = document.createElement('p'); p.innerHTML = html; $('log').prepend(p);
-  while ($('log').children.length > 9) $('log').lastChild.remove();
+  const l = $('log'); if (!l) return;
+  const p = document.createElement('p'); p.innerHTML = html; l.prepend(p);
+  while (l.children.length > 9) l.lastChild.remove();
 }
+function setText(id, text) { const e = $(id); if (e) e.textContent = text; }
+function setWidth(id, pct) { const e = $(id); if (e) e.style.width = pct + '%'; }
 
-// ---------- wrestlers ----------
+// Invite chip for online rooms, created here so index.html stays the shell's.
+function showInvite(link) {
+  let el = $('heel-invite');
+  if (!el) {
+    el = document.createElement('div'); el.id = 'heel-invite';
+    el.style.cssText = 'position:fixed;top:120px;left:50%;transform:translateX(-50%);z-index:20;display:flex;gap:8px;align-items:center;'
+      + 'background:rgba(5,6,10,.85);border:1px solid #f5c542;padding:8px 12px;font:600 13px Inter,system-ui,sans-serif;color:#fff;max-width:calc(100vw - 32px);';
+    el.innerHTML = '<span>Invite a rival:</span><input readonly style="width:300px;max-width:45vw;background:#1b1f29;color:#fff;border:1px solid #3a404d;padding:4px 6px;font:inherit"/>'
+      + '<button style="background:#f5c542;color:#000;border:0;padding:5px 10px;font:inherit;cursor:pointer">Copy link</button>';
+    const input = el.querySelector('input'), btn = el.querySelector('button');
+    btn.onclick = () => {
+      const done = () => { btn.textContent = 'Copied'; setTimeout(() => { btn.textContent = 'Copy link'; }, 1500); };
+      if (navigator.clipboard) navigator.clipboard.writeText(input.value).then(done, () => input.select());
+      else input.select();
+    };
+    document.body.appendChild(el);
+  }
+  el.querySelector('input').value = link; el.style.display = 'flex';
+}
+function hideInvite() { const el = $('heel-invite'); if (el) el.style.display = 'none'; }
+
+// ---------- wrestler views (render only; state lives in shared/sim.js) ----------
 const loader = new GLTFLoader();
 const gltf = await loader.loadAsync('/models/RobotExpressive.glb');
 const box = new THREE.Box3().setFromObject(gltf.scene); const H = box.max.y - box.min.y;
 const SCALE = 1.9 / H;
 
-const MOVES = { strike: { wind: 0.22, active: 0.12, rec: 0.3, stam: 9 }, grapple: { wind: 0.42, active: 0.12, rec: 0.35, stam: 14 } };
-const BEATS = { strike: 'grapple', grapple: 'block', block: 'strike' };
-const COUNTER = { strike: 'block', grapple: 'strike', block: 'grapple' };
-
-function makeWrestler(name, tint, x) {
+function makeView(w) {
   const root = skClone(gltf.scene); root.scale.setScalar(SCALE);
   root.traverse((o) => {
     if (o.isMesh) {
       o.castShadow = true; o.material = o.material.clone();
-      if (o.material.color && o.material.color.getHSL({}).s > 0.2) o.material.color.set(tint);
+      if (o.material.color && o.material.color.getHSL({}).s > 0.2) o.material.color.set(w.tint);
       o.material.metalness = 0.35; o.material.roughness = 0.45;
     }
   });
-  const holder = new THREE.Group(); holder.add(root); holder.position.set(x, MAT_Y, 0); scene.add(holder);
+  const holder = new THREE.Group(); holder.add(root); holder.position.set(w.x, w.y, w.z); holder.rotation.y = w.facing; scene.add(holder);
   const mixer = new THREE.AnimationMixer(root);
   const actions = {}; for (const c of gltf.animations) actions[c.name] = mixer.clipAction(c);
   for (const n of ['Punch', 'Death', 'Jump', 'Yes', 'No', 'ThumbsUp', 'Wave', 'Dance', 'Standing']) {
     if (actions[n]) { actions[n].setLoop(THREE.LoopOnce); actions[n].clampWhenFinished = true; }
   }
-  const w = {
-    name, holder, root, mixer, actions, cur: null,
-    hp: 100, st: 100, mo: 0, state: 'idle', t: 0, move: null, facing: 0, vel: new THREE.Vector3(),
-    out: false, hits: 0,
-  };
-  play(w, 'Idle');
-  return w;
+  return { id: w.id, holder, root, mixer, actions, cur: null, seq: -1 };
 }
-function play(w, name, speed = 1) {
-  const a = w.actions[name]; if (!a || w.cur === a) { if (a) a.timeScale = speed; return; }
+function play(v, name, speed = 1) {
+  const a = v.actions[name]; if (!a || v.cur === a) { if (a) a.timeScale = speed; return; }
   a.reset(); a.timeScale = speed; a.fadeIn(0.12).play();
-  if (w.cur) w.cur.fadeOut(0.12);
-  w.cur = a;
+  if (v.cur) v.cur.fadeOut(0.12);
+  v.cur = a;
+}
+let views = [];
+function clearViews() { for (const v of views) scene.remove(v.holder); views = []; }
+function syncViews(ws, dt) {
+  ws.forEach((w, i) => {
+    if (!views[i] || views[i].id !== w.id) {
+      if (views[i]) scene.remove(views[i].holder);
+      views[i] = makeView(w); setText('n' + i, w.name);
+    }
+    const v = views[i];
+    v.holder.position.set(w.x, w.y, w.z);
+    v.holder.rotation.y = THREE.MathUtils.lerp(v.holder.rotation.y, w.facing, 0.25);
+    v.root.rotation.x = w.rotX;
+    if (w.animSeq !== v.seq) { play(v, w.anim, w.animSpeed); v.seq = w.animSeq; }
+    else if (v.cur) v.cur.timeScale = w.animSpeed;
+    v.mixer.update(dt);
+  });
 }
 
-let P1, P2, ref;
-function reset() {
-  for (const w of [P1, P2]) if (w) scene.remove(w.holder);
-  P1 = makeWrestler('Vex "The Voltage"', 0x2b8cff, -1.6);
-  P2 = makeWrestler('Brutus Kane', 0xe8333b, 1.6);
-  $('n0').textContent = P1.name; $('n1').textContent = P2.name;
-  over = false; pin = null; aiPlanT = 0;
-  banner('FIGHT!', 1.2); call('The bell rings. Vex and Kane circle each other.');
+// ---------- session: none (attract mode), exhibition (local sim) or online (Colyseus room) ----------
+let session = null;
+let paused = false;
+let savedHabits = null; // the AI remembers you across exhibition rematches
+const endCbs = [];
+const params = new URLSearchParams(location.search);
+const INTERP_MS = 100;
+
+function serverUrl() {
+  return params.get('server') || `${location.protocol === 'https:' ? 'wss' : 'ws'}://${location.hostname}:2567`;
 }
-let over = false, pin = null;
-
-// ---------- input ----------
-const keys = {};
-addEventListener('keydown', (e) => {
-  if (e.repeat) return; keys[e.code] = true;
-  if (over && e.code === 'KeyR') reset();
-  if (over || !P1) return;
-  if (pin && pin.victim === P1 && e.code === 'KeyK') pin.mash += 1;
-  if (e.code === 'KeyJ') act(P1, 'strike');
-  if (e.code === 'KeyK') { if (!tryPin(P1, P2)) act(P1, 'grapple'); }
-  if (e.code === 'KeyL') act(P1, 'block');
-  if (e.code === 'Space') act(P1, 'taunt');
-  if (e.code === 'KeyR') reset();
-});
-addEventListener('keyup', (e) => { keys[e.code] = false; if (e.code === 'KeyL' && P1.state === 'block') P1.state = 'idle'; });
-
-// ---------- habit memory (the learning loop in miniature; Bruin replaces this table) ----------
-const habits = { opening: { strike: 1, grapple: 1, block: 1 }, after_hit: { strike: 1, grapple: 1, block: 1 } };
-let lastSituation = 'opening';
-function recordHabit(w, move) {
-  if (w !== P1 || !BEATS[move]) return;
-  habits[lastSituation][move] += 1;
+function withTimeout(p, ms, what) {
+  return Promise.race([p, new Promise((_, rej) => setTimeout(() => rej(new Error(`${what} timed out`)), ms))]);
 }
 
-// ---------- actions ----------
-function busy(w) { return ['wind', 'active', 'rec', 'stun', 'down', 'thrown', 'taunt', 'pinning', 'pinned', 'out'].includes(w.state); }
-function act(w, kind) {
-  if (busy(w)) return;
-  const opp = w === P1 ? P2 : P1;
-  recordHabit(w, kind);
-  if (kind === 'block') { w.state = 'block'; play(w, 'No', 1.6); return; }
-  if (kind === 'taunt') { w.state = 'taunt'; w.t = 1.2; play(w, w === P1 ? 'Dance' : 'ThumbsUp', 1.4); call(`${short(w)} plays to the crowd!`); return; }
-  if (kind === 'grapple' && w.mo >= 100 && dist(w, opp) < 1.6) kind = 'finisher';
-  const m = MOVES[kind === 'finisher' ? 'grapple' : kind];
-  if (w.st < m.stam * 0.5) { call(`${short(w)} is gassed!`); return; }
-  w.st -= m.stam; w.state = 'wind'; w.move = kind; w.t = m.wind;
-  play(w, kind === 'strike' ? 'Punch' : 'Jump', kind === 'strike' ? 2.4 : 1.8);
+function startLocal(p1, p2) {
+  const match = createMatch(p1, p2, savedHabits);
+  savedHabits = match.habits;
+  session = { mode: 'exhibition', slot: 0, match, ctl: [newControl(true), newControl(false)] };
 }
-function short(w) { return w.name.split(' ').slice(-1)[0].replace(/"/g, ''); }
-function dist(a, b) { return a.holder.position.distanceTo(b.holder.position); }
-function nearRopes(w) { const p = w.holder.position; return Math.max(Math.abs(p.x), Math.abs(p.z)) > RING - 0.9; }
+
+const ROOM_CHARS = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
+const roomCode = (v) => String(v || '').toUpperCase().replace(/[^A-Z0-9]/g, '').slice(0, 12);
+async function startOnline(cfg, p1, p2) {
+  const client = new Client(serverUrl());
+  const code = roomCode(cfg.room || params.get('room')) || Array.from({ length: 6 }, () => ROOM_CHARS[Math.floor(Math.random() * ROOM_CHARS.length)]).join('');
+  const join = () => withTimeout(client.joinById(code, { pick: p1 }), 4000, 'join');
+  const create = () => withTimeout(client.create('ring', { roomId: code, p1, p2 }), 4000, 'create');
+  // Host creates the room under the shell's code; a guest joins it. Either falls back to the other,
+  // so whoever arrives first opens the ring.
+  const host = cfg.host ?? !(cfg.room || params.get('room'));
+  const [first, second] = host ? [create, join] : [join, create];
+  const room = await first().catch((e) => { console.warn('[heel] room', host ? 'create' : 'join', 'failed, trying the other', e); return second(); });
+  const s = { mode: 'online', slot: -1, room, snaps: [], latest: null, sentMove: '0,0' };
+  session = s;
+  const url = new URL(location.href); url.searchParams.set('room', room.roomId);
+  history.replaceState(null, '', url);
+  s.invite = url.toString();
+  showInvite(s.invite);
+  room.onMessage('s', (snap) => {
+    if (session !== s) return;
+    snap.at = performance.now();
+    s.snaps.push(snap); if (s.snaps.length > 12) s.snaps.shift();
+    s.latest = snap; s.slot = snap.slots.indexOf(room.sessionId);
+    if (!s.full && snap.slots.every(Boolean)) { s.full = true; hideInvite(); }
+    handleEvents(snap.ev);
+  });
+  room.onLeave(() => { if (session === s) { call('Lost the arena server. Back to the menu to play offline.'); s.lost = true; } });
+}
+
+async function startMatch(cfg = {}) {
+  toMenu();
+  const p1 = ROSTER[cfg.p1] ? cfg.p1 : 'vex';
+  const p2 = ROSTER[cfg.p2] ? cfg.p2 : (p1 === 'kane' ? 'vex' : 'kane');
+  if (cfg.mode === 'online') {
+    try { await startOnline(cfg, p1, p2); return { mode: 'online', room: session.room.roomId, invite: session.invite }; }
+    catch (e) { console.warn('[heel] arena server unreachable, falling back to a local match', e); }
+  }
+  startLocal(p1, p2);
+  if (cfg.mode === 'online') call('Arena server unreachable. Exhibition vs the AI instead.');
+  return { mode: 'exhibition' };
+}
+
+function toMenu() {
+  if (session?.room) session.room.leave().catch(() => {});
+  session = null; clearViews(); hideInvite(); paused = false;
+  bannerT = 0; const b = $('banner'); if (b) b.style.opacity = 0;
+  keysDown.clear();
+}
+
+function rematch() {
+  if (!session) return;
+  if (session.mode === 'online') session.room.send('in', { k: 'rematch' });
+  else { const [a, b] = session.match.w; startLocal(a.id, b.id); }
+}
 
 let shake = 0;
-function resolve(att, def) {
-  const kind = att.move;
-  if (dist(att, def) > (kind === 'strike' ? 1.45 : 1.35) || def.out) { log(`<em>${short(att)}</em> whiffs the ${kind}.`); return; }
-  if (def.state === 'down' || def.state === 'thrown' || def.state === 'pinned') return;
-  if (kind === 'strike') {
-    if (def.state === 'block') { def.st -= 6; att.state = 'stun'; att.t = 0.45; play(att, 'No'); call(`${short(def)} blocks and shoves ${short(att)} back.`); lastSituation = 'after_hit'; return; }
-    hit(def, 8, att); if (def.state === 'wind' && def.move !== 'strike') { call(`${short(att)} cuts off the grapple attempt!`); }
-    att.mo = Math.min(100, att.mo + 12); lastSituation = 'after_hit';
-    return;
+// Shell settings: { volume, shake } on window.HEEL_SETTINGS (read live, so 'heel:settings' needs no listener).
+const shakeScale = () => (window.HEEL_SETTINGS?.shake === false || window.HEEL_SETTINGS?.shake === 0 ? 0 : 1);
+function handleEvents(evs) {
+  for (const e of evs) {
+    if (e.k === 'banner') banner(e.text, e.secs);
+    else if (e.k === 'call') call(e.text);
+    else if (e.k === 'log') log(e.html);
+    else if (e.k === 'shake') shake = Math.max(shake, e.v * shakeScale());
+    else if (e.k === 'finisher') { shake = 0.6 * shakeScale(); bloom.strength = 1.6; }
+    else if (e.k === 'wobble') wobble(e.ax, e.sign);
+    else if (e.k === 'end') matchEnded(e);
   }
-  // grapple / finisher: beats block, loses to a strike already landed (handled by stun)
-  const fin = kind === 'finisher';
-  const toss = nearRopes(def) && def.hp < 40;
-  att.mo = fin ? 0 : Math.min(100, att.mo + 18);
-  throwW(def, att, fin ? 28 : 15, toss);
-  if (fin) { banner('FINISHER!'); shake = 0.6; bloom.strength = 1.6; call(`${short(att)} hits the HEEL TURN DRIVER! The building shakes!`); }
-  else call(toss ? `${short(att)} launches ${short(def)} OVER THE TOP ROPE!` : `${short(att)} with a thunderous slam!`);
-  lastSituation = 'after_hit';
 }
-function hit(def, dmg, att) {
-  def.hp = Math.max(0, def.hp - dmg); def.state = "stun"; def.t = 0.26; play(def, 'No', 2);
-  const away = def.holder.position.clone().sub(att.holder.position).setY(0).normalize();
-  def.vel.addScaledVector(away, 3.2); shake = Math.max(shake, 0.12);
-  def.mo = Math.min(100, def.mo + 4);
-}
-function throwW(def, att, dmg, toss) {
-  def.hp = Math.max(0, def.hp - dmg); def.state = 'thrown'; def.t = 0;
-  const from = def.holder.position.clone();
-  let dir = def.holder.position.clone().sub(att.holder.position).setY(0);
-  if (dir.lengthSq() < 0.01) dir.set(1, 0, 0); dir.normalize();
-  const to = toss ? from.clone().addScaledVector(dir, 3.2).setY(0) : from.clone().addScaledVector(dir, 1.1);
-  if (!toss) { to.x = THREE.MathUtils.clamp(to.x, -RING + 0.4, RING - 0.4); to.z = THREE.MathUtils.clamp(to.z, -RING + 0.4, RING - 0.4); }
-  def.arc = { from, to, dur: toss ? 1.0 : 0.6, toss };
-  play(def, 'Death', 1.6); shake = Math.max(shake, 0.35);
-}
-function tryPin(att, def) {
-  if (busy(att) || def.state !== 'down' || dist(att, def) > 1.6) return false;
-  att.state = 'pinning'; def.state = 'pinned';
-  pin = { att, victim: def, t: 0, count: 0, mash: 0 };
-  play(att, 'Sitting'); call(`${short(att)} goes for the cover!`);
-  return true;
+// Payload contract with the shell (game/ui/menu.js): winner is the slot ('p1' host / exhibition player,
+// 'p2' guest or AI); stats are [p1, p2] arrays.
+function matchEnded(e) {
+  const st = currentRaw();
+  const col = (k) => e.stats.map((x) => x[k]);
+  const result = {
+    winner: e.winner === 0 ? 'p1' : 'p2', how: e.how,
+    stats: { strikes: col('strikes'), grapples: col('grapples'), blocks: col('blocks'), reversals: col('reversals') },
+    aiPlansLog: e.aiPlansLog,
+    winnerId: st.w[e.winner].id, winnerName: st.w[e.winner].name, mode: session.mode, mySlot: Math.max(0, session.slot),
+  };
+  for (const cb of endCbs) { try { cb(result); } catch (err) { console.error(err); } }
 }
 
-// ---------- AI (scripted fighter + habit reading; the LLM plan layer slots in here) ----------
-let aiPlanT = 0, aiIntent = 'pressure';
-function aiThink(dt) {
-  const me = P2, you = P1;
-  if (me.out || busy(me)) return;
-  aiPlanT -= dt;
-  if (aiPlanT <= 0) {
-    aiPlanT = 3.5;
-    const h = habits[lastSituation];
-    const fav = Object.entries(h).sort((a, b) => b[1] - a[1])[0];
-    const total = h.strike + h.grapple + h.block;
-    aiIntent = fav[1] / total > 0.45 ? `counter_${fav[0]}` : 'pressure';
-    log(aiIntent.startsWith('counter')
-      ? `<em>Kane</em> plan: expect your <em>${fav[0]}</em> (${Math.round(fav[1] / total * 100)}% ${lastSituation.replace('_', ' ')}), answer with <em>${COUNTER[fav[0]]}</em>.`
-      : `<em>Kane</em> plan: no clear habit yet (${total - 3} moves seen), apply pressure.`);
+// Render state: the local match, or the server snapshot interpolated INTERP_MS behind real time.
+function currentRaw() { return session?.mode === 'online' ? session.latest : session?.match; }
+function current() {
+  if (!session || session.mode === 'exhibition') return currentRaw();
+  const { snaps, latest } = session;
+  if (!latest) return null;
+  const rt = performance.now() - INTERP_MS;
+  for (let i = snaps.length - 1; i > 0; i--) {
+    const a = snaps[i - 1], b = snaps[i];
+    if (a.at <= rt && rt <= b.at) {
+      const k = (rt - a.at) / Math.max(1, b.at - a.at);
+      return { ...latest, w: b.w.map((w, j) => {
+        const p = a.w[j];
+        return { ...w, x: p.x + (w.x - p.x) * k, y: p.y + (w.y - p.y) * k, z: p.z + (w.z - p.z) * k, rotX: p.rotX + (w.rotX - p.rotX) * k };
+      }) };
+    }
   }
-  if (you.state === 'down' && tryPin(me, you)) return;
-  const d = dist(me, you);
-  if (d > 1.3) { moveToward(me, you.holder.position, dt, 2.4); return; }
-  const r = Math.random();
-  if (r > dt * 1.25) return; // reaction rate (~1.25 actions/s)
-  if (me.mo >= 100) return act(me, 'grapple');
-  if (you.state === 'wind' && you.move === 'grapple') return act(me, 'strike');
-  if (you.state === 'wind' && you.move === 'strike') return act(me, Math.random() < 0.6 ? 'block' : 'strike');
-  if (aiIntent.startsWith('counter_')) return act(me, COUNTER[aiIntent.slice(8)]);
-  const pick = ['strike', 'strike', 'grapple', 'block'][Math.floor(Math.random() * 4)];
-  if (pick === 'block') { me.state = 'block'; play(me, 'No', 1.6); me.t = 0.6; me.autoBlock = true; return; }
-  act(me, pick);
-}
-function moveToward(w, target, dt, speed) {
-  const d = target.clone().sub(w.holder.position).setY(0);
-  if (d.length() < 0.05) return;
-  d.normalize(); w.holder.position.addScaledVector(d, speed * dt);
-  w.facing = Math.atan2(d.x, d.z); play(w, 'Walking', 1.3);
+  return latest;
 }
 
-// ---------- update ----------
-const clock = new THREE.Clock();
-function update(dt) {
-  if (!P1) return;
-  // player movement
-  if (!busy(P1) && P1.state !== 'block' && !over) {
-    const v = new THREE.Vector3((keys.KeyD ? 1 : 0) - (keys.KeyA ? 1 : 0), 0, (keys.KeyS ? 1 : 0) - (keys.KeyW ? 1 : 0));
-    if (v.lengthSq() > 0) { v.normalize(); P1.holder.position.addScaledVector(v, 2.8 * dt); P1.facing = Math.atan2(v.x, v.z); play(P1, 'Running', 1.1); }
-    else play(P1, 'Idle');
-  }
-  if (!over) aiThink(dt);
+// ---------- input: the local player's wrestler (slot 0 offline, the assigned slot online) ----------
+const keysDown = new Set();
+const ACTION_KEYS = { KeyJ: 'strike', KeyK: 'grapple', KeyL: 'block', Space: 'taunt' };
+function send(a) {
+  if (!session || paused) return;
+  if (session.mode === 'exhibition') session.ctl[0].queue.push(a);
+  else if (session.slot >= 0) session.room.send('in', { k: 'act', a });
+}
+function sendMove() {
+  if (!session) return;
+  const mx = paused ? 0 : (keysDown.has('KeyD') ? 1 : 0) - (keysDown.has('KeyA') ? 1 : 0);
+  const mz = paused ? 0 : (keysDown.has('KeyS') ? 1 : 0) - (keysDown.has('KeyW') ? 1 : 0);
+  if (session.mode === 'exhibition') { session.ctl[0].mx = mx; session.ctl[0].mz = mz; return; }
+  const key = `${mx},${mz}`;
+  if (key !== session.sentMove) { session.sentMove = key; session.room.send('in', { k: 'move', x: mx, z: mz }); }
+}
+addEventListener('keydown', (e) => {
+  if (e.repeat || !session || e.target?.tagName === 'INPUT') return;
+  keysDown.add(e.code);
+  if (ACTION_KEYS[e.code]) { if (e.code === 'Space') e.preventDefault(); send(ACTION_KEYS[e.code]); }
+  if (e.code === 'KeyR' && currentRaw()?.over) rematch();
+  sendMove();
+});
+addEventListener('keyup', (e) => {
+  keysDown.delete(e.code);
+  if (e.code === 'KeyL') send('blockUp');
+  sendMove();
+});
+addEventListener('blur', () => { keysDown.clear(); sendMove(); });
 
-  for (const w of [P1, P2]) {
-    const opp = w === P1 ? P2 : P1;
-    w.st = Math.min(100, w.st + dt * (w.state === 'idle' ? 10 : 4));
-    w.holder.position.addScaledVector(w.vel, dt); w.vel.multiplyScalar(Math.pow(0.02, dt));
-    if (w.state === 'wind') { w.t -= dt; if (w.t <= 0) { w.state = 'active'; w.t = MOVES.strike.active; resolve(w, opp); } }
-    else if (w.state === 'active') { w.t -= dt; if (w.t <= 0) { w.state = 'rec'; w.t = MOVES[w.move === 'finisher' ? 'grapple' : w.move].rec; } }
-    else if (w.state === 'rec' || w.state === 'stun' || w.state === 'taunt') {
-      w.t -= dt;
-      if (w.state === 'taunt') w.mo = Math.min(100, w.mo + dt * 30);
-      if (w.t <= 0) { w.state = 'idle'; play(w, 'Idle'); }
-    } else if (w.state === 'block' && w.autoBlock) { w.t -= dt; if (w.t <= 0) { w.state = 'idle'; w.autoBlock = false; play(w, 'Idle'); } }
-    else if (w.state === 'thrown') {
-      w.t += dt; const k = Math.min(1, w.t / w.arc.dur);
-      const p = w.arc.from.clone().lerp(w.arc.to, k);
-      const peak = w.arc.toss ? 1.6 : 0.9;
-      const baseY = THREE.MathUtils.lerp(w.arc.from.y, w.arc.toss ? 0 : MAT_Y, k);
-      p.y = baseY + Math.sin(k * Math.PI) * peak; w.holder.position.copy(p);
-      w.root.rotation.x = -k * Math.PI * 0.5;
-      if (k >= 1) {
-        shake = Math.max(shake, 0.4);
-        if (w.arc.toss) { w.state = 'out'; w.out = true; eliminate(w, opp); }
-        else { w.state = 'down'; w.t = 2.2 + (100 - w.hp) / 40; }
-      }
-    } else if (w.state === 'down') {
-      w.t -= dt; if (w.t <= 0) { w.state = 'idle'; w.root.rotation.x = 0; play(w, 'Standing', 1.5); call(`${short(w)} is back on his feet!`); }
-    }
-    // face opponent when idle-ish
-    if (['idle', 'wind', 'block', 'active'].includes(w.state)) w.facing = Math.atan2(opp.holder.position.x - w.holder.position.x, opp.holder.position.z - w.holder.position.z);
-    w.holder.rotation.y = THREE.MathUtils.lerp(w.holder.rotation.y, w.facing, 0.25);
-    // ring bounds + ropes rebound
-    if (!w.out && w.state !== 'thrown') {
-      const p = w.holder.position, lim = RING - 0.35;
-      for (const ax of ['x', 'z']) if (Math.abs(p[ax]) > lim) { p[ax] = Math.sign(p[ax]) * lim; w.vel[ax] *= -0.6; wobble(ax, Math.sign(p[ax])); }
-      p.y = MAT_Y;
-    }
-  }
-  // separation
-  const sep = P1.holder.position.clone().sub(P2.holder.position).setY(0);
-  if (!P1.out && !P2.out && sep.length() < 0.85 && P1.state !== 'thrown' && P2.state !== 'thrown') {
-    const gap = 0.85 - sep.length(); if (sep.lengthSq() < 1e-4) sep.set(1, 0, 0); sep.normalize().multiplyScalar(gap * 0.5 + 0.01);
-    P1.holder.position.add(sep); P2.holder.position.sub(sep);
-  }
-  // pin count
-  if (pin) {
-    pin.t += dt;
-    const need = pin.victim === P2 ? (pin.victim.hp / 100) * 2.4 : 0;
-    if (pin.victim === P2 && Math.random() < dt * need * 1.4 && pin.t > 0.6) kickout();
-    else if (pin.victim === P1 && pin.mash >= 6 + pin.count * 3) kickout();
-    else if (pin.t > (pin.count + 1) * 0.85) {
-      pin.count++; banner(String(pin.count), 0.6);
-      if (pin.count === 3) win(pin.att, 'PINFALL');
-    }
-  }
-  for (const w of [P1, P2]) w.mixer.update(dt);
-}
-function kickout() {
-  call(`KICK OUT! ${short(pin.victim)} kicks out at ${pin.count}!`); banner('KICK OUT!', 0.8);
-  pin.att.state = 'idle'; play(pin.att, 'Idle'); pin.victim.state = 'down'; pin.victim.t = 0.6; pin = null;
-}
-function eliminate(w, by) { win(by, 'OVER THE TOP'); }
-function win(w, how) {
-  over = true; pin = null; banner(`${short(w).toUpperCase()} WINS`, 999);
-  call(`${how}! ${w.name} wins! Press R for a rematch. Kane remembers what you did.`);
-  log(`<em>Result</em>: ${short(w)} by ${how.toLowerCase()}. Habits saved for the rematch.`);
-  w.state = 'taunt'; w.t = 999; play(w, 'Dance');
-}
 function wobble(ax, sign) {
   for (const r of ropes) { const s = r.userData.side; const onSide = ax === 'x' ? (sign > 0 ? s === 3 : s === 1) : (sign > 0 ? s === 0 : s === 2); if (onSide) r.userData.wob = 0.25; }
 }
 
+// ---------- public contract for the shell (game/ui) ----------
+window.HEEL = {
+  startMatch,
+  onMatchEnd(cb) { endCbs.push(cb); return () => { const i = endCbs.indexOf(cb); if (i >= 0) endCbs.splice(i, 1); }; },
+  toMenu,
+  setPaused(b) { paused = !!b; if (paused) { keysDown.clear(); sendMove(); } },
+  rematch,
+  get roster() { return ROSTER; },
+  get session() { return session && { mode: session.mode, slot: session.slot, room: session.room?.roomId, invite: session.invite }; },
+};
+window.G = {
+  get P1() { return currentRaw()?.w[0]; }, get P2() { return currentRaw()?.w[1]; },
+  get state() { return currentRaw(); }, get session() { return window.HEEL.session; },
+};
+
 // ---------- loop ----------
-reset(); window.G = { get P1() { return P1; }, get P2() { return P2; }, habits };
+const clock = new THREE.Clock();
 function frame() {
   const dt = Math.min(clock.getDelta(), 0.05);
-  update(dt);
   const t = clock.elapsedTime;
+  if (session?.mode === 'exhibition' && !paused) {
+    step(session.match, dt, session.ctl);
+    handleEvents(session.match.events); session.match.events = [];
+  }
+  const st = current();
+  if (st) syncViews(st.w, paused && session.mode === 'exhibition' ? 0 : dt);
   // crowd bob (louder when meters are high)
-  const hype = 1 + ((P1?.mo || 0) + (P2?.mo || 0)) / 100;
+  const hype = 1 + (st ? (st.w[0].mo + st.w[1].mo) / 100 : 0);
   for (let i = 0; i < CROWD; i++) {
     const s = crowdSeat[i];
     tmp.position.set(s.x, s.y + 0.45 + Math.max(0, Math.sin(t * 6 * hype + s.p)) * 0.08 * hype, s.z);
@@ -414,18 +412,28 @@ function frame() {
   crowd.instanceMatrix.needsUpdate = true;
   for (const r of ropes) { if (r.userData.wob) { r.userData.wob *= 0.9; r.position.y = r.userData.base.y + Math.sin(t * 40) * r.userData.wob * 0.15; } }
   spots.forEach((s, i) => { s.intensity = 52 + Math.sin(t * 0.7 + i) * 5; });
-  // broadcast camera: follows the action
-  if (P1) {
-    const mid = P1.holder.position.clone().add(P2.holder.position).multiplyScalar(0.5);
-    const spread = dist(P1, P2);
-    const want = new THREE.Vector3(mid.x * 0.5 + Math.sin(t * 0.12) * 2, 5.2 + spread * 0.35, mid.z + 8.5 + spread * 0.6);
-    camera.position.lerp(want, 0.04);
+  if (!st) {
+    // attract mode: slow orbit around the empty ring
+    const a = t * 0.12;
+    camera.position.lerp(new THREE.Vector3(Math.sin(a) * 13, 6.5, Math.cos(a) * 13), 0.05);
+    camera.lookAt(0, MAT_Y + 0.6, 0);
+  } else {
+    const [A, B] = views.map((v) => v.holder.position);
+    const mid = A.clone().add(B).multiplyScalar(0.5);
+    const spread = A.distanceTo(B);
+    let want;
+    if (st.introT > 0) {
+      // intro sweep: swing from a high side angle down to the broadcast position over INTRO_SECS
+      const k = 1 - st.introT / INTRO_SECS, a = (1 - k) * 2.2, r = 9 + 5 * (1 - k);
+      want = new THREE.Vector3(Math.sin(a) * r, 4 + 4 * (1 - k), Math.cos(a) * r);
+    } else want = new THREE.Vector3(mid.x * 0.5 + Math.sin(t * 0.12) * 2, 5.2 + spread * 0.35, mid.z + 8.5 + spread * 0.6);
+    camera.position.lerp(want, st.introT > 0 ? 0.06 : 0.04);
     if (shake > 0) { camera.position.x += (Math.random() - 0.5) * shake; camera.position.y += (Math.random() - 0.5) * shake; shake *= 0.88; if (shake < 0.01) shake = 0; }
     camera.lookAt(mid.x, MAT_Y + 0.9, mid.z);
+    st.w.forEach((w, i) => { setWidth('h' + i, w.hp); setWidth('s' + i, w.st); setWidth('m' + i, w.mo); });
   }
   bloom.strength = THREE.MathUtils.lerp(bloom.strength, 0.35, 0.05);
-  if (bannerT > 0) { bannerT -= dt; if (bannerT <= 0) $('banner').style.opacity = 0; }
-  if (P1) for (const [i, w] of [[0, P1], [1, P2]]) { $('h' + i).style.width = w.hp + '%'; $('s' + i).style.width = w.st + '%'; $('m' + i).style.width = w.mo + '%'; }
+  if (bannerT > 0) { bannerT -= dt; if (bannerT <= 0 && $('banner')) $('banner').style.opacity = 0; }
   composer.render();
   requestAnimationFrame(frame);
 }

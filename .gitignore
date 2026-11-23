@@ -7,3 +7,5 @@ dist/
 vite.log
 .playwright-mcp/
 tools/.pstack-lite.tgz
+.u1-dist/
+game/server.log

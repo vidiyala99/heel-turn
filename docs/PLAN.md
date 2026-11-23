@@ -66,4 +66,4 @@ voice push-to-talk to a partner -> generated entrance cards -> commentator voice
 
 ## Needs from Aakash
 BAND, Runware, OpenAI keys in `MultiplayerAI/.env`; the announced deadline; Bruin judging criteria from the sponsor
-desk; whether Lingcode's prize fits a browser game; a second laptop for U1 and the video.
+desk; a second laptop for U1 and the video.

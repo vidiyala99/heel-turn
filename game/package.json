@@ -2,7 +2,19 @@
   "name": "heel-turn",
   "private": true,
   "type": "module",
-  "scripts": { "dev": "vite --host", "build": "vite build" },
-  "dependencies": { "three": "0.170.0" },
-  "devDependencies": { "vite": "5.4.11" }
+  "scripts": {
+    "dev": "concurrently -k -n web,arena -c blue,red \"vite --host\" \"npm --prefix server run dev\"",
+    "dev:web": "vite --host",
+    "server": "npm --prefix server start",
+    "postinstall": "npm --prefix server install",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@colyseus/sdk": "0.18.10",
+    "three": "0.170.0"
+  },
+  "devDependencies": {
+    "concurrently": "10.0.7",
+    "vite": "5.4.11"
+  }
 }

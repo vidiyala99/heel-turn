@@ -1,0 +1,116 @@
+== 1 seed fixtures
+  464 fixture events (m1-m4), 3 ref-ledger rows, 5 fixture bet lines
+
+  [bruin run.sh: pre-show] exit 0
+    PASS seeds.wrestlers ...
+    PASS raw.bets
+    PASS raw.events
+    PASS raw.ref_ledger
+    PASS staging.stg_events ...........
+    PASS marts.ref_ledger ..........
+    PASS marts.habits .......
+    PASS marts.fan_ledger .............
+    PASS marts.relationships ......
+    PASS marts.counter_rate ....
+    PASS marts.leaderboard ......
+    PASS marts.taunt_tone ...
+    PASS marts.odds ..............
+    PASS marts.props ......
+    bruin run completed successfully in 4.204s
+    ✓ Assets executed      14 succeeded
+    ✓ Quality checks       83 succeeded
+
+== 2 odds board + polls over HTTP
+  POST /event x6 entries for m5: {'settled': []}
+  GET /odds?match=m5  priced_from=next  sum(win_prob)=1.0000
+    Vex            0.341  line  +194  pays x2.94
+    Brutus Kane    0.190  line  +426  pays x5.26
+    Silas Crane    0.189  line  +429  pays x5.29
+    Old Iron Mae   0.152  line  +556  pays x6.56
+    Player Two     0.066  line +1414  pays x15.14
+    Player One     0.062  line +1515  pays x16.15
+  poll envelope   Will Lou take the envelope?        prior {'yes': 0.6, 'no': 0.4}  pays {'yes': 1.67, 'no': 2.5}
+  poll turn_silas Will Silas turn on his partner?    prior {'yes': 0.309, 'no': 0.691}  pays {'yes': 3.24, 'no': 1.45}
+  poll kipup      Kipup or stay down?                prior {'kipup': 0.379, 'stay_down': 0.621}  pays {'kipup': 2.64, 'stay_down': 1.61}
+
+== 3 bets + votes (fan points)
+  POST /bet fan_ana  winner     vex     200 -> 200 locked x2.94 balance 960
+  POST /bet fan_bo   winner     silas   100 -> 200 locked x5.29 balance 700
+  POST /bet fan_cy   winner     p1       50 -> 200 locked x16.15 balance 950
+  POST /bet fan_ana  envelope   yes      50 -> 200 locked x1.67 balance 910
+  POST /bet fan_bo   turn_silas no       40 -> 200 locked x1.45 balance 660
+  POST /bet fan_cy   kipup      kipup    30 -> 200 locked x2.64 balance 920
+  POST /bet vex 5000 -> 400 {'error': 'stake must be a whole number of fan points from 1 to 500'}
+  POST /bet hulk 10 -> 400 {'error': 'hulk is not on the m5 card'}
+  24 votes cast; repeat vote by v0 -> 400 {'error': 'one vote per fan per poll'}
+  envelope   yes ##############       71%  no ######               29%
+  turn_silas yes #############        67%  no #######              33%
+  kipup      kipup ##########           50%  stay_down ##########           50%
+
+== 4 match events -> resolution
+  t=   900 silas  alliance_offer brutus  
+  t=  1200 brutus alliance_reply silas   
+  t=  6000 brutus strike         p1      
+  t=  8000 brutus elimination    p1      
+  t= 15000 lou    bribe_accept   silas   SETTLED envelope=yes
+  t= 19000 vex    grapple        p2      
+  t= 20000 vex    elimination    p2      
+  t= 24000 brutus knockdown      mae     
+  t= 25500 mae    kipup                  SETTLED kipup=kipup
+  t= 31000 mae    elimination    vex     
+  t= 36000 silas  betray         brutus  SETTLED turn_silas=yes
+  t= 37000 silas  elimination    brutus  
+  t= 42000 silas  pin            mae     
+  t= 42500 silas  elimination    mae     SETTLED winner=silas
+
+== 5 payouts
+  fan_ana  balance   994 fan points (play money) | m4 winner vex 100->won 310; m4 envelope yes 50->lost 0; m5 winner vex 200->lost 0; m5 envelope yes 50->won 84
+  fan_bo   balance  1189 fan points (play money) | m4 winner brutus 200->lost 0; m5 winner silas 100->won 529; m5 turn_silas no 40->lost 0
+  fan_cy   balance   999 fan points (play money) | m5 winner p1 50->lost 0; m5 kipup kipup 30->won 79
+
+  [bruin run.sh: after m5] exit 0
+    PASS seeds.wrestlers ...
+    PASS raw.bets
+    PASS raw.ref_ledger
+    PASS raw.events
+    PASS staging.stg_events ...........
+    PASS marts.ref_ledger ..........
+    PASS marts.habits .......
+    PASS marts.fan_ledger .............
+    PASS marts.relationships ......
+    PASS marts.counter_rate ....
+    PASS marts.leaderboard ......
+    PASS marts.taunt_tone ...
+    PASS marts.odds ..............
+    PASS marts.props ......
+    bruin run completed successfully in 3.816s
+    ✓ Assets executed      14 succeeded
+    ✓ Quality checks       83 succeeded
+  marts.fan_ledger net per fan (all matches): [{'fan_id': 'fan_ana', 'net': -6, 'bets': 4, 'won': 2}, {'fan_id': 'fan_bo', 'net': 189, 'bets': 3, 'won': 1}, {'fan_id': 'fan_cy', 'net': -1, 'bets': 2, 'won': 1}]
+  fan_ana: service balance 994 == 1000 + bruin net -6: True
+  fan_bo: service balance 1189 == 1000 + bruin net 189: True
+  fan_cy: service balance 999 == 1000 + bruin net -1: True
+  marts.ref_ledger lou: [{'briber': '_any', 'offers': 4, 'accepted': 3, 'take_rate': 0.667}, {'briber': 'silas', 'offers': 3, 'accepted': 2, 'take_rate': 0.6}, {'briber': 'vex', 'offers': 1, 'accepted': 1, 'take_rate': 0.667}]
+
+== 6 tamper: settle m5 on the wrong winner
+
+  [bruin run.sh: tampered] exit 1
+    PASS seeds.wrestlers ...
+    PASS raw.ref_ledger
+    PASS raw.bets
+    PASS raw.events
+    PASS staging.stg_events ...........
+    PASS marts.ref_ledger ..........
+    PASS marts.counter_rate ....
+    PASS marts.fan_ledger ......F......
+    PASS marts.habits .......
+    PASS marts.relationships ......
+    PASS marts.leaderboard ......
+    PASS marts.taunt_tone ...
+    PASS marts.odds ..............
+    PASS marts.props ......
+    bruin run completed with failures in 3.304s
+    ✗ Assets executed      1 failed due to checks / 13 succeeded
+    ✗ Quality checks       1 failed / 82 succeeded
+    └── winner results agree with the match events custom check - custom check 'winner results agree with the match events' has returned 1 instead of the expected 0
+  tampered run blocked: True

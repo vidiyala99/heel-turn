@@ -74,6 +74,6 @@ def run(b, key, tag):
 with sync_playwright() as p:
     b = p.chromium.launch(args=["--use-gl=angle", "--enable-unsafe-swiftshader", "--mute-audio"])
     a = run(b, "y", "approve")
-    z = run(b, "n", "block")
+    z = run(b, "n", "block") if "approve-only" not in sys.argv else a
     b.close()
 print("DIFFERENT OUTCOMES:", a["order"] != z["order"] or a["winner"] != z["winner"])

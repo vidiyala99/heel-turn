@@ -165,6 +165,9 @@ export function createRoyalClient({ logRow, planHtml, decide }) {
     post('/agents/plan', body).then((r) => r.json()).then((res) => {
       if (res.error) throw new Error(res.error);
       debug.pending = (res.pending || []).map((p) => p.id);
+      const c = document.querySelector('.log h4 .dl-chip');
+      const live = (res.meta || []).some((x) => x.source === 'openai');
+      if (c) { c.textContent = `AI: ${live ? 'LLM live' : 'fallback'} · BAND ${res.band}`; c.dataset.live = live ? '1' : '0'; }
       adoptBand(m, res.pending);
       (res.plans || []).forEach((p, k) => {
         const meta = res.meta?.[k] || {};

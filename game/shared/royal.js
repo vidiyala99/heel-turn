@@ -181,11 +181,11 @@ function director(m, dt) {
       emit(m, { k: 'bribe', decision: 'decline' });
     }
   }
-  // betrayal under way: give it 14 s, then it fizzles
+  // betrayal under way: give it 20 s, then it fizzles
   if (m.betray && m.betray.status === 'executing') {
     m.betray.t += dt;
     const by = m.w[m.betray.by], on = m.w[m.betray.on];
-    if (by.out || on.out || m.betray.t > 14) { m.betray.status = 'fizzled'; if (!by.out) by.intent = 'pressure'; }
+    if (by.out || on.out || m.betray.t > 20) { m.betray.status = 'fizzled'; if (!by.out) by.intent = 'pressure'; }
     else { by.foe = on.slot; by.intent = 'betray'; }
   }
   if (m.lou.awayT > 0) {
@@ -291,9 +291,11 @@ function act(m, i, kind) {
 
 function resolve(m, att, def) {
   const kind = att.move, ai = att.slot, di = def?.slot, base = kind === 'finisher' ? 'grapple' : kind;
-  if (!def || !live(def) || dist(att, def) > (kind === 'strike' ? 1.45 : 1.35)) { if (def) fact(m, base, ai, di, { success: false }); return; }
-  if (def.state === 'down') return;
   const betrayal = m.betray?.status === 'executing' && m.betray.by === ai && m.betray.on === di;
+  // the partner never sees it coming: the turn reaches a little further than a normal move
+  const reach = betrayal ? 1.8 : kind === 'strike' ? 1.45 : 1.35;
+  if (!def || !live(def) || dist(att, def) > reach) { if (def) fact(m, base, ai, di, { success: false }); return; }
+  if (def.state === 'down') return;
   const shady = m.lou.awayT > 0 && m.lou.briber === ai;
   if (kind === 'strike') {
     if (def.state === 'block' && !betrayal) {

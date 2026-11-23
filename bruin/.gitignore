@@ -1,0 +1,7 @@
+data/*.duckdb
+data/*.duckdb.wal
+data/events.jsonl
+logs/
+__pycache__/
+*.py[cod]
+# .bruin.yml is tracked on purpose: it holds only the ${OPENAI_API_KEY} placeholder, never a key.

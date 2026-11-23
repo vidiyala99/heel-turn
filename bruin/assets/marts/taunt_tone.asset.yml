@@ -1,0 +1,49 @@
+name: marts.taunt_tone
+type: inference
+connection: duckdb-default
+description: |
+  Labels every taunt line heel / face / neutral with OpenAI structured output. Commentators and the
+  crowd meter read it. Tagged `inference` so bruin/run.sh skips it when OPENAI_API_KEY is unset.
+tags:
+  - inference
+
+depends:
+  - staging.stg_events
+
+parameters:
+  provider: openai
+  model: gpt-4o-mini
+  inference_connection: openai-default
+  input_query: |
+    SELECT event_id, match, actor, target, text
+    FROM staging.stg_events
+    WHERE kind = 'taunt' AND text IS NOT NULL
+  system_prompt: |
+    You label lines shouted by pro wrestlers in a battle royal. A heel is the villain the crowd boos
+    (arrogant, cruel, sneaky, insulting the crowd or opponent). A face is the hero the crowd cheers
+    (humble, rallying the crowd, respectful). Neutral is neither.
+  context: "Wrestler {{ row.actor }} says: {{ row.text }}"
+  max_rows: 500
+
+materialization:
+  type: table
+  strategy: create+replace
+
+columns:
+  - name: event_id
+    type: string
+    primary_key: true
+    checks:
+      - name: not_null
+      - name: unique
+  - name: tone
+    type: string
+    inference:
+      prompt: The tone of the line.
+      choices:
+        heel: villain line the crowd boos
+        face: hero line the crowd cheers
+        neutral: neither
+    checks:
+      - name: accepted_values
+        value: [heel, face, neutral]

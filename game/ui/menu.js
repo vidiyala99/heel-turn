@@ -70,9 +70,10 @@ const RAIL_STD = rail([[keys('↑', '↓'), 'Move'], [keys('Enter'), 'Select'], 
 
 const MENU = [
   { id: 'exhibition', label: 'Exhibition', desc: 'One on one against the AI. It watches what you lean on and plans around it, match after match.' },
+  { id: 'ladder', label: 'Ladder Match', desc: 'A briefcase hangs over the ring. Carry the ladder, climb it, and watch who shoves it over.' },
   { id: 'online', label: 'Online', desc: 'Make a room and send the link. Your friend lands straight on the roster screen.' },
-  { id: 'royal', label: 'Over the Top', locked: true, desc: 'Battle royal. Last one inside the ropes wins. Coming soon.' },
-  { id: 'tag', label: 'Tag Team', locked: true, desc: 'Two on two with hot tags. Coming soon.' },
+  { id: 'royal', label: 'Over the Top', locked: true, desc: 'Battle royal. Locked: needs 4+ wrestlers in one ring: building now.' },
+  { id: 'tag', label: 'Tag Team', locked: true, desc: 'Two on two with hot tags. Locked: coming after Over the Top.' },
   { id: 'howto', label: 'How to Play', desc: 'Controls, the strike, grapple, block triangle, and how the AI learns.' },
   { id: 'settings', label: 'Settings', desc: 'Volume and camera shake.' },
 ];
@@ -197,6 +198,7 @@ ui.innerHTML = `
     <div class="mini display">Paused</div>
     <nav class="mlist">
       <button class="mi display" data-nav data-act="resume">Resume</button>
+      <button class="mi display" data-nav data-act="restart">Restart match</button>
       <button class="mi display" data-nav data-act="howto">How to Play</button>
       <button class="mi display" data-nav data-act="quit">Quit to menu</button>
     </nav>
@@ -307,9 +309,10 @@ function pick(id) {
   if (selPhase === 'p1') {
     match.p1 = id;
     if (match.mode === 'online') { match.p2 = null; return toVersus(); }
-    // Exhibition: the bookers pick your opponent from the other three, then straight to the versus screen.
+    // Exhibition and Ladder: the bookers pick your opponent from the other three, then straight on.
     const others = ROSTER.filter((w) => w.id !== id);
     match.p2 = others[Math.floor(Math.random() * others.length)].id;
+    if (match.mode === 'ladder') { location.href = `/ladder.html?p1=${match.p1}&p2=${match.p2}`; return; }
     toVersus();
   } else { match.p2 = id; toVersus(); }
 }
@@ -395,9 +398,10 @@ function activate(el) {
   const act = el.dataset.act, id = el.dataset.id;
   if (state === 'menu') {
     const m = MENU.find((x) => x.id === id);
-    if (m.locked) { blip('back'); toast(`${m.label} is coming soon`); return; }
+    if (m.locked) { blip('back'); toast(`${m.label}: ${m.desc.split('Locked: ')[1] || 'coming soon'}`); return; }
     blip('ok');
     if (id === 'exhibition') { match.mode = 'exhibition'; selPhase = 'p1'; go('select'); }
+    if (id === 'ladder') { match.mode = 'ladder'; selPhase = 'p1'; go('select'); }
     if (id === 'online') { match.mode = 'online'; newRoom(); go('online'); }
     if (id === 'howto') { howtoFrom = 'menu'; go('howto'); }
     if (id === 'settings') go('settings');
@@ -414,6 +418,7 @@ function activate(el) {
     case 'resume': resume(); break;
     case 'howto': howtoFrom = 'pause'; go('howto', { instant: true }); break;
     case 'quit': quitToMenu(); break;
+    case 'restart': callEngine('setPaused', false); callEngine('rematch'); go('match', { instant: true }); break;
     case 'rematch': toVersus(); break;
     case 'reselect': callEngine('toMenu'); selPhase = 'p1'; go('select'); break;
     case 'tomenu': callEngine('toMenu'); go('menu'); break;
@@ -423,14 +428,14 @@ function activate(el) {
 function back() {
   switch (state) {
     case 'menu': blip('back'); go('title'); break;
-    case 'howto': if (howtoFrom === 'pause') { go('pause', { instant: true }); } else go('menu', { focus: 4 }); break;
-    case 'settings': go('menu', { focus: 5 }); break;
-    case 'online': go('menu', { focus: 1 }); break;
+    case 'howto': if (howtoFrom === 'pause') { go('pause', { instant: true }); } else go('menu', { focus: 5 }); break;
+    case 'settings': go('menu', { focus: 6 }); break;
+    case 'online': go('menu', { focus: 2 }); break;
     case 'select':
       blip('back');
       if (selPhase === 'p2') { selPhase = 'p1'; match.p1 = null; paintSelect(); setFocus(0, false); }
       else if (match.mode === 'online' && match.host) go('online');
-      else go('menu', { focus: match.mode === 'online' ? 1 : 0 });
+      else go('menu', { focus: match.mode === 'online' ? 2 : match.mode === 'ladder' ? 1 : 0 });
       break;
     case 'pause': resume(); break;
     case 'results': callEngine('toMenu'); go('menu'); break;

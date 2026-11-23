@@ -73,3 +73,33 @@ const mode = mountLadder(scene, {
   `target` = the climber. The agent's `plan` row can cite that event.
 - `mode.focus()` returns `{ ladder, climbHeight, case }` so the camera can follow the climb.
 - `mode.state.winner` is set on a successful `ladder_grab`.
+
+## 2026-11-23 update: roster bodies, bell intro, contest AI, ladder on the mat
+
+- `ladder.html?p1=&p2=` uses the chosen wrestlers: names and tints from `shared/characters.js`, Quaternius bodies in
+  attire from `arena/bodies.js`, clips from `shared/anims.js` (`createAnimator`), same as the main game.
+- Intro: name card, 3-2-1, bell (`voice/crowd.js` synthesized bell; ring announcer `openerLine` via `voice/tts.js` when
+  `/voice/api/health` reports TTS; muted under webdriver or `?mute=1`). Nothing moves before the bell; the AI starts
+  2 s after it. `window.ladderPhase()` is `'intro' | 'live'`.
+- Ladder on the mat: the pivot and body interpolate separately, so pick-up/drop/set-up swung the 3 m frame through
+  the ring (lowest point measured at y -0.85 with the mat at 1.1). `mount.js` now rests the ladder on the mat every
+  frame; `mode.ladderGround()` returns `{ state, low, matY }` for checks.
+
+API additions (nothing removed or renamed):
+- `state.js`: action `strike` (punch in reach on the mat; from rung 2+ a kick at the ladder base), event kind
+  `ladder_strike`, `TIMING.{STRIKE_MS, STUN_MS, KICK_STUN_MS, STRIKE_CD_MS, RECOVER_MS, KNOCKDOWN_MS, COMBO_HITS}`,
+  wrestler fields `lastStrikeAt hitSafeUntil lastHitAt hitStreak`. No stunlock: a victim is unhittable for
+  `RECOVER_MS` after a stun, and the 3rd unanswered hit is a knockdown. `aiDecide` policy `contest: true` kicks from
+  the ladder, counters an unanswered hit once (else backs off), waits by the briefcase instead of chasing a carrier.
+- `mount.js`: player `anim8` (a `createAnimator`) instead of `mixer + clips`; AI policy `think` (s between decisions),
+  `windup` (s telegraph before a shove or strike), `delay` (s before the first decision); `mode.ladderGround()`.
+- `ladder/play-check.mjs [base] [p1] [p2]`: headless, muted, full browser check (see below).
+
+Verified with `node ladder/play-check.mjs http://localhost:5196/` (a private Vite with HMR off; the shared 5173 server
+was returning 504 Outdated Optimize Dep for three.js at the time): intro freezes everyone, AI waits 1.5 s after the bell
+and moves by 3 s, cast from URL, no stunlock (pure model and live), log has no repeated rows, ladder never below the mat
+in any state (484+ samples) and rests at exactly 1.100 when lying or standing, Esc pause, launch from the main menu
+(passed once, timed out once on the menu step), no page errors.
+
+Not verified: a human win. The scripted human bot never won inside 90 s in four runs. The last runs show the bots
+trading tips and set-ups at rung 1 to 3. The AI's fight is the open item for the tag ladder build.

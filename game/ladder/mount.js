@@ -1,7 +1,8 @@
 // Ladder match mode: projects the pure model (state.js) onto a three.js scene.
 //
 //   const mode = mountLadder(scene, { players, onEvent, onCamera, matY });
-//   players: [{ id, name, obj, mixer?, clips?: { idle, walk }, human?, ai?: true | { ally, betrayAtRung } }]
+//   players: [{ id, name, obj, anim8? | mixer? + clips?: { idle, walk }, human?, ai?: true | { ally, betrayAtRung, contest } }]
+//            anim8 = shared/anims.js createAnimator (roster bodies: idle, walk, jab, knockback...); mixer + clips = Xbot
 //            obj = character root with its origin at the feet (an Xbot gltf.scene clone)
 //   mode.update(dt)              call once per frame (drives mixers and game/moves updateMoves)
 //   mode.act(id, action)         'pickup'|'drop'|'setup'|'climb'|'descend'|'hold'|'release'|'shove'|'betray_shove'|'grab'
@@ -90,13 +91,14 @@ export function mountLadder(scene, { players, onEvent, onCamera, matY = 1.1, mat
   for (const p of players) {
     const actions = {};
     if (p.mixer) for (const [k, clip] of Object.entries(p.clips || {})) if (clip) actions[k] = p.mixer.clipAction(clip);
-    const v = { id: p.id, p, obj: p.obj, mixer: p.mixer, actions, cur: null, mode: 'ground', yaw: m.wrestlers[p.id].yaw,
+    const v = { id: p.id, p, obj: p.obj, mixer: p.mixer, anim8: p.anim8, oneShotUntil: 0, windup: null, actions, cur: null, mode: 'ground', yaw: m.wrestlers[p.id].yaw,
       overlay: null, ow: 0, inMx: 0, inMz: 0, ai: p.ai ? { policy: p.ai === true ? {} : p.ai, next: 0, toward: null } : null };
     views[p.id] = v;
     playClip(v, 'idle');
   }
 
   function playClip(v, name) {
+    if (v.anim8) return v.anim8.play(name);
     const a = v.actions[name];
     if (!a || v.cur === a) return;
     a.reset().fadeIn(0.18).play();
@@ -151,7 +153,13 @@ export function mountLadder(scene, { players, onEvent, onCamera, matY = 1.1, mat
     pivot.position.lerp(tgt.pp, k); pivot.quaternion.slerp(tgt.pq, k);
     body.position.lerp(tgt.bp, k); body.quaternion.slerp(tgt.bq, k);
     ladder.setFold(ladder.fold + (tgt.fold - ladder.fold) * (direct ? 1 : damp(9, dt)));
+    // The ladder is solid: pivot and body interpolate separately, so a pick-up, drop or set-up swings the 3 m frame
+    // through the ring. Rest it on the mat surface instead (also squares the lying cap flush with the mat).
+    pivot.updateMatrixWorld(true);
+    const low = _box.setFromObject(pivot).min.y;
+    if (low < matY) { pivot.position.y += matY - low; pivot.updateMatrixWorld(true); }
   }
+  const _box = new THREE.Box3();
   const _hand = new THREE.Vector3();
   function updateCaseView() {
     const hang = new THREE.Vector3(m.case.x, matY + CASE_H, m.case.z);
@@ -213,6 +221,16 @@ export function mountLadder(scene, { players, onEvent, onCamera, matY = 1.1, mat
       v.mode = 'move';
       playSolo('ladderShove', v.obj, { root: { position: v.obj.position.clone(), yaw }, onCamera: cam, onEnd: groundOnEnd(v) });
     } else if (action === 'descend') toGround(v);
+    else if (action === 'strike' && events.length) {
+      const foe = views[events[0].target];
+      if (v.mode === 'ground') { playClip(v, Math.random() < 0.5 ? 'jab' : 'cross'); v.oneShotUntil = now + 0.5; }
+      const down = foe && (next.wrestlers[foe.id].downUntil - next.t_ms) >= TIMING.KNOCKDOWN_MS;
+      if (foe?.mode === 'ground' && down) {
+        playClip(foe, 'knockdown'); foe.oneShotUntil = now + TIMING.KNOCKDOWN_MS / 1000 + 0.8;
+        later(TIMING.KNOCKDOWN_MS / 1000 - 1.2, () => { if (foe.mode === 'ground') playClip(foe, 'getUp'); });
+      } else if (foe?.mode === 'ground') { playClip(foe, 'knockback'); foe.oneShotUntil = now + 0.9; }
+      cam('thump');
+    }
 
     if (NL.state === 'tipped' && PL.state !== 'tipped') {
       tipStart = now + TIMING.SHOVE_LAG_MS / 1000;
@@ -249,10 +267,17 @@ export function mountLadder(scene, { players, onEvent, onCamera, matY = 1.1, mat
     for (const v of Object.values(views)) {
       if (!v.ai) continue;
       if (now >= v.ai.next) {
-        v.ai.next = now + 0.25;
-        const d = aiDecide(m, v.id, t, v.ai.policy);
-        v.ai.toward = d?.toward || null;
-        if (d?.action) act(v.id, d.action);
+        v.ai.next = now + (v.ai.policy.think ?? 0.25);
+        const d = v.windup ? null : aiDecide(m, v.id, t, v.ai.policy);
+        v.ai.toward = v.windup ? null : d?.toward || null;
+        // A shove or punch is telegraphed (wind-up) so a human can see it coming and beat it.
+        if (d?.action === 'shove' || d?.action === 'strike') v.windup = { action: d.action, at: now + (v.ai.policy.windup ?? 0) };
+        else if (d?.action) act(v.id, d.action);
+      }
+      if (v.windup && now >= v.windup.at) {
+        const w0 = m.wrestlers[v.id];
+        if (t >= w0.downUntil) act(v.id, v.windup.action);
+        v.windup = null;
       }
       const w = m.wrestlers[v.id];
       if (v.ai.toward) {
@@ -264,9 +289,11 @@ export function mountLadder(scene, { players, onEvent, onCamera, matY = 1.1, mat
       const before = m.wrestlers[v.id];
       m = movePure(m, v.id, v.inMx, v.inMz, dt, t);
       v.moving = m.wrestlers[v.id] !== before && v.mode === 'ground';
-      playClip(v, v.moving ? 'walk' : 'idle');
+      const down = t < m.wrestlers[v.id].downUntil && v.mode === 'ground';
+      if (!down && now >= v.oneShotUntil && !(v.windup && v.anim8)) playClip(v, v.moving ? 'walk' : 'idle');
+      else if (v.windup && v.anim8 && v.mode === 'ground') v.anim8.play('stance');
     }
-    for (const v of Object.values(views)) v.mixer?.update(dt);
+    for (const v of Object.values(views)) v.anim8 ? v.anim8.update(dt) : v.mixer?.update(dt);
     if (driveMoves) updateMoves(dt);
     const L = m.ladder;
     for (const v of Object.values(views)) {
@@ -294,14 +321,14 @@ export function mountLadder(scene, { players, onEvent, onCamera, matY = 1.1, mat
     caseHolder = null;
     tipStart = m.ladder.state === 'tipped' ? now - 10 : -1e9;
     firstFrame = true;
-    for (const v of Object.values(views)) { toGround(v); v.yaw = m.wrestlers[v.id].yaw; v.ow = 0; v.overlay = null; }
+    for (const v of Object.values(views)) { toGround(v); v.yaw = m.wrestlers[v.id].yaw; v.ow = 0; v.overlay = null; v.windup = null; v.oneShotUntil = 0; }
   }
 
   return {
     update,
     act,
     input(id, mx, mz) { const v = views[id]; if (v) { v.inMx = mx; v.inMz = mz; } },
-    setPolicy(id, policy) { const v = views[id]; if (v) v.ai = policy ? { policy, next: 0, toward: null } : null; },
+    setPolicy(id, policy) { const v = views[id]; if (v) { v.ai = policy ? { policy, next: now + (policy.delay || 0), toward: null } : null; v.windup = null; } },
     onEvent(cb) { listeners.add(cb); return () => listeners.delete(cb); },
     get state() { return m; },
     setState,
@@ -311,6 +338,8 @@ export function mountLadder(scene, { players, onEvent, onCamera, matY = 1.1, mat
       const L = m.ladder, c = L.state === 'climbed' ? m.wrestlers[L.by] : null;
       return { ladder: { x: L.x, z: L.z }, climbHeight: c ? L.rung * LADDER.RUNG : 0, case: m.case };
     },
+    // Lowest world point of the ladder and the mat it should rest on (checks assert low >= matY - 0.02 in every state).
+    ladderGround() { pivot.updateMatrixWorld(true); const b = _box.setFromObject(pivot); return { state: m.ladder.state, low: b.min.y, matY }; },
     caseObject: brief.group,
     ladderObject: pivot,
     dispose() {

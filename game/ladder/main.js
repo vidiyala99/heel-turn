@@ -1,9 +1,10 @@
-// game/ladder.html entry: Xbot (you) vs a scripted AI Xbot in the main arena, ladder match rules.
+// game/ladder.html entry: you (?p1=) vs a scripted AI (?p2=) in the main arena, ladder match rules. Bodies are the
+// roster's Quaternius bodies in attire (arena/bodies.js, clip map shared/anims.js), same as the main game.
+// The match opens on a 3-2-1 + bell intro; nothing moves before the bell and the AI waits ~2 s after it.
 // ?scene=climb|betray|grab builds a deterministic frozen moment for screenshots (window.ladderScene.ready).
 // ?ai=ally:4 makes the AI hold the ladder for you and shove it at rung 4 (betrayal demo, playable).
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
-import { clone as skClone } from 'three/examples/jsm/utils/SkeletonUtils.js';
 import { EffectComposer } from 'three/examples/jsm/postprocessing/EffectComposer.js';
 import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass.js';
 import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass.js';
@@ -12,6 +13,12 @@ import { buildArena, MAT_Y } from './arena.js';
 import { mountLadder } from './mount.js';
 import { LADDER, createMatch, underCase } from './state.js';
 import { SCENES } from './scenes.js';
+import { loadBodies } from '../arena/bodies.js';
+import { createAnimator } from '../shared/anims.js';
+import { CHARACTERS, WRESTLER_IDS, cssHex } from '../shared/characters.js';
+import { createTTS } from '../../voice/tts.js';
+import { createCrowd } from '../../voice/crowd.js';
+import { openerLine, winnerLine } from '../../voice/announcer.js';
 
 const params = new URLSearchParams(location.search);
 const SCENE = params.get('scene');
@@ -42,27 +49,25 @@ addEventListener('resize', () => {
 
 const arena = buildArena(scene);
 
-const gltf = await new GLTFLoader().loadAsync('/models/Xbot.glb');
-const clip = (n) => gltf.animations.find((a) => a.name === n);
-function makeBot(tint) {
-  const obj = skClone(gltf.scene);
-  obj.traverse((o) => {
-    if (!o.isMesh) return;
-    o.castShadow = true; o.frustumCulled = false;
-    o.material = o.material.clone(); o.material.color.set(tint);
-    if (o.name.includes('Joints')) o.material.color.multiplyScalar(0.45);
-  });
+const pick = (v, fallback) => (WRESTLER_IDS.includes(v) ? v : fallback);
+const P1 = pick(params.get('p1'), 'vex');
+const P2 = pick(params.get('p2'), WRESTLER_IDS.find((id) => id !== P1));
+const bodies = await loadBodies(new GLTFLoader());
+function makeBody(id) {
+  const { obj, animations } = bodies.make(id);
   scene.add(obj);
-  return { obj, mixer: new THREE.AnimationMixer(obj) };
+  return { obj, anim8: createAnimator(obj, animations) };
 }
-const you = makeBot(0xd2563f), rival = makeBot(0x4f7fbf);
+const you = makeBody(P1), rival = makeBody(P2);
+window.ladderCast = { p1: P1, p2: P2 };
+// Fair by default: the AI thinks every 0.4 s and winds up 0.45 s before a shove or punch, so a human can beat it.
 const aiPolicy = (() => {
   const m = /^ally:(\d+)$/.exec(params.get('ai') || '');
-  return m ? { ally: 'p1', betrayAtRung: +m[1] } : {};
+  return { think: 0.4, windup: 0.45, ...(m ? { ally: 'p1', betrayAtRung: +m[1] } : { contest: true }) };
 })();
 const PLAYERS = [
-  { id: 'p1', name: 'You', human: true, x: -1.8, z: 0.6, yaw: Math.PI / 2, ...you, clips: { idle: clip('idle'), walk: clip('walk') } },
-  { id: 'ai', name: 'Silas Crane', x: 1.8, z: -0.9, yaw: -Math.PI / 2, ai: aiPolicy, ...rival, clips: { idle: clip('idle'), walk: clip('walk') } },
+  { id: 'p1', name: CHARACTERS[P1].name, human: true, x: -1.8, z: 0.6, yaw: Math.PI / 2, ...you },
+  { id: 'ai', name: CHARACTERS[P2].name, x: 1.8, z: -0.9, yaw: -Math.PI / 2, ...rival },
 ];
 const LADDER_START = { x: 0, z: 2.2, yaw: Math.PI / 2 };
 const freshMatch = () => createMatch({ players: PLAYERS, ladder: LADDER_START });
@@ -70,14 +75,27 @@ const freshMatch = () => createMatch({ players: PLAYERS, ladder: LADDER_START })
 // ---------- HUD ----------
 const $ = (id) => document.getElementById(id);
 const feedList = $('feedList');
-const NAMES = { p1: 'You', ai: 'Silas Crane' };
-const TAG = { ladder_set: 'set', ladder_climb: 'climb', ladder_hold: 'hold', ladder_betray: 'betray', ladder_grab: 'grab', ladder_tip: 'tip' };
 const esc = (s) => String(s).replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' })[c]);
+const NAMES = { p1: CHARACTERS[P1].name, ai: CHARACTERS[P2].name };
+for (const [el, id, tag] of [['p1', P1, 'You'], ['p2', P2, 'AI']]) {
+  $(el).querySelector('.n').innerHTML = `${esc(CHARACTERS[id].name)} <i>${tag}</i>`;
+  $(el).style.setProperty('--tint', cssHex(CHARACTERS[id].palette.ui));
+}
+const TAG = { ladder_strike: 'hit', ladder_set: 'set', ladder_climb: 'climb', ladder_hold: 'hold', ladder_betray: 'betray', ladder_grab: 'grab', ladder_tip: 'tip' };
+let lastFeed = null;
 function feed(e) {
+  // identical consecutive lines collapse into one with a count
+  const key = `${e.actor}|${e.kind}|${e.text}|${e.success}`;
+  if (lastFeed && lastFeed.key === key && feedList.firstChild === lastFeed.el) {
+    lastFeed.n++;
+    lastFeed.el.querySelector('.x').textContent = ` ×${lastFeed.n}`;
+    return;
+  }
   const p = document.createElement('p');
   const tag = TAG[e.kind] || e.kind;
   p.innerHTML = `<span class="k ${tag}">${tag}</span><b>${esc(NAMES[e.actor] || e.actor)}</b> ${esc(e.text || '')}`
-    + `${e.success === false ? ' <span class="s">(failed)</span>' : ''} <span class="s">· ${e.situation}</span>`;
+    + `${e.success === false ? ' <span class="s">(failed)</span>' : ''} <span class="s">· ${e.situation}</span><b class="x"></b>`;
+  lastFeed = { key, el: p, n: 1 };
   feedList.prepend(p);
   while (feedList.children.length > 7) feedList.lastChild.remove();
 }
@@ -96,11 +114,13 @@ window.ladder = mode;
 
 function banner(text, sub) {
   $('bannerText').textContent = text; $('bannerSub').textContent = sub || '';
+  const b = $('bannerText'); b.classList.remove('pop'); void b.offsetWidth; b.classList.add('pop');
   $('banner').classList.toggle('on', !!text);
 }
 
 function hintFor(m) {
   const w = m.wrestlers.p1, L = m.ladder, k = (key, label) => `<kbd>${key}</kbd>${label}`;
+  if (phase !== 'live') return 'Wait for the bell';
   if (m.winner) return k('R', 'Rematch');
   if (mode.time * 1000 < w.downUntil) return 'Down on the mat...';
   const d = Math.hypot(w.x - L.x, w.z - L.z);
@@ -113,7 +133,8 @@ function hintFor(m) {
   if (L.state === 'climbed' && d <= LADDER.REACH) return `${k('F', 'Shove the ladder')} &nbsp; ${k('H', 'Hold it')}`;
   if (L.state === 'standing' && d <= LADDER.REACH) return `${k('Space', 'Climb')} &nbsp; ${k('H', 'Hold')} &nbsp; ${k('F', 'Shove')}`;
   if ((L.state === 'on_mat' || L.state === 'tipped') && d <= LADDER.PICK_REACH) return k('E', 'Pick up the ladder');
-  if (L.state === 'carried') return k('F', 'Get close and knock it out of his hands');
+  if (L.state === 'carried') return k('J', `Get close and hit ${NAMES.ai}`);
+  if (Math.hypot(w.x - m.wrestlers.ai.x, w.z - m.wrestlers.ai.z) < 1.2) return `${k('J', 'Hit')} &nbsp; or get to the ladder`;
   return 'Get to the ladder';
 }
 
@@ -123,7 +144,12 @@ function updateHud() {
   $('p2').querySelector('.bar > div').style.width = m.wrestlers.ai.stamina + '%';
   const h = hintFor(m);
   if ($('hint').innerHTML !== h) $('hint').innerHTML = h;
-  if (m.winner && !$('banner').classList.contains('on')) banner(m.winner === 'p1' ? 'You win' : `${NAMES[m.winner]} wins`, 'Briefcase pulled down');
+  if (m.winner && !announced) {
+    announced = true;
+    banner(m.winner === 'p1' ? 'You win' : `${NAMES[m.winner]} wins`, `${NAMES[m.winner]} pulled down the briefcase`);
+    crowd.bell(3);
+    setTimeout(() => tts.speak(winnerLine(m.winner === 'p1' ? P1 : P2)).catch(() => {}), 1200);
+  }
 }
 
 // ---------- input ----------
@@ -132,6 +158,8 @@ let frozen = false;
 addEventListener('keydown', (e) => {
   if (frozen) return;
   keys.add(e.code);
+  if (e.code === 'KeyR' && !e.repeat) { startMatch(); return; }
+  if (phase !== 'live') return;
   if (e.code === 'Space') e.preventDefault();
   if (e.repeat) return;
   const m = mode.state, L = m.ladder;
@@ -140,7 +168,7 @@ addEventListener('keydown', (e) => {
   if (e.code === 'KeyF') mode.act('p1', L.holder === 'p1' ? 'betray_shove' : 'shove');
   if (e.code === 'KeyH') mode.act('p1', L.holder === 'p1' ? 'release' : 'hold');
   if (e.code === 'KeyG') mode.act('p1', 'grab');
-  if (e.code === 'KeyR') { mode.setState(freshMatch()); banner(''); feedList.textContent = ''; }
+  if (e.code === 'KeyJ') mode.act('p1', 'strike');
 });
 addEventListener('keyup', (e) => keys.delete(e.code));
 addEventListener('blur', () => keys.clear());
@@ -159,14 +187,47 @@ function followCamera(dt) {
   camera.lookAt(lookCur);
 }
 
+// ---------- intro: names, 3-2-1, bell; the AI goes after a beat ----------
+// phase: 'intro' (frozen, idle) -> 'live' (bell rung; the AI's policy starts ~2 s later). Esc pause reloads for restart.
+let phase = 'intro', announced = false, intro = 0;
+const tts = createTTS();
+const crowd = createCrowd();
+const voiceUp = fetch('/voice/api/health').then((r) => r.json()).then((h) => !!(h.tts ?? h.runware)).catch(() => false);
+const wait = (ms) => new Promise((r) => setTimeout(r, ms));
+window.ladderPhase = () => phase;
+async function startMatch() {
+  const run = ++intro;
+  phase = 'intro'; announced = false;
+  mode.setState(freshMatch()); mode.setPolicy('ai', null);
+  feedList.textContent = ''; lastFeed = null;
+  $('banner').classList.add('intro');
+  banner(`${NAMES.p1} vs ${NAMES.ai}`, 'Ladder match · first to pull down the briefcase');
+  try { crowd.start(); } catch {}
+  const speech = (await voiceUp) ? tts.speak(openerLine()).catch(() => {}) : null;
+  await Promise.race([Promise.all([wait(1600), speech]), wait(4200)]);
+  for (const n of ['3', '2', '1']) {
+    if (run !== intro) return;
+    banner(n, ''); await wait(700);
+  }
+  if (run !== intro) return;
+  try { crowd.bell(1); } catch {}
+  banner('Fight', 'Get to the ladder');
+  phase = 'live';
+  mode.setPolicy('ai', { ...aiPolicy, delay: 2 });
+  await wait(900);
+  if (run === intro && !announced) { banner(''); $('banner').classList.remove('intro'); }
+}
+
 // ---------- deterministic scenes ----------
 if (SCENE && SCENES[SCENE]) {
+  phase = 'live';
   mode.setPolicy('ai', null);
   const view = SCENES[SCENE](mode, freshMatch, MAT_Y);
   camera.position.set(...view.pos); lookCur.set(...view.target); camera.lookAt(lookCur);
   frozen = true;
   updateHud();
 }
+else startMatch();
 window.ladderScene = { name: SCENE || null, ready: true, frozen };
 
 // ---------- loop ----------
@@ -176,8 +237,8 @@ function frame() {
   if (!frozen) {
     const mx = (keys.has('KeyD') ? 1 : 0) - (keys.has('KeyA') ? 1 : 0);
     const mz = (keys.has('KeyS') ? 1 : 0) - (keys.has('KeyW') ? 1 : 0);
-    mode.input('p1', mx, mz);
-    if (keys.has('Space')) mode.act('p1', 'climb'); // no-op while a step is in progress
+    mode.input('p1', phase === 'live' ? mx : 0, phase === 'live' ? mz : 0);
+    if (phase === 'live' && keys.has('Space')) mode.act('p1', 'climb'); // no-op while a step is in progress
     mode.update(dt);
     followCamera(dt);
     arena.update(clock.elapsedTime, mode.state.winner ? 1.8 : 1);

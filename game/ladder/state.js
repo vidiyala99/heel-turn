@@ -13,7 +13,8 @@
 //
 // Events use the PLAN schema {match, t_ms, actor, kind, target?, situation, success?, text?}.
 // Kinds: ladder_set, ladder_climb, ladder_hold, ladder_betray, ladder_grab, plus ladder_tip for a
-// shove by someone who was NOT holding (an opponent tipping the ladder or knocking it out of hands).
+// shove by someone who was NOT holding (an opponent tipping the ladder or knocking it out of hands), and
+// ladder_strike: a punch on the mat (drops a carried ladder, breaks a hold) or a climber kicking someone off the base.
 
 export const LADDER = {
   RUNG: 0.3,            // rung spacing (m)
@@ -29,10 +30,10 @@ export const LADDER = {
   HOLD_GAP: 0.4,        // holder stands this far outside the opposite face
   KIP_FWD: 0.45,        // the kip-up ends this far forward of where the body lay
 };
-export const TIMING = { STEP_MS: 600, SET_MS: 900, PICK_MS: 350, SHOVE_MS: 700, SHOVE_LAG_MS: 300, FALL_MS: 3100, GRAB_MS: 2600 };
+export const TIMING = { STRIKE_MS: 650, STUN_MS: 1100, KICK_STUN_MS: 2200, STRIKE_CD_MS: 1400, RECOVER_MS: 500, KNOCKDOWN_MS: 2800, COMBO_HITS: 3, STEP_MS: 600, SET_MS: 900, PICK_MS: 350, SHOVE_MS: 700, SHOVE_LAG_MS: 300, FALL_MS: 3100, GRAB_MS: 2600 };
 export const SITUATIONS = ['opening', 'after_block', 'low_stamina', 'cornered'];
-export const KINDS = ['ladder_set', 'ladder_climb', 'ladder_hold', 'ladder_betray', 'ladder_grab', 'ladder_tip'];
-export const ACTIONS = ['pickup', 'drop', 'setup', 'climb', 'descend', 'hold', 'release', 'shove', 'betray_shove', 'grab'];
+export const KINDS = ['ladder_set', 'ladder_climb', 'ladder_hold', 'ladder_betray', 'ladder_grab', 'ladder_tip', 'ladder_strike'];
+export const ACTIONS = ['pickup', 'drop', 'setup', 'climb', 'descend', 'hold', 'release', 'shove', 'betray_shove', 'grab', 'strike'];
 
 const tanT = Math.tan(LADDER.TILT);
 const dist = (a, b) => Math.hypot(a.x - b.x, a.z - b.z);
@@ -68,7 +69,7 @@ export function createMatch({ matchId = 'ladder-1', ring = 3.2, players, ladder 
     wrestlers[p.id] = {
       id: p.id, name: p.name || p.id, human: !!p.human,
       x: p.x ?? 0, z: p.z ?? 0, yaw: p.yaw ?? 0,
-      stamina: 100, busyUntil: 0, downUntil: 0, lastBlockedAt: -1e9, fall: null,
+      stamina: 100, busyUntil: 0, downUntil: 0, lastBlockedAt: -1e9, lastStrikeAt: -1e9, hitSafeUntil: 0, lastHitAt: -1e9, hitStreak: 0, fall: null,
     };
   }
   return {
@@ -242,6 +243,37 @@ export function act(prev, id, action, t) {
       emit('ladder_grab', { success: true, text: 'pulls down the briefcase and wins' });
       return ok();
     }
+    case 'strike': {
+      // On the mat: punch the nearest opponent in reach. From the ladder (rung 2+): kick someone at its base.
+      if (t - w.lastStrikeAt < TIMING.STRIKE_CD_MS) return noop;
+      const onLadder = climber === id;
+      if (onLadder && L.rung < 2) return noop;
+      // A hit victim gets RECOVER_MS of safety after the stun, so the same hit cannot chain into a stunlock.
+      const foe = Object.values(m.wrestlers).find((o) => o.id !== id && t >= o.downUntil && t >= o.hitSafeUntil && climberOf(L) !== o.id
+        && (onLadder ? dist(o, L) <= LADDER.REACH + 0.2 : dist(o, w) <= 1.2));
+      if (!foe) return noop;
+      w.lastStrikeAt = t;
+      w.busyUntil = t + TIMING.STRIKE_MS;
+      if (!onLadder) w.yaw = yawTo(foe.x - w.x, foe.z - w.z);
+      // Hits in a row (the victim has not hit back since): the third is a knockdown, never another stun.
+      foe.hitStreak += 1;
+      w.hitStreak = 0;
+      foe.lastHitAt = t;
+      const knockdown = foe.hitStreak >= TIMING.COMBO_HITS;
+      if (knockdown) foe.hitStreak = 0;
+      foe.downUntil = t + (knockdown ? TIMING.KNOCKDOWN_MS : onLadder ? TIMING.KICK_STUN_MS : TIMING.STUN_MS);
+      foe.hitSafeUntil = foe.downUntil + TIMING.RECOVER_MS;
+      foe.stamina = Math.max(0, foe.stamina - (knockdown ? 18 : 10));
+      let extra = knockdown ? ' and knocks them down' : '';
+      if (L.state === 'carried' && L.by === foe.id) {
+        const f = fwdOf(foe.yaw);
+        Object.assign(L, { state: 'on_mat', by: null, x: foe.x + f.x * 0.6, z: foe.z + f.z * 0.6, yaw: foe.yaw + Math.PI / 2 });
+        extra += ', the ladder hits the mat';
+      }
+      if (L.holder === foe.id) { L.holder = null; extra += ', the hold breaks'; }
+      emit('ladder_strike', { target: foe.id, success: true, text: onLadder ? `kicks ${name(foe.id)} off the base of the ladder${knockdown ? ' and down' : ''}` : `hits ${name(foe.id)}${extra}` });
+      return ok();
+    }
     default:
       return noop;
   }
@@ -275,7 +307,25 @@ export function aiDecide(m, id, t, policy = {}) {
   const w = m.wrestlers[id], L = m.ladder;
   if (!w || m.winner || !canAct(w, t)) return null;
   const climber = climberOf(L);
-  if (climber === id) return { action: L.rung < LADDER.TOP ? 'climb' : underCase(m) ? 'grab' : 'descend' };
+  // policy.contest: fight for it. Kick a foe off the base, punch a foe who has the ladder or is in the way.
+  const foe = policy.contest ? Object.values(m.wrestlers).find((o) => o.id !== id && o.id !== policy.ally) : null;
+  const foeUp = foe && t >= foe.downUntil && climber !== foe.id;
+  const ready = t - w.lastStrikeAt >= TIMING.STRIKE_CD_MS;
+  if (climber === id) {
+    if (foeUp && ready && L.rung >= 2 && L.rung < LADDER.TOP && dist(foe, L) <= LADDER.REACH + 0.2) return { action: 'strike' };
+    return { action: L.rung < LADDER.TOP ? 'climb' : underCase(m) ? 'grab' : 'descend' };
+  }
+  const justHit = t - w.lastHitAt < 2500 && w.hitStreak > 0; // hit and not yet answered: answer once, then back to the ladder
+  if (foeUp && justHit && !climber && dist(w, foe) <= 1.1) {
+    if (ready && t >= foe.hitSafeUntil) return { action: 'strike' }; // counter
+    const dx = w.x - foe.x, dz = w.z - foe.z, d = Math.hypot(dx, dz) || 1; // back off out of reach
+    return { toward: { x: w.x + (dx / d) * 1.2, z: w.z + (dz / d) * 1.2 } };
+  }
+  if (foeUp && ready && !climber && t >= foe.hitSafeUntil) {
+    const hasIt = L.holder === foe.id;
+    if (hasIt && dist(w, foe) > 1.1) return { toward: { x: foe.x, z: foe.z } };
+    if (hasIt && dist(w, foe) <= 1.1) return { action: 'strike' };
+  }
   if (climber) {
     if (L.holder === id) {
       if (policy.betrayAtRung != null && L.rung >= policy.betrayAtRung) return { action: 'betray_shove' };
@@ -297,6 +347,11 @@ export function aiDecide(m, id, t, policy = {}) {
       return { action: 'setup' };
     }
     const c = m.wrestlers[L.by];
+    if (policy.contest) { // let them carry it; wait by the briefcase to fight the climb
+      const dx = w.x - m.case.x, dz = w.z - m.case.z, d = Math.hypot(dx, dz) || 1;
+      const spot = { x: m.case.x + (dx / d) * 1.6, z: m.case.z + (dz / d) * 1.6 };
+      return dist(w, spot) > 0.3 ? { toward: spot } : null;
+    }
     if (dist(w, c) > 1.05) return { toward: { x: c.x, z: c.z } };
     return { action: 'shove' };
   }

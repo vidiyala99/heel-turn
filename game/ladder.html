@@ -29,8 +29,8 @@
   .plate .n i { font-style: normal; color: var(--muted); font-weight: 500; font-variant-numeric: tabular-nums; }
   .bar { height: 5px; margin-top: 6px; border-radius: 3px; background: rgba(255, 255, 255, 0.08); overflow: hidden; }
   .bar > div { height: 100%; width: 100%; transition: width 200ms ease-out; }
-  #p1 .bar > div { background: var(--red); }
-  #p2 .bar > div { background: var(--blue); }
+  .plate { border-top: 3px solid var(--tint, var(--line)); }
+  .bar > div { background: var(--tint, var(--red)); }
   #feed { position: fixed; top: 16px; right: 16px; width: min(320px, calc(100vw - 32px)); padding: 10px 12px; font-size: 13px; color: var(--muted); }
   #feed h2 { margin: 0 0 6px; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
   #feed p { margin: 0; padding: 3px 0; border-top: 1px solid var(--line); }
@@ -56,15 +56,18 @@
   #banner b { display: block; font: 900 min(9vw, 84px)/1 Anton, Impact, system-ui, sans-serif; color: var(--gold); letter-spacing: 0.02em;
     text-shadow: 0 6px 40px rgba(245, 197, 66, 0.35); }
   #banner span { color: var(--text); font-size: 15px; }
+  #banner.intro b { font-size: min(14vw, 132px); text-transform: uppercase; }
+  #banner b.pop { animation: pop 380ms cubic-bezier(.2,.9,.3,1.2); }
+  @keyframes pop { from { transform: scale(1.35); opacity: 0; } to { transform: scale(1); opacity: 1; } }
   @media (max-width: 760px) { #feed, #plates { display: none; } }
-  @media (prefers-reduced-motion: reduce) { #banner, #hint, .bar > div { transition: none; } }
+  @media (prefers-reduced-motion: reduce) { #banner, #hint, .bar > div { transition: none; } #banner b.pop { animation: none; } }
 </style>
 </head>
 <body>
 <div id="title" class="panel"><b>Ladder match</b><span>First to pull down the briefcase wins</span></div>
 <div id="plates">
-  <div id="p1" class="plate panel"><div class="n">You <i>stamina</i></div><div class="bar"><div></div></div></div>
-  <div id="p2" class="plate panel"><div class="n">Silas Crane <i>AI</i></div><div class="bar"><div></div></div></div>
+  <div id="p1" class="plate panel"><div class="n">You <i>You</i></div><div class="bar"><div></div></div></div>
+  <div id="p2" class="plate panel"><div class="n">AI <i>AI</i></div><div class="bar"><div></div></div></div>
 </div>
 <section id="feed" class="panel" aria-live="polite"><h2>Ladder log</h2><div id="feedList"></div></section>
 <section id="keys" class="panel" aria-label="Controls">
@@ -75,6 +78,7 @@
   <kbd>Space</kbd><span>Climb (hold)</span>
   <kbd>H</kbd><span>Hold ladder steady</span>
   <kbd>F</kbd><span>Shove ladder (betray if holding)</span>
+  <kbd>J</kbd><span>Hit (kick from the ladder)</span>
   <kbd>G</kbd><span>Grab the briefcase</span>
   <kbd>R</kbd><span>Restart</span>
 </section>

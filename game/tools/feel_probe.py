@@ -18,7 +18,7 @@ PROBE = """() => new Promise((res) => {
 })"""
 
 with sync_playwright() as p:
-    b = p.chromium.launch(args=["--use-gl=angle", "--enable-unsafe-swiftshader"])
+    b = p.chromium.launch(args=["--use-gl=angle", "--enable-unsafe-swiftshader", "--mute-audio"])
     pg = b.new_page(viewport={"width": 1280, "height": 800})
     errs = []
     pg.on("pageerror", lambda e: errs.append(str(e)))
@@ -64,7 +64,7 @@ with sync_playwright() as p:
     pg.evaluate("G.P2.hp = 45; G.P1.x = -0.5; G.P2.x = 0.5; G.P1.z = G.P2.z = 0; G.P1.st = 100; G.P2.state = 'stun'; G.P2.t = 1.2; G.P1.state = 'idle'")  # stunned: the AI cannot cut the grapple off
     pg.keyboard.press("KeyK")
     pg.wait_for_function("G.P2.state === 'down'", timeout=4000)
-    pg.wait_for_timeout(1800)  # let the slam's paired move land first (a pin mid-slam floats both bodies, a base bug)
+    pg.wait_for_timeout(1800)  # let the slam land (a pin mid-slam is covered by tools/pin_float_check.py)
     pg.evaluate("G.P1.x = G.P2.x - 0.9; G.P1.z = G.P2.z; G.P1.state = 'idle'")
     pg.keyboard.press("KeyK")
     pg.wait_for_function("!!G.state.pin", timeout=3000)
@@ -91,4 +91,5 @@ with sync_playwright() as p:
         out["hitstopMs"] = m["hitstopMs"]; out["slowmoMs"] = m["slowmoMs"]; out["events"] = m["events"]
     out["errors"] = errs
     print(json.dumps(out, indent=1))
+    pg.evaluate("window.speechSynthesis && speechSynthesis.cancel()")
     b.close()

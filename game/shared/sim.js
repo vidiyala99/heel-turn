@@ -330,7 +330,21 @@ function win(m, i, how) {
   emit(m, { k: 'call', text: `${how}! ${w.name} wins!` });
   emit(m, { k: 'log', html: `<em>Result</em>: ${short(w)} by ${how.toLowerCase()}. Habits saved for the rematch.` });
   w.state = 'taunt'; w.t = 999; anim(w, 'Dance');
-  emit(m, { k: 'end', winner: i, how, stats: m.w.map((x) => ({ ...x.stats })), aiPlansLog: [...m.aiPlansLog] });
+  emit(m, { k: 'end', winner: i, how, stats: m.w.map((x) => ({ ...x.stats })), aiPlansLog: learned(m) });
+}
+
+// The results screen's "What the AI learned": the latest LLM plans (newest first) and what it has seen you do.
+// Scripted fallback plans show only when no LLM plan arrived, and then only the latest (the early ones say
+// "0 moves seen" and are stale by the bell).
+function learned(m) {
+  const llm = m.aiPlansLog.filter((s) => s.includes('(LLM)'));
+  const plans = llm.length ? llm.slice(-3).reverse() : m.aiPlansLog.slice(-1);
+  const tot = { strike: 0, grapple: 0, block: 0 };
+  for (const s of SITUATIONS) for (const k in tot) tot[k] += m.habits[s][k] - 1;
+  const n = tot.strike + tot.grapple + tot.block;
+  if (!n) return plans;
+  const fav = Object.entries(tot).sort((a, b) => b[1] - a[1])[0];
+  return [...plans, `Your habits so far: ${tot.strike} strikes, ${tot.grapple} grapples, ${tot.block} blocks over ${n} moves; you lean on the ${fav[0]} (${Math.round(fav[1] / n * 100)}%).`];
 }
 
 export const newControl = (human) => ({ human, mx: 0, mz: 0, queue: [] });

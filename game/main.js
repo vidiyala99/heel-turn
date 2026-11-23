@@ -209,7 +209,12 @@ function onAnim(i, w, prev) {
   const v = views[i], o = views[1 - i];
   if (!o) return;
   const name = w.anim;
-  if (CLIP[name]) { play(v, CLIP[name], name === 'Idle' ? 1 : Math.max(0.8, w.animSpeed * 0.8)); return; }
+  if (CLIP[name]) {
+    // the sim says this wrestler is on its feet: release any held pose (pin cover after a kickout) so the body
+    // snaps back to the sim position in syncViews
+    if (w.state === 'idle' && isBusy(v.root)) safe(() => stopMoves(v.root));
+    play(v, CLIP[name], name === 'Idle' ? 1 : Math.max(0.8, w.animSpeed * 0.8)); return;
+  }
   const follow = () => { const s = current()?.w[i]; return s && { position: s, yaw: s.facing }; }; // strikes track the sim
   if (name === 'Punch') safe(() => playSolo('jab', v.root, { speed: T.view.jabSpeed, follow }));
   else if (name === 'No' && w.state === 'stun') safe(() => { if (!isBusy(v.root)) playSolo('hitReact', v.root, { speed: T.view.hitReactSpeed, follow }); });
@@ -224,8 +229,16 @@ function onAnim(i, w, prev) {
       });
     });
     v.lying = true;
-  } else if (name === 'Sitting') safe(() => { stopMoves(v.root); playPaired('pin', v.root, o.root, {}); });
-  else if (name === 'Dance' || name === 'ThumbsUp') safe(() => { if (!isBusy(v.root)) playSolo(i === 0 ? 'tauntArms' : 'chestPound', v.root, {}); });
+  } else if (name === 'Sitting') safe(() => {
+    // The cover is rooted at the sim, on the mat: never at the victim's drawn body, which may still be mid-slam
+    // in the air or where the slam's track left it. The pin track lays the victim 0.75 m along the root's +z.
+    const vs = current()?.w[1 - i]; if (!vs) return;
+    const yaw = Math.atan2(vs.x - w.x, vs.z - w.z);
+    const root = { position: new THREE.Vector3(vs.x - Math.sin(yaw) * 0.75, MAT_Y, vs.z - Math.cos(yaw) * 0.75), yaw };
+    stopMoves(v.root); stopMoves(o.root); playPaired('pin', v.root, o.root, { root });
+  });
+  else if (name === 'Dance') safe(() => { stopMoves(v.root); playSolo(i === 0 ? 'tauntArms' : 'chestPound', v.root, { root: { position: new THREE.Vector3(w.x, MAT_Y, w.z), yaw: w.facing } }); }); // the win: up off the cover
+  else if (name === 'ThumbsUp') safe(() => { if (!isBusy(v.root)) playSolo(i === 0 ? 'tauntArms' : 'chestPound', v.root, {}); });
   else if (name === 'Standing') { safe(() => { stopMoves(v.root); playSolo('kipup', v.root, { root: { position: v.root.position, yaw: v.root.rotation.y } }); }); v.lying = false; }
 }
 function clearViews() {

@@ -60,13 +60,19 @@ const out = {};
 }
 { // near-fall: hurt AI victim kicks out at ~2.9
   const res = [];
-  for (let k = 0; k < 20; k++) {
-    const { m, ctl } = fresh(); ctl[1].human = false; const [a, d] = m.w; a.x = -0.5; d.x = 0.5; d.hp = 45;
+  for (let k = 0; k < 200; k++) {
+    // The victim stays inert (human, no input) through the slam, so the AI's state machine cannot cut the grapple
+    // off and pin the player instead; it turns AI (kickout logic) while down, before the cover.
+    const { m, ctl } = fresh(); const [a, d] = m.w; a.x = -0.5; d.x = 0.5; d.hp = 45;
     ctl[0].queue.push('grapple'); frames(m, ctl, () => d.state === 'down');
+    ctl[1].human = false;
     a.x = d.x - 0.9; a.z = d.z; ctl[0].queue.push('grapple'); step(m, DT, ctl);
+    if (m.pin?.victim !== 1) { res.push('nopin'); continue; }
     frames(m, ctl, () => !m.pin, 600);
-    const nf = m.events.find((e) => e.k === 'nearfall'); res.push(nf ? nf.at : m.over ? 3 : (m.events.some((e) => e.k === 'pincount') ? 'early' : 'nopin(AI cut off the slam)'));
+    const nf = m.events.find((e) => e.k === 'nearfall'); res.push(nf ? nf.at : m.over ? 3 : 'early');
   }
-  out.nearFallKickoutCounts_hp45 = res.join(' ');
+  out.nearFallKickoutCounts_hp45 = res.slice(0, 20).join(' ');
+  const kicks = res.filter((r) => typeof r === 'number' && r < 3);
+  out.nearFallKickoutRate_hp45 = `${Math.round(kicks.length / res.length * 100)}% of ${res.length} pins, at ${Math.min(...kicks)}-${Math.max(...kicks)}`;
 }
 console.log(JSON.stringify(out, null, 1));

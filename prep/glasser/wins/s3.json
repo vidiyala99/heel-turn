@@ -1,0 +1,139 @@
+{
+  "id": "62c1411c-562f-4759-af66-4152213f76e1",
+  "run_url": "https://app.glasser.ai/runs/62c1411c-562f-4759-af66-4152213f76e1",
+  "provider": "serper",
+  "endpoint": "/search",
+  "endpoint_version": 2,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "q": "devpost 2026 hackathon winner multi-agent simulation agents society grand prize"
+  },
+  "output": {
+    "organic": [
+      {
+        "link": "https://allthingsagentichackathon.devpost.com/",
+        "title": "All Things Agentic Hackathon: Ready, Set, Agent! Build next ... - Devpost",
+        "snippet": "A global hackathon to build next-generation AI agents on Gemini and Google Cloud. multi-step tasks on their own, Prizes $180,000 in prizes Grand Prize $50,000 ...",
+        "position": 1,
+        "displayedLink": "https://allthingsagentichackathon.devpost.com"
+      },
+      {
+        "link": "https://treehacks-2026.devpost.com/",
+        "title": "TreeHacks 2026: The largest collegiate hackathon in ... - Devpost",
+        "snippet": "Grand Prize: $5K in Modal Credits per person ... (Best Overall AI Agent Solution - $2500 Best Multi-Agent Workflow - $1500 Best Monetised Agent - $1000).",
+        "position": 2,
+        "displayedLink": "https://treehacks-2026.devpost.com"
+      },
+      {
+        "link": "https://deep-agents-hackathon.devpost.com/",
+        "title": "Deep Agents Hackathon: We've stacked real infra and ... - Devpost",
+        "snippet": "We've stacked real infra and real AI so your hack ships as a product, not a slide. In one sprint, build agents, copilots, and autonomous systems that ...",
+        "position": 3,
+        "displayedLink": "https://deep-agents-hackathon.devpost.com"
+      },
+      {
+        "link": "https://the-great-agent-hackathon.devpost.com/",
+        "title": "The Great Agent Hackathon: Build AI agents for the enterprise - Devpost",
+        "snippet": "The Great Agent Hackathon is a 24-hour, in-person build happening overnight in Bangalore, and multi-agent orchestration.",
+        "position": 4,
+        "displayedLink": "https://the-great-agent-hackathon.devpost.com"
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=DCXjvKmUIGY",
+        "title": "How to Win the All Things Agentic Hackathon: Judging Criteria Live Q&A",
+        "snippet": "All Things Agentic Hackathon … $180,000 in prizes. Submissions close August 31, 2026. $180K total, $50K grand prize",
+        "position": 5,
+        "displayedLink": "https://www.youtube.com › watch"
+      },
+      {
+        "link": "https://x.com/devpost/with_replies",
+        "title": "Devpost",
+        "snippet": "The winners of Build with @DataHubCloud: The Agent Hackathon are here! Over 3,000+ builders showed us what happens when AI agents get real data context.",
+        "position": 6,
+        "displayedLink": "https://x.com › devpost › with_replies"
+      },
+      {
+        "link": "https://authorizedtoact.devpost.com/",
+        "title": "Authorized to Act: Auth0 for AI Agents: Build an agentic AI ... - Devpost",
+        "snippet": "Build an agentic AI application using Auth0 for AI Agents Token Vault. This hackathon has ended. Find more hackathons View the winners ... © 2026 Devpost, Inc.",
+        "position": 7,
+        "displayedLink": "https://authorizedtoact.devpost.com"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/bhaveshkumar-rathod_ai-generativeai-agenticai-activity-7474436354169290752-Ux2B",
+        "title": "7 Global AI Hackathons Open on Devpost with $2M Prize Pool",
+        "snippet": "7 global AI hackathons currently open on Devpost. If you're an AI Engineer, GenAI Builder, Student, Founder, or someone looking to build ...",
+        "position": 8,
+        "displayedLink": "https://www.linkedin.com › posts › bhaveshkumar-rathod_ai-gene..."
+      },
+      {
+        "link": "https://moonshot-aethra.devpost.com/",
+        "title": "Moonshot Hackathon: Moonshots Only - Zero to one Ideas - Devpost",
+        "snippet": "This is a hackathon grounded in the zero-to-one philosophy: the belief that true innovation is not created through competition alone, but through the creation ...",
+        "position": 9,
+        "displayedLink": "https://moonshot-aethra.devpost.com"
+      },
+      {
+        "link": "https://www.facebook.com/100001267156112/videos/-4-ai-hackathons-lakhs-of-prize-money-opportunities-you-dont-want-to-miss-if-you/39702990552678548/",
+        "title": "4 AI Hackathons 2026 With $1M+ Prizes: Deadlines Nov 10-25",
+        "position": 10,
+        "displayedLink": "https://www.facebook.com › 100001267156112 › ... › 39702990552678548"
+      }
+    ],
+    "peopleAlsoAsk": [
+      {
+        "question": "How to win devpost hackathon?"
+      },
+      {
+        "question": "What are the best hackathons in 2026?"
+      },
+      {
+        "question": "Can I use ChatGPT in Hackathon?"
+      },
+      {
+        "question": "What is Devpost hackathon?"
+      }
+    ],
+    "relatedSearches": [
+      {
+        "query": "TreeHacks 2026 winners"
+      },
+      {
+        "query": "AI agent Hackathon 2026"
+      },
+      {
+        "query": "TreeHacks 2026 prizes"
+      },
+      {
+        "query": "TreeHacks 2026 Devpost"
+      },
+      {
+        "query": "TreeHacks 2026 sponsors"
+      },
+      {
+        "query": "TreeHacks acceptance rate"
+      }
+    ],
+    "searchParameters": {
+      "q": "devpost 2026 hackathon winner multi-agent simulation agents society grand prize",
+      "type": "search",
+      "engine": "google"
+    }
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.001",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:34:36.981Z",
+  "started_at": "2026-11-23T07:34:37.014Z",
+  "completed_at": "2026-11-23T07:34:38.101Z",
+  "task_id": "tsk_965d2263a224d7b9",
+  "metadata": {}
+}

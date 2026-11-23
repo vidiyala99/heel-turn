@@ -1,0 +1,125 @@
+{
+  "id": "fef2e989-3e16-4f24-91c1-4318ed9277b5",
+  "run_url": "https://app.glasser.ai/runs/fef2e989-3e16-4f24-91c1-4318ed9277b5",
+  "provider": "anyapi",
+  "endpoint": "/youtube.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "query": "AI sales roleplay trainer agent",
+    "sortBy": "popular",
+    "uploadDate": "this_year"
+  },
+  "output": {
+    "hint": "paging_unavailable: this result came from a source that cannot return a nextCursor, so it may be incomplete and there is no way to continue from here. Re-run with `requireFields: [\"nextCursor\"]` to be served only by a source that can page, which may cost more per request.",
+    "items": 6,
+    "output": {
+      "data": {
+        "videos": [
+          {
+            "id": "hguYvBT6zNs",
+            "url": "https://www.youtube.com/watch?v=hguYvBT6zNs",
+            "image": "https://i.ytimg.com/vi/hguYvBT6zNs/hq720.jpg",
+            "title": "Live AI Sales Roleplay: I Call My Hardest AI Agent (Learn the Framework First)",
+            "views": 314,
+            "channel": "RyMac",
+            "authorId": "UCCvs0428gbdbXHjKSV6-v5Q",
+            "createdUtc": 1787470835,
+            "lengthText": "30:51",
+            "publishedTime": "3 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/CXk8r_La8xK38H28JeHZM5xNtf9JO9uKLgEHKCWyQsjlCH30ZpOBJJTCM81XBIQwylSLPFetjg=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "1pcQu1YEOfo",
+            "url": "https://www.youtube.com/watch?v=1pcQu1YEOfo",
+            "image": "https://i.ytimg.com/vi/1pcQu1YEOfo/hq720.jpg",
+            "title": "How to Use AI as Your Real Estate Roleplay Partner (Free & Step-by-Step)",
+            "views": 260,
+            "channel": "Real Sales Talk-Coach Pauly C.",
+            "authorId": "UCz2Gn-Swwls320FTgChycrw",
+            "createdUtc": 1784792435,
+            "lengthText": "15:34",
+            "publishedTime": "4 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/wEN0vIzMOac1dWGxXyCaqHxdqYKFeAjFJcDerc4mYtxehP6fJvmWcgisTgRgthMdnChd8mJRog=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "bUH_6eGGqOc",
+            "url": "https://www.youtube.com/watch?v=bUH_6eGGqOc",
+            "image": "https://i.ytimg.com/vi/bUH_6eGGqOc/hq720.jpg",
+            "title": "AI Sales Roleplay Training: 6 Things That Work Differently",
+            "views": 165,
+            "channel": "Ajitesh (Tough Tongue AI team)",
+            "authorId": "UCo-0xyN_y4-lRc5qlq3PK3w",
+            "createdUtc": 1790149235,
+            "lengthText": "6:15",
+            "publishedTime": "2 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/mrvpHYN58774gvQ-jMnhjzAvedtL9hvZq-DVh4Y02WqRt6N3tXzbFXGacP-C1TU8X9v9gEa9sg=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "mJ21Hpb7DtI",
+            "url": "https://www.youtube.com/watch?v=mJ21Hpb7DtI",
+            "image": "https://i.ytimg.com/vi/mJ21Hpb7DtI/hq720.jpg",
+            "title": "AI Sales Trainer with Voice Cloning | Real-Time Roleplay AI for Sales Teams | Sparkix Technologies",
+            "views": 38,
+            "channel": "Sparkix Technologies",
+            "authorId": "UC_9wQ1M6NeSjYI5KzPArprA",
+            "createdUtc": 1774251635,
+            "lengthText": "1:21",
+            "publishedTime": "8 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/e0khUUarxQY5rD_46Dz8nkAI4g3pUamOw-mFaRkQzmWKf2Uq9iCB6ww5ij_KMjvsiR16DLXP=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "U2mek1GT_ao",
+            "url": "https://www.youtube.com/watch?v=U2mek1GT_ao",
+            "image": "https://i.ytimg.com/vi/U2mek1GT_ao/hq720.jpg",
+            "title": "I Didn't Want to GET YELLED AT |  How AI Turned This Agent Into a Trainer",
+            "views": 29,
+            "channel": "Sales Coach Pro",
+            "authorId": "UC2KXw84NNkNydZ1UXiXE_cw",
+            "createdUtc": 1782200435,
+            "lengthText": "8:22",
+            "publishedTime": "5 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/BVmmoqEY6O52KgNSiXxuTMKiZTQoFIZ2gEMVLnWExwdiZ3AMnQsLDV7sjc4ws4z0KQ_W3qWD=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "OIXppTRaGxs",
+            "url": "https://www.youtube.com/watch?v=OIXppTRaGxs",
+            "image": "https://i.ytimg.com/vi/OIXppTRaGxs/hq720.jpg",
+            "title": "Podcast with best-seller author Dan Seidman How to ask power questions in sales calls | Amotions AI",
+            "views": 27,
+            "channel": "Amotions AI | AI Sales Coach for Live Calls",
+            "authorId": "UC21-y0f2Y9u2VLUmlP6O-sg",
+            "createdUtc": 1790149235,
+            "lengthText": "15:10",
+            "publishedTime": "2 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/IWE81KfWWAAHN1UI9DLE2GS-wOcMHgmL5bj1l0pGzMqa71titBTFnXTLfe-tJS8FwGhTvqUw8A=s68-c-k-c0x00ffffff-no-rj"
+          }
+        ]
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-badger",
+      "kind": "anonymous",
+      "name": "Badger",
+      "artworkKey": "badger"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.0012",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:40:33.700Z",
+  "started_at": "2026-11-23T07:40:33.877Z",
+  "completed_at": "2026-11-23T07:40:35.187Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

@@ -1,0 +1,591 @@
+{
+  "id": "ba75b5bb-465a-42ae-bac0-793cee179541",
+  "run_url": "https://app.glasser.ai/runs/ba75b5bb-465a-42ae-bac0-793cee179541",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "AI Mafia game human vs AIs",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "large_result: this response is ~35 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 25,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1tgj7ce",
+            "url": "https://www.reddit.com/r/SipsTea/comments/1tgj7ce/why/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/wvj0n68aov1h1.jpeg?width=140&height=133&auto=webp&s=3f40175866b83237d9b536afd47aa5a403501d58",
+                "type": "photo",
+                "width": 140,
+                "height": 133
+              }
+            ],
+            "score": 89232,
+            "title": "Why?",
+            "author": "SipsTeaFrog",
+            "authorId": "5wyuki5q",
+            "selftext": "",
+            "permalink": "/r/SipsTea/comments/1tgj7ce/why/",
+            "subreddit": "SipsTea",
+            "createdUtc": 1779102208,
+            "numComments": 5119
+          },
+          {
+            "id": "1ru97y3",
+            "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1ru97y3/family_friend_sent_me_ai_generated_response_to/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/3rmah9atb6pg1.jpeg?width=140&height=132&auto=webp&s=8076f5b0db8a16a99a2b2cae4d592bcb460e383e",
+                "type": "photo",
+                "width": 140,
+                "height": 132
+              }
+            ],
+            "score": 82045,
+            "title": "Family friend sent me AI generated response to news of my father passing away.",
+            "author": "Hendothermic",
+            "authorId": "eaneffjz",
+            "selftext": "I'm aware that AI is a common topic on here,  but I feel like I had to send this somewhere. My father passed away in my arms last night of a heart attack, and I was requested by my mother to send an old friend of his the news.\n\nHis first response seemed fine, then he asked me when the funeral will be and if Dad suffered to which I responded.\n\nHe then has the absolute audacity to send me a straight up generated response to my father's death. Not even the common courtesy of talking to me as an actual goddamn human. I'm livid.",
+            "permalink": "/r/mildlyinfuriating/comments/1ru97y3/family_friend_sent_me_ai_generated_response_to/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1773565166,
+            "numComments": 4826
+          },
+          {
+            "id": "1tnqb6f",
+            "url": "https://www.reddit.com/r/BrandNewSentence/comments/1tnqb6f/the_pope_wrote_a_42000_word_manifesto_declaring/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/j3b4dyyzhd3h1.png?width=140&height=68&auto=webp&s=95c82f1a8f12c4db0d3d5168bdbf1b79c8c4cb67",
+                "type": "photo",
+                "width": 140,
+                "height": 68
+              }
+            ],
+            "score": 79098,
+            "title": "The Pope wrote a 42000 word manifesto declaring war on AI",
+            "author": "herewearefornow",
+            "authorId": "h5wbhg07",
+            "selftext": "",
+            "permalink": "/r/BrandNewSentence/comments/1tnqb6f/the_pope_wrote_a_42000_word_manifesto_declaring/",
+            "subreddit": "BrandNewSentence",
+            "createdUtc": 1779753916,
+            "numComments": 2534
+          },
+          {
+            "id": "1thvoh3",
+            "url": "https://www.reddit.com/r/interesting/comments/1thvoh3/human_imagination_beats_ai/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/dXNyaTIwODMwNTJoMaEBCIzpqTxLHKcEETfmSgKZ-3hRwk0Xksyn02_84XNC.png?width=140&height=140&crop=1%3A1%2Csmart&format=jpg&auto=webp&s=8cbf7dcde4ccbc7f4ed2154f7321591fface961d",
+                "type": "video",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 76582,
+            "title": "Human imagination beats AI",
+            "author": "No-Lock216",
+            "authorId": "8a0vd53p",
+            "selftext": "",
+            "permalink": "/r/interesting/comments/1thvoh3/human_imagination_beats_ai/",
+            "subreddit": "interesting",
+            "createdUtc": 1779215181,
+            "numComments": 503
+          },
+          {
+            "id": "1p8oomu",
+            "url": "https://www.reddit.com/gallery/1p8oomu",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/zJM_1fepDUSAI0t3KwfJtA9DoTg6Luqe-wCjVKYWRro.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 96
+              }
+            ],
+            "score": 76220,
+            "title": "Valve artist responds to calls for Steam to drop \"Made with AI\" label",
+            "author": "Stannis_Loyalist",
+            "authorId": "3p3tvgm1",
+            "selftext": "",
+            "permalink": "/r/Steam/comments/1p8oomu/valve_artist_responds_to_calls_for_steam_to_drop/",
+            "subreddit": "Steam",
+            "createdUtc": 1764314331,
+            "numComments": 2587
+          },
+          {
+            "id": "1pcgbwa",
+            "url": "https://www.reddit.com/r/memes/comments/1pcgbwa/steam_for_the_win/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/RuYfKPO5DSN4H_tMxJSiIi0SXDoFXmjf92EDK5HcZaQ.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 75537,
+            "title": "Steam for the win",
+            "author": "[deleted]",
+            "authorId": "0",
+            "selftext": "",
+            "permalink": "/r/memes/comments/1pcgbwa/steam_for_the_win/",
+            "subreddit": "memes",
+            "createdUtc": 1764700254,
+            "numComments": 1330
+          },
+          {
+            "id": "1utslv6",
+            "url": "https://www.reddit.com/r/SipsTea/comments/1utslv6/thoughts_on_ac_vs_ai_data_centers/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/mgnje1ruench1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=1ad723b8cee910584c8c08a051052eca094043ed",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 69403,
+            "title": "Thoughts on AC vs AI data centers",
+            "author": "Plus-Pop-6302",
+            "authorId": "1r92nw9dy1",
+            "selftext": "",
+            "permalink": "/r/SipsTea/comments/1utslv6/thoughts_on_ac_vs_ai_data_centers/",
+            "subreddit": "SipsTea",
+            "createdUtc": 1783796512,
+            "numComments": 1085
+          },
+          {
+            "id": "1td5abq",
+            "url": "https://www.reddit.com/gallery/1td5abq",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/ddebrdse151h1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=0cb7cbf85dcc731a4a6612af310e6d836244c5d5",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 56986,
+            "title": "Kittens in storm drain successfully rescued. Thanks, everyone!",
+            "author": "belltown99",
+            "authorId": "cxrrs",
+            "selftext": "EDIT (5/22/26): Both kittens passed their behavioral tests, which is good news since that is a requirement for adoption. They are living at the kitten nursery, happy and healthy. Next step is spaying/neutering, which will likely take place after the kittens reach a specific age/body weight. Thanks everyone for the follow ups about this and sorry it took awhile to get the update. The shelter is pretty busy, so getting a hold of someone on the phone for an update is rare.\n\n\n\nUpdate to my original post: [https://www.reddit.com/r/cats/comments/1tc62yv/kitten\\_stuck\\_down\\_storm\\_drain\\_help/](https://www.reddit.com/r/cats/comments/1tc62yv/kitten_stuck_down_storm_drain_help/)\n\nHi everyone, so sorry for the radio silence yesterday. The day completely got away from us, but I have good news – the kittens were rescued and are safe\\*\\*.\\*\\* Below is a recap of how the events transpired. Given how many of you have a vested interest, I thought it appropriate to include as many details as possible.\n\nThey’re currently with the Humane Society getting checked out. They seem to be in reasonable shape, just understandably shell-shocked, hungry and exhausted. Because we have cat allergies, we unfortunately couldn't keep them ourselves. They are so incredibly adorable and we sincerely hope they find a good home together. It wasn't easy giving them up, but we felt we had given them a second chance at life. \n\nI wish I had more photos, as so many of you want to see them and I feel like so many of you have been with us during this journey. Things got hectic during the rescue process and the little ones seemed pretty stressed out, so we let them be. The Humane Society was a little awkward about not letting us take a few final photos before we left.\n\nI honestly didn't expect my last post to blow up the way it did. Your advice, your stories, and just the general \"hive mind\" support helped us triage the situation when we were in need of a lot of ideas quickly. This was a team effort, Reddit. I never thought I’d feel this connected to a bunch of strangers, so thank you.\n\n**Full story**\n\nA few weeks ago, we noticed two strays in the yard. We have a bit of a gopher problem, so we figured if we left out some food and water, it was a win-win for everyone. Then, a few days ago, a tiny kitten popped out of the bushes one evening while I was taking out the trash and nearly gave me a heart attack. I had a good laugh, but didn't think more about it.\n\nThe next day, my wife calls me saying there’s a cat stuck in one of our storm drain pipes. I didn't believe her at first, but then we heard the sad cries coming from the gutter downspouts. After checking our storm drains, we realized that there were two ways the kittens could have entered: a grate at the drain exit (which had popped off) and an opening in our garden (previously unknown) which likely serves as an air intake to promote flow. Both of these entrances have now been gated and secured. The initial photos I shared were of the downspout for the gutters, which I had removed in order to access the pipes below. The gutter pipes have been replaced, so no little kitties will be able to jump down there.\n\nWe initially cut a towel into thin strips and lowered them into the entry/exits into the drains and threw some cat food down the pipes to attract the cats. That didn't work and we still heard the sad meows (heartbreaking). Yesterday morning, my wife was really worried so she played the sounds of a YouTube video of a mother cat calling her kittens. She received an instant response and looked down the downspout. There it was, a tiny spotted face staring back at her. She screamed for me and for us that was overwhelming, so we decided to kick it into higher gear and get much more aggressive about saving them.\n\nWe called animal control for help. Sadly, animal control said they don't assist with this sort of thing, so we were on our own. I don’t think they were rude about it, but it felt like our situation was either not their primary focus or much lower in priority compared to other issues they handled. We didn’t want to quit, so I said to my wife, hey let’s post on Reddit while we brainstorm to get some ideas from others and that’s when I encountered r/Cats.\n\nWithin minutes, people responded and we started looking into everything that was recommended. We decided to start with the least invasive and escalating as needed. The top ideas were: 1) provide a way for the kittens to climb out; 2) call the firefighters; 3) call the plumbers; 4) cut the pipes open.\n\nOur local firefighters responded within a few minutes of us calling them.  It was a full truck roll and three guys hopped out. They were super kind and I think they helped us calm down quite a bit, as we likely had a lot of frantic energy about us. We tried several ways to locate/drive the kittens out the storm drain exit, but after half an hour or so, they had to leave. I could tell they really wanted to find the kittens, but they also had other people to help. We were so grateful they came.\n\nQuite a few Redditors mention calling a plumber. This sounds so obvious in retrospect, but I never thought of this. While we were searching, we noticed AI was recommending Roto-Rooter, who offered free pet rescues. This sounded like just what we needed and I was a little skeptical about it, but we thought, why not give this a shot. We have nothing to lose and really wanted to get those little guys out. We called the 800 number and a lovely woman picked up on the second ring. She calmly took our info and instructed us to wait for a call back. 15 min later, Jeremy, who is a field supervisor in the region, calls us back. He's a self-declared cat lover and already on the way. Both he and his fiance have seen my original post trending on Reddit. He's about an hour away from us, but I swear he was at our door in much less time.\n\nI get a new wave of confidence when Jeremy steps up to the task. I give him the run down and just then, we see a small head pop out of the storm drain exit (let’s call this kitten, Princess). Princess ducks back into the pipe and we get there just in time to see a tail disappear. Jeremy races back to his truck to get some gear, yelling “we can do this!” He deploys his digital scope, which has 100ft of line and plans to use its lights to encourage the kittens to reverse out of the tunnel system. I've attached actual video footage from the scope inside the drain line. Unfortunately, I was focused on grabbing Princess at the very end, so I didn't capture any photos. We do have some after action shots of Jeremy consoling a very scared kitten.\n\nWe thought our job was done. As we clean up, we hear more meows but this time, they are coming from the other side of the drainage system. We start at the very beginning of the pipes with the scope and work our way through. I have some long runs and it's a bit of a network of pipes, so it took some time, but seeing the kitten’s tiny face (let’s call him Mario), beautiful eyes, and pink nose on the scope’s monitor gave us a renewed sense of purpose. We used two different scopes to corral the kitten towards my wife, who was waiting at the drain exit. After a few start/stops, we get the kitten to go down the right tube to the exit. He's a bit of a fighter, so I end up having to reach into the pipes and grabbing him (gently) with my bbq tongs since he keeps retreating. Video footage of the scope in the pipes also included. \n\nAfter settling down the kittens into their own cardboard boxes, we give them some food/water/hugs and we finally take a breather. I've soaked through my shirt and Jeremy's knuckles are bloody from pushing the scope cabling down the pipe. My wife is still in disbelief and all of us are smiling. We are so relieved!  \n   \nJeremy received a few service calls while he was here, so I could tell he had to move on (but didn’t want to). We tried to compensate him for his time but he flat out refused. I think we had to force him to take a sandwich and drink from our local deli. As he was packing up, he shared a story about a time he couldn't rescue a kitten that had fallen 20 feet vertically into a storm drain, so this felt like redemption to him. We were very moved hearing that this was a win he needed. He certainly made up for it, since we pulled not one, but 2 out of the tunnels.\n\nAbout the cats themselves. We estimate they are around 8 weeks old, based on their size. Princess is much smaller, with light brown spots. She is fairly shy, mews very quietly, and keeps to herself. I suspect the ordeal was likely tougher on her because she's smaller.  Mario is gray with tiger stripes. He is much larger, aggressive and loud. I am less worried about him.\n\nIf we could keep these kittens, we would (I think this is the cat tax people are referring to?). Unfortunately, I am very allergic to cats and our young children show signs of this as well.  We were worried about their health, so we dropped them off at the Humane Society to give them the best chance at recovery. We thought it was important for our kids to understand this process, so we picked them up for school and headed to the shelter together to say our goodbyes. The wonderful team there immediately started tending to them and I hope to get an update later today on their status. I am told that kittens who come in as duos at this age “do very well” and are quite popular, so fingers crossed they land in a loving home. Our local shelter explicitly asked us not to share their location, which we have respected. My understanding is they have experienced the good people of the Internet calling to ask about the cats and it overwhelms their systems.\n\nAs I write this, I’m still a little in disbelief how so many different people responded to my post with great ideas, Jeremy dropping everything to show up at a stranger’s home, and for those little kittens staying resilient. My wife and I were preparing ourselves for a much different ending. I’m so glad this was a happy ending that I didn’t expect and this all provides us with a little much needed nourishment.",
+            "permalink": "/r/cats/comments/1td5abq/kittens_in_storm_drain_successfully_rescued/",
+            "subreddit": "cats",
+            "createdUtc": 1778780125,
+            "numComments": 754
+          },
+          {
+            "id": "1r0yv9u",
+            "url": "https://www.reddit.com/r/cats/comments/1r0yv9u/since_its_going_viral_on_other_platforms_i/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/hCGlo1iBdbVWpx30jnFmhcDKUfXwk8WY1VTKACsmAII.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 54822,
+            "title": "Since it’s going viral on other platforms, I figured Reddit may enjoy my girl too. This is Lil Bit, my sassy queen.",
+            "author": "Mamakeetus",
+            "authorId": "1tkeddhqt8",
+            "selftext": "I’ve had some people think this photo is AI - and I assure you it’s not. She’s just odd 😂 I’ve had this pic on my phone since 2022 and come back to it from time to time to snicker, never realized other people would love it as much as I do lol.\n\nFollow on X @lil\\_bits\\_humans",
+            "permalink": "/r/cats/comments/1r0yv9u/since_its_going_viral_on_other_platforms_i/",
+            "subreddit": "cats",
+            "createdUtc": 1770724857,
+            "numComments": 409
+          },
+          {
+            "id": "1pahpt6",
+            "url": "https://www.gamesradar.com/games/valve-artist-says-thats-like-saying-food-products-shouldnt-have-their-ingredients-list-as-epics-tim-sweeney-and-more-call-on-steam-to-drop-the-made-with-ai-label/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/kBB7qxPIfwWFner0RncX9fEJUTjG1lS7kVKq1XB7oeo.jpeg?width=140&height=78&auto=webp&s=95d128a75dfa56f6103b8ec99669decb37c3beac",
+                "type": "photo",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 54439,
+            "title": "Valve artist responds to Epic Games CEO Tim Sweeney and more calling on Steam to drop the 'Made with AI' label: \"This is like saying food products shouldn't have their ingredients list... The only people afraid of this are the ones that know their product is low effort.\"",
+            "author": "ChiefLeef22",
+            "authorId": "7a7qkhpq",
+            "selftext": "",
+            "permalink": "/r/gaming/comments/1pahpt6/valve_artist_responds_to_epic_games_ceo_tim/",
+            "subreddit": "gaming",
+            "createdUtc": 1764507574,
+            "numComments": 2125
+          },
+          {
+            "id": "1p6vr6q",
+            "url": "https://www.reddit.com/r/shittymoviedetails/comments/1p6vr6q/in_the_matrix_it_was_2199_and_ai_thought_the_best/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://a.thumbs.redditmedia.com/WXcIpQ4l-lfl74PuKPHR8zmkLg09rrsWxGBjfRb_PT8.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 81
+              }
+            ],
+            "score": 53633,
+            "title": "In “The Matrix”, it was 2199 and AI thought the best source of power was from painstakingly harvesting electricity from human beings in vast farms, instead of just building a few easily managed nuclear reactors.",
+            "author": "PercentageNonGrata",
+            "authorId": "1ft0m248kp",
+            "selftext": "",
+            "permalink": "/r/shittymoviedetails/comments/1p6vr6q/in_the_matrix_it_was_2199_and_ai_thought_the_best/",
+            "subreddit": "shittymoviedetails",
+            "createdUtc": 1764123448,
+            "numComments": 2594
+          },
+          {
+            "id": "1qsgihv",
+            "url": "https://www.reddit.com/gallery/1qsgihv",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/TrlfH1vM-zSdXG-PqOxx21U1KaV9b7pQf89rzhbslYo.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 49926,
+            "title": "Alex Pretti memorial, Minneapolis",
+            "author": "thoughtofeverything",
+            "authorId": "8ds93w1",
+            "selftext": "",
+            "permalink": "/r/pics/comments/1qsgihv/alex_pretti_memorial_minneapolis/",
+            "subreddit": "pics",
+            "createdUtc": 1769898899,
+            "numComments": 184
+          },
+          {
+            "id": "1px9xwx",
+            "url": "https://www.reddit.com/r/pcmasterrace/comments/1px9xwx/private_equity_is_killing_private_ownership_first/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/ZmFpc2w2bjZpdDlnMfjm9xYAn_POqzYPqQ5XUfllfmUARKNamgHFYO-YeV5d.png?width=140&height=78&format=jpg&auto=webp&s=e3e6be6c7c22cd2b7301f8c81496d8d94f922a09",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 48940,
+            "title": "Private equity is killing private ownership: first it was housing - now it's the personal computer",
+            "author": "SagansCandle",
+            "authorId": "wrlvini",
+            "selftext": "DRAM and GPU prices aren't going up because of \"AI\" - it's because the wealthy have more money than they know what to do with, so they're buying up all the assets. \"AI\" is just the vehicle (the excuse) - it's not the root of the problem nor is it the ultimate goal.\n\nThe super rich don't want to hold on to \"liquid\" money - they invest in assets. While they're buying up all the housing, now they're buying up all the computers and putting them into massive datacenters.\n\nWhether or not the AI bubble crashes, they'll be selling you a \"gaming PC in the cloud,\" for a monthly fee, of course. And while they kill the personal computer market, just like Netflix, once your only option is a subscription service, the price will skyrocket.\n\nThis is happening in real-time. If we want to stop it, now's the time to act.\n\nSources:\n\n* Gamers Nexus: [NVIDIA: WTF?](https://www.youtube.com/watch?v=cUrJVdF2me0) \n* Garys Economics: [The REAL reason behind the housing crisis](https://www.youtube.com/watch?v=BTlUyS-T-_4) \n* [Network (1976)](https://www.youtube.com/watch?v=pqzTcy3SnLg)",
+            "permalink": "/r/pcmasterrace/comments/1px9xwx/private_equity_is_killing_private_ownership_first/",
+            "subreddit": "pcmasterrace",
+            "createdUtc": 1766873040,
+            "numComments": 2919
+          },
+          {
+            "id": "1rbez5t",
+            "url": "https://www.news18.com/world/training-a-human-takes-20-years-of-food-sam-altman-on-how-much-power-ai-consumes-ws-kl-9922309.html",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/FLfixU6HPQVGtOlMrqLh2wfnAf3SEnna2M61DReWfrs.jpeg?width=140&height=78&auto=webp&s=eb22bdce172d93422ee48bd960b17198f5d06dd7",
+                "type": "photo",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 46937,
+            "title": "\"Training a human takes 20 years of food.\" Sam Altman on how much power AI consumes.",
+            "author": "asdacool",
+            "authorId": "15trp3",
+            "selftext": "",
+            "permalink": "/r/nottheonion/comments/1rbez5t/training_a_human_takes_20_years_of_food_sam/",
+            "subreddit": "nottheonion",
+            "createdUtc": 1771743272,
+            "numComments": 4142
+          },
+          {
+            "id": "1xsz27z",
+            "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1xsz27z/my_son_did_this_by_accident_and_didnt_apologize/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/uze87i8squ0i1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=4a92c58e41dbc085d0f5dd8ddbd6bc0dc07ef31e",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 44533,
+            "title": "My son did this by accident and didn't apologize.",
+            "author": "returntothenorth",
+            "authorId": "204il5eywb",
+            "selftext": "I don't even care about the board game. He just didn't make any sorry related jokes. ",
+            "permalink": "/r/mildlyinfuriating/comments/1xsz27z/my_son_did_this_by_accident_and_didnt_apologize/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1794345624,
+            "numComments": 2859
+          },
+          {
+            "id": "1pc43km",
+            "url": "https://www.reddit.com/r/memes/comments/1pc43km/what_a_w_steam/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/_5WWv5rffcd49J9GX3xgWlkLl9LhtWMbztcJb1TpXDc.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 44102,
+            "title": "What a W Steam",
+            "author": "ZealousidealChain473",
+            "authorId": "du7tc90s0",
+            "selftext": "",
+            "permalink": "/r/memes/comments/1pc43km/what_a_w_steam/",
+            "subreddit": "memes",
+            "createdUtc": 1764667470,
+            "numComments": 538
+          },
+          {
+            "id": "1pbh835",
+            "url": "https://www.pcgamer.com/software/ai/rockstar-co-founder-compares-ai-to-mad-cow-disease-and-says-the-execs-pushing-it-arent-fully-rounded-humans/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/dicTWpk5hQolsE3ibWhoVPeZc9A9cJDylJ6F_7vDgL8.jpeg?width=140&height=78&auto=webp&s=aac8bac19a27ddcca1a54b22bc40b8c76ded2df4",
+                "type": "photo",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 42933,
+            "title": "Rockstar co-founder compares AI to 'mad cow disease,' and says the execs pushing it aren't 'fully-rounded humans'",
+            "author": "kwentongskyblue",
+            "authorId": "o6wbk",
+            "selftext": "",
+            "permalink": "/r/technology/comments/1pbh835/rockstar_cofounder_compares_ai_to_mad_cow_disease/",
+            "subreddit": "technology",
+            "createdUtc": 1764606361,
+            "numComments": 1323
+          },
+          {
+            "id": "1ppjwyp",
+            "url": "https://www.reddit.com/r/LinkedInLunatics/comments/1ppjwyp/bro_is_on_a_mission_to_determine_which_ai_model/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/YivkHqiK5VbchF2r8HGlxU9ZcOp6TIxdwhDZzbu3lpM.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 40015,
+            "title": "Bro is on a mission to determine which AI model is better making images of hot yoga girls.",
+            "author": "benjamin-unbutton",
+            "authorId": "7xp59trq",
+            "selftext": "",
+            "permalink": "/r/LinkedInLunatics/comments/1ppjwyp/bro_is_on_a_mission_to_determine_which_ai_model/",
+            "subreddit": "LinkedInLunatics",
+            "createdUtc": 1766039356,
+            "numComments": 2858
+          },
+          {
+            "id": "1xb1yxk",
+            "url": "https://news.bloomberglaw.com/banking-law/mamdani-targets-companies-with-ai-customer-service-doom-loops",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/6yRQ4Q9J3bEXyHaxX41SM1liYpkCkLICIhl_9WvYzOQ.jpeg?width=140&height=73&auto=webp&s=84a5021068a43297d7c635401905eb1395959398",
+                "type": "photo",
+                "width": 140,
+                "height": 73
+              }
+            ],
+            "score": 39429,
+            "title": "Mamdani Proposes Requiring One-Touch Option to Bypass AI Customer Service and Connect to Human Representative",
+            "author": "bloomberglaw",
+            "authorId": "4ogli36f",
+            "selftext": "",
+            "permalink": "/r/law/comments/1xb1yxk/mamdani_proposes_requiring_onetouch_option_to/",
+            "subreddit": "law",
+            "createdUtc": 1792525173,
+            "numComments": 696
+          },
+          {
+            "id": "1xbiail",
+            "url": "https://www.reddit.com/gallery/1xbiail",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/2lv00xlzeswh1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=40747532055f38df6244049ec1f36e5865631b08",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 39173,
+            "title": "Magicarp popsicle",
+            "author": "AlanaYoung1",
+            "authorId": "gqtwszm2",
+            "selftext": "I totally thought the product image was AI and did not expect this to look that well\n\n  \nEdit: I bought this in a Korean convenience store. I just took a screenshot from a Japanese website because it was the first pic I found online.",
+            "permalink": "/r/ExpectationVsReality/comments/1xbiail/magicarp_popsicle/",
+            "subreddit": "ExpectationVsReality",
+            "createdUtc": 1792574083,
+            "numComments": 439
+          },
+          {
+            "id": "1u26lni",
+            "url": "https://www.newscientist.com/article/2529849-fully-autonomous-drones-have-killed-human-soldiers-for-the-first-time/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/AxWjWYeLGzoMoK-BddSS-6d0RK8nH1379NYqvvA6rSQ.jpeg?width=140&height=93&auto=webp&s=f720a2311557fe311b219a9320a3c3a1f51fad2f",
+                "type": "photo",
+                "width": 140,
+                "height": 93
+              }
+            ],
+            "score": 37291,
+            "title": "Fully autonomous, AI-controlled drones have killed human soldiers for the first time, according to a senior figure in the Ukrainian defence industry",
+            "author": "New_Scientist_Mag",
+            "authorId": "16qj7ra3pc",
+            "selftext": "",
+            "permalink": "/r/worldnews/comments/1u26lni/fully_autonomous_aicontrolled_drones_have_killed/",
+            "subreddit": "worldnews",
+            "createdUtc": 1781107739,
+            "numComments": 5271
+          },
+          {
+            "id": "1ree20k",
+            "url": "https://www.newscientist.com/article/2516885-ais-cant-stop-recommending-nuclear-strikes-in-war-game-simulations/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/q3QU9aPNch0j5gkFNIJO_NVAl4eXbl9Cv2jEI0BolhQ.jpeg?width=140&height=93&auto=webp&s=1de3eec985cf54d5c359bfe6f0ccb65d87a467d9",
+                "type": "photo",
+                "width": 140,
+                "height": 93
+              }
+            ],
+            "score": 36283,
+            "title": "AIs can’t stop recommending nuclear strikes in war game simulations - Leading AIs from OpenAI, Anthropic, and Google opted to use nuclear weapons in simulated war games in 95 per cent of cases",
+            "author": "Teruyo9",
+            "authorId": "5cfat",
+            "selftext": "",
+            "permalink": "/r/technology/comments/1ree20k/ais_cant_stop_recommending_nuclear_strikes_in_war/",
+            "subreddit": "technology",
+            "createdUtc": 1772028213,
+            "numComments": 2787
+          },
+          {
+            "id": "1w4ga8z",
+            "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1w4ga8z/youtube_replacing_comments_with_ai_summary/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/ngw03sh0mxmh1.jpeg?width=140&height=121&auto=webp&s=6313e33112184db0433453c746bf6c6c4500bdf4",
+                "type": "photo",
+                "width": 140,
+                "height": 121
+              }
+            ],
+            "score": 35484,
+            "title": "Youtube replacing comments with AI summary",
+            "author": "SensitiveExtremity",
+            "authorId": "2dvm7bq8",
+            "selftext": "Sliding the comment card left and right both shows AI crap instead of just the comments. Just give me human interactions ffs.",
+            "permalink": "/r/mildlyinfuriating/comments/1w4ga8z/youtube_replacing_comments_with_ai_summary/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1788278659,
+            "numComments": 587
+          },
+          {
+            "id": "1x0lnvs",
+            "url": "https://www.reddit.com/r/antiai/comments/1x0lnvs/one_of_the_saddest_thing_ive_ever_read_on_the/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/mex18aw0f7uh1.jpeg?width=140&height=139&auto=webp&s=1a2cb82149a7cdc7dc9a6e972f93dc49db92f32e",
+                "type": "photo",
+                "width": 140,
+                "height": 139
+              }
+            ],
+            "score": 35333,
+            "title": "One of the saddest thing I've ever read on the bird app....",
+            "author": "inoriacc",
+            "authorId": "4wyx6g4b",
+            "selftext": "AIbros sure are all sociopaths. These people will automate all things that makes human human and then call it innovation. ",
+            "permalink": "/r/antiai/comments/1x0lnvs/one_of_the_saddest_thing_ive_ever_read_on_the/",
+            "subreddit": "antiai",
+            "createdUtc": 1791448579,
+            "numComments": 1732
+          },
+          {
+            "id": "1r3joqr",
+            "url": "https://www.reddit.com/r/Epstein/comments/1r3joqr/i_mapped_every_connection_in_the_epstein_files_it/",
+            "nsfw": false,
+            "media": [],
+            "score": 35099,
+            "title": "I mapped every connection in the Epstein files. It started with 6,000 documents. It's now 1.5 million. Here's what changed.",
+            "author": "EricKeller2",
+            "authorId": "5uqd8",
+            "selftext": "A week ago I posted about an open database at [https://EpsteinExposed.com](https://EpsteinExposed.com) I've been building to cross-reference the Epstein case files that I've been working on for a couple of months. That post hit 568k views and 4.6k upvotes and took my server down twice.\n\nI have done nothing but ingest, clean, and index data since then. Here's where it stands.\n\n**Where it was vs. where it is now**\n\nLast week the database had roughly 6,000 documents. Right now it has 1,522,060. That's not a typo. One and a half million documents, all full-text searchable. You can search a name, an address, a company, an account number and it searches inside the actual pages (OCR where needed) and email bodies. Not just titles.\n\nFlights went from 1,708 to... still 1,708. More on that in a second.\n\nEmails went from 2,700 to over 10,000. Persons went from 1,438 to 1,350 after cleanup (duplicates, aliases, bad OCR entries). We also added 638,000 documents worth of redaction analysis, 107,000 named entities pulled via NLP, 1,530 audio and video transcripts, and over 4,300 photos and media items.\n\n**The redaction analysis**\n\nI'm not here to say every redaction is corrupt. Some obviously protect victims, minors, and addresses.\n\nBut the patterns are hard to explain away.\n\nWe analyzed 638,000 documents and found roughly 1.8 million individual redactions. Of those, about 616,000 were flagged as potentially improper, meaning the surrounding context suggests they're protecting individuals or hiding transactions rather than serving a legitimate legal purpose.\n\nWe also recovered 39,500 pages of text from under government black bars. Some of it names people. Some of it describes money moving. The government blacked it out anyway.\n\nI worked with a researcher who independently processed 519k PDFs with their own pipeline. That let us cross-check what we're finding. The patterns hold up.\n\nIf you want to judge for yourself, every doc page on the site shows redaction density and any recovered text.\n\n**Entity extraction**\n\n107,000 named entities pulled out via NLP. People, organizations, places, dates. At 1.5 million documents you cannot read your way through this. Structure is the only way to make it usable.\n\n**What happened this week**\n\nCongress is now actively fighting DOJ over the redactions.\n\nRep. Ro Khanna read six previously redacted names on the House floor: Leslie Wexner, Salvatore Nuara, Zurab Mikeladze, Leonic Leonov, Nicola Caputo, and Sultan Ahmed bin Sulayem.\n\nWexner was named as an FBI \"co-conspirator\" in a document that was redacted until Congress forced disclosure this month. A federal judge ordered Wexner to testify under oath, first time ever. Maxwell pleaded the Fifth before House Oversight, then offered testimony in exchange for clemency.\n\nUpcoming depositions: Wexner (Feb 18), Richard Kahn (Feb 25), Hillary Clinton (Feb 26), Bill Clinton (Feb 27), Darren Indyke (Mar 5). All indexed in the database with source documents linked.\n\nImportant caveat that I'll keep repeating.. being named in a document is not proof of wrongdoing. People appear in emails, contact lists, forwarded threads, and passing mentions. This applies to everyone in the database.\n\n**New tools**\n\nFull-text search across 1.5M documents, 28k OCR pages, and 10k emails. Not just titles. The actual content.\n\nAI research assistant where you can ask a question in plain English and get an answer with citations you can verify against the source docs.\n\nDegrees of separation tool that finds the shortest documented path between any two people with flights and docs shown at each hop.\n\nRedaction analysis on every document page showing density, flags, and recovered text.\n\nInvestigation dossiers that are community-built evidence boards. Pin any person, document, flight, or email. Add notes. Upvote, comment, add community fact-checks. 14 starter dossiers are live covering the biggest threads (Wexner pipeline, NPA cover-up, intelligence ties, the banks, modeling pipeline, survivors' fight).\n\nBlack Book explorer with an interactive viewer for Epstein's contacts cross-referenced against flights, documents, and known connections.\n\nTimeline browser with every event, filing, arrest, and deposition on a searchable timeline with filters.\n\nMedia gallery with over 4,300 items including FBI raid photos, property interiors, trial exhibits, and government releases.\n\n**What still bugs me**\n\nThe government didn't just withhold documents. In hundreds of thousands of cases, they blacked out specific names and transactions inside documents they claimed to release. Congress had to read six of those names into the record from the House floor. How many more are still under black bars?\n\nThe 2013 to 2019 passenger manifest gap is still there. 835 flights, zero released manifests. The DOJ still has the island visitor logbook, the boat logs, over 40 seized computers, and a database. The EFTA was supposed to release \"all\" records. It didn't.\n\n**The database**\n\nEverything is at EpsteinExposed.com. Free. No ads. No paywall.\n\nYou can browse the entire database without an account. Accounts are only needed for building dossiers and posting notes.\n\nCommunity forum for collaborative research: [board.epsteinexposed.com](http://board.epsteinexposed.com)\n\nAll data comes from publicly released court records, DOJ/FBI disclosures, House Oversight releases, FAA records, and the v2 research corpus.\n\nThis is built and maintained by one person. If it's been useful to you there's a support page on the site. Every dollar goes directly to server costs and data processing. No ads, no investors, no paywall, ever.\n\nIf you find errors, broken links, or bad data, call it out. That kind of cleanup is how this stays credible.\n\n**TL;DR:** Database went from roughly 6k docs to 1.5 million in a week. Full-text searchable. 616k potentially improper government redactions flagged. 39,500 pages of hidden text recovered. New tools include an AI assistant, investigation dossiers, black book explorer, timeline, and media gallery. Wexner depositions start Tuesday. Everything at epsteinexposed.com.\n\n**Update**\n\nThis post hit 4.4 million views. I genuinely did not expect that. The level of support has blown me away. Do you see what we can accomplish together?\n\nThank you to everyone who's been digging through the data, reporting errors, and building dossiers. A few of you found connections I'd missed entirely. Dozens of new people were added to the database this week based on things people flagged in the comments and DMs.\n\nAbout 14K in donations have come in less than 48 hours! This will go a long way towards keep the server alive and thriving. If you've gotten value out of this and want to help keep it running: [https://epsteinexposed.com/support](https://epsteinexposed.com/support).\n\nA few things worth repeating:\n\nBeing named in a document is not proof of wrongdoing. Don't dox people, don't post addresses, don't harass anyone. If this is going to be taken seriously by journalists and congressional staff it has to stay clean and source-based.\n\nIf you find an error, say something. Bad OCR, duplicate entries, false connections. That boring cleanup work is what makes this trustworthy.\n\nThe depositions start Tuesday. Wexner on Feb 18. That's four days from now. The database has everything we know indexed and ready for whatever comes out of it.\n\n/EDIT Many documents are offline due to a major upgrade in the data pipeline that will tremendously improve accuracy. (still 250K available and 1.5m pages)",
+            "permalink": "/r/Epstein/comments/1r3joqr/i_mapped_every_connection_in_the_epstein_files_it/",
+            "subreddit": "Epstein",
+            "createdUtc": 1770970663,
+            "numComments": 1434
+          }
+        ],
+        "nextCursor": "cur_aHZFs5Udzn0c5lzv140m9Q"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-bison-9321fc54",
+      "kind": "anonymous",
+      "name": "Bison",
+      "artworkKey": "bison"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00035",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:41:36.310Z",
+  "started_at": "2026-11-23T07:41:36.399Z",
+  "completed_at": "2026-11-23T07:41:38.179Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

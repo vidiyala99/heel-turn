@@ -1,0 +1,220 @@
+{
+  "id": "7e8bdc8a-3063-427f-955d-88eb8af4cedd",
+  "run_url": "https://app.glasser.ai/runs/7e8bdc8a-3063-427f-955d-88eb8af4cedd",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "subreddit:singularity AI tutor simulation feedback",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "paging_unavailable: this result came from a source that cannot return a nextCursor, so it may be incomplete and there is no way to continue from here. Re-run with `requireFields: [\"nextCursor\"]` to be served only by a source that can page, which may cost more per request.",
+    "items": 7,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1x8qyc7",
+            "url": "https://v.redd.it/8ubqptf8r4wh1",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/NGdkNzJ2ZDhyNHdoMU192-EKM8N8DpyZdFngC34tuZC08TR2E2aUl3KUX0iA.png?format=pjpg&auto=webp&s=39bba46786a4faabdee28abe0736d5b054e2db9d",
+                "type": "video",
+                "width": 1280,
+                "height": 720,
+                "videoUrl": "https://v.redd.it/8ubqptf8r4wh1/CMAF_720.mp4?source=fallback"
+              }
+            ],
+            "score": 3428,
+            "title": "Researchers connected a simulated fruit fly brain to Odyssey-3, an AI that generates entire virtual worlds. The fly is now navigating these imagined environments completely on its own. A biological brain recreated in software is exploring worlds that have never existed.",
+            "author": "141_1337",
+            "authorId": "clwtl",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/singularity/comments/1x8qyc7/researchers_connected_a_simulated_fruit_fly_brain/",
+            "subreddit": "singularity",
+            "createdUtc": 1792287605,
+            "isArchived": false,
+            "numComments": 355
+          },
+          {
+            "id": "1x18s0b",
+            "url": "https://i.redd.it/cjwnfgfzicuh1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/cjwnfgfzicuh1.jpeg?auto=webp&s=3982e17ebbd66e64ccae501189e4c01f3a33a218",
+                "type": "photo",
+                "width": 1079,
+                "height": 2461
+              }
+            ],
+            "score": 2741,
+            "title": "One developer used Claude to reverse-engineer LG’s webOS media stack and build a native Rust Plex client from scratch—on the same 2019 TV it cuts the profile screen from ~30 seconds to ~3, runs at 60 FPS, and supports 4K, Dolby Vision and Atmos",
+            "author": "141_1337",
+            "authorId": "clwtl",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/singularity/comments/1x18s0b/one_developer_used_claude_to_reverseengineer_lgs/",
+            "subreddit": "singularity",
+            "createdUtc": 1791509989,
+            "isArchived": false,
+            "numComments": 209
+          },
+          {
+            "id": "1wykgbk",
+            "url": "https://i.redd.it/zekwb7z8spth1.png",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/zekwb7z8spth1.png?auto=webp&s=91676b6a7c1f3bebe82c709072b6a5ccf767c178",
+                "type": "photo",
+                "width": 871,
+                "height": 925
+              }
+            ],
+            "score": 2331,
+            "title": "AI Is About to Transform Materials Science",
+            "author": "ResultBackground2450",
+            "authorId": "5ze0izy0",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/singularity/comments/1wykgbk/ai_is_about_to_transform_materials_science/",
+            "subreddit": "singularity",
+            "createdUtc": 1791234719,
+            "isArchived": false,
+            "numComments": 245
+          },
+          {
+            "id": "1wtq09e",
+            "url": "https://v.redd.it/dkvho04frjsh1",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/NHczYmxuMmZyanNoMatBAmnSzL9hetdOn4_xLs_oTubHvgQbJRO_2COAlslT.png?format=pjpg&auto=webp&s=f7103ee6fbfbf794e325e7fc738e9ccc9e1fbb64",
+                "type": "video",
+                "width": 1920,
+                "height": 1080,
+                "videoUrl": "https://v.redd.it/dkvho04frjsh1/CMAF_1080.mp4?source=fallback"
+              }
+            ],
+            "score": 1375,
+            "title": "AI Gave my brother independence",
+            "author": "acrolicious",
+            "authorId": "3z7e7",
+            "isLocked": false,
+            "selftext": "My brother has an ultra rare progressive condition called Tubb4a-related Leukodystrophy and he can no longer walk, talk, speak or use his eyes effectively for things like eye tracking. His body is failing him. \n\nBut! He can still move his head left and right and that was enough for me to figure out how to give him some access.\n\nAI is moving fast. We built a lot for him to have some independence. It's like we are in a dream. I never expected to give Ben a way to text message let alone play video games again.\n\nThis week, we made 3 new games for Ben using Astra and Opus 5.5. Ben hasn't had games like these in over a decade.\n\nHe got a Mario Kart-like game, a 3D angry birds game and a pet simulator!\n\nThis tech has given me, my brother and families like us so much hope. More than you realize. \n\nIt's only getting better. \n\n🤞 With future advancement in biotech, hopefully, conditions like Ben's can have better therapies to give him some physical capacity back. \n\nEven though what we build is great for Ben and probably will be obsolete in a few months or next year based on how fast things are moving, we still put it out there for free and open source so another family has something to work from. \n\nThanks for reading. ",
+            "permalink": "/r/singularity/comments/1wtq09e/ai_gave_my_brother_independence/",
+            "subreddit": "singularity",
+            "createdUtc": 1790725890,
+            "isArchived": false,
+            "numComments": 109
+          },
+          {
+            "id": "1xz88ri",
+            "url": "https://v.redd.it/ubzr3nblfb2i1",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/bndiam1wOWxmYjJpMcsIO8XjIti0vbtpwK23kjEjpVa27eKjxw3b9r17P8d3.png?format=pjpg&auto=webp&s=fc761b7850cca529a3a8621c517a33f2f672c61b",
+                "type": "video",
+                "width": 854,
+                "height": 480,
+                "videoUrl": "https://v.redd.it/ubzr3nblfb2i1/CMAF_480.mp4?source=fallback"
+              }
+            ],
+            "score": 1331,
+            "title": "ETH Zurich researchers use reinforcement learning to teach a 5-ton John Deere loader to perform wheelies, balance on two wheels, navigate 75 cm obstacles, and land safely. The AI transferred directly from simulation to the real machine without further training.",
+            "author": "141_1337",
+            "authorId": "clwtl",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/singularity/comments/1xz88ri/eth_zurich_researchers_use_reinforcement_learning/",
+            "subreddit": "singularity",
+            "createdUtc": 1794983529,
+            "isArchived": false,
+            "numComments": 109
+          },
+          {
+            "id": "1wpgntb",
+            "url": "https://v.redd.it/u98p8al3wjrh1",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/YngzazAybTN3anJoMbFntHiwkBnQQ2TocvSAzqB3D3nzjuWSBxx0-mSee0cc.png?format=pjpg&auto=webp&s=09670f570df92f255b9f766368ab8ad3b2240653",
+                "type": "video",
+                "width": 1080,
+                "height": 1620,
+                "videoUrl": "https://v.redd.it/u98p8al3wjrh1/CMAF_1080.mp4?source=fallback"
+              }
+            ],
+            "score": 1272,
+            "title": "Opus 5.5 recreated an AI video output into a playable 90s fantasy walking simulator",
+            "author": "Successful-Earth678",
+            "authorId": "1e3itcy927",
+            "isLocked": false,
+            "selftext": "From: [Denis Shiryaev 💙💛 on X](https://x.com/literallydenis/status/2103088660887318850)  \nArtifact: [The Castle Road](https://claude.ai/artifact/78NPvbJMLcQikzukVq7BqW)\n\nThe reference was a popular AI video output from [Twitter ](https://x.com/de5imulate/status/1947024682118488116)back in 2015, and Opus recreated it here using Three.js. I bet if you hooked it up to Blender, it'd look way better.",
+            "permalink": "/r/singularity/comments/1wpgntb/opus_55_recreated_an_ai_video_output_into_a/",
+            "subreddit": "singularity",
+            "createdUtc": 1790291719,
+            "isArchived": false,
+            "numComments": 114
+          },
+          {
+            "id": "1whwy4m",
+            "url": "https://i.redd.it/k89jh2d6uvph1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/k89jh2d6uvph1.jpeg?auto=webp&s=290844d8724f2833428d0d8dc97a9687890bd04c",
+                "type": "photo",
+                "width": 1080,
+                "height": 2400
+              }
+            ],
+            "score": 1116,
+            "title": "Google demonstrated RSI loop for AI discovery",
+            "author": "skolnaja",
+            "authorId": "4krycgql",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/singularity/comments/1whwy4m/google_demonstrated_rsi_loop_for_ai_discovery/",
+            "subreddit": "singularity",
+            "createdUtc": 1789564546,
+            "isArchived": false,
+            "numComments": 188
+          }
+        ],
+        "nextCursor": "cur_EIcAZMWJ3txsNHIwiPpv-A"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-giraffe-5e3cbaa1",
+      "kind": "anonymous",
+      "name": "Giraffe",
+      "artworkKey": "giraffe"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00034",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:42:46.903Z",
+  "started_at": "2026-11-23T07:42:47.454Z",
+  "completed_at": "2026-11-23T07:42:48.994Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

@@ -1,0 +1,46 @@
+{
+  "id": "0da2268c-df5e-4417-9095-5f9050ffa513",
+  "run_url": "https://app.glasser.ai/runs/0da2268c-df5e-4417-9095-5f9050ffa513",
+  "provider": "scrapecreators",
+  "endpoint": "/v1/twitch/profile",
+  "endpoint_version": 4,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "handle": "geminiplayspokemon"
+  },
+  "output": {
+    "id": "1272192423",
+    "handle": "geminiplayspokemon",
+    "isLive": false,
+    "stream": {},
+    "success": true,
+    "followers": 2,
+    "isPartner": false,
+    "description": null,
+    "displayName": "GeminiPlaysPokemon",
+    "lastBroadcast": {
+      "title": null,
+      "startedAt": null
+    },
+    "bannerImageURL": null,
+    "profileImageURL": "https://static-cdn.jtvnw.net/user-default-pictures-uv/dbdc9198-def8-11e9-8681-784f43822e80-profile_image-150x150.png",
+    "similarStreamers": [],
+    "currentViewersCount": null
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00188",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:42:13.879Z",
+  "started_at": "2026-11-23T07:42:13.954Z",
+  "completed_at": "2026-11-23T07:42:15.017Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

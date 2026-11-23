@@ -1,0 +1,87 @@
+{
+  "id": "d7abab49-6bbf-4e6f-97aa-ad250f95d928",
+  "run_url": "https://app.glasser.ai/runs/d7abab49-6bbf-4e6f-97aa-ad250f95d928",
+  "provider": "scrapecreators",
+  "endpoint": "/v1/linkedin/search/posts",
+  "endpoint_version": 4,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "query": "Crewbase hackathon 1st place AdaL prize",
+    "date_posted": "last-month"
+  },
+  "output": {
+    "posts": [
+      {
+        "url": "https://www.linkedin.com/posts/misslers_on-monday-im-judging-the-multiplayer-ai-activity-7529619981584596993-fxER",
+        "image": "https://media.licdn.com/dms/image/v2/D4E10AQEKwrjptTcmvQ/image-shrink_1280/B4EaH6VZofJwAg-/0/1795201276898?e=2147483647&v=beta&t=2Cisdb3InLfsaWFJY5g0xGje5RuceV-ru48reoJR3k0",
+        "media": "https://media.licdn.com/dms/image/v2/D4E10AQEKwrjptTcmvQ/image-shrink_1280/B4EaH6VZofJwAg-/0/1795201276898?e=2147483647&v=beta&t=2Cisdb3InLfsaWFJY5g0xGje5RuceV-ru48reoJR3k0",
+        "author": {
+          "url": "https://www.linkedin.com/in/misslers",
+          "name": "Merve Isler",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQHcSZm3dbhRPQ/profile-displayphoto-scale_200_200/B56aGeYlmkIkAc-/0/1793658610097?e=2147483647&v=beta&t=o4esBsM3h822yJyhOQd8PNMWrIr97gkUrccm4EMbC98",
+          "followers": 20962
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D4E10AQEKwrjptTcmvQ/image-shrink_1280/B4EaH6VZofJwAg-/0/1795201276898?e=2147483647&v=beta&t=2Cisdb3InLfsaWFJY5g0xGje5RuceV-ru48reoJR3k0"
+        ],
+        "comments": [
+          {
+            "id": "7529619983375663105",
+            "urn": "urn:li:comment:(urn:li:activity:7529619981584596993,7529619983375663105)",
+            "text": "Join us here: luma.com/finch-jd7i",
+            "author": "Merve Isler",
+            "linkedinUrl": "https://www.linkedin.com/in/misslers",
+            "datePublished": "2026-11-20T19:01:37.612Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2d"
+          },
+          {
+            "id": "7529704925472313344",
+            "urn": "urn:li:comment:(urn:li:activity:7529619981584596993,7529704925472313344)",
+            "text": "Franklyn, thank you!! Hope we get to say hi.",
+            "author": "Merve Isler",
+            "linkedinUrl": "https://www.linkedin.com/in/misslers",
+            "datePublished": "2026-11-21T00:39:09.386Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2d"
+          },
+          {
+            "id": "7529628603337129984",
+            "urn": "urn:li:comment:(urn:li:activity:7529619981584596993,7529628603337129984)",
+            "text": "See you there, last time I could not say hi...",
+            "author": "Franklyn Rosario, MBA-ITM",
+            "linkedinUrl": "https://www.linkedin.com/in/franklynrosario",
+            "datePublished": "2026-11-20T19:35:52.771Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2d"
+          }
+        ],
+        "likeCount": 19,
+        "contentUrn": "urn:li:share:7529619980217171969",
+        "activityUrn": "urn:li:activity:7529619981584596993",
+        "description": "On Monday I’m judging the Multiplayer AI Hackathon in San Francisco.\n\nTeams will spend the day building AI agents that act like living characters, across three tracks: animated films, co-op games, and growing with agents.\n\nThank you to Crewbase Collective, AdaL and the AWS Builder Loft for having me. Happy that Marvelous is a partner on this one too.\n\nCan’t wait to see what you build. Link in the first comment.",
+        "commentCount": 3,
+        "datePublished": "2026-11-20T19:01:37.183Z"
+      }
+    ],
+    "query": "Crewbase hackathon 1st place AdaL prize",
+    "cursor": null,
+    "success": true
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00188",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:35:49.790Z",
+  "started_at": "2026-11-23T07:35:49.832Z",
+  "completed_at": "2026-11-23T07:35:55.713Z",
+  "task_id": "tsk_965d2263a224d7b9",
+  "metadata": {}
+}

@@ -1,0 +1,160 @@
+{
+  "id": "84ee8918-65ff-494b-9610-f8c22fff3742",
+  "run_url": "https://app.glasser.ai/runs/84ee8918-65ff-494b-9610-f8c22fff3742",
+  "provider": "serper",
+  "endpoint": "/search",
+  "endpoint_version": 2,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "q": "TreeHacks 2026 winners multi-agent"
+  },
+  "output": {
+    "organic": [
+      {
+        "link": "https://treehacks-2026.devpost.com/",
+        "title": "TreeHacks 2026: The largest collegiate hackathon in the US ...",
+        "snippet": "(Best Overall AI Agent Solution - $2500 Best Multi-Agent Workflow - $1500 Best Monetised Agent - $1000). $5,000 in cash. 4 winners. Best Overall AI Agent ...",
+        "position": 1,
+        "displayedLink": "https://treehacks-2026.devpost.com"
+      },
+      {
+        "link": "https://treehacks-2026.devpost.com/project-gallery",
+        "title": "Project gallery - TreeHacks 2026 - Devpost",
+        "snippet": "Best multi-turn agent. Best Multi-Agent Workflow - $1500 Best Monetised Agent - $1000) Winner Nicole Wong Cristiano Da",
+        "position": 2,
+        "displayedLink": "https://treehacks-2026.devpost.com › project-gallery"
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=_dctl5PlzAQ",
+        "title": "Award Ceremony | TreeHacks 2026",
+        "snippet": "After 36 hours, TreeHacks 2026 has come to an end. Join us as we celebrate and highlight our top projects of the weekend.",
+        "position": 3,
+        "displayedLink": "https://www.youtube.com › watch"
+      },
+      {
+        "link": "https://treehacks.com/",
+        "title": "TreeHacks 2027",
+        "snippet": "TreeHacks is Stanford's premier hackathon. We fly out the world's most talented builders to Stanford, where they create products that tackle humanity's toughest ...",
+        "position": 4,
+        "displayedLink": "https://treehacks.com"
+      },
+      {
+        "date": "Oct 11, 2026",
+        "link": "https://www.runpod.io/blog/runpod-treehacks-2026",
+        "title": "What hackers built on Runpod at TreeHacks 2026",
+        "snippet": "Our winners · 1st place: RepoRx. AI-powered drug repurposing for cancer research. · 2nd place: NeuroBlocks. Visual drag-and-drop platform for ...",
+        "position": 5,
+        "displayedLink": "https://www.runpod.io › blog › runpod-treehacks-2026"
+      },
+      {
+        "link": "https://www.linkedin.com/company/treehacks",
+        "title": "TreeHacks",
+        "snippet": "build a multi-turn agent. Congrats to Kshitij Sodani, Harini Thiagarajan, Vishal Nandakumar, and Samarth Bhargav. Enjoy the courtside seats at the Warriors ...",
+        "position": 6,
+        "displayedLink": "https://www.linkedin.com › company › treehacks"
+      },
+      {
+        "link": "https://www.instagram.com/p/DU9Jqw6FIHp/",
+        "title": "TreeHacks '26 at Stanford did not disappoint. Huge congratulations to ...",
+        "snippet": "TreeHacks '26 at Stanford did not disappoint. Huge congratulations to the winners of the HeyGen sponsor track: Team Minerva",
+        "position": 7,
+        "displayedLink": "https://www.instagram.com › p › DU9Jqw6FIHp"
+      },
+      {
+        "date": "Feb 15, 2026",
+        "link": "https://stanforddaily.com/2026/02/15/12th-annual-treehacks/",
+        "title": "12th annual TreeHacks awards $500000 in prizes",
+        "snippet": "The project won fetch.ai's “One Agent Workflow” prize for successfully setting multiple agents in communication with one another.",
+        "position": 8,
+        "displayedLink": "https://stanforddaily.com › 2026 › ... › 12th-annual-treehacks"
+      },
+      {
+        "date": "Feb 17, 2026",
+        "link": "https://ose.stanford.edu/news/treehacks-12-sam-altman-and-llamas",
+        "title": "TreeHacks 12: Sam Altman and Llamas",
+        "snippet": "While there were 14 diverse categories for participants to choose from, team Shephard took home the grand prize for their \"smart cane\" designed ...",
+        "position": 9,
+        "displayedLink": "https://ose.stanford.edu › news › treehacks-12-sam-altman-and..."
+      },
+      {
+        "link": "https://www.linkedin.com/posts/mdchow_we-won-the-sponsor-grand-prize-modal-at-activity-7429968328062046208-h9au",
+        "title": "We won the sponsor grand prize (Modal) at Stanford TreeHacks. ...",
+        "position": 10,
+        "displayedLink": "https://www.linkedin.com › posts › mdchow_we-won-the-sponsor-g..."
+      }
+    ],
+    "peopleAlsoAsk": [
+      {
+        "question": "Do TreeHacks fly you out?"
+      },
+      {
+        "question": "What are the best hackathons in 2026?"
+      },
+      {
+        "question": "Who are the sponsors of TreeHacks?"
+      },
+      {
+        "question": "Who won the Microsoft hackathon?"
+      }
+    ],
+    "relatedSearches": [
+      {
+        "query": "Stanford treehacks 2026 winners multi agent"
+      },
+      {
+        "query": "Treehacks 2026 winners multi agent location"
+      },
+      {
+        "query": "Treehacks 2026 winners multi agent list"
+      },
+      {
+        "query": "TreeHacks 2026 prizes"
+      },
+      {
+        "query": "TreeHacks 2027"
+      },
+      {
+        "query": "TreeHacks 2026 sponsors"
+      },
+      {
+        "query": "TreeHacks winner 2026"
+      },
+      {
+        "query": "TreeHacks past winners"
+      },
+      {
+        "query": "TreeHacks 2026 application"
+      },
+      {
+        "query": "TreeHacks acceptance rate"
+      },
+      {
+        "query": "TreeHacks 2026 application deadline"
+      },
+      {
+        "query": "Stanford TreeHacks 2026"
+      }
+    ],
+    "searchParameters": {
+      "q": "TreeHacks 2026 winners multi-agent",
+      "type": "search",
+      "engine": "google"
+    }
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.001",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:34:38.902Z",
+  "started_at": "2026-11-23T07:34:38.943Z",
+  "completed_at": "2026-11-23T07:34:39.813Z",
+  "task_id": "tsk_965d2263a224d7b9",
+  "metadata": {}
+}

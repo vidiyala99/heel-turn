@@ -1,0 +1,639 @@
+{
+  "id": "db90d93c-ef0e-44a8-8a5f-93e5774338dd",
+  "run_url": "https://app.glasser.ai/runs/db90d93c-ef0e-44a8-8a5f-93e5774338dd",
+  "provider": "scrapecreators",
+  "endpoint": "/v1/twitch/profile",
+  "endpoint_version": 4,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "handle": "vedal987"
+  },
+  "output": {
+    "id": "85498365",
+    "vedal": "https://vedal.ai/",
+    "handle": "vedal987",
+    "isLive": false,
+    "stream": {},
+    "tiktok": "https://www.tiktok.com/@neurosamaai",
+    "discord": "https://discord.gg/MZPyedT ",
+    "success": true,
+    "twitter": "https://twitter.com/Vedal987",
+    "youtube": "https://www.youtube.com/channel/UCLHmLrj4pHHg3-iBJn_CqxA",
+    "allVideos": [
+      {
+        "id": "2937617438",
+        "game": {
+          "id": "921298138",
+          "name": "BOMBANANA!",
+          "slug": "bombanana",
+          "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/921298138_IGDB-40x56.jpg",
+          "__typename": "Game",
+          "displayName": "BOMBANANA!"
+        },
+        "self": {
+          "__typename": "VideoSelfEdge",
+          "isRestricted": false,
+          "viewingHistory": null
+        },
+        "owner": {
+          "id": "85498365",
+          "login": "vedal987",
+          "roles": {
+            "isPartner": true,
+            "__typename": "UserRoles"
+          },
+          "__typename": "User",
+          "displayName": "vedal987",
+          "primaryColorHex": "FF8AB6",
+          "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/dd956f46-3776-4dfd-8bc3-e4f74c5ede67-profile_image-50x50.png"
+        },
+        "title": "BOMBANANA! w/ @cerbervt",
+        "viewCount": 68328,
+        "__typename": "Video",
+        "contentTags": [],
+        "publishedAt": "2026-11-22T19:17:30Z",
+        "lengthSeconds": 9702,
+        "animatedPreviewURL": "https://d3stzm2eumvgb4.cloudfront.net/3d549075f66af615506e_vedal987_318444172004_1795375019/storyboards/2937617438-strip-0.jpg",
+        "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/d3stzm2eumvgb4/3d549075f66af615506e_vedal987_318444172004_1795375019//thumb/thumb0-320x180.jpg",
+        "resourceRestriction": null
+      },
+      {
+        "id": "2936424542",
+        "game": {
+          "id": "509658",
+          "name": "Just Chatting",
+          "slug": "just-chatting",
+          "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+          "__typename": "Game",
+          "displayName": "Just Chatting"
+        },
+        "self": {
+          "__typename": "VideoSelfEdge",
+          "isRestricted": false,
+          "viewingHistory": null
+        },
+        "owner": {
+          "id": "85498365",
+          "login": "vedal987",
+          "roles": {
+            "isPartner": true,
+            "__typename": "UserRoles"
+          },
+          "__typename": "User",
+          "displayName": "vedal987",
+          "primaryColorHex": "FF8AB6",
+          "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/dd956f46-3776-4dfd-8bc3-e4f74c5ede67-profile_image-50x50.png"
+        },
+        "title": "NEURO & EVIL BREAK DOWN THEIR EP LYRICS",
+        "viewCount": 46289,
+        "__typename": "Video",
+        "contentTags": [],
+        "publishedAt": "2026-11-21T19:00:08Z",
+        "lengthSeconds": 9529,
+        "animatedPreviewURL": "https://dgeft87wbj63p.cloudfront.net/ea570f7264fa3819721d_vedal987_316276520787_1795287603/storyboards/2936424542-strip-0.jpg",
+        "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/ea570f7264fa3819721d_vedal987_316276520787_1795287603//thumb/thumb0-320x180.jpg",
+        "resourceRestriction": null
+      },
+      {
+        "id": "2934013341",
+        "game": {
+          "id": "509658",
+          "name": "Just Chatting",
+          "slug": "just-chatting",
+          "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+          "__typename": "Game",
+          "displayName": "Just Chatting"
+        },
+        "self": {
+          "__typename": "VideoSelfEdge",
+          "isRestricted": false,
+          "viewingHistory": null
+        },
+        "owner": {
+          "id": "85498365",
+          "login": "vedal987",
+          "roles": {
+            "isPartner": true,
+            "__typename": "UserRoles"
+          },
+          "__typename": "User",
+          "displayName": "vedal987",
+          "primaryColorHex": "FF8AB6",
+          "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/dd956f46-3776-4dfd-8bc3-e4f74c5ede67-profile_image-50x50.png"
+        },
+        "title": "EVIL SAMA GONNA WIN GAMES (you'll see!) <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3",
+        "viewCount": 53128,
+        "__typename": "Video",
+        "contentTags": [],
+        "publishedAt": "2026-11-19T19:00:07Z",
+        "lengthSeconds": 10821,
+        "animatedPreviewURL": "https://dgeft87wbj63p.cloudfront.net/2cbdeaf1be9e7114533a_vedal987_316222704977_1795114802/storyboards/2934013341-strip-0.jpg",
+        "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/2cbdeaf1be9e7114533a_vedal987_316222704977_1795114802//thumb/thumb0-320x180.jpg",
+        "resourceRestriction": null
+      },
+      {
+        "id": "2931608935",
+        "game": {
+          "id": "509658",
+          "name": "Just Chatting",
+          "slug": "just-chatting",
+          "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+          "__typename": "Game",
+          "displayName": "Just Chatting"
+        },
+        "self": {
+          "__typename": "VideoSelfEdge",
+          "isRestricted": false,
+          "viewingHistory": null
+        },
+        "owner": {
+          "id": "85498365",
+          "login": "vedal987",
+          "roles": {
+            "isPartner": true,
+            "__typename": "UserRoles"
+          },
+          "__typename": "User",
+          "displayName": "vedal987",
+          "primaryColorHex": "FF8AB6",
+          "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/dd956f46-3776-4dfd-8bc3-e4f74c5ede67-profile_image-50x50.png"
+        },
+        "title": "MISS ME? Neuro-sama's back!",
+        "viewCount": 60425,
+        "__typename": "Video",
+        "contentTags": [],
+        "publishedAt": "2026-11-17T19:00:08Z",
+        "lengthSeconds": 12634,
+        "animatedPreviewURL": "https://dgeft87wbj63p.cloudfront.net/b34cb6c02b02a3357f06_vedal987_316261974995_1794942003/storyboards/2931608935-strip-0.jpg",
+        "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/b34cb6c02b02a3357f06_vedal987_316261974995_1794942003//thumb/thumb0-320x180.jpg",
+        "resourceRestriction": null
+      },
+      {
+        "id": "2929849626",
+        "game": {
+          "id": "509663",
+          "name": "Special Events",
+          "slug": "special-events",
+          "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509663-40x56.jpg",
+          "__typename": "Game",
+          "displayName": "Special Events"
+        },
+        "self": {
+          "__typename": "VideoSelfEdge",
+          "isRestricted": false,
+          "viewingHistory": null
+        },
+        "owner": {
+          "id": "85498365",
+          "login": "vedal987",
+          "roles": {
+            "isPartner": true,
+            "__typename": "UserRoles"
+          },
+          "__typename": "User",
+          "displayName": "vedal987",
+          "primaryColorHex": "FF8AB6",
+          "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/dd956f46-3776-4dfd-8bc3-e4f74c5ede67-profile_image-50x50.png"
+        },
+        "title": "NEURO & EVIL'S EPs PREMIERE: full_code and do_not_reboot",
+        "viewCount": 60049,
+        "__typename": "Video",
+        "contentTags": [],
+        "publishedAt": "2026-11-15T18:55:33Z",
+        "lengthSeconds": 3230,
+        "animatedPreviewURL": "https://dgeft87wbj63p.cloudfront.net/b6694a940190ff484f2a_vedal987_316208661457_1794768928/storyboards/2929849626-strip-0.jpg",
+        "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/b6694a940190ff484f2a_vedal987_316208661457_1794768928//thumb/thumb0-320x180.jpg",
+        "resourceRestriction": null
+      },
+      {
+        "id": "2928950273",
+        "game": {
+          "id": "509658",
+          "name": "Just Chatting",
+          "slug": "just-chatting",
+          "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+          "__typename": "Game",
+          "displayName": "Just Chatting"
+        },
+        "self": {
+          "__typename": "VideoSelfEdge",
+          "isRestricted": false,
+          "viewingHistory": null
+        },
+        "owner": {
+          "id": "85498365",
+          "login": "vedal987",
+          "roles": {
+            "isPartner": true,
+            "__typename": "UserRoles"
+          },
+          "__typename": "User",
+          "displayName": "vedal987",
+          "primaryColorHex": "FF8AB6",
+          "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/dd956f46-3776-4dfd-8bc3-e4f74c5ede67-profile_image-50x50.png"
+        },
+        "title": "THE RETURN OF UNO!! neuro w/ @amalee @geega @matarakan",
+        "viewCount": 70152,
+        "__typename": "Video",
+        "contentTags": [],
+        "publishedAt": "2026-11-14T20:48:43Z",
+        "lengthSeconds": 10930,
+        "animatedPreviewURL": "https://dgeft87wbj63p.cloudfront.net/8964f969b69763cf25bc_vedal987_316251618131_1794689318/storyboards/2928950273-strip-0.jpg",
+        "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/8964f969b69763cf25bc_vedal987_316251618131_1794689318//thumb/thumb0-320x180.jpg",
+        "resourceRestriction": null
+      },
+      {
+        "id": "2926928393",
+        "game": {
+          "id": "509658",
+          "name": "Just Chatting",
+          "slug": "just-chatting",
+          "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+          "__typename": "Game",
+          "displayName": "Just Chatting"
+        },
+        "self": {
+          "__typename": "VideoSelfEdge",
+          "isRestricted": false,
+          "viewingHistory": null
+        },
+        "owner": {
+          "id": "85498365",
+          "login": "vedal987",
+          "roles": {
+            "isPartner": true,
+            "__typename": "UserRoles"
+          },
+          "__typename": "User",
+          "displayName": "vedal987",
+          "primaryColorHex": "FF8AB6",
+          "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/dd956f46-3776-4dfd-8bc3-e4f74c5ede67-profile_image-50x50.png"
+        },
+        "title": "doing what the voices tell me to",
+        "viewCount": 57554,
+        "__typename": "Video",
+        "contentTags": [],
+        "publishedAt": "2026-11-12T19:00:07Z",
+        "lengthSeconds": 11950,
+        "animatedPreviewURL": "https://dgeft87wbj63p.cloudfront.net/939dbf366f2d6ceeeaad_vedal987_316244085715_1794510002/storyboards/2926928393-strip-0.jpg",
+        "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/939dbf366f2d6ceeeaad_vedal987_316244085715_1794510002//thumb/thumb0-320x180.jpg",
+        "resourceRestriction": null
+      },
+      {
+        "id": "2925118620",
+        "game": {
+          "id": "509658",
+          "name": "Just Chatting",
+          "slug": "just-chatting",
+          "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+          "__typename": "Game",
+          "displayName": "Just Chatting"
+        },
+        "self": {
+          "__typename": "VideoSelfEdge",
+          "isRestricted": false,
+          "viewingHistory": null
+        },
+        "owner": {
+          "id": "85498365",
+          "login": "vedal987",
+          "roles": {
+            "isPartner": true,
+            "__typename": "UserRoles"
+          },
+          "__typename": "User",
+          "displayName": "vedal987",
+          "primaryColorHex": "FF8AB6",
+          "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/dd956f46-3776-4dfd-8bc3-e4f74c5ede67-profile_image-50x50.png"
+        },
+        "title": "Grabbing the world by its teapots (I have weak arms) - soon i'll be a few kg heavier",
+        "viewCount": 46695,
+        "__typename": "Video",
+        "contentTags": [],
+        "publishedAt": "2026-11-10T19:00:07Z",
+        "lengthSeconds": 10631,
+        "animatedPreviewURL": "https://dgeft87wbj63p.cloudfront.net/56311cd3dfc1e115b2b4_vedal987_316212851410_1794337202/storyboards/2925118620-strip-0.jpg",
+        "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/56311cd3dfc1e115b2b4_vedal987_316212851410_1794337202//thumb/thumb0-320x180.jpg",
+        "resourceRestriction": null
+      },
+      {
+        "id": "2924240631",
+        "game": {
+          "id": "512923",
+          "name": "Baldur's Gate 3",
+          "slug": "baldurs-gate-3",
+          "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/512923_IGDB-40x56.jpg",
+          "__typename": "Game",
+          "displayName": "Baldur's Gate 3"
+        },
+        "self": {
+          "__typename": "VideoSelfEdge",
+          "isRestricted": false,
+          "viewingHistory": null
+        },
+        "owner": {
+          "id": "85498365",
+          "login": "vedal987",
+          "roles": {
+            "isPartner": true,
+            "__typename": "UserRoles"
+          },
+          "__typename": "User",
+          "displayName": "vedal987",
+          "primaryColorHex": "FF8AB6",
+          "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/dd956f46-3776-4dfd-8bc3-e4f74c5ede67-profile_image-50x50.png"
+        },
+        "title": "BALDURS GATE 3 MARATHON !!!! ACT 1 FINALE !!!! NEURO AND EVIL AND VEDAL",
+        "viewCount": 56955,
+        "__typename": "Video",
+        "contentTags": [],
+        "publishedAt": "2026-11-09T19:00:06Z",
+        "lengthSeconds": 12447,
+        "animatedPreviewURL": "https://dgeft87wbj63p.cloudfront.net/12ac4d3dca42586c48e3_vedal987_316234194259_1794250801/storyboards/2924240631-strip-0.jpg",
+        "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/12ac4d3dca42586c48e3_vedal987_316234194259_1794250801//thumb/thumb0-320x180.jpg",
+        "resourceRestriction": null
+      },
+      {
+        "id": "2923223144",
+        "game": {
+          "id": "512923",
+          "name": "Baldur's Gate 3",
+          "slug": "baldurs-gate-3",
+          "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/512923_IGDB-40x56.jpg",
+          "__typename": "Game",
+          "displayName": "Baldur's Gate 3"
+        },
+        "self": {
+          "__typename": "VideoSelfEdge",
+          "isRestricted": false,
+          "viewingHistory": null
+        },
+        "owner": {
+          "id": "85498365",
+          "login": "vedal987",
+          "roles": {
+            "isPartner": true,
+            "__typename": "UserRoles"
+          },
+          "__typename": "User",
+          "displayName": "vedal987",
+          "primaryColorHex": "FF8AB6",
+          "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/dd956f46-3776-4dfd-8bc3-e4f74c5ede67-profile_image-50x50.png"
+        },
+        "title": "BALDURS GATE 3 MARATHON !!!! ACT 1 !!!! DAY 3 !!!! NEURO AND EVIL AND VEDAL",
+        "viewCount": 119660,
+        "__typename": "Video",
+        "contentTags": [],
+        "publishedAt": "2026-11-08T16:00:06Z",
+        "lengthSeconds": 32903,
+        "animatedPreviewURL": "https://dgeft87wbj63p.cloudfront.net/3f171176fb23221ec085_vedal987_316184115025_1794153600/storyboards/2923223144-strip-0.jpg",
+        "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/3f171176fb23221ec085_vedal987_316184115025_1794153600//thumb/thumb0-320x180.jpg",
+        "resourceRestriction": null
+      },
+      {
+        "id": "2922207846",
+        "game": {
+          "id": "512923",
+          "name": "Baldur's Gate 3",
+          "slug": "baldurs-gate-3",
+          "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/512923_IGDB-40x56.jpg",
+          "__typename": "Game",
+          "displayName": "Baldur's Gate 3"
+        },
+        "self": {
+          "__typename": "VideoSelfEdge",
+          "isRestricted": false,
+          "viewingHistory": null
+        },
+        "owner": {
+          "id": "85498365",
+          "login": "vedal987",
+          "roles": {
+            "isPartner": true,
+            "__typename": "UserRoles"
+          },
+          "__typename": "User",
+          "displayName": "vedal987",
+          "primaryColorHex": "FF8AB6",
+          "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/dd956f46-3776-4dfd-8bc3-e4f74c5ede67-profile_image-50x50.png"
+        },
+        "title": "BALDURS GATE 3 MARATHON !!!! ACT 1 !!!! DAY 2 !!!! NEURO AND EVIL AND VEDAL",
+        "viewCount": 131995,
+        "__typename": "Video",
+        "contentTags": [],
+        "publishedAt": "2026-11-07T16:00:24Z",
+        "lengthSeconds": 33616,
+        "animatedPreviewURL": "https://dgeft87wbj63p.cloudfront.net/c16d545daa6a5e8cb9ab_vedal987_316226862675_1794067219/storyboards/2922207846-strip-0.jpg",
+        "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/c16d545daa6a5e8cb9ab_vedal987_316226862675_1794067219//thumb/thumb0-320x180.jpg",
+        "resourceRestriction": null
+      },
+      {
+        "id": "2921353765",
+        "game": {
+          "id": "512923",
+          "name": "Baldur's Gate 3",
+          "slug": "baldurs-gate-3",
+          "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/512923_IGDB-40x56.jpg",
+          "__typename": "Game",
+          "displayName": "Baldur's Gate 3"
+        },
+        "self": {
+          "__typename": "VideoSelfEdge",
+          "isRestricted": false,
+          "viewingHistory": null
+        },
+        "owner": {
+          "id": "85498365",
+          "login": "vedal987",
+          "roles": {
+            "isPartner": true,
+            "__typename": "UserRoles"
+          },
+          "__typename": "User",
+          "displayName": "vedal987",
+          "primaryColorHex": "FF8AB6",
+          "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/dd956f46-3776-4dfd-8bc3-e4f74c5ede67-profile_image-50x50.png"
+        },
+        "title": "BALDURS GATE 3 MARATHON !!!! ACT 1 !!!! NEURO AND EVIL AND VEDAL",
+        "viewCount": 112080,
+        "__typename": "Video",
+        "contentTags": [],
+        "publishedAt": "2026-11-06T19:00:04Z",
+        "lengthSeconds": 22381,
+        "animatedPreviewURL": "https://dgeft87wbj63p.cloudfront.net/ff02f36d9e1fdb8564d6_vedal987_316223879379_1793991598/storyboards/2921353765-strip-0.jpg",
+        "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/ff02f36d9e1fdb8564d6_vedal987_316223879379_1793991598//thumb/thumb0-320x180.jpg",
+        "resourceRestriction": null
+      }
+    ],
+    "followers": 1019798,
+    "isPartner": true,
+    "description": "neuro-sama the ai vtuber",
+    "displayName": "vedal987",
+    "featuredClips": [
+      {
+        "id": "540358518",
+        "slug": "UninterestedOptimisticDugongGOWSkull-flTAbjG8f3Gv0qnN",
+        "curator": {
+          "id": "214046827",
+          "login": "j0ker",
+          "__typename": "User",
+          "displayName": "j0ker"
+        },
+        "clipGame": {
+          "id": "499003",
+          "name": "VRChat",
+          "slug": "vrchat",
+          "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/499003_IGDB-52x72.jpg",
+          "__typename": "Game",
+          "displayName": "VRChat"
+        },
+        "clipTitle": "Streaming is one of the hardest jobs imaginable",
+        "createdAt": "2025-12-23T20:57:27Z",
+        "__typename": "Clip",
+        "isFeatured": true,
+        "broadcaster": {
+          "id": "85498365",
+          "login": "vedal987",
+          "roles": {
+            "isPartner": true,
+            "__typename": "UserRoles"
+          },
+          "__typename": "User",
+          "displayName": "vedal987",
+          "primaryColorHex": "FF8AB6",
+          "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/dd956f46-3776-4dfd-8bc3-e4f74c5ede67-profile_image-50x50.png"
+        },
+        "thumbnailURL": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/b5171b41-c55f-41f4-8742-f11f8ad8b893/landscape/thumb/thumb-0000000000-1920x1080.jpg",
+        "clipViewCount": 48186,
+        "durationSeconds": 26,
+        "guestStarParticipants": {
+          "host": {
+            "id": "85498365",
+            "login": "vedal987",
+            "__typename": "User",
+            "description": "neuro-sama the ai vtuber",
+            "displayName": "vedal987",
+            "primaryColorHex": "FF8AB6",
+            "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/dd956f46-3776-4dfd-8bc3-e4f74c5ede67-profile_image-300x300.png"
+          },
+          "guests": [],
+          "__typename": "GuestStarParticipants",
+          "sessionIdentifier": "35CNdFxxvJzYmHOpoHHsiz6Nob4"
+        }
+      },
+      {
+        "id": "1075328861",
+        "slug": "TubularGloriousSashimiPermaSmug-FBQG3R_m-ZQnChHg",
+        "curator": {
+          "id": "214046827",
+          "login": "j0ker",
+          "__typename": "User",
+          "displayName": "j0ker"
+        },
+        "clipGame": {
+          "id": "27471",
+          "name": "Minecraft",
+          "slug": "minecraft",
+          "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/27471_IGDB-52x72.jpg",
+          "__typename": "Game",
+          "displayName": "Minecraft"
+        },
+        "clipTitle": "Imagine dragin these nuts",
+        "createdAt": "2025-12-06T22:15:06Z",
+        "__typename": "Clip",
+        "isFeatured": true,
+        "broadcaster": {
+          "id": "85498365",
+          "login": "vedal987",
+          "roles": {
+            "isPartner": true,
+            "__typename": "UserRoles"
+          },
+          "__typename": "User",
+          "displayName": "vedal987",
+          "primaryColorHex": "FF8AB6",
+          "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/dd956f46-3776-4dfd-8bc3-e4f74c5ede67-profile_image-50x50.png"
+        },
+        "thumbnailURL": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/ffa9f41b-3edb-4e5c-a469-f72cb6b71759/landscape/thumb/thumb-0000000000-1920x1080.jpg",
+        "clipViewCount": 33239,
+        "durationSeconds": 59,
+        "guestStarParticipants": {
+          "host": {
+            "id": "85498365",
+            "login": "vedal987",
+            "__typename": "User",
+            "description": "neuro-sama the ai vtuber",
+            "displayName": "vedal987",
+            "primaryColorHex": "FF8AB6",
+            "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/dd956f46-3776-4dfd-8bc3-e4f74c5ede67-profile_image-300x300.png"
+          },
+          "guests": [],
+          "__typename": "GuestStarParticipants",
+          "sessionIdentifier": "35CNdFxxvJzYmHOpoHHsiz6Nob4"
+        }
+      },
+      {
+        "id": "4193142599",
+        "slug": "BreakableAgileStarTinyFace-3Hy5uA8IrxRcHyH9",
+        "curator": {
+          "id": "463429242",
+          "login": "asrelx",
+          "__typename": "User",
+          "displayName": "asrelx"
+        },
+        "clipGame": {
+          "id": "21465",
+          "name": "osu!",
+          "slug": "osu",
+          "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/21465_IGDB-52x72.jpg",
+          "__typename": "Game",
+          "displayName": "osu!"
+        },
+        "clipTitle": "STINKY???",
+        "createdAt": "2022-12-22T04:31:55Z",
+        "__typename": "Clip",
+        "isFeatured": true,
+        "broadcaster": {
+          "id": "85498365",
+          "login": "vedal987",
+          "roles": {
+            "isPartner": true,
+            "__typename": "UserRoles"
+          },
+          "__typename": "User",
+          "displayName": "vedal987",
+          "primaryColorHex": "FF8AB6",
+          "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/dd956f46-3776-4dfd-8bc3-e4f74c5ede67-profile_image-50x50.png"
+        },
+        "thumbnailURL": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/f8893894-ef42-4c30-8673-cacee0c843b7/landscape/thumb/thumb-0000000000-1920x1080.jpg",
+        "clipViewCount": 535839,
+        "durationSeconds": 60,
+        "guestStarParticipants": null
+      }
+    ],
+    "lastBroadcast": {
+      "title": "Defusing bombs and NOT making them Kappa",
+      "startedAt": "2026-11-22T22:08:27.928088Z"
+    },
+    "bannerImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/c666a7fa-d59f-46d7-90d1-e9d4ab27593a-profile_banner-480.jpeg",
+    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/dd956f46-3776-4dfd-8bc3-e4f74c5ede67-profile_image-150x150.png",
+    "similarStreamers": [],
+    "currentViewersCount": null
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00188",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:42:13.928Z",
+  "started_at": "2026-11-23T07:42:14.053Z",
+  "completed_at": "2026-11-23T07:42:19.050Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

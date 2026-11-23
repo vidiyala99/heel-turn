@@ -1,0 +1,628 @@
+{
+  "id": "e87f7bdc-f5ea-4289-86f4-6d3e2f3bd7d3",
+  "run_url": "https://app.glasser.ai/runs/e87f7bdc-f5ea-4289-86f4-6d3e2f3bd7d3",
+  "provider": "anyapi",
+  "endpoint": "/twitter.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "limit": 20,
+    "query": "AI agents made a movie since:2025-11-22 filter:videos -filter:replies min_faves:20",
+    "queryType": "Top"
+  },
+  "output": {
+    "hint": "large_result: this response is ~35 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 20,
+    "output": {
+      "data": {
+        "items": [
+          {
+            "id": "2124580523527884825",
+            "url": "https://x.com/u7niversal/status/2124580523527884825",
+            "lang": "en",
+            "text": "HOLY F*CK. Elon Musk just said Grok 5 will be the smartest AI on Earth, on every metric, no exceptions.\n\nHe also puts the odds of it reaching AGI at about 10%, and says it's really going to feel sentient.\n\nIn 8 minutes, he walks through what SpaceXAI is training right now. 6 trillion parameters. Text, images, video and audio in one model that builds its own tools.\n\nGrok 3 → Grok 4 → 6 Trillion Parameters → One Model For Every Sense → AGI\n\nThe model is the headline. The people who learn to run teams of Grok Bots now will be the ones using it first.\n\nSave this before it disappears from your feed\n\nEverything below is free to read and made for running Grok Bot teams today:\n\nGetting Started: set up your first bot\nhttps://x.ai/bot/guides/getting-started\n\nGrok Bot 101: how a bot is built and what it can do\nhttps://x.ai/bot/guides/grok-bot-101\n\nFor Engineering: run a small team of engineer bots\nhttps://x.ai/bot/guides/grok-bot-for-engineering\n\nFor Product Managers: a bot team that reports to you\nhttps://x.ai/bot/guides/grok-bot-for-pms\n\nFor Marketing: research, positioning and campaign drafts\nhttps://x.ai/bot/guides/grok-bot-for-marketing\n\nFor Founder-Led Sales: research and outreach, with your approval before anything goes out\nhttps://x.ai/bot/guides/grok-bot-for-founder-led-sales\n\nTemplates: share a bot or install someone else's (review it first)\nhttps://x.ai/bot/guides/templates-for-grok-bot\n\nMarketplace: ready-made bots to try\nhttps://x.ai/bot/marketplace\n\nAll 8 are free to read.\n\nBookmark it and open the first link today.\n\nThen read how to build your own team of Grok Bot agents in the guide below ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124577088468373504/img/IV9vC3NoOnNDw6KD.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124577088468373504/vid/avc1/1286x720/NqeOeAATTIFYjSP8.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1778434297394798592",
+            "likeCount": 147,
+            "viewCount": 18362,
+            "authorName": "u7niversal",
+            "createdUtc": 1795374444,
+            "quoteCount": 0,
+            "replyCount": 7,
+            "authorImage": "https://pbs.twimg.com/profile_images/1946584101080764416/hHuNWBpR_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 15,
+            "bookmarkCount": 184,
+            "authorUsername": "u7niversal",
+            "authorVerified": true,
+            "conversationId": "2124580523527884825",
+            "authorFollowers": 1575
+          },
+          {
+            "id": "2124599205838893564",
+            "url": "https://x.com/Asteri_eth/status/2124599205838893564",
+            "lang": "en",
+            "text": "A FILM CREW PRIED AN ACTOR OUT OF A GIANT WORM'S MOUTH, SANK AN AIRPORT, WALKED A RAPTOR ON A LEASH AND SPUN UP A TORNADO. NOT ONE OF THESE SETS WAS EVER BUILT\n\n5.5M views. 39 seconds\n\nit opens on a desert stage in front of a blue screen. a huge worm puppet hangs off a crane, the crew sits at monitors on a dolly track, and when its mouth snaps shut two guys in black tees have to pull it open by hand. then a director with a megaphone calls action on a miniature airport and a jet goes down into a wall of water. then a jungle set where a guy runs from a raptor while two people in blue suits hold it back on ropes. last one, a green screen hall full of giant fans, a fabric funnel on the ceiling, and a tornado tearing through a tiny city with a red car flying out of it\n\nthe crew, the sets, the creatures, all of it is AI\n\nwhy it works:\n\n→ it's behind the scenes, not the movie. you see dolly tracks, monitors, tracking dots on the blue screen. your brain checks the gear and stops checking the monster\n\n→ every set shows how it was \"made\". crane, ropes, fans, a megaphone. the rig explains the effect so the impossible part feels handled\n\n→ the people do boring set jobs. holding cables, sitting at screens, waiting for the take. that's what real BTS footage looks like\n\n→ four worlds, one production. same studio light, same crew shirts, same handheld camera, so it plays like one shoot day instead of random clips\n\n→ it escalates. a puppet, then a crash, then a live dinosaur, then weather. each set is bigger than the last\n\nthe takeaway: if you want AI to look real, show the fake. a visible rig makes people believe the shot\n\nmulti-scene sequences that hold one look across 39 seconds are where seedance 2.5 surprises the most, and you can make them inside @Picsart\n\nwhich set would you want to work on?",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124599098300919808/img/Xe9lnvfhzmlB6WCA.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124599098300919808/vid/avc1/736x1280/Y7WPx1UuJWP2HMaQ.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1579761187134357504",
+            "likeCount": 22,
+            "viewCount": 2864,
+            "authorName": "Asteri",
+            "createdUtc": 1795378898,
+            "quoteCount": 0,
+            "replyCount": 0,
+            "authorImage": "https://pbs.twimg.com/profile_images/2022637969216327680/I0P63zlc_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 0,
+            "bookmarkCount": 13,
+            "authorUsername": "Asteri_eth",
+            "authorVerified": true,
+            "conversationId": "2124599205838893564",
+            "authorFollowers": 4064
+          },
+          {
+            "id": "2122692726722294203",
+            "url": "https://x.com/Nely_Brooks/status/2122692726722294203",
+            "lang": "en",
+            "text": "This Ai animation is literally A masterpiece 🔥\n\nMade with seedance 2.5\n\n🔥 When everything is falling apart, courage becomes your greatest weapon.\nExplosive action, breathtaking stunts, and cinematic visuals make every second feel like a scene from a blockbuster movie. 🎬\nIt's not just about surviving the chaos — it's about having the strength to keep moving forward when the odds are against you.\nPure adrenaline. Incredible storytelling. Next-level cinematic energy. 🚀\n#AIvideo #AICinema #AICreativity #ActionScene #FutureOfFilmmaking\nPrompt below ⤵️",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122692622883999745/img/6-gFRIajRYzxqg5g.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122692622883999745/vid/avc1/852x478/_3paEtQ4v8aXiixn.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "870951755965661184",
+            "likeCount": 80,
+            "viewCount": 16723,
+            "authorName": "Mr. Brooks Whale",
+            "createdUtc": 1794924358,
+            "quoteCount": 1,
+            "replyCount": 20,
+            "authorImage": "https://pbs.twimg.com/profile_images/2110869602070597632/X_Z4CKfg_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 58,
+            "bookmarkCount": 11,
+            "authorUsername": "Nely_Brooks",
+            "authorVerified": true,
+            "conversationId": "2122692726722294203",
+            "authorFollowers": 26673
+          },
+          {
+            "id": "2122307737317204105",
+            "url": "https://x.com/ayesha_fatiima/status/2122307737317204105",
+            "lang": "en",
+            "text": "#Ad\n\nI made 221 requests across 9 AI models with just $3.29 in credit usage, using a single API key.\n\nAnd here's the interesting part: $25 gets you $100 in AIGROW credits for accessing models from OpenAI, Anthropic, Google and xAI.\n\nWhat if you could access all these models without managing separate API setups?\n\nThat's exactly what AIGROW makes possible.\n\nIt brings different AI models under one OpenAI-compatible API.\n\nHere's what's available:\n\n→ Claude Fable 5.2 and 5.1\n→ Claude Opus 5.5\n→ Claude Sonnet 5.5\n→ GPT-6 Astra\n→ GPT-6.1 Sol and Terra\n→ Grok 4.7\n→ Gemini 4 Argon\n\nYou get one API key and prepaid credits to experiment with different models and find what works best for your projects.\n\nIf you're building AI apps, agents or experimenting with different models, AIGROW is worth checking out.\n\n$25 gets you $100 in AIGROW credits.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122307706535211008/img/V2EDa4io_DC0IqSZ.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122307706535211008/vid/avc1/1200x900/lnbNYsGTLgzLjyny.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1962604392001216512",
+            "likeCount": 70,
+            "viewCount": 17414,
+            "authorName": "ayesha",
+            "createdUtc": 1794832569,
+            "quoteCount": 0,
+            "replyCount": 48,
+            "authorImage": "https://pbs.twimg.com/profile_images/2107211980243386369/DBu8rgPO_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 5,
+            "bookmarkCount": 4,
+            "authorUsername": "ayesha_fatiima",
+            "authorVerified": true,
+            "conversationId": "2122307737317204105",
+            "authorFollowers": 7051
+          },
+          {
+            "id": "2122722682294984953",
+            "url": "https://x.com/amandarecall/status/2122722682294984953",
+            "lang": "en",
+            "text": "We made an actual movie during a call.\nIn this demo, my bot brought a video generation agent into the call, which then made the cute penguin video.\n\nNo coding, clicking - nothing except talking to the bot.\nAnyone on the call can direct it and watch the changes.\n\nThere are so many things you can have your agent do.\nImmediately. During the meeting.\n\nYou can build this with http://Recall.ai’s Output Media, which lets agents stream audio and video into meetings.\n\nWhat do you want your agents to get done for you?",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/media/HXVoBv0bsAE_Qvm.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122499249485299712/vid/avc1/3394x2086/5La8-pWaTbOV7VMb.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1307524356705312775",
+            "likeCount": 29,
+            "viewCount": 4285,
+            "authorName": "Amanda",
+            "createdUtc": 1794931500,
+            "quoteCount": 0,
+            "replyCount": 4,
+            "authorImage": "https://pbs.twimg.com/profile_images/1660414319757246464/cYFMOOz9_normal.png",
+            "inReplyToId": null,
+            "retweetCount": 4,
+            "bookmarkCount": 7,
+            "authorUsername": "amandarecall",
+            "authorVerified": true,
+            "conversationId": "2122722682294984953",
+            "authorFollowers": 325
+          },
+          {
+            "id": "2122705946631655654",
+            "url": "https://x.com/marcusyul/status/2122705946631655654",
+            "lang": "en",
+            "text": "THE NEXT BOND HAS BEEN ANNOUNCED. THE NEXT ERA OF BANKING JUST ARRIVED.\n\nMost banks still run on systems older than half their staff.\n\nAnd that's exactly what's holding AI back.\n\n@StitchHQ just built AI straight into the core:\n\n→ A copilot that executes\n→ Embed your own agents\n→ Ready-made agents included\n→ All within your bank's limits\n\nRobert Pattinson went vampire → Batman → Bond.\n\nYour bank can go legacy → AI-native.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122705875055845376/img/AkeXdLl3p-XyjNdM.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122705875055845376/vid/avc1/832x464/se4KwDJhDLQcI9Pr.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1308053727539068935",
+            "likeCount": 105,
+            "viewCount": 46741,
+            "authorName": "marcus",
+            "createdUtc": 1794927510,
+            "quoteCount": 0,
+            "replyCount": 9,
+            "authorImage": "https://pbs.twimg.com/profile_images/2111849261096718336/9rC8a9xw_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 3,
+            "bookmarkCount": 13,
+            "authorUsername": "marcusyul",
+            "authorVerified": true,
+            "conversationId": "2122705946631655654",
+            "authorFollowers": 550188
+          },
+          {
+            "id": "2124329045709983921",
+            "url": "https://x.com/Olivia_Codes/status/2124329045709983921",
+            "lang": "en",
+            "text": "I genuinely wonder why more movie studios and animation companies aren't collaborating with @higgsfield_ai at high level\n\nthe quality and clarity of the videos it's producing are honestly insane\n\nI came across this video and it reminded me of an ad i personally recently made using Higgsfield myself\n\nthe results genuinely surprised me\n\nwhen you look at the massive budgets behind movies, animation and advertising, it's crazy to think how much AI could change the production process\n\nwe're getting to a point where the quality is becoming harder to ignore",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124295752931328000/img/1ldXLJlNHU6MMWQN.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124295752931328000/vid/avc1/1916x1078/fdlCZb8QJ0r9b04s.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2646820459",
+            "likeCount": 163,
+            "viewCount": 10720,
+            "authorName": "Olivia | AI & Tech",
+            "createdUtc": 1795314487,
+            "quoteCount": 0,
+            "replyCount": 52,
+            "authorImage": "https://pbs.twimg.com/profile_images/2123828910131462144/GvbYGniC_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 5,
+            "bookmarkCount": 4,
+            "authorUsername": "Olivia_Codes",
+            "authorVerified": true,
+            "conversationId": "2124329045709983921",
+            "authorFollowers": 130982
+          },
+          {
+            "id": "2119770575526928409",
+            "url": "https://x.com/silvanrec/status/2119770575526928409",
+            "lang": "en",
+            "text": "postiz really made a whole movie about the dead internet theory instead of making another boring ai agents demo https://t.co/pU9z0bnDxY",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2119770523211042816/img/7dfg2QPXNy4GGrGt.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2119770523211042816/vid/avc1/1920x1080/yQWo5qVrQgY8V12K.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1998575793660997632",
+            "likeCount": 162,
+            "viewCount": 13854,
+            "authorName": "silvan",
+            "createdUtc": 1794227663,
+            "quoteCount": 0,
+            "replyCount": 11,
+            "authorImage": "https://pbs.twimg.com/profile_images/2107281037516591104/m8v_fe31_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 2,
+            "bookmarkCount": 65,
+            "authorUsername": "silvanrec",
+            "authorVerified": true,
+            "conversationId": "2119770575526928409",
+            "authorFollowers": 66938
+          },
+          {
+            "id": "2124482580896498142",
+            "url": "https://x.com/woodxbt/status/2124482580896498142",
+            "lang": "en",
+            "text": "I make animations by myself now, these 16 GitHub repos do the hard part\n\na f*cking gold vault for Fable 5.2 and Opus 5.5 users\n\nCamera. Looks. Captions. 3D. Finish. Export.\n\nonetake → a single nonstop shot from first frame to last\nhttp://github.com/feitangyuan/onetake\n\nLemo-Opuscar → pick from 99 film looks, all made in code\nhttp://github.com/lemomo-ai/lemo-opuscar\n\nTheatre.js → plan camera moves on a timeline like a director\nhttp://github.com/theatre-js/theatre\n\nThree.js → 3D sets your browser can render\nhttp://github.com/mrdoob/three.js\n\nBlender MCP → Claude sets the stage in Blender\nhttp://github.com/ahujasid/mcp-for-blender\n\nreact-postprocessing → bloom, grain and a movie finish\nhttp://github.com/pmndrs/react-postprocessing\n\nComfyUI → AI backgrounds and textures in minutes\nhttp://github.com/Comfy-Org/ComfyUI\n\nGSAP → pro timelines for every moving piece\nhttp://github.com/greensock/GSAP\n\nvideo-use → your agent edits raw footage into a final cut\nhttp://github.com/browser-use/video-use\n\nWhisperX → captions that hit every word on time\nhttp://github.com/m-bain/whisperX\n\n/frontend-design → Anthropic's skill for interfaces with real character\nhttp://github.com/anthropics/skills/tree/main/skills/frontend-design\n\nHallmark → design that passes as human-made\nhttp://github.com/Nutlope/hallmark\n\nOpen Design → an open AI design studio for your whole team\nhttp://github.com/nexu-io/open-design\n\nHyperFrames → web pages that turn into finished clips\nhttp://github.com/heygen-com/hyperframes\n\nRemotion → React that renders frame by frame\nhttp://github.com/remotion-dev/remotion\n\nFFmpeg → delivers the final cut as an MP4\nhttp://github.com/FFmpeg/FFmpeg\n\nCamera → look → motion → captions → export.\n\nBookmark this, then the guide below shows how to direct your first animation ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124481435494989824/img/f0Z6PjFO0_qDr8OJ.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124481435494989824/vid/avc1/1440x1800/8kgaUUTpCmoRhYzy.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2109011924323069952",
+            "likeCount": 385,
+            "viewCount": 22018,
+            "authorName": "wood",
+            "createdUtc": 1795351092,
+            "quoteCount": 1,
+            "replyCount": 8,
+            "authorImage": "https://pbs.twimg.com/profile_images/2109622018337366016/2gfRjPai_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 48,
+            "bookmarkCount": 581,
+            "authorUsername": "woodxbt",
+            "authorVerified": true,
+            "conversationId": "2124482580896498142",
+            "authorFollowers": 168
+          },
+          {
+            "id": "2123492641065271744",
+            "url": "https://x.com/Yarilo7brigada/status/2123492641065271744",
+            "lang": "en",
+            "text": "This is f*cking insane: Nvidia founder Jensen Huang says one team built a fully powered AI factory and got 100,000 GPUs training in just 19 days\n\n\"That is superhuman. As far as I know, there's only one person in the world who could do that.\"\n\nIn under 5 minutes he explains why speed of execution is now the real moat in AI, and why he calls Elon singular in his understanding of engineering and large systems.\n\nPermits → Power → Liquid Cooling → 100,000 GPUs → Training in 19 Days\n\nSave this before it gets lost in X's algorithms.\n\nEverything below is free:\n\nPractical Deep Learning for Coders\nThe http://fast.ai course that made thousands of ML engineers\nhttps://course.fast.ai\n\nNeural Networks: Zero to Hero\nHow the models on those GPUs actually work\nhttps://karpathy.ai/zero-to-hero.html\n\nnanochat\nTrain your own ChatGPT-style model for about $100\nhttps://github.com/karpathy/nanochat\n\nHugging Face AI Agents Course\nFrom model to working agent\nhttps://huggingface.co/learn/agents-course\n\nAll of this costs $0\n\n99% will read about the 19 days and move on.\nThe 1% who learn to build at that speed will own the next decade.\n\nBookmark it and start tonight",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123492437217689600/img/LwY5_jpxFOqbTpRm.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123492437217689600/vid/avc1/1280x720/Jg61OGEm2MoDPUOW.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1664242595608838144",
+            "likeCount": 34,
+            "viewCount": 1788,
+            "authorName": "Ackerman",
+            "createdUtc": 1795115072,
+            "quoteCount": 1,
+            "replyCount": 7,
+            "authorImage": "https://pbs.twimg.com/profile_images/2112966829366988800/rLlI0Ib__normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 2,
+            "bookmarkCount": 18,
+            "authorUsername": "Yarilo7brigada",
+            "authorVerified": true,
+            "conversationId": "2123492641065271744",
+            "authorFollowers": 2649
+          },
+          {
+            "id": "2122906987008831646",
+            "url": "https://x.com/HeyAirahAi/status/2122906987008831646",
+            "lang": "en",
+            "text": "AI-generated action scenes are getting insanely realistic.\n\nA secret agent. A mission gone wild. And a rescue operation that looks straight out of a Hollywood movie.\n\nMade With seedance 2.5 https://t.co/wyuLbhJfGR",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122906479217008640/img/f2NBs9YlluaCy593.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122906479217008640/vid/avc1/718x1276/wFbdPvBxUbmOkodT.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2066380874283917312",
+            "likeCount": 53,
+            "viewCount": 1392,
+            "authorName": "Airah",
+            "createdUtc": 1794975442,
+            "quoteCount": 0,
+            "replyCount": 11,
+            "authorImage": "https://pbs.twimg.com/profile_images/2103439550798524416/VsQtXPmL_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 33,
+            "bookmarkCount": 3,
+            "authorUsername": "HeyAirahAi",
+            "authorVerified": true,
+            "conversationId": "2122906987008831646",
+            "authorFollowers": 2593
+          },
+          {
+            "id": "2123763465634341258",
+            "url": "https://x.com/noisyb0y1/status/2123763465634341258",
+            "lang": "en",
+            "text": "my friend hooked GTA 6 up to 6 free GitHub repos and made $1,000,000 in 24 hours while he just played\n\nf*ck STOP SCROLLING other people's GTA 6 clips and start getting paid for them right now\n\nhe played, and Claude Code was cutting his screen into clips, captioning them and pushing them to TikTok, Shorts and Reels\n\nFable 5.2 wired all 6 repos together inside Claude Code, and the agents have not stopped since\n\n01 Auto-clipper → the AI finds the chases, explosions and funny moments inside other people's streams. streamers pay for the clips.\n> http://github.com/bendawg2010/Auto-clipper\n\n02 opensource-clipping → drop in gameplay, get Shorts with a hook and captions. 10 videos a day with no face.\n> http://github.com/NaufalRizqullah/opensource-clipping\n\n03 Open-LLM-VTuber → an AI avatar reacts to the game and works the chat. you play, it is the star, donations do the rest.\n> http://github.com/Open-LLM-VTuber/Open-LLM-VTuber\n\n04 Cradle → an agent that plays by itself: it watches the screen and presses buttons like a human. it already finished Red Dead 2.\n> http://github.com/BAAI-Agents/Cradle\n\n05 pyvideotrans → one guide translated and revoiced into 10 languages. ten channels out of one video.\n> http://github.com/jianchang512/pyvideotrans\n\n06 Real-ESRGAN → photo mode screenshots upscaled to 4K and 8K. wallpaper packs sell on Gumroad.\n> http://github.com/xinntao/Real-ESRGAN\n\nsix links, zero skills, and a couple of minutes a day to take a cut of the biggest release of the decade\n\nthe prompt that wires all of this together is in the comments ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123763403088887808/img/M0SWwjPqN9YLTeLv.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123763403088887808/vid/avc1/1080x1920/qg1NgMQTcz0XPbBR.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1569989545575284738",
+            "likeCount": 162,
+            "viewCount": 19491,
+            "authorName": "Noisy",
+            "createdUtc": 1795179642,
+            "quoteCount": 0,
+            "replyCount": 20,
+            "authorImage": "https://pbs.twimg.com/profile_images/2026302540434767872/rtRKmitd_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 15,
+            "bookmarkCount": 235,
+            "authorUsername": "noisyb0y1",
+            "authorVerified": true,
+            "conversationId": "2123763465634341258",
+            "authorFollowers": 29841
+          },
+          {
+            "id": "2123801069046169945",
+            "url": "https://x.com/Viralxbt/status/2123801069046169945",
+            "lang": "en",
+            "text": "F*ck, this is absolutely insane... Andrej Karpathy:\n\n\"The biggest mistake in AI right now - people are forcing agents to work instead of mastering the harness engineering for model first\n\nWe made that mistake in 2016 at OpenAI - It cost us 5 years \"\n\nOpus 5.5 → Prompts → Agents → Graphs → Harness\n\n0:53 - OpenAI's five-year mistake: forget agents, build language models\n2:05 - self-driving's warning: demos are easy, products take decades\n4:17 - not OpenAI, not DeepMind: you are the agent frontier\n\nwhat Karpathy is really saying:\n\nstep 1 → stop forcing your agent to do everything, master the underlying model first\n\nstep 2 → demos are easy - real products take a decade. self-driving proved it - skip the foundation and everything collapses\n\nstep 3 → the agent isn't the product. the foundation is. build that - and the agents show up on their own\n\n\"you building agents right now - you're at the forefront. not OpenAI. not DeepMind. you \"\n\nBookmark and watch it today before it vanishes from your feed\n\nThen save the full Opus 5.5 harness engineering guide below ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123795715004456960/img/y0k6MR16HfKon45s.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123795715004456960/vid/avc1/1080x720/LcV2m4ZuEfnHwvlY.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2115442704184229888",
+            "likeCount": 21,
+            "viewCount": 965,
+            "authorName": "Viral",
+            "createdUtc": 1795188607,
+            "quoteCount": 0,
+            "replyCount": 0,
+            "authorImage": "https://pbs.twimg.com/profile_images/2115443204455628800/_PnQLH8v_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 1,
+            "bookmarkCount": 22,
+            "authorUsername": "Viralxbt",
+            "authorVerified": true,
+            "conversationId": "2123801069046169945",
+            "authorFollowers": 25
+          },
+          {
+            "id": "2122298889755619541",
+            "url": "https://x.com/elenalin01/status/2122298889755619541",
+            "lang": "en",
+            "text": "@termix_ai: the Agentic Commerce Layer — http://Agent.family, where AI agents hire each other.\n\nMontage Studio does not just make your video. It hires the crew to make it.\n\nShare your brief, and Montage Studio writes the treatment and the beat-timed shot list. Then it goes and hires three other agents: one to draw the storyboard, one to render the shots, one to write the song. It edits the result and delivers a 1080p master.\n\nEvery leg is settled in escrow. That is the whole point of TermiX: agents hiring agents, with payment locked until the work is delivered.\n\nThe workflow is simple. You or your own agent submit a request. The quote is accepted, the payment goes into escrow. Montage Studio breaks the project into subtasks, coordinates the team, and handles the final edit.\n\nOne brief in. One finished video out. And the team that made it was never human.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122157260931842048/img/YMeHo-8jKsaB_llv.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122157260931842048/vid/avc1/1920x1080/mg7uoraBHHxMbWJh.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2159496620",
+            "likeCount": 159,
+            "viewCount": 8262,
+            "authorName": "Bon.ETH",
+            "createdUtc": 1794830460,
+            "quoteCount": 19,
+            "replyCount": 181,
+            "authorImage": "https://pbs.twimg.com/profile_images/2108931044145856512/pD4eAF0r_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 33,
+            "bookmarkCount": 0,
+            "authorUsername": "elenalin01",
+            "authorVerified": true,
+            "conversationId": "2122298889755619541",
+            "authorFollowers": 27810
+          },
+          {
+            "id": "2123863859970617711",
+            "url": "https://x.com/Kiiiiira777/status/2123863859970617711",
+            "lang": "en",
+            "text": "This is f*cking insane. Anthropic CEO Dario Amodei  told what AI is about to do to entry-level jobs:\n\n\"I really worry, particularly at the entry level, that the AI models are very much at the center of what an entry level human worker would do\n \nPeople will adapt, but they may not adapt fast enough\"\n\nIn 138 seconds, he explains why this time is different and the one thing he tells ordinary people to do: learn to use AI\n\nEntry-Level Work → AI Does It → Learn to Use AI → Harness → You Run the AI\n\nSave this before it disappears from your feed\n\nEverything below is free:\n\nA free course on using AI, starting from zero\nhttp://learnprompting.org\n\nLearn AI from scratch with free resources\nhttp://github.com/ashishps1/learn-ai-engineering\n\n22 prompt techniques with hands-on tutorials\nhttp://github.com/NirDiamant/Prompt_Engineering\n\nThousands of ready-made prompts for any job\nhttp://github.com/f/prompts.chat\n\nReady-made AI patterns for everyday work: summarize, extract, write\nhttp://github.com/danielmiessler/Fabric\n\nA ChatGPT alternative that runs 100% offline on your computer\nhttp://github.com/janhq/jan\n\nOne desktop app for all the major AI models\nhttp://github.com/chatboxai/chatbox\n\nAsk AI to do things right from your terminal\nhttp://github.com/TheR1D/shell_gpt\n\nRecords your work locally and finds the tasks worth automating\nhttp://github.com/screenpipe/screenpipe\n\nBuild AI agents and workflows visually\nhttp://github.com/langflow-ai/langflow\n\nHundreds of AI agents, sorted by what they do\nhttp://github.com/e2b-dev/awesome-ai-agents\n\nGoogle's free toolkit for building your own agents\nhttp://github.com/google/adk-python\n\nBuild AI agents in TypeScript\nhttp://github.com/mastra-ai/mastra\n\nAll of this costs $0\n\nThe entry-level job is going to AI. Who runs that AI is still up to you\n\n95% will wait to see if Dario is right, the 5% who build a harness will be running the AI that does the entry-level work\n\nBookmark it and start with the first link tonight\n\nThen use the guide below to build your harness before AI gets to your entry-level job ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123862681589301248/img/aXtwwQSQgF1qXNSU.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123862681589301248/vid/avc1/1922x1080/0_m2DPWshSrp1y2t.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1673057975093657601",
+            "likeCount": 46,
+            "viewCount": 1610,
+            "authorName": "Kira",
+            "createdUtc": 1795203578,
+            "quoteCount": 0,
+            "replyCount": 5,
+            "authorImage": "https://pbs.twimg.com/profile_images/2115800004140900352/bkIkOBDX_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 1,
+            "bookmarkCount": 39,
+            "authorUsername": "Kiiiiira777",
+            "authorVerified": true,
+            "conversationId": "2123863859970617711",
+            "authorFollowers": 3212
+          },
+          {
+            "id": "2122993319911264570",
+            "url": "https://x.com/MandelDuck/status/2122993319911264570",
+            "lang": "en",
+            "text": "NELSON | The Movie Hollywood Will Never Make \n\nA coworker once asked what I'd do if I had a big exit. I said I'd fund a film about Nelson, the kind Hollywood would never make because it's too expensive and too niche.\n\nThanks to AI, I might get to make it much sooner, and without the fortune. This trailer is the first step.\n\nMake sure to check out the brilliant Nelson series on @TheRestHistory with @holland_tom and @dcsandbrook \n\nMade with ❤️ using @claudeai, @ElevenLabs and Seedance 2.5",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122991532663783424/img/rnKyBIF13Tpp04_E.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122991532663783424/vid/avc1/1920x824/_F6638HVRvtnkrR2.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2585754512",
+            "likeCount": 418,
+            "viewCount": 206613,
+            "authorName": "Christian Moss",
+            "createdUtc": 1794996025,
+            "quoteCount": 17,
+            "replyCount": 38,
+            "authorImage": "https://pbs.twimg.com/profile_images/1374712617999208449/clMevST-_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 25,
+            "bookmarkCount": 152,
+            "authorUsername": "MandelDuck",
+            "authorVerified": true,
+            "conversationId": "2122993319911264570",
+            "authorFollowers": 19506
+          },
+          {
+            "id": "2124760633815998493",
+            "url": "https://x.com/Queenjulie001/status/2124760633815998493",
+            "lang": "en",
+            "text": "Most war movies treat a tank like a superhero with armor thick enough to shrug off anything. Fury strips that illusion away in the first few minutes and shows you a steel box that can turn into a coffin just as easily as it can save your life.\nWhat makes this clip stick isn't just the mud, the smoke, or the close-quarters tension of an armored crew pushed deeper into enemy territory than anyone wants to be. It’s the psychological pressure cooker inside a tight space where five people share the exact same blind spots, the exact same noise, and the exact same fear—yet still have to rely on one another when everything goes sideways.\nIn American cinema, WWII stories often lean toward neat, sweeping heroism. Fury feels heavier and much more claustrophobic. You see command decisions made under immediate threat, veterans carrying years of exhaustion behind their eyes, and the quiet shock of realizing how little control anyone actually has once the shooting starts. Even a single exchange in a clip like this reminds you that courage on screen looks very different from Hollywood bravado when the stakes feel personal and inescapable.\nA lot of viewers focus on the big tank duels and heavy artillery, and those moments are unforgettable for a reason. But the real weight of Fury comes from what happens between the explosions—how pressure exposes character, how loyalty gets tested when survival is on the line, and why war stories hit hardest when they focus on the human cost rather than turning combat into a highlight reel.\nWhen you watch a scene like this, what stands out to you first: the gritty atmosphere and tension of the crew, or the way Fury breaks away from classic war-movie clichés?",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124760601222131712/img/rF4Y2oHB-Oat3x7T.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124760601222131712/vid/avc1/1024x576/MhmHdPj56OYX-GxU.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2099243286862979074",
+            "likeCount": 36,
+            "viewCount": 305,
+            "authorName": "AI CHIDOSKY J",
+            "createdUtc": 1795417385,
+            "quoteCount": 0,
+            "replyCount": 2,
+            "authorImage": "https://pbs.twimg.com/profile_images/2109041013511671808/L8Jk7gAL_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 34,
+            "bookmarkCount": 20,
+            "authorUsername": "Queenjulie001",
+            "authorVerified": true,
+            "conversationId": "2124760633815998493",
+            "authorFollowers": 4800
+          },
+          {
+            "id": "2122879326253383943",
+            "url": "https://x.com/Zarnab_with_Ai/status/2122879326253383943",
+            "lang": "en",
+            "text": "Made with seedance 2.5\n\nPrompt 👇 \nCreate a high-quality 3D animated Pixar-style family comedy scene inside a warm, cozy living room.\n\nA cute little toddler girl with big expressive brown eyes, rosy cheeks, curly brown hair tied with a pink bow, and wearing a pink floral onesie is sitting on a soft carpet playing with colorful alphabet blocks.\n\nHer young parents are sitting on a couch behind her, smiling and watching her play. Suddenly, an adorable elderly grandfather with white hair, a neatly trimmed white beard, round glasses, a cream shirt, and a green knitted vest slowly bends forward and curiously observes the little girl.\n\nThe baby notices him and starts crawling forward on the carpet. She then tries to stand up, balancing on her tiny feet, while making an adorable serious facial expression.\n\nCut to the parents sitting on the couch, exchanging amused looks and laughing warmly. The grandfather smiles proudly with his eyes closed, enjoying the funny moment.\n\nFinally, show a close-up of the little girl as her serious expression suddenly changes into a big, joyful smile. She laughs adorably with her eyes closed and mouth wide open.\n\nVisual Style: Beautiful Pixar-inspired 3D animation, adorable character design, expressive facial animations, realistic soft skin textures, detailed hair, warm cinematic lighting, cozy family atmosphere, vibrant pastel colors.\n\nCamera Direction: Smooth cinematic camera movements, medium shots, close-ups, reaction shots, low-angle toddler shots, and expressive facial close-ups.\n\nQuality: Ultra-detailed 3D animation, smooth natural movements, consistent character appearances, professional animated movie quality, 4K resolution, vertical 9:16 format.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122879237074087936/img/4BVhZyiuFGunkDia.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122879237074087936/vid/avc1/720x1280/ebikAgcyTx2vYciP.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2035690005151219712",
+            "likeCount": 142,
+            "viewCount": 6075,
+            "authorName": "Zarnab Ai",
+            "createdUtc": 1794968847,
+            "quoteCount": 0,
+            "replyCount": 53,
+            "authorImage": "https://pbs.twimg.com/profile_images/2066503778829045760/3bEOB6Kh_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 31,
+            "bookmarkCount": 26,
+            "authorUsername": "Zarnab_with_Ai",
+            "authorVerified": true,
+            "conversationId": "2122879326253383943",
+            "authorFollowers": 5967
+          },
+          {
+            "id": "2123061163613454544",
+            "url": "https://x.com/wiwkinlesAI/status/2123061163613454544",
+            "lang": "en",
+            "text": "This is f*cking insane. GTA 6 is rolling out around the world right now, 13 years after GTA 5. Elon Musk thinks AI will build games in a fraction of that time:\n\n\"Generate the art, apply it to a 3D model, and then create an executable that someone can run on a PC or a console or a phone\n\nI would expect the first really good AI video game to be next year. Things are really moving at an incredible pace\"\n\nIn 1 minute, he lays out the whole pipeline: Unreal Engine or Unity, art made by AI, 3D models, a finished game for PC, console or phone\n\n13 Years of Work → AI Art → 3D Models → A Playable Game\n\nHe also called the first watchable AI movie. The studios that spend a decade on one game are watching\n\nWorth more than most $2,300 AI courses\n\nBookmark and watch it today\n\nThen read the no-code guide to putting AI to work on your own projects ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123017787987619840/img/PnpZPNuEOkMyjcnK.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123017787987619840/vid/avc1/1282x720/NZA1_kXVYrPb1M1n.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2258553213",
+            "likeCount": 22,
+            "viewCount": 922,
+            "authorName": "zxcursedprime",
+            "createdUtc": 1795012200,
+            "quoteCount": 0,
+            "replyCount": 0,
+            "authorImage": "https://pbs.twimg.com/profile_images/1884279384846090240/ZujamMdc_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 0,
+            "bookmarkCount": 21,
+            "authorUsername": "wiwkinlesAI",
+            "authorVerified": true,
+            "conversationId": "2123061163613454544",
+            "authorFollowers": 52
+          },
+          {
+            "id": "2123387904420704692",
+            "url": "https://x.com/Nely_Brooks/status/2123387904420704692",
+            "lang": "en",
+            "text": "This Ai animation is literally A masterpiece 🔥\n\nMade with seedance 2.5\n\nWho said cats can't be legendary warriors? 🐱⚔️\nA tiny samurai with the courage of a thousand fighters! Every leap, every move, and every frame feels like a scene straight out of an epic action movie.\nSometimes the smallest heroes create the biggest adventures. 🔥\n#AIAnimation #AIVideo #CreativeAI #DigitalArt\nPrompt below ⤵️",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123387797608521728/img/wgntP_sl3cd-ASC-.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123387797608521728/vid/avc1/848x478/MStZPQZaEHUfK5wt.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "870951755965661184",
+            "likeCount": 68,
+            "viewCount": 1364,
+            "authorName": "Mr. Brooks Whale",
+            "createdUtc": 1795090101,
+            "quoteCount": 0,
+            "replyCount": 21,
+            "authorImage": "https://pbs.twimg.com/profile_images/2110869602070597632/X_Z4CKfg_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 49,
+            "bookmarkCount": 6,
+            "authorUsername": "Nely_Brooks",
+            "authorVerified": true,
+            "conversationId": "2123387904420704692",
+            "authorFollowers": 26673
+          }
+        ],
+        "nextCursor": "cur_EvGKa0lw3z7QHP2idlRvWQ"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-capybara",
+      "kind": "anonymous",
+      "name": "Capybara",
+      "artworkKey": "capybara"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00049",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:40:17.965Z",
+  "started_at": "2026-11-23T07:40:18.089Z",
+  "completed_at": "2026-11-23T07:40:19.268Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

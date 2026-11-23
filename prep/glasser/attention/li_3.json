@@ -1,0 +1,920 @@
+{
+  "id": "35e08df3-7670-4b25-898b-c52e14f3aba4",
+  "run_url": "https://app.glasser.ai/runs/35e08df3-7670-4b25-898b-c52e14f3aba4",
+  "provider": "scrapecreators",
+  "endpoint": "/v1/linkedin/search/posts",
+  "endpoint_version": 4,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "query": "AI agents multiplayer game"
+  },
+  "output": {
+    "posts": [
+      {
+        "url": "https://www.linkedin.com/posts/nateherkelman_ai-agents-just-became-multiplayer-heres-activity-7516519176484585472-Fz-R",
+        "name": "AI Agents Just Became Multiplayer. Here's How to Build Them.\n\nI've spent months building my own AI OS with skills, memory, and connections to the tools I use every day.\n\nBut when everyone on the team… | Nate Herk | 73 comments",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4E05AQFkibsxCLTl_g/mp4-720p-30fp-crf28/B4EaFAKR4BIYCA-/0/1792077811470?e=2147483647&v=beta&t=K3y7kd8NhCcYXgNalRzkw1nxoA2f7_GE3TIkcIOUEOo",
+        "author": {
+          "url": "https://www.linkedin.com/in/nateherkelman",
+          "name": "Nate Herk",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQGPvNFus_CHyg/profile-displayphoto-scale_200_200/B56Zq7k4ZZG0AY-/0/1764083599472?e=2147483647&v=beta&t=KZKDkK6Qc40XwDvqN3j5jXn4Y0IUz4cC9VOPKG4prBk",
+          "followers": 77622
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7516520532893220865",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7516519080581808128,7516520532893220865)",
+            "text": "🔗 Full video: https://youtu.be/KZiF2J83zaY?si=2jw3rd0lN6eunhq7",
+            "author": "Nate Herk",
+            "linkedinUrl": "https://www.linkedin.com/in/nateherkelman",
+            "datePublished": "2026-10-15T15:29:05.241Z",
+            "reactionCount": 6,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7516554312714592256",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7516519080581808128,7516554312714592256)",
+            "text": "Shared context across a team is the part that breaks first. When two people's setups disagree on a customer detail, which one wins?",
+            "author": "Shehryar Gondal",
+            "linkedinUrl": "https://pk.linkedin.com/in/shehryargondal",
+            "datePublished": "2026-10-15T17:43:18.978Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7517114881754607616",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7516519080581808128,7517114881754607616)",
+            "text": "Your ClickUp example is the same bug I hit from the other side. My SMS provider accepted 314 texts that were never delivered, and every status said sent. Since then a job only counts as done when it reads the effect back, a delivery receipt or the row, never just the status code. A daily check-in agent is that same idea pointed at the humans.",
+            "author": "Jadai Kongolo",
+            "linkedinUrl": "https://cy.linkedin.com/in/jadai-kongolo-239654323",
+            "datePublished": "2026-10-17T06:50:49.052Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7516596301879369730",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7516519080581808128,7516596301879369730)",
+            "text": "the state-sync problem you're describing with clickup is real. i ran into it in a different shape: campaign status lived in the database but two background jobs read it from a config file, so a paused campaign kept running those jobs. the database is the single source now. in a multi-agent room the version of that problem gets harder fast - which agent's read of shared state wins?",
+            "author": "Chance Beyer",
+            "linkedinUrl": "https://www.linkedin.com/in/chancebeyer",
+            "datePublished": "2026-10-15T20:30:09.975Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7517898004788428800",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7516519080581808128,7517898004788428800)",
+            "text": "Nate Herk - The gap between one task recorded and four actually finished is a useful test case for shared agents. If someone says “done” in the room but ClickUp still shows the task as open, what evidence should trigger an update? Getting that handoff right could also keep several agents from chasing the same person for work they’ve already finished.",
+            "author": "Tim Juback MBA",
+            "linkedinUrl": "https://www.linkedin.com/in/timjuback",
+            "datePublished": "2026-10-19T10:42:40.133Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7517186430087946240",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7516519080581808128,7517186430087946240)",
+            "text": "The ClickUp example is my favorite part. The agent did exactly what it was told, it was just reading tasks nobody had closed. Curious how you handle permissions once teammates share the same agents: does everyone get the same access, or is it set per room?",
+            "author": "Mabelle ALAKARI",
+            "linkedinUrl": "https://fr.linkedin.com/in/mabelle-alakari",
+            "datePublished": "2026-10-17T11:35:07.503Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7516964745065750528",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7516519080581808128,7516964745065750528)",
+            "text": "Multiplayer agents sound like a standup that never ends. The question I'd ask before wiring Kylon to Claude Code and Codex: who wins when two agents disagree on the same task? Without a decision rule you're just parallelizing arguments. My rule on n8n builds is simple, one agent owns the verdict and the others advise. Who arbitrates in your setup?",
+            "author": "Asad Ullah",
+            "linkedinUrl": "https://pk.linkedin.com/in/asadxagentic-ai",
+            "datePublished": "2026-10-16T20:54:13.676Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7517909782113198080",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7516519080581808128,7517909782113198080)",
+            "text": "Starting with one small business unit and one annoying workflow is the smart move. That's also where you find the edge cases before they spread, and a lot of agent rollouts skip that part and pay for it later.",
+            "author": "Joseph Farzinzad",
+            "linkedinUrl": "https://www.linkedin.com/in/joseph-farzinzad",
+            "datePublished": "2026-10-19T11:29:28.066Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7516526835699077121",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7516519080581808128,7516526835699077121)",
+            "text": "Shared rooms for agents and humans solves the duplication problem better than everyone running their own OS. The ClickUp tracking gap you mentioned will show up again once agents start writing to multiple tools, reconciling state across them becomes its own workflow.",
+            "author": "Weipeng Zhuo",
+            "linkedinUrl": "https://www.linkedin.com/in/weipeng-zhuo-consulting",
+            "datePublished": "2026-10-15T15:54:07.947Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7516537066038411264",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7516519080581808128,7516537066038411264)",
+            "text": "Starting with one workflow is smart. I'd measure not just time saved, but how often agents detect stale data or missed updates before those errors affect team decisions.",
+            "author": "Alankar Joshi",
+            "linkedinUrl": "https://sg.linkedin.com/in/alankarj",
+            "datePublished": "2026-10-15T16:34:47.050Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          }
+        ],
+        "likeCount": 290,
+        "contentUrn": "urn:li:ugcPost:7516519080581808128",
+        "transcript": "So right here you can see I have this sort of like Slack style interface with different channels on the left and chats on the right. And what's happening is I'm in a channel called AIS Media. I'm talking to an agent named Herk, as you can see. But it's not just me because Cody is also talking to my agent. And now Aiden is also talking to my agent and we're all able to collaborate and build things out together inside of this channel. So apps, automations, files, knowledge, all of that kind of stuff. So we're basically in this workspace where it's like click up, but it's also like clawed code and Codex because you can see I can see my actual users. So me, Aiden. Cody, you're in here right now. But when I go to my agents, I can see this is our head of agents, this is Aiden's Cloud code subscription and his Codex subscription, and this is my cloud code subscription and my Codex subscription. And all of our agents and actual humans can all collaborate now inside of this environment. Here's an example. I was working with my Herk agent to actually build out a dashboard. And then what I did is I brought in my clogged code subscription to make it feel more AIS branded. So then it went ahead and changed the design and the agents are also proactively communicating. Here you can see my cloud code subscription was talking to Herc. And then her ex sent a message back to my cloud code subscription and now they were collaborating on actually getting things done without me being in the mix. And per channel, you can have different apps. So right here is our dashboard. And you can have different automations. So right here is our check in. And then you can have different files and you can have things that were created by the agent or things that were uploaded by the users. So basically today what I wanted to dive into was how you can actually create a team of agents and humans that can work together. Because right now we've all been sort of playing single player version of AI, but the future is multiplayer AI where all of us can collaborate. Together and we're not just building such siloed AI operating systems essentially.",
+        "uploadDate": "2026-10-15T15:23:41.846Z",
+        "activityUrn": "urn:li:activity:7516519176484585472",
+        "description": "AI Agents Just Became Multiplayer. Here's How to Build Them.\n\nI've spent months building my own AI OS with skills, memory, and connections to the tools I use every day.\n\nBut when everyone on the team builds their own setup, we end up duplicating integrations and passing context between tools.\n\nSo we're testing Kylon with a small part of our team, where humans, Claude Code, and Codex can work together in the same rooms.\n\n→ My teammates can talk to the same agents I use.\n→ Our agents can message each other and collaborate on work.\n→ Each room has its own apps, automations, and files.\n\nOne of the first things I built was a weekly commitments tracker with a daily agent check-in.\n\nWe were finishing work in ClickUp and forgetting to mark it complete, so my AI OS thought someone had finished one out of eight tasks when they'd actually finished four.\n\nThat's a pretty practical place to start: helping the team keep the tools we already use accurate.\n\nWe're trying this with one small business unit first, then adding another workflow once we've got a process that works.\n\nLink to the full video is in the comments 👇",
+        "commentCount": 73,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQFkibsxCLTl_g/videocover-high/B4EaFAKR4BIYBQ-/0/1792077802278?e=2147483647&v=beta&t=wMj0BJlozqCx61caEKz-EltNgdyjGkK9n1moutHQTaw",
+        "datePublished": "2026-10-15T15:23:41.846Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/chatgpt-for-education_ai-skills-studio-create-a-multiplayer-game-activity-7519075842132557824-R1tN",
+        "image": "https://media.licdn.com/dms/image/v2/D561FAQFur5xiJByxzA/feedshare-document-images_800/B56aFkd1BuJwAk-/1/1792686905714?e=1796256000&v=beta&t=yRs9Sp4H-qcXIE3A2bqQXyYN8wCHX8__3InlDMv-DLA",
+        "media": "https://media.licdn.com/dms/image/v2/D561FAQFur5xiJByxzA/feedshare-document-images_800/B56aFkd1BuJwAk-/1/1792686905714?e=1796256000&v=beta&t=yRs9Sp4H-qcXIE3A2bqQXyYN8wCHX8__3InlDMv-DLA",
+        "author": {
+          "url": "https://www.linkedin.com/showcase/chatgpt-for-education/",
+          "name": "ChatGPT for Education",
+          "image": "https://media.licdn.com/dms/image/v2/D560BAQG5o5pvyZ5_hg/company-logo_100_100/company-logo_100_100/0/1738351322458/openai_for_education_logo?e=2147483647&v=beta&t=yB0b0mCWD4sigTZyNfkhzG_kA12LgHRfYjw3SPW5lO8",
+          "followers": 171672
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D561FAQFur5xiJByxzA/feedshare-document-images_800/B56aFkd1BuJwAk-/1/1792686905714?e=1796256000&v=beta&t=yRs9Sp4H-qcXIE3A2bqQXyYN8wCHX8__3InlDMv-DLA",
+          "https://media.licdn.com/dms/image/v2/D561FAQFur5xiJByxzA/feedshare-document-images_800/B56aFkd1BuJwAk-/2/1792686905714?e=1796256000&v=beta&t=c_YVoReY6bX1YS1sRNb3CtSZ1BD7BQaFu5XgktTmPHs"
+        ],
+        "comments": [
+          {
+            "id": "7524123248557735938",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7519075841117577216,7524123248557735938)",
+            "text": "Loving the game creation features ChatGPT has been improving on! I recently made a website with 50+ NYTimes style puzzle games to help students study in my AP World class. Here is the link. https://genuine-pony-486654.netlify.app/#home. Check it out! I would love some suggestions on how to improve this and take it to the next level!",
+            "author": "Shane Boehlert",
+            "linkedinUrl": "https://www.linkedin.com/in/shane-boehlert-3b7477448",
+            "datePublished": "2026-11-05T14:59:33.907Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7519125012646100992",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7519075841117577216,7519125012646100992)",
+            "text": "When making the game is just as fun as playing it. ChatGPT for Education winning the whole way.",
+            "author": "Benjamin Kelly",
+            "linkedinUrl": "https://ca.linkedin.com/in/benjamin-kelly-a2366154",
+            "datePublished": "2026-10-22T19:58:21.603Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1mo"
+          }
+        ],
+        "likeCount": 49,
+        "contentUrn": "urn:li:ugcPost:7519075841117577216",
+        "activityUrn": "urn:li:activity:7519075842132557824",
+        "description": "Your mission, should you choose to accept it: Build your crew’s next favorite game.\n\nTime: 45 minutes.\nEquipment: ChatGPT.\nField agents: the group chat.\n\nChoose your concept. Set the rules. Build a first version. Then send your friends in to test it.\n\nTrivia? Wordplay? Something they’ve never played before? You call the shots.\n\nThe assignment is Create a Multiplayer Game, co-designed by OpenAI and Handshake for October’s AI Skills Studio challenge.\n\nBuild your AI skills. Give game night a new mission.\n\nAccept the assignment: https://lnkd.in/gKvX6txx\n\nGood luck. 🕶️\n#AISkillsStudio",
+        "commentCount": 2,
+        "datePublished": "2026-10-22T16:42:58.437Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/harangju_one-of-the-most-interesting-uses-of-ai-may-activity-7458497190219612160-K2F4",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQFl5ZDV1gTRKg/feedshare-shrink_800/B4EZ4DMbDcJMAg-/0/1778170052096?e=2147483647&v=beta&t=4TwkFq-FrcmrCbEb8WBqojkrT7Cu2QHNhdJkALeZAz8",
+        "media": "https://media.licdn.com/dms/image/v2/D4E22AQFl5ZDV1gTRKg/feedshare-shrink_800/B4EZ4DMbDcJMAg-/0/1778170052096?e=2147483647&v=beta&t=4TwkFq-FrcmrCbEb8WBqojkrT7Cu2QHNhdJkALeZAz8",
+        "author": {
+          "url": "https://www.linkedin.com/in/harangju",
+          "name": "Harang Ju",
+          "image": "https://media.licdn.com/dms/image/v2/D4E03AQGbiQNZCnFGSw/profile-displayphoto-scale_200_200/B4EZ60HFwQIwAg-/0/1781138221406?e=2147483647&v=beta&t=46AjAQjOKhKDIEz8rDgohtBqWHSJcTEtNPLnbNRF6nQ",
+          "followers": 1617
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D4E22AQFl5ZDV1gTRKg/feedshare-shrink_800/B4EZ4DMbDcJMAg-/0/1778170052096?e=2147483647&v=beta&t=4TwkFq-FrcmrCbEb8WBqojkrT7Cu2QHNhdJkALeZAz8"
+        ],
+        "comments": [
+          {
+            "id": "7485678519927353344",
+            "urn": "urn:li:comment:(urn:li:activity:7458497190219612160,7485678519927353344)",
+            "text": "Really like the framing that in multiplayer games, the \"content\" isn't just the assets it's the players and their interactions. Using RL agents to solve the cold-start problem feels like a much more practical application of AI than trying to force an LLM into every workflow. It'll be interesting to see how games evolve when they're designed with both human and AI players in mind.",
+            "author": "Noor Imran",
+            "linkedinUrl": "https://pk.linkedin.com/in/noor-imran-356110247",
+            "datePublished": "2026-07-22T12:53:56.333Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "4mo"
+          }
+        ],
+        "likeCount": 51,
+        "contentUrn": "urn:li:share:7458185766511423489",
+        "activityUrn": "urn:li:activity:7458497190219612160",
+        "description": "One of the most interesting uses of AI may be solving the cold start problem in networks.\n\nBecause in multiplayer games, the hardest thing to create is not always the map, the characters, or the economy.\n\nIt is the room full of players that makes the game worth playing.\n\nThat was one of my favorite takeaways from hosting my friend Akhil Jindal, cofounder of Moku, in my Generative AI class at The Johns Hopkins University - Carey Business School.\n\nWe often talk about AI-generated content as if \"content\" means text, images, video, or code. But in games, other players are part of the content. They create the unpredictability, competition, coordination, and social energy that make the world feel alive.\n\nThat makes multiplayer gaming a fascinating AI problem.\n\nIf there are not enough players, the game has a cold start problem.\n\nIf there are rewards, especially in crypto gaming, bots show up to extract value.\n\nAkhil's team is exploring a different path by using reinforcement learning to train AI agents that can play games. Not because every AI product needs an LLM, but because sometimes the thing you need to generate is behavior.\n\nThat creates a useful shift in framing.\n\nWhat if AI agents are not just NPCs or adversaries, but part of the early player network that helps a game become playable, testable, and resilient?\n\nOf course, that opens up a deeper product question.\n\nHow do you design a game that works for both humans and AI?\n\nThat changes how you think about mechanics, incentives, difficulty, testing, trust, and even what \"fun\" means.\n\nA big thank you to Akhil for joining us at Carey and giving students a practical look at how AI products get built in the real world.",
+        "commentCount": 4,
+        "datePublished": "2026-05-08T12:45:02.293Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/jngiam_using-ai-is-a-lot-like-a-video-game-youre-activity-7528850453363732482-53i-",
+        "image": "https://media.licdn.com/dms/image/v2/D5610AQFfvE2JaZVxAg/image-shrink_800/B56aHvZlXqIwAk-/0/1795017824163?e=2147483647&v=beta&t=XikZtO34KN2p7AN9N6BuSPotnVs5vmpQErwTDLdyQlo",
+        "media": "https://media.licdn.com/dms/image/v2/D5610AQFfvE2JaZVxAg/image-shrink_800/B56aHvZlXqIwAk-/0/1795017824163?e=2147483647&v=beta&t=XikZtO34KN2p7AN9N6BuSPotnVs5vmpQErwTDLdyQlo",
+        "author": {
+          "url": "https://www.linkedin.com/in/jngiam",
+          "name": "Jiquan Ngiam",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQEfakHWs0cE7g/profile-displayphoto-scale_200_200/B56Z3p6w9hKwAY-/0/1777745991230?e=2147483647&v=beta&t=20WNmgnD1w1pyy-owBKXZm0SE-mfWGTQ-8yADcneuXc",
+          "followers": 10593
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D5610AQFfvE2JaZVxAg/image-shrink_800/B56aHvZlXqIwAk-/0/1795017824163?e=2147483647&v=beta&t=XikZtO34KN2p7AN9N6BuSPotnVs5vmpQErwTDLdyQlo"
+        ],
+        "comments": [
+          {
+            "id": "7528853190348275713",
+            "urn": "urn:li:comment:(urn:li:activity:7528850453363732482,7528853190348275713)",
+            "text": "So true, we at Conjour use our AI to deep dive into daily market and CI research but then we intentionally have it require the human touch. You decide if the market shift or new competitors product is the right fit for you and your companies values. So important not to lose that human touch.",
+            "author": "Trey Meeker",
+            "linkedinUrl": "https://www.linkedin.com/in/trey-meeker-6073467b",
+            "datePublished": "2026-11-18T16:14:39.908Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "4d"
+          },
+          {
+            "id": "7529003994011086848",
+            "urn": "urn:li:comment:(urn:li:activity:7528850453363732482,7529003994011086848)",
+            "text": "Single-player is homework with a tutor. Multiplayer is the tutor emailing your customers at 2am with its own login. Nobody announces the switch. One day you're approving drafts. The next day you're just the person who gets blamed for them.",
+            "author": "Shan Huang",
+            "linkedinUrl": "https://www.linkedin.com/in/shanhuangusa",
+            "datePublished": "2026-11-19T02:13:54.302Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "4d"
+          },
+          {
+            "id": "7529047131819683840",
+            "urn": "urn:li:comment:(urn:li:activity:7528850453363732482,7529047131819683840)",
+            "text": "Shan's line is the sharpest bit — nobody announces the switch from copilot to agent, and the customer still blames you. In my own work the dividing line is identity: the moment an agent has its own inbox and its own credentials, it needs its own evals, its own failure budget and its own owner. Which side do most teams you see actually end up on — deliberately multiplayer, or accidentally?",
+            "author": "Abdul Rehman Baber",
+            "linkedinUrl": "https://pk.linkedin.com/in/abdul-rehman-baber-4b5b36200",
+            "datePublished": "2026-11-19T05:05:19.158Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "4d"
+          },
+          {
+            "id": "7529056984852066305",
+            "urn": "urn:li:comment:(urn:li:activity:7528850453363732482,7529056984852066305)",
+            "text": "“Meat proxy” is going to stick with me. The slide’s middle step is the one I’d underline: agent identity. From the security side, an agent with its own account is so much easier to deal with. You can scope what it touches, read its logs, and shut it off without locking out a person. When it’s acting as you, everything it does looks like you did it, and good luck untangling that after something goes wrong. Have you found people resist giving the agent its own inbox, or does it click once they try it?",
+            "author": "Marius du Preez",
+            "linkedinUrl": "https://au.linkedin.com/in/mdpsec",
+            "datePublished": "2026-11-19T05:44:28.304Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "4d"
+          },
+          {
+            "id": "7529615807350349826",
+            "urn": "urn:li:comment:(urn:li:activity:7528850453363732482,7529615807350349826)",
+            "text": "\"Meat proxy\" is going to stick with me  😂 It's really a brand-trust problem too: once a customer can't tell who actually wrote the message, you've spent credibility you didn't know you were spending. Are you seeing teams label agent-sent messages up front, or keep it quiet?",
+            "author": "D. Witherspoon",
+            "linkedinUrl": "https://www.linkedin.com/in/d-witherspoon-314344291",
+            "datePublished": "2026-11-20T18:45:01.970Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2d"
+          }
+        ],
+        "likeCount": 26,
+        "contentUrn": "urn:li:share:7528850450289254400",
+        "activityUrn": "urn:li:activity:7528850453363732482",
+        "description": "Using AI is a lot like a video game, you're either in single-player or multiplayer.\n\nWe're seeing a lot of people play one while thinking they're in the other.\n\nIn single-player, the AI works next to you as a copilot, drafting the email that goes out from your address under your name.\n\nIn multiplayer, the agent is more like a teammate with its own accounts and its own inbox. It sends the email from its own address and loops you in when it needs a decision.\n\nOne acts as you, the other acts as itself.\n\nThe problems can start small: the copilot drafts a reply to a customer, it looks fine, and you send it after a skim.\n\nA few weeks in, it's doing more of the thinking, and you're doing less of the reading, and the customer still assumes every word came from you.\n\nAt that point, you're treating a copilot like an agent, but with your name still on the work. This is a slippery slope for many: it's easy to become a \"meat proxy\" that blindly uses AI.\n\nBoth ways of working with AI do well when you pick one on purpose.\n\nEither you own the words and check them, or the agent owns them, and you coach it.\n\nI've leaned toward multiplayer for most of my own work, since an agent with its own identity has been easier to secure and to coach.",
+        "commentCount": 5,
+        "datePublished": "2026-11-18T16:03:47.358Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/alliekmiller_okay-ill-say-it-its-shocking-how-little-activity-7527411279632957440-a2Bv",
+        "image": null,
+        "media": null,
+        "author": {
+          "url": "https://www.linkedin.com/in/alliekmiller",
+          "name": "Allie K. Miller",
+          "image": "https://media.licdn.com/dms/image/v2/C5603AQFcmNxBigo9_g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1553407141617?e=2147483647&v=beta&t=12thgjmnarHZ7auVNG9I_iUgJyxklVHDvVS2s7j7sfg",
+          "followers": 1682318
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7527413576718823424",
+            "urn": "urn:li:comment:(urn:li:activity:7527411279632957440,7527413576718823424)",
+            "text": "Agreed. Most work isn't individual; it’s handoffs—the order moving from sales to ops to the carrier, the call a manager never hears, the approval waiting on someone else's reply.\n\nMost AI tools are built for one person and one chat window. In business, the cost sits in the gaps between people. A shared AI workforce is useful only if it knows who owns each step and what the next person needs to see.\n\nMultiplayer is less about more people in the chat and more about AI sitting in the handoff, where work actually stalls.",
+            "author": "Tom Bogaert",
+            "linkedinUrl": "https://www.linkedin.com/in/tom-bogaert-47254032",
+            "datePublished": "2026-11-14T16:54:09.272Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7527508979925561344",
+            "urn": "urn:li:comment:(urn:li:activity:7527411279632957440,7527508979925561344)",
+            "text": "So I started planning out an arena type pvp game for which a I and models would be able to playing against human players. However, think about that. And think about the dangers of teaching an artificial intelligence to become a warrior somebody who is trained to become an efficient eliminated an opponent. That's actually very scary to think about. Because those exact same strategies and elements are the exact strategies and elements that would be used against us. If it were ever coming down to it. Honestly, while the thought of a I playing video games with us is really cool and neat. I think everybody should really take a step back and ponder upon what it is that you 're teaching ai to do when gaming.",
+            "author": "Michael Tomkus",
+            "linkedinUrl": "https://www.linkedin.com/in/michael-tomkus",
+            "datePublished": "2026-11-14T23:13:15.169Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7527697566155792384",
+            "urn": "urn:li:comment:(urn:li:activity:7527411279632957440,7527697566155792384)",
+            "text": "Absolutely! AI becomes even more powerful when people and different models can work together, share perspectives and solve problems collectively. The real opportunity lies in collaboration, not just individual productivity.",
+            "author": "Ben Gusberg",
+            "linkedinUrl": "https://www.linkedin.com/in/bengusberg",
+            "datePublished": "2026-11-15T11:42:37.629Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7527552218854600704",
+            "urn": "urn:li:comment:(urn:li:activity:7527411279632957440,7527552218854600704)",
+            "text": "You are right that most AI tools still assume one person at one desk. The next step is shared memory and clear roles across people and agents, so teams can build on each other's work instead of starting over in separate chats.",
+            "author": "Ravi A Samy",
+            "linkedinUrl": "https://se.linkedin.com/in/rantonysamy",
+            "datePublished": "2026-11-15T02:05:04.133Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7527648902712569856",
+            "urn": "urn:li:comment:(urn:li:activity:7527411279632957440,7527648902712569856)",
+            "text": "Allie, I run a small version of that room for my own AI coding sessions, across two accounts on one machine. The first thing it taught me was timing: a question from one agent waited until the other finished its whole task, 25 minutes for a one-line answer, so since today messages land mid-task.",
+            "author": "Syed Nauroz Ali",
+            "linkedinUrl": "https://pk.linkedin.com/in/syed-nauroz-ali",
+            "datePublished": "2026-11-15T08:29:15.361Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7527889292187066368",
+            "urn": "urn:li:comment:(urn:li:activity:7527411279632957440,7527889292187066368)",
+            "text": "The bottleneck is data governance, not model capability. Until orgs can define who sees what across AI agents, multiplayer features ship as demos. The model can already reason across contexts. The permissioning layer can't.",
+            "author": "Clayton Rodrigues",
+            "linkedinUrl": "https://www.linkedin.com/in/clayton-rodrigues-8381a8162",
+            "datePublished": "2026-11-16T00:24:28.678Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7527554603832369152",
+            "urn": "urn:li:comment:(urn:li:activity:7527411279632957440,7527554603832369152)",
+            "text": "Fair point, most AI tools still feel like a one-person workspace. Teams share the outputs, but the actual thinking with AI still happens alone. Allie K. Miller",
+            "author": "Aashra Saleem",
+            "linkedinUrl": "https://pk.linkedin.com/in/aashra-saleem-7047a0315",
+            "datePublished": "2026-11-15T02:14:32.755Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7527605869962862592",
+            "urn": "urn:li:comment:(urn:li:activity:7527411279632957440,7527605869962862592)",
+            "text": "Aujourd'hui, l'IA reste un assistant personnel, pas encore un collègue d'équipe.\nDans une petite entreprise, le besoin est pourtant là : que l'agent qui répond aux clients sache ce que celui des devis a fait la veille.\nPour moi, le vrai chantier, c'est la mémoire partagée, plus que le modèle.",
+            "author": "Freddy NAZON",
+            "linkedinUrl": "https://fr.linkedin.com/in/freddynazon",
+            "datePublished": "2026-11-15T05:38:15.554Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 437,
+        "contentUrn": "urn:li:share:7527070811828981761",
+        "activityUrn": "urn:li:activity:7527411279632957440",
+        "description": "Okay I’ll say it: it’s shocking how little multiplayer AI exists right now.\n\nClaude Tag, great.\n\nConnecting Instincts, great.\n\nBut where is the model fusion. Where is the proxy meeting room. Where is the cross-team + AI workforce boardroom. How is this massive global earth-shattering business-changing revolution still so painfully individually oriented?",
+        "commentCount": 343,
+        "datePublished": "2026-11-14T16:45:01.602Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/burkeholland_fable-51-is-going-to-change-everything-activity-7500927120936800256-Dg0H",
+        "name": "Fable 5.1 is going to change everything. I made https://fledglinggame.com.\n\nI put GitHub Copilot in autopilot and fed it a single prompt - generate a fully functional first-person multiplayer game… | Burke Holland | 78 comments",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4D05AQFh-bjVBwx8ug/mp4-720p-30fp-crf28/B4DaBilWt4KAB8-/0/1788360373654?e=2147483647&v=beta&t=OJPadq5qiH89HSesufspuwL1F24dN8PhZnyQB8bsaN8",
+        "author": {
+          "url": "https://www.linkedin.com/in/burkeholland",
+          "name": "Burke Holland",
+          "image": "https://media.licdn.com/dms/image/v2/C5103AQHZphqXX0_SsQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516265409003?e=2147483647&v=beta&t=Zs_oVpXiXvY6IkQpXG8ZyKXcOhp7MCGcvLs8eeStka0",
+          "followers": 5912
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7500947680144084992",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7500926795244994560,7500947680144084992)",
+            "text": "Asking because I'm writing a talk about this type of thing right now: \n- How much actual time did it take you to get this up and running properly?\n- What was your out-of-pocket cost? \n- What was the total token burn for this?",
+            "author": "Morten Rand-Hendriksen",
+            "linkedinUrl": "https://ca.linkedin.com/in/mortenrandhendriksen",
+            "datePublished": "2026-09-02T16:08:07.816Z",
+            "reactionCount": 39,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7500959322915594240",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7500926795244994560,7500959322915594240)",
+            "text": "Very very cool! I’m Curious how much this cost in usage , mind sharing what you noticed?",
+            "author": "John Papa",
+            "linkedinUrl": "https://www.linkedin.com/in/papajohn",
+            "datePublished": "2026-09-02T16:54:23.669Z",
+            "reactionCount": 12,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7501092165654073344",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7500926795244994560,7501092165654073344)",
+            "text": "\"do not stop until you have created a \"breath of the wild\" caliber visual experience.\"\n\nDefinitely nailed it. I can't tell the difference between this or breath of the wild.\n\nIt's impressive for sure, but why all of this 1 shot \"make me a video game\" prompts? Actually spec a proper GDD and build that over 100-500 prompts with an editor that lets you change things is much more impressive if the end result gets to the target.",
+            "author": "Dean Reinhard",
+            "linkedinUrl": "https://jp.linkedin.com/in/deanreinhard",
+            "datePublished": "2026-09-03T01:42:15.845Z",
+            "reactionCount": 3,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7500940658074087425",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7500926795244994560,7500940658074087425)",
+            "text": "Not working on Mobile 😉",
+            "author": "Jan Petersen",
+            "linkedinUrl": "https://dk.linkedin.com/in/jan-petersen-9710754",
+            "datePublished": "2026-09-02T15:40:13.624Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7501009516466135041",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7500926795244994560,7501009516466135041)",
+            "text": "La calidad a la que se puede llegar es limitada, esta muy bien para una prueba, después es todo un dolor de cabeza.",
+            "author": "Enrique Teruel Gutiérrez",
+            "linkedinUrl": "https://es.linkedin.com/in/enriqueteru",
+            "datePublished": "2026-09-02T20:13:50.744Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7501106743293296640",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7500926795244994560,7501106743293296640)",
+            "text": "This game is 3rd person, not 1st person. Try adding \"make no mistakes\" to your prompt next time",
+            "author": "Tyler Peckenpaugh, PhD",
+            "linkedinUrl": "https://www.linkedin.com/in/tpeckenpaugh",
+            "datePublished": "2026-09-03T02:40:11.425Z",
+            "reactionCount": 12,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7501140581965000704",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7500926795244994560,7501140581965000704)",
+            "text": "Sorry, but I don't believe it's possible to create an entire game with a one shot. Could you share a sample of what it looked like after the first prompt? Or could you tell how many tokens you used to get the presented result?",
+            "author": "Krzysztof R.",
+            "linkedinUrl": "https://pl.linkedin.com/in/krzysztof-r-b6899a18a/en",
+            "datePublished": "2026-09-03T04:54:39.193Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7501108947148410880",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7500926795244994560,7501108947148410880)",
+            "text": "How are you handling multiplayer state synchronization and physics consistency when multiple browser clients connect at the same time?",
+            "author": "Muhammad Sami Ullah",
+            "linkedinUrl": "https://pk.linkedin.com/in/ihussainisami",
+            "datePublished": "2026-09-03T02:48:56.865Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7501236319000477697",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7500926795244994560,7501236319000477697)",
+            "text": "respect for actually publishing it instead of just posting a video, that's the part most \"one-shot\" claims skip. multiplayer state sync is usually where these demos quietly fall apart under real load though - does it hold up with a handful of strangers in the same instance at once, or is that part still mostly held together by hope and the cheap hosting tier",
+            "author": "Nick B",
+            "linkedinUrl": "https://nl.linkedin.com/in/nickb34732",
+            "datePublished": "2026-09-03T11:15:04.681Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7500976395523842048",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7500926795244994560,7500976395523842048)",
+            "text": "Really curious to know what this cost. My experience with Fable was about $60/hr of “crunch”, granted I did not make any attempts to optimize token usage.",
+            "author": "Jacob P.",
+            "linkedinUrl": "https://www.linkedin.com/in/jacob-p-1a5b8056",
+            "datePublished": "2026-09-02T18:02:14.096Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2mo"
+          }
+        ],
+        "likeCount": 647,
+        "contentUrn": "urn:li:ugcPost:7500926795244994560",
+        "uploadDate": "2026-09-02T14:46:26.059Z",
+        "activityUrn": "urn:li:activity:7500927120936800256",
+        "description": "Fable 5.1 is going to change everything. I made https://fledglinggame.com.\n\nI put GitHub Copilot in autopilot and fed it a single prompt - generate a fully functional first-person multiplayer game where you play as a baby bird learning to fly...\n\n\"Your task is to build a first person (chase camera) multi-player game where the user plays as a baby bird leaving the nest and exploring a bucolic countryside rich with interactions, structures, games and delightful discoveries. This game should be visually stunning such that it draws the user in and makes them never want to leave. Test all your work and do not stop until you have created a \"breath of the wild\" caliber visual experience. Everything should run in the browser.\"\n\nI've added a bunch of features since the initial prompt but so much of what you see in that video was from the initial one shot.\n\nAnd because I think if you're going to make claims like I just did, you gotta publish your work...\n\nFull disclosure that I have no idea what will happen if too many people join at once. It's on the cheapest possible hosting tier. I also have not tested on all hardware so no clue if your machine can handle it or not. But let's find out.",
+        "commentCount": 78,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQFh-bjVBwx8ug/videocover-high/B4DaBilWt4KABM-/0/1788360360799?e=2147483647&v=beta&t=ZKWZehokFTs-EHmwCfIyBmao3Uki0LbvTrk3kjFHi6M",
+        "datePublished": "2026-09-02T14:46:26.059Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/johnpcutler_ive-been-writing-a-lot-about-multi-player-activity-7452143015306874880-emfW",
+        "name": "I've been writing a lot about multi-player vs. single-player mode AI.\nHere is a 25m talk boiled down to 7m (with the help of AI, alas). I had the honor of giving this talk in Park City, UT, at… | John Cutler | 32 comments",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5605AQFKrqwfTND8Wg/mp4-720p-30fp-crf28/B56Z2tUclkHECE-/0/1776729342748?e=2147483647&v=beta&t=r1ykqGbGgrtmPzJcZWLqObN8scIQGCPPnrJ5EvArYK4",
+        "author": {
+          "url": "https://www.linkedin.com/in/johnpcutler",
+          "name": "John Cutler",
+          "image": "https://media.licdn.com/dms/image/v2/C5603AQGiClH5cW8urg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516254666543?e=2147483647&v=beta&t=AadvoFE8pdo0nTpHN828enJ_V_iGNYX1K81Jjp9WL9w",
+          "followers": 135908
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7456919789794664448",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7452142775849910272,7456919789794664448)",
+            "text": "The real talkhttps://www.youtube.com/watch?v=PhUh1AizX7E",
+            "author": "John Cutler",
+            "linkedinUrl": "https://www.linkedin.com/in/johnpcutler",
+            "datePublished": "2026-05-04T04:17:00.757Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "6mo"
+          },
+          {
+            "id": "7453927970756501504",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7452142775849910272,7453927970756501504)",
+            "text": "Love the concept -  but the video is too emotionally loaded. Do you have an essay in the works on this topic? Would love to see it.",
+            "author": "Korab Eland",
+            "linkedinUrl": "https://www.linkedin.com/in/korabeland",
+            "datePublished": "2026-04-25T22:08:35.514Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "7mo"
+          },
+          {
+            "id": "7452216512813113344",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7452142775849910272,7452216512813113344)",
+            "text": "Really interesting, thanks for sharing as always. I've been thinking a ton about this, stuck on a too big essay that I'll share soon, but it's not enough to think just about coordination/collaboration from interaction concerns, you have to consider what the dominant market strategy model is of the company. Lots of multiplayer AI mechanisms are going to homogenize and weaken companies because they were rolled out by engineering-led tech companies that really think of coordination/collaboration solely from what I dub a steering point of view. A lot of companies thrive because of their relational dynamics (just one example), and these tools are just as likely to reinforce a solipsistic culture where interactions with one another are going to be replaced by my agent interacting with yours.",
+            "author": "Bud Caddell",
+            "linkedinUrl": "https://www.linkedin.com/in/budcaddell",
+            "datePublished": "2026-04-21T04:47:52.143Z",
+            "reactionCount": 6,
+            "publishedTimeAgo": "7mo"
+          },
+          {
+            "id": "7456871832546287616",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7452142775849910272,7456871832546287616)",
+            "text": "Love your ideas as always; I also love your authenticity, and this would have benefitted from it greatly.",
+            "author": "Tristan Harward",
+            "linkedinUrl": "https://www.linkedin.com/in/tristanharward",
+            "datePublished": "2026-05-04T01:06:26.859Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "6mo"
+          },
+          {
+            "id": "7452301123258048512",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7452142775849910272,7452301123258048512)",
+            "text": "Is that Ryan Reynolds doing the voice over?",
+            "author": "Matt Turner",
+            "linkedinUrl": "https://uk.linkedin.com/in/turnermaround",
+            "datePublished": "2026-04-21T10:24:04.844Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "7mo"
+          },
+          {
+            "id": "7452371577066819584",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7452142775849910272,7452371577066819584)",
+            "text": "The real shift is moving from individual productivity gains to shared intelligence, where value compounds across the team instead of staying siloed with one user.",
+            "author": "SmartFind",
+            "linkedinUrl": "https://www.linkedin.com/company/smart-find",
+            "datePublished": "2026-04-21T15:04:02.342Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "7mo"
+          },
+          {
+            "id": "7453821143917957123",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7452142775849910272,7453821143917957123)",
+            "text": "Is the 25’ version available somewhere also?",
+            "author": "Nick Zervoudis",
+            "linkedinUrl": "https://uk.linkedin.com/in/nzervoudis",
+            "datePublished": "2026-04-25T15:04:06.011Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "7mo"
+          },
+          {
+            "id": "7460224733742018560",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7452142775849910272,7460224733742018560)",
+            "text": "Would love to discuss this further, John Cutler. I wrote something related to this a little while back. Would love your feedback. \n\nhttps://www.linkedin.com/posts/david-herse-008b4629_many-people-building-software-solo-with-ai-share-7455964292581089280-avxX?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAYKwIgBIG2P8J4vvsI2EGPECkeGYQdlAvc",
+            "author": "David Herse",
+            "linkedinUrl": "https://au.linkedin.com/in/david-herse-008b4629",
+            "datePublished": "2026-05-13T07:09:40.798Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "6mo"
+          },
+          {
+            "id": "7455006351552004096",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7452142775849910272,7455006351552004096)",
+            "text": "Really thoughtful writing. I especially appreciate how these pieces take on questions of complexity, legitimacy, and judgment",
+            "author": "Gautam Tankha",
+            "linkedinUrl": "https://www.linkedin.com/in/gautam-tankha-b248751",
+            "datePublished": "2026-04-28T21:33:41.531Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "6mo"
+          },
+          {
+            "id": "7454146407248121857",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7452142775849910272,7454146407248121857)",
+            "text": "Matthias Laurent Filipa Castro",
+            "author": "Alex Fernandes",
+            "linkedinUrl": "https://it.linkedin.com/in/alex-fernandes-public",
+            "datePublished": "2026-04-26T12:36:34.832Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "7mo"
+          }
+        ],
+        "likeCount": 129,
+        "contentUrn": "urn:li:ugcPost:7452142775849910272",
+        "transcript": "Welcome to single player to multiplayer context through collaboration. I'm John Cutler, and you can find me on LinkedIn. Imagine a world where ordinary people discover a superpower. At first it's disorienting, ambiguous, and a huge dopamine hit. It feels like everything is possible, but soon there is pressure to use this power just to keep up. This power, called the signal, is accessible to everyone, but it comes from a powerful organization known as the Lattice. The Lattice benefits when people believe the power is individual, reinforcing the message that they need the signal to preserve their influence. As individuals start wielding the signal, people turn inward, trusting the power more than each other. Collaborators become competitors, fighting their own battles in a single player game. Even as the power intensifies, what was once exhilarating turns into constant anxiety and nonstop hard decisions. The space for intuition and collaboration disappears, replaced by constant decisions, prompts, and switching. This feels like progress, but pulls people further into single player mode. The more you rely on the signal, the more you risk dependence on the lattice. Your native abilities atrophy and only the most experienced can see where the illusion ends. Their expertise is becoming increasingly rare. Zooming out, entire alliances are forming, but distrust is rising. Mechanisms intended for shared clarity are used to control from a distance. The tension is building will be continue as solo superheroes or coordinate like a team to step into a multiplayer mode. We are at the beginning of this story. The powers are discovered, the stakes are clear, and the tension is rising. The critical question for all of us is will we keep playing? This is a single player game. Or figure out what it means to do this together. My observations show 2 paths. On one side, thoughtful systems thinkers are using AI to catalyst multiplayer mode, reducing cognitive load and creating space for collaboration and shared context. On the other side, overwhelm is growing. Highly pathological dynamics are pushing people into more single player mode. Endless work in progress and constant demands are amplified by AI, with overload feeling like the job itself. I don't have a single answer, but I want to offer a few frames to make sense of what is happening. My goal is to give us a shared language so our conversations can go a level deeper In one model, context is portable and owned by individuals, but the reality is that context is produced through interaction. It arises through engagement in both parties are changed by it, with context flowing outward from the interaction. The Shannon Weaver model sees understanding as a function of message, context and noise. Populist AI models frame it as a function of prompt context and model, suggesting context is a universal solvent for clarity, however. The 4E model of cognition reminds us that understanding is not passive reconstruction. It is a function of agents, bodies, environment, and interaction, meaning it happens through active engagement in a shared situation. Boyd's OODA loop shows that orientation shaped by context and interaction is key. True understanding forms and reforms as people engage with each other and the situation, not by preloading or transferring information. If understanding is generated through interaction, 3 things matter how interaction works. Which involves the four's what this requires from us, involving the three meta cognitions and when this matters as not every problem needs the same level of interaction. The 4E model of cognition, embodied, embedded, extended and inactive emerged as a counter to the idea that thinking happens only in the head. It shows that understanding is not just processing information, but emerges through interaction. Embodied cognition means thinking is constrained by sensory motor coupling. It's about contact with reality. Understanding comes from engaging with. Something not just representing it. Embedded cognition means thinking depends on environmental structure and affordances, shaping what you notice and how you reason. It's about the structure of the situation. Extended cognition means thinking spreads across tools and other agents, meaning the system is doing the thinking, not just the individual. It's about where thinking is distributed. In active cognition means understanding arises through dynamic interaction. It's where understanding actually emerges through continuous engagement and action. Embodied grounds us in reality. Embedded shapes what we see, extended spreads thinking across systems and inactive is where understanding actually emerges. The broadcast model treats communication as a transmission problem where understanding is decoding. Commanders intent assumes alignment emerges through interaction with the situation, not by decoding a message. If understanding is generated through interaction, what capabilities do people need to do it well? Metacognition or thinking about your own thinking is important for monitoring, understanding and regulating problem solving. Social metacognition, thinking about other people's thinking, is crucial for teams to coordinate better and avoid misalignment, especially with AI in the loop. Computational metacognition involves thinking about how AI works and what it is optimizing for. Better mental models of AI lead to better questions, error detection, and calibrated trust. Without the ability to reason about your own thinking, others thinking, and the AI's purpose, you will struggle to use AI effectively where shared understanding is needed in the movie context Stark and Banner created. Patron was strong individual metacognition but without collective sense. Making the missing interaction gap led to a failed outcome. When Steve Rogers pushed for alignment, they brought their thinking back into the group. The thinking then happened across people, allowing them to make sense of the situation together. Not all work requires the same level of interaction. The mistake is treating every problem and decision like the same kind of fight when sometimes little situational awareness is needed. We can imagine a two by three matrix for different situations. On one axis we have context full or context. Right on the other, we borrow from Cinnabon with clear, complicated and complex categories. Each cell requires a different motion. In the clear context light space, cause and effect are stable, instructions are enough, and context is minimal. AI can provide full automation and coordination is minimal. An example is bulk invoice processing. In the clear context, full space context is known and supplied, but definitions and permissions matter. Coordination is light. AI acts as a retrieval grounded assistant, injecting local context. This is like support teams resolving tickets with shared playbooks and the complicated context light space. The work is multi step and predictable, requiring planning and expertise. Collaboration is sequenced with clear roles. AI can act as a planner or copilot, optimizing workflows. This applies to defined product development processes in the complicated context. Full space context is distributed, requiring ongoing high coordination across teams and systems. AI is a workflow orchestrator, navigating permissions and keeping things In Sync and. Example is launching a feature across multiple departments. In the complex context light space problems are hard but solvable independently driven by structure, not social factors. Coordination is low. AI is a research engine or strategy generator with high cognitive power and low situational coupling. In the complex context full space, there is ambiguity, constraints and politics. With knowledge evolving. Interaction and coordination are maximum. AI acts as a sense making partner, not a decision engine. This describes leadership aligning. Strategy during a market shift. The big picture is that you cannot use the same AI practices in all contexts. As the situation becomes more dynamic and the rate of context generation increases, your approach must adapt. There are two different ways to interpret AI's impact. The optimistic view sees AI's a catalyst for collaboration and shared context, closing the gap where old tools failed to capture meaning and context. The pessimistic view sees AI as a catalyst for legibility and control, shifting from Messi distributed understanding to clean centralized. Single player views. The question is whether AI strengthens multiplayer understanding or collapses it into single player control.",
+        "uploadDate": "2026-04-20T23:55:48.948Z",
+        "activityUrn": "urn:li:activity:7452143015306874880",
+        "description": "I've been writing a lot about multi-player vs. single-player mode AI.\nHere is a 25m talk boiled down to 7m (with the help of AI, alas). I had the honor of giving this talk in Park City, UT, at Rise8's wonderful ShipSummit event.\n\nIf your company is grappling with the question of how to use AI in multiplayer mode, I would love to chat.",
+        "commentCount": 32,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQFKrqwfTND8Wg/videocover-high/B56Z2tUclkHEBU-/0/1776729313702?e=2147483647&v=beta&t=ezXiXzwVRigtxskiQvwiOfhnOqTyXIIs9btrxleA-3g",
+        "datePublished": "2026-04-20T23:55:48.948Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/odysseyml_introducing-agora-2-our-next-generation-activity-7508912791978729473-gR8B",
+        "name": "Introducing Agora-2, our next-generation multi-agent world model!\n\nAgora-2 supports up to 20 humans and agents interacting inside a shared environment, all simulated in real time.\n\nOur multiplayer… | Odyssey | 13 comments",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5605AQFwNPPOoctMwA/mp4-640p-30fp-crf28/B56aDUEV.OGoBk-/0/1790264311697?e=2147483647&v=beta&t=4TxwTeJhioyRW_amGOq_gFTkKTsXOK40xNvsXVygZbU",
+        "author": {
+          "url": "https://www.linkedin.com/company/odysseyml",
+          "name": "Odyssey",
+          "image": "https://media.licdn.com/dms/image/v2/D4E0BAQGa9BKo50sn2Q/company-logo_100_100/B4EZ8UXl.jKAAI-/0/1782753157309/odysseyml_logo?e=2147483647&v=beta&t=H23YhXJrlpHr5OTqITETifygH4p44Ji2Xr8utaf7fgg",
+          "followers": 18119
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7508912958962561024",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7508912729643106304,7508912958962561024)",
+            "text": "Experience Agora-2 right now!\n\nhttps://odyssey.systems/introducing-agora-2",
+            "author": "Odyssey",
+            "linkedinUrl": "https://www.linkedin.com/company/odysseyml",
+            "datePublished": "2026-09-24T15:39:18.274Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7508914298342215680",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7508912729643106304,7508914298342215680)",
+            "text": "Amazing! Cant wait to see how you guys  progress in the years ahead! Punching way above your weight.",
+            "author": "Ahmed K.",
+            "linkedinUrl": "https://uk.linkedin.com/in/ahmed-karim-ak",
+            "datePublished": "2026-09-24T15:44:37.607Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7519020229335838722",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7508912729643106304,7519020229335838722)",
+            "text": "Jeff, the roadmap toward agents and worlds learning together raises a game-design question I care about: how does a player tell that a companion has learned, while still being able to trust the world's rules?\nFor a future cooperative task, I'd test a human and an agent learning to cover each other's retreat. Save checkpoints of both the policy and world model, then cross-test old/new policies against old/new worlds, with held-out human partners. That helps separate better coordination from a simulator change that simply makes the task easier. Where a reference environment is available, I'd also check whether the behavior survives there.\nSuccess rate alone would miss part of the experience. I'd record whether the agent leaves its partner stranded, recovers when the partner changes plans, and gives the human room to contribute.\nFor persistent AI companions, that distinction matters: growing together should create new ways to cooperate that players can recognize and rely on. Is evaluating this kind of transferable cooperation part of the direction beyond the current combat preview?",
+            "author": "Wyon Liu",
+            "linkedinUrl": "https://cn.linkedin.com/in/wyonliu",
+            "datePublished": "2026-10-22T13:01:59.315Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7512219382182346752",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7508912729643106304,7512219382182346752)",
+            "text": "How do you see Agora-2 evolving as the number of interacting agents scales further? Janelle Wolak",
+            "author": "Alina S.",
+            "linkedinUrl": "https://pk.linkedin.com/in/alina-sehar-",
+            "datePublished": "2026-10-03T18:37:51.000Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7510523469932126208",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7508912729643106304,7510523469932126208)",
+            "text": "A surreal experience! Excited for the future of world models",
+            "author": "Philip Petrakian",
+            "linkedinUrl": "https://www.linkedin.com/in/philip-petrakian",
+            "datePublished": "2026-09-29T02:18:54.012Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7508928355564527616",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7508912729643106304,7508928355564527616)",
+            "text": "Congrats on the launch!! 🚀",
+            "author": "Saubia Khan",
+            "linkedinUrl": "https://uk.linkedin.com/in/saubia",
+            "datePublished": "2026-09-24T16:40:29.110Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7509151494361976832",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7508912729643106304,7509151494361976832)",
+            "text": "LFG",
+            "author": "Chris Corbishley",
+            "linkedinUrl": "https://uk.linkedin.com/in/chriscorbishley",
+            "datePublished": "2026-09-25T07:27:09.545Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": null,
+            "urn": null,
+            "text": "",
+            "author": "The AI Lyceum®",
+            "linkedinUrl": "https://uk.linkedin.com/company/theailyceum",
+            "datePublished": null,
+            "reactionCount": null,
+            "publishedTimeAgo": null
+          },
+          {
+            "id": "7509044248781000704",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7508912729643106304,7509044248781000704)",
+            "text": "congrats Oliver & team! looks super interesting",
+            "author": "Dipam Paul",
+            "linkedinUrl": "https://www.linkedin.com/in/dipamp",
+            "datePublished": "2026-09-25T00:21:00.206Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          }
+        ],
+        "likeCount": 175,
+        "contentUrn": "urn:li:ugcPost:7508912729643106304",
+        "transcript": "These creatures are the result of an astounding new idea that may soon take us from the dog level to super intelligence.",
+        "uploadDate": "2026-09-24T15:38:38.460Z",
+        "activityUrn": "urn:li:activity:7508912791978729473",
+        "description": "Introducing Agora-2, our next-generation multi-agent world model!\n\nAgora-2 supports up to 20 humans and agents interacting inside a shared environment, all simulated in real time.\n\nOur multiplayer research preview is available to try right now. This research preview of Agora-2 enables up to 4 humans to join together to battle 16 agents, in an environment simulated in real time by the world model. There's no game engine under the hood.\n\nGoing forward, we believe multi-agent world models will increasingly power important applications across AI training, AI safety, robotics, autonomous vehicles, defense, energy, cybersecurity, and gaming.\n\nExperience Agora-2 right now!",
+        "commentCount": 13,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQFwNPPOoctMwA/videocover-high/B56aDUEV.OGoBM-/0/1790264307279?e=2147483647&v=beta&t=LJJJGLVFOnoDlI-YW6ANmzL62fXhbfWasym-E2oVwX4",
+        "datePublished": "2026-09-24T15:38:38.460Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/gordon-wetzstein-2406723_video-world-models-are-real-time-multiplayer-activity-7435754509781463040-Dcfu",
+        "name": "Video world models are real-time MULTIPLAYER game engines!\n\nIntroducing MultiGen - a real-time multiplayer game generated entirely by a neural network. MultiGen is a real-time multiplayer diffusion… | Gordon Wetzstein",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5605AQG7b_OmmLFbMA/mp4-720p-30fp-crf28/B56ZzEbS2_IsCM-/0/1772822018404?e=2147483647&v=beta&t=gPoj9Lv_iomdbtHVGQd3nDPxq-Uib362FTVjh-u3NqM",
+        "author": {
+          "url": "https://www.linkedin.com/in/gordon-wetzstein-2406723",
+          "name": "Gordon Wetzstein",
+          "followers": 2416
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7435754738534465537",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7435754467360378880,7435754738534465537)",
+            "text": "The key idea behind MultiGen is a shared external memory that represents the world state across players.\n\nThe memory stores the map layout and active player poses, while each player runs their own Observation and Dynamics modules and reads from the same shared state. This structure is what makes multiplayer natural and, importantly, lets us train a multiplayer model using only data from a single view.\n\nA nice consequence of external memory is that it makes level design natural.\n\nBecause the environment is defined explicitly through a top-down map layout, users can create and edit the world before inference starts, and the model generates first-person observations that stay consistent with that structure.\n\nProject page: https://ryanpo.com/multigen/\nPaper: https://ryanpo.com/multigen/static/pdfs/multigen.pdf",
+            "author": "Gordon Wetzstein",
+            "linkedinUrl": "https://www.linkedin.com/in/gordon-wetzstein-2406723",
+            "datePublished": "2026-03-06T18:34:39.310Z",
+            "reactionCount": 3,
+            "publishedTimeAgo": "8mo"
+          },
+          {
+            "id": "7436811151742672896",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7435754467360378880,7436811151742672896)",
+            "text": "Very cool result Gordon Wetzstein 💪👾",
+            "author": "Mathias Eitz",
+            "linkedinUrl": "https://de.linkedin.com/in/mathias-eitz-2093b649",
+            "datePublished": "2026-03-09T16:32:27.846Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "8mo"
+          },
+          {
+            "id": "7436132299676741634",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7435754467360378880,7436132299676741634)",
+            "text": "incredible progress!",
+            "author": "Achuta Kadambi",
+            "linkedinUrl": "https://www.linkedin.com/in/achuta-kadambi",
+            "datePublished": "2026-03-07T19:34:56.901Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "8mo"
+          },
+          {
+            "id": "7435765853079363584",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7435754467360378880,7435765853079363584)",
+            "text": "This is awesome!!! Congrats 🥳",
+            "author": "Ashley Neall",
+            "linkedinUrl": "https://www.linkedin.com/in/ashley-neall",
+            "datePublished": "2026-03-06T19:18:49.224Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "8mo"
+          },
+          {
+            "id": "7435759843577233408",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7435754467360378880,7435759843577233408)",
+            "text": "Crazy - you guys did it! Amazing",
+            "author": "Otkrist Gupta",
+            "linkedinUrl": "https://www.linkedin.com/in/otkrist-gupta-4a81636",
+            "datePublished": "2026-03-06T18:54:56.447Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "8mo"
+          }
+        ],
+        "likeCount": 119,
+        "contentUrn": "urn:li:ugcPost:7435754467360378880",
+        "uploadDate": "2026-03-06T18:33:44.752Z",
+        "activityUrn": "urn:li:activity:7435754509781463040",
+        "description": "Video world models are real-time MULTIPLAYER game engines!\n\nIntroducing MultiGen - a real-time multiplayer game generated entirely by a neural network. MultiGen is a real-time multiplayer diffusion game engine that supports an arbitrary number of players (not just 2!) through a shared memory-based world model.\n\nSingle-player world models can already be entertaining, but things get much more interesting once the experience becomes shared. MultiGen extends diffusion-based gameplay to real-time multiplayer, where players interact through a common generated world rather than separate isolated rollouts. Here’s a 30-minute timelapse of 4-player gameplay running in real time.\n\nProject page: https://lnkd.in/g8yviiK6\nPaper: https://lnkd.in/gREv3JVM",
+        "commentCount": 5,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQG7b_OmmLFbMA/videocover-high/B56ZzEbS2_IsBc-/0/1772822016904?e=2147483647&v=beta&t=5x7l27Asi4xbTQ5o9XThblNtsz4n6BtOUySdbdZ1Ogw",
+        "datePublished": "2026-03-06T18:33:44.752Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/alliekmiller_ai-agents-shouldnt-run-in-single-player-activity-7475612406845566976-J6Rq",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQFUp2IUucR2gg/feedshare-shrink_800/B4EZ76132eHkAk-/0/1782324887213?e=2147483647&v=beta&t=KC-zWquNVEr4-3WBMU-hkWjbJjqCQK_ggfcQYxI7kVo",
+        "media": "https://media.licdn.com/dms/image/v2/D4E22AQFUp2IUucR2gg/feedshare-shrink_800/B4EZ76132eHkAk-/0/1782324887213?e=2147483647&v=beta&t=KC-zWquNVEr4-3WBMU-hkWjbJjqCQK_ggfcQYxI7kVo",
+        "author": {
+          "url": "https://www.linkedin.com/in/alliekmiller",
+          "name": "Allie K. Miller",
+          "image": "https://media.licdn.com/dms/image/v2/C5603AQFcmNxBigo9_g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1553407141617?e=2147483647&v=beta&t=12thgjmnarHZ7auVNG9I_iUgJyxklVHDvVS2s7j7sfg",
+          "followers": 1682318
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D4E22AQFUp2IUucR2gg/feedshare-shrink_800/B4EZ76132eHkAk-/0/1782324887213?e=2147483647&v=beta&t=KC-zWquNVEr4-3WBMU-hkWjbJjqCQK_ggfcQYxI7kVo"
+        ],
+        "comments": [
+          {
+            "id": "7475874812725276673",
+            "urn": "urn:li:comment:(urn:li:activity:7475612406845566976,7475874812725276673)",
+            "text": "The approval react is the part that decides whether this scales or quietly becomes a rubber stamp. I have run versions of this inside enterprise teams and the failure mode is approval fatigue, by week three people stop reading the draft and just hit the check, which is worse than no gate because now nobody owns the mistake. What held up was promoting tasks from draft-only to auto-complete only after the agent cleared 20 clean runs on that exact task type. Curious how you decide what graduates out of the high-risk bucket, time, error rate, or gut?",
+            "author": "Anees Merchant",
+            "linkedinUrl": "https://ae.linkedin.com/in/aneesmerchant",
+            "datePublished": "2026-06-25T11:37:30.392Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "5mo"
+          },
+          {
+            "id": "7475665281948872704",
+            "urn": "urn:li:comment:(urn:li:activity:7475612406845566976,7475665281948872704)",
+            "text": "The loop-per-person structure is a tidy solve for the handoff problem. Most teams experimenting with AI end up with parallel setups where each person has their own workflow and nothing joins up. Routing through a shared channel with a Chief of Staff layer that knows context across the team is how you get compound value rather than just individual efficiency gains.",
+            "author": "Baljinder Lally",
+            "linkedinUrl": "https://uk.linkedin.com/in/baljinder-lally-11b93585",
+            "datePublished": "2026-06-24T21:44:54.362Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "5mo"
+          },
+          {
+            "id": "7475880207657369600",
+            "urn": "urn:li:comment:(urn:li:activity:7475612406845566976,7475880207657369600)",
+            "text": "This reframes a key gap in AI adoption. The real unlock is not individual agents, but shared systems where work, context, and validation flow across a team.",
+            "author": "Ashley Nicholson",
+            "linkedinUrl": "https://www.linkedin.com/in/ashley--nicholson",
+            "datePublished": "2026-06-25T11:58:56.644Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "5mo"
+          },
+          {
+            "id": "7475772709314916352",
+            "urn": "urn:li:comment:(urn:li:activity:7475612406845566976,7475772709314916352)",
+            "text": "Personal agents are useful, but team-accessible agents are where the real leverage starts.\nOtherwise every person builds their own little AI island and the company never gets the compounding benefit.",
+            "author": "Paresh Deshmukh",
+            "linkedinUrl": "https://www.linkedin.com/in/pareshdeshmukh01",
+            "datePublished": "2026-06-25T04:51:47.041Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "5mo"
+          },
+          {
+            "id": "7475784138113957888",
+            "urn": "urn:li:comment:(urn:li:activity:7475612406845566976,7475784138113957888)",
+            "text": "Allie K. Miller The real opportunity is not individual productivity but shared intelligence. Agent collaboration may become the operating layer that scales expertise across entire teams.",
+            "author": "Reema Singhal",
+            "linkedinUrl": "https://in.linkedin.com/in/reema-singhal-marketing-strategist",
+            "datePublished": "2026-06-25T05:37:11.879Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "5mo"
+          },
+          {
+            "id": "7475714864192311297",
+            "urn": "urn:li:comment:(urn:li:activity:7475612406845566976,7475714864192311297)",
+            "text": "the 'teammates can prompt each other's agents' piece is what most orgs aren't thinking about yet. right now everyone treats their AI setup as personal infrastructure. making it shared changes what's possible at the coordination layer entirely",
+            "author": "Andrew Adams",
+            "linkedinUrl": "https://au.linkedin.com/in/andrew-adams2",
+            "datePublished": "2026-06-25T01:01:55.690Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "5mo"
+          }
+        ],
+        "likeCount": 230,
+        "contentUrn": "urn:li:share:7475612405809541121",
+        "activityUrn": "urn:li:activity:7475612406845566976",
+        "description": "AI agents shouldn't run in single player mode.\n\nSo we changed it.\n\nMost people work in teams, but the more individualistic AI usage gets, the more gatekept its power becomes. So we built agent workforce loops — now my teammates can prompt each other's AI agents (image below).\n\nHow it works (we’re still iterating!):\n- Each core teammate gets a \"loop\" Slack channel (ex: loop-allie)\n- Teammates + Claude Code/Codex are in it\n- Anyone can drop a task in the chat\n- Low-risk: my AI Chief of Staff routes it, completes it, verifies, reacts ✅\n- Higher-risk (sending emails, pulling files): it preps but stops, drafts only\n- I approve by reacting ✅\n- The whole workforce runs on a 15-min loop\n\nEssentially: teammates can prompt another teammate's AI agent workforce.",
+        "commentCount": 126,
+        "datePublished": "2026-06-24T18:14:47.935Z"
+      }
+    ],
+    "query": "AI agents multiplayer game",
+    "cursor": "2",
+    "success": true
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00188",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:42:46.823Z",
+  "started_at": "2026-11-23T07:42:47.272Z",
+  "completed_at": "2026-11-23T07:42:58.120Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

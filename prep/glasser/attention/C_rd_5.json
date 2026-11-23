@@ -1,0 +1,570 @@
+{
+  "id": "43c8919a-6449-426e-96d5-756413b73a60",
+  "run_url": "https://app.glasser.ai/runs/43c8919a-6449-426e-96d5-756413b73a60",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "AI agents training simulation human learns",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "large_result: this response is ~61 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 25,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1rbez5t",
+            "url": "https://www.news18.com/world/training-a-human-takes-20-years-of-food-sam-altman-on-how-much-power-ai-consumes-ws-kl-9922309.html",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/FLfixU6HPQVGtOlMrqLh2wfnAf3SEnna2M61DReWfrs.jpeg?width=140&height=78&auto=webp&s=eb22bdce172d93422ee48bd960b17198f5d06dd7",
+                "type": "photo",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 46937,
+            "title": "\"Training a human takes 20 years of food.\" Sam Altman on how much power AI consumes.",
+            "author": "asdacool",
+            "authorId": "15trp3",
+            "selftext": "",
+            "permalink": "/r/nottheonion/comments/1rbez5t/training_a_human_takes_20_years_of_food_sam/",
+            "subreddit": "nottheonion",
+            "createdUtc": 1771743272,
+            "numComments": 4142
+          },
+          {
+            "id": "1x0lnvs",
+            "url": "https://www.reddit.com/r/antiai/comments/1x0lnvs/one_of_the_saddest_thing_ive_ever_read_on_the/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/mex18aw0f7uh1.jpeg?width=140&height=139&auto=webp&s=1a2cb82149a7cdc7dc9a6e972f93dc49db92f32e",
+                "type": "photo",
+                "width": 140,
+                "height": 139
+              }
+            ],
+            "score": 35333,
+            "title": "One of the saddest thing I've ever read on the bird app....",
+            "author": "inoriacc",
+            "authorId": "4wyx6g4b",
+            "selftext": "AIbros sure are all sociopaths. These people will automate all things that makes human human and then call it innovation. ",
+            "permalink": "/r/antiai/comments/1x0lnvs/one_of_the_saddest_thing_ive_ever_read_on_the/",
+            "subreddit": "antiai",
+            "createdUtc": 1791448579,
+            "numComments": 1732
+          },
+          {
+            "id": "1rgseae",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1rgseae/youre_now_training_a_war_machine_lets_see_proof/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/ntf4zqlnr5mg1.png?width=140&height=134&auto=webp&s=5d8d420498f2259681fda2107579d2f6bcadd71d",
+                "type": "photo",
+                "width": 140,
+                "height": 134
+              }
+            ],
+            "score": 35009,
+            "title": "You're now training a war machine. Let's see proof of cancellation.",
+            "author": "zaxo666",
+            "authorId": "352dwzr9",
+            "selftext": "Yeah, we're all in the death business now that OpenAI has succumbed to the corrupt Department of War. \n\nLet's see proof of your cancellation boys and girls. ",
+            "permalink": "/r/ChatGPT/comments/1rgseae/youre_now_training_a_war_machine_lets_see_proof/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1772250842,
+            "numComments": 2708
+          },
+          {
+            "id": "1wfuerk",
+            "url": "https://www.reddit.com/r/GirlDinnerDiaries/comments/1wfuerk/i_fired_my_therapist_because_she_told_me_to_use_ai/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/e3zsw9km7fph1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=afaf697ca78b0438283f6284a7b5264a50042ddf",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 33643,
+            "title": "I fired my therapist because she told me to use AI",
+            "author": "infernalposting",
+            "authorId": "47hdjkc7",
+            "selftext": "Dinner is trader joes pumpkin gnocchi with butter and pesto, cucumber and tomato salad, and pumpkin sugar cookies (also TJ's). Sadly only got a picture of the pasta. \n\nI have bipolar 1, and recently started seeing a therapist for the first time in over a year. I have been taking my meds and seeing psychiatrists ever since my diagnosis, but I have only intermittently gone to therapy. \n\nWith my most recent therapist, during our very first session she encouraged me to download an AI app to \"talk about my feelings\". I was hoping this was a one off so I kept seeing her. \n\nThen, she sent me a summary of some tools for tracking my bipolar that reeked of AI. Emojis, emdashes, everything. Again, I thought maybe she was just using it to organize her thoughts or maybe I was wrong. \n\nDuring our last session, we did this exercise that felt very rote and weird. I noticed her constantly reading off the computer screen (fair, she could be referencing notes she prepared). But everything felt canned and generic. At the very end of the call, she again encouraged me to \"talk\" with an AI to help manage my disorder. We only had like a minute left of the session so I just said goodnight and left. \n\nIt feels so irresponsible to recommend this as a therapeutic modality to someone who struggles with delusion and psychosis. The risk of falling back into psychosis is not something I take lightly, and I don't want to talk to a machine that will always affirm me. So I sent her an email and cancelled the rest of our appointments. She replied that everything she used was \"HIPAA compliant\" which in my mind affirms that she was using it during our sessions. \n\nI feel good about this decision, but also guilty. I felt like I connected really well with her on a human level, but goddamn I don't want all my innermost thoughts being used to train a machine and possibly involved in some data breach down the line. I am also worried that this could be the beginnings of mania since it felt like a rash decision. I emailed my psych to see if we could do a check in before my appointment later this month to make sure I am still on track. ",
+            "permalink": "/r/GirlDinnerDiaries/comments/1wfuerk/i_fired_my_therapist_because_she_told_me_to_use_ai/",
+            "subreddit": "GirlDinnerDiaries",
+            "createdUtc": 1789363250,
+            "numComments": 162
+          },
+          {
+            "id": "1w5vzbm",
+            "url": "https://www.reddit.com/r/MaliciousCompliance/comments/1w5vzbm/landlord_refused_to_fix_appliances_so_i_sold_them/",
+            "nsfw": false,
+            "media": [],
+            "score": 24849,
+            "title": "Landlord refused to fix appliances, so I sold them",
+            "author": "OzTheMeh",
+            "authorId": "7lwpt0xs",
+            "selftext": "Several years ago we rented a nice house in a nice neighborhood. It came with a laundry room complete with a very premium washer and a gas-dryer. After about a month, the dryer \\*burned\\* a load of laundry... It actually singed and charred the clothes. I immediately took pictures and emailed the landlord to try and recoup the cost of our clothes  ($300?) and have the dryer fixed. He responded:\n\n\\> \"The lease is clear and does not include a washer or dryer. If those appliances are present, they were left from a previous tenant and are not mine. I am not responsible for anything I do not provide which would be documented in the lease.\"\n\nI was pissed and I paid out of pocket for the repairs and to replace the clothes. \n\nAbout three months later, we met a few former tenants and started talking about the house. They actually did quite a few improvements to the home and left the home in better condition than when they moved in, and the landlord still refused to refund their deposit. A neighbor confirmed that he hasn't returned a single deposit and suggested we read the lease to the letter, because the guy was a jerk about everything. Apparently, it was a nice house because of the tenants, not the landlord. \n\nWell, fast forward 10 months to the end of our lease, and I read that thing carefully. \\*\\*I then listed and sold the washer and dryer!!!\\*\\* Not even 2 hours after we turned the keys in, I got an angry voicemail demanding we return his overpriced washer and dryer. \n\nMy response was a simple reply to his email declining his ownership of the appliances:\n\n\\>I received your voicemail and I'm not sure which appliances you are referring to. As you stated, the lease clearly states there was not a washer/dryer included and you confirm that below. The lease also states, \"Tenant is responsible for all reasonable costs incurred by Landlord to remove, haul, store, or dispose of property left behind.” \n\nHe still refused to give us our deposit, for a plethora of other negligible things. But, I still came out ahead because I pocketed about the same as our deposit, the repair costs, the burnt clothes, and maybe $100 for my troubles. \n\n-------------------------\n\nEdit: fixed a typos which redditors can't get past: cinged=singed, her=the\n\n-------------------------\nResponses to the arguments in comments: \n\nThe neighbor lady was very friendly and remained friend with some of the former tenants. She had us over for a BBQ and we met two different sets of former tenants. The neighbors all hated him from when he lived there for the two year minimum. We also learned that the LL had a reputation across town for \"it's not personal, it's business\" and was a was a well known jerk. \n\nYes, premium washers and dryers fetch a high price. Look at Speed Queen resale values. They arent your disposable Whirlpool/Maytag. I have no idea where they came from; his day job was a realtor, so perhaps he got them from a house he bought/sold?\n\nTo the landlords that call me a thief: LL denied ownership in writing and the lease states I would be charged for abandoned property. I was covering my ass by disposing of them. \n\nNo, we didn't go to court here in the Colorado. I honestly doubt 90% of people who say that have ever done so. This was also long enough ago that we wrote down the observed damages instead of pictures, and we clearly missed things. He then hired an expensive forensic-like company to do a full UV scan of the house to document and justify repainting and clean/replace carpet and such. If you haven't seen what a quality short-wave UV light does, you don't understand (it's not that cheap thing you get on Amazon). Now that I am older and wiser, I would fight him on that; back then it scared me. \n\nLots of deleted \"this is AI\" comments... It's not, but I appreciate your fight against the machines. With a fist full of advanced degrees, and having spent 30% of ever working day reading and another 30% writing, I bet they use my content to train the bots. ",
+            "permalink": "/r/MaliciousCompliance/comments/1w5vzbm/landlord_refused_to_fix_appliances_so_i_sold_them/",
+            "subreddit": "MaliciousCompliance",
+            "createdUtc": 1788405965,
+            "numComments": 1219
+          },
+          {
+            "id": "1urzt3k",
+            "url": "https://www.reddit.com/r/MurderedByWords/comments/1urzt3k/ai_is_a_janky_thief_masquerading_as_intelligent/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/w8z98p1x59ch1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=e58056d84119a8371261362b9ca5506dc0f47588",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 19978,
+            "title": "AI is a janky thief masquerading as \"intelligent\".",
+            "author": "Star-Connection",
+            "authorId": "k04ackr1",
+            "selftext": "",
+            "permalink": "/r/MurderedByWords/comments/1urzt3k/ai_is_a_janky_thief_masquerading_as_intelligent/",
+            "subreddit": "MurderedByWords",
+            "createdUtc": 1783624009,
+            "numComments": 341
+          },
+          {
+            "id": "1rzw54v",
+            "url": "https://www.reddit.com/r/ProgrammerHumor/comments/1rzw54v/agentsbeforeaiagentwasathing/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/f229fbxiffqg1.jpeg?width=140&height=136&auto=webp&s=f72e89bf83109c90fbb2a6f6d7642fae79198dee",
+                "type": "photo",
+                "width": 140,
+                "height": 136
+              }
+            ],
+            "score": 18419,
+            "title": "agentsBeforeAIAgentWasAThing",
+            "author": "ClipboardCopyPaste",
+            "authorId": "11hvfv8a3u",
+            "selftext": "",
+            "permalink": "/r/ProgrammerHumor/comments/1rzw54v/agentsbeforeaiagentwasathing/",
+            "subreddit": "ProgrammerHumor",
+            "createdUtc": 1774111277,
+            "numComments": 289
+          },
+          {
+            "id": "1xqyoe0",
+            "url": "https://www.reddit.com/r/pcmasterrace/comments/1xqyoe0/new_ai_data_center_in_the_making/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/sks5lbvl6e0i1.jpeg?width=140&height=104&auto=webp&s=d24480212cca368965d73fa4cd94df5d835c8f29",
+                "type": "photo",
+                "width": 140,
+                "height": 104
+              }
+            ],
+            "score": 17043,
+            "title": "New AI Data center in the making.",
+            "author": "Pertubardo",
+            "authorId": "47d669ke",
+            "selftext": "",
+            "permalink": "/r/pcmasterrace/comments/1xqyoe0/new_ai_data_center_in_the_making/",
+            "subreddit": "pcmasterrace",
+            "createdUtc": 1794145255,
+            "numComments": 253
+          },
+          {
+            "id": "1wl21gv",
+            "url": "https://www.reddit.com/gallery/1wl21gv",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/82snm617jkqh1.jpg?width=140&height=78&auto=webp&s=8dfa4ddbe0697d8cbc7fca1ddadc148fd7260fcd",
+                "type": "photo",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 16660,
+            "title": "Advanced aliens didn't invent/discover this one basic thing.",
+            "author": "HotUKTakes",
+            "authorId": "2g72o13ms4",
+            "selftext": "1. The Santi, from The Three Body Problem, are masters of dimensional engineering. They can build an AI computer the size of a planet, and fold it into the size of a photon.\n\nBut they never invented the concept of lying.\n\n  \n2. The Asgard, from Stargate, are an advanced civilization with FTL travel capable of spanning different galaxies. But they need the help of humans to fight their enemies the replicators, a mechanical lifeform comprised of replicating lego blocks, because human guns can blow the blocks apart, while Asgard energy weapons are just absorbed.\n\n  \nThe Asgard say the idea to use chemical reactions to launch a blunt object at high velocity never occured to them. \n\n  \n3. Despite having the ability to build a simulated beach, complete with simulated earth atmosphere, The Eridians didn't discover relativity and radiation.\n\n4. The aliens from War of the worlds just lick everything, clearly having no concepts of germs. Which is what kills them in the end.\n\n  \n5. Despite having FTL travel, the Havesters from Independence day, never invented network security, as they are hacked by a human macbook.\n\n  \n",
+            "permalink": "/r/TopCharacterTropes/comments/1wl21gv/advanced_aliens_didnt_inventdiscover_this_one/",
+            "subreddit": "TopCharacterTropes",
+            "createdUtc": 1789863529,
+            "numComments": 1882
+          },
+          {
+            "id": "1v2haoc",
+            "url": "https://lostmediawiki.com/The_Three_Railway_Engines_(lost_live_BBC_broadcast_adaptation_of_%22The_Railway_Series%22_books;_1953)",
+            "nsfw": false,
+            "media": [],
+            "score": 15241,
+            "title": "TIL of a live 1953 Thomas the Tank Engine TV special on the BBC in which a model train derailed on air, forcing a human hand to place it back on the tracks while the narrator struggled to improvise. The broadcast is lost, and the only known evidence it aired is a Daily Herald newspaper clipping.",
+            "author": "Giff95",
+            "authorId": "14a6py",
+            "selftext": "",
+            "permalink": "/r/todayilearned/comments/1v2haoc/til_of_a_live_1953_thomas_the_tank_engine_tv/",
+            "subreddit": "todayilearned",
+            "createdUtc": 1784637625,
+            "numComments": 322
+          },
+          {
+            "id": "1uourfw",
+            "url": "https://www.reddit.com/r/ProgrammerHumor/comments/1uourfw/pleasedeleteyourrepository/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/4mqnueolilbh1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=10df9e718064e73c0c037467552f5cbfdddf2f9c",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 15032,
+            "title": "pleaseDeleteYourRepository",
+            "author": "wahed-w",
+            "authorId": "1vfdwhdrr8",
+            "selftext": "",
+            "permalink": "/r/ProgrammerHumor/comments/1uourfw/pleasedeleteyourrepository/",
+            "subreddit": "ProgrammerHumor",
+            "createdUtc": 1783337716,
+            "numComments": 272
+          },
+          {
+            "id": "1xlgmd1",
+            "url": "https://www.reddit.com/r/OneOrangeBraincell/comments/1xlgmd1/for_everyone_who_just_met_me_im_pooh_bear/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/NngwYmN4OGV3MnpoMbwAJIzSQrsJyg8QavdAGGZtVeoZaWtRXxzNaCcQS7di.png?width=140&height=140&crop=1%3A1%2Csmart&format=jpg&auto=webp&s=aa3ef7cb69a442299ded84f1e592e6a63a538c52",
+                "type": "video",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 14982,
+            "title": "For Everyone Who Just Met Me, I’m Pooh Bear! 🐻❤️",
+            "author": "Lost_Night225",
+            "authorId": "2fupqjmfj5",
+            "selftext": "Hi, Pooh fans! It’s me, Cashoh the Pooh, with my assistant typing on my behalf.\n\nWhispers: I know some people have a problem with a human talking as a cat, too… but these big paws can’t type, so here we are. 🤭🐾\n\nSome of you are new here, so I wanted to tell you my story.\n\nI was abandoned in a hotel room with bleeding paws. The shelter took me in and treated me, but later I was scheduled to be put to sleep. I had just one evening left to find someone.\n\nMy assistant went there to rescue another kitty, but that kitty had already been rescued. That’s when the staff told her about me. She didn’t even know I existed.\n\n“I saw the list. He wasn’t on it,” she said.\n\nThey told her they would add me. The lady at the front desk warned her that I hissed a lot and wasn’t a nice cat. She also said that if my assistant ever brought me back, I would be euthanized immediately. I had been labeled aggressive.\n\nWe went home together, both a little scared of each other. I’m a big boy, you know! But the next day, about 15 minutes into spending time together, I made the first move and said hello. That was the beginning of us. \n\nOne day, my assistant shared my photo, and my fans named me Pooh Bear. Ever since then, I’ve been your Pooh Bear. 🐻🧡\n\nNow people from all over the world love me. From having just one evening to find someone to having a whole sea of love..I’m one happy Pooh Bear. \n\nI recently had surgery for entropion, a condition that was badly damaging my eyes. I had already lost some of my vision and could have gone completely blind without surgery. Now I’m healing, with my assistant by my side. \n\nA few people also think I’m AI. I promise I’m real! My assistant used some stupid tools to brighten and sharpen some dark or blurry pictures, and some edits turned into a disaster. Meanwhile, she was happily thinking, “Wow, you can finally see my Pooh!” After people pointed it out, she realized the edits had changed more than she intended.\n\nShe’s still learning the picture part. I’m handling the cute part. \n\nAnd if you’d like to follow more of my adventures, my assistant made me my very own subreddit after my fans asked for one! Come join me at r/CashohThePoohBear..I’ll be waiting with purrs and air biscuits! ",
+            "permalink": "/r/OneOrangeBraincell/comments/1xlgmd1/for_everyone_who_just_met_me_im_pooh_bear/",
+            "subreddit": "OneOrangeBraincell",
+            "createdUtc": 1793572672,
+            "numComments": 194
+          },
+          {
+            "id": "1wdrhsp",
+            "url": "https://www.reddit.com/gallery/1wde5i4",
+            "nsfw": false,
+            "media": [],
+            "score": 14711,
+            "title": "I hate whatever the fuck this is, with my entire soul",
+            "author": "coolfunkDJ",
+            "authorId": "ajcc5",
+            "selftext": "This sub has always been a shithole but it seems like even the comments realize how evil and disgusting this comic is.\n\nShe draws her boyfriend as some sort of caricature who’s short and chubby and with exaggerated features, and publicly shames him for everyone to see. She describes him as the “only viable option” and draws him with a dumb face mispronouncing “I love my girlfriend.”\n\nThis is just absolutely disgusting, she drew 12 pages of this and decided to upload it to the internet instead of just breaking up with him. And she then thought it was a good idea to post it? That tells me everything I need to know about this fucking asshole.\n\nI’ll gladly take PizzaCake over anything of this sort again. I guess she’s right, no one else would wanna date her, because she’s an entitled terrible person. Gah. I need a cold shower.\n\nEDIT: Oh my god the response from the mod is even better, I don't even need to say anything because honestly the joke writes itself here.\n\n>\"All right class, today we're going to have a little lesson in having empathy, because this comment section seems to be struggling with it.\n\n>The girl in this comic is struggling to work through and express complex emotions that she has only begun to examine. Remember, nobody is wrong for having feelings. When someone is working out how they feel about a touchy subject, it can take a lot of rumination to even figure out how you really feel about something and why, especially if the subject is taboo. The person might end up going down trains of thought that they ultimately decide don't quite fit, just to see what feels right. Self-reflection is a very healthy activity when you are having complex emotions. It can be extremely vulnerable to share the kinds of thoughts you have during these times, and people should be applauded for their emotional honesty when they do spell out frankly what they've been thinking.\n\n>It's a natural part of human life to start to realize you might be in a relationship that isn't a good fit for you. Just because there's nothing technically *wrong* in the relationship (i.e. he doesn't hit you), that doesn't mean the relationship is *right*, either. Things can be going pretty much all good, and yet the spark isn't there for some reason. Little things just feel off, but the more you think about those little things, the more you realize those are an important part of a good relationship for you, and you need those little things fixed to feel truly loved and appreciated.\n\n>But it can be hard for people, especially women, to feel comfortable admitting to themselves that those little things justify breaking up with someone. They'll dismiss those little things as trivial, because so often those little things are markers of respect and admiration that women tend to be denied by society at large from the time that they are little girls. Things like having others treat your feelings and opinions as valuable and worth consideration.\n\n>In most cultures in the world, women are socialized to be emotional caretakers and supporters of men, not the other way around. Men are socialized to present their thoughts with confidence; they are raised to feel like they deserve to be listened to. Women are socialized to be the listeners.\n\n>We see this reflected in so many aspects of society. [One clear and easy example of how this socialization manifests is that in the workplace, men tend to dominate conversations while women tend to be more reserved in offering their opinions -- and yet when you ask people to evaluate how much people of either gender were speaking during a meeting, women are often *perceived* to have been dominating the conversation, despite the measurable reality to the contrary.](https://medium.com/swlh/speaking-up-the-double-bind-of-womens-voices-in-business-592b0b56732c)\n\n>There's also [the Matilda Effect](https://en.wikipedia.org/wiki/Matilda_effect) to consider -- the tendency for women's contributions and achievements to be attributed to their male colleagues. [This isn't something that men do intentionally, but rather the product of socialization -- men being encouraged to speak up, while women are encouraged to wait their turn. Men being encouraged to *direct* a team with clear *instructions*, but women encouraged to *guide* a team through her offered *suggestions.*](https://www.forbes.com/sites/womensmedia/2012/12/03/womens-ideas-do-men-intentionally-steal-them/)\n\n>So it can be difficult for women to overcome their socialization and feel like they actually deserve to have their thoughts and feelings considered. And similarly, it can be difficult for men to overcome their socialization and recognize that they aren't putting any effort into listening to and respecting the thoughts and feelings of the women around them.\n\n>Now let's take this a step further. Let's take these issues and examine them as they manifest in an overall pleasant but imperfect romantic relationship. Now we see a man who does not even recognize that he never asks his girlfriend about her thoughts and feelings, and we see a girl who *wants* to have her opinion valued, but she isn't even sure if she *deserves* to expect her partner to listen to her thoughts without her asking. That's not inherently toxic or unfixable. That doesn't make him evil or abusive or even a bad boyfriend for not recognizing a small fault in himself that is a result of a pretty standard upbringing.\n\n>It also doesn't make her a bad person for starting to grow in her own self-worth to the point that she starts to want her partner to value her opinions.\n\n>Many couples who find themselves in this situation will indeed be able to help each other grow and change to fix this kind of issue, with a bit of work and healthy communication, if they are both equally invested in improving the relationship together.\n\n>But then we get to another question: Does it need to be her job to fix him?\n\n>For some women, the answer will be yes, I love my boyfriend, and if he can work on this for me, then I'm willing to work on it with him. I don't mind.\n\n>But for some other women, maybe the stronger answer, the answer that affords them more personal growth and self-actualization, is to say no.\n\n>It's not my job to teach a man how to listen to me. It's not my job to teach a man how to value me. And I deserve a man who values my opinion in the first place.\n\n>Because a woman is worth more than just what she does for a man. A man should want to be with her because of who she is, not just because she's there to support and love him without having needs of her own.\n\n>We don't know where the girl in this comic is going to land on this issue. She needs to figure that out for herself. But whatever she chooses, she is more empowered in her choice because she took the time to consider her own needs, wants, feelings, and values beyond what society tells her she should expect or deserve.\n\n>She's not a bad person for considering whether this relationship is fulfilling her needs, any more than her boyfriend is a bad boyfriend for not recognizing that her needs are going unmet when she hasn't yet communicated them. And when she makes her choice to either stay and try to fix him, or leave and find someone else that doesn't need coaching, neither of those decisions will make her a bad person, either.\n\n>We will be cleaning up comments in this thread that lack empathy for the woman in this comic, especially where they become vitriolic. We are currently being brigaded by many inflammatory users with no prior posting or comment history in this subreddit, and those users' comments will be subject to an even stricter scrutiny than our typical good faith users' comments. If you receive a ban, consider talking the issue out with us in modmail. Some of us mods might see something in you that says we can help you learn and grow.\n\n>Some of us may decide that it's not our job to fix you.\"\n\nGuys is it anti women to critique drawing your significant other as a Chudjak? Please discuss this totally serious argument in the comments below /s\n\nI was also banned for \"organizing a harassment campaign\" btw, harassment is definitely the same thing as criticizing a publicly available post that everyone can see! I wonder if the good mods over at r/comics feel the same about posts that *they* happen to dislike instead.",
+            "permalink": "/r/ihatethissmug/comments/1wdrhsp/i_hate_whatever_the_fuck_this_is_with_my_entire/",
+            "subreddit": "ihatethissmug",
+            "createdUtc": 1789157861,
+            "numComments": 1894
+          },
+          {
+            "id": "1tc0gua",
+            "url": "https://www.reddit.com/gallery/1tc0gua",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/c35b1t6ktw0h1.jpg?width=140&height=140&auto=webp&s=e43fed0f24e79f384e187271b2ac6727b1082439",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 14124,
+            "title": "I love anti ai images that aren't just attacking ai artists",
+            "author": "Namesnowtaken",
+            "authorId": "mfyxvrtp",
+            "selftext": "With the topic of ai, there became a trend of people editing characters to say that ai artists should be killed. Even though I get why they are doing this, I never liked those images as they just spread more hate towards others. So these images by Pizza Mert are some of my favorite anti ai works because they don't only share disagreement, but also share care and encouragement to ai artists to try actual drawing.",
+            "permalink": "/r/lovethissmug/comments/1tc0gua/i_love_anti_ai_images_that_arent_just_attacking/",
+            "subreddit": "lovethissmug",
+            "createdUtc": 1778680688,
+            "numComments": 475
+          },
+          {
+            "id": "1se3raf",
+            "url": "https://www.reddit.com/gallery/1se3raf",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/8tc6l4kwjltg1.jpg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=42d37dd45444f938b0458419cca9ed8eb307147f",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 12996,
+            "title": "Neglected GSD 3-month progress: Stellaluna the Fruit Bat",
+            "author": "figgy2011",
+            "authorId": "6pji2uwc",
+            "selftext": "I’ve been fostering this 6 year old female GSD for 3 months - I wasn’t sure if her coat would fully grow back but look at her! First pic in kennel December 28, second pic now,  followed by her glow-up progression if you swipe through…Amazing what a healthy diet, medicated baths, and love can do.\n\nFruit Bat (not her original name) was owner surrendered after animal citations were issued for neglect. Owner argued nothing was wrong with her :(. She is extremely fear reactive to humans and dogs and may not have made it to the shelter’s adoption floor, but luckily the staff trusts me and let me foster her.\n\nShe is the most undersocialized and reactive shepherd I’ve fostered but we are working through it. She is the sweetest and silliest girl with me. She is learning how to trust other people and animals.\n\nIn Charlotte, North Carolina (USA)\n\nShe’s on Instagram if you want to see more, greenwaygoobers\n\n\\*Editing to add that because a few people asked, if you want to donate anything, I have a GoFundMe started to help with her training costs: [https://www.gofundme.com/f/support-fruit-bats-behavioral-training](https://www.gofundme.com/f/support-fruit-bats-behavioral-training)\n\n",
+            "permalink": "/r/germanshepherds/comments/1se3raf/neglected_gsd_3month_progress_stellaluna_the/",
+            "subreddit": "germanshepherds",
+            "createdUtc": 1775492897,
+            "numComments": 537
+          },
+          {
+            "id": "1xwapee",
+            "url": "https://www.reddit.com/gallery/1xwapee",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/gkpby2l4om1i1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=5dbad0ba9c1c502671998fb92cc377e76469cdba",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 12948,
+            "title": "Why you're seeing less birds",
+            "author": "Friendly_Buddy_3611",
+            "authorId": "hp5cz2l2",
+            "selftext": "Recently I've seen several posts about bird feeders with no activity, with the poster concerned that something has happened to the birds who usually visit. \n\nI asked \"what are you doing to help the adult birds feed their babies?\" and received exactly zero responses.\n\nI think most people, even many who love birds, do not know what baby birds eat.\n\nThey eat insects.\n\n95% of native North American bird species feed exclusively soft-bodied insects to their babies. These birds have one or more nests of chicks from the start of spring on the calendar to about mid-July.\n\nInsects are in crisis due to human activities. (That means baby birds are also in crisis, by default.)\n\nWhy is this the case?\n\n\\-New subdivisions are rapidly gobbling up what's left of the countryside, and spitting out pavement and useless grass lawns:\n\n  \\--The vast majority of insects found in the US are native to North America. Native insects can't use turfgrass, which is from Eurasia. Or paved areas, for that matter.\n\nSad fact: 50 million acres of the US is now under RESIDENTIAL turfgrass. This figure doesn't count roadsides, highway interchanges, golf courses or commercial properties that are also covered in mowed grass. Another 27 million acres have impermeable surfaces covering them. The city limits of cities such as Indianapolis are now nearly 50% covered in these two things alone.\n\nWe continue to have huge losses of natural landscapes due to human development, just for housing. Sadly, commerce uses, especially for upcoming AI purposes, could soon make this loss much worse.\n\nBut here's what compounds the problem for insects and birds exponentially:\n\n\\- Proliferation of non-native, invasive plant species in what is left of our undeveloped areas and roadsides, etc. choking out our native plants.\n\n  \\--Just as Monarch butterfly caterpillars need Milkweed to host on, so too do *native insects need their own particular NATIVE host plants. They can't just switch to some other plant. They need THEIR native plants.*\n\nAnd let's not ignore the willful sickening and killing of insects within those subdivisions:\n\n\\- Spraying or fogging \"for bugs\", \"for mosquitoes\", \"for ticks and fleas and spiders and...\"\n\n  \\-- All of these treatments kill ALL insects, not just the target insects, even those butterflies, caterpillars, bees, fireflies, etc. that land on the yard plants after the treatment is over, or try to eat a treated plant.\n\nIf the insects aren't killed, they are poisoned, and look like an easy meal to a bird trying to feed their babies. They pop that poisoned insect right into their babies' mouths. You can imagine what this does to the nestlings.\n\nI had a Tree Swallow pair have zero fledglings out of two nests last year, because the home next to me was paying for fogging and other treatments. The babies died in the nestbox, each time - I have cameras in all my boxes, and I saw what happened. They were fed, and then they died. (I talked my neighbor into discontinuing the service.)\n\nSo how can we expect to have \"usual\" bird population levels with this amount of pressure on the food they need to feed their babies? \n\nAnd what a toll that takes on the parent birds, who must work harder and travel further to find insects. \n\nMy 80-year-old neighbor is an original owner in our 1960s neighborhood. He wondered aloud to me when we first moved here \"There used to be so many more birds. I wonder where all the birds have gone?\" He asked this as he stood on his deck, looking over his sea of perfect turfgrass.\n\nIn short, if your yard is not a wealth of native plants, and thus a cornucopia of delicious, harmless insects, the birds can't keep trying to live near your house, no matter how well you keep your feeders flowing. They choose territory based on quality for nesting. Some will spend winter somewhere else with better winter food, maybe your yard, but they won't choose your yard permanently unless they can successfully raise their young there.\n\nThe solution is simple:\n\n\\* Grow a large body of native plants, more square feet of them than you maintain of lawn and ornamental plants. Let them stand tall in winter. If you're East of the Rocky Mountains, use Nimblewill (Muhlenbergia schreberi), a no-mow-needed native true lawngrass that also supports Skipper butterflies, instead of Eurasian turfgrasses.\n\n\\* Native trees, especially oaks (Quercus) and wild black cherry (Prunus serotina), support more species of insects than any other plants in eastern North America. Grow these if you can. (Bonus: I had a Cecropia Moth caterpillar on my Wild Black Cherry this year - it was hot dog-sized! See photo.)\n\n\\* Remove all invasive plant species from your land. Many of the plants your grandmothers cherished are the very plants now stealing the land from our native plants in wild places. \n\nThis is hard to hear, but many of your \"Granny\" ornamentals are, in fact, a big part of the problem. Which is more important, Granny's love for the invasive species from Asia, or there being baby birds at all? I hate to say it, but we are at that point. When was the last time you had to clean bugs off your windshield? \n\nIf there aren't enough insects to make you pull over at a rest stop to clean them off, then there aren't enough to feed all the baby birds that should exist on this continent. Will you help them?\n\n\\----\n\nLearn how to convert your yard back to all native plants - without planting anything (or by planting!) - by joining your local Wild Ones chapter and attending their National public seminars. \n\nAnd download and use the Wildr Places App to find native plants for your Ecoregion. \n\nAnd download PictureThis to ID the plants in your yard and see a map of where in the world they are from, so you can remove non-natives, which is the first step.\n\nSincerely,\n\nRegina Santore\n\nPresident, 2026\n\nWild Ones Smoky Mountains Chapter",
+            "permalink": "/r/birdwatching/comments/1xwapee/why_youre_seeing_less_birds/",
+            "subreddit": "birdwatching",
+            "createdUtc": 1794683724,
+            "numComments": 572
+          },
+          {
+            "id": "1pb6nie",
+            "url": "https://www.reddit.com/gallery/1pb6nie",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/WdknANO4RmrO664AAjHHv52hdb3mDrPb9fO4SKzfUvI.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 105
+              }
+            ],
+            "score": 12866,
+            "title": "(11)→(13)→(15)→(25)→(27) | A boy who once hated himself, now becoming a man he can finally be proud of… one day at a time. 💪",
+            "author": "Joyboytings",
+            "authorId": "pcour674",
+            "selftext": "I've been overweight my whole life, always got comments like he's so fat, I'd date him if he were skinny, got called ugly and never thought anyone could ever find me attractive. I had brain surgery in 2015 and had 2 surgeries to get a VP shunt installed to fix a cavernoma that was caused by an accident on a playground in 2009, in which I was being watched every couple of months with MRI's right through to 2015. I had intense headaches for a week straight mid-holiday and eventually convinced my family that it was painful enough we had to get to a proper hospital in the city. I was lucky. The doctor said after my surgery that if I hadn't gotten there in time; I would have been dead the next day.\n\nI was in the ICU for about 2-3 weeks after surgery with no ability to talk or understand anything until eventually my dad once said to me; “son, you’ve got to have the will to live.” Somehow, that moment sparked something. I slowly started understanding things again and began by looking at “yes” and “no” cards. I ended up hospitalized for about 4–6 months, and rehab was another 6 months after that. I had to re-learn how to walk, talk, and basically rebuild my entire life from scratch; all while dealing with an obsession I had over some girl in high school LOL. Enough said there.\n\nAfter rehab, I began my gym journey and after having had a pretty good head start from hospital dropping 10kg, I kept up the momentum and dropped another 30kg, going from 130kg → 90kg total. (I don't have photos of me from then.) After that, I went back to yearly MRIs for the next nine years just to make sure everything stayed stable.\n\nBut then COVID happened, and I let go of myself and ended up in a happy 4-year relationship. During that relationship, I actually gained all the weight back and hit 130kg again. It was rough seeing myself lose my progress after everything I had gone through, but it happens. Life happens.\n\nAfter we mutually ended things (still close friends) because our goals in life were different and we wanted to experience things we never got to, I promised myself that I wouldn’t spiral. I got back into weight training, proper eating, and cardio. I managed to cut all the way back down to 90kg again and now sit around 18–20% body fat. My next goal is to reach 10–12% just because I want to see what I’m capable of and see where it takes me.\n\nI never wanted to live with regret and neither did she. So after the breakup, I told myself I wanted to build my dream body and life I always wanted to enjoy. I'm still not there yet, but every day I'm building toward it. I experience alot of ups and downs as I'm only human. Do I fully know what I want to do? No, absolutely not, but I'm enjoying life every day.\n\nP.S. still struggling with women though.. 😭\n\n  \n**But honestly, I’m proud of how far I’ve come. If there’s anything my journey taught me, it’s that you’re allowed to fall apart and rebuild as many times as it takes. Progress isn’t supposed to be perfect — it’s supposed to be personal. If you’re reading this and feel behind, please don’t count yourself out. You have no idea what future version of you is waiting.**",
+            "permalink": "/r/GlowUps/comments/1pb6nie/1113152527_a_boy_who_once_hated_himself_now/",
+            "subreddit": "GlowUps",
+            "createdUtc": 1764574411,
+            "numComments": 284
+          },
+          {
+            "id": "1tn5s18",
+            "url": "https://www.reddit.com/r/dataisbeautiful/comments/1tn5s18/oc_i_asked_gpt_to_pick_a_random_number_between_1/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/mza5d01nf93h1.png?width=140&height=74&auto=webp&s=cb0cdfb510962108ee4866e530e0f224b5624d15",
+                "type": "photo",
+                "width": 140,
+                "height": 74
+              }
+            ],
+            "score": 12364,
+            "title": "[OC] I asked GPT to pick a random number between 1 and 100",
+            "author": "marco-exmergo",
+            "authorId": "1zhxay8obe",
+            "selftext": "I asked GPT-4.1 to pick a random number between 1 and 100. 10k times.\n\nThis post is an \"AI remix\" of a very popular Reddit post here on r/dataisbeautiful where people were asked the same question: [https://www.reddit.com/r/dataisbeautiful/comments/iiafkd/oc\\_i\\_asked\\_100\\_people\\_to\\_pick\\_a\\_number\\_between/](https://www.reddit.com/r/dataisbeautiful/comments/iiafkd/oc_i_asked_100_people_to_pick_a_number_between/)\n\nPeople also tend to not be very good random number generators.  \nI wanted to see if an AI model has similar biases or if instead it follows statistical rigor.\n\nSome things I found interesting:\n\n* 20, 30, 40 and other multiples of 10 were picked 0 times (except for 10 itself, which was picked once)\n* 42 gets picked 4x expected uniform (Hitchhiker's Guide to the Galaxy reference)\n* Numbers containing the digit 7 get over-picked (and yes, just like humans, 37 gets over-picked)\n* 69 gets under-picked at 0.29x expected uniform (my hypothesis: safety guardrails during GPT's pre-training and post-training)\n\nDefinitely not a random uniform distribution. I ran a chi-square goodness-of-fit test against the uniform distribution and found χ² = 15,604, p ≈ 0.\n\nYou can see the full methodology and code in this open-source repo: [https://github.com/exmergo/research-chatgpt-guesses-between-1-and-100](https://github.com/exmergo/research-chatgpt-guesses-between-1-and-100)\n\nI used the OpenAI SDK to programmatically call GPT-4.1 10k times with the same prompt.\n\nI used GPT-4.1 because it's a non-reasoning model that exposes a temperature parameter. I set temperature = 1.0; that's what makes the model's sampling distribution the thing I'm actually measuring. OpenAI's reasoning models restrict that parameter. It would be interesting to reproduce this experiment w/ reasoning models.\n\nI used Viz, our own chart/dashboard AI Agent for the data visualization: [Exmergo Viz](https://viz.exmergo.com/share/eea2a7b6-82d4-4333-8853-e909d9dabd49)",
+            "permalink": "/r/dataisbeautiful/comments/1tn5s18/oc_i_asked_gpt_to_pick_a_random_number_between_1/",
+            "subreddit": "dataisbeautiful",
+            "createdUtc": 1779706884,
+            "numComments": 819
+          },
+          {
+            "id": "1u40wgr",
+            "url": "https://www.reddit.com/r/Library/comments/1u40wgr/stop_ai/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/57ydavrjtv6h1.jpeg?width=140&height=113&auto=webp&s=41b7c200d9200fe444d32d1472c6c1f5f9873872",
+                "type": "photo",
+                "width": 140,
+                "height": 113
+              }
+            ],
+            "score": 11934,
+            "title": "Stop AI",
+            "author": "ILovePublicLibraries",
+            "authorId": "79hgn4dd",
+            "selftext": "",
+            "permalink": "/r/Library/comments/1u40wgr/stop_ai/",
+            "subreddit": "Library",
+            "createdUtc": 1781283219,
+            "numComments": 29
+          },
+          {
+            "id": "1tzweuo",
+            "url": "https://futurism.com/future-society/professors-incoming-students-dont-understand-math",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/8eNE5lYfvybc4IopDzRNytOJnYXUGR1PiNfNSp7ZdtQ.jpeg?width=140&height=93&auto=webp&s=d9191caabd7f37cac5f5186e240fa1915ae2d3a0",
+                "type": "photo",
+                "width": 140,
+                "height": 93
+              }
+            ],
+            "score": 11916,
+            "title": "WARNING: University Of California Math And Science Professors Have Written A Formal Letter To University Leadership. Warning That Incoming Students Now Arrive With Middle School Level Math Skills, And Asking U.C To Reinstate Standardized Testing Requirements It Dropped During COVID 🤯💥",
+            "author": "InterstellarKinetics",
+            "authorId": "1y4sxqx7ag",
+            "selftext": "Nearly a third of students enrolling in first-semester calculus at UC Berkeley are now displaying what the faculty letter calls “severe preparation deficits,” and professors say they are being forced to reteach middle school mathematics inside courses that are supposed to be preparing students for science, engineering, economics, and other quantitatively demanding fields. The letter, reported by the Wall Street Journal, states directly: “UC has finite resources and can help only so many students,” framing the situation not merely as an academic concern but as a resource crisis in which university instructors are effectively being asked to perform the remediation work that K through 12 education failed to complete, while simultaneously delivering the college-level material those students enrolled and paid to receive. The University of California dropped its SAT and ACT requirements at the onset of the COVID pandemic in 2020, a decision that has since become standard practice across American higher education, with more than 90 percent of colleges now declining to require standardized test scores from applicants.\n\nThe UC professors’ request puts the university in the middle of a genuinely difficult conflict with no clean resolution. The case against reinstatement is well established and data-supported: Harvard-led research found that wealthy, typically white students are thirteen times more likely to achieve high SAT or ACT scores than students from low-income families, largely because rigorous test preparation is expensive and unequally distributed, meaning that reinstatement would functionally advantage applicants with economic resources rather than measuring raw academic ability. But elite institutions have been quietly reversing course regardless: MIT reinstated its SAT requirement in 2022, Harvard and Dartmouth followed in 2024, and Yale reinstated its requirement just last month. UC has explicitly refused to follow that trend, encouraging prospective students to focus on essays, coursework, and extracurriculars instead, and the faculty letter is a direct challenge to that position from within the institution’s own classrooms.\n\nThe AI dimension of the crisis is what transforms this from a familiar debate about admissions policy into something with a different and more urgent character. Grade inflation across American colleges has surged dramatically since the mainstream adoption of ChatGPT and other AI tools, with recent research showing that the share of A grades in courses particularly vulnerable to AI-assisted completion, including humanities and engineering, jumped approximately 30 percent since 2023, meaning that the grades appearing on the high school transcripts of incoming UC students are increasingly untethered from what those students actually learned. At the same time, studies have documented that heavy AI use is specifically linked to impaired critical thinking skills, weakened memory, and measurably lower brain activity in areas associated with creativity and synthesis, with one study finding that students who used ChatGPT to write essays showed lower neural engagement in creativity-related brain regions compared to students who used a standard search engine or no assistance at all. The professors writing to UC leadership are not merely describing a gap between what they expected and what they found. They are describing a feedback loop in which AI enables students to pass courses without learning the underlying material, inflated grades mask that failure from admissions officers, and universities then receive students whose transcripts signal readiness that their actual skills do not reflect.",
+            "permalink": "/r/InterstellarKinetics/comments/1tzweuo/warning_university_of_california_math_and_science/",
+            "subreddit": "InterstellarKinetics",
+            "createdUtc": 1780889068,
+            "numComments": 260
+          },
+          {
+            "id": "1xztoxc",
+            "url": "https://www.reddit.com/r/dwarfposting/comments/1xztoxc/guilds_remember_clans_and_families_forget/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/tst23jkqcg2i1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=015af373cc3e4a349a1066a3fafc7efca259d8fd",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 11294,
+            "title": "Guilds remember, clans and families forget.",
+            "author": "EvergreenDwarf",
+            "authorId": "2duunt05m7",
+            "selftext": "Archeology is far easier when humans are there to provide secondary sources. ",
+            "permalink": "/r/dwarfposting/comments/1xztoxc/guilds_remember_clans_and_families_forget/",
+            "subreddit": "dwarfposting",
+            "createdUtc": 1795043158,
+            "numComments": 107
+          },
+          {
+            "id": "1ra0p50",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/882005/amazon-blames-human-employees-for-an-ai-coding-agents-mistake",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/n9lZJb8R8iQ2IDWIhSXwcCZL5fDrsExFsWY4Uf8boeA.jpeg?width=140&height=72&auto=webp&s=abbe62c3bd6aabd115d5e7eebcccf553b9bbea8d",
+                "type": "photo",
+                "width": 140,
+                "height": 72
+              }
+            ],
+            "score": 11183,
+            "title": "Amazon blames human employees for an AI coding agent’s mistake / Two minor AWS outages have reportedly occurred as a result of actions by Amazon’s AI tools.",
+            "author": "MarvelsGrantMan136",
+            "authorId": "5adwlxvn",
+            "selftext": "",
+            "permalink": "/r/technology/comments/1ra0p50/amazon_blames_human_employees_for_an_ai_coding/",
+            "subreddit": "technology",
+            "createdUtc": 1771606441,
+            "numComments": 473
+          },
+          {
+            "id": "1qcb9rc",
+            "url": "https://www.reddit.com/r/stateofMN/comments/1qcb9rc/report_from_us_citizen_detained_by_ice_in_mn/",
+            "nsfw": false,
+            "media": [],
+            "score": 10361,
+            "title": "Report from US citizen detained by ICE in MN (original post linked in comments)",
+            "author": "iiamuntuii",
+            "authorId": "z5mja",
+            "selftext": "Good morning,\n\nMy name is Brandon Siguenza, and I am a US citizen from Minneapolis. Yesterday, while doing legal observation, ICE stopped their cars to harass my friend and me. They sprayed pepper spray into the vent of our vehicle. We held our hands in the air and told them we were not obstructing, that the car was in park and they were free to drive forward and away. There was no active immigration raid. They returned to their cars, and drove forward a bit, then decided to stop again. They surrounded us, smashed the windows of our car, opened the doors (they were unlocked), ripped my friend and I out of the car and arrested us on charges of obstruction.\n\nI was put in an unmarked SUV, separated from my friend. As I was put in the back seat an ICE agent tore the whistle off my neck and said “I’ll be taking this, I might need it later.” My phone was knocked out of my hand while being arrested. As we drove away I asked the driver and the passenger if they wouldn’t mind buckling my seatbelt, as they were driving erratically. I was ignored. I asked them if I could have the handcuffs loosened, as I was losing circulation, and was told no. At one point the passenger realized his own driver's license was in the backseat next to mine, and tried to surreptitiously grab it without me seeing it.\n\nWe were taken to the Whipple federal building, where I saw dozens of brown people being processed in an unheated garage. I was frisked, told of my charges, and saw buses and vans being prepped. I later learned that these were being filled with detainees and driven to the airport for deportation. As we were led in, I noticed that the building was very busy. I got the impression that one of the 2 agents bringing me around was being trained. At multiple points throughout my stay, government agents were unable to open doors, not sure where they were meant to be going, and overall confused and overwhelmed. They couldn’t figure out how to use the building phones, or complained about a lack of cell service preventing them from checking the internet or making calls.\n\nThe people in the cells were extremely scared. We heard people screaming \"let me out!\", crying, wailing and terrified screams. There were cells with as many as 8 people. I have no way of knowing how long they have been there, if they were allowed any contact with the outside world, or if they were being brought food or water. Most people were staring at the ground with almost no energy. I was not allowed to talk to anyone imprisoned. I distinctly remember seeing a desperate woman. She was staring at the ground with her head in her hands crying, hopeless, while her friend or family member sat on a bathroom seat observed by 3 men.\n\nMy friend and I were put in an area for \"USCs,\" which we eventually learned meant US citizens, separated by gender. We were imprisoned for 8 hours, during which my friend was never allowed a phone call. I was allowed to call my wife and tell her where I was. During my interview with Special Agent William and Special Agent Garcia, they asked me to empty my pockets. When I pulled out gloves, Agent William said those were meant to be taken when I was processed, and complained about having to fill out the form again. He frisked me once more, where he found glass in my pocket from when our car window was shattered. He filled out the form listing my personal items again, but put the wrong date. I was read my rights, I pleaded the fifth and was led back to my cell.\n\nFood, water, and bathroom breaks were extremely difficult to acquire. I would ask over the intercom provided in the cell for a bathroom break, be told someone was on their way, then ask again 20 minutes later, be told someone was on their way, wait another 20 minutes, etc. Eventually they either turned off the intercom or it stopped working, because no one would respond. I could get water and bathroom breaks by pounding on the glass when someone happened to walk by and beg them directly. Hours would go by without anyone checking on us. I am vegan and the only food they offered were turkey sandwiches, fruit snacks with gelatin, and granola bars with honey. I eventually ate a granola bar out of hunger.\n\nI was in the cell alone for between 1 and 2 hours, then another man was put into my cell, whose shirt was ripped open from his arrest, and an injured toe, who was carried aggressively into an unmarked car during his arrest. After about 4-5 hours, another man was brought in who had a cut on his head from his arrest. He told me he was tackled by 4 or 5 agents during his arrest. At no point was he offered medical assistance.\n\nLater I was told that a lawyer was here to see me, and I was able to speak with him in a visitation room. The special agent told me that the door could not be closed all the way, so it was cracked during my interaction with my lawyer. I got the impression that they were not used to having lawyers present, and were trying to follow procedure as best they could. I asked an agent if the other detainees were allowed lawyers and was not answered.\n\nAt one point, 3 men from the department of Homeland Security Investigations brought me into a cell. They insinuated that they could help me out. After inquiring several times what exactly they meant they finally told me that they could offer undocumented family members of mine legal protection if I have any (I don’t), or money, in exchange for giving them the names of protest organizers, or undocumented persons. I was shocked, and told them no.\n\nFinally, after hours of detention, I was told to follow an agent. At no point was I told whether or not I was being charged, or where I was going, but I was led out of the building. I asked if I could use a phone to call my wife to pick me up, and was told I could not. After pleading for several minutes eventually Special Agent William let me use his phone to call my wife. As I was escorted off the property by government agents, I was told to turn right. I was escorted to the protest area, where 5 minutes later, tear gas was deployed and I was struck by a paint ball gun. I was not protesting, I was simply being released without charges after an 8 hour detention. I was on the other side of the street, as instructed by the agents that released me and the agents shouting orders over a bullhorn. A passerby who was tear gassed was panicking and having an asthma attack, so I helped her find a medic to get her an inhaler. I used a stranger's phone to co-ordinate pickup, and was picked up by my wife.\n\nDuring my detention I knew that I was being released. I knew that as a citizen of the United States I have legal protection. The hundred or so other people being detained had no such protection. At this time I don’t need your help, it is the families that are being separated, abused, terrorized, harassed and killed that need your help. If this is happening to me, an American citizen born in the United States, then what is happening to the people in here that have no one calling lawyers on their behalf? That have no constitutional rights to due process? What is happening to the people that they will never be released to see their families, go to their jobs, or walk through their city ever again?\n\nPlease take care of yourselves, your family, and your community. I am safe and healthy, if you feel compelled to help, please offer your help to the Immigrant Defense Network at https://immigrantdefensenetwork.org/. If you know someone detained by ICE, call or text CAIR-MN at 612-206-3360 for 24/7 legal intake.",
+            "permalink": "/r/stateofMN/comments/1qcb9rc/report_from_us_citizen_detained_by_ice_in_mn/",
+            "subreddit": "stateofMN",
+            "createdUtc": 1768357876,
+            "numComments": 295
+          },
+          {
+            "id": "1ualk5r",
+            "url": "https://www.reddit.com/r/TheDigitalCircus/comments/1ualk5r/this_scene_seems_to_be_confusing_alot_of_people/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/i5tsyndltc8h1.jpeg?width=140&height=80&auto=webp&s=1558de9ecca2687f94a772a56ad1ac23bfb17367",
+                "type": "photo",
+                "width": 140,
+                "height": 80
+              }
+            ],
+            "score": 10307,
+            "title": "This scene seems to be confusing ALOT of people, let me explain what happened.",
+            "author": "AidanVEnki",
+            "authorId": "6hof317d",
+            "selftext": "Ok, so this scene with Scratch seems to be confusing a lot, and I mean ALOT of people, so let me try and explain what happened here.\n\n&#x200B;\n\nSo, when Caine finds the WiFi connection, it is shown alongside the Red AI creating Scratch.\n\nWhat people don't seem to realize is that this scene with Scratch is meant to be a flashback, showing Caine first discovering the brain scans. It's why Scratch appears! He's the first human Caine creates using brain scans. Then, paralleling Caine discovering the brain scans, we are meant to see present-day Caine finding the WiFi connection to search the names of the 6 humans.\n\n&#x200B;\n\nEssentially, we are seeing Caine learn about the human world through the WiFi connection in the present, paralleling what Caine first did when he gained control and started creating the circus!\n\n&#x200B;\n\nHope this reaches those who are as confused as I once was when first seeing this scene!\n\n&#x200B;",
+            "permalink": "/r/TheDigitalCircus/comments/1ualk5r/this_scene_seems_to_be_confusing_alot_of_people/",
+            "subreddit": "TheDigitalCircus",
+            "createdUtc": 1781924901,
+            "numComments": 479
+          },
+          {
+            "id": "1wu7c6n",
+            "url": "https://www.reddit.com/gallery/1wu7c6n",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/i2q8pjueaosh1.jpg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=6499975fe0bd0bd23296c22f42c4833bb9444aa0",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 10084,
+            "title": "Meet Atlas. He was once a bait dog, now he's ready to be your best friend.",
+            "author": "DealerBrief1234",
+            "authorId": "ku7al6n5",
+            "selftext": "***UPDATE ON ATLAS:***\n\nI really didn’t expect our last post to get the attention that it did, and I just want to start by saying thank you.\n\nBecause of that post, we received over $350 in donations, which genuinely means so much to our rescue. That money goes directly back into the dogs — emergency medical cases, routine vet care, behavioral cases that need professional training, and sometimes ongoing medications for dogs who need them while they wait for homes.\n\nWe also got several inquiries about Atlas.. and unfortunately every single one has gone cold.\n\nOne person even made plans to get on a call with our team, and then stopped responding after hearing the adoption fee.\n\nI’m not saying that to shame anyone. I understand that people change their minds and that adopting a dog is a huge commitment but it's just hard.\n\nBecause from our side, every time someone reaches out, we get hopeful. We think maybe this is finally it. Maybe this is the person Atlas has been waiting for. And then the messages stop.\n\nMeanwhile, Atlas is still here. Still waiting and still needing someone to actually choose him.\n\nThe original post got so much attention, but attention doesn’t mean much to a dog if it doesn’t lead to a home.\n\nSo I’m asking one more time — please keep sharing Atlas. Even if you can’t adopt him, maybe someone you know can. Maybe one share gets him in front of the right person. He doesn’t need thousands of people to want him.\n\nHe just needs one person to mean it.\n\n**Atlas is still available. ❤**️\n\n**\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_**\n\n***Original Post:***\n\n**Meet Atlas.**  \nThe first photo below is what Atlas looked like when he came into rescue. The rest are Atlas today.\n\nHe came to us in terrible condition, but after medical care, recovery, and a lot of work, he has turned into an incredibly handsome, athletic, affectionate dog who is ready to finally have a home of his own.\n\nAtlas is currently with **SGT Canines in Miami, Florida**. He is **fully vetted, neutered, and recently completed an 8-week board-and-train program.** He walks beautifully on leash, knows his commands, is focused on his handler, and genuinely loves having a person to connect with.\n\nHe is the kind of dog who wants to be your sidekick. Walks, hikes, adventures, training, hanging around the house — he wants to be involved.\n\nA few important things about Atlas:  \nHe does best with **structure, routine, exercise and continued training**.\n\nHe is very people-oriented and bonds strongly with his person.\n\nHe enjoys being mentally and physically challenged.  \nHe can be around other dogs in **controlled, appropriately managed settings**, but he is not a dog-park dog.\n\nWe are looking for an adopter who understands that completing board-and-train isn’t the end of training; maintaining what he has learned matters.\n\nHe is located in **Miami, FL**, although we are willing to discuss the right adopter outside the immediate area.  \nAtlas has already done the hard part. He survived, healed, learned how to navigate the world, and put in the work. What he doesn’t have yet is the one thing we can’t train into him: **his person.**\n\nIf you’re seriously interested in Atlas, message me or apply through **SGT Canines** at [**sgtcanines.com**](http://sgtcanines.com/). And if you aren’t in a position to adopt him, an upvote or share can genuinely help get him in front of the person who is.\n\n**Please ask me anything about him in the comments or a direct message. I know him well, I love him to pieces, and am happy to answer honestly about his personality, training, and what kind of home would suit him.**",
+            "permalink": "/r/pitbulls/comments/1wu7c6n/meet_atlas_he_was_once_a_bait_dog_now_hes_ready/",
+            "subreddit": "pitbulls",
+            "createdUtc": 1790780695,
+            "numComments": 343
+          }
+        ],
+        "nextCursor": "cur_P5RBZCuhYfvFTY-L7DHa4g"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-bison-9321fc54",
+      "kind": "anonymous",
+      "name": "Bison",
+      "artworkKey": "bison"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00035",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:40:34.276Z",
+  "started_at": "2026-11-23T07:40:34.497Z",
+  "completed_at": "2026-11-23T07:40:36.417Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

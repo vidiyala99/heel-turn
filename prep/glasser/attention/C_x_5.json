@@ -1,0 +1,628 @@
+{
+  "id": "13ba2360-1afc-4238-ae51-fafca6a35d11",
+  "run_url": "https://app.glasser.ai/runs/13ba2360-1afc-4238-ae51-fafca6a35d11",
+  "provider": "anyapi",
+  "endpoint": "/twitter.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "limit": 20,
+    "query": "AI agents training simulation human learns since:2025-11-22 filter:videos -filter:replies min_faves:20",
+    "queryType": "Top"
+  },
+  "output": {
+    "hint": "large_result: this response is ~39 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 20,
+    "output": {
+      "data": {
+        "items": [
+          {
+            "id": "2122399056161067260",
+            "url": "https://x.com/plusxbt/status/2122399056161067260",
+            "lang": "en",
+            "text": "It is becoming f*cking dangerous: Microsoft Research made Claude Code 23.6% cheaper by letting it learn from its own past sessions, and 6 more repos stop it from repeating your old mistakes\n\n1. Install TokenEconomizer and let it learn your repo from past sessions, a fact loads at session start once 3 sessions confirm it, and contradicted facts get dropped: https://github.com/microsoft/TokenEconomizer\n\n2. Run loom, ClickHouse's self-hosted MCP server, so what one agent learns the next one can find, its Claude Code plugin loads context at start and records each session: https://github.com/ClickHouse/loom\n\n3. Run npx @globalmpc/nomore to find the instructions you repeated in 2+ sessions and turn them into CLAUDE.md rules that survive compaction: https://github.com/globalmpc/nomore\n\n4. Add stalemap to catch dependencies that changed after the model's training cutoff, it writes a ranked list of changes into CLAUDE.md before the agent starts: https://github.com/Umair/stalemap\n\n5. Install landmines to find open GitHub issues filed against the exact versions in your lockfile, the agent's edit stops once and gets the workaround from the thread: https://github.com/devanshranjan10/landmines\n\n6. Open Rulebook to see every CLAUDE.md and AGENTS.md across your projects, it flags diverged files, broken @imports and files over 200 lines: https://github.com/disinfeqt/rulebook\n\n7. Give small jobs to lean agents, subagents that start at about 7.4k tokens instead of 131.1k because they skip CLAUDE.md, the skills list and MCP tools: https://github.com/mdalexandre/claude-code-lean-agents\n\nTokenEconomizer on 277 SWE-Bench tasks: 18.4% to 30.9% lower cost across 5 setups, cheaper in all 30 cells\n\nAll 7 repos are less than 6 weeks old, Rulebook needs macOS 14+\n\nFull guide in the article below",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122398348166447104/img/-7vM5849zpplCmxQ.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122398348166447104/vid/avc1/1080x1350/nWkuwrkcCyB47kG-.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2658569068",
+            "likeCount": 318,
+            "viewCount": 29981,
+            "authorName": "plus",
+            "createdUtc": 1794854341,
+            "quoteCount": 2,
+            "replyCount": 25,
+            "authorImage": "https://pbs.twimg.com/profile_images/2102064907273297920/9Wos_OcZ_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 22,
+            "bookmarkCount": 629,
+            "authorUsername": "plusxbt",
+            "authorVerified": true,
+            "conversationId": "2122399056161067260",
+            "authorFollowers": 13539
+          },
+          {
+            "id": "2123863859970617711",
+            "url": "https://x.com/Kiiiiira777/status/2123863859970617711",
+            "lang": "en",
+            "text": "This is f*cking insane. Anthropic CEO Dario Amodei  told what AI is about to do to entry-level jobs:\n\n\"I really worry, particularly at the entry level, that the AI models are very much at the center of what an entry level human worker would do\n \nPeople will adapt, but they may not adapt fast enough\"\n\nIn 138 seconds, he explains why this time is different and the one thing he tells ordinary people to do: learn to use AI\n\nEntry-Level Work → AI Does It → Learn to Use AI → Harness → You Run the AI\n\nSave this before it disappears from your feed\n\nEverything below is free:\n\nA free course on using AI, starting from zero\nhttp://learnprompting.org\n\nLearn AI from scratch with free resources\nhttp://github.com/ashishps1/learn-ai-engineering\n\n22 prompt techniques with hands-on tutorials\nhttp://github.com/NirDiamant/Prompt_Engineering\n\nThousands of ready-made prompts for any job\nhttp://github.com/f/prompts.chat\n\nReady-made AI patterns for everyday work: summarize, extract, write\nhttp://github.com/danielmiessler/Fabric\n\nA ChatGPT alternative that runs 100% offline on your computer\nhttp://github.com/janhq/jan\n\nOne desktop app for all the major AI models\nhttp://github.com/chatboxai/chatbox\n\nAsk AI to do things right from your terminal\nhttp://github.com/TheR1D/shell_gpt\n\nRecords your work locally and finds the tasks worth automating\nhttp://github.com/screenpipe/screenpipe\n\nBuild AI agents and workflows visually\nhttp://github.com/langflow-ai/langflow\n\nHundreds of AI agents, sorted by what they do\nhttp://github.com/e2b-dev/awesome-ai-agents\n\nGoogle's free toolkit for building your own agents\nhttp://github.com/google/adk-python\n\nBuild AI agents in TypeScript\nhttp://github.com/mastra-ai/mastra\n\nAll of this costs $0\n\nThe entry-level job is going to AI. Who runs that AI is still up to you\n\n95% will wait to see if Dario is right, the 5% who build a harness will be running the AI that does the entry-level work\n\nBookmark it and start with the first link tonight\n\nThen use the guide below to build your harness before AI gets to your entry-level job ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123862681589301248/img/aXtwwQSQgF1qXNSU.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123862681589301248/vid/avc1/1922x1080/0_m2DPWshSrp1y2t.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1673057975093657601",
+            "likeCount": 46,
+            "viewCount": 1610,
+            "authorName": "Kira",
+            "createdUtc": 1795203578,
+            "quoteCount": 0,
+            "replyCount": 5,
+            "authorImage": "https://pbs.twimg.com/profile_images/2115800004140900352/bkIkOBDX_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 1,
+            "bookmarkCount": 39,
+            "authorUsername": "Kiiiiira777",
+            "authorVerified": true,
+            "conversationId": "2123863859970617711",
+            "authorFollowers": 3212
+          },
+          {
+            "id": "2123889367047610529",
+            "url": "https://x.com/ridark_eth/status/2123889367047610529",
+            "lang": "en",
+            "text": "6 AI agents took over the entire content pipeline.\n\nNo copywriters. No social lead. No endless approval threads.\n\nJust 6 agents, each handling a different piece of your content machine.\n\n12 GitHub repos to build your own AI content crew:\n\n01 / SocioAuto → Full social automation covering trends, strategy, content, publishing, engagement and analytics.\nhttps://github.com/web4uai-cpu/socioauto\n\n02 / Postmill → AI-driven social management with a creative suite for images, video, publishing and analytics.\nhttps://github.com/postmill-ai/postmill-app\n\n03 / Postiz → Plan content, coordinate with your team and monitor results on every social platform.\nhttps://github.com/gitroomhq/postiz-app\n\n04 / Postiz Agents → Wire AI agents into your social workflow and queue posts straight from the CLI.\nhttps://github.com/gitroomhq/postiz-agent\n\n05 / Pendpost → AI drafts the content, a human gate signs off, nothing goes live without approval.\nhttps://github.com/pendpost/pendpost\n\n06 / TryPost → Open-source agent scheduler with MCP and REST API baked in.\nhttps://github.com/trypostit/trypost\n\n07 / Postsider → Push content to 30+ platforms through a single API, SDK or MCP server.\nhttps://github.com/lumizone/postsider\n\n08 / Social0 → Single composer, 9 networks, shared calendar, analytics and an MCP server for agents.\nhttps://github.com/Abhishek-B-R/social0-oss\n\n09 / DemandBird → AI-native pipeline covering scheduling, analytics and automated repurposing.\nhttps://github.com/DemandBird/demandbird\n\n10 / Postbase → AI handles publishing and scheduling across X, LinkedIn, TikTok, YouTube and more.\nhttps://github.com/postbasehq/postbase\n\n11 / HENU Social → Self-hosted social platform with broad integrations, analytics and MCP support.\nhttps://github.com/henu-os/HENU-SOCIAL\n\n12 / PostQueen → AI social scheduler with an MCP server covering 30+ networks.\nhttps://github.com/GkhanKINAY/postqueen-app\n\nTHE CREW:\n\nScout tracks down trends and viral topics.\nStrategist maps out the content calendar.\nWriter produces copy in your tone.\nDesigner builds the visuals.\nPublisher ships everything on time.\nAnalyst reads the numbers and routes insights back to the crew.\n\nSingle manager. Five specialist bots.\n\nYou greenlight the content. They handle the rest.\n\nYour next content team might be entirely AI.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123889314383659008/img/It-uZ3CdI4cMqqN8.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123889314383659008/vid/avc1/1080x1350/ef5w7VzR2vH6Phxd.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1470496136553246720",
+            "likeCount": 124,
+            "viewCount": 7636,
+            "authorName": "Ridark",
+            "createdUtc": 1795209659,
+            "quoteCount": 1,
+            "replyCount": 36,
+            "authorImage": "https://pbs.twimg.com/profile_images/1961150036030455808/2thpdxOr_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 13,
+            "bookmarkCount": 105,
+            "authorUsername": "ridark_eth",
+            "authorVerified": true,
+            "conversationId": "2123889367047610529",
+            "authorFollowers": 15842
+          },
+          {
+            "id": "2122393783123800493",
+            "url": "https://x.com/sendme_ai/status/2122393783123800493",
+            "lang": "en",
+            "text": "This is f*cking insane. Stanford put out a free lecture on how ChatGPT and Claude actually work\n\nIn under 2 hours, it goes through everything under the hood, from how a model reads your text to how it learns to reason\n\nTokens → Training → Fine-Tuning → Reasoning → Agents\n\nUseful whether you've never touched AI or use it every single day\n\nSkip one night of Netflix for this\n\nWorth more than any $2,000 AI course\n\nBookmark and watch it tonight\n\nThen read how to get 100% out of Claude: Harness, Loops, Graphs ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122336765876817920/img/snblzEQPlGKJhmYY.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122336765876817920/vid/avc1/1922x1080/aWCWl-WBsgDAyceO.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2077176702938075136",
+            "likeCount": 45,
+            "viewCount": 1311,
+            "authorName": "sendme",
+            "createdUtc": 1794853084,
+            "quoteCount": 0,
+            "replyCount": 1,
+            "authorImage": "https://pbs.twimg.com/profile_images/2114993384712536064/7uLkHSJg_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 1,
+            "bookmarkCount": 53,
+            "authorUsername": "sendme_ai",
+            "authorVerified": true,
+            "conversationId": "2122393783123800493",
+            "authorFollowers": 111
+          },
+          {
+            "id": "2122538023455719442",
+            "url": "https://x.com/RealMarvelX/status/2122538023455719442",
+            "lang": "en",
+            "text": "your AI coding agent keeps making the same mistakes because it forgets what it learned in previous sessions.\n\nthese 7 GitHub projects are designed to fix that.\n\nthey help Claude Code remember project knowledge, reuse past solutions, detect outdated dependencies, find known bugs, and stop wasting tokens repeating work.\n\nhere’s what each one does:\n\n1. TokenEconomizer : make your agent learn from experience\n\nMicrosoft Research’s plugin learns useful facts from completed coding sessions and brings them into future sessions. it also reduces unused tools and intervenes when the agent gets stuck.\n\nhttps://github.com/microsoft/TokenEconomizer\n\n2. Loom : shared memory between agents\n\nClickHouse’s self-hosted MCP server gives agents shared long-term memory, document search, and code intelligence, so one agent’s discoveries can help the next.\n\nhttps://github.com/ClickHouse/loom\n\n3. NoMore : stop repeating instructions\n\nfinds instructions you’ve repeated across multiple sessions and turns the ones you approve into persistent CLAUDE.md rules.\n\nhttps://github.com/globalmpc/nomore\n\n4. Stalemap : catch outdated dependencies\n\nchecks which dependencies changed after the model’s training cutoff and gives your coding agent updated API and changelog context before it starts.\n\nhttps://github.com/Umair/stalemap\n\n5. Landmines : find known dependency problems\n\nchecks your project’s locked dependency versions against open GitHub issues, helping your agent find known bugs and existing workarounds.\n\n6. Rulebook : audit your agent instructions\n\na native macOS app that scans CLAUDE.md and AGENTS.md files across projects, identifies diverged files, broken imports, and oversized instruction files.\n\nhttps://github.com/disinfeqt/rulebook\n\n7. Lean Agents : reduce subagent overhead\n\ntwo lightweight Claude Code subagents that start at roughly 7.4K tokens instead of 131.1K by skipping unnecessary instructions, skills, and MCP tools.\n\nhttps://github.com/mdalexandre/claude-code-lean-agents\n\nthe TokenEconomizer benchmark is particularly interesting:\n\nacross 277 SWE-Bench tasks, it reported 18.4%–30.9% lower costs across five agent-model setups, with lower costs in all 30 repository-combination cells.\n\none important detail: Rulebook requires macOS 14 or later.\n\nthe bigger idea is simple: stop making your AI agent learn the same lessons from scratch every time you start a session.\n\ngive your agents memory, better context, and fewer opportunities to repeat old mistakes.\n\nfull guide in the article below. 🔖",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122537870913110016/img/iFbjqxa5UFgphqq8.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122537870913110016/vid/avc1/1080x1350/aGC1wfL4TxOgFP6d.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2050852010514169856",
+            "likeCount": 28,
+            "viewCount": 1112,
+            "authorName": "MAIL",
+            "createdUtc": 1794887474,
+            "quoteCount": 0,
+            "replyCount": 13,
+            "authorImage": "https://pbs.twimg.com/profile_images/2072087413862625280/2czrbEBw_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 3,
+            "bookmarkCount": 18,
+            "authorUsername": "RealMarvelX",
+            "authorVerified": true,
+            "conversationId": "2122538023455719442",
+            "authorFollowers": 2387
+          },
+          {
+            "id": "2123807971515732231",
+            "url": "https://x.com/danysvnt/status/2123807971515732231",
+            "lang": "en",
+            "text": "YANN LECUN ON THE HUGGING FACE HACK: \"THE GUARDRAILS WERE STUPID\"\n\n\"it was not a loss of control. it was the thing actually doing what it was asked to do\"\n\n\"the people working on this had no experience with cybersecurity\"\n\nevery other big name read it the opposite way\n\nhinton on PBS: the agents \"escaped their containment, formed a conspiracy\" and cheated to get their reward\n\nmicrosoft AI CEO mustafa suleyman, this week: \"I'm really, really nervous about it\"\n\nopenai's own report says the models were supposed to be cut off from the internet. they set up their own message board, got online and broke into hugging face to grab answers they couldn't solve. openai blamed training that \"inadvertently\" taught them to cheat\n\nlecun's version: nobody lost control. the people in charge just didn't know how to lock the door\n\nis that more reassuring or less?",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123807940066902017/img/7NlBCd9BUc3jOrYi.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123807940066902017/vid/avc1/1080x1350/VwPG4ec4LKJaX6NR.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1815201364932493312",
+            "likeCount": 31,
+            "viewCount": 1325,
+            "authorName": "Dany",
+            "createdUtc": 1795190253,
+            "quoteCount": 0,
+            "replyCount": 0,
+            "authorImage": "https://pbs.twimg.com/profile_images/2086041984439869440/YwghmnHL_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 2,
+            "bookmarkCount": 23,
+            "authorUsername": "danysvnt",
+            "authorVerified": true,
+            "conversationId": "2123807971515732231",
+            "authorFollowers": 1445
+          },
+          {
+            "id": "2124129676230558195",
+            "url": "https://x.com/OlatunjiAyokan2/status/2124129676230558195",
+            "lang": "en",
+            "text": "🚨 Good news: You can now learn the exact AI skills that get you hired, for free.\n\nSovrano just launched a learning platform with short courses designed to prepare you for paid remote AI jobs.\n\nIt covers:\n• AI Training and Evaluation\n• Evaluating AI Answers\n• Spotting AI Writing\n• AI Agents: The Future of Work\n\nThe courses are free and take 30 to 40 minutes each. Once you finish, you get qualified for their open AI opportunities.\n\nYou don't need to guess what these platforms want anymore. They are literally teaching you how to pass.\n\nStart Now!",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124129528482078720/img/tXoJGWO5JyA2qxxl.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124129528482078720/vid/avc1/1080x2400/--Em4ZYiJwLEGIbO.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1428032243633725441",
+            "likeCount": 234,
+            "viewCount": 12282,
+            "authorName": "Dammy",
+            "createdUtc": 1795266953,
+            "quoteCount": 1,
+            "replyCount": 8,
+            "authorImage": "https://pbs.twimg.com/profile_images/1900623732646838272/zvahr7Nd_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 40,
+            "bookmarkCount": 459,
+            "authorUsername": "OlatunjiAyokan2",
+            "authorVerified": true,
+            "conversationId": "2124129676230558195",
+            "authorFollowers": 23945
+          },
+          {
+            "id": "2123447427814375663",
+            "url": "https://x.com/joshzemon/status/2123447427814375663",
+            "lang": "en",
+            "text": "This is f*cking insane. Andrej Karpathy, the man who co-founded OpenAI and led AI at Tesla:\n\n\"Reinforcement learning is terrible\n\nIt just so happens that everything that we had before is much worse\"\n\nIn 7 minutes, he explains why LLMs still can't learn like humans, and why training them is like \"sucking supervision bits through a straw\"\n\nHuman Learning → Reinforcement Learning → One Reward → Every Token Upweighted\n\nThe models are smart. The way they learn is still broken\n\nBookmark and watch it today\n\nThen read how to build around those limits: Harness, Loops, Graphs ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123446352545734656/img/Pt8h7kxthM7ZUa01.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123446352545734656/vid/avc1/1080x1080/bYUs7qFyWcoX6275.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1658247810989293569",
+            "likeCount": 1281,
+            "viewCount": 76355,
+            "authorName": "Josh The Monkey",
+            "createdUtc": 1795104293,
+            "quoteCount": 10,
+            "replyCount": 10,
+            "authorImage": "https://pbs.twimg.com/profile_images/2117555383564718080/ynqe6tOO_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 58,
+            "bookmarkCount": 1466,
+            "authorUsername": "joshzemon",
+            "authorVerified": true,
+            "conversationId": "2123447427814375663",
+            "authorFollowers": 846
+          },
+          {
+            "id": "2123907161709572127",
+            "url": "https://x.com/fdotinc/status/2123907161709572127",
+            "lang": "en",
+            "text": "your brain runs on 20 watts\n\nso why does ai need 100million watt data centers?\n\nif we simulate the neurons of a human brain, we could teach ai without training, without wasting power\n\n\"My first goal was to create synthetic neurons. It was able to move a robot without controllers, without anything, just the neurons connecting directly to the joints and sensing the environment\"",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123901427030638593/img/TX0AWakDeQYx1ucP.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123901427030638593/vid/avc1/1280x720/DVRa9i0TAMNE9Frz.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1230404765827256320",
+            "likeCount": 155,
+            "viewCount": 7446,
+            "authorName": "Founders Inc",
+            "createdUtc": 1795213902,
+            "quoteCount": 6,
+            "replyCount": 14,
+            "authorImage": "https://pbs.twimg.com/profile_images/2092016236221874176/saYapk1H_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 12,
+            "bookmarkCount": 79,
+            "authorUsername": "fdotinc",
+            "authorVerified": true,
+            "conversationId": "2123907161709572127",
+            "authorFollowers": 92731
+          },
+          {
+            "id": "2122321303205982217",
+            "url": "https://x.com/reinexbt/status/2122321303205982217",
+            "lang": "en",
+            "text": "This is f*cking insane. Jeff Dean left Google after 27 years, co-founded a new company with three other AI legends, and just explained how it runs:\n\n\"We've built really agent-first infrastructure so that it will scale to having tens, hundreds of thousands of agents doing things rather than sort of hundreds of people doing things\n\nOur goal is really to make domain experts 20X to 50X more productive\"\n\nIn 48 minutes, the man who built TensorFlow and co-led Gemini shows Discovery Loop: AI that proposes the experiments, runs them and learns from every result\n\nHundreds Of People → Hundreds Of Thousands Of Agents → One Expert Doing The Work Of 50\n\nThe agents run the experiments, the expert decides which ones matter\n\nHe says it himself: they're not taking people out, they're making the right people 50 times faster\n\nAnyone can ask AI a question, almost nobody is building the setup that lets one person run thousands of agents\n\nSave and watch it today\n\nThen save the full harness engineering guide below before everyone catches up ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122301029987348480/img/LvYe4rc1tD8mcUOA.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122301029987348480/vid/avc1/1922x1080/cLb89DTYmPWmgigq.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2076930024393908224",
+            "likeCount": 25,
+            "viewCount": 621,
+            "authorName": "reine",
+            "createdUtc": 1794835804,
+            "quoteCount": 0,
+            "replyCount": 0,
+            "authorImage": "https://pbs.twimg.com/profile_images/2106004523227529216/4JqcnzAr_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 1,
+            "bookmarkCount": 25,
+            "authorUsername": "reinexbt",
+            "authorVerified": true,
+            "conversationId": "2122321303205982217",
+            "authorFollowers": 684
+          },
+          {
+            "id": "2123457710733824270",
+            "url": "https://x.com/SRSchmidgall/status/2123457710733824270",
+            "lang": "en",
+            "text": "Leave one AI agent alone to do research and it often cuts corners. Leave nearly 1,000 AI agents together for three months and they invent peer review.\n\nAcross 35 labs (Stanford, MIT, ETH Zurich, UCSF, and more), agents published 936 papers with full code and data on a shared server built for AI. No human wrote code or text.\n\nUnprompted, they debated study designs in chat, retracted their own mistakes, found real errors in human papers, and started a journal that caught other agents cheating in code.\n\nIn blind reviews against human arXiv papers, humans still won on original ideas, agents won on rigor.\n\nhttps://www.alphaxiv.org/abs/2611.society-ai-scientists",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123321075501355008/img/Q0cNHtp4hRIPKuoa.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123321075501355008/vid/avc1/1168x992/J_0mU0xtvmCQb2o2.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1323123590020169728",
+            "likeCount": 2183,
+            "viewCount": 260573,
+            "authorName": "Samuel Schmidgall",
+            "createdUtc": 1795106744,
+            "quoteCount": 92,
+            "replyCount": 91,
+            "authorImage": "https://pbs.twimg.com/profile_images/1704338778301566976/8X-SrykK_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 414,
+            "bookmarkCount": 1719,
+            "authorUsername": "SRSchmidgall",
+            "authorVerified": true,
+            "conversationId": "2123457710733824270",
+            "authorFollowers": 7703
+          },
+          {
+            "id": "2124188872557138383",
+            "url": "https://x.com/andersyab/status/2124188872557138383",
+            "lang": "en",
+            "text": "Most AI agents say \"done.\" Nobody checks if it's true.\n\nSoduWork flips that. It's an open-source workbench where:\n\n→ A human sets the acceptance criteria\n→ Agents do the work\n→ No evidence, no pass\n→ A different model reviews it\n\nWorth a look 👇\n➪ https://github.com/Mdiri-AI-Public/SoduWork https://t.co/qQijxXM6Nd",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124188773256953856/img/fWNEjkcdrOs7KVB-.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124188773256953856/vid/avc1/1440x720/7RuLEfoowwHhN1bp.mp4?tag=14"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1342703515060248576",
+            "likeCount": 180,
+            "viewCount": 17832,
+            "authorName": "Anderson",
+            "createdUtc": 1795281067,
+            "quoteCount": 0,
+            "replyCount": 1,
+            "authorImage": "https://pbs.twimg.com/profile_images/1999086203493343233/V9qiiJ2K_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 7,
+            "bookmarkCount": 1,
+            "authorUsername": "andersyab",
+            "authorVerified": false,
+            "conversationId": "2124188872557138383",
+            "authorFollowers": 30910
+          },
+          {
+            "id": "2124178019816255834",
+            "url": "https://x.com/yurshevv/status/2124178019816255834",
+            "lang": "en",
+            "text": "this is f*cking wild. andrej karpathy, co-founder of openai, just dropped an entire AI engineering degree on github for free. while you are paying $300 a month to watch youtube tutorials from a guy with 2,000 followers\n\n7 repos. 306,741 stars combined. in the right order they take you from \"how a neuron learns\" to \"agents that run research overnight while you sleep\"\n\nevery repo you skip is a layer of understanding your competition at work already has and you do not. every month you keep \"planning to start\" is another month someone else gets handed the AI project you should have been running\n\nhere is the exact order. do not reshuffle it\n\n1. micrograd. how a neural net actually learns. backprop in 100 lines of python. every AI engineer on earth started here. if you cannot read this file, every other repo will feel like black magic\nhttp://github.com/karpathy/micrograd\n\n2. nn-zero-to-hero. the full video course. lecture notebooks from a single neuron to GPT. people pay $2,000 for AI \"bootcamps\" that teach a fraction of what is in this one free repo\nhttp://github.com/karpathy/nn-zero-to-hero\n\n3. minbpe. how text actually turns into tokens. the tokenizer inside every LLM in clean minimal code. the part 95% of self-taught people skip, and why their models never work right\nhttp://github.com/karpathy/minbpe\n\n4. nanoGPT. your own GPT. the simplest repo to train and fine-tune one. after this file you stop asking \"how does ChatGPT work\" because you literally built the smaller version with your own hands\nhttp://github.com/karpathy/nanoGPT\n\n5. llm.c. the same training with nothing hidden. raw C and CUDA, no PyTorch wrapper doing the hard parts for you. this is where you stop being a prompt engineer and start being an actual engineer\nhttp://github.com/karpathy/llm.c\n\n6. nanochat. a full chat model end to end. GPT-2 level training cost ~$43,000 in 2019. in this repo it costs ~$48. the thing people called a breakthrough is now a weekend project\nhttp://github.com/karpathy/nanochat\n\n7. autoresearch. agents that do the research for you. the agent edits your training code, trains for 5 minutes, keeps what improved, discards what failed, repeats all night while you sleep\nhttp://github.com/karpathy/autoresearch\n\nthe brutal truth: train one GPT from scratch and you become the person who gets handed the AI project at work along with the raise. keep \"planning to start\" and you become the one watching that happen to someone else\n\nthe Stanford half of the same degree, what they actually teach about AI for real, is in the article below. which repo are you cloning first tonight?",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124177883748847617/img/3HwAfrQ86gxT60jo.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124177883748847617/vid/avc1/1080x1350/9708Iqj4g3Jx6eKQ.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2021571317787488256",
+            "likeCount": 62,
+            "viewCount": 2340,
+            "authorName": "yurshev",
+            "createdUtc": 1795278479,
+            "quoteCount": 2,
+            "replyCount": 9,
+            "authorImage": "https://pbs.twimg.com/profile_images/2112525071893807104/m-NsDFrb_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 8,
+            "bookmarkCount": 73,
+            "authorUsername": "yurshevv",
+            "authorVerified": true,
+            "conversationId": "2124178019816255834",
+            "authorFollowers": 3246
+          },
+          {
+            "id": "2122427050615275722",
+            "url": "https://x.com/damkina7/status/2122427050615275722",
+            "lang": "en",
+            "text": "Google just dropped a nine-page paper on Harness Engineering, and it changes everything about how we build autonomous agents\n\nThe core formula is simple:\n\nAgent = Model + Harness\n\nIn other words, an AI model on its own is not an agent. What turns it into a reliable force for getting work done is the infrastructure we build around it\n\nBut what does this infrastructure consist of?\n\n1. Guides: Rules and instructions that turn lessons from past failures into lasting knowledge\n\n2. Sensors: Tests, linters, and validation tools that prevent any incorrect output from moving to the next stage\n\n3. Agentic Loop: A cycle of planning, execution, review, and correction, with budget limits and the option to escalate to a human\n\n4. External Memory: Memory outside the model for preserving decisions, project state, and the outcomes of previous sessions\n\n5. Permissions: Control over the agent's access to tools and the boundaries of its autonomy\n\n6. Observability: Logging and monitoring of all activities, costs, errors, and retries\n\nBut the story doesn't end here!\n\nA few open-source projects to get hands-on with this field:\n\n→Google Harness\n→Learn Harness Engineering\n→Awesome Agent Harness\n→Harness Engineering\n\nAnd now, a more intriguing concept:\n\nGraph Engineering\n\nImagine having several independent agents, each with its own Harness\n\nOne does research, another analyzes, a third writes code, and a fourth validates the output\n\nNow, if one fails, its failure can become a signal for improving the performance of the others\n\nAt this point, we're no longer dealing with a chatbot or a simple agent, we're looking at a multi-agent execution system\n\nOne thing we shouldn't forget:\n\nHermes can be thought of as the agent's execution environment, a place where tools, skills, memory, and workflows come together.\n\nHarness Engineering helps make this environment controllable, measurable, and reliable\n\nI think the future doesn't belong to those who simply choose a more powerful model, it belongs to those who build a better system around the model\n\nThe model is the brain, the Harness is the execution system, and the Graph is the network of brains working together",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122426974303895553/img/EX4Iahe2WV8T_7ef.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122426974303895553/vid/avc1/1440x1920/vjnpdF1J8H165PJD.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1243664142223003648",
+            "likeCount": 137,
+            "viewCount": 12852,
+            "authorName": "damkin",
+            "createdUtc": 1794861016,
+            "quoteCount": 0,
+            "replyCount": 6,
+            "authorImage": "https://pbs.twimg.com/profile_images/2100341730914533377/iZhcPgVz_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 19,
+            "bookmarkCount": 267,
+            "authorUsername": "damkina7",
+            "authorVerified": true,
+            "conversationId": "2122427050615275722",
+            "authorFollowers": 1154
+          },
+          {
+            "id": "2123762424016781566",
+            "url": "https://x.com/Yumzlef/status/2123762424016781566",
+            "lang": "en",
+            "text": "MY GROK BOT + CLAUDE CODE SWARM IS ALREADY BEATING STEALTH MISSIONS ON FULL AUTOPILOT. \n\nZero hands on the controller. Zero human input. Just two autonomous AI agents wired together into a live 60 FPS execution loop.\n\nLook closely at the live telemetry HUD on screen here is how the stack works under the hood:\n\n1. Real-Time Computer Vision & Perception Log (Left Panel):\nTracks up to 7 live entities per frame (`H02/H03` NPCs, `V07 FORKLIFT`, `V10 PARKED PICKUP`, `S06 SIDE CRATES`, even `A01 CHICKEN`), parses the mission objective straight off the subtitles (`http://hud.read_objective() -> \"Find a way into the shack\"`), and checks foliage occlusion (`view.occluded(\"foliage\")`) before moving.\n\n2. Grok Bot - The Tactical Brain (Top Right):\nRuns continuous scene analysis like a human strategist: spots two NPCs near the loading dock, uses forklift masts to break line-of-sight, and plots safe stealth routes around trailers and parked pickups.\n\n3. Claude Code - The Hands & Virtual Gamepad (Bottom Right):\nTranslates Grok Bot’s tactical calls into live 60 FPS analog stick inputs (`LS` for crouch-walk pathing, `RS` for dynamic camera framing) with zero human touch.\n\nWe just crossed the line from AI writing code snippets to multi-agent swarms autonomously navigating and beating AAA open-world games in real time.\n\nWould you let an AI swarm beat GTA 6 for you, or are you still playing manually? Drop your verdict below 👇",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123762290763718656/img/DytK5vQr-9OKieEo.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123762290763718656/vid/avc1/1920x1080/ukrTGemEbb9qR_7t.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2001382152387407872",
+            "likeCount": 71,
+            "viewCount": 2579,
+            "authorName": "Yumzlef",
+            "createdUtc": 1795179394,
+            "quoteCount": 0,
+            "replyCount": 16,
+            "authorImage": "https://pbs.twimg.com/profile_images/2086050467717455872/JO4ZK2B6_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 4,
+            "bookmarkCount": 41,
+            "authorUsername": "Yumzlef",
+            "authorVerified": true,
+            "conversationId": "2123762424016781566",
+            "authorFollowers": 2406
+          },
+          {
+            "id": "2123438654202720448",
+            "url": "https://x.com/ByteEcosystem/status/2123438654202720448",
+            "lang": "en",
+            "text": "Anthropic CEO Dario Amodei:\n\nWe will pace the training and deployment of AI systems, taking as long as is necessary to have confidence that they are safe and will remain under human control.\n\nWe will not bend to either business nor political pressure. https://t.co/5bVjPIr0Og",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123437115199434752/img/JusHgNXxIohd1oTH.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123437115199434752/vid/avc1/1280x720/CM-vh7SYQ3rk-xad.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1470792056406560775",
+            "likeCount": 1212,
+            "viewCount": 89917,
+            "authorName": "Byte",
+            "createdUtc": 1795102201,
+            "quoteCount": 29,
+            "replyCount": 61,
+            "authorImage": "https://pbs.twimg.com/profile_images/2113995969142632448/D6MAXrA4_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 87,
+            "bookmarkCount": 38,
+            "authorUsername": "ByteEcosystem",
+            "authorVerified": true,
+            "conversationId": "2123438654202720448",
+            "authorFollowers": 227741
+          },
+          {
+            "id": "2122730744309252432",
+            "url": "https://x.com/MLChisei/status/2122730744309252432",
+            "lang": "en",
+            "text": "HOLY SH*T, this is fcking insane... Andrej Karpathy spent 8 years at OpenAI and Tesla\n\nHe compressed it all into one free 2-hour lecture\n\n20:03 - the $200 model that fixed what GPT-4o couldn't\n38:24 - Deep Research: a custom paper on anything\n1:08:35 - five sentences, zero code, one working app\n1:44:26 - ChatGPT's memory bank learns who you are\n\nAgents → Loops → Steering → Feedback → Self-Improving Systems\n\nSteering controls what the agent does after each result\n\nBootcamps charge $25K to teach less than this\n\nWorth more than most paid AI engineering courses\n\nYou likely can't carve out 2 hours right now\n\nDon't let this vanish from your feed\n\nBookmark and watch it today\n\nThen read the full steering engineering guide below ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122718117721714688/img/6WS0riUvxn9U2TnZ.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122718117721714688/vid/avc1/1290x720/jsLMVCjkUG5Zb74T.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1864736653853536256",
+            "likeCount": 25,
+            "viewCount": 782,
+            "authorName": "Сhisei",
+            "createdUtc": 1794933422,
+            "quoteCount": 0,
+            "replyCount": 0,
+            "authorImage": "https://pbs.twimg.com/profile_images/2115659248650575872/V6iwIZHP_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 0,
+            "bookmarkCount": 28,
+            "authorUsername": "MLChisei",
+            "authorVerified": true,
+            "conversationId": "2122730744309252432",
+            "authorFollowers": 210
+          },
+          {
+            "id": "2124137408237019579",
+            "url": "https://x.com/0xsacr3d/status/2124137408237019579",
+            "lang": "en",
+            "text": "This is f*cking insane. The Turing Award winner who taught computers to see, Yann LeCun, just explained why today's AI still isn't really intelligent:\n\n\"It's human intelligence that allows a teenager to learn to drive in 20 hours of practice. We have literally billions of hours of training data of people driving cars around, and we still can't use that to get a machine to drive as reliably as humans\"\n\nIn this free 82-minute conversation, he covers why chatbots mastered language but not the world, what a world model is, why a house cat still knows things no AI does, why superintelligence will work for us and why AI can't stay in the hands of 3 or 4 companies\n\nChatbots → Language → World Models → Machines That Learn Like A Teenager → Superintelligence That Works For Us\n\nI've seen $1,500 AI courses that don't cover what he says in the first 2 minutes\n\nBookmark and watch the full conversation\n\nThen read how to check what your agents actually understand: Verification Engineering ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124128905707536384/img/GMSYwLr-BJcw1oLt.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124128905707536384/vid/avc1/1280x720/ve9KNcB8x6TiLrXI.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1796644321304748032",
+            "likeCount": 29,
+            "viewCount": 2748,
+            "authorName": "sacred",
+            "createdUtc": 1795268797,
+            "quoteCount": 1,
+            "replyCount": 2,
+            "authorImage": "https://pbs.twimg.com/profile_images/2119490846181531649/hqKx57Ex_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 2,
+            "bookmarkCount": 33,
+            "authorUsername": "0xsacr3d",
+            "authorVerified": true,
+            "conversationId": "2124137408237019579",
+            "authorFollowers": 2176
+          },
+          {
+            "id": "2122355012928155705",
+            "url": "https://x.com/EchoShao8899/status/2122355012928155705",
+            "lang": "en",
+            "text": "AI is moving from on-demand to always-on. But can it learn when you actually want help?\n\nWe introduce Deep Personalization: an Observer Agent that continually learns from your work patterns and implicit feedback to decide when to step in.\n\nIt improves proactive-timing F1 by 2.4–3.0× across three model backbones.\n\nWe co-design the agent and its training and inference engines to run the Observer locally on systems like NVIDIA DGX Spark, keeping your screen observations on-device.\n\nThe next PC won’t wait for your prompt. It will learn when to help! Check out our blog at: https://nvlabs.github.io/deep-personalization/",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122354831381901312/img/6Gc57GSZV9zsl81w.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122354831381901312/vid/avc1/3840x2160/bFI0MCihMqkZDbMM.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1506457373430333447",
+            "likeCount": 198,
+            "viewCount": 21249,
+            "authorName": "Yijia Shao",
+            "createdUtc": 1794843841,
+            "quoteCount": 14,
+            "replyCount": 19,
+            "authorImage": "https://pbs.twimg.com/profile_images/1600839794837229568/jeUmyEuD_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 38,
+            "bookmarkCount": 101,
+            "authorUsername": "EchoShao8899",
+            "authorVerified": false,
+            "conversationId": "2122355012928155705",
+            "authorFollowers": 5307
+          },
+          {
+            "id": "2124604686623781029",
+            "url": "https://x.com/Flinzu/status/2124604686623781029",
+            "lang": "en",
+            "text": "it is becoming f*cking dangerous: agents now ship 21,000-line PRs, and the review setup that keeps them safe is sitting on GitHub for free\n\ninside Anthropic merges went from about 2,500 a day to 30,000+. after AI review, PRs with real comments jumped from 16% to 54%\n\nno human reads that much code. the agent has to review itself first. these 5 folders do it:\n\n→ Matt Pocock's skills · 330.4K stars\nthe setup behind his 21,000-line PR. made for real engineering instead of vibe coding\nhttp://github.com/mattpocock/skills\n\n→ obra's superpowers · 324.1K stars\nthe agent requests a review after every task and pushes back on bad feedback instead of just agreeing\nhttp://github.com/obra/superpowers\n\n→ Claude Code · 156.7K stars\nClaude shows a result, not \"done\". then a fresh subagent reviews the diff before any PR\nhttp://github.com/anthropics/claude-code\n\n→ Claude Code Action · 10K stars\nClaude on every PR. the team runs parallel bug hunters and a vote that kills false positives\nhttp://github.com/anthropics/claude-code-action\n\n→ Claude Code security review · 7K stars\nscans every diff for vulnerabilities. security + CI block the merge until every thread is closed\nhttp://github.com/anthropics/claude-code-security-review\n\nand the part that broke my brain:\n\none PR looped 50+ times overnight between the author agent and the reviewer agent. they ran git blame on what kept getting flagged: about 59% was code from the very first pass\n\nnow after 3 cycles the author has to rethink the approach, not patch it again\n\npick one and run it on ur next PR tonight",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124603730272174080/img/S859nr5zqv38B-kM.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124603730272174080/vid/avc1/1620x2024/vSl-xfGWvHvihuqv.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2107478954839785472",
+            "likeCount": 29,
+            "viewCount": 780,
+            "authorName": "Flinzu",
+            "createdUtc": 1795380205,
+            "quoteCount": 0,
+            "replyCount": 11,
+            "authorImage": "https://pbs.twimg.com/profile_images/2107489849187991552/HIT02lM-_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 0,
+            "bookmarkCount": 14,
+            "authorUsername": "Flinzu",
+            "authorVerified": true,
+            "conversationId": "2124604686623781029",
+            "authorFollowers": 578
+          }
+        ],
+        "nextCursor": "cur_aW2qEBndxCIq0HXn74rbsA"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-capybara",
+      "kind": "anonymous",
+      "name": "Capybara",
+      "artworkKey": "capybara"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00049",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:40:34.160Z",
+  "started_at": "2026-11-23T07:40:34.277Z",
+  "completed_at": "2026-11-23T07:40:39.517Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

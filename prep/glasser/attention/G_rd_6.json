@@ -1,0 +1,256 @@
+{
+  "id": "7a1345cf-e093-4ba7-91d6-5a992228282d",
+  "run_url": "https://app.glasser.ai/runs/7a1345cf-e093-4ba7-91d6-5a992228282d",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "AI agents trade ally betray game",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "large_result: this response is ~20 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge. paging_unavailable: this result came from a source that cannot return a nextCursor, so it may be incomplete and there is no way to continue from here. Re-run with `requireFields: [\"nextCursor\"]` to be served only by a source that can page, which may cost more per request.",
+    "items": 7,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1raud02",
+            "url": "https://i.redd.it/7tcz03ulbvkg1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/7tcz03ulbvkg1.jpeg?auto=webp&s=4f01215e385022dd58851e494b46b45c558f087f",
+                "type": "photo",
+                "width": 1080,
+                "height": 1332
+              }
+            ],
+            "score": 23104,
+            "title": "Xbox to win the console war, this is clearly a good idea with zero chance of anything bad happening",
+            "author": "RadiantZote",
+            "authorId": "gvwek9bj",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/Gamingcirclejerk/comments/1raud02/xbox_to_win_the_console_war_this_is_clearly_a/",
+            "subreddit": "Gamingcirclejerk",
+            "createdUtc": 1771688789,
+            "isArchived": false,
+            "numComments": 1790
+          },
+          {
+            "id": "1s5vgt9",
+            "url": "https://www.reddit.com/r/kingdomcome/comments/1s5vgt9/other_fired_from_warhorse_studios_and_replaced/",
+            "nsfw": false,
+            "media": [],
+            "score": 22668,
+            "title": "[OTHER] Fired from Warhorse Studios and replaced with AI",
+            "author": "ThousandDemons",
+            "authorId": "bjdk3",
+            "isLocked": false,
+            "selftext": "Hey everyone,\n\nMy name is Max H, and I've been working at Warhorse Studios since July 2022 as a Czech>English translator and editor. I primarily worked on KCD2 and its DLCs, including dialogues, quest logs, item names, and various other things, as well as some occasional marketing materials here and there. Simply put, if you've ever played KCD2 in English, you've quite likely seen my work. \n\nYesterday, March 27th 2026, with no forewarning, I was invited to a meeting and promptly told that, in an effort to \"make the company more effective\" and \"save finances\", as of next month, my position at the company would become \"obsolete\" in favour of using AI for all translations going forward. This came as a huge shock to me, as though the discussion about using AI for translating had frequently come up in the past, something I was always strongly and vocally against, but never to the extent that it might actually cost me my job in the future. It had, of course, crossed my mind many times, but I naively thought my work at WHS was valued enough that I might not be at immediate risk.\n\nI feel incredibly betrayed by the management of the company I've come to care about greatly these past almost 4 years, and am heartbroken I won't get to see my friends and colleagues at the office every day.\n\nI want you to know that the growing use of AI greatly affects people in the games industry and many others, and I thought you should know how much the company that makes the games you love value the work of their employees, not to mention the environment.\n\nTo any of my now-former colleagues reading this, I wish you all the best, and strongly hope none of you finds yourselves in the same position as me. \n\nTo all management at Warhorse, I won't be breaking my NDA, of course, nor am I looking for my job back or to start legal issues, but you can be damn sure I won't keep quiet about my experience. \n\nTo anyone else reading, thanks for making it this far, and if you have any questions, feel free to ask. I'll do my best to answer them if I can.\n\nEDIT: This got a lot more comments a lot sooner than I thought. \nMany thanks to everyone showing their support, it's a bit overwhelming to tell the truth, but just know that I truly appreciate <3\nTo those who doubt the truthfulness of this post, all I can say is I understand it's hard to believe everything you read online, but everything I said here is true. I've verified my LinkedIn with one of the mods here, and would post my notice of termination here, but I'm not sure if it's legal to do so without breaking my NDA, so I'll err on the side of caution.\nWhile I can't legally confirm or deny whether or not Warhorse is working on anything at the moment, I will say that while much slower than usual, I did in fact have work to do, and was laid off near the end of a normal work day during which I was completely oblivious to what was coming.\nI'm going to go out and touch some grass for a while, but will check back in later and answer some questions.\nThanks for reading everyone and all the best <3\n\nEDIT 2: PLEASE don't harass anyone from WHS or review bomb their games on Steam, that isn't my intention at all. All I want is for people to be more informed about what's going on it the games industry behind closed doors.",
+            "permalink": "/r/kingdomcome/comments/1s5vgt9/other_fired_from_warhorse_studios_and_replaced/",
+            "subreddit": "kingdomcome",
+            "createdUtc": 1774688752,
+            "isArchived": false,
+            "numComments": 2731
+          },
+          {
+            "id": "1ui6bxd",
+            "url": "https://www.reddit.com/r/nba/comments/1ui6bxd/plaschke_kawhi_was_the_worst_freeagent_signing_in/",
+            "nsfw": false,
+            "media": [],
+            "score": 13861,
+            "title": "[Plaschke] “Kawhi was the worst free-agent signing in LA sports history. He has abused an organization, alienated a fan base and basically collected nearly $300 m of Ballmer’s money and burned it. He has been injured, apathetic,entitled, disconnected and generally nothing but a pain in the backside”",
+            "author": "shreeharis",
+            "authorId": "xoijg7h",
+            "isLocked": false,
+            "selftext": "Source: https://www.latimes.com/sports/lakers/story/2026-06-28/clippers-kawhi-leonard-was-worst-free-agent-signing-la-history\n\nSeven years later, I’m asking the same question, only it sounds vastly different.\n\nKawhi Leonard? Are you kidding me?\n\nSeven years later, Leonard has abused an organization, alienated a fan base and basically collected nearly $300 million of Steve Ballmer’s money and burned it.\n\nSeven years later, he has been injured, apathetic, entitled, disconnected and generally nothing but a pain in the backside for a reenergized franchise that deserved so much better.\n\nAs the Clippers stare down another offseason Leonard dilemma — he’s in the middle of this Aspiration mess and in the final year of his contract — one thing is clear.  \nKawhi Leonard was the worst free-agent signing in Los Angeles sports history.\n\nHe’s more lame than Anthony Rendon, who signed a $245-million deal with the Angels in 2019 and basically didn’t play again.\n\nHe’s more disheartening than Jason Schmidt, who signed a three-year, $47-million contract with the Dodgers in 2007 and appeared in all of 10 games.\n\nHe’s more frustrating than Allen Robinson, who signed a three-year, $46-million deal with the Rams in 2022 and appeared in 10 total games.\n\nHe’s even a bigger joke than the Lakers’ Bust Twins, Timofey Mozgov and Luol Deng, who both signed big-money deals in 2016 and barely made a single impact play while being essentially kicked off the team within two seasons.\n\nLeonard has been that disappointing. Leonard has been that destructive. Even accounting for his on-court resurgence over the last 18 months, Leonard has been that damn bad.\n\nWhere does one start? How about at the start?\n\nEven before he officially signed, Leonard made the Clippers worse. Remember, the only reason he joined them is because they traded for Paul George at the same time. He wasn’t coming without his buddy, and so the Clippers had to do cartwheels to complete the deal in conjunction with signing Leonard.\n\nThose gymnastics landed the Clippers flat on their backs, as the George trade will be remembered as one of the most one-sided deals in NBA history, the Clippers sending future MVP Shai Gilgeous-Alexander and five first-round draft picks — five! — to Oklahoma City.\n\nWhile the Thunder were becoming NBA champions, the Clippers had trouble getting Leonard and George to even play together. During their five seasons as teammates they appeared on the court together less than half the time.\n\nLeonard didn’t seem to care. From the moment he joined the team, under the direction of his powerful uncle Dennis Robertson, Leonard made it clear that this was all about Kawhi, his needs, his demands, his team.\n\nHe wanted the Clippers to hire some members of his support staff. He wanted to skip media obligations and community events. He didn’t want to live in Los Angeles, instead commuting from San Diego County. And he didn’t want the Clippers to follow the NBA’s transparency rules involving injuries. They were basically told to never talk about Leonard’s nagging injuries\n\nWhen they needed him most, he wasn’t there, and for seven long seasons he’s rarely been there, avoiding the media and distancing himself from the community and basically behaving like a selfish basketball mercenary who has taken the best intentions of a desperate franchise and exploited them at every angle.\n\nThe Clippers were sued twice over their initial attempts to sign him. They have been fined by the NBA for trying to protect him. They have been accused of trying to circumvent the salary cap by giving him a $28-million endorsement deal through a failed green banking company named Aspiration.\n\nThe Clippers might have a hard time trading him until the Aspiration scandal is resolved by the NBA. They should try to trade him anyway. The one year remaining on his contract is one year too many.\n\nMan, I’d like that margarita back.",
+            "permalink": "/r/nba/comments/1ui6bxd/plaschke_kawhi_was_the_worst_freeagent_signing_in/",
+            "subreddit": "nba",
+            "createdUtc": 1782674923,
+            "isArchived": false,
+            "numComments": 1422
+          },
+          {
+            "id": "1x51qoo",
+            "url": "https://www.reddit.com/gallery/1x51qoo",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/6nvdc7hxj9vh1.jpg?width=737&format=pjpg&auto=webp&s=aca49f995838359b777aa6fcfd20cfb30ec397bb",
+                "type": "photo",
+                "width": 737,
+                "height": 416
+              },
+              {
+                "url": "https://preview.redd.it/ogeo57kxj9vh1.jpg?width=434&format=pjpg&auto=webp&s=c013c1fb0e35ad6a498d5bbc9f377ec2b1175525",
+                "type": "photo",
+                "width": 434,
+                "height": 244
+              },
+              {
+                "url": "https://preview.redd.it/ifzhs8mxj9vh1.jpg?width=783&format=pjpg&auto=webp&s=a47458caa4ffb7ce042468f7312bdb7edfad6f84",
+                "type": "photo",
+                "width": 783,
+                "height": 391
+              },
+              {
+                "url": "https://preview.redd.it/nbukdhpxj9vh1.jpg?width=554&format=pjpg&auto=webp&s=1d987f602a04482ebbf43e4eca3ce473b23f9440",
+                "type": "photo",
+                "width": 554,
+                "height": 554
+              }
+            ],
+            "score": 13441,
+            "title": "The story try to make us think this moment is some great dilemma for the characters but one of the options is obviously better than the other if you have above room temperature IQ",
+            "author": "Routine_Phase_8980",
+            "authorId": "24xbwbq3hp",
+            "isLocked": false,
+            "selftext": "&#x200B;\n\nLife is Strange (Save Chloe vs. Save Arcadia Bay): At the climax, Max is forced to choose between sacrificing an entire town full of innocent people, families, and children to a massive storm, or letting Chloe die. The game plays sad music and forces you to agonize over the choice. Chloe is a walking disaster magnet who has already almost died 4 or 5 times in a single week due to her own reckless behavior (like getting her foot stuck in a train track or accidentally shooting herself). Destroying a whole ecosystem and killing thousands of people just to save one girl who has a literal cosmic death warrant on her is a completely lopsided, nonsensical choice\n\nMaleficent (Stefan's Choice): Stefan is given a choice between staying with Maleficent literal immortal, breathtakingly gorgeous fairy queen with god-like magic who genuinely loves him or betraying her to become a human king during THE MEDIEVAL ERA where people live for like 30 years. The movie frames this as a tragic sacrifice for ambition. But under a real-world lens? He gave up magic and a literal utopia just to sit on a cold stone throne, rule over a dirty, disease-ridden medieval kingdom, and spend his short human life suffering from extreme paranoia and assassination plots. It is objectively the stupidest trade-off in cinematic history.\n\nThe Last of Us Part I (Joel's Final Choice): The game and show try to present this as the ultimate tragic dilemma to save the human race by letting the Fireflies dissect Ellie’s brain, or slaughter the hospital to save her. But realistically the Fireflies are a failing, incompetent terrorist militia operating out of a dirty, unsterile hospital. They have zero infrastructure to mass-produce or distribute a vaccine globally. Sacrificing the only immune person on Earth to a bunch of desperate amateurs is a terrible medical decision. Joel rescuing Ellie was the only logical choice.\n\nGTA V (Ending A vs Ending B): Excluding the \"Deathwish\" ending where everyone lives, the game tries to frame Option A (Kill Trevor) and Option B (Kill Michael) as a heartbreaking choice of loyalty. But it’s completely lopsided. Michael is Franklin's mentor, the man who got him out of the hood, made him rich, and has a family depending on him. Trevor, on the other hand, is an unhinged, cannibalistic, meth-dealing psychopath and a literal ticking time bomb who murders people for no reason. Killing Trevor is a necessary community service; killing Michael is a sociopathic betrayal. There is no real debate here.",
+            "permalink": "/r/TopCharacterTropes/comments/1x51qoo/the_story_try_to_make_us_think_this_moment_is/",
+            "subreddit": "TopCharacterTropes",
+            "createdUtc": 1791909836,
+            "isArchived": false,
+            "numComments": 4361
+          },
+          {
+            "id": "1t698wd",
+            "url": "https://www.reddit.com/gallery/1t698wd",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/mz1czsfpmpzg1.jpg?width=915&format=pjpg&auto=webp&s=4ade88530a54eeca7d9b4720930a3daaa1c29519",
+                "type": "photo",
+                "width": 915,
+                "height": 960
+              },
+              {
+                "url": "https://preview.redd.it/acebrlhpmpzg1.jpg?width=1080&format=pjpg&auto=webp&s=8d7cc852ae6ed882198ea915f750bc8afeb2af73",
+                "type": "photo",
+                "width": 1080,
+                "height": 813
+              },
+              {
+                "url": "https://preview.redd.it/0wa72fipmpzg1.jpg?width=1280&format=pjpg&auto=webp&s=de386447f2a7f7820f8ad1637cdf70534737f9e2",
+                "type": "photo",
+                "width": 1280,
+                "height": 960
+              },
+              {
+                "url": "https://preview.redd.it/gad94djpmpzg1.jpg?width=3024&format=pjpg&auto=webp&s=aa99437523b59eb69b80dde67a705244164d53de",
+                "type": "photo",
+                "width": 3024,
+                "height": 4032
+              },
+              {
+                "url": "https://preview.redd.it/by7iezkpmpzg1.jpg?width=1536&format=pjpg&auto=webp&s=0333ca87e6d8ace63f7dacabc96250a984b80ede",
+                "type": "photo",
+                "width": 1536,
+                "height": 2048
+              },
+              {
+                "url": "https://preview.redd.it/bjilmcmpmpzg1.jpg?width=1440&format=pjpg&auto=webp&s=45fce5a9bc452d20db6656b4950625e0bf0dd47d",
+                "type": "photo",
+                "width": 1440,
+                "height": 1440
+              }
+            ],
+            "score": 11889,
+            "title": "For what would have been our son's first birthday, we had birthday messages at six MLB stadiums yesterday",
+            "author": "jawarren1",
+            "authorId": "sxbvd",
+            "isLocked": false,
+            "selftext": "My wife and I are huge baseball (and Orioles!) fans. We go to at least a dozen games a year, including attending two games last year when my wife was pregnant with our son, Owen. There were complications late in the pregnancy and Owen was stillborn on May 6th, 2025.\n\nIn the lead-up to what would have been his first birthday, my wife and I contemplated different ways to honor Owen's memory. We kept coming back to baseball, as it was something we both love and had hoped to share with Owen. My wife secured scoreboard messages for his birthday at six MLB parks yesterday, including the ballparks for the Angels, Tigers, Royals, Yankees, Cardinals, and the Marlins, who happened to be hosting our Orioles.\n\nMy wife and I reached out to baseball fans asking for photos of the birthday messages at these six ballparks. The response was overwhelming, and we also received direct responses from several of the teams with photos, condolences, and kind messages.\n\nThe healing capacity of sports in general - and baseball specifically - cannot be overstated. As we have navigated the grief over the loss of our son this past year, baseball has time and again provide us an escape, a support system, and a community we wouldn't trade for anything.\n\nMy wife and I wanted to share this post in the hopes that it helps even just one person struggling with grief, loss, pregnancy loss, or any other difficult circumstances. My wife and I were devastated when we learned of the death of Kayla and Alex Vesia's daughter Sterling during last year's World Series. The loss hit us pretty close to home. We hope they have gotten the support from the baseball community that we have experience from the fan community.\n\nThank you all for supporting your fellow baseball fans. You never know what someone else is going through, and we could all use more support and encouragement in our lives. Happy birthday, Owen.\n\nTremendous thanks to the team representatives from the Angels, Cardinals, Tigers, Marlins, Royals, and Yankees who reached out to us with photos and kind messages, as well as to the following users for help with photos. I only posted a handful of photos here, but we received so many and saved them all! \n\nu/MysteriousJuly\n\nu/Shereste\n\nu/gottagolast\n\nu/krash87\n\nu/Tim5000\n\nu/alexlegit\n\nu/nolesfan89\n\nu/johngar67\n\nu/dakid24167\n\nu/calhap\n\nu/professional\\_feed268\n\nu/ChannelSuccessful642\n\nu/Connect-Medicine9631\n\nu/Particular-Form7433\n\nEDIT: Just wanted to clarify about the \"AI-Generated Content\" watermark from the photo at Busch Stadium. I edited out one of the betting sponsors from the outfield wall. I have a Samsung Galaxy phone which automatically adds this watermark. No other edits were made to this or any other photos in this post. ",
+            "permalink": "/r/baseball/comments/1t698wd/for_what_would_have_been_our_sons_first_birthday/",
+            "subreddit": "baseball",
+            "createdUtc": 1778157342,
+            "isArchived": false,
+            "numComments": 292
+          },
+          {
+            "id": "1q7y4mv",
+            "url": "https://i.redd.it/mnf7gzy409cg1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/mnf7gzy409cg1.jpeg?auto=webp&s=8799e95a45e918da435549cbfef2947f135dffde",
+                "type": "photo",
+                "width": 5712,
+                "height": 4284
+              }
+            ],
+            "score": 8073,
+            "title": "Signed a lease for a rental and got given this as a gift from the property manager. Honestly dumbstruck.",
+            "author": "Sneaky_Cheese",
+            "authorId": "hbs4k",
+            "isLocked": false,
+            "selftext": "Monopoly is a game where the whole point is to buy property and bankrupt people through ever-increasing rent. It’s an edition that is made for my suburb, so that way it feels even more real! I swear real estate agents don’t think about things for more than 15 seconds.\n\nEdit: Its not that deep and honestly me and my friends had a laugh about how tone-deaf it was more than anything. ",
+            "permalink": "/r/australia/comments/1q7y4mv/signed_a_lease_for_a_rental_and_got_given_this_as/",
+            "subreddit": "australia",
+            "createdUtc": 1767931552,
+            "isArchived": false,
+            "numComments": 439
+          },
+          {
+            "id": "1sagd3r",
+            "url": "https://www.reddit.com/gallery/1sagd3r",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/l4mfl8kbwrsg1.jpg?width=564&format=pjpg&auto=webp&s=17dd07a0ba3219d95e095677bec9e75c1a25ae95",
+                "type": "photo",
+                "width": 564,
+                "height": 354
+              },
+              {
+                "url": "https://preview.redd.it/wxgir7kbwrsg1.jpg?width=588&format=pjpg&auto=webp&s=36c5719cbb9c0d2d90b9be1423cb3b56cb252364",
+                "type": "photo",
+                "width": 588,
+                "height": 330
+              }
+            ],
+            "score": 7890,
+            "title": "[Loved Trope] Enemy Shaped Allies/Friends",
+            "author": "StigandrTheBoi",
+            "authorId": "ph2fx72",
+            "isLocked": false,
+            "selftext": "Ratbag The Coward: Ratbag is an Uruk from Middle Earth: Shadow of Mordor/Shadow of war and the only Uruk who helps Talion without having to be dominated first. Hes a sniveling coward who thinks he is far more clever than he really is, wants power even though he doesn’t know what Hed do with it or how to hold it. \n\nIn Shadow of Mordor Hes basically the one to teach you about Orc power structures and hierarchy, he makes a surprise return in Shadow of war after being supposedly killed in the first game, even naming an Olog “Ranger” in honor of Talion. He’s a genuinely fun character, and he eventually slips away somewhere after wanting to get out of the warchief game. \n\nThis trope could kinda apply to any of the Uruk that you recruit as long as they don’t betray you, with them sometimes popping up out of nowhere to save you if you are about to be killed, often with lines like “That’s no way to die boss!” Or “I’ve got you Boss! Just doing my job”. The system does an excellent job endearing you to the mutant war machines.\n\nRya: Rya is an NPC from Elden ring. At first she uses a disguise to look more like a human, even if she has terrible posture. But as you progress her quest line in the volcano manor it’s revealed that she is actually one of the lizard men that youve been fighting. She is a gentle soul, not really wanting to partake in the Volcano Manor violence. \n",
+            "permalink": "/r/TopCharacterTropes/comments/1sagd3r/loved_trope_enemy_shaped_alliesfriends/",
+            "subreddit": "TopCharacterTropes",
+            "createdUtc": 1775133853,
+            "isArchived": false,
+            "numComments": 494
+          }
+        ],
+        "nextCursor": "cur_eOmF-xa8-rwQsv59RJ0LSg"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-giraffe-5e3cbaa1",
+      "kind": "anonymous",
+      "name": "Giraffe",
+      "artworkKey": "giraffe"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00034",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:40:28.920Z",
+  "started_at": "2026-11-23T07:40:29.033Z",
+  "completed_at": "2026-11-23T07:40:30.942Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

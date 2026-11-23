@@ -1,0 +1,46 @@
+{
+  "id": "3e7c1490-59ee-4846-b7ca-060be1401bce",
+  "run_url": "https://app.glasser.ai/runs/3e7c1490-59ee-4846-b7ca-060be1401bce",
+  "provider": "anyapi",
+  "endpoint": "/twitter.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "limit": 20,
+    "query": "AI sales roleplay trainer agent since:2025-11-22 filter:videos -filter:replies min_faves:20",
+    "queryType": "Top"
+  },
+  "output": {
+    "items": 0,
+    "output": {
+      "data": {
+        "items": [],
+        "nextCursor": null
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-capybara",
+      "kind": "anonymous",
+      "name": "Capybara",
+      "artworkKey": "capybara"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00049",
+  "charge_basis": {
+    "clause": "NO_RESULT",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:40:33.762Z",
+  "started_at": "2026-11-23T07:40:33.936Z",
+  "completed_at": "2026-11-23T07:40:40.331Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

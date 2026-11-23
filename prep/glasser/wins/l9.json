@@ -1,0 +1,75 @@
+{
+  "id": "93f46818-927f-4503-b853-335f25cd1494",
+  "run_url": "https://app.glasser.ai/runs/93f46818-927f-4503-b853-335f25cd1494",
+  "provider": "scrapecreators",
+  "endpoint": "/v1/linkedin/search/posts",
+  "endpoint_version": 4,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "query": "SearchHack Telem winner",
+    "date_posted": "last-month"
+  },
+  "output": {
+    "posts": [
+      {
+        "url": "https://www.linkedin.com/posts/mohan-zhang-b00b94180_at-searchhack-on-nov-14-in-sunnyvale-builders-activity-7526448090866757632-Aw1N",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQE77Fll4AFrcg/feedshare-image-high-res/B56aHNQqE5IQAU-/0/1794445058635?e=2147483647&v=beta&t=gEQv9bIEPfhti1jdvRAlG7EgGqxXnBcelLV539QmehY",
+        "media": "https://media.licdn.com/dms/image/v2/D5622AQE77Fll4AFrcg/feedshare-image-high-res/B56aHNQqE5IQAU-/0/1794445058635?e=2147483647&v=beta&t=gEQv9bIEPfhti1jdvRAlG7EgGqxXnBcelLV539QmehY",
+        "author": {
+          "url": "https://www.linkedin.com/in/mohan-zhang-b00b94180",
+          "name": "Mohan Zhang",
+          "image": "https://media.licdn.com/dms/image/v2/C4E03AQHljrS6rixA0g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1618882859184?e=2147483647&v=beta&t=4n2oRw1mJ9S782OOMmUh6QUS48iq6zU8RReoU2DJ3T0",
+          "followers": 4292
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D5622AQE77Fll4AFrcg/feedshare-image-high-res/B56aHNQqE5IQAU-/0/1794445058635?e=2147483647&v=beta&t=gEQv9bIEPfhti1jdvRAlG7EgGqxXnBcelLV539QmehY"
+        ],
+        "comments": [],
+        "likeCount": 58,
+        "contentUrn": "urn:li:share:7526448089927180288",
+        "activityUrn": "urn:li:activity:7526448090866757632",
+        "description": "At SearchHack on Nov 14 in Sunnyvale, builders will show their agentic search projects to six early-stage investors:\n\n▸ Tian Yu (T.Y.), Micron Ventures: invests in AI and compute startups for Micron’s $550M venture arm\n▸ Kyle Qi, Llama Ventures: Principal at a $300M+ Seed/Series A fund backing AI and B2B SaaS; ex-BCG and Serent Capital\n▸ Sophia (Pengyang) Yu, Foothill Ventures: focuses on agentic AI and physical AI at one of TIME’s Top VC Firms (2025 and 2026)\n▸ Mohan Zhang, Sixty Degree Capital: venture partner who previously led AI investments there; CEO of Telem AI\n▸ Ara K., Sky9 Capital: VP at a ~$2B global VC focused on AI infrastructure, hardware and deep tech\n▸ Paula Ramoneda, Plug and Play: Corporate Innovation Manager who connects startups with Fortune 500 partners\n\nPrizes include an iPhone 18 Pro, Apple Watch 12 and AirPods 5. Powered by Telem AI and sponsored by Tavily.\n\nCome build with us:\nhttps://luma.com/e13wf1bd",
+        "commentCount": 0,
+        "datePublished": "2026-11-12T00:57:39.505Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/foothillventures_searchhack-build-the-next-layer-of-ai-search-activity-7525649563920093186-Pkuv",
+        "image": null,
+        "media": null,
+        "author": {
+          "url": "https://www.linkedin.com/company/foothillventures",
+          "name": "Foothill Ventures",
+          "image": "https://media.licdn.com/dms/image/v2/C560BAQG5jdz36cd7gA/company-logo_100_100/company-logo_100_100/0/1630648419813/foothillventures_logo?e=2147483647&v=beta&t=1g4npVr_m2h9bCW0k8GEDU60szlRF64CPkYDbif6Tmk",
+          "followers": 14306
+        },
+        "images": [],
+        "comments": [],
+        "likeCount": 1,
+        "contentUrn": "urn:li:share:7525649563236642816",
+        "activityUrn": "urn:li:activity:7525649563920093186",
+        "description": "Looking for a hackathon? Check out this event with Telem on 11/14. Our own investor Sophia (Pengyang) Yu will be one of the judges.\n​\nSearchHack is a one-day hackathon for engineers, researchers, and founders working on how information gets found, retrieved, routed, and remembered by AI systems.\n\n​Prizes\n​1st place: iPhone 18 Pro + $1500 Telem AI credits + 30,000 Tavily credits\nhttps://luma.com/e13wf1bd\n\n#AIsearch #agenticsystems",
+        "commentCount": 0,
+        "datePublished": "2026-11-09T20:04:35.845Z"
+      }
+    ],
+    "query": "SearchHack Telem winner",
+    "cursor": null,
+    "success": true
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00188",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:35:56.426Z",
+  "started_at": "2026-11-23T07:35:56.483Z",
+  "completed_at": "2026-11-23T07:36:04.305Z",
+  "task_id": "tsk_965d2263a224d7b9",
+  "metadata": {}
+}

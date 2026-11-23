@@ -1,0 +1,158 @@
+{
+  "id": "211ed8d0-9148-4649-a410-b085e65c12d7",
+  "run_url": "https://app.glasser.ai/runs/211ed8d0-9148-4649-a410-b085e65c12d7",
+  "provider": "serper",
+  "endpoint": "/search",
+  "endpoint_version": 2,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "q": "Runware hackathon prize winner 2026 devpost"
+  },
+  "output": {
+    "organic": [
+      {
+        "link": "https://developerweek-2026-hackathon.devpost.com/",
+        "title": "DeveloperWeek 2026 Hackathon: Join the nation's largest ... - Devpost",
+        "snippet": "Prizes $23,000+ in prizes + other prizes DeveloperWeek 2026 Overall Winner 1 winner 1 winner - $12,500 USD value … 1st Place: $1,500 Cash + $1,500. It $3,000 ...",
+        "position": 1,
+        "displayedLink": "https://developerweek-2026-hackathon.devpost.com"
+      },
+      {
+        "link": "https://devnetwork-ai-ml-hack-2026.devpost.com/",
+        "title": "DevNetwork [AI + ML] Hackathon 2026: Join the nation's ... - Devpost",
+        "snippet": "Overall Winner 1 winner 1st Place Prize: - Amazon Echos (Up to 5) 2 winners 1st Place: NVIDIA DGX Spark 2nd Place: Mac mini",
+        "position": 2,
+        "displayedLink": "https://devnetwork-ai-ml-hack-2026.devpost.com"
+      },
+      {
+        "link": "https://api-cloud-ai-hackathon-2026.devpost.com/",
+        "title": "DevNetwork [API + Cloud + AI] Hackathon 2026: Join the ... - Devpost",
+        "snippet": "Hackathon 2026 Overall Winner $12,500 in cash. Prize: - Amazon Echos (Up to 5) - DevNetwork … 1st Place: $1,500 2nd Place: $1,000",
+        "position": 3,
+        "displayedLink": "https://api-cloud-ai-hackathon-2026.devpost.com"
+      },
+      {
+        "link": "https://www.instagram.com/popular/devpost-hackathon-winners/",
+        "title": "Devpost Hackathon Winners",
+        "snippet": "The first place winner was UHIRED, an app that helps users practice interview responses with real-time feedback and tailored recommendations. The competition ...",
+        "position": 4,
+        "displayedLink": "https://www.instagram.com › popular › devpost-hackathon-winners"
+      },
+      {
+        "link": "https://revenuecat-shipaton-2026.devpost.com/",
+        "title": "RevenueCat Shipaton 2026: Ship apps and start making ... - Devpost",
+        "snippet": "compete for over $740,000 in cash prizes. Grand Prize Winner $100,000 Trip to New York City for the Shippies award ceremony. Category 1st Place: $30,000 + ...",
+        "position": 5,
+        "displayedLink": "https://revenuecat-shipaton-2026.devpost.com"
+      },
+      {
+        "link": "https://moonshot-aethra.devpost.com/",
+        "title": "Moonshot Hackathon: Moonshots Only - Zero to one Ideas - Devpost",
+        "snippet": "Moonshot - A 0 to 1 Hackathon (Total prize pool: $33,232+ USD) prizes: ~$415+ USD THIS. Award 100 winners … 2026 Devpost, Inc.",
+        "position": 6,
+        "displayedLink": "https://moonshot-aethra.devpost.com"
+      },
+      {
+        "link": "https://xprize.devpost.com/",
+        "title": "Build with Gemini XPRIZE: $2,000,000 in prizes. Build with ... - Devpost",
+        "snippet": "Build with Gemini XPRIZE $2,000,000 in prizes. This hackathon has ended. May 19 – Aug 17, 2026 Online Public $2,000,000 in cash 26382 participants … 2026 ...",
+        "position": 7,
+        "displayedLink": "https://xprize.devpost.com"
+      },
+      {
+        "link": "https://runway.com/api-hackathon",
+        "title": "API Hackathon",
+        "snippet": "The Prizes · First Place. $25,000 in cash, 200,000 Runway API credits and a feature on Runway's channels. · Second Place. 200,000 Runway API credits. · Third Place.",
+        "position": 8,
+        "displayedLink": "https://runway.com › api-hackathon"
+      },
+      {
+        "link": "https://hackru-fall-2026.devpost.com/",
+        "title": "HackRU Fall 2026: Rutgers University's 24-hour ... - Devpost",
+        "snippet": "HackRU Fall 2026. Rutgers University's 24-hour, student-ran hackathon! Join us in building amazing software and hardware projects! This hackathon has ended.",
+        "position": 9,
+        "displayedLink": "https://hackru-fall-2026.devpost.com"
+      },
+      {
+        "link": "https://github.com/topics/devpost-hackathon",
+        "title": "devpost-hackathon",
+        "snippet": "Submitted this Project (Web +Android) in FiveHacks conducted by DevPost community and were among top 30 out of 117 participants. javascript java website ...",
+        "position": 10,
+        "displayedLink": "https://github.com › topics › devpost-hackathon"
+      }
+    ],
+    "peopleAlsoAsk": [
+      {
+        "question": "How to win devpost hackathon?"
+      },
+      {
+        "question": "What is the prize for the winner of a hackathon?"
+      },
+      {
+        "question": "Is Devfolio Indian?"
+      },
+      {
+        "question": "Can I use ChatGPT in hackathon?"
+      }
+    ],
+    "relatedSearches": [
+      {
+        "query": "Runware hackathon prize winner 2026 devpost reddit"
+      },
+      {
+        "query": "Runware hackathon prize winner 2026 devpost free"
+      },
+      {
+        "query": "Runware hackathon prize winner 2026 devpost date"
+      },
+      {
+        "query": "TreeHacks 2026 winners"
+      },
+      {
+        "query": "Developerweek 2026 hackathon"
+      },
+      {
+        "query": "TreeHacks 2026 Devpost"
+      },
+      {
+        "query": "MEGA hackathon 2026"
+      },
+      {
+        "query": "TreeHacks 2026 prizes"
+      },
+      {
+        "query": "DevNetwork (AI + ML) hackathon 2026"
+      },
+      {
+        "query": "Devpost Hackathon winners"
+      },
+      {
+        "query": "Stanford hackathon 2027"
+      },
+      {
+        "query": "Hackathon Devpost"
+      }
+    ],
+    "searchParameters": {
+      "q": "Runware hackathon prize winner 2026 devpost",
+      "type": "search",
+      "engine": "google"
+    }
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.001",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:34:42.151Z",
+  "started_at": "2026-11-23T07:34:42.191Z",
+  "completed_at": "2026-11-23T07:34:42.743Z",
+  "task_id": "tsk_965d2263a224d7b9",
+  "metadata": {}
+}

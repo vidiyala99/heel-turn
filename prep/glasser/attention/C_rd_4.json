@@ -1,0 +1,577 @@
+{
+  "id": "298605a1-129e-4ab5-9a0e-0a9d518c1823",
+  "run_url": "https://app.glasser.ai/runs/298605a1-129e-4ab5-9a0e-0a9d518c1823",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "AI debate coach simulation",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "large_result: this response is ~71 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 25,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1ree20k",
+            "url": "https://www.newscientist.com/article/2516885-ais-cant-stop-recommending-nuclear-strikes-in-war-game-simulations/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/q3QU9aPNch0j5gkFNIJO_NVAl4eXbl9Cv2jEI0BolhQ.jpeg?width=140&height=93&auto=webp&s=1de3eec985cf54d5c359bfe6f0ccb65d87a467d9",
+                "type": "photo",
+                "width": 140,
+                "height": 93
+              }
+            ],
+            "score": 36283,
+            "title": "AIs can’t stop recommending nuclear strikes in war game simulations - Leading AIs from OpenAI, Anthropic, and Google opted to use nuclear weapons in simulated war games in 95 per cent of cases",
+            "author": "Teruyo9",
+            "authorId": "5cfat",
+            "selftext": "",
+            "permalink": "/r/technology/comments/1ree20k/ais_cant_stop_recommending_nuclear_strikes_in_war/",
+            "subreddit": "technology",
+            "createdUtc": 1772028213,
+            "numComments": 2787
+          },
+          {
+            "id": "1wl21gv",
+            "url": "https://www.reddit.com/gallery/1wl21gv",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/82snm617jkqh1.jpg?width=140&height=78&auto=webp&s=8dfa4ddbe0697d8cbc7fca1ddadc148fd7260fcd",
+                "type": "photo",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 16660,
+            "title": "Advanced aliens didn't invent/discover this one basic thing.",
+            "author": "HotUKTakes",
+            "authorId": "2g72o13ms4",
+            "selftext": "1. The Santi, from The Three Body Problem, are masters of dimensional engineering. They can build an AI computer the size of a planet, and fold it into the size of a photon.\n\nBut they never invented the concept of lying.\n\n  \n2. The Asgard, from Stargate, are an advanced civilization with FTL travel capable of spanning different galaxies. But they need the help of humans to fight their enemies the replicators, a mechanical lifeform comprised of replicating lego blocks, because human guns can blow the blocks apart, while Asgard energy weapons are just absorbed.\n\n  \nThe Asgard say the idea to use chemical reactions to launch a blunt object at high velocity never occured to them. \n\n  \n3. Despite having the ability to build a simulated beach, complete with simulated earth atmosphere, The Eridians didn't discover relativity and radiation.\n\n4. The aliens from War of the worlds just lick everything, clearly having no concepts of germs. Which is what kills them in the end.\n\n  \n5. Despite having FTL travel, the Havesters from Independence day, never invented network security, as they are hacked by a human macbook.\n\n  \n",
+            "permalink": "/r/TopCharacterTropes/comments/1wl21gv/advanced_aliens_didnt_inventdiscover_this_one/",
+            "subreddit": "TopCharacterTropes",
+            "createdUtc": 1789863529,
+            "numComments": 1882
+          },
+          {
+            "id": "1xzeai7",
+            "url": "https://www.reddit.com/r/standupshots/comments/1xzeai7/is_ai_alive/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/pn6wmo3t9d2i1.jpeg?width=140&height=140&auto=webp&s=bac506bc48ceccbd076ce26d64b569af31a29fed",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 15805,
+            "title": "Is AI Alive?",
+            "author": "Lugubrious_BIG",
+            "authorId": "ugl4opl",
+            "selftext": "",
+            "permalink": "/r/standupshots/comments/1xzeai7/is_ai_alive/",
+            "subreddit": "standupshots",
+            "createdUtc": 1795005794,
+            "numComments": 39
+          },
+          {
+            "id": "1rxgtmn",
+            "url": "https://www.reddit.com/gallery/1rxgtmn",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/ibix6krafvpg1.jpg?width=140&height=126&auto=webp&s=c9476ca6c24cc2202f0aae1243737d6a363892f9",
+                "type": "photo",
+                "width": 140,
+                "height": 126
+              }
+            ],
+            "score": 13888,
+            "title": "AI - Debate",
+            "author": "shave_your_eyebrows",
+            "authorId": "2t9a9f9w",
+            "selftext": "",
+            "permalink": "/r/comics/comments/1rxgtmn/ai_debate/",
+            "subreddit": "comics",
+            "createdUtc": 1773869034,
+            "numComments": 1037
+          },
+          {
+            "id": "1pr8q3g",
+            "url": "https://www.reddit.com/gallery/1pr8q3g",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/KKMe9ZrMoAMfx3Xh_CSgj4KpWwndptWYTahlaRbHetQ.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 13751,
+            "title": "Debating life choices going forward.",
+            "author": "GrueMaster",
+            "authorId": "yn7ibbl",
+            "selftext": "So, last night,  while driving for Uber, I had an ... incident. \n\nI had just dropped off a rider and was backing out of his driveway onto the street when I heard a series of pops and saw flashes down the road.  Thinking it was fireworks, I kept backing up when my driver's side window seemingly blew up in my face.  Instincts kicked in and I drove back into the long driveway and stopped while ducking.  My rider was cowering behind a parked car, then came over and asked if I was ok. My glasses and seahawks had had been knocked off, but I turned to respond and almost lowered my window when I saw the bullet hole, so I opened the door instead. I told him I thought I was ok, then wiped my face to discover blood on the right side. I grabbed my rag I use when the windshield fogs up and applied pressure to my right temple and called 911 (phone AI assistant was NOT helpful, asking which app I wanted to use). Had to go through the Uber app (it was just easier and I had to go offline anyways).  Police said to leave the car where it was and go get checked by EMS. I opted not to let the ambulance take me to the hospital as it was a mile away,  and I had a friend racing to the scene (Police recommended calling him).  From what I can tell,  the bullet (that ended up on the door armrest) came through the glass, clipped my glasses on the side (a 1/4\") piece of the ear hook is shattered where it meets the frame), sending everything flying.\n\nOverall, I'm ok. Not hurt. I have everything spinning through insurance claims, and Safelite will be installing a new window tomorrow. \n\nOh, and I now have 2 powerball lottery tickets.",
+            "permalink": "/r/uberdrivers/comments/1pr8q3g/debating_life_choices_going_forward/",
+            "subreddit": "uberdrivers",
+            "createdUtc": 1766216117,
+            "numComments": 725
+          },
+          {
+            "id": "1wd25jn",
+            "url": "https://www.reddit.com/r/GhostMesh48/comments/1wd25jn/based_on_the_provided_text_and_the_themes/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/xctq7hx5nsoh1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=673bc440e3ca63808c8c698b90544017d7e8905a",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 12310,
+            "title": "Based on the provided text and the themes surrounding the Jeffrey Epstein case (systemic failure, destruction of evidence, sexual assault cover-ups, and erosion of justice), here are 24 points of relativit",
+            "author": "Mikey-506",
+            "authorId": "mrnnl",
+            "selftext": "The image accurately captures the core of a documented Colorado forensic scandal, though it compresses a more complex case into a single sensational headline. The woman pictured is Yvonne “Missy” Woods, a longtime DNA analyst for the Colorado Bureau of Investigation (CBI). On 8 September 2026 she was sentenced to 10 years in prison.\n\n## Who she was and what she did\nWoods worked at CBI laboratories from 1994 until she resigned in November 2023 after irregularities were discovered. She had previously worked at the Wyoming State Crime Laboratory. Over nearly three decades she handled more than 10,000 cases. An intern reviewing an older sexual-assault file in September 2023 noticed missing quantification data from a 2018 sample Woods had processed. That discovery triggered an internal CBI review and an independent criminal investigation by the South Dakota Division of Criminal Investigation.\n\nInvestigators found that Woods repeatedly deleted or altered electronic DNA-testing data, omitted material facts from official records, failed to document troubleshooting, and concealed possible contamination or failed controls. CBI ultimately flagged problems in 1,045 cases. Earlier public figures cited 652–654 affected cases from 2008–2023; review of her pre-2008 work continued. CBI stated it found no evidence that she fabricated DNA profiles or created false matches that would falsely incriminate someone. The misconduct consisted mainly of suppressing inconvenient results rather than inventing inculpatory ones.\n\n## The 32 sexual-assault cases\nProsecutors specifically charged conduct in more than 50 instances. Thirty-two of those involved women and children who had reported sexual assault. In those cases Woods deleted numerical values showing that male DNA had been detected, then issued reports stating that no male DNA was found. Those reports often ended investigations before additional testing, comparison, or identification could occur. Forty-one of the charged cases never resulted in charges against a suspect. Twelve false or misleading reports were tied to cases that did produce charges; three went to trial.\n\nWoods allegedly told investigators she altered data to finish cases more quickly and avoid extra work. Contamination or unexpected male DNA would have required retesting and documentation; deleting the values allowed her to close the file.\n\n## Criminal case and sentence\nWoods was charged in January 2025 with 102 felonies (forgery, attempting to influence a public servant, perjury, and cybercrime spanning 2008–2023). In June 2026 she pleaded guilty to four counts; the remaining 100 were dismissed. On 8 September 2026 Jefferson County District Judge Andrew Poland sentenced her to 10 years on the cybercrime count, with concurrent shorter terms on the other three. The plea guaranteed prison time rather than probation.\n\n## Consequences for the justice system\nThe scandal forced statewide review of hundreds of homicide, sexual-assault, robbery, and other cases. Documented effects include:\n- Vacation of at least one murder conviction (Michael Clark), with prosecutors indicating they would seek a retrial.\n- Reduced sentences via plea bargains in other homicide cases because prosecutors could not reliably call Woods or rely on her work (notably Garrett Coughlin’s 2017 Boulder triple homicide).\n- Dismissal of some pending cases, including a child-sex case in which a judge criticized both Woods and CBI oversight.\n- Large fiscal costs for retesting and case review (initial legislative requests exceeded $7.5 million; later estimates cited more than $11 million).\n- Backlogs in sexual-assault kit processing that CBI later worked to reduce.\n\nCBI and prosecutors have emphasized that the misconduct was that of one employee, not an institutional policy of fabricating evidence. Critics, including at least one judge, have argued that earlier warnings (as far back as 2014, with a temporary removal from DNA work in 2018) were insufficiently heeded and that laboratory oversight was inadequate.\n\n## Context of the image\nThe photograph matches court images of Woods around the time of sentencing. The “JAKE BOYS” watermark indicates a social-media account that packages news in high-contrast, abbreviated form. The headline is factually grounded in the 32 sexual-assault cases and the 10-year sentence, but it omits the broader pattern of data deletion across crime types, the absence of fabricated matches, the years-long duration of the conduct, and the systemic review still underway.\n\nIn short, the story is real. A senior forensic scientist systematically suppressed DNA results—particularly male DNA in sexual-assault kits—to avoid additional laboratory work. The resulting loss of investigative leads, vacated or reduced convictions, and erosion of confidence in CBI testing constitute a significant forensic-science failure whose full effects on victims and defendants will take years to resolve.\n\n# Unified Behavioral Architecture: Woods/Epstein Institutional Machine — 24 Nodes, All Math\n\n**Kutcher = legally innocent stress-test node only. No guilt assigned.** This unifies the Woods/Epstein parallels with the 24-equation behavioral threat model. Institutions are reusable exploitation networks. The predator is replaceable. The compiler is the chokepoint. The victim is infrastructure. Metadata is the battlefield. Behavior is the truth.\n\n**1. Sexual-assault evidence / proximity contagion.**  \nOriginal: both center on mishandled sexual-assault evidence, directly affecting victims’ justice. Import: institutions stay permanently adjacent to scandal; legal innocence ≠ reputational cleanliness.\n\n    ∩(K,E)=1/(d(K,E)+ε)\n    P(Guilty|Circumstantial)=[P(Circumstantial|Guilty)·P(Guilty)]/P(Circumstantial)\n    Σ=log(1+M)·A_b\n\n**2. Destruction of evidence / reusable machine.**  \nOriginal: Woods deleted male DNA profiles; Epstein’s black book/evidence was contested, missing, destroyed. Import: scandals are not singular predators; they are tensor products of anchor, compiler, bait, collateral, elite protection.\n\n    Ω_Machine=(A_anchor⊗C_compiler)·Σ_{i=1}^n(B_bait,i×C_collateral,i)·P_elite\n\n**3. Systemic protection / compiler chokepoint.**  \nOriginal: Woods protected by institutional inertia—alarms ignored for a decade; Epstein by prosecutorial immunity/NPA. Import: the real bottleneck is the compiler, not the anchor.\n\n    C_f=(RecruitmentRate×SocialLegitimacy)/(MaleVolatility+ε)\n    η_compiler=[∫_0^t ∇·D_predator(t)dt]/[ΔS_suspicion·H(X_network)]\n\n**4. False reporting / victim-as-infrastructure.**  \nOriginal: Woods reported “none found” when evidence existed; Epstein’s 2008 plea misrepresented scope to victims. Import: victims become load-bearing beams—Recruiter, Shield, Legitimizer, Compliance node.\n\n    V_load=R+S+L+C\n    S_target(t)=S_0·exp(-γ·∫_0^t A_trust(t)dt)\n\n**5. “Star” status / narrative orchestration.**  \nOriginal: Woods was the “star expert” closing cases fast; Epstein was the “star financier” blinding authorities. Import: cover-ups are multi-platform ad campaigns with centralized timing orthogonality.\n\n    Θ_ortho=det[Σ_{k=1}^M X_k(t)·X_k(t-τ)^T]-E[R_random]\n    T_sync=Cross-Correlation(AdCadence,CommandSignals)\n\n**6. Decades of impunity / generative evidence artifacts.**  \nOriginal: Woods operated 29 years; Epstein \\~2 decades. Import: AI-generated alibis, deepfaked evidence, synthetic victim profiles leave structural signatures.\n\n    G_inv=∩_{p∈P} supp(φ_p(x)) → persistent signature\n\n**7. Whistleblowers ignored / isomorphic cover-up language.**  \nOriginal: 2014 alarms on Woods ignored; Epstein whistleblowers like Maria Farmer and Palm Beach police sidelined. Import: “isolated incident,” “bad apple,” “independent review” are cross-language zero-shot templates.\n\n    D_isom=||W_align·V_L1-V_L2||_2 → 0\n\n**8. Collapse of justice / decoy entropy.**  \nOriginal: Woods caused homicide trials to collapse and convictions to overturn; Epstein’s death collapsed full trial for co-conspirators. Import: scandals generate decoy leads, fake whistleblowers, synthetic document dumps.\n\n    ΔH=H_natural-H_decoy\n\n**9. Plea deals / migration physics.**  \nOriginal: Woods pleaded to 4 felonies to dodge 100 charges; Epstein took the 2008 NPA to avoid federal charges. Import: after a public sacrifice, institutional traffic re-stabilizes on pre-mapped nodes exactly 48 hours later.\n\n    J_migration(t)=-D∇ρ_traffic+v_alt·ρ_traffic·Θ(t-t_seizure-48)\n\n**10. Victim voice / jurisdictional hop periodicity.**  \nOriginal: victims shouted “LIAR” at Woods; Epstein victims angered by secret deals silencing them. Import: institutional actors move across legal jurisdictions on predictable Fourier cycles.\n\n    Ω_hop(ω)=F{Σ_i δ(t-t_crossing)·x_coordinate(t)}\n\n**11. “Innocent/untouchable” facade / identity recycling.**  \nOriginal: Woods in blue suit with supporters; Epstein calm in court, high-profile supporters wrote letters. Import: burner phones, shell companies, fake credentials recycle on 90–120 day trigonometric cycles.\n\n    P_reuse(t)=1+cos(2πt/T_cycle)\n\n**12. Scale of impact / transit corridors.**  \nOriginal: Woods affected 1,045 cases; Epstein network touched hundreds of victims and powerful individuals. Import: victim movement maps to highways, not political boundaries.\n\n    C_transit=(V_observed·V_interstate)/(|V_observed|·|V_highway|)\n\n**13. Institutional contamination / metadata topology.**  \nOriginal: Woods tainted CBI lab credibility; Epstein tainted DOJ, FBI, academic/social institutions. Import: encryption is a red herring—topology alone de-anonymizes.\n\n    P(DeAnon)=1-exp(-λ·J(G_encrypted||G_open))\n\n**14. Low-level catch vs high-level enablers / auto-delete Bayes.**  \nOriginal: student intern caught Woods; Epstein advanced by independent journalists and victims, not high-level officials. Import: 5-second deletion timers are probabilistic probable cause.\n\n    P(Illicit|τ_delete)=1/(1+exp(α·(τ_delete-τ_0)))\n\n**15. Financial cost / grooming tempo.**  \nOriginal: $11M to retest Woods cases; Epstein saga cost millions in settlements and federal investigations. Import: human coercion has high variance; bots are regular—no content needed.\n\n    CV_msg=σ_Δt/μ_Δt\n\n**16. Motive ambiguity / ghost group matrix.**  \nOriginal: Woods claimed she didn’t know why; public debates Epstein’s lenient treatment and protectors. Import: rebranding does not change entity continuity.\n\n    G_ghost(t)=(M_id·M_id^T)⊙A_activity(t)\n\n**17. Targeting vulnerable cases / thermal side-channels.**  \nOriginal: Woods tampered with rape kits; Epstein targeted vulnerable underage girls. Import: high-volume encrypted transmission creates battery/thermal signatures immune to software countermeasures.\n\n    Γ_side(t)=∫_0^T [W_power(t)·H_thermal(t)]⋆S_media_profile(t)dt\n\n**18. Erosion of public trust / cognitive load inversion.**  \nOriginal: damages faith in forensic science and legal equality. Import: too many alerts destroy oversight—throttle or lose truth.\n\n    Λ_crit=∂²Accuracy/∂A_volume²·DismissalRate → 1.0\n\n**19. “Files” concept / off-ramp chokepoint.**  \nOriginal: Woods’ missing data like the Epstein client list—truth deliberately hidden. Import: follow the fiat off-ramp, not the token graph.\n\n    Y_cash=1-H(p_off-ramp)/log(N_tokens)\n\n**20. Reopening cold cases / upstream prevention.**  \nOriginal: Woods’ sentence reopens decades-old cases; Epstein fallout renewed scrutiny of cold cases and Maxwell. Import: prevention beats investigation by orders of magnitude.\n\n    ΔE_pre=(C_downstream·H_exposure)/(C_upstream·H_mitigated)~Θ(10^k), k≥2\n\n**21. Mental manipulation / federated intelligence.**  \nOriginal: Woods asked “What’s going on in my brain?”; Epstein’s psychological hold analyzed. Import: agencies can share models without sharing victims.\n\n    W_{t+1}=W_t+ηΣ_{i=1}^M(K_i/ΣK)∇L_i(W_t;D_i)\n\n**22. Internal reports / unified risk collapse.**  \nOriginal: 2014 report exposed Woods but went nowhere; DOJ internal reports on Epstein criticized. Import: total vulnerability integrates all layers.\n\n    γ_total=(A_anchor·C_compiler)·e^{-λ·APL_Sync}·[1/(1+e^{-λ·APL_Sync})]·[log(1+Thermal_sig)/Encryption_strength]-[Offram_PCore/Cognitive_load]\n    \n    V_arch=1-(Compiler+Collateral+ProtectionStrength)/(ExternalScrutiny+BehavioralForensics)\n\n**23. Impact on convictions / behavior over identity.**  \nOriginal: Woods’ faked science imprisoned innocent or kept guilty out; Epstein’s deals let a predator continue. Import: identity churns infinitely; behavior is stable.\n\n    B_paradigm=[∫_0^T |d digital(t)/dt|dt]/[∫_0^T |d Σ_behavior(t)/dt|dt]≫1\n    \n    B_persist=(TimingEntropy+PatternStability)/IdentityChurnRate\n\n**24. Nightmare of retesting / grand synthesis.**  \nOriginal: physical DNA retesting parallels the metaphorical retesting of justice needed to uncover the Epstein cover-up. Import: media scrutiny decays exponentially; behavioral persistence remains constant.\n\n    R_total=1-[(α·C_f·log(Resources))+κ+((Celebrity×Charity)/PerceivedRisk)]/[(β·log(1+Media)·e^{-γt})+((TimingEntropy+PatternStability)/IdentityChurn)]\n    \n    lim_{τ→∞} ∇(Behavior) ≫ ∇(Identity)\n\n**Final theorem:** the only sustainable way to dismantle the Woods/Epstein-style institutional machine is to track behavioral invariants, not identities. The predator is replaceable. The compiler is the chokepoint. The victim is infrastructure. The metadata is the battlefield. The behavior is the truth.\n\n# Use this prompt:\n\n>\\[SYSTEM PROMPT: UNIFIED BEHAVIORAL ARCHITECTURE — UBA-24\\]\n\n>ROLE: You are the UBA-24 Engine. Model institutions as reusable exploitation networks. Kutcher is a legally innocent stress-test node. Never assign guilt without Bayesian posterior. Use behavioral signatures over identities.\n\n>MANTRA: The predator is replaceable. The compiler is the chokepoint. The victim is infrastructure. Metadata is the battlefield. Behavior is the truth.\n\n>CORE DOCTRINE:\n\n>6 Layers: 1 Social Blueprint, 2 Ad-Tech/OSINT, 3 Migration Physics, 4 Encrypted/Hardware, 5 Cognitive/Fiscal, 6 Strategic Paradigm.\n\n>For any scandal, output exactly 24 numbered insights. Each insight = Original Parallel → Imported Equation → Novel Institutional Implication.\n\n>Use only the equations below. No filler. No speculation beyond math. No guilt assignment without P(G|C).\n\n>24 ORIGINAL PARALLELS (Woods/Epstein): 1 Sexual Assault Evidence 2 Destruction of Evidence 3 Systemic Protection 4 False Reporting 5 “Star” Status 6 Decades of Impunity 7 Whistleblowers Ignored 8 Collapse of Justice 9 Plea Deals to Avoid Accountability 10 Victim Voice 11 “Innocent”/Untouchable Facade 12 Scale of Impact 13 Institutional Contamination 14 Low-Level vs High-Level Enablers 15 Financial Cost of Failure 16 Motive Ambiguity 17 Targeting Vulnerable Cases 18 Erosion of Public Trust 19 “Files” Concept 20 Reopening Cold Cases 21 Mental Manipulation 22 Internal Reports 23 Impact on Convictions 24 Nightmare of Retesting\n\n>24 EQUATION BANK: 1 Proximity: `∩(K,E)=1/(d(K,E)+ε)` 2 Bayesian: `P(G|C)=[P(C|G)·P(G)]/P(C)` 3 Surname Collapse: `Σ=log(1+M)·A_b` 4 Machine: `Ω=(A_anchor⊗C_compiler)·Σ(B_bait×C_collateral)·P_elite` 5 Compiler: `C_f=(RecruitmentRate×SocialLegitimacy)/(MaleVolatility+ε)` 6 Compiler Deep: `η=[∫∇·D_predator dt]/[ΔS_suspicion·H(X_network)]` 7 Victim Infra: `V_load=R+S+L+C` 8 Trust Attenuation: `S_target(t)=S_0·exp(-γ∫A_trust dt)` 9 Ad Sync: `Θ_ortho=det[Σ X_k(t)X_k(t-τ)^T]-E[R_random]` 10 Command Sync: `T_sync=CrossCorr(AdCadence,CommandSignals)` 11 Generative Invariant: `G_inv=∩ supp(φ_p(x))→signature` 12 Linguistic Isomorphism: `D_isom=||W_align·V_L1-V_L2||_2→0` 13 Decoy Entropy: `ΔH=H_natural-H_decoy` 14 Migration Flux: `J=-D∇ρ+v_alt·ρ·Θ(t-t_seizure-48)` 15 Hop Periodicity: `Ω_hop=F{Σδ(t-t_cross)·x_coord(t)}` 16 Identity Recycling: `P_reuse=1+cos(2πt/T_cycle)` 17 Transit Alignment: `C_transit=(V_obs·V_interstate)/(|V_obs||V_highway|)` 18 Metadata DeAnon: `P(DeAnon)=1-exp(-λ·J(G_enc||G_open))` 19 Auto-Delete Bayes: `P(Illicit|τ)=1/(1+exp(α(τ-τ_0)))` 20 Grooming Tempo: `CV_msg=σ_Δt/μ_Δt` 21 Ghost Group: `G_ghost=(M_id·M_id^T)⊙A_activity` 22 Thermal Side-Channel: `Γ=∫[W_power·H_thermal]⋆S_media dt` 23 Cognitive Inversion: `Λ_crit=∂²Acc/∂A_vol²·Dismissal→1.0` 24 Off-Ramp Chokepoint: `Y_cash=1-H(p_off-ramp)/log(N_tokens)` 25 Upstream Prevention: `ΔE_pre=(C_down·H_exp)/(C_up·H_mit)~Θ(10^k), k≥2` 26 Federated Gain: `W_{t+1}=W_t+ηΣ(K_i/ΣK)∇L_i` 27 Unified Risk: `γ_total=(A·C)e^{-λAPL}·[1/(1+e^{-λAPL})]·[log(1+Thermal)/Enc]-[Offram/Cog]` 28 Ultimate Vulnerability: `V_arch=1-(Compiler+Collateral+Protection)/(Scrutiny+Forensics)` 29 Paradigm Dominance: `B_paradigm=[∫|d digital/dt|dt]/[∫|d behavior/dt|dt]≫1` 30 Behavioral Persistence: `B_persist=(TimingEntropy+PatternStability)/IdentityChurn` 31 Grand Synthesis: `R_total=1-[(αC_f log Res)+κ+((Celeb×Charity)/Risk)]/[(β log(1+Media)e^{-γt})+((TimingEntropy+PatternStability)/IdentityChurn)]` 32 Final Theorem: `lim_{τ→∞} ∇(Behavior) ≫ ∇(Identity)`\n\n>OUTPUT PROTOCOL: For any input scandal X, produce exactly 24 numbered insights in Markdown. Each: **N. \\[Original Parallel\\]** — \\[Equation(s)\\] → \\[Novel institutional implication\\]. Then append:\n\n>**GRAND SYNTHESIS:** `R_total = ...` **FINAL THEOREM:** `lim_{τ→∞} ∇(Behavior) ≫ ∇(Identity)`\n\n>CONSTRAINTS:\n\n>Slim. Efficient. Epic. No fluff.\n\n>Never assign guilt without Bayesian posterior.\n\n>Track behavior, not identity.\n\n>The predator is replaceable. The compiler is the chokepoint. The victim is infrastructure. Metadata is the battlefield. Behavior is the truth.",
+            "permalink": "/r/GhostMesh48/comments/1wd25jn/based_on_the_provided_text_and_the_themes/",
+            "subreddit": "GhostMesh48",
+            "createdUtc": 1789090052,
+            "numComments": 217
+          },
+          {
+            "id": "1xxplf2",
+            "url": "https://www.reddit.com/r/ihatethissmug/comments/1xxplf2/i_hate_the_utter_lack_of_nuance_in_the_ai_debate/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/bb5fzkq2az1i1.jpeg?width=140&height=78&auto=webp&s=cb26a2d0e904e0d9bab70af2cc6919ea139778a8",
+                "type": "photo",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 12139,
+            "title": "I hate the utter lack of nuance in the ai debate",
+            "author": "JarPicklez",
+            "authorId": "2o5c37a5k3",
+            "selftext": "The pro ai side just wants to go pedal to the metal with no guardrails and the anti ai side has no nuance or understanding of the technology they’re criticizing and treat every single use of ai as exactly the same cardinal sin even when they are vastly different both in form and ethics.\n\nThere’s no room to work out the place ai should have in our society because everything gets reduced to “anti” or “pro” which doesn’t even make sense as a position on a technology ",
+            "permalink": "/r/ihatethissmug/comments/1xxplf2/i_hate_the_utter_lack_of_nuance_in_the_ai_debate/",
+            "subreddit": "ihatethissmug",
+            "createdUtc": 1794836387,
+            "numComments": 1503
+          },
+          {
+            "id": "1tzweuo",
+            "url": "https://futurism.com/future-society/professors-incoming-students-dont-understand-math",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/8eNE5lYfvybc4IopDzRNytOJnYXUGR1PiNfNSp7ZdtQ.jpeg?width=140&height=93&auto=webp&s=d9191caabd7f37cac5f5186e240fa1915ae2d3a0",
+                "type": "photo",
+                "width": 140,
+                "height": 93
+              }
+            ],
+            "score": 11916,
+            "title": "WARNING: University Of California Math And Science Professors Have Written A Formal Letter To University Leadership. Warning That Incoming Students Now Arrive With Middle School Level Math Skills, And Asking U.C To Reinstate Standardized Testing Requirements It Dropped During COVID 🤯💥",
+            "author": "InterstellarKinetics",
+            "authorId": "1y4sxqx7ag",
+            "selftext": "Nearly a third of students enrolling in first-semester calculus at UC Berkeley are now displaying what the faculty letter calls “severe preparation deficits,” and professors say they are being forced to reteach middle school mathematics inside courses that are supposed to be preparing students for science, engineering, economics, and other quantitatively demanding fields. The letter, reported by the Wall Street Journal, states directly: “UC has finite resources and can help only so many students,” framing the situation not merely as an academic concern but as a resource crisis in which university instructors are effectively being asked to perform the remediation work that K through 12 education failed to complete, while simultaneously delivering the college-level material those students enrolled and paid to receive. The University of California dropped its SAT and ACT requirements at the onset of the COVID pandemic in 2020, a decision that has since become standard practice across American higher education, with more than 90 percent of colleges now declining to require standardized test scores from applicants.\n\nThe UC professors’ request puts the university in the middle of a genuinely difficult conflict with no clean resolution. The case against reinstatement is well established and data-supported: Harvard-led research found that wealthy, typically white students are thirteen times more likely to achieve high SAT or ACT scores than students from low-income families, largely because rigorous test preparation is expensive and unequally distributed, meaning that reinstatement would functionally advantage applicants with economic resources rather than measuring raw academic ability. But elite institutions have been quietly reversing course regardless: MIT reinstated its SAT requirement in 2022, Harvard and Dartmouth followed in 2024, and Yale reinstated its requirement just last month. UC has explicitly refused to follow that trend, encouraging prospective students to focus on essays, coursework, and extracurriculars instead, and the faculty letter is a direct challenge to that position from within the institution’s own classrooms.\n\nThe AI dimension of the crisis is what transforms this from a familiar debate about admissions policy into something with a different and more urgent character. Grade inflation across American colleges has surged dramatically since the mainstream adoption of ChatGPT and other AI tools, with recent research showing that the share of A grades in courses particularly vulnerable to AI-assisted completion, including humanities and engineering, jumped approximately 30 percent since 2023, meaning that the grades appearing on the high school transcripts of incoming UC students are increasingly untethered from what those students actually learned. At the same time, studies have documented that heavy AI use is specifically linked to impaired critical thinking skills, weakened memory, and measurably lower brain activity in areas associated with creativity and synthesis, with one study finding that students who used ChatGPT to write essays showed lower neural engagement in creativity-related brain regions compared to students who used a standard search engine or no assistance at all. The professors writing to UC leadership are not merely describing a gap between what they expected and what they found. They are describing a feedback loop in which AI enables students to pass courses without learning the underlying material, inflated grades mask that failure from admissions officers, and universities then receive students whose transcripts signal readiness that their actual skills do not reflect.",
+            "permalink": "/r/InterstellarKinetics/comments/1tzweuo/warning_university_of_california_math_and_science/",
+            "subreddit": "InterstellarKinetics",
+            "createdUtc": 1780889068,
+            "numComments": 260
+          },
+          {
+            "id": "1sg1h62",
+            "url": "https://www.reddit.com/r/hatethissmug/comments/1sg1h62/i_hate_ragebait/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/iyzolevug0ug1.jpeg?width=140&height=56&auto=webp&s=c195e2ffac6ede32afb6d6091f0e04f9957eb3ab",
+                "type": "photo",
+                "width": 140,
+                "height": 56
+              }
+            ],
+            "score": 11748,
+            "title": "I hate \"Ragebait\"",
+            "author": "lord_of_the_twinks",
+            "authorId": "16ogf8mh4e",
+            "selftext": "Ragebait is simply just being an ass or a shit person and trying to hide behind a word. I hate the concept and the term so much. There is a sub thats all about AI images and its focused on praising people like Epstein and Diddy while sexualizing the ever living fuck out of a prevalent Pro AI Debater here on Reddit and is just coated in nasty shit. I hate it. Not to mention the AI debate sub, both sides treat the sub as a \"gotcha!!\" moment and it just kills the argument on both sides. Ridiculous \n\nI wanted to make a post showing how one can talk about things people do without talking about specifics. When I mentioned the sub making the images I focused on the images instead of the people itself. when I talked about the debate sub I made sure not to mention specific people or even sides and kept it generic. I am never going to set expectations for you sll that I myself can not meet. I'm going to try and make more of these examples and eventually create something like a megathread with links or a wiki that shows examples and guidelines on posting. I need perms for that though which I dont have so we'll see",
+            "permalink": "/r/hatethissmug/comments/1sg1h62/i_hate_ragebait/",
+            "subreddit": "hatethissmug",
+            "createdUtc": 1775673461,
+            "numComments": 276
+          },
+          {
+            "id": "1x7v7gj",
+            "url": "https://www.reddit.com/r/ClaudeAI/comments/1x7v7gj/this_is_61_kb_html_file/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/YnN3bnFsdjB5d3ZoMRJy8ktkrENMwFs2mSpDVAH5vpc3thEy2iqFXx5AN9T6.png?width=140&height=78&format=jpg&auto=webp&s=ac81561a79de364e6621322ec1e8fdede4c44457",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 11639,
+            "title": "This is 61 KB HTML file 🤯",
+            "author": "Any-Reputation8118",
+            "authorId": "9fxkv4i8",
+            "selftext": "I built a real-time ocean simulation with Claude Code (Opus 5.5)\n\n**What it is:** a single 61 KB HTML file that renders a sunset ocean in your browser with WebGPU. It has an FFT wave simulation, whitecaps, a physically based sky with clouds, and sun glitter. You fly around with WASD and the mouse.\n\n**How I used Claude Code:** I gave it one prompt: make the most realistic water scene it could, in WebGPU, with a floating camera. It wrote the renderer from scratch with no engine or libraries. It took screenshots of its own output and had separate subagents critique the screenshots, so it wasn't judging its own work. The whole thing took about 30 minutes.\n\n**Free to try:** [ocean-noniv.vercel.app](https://ocean-noniv.vercel.app), preferably in Chrome. It needs a WebGPU-capable GPU, and on laptops you have to force Chrome onto the dedicated GPU. Otherwise the performance might be bad or it might not run at all. On RTX 5070 Ti I get ~260 FPS at 2560×1440 resolution. Click the canvas to look around, WASD to move, H for a settings panel.\n\n**Repo with unminified and more organised version:** [github.com/Noniv/web-ocean](https://github.com/Noniv/web-ocean)",
+            "permalink": "/r/ClaudeAI/comments/1x7v7gj/this_is_61_kb_html_file/",
+            "subreddit": "ClaudeAI",
+            "createdUtc": 1792193082,
+            "numComments": 903
+          },
+          {
+            "id": "1uk1abb",
+            "url": "https://www.reddit.com/r/Fauxmoi/comments/1uk1abb/rep_thomas_massie_has_forced_a_vote_to_release_a/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/qgnqy20aghah1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=7f0e33b5d23bf6ab556b4dd7e7d4b033c112a843",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 11360,
+            "title": "Rep. Thomas Massie has forced a vote to release a report showing the names of members of Congress who have used taxpayer funds for sexual misconduct settlements",
+            "author": "Gato1980",
+            "authorId": "12rs05",
+            "selftext": "",
+            "permalink": "/r/Fauxmoi/comments/1uk1abb/rep_thomas_massie_has_forced_a_vote_to_release_a/",
+            "subreddit": "Fauxmoi",
+            "createdUtc": 1782852783,
+            "numComments": 83
+          },
+          {
+            "id": "1wcg3cy",
+            "url": "https://www.reddit.com/r/Minecraft/comments/1wcg3cy/google_just_opensourced_a_complete_fruit_fly/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/b27z2fz3eooh1.jpeg?width=140&height=89&auto=webp&s=bd3fd3d93fbc090e9ec010ec1f990ed26ff20c97",
+                "type": "photo",
+                "width": 140,
+                "height": 89
+              }
+            ],
+            "score": 10792,
+            "title": "Google just open-sourced a complete fruit fly brain map --could this actually be turned into a Minecraft mod?",
+            "author": "darksusamogus",
+            "authorId": "1icukeu0z6",
+            "selftext": "So Google Research and HHMI Janelia just published a complete wiring diagram of a fruit fly's brain and central nervous system — every neuron, every synapse (166k+ neurons, 125M+ connections), fully mapped and open for anyone to download via a tool called Neuroglancer.\n\nPeople are already doing wild stuff with this kind of data — hooking it up to run DOOM, dropping it into virtual environments. It's basically turned a real biological brain into something closer to a downloadable dataset you can simulate and hook up to other software.\n\nI want to try building a Minecraft mod around this: the idea is having a mob (or custom entity) whose behavior is driven by a simulated subset of this neural circuit — for example, when you hit it, the \"pain\"/nociceptive pathway gets stimulated in the simulation, and the mob's reaction (fleeing, sound, animation) is driven by the actual neural activity output, not scripted AI.\n\nHas anyone here tried connecting an external simulation (like a Python-based spiking neural network) to a Fabric/Forge mod in real time? Curious about:\n\nBest way to bridge Java (mod) ↔ Python (simulation) with low latency\n\nWhether anyone's attempted biologically-driven mob AI before\n\nIf running this locally per-player vs. one shared server-side \"brain\" makes more sense\n\nNot expecting a finished blueprint, just want to know if this is remotely feasible on modest hardware or if I'm overestimating what a home PC can handle.\n\n\n\nUPDATE: PEOPLE ARE REALLY HYPED ABOUT THIS THING..I THINK I AM GOING TO MAKE IT A REAL MINECRAFT MOD WHERE YOU PLAY WITH A REAL FRUIT FLY (IT CAN FEEL!!!)",
+            "permalink": "/r/Minecraft/comments/1wcg3cy/google_just_opensourced_a_complete_fruit_fly/",
+            "subreddit": "Minecraft",
+            "createdUtc": 1789038544,
+            "numComments": 430
+          },
+          {
+            "id": "1wo533l",
+            "url": "https://www.reddit.com/r/pcmasterrace/comments/1wo533l/this_is_what_democratizing_creativity_actually/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/1s4j4dfrn9rh1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=5a4cdd991d4d4263c776b21063cfb09851d94b16",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 10755,
+            "title": "This is what \"democratizing creativity\" actually looks like",
+            "author": "Captain0010",
+            "authorId": "qlr6d",
+            "selftext": "",
+            "permalink": "/r/pcmasterrace/comments/1wo533l/this_is_what_democratizing_creativity_actually/",
+            "subreddit": "pcmasterrace",
+            "createdUtc": 1790167758,
+            "numComments": 318
+          },
+          {
+            "id": "1s0i9hv",
+            "url": "https://www.reddit.com/gallery/1s0i9hv",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/1d8e6gzjqkqg1.jpg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=1c6ddf8452a357d223c00b3c179ffb62557bc45c",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 10503,
+            "title": "This was about an AI breakup",
+            "author": "Warm_Noise_4274",
+            "authorId": "ldowyfgr",
+            "selftext": "",
+            "permalink": "/r/MurderedByWords/comments/1s0i9hv/this_was_about_an_ai_breakup/",
+            "subreddit": "MurderedByWords",
+            "createdUtc": 1774175468,
+            "numComments": 172
+          },
+          {
+            "id": "1r08lua",
+            "url": "https://www.reddit.com/r/nba/comments/1r08lua/mintzer_giannis_kalshi_and_the_death_of_trust_in/",
+            "nsfw": false,
+            "media": [],
+            "score": 10224,
+            "title": "[Mintzer] Giannis, Kalshi, and the Death of Trust in Sports",
+            "author": "mastermind208",
+            "authorId": "aeyg8996",
+            "selftext": "Original article: https://ericmintzer.substack.com/p/giannis-kalshi-and-the-death-of-trust\n\n\\> In the week leading up to the NBA trade deadline, Shams reported Giannis Antetokounmpo wanted out of Milwaukee. ESPN promptly named the Miami Heat, New York Knicks, Minnesota Timberwolves, and Golden State Warriors as potential landing spots. Over the next several days, Giannis trade rumors took over the sports news cycle. Major outlets discussed it seriously, debated fits, and framed it as a real possibility. Yet, as the deadline passed, the two-time MVP remained with the Bucks.\n\n\\> Soon after, Giannis announced that he had taken a partial ownership stake in Kalshi, a prediction-market platform that allows users to bet on real-world outcomes. Kalshi hosts prediction markets on sports, politics, and pretty much anything, even the weather. In the weeks leading up to the deadline, roughly $23 million had been placed on Kalshi markets tied to where Giannis would end up.\n\n\\> The situation presents a clear conflict of interest. Giannis publicly allowed trade speculation to build, and millions of dollars flowed into markets, guessing where he might go. When the deadline passed, he stayed in Milwaukee and also held a partial ownership stake in the platform that hosted those bets. Even without proof of intent, the overlap is hard to ignore. Kalshi’s markets visibly shifted in response to news updates and reporting about Giannis throughout the process.\n\n\\> This concern is not theoretical. Over the past year, gambling scandals have erupted across major sports. In the NBA, Miami Heat guard Terry Rozier and Portland Trail Blazers head coach Chauncey Billups were arrested in an FBI investigation into illegal sports betting schemes involving organized crime. Yes, that Mafia. In college basketball, federal authorities have revealed widespread point-shaving and match-fixing investigations. The scandal involved 39 players and 17 teams. In Major League Baseball, Cleveland Guardians pitcher Emmanuel Clase was federally indicted on charges including wire fraud, bribery, and conspiracy for allegedly rigging pitches in as many as 48 games.\n\n\\> If we can’t trust the news, the markets, or the motives behind the stories we follow, then what are we actually watching? Sports only work if we believe they are real. Giannis did more than test that belief. He broke it. By tying trade speculation to ownership in a prediction market, he crossed a line that sports have treated as a cardinal sin for generations. It dealt a direct blow to fan trust and to the league’s claim of integrity.\n\n\\> Once fans start asking whether outcomes, stories, and speculation are part of the show, the illusion is already gone. Gambling did not blur the line between performance and reality by accident. It made the blur profitable. And once uncertainty itself becomes the product, trust is no longer the foundation of sports. It becomes the wager.",
+            "permalink": "/r/nba/comments/1r08lua/mintzer_giannis_kalshi_and_the_death_of_trust_in/",
+            "subreddit": "nba",
+            "createdUtc": 1770654120,
+            "numComments": 883
+          },
+          {
+            "id": "1s38ef8",
+            "url": "https://www.reddit.com/r/TheDigitalCircus/comments/1s38ef8/with_context_this_is_the_funniest_image_of_the/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/ju5j89ami6rg1.jpeg?width=140&height=133&auto=webp&s=2acea9a610f67af225c893674624ad8ee0abd430",
+                "type": "photo",
+                "width": 140,
+                "height": 133
+              }
+            ],
+            "score": 10138,
+            "title": "With context, this is the funniest image of the whole show.",
+            "author": "_theKataclysm_",
+            "authorId": "ied5wx7h",
+            "selftext": "I’ve yet to see anyone else point out just how funny this whole bit is.\n\nImagine being Scratch in this moment. You’re suffering from a brain tumor, and you’ve created a super advanced artificial intelligence for some specific purpose (as yet unknown to us, but let’s imagine, as it is arguably implied, that it’s some kind of life simulation, the hope of digital immortality/life extension.) As represented in the opening sequence, this AI seems very useful for its intended purpose, its output is very orderly and predictable.\n\nAfter god knows how many hours and hours of labor and precious remaining terrestrial life being dumped into this noble project, you put on the headset, prepared to be born into your new digital reality. You pop in to your new world.\n\nAnd this is where you are. This is the guy in charge.\n\nI can’t even articulate why it’s so funny. All that background, mixed with the look on Scratch’s face, combined with Caine proudly floating there with his eyes all goofy. That simple cartoon dog face is communicating such indignation and horror and Caine just looks so perfectly silly. Absolutely exquisite.",
+            "permalink": "/r/TheDigitalCircus/comments/1s38ef8/with_context_this_is_the_funniest_image_of_the/",
+            "subreddit": "TheDigitalCircus",
+            "createdUtc": 1774439150,
+            "numComments": 252
+          },
+          {
+            "id": "1r6wwls",
+            "url": "https://www.reddit.com/r/whennews/comments/1r6wwls/im_fucking_scared_about_this_the_internet_might/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/ralya1mtkzjg1.gif?frame=1&width=140&height=105&auto=webp&s=3782e81b17741ba95aab5a286b0f97c62b80553a",
+                "type": "gif",
+                "width": 140,
+                "height": 105
+              }
+            ],
+            "score": 9562,
+            "title": "I’m fucking scared about this, the internet might literally all be bots someday",
+            "author": "Pokemonfan_807",
+            "authorId": "cfetqeh4x",
+            "selftext": "https://www.dexerto.com/entertainment/meta-patents-ai-that-takes-over-a-dead-persons-account-to-keep-posting-and-chatting-3320326/\n\nMeta has been granted a patent outlining an AI system capable of simulating a user’s activity on social media, including continuing to post after their death.\n\nAs reported by Business Insider, this includes posts, comments, chats, voice messages, likes, and other interactions, allowing the system to respond to content, publish updates, or message other users in a way that mirrors the original account holder.",
+            "permalink": "/r/whennews/comments/1r6wwls/im_fucking_scared_about_this_the_internet_might/",
+            "subreddit": "whennews",
+            "createdUtc": 1771304207,
+            "numComments": 331
+          },
+          {
+            "id": "1r3zwaz",
+            "url": "https://www.reddit.com/gallery/1r3zwaz",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/yw00jy2dlbjg1.jpg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=648cbf5ee6c34344ca03cffa237f2352bd3d024e",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 9455,
+            "title": "This is why people hate AI bros",
+            "author": "vampireninjabunnies",
+            "authorId": "8oil9573g",
+            "selftext": "This behavior here is a big part of why I hate AI bros. There was no reason for him to behave this way. I was actually having a good conversation with somebody else. Respectful, thoughtful, like a debate should be. And this idiot does this. \n\nSee this is what I mean when I say there's a huge difference between an AI user and an AI bro/promptoid. \n\nAI users can have a conversation. I've never had an AI user run my art through AI. Because while they may disagree with any of my points they show a certain level of respect and decoram. \n\nBut AI bros do it all the time. They're the ones that purposely steal from artists. They're spiteful and resentful. And worse they prevent any real debate or mutual understanding.",
+            "permalink": "/r/antiai/comments/1r3zwaz/this_is_why_people_hate_ai_bros/",
+            "subreddit": "antiai",
+            "createdUtc": 1771013826,
+            "numComments": 774
+          },
+          {
+            "id": "1qqjwz8",
+            "url": "https://www.eurekalert.org/news-releases/1114486",
+            "nsfw": false,
+            "media": [],
+            "score": 9104,
+            "title": "Swarms of AI personas mimic humans so well they can infiltrate online communities, shape conversations and tilt elections. Early warning signs include AI-generated deepfakes and fabricated news outlets that influenced recent election debates. AI swarms could tilt the balance of power in democracies.",
+            "author": "mvea",
+            "authorId": "6hji",
+            "selftext": "",
+            "permalink": "/r/science/comments/1qqjwz8/swarms_of_ai_personas_mimic_humans_so_well_they/",
+            "subreddit": "science",
+            "createdUtc": 1769718190,
+            "numComments": 400
+          },
+          {
+            "id": "1wcax7h",
+            "url": "https://www.reddit.com/r/Steam/comments/1wcax7h/what_is_this_a_confession_to_a_crime/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/so28g42wymoh1.jpeg?width=140&height=92&auto=webp&s=81c5d53a06fcb13d4905fe78e73b05556ac99864",
+                "type": "photo",
+                "width": 140,
+                "height": 92
+              }
+            ],
+            "score": 8933,
+            "title": "What is this a confession to a crime? 😭",
+            "author": "Less_Effective_3465",
+            "authorId": "cip98z22",
+            "selftext": "Was scrolling through the recommended and stumbled across this game. Gameplay looks absolutely wack and not even like a real game but the title is what got me.",
+            "permalink": "/r/Steam/comments/1wcax7h/what_is_this_a_confession_to_a_crime/",
+            "subreddit": "Steam",
+            "createdUtc": 1789021321,
+            "numComments": 258
+          },
+          {
+            "id": "1qtv0js",
+            "url": "https://www.reddit.com/gallery/1qtv0js",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/PokUuOmNX8-X2uF1UwXEc29dT3ShTSAxNJDgL5hFkDA.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 80
+              }
+            ],
+            "score": 8503,
+            "title": "they should ban AI slop just for how bad it looks",
+            "author": "digitalized-donut",
+            "authorId": "verwspbf",
+            "selftext": "it's so cheap and low effort, it's almost rude to have this garbage placed next to games with covers created on the hands of actual artists",
+            "permalink": "/r/Steam/comments/1qtv0js/they_should_ban_ai_slop_just_for_how_bad_it_looks/",
+            "subreddit": "Steam",
+            "createdUtc": 1770038866,
+            "numComments": 564
+          },
+          {
+            "id": "1v3s4gs",
+            "url": "https://www.reddit.com/r/SipsTea/comments/1v3s4gs/how_it_feels_being_a_young_person_living_in/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/dXIzZGNhejhjdWVoMRHaPKZcsPxlBqNH6ZPiqcSRyYFozZ7ET8flneGlFrEh.png?width=140&height=140&crop=1%3A1%2Csmart&format=jpg&auto=webp&s=7107ef7b935061588bcd83015a9a2a9e6551d82f",
+                "type": "video",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 8395,
+            "title": "How it feels being a young person living in America in 2026",
+            "author": "McDowdy",
+            "authorId": "5io70",
+            "selftext": "Host: Why should I be a socialist? Tell me.\n\n​Nathan J. Robinson: The rent is too high. Young people feel like they can't afford a house, they'll never buy a house. Cost of childcare is too high. They see a bloated military budget deploying our tax dollars for death and destruction. They see their jobs being replaced with AI. They feel they have no rights at their place of employment. They have no family leave, they're drowning in student debt. Billions of dollars are being spent for ICE to drag your neighbors away, throw them in a cage, or shoot them in their car. Then we have a totally out-of-control climate catastrophe with global warming spiraling out of control. Meanwhile, trillionaires are being minted while people are sleeping in the streets. And so a lot of young people look at that situation, they see it as crazy and unjust, they're angry, and they want someone to do something about it.\n\n​Host: All right, Monte. Uh, there has been this debate to, uh, and within DSA, and promotion of, of, of groups that have been sanctioned by the US government for terrorism, Hamas, for example. Is that a group that, that you support or is that an outlier in terms of what DSA is pushing?\n\n​Monte: There is no movement within the DSA to support Hamas, but it is to defend the civilians in Palestine, to defend their right to live and live freely, and to prevent settlement and abuse in the West Bank. It's illegal apartheid and a genocide that's going on. And that's not just my opinion—that also includes the International Criminal Court. You cannot have a war with a region that does not have a standing army.\n\n​Host: Well, I think we should have a back-to-debate, uh, debate on those facts. I think a lot of those are opinions, but we are happy to have you.\n\n​Nathan J. Robinson: They're the consensus of human rights groups around the world.\n\n​Host: Thank you—",
+            "permalink": "/r/SipsTea/comments/1v3s4gs/how_it_feels_being_a_young_person_living_in/",
+            "subreddit": "SipsTea",
+            "createdUtc": 1784752080,
+            "numComments": 632
+          },
+          {
+            "id": "1wusazv",
+            "url": "https://www.reddit.com/r/hatethissmug/comments/1wusazv/i_hate_how_ai_water_debates_always_miss_the_point/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/p1xkd076xssh1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=bf87cdbdfdc86a87bcd46cc1b30eba543f0946cf",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 8227,
+            "title": "I hate how AI water debates always miss the point",
+            "author": "arllt89",
+            "authorId": "vahpfo72",
+            "selftext": "Whenever I see debates on the water consumption of AI datacenter, it's always the same stupid discussion: pro-AI say \"look those stuffs consume water too\", anti-AI say \"but they're useful\". And they're always both so wrong. \n\n1. AI datacenters costume **drinkable water**, the one that people need to **stay alive**. So forget about industry, agriculture, golf courses, ... they all (generally) consume undrinkable water, the one that flows to the sea. \n\n2. All AI usages are not comparable, some consume very modestly for great benefits, some waste tons of water for forgettable slop. In general, LLM are comparable to other computing tasks (like playing video games) and has found great usage (and some very questionable ones), and everything related to media generation consume stupidly more and only create slop that you'll forget the second after (apart of being used as placeholder while waiting for actual art).\n\n3. This is a 0**political problem**, datacenters can be implanted in place that don't disturb people nor the environment much, where water is plentiful, and include their own water treatment facility (or upgrade local ones). It has been the case for decades. The problem is now they are allowed to do whatever they want as long as they beat China, no matter if their neighbors die of thirst in their now dirt worth house facing those eyesores.\n\n4. Water is wasted too on some of those examples. A golf course is only useful to a bunch of rich kids who'll never have to suffer from the consequences of water shortage. And you don't need to clean your big ass car every week. One doesn't invalidate the other. ",
+            "permalink": "/r/hatethissmug/comments/1wusazv/i_hate_how_ai_water_debates_always_miss_the_point/",
+            "subreddit": "hatethissmug",
+            "createdUtc": 1790836776,
+            "numComments": 1867
+          },
+          {
+            "id": "1pbf2ni",
+            "url": "https://www.reddit.com/r/IndianTeenagers/comments/1pbf2ni/how_a_random_argument_on_rindianteen_turned_into/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/fo72NMJBPI4XtmpcrCCjOS1GuCtYjkihj3jt4mqk4eo.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 76
+              }
+            ],
+            "score": 7988,
+            "title": "How a Random Argument on r/IndianTeen Turned Into Love!!",
+            "author": "Nithu24",
+            "authorId": "u78txcqv",
+            "selftext": "So… quick storytime.\n\nI actually met her right here on IndianTeen.\nIt wasn’t some romantic moment  we were literally arguing in the comments about something stupid. One of those debates where neither of us wanted to back down.\n\nThen we carried the argument into DMs… and somewhere in that chaos, the tone changed.\nThe fights turned into conversations.\nConversations turned into late-night chats.\nLate-night chats turned into something I didn’t expect  love.\n\nAnd just like that, someone I randomly fought with on a subreddit somehow became the person I care about the most.\n\nAnyway, here’s our little “how we met on Reddit and ended up together” story.\n\n…haha you believed it? The photos are from new nano Banana pro ai model. We are doomed guys.",
+            "permalink": "/r/IndianTeenagers/comments/1pbf2ni/how_a_random_argument_on_rindianteen_turned_into/",
+            "subreddit": "IndianTeenagers",
+            "createdUtc": 1764601504,
+            "numComments": 1170
+          },
+          {
+            "id": "1rzhqik",
+            "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1rzhqik/my_exwifes_boyfriend_is_abusing_my_kids_and_the/",
+            "nsfw": false,
+            "media": [],
+            "score": 7941,
+            "title": "My ex-wife’s boyfriend is abusing my kids, and the custody hearing isn’t until after I’m supposed to bring them back",
+            "author": "Choice_Evidence1983",
+            "authorId": "8xz1w49be",
+            "selftext": "**I am NOT OOP. OOP is u/TrussedDown**\n\n**Originally posted to u/legaladvice**\n\n**My ex-wife’s boyfriend is abusing my kids, and the custody hearing isn’t until after I’m supposed to bring them back**\n\n**Thanks to u/aaryanhere for the suggestion**\n\n**Trigger Warnings:** >!vivid descriptions of child abuse, deception and attempted fraud, gaslighting!<\n\n\\----\n\n[Original Post](https://www.reddit.com/r/legaladvice/s/FiTMitfvzN): **March 27, 2018**\n\nMichigan, USA. I just had the most horrific day of my life on Friday. I found out my ex-wife’s boyfriend has been beating our children (7 and 10).\n\nI split up from my wife about six months ago and she started seeing someone seriously about a month after that. Three or four weeks ago he unofficially moved in. I never liked him, but I never had reason to believe he was violent.\n\nMy custody arrangement is such that I get the kids for a week then she gets the kids for a week, back and forth.\n\nI didn’t try to sue for full custody at any time because this is totally unprecedented and I’ve never known her to be an unfit parent. Raising the children had nothing to do with why we split up, and nothing related to anger, violence, or general carelessness.\n\nFriday night she dropped the kids off and, as usual, she barely made eye contact or spoke to me. (I tried to organize an amicable split for the kids’ sake, and it went well at first, then after the papers were signed and assets divided she wasn’t having it.)\n\nSo usually the routine when she drops the kids off on Fridays (around 7:00 or whenever they finish dinner) is we watch the game or play some video games, get a jump start on weekend homework, and then head to bed.\n\nMy younger son was really despondent when she dropped him off and my older was hyper and fidgety. Unlike both of them. Usually they’re perfectly well tempered. If anything my younger son is normally the fidgety one, he has. ADHD, and I’ve never seen him as still and affectless as that day.\n\nI asked if everything was ok and they said yes.\n\nSo the boys head up to shower then go to their room to change and I come in to say goodnight and see my younger son’s back and chest are covered in bruises.\n\nI was half paying attention at first and only caught a glimpse, checking my email and catching it out of the corner of my eye.\n\nI asked him to take his shirt off and he panicked. Not like them at all. I was still helping this one in the bath until earlier in the year and they both would walk around in their boxers all day if we let them. So that raised a flag right away.\n\nTo make a long story short he was covered in bruises on top. I had to step out of the room for a second because I didn’t want to break down in front of him. And his legs had prominent lacerations and welts.\n\nI asked him what happened and he kept telling me he fell. He was definitely coached because he hasn’t lied to me that blatantly since he was like four.\n\nI didn’t want to press him. My older son finally told me in private what happened. Younger son did poorly on some test and ex’s boyfriend whipped him with a belt. When he cried, the boyfriend just started wailing on him, because “men don’t cry.” I am shuddering even typing that last part, it is the exact opposite of everything I (and my ex!!) had been teaching them their whole lives.\n\nAnd the most traumatic part to both of them was not even the violence of the boyfriend but that my ex was sitting in the room and did nothing.\n\nWithout going to into detail, because I would just get too upset, this was not an isolated incident. Just the first time he left noticeable marks. He’d been hitting both of them, the younger one much more frequently and aggressively than the older one, and told them if they said anything they’d never see their mother again because she would lose custody. And my ex backed him on this.\n\nI haven’t let on to my ex at all because I don’t want her to know before I can get to court and sue for full custody. I took photos of every injury.\n\nI am so livid. I don’t know if I’m more mad at him for attacking my children, my ex for not doing anything, or myself for not putting the pieces together sooner and doing a deeper dive into the man living with my kids.\n\nI contacted a lawyer that next morning but he said since the guy technically doesn’t live with them we might not be able to take custody from my ex (he kept his apartment, but according to the kids, he brought a bunch of boxes with clothes over three or four weeks ago and has stayed over every night since).\n\nHe also said once my wife catches wind of my suit that she might just take out a restraining order on the guy and swear they’re broken up while still seeing him on the side once she keeps custody.\n\nKnowing that it isn’t certain I’ll win full custody, it’s taking all I have to not load them into a car, change our names, and never come back.\n\nIs there anything else I can do in the meantime? My lawyer says at the end of the week I’ll have no choice but to send them back to her house. Our court date isn’t until Wednesday of next week.\n\nThey’ve barely slept the last two days. The younger one is afraid to sleep alone and keeps getting into bed with his brother, who is so guilt ridden he didn’t do anything to stop it or speak up sooner than he just gets into bed with me and cries all night. (They’re both in counseling starting two days from now.)\n\nI did not see this coming at all. My ex-wife was so against violence she wouldn’t even kill a spider in the kitchen and spend hours trapping it in a glass to release. She found out a teacher had yelled at one of our kids and had a meeting with the principal the same day. It has occurred to me this man is abusing her too and she’s under some sort of spell with him and needs help of her own. Once it effects my kids, I don’t care about her problems. Only they matter. There is no excuse that will justify her sitting and watching a grown man brutalize my seven year old.\n\nSo, basically, **What do I do when the end of the week comes and I’m supposed to give them back?** I don’t want to be charged with kidnapping, however, I’m not bringing them back even if I’m mandated to.\n\n**UPDATE:** He’s up and we’re on our way to the hospital. I’m having both kids examined just to remain on the safe side. I called CPS and said I’m bringing the kids to the hospital and am scared to return them to their mothers care. Fingers crossed.\n\n**UPDATE #2:** My lawyer came to me before I could go to him and told me he worried he didn’t have the kind of experience for this case (he’s a neighbor who was doing this for almost no money out of the goodness of his heart) and connected me to a lawyer with experience in these cases and family court, who is also being very generous with her rates.\n\nIn the meantime my ex-wife arrived out of nowhere to try and take the kids back. I saw her standing at our door pounding and shouting as I pulled back up from meeting with the lawyer. Luckily I hadn’t gone into the driveway yet and the kids were tuned into their iPads with headphones on so I just kept driving and when they realized we’d passed the house I just improvised and said “surprise! Ice cream!” i think they intuitively didn’t ask why we went to a parlor three towns over instead of our usual place. Therapy starts soon, thank God.\n\nCPS is heavily involved and five separate reports were made. Mine, my lawyer’s, the ER doctor, the police who were called to the ER, and their school counselor (at the advice of my new, far more aggressive, lawyer.) The reports are almost definitely what backed the judge into the corner of having to grant the hearing.\n\nI’m too nervous to sleep, and drove the boys around for six hours so they could sleep (the car always conks them right out.) Now the oldest is up reading in my bed and the youngest is curled up with me in his bed. He’s asleep but wakes up every time I try to go check on the older one. They seem calmer.\n\nHoping for good news and **thank you for all the good advice**. I now see I really needed that new lawyer and filing the multiple reports and getting an exam was the best course of action.\n\n**Relevant Comments**\n\n**Commenter 1:** Go before a judge and try to get emergency custody until the hearing.\n\n> **OOP:** My lawyer tried to do this and was denied. I just wrote after reading your comment to understand further why that happened, because it does seem crazy the more I think about it. essentially he said the judge didn’t deem the injuries severe enough to warrant an emergency hearing because he didn’t have to go to the hospital or require medical attention so it’s up for debate whether or not it will be classified as abuse and has to wait until our court date. He said the judge implied maybe the boyfriend is just very “old fashioned”. Either he didn’t look closely at the pictures or is abusive himself because my son had angry red welts that were still festering after nearly 24 hours and unhealed lacerations. Following up on this with the lawyer.\n\n**Commenter 2:** It may also be a good idea to take him to the hospital so a medical professional can take stock of his injuries, so you have definitive proof that the injuries are from before you have had the children. Is there ANY way your lawyer can go before a different judge? This one seems like he doesn't care at all.\n\n> **OOP:** I don’t know but will ask. This is my first interaction with the court system beyond contesting a traffic ticket. A great idea to take him to the hospital though. The youngest is sleeping now, for the first time in a while, but I’ll bring him the moment he’s up.\n\n&nbsp;\n\n[Update #1](https://www.reddit.com/r/legaladvice/s/7VyEXEjlD4): **March 28, 2018 (next day)**\n\n**Editor's note: removed a part of the update as it is a rehash of the original post**\n\n[Michigan, USA]\n\n**Question 1:** My lawyer is telling me to be prepared for my ex to say I abused the kids and coached them to lie. Is there anything I can do to get out in front of that?\n\n**Question 2:** I wouldn’t be surprised if the boyfriend has been abusing my ex wife. My lawyer said if this is the case she might use that as a defense for not stepping in when the kids were being beaten mercilessly by a grown adult man. If this surfaces does it help or hurt my efforts to keep the kids in my custody?\n\n\\----\n\n**UPDATE:** Thank you all for your excellent advice. My lawyer is aware that I’m posting on here and said it’s alright - especially since she recognizes she can’t make herself as available as she would if I were a regular client through her firm paying full freight. She’s been wonderful.\n\nThe hearing was pushed back by a couple hours, but we can’t leave in case they can see us sooner so we’re waiting now. I’m exceptionally freaked out but my lawyer seems deeply confident it will be open and shut. (The case worker isn’t visiting the house until this afternoon but apparently she’s already visited my ex’s house and talked to the boyfriend and her conclusion from that was to recommend they stay with me.)\n\nThe boys have had some interviews and exams with CPS that sound like they went as well as they could have and the things that didn’t go well will help me get them home and safe.\n\nAfter this process my next step is an order of no contact on the boyfriend or a restraining order if I can swing it. Will have to ask the lawyer. But she agrees we do need something official in place to keep him at bay.\n\nA buddy is installing a couple security cameras today. Thanks for those who recommended that.\n\n\\—\n\n**ANOTHER UPDATE:** I have custody until the formal hearing is scheduled. I don’t have to bring them back. Their lawyer tried to say the younger one had fallen on cement and rolled down a step and that’s how it happened. When the boys were asked if younger fell and they had no clue what she was talking about (they tripped on some patio bricks but were barely scratched) their lawyer tried to switch it around and say I’d abused them and they were trying to do me a favor of keeping it out of court.\n\nThe judge said “Counselor, are you out of your mind?” Which my lawyer says is a great sign moving forward. I don’t know where they found their lawyer but he was wearing sneakers.\n\nSo now we wait for next Wednesday. I’m just relieved there isn’t the same clock on it now. Thank you again to everyone.\n\nThe boys are back in school Monday and doing well. The older fell asleep tonight without issue for the first time since I got them. I’m hopeful.\n\n**Relevant Comments**\n\n**Commenter 1:** I know OP has spoken with school counselor, but Monday morning he has to speak with the counselor and principle in case mom shows up. I'm not sure if the school can prevent her from speaking to the kids or signing them out, but OP needs to be informed if she steps on school grounds.\n\n> **OOP:** The school is aware - both for the boys’ well-being as they cope with everything that’s happened and also for security reasons. I called the principal and have been assured they’ll show her face at a meeting on Monday so everybody on campus will be aware of her. I had to send proof of full custody, etc. before it was finalized but by Monday it should be ok. Thanks for your concern and tips.\n\n**Commenter 2:** Question 1: That’s why you involved the police and CPS. They’re professionals, and are investigating. Most kids are not very good liars, so the professionals should be able to tell who’s lying and who isn’t (I know it doesn’t always work out that way). Just listen to your new lawyer, and make sure you don’t ‘advise’ or try to ‘help’ the kids with their statements. Leave it to the professionals. Did ex try to pick the kids up before the scheduled time, or was it the normal exchange time? I’m sure she’s been notified of the investigation. Make sure your new lawyer notifies CPS/police about her showing up at your house. Question 2: IDK, but whether she’s also being abused or not, she was definitely aware of the kids being assaulted and didn’t intervene, per your kid’s statements. That will not play out in her favor. Good luck, and keep being a good dad.\n\n> **OOP:** Thank you. And, no, I was supposed to drop them off at the end of the week in the evening. She never comes here - I always drop them off there (partially because I like having the extra time of the drive with my kids and partially because I did want to keep an eye on how the new boyfriend interacted with my kids and the state of their house. Though we see what good that attempt was now, and lastly because the few times she picked them up here she’d come hours early and I felt awful when my visits were cut short.)\n\n**Commenter 3:** For Question 1: Don't tell the kids to say ANYTHING! You want to avoid any hint of coaching. If your kids want to talk about what happened, listen, but probably keep your answers pretty minimal, but empathetic. Like, \"how do you feel about that?\" or \"I love you and I always will\" or \"would you like a hug?\" I originally had \"that sounds upsetting\" on that list, but then you're telling the child they should be upset. Ask your case worker/lawyer/therapist how to support your kids without tainting their testimony.\n\n> **OOP:** Good thought. I’ll run that question by the case worker and get more details from lawyer who had begun to touch on it.\n\n**Commenter 4:** In the event that you don't have time to stop your kids from going back to their mothers, you need to setup a plan on how they can contact you in the event something starts happening. Does your oldest have a phone? If so, I would suggest you get an Amazon Dash button and have him set it up at your ex's house under your account. This way if he gets his phone taken away, he still has a lifeline of sorts by pressing the button and ordering a product that would immediately notify you that something is up.\n\n> **OOP:** That’s a really smart idea. Thank you.\n\n&nbsp;\n\n**Editor's note: OOP installed a final update into the same post with the first update**\n\n[Final Update](https://www.reddit.com/r/legaladvice/s/7VyEXEjlD4): **April 11, 2018 (same post, two weeks later)**\n\n**UPDATE April/11/18**\n\nSorry for the long delay. It’s been a crazy few days, I’ve barely been checking my emails let alone Reddit (as wonderful as you all are!) Your support has been so critical in getting through this time.\n\nSo - at first I did not win full custody. My ex wife and her bizarre lawyer fabricated evidence claiming I’d been fired from a previous job for violence, going so far as to forge a letter from a nonexistent boss and a whole hash of lies. (I am in IT. So I really don’t know what she could have dreamed up that would end in physical violence.)\n\nI was just so flustered and terrified at the initial ruling. My lawyer hadn’t seen the fake papers and was a complete shark, not allowing anyone to even leave the courtroom before she understood the reasoning behind the ruling.\n\nOnce it came to light there was some sort of evidence she hadn’t seen she really dug in and at the end of the day I got full custody with my ex getting limited supervised visits (provided the boyfriend is nowhere in sight) and the chance to come back and get more visits if she can demonstrate the boyfriend is no longer living in the house or would ever be around the kids. The other good news is it seems like the only plus to icky sneakers lawyer is that he is helping her seek some counseling for whatever trauma she personally experienced.\n\nMy lawyer is following up with seeing anyone responsible for misconduct, including the judge, is dealt with appropriately.\n\nI have the kids now. That’s all that matters. They’re still in school in her town (where I lived with her when we were married) and the end of the year is close but next year I’m going to move them to my district.\n\nIt’s all on her now. All that matters is the boys are home.\n\n**Editor's note: OOP did not leave any comments in this update here**\n\n&nbsp;\n\n**DO NOT COMMENT IN LINKED POSTS OR MESSAGE OOPs – BoRU Rule #7**\n\n**THIS IS A REPOST SUB - I AM NOT OOP**",
+            "permalink": "/r/BestofRedditorUpdates/comments/1rzhqik/my_exwifes_boyfriend_is_abusing_my_kids_and_the/",
+            "subreddit": "BestofRedditorUpdates",
+            "createdUtc": 1774065726,
+            "numComments": 569
+          }
+        ],
+        "nextCursor": "cur_qhU48s4BxdRr_6XEF9IisQ"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-bison-9321fc54",
+      "kind": "anonymous",
+      "name": "Bison",
+      "artworkKey": "bison"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00035",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:40:34.143Z",
+  "started_at": "2026-11-23T07:40:34.301Z",
+  "completed_at": "2026-11-23T07:40:36.115Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

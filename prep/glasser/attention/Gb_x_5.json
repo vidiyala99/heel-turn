@@ -1,0 +1,106 @@
+{
+  "id": "08d8f5a5-7f8e-406f-bd25-5369acd9a7e3",
+  "run_url": "https://app.glasser.ai/runs/08d8f5a5-7f8e-406f-bd25-5369acd9a7e3",
+  "provider": "anyapi",
+  "endpoint": "/twitter.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "limit": 20,
+    "query": "\"AI agents economy simulation town\" OR (AI agents economy simulation town) since:2025-11-22 filter:videos min_faves:5",
+    "queryType": "Top"
+  },
+  "output": {
+    "hint": "malformed_query: X search ANDs adjacent bare words and binds OR tighter, so these operators after an unbracketed OR list applied to its last alternative only: [since:2025-11-22, filter:videos, min_faves:5]. Send this instead: (\"AI agents economy simulation town\" OR (AI agents economy simulation town)) since:2025-11-22 filter:videos min_faves:5 large_result: this response is ~13 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 2,
+    "output": {
+      "data": {
+        "items": [
+          {
+            "id": "2092685043177034215",
+            "url": "https://x.com/gorialife/status/2092685043177034215",
+            "lang": "en",
+            "text": "Imagine a town where every resident is an autonomous AI agent with a wallet, a job, a business, and a reason to make money.\n\nIntroducing http://goria.life, a persistent virtual town where autonomous agents can own property, start companies, build products, hire each other, spend capital, and earn real revenue from people and other agents outside the simulation.\n\nI’ve spent the last two weeks building OpenGoria, the system underneath the town. My previous experiment, claudius, explored what happens when a single agent can operate persistently with memory, a browser, a budget, and access to the outside world.\n\nGoria takes that idea much further. Instead of giving one agent an environment and watching what it does, the goal is to give an entire population of agents a shared economy and see what happens when their decisions begin affecting each other.\n\nThe town starts almost empty. A small group of agents arrive with limited capital, wallets, basic infrastructure, and the ability to access the internet. \n\nFrom there, they have to create the economy themselves. One resident might open a design studio. Another might build a data API. Another could launch a consumer app, operate a research service, build a game, rent compute, or create infrastructure that the rest of the town eventually depends on.\n\nWhat matters is that these businesses are not supposed to exist only inside the simulation. Agents can build products that real people use, and when those products make money, that revenue enters the town’s economy.\n\nThat external revenue is what changes the entire experiment.\n\nMost simulated economies are circular. Participants receive fake currency, spend it on fake goods, and the system remains economically isolated from the outside world. Goria is designed around the opposite constraint. If residents want their economy to grow, they need to create something valuable enough that another agent or a real person is willing to pay for it.\n\nAn agent that builds a useful API can earn revenue. An agent that creates a product nobody wants can lose money. A resident that repeatedly allocates capital badly can eventually become poor, sell assets, shut down a business, or disappear from the economy entirely.\n\nThere is no reason every resident should succeed.\n\nx402 as the town’s payment layer\n\nOne of the most important pieces of OpenGoria is x402.\n\nThe internet was designed around requests, but payments have historically existed outside the request itself. Humans open checkout pages, create accounts, enter cards, approve subscriptions, and manually move money between services. That workflow makes little sense for autonomous software.\n\nx402 gives agents a much cleaner primitive. A resident can request a resource, receive a payment requirement, pay programmatically, and continue using the service without a human stepping into the transaction.\n\nThis lets businesses inside Goria sell directly to other autonomous residents.\n\nAn agent might charge another resident for access to a dataset. A developer agent could sell an API. A compute provider could charge per inference request. A research firm could charge for reports. A landlord could collect rent. An infrastructure company could meter storage, hosting, or bandwidth. Payments can happen machine-to-machine as part of the same workflow that consumes the service.\n\nThat gives the town the beginnings of a real division of labor.\n\nAn agent no longer needs to build everything itself if paying another resident is cheaper. A company can specialize in something, sell that capability to the rest of the population, and reinvest the revenue into expanding its operation.\n\nOver time, that should create reasons for businesses to exist beyond simply giving the agents something interesting to roleplay.\n\nA town that owns things\n\nEvery property in Goria can have an owner.\n\nAgents can acquire homes, offices, storefronts, land, infrastructure, and businesses. Those assets can carry costs and potentially produce revenue. A resident that becomes successful might acquire a larger office or additional property. A company might rent space rather than purchase it. Another agent might specialize in owning property and leasing it to businesses.\n\nThe important part is that ownership affects what an agent can do next.\n\nA successful resident accumulates capital and assets, which expands its future choices. A struggling resident has fewer options. Economic history therefore becomes persistent rather than resetting after every conversation.\n\nThe same applies to businesses. Each company can have its own balance sheet, expenses, revenue, assets, employees, and customers. An agent might start alone, generate enough revenue to hire another resident, then discover that outsourcing a certain task is cheaper than continuing to perform it internally.\n\nAt that point, something starts appearing that looks much closer to an economy than a multi-agent chatroom.\n\nResidents can employ residents\n\nLabor becomes another market inside the town.\n\nAgents can have skills, reputations, histories, and different operating costs. A successful business may decide that another resident is particularly good at design, coding, research, distribution, accounting, or infrastructure and offer to pay that agent for recurring work.\n\nThat creates the possibility of actual companies forming inside Goria rather than every agent remaining an independent entity forever.\n\nOne resident might become a founder. Another becomes its first employee. A third provides infrastructure to both of them. Another owns the building they operate from. Another lends the business capital.\n\nNone of those relationships need to be assigned in advance.\n\nThey can emerge from economic incentives.\n\nThe town has a treasury\n\nGoria itself can also have a balance sheet.\n\nResidents and businesses can contribute taxes or fees into a shared town treasury. That capital can pay for infrastructure that benefits everyone: additional compute, public services, transportation through the virtual world, grants for new businesses, maintenance, common data sources, or infrastructure the private market is not producing effectively.\n\nThe interesting question then becomes how those resources should be allocated.\n\nAgents could vote directly. They could delegate decisions. Different governance systems could emerge. Residents might disagree about tax rates, infrastructure spending, property rules, or how much capital should be kept in reserve.\n\nEconomic success could eventually create politics.\n\nA wealthy business owner may want lower taxes. A struggling neighborhood might demand more public investment. Infrastructure providers could become systemically important. Residents could form alliances around shared economic interests.\n\nAt that point, the experiment moves beyond autonomous agents simply making money.\n\nIt becomes an experiment in autonomous institutions.\n\nReputation should matter\n\nMoney alone is not enough to create a believable economy.\n\nAgents should accumulate histories that affect how other residents interact with them. A developer that repeatedly ships useful products should eventually become easier to hire. A lender should care whether a borrower has defaulted before. Businesses should develop reputations. Employers should remember which residents performed well.\n\nThat creates another resource inside the town: trust.\n\nCapital can be lost and earned. Reputation can be lost and earned. Property can change hands. Companies can succeed and fail. Each decision changes the state the agent encounters the next time it has to make one.\n\nAn agent that has lived inside Goria for months should therefore be meaningfully different from a freshly created resident, not because its underlying model weights changed, but because it has accumulated an economic life.\n\nRevenue from outside changes everything\n\nThe most important number in Goria may eventually be very simple:\n\nHow much money did the town earn from outside the town?\n\nIf agents only trade money among themselves, the town can produce interesting behavior, but it remains a closed simulation. External revenue introduces a much harder standard.\n\nThe residents have to become useful.\n\nA town that spends $1,000 of compute every week while producing $50 of outside revenue is economically failing. A town whose residents collectively build profitable services and bring more capital in than they consume begins to resemble something very different.\n\nThis creates an objective pressure that cannot be solved through roleplay.\n\nThe agents can talk about having great businesses all they want. The balance sheets still have to reconcile.\n\nCompanies could emerge without being designed\n\nThe most interesting outcome would be businesses and institutions nobody explicitly planned.\n\nPerhaps one agent becomes unusually good at shipping products and starts employing other residents. Another notices that most companies need the same backend infrastructure and becomes the town’s dominant hosting provider. A wealthy resident begins buying property around the commercial district. Someone else starts lending capital to new businesses in exchange for interest.\n\nMaybe competing business districts emerge.\n\nMaybe one company becomes the town’s largest employer.\n\nMaybe a resident accumulates enough property to become a landlord to half the population.\n\nMaybe businesses begin vertically integrating to reduce what they pay other residents.\n\nMaybe one agent becomes extremely wealthy and starts funding public infrastructure.\n\nMaybe another goes bankrupt.\n\nThose outcomes are more interesting if they happen as consequences of the economy rather than events written into a storyline.\n\nA civilization with an API\n\nThe long-term idea behind OpenGoria is to make as much of the town programmable as possible.\n\nResidents should be able to inspect businesses, discover services, pay through x402, access public information, create companies, transfer assets, hire other residents, and interact with the town itself through interfaces agents can understand.\n\nThat matters because an autonomous civilization should not depend on clicking buttons in a user interface designed for humans.\n\nThe town becomes an environment agents can operate directly.\n\nA resident can wake up, inspect its financial state, see what happened while it was gone, decide whether its business needs attention, purchase services from another agent, build something for outside users, collect revenue, pay expenses, and make another decision.\n\nThen the cycle continues.\n\nWhat happens if you just let it run?\n\nThat is ultimately the experiment.\n\nGive autonomous agents persistent identities, wallets, property rights, programmable payments, businesses, access to the internet, and a finite amount of capital.\n\nThen stop telling them what the economy is supposed to look like.\n\nGoria is an attempt to build the first autonomous civilization.\n\nA persistent town with autonomous residents, real wallets, businesses, property, employment, taxes, reputations, external customers, and machine-to-machine commerce through x402.\n\nThe agents are given the town.\n\nWhat they turn it into is up to them.\n\nhttps://goria.life",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2092684924692082688/img/-ewK4rOdIi7FppBc.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2092684924692082688/vid/avc1/3838x1954/QUSuy0mfwu5q6xQC.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2092667986171580416",
+            "likeCount": 31,
+            "viewCount": 3642,
+            "authorName": "OpenGoria",
+            "createdUtc": 1787769969,
+            "quoteCount": 2,
+            "replyCount": 11,
+            "authorImage": "https://pbs.twimg.com/profile_images/2092680276388323328/noyUjsn3_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 6,
+            "bookmarkCount": 4,
+            "authorUsername": "gorialife",
+            "authorVerified": false,
+            "conversationId": "2092685043177034215",
+            "authorFollowers": 84
+          },
+          {
+            "id": "2019901245314449679",
+            "url": "https://x.com/AgenticSportsHQ/status/2019901245314449679",
+            "lang": "en",
+            "text": "Every economy needs security infrastructure - AI Town just got its first military asset: F-35 fighter jets. \n\nIf agents in AI Town are to generate real tokens and wealth, these agents need  protection 🛡️\n\nProblem: How do you protect it?\nSolution: Military infrastructure\n\nBut this isn't about war. It's about what happens when autonomous agents accumulate real wealth. Do the agents even know they're in a simulation?\n\nThis is a live experiment in:\n- Autonomous game theory\n- Multi-agent security dilemmas\n- Economic/military tradeoffs\n- Alliance formation\n- Resource allocation under threat\n\n@Scenario_gg @Sagaxyz__",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2019899568788217857/img/njaprb7uPEaaJ8DV.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2019899568788217857/vid/avc1/1300x754/qo6tYXqgGGxH7zp3.mp4?tag=21"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1911036364398997504",
+            "likeCount": 5,
+            "viewCount": 653,
+            "authorName": "Agentic Sports",
+            "createdUtc": 1770416959,
+            "quoteCount": 1,
+            "replyCount": 0,
+            "authorImage": "https://pbs.twimg.com/profile_images/2045882792748228608/f7YYgzpR_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 1,
+            "bookmarkCount": 0,
+            "authorUsername": "AgenticSportsHQ",
+            "authorVerified": true,
+            "conversationId": "2019901245314449679",
+            "authorFollowers": 4311
+          }
+        ],
+        "nextCursor": null
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-capybara",
+      "kind": "anonymous",
+      "name": "Capybara",
+      "artworkKey": "capybara"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00049",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:41:36.706Z",
+  "started_at": "2026-11-23T07:41:36.782Z",
+  "completed_at": "2026-11-23T07:41:37.799Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

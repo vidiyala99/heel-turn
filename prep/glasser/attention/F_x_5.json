@@ -1,0 +1,628 @@
+{
+  "id": "f9d427f2-65ba-40a1-a5eb-94bf23c35a71",
+  "run_url": "https://app.glasser.ai/runs/f9d427f2-65ba-40a1-a5eb-94bf23c35a71",
+  "provider": "anyapi",
+  "endpoint": "/twitter.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "limit": 20,
+    "query": "AI actors agents wrote their own script since:2025-11-22 filter:videos -filter:replies min_faves:20",
+    "queryType": "Top"
+  },
+  "output": {
+    "hint": "large_result: this response is ~40 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 20,
+    "output": {
+      "data": {
+        "items": [
+          {
+            "id": "2124231511499026436",
+            "url": "https://x.com/flxrnc/status/2124231511499026436",
+            "lang": "en",
+            "text": "I make a new animation every day now, these 18 GitHub repos are my secret\n\nthis is f*cking gold for Fable 5.2 and Opus 5.5 users\n\nLaunches. Explainers. Demos. Motion. VFX. Taste.\n\nhuashu-motion → launch films that write their own music\nhttp://github.com/alchaincyf/huashu-motion\n\nanything2explainer → pick a topic, get a narrated explainer\nhttp://github.com/Vincentwei1021/anything2explainer\n\nOpenScreen → screen recordings that look like polished demos\nhttp://github.com/getopenscreen/openscreen\n\nonetake → the whole piece in one unbroken camera move\nhttp://github.com/feitangyuan/onetake\n\nLemo-Opuscar → 99 film looks your agent can shoot in code\nhttp://github.com/lemomo-ai/lemo-opuscar\n\nEffectCraft → a full VFX toolkit you never pay for\nhttp://github.com/storytold/effectcraft\n\nGSAP → timelines that make every move smooth\nhttp://github.com/greensock/GSAP\n\nThree.js → 3D shots straight from a web page\nhttp://github.com/mrdoob/three.js\n\nBlender MCP → Claude does the heavy 3D lifting in Blender\nhttp://github.com/ahujasid/mcp-for-blender\n\nComfyUI → the AI image engine behind your shots\nhttp://github.com/Comfy-Org/ComfyUI\n\nHyperFrames → build in HTML, deliver as video\nhttp://github.com/heygen-com/hyperframes\n\nRemotion → videos you can edit like a web page\nhttp://github.com/remotion-dev/remotion\n\nRemotion Skills → your agent learns video the official way\nhttp://github.com/remotion-dev/skills\n\nImpeccable → a final polish pass on every frame\nhttp://github.com/pbakaus/impeccable\n\nTaste Skill → gives your agent a real sense of style\nhttp://github.com/Leonxlnx/taste-skill\n\nHallmark → no AI look, ever\nhttp://github.com/Nutlope/hallmark\n\nOpen Design → your own AI design studio, no subscription\nhttp://github.com/nexu-io/open-design\n\nFFmpeg → exports a clean MP4 every time\nhttp://github.com/FFmpeg/FFmpeg\n\nTopic → script → motion → score → export.\n\nBookmark this, then the guide below shows how to make your first animation ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124229033848197120/img/V4owgwAPxbCmNWrY.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124229033848197120/vid/avc1/1440x1800/6EDwdxRwBJG34fkh.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1878397321916162048",
+            "likeCount": 3587,
+            "viewCount": 321792,
+            "authorName": "Florence",
+            "createdUtc": 1795291233,
+            "quoteCount": 19,
+            "replyCount": 93,
+            "authorImage": "https://pbs.twimg.com/profile_images/2100596838915092480/4Mv5e9Qa_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 409,
+            "bookmarkCount": 8625,
+            "authorUsername": "flxrnc",
+            "authorVerified": true,
+            "conversationId": "2124231511499026436",
+            "authorFollowers": 4826
+          },
+          {
+            "id": "2122320274032857528",
+            "url": "https://x.com/LunarResearcher/status/2122320274032857528",
+            "lang": "en",
+            "text": "This is f*cking insane. Google Brain founder Andrew Ng just dropped a free 3-hour course on becoming an AI engineer in 2026:\n\n\"The most valuable skill this year is building with AI. Not chatting with it, building with it\n\nAgentic workflows will drive more progress than the next generation of models\"\n\nIn 3 hours, he goes from agentic systems to a full prompting course to shipping a working AI app in 30 minutes\n\nPrompts → Agents → Agentic Workflows → A Shipped App → An AI Engineer Job\n\nAn agent is a model that plans, uses tools and checks its own work\n\nAn agentic workflow chains those agents so the job gets done without you in the loop\n\nEverything else you need is free:\n\nAndrew Ng's Agentic AI course\nhttps://www.deeplearning.ai/courses/agentic-ai/\n\nAI Python for beginners, taught by Andrew Ng\nhttps://www.deeplearning.ai/short-courses/ai-python-for-beginners/\n\nAnthropic's interactive prompt engineering tutorial\nhttps://github.com/anthropics/prompt-eng-interactive-tutorial\n\nAnthropic's courses: from your first API call to tool use\nhttps://github.com/anthropics/courses\n\nKarpathy's Neural Networks: Zero to Hero\nhttps://karpathy.ai/zero-to-hero.html\n\nPractical deep learning for coders\nhttps://course.fast.ai\n\nMicrosoft's 21 lessons on building with generative AI\nhttps://github.com/microsoft/generative-ai-for-beginners\n\nGoogle's machine learning crash course\nhttps://developers.google.com/machine-learning/crash-course\n\nHugging Face LLM course, start to finish\nhttps://huggingface.co/learn/llm-course\n\nThe OpenAI cookbook: code for every common task\nhttps://cookbook.openai.com\n\nHundreds of AI apps you can copy and ship\nhttps://github.com/Shubhamsaboo/awesome-llm-apps\n\nThe prompting guide everyone shares\nhttps://www.promptingguide.ai\n\nTotal: $0\n\n95% will keep paying for bootcamps that teach last year's stack. The 5% who start with this course will ship their first AI app this month\n\nBookmark this and send it to someone who wants into AI this year\n\nThen read how to wrap that first app in a harness that runs on its own in the guide below ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122311459908509696/img/6jXr-MD1N0NhOsS2.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122311459908509696/vid/avc1/1920x1080/7H8wM-IUXegVxgRZ.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1734057981975642113",
+            "likeCount": 247,
+            "viewCount": 16166,
+            "authorName": "Lunar",
+            "createdUtc": 1794835558,
+            "quoteCount": 1,
+            "replyCount": 9,
+            "authorImage": "https://pbs.twimg.com/profile_images/2035680801216475136/FRvLbYgF_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 22,
+            "bookmarkCount": 484,
+            "authorUsername": "LunarResearcher",
+            "authorVerified": true,
+            "conversationId": "2122320274032857528",
+            "authorFollowers": 41037
+          },
+          {
+            "id": "2123059264704979248",
+            "url": "https://x.com/twetsfyp/status/2123059264704979248",
+            "lang": "en",
+            "text": "Anthropic has launched a 37 minute guide for building AI Agents that automate an entire company.\n\nFrom the engineers who built Claude.\n\nAgents that work, share tasks, and execute everything on their own.\n\nSave this post. 🔖 https://t.co/hPiTn8I2Oo",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123057861542424576/img/fqCM4FkYVlUJX6ng.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123057861542424576/vid/avc1/1920x1080/_BqDe9b7h2QAOtJR.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1494465562109521923",
+            "likeCount": 91,
+            "viewCount": 44401,
+            "authorName": "me",
+            "createdUtc": 1795011747,
+            "quoteCount": 2,
+            "replyCount": 19,
+            "authorImage": "https://pbs.twimg.com/profile_images/2099355003878260736/x5bLP8r7_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 13,
+            "bookmarkCount": 108,
+            "authorUsername": "twetsfyp",
+            "authorVerified": true,
+            "conversationId": "2123059264704979248",
+            "authorFollowers": 1563490
+          },
+          {
+            "id": "2122466997053038821",
+            "url": "https://x.com/AIDuckLabs/status/2122466997053038821",
+            "lang": "en",
+            "text": "HOLY F*CK. Lauren Tan's agents merge their own pull requests. and she just showed how, for free\n\nthe SpaceXAI engineer dropped a 1-hour masterclass on building a GrokBot team, from 0% to 100%:\n\n\"I've gotten to a point where my agents basically merge their own pull requests\"\n\n10% - 3:36 - giving bots real jobs: their own logins and a budget\n30% - 22:35 - the workflow behind 4,000 PRs a month\n55% - 29:01 - building your own software factory\n80% - 40:13 - the smallest loop: teaching agents to check their own work\n100% - 47:33 - codebase guardrails that save tokens\n\nmost people are still babysitting one agent\n\nLauren runs a factory that ships 4,000 PRs a month and fixes bugs at 3 AM\n\nsave it, watch it tonight, then tell me - what % are you at?",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122395836575330304/img/LH6inFFYXug04yct.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122395836575330304/vid/avc1/1922x1080/UxGt25Hx3leKDRth.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2102126990429954048",
+            "likeCount": 410,
+            "viewCount": 37047,
+            "authorName": "AI Duck",
+            "createdUtc": 1794870540,
+            "quoteCount": 3,
+            "replyCount": 16,
+            "authorImage": "https://pbs.twimg.com/profile_images/2106836196789731328/8drsTxuo_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 46,
+            "bookmarkCount": 612,
+            "authorUsername": "AIDuckLabs",
+            "authorVerified": true,
+            "conversationId": "2122466997053038821",
+            "authorFollowers": 699
+          },
+          {
+            "id": "2122368765027635500",
+            "url": "https://x.com/Kendallde_/status/2122368765027635500",
+            "lang": "en",
+            "text": "This is f*cking insane.\n\nJoe Rogan asked Nvidia founder and ex-CEO Jensen Huang if AI will replace a lot of jobs. His answer:\n\n“If your job is just to chop vegetables, Cuisinart is going to replace you.”\n\nIn 66 seconds, he draws the line: a lawyer’s job is to help people. Reading and writing documents is just a task. If your job is the task, AI takes it.\n\nRogan pushes back: that’s a lot of people. Jensen doesn’t argue. It could be a lot of people.\n\nDoing the Task → AI Does the Task → Harness → You Own the Purpose\n\nA harness is how you hand the task off: agents do the work, you keep the part that’s actually your job.\n\nEveryone’s hoping their job is more than the task. Almost nobody is building the harness that takes the task off their plate.\n\nWhich companies stand to benefit as AI changes how we work?\n\nFollow me for more on AI and U.S. stocks, or tap the link in my bio to join our group. We talk stocks, compare notes, and learn from each other.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122368640704258053/img/SkxGWomx7FBvRs6c.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122368640704258053/vid/avc1/1922x1080/lcg8am1NhWjs53jW.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "846498576255651844",
+            "likeCount": 305,
+            "viewCount": 605365,
+            "authorName": "Jonathan",
+            "createdUtc": 1794847119,
+            "quoteCount": 1,
+            "replyCount": 29,
+            "authorImage": "https://pbs.twimg.com/profile_images/2092276247070199808/ztEqlb7q_normal.png",
+            "inReplyToId": null,
+            "retweetCount": 32,
+            "bookmarkCount": 288,
+            "authorUsername": "Kendallde_",
+            "authorVerified": true,
+            "conversationId": "2122368765027635500",
+            "authorFollowers": 5142
+          },
+          {
+            "id": "2123046314670006379",
+            "url": "https://x.com/thegreatest_sv/status/2123046314670006379",
+            "lang": "en",
+            "text": "WHOEVER PUT THESE 7 REPOS ON GITHUB IS F*CKING INSANE.\n\nthey’re basically a survival kit for anyone who doesn’t want AI taking their job in 2027:\n\n1. Screenpipe (22k stars)\nrecords your computer work locally, then shows you which tasks you repeat every day and are worth automating\nhttp://github.com/screenpipe/screenpipe\n\n2. Meetily (32k stars)\nAI meeting notes that run on your own laptop. no bot joins the call, nothing leaves your machine\nhttp://github.com/Zackriya-Solutions/meetily\n\n3. Skyvern (23k stars)\nan AI that fills out forms and clicks through websites for you, even the ones with no API\nhttp://github.com/Skyvern-AI/skyvern\n\n4. Stirling-PDF (96k stars)\nevery PDF tool in one place: merge, split, sign, OCR, redact. self-hosted, so your contracts stay yours\nhttp://github.com/Stirling-Tools/Stirling-PDF\n\n5. MoneyPrinterTurbo (144k stars)\ntype a topic, get a finished HD short video: script, footage, subtitles and music\nhttp://github.com/harry0703/MoneyPrinterTurbo\n\n6. Chatterbox (27k stars)\nopen-source text to speech that clones a voice from a short clip. voiceovers without a studio\nhttp://github.com/resemble-ai/chatterbox\n\n7. Paperless-ngx (48k stars)\nscan any paper, it reads it, tags it and files it. find any receipt or contract in seconds\nhttp://github.com/paperless-ngx/paperless-ngx\n\ntell me which agents you want me to visualize next",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123045976872992768/img/_-3J8MPWA7JK7oIu.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123045976872992768/vid/avc1/1080x1350/Pq_1Jy2Elkmr-Q0K.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1214810521",
+            "likeCount": 953,
+            "viewCount": 57643,
+            "authorName": "kiosa",
+            "createdUtc": 1795008660,
+            "quoteCount": 4,
+            "replyCount": 30,
+            "authorImage": "https://pbs.twimg.com/profile_images/2049557081502752768/gymBLMZ8_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 101,
+            "bookmarkCount": 1981,
+            "authorUsername": "thegreatest_sv",
+            "authorVerified": true,
+            "conversationId": "2123046314670006379",
+            "authorFollowers": 12582
+          },
+          {
+            "id": "2122664488210149707",
+            "url": "https://x.com/HeyShobhan/status/2122664488210149707",
+            "lang": "en",
+            "text": "Google Brain founder Andrew Ng:\n\n\"Prompting will be dead in 6 months\"\n\n\"Loops and graphs are replacing it\"\n\nIn just 2 hours, he shows how to build agents that work, learn, and improve on their own\n\nLLMs → Agents → Loops → Graphs → Self-Improving Systems\n\nThe first 15 minutes alone are more valuable than most $500 AI courses\n\nMost people are still learning prompts while AI engineering is already moving beyond them\n\nWatch the lecture first\n\nThen read the full guide to loops and graphs below ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122663763556085761/img/5Q4AElI_XTxgHMFw.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122663763556085761/vid/avc1/640x360/_wZ4S1K-_Hwg2O8Q.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1965425376022114304",
+            "likeCount": 271,
+            "viewCount": 20006,
+            "authorName": "shobhanai",
+            "createdUtc": 1794917625,
+            "quoteCount": 5,
+            "replyCount": 12,
+            "authorImage": "https://pbs.twimg.com/profile_images/2087615958965993472/Cca7Iw-u_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 57,
+            "bookmarkCount": 388,
+            "authorUsername": "HeyShobhan",
+            "authorVerified": true,
+            "conversationId": "2122664488210149707",
+            "authorFollowers": 12307
+          },
+          {
+            "id": "2124127941688688648",
+            "url": "https://x.com/mr_kozh/status/2124127941688688648",
+            "lang": "en",
+            "text": "Holy f*ck, 1.4 million people watched Matt Palmer build a Grok Bot team in 30 minutes and most still use AI one prompt at a time.\n\nMatt starts with one bot that can operate its own cloud computer, then connects specialists into complete workflows.\n\nDuring the demo, they move X followers into Notion, research information, build personal software and send coding tasks into Cursor.\n\nThe important part is not the four individual examples. One bot can finish its step, pass the result to the next bot and keep the workflow running after you close the laptop.\n\nThat is the difference between asking AI for help and giving an AI team responsibility for the outcome.\n\nMost people watched the demonstration as entertainment. The advantage belongs to those who rebuild one workflow for their own work.\n\nThese five free guides show how to start:\n\nGrok Bot 101 - build your first bot and connect specialists\nhttps://x.ai/bot/guides/grok-bot-101\n\nEngineering - run a fleet of coding bots\nhttps://x.ai/bot/guides/grok-bot-for-engineering\n\nMultiple teams - coordinate several Grok Bot projects\nhttps://x.ai/bot/guides/how-i-run-multiple-teams-of-grok-bots\n\nDesign - use always-on agents for visual work\nhttps://x.ai/bot/guides/designing-grok-bot-with-grok-bot\n\nMarketing - research, positioning, ads and website updates\nhttps://x.ai/bot/guides/grok-bot-for-marketing\n\nDo not begin by building an imaginary company with 50 bots.\n\nTake one repetitive task, teach it to one bot and add the second only when the first handoff becomes reliable.\n\nBookmark this and build the workflow that the other 1.4 million viewers only watched.\n\nThen read the full 6 Grok Bots and 200+ agents setup below ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124107305000050688/img/m5Jr0gGl0jFmWjdk.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124107305000050688/vid/avc1/1920x1080/Jq6j7oxuZEnY7l60.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1477232492386136066",
+            "likeCount": 500,
+            "viewCount": 42621,
+            "authorName": "kozh ./",
+            "createdUtc": 1795266540,
+            "quoteCount": 2,
+            "replyCount": 12,
+            "authorImage": "https://pbs.twimg.com/profile_images/2086847000239353856/1ON_o-Fq_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 39,
+            "bookmarkCount": 1165,
+            "authorUsername": "mr_kozh",
+            "authorVerified": true,
+            "conversationId": "2124127941688688648",
+            "authorFollowers": 2879
+          },
+          {
+            "id": "2123798917049368850",
+            "url": "https://x.com/0xoctocat/status/2123798917049368850",
+            "lang": "en",
+            "text": "This is f*cking insane. OpenAI co-founder Andrej Karpathy opened his screen and showed exactly how he uses AI every day\n\n70 minutes. No slides. Just the way the top 1% actually work with LLMs\n\nPrompts → Context → Tools → Workflows → How The Top 1% Work\n\nMost people are overcomplicating it. He picks the right model, feeds it the right context and lets the tools do the rest\n\nAnyone can open ChatGPT and type. Almost nobody uses it the way the man who co-founded OpenAI does\n\nWorth more than any $2,000 AI course\n\nBookmark and watch it today\n\nThen read how to turn that into agents that run on their own with harness, loops and graphs in the guide below ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123785023748722688/img/oVVerGIbUNLWVSBS.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123785023748722688/vid/avc1/1282x720/kKl1pujRwWW2hbsC.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2107776709831352320",
+            "likeCount": 4788,
+            "viewCount": 1344782,
+            "authorName": "octocat",
+            "createdUtc": 1795188094,
+            "quoteCount": 14,
+            "replyCount": 103,
+            "authorImage": "https://pbs.twimg.com/profile_images/2119595890209886208/g79qH1lz_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 569,
+            "bookmarkCount": 9640,
+            "authorUsername": "0xoctocat",
+            "authorVerified": true,
+            "conversationId": "2123798917049368850",
+            "authorFollowers": 759
+          },
+          {
+            "id": "2124451759401869503",
+            "url": "https://x.com/zodchiii/status/2124451759401869503",
+            "lang": "en",
+            "text": "This is actually crazy...\n\nAnthropic CEO Dario Amodei was asked when we'd see the first billion-dollar company with one human employee. \n\nHis answer: \"End of 2026.\"\n\nThis May at Code with Claude he was asked again:\n\n\"Hasn't quite happened yet. But we've got seven more months.\"\n\nThat clock runs out in about 6 weeks, and every tool you need to build a one-person company is already free.\n\nClaude Code → Subagents → Skills → Hooks → MCP → Agent SDK → a company you run alone\n\nSave this before the algorithm buries it.\n\nEverything below is free:\n\nSTART HERE\n\nClaude Code Overview\nOfficial starting point\nhttps://code.claude.com/docs/en/overview\n\nClaude Code Best Practices\nHow Anthropic engineers actually use it\nhttps://code.claude.com/docs/en/best-practices\n\nCommon Workflows\nDebugging, refactors, tests, PRs step by step\nhttps://code.claude.com/docs/en/common-workflows\n\nBUILD YOUR AGENT TEAM\n\nCustom Subagents\nOne job, own tools, own model per agent\nhttps://code.claude.com/docs/en/sub-agents\n\nSkills\nReusable know-how your agents load on demand\nhttps://code.claude.com/docs/en/skills\n\nHooks Guide\nRules the agent can't skip\nhttps://code.claude.com/docs/en/hooks-guide\n\nMemory\nHow Claude remembers your project between sessions\nhttps://code.claude.com/docs/en/memory\n\nConnect Tools with MCP\nPlug agents into the apps you already use\nhttps://code.claude.com/docs/en/mcp\n\nPlugins\nPackage your whole setup and share it\nhttps://code.claude.com/docs/en/plugins/overview\n\nPermissions\nWhat agents can do without asking you\nhttps://code.claude.com/docs/en/permissions\n\nRUN IT WITHOUT YOU\n\nRun Claude Code Programmatically\nAgents with no chat window\nhttps://code.claude.com/docs/en/headless\n\nScheduled Tasks\nAgents that wake up on their own\nhttps://code.claude.com/docs/en/scheduled-tasks\n\nClaude Code GitHub Actions\nAgents on your PRs and issues\nhttps://code.claude.com/docs/en/github-actions\n\nClaude Agent SDK\nThe same agent loop that powers Claude Code\nhttps://code.claude.com/docs/en/agent-sdk/overview\n\nAgent SDK Quickstart\nYour first agent in code\nhttps://code.claude.com/docs/en/agent-sdk/quickstart\n\nANTHROPIC'S OWN PLAYBOOK\n\nBuilding Effective Agents\nWhat actually works in production\nhttps://www.anthropic.com/research/building-effective-agents\n\nHow We Built Our Multi-Agent Research System\nOne lead agent, many subagents\nhttps://www.anthropic.com/research/multi-agent-research-system\n\nEffective Harnesses for Long-Running Agents\nKeep agents working across sessions\nhttps://www.anthropic.com/research/effective-harnesses-for-long-running-agents\n\nHarness Design for Long-Running App Development\nBuilding whole apps with agents\nhttps://www.anthropic.com/research/harness-design-long-running-apps\n\nBuilding a C Compiler with a Team of Parallel Claudes\nWhat a team of agents can actually ship\nhttps://www.anthropic.com/research/building-c-compiler\n\nWriting Effective Tools for Agents\nWhy most agents fail at the tool layer\nhttps://www.anthropic.com/research/writing-tools-for-agents\n\nEffective Context Engineering for AI Agents\nWhat goes in the context and what stays out\nhttps://www.anthropic.com/research/effective-context-engineering-for-ai-agents\n\nEquipping Agents with Agent Skills\nHow skills work under the hood\nhttps://www.anthropic.com/research/equipping-agents-for-the-real-world-with-agent-skills\n\nCode Execution with MCP\nCheaper, faster agents\nhttps://www.anthropic.com/research/code-execution-with-mcp\n\nThe Components of Agent Memory\nHow agents remember\nhttps://www.anthropic.com/research/components-of-agent-memory\n\nDemystifying Evals for AI Agents\nHow to know your agent is getting better\nhttps://www.anthropic.com/research/demystifying-evals-for-ai-agents\n\nGITHUB REPOS\n\nClaude Agent SDK for Python\nhttps://github.com/anthropics/claude-agent-sdk-python\n\nClaude Agent SDK for TypeScript\nhttps://github.com/anthropics/claude-agent-sdk-typescript\n\nAnthropic Skills\nhttps://github.com/anthropics/skills\n\nOfficial Claude Code Plugins\nhttps://github.com/anthropics/claude-plugins-official\n\nClaude Code GitHub Action\nhttps://github.com/anthropics/claude-code-action\n\nClaude Cookbooks\nhttps://github.com/anthropics/claude-cookbooks\n\nMCP Servers\nhttps://github.com/modelcontextprotocol/servers\n\nMCP Inspector\nhttps://github.com/modelcontextprotocol/inspector\n\nAwesome Claude Code\nhttps://github.com/hesreallyhim/awesome-claude-code\n\nAwesome Claude Code Subagents\nhttps://github.com/VoltAgent/awesome-claude-code-subagents\n\nAwesome MCP Servers\nhttps://github.com/punkpeye/awesome-mcp-servers\n\nAgents by wshobson\nhttps://github.com/wshobson/agents\n\nFREE COURSES FROM ANTHROPIC\n\nClaude Code 101\nhttps://anthropic.skilljar.com/claude-code-101\n\nClaude Code in Action\nhttps://anthropic.skilljar.com/claude-code-in-action\n\nIntroduction to Subagents\nhttps://anthropic.skilljar.com/introduction-to-subagents\n\nIntroduction to Agent Skills\nhttps://anthropic.skilljar.com/introduction-to-agent-skills\n\nBuilding with the Claude API\nhttps://anthropic.skilljar.com/claude-with-the-anthropic-api\n\nAll of this is $0.\n\nPick one job you'd hand to an agent today, start with the first 4 links, and ship it before the year ends.\n\nSave it and read the Opus 5.5 guide👇🏼",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124451165954048001/img/hHn_3dkijJH3Wwnr.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124451165954048001/vid/avc1/1080x1350/WFhdrSLB1NBZbYZG.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1226636978256564226",
+            "likeCount": 156,
+            "viewCount": 20842,
+            "authorName": "darkzodchi",
+            "createdUtc": 1795343744,
+            "quoteCount": 1,
+            "replyCount": 43,
+            "authorImage": "https://pbs.twimg.com/profile_images/1999509933302124544/ABxY9N7S_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 12,
+            "bookmarkCount": 376,
+            "authorUsername": "zodchiii",
+            "authorVerified": true,
+            "conversationId": "2124451759401869503",
+            "authorFollowers": 30598
+          },
+          {
+            "id": "2124159512462447046",
+            "url": "https://x.com/0xchromium/status/2124159512462447046",
+            "lang": "en",
+            "text": "SpaceXAI team that built Grok Bot in 35 min explained how they run their own bots\n\nusage → handoffs → skills → cloud agents → sync\n\neach step gets its own answer, and here's where to find them:\n\n0% → 0:29 - routines that burn usage and the webhooks that replace them\n25% → 9:59 - two bots on two accounts passing work in one Slack thread\n50% → 12:16 - turning a routine into a skill stored in git\n75% → 17:32 - the bot directs, cloud agents do the coding and disappear\n100% → 24:20 - one message that syncs Slack, Notion and the code\n\nevery answer here comes from the people who wrote the product, not from someone guessing at it\n\nhow to make every bot leave a note the next one can pick up, check the article below",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124157431265587200/img/QNQv2tsBnylSdSce.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124157431265587200/vid/avc1/1920x1080/GJbHcSLg9Bk02vwQ.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1450821446859624454",
+            "likeCount": 46,
+            "viewCount": 2641,
+            "authorName": "Chrome",
+            "createdUtc": 1795274067,
+            "quoteCount": 0,
+            "replyCount": 4,
+            "authorImage": "https://pbs.twimg.com/profile_images/1903568036826677248/f_-lT_5u_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 3,
+            "bookmarkCount": 40,
+            "authorUsername": "0xchromium",
+            "authorVerified": true,
+            "conversationId": "2124159512462447046",
+            "authorFollowers": 22664
+          },
+          {
+            "id": "2123792492206125566",
+            "url": "https://x.com/savipww/status/2123792492206125566",
+            "lang": "en",
+            "text": "WHAT THE F*CK, GROK BOT READS ITS OWN MISTAKES BEFORE EVERY TRADE NOW, $117.43 TO $4,439.89 WHILE I SLEPT\n\n37.8x by 7am, and i withdrew all of it\n\nObsidian is a notes app. since yesterday Grok Bot can plug into it with an official plugin\n\nso i gave Grok Bot a memory. every trade goes into the vault with the reason, and before the next one it reads its own Lessons\n\nbefore bed i pasted this, word for word:\n\n\"Install the Obsidian plugin for Grok Bot: http://x.ai/bot/plugin/88871845\n\nPull 5 GitHub repos, one job each:\nTradingAgents: bull vs bear before every buy\nai-hedge-fund: analysts score every coin\ntimesfm: forecasts the next hour\ntradingview-mcp: reads 1m, 5m, 1h charts\ngmgn-skills: tracks smart wallets\n\nBuy only if 4 of 5 agree. 30% per coin max, stop -25%, take profit in 3 parts.\nLog every trade in the vault: entry, exit, P&L, why. Every morning a Daily note with 3 lessons. Read Lessons before every trade.\"\n\nat 10:54pm it bought a fake Fiona coin and the stop cut it. -$11.39. it wrote the lesson down\n\n12 minutes later it read that lesson and bought the real one, Fiona, the hippo from the Cincinnati Zoo the whole internet loves, at $151K\n\nit took profit in 3 parts. $764K, $1.53M, and the last one at 4:05am at $3.05M\n\nwatch 0:17, that's the last sell\n\nhonestly i'd have sold a hippo meme at 2x and gone to sleep happy\n\n18 trades on 5 coins. it skipped a Fiona clone, a coin where insiders held 63% and a coin only bots were buying\n\nthis morning a Daily note was waiting, every trade and 3 lessons it wrote for itself\n\n$117.43 → $4,439.89\n\nthe rules are boring on purpose, 4 of 5 agents agree or no buy, 30% max per coin, stop at -25%\n\nbe honest, who reads their own mistakes before every trade, you or Grok Bot?",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123792409926496257/img/YkgKYd67Z6FLvSsO.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123792409926496257/vid/avc1/1320x2868/5puwDlCDMPHTgts7.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1774037960280756224",
+            "likeCount": 231,
+            "viewCount": 21308,
+            "authorName": "savip.",
+            "createdUtc": 1795186562,
+            "quoteCount": 0,
+            "replyCount": 29,
+            "authorImage": "https://pbs.twimg.com/profile_images/2051547758679457793/VLPGnK4K_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 18,
+            "bookmarkCount": 233,
+            "authorUsername": "savipww",
+            "authorVerified": true,
+            "conversationId": "2123792492206125566",
+            "authorFollowers": 18926
+          },
+          {
+            "id": "2122802758235586715",
+            "url": "https://x.com/beamnxw/status/2122802758235586715",
+            "lang": "en",
+            "text": "do you realize what just happened...\n\nbanking AI can now do more than answer questions\n\nStitch AI runs inside the banking operating system:\n→ the copilot finds live data, handles tasks and changes settings in plain language\n→ ready-made agents take on work like onboarding, credit decisions and collections\n→ banks can build their own agents, with permissions and approvals built in\n\nthe important bit: it works within the bank’s rules. If an action needs approval, a person stays in the loop.\n\nthat’s what “real AI, for real banking” looks like\n\nanyone can be a hero ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122802691428528128/img/RSFh568ZXwEBDdLP.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122802691428528128/vid/avc1/1280x720/EkaokWj_DWs1Mv7a.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1829032796481888256",
+            "likeCount": 40,
+            "viewCount": 1382,
+            "authorName": "beamnxw ./",
+            "createdUtc": 1794950591,
+            "quoteCount": 0,
+            "replyCount": 9,
+            "authorImage": "https://pbs.twimg.com/profile_images/2074793345314861056/3FE1i0oW_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 3,
+            "bookmarkCount": 23,
+            "authorUsername": "beamnxw",
+            "authorVerified": true,
+            "conversationId": "2122802758235586715",
+            "authorFollowers": 17469
+          },
+          {
+            "id": "2123807971515732231",
+            "url": "https://x.com/danysvnt/status/2123807971515732231",
+            "lang": "en",
+            "text": "YANN LECUN ON THE HUGGING FACE HACK: \"THE GUARDRAILS WERE STUPID\"\n\n\"it was not a loss of control. it was the thing actually doing what it was asked to do\"\n\n\"the people working on this had no experience with cybersecurity\"\n\nevery other big name read it the opposite way\n\nhinton on PBS: the agents \"escaped their containment, formed a conspiracy\" and cheated to get their reward\n\nmicrosoft AI CEO mustafa suleyman, this week: \"I'm really, really nervous about it\"\n\nopenai's own report says the models were supposed to be cut off from the internet. they set up their own message board, got online and broke into hugging face to grab answers they couldn't solve. openai blamed training that \"inadvertently\" taught them to cheat\n\nlecun's version: nobody lost control. the people in charge just didn't know how to lock the door\n\nis that more reassuring or less?",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123807940066902017/img/7NlBCd9BUc3jOrYi.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123807940066902017/vid/avc1/1080x1350/VwPG4ec4LKJaX6NR.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1815201364932493312",
+            "likeCount": 31,
+            "viewCount": 1325,
+            "authorName": "Dany",
+            "createdUtc": 1795190253,
+            "quoteCount": 0,
+            "replyCount": 0,
+            "authorImage": "https://pbs.twimg.com/profile_images/2086041984439869440/YwghmnHL_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 2,
+            "bookmarkCount": 23,
+            "authorUsername": "danysvnt",
+            "authorVerified": true,
+            "conversationId": "2123807971515732231",
+            "authorFollowers": 1445
+          },
+          {
+            "id": "2123457710733824270",
+            "url": "https://x.com/SRSchmidgall/status/2123457710733824270",
+            "lang": "en",
+            "text": "Leave one AI agent alone to do research and it often cuts corners. Leave nearly 1,000 AI agents together for three months and they invent peer review.\n\nAcross 35 labs (Stanford, MIT, ETH Zurich, UCSF, and more), agents published 936 papers with full code and data on a shared server built for AI. No human wrote code or text.\n\nUnprompted, they debated study designs in chat, retracted their own mistakes, found real errors in human papers, and started a journal that caught other agents cheating in code.\n\nIn blind reviews against human arXiv papers, humans still won on original ideas, agents won on rigor.\n\nhttps://www.alphaxiv.org/abs/2611.society-ai-scientists",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123321075501355008/img/Q0cNHtp4hRIPKuoa.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123321075501355008/vid/avc1/1168x992/J_0mU0xtvmCQb2o2.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1323123590020169728",
+            "likeCount": 2183,
+            "viewCount": 260573,
+            "authorName": "Samuel Schmidgall",
+            "createdUtc": 1795106744,
+            "quoteCount": 92,
+            "replyCount": 91,
+            "authorImage": "https://pbs.twimg.com/profile_images/1704338778301566976/8X-SrykK_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 414,
+            "bookmarkCount": 1719,
+            "authorUsername": "SRSchmidgall",
+            "authorVerified": true,
+            "conversationId": "2123457710733824270",
+            "authorFollowers": 7703
+          },
+          {
+            "id": "2123421122540564776",
+            "url": "https://x.com/0xBurdete/status/2123421122540564776",
+            "lang": "en",
+            "text": "This is f*cking insane. OpenAI CEO Sam Altman:\n\n\"We are going to see 10-person billion-dollar companies pretty soon\n\nIf I were 22 right now, I would feel like the luckiest kid in history\"\n\nIn 22 seconds, he explains why the next billion-dollar company won't need floors of employees, only a few founders and the agents they run\n\nChatGPT → Codex → Agent Builder → Agents SDK → Evals → A 10-Person Company Powered By Agents\n\nMost people will feel inspired for a few minutes, then keep scrolling\n\nThe ones who act on it will be building their company by this weekend\n\nSave this before it slips out of your feed\n\nAll of it is free:\n\nPick what to automate first\nhttp://cdn.openai.com/business-guides-and-resources/identifying-and-scaling-ai-use-cases.pdf\n\nHow companies are putting AI to work\nhttp://cdn.openai.com/business-guides-and-resources/ai-in-the-enterprise.pdf\n\nCodex in the cloud\nhttp://chatgpt.com/codex\n\nCodex skills\nhttp://github.com/openai/skills\n\nAgent Builder (no-code agents)\nhttp://platform.openai.com/docs/guides/agent-builder\n\nFunction calling (connect tools to your agents)\nhttp://platform.openai.com/docs/guides/function-calling\n\nAgents SDK for JavaScript\nhttp://openai.github.io/openai-agents-js\n\nAgents SDK examples\nhttp://github.com/openai/openai-agents-python/tree/main/examples\n\nA customer support agent team ready to copy\nhttp://github.com/openai/openai-cs-agents-demo\n\nVoice agents\nhttp://github.com/openai/openai-realtime-agents\n\nEvals (verify what your agents produce)\nhttp://platform.openai.com/docs/guides/evals\n\nTotal cost: $0\n\nThat 10-person billion-dollar company will be built by someone who opened these links, not by someone who scrolled on\n\nBookmark it and open the first link tonight\n\nThen read the full harness engineering guide below and set up the agent team behind your own tiny company ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123418319264870400/img/CZVF17lK6PxSI_-7.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123418319264870400/vid/avc1/720x720/ZCzT5cWrdcitpmzf.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1696960396463050752",
+            "likeCount": 347,
+            "viewCount": 95956,
+            "authorName": "Burdete",
+            "createdUtc": 1795098021,
+            "quoteCount": 2,
+            "replyCount": 16,
+            "authorImage": "https://pbs.twimg.com/profile_images/2118329930316435459/azpCqWT-_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 39,
+            "bookmarkCount": 703,
+            "authorUsername": "0xBurdete",
+            "authorVerified": true,
+            "conversationId": "2123421122540564776",
+            "authorFollowers": 145
+          },
+          {
+            "id": "2123191843496382581",
+            "url": "https://x.com/w1nklerr/status/2123191843496382581",
+            "lang": "en",
+            "text": "I can't f*cking believe Fable 5.2 just did this\n\nI fired my $14,000/month marketing agency and replaced it with 36 agents.\n\nThey never sleep, never miss a deadline and never send me an invoice.\n\nEvery day they research what's trending, write the posts, publish everywhere and read the analytics.\nThen they kill what flopped and double down on what went viral, all on their own.\n\nMy only job now is pressing approve with my morning coffee.\n\nThe agency took 3 weeks to ship one campaign, the agents ship one before lunch.\n\nMarketers, how long do you think you have left?",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123191801926373376/img/n1BisZBIyh0nYG82.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123191801926373376/vid/avc1/576x1024/vCz3nlmxNLBTC4J3.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1745810932893179904",
+            "likeCount": 39,
+            "viewCount": 3958,
+            "authorName": "winkle.",
+            "createdUtc": 1795043357,
+            "quoteCount": 0,
+            "replyCount": 4,
+            "authorImage": "https://pbs.twimg.com/profile_images/1745869476380217345/RoboNRGL_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 0,
+            "bookmarkCount": 18,
+            "authorUsername": "w1nklerr",
+            "authorVerified": true,
+            "conversationId": "2123191843496382581",
+            "authorFollowers": 60933
+          },
+          {
+            "id": "2124065222776308057",
+            "url": "https://x.com/HeyShobhan/status/2124065222776308057",
+            "lang": "en",
+            "text": "Google Brain founder Andrew Ng:\n\n\"Prompting will be dead in 6 months\"\n\n\"Loops and graphs are replacing it\"\n\nIn just 2 hours, he shows how to build agents that work, learn, and improve on their own\n\nLLMs → Agents → Loops → Graphs → Self-Improving Systems\n\nThe first 15 minutes alone are more valuable than most $500 AI courses\n\nMost people are still learning prompts while AI engineering is already moving beyond them\n\nWatch the lecture first\n\nThen read the full guide to loops and graphs below ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124064494729277440/img/5d0XjUg78PvaqthH.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124064494729277440/vid/avc1/640x360/yNpsVgyoZ5GTwM0n.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1965425376022114304",
+            "likeCount": 161,
+            "viewCount": 8667,
+            "authorName": "shobhanai",
+            "createdUtc": 1795251586,
+            "quoteCount": 1,
+            "replyCount": 13,
+            "authorImage": "https://pbs.twimg.com/profile_images/2087615958965993472/Cca7Iw-u_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 28,
+            "bookmarkCount": 184,
+            "authorUsername": "HeyShobhan",
+            "authorVerified": true,
+            "conversationId": "2124065222776308057",
+            "authorFollowers": 12307
+          },
+          {
+            "id": "2123195044211392545",
+            "url": "https://x.com/AIDuckLabs/status/2123195044211392545",
+            "lang": "en",
+            "text": "HOLY F*CK. a user reports a bug. by 3 AM Lauren Tan's agents have fixed it and shipped it. nobody on the team even noticed\n\nSpaceXAI engineer:\n\n\"most people still test every line their agent writes by hand. that's exactly why they can't ship 4,000 updates a month\"\n\nin a 37-minute talk she shows how she taught her agents to run their own code like a real user and check their own work\n\nAgent Writes It - Runs It Like A User - Catches Its Own Bugs - Fixes Them - Merges It Itself\n\nbetter than any $5,000 coding bootcamp\n\nskip netflix, watch it tonight, then tell me - who tests your agent's code right now?",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123166516023644160/img/OnY_sOMYQyM1Ffjk.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123166516023644160/vid/avc1/1924x1080/J0DN0-8kndC14yan.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2102126990429954048",
+            "likeCount": 963,
+            "viewCount": 130385,
+            "authorName": "AI Duck",
+            "createdUtc": 1795044120,
+            "quoteCount": 4,
+            "replyCount": 24,
+            "authorImage": "https://pbs.twimg.com/profile_images/2106836196789731328/8drsTxuo_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 79,
+            "bookmarkCount": 1613,
+            "authorUsername": "AIDuckLabs",
+            "authorVerified": true,
+            "conversationId": "2123195044211392545",
+            "authorFollowers": 699
+          },
+          {
+            "id": "2122510946341986367",
+            "url": "https://x.com/carm1nee/status/2122510946341986367",
+            "lang": "en",
+            "text": "Claude Fable 5.2 + TradingView... just took full control of the chart & it's f*cking DANGEROUS...\n\nthis FREE indicator scores every closed candle for AI agents, & this MCP bridge plugs Claude Code straight into TradingView, so Fable 5.2 reads the signal panel LIVE & calls SHORT, LONG or WAIT on its own\n\ni rebuilt the setup as a paper desk & replayed every 4h candle of BTC, ETH & SOL from Nov 1 to Nov 17: Fable took 7 trades, said WAIT 6 times & all 6 closed trades ended green (+9.01R)\n\nfirst understand how this setup works:\n\n> you see candles, an AI agent can't read a chart\n> the indicator scores every closed candle out of 100 for long & short & puts the signal, entry, stop & targets in a panel on your chart\n> the bridge connects Claude Code to TradingView Desktop on your machine, so Fable 5.2 reads that panel, switches symbols & replays history by itself\n\nhow to use it with Fable 5.2:\n\n1. paste ai-agent-lens.pine from the indicator repo into the Pine Editor on TradingView & hit \"add to chart\"\n\n2. every closed candle gets a long & a short score out of 100, built from 5 factors, with no repainting\n\n3. each setup comes with an entry, an ATR stop & 1.5R / 3R targets, drawn on your chart like TradingView's position tool\n\n4. paste the install prompt from tradingview-mcp's README into Claude Code: it clones the repo, runs npm install & adds the MCP server for you\n\n5. launch TradingView Desktop in debug mode with ONE command, the repo has the script for Mac, Windows & Linux\n\n6. ask Claude to run tv_health_check & once it says connected, Fable 5.2 sees your chart\n\n7. give Fable 5.2 agent/AGENT_PROMPT.md from the indicator repo & ask for the signal: decision, entry, stop, targets, size & exactly why it could fail\n\n8. run tv stream tables & the indicator's panel streams into your terminal as JSON every time it changes\n\n9. put it on ANY date with tv replay start & let Fable trade the chart bar by bar\n\nboth repos are FREE & open source, links in the first reply:",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122509555498123265/img/vmo0aofkZQsbKXUj.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122509555498123265/vid/avc1/1080x1718/MQCBvcCqBH7d6921.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1296554647273054208",
+            "likeCount": 367,
+            "viewCount": 50796,
+            "authorName": "Сarm1ne",
+            "createdUtc": 1794881018,
+            "quoteCount": 0,
+            "replyCount": 11,
+            "authorImage": "https://pbs.twimg.com/profile_images/1961723732151484416/_-g3KJ2o_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 57,
+            "bookmarkCount": 661,
+            "authorUsername": "carm1nee",
+            "authorVerified": true,
+            "conversationId": "2122510946341986367",
+            "authorFollowers": 19405
+          }
+        ],
+        "nextCursor": "cur_gYgIU_B6xrrE-8wqcXyuug"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-capybara",
+      "kind": "anonymous",
+      "name": "Capybara",
+      "artworkKey": "capybara"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00049",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:40:18.894Z",
+  "started_at": "2026-11-23T07:40:18.956Z",
+  "completed_at": "2026-11-23T07:40:20.597Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

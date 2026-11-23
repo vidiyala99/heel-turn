@@ -1,0 +1,129 @@
+{
+  "id": "3811debf-e7c7-4200-b3a5-660dca08f137",
+  "run_url": "https://app.glasser.ai/runs/3811debf-e7c7-4200-b3a5-660dca08f137",
+  "provider": "scrapecreators",
+  "endpoint": "/v1/linkedin/search/posts",
+  "endpoint_version": 4,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "query": "Build your Co-Founder hackathon Crewbase winner",
+    "date_posted": "last-year"
+  },
+  "output": {
+    "posts": [
+      {
+        "url": "https://www.linkedin.com/posts/brendanfalk_this-is-the-first-time-ive-spoken-publicly-activity-7519458766661140480-wNC7",
+        "name": "This is the first time I've spoken publicly about getting acquired by AWS, why we're building Hercules, and my journey as an entrepreneur. \n\nHonored to do it with my friend, Moritz Plassnig (CEO… | Brendan Falk | 10 comments",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4D05AQFH1VJAn9YCUg/mp4-640p-30fp-crf28/B4DaFp72deJ4Bk-/0/1792778667417?e=2147483647&v=beta&t=SoHI2-88cC4atBqOMKgLyQnCAsiTqC-TDJAGLP_EHdw",
+        "author": {
+          "url": "https://www.linkedin.com/in/brendanfalk",
+          "name": "Brendan Falk",
+          "image": "https://media.licdn.com/dms/image/v2/C4E03AQGI0b8FDxd_GA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1566752585301?e=2147483647&v=beta&t=kKS4kKuBr0QJyLs3Fu7IngF3kR-L43IVDr4xxz9xKgU",
+          "followers": 8964
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7519492092935708672",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7519458703872331776,7519492092935708672)",
+            "text": "that is an incredible \"chamath's salesforce\" quote",
+            "author": "Matt Slotnick",
+            "linkedinUrl": "https://www.linkedin.com/in/mslotnick",
+            "datePublished": "2026-10-23T20:17:00.363Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7520704606721703936",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7519458703872331776,7520704606721703936)",
+            "text": "As AI takes on more implementation, where do you most need human depth? Customer knowledge, technical judgement?",
+            "author": "John Knight",
+            "linkedinUrl": "https://au.linkedin.com/in/saltworthjk",
+            "datePublished": "2026-10-27T04:35:06.177Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "3w"
+          },
+          {
+            "id": "7519459309324349440",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7519458703872331776,7519459309324349440)",
+            "text": "the '10s of millions of revenue with 7 people' timestamp is the one i'm skipping to. the interview format is fine, but that ratio is the actual story of the ai era.",
+            "author": "Roshaan Ali",
+            "linkedinUrl": "https://pk.linkedin.com/in/roshaan-awan",
+            "datePublished": "2026-10-23T18:06:44.142Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7519569556202254336",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7519458703872331776,7519569556202254336)",
+            "text": "There he is 🐐… miss you bruv",
+            "author": "Darren Lucia",
+            "linkedinUrl": "https://www.linkedin.com/in/darrenlucia",
+            "datePublished": "2026-10-24T01:24:49.046Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7523177265984188417",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7519458703872331776,7523177265984188417)",
+            "text": "The bit about hitting those revenue numbers with only 7 people is wild.",
+            "author": "Ro Sotelo",
+            "linkedinUrl": "https://ca.linkedin.com/in/roxysotelo",
+            "datePublished": "2026-11-03T00:20:34.086Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7519513810290855936",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7519458703872331776,7519513810290855936)",
+            "text": "Brendan Falk  really enjoyed listening to your journey and strategic decisions along the way. Thanks for sharing!",
+            "author": "Claire Lange",
+            "linkedinUrl": "https://au.linkedin.com/in/clairelangeaustralia",
+            "datePublished": "2026-10-23T21:43:18.185Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7520548456466251779",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7519458703872331776,7520548456466251779)",
+            "text": "Thanks for sharing!",
+            "author": "Veronica Nutting",
+            "linkedinUrl": "https://www.linkedin.com/in/veronicanutting",
+            "datePublished": "2026-10-26T18:14:37.055Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "3w"
+          }
+        ],
+        "likeCount": 174,
+        "contentUrn": "urn:li:ugcPost:7519458703872331776",
+        "transcript": "The SASS apocalypse, the narrative when it really all started was why the hell would I pay sales force and when and I love using this example like Chamath started this company called AM 90 and the whole pitch was we'll give you software that's 80% is good for 90% lower cost. So I'm paying sales force $1,000,000 a year. Why don't they pay Chammas like crappy Salesforce $100,000 a year? And we have seen the complete opposite from our estimates. We see our customers. They are happy to pay us actually more for their existing software. Yeah, way more because it's not about cost saving, it's all about revenue generation. And so coming back to this straight forward that we keep talking about, he was running his business and he's doing an at ten, $20 million of revenue. If your core business operations run way faster because you have software that's designed for your business, your revenue goes up and so.",
+        "uploadDate": "2026-10-23T18:04:34.759Z",
+        "activityUrn": "urn:li:activity:7519458766661140480",
+        "description": "This is the first time I've spoken publicly about getting acquired by AWS, why we're building Hercules, and my journey as an entrepreneur.\n\nHonored to do it with my friend, Moritz Plassnig (CEO CloudBees) as he launches Codeship Labs.\n\nWatch the full interview at https://lnkd.in/dzuhHmWv\n\nTimestamps:\n- 0:00 Intro\n- 3:52 How Fig started\n- 9:00 Betting on autocomplete\n- 10:55 Getting acquired by AWS\n- 16:30 Navigating the idea maze\n- 19:26 Zeus: Palantir-like enterprise AI transformations\n- 22:42 Hercules: The best AI app builder for business\n- 26:41 Reaching 10s of millions of revenue with 7 people\n- 37:41 Our emphasis on customer support\n- 40:46 The SaaS-pocalypse\n- 45:19 Closing thoughts",
+        "commentCount": 10,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQFH1VJAn9YCUg/videocover-high/B4DaFp72deJ4BM-/0/1792778662406?e=2147483647&v=beta&t=P-O2Akf7FKMZhbZNh9oX9y5Ni3KUFne8wMheo055jNQ",
+        "datePublished": "2026-10-23T18:04:34.759Z"
+      }
+    ],
+    "query": "Build your Co-Founder hackathon Crewbase winner",
+    "cursor": null,
+    "success": true
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00188",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:34:14.346Z",
+  "started_at": "2026-11-23T07:34:14.379Z",
+  "completed_at": "2026-11-23T07:34:17.117Z",
+  "task_id": "tsk_965d2263a224d7b9",
+  "metadata": {}
+}

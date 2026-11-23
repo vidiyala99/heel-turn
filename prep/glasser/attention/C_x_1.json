@@ -1,0 +1,46 @@
+{
+  "id": "c139e76c-3bca-4263-af38-5ee776a3c565",
+  "run_url": "https://app.glasser.ai/runs/c139e76c-3bca-4263-af38-5ee776a3c565",
+  "provider": "anyapi",
+  "endpoint": "/twitter.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "limit": 20,
+    "query": "AI agents coach negotiation simulation since:2025-11-22 filter:videos -filter:replies min_faves:20",
+    "queryType": "Top"
+  },
+  "output": {
+    "items": 0,
+    "output": {
+      "data": {
+        "items": [],
+        "nextCursor": null
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-capybara",
+      "kind": "anonymous",
+      "name": "Capybara",
+      "artworkKey": "capybara"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00049",
+  "charge_basis": {
+    "clause": "NO_RESULT",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:40:33.289Z",
+  "started_at": "2026-11-23T07:40:33.468Z",
+  "completed_at": "2026-11-23T07:40:38.918Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

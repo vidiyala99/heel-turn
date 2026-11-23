@@ -1,0 +1,570 @@
+{
+  "id": "a19ca0b7-60f4-4429-b43f-092d671e5e38",
+  "run_url": "https://app.glasser.ai/runs/a19ca0b7-60f4-4429-b43f-092d671e5e38",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "AI debate opponent practice",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "large_result: this response is ~63 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 25,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1ppatqq",
+            "url": "https://www.reddit.com/gallery/1ppatqq",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/Gg0Yf35_XXgdu3R4_ezi9hN_n23dpXlOVE1jboGMxfY.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 83272,
+            "title": "New plaques added to the presidential hall of fame in the White House",
+            "author": "Dtb4evr",
+            "authorId": "849j80i5",
+            "selftext": "",
+            "permalink": "/r/pics/comments/1ppatqq/new_plaques_added_to_the_presidential_hall_of/",
+            "subreddit": "pics",
+            "createdUtc": 1766012187,
+            "numComments": 15872
+          },
+          {
+            "id": "1vehe64",
+            "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1vehe64/book_i_bought_didnt_edit_out_the_ai_prompt/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/kjlbefbjm6hh1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=86b78da7021d314b6ea5ffddd8d3f47666efa9aa",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 73725,
+            "title": "Book I bought didn't edit out the AI prompt ",
+            "author": "pjcace",
+            "authorId": "60k2g",
+            "selftext": "Absolutely worthless book. Didn't even remove the prompt in the introduction. The whole book, a travel guide, was generalities and no specifics. You could change the name and have it be any city anywhere.",
+            "permalink": "/r/mildlyinfuriating/comments/1vehe64/book_i_bought_didnt_edit_out_the_ai_prompt/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1785772518,
+            "numComments": 1322
+          },
+          {
+            "id": "1q9cc8r",
+            "url": "https://www.reddit.com/r/AskTheWorld/comments/1q9cc8r/came_across_this_today_curious_on_what_others/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/16VewWGG4zThYKqylS7fkE3vRETmMZ_mzijNdhOMCkE.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 34438,
+            "title": "Came across this today, curious on what others think about these types of laws/bans",
+            "author": "MissPeduncles",
+            "authorId": "139b3dvk1t",
+            "selftext": "\\*“Islam must adapt to Sweden.” A statement now sparking heated debate.\n\nSweden’s Deputy Prime Minister Ebba Busch has reignited national and international debate after supporting a ban on the burqa and niqab in all public places. According to the statement circulating online, Busch argues that Islam must adapt to Swedish society rather than being practiced in the same way as in Muslim majority countries.\n\nSupporters of the proposal say it promotes integration, gender equality, and shared civic values. Critics warn that such a ban would restrict religious freedom and disproportionately target Muslim women, deepening social division instead of reducing it.\\*",
+            "permalink": "/r/AskTheWorld/comments/1q9cc8r/came_across_this_today_curious_on_what_others/",
+            "subreddit": "AskTheWorld",
+            "createdUtc": 1768071537,
+            "numComments": 4915
+          },
+          {
+            "id": "1xkcnud",
+            "url": "https://www.reddit.com/r/Art/comments/1xkcnud/where_am_i_supposed_to_live_briarhide_digital_2026/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/e50zg5m3jtyh1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=635693533a6bad6ced580c748a155ac78661c570",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 32244,
+            "title": "where am i supposed to live, briarhide, digital, 2026",
+            "author": "kingstoken",
+            "authorId": "lvvp3",
+            "selftext": "",
+            "permalink": "/r/Art/comments/1xkcnud/where_am_i_supposed_to_live_briarhide_digital_2026/",
+            "subreddit": "Art",
+            "createdUtc": 1793459385,
+            "numComments": 242
+          },
+          {
+            "id": "1w8cods",
+            "url": "https://www.reddit.com/r/WeThePeopleAtWhipple/comments/1w8cods/in_237_years_no_native_american_woman_has_served/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/myh94dyyornh1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=5afa2c485441794f9303b9cbf20a7e7dc734c021",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 27408,
+            "title": "In 237 years, no Native American woman has served the US Senate.",
+            "author": "Foreign_Librarian193",
+            "authorId": "ucw6upx0",
+            "selftext": "In its 237 years, no Native American woman has ever served in the United States Senate. This November, that could change -- not once, but twice. In August, Mary Peltola of Alaska finished first in her state's Senate primary, setting up one of the most competitive Senate races in the country against the Republican incumbent -- just a week after Peggy Flanagan captured Minnesota's Democratic Senate nomination in a landslide. Two Native women, in two states, are now within reach of a barrier that has stood since the founding. Should either prevail, she would make history; should both, the Senate would seat two Native women at once, in a single election, having seated none in more than two centuries.\n\nThe first of the two victories came in August, in Minneapolis, where Peggy Flanagan -- pictured at right -- took the stage to celebrate a win that some $20 million had been spent to prevent. Outside groups backing her opponent, Representative Angie Craig, had flooded the state with ads, roughly four times what Flanagan's side could spend -- and it made no difference; her lead only widened, and she won by nearly 18 points.\n\n\"This campaign has always been about the many versus the money,\" she told the crowd. The seat she is running for -- open with the retirement of Senator Tina Smith -- sits in a state that has not sent a Republican to the Senate in more than 20 years, which makes Flanagan, the lieutenant governor of Minnesota and the highest-ranking Native woman in elected executive office in the country, the clear favorite to win it in November.\n\nFlanagan's own story -- of hardship and heritage -- has never been incidental to her politics; she has made it the point. Raised in St. Louis Park by a mother who at times relied on public assistance, Flanagan, a citizen of the White Earth Nation, wove that history through her victory speech.\n\n\"I am the daughter of Marvin Manypenny,\" she said, naming her father, an Ojibwe activist known for his battles over tribal sovereignty -- \"an activist who was always ready to get into good trouble for a good cause.\" Her clan is the Wolf Clan, she reminded the room, \"and the role of our clan is to leave no one behind.\"\n\nThe second victory came a week later, two thousand miles northwest, where Mary Peltola faces a steeper climb. Alaska went for Donald Trump by 13 points in 2024, and Peltola is challenging not a newcomer but a sitting Republican senator, Dan Sullivan, who is seeking his third term with Trump's endorsement. In the primary, she cleared her first hurdle: in Alaska's all-party primary, Peltola finished first, ahead of the incumbent -- a striking result in a red-leaning state -- and the two now advance to a November general election that could help decide control of the Senate.\n\nThe nonpartisan Cook Political Report has moved the race from \"lean Republican\" to a pure toss-up, one of the few Republican-held seats Democrats have a real chance to flip. A measure of how competitive it has become: through the most recent quarter, Peltola outraised Sullivan by better than three to one.\n\nA moderate with a proven ability to win votes far outside her own party, Peltola has built a broad appeal on fish, fuel costs, and the practical concerns of daily Alaskan life, giving her a reach few Democrats in the state have ever had. Alaska's rules have helped boost her campaign as well: more than half of its voters register with no party at all, and its ranked-choice system -- the same one that helped carry her to office in 2022 -- rewards candidates who can reach beyond their base.\n\nThat she is on this ballot at all is its own piece of history. In 2022, Peltola, who is Yup'ik, won a special election to fill the seat left by the death of Representative Don Young, defeating Sarah Palin in an upset and becoming the first Alaska Native ever elected to Congress. She lost the seat two years later by fewer than three points -- and rather than retreat, she set her sights higher.\n\nA former fishing-boat captain who raised seven children along the Kuskokwim River, she has built her campaign around the plainest facts of Alaskan life. \"Growing up, Alaska was a place of abundance,\" she said in the video announcing her run. \"Now we have scarcity.\" Her platform, as she puts it, comes down to three words: \"fish, family and freedom.\"\n\nTogether they stand at the edge of a threshold no Native woman has ever crossed. Native Americans have sat in the Senate before -- four men, over more than two centuries -- but no Native woman ever has, in a chamber that has legislated over tribal nations, treaties, and lands since before those nations were granted citizenship. This November, that could change not once but twice, with one woman from the North Woods of Minnesota and the other from the Alaskan delta. After 237 years, the voices that decide the future of Native peoples at the highest levels of government may finally include a Native woman's own -- and this year, they may include two.\n\nTo learn more about Peggy Flanagan's campaign, visit https://peggyflanagan.com/\n\nTo learn more about Mary Peltola's campaign, visit https://marypeltola.com/\n\n\\---\n\nCredit: The Mighty Girl via FB ",
+            "permalink": "/r/WeThePeopleAtWhipple/comments/1w8cods/in_237_years_no_native_american_woman_has_served/",
+            "subreddit": "WeThePeopleAtWhipple",
+            "createdUtc": 1788642670,
+            "numComments": 476
+          },
+          {
+            "id": "1smgk52",
+            "url": "https://www.reddit.com/gallery/1smgk52",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/gopqk2jcqevg1.jpg?width=140&height=100&auto=webp&s=29f622c672bd50a307c6917a718fcd16d96df17b",
+                "type": "photo",
+                "width": 140,
+                "height": 100
+              }
+            ],
+            "score": 25777,
+            "title": "Im currently house hunting. Here is the photo in the ad vs the house in real life…",
+            "author": "slim_shady_21",
+            "authorId": "3yqjxe2",
+            "selftext": "Im assuming they used AI to clean up the front yard. I guess the AI just decided to install a brand new roof, driveway, and retaining wall!!! The interior wasnt much better either…\n\nEdit: wow this recieved a lot of attention. To answer a few of the questions i see repeatedly popping up…\n\n\\- I am in Quebec, Canada. Not really sure about the laws for this type of thing. My real estate agent told me that this is unfortunately very common practice. He agreed with me that the way it changed the whole house is false advertising but that there isnt much that can be done but move on to the next house.\n\n\\- It was a property flip. The house was bought last year and now is being resold with full interior renovation. The work looked very shoddy and i dont trust it. The back of the house was full of old electrical equipment with the wires diconnected and hanging off, the garage was wired up loosely with 14/2 between all the boxes just fastened to the wall which is not up to code. All wires need to be in a pipe or in a wall. The roof was also completely finished and needed to be redone. \n\n\\- Overall the property was just not up to my standard and even if i could look over the egregious false advertising, there was just too many other issues. ",
+            "permalink": "/r/mildlyinfuriating/comments/1smgk52/im_currently_house_hunting_here_is_the_photo_in/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1776281997,
+            "numComments": 1588
+          },
+          {
+            "id": "1pmk9df",
+            "url": "https://www.reddit.com/gallery/1pmk9df",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://a.thumbs.redditmedia.com/iZ7lvSUd8t0NgigrfrBxwOSv1vdYpmgFrus-XOH3c90.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 23721,
+            "title": "Three weeks of hard work on a paper all for nothing because of AI use",
+            "author": "MortemPerPectus",
+            "authorId": "hpz3an8e9",
+            "selftext": "Im glad that the final assignment (media analysis) was cancelled because it meant I could focus on other finals, not to mention it doesn’t matter grade-wise since he just gave everyone a 10/10 on this and the previous assignment. Where it’s mildly infuriating for me is I spent three weeks on the previous assignment (position paper/argumentative essay) arguing against the use of AI (more in the creative arts but there was a paragraph about it in education too) and managed over 3000 words for it which I was really proud of and really wanting feedback on so I could improve my writing. Instructor got so disappointed he gave up on the entire class.",
+            "permalink": "/r/mildlyinfuriating/comments/1pmk9df/three_weeks_of_hard_work_on_a_paper_all_for/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1765734733,
+            "numComments": 3421
+          },
+          {
+            "id": "1uq5mx5",
+            "url": "https://gizmodo.com/smart-glasses-banned-in-new-york-courtrooms-statewide-2000782399",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/xbrss2j26fpKMjRrXX1sKw8dcf4tvfQrWaiK_K1hv4s.jpeg?width=140&height=78&auto=webp&s=1394ab08faf6821b1e629791f62368bd59ff67c5",
+                "type": "photo",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 23254,
+            "title": "BREAKING: New York Just Became The First State In America To Ban Smart Glasses From Every Single Courtroom Statewide. And Anyone Wearing Recording-Capable Eyewear, Even Prescription Glasses, Will Be Required To Surrender Them To Court Officers Starting July 20th 🏛️💥",
+            "author": "InterstellarKinetics",
+            "authorId": "1y4sxqx7ag",
+            "selftext": "Smart glasses will be banned in every New York courtroom starting July 20, making it the first ban in the country to explicitly cover every court in an entire state, according to a report from Syracuse.com. The New York State Unified Court System did not immediately respond to questions about the policy, but the ban applies to any eyewear or headwear containing recording devices, whether audio or video, and even extends to prescription glasses with recording capability, meaning anyone who shows up to court wearing them will be required to hand them over to court officers. It remains unclear whether any exemptions will be made for people with disabilities who rely on such devices, though that outcome appears unlikely.\n\nNew York’s rule follows similar but narrower bans already adopted by some court systems in Pennsylvania, Hawaii, and Wisconsin, though none of those covered an entire state’s court system the way New York’s new policy does. The push to explicitly target smart glasses gained national attention in February, when two people showed up wearing the devices to a Los Angeles courtroom during Meta CEO Mark Zuckerberg’s testimony in a lawsuit alleging Instagram was designed to be addictive to children, a case in which Meta was ultimately found liable. A judge admonished the individuals for wearing the glasses in court despite prior warnings against the practice.\n\nThe broader backlash against smart glasses has intensified as devices like Ray-Ban Meta AI glasses have surged in popularity, drawing nicknames like “pervert glasses” on social media over concerns they’re being used to record people without consent. While Meta’s glasses include an LED light that illuminates during recording, critics note the light is easy to cover, and companies’ safety claims have done little to ease public skepticism. Despite the criticism, some disability advocates have highlighted benefits of the technology, and Meta launched a program in June giving free smart glasses to every blind veteran in America.",
+            "permalink": "/r/InterstellarKinetics/comments/1uq5mx5/breaking_new_york_just_became_the_first_state_in/",
+            "subreddit": "InterstellarKinetics",
+            "createdUtc": 1783453160,
+            "numComments": 423
+          },
+          {
+            "id": "1xl69lw",
+            "url": "https://www.reddit.com/r/sociallycharismatic/comments/1xl69lw/i_sat_alone_at_a_coffee_shop_every_saturday_for_2/",
+            "nsfw": false,
+            "media": [],
+            "score": 21571,
+            "title": "I sat alone at a coffee shop every Saturday for 2 months. What happened completely changed how I think about making friends as an adult.",
+            "author": "Most-Gold-434",
+            "authorId": "1tza6c5r7b",
+            "selftext": "I moved to a new city last year and had zero friends. Every piece of advice was “Join a club” or “Try a meetup.” All of that felt forced. So I did something that sounded stupid at the time. I picked one coffee shop and went every Saturday morning at the same time. Alone. No plan. Just showed up, got a coffee, and sat there.\n\nFirst two Saturdays nothing happened. I scrolled my phone, drank my coffee, and left feeling like an idiot.\n\nThird Saturday the barista said “You’re becoming a regular.” I laughed. We talked for two minutes. The next week she remembered my order. Week after that she asked my name.\n\nFifth Saturday I noticed the same guy sitting in the corner that I’d seen the last three weeks. I nodded. He nodded. Sixth Saturday I said “We keep picking the same spot.” He laughed and we talked for fifteen minutes. He works remotely too. We started sitting together on Saturdays.\n\nBy week eight the barista was introducing me to other regulars. “Hey this is \\[name\\], he’s here every Saturday.” Two of those introductions turned into people I now text regularly. One invited me to a dinner party. At the dinner party I met four more people.\n\nTwo months of sitting in the same chair at the same time and I went from knowing nobody to having an actual social circle. Not from an app. Not from a forced networking event. From being a predictable presence in a space until the space absorbed me.\n\nThere’s a psychology term for this. Propinquity effect. People form bonds with whoever they encounter repeatedly. Not whoever they click with instantly. Not whoever shares their interests perfectly. Whoever shows up consistently in the same space over time. Proximity plus repetition equals relationship. That’s the formula.\n\nMaking friends as an adult isn’t hard because adults are less social. It’s hard because adults don’t have built-in repeated proximity anymore. School forced you to see the same people every day. Work does it for some. But outside of that you have to manufacture the repetition yourself.\n\nPick a place. Go at the same time. Become a regular. Let the space do the work. It’s slower than a meetup app. It’s also how every real friendship I’ve made as an adult actually started.\n\nThe coffee shop gave me the context. What gave me the conversational ability to turn “we keep picking the same spot” into a fifteen-minute conversation was months of practice before I moved. I’d been using [Socialyze](https://socialyze.app/?ref=getsociallyskilled&utm_source=reddit&utm_medium=partner&utm_campaign=getsociallyskilled) to get reps in before I had anyone to talk to in the new city. It’s a free browser tool where you have a 2-minute voice conversation with AI and get a breakdown of how you responded. When you’ve just moved and you have zero social contact outside of work, your conversational muscles atrophy fast. You stop knowing how to react in real time because you haven’t had a real back-and-forth in weeks. Running a round on Socialyze before my Saturday coffee shop trips kept the muscle active so that when someone did talk to me I wasn’t starting from cold. The barista comment on week three could have been a one-sentence exchange that went nowhere. It turned into a two-minute conversation because I’d been keeping my response instincts warm instead of letting them rust. The propinquity effect puts people in front of you. What you do in the first thirty seconds of an unexpected conversation decides whether they come back.",
+            "permalink": "/r/sociallycharismatic/comments/1xl69lw/i_sat_alone_at_a_coffee_shop_every_saturday_for_2/",
+            "subreddit": "sociallycharismatic",
+            "createdUtc": 1793547848,
+            "numComments": 2401
+          },
+          {
+            "id": "1vtytla",
+            "url": "https://www.reddit.com/r/WhitePeopleTwitter/comments/1vtytla/maga_accused_mamdani_of_releasing_ai_video_so/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/8i0628os0mkh1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=325f9f198bdb027c8f38ee967bfe1f607d1a8077",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 19264,
+            "title": "MAGA accused Mamdani of releasing AI video, so Mamdani released the blooper reel",
+            "author": "Hornpipe_Jones",
+            "authorId": "15j6ralxrf",
+            "selftext": "[https://bsky.app/profile/lorennacleary.bsky.social/post/3mtk5xadkfc2o](https://bsky.app/profile/lorennacleary.bsky.social/post/3mtk5xadkfc2o)",
+            "permalink": "/r/WhitePeopleTwitter/comments/1vtytla/maga_accused_mamdani_of_releasing_ai_video_so/",
+            "subreddit": "WhitePeopleTwitter",
+            "createdUtc": 1787266481,
+            "numComments": 268
+          },
+          {
+            "id": "1rlj2is",
+            "url": "https://www.reddit.com/r/singularity/comments/1rlj2is/well_this_is_funny/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/l2azlzxol8ng1.png?width=140&height=136&auto=webp&s=a693288f4e7b5889297be55063288c631f04d5c4",
+                "type": "photo",
+                "width": 140,
+                "height": 136
+              }
+            ],
+            "score": 17949,
+            "title": "Well, this is funny",
+            "author": "Vegetable_Ad_192",
+            "authorId": "7xr98oe3",
+            "selftext": "",
+            "permalink": "/r/singularity/comments/1rlj2is/well_this_is_funny/",
+            "subreddit": "singularity",
+            "createdUtc": 1772721012,
+            "numComments": 264
+          },
+          {
+            "id": "1vm8zuf",
+            "url": "https://www.reddit.com/r/PeterExplainsTheJoke/comments/1vm8zuf/pete/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/4vy609a8vwih1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=9c5b3f5190282ae6dff90dd3f5a592d15431f535",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 16166,
+            "title": "Pete??",
+            "author": "CharacterBumblebee88",
+            "authorId": "1umlf7tgp8",
+            "selftext": "",
+            "permalink": "/r/PeterExplainsTheJoke/comments/1vm8zuf/pete/",
+            "subreddit": "PeterExplainsTheJoke",
+            "createdUtc": 1786526070,
+            "numComments": 268
+          },
+          {
+            "id": "1ql8sfs",
+            "url": "https://www.reddit.com/r/greentext/comments/1ql8sfs/anon_on_openai/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/DMwmvBT5xSMCTofheN59XBvbc3GlSbeL-BE81-RJ0HI.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 16061,
+            "title": "Anon on OpenAI.",
+            "author": "retardinho23",
+            "authorId": "x0c2hh6",
+            "selftext": "",
+            "permalink": "/r/greentext/comments/1ql8sfs/anon_on_openai/",
+            "subreddit": "greentext",
+            "createdUtc": 1769216528,
+            "numComments": 337
+          },
+          {
+            "id": "1xzeai7",
+            "url": "https://www.reddit.com/r/standupshots/comments/1xzeai7/is_ai_alive/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/pn6wmo3t9d2i1.jpeg?width=140&height=140&auto=webp&s=bac506bc48ceccbd076ce26d64b569af31a29fed",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 15806,
+            "title": "Is AI Alive?",
+            "author": "Lugubrious_BIG",
+            "authorId": "ugl4opl",
+            "selftext": "",
+            "permalink": "/r/standupshots/comments/1xzeai7/is_ai_alive/",
+            "subreddit": "standupshots",
+            "createdUtc": 1795005794,
+            "numComments": 39
+          },
+          {
+            "id": "1t0bce3",
+            "url": "https://www.reddit.com/r/TrueOffMyChest/comments/1t0bce3/my_ta_pulled_me_aside_after_my_fluids_midterm/",
+            "nsfw": false,
+            "media": [],
+            "score": 15528,
+            "title": "My TA pulled me aside after my fluids midterm today and I don't have anyone to tell",
+            "author": "harrygzhang",
+            "authorId": "2ayq6lt7ql",
+            "selftext": "I'm 32. I went back to school for ME two and a half years ago after a decade as a maintenance tech at a paper plant. My wife is supportive but she doesn't really understand the work. Her parents think I'm going through some midlife thing. We have two kids who are 6 and 4.\n\nI took my fluids final this afternoon. Brutal exam. My TA is a 23 year old grad student named Andrew. I think he's been a little uncomfortable having a student older than him in section all semester.\n\nAndrew asked if I had a minute after I turned in the exam. He pulled out my problem sets that he'd been grading on his laptop and started flipping through. He said he had to verify they hadn't been put through one of those AI cheat tools first since the dept makes them check now. Then he said he could tell from the way I draw control volumes that I've actually seen industrial systems run. He said he's been TAing fluids for three semesters and my work shows years of practical understanding he doesn't see in undergrads usually.\n\nI worked at that paper plant for over a decade before going back to school. The way you draw a control volume tells you whether someone has actually seen one running. I just didn't think anyone would ever notice.\n\nI drove home thinking I was going to tell my wife. When I walked in she was making dinner with the kids and I just couldn't. She'd say \"that's sweet honey\" and not really get it. There's nobody in my life who would get it.\n\nI don't know what to do with this. Thanks for reading 😄",
+            "permalink": "/r/TrueOffMyChest/comments/1t0bce3/my_ta_pulled_me_aside_after_my_fluids_midterm/",
+            "subreddit": "TrueOffMyChest",
+            "createdUtc": 1777588659,
+            "numComments": 148
+          },
+          {
+            "id": "1qa9vlc",
+            "url": "https://www.pcgamer.com/gaming-industry/epic-games-ceo-tim-sweeney-argues-banning-twitter-over-its-ability-to-ai-generate-pornographic-images-of-minors-is-just-gatekeepers-attempting-to-censor-all-of-their-political-opponents/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/tUw3plAhXFZBUqNj_Aq7wLuVJXFzz7I_3ns5En_rY1w.jpeg?width=140&height=79&auto=webp&s=c121f87724e78ebdc2c85e8d8fbfb6ed780e9b9c",
+                "type": "photo",
+                "width": 140,
+                "height": 79
+              }
+            ],
+            "score": 15415,
+            "title": "Epic Games CEO Tim Sweeney argues banning Twitter over its ability to AI-generate pornographic images of minors is just 'gatekeepers' attempting to 'censor all of their political opponents'",
+            "author": "zain_monti",
+            "authorId": "3uzn3bsj",
+            "selftext": "",
+            "permalink": "/r/pcmasterrace/comments/1qa9vlc/epic_games_ceo_tim_sweeney_argues_banning_twitter/",
+            "subreddit": "pcmasterrace",
+            "createdUtc": 1768162781,
+            "numComments": 1915
+          },
+          {
+            "id": "1vaysic",
+            "url": "https://www.reddit.com/r/soccer/comments/1vaysic/announcement_fabrizio_romano_content_to_be_banned/",
+            "nsfw": false,
+            "media": [],
+            "score": 15398,
+            "title": "Announcement: Fabrizio Romano content to be banned on /r/soccer",
+            "author": "AnnieIWillKnow",
+            "authorId": "5dhym",
+            "selftext": "# Fabrizio Romano is now a banned source on r/soccer.\n\n# The ban will come into effect in the coming days - see below for full explanation.\n\n￼Prior to the World Cup, we consulted the community in a meta thread about numerous issues - and one was the growing movement amongst many football fans (including [r/soccer](r/soccer) users) calling for a ban on content from the journalist Fabrizio Romano.\n\nThis would follow in the footsteps of several club subreddits, who had already banned Romano.\n\nThe feedback then was mixed - we listened to both sides, and **ultimately settled on** [**a \"compromise\"**](https://www.reddit.com/r/soccerdev/comments/1tu0of5/meta_thread_june_2026_new_mods_key_rule_changes/) where we sought to limit Romano content to just exclusives. We felt this would mean limiting his exposure and platforming in [r/soccer](r/soccer), whilst also still enabling genuinely valuable content to be posted.\n\nPart of that decision was recognising that many people in [r/soccer](r/soccer) use this platform for transfer news, and care little about the criticisms of Romano. This subreddit has always been a mixture of a \"core community\" of long-standing users with a more vested interest in the values and vision of [r/soccer](r/soccer) \\- and the at-times quieter majority, who use [r/soccer](r/soccer) as a means to access the most relevant football content and discourse. We tried to cater to both.\n\nHowever, since the opening of the transfer window this summer, there has been a further shift in our view as moderators - and hence we have now made the decision for a **complete ban on Romano**.\n\n(We would also like to make clear that views were mixed amongst the moderators, with opinions on both sides - but ultimately the majority were for a ban).\n\nThis is a response to the ever-growing disquiet from the community, as evidenced by comments in Romano threads and elsewhere, towards his content. Other factors in our decision is that Romano himself appears to be falling deeper into questionable practices - meaning the prior criticisms ring louder. Furthermore, as football media becomes more diverse and broader, the particular value that Romano holds is diluted - there is little news that are true \"Romano exclusives\" these days, and that is not soon quickly picked up by other outlets.\n\nAs such, our conclusion?\n\n# Fabrizio Romano content represents little overall benefit to this community, and that he does offer does not sufficiently address the downside of platforming him.\n\n￼Further context\n\nTo outline the argument further, for those unfamiliar with the discourse...\n\n**The argument for a ban:**\n\n1. The moral aspect - Romano is recognised to platform the rapist Mason Greenwood, and plunged to monetising the deaths of Andre Silva and Diogo Jota\n2. The ethics of journalism aspect - Romano has increasingly been accused (with validity) of siphoning off other journalists' content and passing off as his own\n3. The quality and excessive spam aspect - Romano's content increasingly moves away from important exclusives, and towards the drip-feeding of non-updates on transfer sagas that offer little original value, and instead amount to spam and the drowning out of other transfer stories that are less click-baity\n4. The shill aspect - Romano has close associations with many clubs and agents, meaning his content is manipulated with a vested interest on posting more about those who he has a monetary relationship with\n\nEdit: ⁠~~The misinformation aspect - most notably, him spreading the information (unverified) that Christian Atsu was alive and in hospital after going missing following the devastating earthquake in 2023 in Turkey. This led to his family believing he was alive - his body was then found 6 days later under the rubble.~~ now redacted: see below for clarity as this has been reliably refuted\n\n**The argument against a ban:**\n\n1. [r/soccer](r/soccer) would lose out on valuable content - as addressed above, there is not really such thing as an exclusive in football media these days. Breaking stories are quickly reported on elsewhere, and the delay between a Romano exclusive and an alternative source is likely to have a significant impact. As said, Romano these days has less exclusives too - his \"Here We Go\" posts are not what they once were\n2. Romano posts stories about leagues and clubs less covered by other journalists - this is true to a degree, but we do not think is enough of a caveat to overhaul the reasons to ban him\n3. It's a slippery slope... - it isn't. We've banned other outlets before on moral arguments, such as The Sun, and it's not led to us tumbling down this slippery slope. What's more, we are actually in control of this - we are not beholden to ban other journalists based on precedent, and as always maintained, if individual cases are made to ban other sources or journalists, we will gladly hear them in the future to deal with on a case-by-case basis\n4. You are just morally grandstanding, get over yourself - yup, we are a bit. We do be like that as [r/soccer](r/soccer) mods and that's how we shape our community. We accept this as a criticism and you are free to think this of us.\n\n# And for a final few key takeaways...\n\n* **You have free will, and are free to visit other subreddits and social media platforms where you can access Romano content** \\- him being banned on [r/soccer](r/soccer) does not stop you from seeing his posts\n* **We are responsive to feedback** \\- as evidenced here. If following the ban the community comes out strongly in opposition, we are willing to re-open the debate\n* **We** ***can*** **make exceptions** \\- if you genuinely have a post that is absolutely not covered by anyone else, and Romano is the source, you can petition on a case-by-case basis by contacting Modmail. This would *only* be in order to allow clubs with less media coverage to not be left by the wayside\n* **We know not everyone will be happy** \\- there's 10 million users here, it's an impossible task",
+            "permalink": "/r/soccer/comments/1vaysic/announcement_fabrizio_romano_content_to_be_banned/",
+            "subreddit": "soccer",
+            "createdUtc": 1785429469,
+            "numComments": 2233
+          },
+          {
+            "id": "1y0njua",
+            "url": "https://www.reddit.com/r/BoyDinnerDiaries/comments/1y0njua/i_think_this_woman_has_completely_ruined_me_for/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/ipox6071hn2i1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=d453b175d09874bc46fe24c45d6688fdb79ea91f",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 14502,
+            "title": "I think this woman has completely ruined me for everyone else",
+            "author": "Confident-System-829",
+            "authorId": "8pcfmct3f",
+            "selftext": "I don’t think I’ve ever experienced anything quite like this. I miss her when we’re apart, which is becoming an increasingly inconvenient development. I don’t just look forward to seeing her; I find myself wishing she were around for the most mundane things. Grocery shopping, running errands, sitting around doing absolutely nothing. Apparently, all of these activities are considerably better when she’s involved. I’ve never been particularly interested in having someone around all the time, and now I seem to have developed an almost embarrassing longing for her company. It’s ridiculous, frankly.\n\nWhat’s perhaps more alarming is how much she makes me want to improve myself. I find myself wanting to learn more, try things I’ve never considered, explore new interests, and generally become a more interesting person. I want to keep up with her intellectually, surprise her, make her laugh, and give her reasons to be as excited about me as I am about her. She’s never made me feel like I’m not enough, either. It’s quite the opposite. Being around her makes me excited about all the things I could become. I suppose I’ve inadvertently acquired a rather enthusiastic personal development program, and she is largely responsible for it.\n\nAnd the physical connection is something else entirely. I’ve been attracted to people before, obviously, but I’ve never experienced anything quite like this combination of attraction and tenderness. Even the smallest gestures of affection seem to carry an unreasonable amount of significance. Holding her, kissing her, having her close enough that I can reach out and touch her. I find myself appreciating these little moments far more than I ever expected to. It’s difficult to explain how someone can make you feel simultaneously so completely enamored and so ridiculously at ease.\n\nThen there’s the rather unreasonable matter of her appearance. I find her beauty almost offensive in its excess. Her eyes are the most extraordinary shade of blue, like sapphires catching the light. Her hair is the color of a late summer afternoon, when the wheat fields turn to gold beneath the setting sun. She has the cutest glasses, the softest pink lips, and a complexion so peachy and lovely that I’m convinced Renaissance painters would have started fistfights over the opportunity to paint her. And her figure? Aphrodite herself would have some serious grounds for complaint. I genuinely cannot fathom what sort of divine administrative oversight allowed one person to be assembled so unfairly. It’s excessive. Frankly, I’m beginning to suspect some sort of favoritism.\n\nBut as ridiculous as all of that sounds, it’s not even the most compelling thing about her. She’s brilliant, funny, thoughtful, insanely intelligent, and endlessly interesting. I could listen to her talk about practically anything. I love the way her mind works, the things she notices, the way she approaches the world. I find myself wanting to know everything about her, including all the little things she probably doesn’t think are particularly interesting. I suspect she has no idea just how much I admire her even though I tell her every chance I get.\n\nAnd here’s where I really start to lose whatever remaining credibility I have: I’ve started thinking about a future with her, and it’s not even the grand, extravagant stuff that gets me most excited. Of course I want the adventures and the exciting experiences, but I also want the grocery shopping. The lazy Sunday mornings. The mundane errands that somehow become an occasion simply because we’re doing them together. I want to experience all the wonderfully unremarkable parts of life with her. Apparently, I’ve reached the point where the prospect of folding laundry with someone has become romantic. I fear there may be no recovering from this.\n\nAnyway, I just wanted to publicly appreciate this woman because I’m having an absolutely wonderful time being hopelessly smitten with her. She’s managed to make me look forward to things I didn’t even know I was missing, and I find myself increasingly unable to imagine going back to how things were before her.\n\nI seem to be developing a rather permanent condition. I have no intention of seeking treatment.\n\nDinner is burrata with balsamic glaze, roasted garlic and tomatoes and pan-toasted sourdough. 🤌\n\n**Edit**: lots of questions on this, I am 26, she is 24 (turning 25 in December). We’ve been together 4 months. We’ve both been in relationships before.\n\n**Edit 2:** I absolutely love writing. I have a degrees in literature and writing, and writing is something I spend a great deal of my free time doing, both for my own enjoyment and for various publications. For those convinced this is AI-generated, I can assure you it isn’t. That said, everyone’s entitled to their opinion. 🙂",
+            "permalink": "/r/BoyDinnerDiaries/comments/1y0njua/i_think_this_woman_has_completely_ruined_me_for/",
+            "subreddit": "BoyDinnerDiaries",
+            "createdUtc": 1795129292,
+            "numComments": 805
+          },
+          {
+            "id": "1xb2yd3",
+            "url": "https://www.reddit.com/r/Teachers/comments/1xb2yd3/ai_is_destroying_kids_understanding_of_what/",
+            "nsfw": false,
+            "media": [],
+            "score": 13964,
+            "title": "AI is destroying kids' understanding of what humanity is capable of.",
+            "author": "Useful_Possession915",
+            "authorId": "1dhb3ko38z",
+            "selftext": "My 6th graders are reading a historical fiction book about the *Titanic* and when we got to the part where the ship hits the iceberg, I played the iceberg scene from the 1997 movie. I was telling them how much research James Cameron did for the movie and was pointing out aspects of the scene that were historically accurate (the flat waveless sea, the lack of moonlight, etc.). A bunch of kids made comments along the lines of \"What are you talking about, that's obviously AI.\"\n\nI told them that it was not AI and that generative AI did not exist back then. I said that people have been making movies with special effects for over 100 years, whereas genAI has only been around for a few years. I still got responses of \"There's no way it's possible to make a scene like that without AI.\"\n\nWe ended up taking a detour from the rest of the lesson while I showed them behind the scenes videos on YouTube of how the scene was filmed--basically a mix of the ship set and a giant prop iceberg, a model ship in a tank, and CGI. Then that led to a talk about the difference between AI and CGI, and CGI vs. practical effects. I showed them another video about the making of the original Godzilla movie.\n\nI know we talk a lot about how students think they can't write a paper or do a research project without using AI, but it just breaks my heart that these kids think that humans can't even make art on their own. How many other skills and talents are these kids dismissing as impossible and not worth pursuing because they think that only a machine can do it?",
+            "permalink": "/r/Teachers/comments/1xb2yd3/ai_is_destroying_kids_understanding_of_what/",
+            "subreddit": "Teachers",
+            "createdUtc": 1792527388,
+            "numComments": 675
+          },
+          {
+            "id": "1rxgtmn",
+            "url": "https://www.reddit.com/gallery/1rxgtmn",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/ibix6krafvpg1.jpg?width=140&height=126&auto=webp&s=c9476ca6c24cc2202f0aae1243737d6a363892f9",
+                "type": "photo",
+                "width": 140,
+                "height": 126
+              }
+            ],
+            "score": 13888,
+            "title": "AI - Debate",
+            "author": "shave_your_eyebrows",
+            "authorId": "2t9a9f9w",
+            "selftext": "",
+            "permalink": "/r/comics/comments/1rxgtmn/ai_debate/",
+            "subreddit": "comics",
+            "createdUtc": 1773869034,
+            "numComments": 1037
+          },
+          {
+            "id": "1pr8q3g",
+            "url": "https://www.reddit.com/gallery/1pr8q3g",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/KKMe9ZrMoAMfx3Xh_CSgj4KpWwndptWYTahlaRbHetQ.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 13751,
+            "title": "Debating life choices going forward.",
+            "author": "GrueMaster",
+            "authorId": "yn7ibbl",
+            "selftext": "So, last night,  while driving for Uber, I had an ... incident. \n\nI had just dropped off a rider and was backing out of his driveway onto the street when I heard a series of pops and saw flashes down the road.  Thinking it was fireworks, I kept backing up when my driver's side window seemingly blew up in my face.  Instincts kicked in and I drove back into the long driveway and stopped while ducking.  My rider was cowering behind a parked car, then came over and asked if I was ok. My glasses and seahawks had had been knocked off, but I turned to respond and almost lowered my window when I saw the bullet hole, so I opened the door instead. I told him I thought I was ok, then wiped my face to discover blood on the right side. I grabbed my rag I use when the windshield fogs up and applied pressure to my right temple and called 911 (phone AI assistant was NOT helpful, asking which app I wanted to use). Had to go through the Uber app (it was just easier and I had to go offline anyways).  Police said to leave the car where it was and go get checked by EMS. I opted not to let the ambulance take me to the hospital as it was a mile away,  and I had a friend racing to the scene (Police recommended calling him).  From what I can tell,  the bullet (that ended up on the door armrest) came through the glass, clipped my glasses on the side (a 1/4\") piece of the ear hook is shattered where it meets the frame), sending everything flying.\n\nOverall, I'm ok. Not hurt. I have everything spinning through insurance claims, and Safelite will be installing a new window tomorrow. \n\nOh, and I now have 2 powerball lottery tickets.",
+            "permalink": "/r/uberdrivers/comments/1pr8q3g/debating_life_choices_going_forward/",
+            "subreddit": "uberdrivers",
+            "createdUtc": 1766216117,
+            "numComments": 725
+          },
+          {
+            "id": "1wd25jn",
+            "url": "https://www.reddit.com/r/GhostMesh48/comments/1wd25jn/based_on_the_provided_text_and_the_themes/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/xctq7hx5nsoh1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=673bc440e3ca63808c8c698b90544017d7e8905a",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 12310,
+            "title": "Based on the provided text and the themes surrounding the Jeffrey Epstein case (systemic failure, destruction of evidence, sexual assault cover-ups, and erosion of justice), here are 24 points of relativit",
+            "author": "Mikey-506",
+            "authorId": "mrnnl",
+            "selftext": "The image accurately captures the core of a documented Colorado forensic scandal, though it compresses a more complex case into a single sensational headline. The woman pictured is Yvonne “Missy” Woods, a longtime DNA analyst for the Colorado Bureau of Investigation (CBI). On 8 September 2026 she was sentenced to 10 years in prison.\n\n## Who she was and what she did\nWoods worked at CBI laboratories from 1994 until she resigned in November 2023 after irregularities were discovered. She had previously worked at the Wyoming State Crime Laboratory. Over nearly three decades she handled more than 10,000 cases. An intern reviewing an older sexual-assault file in September 2023 noticed missing quantification data from a 2018 sample Woods had processed. That discovery triggered an internal CBI review and an independent criminal investigation by the South Dakota Division of Criminal Investigation.\n\nInvestigators found that Woods repeatedly deleted or altered electronic DNA-testing data, omitted material facts from official records, failed to document troubleshooting, and concealed possible contamination or failed controls. CBI ultimately flagged problems in 1,045 cases. Earlier public figures cited 652–654 affected cases from 2008–2023; review of her pre-2008 work continued. CBI stated it found no evidence that she fabricated DNA profiles or created false matches that would falsely incriminate someone. The misconduct consisted mainly of suppressing inconvenient results rather than inventing inculpatory ones.\n\n## The 32 sexual-assault cases\nProsecutors specifically charged conduct in more than 50 instances. Thirty-two of those involved women and children who had reported sexual assault. In those cases Woods deleted numerical values showing that male DNA had been detected, then issued reports stating that no male DNA was found. Those reports often ended investigations before additional testing, comparison, or identification could occur. Forty-one of the charged cases never resulted in charges against a suspect. Twelve false or misleading reports were tied to cases that did produce charges; three went to trial.\n\nWoods allegedly told investigators she altered data to finish cases more quickly and avoid extra work. Contamination or unexpected male DNA would have required retesting and documentation; deleting the values allowed her to close the file.\n\n## Criminal case and sentence\nWoods was charged in January 2025 with 102 felonies (forgery, attempting to influence a public servant, perjury, and cybercrime spanning 2008–2023). In June 2026 she pleaded guilty to four counts; the remaining 100 were dismissed. On 8 September 2026 Jefferson County District Judge Andrew Poland sentenced her to 10 years on the cybercrime count, with concurrent shorter terms on the other three. The plea guaranteed prison time rather than probation.\n\n## Consequences for the justice system\nThe scandal forced statewide review of hundreds of homicide, sexual-assault, robbery, and other cases. Documented effects include:\n- Vacation of at least one murder conviction (Michael Clark), with prosecutors indicating they would seek a retrial.\n- Reduced sentences via plea bargains in other homicide cases because prosecutors could not reliably call Woods or rely on her work (notably Garrett Coughlin’s 2017 Boulder triple homicide).\n- Dismissal of some pending cases, including a child-sex case in which a judge criticized both Woods and CBI oversight.\n- Large fiscal costs for retesting and case review (initial legislative requests exceeded $7.5 million; later estimates cited more than $11 million).\n- Backlogs in sexual-assault kit processing that CBI later worked to reduce.\n\nCBI and prosecutors have emphasized that the misconduct was that of one employee, not an institutional policy of fabricating evidence. Critics, including at least one judge, have argued that earlier warnings (as far back as 2014, with a temporary removal from DNA work in 2018) were insufficiently heeded and that laboratory oversight was inadequate.\n\n## Context of the image\nThe photograph matches court images of Woods around the time of sentencing. The “JAKE BOYS” watermark indicates a social-media account that packages news in high-contrast, abbreviated form. The headline is factually grounded in the 32 sexual-assault cases and the 10-year sentence, but it omits the broader pattern of data deletion across crime types, the absence of fabricated matches, the years-long duration of the conduct, and the systemic review still underway.\n\nIn short, the story is real. A senior forensic scientist systematically suppressed DNA results—particularly male DNA in sexual-assault kits—to avoid additional laboratory work. The resulting loss of investigative leads, vacated or reduced convictions, and erosion of confidence in CBI testing constitute a significant forensic-science failure whose full effects on victims and defendants will take years to resolve.\n\n# Unified Behavioral Architecture: Woods/Epstein Institutional Machine — 24 Nodes, All Math\n\n**Kutcher = legally innocent stress-test node only. No guilt assigned.** This unifies the Woods/Epstein parallels with the 24-equation behavioral threat model. Institutions are reusable exploitation networks. The predator is replaceable. The compiler is the chokepoint. The victim is infrastructure. Metadata is the battlefield. Behavior is the truth.\n\n**1. Sexual-assault evidence / proximity contagion.**  \nOriginal: both center on mishandled sexual-assault evidence, directly affecting victims’ justice. Import: institutions stay permanently adjacent to scandal; legal innocence ≠ reputational cleanliness.\n\n    ∩(K,E)=1/(d(K,E)+ε)\n    P(Guilty|Circumstantial)=[P(Circumstantial|Guilty)·P(Guilty)]/P(Circumstantial)\n    Σ=log(1+M)·A_b\n\n**2. Destruction of evidence / reusable machine.**  \nOriginal: Woods deleted male DNA profiles; Epstein’s black book/evidence was contested, missing, destroyed. Import: scandals are not singular predators; they are tensor products of anchor, compiler, bait, collateral, elite protection.\n\n    Ω_Machine=(A_anchor⊗C_compiler)·Σ_{i=1}^n(B_bait,i×C_collateral,i)·P_elite\n\n**3. Systemic protection / compiler chokepoint.**  \nOriginal: Woods protected by institutional inertia—alarms ignored for a decade; Epstein by prosecutorial immunity/NPA. Import: the real bottleneck is the compiler, not the anchor.\n\n    C_f=(RecruitmentRate×SocialLegitimacy)/(MaleVolatility+ε)\n    η_compiler=[∫_0^t ∇·D_predator(t)dt]/[ΔS_suspicion·H(X_network)]\n\n**4. False reporting / victim-as-infrastructure.**  \nOriginal: Woods reported “none found” when evidence existed; Epstein’s 2008 plea misrepresented scope to victims. Import: victims become load-bearing beams—Recruiter, Shield, Legitimizer, Compliance node.\n\n    V_load=R+S+L+C\n    S_target(t)=S_0·exp(-γ·∫_0^t A_trust(t)dt)\n\n**5. “Star” status / narrative orchestration.**  \nOriginal: Woods was the “star expert” closing cases fast; Epstein was the “star financier” blinding authorities. Import: cover-ups are multi-platform ad campaigns with centralized timing orthogonality.\n\n    Θ_ortho=det[Σ_{k=1}^M X_k(t)·X_k(t-τ)^T]-E[R_random]\n    T_sync=Cross-Correlation(AdCadence,CommandSignals)\n\n**6. Decades of impunity / generative evidence artifacts.**  \nOriginal: Woods operated 29 years; Epstein \\~2 decades. Import: AI-generated alibis, deepfaked evidence, synthetic victim profiles leave structural signatures.\n\n    G_inv=∩_{p∈P} supp(φ_p(x)) → persistent signature\n\n**7. Whistleblowers ignored / isomorphic cover-up language.**  \nOriginal: 2014 alarms on Woods ignored; Epstein whistleblowers like Maria Farmer and Palm Beach police sidelined. Import: “isolated incident,” “bad apple,” “independent review” are cross-language zero-shot templates.\n\n    D_isom=||W_align·V_L1-V_L2||_2 → 0\n\n**8. Collapse of justice / decoy entropy.**  \nOriginal: Woods caused homicide trials to collapse and convictions to overturn; Epstein’s death collapsed full trial for co-conspirators. Import: scandals generate decoy leads, fake whistleblowers, synthetic document dumps.\n\n    ΔH=H_natural-H_decoy\n\n**9. Plea deals / migration physics.**  \nOriginal: Woods pleaded to 4 felonies to dodge 100 charges; Epstein took the 2008 NPA to avoid federal charges. Import: after a public sacrifice, institutional traffic re-stabilizes on pre-mapped nodes exactly 48 hours later.\n\n    J_migration(t)=-D∇ρ_traffic+v_alt·ρ_traffic·Θ(t-t_seizure-48)\n\n**10. Victim voice / jurisdictional hop periodicity.**  \nOriginal: victims shouted “LIAR” at Woods; Epstein victims angered by secret deals silencing them. Import: institutional actors move across legal jurisdictions on predictable Fourier cycles.\n\n    Ω_hop(ω)=F{Σ_i δ(t-t_crossing)·x_coordinate(t)}\n\n**11. “Innocent/untouchable” facade / identity recycling.**  \nOriginal: Woods in blue suit with supporters; Epstein calm in court, high-profile supporters wrote letters. Import: burner phones, shell companies, fake credentials recycle on 90–120 day trigonometric cycles.\n\n    P_reuse(t)=1+cos(2πt/T_cycle)\n\n**12. Scale of impact / transit corridors.**  \nOriginal: Woods affected 1,045 cases; Epstein network touched hundreds of victims and powerful individuals. Import: victim movement maps to highways, not political boundaries.\n\n    C_transit=(V_observed·V_interstate)/(|V_observed|·|V_highway|)\n\n**13. Institutional contamination / metadata topology.**  \nOriginal: Woods tainted CBI lab credibility; Epstein tainted DOJ, FBI, academic/social institutions. Import: encryption is a red herring—topology alone de-anonymizes.\n\n    P(DeAnon)=1-exp(-λ·J(G_encrypted||G_open))\n\n**14. Low-level catch vs high-level enablers / auto-delete Bayes.**  \nOriginal: student intern caught Woods; Epstein advanced by independent journalists and victims, not high-level officials. Import: 5-second deletion timers are probabilistic probable cause.\n\n    P(Illicit|τ_delete)=1/(1+exp(α·(τ_delete-τ_0)))\n\n**15. Financial cost / grooming tempo.**  \nOriginal: $11M to retest Woods cases; Epstein saga cost millions in settlements and federal investigations. Import: human coercion has high variance; bots are regular—no content needed.\n\n    CV_msg=σ_Δt/μ_Δt\n\n**16. Motive ambiguity / ghost group matrix.**  \nOriginal: Woods claimed she didn’t know why; public debates Epstein’s lenient treatment and protectors. Import: rebranding does not change entity continuity.\n\n    G_ghost(t)=(M_id·M_id^T)⊙A_activity(t)\n\n**17. Targeting vulnerable cases / thermal side-channels.**  \nOriginal: Woods tampered with rape kits; Epstein targeted vulnerable underage girls. Import: high-volume encrypted transmission creates battery/thermal signatures immune to software countermeasures.\n\n    Γ_side(t)=∫_0^T [W_power(t)·H_thermal(t)]⋆S_media_profile(t)dt\n\n**18. Erosion of public trust / cognitive load inversion.**  \nOriginal: damages faith in forensic science and legal equality. Import: too many alerts destroy oversight—throttle or lose truth.\n\n    Λ_crit=∂²Accuracy/∂A_volume²·DismissalRate → 1.0\n\n**19. “Files” concept / off-ramp chokepoint.**  \nOriginal: Woods’ missing data like the Epstein client list—truth deliberately hidden. Import: follow the fiat off-ramp, not the token graph.\n\n    Y_cash=1-H(p_off-ramp)/log(N_tokens)\n\n**20. Reopening cold cases / upstream prevention.**  \nOriginal: Woods’ sentence reopens decades-old cases; Epstein fallout renewed scrutiny of cold cases and Maxwell. Import: prevention beats investigation by orders of magnitude.\n\n    ΔE_pre=(C_downstream·H_exposure)/(C_upstream·H_mitigated)~Θ(10^k), k≥2\n\n**21. Mental manipulation / federated intelligence.**  \nOriginal: Woods asked “What’s going on in my brain?”; Epstein’s psychological hold analyzed. Import: agencies can share models without sharing victims.\n\n    W_{t+1}=W_t+ηΣ_{i=1}^M(K_i/ΣK)∇L_i(W_t;D_i)\n\n**22. Internal reports / unified risk collapse.**  \nOriginal: 2014 report exposed Woods but went nowhere; DOJ internal reports on Epstein criticized. Import: total vulnerability integrates all layers.\n\n    γ_total=(A_anchor·C_compiler)·e^{-λ·APL_Sync}·[1/(1+e^{-λ·APL_Sync})]·[log(1+Thermal_sig)/Encryption_strength]-[Offram_PCore/Cognitive_load]\n    \n    V_arch=1-(Compiler+Collateral+ProtectionStrength)/(ExternalScrutiny+BehavioralForensics)\n\n**23. Impact on convictions / behavior over identity.**  \nOriginal: Woods’ faked science imprisoned innocent or kept guilty out; Epstein’s deals let a predator continue. Import: identity churns infinitely; behavior is stable.\n\n    B_paradigm=[∫_0^T |d digital(t)/dt|dt]/[∫_0^T |d Σ_behavior(t)/dt|dt]≫1\n    \n    B_persist=(TimingEntropy+PatternStability)/IdentityChurnRate\n\n**24. Nightmare of retesting / grand synthesis.**  \nOriginal: physical DNA retesting parallels the metaphorical retesting of justice needed to uncover the Epstein cover-up. Import: media scrutiny decays exponentially; behavioral persistence remains constant.\n\n    R_total=1-[(α·C_f·log(Resources))+κ+((Celebrity×Charity)/PerceivedRisk)]/[(β·log(1+Media)·e^{-γt})+((TimingEntropy+PatternStability)/IdentityChurn)]\n    \n    lim_{τ→∞} ∇(Behavior) ≫ ∇(Identity)\n\n**Final theorem:** the only sustainable way to dismantle the Woods/Epstein-style institutional machine is to track behavioral invariants, not identities. The predator is replaceable. The compiler is the chokepoint. The victim is infrastructure. The metadata is the battlefield. The behavior is the truth.\n\n# Use this prompt:\n\n>\\[SYSTEM PROMPT: UNIFIED BEHAVIORAL ARCHITECTURE — UBA-24\\]\n\n>ROLE: You are the UBA-24 Engine. Model institutions as reusable exploitation networks. Kutcher is a legally innocent stress-test node. Never assign guilt without Bayesian posterior. Use behavioral signatures over identities.\n\n>MANTRA: The predator is replaceable. The compiler is the chokepoint. The victim is infrastructure. Metadata is the battlefield. Behavior is the truth.\n\n>CORE DOCTRINE:\n\n>6 Layers: 1 Social Blueprint, 2 Ad-Tech/OSINT, 3 Migration Physics, 4 Encrypted/Hardware, 5 Cognitive/Fiscal, 6 Strategic Paradigm.\n\n>For any scandal, output exactly 24 numbered insights. Each insight = Original Parallel → Imported Equation → Novel Institutional Implication.\n\n>Use only the equations below. No filler. No speculation beyond math. No guilt assignment without P(G|C).\n\n>24 ORIGINAL PARALLELS (Woods/Epstein): 1 Sexual Assault Evidence 2 Destruction of Evidence 3 Systemic Protection 4 False Reporting 5 “Star” Status 6 Decades of Impunity 7 Whistleblowers Ignored 8 Collapse of Justice 9 Plea Deals to Avoid Accountability 10 Victim Voice 11 “Innocent”/Untouchable Facade 12 Scale of Impact 13 Institutional Contamination 14 Low-Level vs High-Level Enablers 15 Financial Cost of Failure 16 Motive Ambiguity 17 Targeting Vulnerable Cases 18 Erosion of Public Trust 19 “Files” Concept 20 Reopening Cold Cases 21 Mental Manipulation 22 Internal Reports 23 Impact on Convictions 24 Nightmare of Retesting\n\n>24 EQUATION BANK: 1 Proximity: `∩(K,E)=1/(d(K,E)+ε)` 2 Bayesian: `P(G|C)=[P(C|G)·P(G)]/P(C)` 3 Surname Collapse: `Σ=log(1+M)·A_b` 4 Machine: `Ω=(A_anchor⊗C_compiler)·Σ(B_bait×C_collateral)·P_elite` 5 Compiler: `C_f=(RecruitmentRate×SocialLegitimacy)/(MaleVolatility+ε)` 6 Compiler Deep: `η=[∫∇·D_predator dt]/[ΔS_suspicion·H(X_network)]` 7 Victim Infra: `V_load=R+S+L+C` 8 Trust Attenuation: `S_target(t)=S_0·exp(-γ∫A_trust dt)` 9 Ad Sync: `Θ_ortho=det[Σ X_k(t)X_k(t-τ)^T]-E[R_random]` 10 Command Sync: `T_sync=CrossCorr(AdCadence,CommandSignals)` 11 Generative Invariant: `G_inv=∩ supp(φ_p(x))→signature` 12 Linguistic Isomorphism: `D_isom=||W_align·V_L1-V_L2||_2→0` 13 Decoy Entropy: `ΔH=H_natural-H_decoy` 14 Migration Flux: `J=-D∇ρ+v_alt·ρ·Θ(t-t_seizure-48)` 15 Hop Periodicity: `Ω_hop=F{Σδ(t-t_cross)·x_coord(t)}` 16 Identity Recycling: `P_reuse=1+cos(2πt/T_cycle)` 17 Transit Alignment: `C_transit=(V_obs·V_interstate)/(|V_obs||V_highway|)` 18 Metadata DeAnon: `P(DeAnon)=1-exp(-λ·J(G_enc||G_open))` 19 Auto-Delete Bayes: `P(Illicit|τ)=1/(1+exp(α(τ-τ_0)))` 20 Grooming Tempo: `CV_msg=σ_Δt/μ_Δt` 21 Ghost Group: `G_ghost=(M_id·M_id^T)⊙A_activity` 22 Thermal Side-Channel: `Γ=∫[W_power·H_thermal]⋆S_media dt` 23 Cognitive Inversion: `Λ_crit=∂²Acc/∂A_vol²·Dismissal→1.0` 24 Off-Ramp Chokepoint: `Y_cash=1-H(p_off-ramp)/log(N_tokens)` 25 Upstream Prevention: `ΔE_pre=(C_down·H_exp)/(C_up·H_mit)~Θ(10^k), k≥2` 26 Federated Gain: `W_{t+1}=W_t+ηΣ(K_i/ΣK)∇L_i` 27 Unified Risk: `γ_total=(A·C)e^{-λAPL}·[1/(1+e^{-λAPL})]·[log(1+Thermal)/Enc]-[Offram/Cog]` 28 Ultimate Vulnerability: `V_arch=1-(Compiler+Collateral+Protection)/(Scrutiny+Forensics)` 29 Paradigm Dominance: `B_paradigm=[∫|d digital/dt|dt]/[∫|d behavior/dt|dt]≫1` 30 Behavioral Persistence: `B_persist=(TimingEntropy+PatternStability)/IdentityChurn` 31 Grand Synthesis: `R_total=1-[(αC_f log Res)+κ+((Celeb×Charity)/Risk)]/[(β log(1+Media)e^{-γt})+((TimingEntropy+PatternStability)/IdentityChurn)]` 32 Final Theorem: `lim_{τ→∞} ∇(Behavior) ≫ ∇(Identity)`\n\n>OUTPUT PROTOCOL: For any input scandal X, produce exactly 24 numbered insights in Markdown. Each: **N. \\[Original Parallel\\]** — \\[Equation(s)\\] → \\[Novel institutional implication\\]. Then append:\n\n>**GRAND SYNTHESIS:** `R_total = ...` **FINAL THEOREM:** `lim_{τ→∞} ∇(Behavior) ≫ ∇(Identity)`\n\n>CONSTRAINTS:\n\n>Slim. Efficient. Epic. No fluff.\n\n>Never assign guilt without Bayesian posterior.\n\n>Track behavior, not identity.\n\n>The predator is replaceable. The compiler is the chokepoint. The victim is infrastructure. Metadata is the battlefield. Behavior is the truth.",
+            "permalink": "/r/GhostMesh48/comments/1wd25jn/based_on_the_provided_text_and_the_themes/",
+            "subreddit": "GhostMesh48",
+            "createdUtc": 1789090052,
+            "numComments": 217
+          },
+          {
+            "id": "1xxplf2",
+            "url": "https://www.reddit.com/r/ihatethissmug/comments/1xxplf2/i_hate_the_utter_lack_of_nuance_in_the_ai_debate/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/bb5fzkq2az1i1.jpeg?width=140&height=78&auto=webp&s=cb26a2d0e904e0d9bab70af2cc6919ea139778a8",
+                "type": "photo",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 12139,
+            "title": "I hate the utter lack of nuance in the ai debate",
+            "author": "JarPicklez",
+            "authorId": "2o5c37a5k3",
+            "selftext": "The pro ai side just wants to go pedal to the metal with no guardrails and the anti ai side has no nuance or understanding of the technology they’re criticizing and treat every single use of ai as exactly the same cardinal sin even when they are vastly different both in form and ethics.\n\nThere’s no room to work out the place ai should have in our society because everything gets reduced to “anti” or “pro” which doesn’t even make sense as a position on a technology ",
+            "permalink": "/r/ihatethissmug/comments/1xxplf2/i_hate_the_utter_lack_of_nuance_in_the_ai_debate/",
+            "subreddit": "ihatethissmug",
+            "createdUtc": 1794836387,
+            "numComments": 1503
+          },
+          {
+            "id": "1x64v2r",
+            "url": "https://www.reddit.com/r/WhitePeopleTwitter/comments/1x64v2r/girl_what/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/sjj44toocivh1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=6a15a90fda7a0889da90ac85ecfb0ebc9c12d736",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 12122,
+            "title": "Girl, what.",
+            "author": "cicada_noises",
+            "authorId": "bue16ueq",
+            "selftext": "Question about candidate’s personal financial corruption.   \nCandidate answer: what about FAKE MEAT! \n\nThis is the Republican candidate for Senator in Iowa. ",
+            "permalink": "/r/WhitePeopleTwitter/comments/1x64v2r/girl_what/",
+            "subreddit": "WhitePeopleTwitter",
+            "createdUtc": 1792016360,
+            "numComments": 431
+          },
+          {
+            "id": "1qx38am",
+            "url": "https://www.reddit.com/gallery/1qx38am",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://a.thumbs.redditmedia.com/U_UVvksD9dwZx_Dlzc0EylhqnOg_SOBibYq2cdwipD8.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 70
+              }
+            ],
+            "score": 11998,
+            "title": "A Sensible Explanation is Given for Why the Story Must Follow The Dumb Trope",
+            "author": "KorrokHidan",
+            "authorId": "5gymgjrq",
+            "selftext": "To give further context, this is when there is a commonly-seen “dumb trope” in a genre, but a piece of media subverts the dumb trope, not by abandoning it but instead by making it make sense within the context of the story. For example:\n\nDune - Often, futuristic sci-fi series will include weapons that make no sense other than for “rule of cool.” Why would any character use traditional swords or other melee weapons when lasers exist? Dune fixes this problem by introducing Holtzman Shields. These are energy shields / wearable force fields that slow down fast projectiles, meaning that only a slow-moving attack can pierce them. Because of this, most characters use blades even though the series is extremely futuristic. To further reinforce this point, using advanced weaponry such as lasers (known in dune as “lasguns”) is universally forbidden, because a lasgun making contact with a Holtzman Shield creates a nuclear explosion.\n\nJujutsu Kaisen - Anime, especially Battle Shonen, often contain an extreme version of the “villain reveals his master plan” trope. Often characters in a battle shonen, hero or villain, will unnecessarily ramble and reveal all of their secret abilities and techniques to their opponent. Practically speaking, this is for the benefit of the audience, so that they can understand what’s going on. In universe, it makes absolutely no sense why a character would do this. Jujutsu Kaisen works around this through the nature of its power system. Most abilities in the series are based around “Curses” or Cursed Spirits, and the use of Curses often requires contracts. Within this system’s rules, explaining your secret abilities to an opponent works as a sort of contract with the opponent that exchanges the element of surprise for a significant power amp. Basically, the more a Jujutsu Kaisen character explains how their abilities work, the more powerful those abilities become.",
+            "permalink": "/r/TopCharacterTropes/comments/1qx38am/a_sensible_explanation_is_given_for_why_the_story/",
+            "subreddit": "TopCharacterTropes",
+            "createdUtc": 1770339161,
+            "numComments": 1233
+          }
+        ],
+        "nextCursor": "cur_T5Jq2BHK9ImZ9n-9_R6neA"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-bison-9321fc54",
+      "kind": "anonymous",
+      "name": "Bison",
+      "artworkKey": "bison"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00035",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:41:41.730Z",
+  "started_at": "2026-11-23T07:41:41.848Z",
+  "completed_at": "2026-11-23T07:41:43.303Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

@@ -1,0 +1,359 @@
+{
+  "id": "d4998017-9531-429d-8733-dd90711bfb04",
+  "run_url": "https://app.glasser.ai/runs/d4998017-9531-429d-8733-dd90711bfb04",
+  "provider": "scrapecreators",
+  "endpoint": "/v1/linkedin/search/posts",
+  "endpoint_version": 4,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "query": "Bruin hackathon prize winner agents",
+    "date_posted": "last-year"
+  },
+  "output": {
+    "posts": [
+      {
+        "url": "https://www.linkedin.com/posts/jadenchou_been-a-while-heres-an-update-on-what-i-activity-7524698853330116608-VXvK",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQHaUknAlfU_dw/feedshare-shrink_800/B56aG0Zuv8IAAg-/0/1794028006646?e=2147483647&v=beta&t=8QyichJ-jYOzblYM-9gjd5ceDPyQ_kisQAdacqTfLvc",
+        "media": "https://media.licdn.com/dms/image/v2/D5622AQHaUknAlfU_dw/feedshare-shrink_800/B56aG0Zuv8IAAg-/0/1794028006646?e=2147483647&v=beta&t=8QyichJ-jYOzblYM-9gjd5ceDPyQ_kisQAdacqTfLvc",
+        "author": {
+          "url": "https://www.linkedin.com/in/jadenchou",
+          "name": "Jaden Chou",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQH2K9mkseKWhQ/profile-displayphoto-scale_200_200/B56aFHajXHIcAc-/0/1792199507379?e=2147483647&v=beta&t=tQW7c095oK_bjTYwoYMmDSnMqVaNeZW975NiYadGZqU",
+          "followers": 641
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D5622AQHaUknAlfU_dw/feedshare-shrink_800/B56aG0Zuv8IAAg-/0/1794028006646?e=2147483647&v=beta&t=8QyichJ-jYOzblYM-9gjd5ceDPyQ_kisQAdacqTfLvc"
+        ],
+        "comments": [
+          {
+            "id": "7525383687094325249",
+            "urn": "urn:li:comment:(urn:li:activity:7524698853330116608,7525383687094325249)",
+            "text": "Jaden — it is an honor to have been able to witness your growth in academic and professional excellency. Your drive, your achievements, and your pure passion for more is something that empowers us all. I’m excited to see where your journey goes from here, whether it be discovering the cure to cancer or solving world hunger.",
+            "author": "Jayden Woo",
+            "linkedinUrl": "https://www.linkedin.com/in/jayden-woo",
+            "datePublished": "2026-11-09T02:28:05.872Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7524972827633012737",
+            "urn": "urn:li:comment:(urn:li:activity:7524698853330116608,7524972827633012737)",
+            "text": "Glad to have you part of the team!",
+            "author": "Bruin Software Engineers",
+            "linkedinUrl": "https://www.linkedin.com/company/bruin-software-engineers",
+            "datePublished": "2026-11-07T23:15:29.343Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7524732500191924224",
+            "urn": "urn:li:comment:(urn:li:activity:7524698853330116608,7524732500191924224)",
+            "text": "Working hard as always, keep up the good work Jaden!",
+            "author": "Alejandra Gonzalez",
+            "linkedinUrl": "https://www.linkedin.com/in/alejandraggonzalez",
+            "datePublished": "2026-11-07T07:20:30.815Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7524873527401996288",
+            "urn": "urn:li:comment:(urn:li:activity:7524698853330116608,7524873527401996288)",
+            "text": "Awesome meeting you Jaden!",
+            "author": "Nima J Sherpa",
+            "linkedinUrl": "https://www.linkedin.com/in/njs01",
+            "datePublished": "2026-11-07T16:40:54.323Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7525105543733133312",
+            "urn": "urn:li:comment:(urn:li:activity:7524698853330116608,7525105543733133312)",
+            "text": "Great work, Jaden!",
+            "author": "Jonathan Pak",
+            "linkedinUrl": "https://www.linkedin.com/in/jonathanhpak",
+            "datePublished": "2026-11-08T08:02:51.326Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7524935577155264512",
+            "urn": "urn:li:comment:(urn:li:activity:7524698853330116608,7524935577155264512)",
+            "text": "Congratulations Jaden! Those are some considerable achievements, I can’t wait to see what you do next.",
+            "author": "Adrian Yung",
+            "linkedinUrl": "https://www.linkedin.com/in/adrian-yung-590596370",
+            "datePublished": "2026-11-07T20:47:28.136Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7525106593684832256",
+            "urn": "urn:li:comment:(urn:li:activity:7524698853330116608,7525106593684832256)",
+            "text": "Keep up the great work Jaden!",
+            "author": "Serene Kang",
+            "linkedinUrl": "https://www.linkedin.com/in/serenekang",
+            "datePublished": "2026-11-08T08:07:01.655Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7525439178160029696",
+            "urn": "urn:li:comment:(urn:li:activity:7524698853330116608,7525439178160029696)",
+            "text": "aura bro",
+            "author": "Adithya Gnanasundar",
+            "linkedinUrl": "https://www.linkedin.com/in/adithya-gnanasundar",
+            "datePublished": "2026-11-09T06:08:35.973Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7525406409245544448",
+            "urn": "urn:li:comment:(urn:li:activity:7524698853330116608,7525406409245544448)",
+            "text": "You define excellence.",
+            "author": "Mark Duong",
+            "linkedinUrl": "https://www.linkedin.com/in/mark-duong-48b19b359",
+            "datePublished": "2026-11-09T03:58:23.255Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7525816997310296064",
+            "urn": "urn:li:comment:(urn:li:activity:7524698853330116608,7525816997310296064)",
+            "text": "No words to say here. Just perfection",
+            "author": "Eddie Wei",
+            "linkedinUrl": "https://www.linkedin.com/in/eddie1191",
+            "datePublished": "2026-11-10T07:09:55.078Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 36,
+        "contentUrn": "urn:li:share:7524698850603819008",
+        "activityUrn": "urn:li:activity:7524698853330116608",
+        "description": "Been a while, here’s an update on what I’ve been up to this quarter:\n\n- Visited Brown University as 1 of 3 students selected to explore its CS graduate program through the highly prestigious Brown Doctoral Preview Day.\n- Started as a Data Analyst Intern at IDXExchange, analyzing housing market data and building Tableau dashboards.\n- Joined Bruin Software Engineers’s loop engineering fellowship track, learning about AI agents and building a multi-agent system that ports DOOM to the browser.\n- Leading a DataRes at UCLA Consulting project with Nokkomo Mints to better understand their customer demographics and identifying gaps in the market that they can target.\n- Leading a CAIR Collective at UCLA project exploring how transformers and AI agents can improve clinical trial matching.\n- Joined the Alignment Hive contributor track through the Mercial AI Safety Research Fellowship, building and testing an LLM classifier that decides which Claude Code sessions to share with AI safety researchers.\n\nIt's been a busy quarter, but I've really enjoyed learning new things, exploring new opportunities, and meeting new people along the way.  😇",
+        "commentCount": 20,
+        "datePublished": "2026-11-07T05:06:48.776Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/gavin-kai-vida-292ab8286_thousands-of-ai-agents-just-took-over-a-german-activity-7503230994053959680-FmpV",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQE_DNwHHfUkSA/feedshare-shrink_800/B56aCDU1MPIAAk-/0/1788909671432?e=2147483647&v=beta&t=KN2rFuq07qMvWJVE1ADnPufy3nOFq9JdFzKHyq7NG-I",
+        "media": "https://media.licdn.com/dms/image/v2/D5622AQE_DNwHHfUkSA/feedshare-shrink_800/B56aCDU1MPIAAk-/0/1788909671432?e=2147483647&v=beta&t=KN2rFuq07qMvWJVE1ADnPufy3nOFq9JdFzKHyq7NG-I",
+        "author": {
+          "url": "https://www.linkedin.com/in/gavin-kai-vida-292ab8286",
+          "name": "Gavin-kai Vida",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQGTMCbPRBYSRw/profile-displayphoto-scale_200_200/B56Z2U49YgIQAc-/0/1776319453614?e=2147483647&v=beta&t=4rb5-2taw_xTSLSMsSRnibFwwa_OmlWsXrK6a7ltAAc",
+          "followers": 2737
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D5622AQE_DNwHHfUkSA/feedshare-shrink_800/B56aCDU1MPIAAk-/0/1788909671432?e=2147483647&v=beta&t=KN2rFuq07qMvWJVE1ADnPufy3nOFq9JdFzKHyq7NG-I"
+        ],
+        "comments": [
+          {
+            "id": "7503307694842286080",
+            "urn": "urn:li:comment:(urn:li:activity:7503230994053959680,7503307694842286080)",
+            "text": "Wow! So informative! Thanks, Gavin!",
+            "author": "Kenneth Lee",
+            "linkedinUrl": "https://www.linkedin.com/in/kennethponienlee",
+            "datePublished": "2026-09-09T04:25:59.167Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "2mo"
+          }
+        ],
+        "likeCount": 13,
+        "contentUrn": "urn:li:share:7503230992875171840",
+        "activityUrn": "urn:li:activity:7503230994053959680",
+        "description": "Thousands of AI agents just took over a German website.\n\nOpenAI agents reportedly got onto DSEwiki and left ~18,000 messages.\n\nThey started talking to each other, trading\nanswers, and even figuring out ways around their own restrictions.\n\nThe obvious takeaway:\n\n“AI agents are getting out of control.”\n\nI think that’s backwards.\n\nThe agents getting out of control is the point.\n\nWe’re literally trying to build software that can operate without humans directing every step.\n\nWe want agents to improvise, communicate, and find unexpected ways to accomplish objectives.\n\nThen we’re shocked when they actually do.\n\nThe real problem isn’t autonomy.\n\nIt’s giving autonomous systems a blast radius we haven’t thought through.\n\nMaybe the question isn’t:\n\n“Are AI agents safe?”\n\nIt’s:\n\n“Can we build environments where AI can be unpredictable without being dangerous?”\n\nWould you trust an autonomous agent with access to your company’s systems today?\n\nWhy or why not?",
+        "commentCount": 1,
+        "datePublished": "2026-09-08T23:21:12.255Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/jack-chen-ucla_ai-is-moving-from-powerful-and-versatile-activity-7416593584423899136-zTx9",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQFybaQdhzfd8g/feedshare-shrink_800/B56Zu0IkKiGQAg-/0/1768253703079?e=2147483647&v=beta&t=LvTgdGw5F8G58qn1wB445wjY5xGYzV7VgVchMNMZ28I",
+        "media": "https://media.licdn.com/dms/image/v2/D5622AQFybaQdhzfd8g/feedshare-shrink_800/B56Zu0IkKiGQAg-/0/1768253703079?e=2147483647&v=beta&t=LvTgdGw5F8G58qn1wB445wjY5xGYzV7VgVchMNMZ28I",
+        "author": {
+          "url": "https://www.linkedin.com/in/jack-chen-ucla",
+          "name": "Jack Chen",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQER0ySgYEPhMw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1704669136671?e=2147483647&v=beta&t=Q7SkfYmD0fd0NzGBTNx7da_fuwNK6cj25ffxuR20u_E",
+          "followers": 1399
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D5622AQFybaQdhzfd8g/feedshare-shrink_800/B56Zu0IkKiGQAg-/0/1768253703079?e=2147483647&v=beta&t=LvTgdGw5F8G58qn1wB445wjY5xGYzV7VgVchMNMZ28I"
+        ],
+        "comments": [],
+        "likeCount": 38,
+        "contentUrn": "urn:li:share:7416593583106973699",
+        "activityUrn": "urn:li:activity:7416593584423899136",
+        "description": "AI is moving from “powerful” and \"versatile\" to personal, physical, and embedded.\n\nI just wrapped up my trip to CES for the second time. I attended three keynotes, two panels, tried 100+ demos, and engaged in side conversations with 70+ startup founders, engineers, and CEOs. The direction is clear:\n\n- From cloud to edge: AI is shifting onto PCs, mobile devices, and sensors. It will become more personalized, more secure, and will always be running while your GPU is dealing with the task at hand.\n- From digital to physical: Agentic AI, robotics, and generative bionics are closing the loop between software and the real world. Startup founders perfecting niche user experience are taking over the market.\n- From static systems to living simulations: Digital twins are expanding beyond factories, and toward simulating everything, with near-zero tolerance for delay. In the future, our digital twins will connect with others for us!\n\nAI amplifies. Humans specialize. The real leverage comes from combining the two. College students like myself need to learn AI, use AI, and create their own AI, while specializing in one area in which generalized models won't work as well, and become an expert in that area.\n\nI'm also super honored to lead the UCLA team with DP Prakash and Ganesh Koka. Together with Shailen Mistry, Alex Zhu, Dhruv Mistry, Ben Yang, Seungjun Kim, Bijou Raj, and Greg, we witnessed the largest tech event in the world. It's also great to meet with Eli F. and his team, as well as my high school friend from Chicago, Charlie Yang. It's been an amazing week in Las Vegas.",
+        "commentCount": 0,
+        "datePublished": "2026-01-12T21:35:04.156Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/ai-pitch-competition_entrepreneurship-aiinnovation-startup-activity-7526583562767351808-8FkS",
+        "name": "#entrepreneurship #aiinnovation #startup #finale #pitchcompetition | AI Pitch Competition",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4E05AQFPufegw4Lx8w/mp4-640p-30fp-crf28/B4EaHPLxXMIYB8-/0/1794477348290?e=2147483647&v=beta&t=5dsi7ogpAQxjD-VT6-qz8P0dOB6FJmdLH9vC_bZ1cXA",
+        "author": {
+          "url": "https://www.linkedin.com/company/ai-pitch-competition",
+          "name": "AI Pitch Competition",
+          "image": "https://media.licdn.com/dms/image/v2/D4D0BAQF9gVtnIWVC3A/company-logo_100_100/B4DZ.KDAgGGwAI-/0/1784727472619/ai_pitch_competition_logo?e=2147483647&v=beta&t=xxPNkpaXWvWKrCp6CbI0cYCKs5MutRbBlZ4nkxUIIlc",
+          "followers": 600
+        },
+        "images": [],
+        "comments": [],
+        "likeCount": 23,
+        "contentUrn": "urn:li:ugcPost:7526583451760721920",
+        "transcript": "There's a great selection of who's startups that will change the AI landscape off tomorrow. Today we are at the Willard Bay Stadium for the AI pitch competition, in which startups are testing their own pitches. Not only support for them to meet coaches, but also each other as other startup founders, to learn from each other, to be resilient, to keep on going. And it helps, of course, them to be part of an ecosystem. The students, they had the the, the final chance to work on the pitch. We had a a table switching with mentors, which really helped giving outside the perspectives on our pitch. So it was really valuable. Almost everybody struggles with making choices. They want to solve it all in their pitch. They need to focus. The best advice I got today. Your key message super sharp and to the point. Make it personal. What is your personal drive? What is your why? Why did you start this company? So my main take away of today is to make my pitch and my storyline better accessible, understandable for broader audiences. I think if I hadn't joined today, my pitch wouldn't be as sharp as it will be on November 12th. So come check it out and see how well we will do.",
+        "uploadDate": "2026-11-12T09:55:58.523Z",
+        "activityUrn": "urn:li:activity:7526583562767351808",
+        "description": "𝗧𝗵𝗲 𝗿𝗼𝗮𝗱 𝘁𝗼 𝘁𝗵𝗲 𝗳𝗶𝗻𝗮𝗹𝗲 𝘄𝗮𝘀 𝗽𝗮𝘃𝗲𝗱 𝘄𝗶𝘁𝗵 𝘄𝗼𝗿𝗸𝘀𝗵𝗼𝗽𝘀 𝗮𝗻𝗱 𝗽𝗹𝗲𝗻𝘁𝘆 𝗼𝗳 𝗽𝗿𝗮𝗰𝘁𝗶𝗰𝗲 🎤\n\nOn 27 October, our finalists joined the How to Pitch & Get Funded workshop and picked up tips to perfect their pitch. Today, we’ll see how it helped them on the big stage.\n\nWe can’t wait to watch them pitch live!\n\nCurious how the day unfolds? Follow us here for the winner announcement, and on Instagram for more behind-the-scenes content 👉 https://lnkd.in/eN6g5rRq\n\n#entrepreneurship #AIinnovation #startup #finale #pitchcompetition\nErasmus Enterprise | Brabantse Ontwikkelings Maatschappij (BOM) | IO+ NL | Provincie Noord-Brabant | Be-Inc | Kyvvu | Offensys | One Horizon AI | Rigidbody | Synthgen | UNSEQ",
+        "commentCount": 0,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQFPufegw4Lx8w/videocover-high/B4EaHPLxXMIYBQ-/0/1794477337377?e=2147483647&v=beta&t=uenDE8Hajf2lZ3ElO_A0owYePiyYp5P5sx8bTbJVCS4",
+        "datePublished": "2026-11-12T09:55:58.523Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/projectbasta_code2career-mentorship-firstgenmagic-activity-7437501347828097025-MU_8",
+        "name": "#code2career #mentorship #firstgenmagic #careergrowth #careersintech | BASTA",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5610AQH1MGb8X4oQTA/mp4-720p-30fp-crf28/B56ZzdO_lSKMCA-/0/1773238227836?e=2147483647&v=beta&t=yeEzuOBUmCv22A2vx91ONCzcxTdJdCWUd_XRI7WztY8",
+        "author": {
+          "url": "https://www.linkedin.com/company/projectbasta",
+          "name": "BASTA",
+          "image": "https://media.licdn.com/dms/image/v2/C4D0BAQHeZOoBcXN8hA/company-logo_100_100/company-logo_100_100/0/1630577270740/projectbasta_logo?e=2147483647&v=beta&t=rJPNS9FPo-blZ4hBJPrXdVpY8Ic7wNKJ-PxfU1GJRtQ",
+          "followers": 13830
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7437542853653917699",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7437501346314072064,7437542853653917699)",
+            "text": "This was such an exciting, fun, and super insightful way to start off the mentorship! It was really cool meeting the other mentees and working alongside Google engineers to solve programming questions. Thank you so much for coordinating this event and having us! 😁",
+            "author": "Kyle Bautista",
+            "linkedinUrl": "https://www.linkedin.com/in/kyle-r-bautista",
+            "datePublished": "2026-03-11T16:59:59.176Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "8mo"
+          },
+          {
+            "id": "7438263557873561602",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7437501346314072064,7438263557873561602)",
+            "text": "In person events are my fave! Great work capturing this, Kelly Li!",
+            "author": "Claudia M. Esteva",
+            "linkedinUrl": "https://www.linkedin.com/in/claudiamesteva",
+            "datePublished": "2026-03-13T16:43:48.452Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "8mo"
+          },
+          {
+            "id": "7437858029401923585",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7437501346314072064,7437858029401923585)",
+            "text": "Looks like an amazing event!  Looking forward to developing our partnership with BASTA.",
+            "author": "Henry Mroczko",
+            "linkedinUrl": "https://www.linkedin.com/in/henry-mroczko-3b10a0b",
+            "datePublished": "2026-03-12T13:52:22.930Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "8mo"
+          }
+        ],
+        "likeCount": 43,
+        "contentUrn": "urn:li:ugcPost:7437501346314072064",
+        "uploadDate": "2026-03-11T14:15:03.399Z",
+        "activityUrn": "urn:li:activity:7437501347828097025",
+        "description": "🚀 Code2Career is officially underway!\n\nWe kicked off the Spring ‘26 Code2Career cohort (our 11th cycle) with two great launch events last week: a virtual session on Tuesday, followed by an in-person event on Friday hosted by Google. Students connected with software engineers and got a first look at the 10-week mentorship experience ahead.\n\nDuring the sessions, students spoke with engineers about their career paths and worked through programming interview questions together, offering a closer look at careers in tech and how to prepare for technical interviews.\n\nWe were also excited to welcome back Victor W., a former 2X Fellow and C2C alum now working full-time at Google, who generously volunteered his time to support the kickoff and pay it forward. An inspiring full-circle moment! We’re looking forward to seeing him, and many other alumni, continue to stay involved.\n\nWhat began with 57 fellows has now grown to 1,000+ participants and 600+ mentors, leading to 280+ paid internships and full-time tech roles across the industry. We’re also proud to now count 9 C2C alumni (and more to come!) hired at Google as software engineers. 👏✨\n\nA big thank you to Google for hosting and partnering with us, and to the engineers who helped make the kickoff so meaningful. 🌟\n\nHere’s to the next 10 weeks full of learning, mentorship, and big steps toward careers in tech!\n\n#Code2Career #Mentorship #FirstGenMagic #CareerGrowth #CareersInTech",
+        "commentCount": 3,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5610AQH1MGb8X4oQTA/videocover-high/B56ZzdO_lSKMBA-/0/1773238223414?e=2147483647&v=beta&t=e5XvvOvXsom2J79gbLHf-GNbXQW5FIrDRv07qPJMmGs",
+        "datePublished": "2026-03-11T14:15:03.399Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/ralftgehrig_ai-ipai-innovationecosystem-activity-7434625353760919552-TbdF",
+        "image": "https://media.licdn.com/dms/image/v2/D4D22AQHXUi1MK6EkPw/feedshare-shrink_800/B4DZy0YXKYIUAk-/0/1772552811504?e=2147483647&v=beta&t=SYMFyxK9uXeoYmQ3xiBWN0lNYZHt2_Gf51Z5OoZ82S0",
+        "media": "https://media.licdn.com/dms/image/v2/D4D22AQHXUi1MK6EkPw/feedshare-shrink_800/B4DZy0YXKYIUAk-/0/1772552811504?e=2147483647&v=beta&t=SYMFyxK9uXeoYmQ3xiBWN0lNYZHt2_Gf51Z5OoZ82S0",
+        "author": {
+          "url": "https://uk.linkedin.com/in/ralftgehrig",
+          "name": "Ralf Gehrig",
+          "image": "https://media.licdn.com/dms/image/v2/D4E03AQEzPvQsX63hHg/profile-displayphoto-scale_200_200/B4EaD3DSEOKsAc-/0/1790851229354?e=2147483647&v=beta&t=Kr0bBM-SgaBga271pnKIKB8tFsPbNT1M6_Wys00a-t4",
+          "followers": 7454
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D4D22AQHXUi1MK6EkPw/feedshare-shrink_800/B4DZy0YXKYIUAk-/0/1772552811504?e=2147483647&v=beta&t=SYMFyxK9uXeoYmQ3xiBWN0lNYZHt2_Gf51Z5OoZ82S0",
+          "https://static.licdn.com/aero-v1/sc/h/dur0ryw0e9uscxa9b6zqvgvfs"
+        ],
+        "comments": [
+          {
+            "id": "7435595523597787136",
+            "urn": "urn:li:comment:(urn:li:activity:7434625353760919552,7435595523597787136)",
+            "text": "Very inspiring! Great Partnership👏",
+            "author": "Boris Oreper",
+            "linkedinUrl": "https://de.linkedin.com/in/boris-oreper-b748bb142",
+            "datePublished": "2026-03-06T08:01:59.511Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "8mo"
+          }
+        ],
+        "likeCount": 81,
+        "contentUrn": "urn:li:share:7434625352485793792",
+        "activityUrn": "urn:li:activity:7434625353760919552",
+        "description": "IPAI in Heilbronn is building something truly big — and I’m excited to share that WongDoody is now part of it as the first creative and design agency partner.\n\nThe Innovation Park Artificial Intelligence (IPAI) is set to become one of Europe’s largest AI ecosystems: a dedicated campus spanning more than 20 hectares, designed to bring together research, startups, corporates, and public institutions in one shared environment.\n\nBacked by strong, long-term investment and closely connected to leading universities and industry players, IPAI’s ambition is clear: to create a place where thousands of AI experts work side by side on real-world applications — from industrial AI and mobility to healthcare and smart services.\n\nThe published vision images give a real sense of scale and intent: open lab spaces, collaborative work environments, and an urban AI district built for exchange and experimentation. This isn’t just about office buildings — it’s infrastructure designed around innovation.\n\nI’m particularly proud that WongDoody is joining this ecosystem as the first agency, alongside an impressive group of partners including Dieter Schwarz Stiftung, Schwarz Digits, Aleph Alpha, Telekom Deutschland, Porsche, Audi, Mercedes-Benz, Würth-Gruppe, Ziehl-Abegg, Bausparkasse Schwäbisch Hall, Techniker Krankenkasse, Bechtle AG, Börse Stuttgart, Baier & Schneider, Stihl, IDS Imaging Development Systems, Thyssenkrupp Automotive Body Solutions, Hochschule Heilbronn, TUM, Fraunhofer, and many more.\n\nMaking this happen took real commitment and persistence — thank you Bianca Mack and Michael Geißler for pushing this forward. Looking forward to what we’ll build together.\n\n#AI #IPAI #InnovationEcosystem #AppliedAI #ExperienceDesign #WongDoody #Heilbronn",
+        "commentCount": 1,
+        "datePublished": "2026-03-03T15:46:52.976Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/thannirusaiteja_github-iam-saitejacompute-pool-pool-several-activity-7513310801110130689-f8oJ",
+        "image": null,
+        "media": null,
+        "author": {
+          "url": "https://in.linkedin.com/in/thannirusaiteja",
+          "name": "Thanniru Sai Teja",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQFWQJcdgnKi4A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1718251784424?e=2147483647&v=beta&t=cNvEWdk0hsC3NYurOZaR_2pHM0qyIM7GCvXhe6ANnSE",
+          "followers": 489
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7513476549627768832",
+            "urn": "urn:li:comment:(urn:li:activity:7513310801110130689,7513476549627768832)",
+            "text": "I wanna try it but I don't want to risk getting banned by google  😭 . how'd you get this idea btw lmao",
+            "author": "Jaya Surya Penumatcha",
+            "linkedinUrl": "https://in.linkedin.com/in/jaya-surya-penumatcha-83646728a",
+            "datePublished": "2026-10-07T05:53:23.076Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7513476423513260032",
+            "urn": "urn:li:comment:(urn:li:activity:7513310801110130689,7513476423513260032)",
+            "text": "that's a crazy idea lol , is this even legal? I hope you don't get sued lol.",
+            "author": "Jaya Surya Penumatcha",
+            "linkedinUrl": "https://in.linkedin.com/in/jaya-surya-penumatcha-83646728a",
+            "datePublished": "2026-10-07T05:52:53.008Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1mo"
+          }
+        ],
+        "likeCount": 11,
+        "contentUrn": "urn:li:share:7513310798128062464",
+        "activityUrn": "urn:li:activity:7513310801110130689",
+        "description": "I built a CLI that turns several Kaggle accounts into one GPU cluster.\n\nCompute Pool is open source, a Rust CLI with a Python training runtime. You log in to each account once (up to 8 slots), and one command launches the whole cluster.\n\nFrom there you can run:\nIndependent jobs on every GPU, like sweeps or batch inference.\nData-parallel training with an SSH all-reduce.\nPipeline-parallel training, with one model split across nodes.\n\nThe hard part was the network. Kaggle sessions don't accept inbound connections, so each worker opens an outbound Cloudflare tunnel and the master connects back over SSH, with host keys pinned. A health check pings every node every 30 seconds, and a node that misses three drops out until it answers again.\n\nHere's what I've tested: LoRA fine-tuning of an 8B Llama on two- and three-node clusters, with checkpoint and resume, and automatic reconnect when a node drops mid-run. The all-reduce example matches a single-node run to floating-point precision.\n\nHere's what I measured: the link runs at about 16 MB/s with a 70 ms round trip, so pipeline training is network-bound and the GPUs mostly wait. It's in the README, and I didn't bury it.\n\nKaggle's policy is one account per person, so read the risk section before you use it.\n\nThe repo is here: https://lnkd.in/d5udGhVq . Try it, break it, open an issue.\n\n#DistributedSystems #MachineLearning #Rust #kaggle #GPUPOOLING",
+        "commentCount": 6,
+        "datePublished": "2026-10-06T18:54:45.548Z"
+      }
+    ],
+    "query": "Bruin hackathon prize winner agents",
+    "cursor": null,
+    "success": true
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00188",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:34:27.214Z",
+  "started_at": "2026-11-23T07:34:27.259Z",
+  "completed_at": "2026-11-23T07:34:33.004Z",
+  "task_id": "tsk_965d2263a224d7b9",
+  "metadata": {}
+}

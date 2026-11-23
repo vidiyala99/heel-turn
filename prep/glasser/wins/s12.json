@@ -1,0 +1,146 @@
+{
+  "id": "435609ca-3c1d-46fb-9573-a1024be12aa9",
+  "run_url": "https://app.glasser.ai/runs/435609ca-3c1d-46fb-9573-a1024be12aa9",
+  "provider": "serper",
+  "endpoint": "/search",
+  "endpoint_version": 2,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "q": "hackathon winner multi-agent game AI agents play together 2026 first place"
+  },
+  "output": {
+    "organic": [
+      {
+        "date": "May 6, 2026",
+        "link": "https://www.solo.io/blog/celebrating-the-winners-of-the-2026-hackathon-for-mcp-ai-agents",
+        "title": "Celebrating the Winners of the 2026 Hackathon for MCP & AI Agents",
+        "snippet": "The winner of this track is Denys Vasyliev (UK), congrats to John Capobianco (Canada) for winning this category.",
+        "position": 1,
+        "displayedLink": "https://www.solo.io › blog › celebrating-the-winners-of-..."
+      },
+      {
+        "link": "https://www.facebook.com/TeamGloo/posts/-winner-of-the-best-of-agents-track-goes-to-unify%E3%85%A4unify-is-an-agentic-ai-platfor/1552261043587584/",
+        "title": "Unify wins best of agents track at gloo ai hackathon 2026",
+        "snippet": "Winner of the Best of Agents Track goes to Unify! ㅤ Unify is an agentic AI platform that allows nonprofits to replace fragmented, costly ...",
+        "position": 2,
+        "displayedLink": "https://www.facebook.com › TeamGloo › ... › 1552261043587584"
+      },
+      {
+        "date": "Aug 26, 2026",
+        "link": "https://flower.ai/events/collaborative-agent-hackathon",
+        "title": "Collaborative Agent Hackathon",
+        "snippet": "Time 9:30 am – 7:00 pm. The Collaborative Agent Hackathon is a one-day event for building open-source, collaborative AI agents using Flower.",
+        "position": 3,
+        "displayedLink": "https://flower.ai › events › collaborative-agent-hackathon"
+      },
+      {
+        "date": "Jun 23, 2026",
+        "link": "https://community.neo4j.com/t/aura-agent-hackathon-winners-announced/79568",
+        "title": "Aura Agent Hackathon Winners Announced",
+        "snippet": "The Aura Agent Hackathon showcased what happens when developers combine AI with connected data and knowledge graphs. Thank you to everyone who ...",
+        "position": 4,
+        "displayedLink": "https://community.neo4j.com › t › aura-agent-hackathon-winner... › 79568"
+      },
+      {
+        "date": "Jun 18, 2026",
+        "link": "https://devblogs.microsoft.com/powerplatform/agent-academy-hackathon-winners/",
+        "title": "Meet the Agent Academy Hackathon Winners | Power Platform ...",
+        "snippet": "Meet the 12 winning AI agents from the Agent Academy Hackathon. From May 12 to June 2, 2026, designing, building, and shipping real, working AI ...",
+        "position": 5,
+        "displayedLink": "https://devblogs.microsoft.com › powerplatform › agent-academy-hackathon-win..."
+      },
+      {
+        "link": "https://www.reddit.com/r/ambitionarena7/comments/1tz30or/microsofts_agents_league_hackathon/",
+        "title": "Microsoft's Agents League Hackathon : r/ambitionarena7",
+        "snippet": "Win from a $55,000 Prize Pool! Microsoft's Agents League Hackathon is now live, bringing together developers, AI builders, students, and ...",
+        "position": 6,
+        "displayedLink": "https://www.reddit.com › r › ... › microsofts_agents_league_ha..."
+      },
+      {
+        "date": "Aug 4, 2026",
+        "link": "https://forum.uipath.com/t/here-are-the-uipath-agenthack-2026-winners/5766658",
+        "title": "Here are the UiPath AgentHack 2026 winners! 🏆",
+        "snippet": "1st Place - UiPath Maestro. Congratulations to Srajan Gupta, Tanya, Swati, and Astitve on winning $5,000 and earning recognition as the top ...",
+        "position": 7,
+        "displayedLink": "https://forum.uipath.com › t › here-are-the-uipath-agentha... › 5766658"
+      },
+      {
+        "link": "https://apartresearch.com/sprints/swarm-alignment-2026",
+        "title": "Swarm Alignment Hackathon",
+        "snippet": "With Nikhil Vemuri, he won first place at Apart's AI Control Hackathon 2026 with “Omission Attacks: When Doing Nothing. A multiple-time winner of major AI ...",
+        "position": 8,
+        "displayedLink": "https://apartresearch.com › sprints › swarm-alignment-2026"
+      },
+      {
+        "link": "https://microsoft.github.io/agent-academy/events/hackathon/",
+        "title": "Agent Academy Hackathon",
+        "snippet": "Agent Academy Hackathon ​ · Event dates: May 12 – June 2, 2026 · Status: Closed · Winners announced: June 18, 2026 · Start: May 12, 2026 at 12:00 AM Pacific ...",
+        "position": 9,
+        "displayedLink": "https://microsoft.github.io › agent-academy › events › hackathon"
+      },
+      {
+        "date": "Feb 4, 2026",
+        "link": "https://lablab.ai/ai-hackathons/openclaw-surge-hackathon",
+        "title": "[Recap] SURGE × OpenClaw Hackathon",
+        "snippet": "Explore the recap of SURGE × OpenClaw Hackathon. Browse winning projects, submissions, and results from this free AI hackathon on lablab.ai.",
+        "position": 10,
+        "displayedLink": "https://lablab.ai › ai-hackathons › openclaw-surge-hackathon"
+      }
+    ],
+    "peopleAlsoAsk": [
+      {
+        "question": "What is the best AI agent in 2026?"
+      },
+      {
+        "question": "What is the prize for the winner of a hackathon?"
+      },
+      {
+        "question": "What is an AI agent hackathon?"
+      },
+      {
+        "question": "Who won the Microsoft Hackathon?"
+      }
+    ],
+    "relatedSearches": [
+      {
+        "query": "AI agents Hackathon winners"
+      },
+      {
+        "query": "AI hackathon winners 2026"
+      },
+      {
+        "query": "Agentic AI Hackathon winners"
+      },
+      {
+        "query": "AI agent hackathon ideas"
+      },
+      {
+        "query": "Google ai hackathon winners"
+      },
+      {
+        "query": "Winning hackathon"
+      }
+    ],
+    "searchParameters": {
+      "q": "hackathon winner multi-agent game AI agents play together 2026 first place",
+      "type": "search",
+      "engine": "google"
+    }
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.001",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:36:38.032Z",
+  "started_at": "2026-11-23T07:36:38.068Z",
+  "completed_at": "2026-11-23T07:36:38.841Z",
+  "task_id": "tsk_965d2263a224d7b9",
+  "metadata": {}
+}

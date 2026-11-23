@@ -1,0 +1,138 @@
+{
+  "id": "20c9d220-3ff8-43a4-ab70-bd524d79289a",
+  "run_url": "https://app.glasser.ai/runs/20c9d220-3ff8-43a4-ab70-bd524d79289a",
+  "provider": "serper",
+  "endpoint": "/search",
+  "endpoint_version": 2,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "q": "Cal Hacks 2026 winners multi-agent AI"
+  },
+  "output": {
+    "organic": [
+      {
+        "link": "https://www.calhacks.io/",
+        "title": "Cal Hacks 13.0",
+        "snippet": "Cal Hacks is a 3-day hackathon, where hackers creatively collaborate on innovative technology for a chance to win prizes including cash, and attend workshops ...",
+        "position": 1,
+        "displayedLink": "https://www.calhacks.io"
+      },
+      {
+        "date": "Oct 24, 2025",
+        "link": "https://cal-hacks-12-0.devpost.com/",
+        "title": "Cal Hacks 12.0: This year's Cal Hacks is co-hosted by Claude, Fetch AI ...",
+        "snippet": "year's Cal Hacks is co-hosted by Claude, Fetch AI, AppLovin, and Amazon's Annapurna Labs! will win a 1,750 in cash. Creao: Smartest AI agent ...",
+        "position": 2,
+        "displayedLink": "https://cal-hacks-12-0.devpost.com"
+      },
+      {
+        "link": "https://www.instagram.com/calhacks/?hl=en",
+        "title": "Cal Hacks (@calhacks)",
+        "snippet": "compete for $7,500+ in prizes. September 30, 2026. Eno Reyes — Founder & CTO, Factory AI Building leading AI agents—and joining us as a Cal Hacks sponsor! ...",
+        "position": 3,
+        "displayedLink": "https://www.instagram.com › calhacks"
+      },
+      {
+        "date": "Dec 5, 2025",
+        "link": "https://blog.dylanlu.com/cal-hacks-12/",
+        "title": "We Won 1st Place Grand Prize at Cal Hacks - Dylan's Dev Blog",
+        "snippet": "Dylan Lu We Won 1st Place Grand Prize. Cal Hacks 12.0 was the world's largest collegiate hackathon ever (3000+ hackers and 695 submitted ...",
+        "position": 4,
+        "displayedLink": "https://blog.dylanlu.com › cal-hacks-12"
+      },
+      {
+        "link": "https://ai.hackberkeley.org/",
+        "title": "AI Hackathon 2026 | Hackathons @ Berkeley",
+        "snippet": "The UC Berkeley AI Hackathon is a 2-day hackathon, where hackers creatively collaborate on innovative technology for a chance to win prizes including cash and ...",
+        "position": 5,
+        "displayedLink": "https://ai.hackberkeley.org"
+      },
+      {
+        "link": "https://www.reddit.com/r/hackathon/comments/1xjvfpz/calhacks_hackathon_prize_winners/",
+        "title": "CalHacks Hackathon Prize Winners",
+        "snippet": "AI orchestration was a theme, along with hardware, finance and gaming. AI has sped up hackers' progress continues to astonish me. Share your ...",
+        "position": 6,
+        "displayedLink": "https://www.reddit.com › r › ... › calhacks_hackathon_prize_wi..."
+      },
+      {
+        "link": "https://www.youtube.com/shorts/OFyK2Tuz_EI",
+        "title": "Meet Light Liu - Team SiliconYOLO | Cal Hacks 2026 | AI Hackathon Winner",
+        "position": 7,
+        "displayedLink": "https://www.youtube.com › shorts › OFyK2Tuz_EI"
+      },
+      {
+        "date": "May 6, 2026",
+        "link": "https://www.solo.io/blog/celebrating-the-winners-of-the-2026-hackathon-for-mcp-ai-agents",
+        "title": "Celebrating the Winners of the 2026 Hackathon for MCP & AI Agents",
+        "snippet": "The winner of this track is Denys Vasyliev (UK), a long-time contributor to kagent. He built a Kubernetes-native multi-cluster inventory ...",
+        "position": 8,
+        "displayedLink": "https://www.solo.io › blog › celebrating-the-winners-of-..."
+      },
+      {
+        "link": "https://live.calhacks.io/prizes",
+        "title": "prizes",
+        "snippet": "Smartest AI agent prize. • 1,250 USD • 1-year Pro subscription • Potential internship opportunity Awarded to the team that pushes the limits of customization ...",
+        "position": 9,
+        "displayedLink": "https://live.calhacks.io › prizes"
+      },
+      {
+        "date": "Jun 23, 2026",
+        "link": "https://community.neo4j.com/t/aura-agent-hackathon-winners-announced/79568",
+        "title": "Aura Agent Hackathon Winners Announced",
+        "snippet": "resulted in 40 submitted AI agents spanning healthcare, finance, cybersecurity, geospatial intelligence, misinformation analysis, customer ...",
+        "position": 10,
+        "displayedLink": "https://community.neo4j.com › t › aura-agent-hackathon-winner... › 79568"
+      }
+    ],
+    "relatedSearches": [
+      {
+        "query": "Cal hacks winners 2026"
+      },
+      {
+        "query": "Cal hacks 13.0 winners"
+      },
+      {
+        "query": "Cal Hacks 2027"
+      },
+      {
+        "query": "Cal Hacks acceptance rate"
+      },
+      {
+        "query": "Cal Hacks AI Hackathon"
+      },
+      {
+        "query": "Cal hacks 13 winners"
+      },
+      {
+        "query": "CalHacks winners"
+      },
+      {
+        "query": "Calhacks prizes"
+      },
+      {
+        "query": "Cal Hacks application"
+      }
+    ],
+    "searchParameters": {
+      "q": "Cal Hacks 2026 winners multi-agent AI",
+      "type": "search",
+      "engine": "google"
+    }
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.001",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:34:40.577Z",
+  "started_at": "2026-11-23T07:34:40.609Z",
+  "completed_at": "2026-11-23T07:34:41.409Z",
+  "task_id": "tsk_965d2263a224d7b9",
+  "metadata": {}
+}

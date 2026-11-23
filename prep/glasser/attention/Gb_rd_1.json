@@ -1,0 +1,222 @@
+{
+  "id": "151b46fe-48f1-4d55-8477-1f2690ea720d",
+  "run_url": "https://app.glasser.ai/runs/151b46fe-48f1-4d55-8477-1f2690ea720d",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "10 AIs play Among Us",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "large_result: this response is ~9 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge. paging_unavailable: this result came from a source that cannot return a nextCursor, so it may be incomplete and there is no way to continue from here. Re-run with `requireFields: [\"nextCursor\"]` to be served only by a source that can page, which may cost more per request.",
+    "items": 7,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1qsei9w",
+            "url": "https://www.reddit.com/gallery/1qsei9w",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/vojsc7kw3rgg1.jpg?width=4032&format=pjpg&auto=webp&s=d25df453e41f6505302d0c645079de1e1fa6dc51",
+                "type": "photo",
+                "width": 4032,
+                "height": 3024
+              },
+              {
+                "url": "https://preview.redd.it/8hbcghnw3rgg1.jpg?width=4032&format=pjpg&auto=webp&s=8cb8824ecb2dd5d5d7a4c87339d96073840fcb80",
+                "type": "photo",
+                "width": 4032,
+                "height": 3024
+              }
+            ],
+            "score": 227823,
+            "title": "My days are nearing and my local hospital allowed me any request. This is how I will go out. Rip & Tear, brothers and sisters.",
+            "author": "Wanderingreader123",
+            "authorId": "1y6519em",
+            "isLocked": false,
+            "selftext": "For context, I have been battling Non-Hodgkins Lymphoma since 2022. And up until this point, I never imagined myself to be in a situation where my life expectancy has gone down to possibly weeks. I am currently at one of Canada's best hospitals in Toronto, Ontario; keeping myself afloat through these trying times. Despite it all, I was given the opportunity to make any request for my stay, and this is the one I have chosen. I have been a Doom fan since 2016, and it helped me get through some tough times. I've played through both the Reboot and Eternal (along with its DLCs) and I have nothing but great memories pouring all of my attention into the world of Doom.\n\nTDA has been one of the few games I have anticipated and hoped to play since its release. Financial issues got in the way, and I kept clinging on the hope that I'll be able to play the game one day, among others.\n\nI am grateful that, despite the grim outlook that I am facing, the hospital was able to secure not only a PS5, but a copy of the game. I am currently blasting my way through hordes of demons in Chapter 4 and I have nothing but childish glee as I return to my roots as a badass Demon Slayer. I may not live to see the upcoming DLC, but I am nonetheless happy to finally play the game in my own hands.\n\nTo the developers of ID Software, thank you for bringing such a beautiful piece of art that not only brought the FPS genre to its roots, but also revitalize and reinvented the wheel that no other game could. Not only that, but thank you for crafting such an awesome series for a fan like me.\n\nRip & Tear, lads!",
+            "permalink": "/r/Doom/comments/1qsei9w/my_days_are_nearing_and_my_local_hospital_allowed/",
+            "subreddit": "Doom",
+            "createdUtc": 1769894119,
+            "isArchived": false,
+            "numComments": 4428
+          },
+          {
+            "id": "1r2s7kl",
+            "url": "https://i.redd.it/6c3rj97j52jg1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/6c3rj97j52jg1.jpeg?auto=webp&s=939de2c1693783a5784ef6250484ac6a4660a8b1",
+                "type": "photo",
+                "width": 1920,
+                "height": 1440
+              }
+            ],
+            "score": 107132,
+            "title": "[OC] I posted on Reddit a year ago at my absolute lowest. Today, I'm in Rome meeting the stranger who helped me survive it.",
+            "author": "Maybe-Potential",
+            "authorId": "3n43z6gf",
+            "isLocked": false,
+            "selftext": "**TL;DR: I posted on Reddit a year ago at my lowest point. A girl from Italy DMed me, and we spent the next year healing together from opposite sides of the world. I finally took a solo trip to Rome, she drove 4 hours to meet me, and we realized the breakup was worth it just to find this friendship.**\n\nExactly one year ago, I was sitting in my room, feeling like my world had permanently shrunk. I poured my heart out to a group of strangers on this sub. My post blew up, and while the support was amazing, one specific DM changed everything.\n\nA girl from Italy messaged me. She wasn't just offering \"sorry\"s; she was living my exact timeline, feeling my exact flavor of pain. Across a 7-hour time difference and 10,000 kilometers (i live in Singapore), we started talking.\n\nAt first, it was just survival, checking in to make sure the other had eaten or stopped crying. But then, the DMs turned into daily life. We moved from \"How do I stop missing them?\" to \"Look at this sunset,\" \"Listen to this song,\" and \"I think I'm going to be okay.\" We healed through our screens, two strangers on opposite sides of the globe tethered together by a shared ache.\n\nWhen I finally decided to reclaim my life and pla solo trip to Europe, she was my biggest cheerleader.\n\nI was nervous. What if it was awkward? What if the Reddit friendship didn't translate to real life?\n\nBut she drove four hours just to see me. When we finally stood face-to-face in Rome, there was no\n\n\"getting to know you\" phase. There was just this overwhelming sense of familiarity. We hit the streets of Rome like we'd been exploring together for years.\n\nWe laughed, we walked until our feet hurt, and we stood in front of monuments that felt small compared to the journey we'd taken to get there.\n\nWe had a moment where we looked at each other and realized the \"worst thing\" that ever happened to us, those breakups, was actually the price of admission for this friendship. If you had asked us a year ago if we'd trade the relationship for this, we would have said no. Now? We both agreed we'd choose the breakup every single time.\n\nTo anyone lurking here tonight, feeling like you're shouting into a void: Your life is so much bigger than the person who left you. There are people you haven't met yet who are going to love you, and there are cities you haven't seen yet that will feel like home.\n\nHold on. It gets so much better.♥️",
+            "permalink": "/r/MadeMeSmile/comments/1r2s7kl/oc_i_posted_on_reddit_a_year_ago_at_my_absolute/",
+            "subreddit": "MadeMeSmile",
+            "createdUtc": 1770899539,
+            "isArchived": false,
+            "numComments": 940
+          },
+          {
+            "id": "1pwj6pn",
+            "url": "https://i.redd.it/reu4ef7i1n9g1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/reu4ef7i1n9g1.jpeg?auto=webp&s=5b3ddcd7142c0a140152180334a51ec093857ab3",
+                "type": "photo",
+                "width": 3024,
+                "height": 4032
+              }
+            ],
+            "score": 105235,
+            "title": "Flight was delayed 3 hours, so the pilot went around to everyone to take their Starbucks orders and then got 40ish drinks and 50ish food items for us 🥰",
+            "author": "MathematicianNo1596",
+            "authorId": "czsxq9eg",
+            "isLocked": false,
+            "selftext": "Shoutout to this lovely Delta pilot flying from Boston to Tampa today 💛",
+            "permalink": "/r/MadeMeSmile/comments/1pwj6pn/flight_was_delayed_3_hours_so_the_pilot_went/",
+            "subreddit": "MadeMeSmile",
+            "createdUtc": 1766793974,
+            "isArchived": false,
+            "numComments": 957
+          },
+          {
+            "id": "1r9a96z",
+            "url": "https://v.redd.it/26wzx5jsfikg1",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/bjVqeGhwN3NmaWtnMcn7nceSG3J9sgDWFEvrG1RrLlsjbSbedb2GleQAYJaw.png?format=pjpg&auto=webp&s=4e943d274eacbf9a51e2fc37ddeb4fbf2a982d54",
+                "type": "video",
+                "width": 720,
+                "height": 1280,
+                "videoUrl": "https://v.redd.it/26wzx5jsfikg1/CMAF_720.mp4?source=fallback"
+              }
+            ],
+            "score": 99418,
+            "title": "In an extraordinary and illegal move, Trump says he's transferring 10 billion dollars from the US government to his \"Board of Peace,\" which he chairs and can therefore use the funds as he wishes",
+            "author": "Snapdragon_4U",
+            "authorId": "12kgi39jxc",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/law/comments/1r9a96z/in_an_extraordinary_and_illegal_move_trump_says/",
+            "subreddit": "law",
+            "createdUtc": 1771532581,
+            "isArchived": false,
+            "numComments": 7846
+          },
+          {
+            "id": "1rbqpxq",
+            "url": "https://i.redd.it/twvhy7ubs2lg1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/twvhy7ubs2lg1.jpeg?auto=webp&s=cff777e19eede81e1136a595cdf8af3b168a1277",
+                "type": "photo",
+                "width": 1440,
+                "height": 1920
+              }
+            ],
+            "score": 89091,
+            "title": "Texas public school teachers are now required to post the 10 Commadments in their classroom. Here's how one teacher is handling it.",
+            "author": "kvjn100",
+            "authorId": "12m9h3l54d",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/BeAmazed/comments/1rbqpxq/texas_public_school_teachers_are_now_required_to/",
+            "subreddit": "BeAmazed",
+            "createdUtc": 1771778901,
+            "isArchived": false,
+            "numComments": 2906
+          },
+          {
+            "id": "1qhhijq",
+            "url": "https://www.reddit.com/r/greenland/comments/1qhhijq/to_every_american_whos_sorry/",
+            "nsfw": false,
+            "media": [],
+            "score": 89040,
+            "title": "To Every American Who's Sorry",
+            "author": "Sapotis",
+            "authorId": "jfd1gb",
+            "isLocked": true,
+            "selftext": "We're getting at least 10 posts a day from Americans apologising, and saying things like they didn't vote for Trump or don't support his policies. To be blunt, none of that actually matters. You can say you're different from the rest of Americans, but to the rest of the world, that distinction doesn't exist.\n\nTo us, your country is a single entity on the world stage, and it's threatening its allies. Think about how you view other countries. For example, Russian opposition doesn't change what Russia does, because that's their domestic politics. The same thing applies to the US too, except you had the power to choose your president, and you may still have it.\n\nSo instead of coming here nonstop to apologise on behalf of your country for your constant need for sympathy, focus on actually changing something while you still can.",
+            "permalink": "/r/greenland/comments/1qhhijq/to_every_american_whos_sorry/",
+            "subreddit": "greenland",
+            "createdUtc": 1768858542,
+            "isArchived": false,
+            "numComments": 5540
+          },
+          {
+            "id": "1ppatqq",
+            "url": "https://www.reddit.com/gallery/1ppatqq",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/8n6zec9xgu7g1.jpg?width=1125&format=pjpg&auto=webp&s=74786b9eeaf33cc99b41722612ea4114da054d4e",
+                "type": "photo",
+                "width": 1125,
+                "height": 2009
+              },
+              {
+                "url": "https://preview.redd.it/47v80b9xgu7g1.jpg?width=1125&format=pjpg&auto=webp&s=cc7fd24df504f493af4b88dc27942b817293d1a0",
+                "type": "photo",
+                "width": 1125,
+                "height": 1990
+              }
+            ],
+            "score": 83266,
+            "title": "New plaques added to the presidential hall of fame in the White House",
+            "author": "Dtb4evr",
+            "authorId": "849j80i5",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/pics/comments/1ppatqq/new_plaques_added_to_the_presidential_hall_of/",
+            "subreddit": "pics",
+            "createdUtc": 1766012187,
+            "isArchived": false,
+            "numComments": 15872
+          }
+        ],
+        "nextCursor": "cur_fT9MTO6Y-Y6Spa6_DkZaCw"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-giraffe-5e3cbaa1",
+      "kind": "anonymous",
+      "name": "Giraffe",
+      "artworkKey": "giraffe"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00034",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:41:36.176Z",
+  "started_at": "2026-11-23T07:41:36.261Z",
+  "completed_at": "2026-11-23T07:41:38.165Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

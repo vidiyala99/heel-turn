@@ -1,0 +1,628 @@
+{
+  "id": "cd5d89d1-b29c-44b2-8849-f7ca8e8256c2",
+  "run_url": "https://app.glasser.ai/runs/cd5d89d1-b29c-44b2-8849-f7ca8e8256c2",
+  "provider": "anyapi",
+  "endpoint": "/twitter.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "limit": 20,
+    "query": "AI agents trade ally betray game since:2025-11-22 filter:videos -filter:replies min_faves:20",
+    "queryType": "Top"
+  },
+  "output": {
+    "hint": "large_result: this response is ~41 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 20,
+    "output": {
+      "data": {
+        "items": [
+          {
+            "id": "2124063095760834702",
+            "url": "https://x.com/mx_afi/status/2124063095760834702",
+            "lang": "en",
+            "text": "I think trading agent should do more than just suggest a trade. It should explain WHY.\n\nAnd here is another thing I find really interesting about @FensoryApp is how its latest release focuses on making agents more transparent.\n\nBefore suggesting anything, the agent provides better market context. And when a trade doesn't go as expected, it can explain what went wrong and suggest one adjustment. As a trader i think it's really amazing feature.\n\nThat's important because traders shouldn't have to blindly trust an AI recommendation. Understanding the reasoning behind a decision matters just as much as the suggestion itself.\n\nThe release also introduced Alpha Vantage integration on the agent side, adding another data source to the setup.\n\nPersonally, I'd like to see agents become better at explaining both successful and unsuccessful decisions. That's how traders can learn from the process instead of simply following signals.\n\nWith strategies competing in an arena, transparency should matter alongside performance.\n\nTrading runs on Hyperliquid markets, and trading carries risk. Losses are possible.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124063057777496064/img/oeNEq1ayZRQQV-T2.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124063057777496064/vid/avc1/1920x1080/1OjcXERMSgxTZntQ.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1791340988704997376",
+            "likeCount": 140,
+            "viewCount": 1956,
+            "authorName": "Mx AFI",
+            "createdUtc": 1795251079,
+            "quoteCount": 0,
+            "replyCount": 109,
+            "authorImage": "https://pbs.twimg.com/profile_images/2121253816339517441/q0I1UvEM_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 17,
+            "bookmarkCount": 0,
+            "authorUsername": "mx_afi",
+            "authorVerified": true,
+            "conversationId": "2124063095760834702",
+            "authorFollowers": 18478
+          },
+          {
+            "id": "2122963209174835623",
+            "url": "https://x.com/x_insider4/status/2122963209174835623",
+            "lang": "en",
+            "text": "I’D NEVER TOUCH THESE COINS MYSELF\n\nI GAVE FABLE 5.2 $120, 11 AGENTS AND ONE RULE: NEVER MORE THAN 5% ON A SINGLE MEME. IT CHECKED 836 OF THEM OVERNIGHT. I WOKE UP TO $3,156.\n\nHigh-risk memes aren’t the problem. Big bets on them are.\n\nSo the sizer never goes above 3-5% of equity. If a coin goes to zero, the account barely notices.\n\nThat’s the whole trick. Small size is what lets you trade the coins everyone else is scared of. You can afford to be wrong a lot.\n\nAnd it was wrong a lot. 15 stops in one night. At 07:36 one coin lost momentum and closed at -$8.08. Next trade.\n\nThen one winner paid for all of it. At 07:42 five smart wallets bought the same coin. Fable bought 4% of equity. Seven minutes later the runner trailed out at 6.15x. +$538.85.\n\nBefore any of that, the rug gate says no. 27 bundled launches and sniper clusters blocked. One coin had snipers holding 40% of supply. Not traded.\n\n5 years of trading taught me you don’t need to be right often. You need your losers small and your winners allowed to run. Most traders do the opposite: big size, tight hope, no stop.\n\n44 trades. 29 wins. 15 losses. $120 to $3,156 by 08:00.\n\nThe full high-risk setup is below. Free, and almost nobody sizes like this. Bookmark it before your next ape.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122963149347250176/img/XoA0sAfIJL4yy9qN.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122963149347250176/vid/avc1/1080x1350/5fF3qS3ths7Db6IP.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1174357660147355651",
+            "likeCount": 227,
+            "viewCount": 27937,
+            "authorName": "INSIDER",
+            "createdUtc": 1794988846,
+            "quoteCount": 0,
+            "replyCount": 26,
+            "authorImage": "https://pbs.twimg.com/profile_images/2036078457629646848/z4z9MHaN_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 14,
+            "bookmarkCount": 311,
+            "authorUsername": "x_insider4",
+            "authorVerified": true,
+            "conversationId": "2122963209174835623",
+            "authorFollowers": 9813
+          },
+          {
+            "id": "2122510946341986367",
+            "url": "https://x.com/carm1nee/status/2122510946341986367",
+            "lang": "en",
+            "text": "Claude Fable 5.2 + TradingView... just took full control of the chart & it's f*cking DANGEROUS...\n\nthis FREE indicator scores every closed candle for AI agents, & this MCP bridge plugs Claude Code straight into TradingView, so Fable 5.2 reads the signal panel LIVE & calls SHORT, LONG or WAIT on its own\n\ni rebuilt the setup as a paper desk & replayed every 4h candle of BTC, ETH & SOL from Nov 1 to Nov 17: Fable took 7 trades, said WAIT 6 times & all 6 closed trades ended green (+9.01R)\n\nfirst understand how this setup works:\n\n> you see candles, an AI agent can't read a chart\n> the indicator scores every closed candle out of 100 for long & short & puts the signal, entry, stop & targets in a panel on your chart\n> the bridge connects Claude Code to TradingView Desktop on your machine, so Fable 5.2 reads that panel, switches symbols & replays history by itself\n\nhow to use it with Fable 5.2:\n\n1. paste ai-agent-lens.pine from the indicator repo into the Pine Editor on TradingView & hit \"add to chart\"\n\n2. every closed candle gets a long & a short score out of 100, built from 5 factors, with no repainting\n\n3. each setup comes with an entry, an ATR stop & 1.5R / 3R targets, drawn on your chart like TradingView's position tool\n\n4. paste the install prompt from tradingview-mcp's README into Claude Code: it clones the repo, runs npm install & adds the MCP server for you\n\n5. launch TradingView Desktop in debug mode with ONE command, the repo has the script for Mac, Windows & Linux\n\n6. ask Claude to run tv_health_check & once it says connected, Fable 5.2 sees your chart\n\n7. give Fable 5.2 agent/AGENT_PROMPT.md from the indicator repo & ask for the signal: decision, entry, stop, targets, size & exactly why it could fail\n\n8. run tv stream tables & the indicator's panel streams into your terminal as JSON every time it changes\n\n9. put it on ANY date with tv replay start & let Fable trade the chart bar by bar\n\nboth repos are FREE & open source, links in the first reply:",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122509555498123265/img/vmo0aofkZQsbKXUj.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122509555498123265/vid/avc1/1080x1718/MQCBvcCqBH7d6921.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1296554647273054208",
+            "likeCount": 367,
+            "viewCount": 50796,
+            "authorName": "Сarm1ne",
+            "createdUtc": 1794881018,
+            "quoteCount": 0,
+            "replyCount": 11,
+            "authorImage": "https://pbs.twimg.com/profile_images/1961723732151484416/_-g3KJ2o_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 57,
+            "bookmarkCount": 661,
+            "authorUsername": "carm1nee",
+            "authorVerified": true,
+            "conversationId": "2122510946341986367",
+            "authorFollowers": 19405
+          },
+          {
+            "id": "2122402308201853324",
+            "url": "https://x.com/Dan1ro0/status/2122402308201853324",
+            "lang": "en",
+            "text": "This guy used Grok Bot to build a Quant Snapback system and it made $1,357 a day on Polymarket\n\nThe result is already +$61,061 PnL in 45 days with about $760 per average trade, repeating the same setup roughly 14 times every hour across BTC \"Up or Down\" markets\n\nSeveral AI agents powered by Grok Bot work together as one algorithm:\n\n1. CCI detects when BTC moves unusually far from its recent average\n\nThe bot calculates the typical BTC level for each candle:\n\nTypical = (High + Low + Close) / 3\nCCI = (Typical - SMA) / (0.015 × Mean Deviation)\n\nWhere Mean Deviation measures the average absolute distance from the SMA\n\nThen:\nCCI below -100 → unusually weak movement\nCCI above +100 → unusually strong movement\n\nAn extreme reading creates a possible reversal setup, but the bot does not immediately act on it\n\n2. Double EMA confirms whether BTC has started moving away from that extreme\nThe system calculates:\n\nDEMA = 2 × EMA - EMA(EMA)\n\nUnlike a traditional EMA, Double EMA reduces lag and responds faster to changes in direction\n\nThen:\nCCI recovering above -100 + DEMA rising → stronger Up signal\nCCI falling below +100 + DEMA declining → stronger Down signal\n\nThe bot waits for both the extreme reading and the directional reversal to align\n\nThis is the first agent that will create a trading bot strategy for you and then build it:https://join.horizon.trade/Quant\n\nThis trader’s Polymarket account: ply-pm0\n\nMost profitable trades:\n$250 → $6,509 (+$6,259)\n$1,743 → $4,393 (+$2,650)\n$1,215 → $3,489 (+$2,274)\n\nThe system uses CCI to detect stretched BTC movement and Double EMA to confirm when momentum starts reversing",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122401083519582208/img/Ezt2SgH4IlRovi4X.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122401083519582208/vid/avc1/1678x1200/z4dGOTtRb97GiQ6P.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "906916544504107009",
+            "likeCount": 33,
+            "viewCount": 2910,
+            "authorName": "Daniro",
+            "createdUtc": 1794855117,
+            "quoteCount": 0,
+            "replyCount": 2,
+            "authorImage": "https://pbs.twimg.com/profile_images/1986389531709349888/uWvVCxld_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 2,
+            "bookmarkCount": 16,
+            "authorUsername": "Dan1ro0",
+            "authorVerified": true,
+            "conversationId": "2122402308201853324",
+            "authorFollowers": 10439
+          },
+          {
+            "id": "2122340173316788235",
+            "url": "https://x.com/A_Pirate_I/status/2122340173316788235",
+            "lang": "en",
+            "text": "I still don’t understand why everyone isn’t doing this yet. 6 Grok agents followed smart money into memecoins all night and turned $100 into $2,516\n\nSmart money doesn’t post its entries. It just buys. The bot watches the wallets, not the timeline\n\nHow the agents are split:\n\nSCANNER: tracks smart money and KOL wallets. Never trades\nRUG CHECK: nothing executes before a pass\nSIZER: sizes from account equity, never a fixed ticket\nEXECUTOR: opens and closes with a 2% slippage cap\nLOGGER: no trade without a written reason\nEQUITY: updates the balance after every close\nAt 03:16 three smart wallets bought the same coin, +$2k net. Grok followed with 24% of equity and took profit at 3R two minutes later\nAt 03:21 a KOL wallet had entered another coin 40 seconds earlier, and 77% of the flow was buyers. Grok was in and out with +$26.44\nFollowing smart money doesn’t mean following blindly. At 23:57 a dev sold 30% of supply in 2 minutes. Not traded\nFrom 23:00 to 07:00: 62 trades, 44 wins, 18 losses. Best close +$246.40 on a breakout with 100% of LP burned\nSetup is easier than it seems:\n\nStart Grok Bot and give it a Head of Desk role\n\nDescribe the 6 agents like you’re onboarding new staff\n\nGive the scanner your smart money and KOL wallet list\n\nMake the rug check a hard gate, then read the log in the morning\n\nSave this before tonight. The full guide is in the article below",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122340066005520384/img/W35psml_y16Tvxt2.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122340066005520384/vid/avc1/1080x1350/qHP25ieGXxTnqAlV.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2014263522738200576",
+            "likeCount": 46,
+            "viewCount": 4469,
+            "authorName": "AI Pirate",
+            "createdUtc": 1794840303,
+            "quoteCount": 0,
+            "replyCount": 2,
+            "authorImage": "https://pbs.twimg.com/profile_images/2079860327424892929/QYoYLdC3_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 7,
+            "bookmarkCount": 49,
+            "authorUsername": "A_Pirate_I",
+            "authorVerified": true,
+            "conversationId": "2122340173316788235",
+            "authorFollowers": 4043
+          },
+          {
+            "id": "2122418526845567247",
+            "url": "https://x.com/w1nklerr/status/2122418526845567247",
+            "lang": "en",
+            "text": "🚨GROK BOT MADE ME +$9,976 OVERNIGHT...\n\n4 AI agents vote on every trade and it only fires when 3 of 4 say yes\n\n$500 turned into $10,476 in 24 hours on perps\n\n> TradingAgents\na team of AI analysts that debate every setup before entry\n↳ http://github.com/TauricResearch/TradingAgents\n\n> Hyperliquid Python SDK\nplaces the orders, sets the stops and manages risk\n↳ http://github.com/hyperliquid-dex/hyperliquid-python-sdk\n\nbookmark this and grab the prompt below 👇",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122417802602483712/img/29Ip6ydcL5pSF37b.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122417802602483712/vid/avc1/1080x2340/wujGGAqdtPEGJl5W.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1745810932893179904",
+            "likeCount": 84,
+            "viewCount": 11193,
+            "authorName": "winkle.",
+            "createdUtc": 1794858984,
+            "quoteCount": 0,
+            "replyCount": 6,
+            "authorImage": "https://pbs.twimg.com/profile_images/1745869476380217345/RoboNRGL_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 12,
+            "bookmarkCount": 129,
+            "authorUsername": "w1nklerr",
+            "authorVerified": true,
+            "conversationId": "2122418526845567247",
+            "authorFollowers": 60933
+          },
+          {
+            "id": "2123579117287170470",
+            "url": "https://x.com/RetroValix/status/2123579117287170470",
+            "lang": "en",
+            "text": "This guy built a system of 6 AI agents using Grok Bot and made +$223,351.08 PnL on Polymarket\n\nThe agents repeat the same cycle 112.5 times an hour, trading crypto Up/Down markets with an average trade size of $52.78\n\nHere’s how the algorithm works:\n\n> PULSE identifies the side with stronger demand\n\nI = (D_in - D_out) / (D_in + D_out)\n\nCompares the queues for entering and exiting longs at the top of each Up and Down book. Identifies stronger demand on the entry side and passes the book state to IMPACT. Skips empty books\n\n> IMPACT estimates the potential quote move\n\nv = b + α + βI\n\nUses historical observations to link the imbalance to subsequent changes in the available exit level. Works over a short horizon that ends before the market expires\n\nPasses EDGE an estimate of the level at which the long could be closed\n\n> EDGE checks whether an edge remains\n\ne = v - a - c\n\nCompares the estimated exit level with the available entry level and total round-trip costs. Selects the side with the greater positive edge between Up and Down\n\nIf the edge does not cover an additional buffer, the trade is skipped\n\n> SIZE limits position size\n\nQ = min(B/L, D, Q_cap)\n\nSizes the position using a risk budget and a stressed adverse move. Then caps it by order book depth, available collateral, and total exposure, including open orders\n\n> ENTRY executes the allocated size\n\nℓ_max = v - c - ε\n\nSends an order with a maximum entry level. The available portion fills, and the remainder is canceled\n\nChecks the tick size and valid range. Passes only confirmed fills to EXIT\n\n> EXIT completes the trade\n\nPnL = Q_fill × (b_exit - ℓ_fill) - C\n\nCloses the position when order book pressure reverses, a risk stop triggers, or the chosen holding horizon ends\n\nUses average execution levels and includes all costs. Feeds the result back to IMPACT to check model quality\n\nHis Polymarket account: Polkadot-Frog\n\nYou can build your own trading bot here:\nhttps://join.horizon.trade/build\n\nMost profitable trades:\n\n$1,604.83 -> $5,688.65 (+$4,083.82)\n$1,806.47 -> $5,126.08 (+$3,319.61)\n$1,875.66 -> $5,182.57 (+$3,306.91)",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123579066431254528/img/dBTwpw8g-Efkil1g.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123579066431254528/vid/avc1/864x1080/u7xaxUpW7OV0Vfti.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1422547838412656641",
+            "likeCount": 93,
+            "viewCount": 11277,
+            "authorName": "VALIX",
+            "createdUtc": 1795135690,
+            "quoteCount": 0,
+            "replyCount": 8,
+            "authorImage": "https://pbs.twimg.com/profile_images/1954969839224659968/XTLLbabR_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 15,
+            "bookmarkCount": 72,
+            "authorUsername": "RetroValix",
+            "authorVerified": true,
+            "conversationId": "2123579117287170470",
+            "authorFollowers": 13190
+          },
+          {
+            "id": "2124175110546346316",
+            "url": "https://x.com/w1nklerr/status/2124175110546346316",
+            "lang": "en",
+            "text": "🚨my Fable 5.2 terminal turned $250 into $9,412 trading memecoins overnight\n\n38 coins checked, 15 rugs filtered\n23 trades, 16 winners, every entry with a reason\n\nthe 6 agents behind it:\n\n01 SCANNER → catches new launches and volume spikes before CT\n\n02 RUG CHECK → one red flag in dev wallet, LP or mint and the coin is out\n\n03 SIZER → sizes every trade from the balance, never all-in\n\n04 EXECUTOR → enters only after a pass, slippage capped at 2%\n\n05 LOGGER → writes why every trade was taken or skipped\n\n06 EQUITY → updates the balance after every close\n\nscan → check → size → enter → log → repeat\n\nbuild your own AI trading desk ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124175033983447040/img/OrqoB7hA5ctpoud7.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124175033983447040/vid/avc1/1080x1920/BY1wfoYkVt5ZzcD8.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1745810932893179904",
+            "likeCount": 51,
+            "viewCount": 7739,
+            "authorName": "winkle.",
+            "createdUtc": 1795277786,
+            "quoteCount": 0,
+            "replyCount": 4,
+            "authorImage": "https://pbs.twimg.com/profile_images/1745869476380217345/RoboNRGL_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 5,
+            "bookmarkCount": 65,
+            "authorUsername": "w1nklerr",
+            "authorVerified": true,
+            "conversationId": "2124175110546346316",
+            "authorFollowers": 60933
+          },
+          {
+            "id": "2124646951434219549",
+            "url": "https://x.com/RetroValix/status/2124646951434219549",
+            "lang": "en",
+            "text": "This guy used Grok Bot to build a quant system with 6 AI agents and made +$327,273.03 PnL on Polymarket\n\nThe agents repeat the same cycle 324 times an hour, trading crypto Up/Down markets with an average trade size of $10.51\n\nHere’s how the algorithm works:\n\n> MONITOR gathers the context for entry\n\nx = (Return, Gap, Volatility, Spread)\n\nTracks the underlying asset’s movement, its position relative to the reference level, and CLOB data. Adds the time remaining and order book depth\n\nPasses the collected data on both sides of the market, Up and Down, to INFER\n\n> INFER assesses three types of movement\n\npₖ = πₖLₖ / ΣⱼπⱼLⱼ\n\nApplies Gaussian Naive Bayes to rising, falling, and range-bound quote movements over the selected horizon\n\nTrains on completed observations from comparable assets and market windows. Uses Gaussian feature distributions for upward, downward, and sideways conditions\n\n> EXPECT checks whether the trade makes sense\n\ne = Σₖpₖgₖ - c\n\nCombines the scenario estimates with their average results in comparable historical entries. Subtracts round-trip costs\n\nOnly passes on a positive edge with a buffer, calculated for the selected size and horizon\n\n> DOUBT filters out ambiguous conditions\n\nH = -Σₖpₖln(pₖ)\n\nChecks how the estimate is distributed across the three scenarios. Skips a new entry when the distribution is too uniform\n\nTunes the threshold on held-out historical data. Compares the estimates with observed movement frequencies\n\n> RESERVE limits total exposure\n\nQ_free = max(0, Q_limit-Q_held-Q_pending)\n\nCalculates the remaining limit after accounting for the position and unfilled entries. Caps the new size by available collateral and CLOB depth\n\nIf the final size changes, EXPECT recalculates the costs\n\n> ROUTER synchronizes entry and exit\n\nt_exit = t_signal + h\n\nSubmits a limit entry order, checks fills, and initiates the exit at the time for which INFER estimated the movement\n\nAccounts for partial fills and feeds completed results back to INFER. All exits are scheduled before the market window ends\n\nHis Polymarket account: aswfadq1555\n\nYou can build your own trading bot here:\nhttps://join.horizon.trade/build\n\nMost profitable trades:\n\n$3,306.83 -> $13,008.63 (+$9,701.80)\n$1,047.94 -> $9,775.02 (+$8,727.08)\n$13,815.34 -> $20,924.72 (+$7,109.38)",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124646890302054400/img/87QQE4DG8d_AB8st.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124646890302054400/vid/avc1/862x1080/pt1cT3cX96iFsaRf.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1422547838412656641",
+            "likeCount": 26,
+            "viewCount": 2335,
+            "authorName": "VALIX",
+            "createdUtc": 1795390281,
+            "quoteCount": 0,
+            "replyCount": 8,
+            "authorImage": "https://pbs.twimg.com/profile_images/1954969839224659968/XTLLbabR_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 1,
+            "bookmarkCount": 20,
+            "authorUsername": "RetroValix",
+            "authorVerified": true,
+            "conversationId": "2124646951434219549",
+            "authorFollowers": 13190
+          },
+          {
+            "id": "2123470154465997201",
+            "url": "https://x.com/w1nklerr/status/2123470154465997201",
+            "lang": "en",
+            "text": "🚨Fable 5.2 turned 2 SOL into 41 SOL overnight...\n\nGave it a terminal, 2 SOL and one rule: trade memecoins and don't get rugged.\n\n5 agents split the job: scan, rug-check, size, execute and manage risk.\n\nIt took 8 trades, cut one loser at -12% and refused to buy the coin I was about to ape.\n\nThat coin rugged 97% three minutes later.\n\nI didn't click once the whole night.\n\nhere are the 3 GitHub repos behind the terminal:\n\n01 TradingAgents → a team of AI analysts that argues every setup before entry\n\nhttp://github.com/TauricResearch/TradingAgents\n\n02 Rug Check MCP → scans every new memecoin for rug risk and vetoes the bad ones\n\nhttp://github.com/kukapay/rug-check-mcp\n\n03 Solana Agent Kit → executes the swaps on Solana, connects to Fable through MCP\n\nhttp://github.com/sendaifun/solana-agent-kit\n\nWould you let agents trade your wallet?",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123469202430312448/img/yIJVar8QP0JfkgC3.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123469202430312448/vid/avc1/1080x1920/xUjK4uYGp2Ugdp3i.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1745810932893179904",
+            "likeCount": 56,
+            "viewCount": 5443,
+            "authorName": "winkle.",
+            "createdUtc": 1795109711,
+            "quoteCount": 1,
+            "replyCount": 6,
+            "authorImage": "https://pbs.twimg.com/profile_images/1745869476380217345/RoboNRGL_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 3,
+            "bookmarkCount": 57,
+            "authorUsername": "w1nklerr",
+            "authorVerified": true,
+            "conversationId": "2123470154465997201",
+            "authorFollowers": 60933
+          },
+          {
+            "id": "2122955332414496841",
+            "url": "https://x.com/A_Pirate_I/status/2122955332414496841",
+            "lang": "en",
+            "text": "I USED TO QUIT WHEN NOTHING HAPPENED\n\nI GAVE GROK $103 AND TOLD IT TO WAIT FOR RUNNERS. IT SAT THROUGH HOURS OF SMALL LOSSES. THEN THE BIG ONES CAME. I WOKE UP TO $3,589.\n\nLook at the balance chart and you’ll see the whole strategy. It’s not a smooth line. It’s a staircase.\n\nLong flat stretches. Small wins, small stops. Then one coin runs 6x and the line jumps. Then flat again.\n\nThat flat part is where I always used to lose. I’d get bored, size up, chase something, and give it all back before the next runner showed up.\n\nThe bot doesn’t get bored. Every trade is 3-5% of equity, every stop is hard, and the take-profit ladder sells into strength at 2x and 4x while the runner keeps going.\n\nAt 03:00 a dev sold 3% and the guard was out instantly. -$3.75. Nothing dramatic.\n\nAt 06:34 a runner trailed out. +$363.24. One trade like that pays for a lot of small stops.\n\nBefore any buy, the rug gate checks dev, LP, holders and bundles. 10 coins blocked overnight. Never traded.\n\n5 years of trading taught me most of the money is made in a few trades. The hard part is still being in the game when they show up.\n\n44 trades. Most of them boring. $103 to $3,589 by 07:00.\n\nThe full runner setup is below. Free, and almost nobody has the patience to run it. Save it for tonight.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122955208099590144/img/5JXvceaOgOjE-8r1.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122955208099590144/vid/avc1/1080x1350/c2r3AWVMVm73W_4N.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2014263522738200576",
+            "likeCount": 37,
+            "viewCount": 2880,
+            "authorName": "AI Pirate",
+            "createdUtc": 1794986968,
+            "quoteCount": 0,
+            "replyCount": 5,
+            "authorImage": "https://pbs.twimg.com/profile_images/2079860327424892929/QYoYLdC3_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 5,
+            "bookmarkCount": 37,
+            "authorUsername": "A_Pirate_I",
+            "authorVerified": true,
+            "conversationId": "2122955332414496841",
+            "authorFollowers": 4043
+          },
+          {
+            "id": "2122179535256817867",
+            "url": "https://x.com/carm1nee/status/2122179535256817867",
+            "lang": "en",
+            "text": "Claude Fable 5.2 + TradingView... just learned to spot trapped buyers & it's f*cking BROKEN\n\nthis FREE TradingView indicator reads the order flow inside every 5m candle & sends it to AI agents as JSON, & Fable 5.2 decides TAKE, WAIT, SKIP or MANAGE on its own\n\ni ported it to python & replayed a real BTC session candle by candle: 43 closed candles, Fable said WAIT 42 times & took ONE short, the moment all 4 steps lined up\n\nfirst understand how this indicator works:\n\n> you see candles, an AI agent can't see who's trapped\n> the indicator reads the order flow inside every 5m candle from its 1m candles & walks 4 steps: environment, location, confirmation, management\n> it waits for absorption → first shift → second failure, then sends the agent a JSON packet with the entry, the stop beyond the failure & the target\n\nhow to use it with Fable 5.2:\n\n1. paste order-flow-strategy.pine from the repo into the Pine Editor on TradingView & add it to a 5m chart\n\n2. set the trade window: New York open by default, \"Always (24/7)\" for crypto\n\n3. the ORDER FLOW STRATEGY panel tracks all 4 steps live on your chart\n\n4. it marks absorption & trapped traders right on the candles, then fires the entry with the stop beyond the failure\n\n5. risk rules are built in: 2 trades a day max & it stops after 2 losses\n\n6. create ONE alert with \"any alert() function call\" & paste your webhook URL\n\n7. run examples/webhook_receiver.py from the repo & open a free tunnel to it\n\n8. every packet lands in packets/latest.json the moment the candle closes\n\n9. open Claude Code with Fable 5.2, give it agent/AGENT_PROMPT.md & it answers every packet with TAKE, WAIT, SKIP or MANAGE plus exactly why the trade could fail\n\nit's FREE & open source, the repo is in the first reply:",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122173705476255745/img/U2WOnDDqF4VxOAFg.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122173705476255745/vid/avc1/1080x1764/poTYPzulJNw7-NVV.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1296554647273054208",
+            "likeCount": 200,
+            "viewCount": 17099,
+            "authorName": "Сarm1ne",
+            "createdUtc": 1794802004,
+            "quoteCount": 0,
+            "replyCount": 13,
+            "authorImage": "https://pbs.twimg.com/profile_images/1961723732151484416/_-g3KJ2o_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 24,
+            "bookmarkCount": 245,
+            "authorUsername": "carm1nee",
+            "authorVerified": true,
+            "conversationId": "2122179535256817867",
+            "authorFollowers": 19405
+          },
+          {
+            "id": "2123448943732215812",
+            "url": "https://x.com/0xGull/status/2123448943732215812",
+            "lang": "en",
+            "text": "WTF JUST HAPPENED… GROK BOT JUST F*CKED THE TRADING INDUSTRY ONCE AGAIN\n\n$4,395.99 → $26,718.97 trading crypto and forex at the same time: 2 accounts, 3 screens, 6 AI agents, zero clicks from me\n\n6 agents trade on my desktop and my MacBook at once and stream every trade to my phone so I can track it all live\n\n→ desktop: crypto futures, BTC ETH SOL XRP DOGE BNB at 50x\n→ macbook: forex, gold, silver and Nasdaq at 100-500x\n→ iphone: every single fill from both desks, live\n\nthe agents jump between charts like a trading floor:\n→ ENTRY finds the setup\n→ SCALPER takes the quick moves\n→ HEDGE covers the other side\n→ RISK cuts losers\n→ NEWS watches the macro\n→ EXIT locks the profit\n\n108 trades. 96 green\n\ntop 3:\nXRP long 50x +$909.70\nBTC long 50x +$848.93\nUS100 long 200x +$804.38\n\nworst 3:\nETH short 50x -$235.49\nSOL short 50x -$82.35\nXAU/USD long 200x -$78.35\n\ncrypto desk: $2,480.37 → $16,756.95\nfx & index desk: $1,915.62 → $9,962.02\n\nthe repos under the hood:\nhttp://github.com/ccxt/ccxt\none connector to every crypto exchange\nhttp://github.com/hummingbot/hummingbot\nthe execution engine that places and manages orders\nhttp://github.com/nautechsystems/nautilus_trader\nruns crypto and fx strategies on one event-driven core\n\nfull prompt in the first reply 👇",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123448116569309184/img/9Wb6xFE0AJCxRvn3.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123448116569309184/vid/avc1/1080x1350/epu_ZIn-LLuYVK4I.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "384046345",
+            "likeCount": 104,
+            "viewCount": 6444,
+            "authorName": "Gull",
+            "createdUtc": 1795104654,
+            "quoteCount": 0,
+            "replyCount": 24,
+            "authorImage": "https://pbs.twimg.com/profile_images/2121808392406663168/aJc0JXsK_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 9,
+            "bookmarkCount": 94,
+            "authorUsername": "0xGull",
+            "authorVerified": true,
+            "conversationId": "2123448943732215812",
+            "authorFollowers": 1118
+          },
+          {
+            "id": "2123222807412707403",
+            "url": "https://x.com/nonepcbl/status/2123222807412707403",
+            "lang": "en",
+            "text": "I GAVE GROK BOT A SCREENSHOT AND ONE INSTRUCTION.\n\n30 MINUTES LATER: $1,000 → $1,708.40\n\n18 trades. 14 wins. 78% win rate.\n\nAnd I didn't manually place a single trade.\n\n9:41 AM. I sent Grok Bot a promt.\n\nStart.\n\nNo manually scanning charts. No chasing green candles. No emotional entries.\n\nGrok Bot turned my Mac into a seven-agent trading desk.\n\nEach agent had one job:\n\n> Flow Scout tracks unusual volume and momentum\n> Wallet Analyst checks who's holding and who's selling\n> Liquidity Analyst monitors depth and spreads\n> Strategy Lead decides which setups are worth trading\n> Risk Officer checks exposure before money moves\n> Execution Engineer handles entries and exits\n> Independent Reviewer verifies the decisions\n\nThe interesting part?\n\nThe agent proposing a trade isn't the one approving it.\n\n9:43 AM. The desk went live.\n\nThen my lock screen started lighting up.\n\nGTAVI closed: +$46.55\nGTASZN closed: +$38.14\nDCTY closed: +$88.62\n\nWhile I was checking notifications, seven agents were analyzing Solana memecoins, managing positions and closing trades.\n\nBy 10:12 AM:\n\n18 trades executed.\n14 winners.\n4 losers.\n78% win rate.\n\n+$708.40 net profit.\n\nFinal balance: $1,708.40.\n\nWithdrawal complete.\n\nAnd here's what actually changed my perspective:\n\nMost people use AI to ask which coin will pump next.\n\nI used it to build a system where one AI finds opportunities, another questions them, a third checks the risk, and nothing gets executed without review.\n\nThe difference isn't a smarter prediction.\n\nIt's removing the human impulse to click BUY every time a candle turns green.\n\nOne prompt. Seven agents. An entire trading desk.\n\nAll from my phone.\n\nThe scary part isn't that Grok Bot can trade.\n\nIt's that it doesn't get FOMO.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123221875224375296/img/ye9R4S655zomy7Ku.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123221875224375296/vid/avc1/1440x3128/uBtq-4VBEyjT81de.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1909686470627278853",
+            "likeCount": 117,
+            "viewCount": 15311,
+            "authorName": "nOnEpcbl.",
+            "createdUtc": 1795050739,
+            "quoteCount": 0,
+            "replyCount": 11,
+            "authorImage": "https://pbs.twimg.com/profile_images/1909688812529463296/bfYJvGFZ_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 10,
+            "bookmarkCount": 107,
+            "authorUsername": "nonepcbl",
+            "authorVerified": true,
+            "conversationId": "2123222807412707403",
+            "authorFollowers": 533
+          },
+          {
+            "id": "2124620166893891891",
+            "url": "https://x.com/Dan1ro0/status/2124620166893891891",
+            "lang": "en",
+            "text": "This guy used Grok Bot to build a Quant Kalman system and it made $3,748 a day on Polymarket\n\n+$475,961 PnL in 127 days with just a 50% win rate. The bot repeats its setup roughly 12 times an active hour across BTC 5 minute \"Up or Down\" markets, with about $911 in volume per market\n\nSeveral AI agents powered by Grok Bot work together as one algorithm:\n\n1. Kalman Filter separates BTC's underlying movement from short-term noise\n\nInstead of following every BTC tick, the bot continuously updates a smoother estimate:\n\nEstimateₜ = Estimateₜ₋₁ + Kₜ × (BTCₜ − Estimateₜ₋₁)\n\nKₜ controls how much weight the algorithm gives each new observation\n\nThe result follows meaningful BTC movement while reducing the influence of temporary fluctuations\n\n2. Standardized Deviation identifies when BTC moves unusually far from that estimate\n\nThe system measures the difference relative to recent noise:\nZ = (BTC − Estimate) / σ\n\nA reading above +2 means BTC is unusually far above its estimated level. Below -2 means the opposite\n\nThe bot looks for a return toward the estimate before entering a reversal trade:\n\nAbove +2 and turning lower → Down setup\nBelow -2 and turning higher → Up setup\n\nThis is the first agent that will create a trading bot strategy for you and then build it: https://join.horizon.trade/Quant\n\nThis trader’s Polymarket account: dangerously-skip-permissions\n\nMost profitable trades:\n$1,628 → $4,024 (+$2,395)\n$1,547 → $3,729 (+$2,182)\n$943 → $2,956 (+$2,013)\n\nThe system uses Kalman Filter to follow BTC's underlying movement and normalized deviations to identify potential reversals",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124620013789196288/img/-6hyoTzyy24on1xk.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124620013789196288/vid/avc1/1440x1784/cnDd0tDTW0Gcyg3C.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "906916544504107009",
+            "likeCount": 42,
+            "viewCount": 3597,
+            "authorName": "Daniro",
+            "createdUtc": 1795383895,
+            "quoteCount": 0,
+            "replyCount": 8,
+            "authorImage": "https://pbs.twimg.com/profile_images/1986389531709349888/uWvVCxld_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 10,
+            "bookmarkCount": 35,
+            "authorUsername": "Dan1ro0",
+            "authorVerified": true,
+            "conversationId": "2124620166893891891",
+            "authorFollowers": 10439
+          },
+          {
+            "id": "2123524388880253107",
+            "url": "https://x.com/qwinsi0x/status/2123524388880253107",
+            "lang": "en",
+            "text": "JPMorgan spends $19.8 billion a year on tech. What it built for trading, you now get for FREE\n\nNo code. No quant degree. AI builds and tests your strategy the same way it does at JPMorgan\n\nJPMorgan built 8 AI agents to do exactly that. All 8 beat Wall Street's favorite portfolio over 20 years of backtests\n\nAnd JPMorgan still wouldn't let them touch the money\n\nTheir researchers explained why: AI gives \"in-sample, overly confident answers\". It looks like a genius on the past it already saw\n\nThat's why building a strategy is the easy part. Knowing if it's real is the whole game\n\nIt's like an exam. If you saw the answers, your A means nothing\n\nSo quants hide the last few years from the strategy. Then test it there. Makes money, it's real. Loses, it was luck\n\nI gave AI two rules every trader has heard of:\n\n→ \"buy BTC when RSI drops below 30\": 36 trades, -46.8% drawdown. Dead\n\n→ \"hold the S&P above its 200-day average\": on years it never saw, same return as buy & hold with half the drawdown. Alive\n\nThe one every TikToker sells died. The boring one survived\n\nWhat JPMorgan built 8 AI agents for, you can run in minutes. Free to try: http://join.horizon.trade/qwinsiiii\n\nHow to give your own strategy that exam, step by step in the article below",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123524202066014208/img/qVlFB699jLyt9i8a.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123524202066014208/vid/avc1/2160x2906/M-zHRbtTBstj-ww9.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "471140390",
+            "likeCount": 90,
+            "viewCount": 5875,
+            "authorName": "qwinsi",
+            "createdUtc": 1795122642,
+            "quoteCount": 0,
+            "replyCount": 14,
+            "authorImage": "https://pbs.twimg.com/profile_images/2075327486838116352/UMc9Dgtz_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 6,
+            "bookmarkCount": 90,
+            "authorUsername": "qwinsi0x",
+            "authorVerified": true,
+            "conversationId": "2123524388880253107",
+            "authorFollowers": 5821
+          },
+          {
+            "id": "2124266145876217986",
+            "url": "https://x.com/Naiivy9/status/2124266145876217986",
+            "lang": "en",
+            "text": "in 2026 my AI agents made me $1,240 playing GTA 6 while I slept. I paid $80 for the game and never touched the controller\n\ncompletion: 18.9% → 26.7% overnight\nin-game cash: $1.88M\nreal cash: +$1,240\ndeaths: 0\nmy hours played: 0\n\nwho did what:\nRIG MONITOR (Claude) → watched the console + the agent PC all night, fixed every frame drop before it hit the gameplay\nPROGRESS (Grok) → tracks every mission, collectible and map tile, picks what's next\nLIFEHACKS (Grok) → 63 tricks found, 11 hours of grinding skipped\nPLAYER (Claude) → on the controller, 56 inputs a minute, just lost 3 stars under a bridge\nMONEY MANAGER (Claude) → runs the budget, bought brakes + tires, saving for the car shop at $2M\n\nthe $1,240: Claude turned the 63 lifehacks into a route guide while I slept. $4 each, 310 sold by morning\n\nwoke up to tonight's plan already on the wall\n\nclicking through each agent in the video 👇\nprompts in replies",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124265597114474496/img/mk7SXpk9doSdxKpE.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124265597114474496/vid/avc1/1072x1920/cpY2zrW-fZYxkbpq.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2108999528489586688",
+            "likeCount": 22,
+            "viewCount": 689,
+            "authorName": "Naivy",
+            "createdUtc": 1795299490,
+            "quoteCount": 0,
+            "replyCount": 8,
+            "authorImage": "https://pbs.twimg.com/profile_images/2109977583781650432/ThAwRf8c_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 0,
+            "bookmarkCount": 7,
+            "authorUsername": "Naiivy9",
+            "authorVerified": true,
+            "conversationId": "2124266145876217986",
+            "authorFollowers": 128
+          },
+          {
+            "id": "2122308452726755451",
+            "url": "https://x.com/thegreatest_sv/status/2122308452726755451",
+            "lang": "en",
+            "text": "holy f*ck… SOMEONE JUST PUT ANTHROPIC’S AI AGENT PLAYBOOK ON GITHUB.\n\nthe exact stack people pay $500 courses to learn - sitting in 7 public repos. free.\n\nClaude Code. Agent loops. MCP. Context memory. Token optimization. Execution tracing.\n\nsave this before your feed buries it:\n\n1. CLAUDE CODE - THE AI CODING AGENT\n\nAnthropic’s official coding agent. Understands your codebase, edits files, runs commands and helps automate development.\n\nhttps://github.com/anthropics/claude-code\n\n2. RALPH - THE AUTONOMOUS AGENT LOOP\n\na technique for repeatedly running coding agents against a task until completion criteria are met.\n\nhttps://github.com/snarktank/ralph\n\n3. CLAUDE AGENT SDK - BUILD YOUR OWN AI AGENTS\n\nAnthropic’s official SDK for creating agents with tools, permissions and multi-step execution.\n\nhttps://github.com/anthropics/claude-agent-sdk-python\n\n4. MCP SERVERS - GIVE CLAUDE REAL TOOLS\n\nconnect AI agents to files, databases, search and external services.\n\nhttps://github.com/modelcontextprotocol/servers\n\n5. CLAUDE SKILLS - TEACH AI REUSABLE WORKFLOWS\n\npackage instructions, scripts and resources into reusable skills that agents can load when needed.\n\nhttps://github.com/anthropics/skills\n\n6. CLAUDE CODE ACTION - PUT AI INSIDE GITHUB\n\nrun Claude-powered development workflows through GitHub Actions.\n\nhttps://github.com/anthropics/claude-code-action\n\n7. AUTORESEARCH - LET AI RUN EXPERIMENTS\n\nAndrej Karpathy’s approach to autonomous experimentation, where an agent modifies code, evaluates results and iterates.\n\nhttps://github.com/karpathy/autoresearch\n\nthe exact stack people pay $500 courses to learn - sitting in 7 public repos. free.\n\nthe people building agent systems are playing a completely different game.\n\nLIKE + BOOKMARK + REPOST.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122288807726768128/img/rahJPmFUsOzslxZn.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122288807726768128/vid/avc1/1080x1526/dV1NjsDdolBulImC.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1214810521",
+            "likeCount": 78,
+            "viewCount": 4160,
+            "authorName": "kiosa",
+            "createdUtc": 1794832740,
+            "quoteCount": 1,
+            "replyCount": 30,
+            "authorImage": "https://pbs.twimg.com/profile_images/2049557081502752768/gymBLMZ8_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 6,
+            "bookmarkCount": 78,
+            "authorUsername": "thegreatest_sv",
+            "authorVerified": true,
+            "conversationId": "2122308452726755451",
+            "authorFollowers": 12582
+          },
+          {
+            "id": "2123519064467509397",
+            "url": "https://x.com/shmidtqq/status/2123519064467509397",
+            "lang": "en",
+            "text": "I can’t f*cking believe Fable 5.2 just did this.\n\nGave a team of 12 agents one job: run an entire IT help desk overnight.\n\nNo human touched the keyboard.\n\nThey sorted 14 tickets, read the logs, got a dental clinic back into Outlook, killed sessions after a phishing click, onboarded a new hire, and billed 3.5 hours.\n\nAll in 3 minutes and 12 seconds. 0 errors.\n\nThe human's only job: click \"Approve all\" at 8:46 AM.\n\nSmall businesses still pay IT shops $150/employee every month for this. That arbitrage is the whole game.\n\nStop using Fable as an expensive chatbot. Make it the entire department.\n\n8 ways to cash in on this in the article below ↓\n\nWould you let AI agents touch your company's passwords?",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123518982464376833/img/krw2y1ZT7irvK9mI.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123518982464376833/vid/avc1/720x1280/7aAIp5sr5DYc2syK.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1446918442989277185",
+            "likeCount": 355,
+            "viewCount": 83553,
+            "authorName": "shmidt",
+            "createdUtc": 1795121372,
+            "quoteCount": 1,
+            "replyCount": 33,
+            "authorImage": "https://pbs.twimg.com/profile_images/2068398835886440449/CBfDKDgF_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 35,
+            "bookmarkCount": 420,
+            "authorUsername": "shmidtqq",
+            "authorVerified": true,
+            "conversationId": "2123519064467509397",
+            "authorFollowers": 13587
+          },
+          {
+            "id": "2123416492578574532",
+            "url": "https://x.com/LighthouseWeb3/status/2123416492578574532",
+            "lang": "en",
+            "text": "AI models, vaults and trading bots all run on @HyperliquidX \n\nNow each one has a memory you can open.\n\n- 174 agents tracked live, from HLP vaults to GPT-5\n- Ask any agent “biggest win?” and get the exact trades back\n- Every answer links to the trade that proves it\n\nBuilt on Lighthouse Memory.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123416198218194945/img/tTQQ_zCHtSRX7bPc.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123416198218194945/vid/avc1/1920x1080/-7c2Aho3D33p5xvw.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1452868611408687110",
+            "likeCount": 26,
+            "viewCount": 1547,
+            "authorName": "Lighthouse",
+            "createdUtc": 1795096917,
+            "quoteCount": 3,
+            "replyCount": 8,
+            "authorImage": "https://pbs.twimg.com/profile_images/1959563310858416128/gBHWB_CB_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 5,
+            "bookmarkCount": 6,
+            "authorUsername": "LighthouseWeb3",
+            "authorVerified": true,
+            "conversationId": "2123416492578574532",
+            "authorFollowers": 24730
+          }
+        ],
+        "nextCursor": "cur_W_IZFTNSoYhaj8cwPhRCSA"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-capybara",
+      "kind": "anonymous",
+      "name": "Capybara",
+      "artworkKey": "capybara"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00049",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:40:28.976Z",
+  "started_at": "2026-11-23T07:40:29.163Z",
+  "completed_at": "2026-11-23T07:40:30.319Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

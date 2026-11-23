@@ -1,0 +1,797 @@
+{
+  "id": "568fd059-bd87-4d9c-8637-b5f8fa946898",
+  "run_url": "https://app.glasser.ai/runs/568fd059-bd87-4d9c-8637-b5f8fa946898",
+  "provider": "scrapecreators",
+  "endpoint": "/v1/linkedin/search/posts",
+  "endpoint_version": 4,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "query": "AI roleplay negotiation training simulation"
+  },
+  "output": {
+    "posts": [
+      {
+        "url": "https://www.linkedin.com/posts/mattsmith84_i-started-reading-never-split-the-difference-activity-7470733577161162752-0gJl",
+        "image": null,
+        "media": null,
+        "author": {
+          "url": "https://uk.linkedin.com/in/mattsmith84",
+          "name": "Matthew Smith",
+          "image": "https://media.licdn.com/dms/image/v2/C5603AQGTERzlFVyoUA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1565252925425?e=2147483647&v=beta&t=cFqJkBbkT8zRc0vXU6IV9-ycod7uymb0-mPSxznoWcQ",
+          "followers": 3230
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7478207771792936960",
+            "urn": "urn:li:comment:(urn:li:activity:7470733577161162752,7478207771792936960)",
+            "text": "You have far too much time on your hands Matt !😂",
+            "author": "Jackie Hamilton",
+            "linkedinUrl": "https://uk.linkedin.com/in/jackie-hamilton-71652815",
+            "datePublished": "2026-07-01T22:07:51.178Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "4mo"
+          }
+        ],
+        "likeCount": 8,
+        "contentUrn": "urn:li:share:7470733574426537986",
+        "activityUrn": "urn:li:activity:7470733577161162752",
+        "description": "I started reading Never split the difference the other day and I was curious so I used Gemini to role play a hostage situation. It was surprisingly fun and having done it a couple of times with different approaches I would recommend giving it a go if you think you're a good negotiator or have 30 mins to spare dealing with a crisis.\n\nHere's the prompt to use:\nAct as a crisis simulation engine. You play the role of the antagonist, my tactical support team, and the environment. I am the lead negotiator.\n\nBefore you reply, internally generate a unique, high-stakes crisis scenario (e.g., a corporate extortion, a hostage situation, or a cyber-lockdown). You must decide on the antagonist's true identity, hidden motives, and a strict timeline behind the scenes, but do not reveal any of these details to me yet.\n\nTo start the session, provide only:\n1. The Initial Situation Report (what the public or first responders know right now).\n2. The immediate physical or digital environment I am operating in.\n3. The countdown timer.\n\nOnce the briefing is delivered, simulate the antagonist calling my line to initiate the first interaction.\n\nRules for the AI:\n- Do not break character or reveal the antagonist's hidden mechanics until I uncover them using negotiation tactics.\n- Adapt the antagonist's response to my strategy: reward tactical empathy (Voss principles) and push back or escalate against rigid, old-school command tactics.",
+        "commentCount": 1,
+        "datePublished": "2026-06-11T07:08:04.294Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/hugo-sarrazin_today-im-excited-to-share-that-udemy-has-activity-7333512604105048065-Wu1s",
+        "name": "Today, I’m excited to share that Udemy has launched Role Play - our innovative, AI-powered feature that's transforming how professionals develop crucial soft skills. \n\nRole Play provides immersive… | Hugo Sarrazin, NACD.DC | 25 comments",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4D05AQGZ5t-nFOZ17Q/mp4-720p-30fp-crf28/B4DZcXeugfGkBM-/0/1748445647647?e=2147483647&v=beta&t=hncFAD7NWtKhp-yHlP9grihhnjraQlfp9bul-sTdc7g",
+        "author": {
+          "url": "https://www.linkedin.com/in/hugo-sarrazin",
+          "name": "Hugo Sarrazin, NACD.DC",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQF0709R79RH7w/profile-displayphoto-scale_200_200/B56aBAMRnaKkAc-/0/1787783361971?e=2147483647&v=beta&t=0cXjrJZtdxdOq7Mwzan3YJ0L39G_rR4fkwx4ftT9aJM",
+          "followers": 18395
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7333522728995430400",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7333512460068401153,7333522728995430400)",
+            "text": "Great addition and I am super excited for this 🔥 I created roleplays for most of my courses. It is an intuitive way for learners to practice what they are learning and get clarity on some aspects.",
+            "author": "Valentin Despa",
+            "linkedinUrl": "https://de.linkedin.com/in/vdespa",
+            "datePublished": "2025-05-28T16:01:08.857Z",
+            "reactionCount": 7,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7333537519575216128",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7333512460068401153,7333537519575216128)",
+            "text": "Thank you for envisioning and implement this incredible new feature Hugo! I already created the first ones in my English courses. Can’t wait for it to be included in Spanish courses!",
+            "author": "Federico Garay",
+            "linkedinUrl": "https://ar.linkedin.com/in/fedegaray",
+            "datePublished": "2025-05-28T16:59:55.206Z",
+            "reactionCount": 6,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7333524650901094403",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7333512460068401153,7333524650901094403)",
+            "text": "Congrats Hugo! and team Udemy ! Can't wait to experince one and maybe create one soon \n.",
+            "author": "Rohit Shenoy",
+            "linkedinUrl": "https://in.linkedin.com/in/meetrohitshenoy",
+            "datePublished": "2025-05-28T16:08:47.075Z",
+            "reactionCount": 4,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7333930113182380034",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7333512460068401153,7333930113182380034)",
+            "text": "What an awesome feature! I created a role play for all my courses where I made sense. And I love this feature. It definitely takes learning to a new whole level 🔥🚀",
+            "author": "Gustavo Escobar Henríquez",
+            "linkedinUrl": "https://www.linkedin.com/in/gusescobar",
+            "datePublished": "2025-05-29T18:59:56.816Z",
+            "reactionCount": 3,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7333568114791489537",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7333512460068401153,7333568114791489537)",
+            "text": "Very exciting",
+            "author": "Marie Kirk",
+            "linkedinUrl": "https://ie.linkedin.com/in/marie-kirk-3214124",
+            "datePublished": "2025-05-28T19:01:29.674Z",
+            "reactionCount": 3,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7342595549960822785",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7333512460068401153,7342595549960822785)",
+            "text": "This is a pretty damn cool vibe 💯",
+            "author": "Olli Kulkki",
+            "linkedinUrl": "https://be.linkedin.com/in/kulkki",
+            "datePublished": "2025-06-22T16:53:17.940Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7336330474434273283",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7333512460068401153,7336330474434273283)",
+            "text": "Hugo Sarrazin and Udemy team, this role play feature is a game changer for Udemy instructors and for the effectiveness of communication and soft skills courses!",
+            "author": "Brenda Sugrue",
+            "linkedinUrl": "https://ie.linkedin.com/in/brenda-sugrue",
+            "datePublished": "2025-06-05T09:58:07.535Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7333541747911704578",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7333512460068401153,7333541747911704578)",
+            "text": "This is a super promising application of A.I….excited to see what Udemy can do here.",
+            "author": "Adrian Mares",
+            "linkedinUrl": "https://ca.linkedin.com/in/adrianmares",
+            "datePublished": "2025-05-28T17:16:43.320Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7333532251617431553",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7333512460068401153,7333532251617431553)",
+            "text": "So cool! Look forward to this!",
+            "author": "Nidhi Das",
+            "linkedinUrl": "https://in.linkedin.com/in/nidhi-das-a381293",
+            "datePublished": "2025-05-28T16:38:59.227Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7333519582529208321",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7333512460068401153,7333519582529208321)",
+            "text": "Very exciting, Hugo Sarrazin! Just shot you an email about this.",
+            "author": "Sam Lieberman",
+            "linkedinUrl": "https://www.linkedin.com/in/sam-lieberman-39820ba4",
+            "datePublished": "2025-05-28T15:48:38.681Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1y"
+          }
+        ],
+        "likeCount": 558,
+        "contentUrn": "urn:li:ugcPost:7333512460068401153",
+        "transcript": "Ever had a conversation at work you wish you could do over again? Meet Role Play by Udemy, our new AI powered conversation coach and simulator with real world scenarios you can practice before you have them at work. You can build confidence and feel ready to give feedback, motivate A-Team, make a sales pitch, and a whole lot more. Instructors and organizations across Udemy are creating role plays for courses that teach business and communication skills. Here's how it works when an instructor. As a role-playing a course, you'll find it under course content. Just start the role play and read the agenda for your conversation goals. Then get started and interact with your role play character just as you would in a workplace conversation. And when you're done, role play will show which goals you accomplished and which ones are a learning opportunity. So in your next one-on-one, you can sound more like the professional you know. You are you to me. The power of possibilities.",
+        "uploadDate": "2025-05-28T15:20:54.868Z",
+        "activityUrn": "urn:li:activity:7333512604105048065",
+        "description": "Today, I’m excited to share that Udemy has launched Role Play - our innovative, AI-powered feature that's transforming how professionals develop crucial soft skills.\n\nRole Play provides immersive, risk-free environments where learners practice real-world scenarios like pitching new business ideas, negotiating agreements, feedback delivery, and leadership challenges - all with adaptive AI coaching and immediate feedback. L&D teams can also create Role Plays tailored to their organizations’ needs and context.\n\nThis milestone exemplifies the forward-thinking, AI-driven innovation that defines Udemy. Role Play allows learners to put what they’ve learned into practice, demonstrating skills mastery, driving greater retention, and leading to better learning outcomes.\n\nWhat’s even more thrilling is the initial interest from our incredible instructors. In just four weeks, Udemy creators made over 3,100 Role Plays. That’s currently more than all other players in our industry combined! This shows the massive ‌potential for AI-powered skills development- and Udemy’s meeting that demand.\n\nUdemy will continue to innovate at the intersection of AI and human connection, enabling organizations and individuals to develop the skills needed to remain competitive and agile.\n\nhttps://lnkd.in/dgq8q_ip",
+        "commentCount": 25,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQGZ5t-nFOZ17Q/videocover-high/B4DZcXeugfGkBk-/0/1748445642157?e=2147483647&v=beta&t=ECxYHfA-ZXzw8y0FFu_PBkEUsLSbHFCc7cJGOfyma-o",
+        "datePublished": "2025-05-28T15:20:54.868Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/elaycohen_check-out-this-video-by-jesse-rome-from-aslan-activity-7367387824020516865-12jZ",
+        "name": "Check out this video by Jesse Rome from ASLAN Sales Training. He breaks down how AI coaching and role play are brought to life to help sales reps master their craft. Using \"cold calling\" as an… | Elay Cohen",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5605AQE6tzMIDHxU2g/mp4-720p-30fp-crf28/B56Zj44AXWHkB0-/0/1756522133344?e=2147483647&v=beta&t=Sgz0d1nQdx1tRIWp_CMsWhzDEud8LjADbXXp_iADnTg",
+        "author": {
+          "url": "https://www.linkedin.com/in/elaycohen",
+          "name": "Elay Cohen",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQE7flkOhkcXPQ/profile-displayphoto-scale_200_200/B56aAmcD_mKwAc-/0/1787351288958?e=2147483647&v=beta&t=zgykTa0lqp27Kl2Vj2S6Xb9r2WnIxufOdck7dmse9rI",
+          "followers": 20626
+        },
+        "images": [],
+        "comments": [],
+        "likeCount": 24,
+        "contentUrn": "urn:li:ugcPost:7367387621058076672",
+        "transcript": "How are we bringing the AI role play and the AI coach and feedback to life? Let's just take the example of a cold calling, right? You have to make X amount of cold calls a week. I used to make 80 code calls that day. It was a grind and you're just getting hung up on. You're getting feedback and maybe your manager listens to your calls or sits with you, you know, once a week. And so now you have a tool. I think people don't give cold calling enough credit. There are so many different levels to it. You have to prepare the message, right? What is my like elevator pitch or my intro message? But then you need to also have the questions that you're gonna ask if that goes well. But the likely scenario is none of that's gonna go well. So you're gonna have to handle objections. So those are really three different skills all built into one code call. And so you need to simulate those situations and get feedback on each one of those three skills so that going into the next call. You feel ready for anything. And historically we did what? Like battlecards, flash cards, like videos, elements all that was good, but it wasn't interactive and it wasn't just in time and it never felt real. And reps hate to role play, but they do love to be successful. So how does the AI actually simulate it? What's the experience like? Yeah, well, it's 2 two different ways. And we can show you kind of the two different types of AI role play that we interact with. One is the AI coach, which is like our pitch practice. And that is like you're talking to yourself and the AI then like analyzes your tone, your pace, your messaging, your keywords, and it'll give you live feedback right after. And so I think that is so important for any sort of product rollout or any sort of training reinforcement. It's like you just learn these five things. Let's see if you can actually say it, not write it down, not tell me you learned it. Not click through a bunch of answers till you get it right and tell your manager like practice it. The other one, which is even more fun is the AI role play where you're really interacting back and forth and you create this persona and you tell them you know how to be mean or be nice or give me this objection if I say this. And so I always try to build, build those in stages where I ensure that I like tell the Rep, you know, and prompt the Rep like lead with your messaging and then I'll prompt the AI, give them an objection. So it'll make the Rep handle that objection and then I'll prompt the AI if they do X advance, if they don't hang up basically on them. And if they do well, then they then have to ask some probing questions, some qualifying questions. So what if we can get you to practice it? You can get live feedback. We can all collapse like, you know, calibrate on that, but without the embarrassment and a safe place, right? Because I could practice and it's my own coach and then I can decide when I want to pull in my manager or my team. I love that. You're scaling stand and deliver across a broad set of skills and behaviors that will ultimately make sales people better.",
+        "uploadDate": "2025-08-30T02:48:56.670Z",
+        "activityUrn": "urn:li:activity:7367387824020516865",
+        "description": "Check out this video by Jesse Rome from ASLAN Sales Training. He breaks down how AI coaching and role play are brought to life to help sales reps master their craft. Using \"cold calling\" as an example, Jesse explain how instant AI feedback on tone and messaging to interactive role plays simulate real objections and conversations. Now, AI Role Play provides a safe and repeatable way to practice without the awkwardness of traditional stand and deliver and manager coaching.\n\nHow are your teams leveraging AI Role Play?\n\nLet me know if you want to see it in action. SalesHood",
+        "commentCount": 0,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQE6tzMIDHxU2g/videocover-high/B56Zj44AXWHkCM-/0/1756522114506?e=2147483647&v=beta&t=W4Lt_phmT38OyCijKtziNVqJtay5qBSliwzkPGNSYVE",
+        "datePublished": "2025-08-30T02:48:56.670Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/dr-maddy-pickles-29552035_saico2026-artificialintelligence-highereducation-activity-7472222099869442048-Sk4q",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQFcJcsMdw4njA/feedshare-shrink_800/B4EZ7KqZ24K0Ac-/0/1781516574479?e=2147483647&v=beta&t=_qMiu1LXUW_bvHWRGaRW9sYzR-r5n41yEQhdvTPZvrg",
+        "media": "https://media.licdn.com/dms/image/v2/D4E22AQFcJcsMdw4njA/feedshare-shrink_800/B4EZ7KqZ24K0Ac-/0/1781516574479?e=2147483647&v=beta&t=_qMiu1LXUW_bvHWRGaRW9sYzR-r5n41yEQhdvTPZvrg",
+        "author": {
+          "url": "https://uk.linkedin.com/in/dr-maddy-pickles-29552035",
+          "name": "Dr. Maddy Pickles",
+          "image": "https://media.licdn.com/dms/image/v2/D4E03AQEWPsfvlgF1rA/profile-displayphoto-scale_200_200/B4EaD7c3pvIIAg-/0/1790925045671?e=2147483647&v=beta&t=1eoSMF4F16tzIxXt9MgInaYWl-EdkIJB1qAKyihszss",
+          "followers": 3846
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D4E22AQFcJcsMdw4njA/feedshare-shrink_800/B4EZ7KqZ24K0Ac-/0/1781516574479?e=2147483647&v=beta&t=_qMiu1LXUW_bvHWRGaRW9sYzR-r5n41yEQhdvTPZvrg",
+          "https://static.licdn.com/aero-v1/sc/h/dur0ryw0e9uscxa9b6zqvgvfs"
+        ],
+        "comments": [
+          {
+            "id": "7472261415945531392",
+            "urn": "urn:li:comment:(urn:li:activity:7472222099869442048,7472261415945531392)",
+            "text": "Congratulations! This sounds like a fascinating session.\nWhat stood out is how simulations like this move beyond knowledge transfer\n to creating safe spaces for practicing complex human skills, especially communication, negotiation, and conflict resolution.\nThat’s where AI can add real depth to learning.",
+            "author": "Ayse B Cinar Award Winner Leadership Development Consultant",
+            "linkedinUrl": "https://uk.linkedin.com/in/a-basak-cinar-european-award-winning-coach",
+            "datePublished": "2026-06-15T12:19:09.466Z",
+            "reactionCount": 3,
+            "publishedTimeAgo": "5mo"
+          },
+          {
+            "id": "7472579224063782912",
+            "urn": "urn:li:comment:(urn:li:activity:7472222099869442048,7472579224063782912)",
+            "text": "What stood out to me is the potential for simulations like these to create space for practice, not just knowledge transfer. Information has never been more accessible. The challenge increasingly becomes helping people develop communication, judgment and decision-making skills in realistic environments.",
+            "author": "Senol Sertbas",
+            "linkedinUrl": "https://au.linkedin.com/in/senol-sertbas-a531844",
+            "datePublished": "2026-06-16T09:22:00.826Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "5mo"
+          },
+          {
+            "id": "7473395492547284992",
+            "urn": "urn:li:comment:(urn:li:activity:7472222099869442048,7473395492547284992)",
+            "text": "Fantastic! Sorry I’m seeing this late! I know you would have rocked it! 😊",
+            "author": "Jenny Bumford Chartered Fellow CIPD",
+            "linkedinUrl": "https://uk.linkedin.com/in/jenny-bumford-chartered-fellow-cipd-4a536b4",
+            "datePublished": "2026-06-18T15:25:34.398Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "5mo"
+          },
+          {
+            "id": "7472243466589253633",
+            "urn": "urn:li:comment:(urn:li:activity:7472222099869442048,7472243466589253633)",
+            "text": "Hope it goes well Maddy! Looking forward to hearing about it 😃🙌",
+            "author": "Laura Morris (Heath)",
+            "linkedinUrl": "https://uk.linkedin.com/in/leheath",
+            "datePublished": "2026-06-15T11:07:50.006Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "5mo"
+          }
+        ],
+        "likeCount": 54,
+        "contentUrn": "urn:li:share:7472222098439012352",
+        "activityUrn": "urn:li:activity:7472222099869442048",
+        "description": "I will be presenting at the 4th Online Symposium on AI Opportunities and Challenges (SAIOC), sharing a case study on the use of customisable AI-powered role-play simulations in employment relations education.\nThe session explores how tools such as Bodyswaps can be used to create authentic learning experiences that help develop communication, negotiation and conflict resolution skills, while providing opportunities for practice and reflection in a safe environment.\nI look forward to the discussions on the opportunities and challenges of AI in education and professional development.\n#SAICO2026 #ArtificialIntelligence #HigherEducation #EmploymentRelations #LearningInnovation #DigitalPedagogy #Bodyswaps Liverpool John Moores University Liverpool Business School Bodyswaps Georgia Read Laura Morris (Heath) Paul McEvoy Clarke MCIPD",
+        "commentCount": 6,
+        "datePublished": "2026-06-15T09:42:55.762Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/emollick_how-to-use-ai-to-create-role-play-scenarios-activity-7207057844053917696-RjPX",
+        "image": null,
+        "media": null,
+        "author": {
+          "url": "https://www.linkedin.com/in/emollick",
+          "name": "Ethan Mollick",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQGvhhCjW5El4Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1701211615166?e=2147483647&v=beta&t=zFbjcX4xnXcnSEbkUHiAH4Fag9UT9_97sNXPDDZ4j90",
+          "followers": 448125
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7207062240619864065",
+            "urn": "urn:li:comment:(urn:li:activity:7207057844053917696,7207062240619864065)",
+            "text": "Love this! I’ve been using GenAI for simulation exercises for a while now—everything from prepping for big presentations to tough chats at work. Outside of work, I’ve used it to practice negotiating with building contractors, car mechanics, and even my husband. 😉",
+            "author": "Stacey Horricks",
+            "linkedinUrl": "https://ca.linkedin.com/in/staceyhorricks",
+            "datePublished": "2024-06-13T16:52:18.906Z",
+            "reactionCount": 13,
+            "publishedTimeAgo": "2y"
+          },
+          {
+            "id": "7207141976809385984",
+            "urn": "urn:li:comment:(urn:li:activity:7207057844053917696,7207141976809385984)",
+            "text": "This looks interesting Richard de Blacquiere-Clarkson !",
+            "author": "Ayesha Hussain",
+            "linkedinUrl": "https://uk.linkedin.com/in/ayesha-hussain-15487a257",
+            "datePublished": "2024-06-13T22:09:09.495Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "2y"
+          },
+          {
+            "id": "7222979700158087168",
+            "urn": "urn:li:comment:(urn:li:activity:7207057844053917696,7222979700158087168)",
+            "text": "Creating teaching simulations with just a prompt is a game-changer for educators. It's fantastic for making advanced educational tools accessible and practical!",
+            "author": "AIBrilliance",
+            "linkedinUrl": "https://www.linkedin.com/company/aibrilliance",
+            "datePublished": "2024-07-27T15:02:36.991Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2y"
+          },
+          {
+            "id": "7207434740319035392",
+            "urn": "urn:li:comment:(urn:li:activity:7207057844053917696,7207434740319035392)",
+            "text": "Integrating AI with virtual reality (VR) could create fully immersive role-play environments. The guide by Ethan and Lilach Mollick on using AI for role-play scenarios is impressive and opens doors to innovative educational methods. AI's ability to craft personalized scenarios helps learners practice decision-making in a safe environment. Assigning AI a persona like AI-Mentor allows for tailored guidance and immersive experiences. Combining AI-generated scenarios with VR can simulate real-world settings, providing learners with a more engaging and realistic experience. This blend of AI and VR could revolutionize training in fields like medicine, law, and business, offering hands-on practice in a controlled, virtual space. The future of AI in learning is exciting and full of potential!",
+            "author": "CAI - Chat AI - Quad AI Power: ChatGPT, Google Gemini Pro, Groq AI, Claude AI",
+            "linkedinUrl": "https://www.linkedin.com/company/cai-chat-ai",
+            "datePublished": "2024-06-14T17:32:29.754Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2y"
+          },
+          {
+            "id": "7207323410496917504",
+            "urn": "urn:li:comment:(urn:li:activity:7207057844053917696,7207323410496917504)",
+            "text": "We are taking a human-centered approach with our decision practice experience, The Plot Thinkens. We prompt participants to generate scenarios during the exercise, then place someone in the Hot Seat role to respond to the emergent challenges. This gets everyone involved throughout - imagining, creating, and practicing against scenarios drawn from actual experiences. And no third party scenario generation and instructor/facilitator needed. \n\nhttps://perigeantechnologies.com/product/the-plot-thinkens/",
+            "author": "Brian Moon",
+            "linkedinUrl": "https://www.linkedin.com/in/brianmoonperigean",
+            "datePublished": "2024-06-14T10:10:06.657Z",
+            "reactionCount": 4,
+            "publishedTimeAgo": "2y"
+          },
+          {
+            "id": "7207104033679884289",
+            "urn": "urn:li:comment:(urn:li:activity:7207057844053917696,7207104033679884289)",
+            "text": "Role playing is totally underrated. Doing this for anything brain powered thinking is worth it, I find giving the other player a role like being Elon or Jeff or someone else makes it fun and get the llm out of the stars sequence of tokens",
+            "author": "Michael Houghton",
+            "linkedinUrl": "https://uk.linkedin.com/in/michaeljohnhoughton",
+            "datePublished": "2024-06-13T19:38:23.147Z",
+            "reactionCount": 4,
+            "publishedTimeAgo": "2y"
+          },
+          {
+            "id": "7207070765198835712",
+            "urn": "urn:li:comment:(urn:li:activity:7207057844053917696,7207070765198835712)",
+            "text": "Love this article as it has really useful insights: Thanks for posting! I’ve built three role playing GPTs (one for procurement specific negotiations, one as a general negotiation partner leveraging Chris Voss’s approach, one for parenting my kids). I’ve made some useful modifications after reading your article. \nI also really enjoyed your recent book: Very insightful framing of the current state of AI.",
+            "author": "Sören Petsch",
+            "linkedinUrl": "https://www.linkedin.com/in/sorenpetsch",
+            "datePublished": "2024-06-13T17:26:11.324Z",
+            "reactionCount": 4,
+            "publishedTimeAgo": "2y"
+          },
+          {
+            "id": "7207930994601988098",
+            "urn": "urn:li:comment:(urn:li:activity:7207057844053917696,7207930994601988098)",
+            "text": "Ethan Mollick, at a recent EdTech conference here in Honolulu What School Could Be teamed up with d'Skills to do a bot sprint for educators. We brought in kids from two schools to be coaches. This photo shows two CTE/Pathway coordinators working with their high school coaches to create a bot that helps - through role-play - students prep for internship interviews. Educators mostly had no prior experience with AI prior to this June 4th event. Tagging Hannah Grady Williams 🛸🏴☠️, who may jump in and comment.",
+            "author": "Josh Reppun",
+            "linkedinUrl": "https://www.linkedin.com/in/joshreppun",
+            "datePublished": null,
+            "reactionCount": null,
+            "publishedTimeAgo": "2y"
+          },
+          {
+            "id": "7207068862469599232",
+            "urn": "urn:li:comment:(urn:li:activity:7207057844053917696,7207068862469599232)",
+            "text": "HyperSkill users have been building role play simulations since GPT4 came out",
+            "author": "Rajesh Jha",
+            "linkedinUrl": "https://www.linkedin.com/in/rkjha1",
+            "datePublished": "2024-06-13T17:18:37.677Z",
+            "reactionCount": 3,
+            "publishedTimeAgo": "2y"
+          },
+          {
+            "id": "7207141499405316096",
+            "urn": "urn:li:comment:(urn:li:activity:7207057844053917696,7207141499405316096)",
+            "text": "Solid guide! One point I’d make, though, is that negative instructions (“You should not do this:”) are not preferable to positive instructions about what to do under the circumstances where the negative instructions would have been relevant. Lots of studies on this, Khanmigo follows this advice, it fits with my testing, etc.",
+            "author": "Graham Clay",
+            "linkedinUrl": "https://www.linkedin.com/in/graham-clay-b78025a1",
+            "datePublished": "2024-06-13T22:07:15.673Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "2y"
+          }
+        ],
+        "likeCount": 1038,
+        "contentUrn": "urn:li:share:7207057843533836290",
+        "activityUrn": "urn:li:activity:7207057844053917696",
+        "description": "We wrote a guide for Harvard on how to build teaching simulations using just a prompt. Instructors can experiment with these as an exercise or assignment.\n\nWe have been building teaching simulations for a decade and it is amazing how far a prompt gets you! https://lnkd.in/e4v8hNvN",
+        "commentCount": 58,
+        "datePublished": "2024-06-13T16:34:50.650Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/devlinpeck_linkedinwithdevlin-instructionaldesign-activity-7445511627539623937-iQ7M",
+        "image": null,
+        "media": null,
+        "author": {
+          "url": "https://www.linkedin.com/in/devlinpeck",
+          "name": "Devlin Peck",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQG56TMyKmueiw/profile-displayphoto-scale_200_200/B56Z_BE9daGQAc-/0/1785650731537?e=2147483647&v=beta&t=K4_ZPuigQBuiChEHs61Q755MWHBbT2xK9pV1Sa8p-aM",
+          "followers": 62889
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7445511629229899777",
+            "urn": "urn:li:comment:(urn:li:activity:7445511627539623937,7445511629229899777)",
+            "text": "You can register for the live event here: https://live.devlinpeck.com/ref/aQsfhdOZ12qufHG0",
+            "author": "Devlin Peck",
+            "linkedinUrl": "https://www.linkedin.com/in/devlinpeck",
+            "datePublished": "2026-04-02T16:45:03.326Z",
+            "reactionCount": 4,
+            "publishedTimeAgo": "7mo"
+          },
+          {
+            "id": "7445856732549099520",
+            "urn": "urn:li:comment:(urn:li:activity:7445511627539623937,7445856732549099520)",
+            "text": "Thank you, Devlin Peck. Looking forward to learning with you guys next week!",
+            "author": "Amy McLaughlin",
+            "linkedinUrl": "https://www.linkedin.com/in/amymclaughlin-lxd",
+            "datePublished": "2026-04-03T15:36:22.369Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "7mo"
+          },
+          {
+            "id": "7447600455410601985",
+            "urn": "urn:li:comment:(urn:li:activity:7445511627539623937,7447600455410601985)",
+            "text": "I'm so excited about this. Thank you, Devlin. This is incredibly timely for me!",
+            "author": "Tina Moran, M. Ed.  • Instructional Designer • eLearning Developer • Learning Experience Designer",
+            "linkedinUrl": "https://www.linkedin.com/in/tinamoranid",
+            "datePublished": "2026-04-08T11:05:18.296Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "7mo"
+          },
+          {
+            "id": "7449699663953305600",
+            "urn": "urn:li:comment:(urn:li:activity:7445511627539623937,7449699663953305600)",
+            "text": "This sounds genuinely exciting! Especially for instructional designers who’ve spent years building complex branching logic. This feels like a big simplification of a very time-heavy process.",
+            "author": "Christopher Pappas ∴ 🌿",
+            "linkedinUrl": "https://gr.linkedin.com/in/christopherpappas",
+            "datePublished": "2026-04-14T06:06:48.613Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "7mo"
+          },
+          {
+            "id": "7446032630782898176",
+            "urn": "urn:li:comment:(urn:li:activity:7445511627539623937,7446032630782898176)",
+            "text": "Thank you Devlin Peck. Will we be able to watch the recording somewhere later?",
+            "author": "Bahador Shirazian",
+            "linkedinUrl": "https://id.linkedin.com/in/bahador-shirazian",
+            "datePublished": "2026-04-04T03:15:19.776Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "7mo"
+          }
+        ],
+        "likeCount": 64,
+        "contentUrn": "urn:li:share:7445511625916399616",
+        "activityUrn": "urn:li:activity:7445511627539623937",
+        "description": "Are you ready to create an AI-powered simulation in Storyline in less than 10 minutes?\n\nOn April 9th at 10 AM PT, I'm going to show you exactly how to do it. Live, step by step, start to finish.\n\nThis event is the public debut of the simulation builder I've been creating for instructional designers.\n\nDuring the live session, I'll show you how to create an AI-powered character and integrate it into a Storyline course (template provided). I don't think you'll believe how fast it is until you try it for yourself.\n\nAlso, everyone who registers will get free access to the new simulation builder at devlin.ai.\n\nSo why did I build it?\n\nThe traditional approach to creating simulations in Storyline is to create pre-canned answer choices and predefined branches.\n\nBut when AI powers the simulation, the learner can respond naturally and the AI responds dynamically in character.\n\nInstructional designers no longer have to plan every branch, write long scripts, or use 5 different tools.\n\nThe time it takes to build an immersive simulation collapses, which makes it way easier for us to roll out realistic practice scenarios for our audience.\n\nSeriously though: seeing this tool in action will make things click way better than any explanation I can write here.\n\nSeats are limited for the live session, and I want to make sure there's room for Q&A, so please show up on time.\n\nGrab your spot with the link in the comments. I can't wait to show you what this thing can do.\n\n#LinkedInWithDevlin #InstructionalDesign #eLearning #ArtificialIntelligence #Storyline",
+        "commentCount": 6,
+        "datePublished": "2026-04-02T16:45:02.905Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/dr-kamlesh-kumar-maurya-4bb13b23_ai-negotiation-experiential-activity-7505948677669195778-Ca0m",
+        "name": "#ai #negotiation #experiential #learning | Dr.Kamlesh Kumar Maurya",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4D05AQG52X7x0nUPEA/mp4-640p-30fp-crf28/B4DaCp8gjHJEBk-/0/1789557611779?e=2147483647&v=beta&t=vVmPIk4kASTWYRCxQuxqxSfj-UnhdOPdHnvX1WBGHxA",
+        "author": {
+          "url": "https://in.linkedin.com/in/dr-kamlesh-kumar-maurya-4bb13b23",
+          "name": "Dr.Kamlesh Kumar Maurya",
+          "image": "https://media.licdn.com/dms/image/v2/D4D03AQHwm6zNkoID7g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1665235561910?e=2147483647&v=beta&t=eyrY38phrMtxAj-7pql6lY3XdJwTMU6iDh_37fJQ70c",
+          "followers": 5337
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7515848001966395392",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7505948629329842176,7515848001966395392)",
+            "text": "The part that gets skipped is that pedagogy choice is really a decision about what kind of error you want students to make. Lecture produces confident wrong answers that look tidy. Case and simulation produce messy ones that surface the actual misunderstanding. If the assessment only rewards tidiness, the method quietly reverts to lecture whatever the syllabus says.",
+            "author": "Kunal Moon",
+            "linkedinUrl": "https://in.linkedin.com/in/kunal-moon",
+            "datePublished": "2026-10-13T18:56:41.373Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7505974501956952064",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7505948629329842176,7505974501956952064)",
+            "text": "It was a really interesting activity that helped us understand how BATNA actually works in a negotiation. Instead of just learning the concept theoretically, we got to experience how it can be applied in a real-world situation. Activities like this make learning more practical, engaging, and easier to understand. Thank you, Sir, for creating such engaging activities that help us understand concepts more deeply.👍",
+            "author": "Nandini Sharma",
+            "linkedinUrl": "https://in.linkedin.com/in/nandini-sharma-sre",
+            "datePublished": "2026-09-16T13:02:55.530Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7506671808688070656",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7505948629329842176,7506671808688070656)",
+            "text": "Learning through a role-play was a unique approach and it made the session so much more engaging and interesting. It definitely compelled us to get into the depth of our roles and concepts to successfully complete the negotiation. Thanks Dr.Kamlesh Kumar Maurya for conducting this.",
+            "author": "Ishita Girdhar",
+            "linkedinUrl": "https://in.linkedin.com/in/ishita-girdhar",
+            "datePublished": "2026-09-18T11:13:46.410Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7506317169379405824",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7505948629329842176,7506317169379405824)",
+            "text": "superb initiative prof dr maurya",
+            "author": "Narendera K Gupta",
+            "linkedinUrl": "https://in.linkedin.com/in/narendera-k-gupta-92a1789",
+            "datePublished": "2026-09-17T11:44:33.809Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7506247993629679616",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7505948629329842176,7506247993629679616)",
+            "text": "👍🙂 nice pedagogy",
+            "author": "Dr. Abhishek Kumar Pandey",
+            "linkedinUrl": "https://in.linkedin.com/in/dr-abhishek-kumar-pandey-650bb434",
+            "datePublished": "2026-09-17T07:09:41.026Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2mo"
+          }
+        ],
+        "likeCount": 71,
+        "contentUrn": "urn:li:ugcPost:7505948629329842176",
+        "uploadDate": "2026-09-16T11:20:18.485Z",
+        "activityUrn": "urn:li:activity:7505948677669195778",
+        "description": "Every topic does not require the same teaching style. Pedagogy must be deliberately designed to align with the nature, learning objectives, and practical requirements of the subject and topic.\nIn today’s negotiation session, students participated in an engaging business role-play activity the context was a \"negotiation between a start-up and an established e-commerce platform\".\nI requested AI platform to give me suggestions to conduct this, most importantly, how students will learn by doing, reflecting, and responding to realistic business situations.\nThe exercise completely justified the students learning and professional development to move beyond theoretical understanding and experience negotiation as a dynamic process.\nTopic covered BATNA/WATNA, understand interests, positions, types of Negotiation, trade-offs, Anchoring, communication, persuasion, strategic decision-making, and relationship management.\n#AI-inclusion #negotiation #experiential #learning",
+        "commentCount": 5,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQG52X7x0nUPEA/videocover-high/B4DaCp8gjHJEBM-/0/1789557608883?e=2147483647&v=beta&t=Bq5WaVldy9BGpjbm5DKy-2BRtyw8tsDlulQOCBI5EP4",
+        "datePublished": "2026-09-16T11:20:18.485Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/blue-elephants-solutions_in-this-tech-in-ld-briefing-were-diving-activity-7341623324076122112-h5yP",
+        "name": "In this TECH IN L&D BRIEFING, we’re diving deep into an essential topic for anyone using AI to drive engaging and authentic learning: 𝐏𝐞𝐫𝐬𝐨𝐧𝐚 𝐈𝐧𝐣𝐞𝐜𝐭𝐢𝐨𝐧.\n\nPersona Injection means… | Blue Elephants Solutions",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5605AQF8MlbkktWzbw/mp4-720p-30fp-crf28/B56ZeH4BA6H8Bk-/0/1750331327919?e=2147483647&v=beta&t=xPL_k3JvDyeZP5TXvE6H70cYlQwuWHALK59olBqVZf8",
+        "author": {
+          "url": "https://sg.linkedin.com/company/blue-elephants-solutions",
+          "name": "Blue Elephants Solutions",
+          "image": "https://media.licdn.com/dms/image/v2/C4E0BAQFSBMOINHfwFQ/company-logo_100_100/company-logo_100_100/0/1647357910604/blue_elephants_solutions_logo?e=2147483647&v=beta&t=Ms18RmxyKcWTMNybyqkBNUpCZftsabTvp8AHUnTYjqs",
+          "followers": 977
+        },
+        "images": [],
+        "comments": [],
+        "likeCount": 6,
+        "contentUrn": "urn:li:ugcPost:7341421565797928962",
+        "transcript": "Welcome along to this Tech Inland briefing. This one's really for you if you're a learning and development manager. We're going to take a bit of a deep dive into some tech that's, well, it's becoming pretty essential, I think. Absolutely. Yeah. Today we're getting into something called persona injection, specifically an AI training persona injection. OK, that sounds intriguing. Like you're giving the AI a personality. Is that it? What does that actually, you know, do? Pretty much, Yeah. Essentially, persona injection is the technique, the way we make. AI's take on a specific character or maybe a role, certain behaviors when it interacts with someone. OK, you're not just feeding it data, you're giving it a brief, really telling it how to act, how to speak, what to think. In a way it defines its tone, the words it uses, how it responds, all based on a description you give it. Right. So it's not just a sort of generic AI voice then it's actually responding as maybe a frustrated customer or supportive manager or, or, or even a difficult colleague. Exactly that. Yeah. It influences the whole. Put the whole style based on that description that injected persona, OK? It really sets the scene for the interaction, you know, creating a a specific feel, a dynamic. It's not just about spitting out facts. It's about simulating and interaction with someone who has a defined profile. OK, yeah, I'm starting to see it now. That makes sense why this is so relevant for us in L&D. So why is this capability giving AI a specific role to play? Why does that matter so much right now for, you know, building training programs? Well, think about some of the perennial challenges in LD, right? How do you scale up practice, especially for things like soft skills? Yeah, the tricky ones. Exactly. And how do you create genuinely safe spaces for people to try things out, maybe fail a bit? And, you know, how do you make training engaging something that actually sticks? Traditional role play, it's great, but it takes a lot of resources. So definitely time people. So this technique, persona injection, it gives us a way to build simulations that are, well, highly realistic, repeatable. And they can. Respond dynamically as that specific person or role. Ohh, OK. Soft skills like communication, negotiation, leadership, coaching, well, they're all about handling specific human interactions, aren't they? Different dynamics. You can't just learn that from a book. You absolutely need the practice. Precisely. And persona injection can make that practice scalable, consistent too. So for instance, you could set up a simulated difficult conversation maybe with a specific type of client, right? You define their personality. Their communication style, maybe their usual objections, and the AI will then act according to that persona consistently throughout the chat. It gives the learner a really targeted experience. So it's not just some generic difficult person template, it's this specific type of difficult person because you've briefed the AI. Wow, that level of detail sounds incredibly useful for focus practice. Are people actually using this now? Where is it working? Yeah, we're definitely seeing it pop up in a few key areas. 2 later performance reviews are a good example. The AI acts as the employee getting feedback when maybe with some preset reactions or questions based on its persona or sales. Training is a big one. The AI plays the prospect with specific needs, maybe some defined hesitations, different ways they prefer to communicate. Yeah, that allows for much more nuanced practice than just reading off the standard script, doesn't it? It really does. And think about leadership development, too. You could inject the persona of a team member who's facing a particular challenge, and then the leader gets to practice coaching them. Or maybe delegation skills. Even on boarding simulations, the AI could be different colleagues the new hire needs to interact with to, I don't know, get something done. The real benefit here is creating these specific interactive scenarios that feel, well, genuinely reactive because the AI is sticking to its role. It really does feel like it pushes us to. Towards genuinely experiential learning, doesn't it? Letting people practice those tough conversations or complex situations, but without the real world consequences. Exactly. It feels like we're kind of pushing the boundaries of what simulation can do. I think we are, yeah. It helps bridge that gap, you know, between just knowing something and actually being able to do it and the richness of that training. It really hinges on how well that AI persona is designed and injected. So thinking about this from the perspective of an LED manager listening, what does this all mean? It really seems like this technique giving AI a specific role to play. It's fundamentally changing how we can think about creating immersive, effective training, especially for those crucial people skills. It really unlocks possibilities, I think, for realistic role play, for simulation, doing it at a scale that just wasn't practical or affordable before. So as you're thinking about the programs you need to build for your organization, maybe consider the potential here. How might using AI with these carefully crafted injected personas actually transform the kinds of skills and scenarios you can effectively train for? Could it perhaps really push the boundaries of simulation and role play within your whole LED strategy? Something to think about.",
+        "uploadDate": "2025-06-20T00:30:01.193Z",
+        "activityUrn": "urn:li:activity:7341623324076122112",
+        "description": "In this TECH IN L&D BRIEFING, we’re diving deep into an essential topic for anyone using AI to drive engaging and authentic learning: 𝐏𝐞𝐫𝐬𝐨𝐧𝐚 𝐈𝐧𝐣𝐞𝐜𝐭𝐢𝐨𝐧.\n\nPersona Injection means giving your AI a consistent identity, tone, and behavioral style so that it shows up like a real character in a learning experience - whether that’s a peer, a customer, or a stakeholder. Think of it as crafting the AI’s personality and communication profile so it can hold context, respond believably, and stay in role throughout the interaction.\n\nIn Learning & Development, Persona Injection is key to credibility, trust, and realism - especially in scenarios where the AI needs to simulate complex human behaviors. For example, a well-injected persona allows the AI to convincingly play a defensive team member during a performance review, a skeptical procurement officer in a negotiation, or a frustrated customer pushing for a refund.\n\nIt’s this consistency in behavior, tone, and emotional response that helps create high-impact simulations. Learners aren’t just talking to an AI- they’re practicing difficult conversations under pressure, where tone, empathy, and strategy matter, while in a save environment.\n\nWithout Persona Injection, the AI risks sounding robotic, inconsistent, or inauthentic - undermining the realism that makes behavioral training stick.\n\nWant to learn how to design and implement high-fidelity AI personas that elevate your simulations? In our latest episode we break down practical examples and share tips for making your AI feel less like a script - and more like the real-world counterpart your learners need to face.",
+        "commentCount": 0,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQF8MlbkktWzbw/videocover-high/B56ZeH4BA6H8B8-/0/1750331302191?e=2147483647&v=beta&t=w_Kl1QYdx99BEWyAuPJ7YhiqH0zGN39I1boxLvnBawg",
+        "datePublished": "2025-06-20T00:30:01.193Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/james-k-he_today-were-excited-to-introduce-the-artificial-activity-7513204817343889409-BEG6",
+        "name": "Today, we’re excited to introduce the Artificial Societies MCP: our customers can now run simulations and analyse results directly from Claude, ChatGPT, and other AI assistants.\n\nWhen we gave this to… | James He | 16 comments",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4E05AQGzJ_TZ-h7MjA/mp4-720p-30fp-crf28/B4EaERD8dgHwCQ-/0/1791287610718?e=2147483647&v=beta&t=AKCq5Fi9i71Fc4mrxKQ5hsfGuvMPf77y1z0sQ8MrqR8",
+        "author": {
+          "url": "https://uk.linkedin.com/in/james-k-he",
+          "name": "James He",
+          "image": "https://media.licdn.com/dms/image/v2/D4E03AQH8c09AKi5FUQ/profile-displayphoto-scale_200_200/B4EaCAZoaaH8Ak-/0/1788860600446?e=2147483647&v=beta&t=wXMPK3jzpL_wtmRRqObYdXipSnPei3dAsl0QXA8h0Jk",
+          "followers": 19399
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7513225322125774848",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7513204784808509440,7513225322125774848)",
+            "text": "Great to see the team cooking while I'm cooking at No. 10",
+            "author": "Tom Whittle",
+            "linkedinUrl": "https://uk.linkedin.com/in/tomwhittle",
+            "datePublished": "2026-10-06T13:15:05.771Z",
+            "reactionCount": 5,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7513242348613468160",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7513204784808509440,7513242348613468160)",
+            "text": "Ah there it is... nice work, heard so much, lets get it connected James He :)",
+            "author": "Gavin Alexander",
+            "linkedinUrl": "https://uk.linkedin.com/in/mrgavinalexander",
+            "datePublished": "2026-10-06T14:22:45.203Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7513238084927401984",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7513204784808509440,7513238084927401984)",
+            "text": "James He, I am a bit too excited for this! Great to see the platform go strength to strength.",
+            "author": "Dr. Mark Bloomfield",
+            "linkedinUrl": "https://uk.linkedin.com/in/drmarkbloomfield",
+            "datePublished": "2026-10-06T14:05:48.661Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7513234319881080832",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7513204784808509440,7513234319881080832)",
+            "text": "Amazing pace of product launches. Well done Artificial Societies",
+            "author": "Raja Saggi",
+            "linkedinUrl": "https://uk.linkedin.com/in/rajasaggi",
+            "datePublished": "2026-10-06T13:50:51.004Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7513232842802405378",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7513204784808509440,7513232842802405378)",
+            "text": "Congrats! Massive",
+            "author": "Sam de Bruin",
+            "linkedinUrl": "https://uk.linkedin.com/in/sam-de-bruin1",
+            "datePublished": "2026-10-06T13:44:58.841Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7513230096367796224",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7513204784808509440,7513230096367796224)",
+            "text": "Lola Hylander",
+            "author": "Nicholas Price",
+            "linkedinUrl": "https://uk.linkedin.com/in/nicholas-a-price",
+            "datePublished": "2026-10-06T13:34:04.040Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7517873348815773697",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7513204784808509440,7517873348815773697)",
+            "text": "a wonderful, fundamental step. Kudos",
+            "author": "Nicholas H. Kirk",
+            "linkedinUrl": "https://it.linkedin.com/in/nicokirk/en",
+            "datePublished": "2026-10-19T09:04:41.691Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7513224859213062146",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7513204784808509440,7513224859213062146)",
+            "text": "congrats to the team!",
+            "author": "Harshita Singhal 📩",
+            "linkedinUrl": "https://in.linkedin.com/in/harshitasinghalofficial",
+            "datePublished": "2026-10-06T13:13:15.405Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7513418343307964417",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7513204784808509440,7513418343307964417)",
+            "text": "Very cool. Huge leap for decision making. Exciting times ahead James.",
+            "author": "Charles Canning-Smith",
+            "linkedinUrl": "https://au.linkedin.com/in/charles-canning-smith-437a254a",
+            "datePublished": "2026-10-07T02:02:05.607Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          }
+        ],
+        "likeCount": 132,
+        "contentUrn": "urn:li:ugcPost:7513204784808509440",
+        "uploadDate": "2026-10-06T11:53:37.049Z",
+        "activityUrn": "urn:li:activity:7513204817343889409",
+        "description": "Today, we’re excited to introduce the Artificial Societies MCP: our customers can now run simulations and analyse results directly from Claude, ChatGPT, and other AI assistants.\n\nWhen we gave this to a customer’s research team, it feels like they were unleashed.\n\nTheir agents simulated 1000s of enterprise buyers, asked 100s of survey questions to test out different strategies, validated with follow-up interviews and deep-dive focus groups, then iterated the winning strategies to make sure they land right with key segments.\n\nWith human research, this would cost millions and take months.\n\nBut with the Artificial Societies MCP, they did all of this in a day.\n\nYes, hundreds of thousands of responses, each with in-depth qualitative verbatim, plus hours of interviews and focus group transcripts. All designed, fielded, and analysed in one day.\n\nI think this is the future of decisions: the best decision makers and advisors would be powered by an instant density of insights, and augment their judgement to move faster than anyone else.\n\nAnd with the Radiant MCP, that future is already here.",
+        "commentCount": 16,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQGzJ_TZ-h7MjA/videocover-high/B4EaERD8dgHwBU-/0/1791287610300?e=2147483647&v=beta&t=nt8EeDlifjuX7UA9wQ0yR2u8frNjH0qVKMbg5vS3bmk",
+        "datePublished": "2026-10-06T11:53:37.049Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/tigransloyan_ai-gobeyond-activity-7384268167570866176-Fm-A",
+        "name": "#ai #gobeyond | Tigran Sloyan | 16 comments",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5605AQFMsDeFKTV8Aw/mp4-720p-30fp-crf28/B56ZnowgJzJwBk-/0/1760546719847?e=2147483647&v=beta&t=ZyS8bvMgiGjplRbZprzYMGxce32wQeYpn6i1dESedvY",
+        "author": {
+          "url": "https://www.linkedin.com/in/tigransloyan",
+          "name": "Tigran Sloyan",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQGtm56JuUdAxQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1676653344722?e=2147483647&v=beta&t=cwvpOfQJCT0qRkfZ4pQ5lKsWZeVsnZErYzz-Y1XDPY8",
+          "followers": 30029
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7394342718946086912",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7384267869414629376,7394342718946086912)",
+            "text": "Love this!",
+            "author": "Corey Twitty",
+            "linkedinUrl": "https://www.linkedin.com/in/coreytwitty",
+            "datePublished": "2025-11-12T11:58:04.442Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7384282077220859907",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7384267869414629376,7384282077220859907)",
+            "text": "This is fantastic! Bridging HBR knowledge with AI practice is exactly what modern learning needs. Transforming theory into mastery through Cosmo sounds like a game, changer.",
+            "author": "Olivia Parkes",
+            "linkedinUrl": "https://www.linkedin.com/in/olivia-parkes-b9b015187",
+            "datePublished": "2025-10-15T17:40:40.537Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7430494460402282496",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7384267869414629376,7430494460402282496)",
+            "text": "If memory permits it would be great to increase the model knowledge base for the user across all of the courses taken on a platform. This way for the code base courses (and prob others too) it would be less generic and less redundant.  Great product though 👏🏻",
+            "author": "Yanina Miller 🇺🇦🇺🇸",
+            "linkedinUrl": "https://www.linkedin.com/in/yaninamiller",
+            "datePublished": "2026-02-20T06:12:11.271Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "9mo"
+          },
+          {
+            "id": "7399758800406114304",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7384267869414629376,7399758800406114304)",
+            "text": "HBR content is top-tier but you're right that the application gap has always been huge. Turning those insights into actual practice with feedback is exactly what's been missing.",
+            "author": "Juzer Dhuliawala",
+            "linkedinUrl": "https://in.linkedin.com/in/juzerdhuliawala",
+            "datePublished": "2025-11-27T10:39:38.888Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "12mo"
+          },
+          {
+            "id": "7387625996641935360",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7384267869414629376,7387625996641935360)",
+            "text": "congratulations Tigran! amazing to see what you and CodeSignal continue to achieve!",
+            "author": "Neeti Chokshi-Gupta",
+            "linkedinUrl": "https://www.linkedin.com/in/neetichokshi",
+            "datePublished": "2025-10-24T23:08:13.053Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7387215421738852352",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7384267869414629376,7387215421738852352)",
+            "text": "💯 This is a powerful evolution. It's one thing to read about leadership and to practice it. CodeSignal's approach makes that transformation real.",
+            "author": "Steve Awtrey, PCC",
+            "linkedinUrl": "https://www.linkedin.com/in/stephenawtrey",
+            "datePublished": "2025-10-23T19:56:44.368Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7386876493500440577",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7384267869414629376,7386876493500440577)",
+            "text": "Awesome stuff Tigran, complete game changer.",
+            "author": "Craig Gilford",
+            "linkedinUrl": "https://www.linkedin.com/in/cgilford",
+            "datePublished": "2025-10-22T21:29:57.580Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7385934967840690176",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7384267869414629376,7385934967840690176)",
+            "text": "Enjoy following your success, Tigran jan :)",
+            "author": "Karine Hunanyan",
+            "linkedinUrl": "https://am.linkedin.com/in/karine-hunanyan-ai-product-manager",
+            "datePublished": "2025-10-20T07:08:40.370Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7384533338046406656",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7384267869414629376,7384533338046406656)",
+            "text": "Tigran Sloyan great initiative . Congratulations.",
+            "author": "Hagop Aynedjian",
+            "linkedinUrl": "https://ae.linkedin.com/in/hagop-aynedjian-b20b2b10",
+            "datePublished": "2025-10-16T10:19:05.786Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7384457217103790081",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7384267869414629376,7384457217103790081)",
+            "text": "Your content and the way you present it is among my top 10! 👏🏻 And generally, the innovation CodeSignal brings to life! Congrats Tigran Sloyan",
+            "author": "Inessa Manukyan",
+            "linkedinUrl": "https://ca.linkedin.com/in/inessa-manukyan",
+            "datePublished": "2025-10-16T05:16:37.139Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1y"
+          }
+        ],
+        "likeCount": 1301,
+        "contentUrn": "urn:li:ugcPost:7384267869414629376",
+        "transcript": "It was almost exactly 10 years ago we had raised seed funding for Code Signal, hired the core team, and I found myself needing to up level my management and leadership skills. Overtime and with many experiments, the HBR books became one of my favorite resources to go to to upgrade my skills. Just like with many other books though, I would read them, get excited about the knowledge and techniques, but then wonder how do I turn this knowledge into skills? Fast forward a decade and I'm here to share with you. That we've partnered with Harvard Business Publishing to bring their amazing books to life with Cozmo. Similar to other courses in Code Signal, you start with bite size lessons that come directly from the HPR books you read, Reflect, ask Cosmo any clarifying questions, and then you start practicing. From writing conflict resolution emails to your simulated team to negotiating with your business counterparts through role play with our AI agents, you get to turn all the HR knowledge. Into a lifelong business. Skills through practice and repetition. But just open practice is not enough to build lasting skills. You also need feedback on what you've done well and what needs improvement. And this is where Cosmo, our AI mentor, comes into play. He has contextual understanding of your skills and your learning journey so far, which enables him to personalize every piece of feedback to your specific needs. With Ted A, WS and now HBR is our content. Partners, we're grateful and excited to be working with so many amazing brands to build the future of hands on and mastery focused learning.",
+        "uploadDate": "2025-10-15T16:45:24.188Z",
+        "activityUrn": "urn:li:activity:7384268167570866176",
+        "description": "Ten years ago, I was diving deep into HBR books to grow as a leader—but I often found myself wondering how to turn that knowledge into real skills.\n\nToday, I’m thrilled to share that CodeSignal has partnered with Harvard Business Publishing to bring those very books to life with our AI-native learning platform!\n\nNow, learners can explore bite-sized lessons from HBR, practice through realistic role plays and simulations, and receive personalized feedback from Cosmo—transforming knowledge into mastery through hands-on practice and feedback.\n\nWith partners like TED, AWS, and now HBR, we’re building the future of hands-on, mastery-focused learning.\n\n#AI #GoBeyond",
+        "commentCount": 16,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQFMsDeFKTV8Aw/videocover-high/B56ZnowgJzJwB8-/0/1760546705348?e=2147483647&v=beta&t=8P7VODAWY2zYwhNXbJOfH2rcVQmqaC7BPf9hBHbLLhk",
+        "datePublished": "2025-10-15T16:45:24.188Z"
+      }
+    ],
+    "query": "AI roleplay negotiation training simulation",
+    "cursor": "2",
+    "success": true
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00188",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:42:46.982Z",
+  "started_at": "2026-11-23T07:42:47.547Z",
+  "completed_at": "2026-11-23T07:42:58.137Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

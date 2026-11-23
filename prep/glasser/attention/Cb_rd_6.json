@@ -1,0 +1,299 @@
+{
+  "id": "71f8b8bd-8b13-4136-b7dd-868c5cbc6e21",
+  "run_url": "https://app.glasser.ai/runs/71f8b8bd-8b13-4136-b7dd-868c5cbc6e21",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "AI coach feedback simulation training human",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "large_result: this response is ~19 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge. paging_unavailable: this result came from a source that cannot return a nextCursor, so it may be incomplete and there is no way to continue from here. Re-run with `requireFields: [\"nextCursor\"]` to be served only by a source that can page, which may cost more per request.",
+    "items": 7,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1rbez5t",
+            "url": "https://www.news18.com/world/training-a-human-takes-20-years-of-food-sam-altman-on-how-much-power-ai-consumes-ws-kl-9922309.html",
+            "nsfw": false,
+            "media": [],
+            "score": 46934,
+            "title": "\"Training a human takes 20 years of food.\" Sam Altman on how much power AI consumes.",
+            "author": "asdacool",
+            "authorId": "15trp3",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/nottheonion/comments/1rbez5t/training_a_human_takes_20_years_of_food_sam/",
+            "subreddit": "nottheonion",
+            "createdUtc": 1771743272,
+            "isArchived": false,
+            "numComments": 4142
+          },
+          {
+            "id": "1x0lnvs",
+            "url": "https://i.redd.it/mex18aw0f7uh1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/mex18aw0f7uh1.jpeg?auto=webp&s=140a97ec5ee45a9c2d70af89113bf41d0cb7d13b",
+                "type": "photo",
+                "width": 1080,
+                "height": 1078
+              }
+            ],
+            "score": 35327,
+            "title": "One of the saddest thing I've ever read on the bird app....",
+            "author": "inoriacc",
+            "authorId": "4wyx6g4b",
+            "isLocked": false,
+            "selftext": "AIbros sure are all sociopaths. These people will automate all things that makes human human and then call it innovation. ",
+            "permalink": "/r/antiai/comments/1x0lnvs/one_of_the_saddest_thing_ive_ever_read_on_the/",
+            "subreddit": "antiai",
+            "createdUtc": 1791448579,
+            "isArchived": false,
+            "numComments": 1732
+          },
+          {
+            "id": "1wfuerk",
+            "url": "https://i.redd.it/e3zsw9km7fph1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/e3zsw9km7fph1.jpeg?auto=webp&s=2776669d03253dfbcb8933d8fbc87da611309bd4",
+                "type": "photo",
+                "width": 3000,
+                "height": 4000
+              }
+            ],
+            "score": 33644,
+            "title": "I fired my therapist because she told me to use AI",
+            "author": "infernalposting",
+            "authorId": "47hdjkc7",
+            "isLocked": true,
+            "selftext": "Dinner is trader joes pumpkin gnocchi with butter and pesto, cucumber and tomato salad, and pumpkin sugar cookies (also TJ's). Sadly only got a picture of the pasta. \n\nI have bipolar 1, and recently started seeing a therapist for the first time in over a year. I have been taking my meds and seeing psychiatrists ever since my diagnosis, but I have only intermittently gone to therapy. \n\nWith my most recent therapist, during our very first session she encouraged me to download an AI app to \"talk about my feelings\". I was hoping this was a one off so I kept seeing her. \n\nThen, she sent me a summary of some tools for tracking my bipolar that reeked of AI. Emojis, emdashes, everything. Again, I thought maybe she was just using it to organize her thoughts or maybe I was wrong. \n\nDuring our last session, we did this exercise that felt very rote and weird. I noticed her constantly reading off the computer screen (fair, she could be referencing notes she prepared). But everything felt canned and generic. At the very end of the call, she again encouraged me to \"talk\" with an AI to help manage my disorder. We only had like a minute left of the session so I just said goodnight and left. \n\nIt feels so irresponsible to recommend this as a therapeutic modality to someone who struggles with delusion and psychosis. The risk of falling back into psychosis is not something I take lightly, and I don't want to talk to a machine that will always affirm me. So I sent her an email and cancelled the rest of our appointments. She replied that everything she used was \"HIPAA compliant\" which in my mind affirms that she was using it during our sessions. \n\nI feel good about this decision, but also guilty. I felt like I connected really well with her on a human level, but goddamn I don't want all my innermost thoughts being used to train a machine and possibly involved in some data breach down the line. I am also worried that this could be the beginnings of mania since it felt like a rash decision. I emailed my psych to see if we could do a check in before my appointment later this month to make sure I am still on track. ",
+            "permalink": "/r/GirlDinnerDiaries/comments/1wfuerk/i_fired_my_therapist_because_she_told_me_to_use_ai/",
+            "subreddit": "GirlDinnerDiaries",
+            "createdUtc": 1789363250,
+            "isArchived": false,
+            "numComments": 162
+          },
+          {
+            "id": "1ugcskt",
+            "url": "https://i.redd.it/l6e7ayu9tn9h1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/l6e7ayu9tn9h1.jpeg?auto=webp&s=76cdaa28a1331d3a144410a37fd73691a5e52a73",
+                "type": "photo",
+                "width": 3024,
+                "height": 4032
+              }
+            ],
+            "score": 27103,
+            "title": "Didn’t get the job - meaning I can date the interviewer",
+            "author": "moonboot0",
+            "authorId": "43fqjatx",
+            "isLocked": false,
+            "selftext": "Got down to the final two out of hundreds of candidates for this job I really wanted, and they called me up yesterday to tell me they’re going with the other person, that it was incredibly close, and that they’re gonna offer me a training and feedback session. \n\nHowever I can’t lie, I have the biggest crush on the interviewer. He’s Irish and I’m Aussie, and the two interviews we had were full of banter, he was even teasing me a little. It actually felt quite flirty. We got along very well and seemed to really connect, and I’ve been crushing from that first zoom call with him. \n\nI saw him on hinge the other night and of course I didn’t like, bc was still in the process. But if I can’t get the job, I won’t be going home empty handed. I’ve invested way too much effort. \n\nI’m gonna chuck him a like on hinge saying something like, no way you’d knock me back a second time OR how about you coach me over a drink? \n\nI know this is crazy guys but I have to do it for the plot. Who knows, maybe I wasn’t meant to get the job so I could meet this guy. \n\nAvo toast with feta. ",
+            "permalink": "/r/GirlDinnerDiaries/comments/1ugcskt/didnt_get_the_job_meaning_i_can_date_the/",
+            "subreddit": "GirlDinnerDiaries",
+            "createdUtc": 1782493818,
+            "isArchived": false,
+            "numComments": 916
+          },
+          {
+            "id": "1urzt3k",
+            "url": "https://i.redd.it/w8z98p1x59ch1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/w8z98p1x59ch1.jpeg?auto=webp&s=f5b0fcd0ad0b40b5870be71babe11989c3c0c0e2",
+                "type": "photo",
+                "width": 1125,
+                "height": 1778
+              }
+            ],
+            "score": 19984,
+            "title": "AI is a janky thief masquerading as \"intelligent\".",
+            "author": "Star-Connection",
+            "authorId": "k04ackr1",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/MurderedByWords/comments/1urzt3k/ai_is_a_janky_thief_masquerading_as_intelligent/",
+            "subreddit": "MurderedByWords",
+            "createdUtc": 1783624009,
+            "isArchived": false,
+            "numComments": 341
+          },
+          {
+            "id": "1wl21gv",
+            "url": "https://www.reddit.com/gallery/1wl21gv",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/82snm617jkqh1.jpg?width=1280&format=pjpg&auto=webp&s=6acda3dd010ff65f7bcbf9c5ff78311653458e27",
+                "type": "photo",
+                "width": 1280,
+                "height": 720
+              },
+              {
+                "url": "https://preview.redd.it/q0n0p617jkqh1.jpg?width=1024&format=pjpg&auto=webp&s=f20a0c2f2e3c15a2293bd353516ca2e6912a9a24",
+                "type": "photo",
+                "width": 1024,
+                "height": 576
+              },
+              {
+                "url": "https://preview.redd.it/utp6pm07jkqh1.jpg?width=1200&format=pjpg&auto=webp&s=311e37e76ed36898062fa178d9619682557c1e00",
+                "type": "photo",
+                "width": 1200,
+                "height": 675
+              },
+              {
+                "url": "https://preview.redd.it/5rnm2817jkqh1.jpg?width=720&format=pjpg&auto=webp&s=0ff4cdc1113f1a4170d61c9683d3d52aca35f04a",
+                "type": "photo",
+                "width": 720,
+                "height": 948
+              },
+              {
+                "url": "https://preview.redd.it/8h1h7r07jkqh1.jpg?width=600&format=pjpg&auto=webp&s=557ebecccd39b4faadf82a25a7617596d47bc5f5",
+                "type": "photo",
+                "width": 600,
+                "height": 308
+              }
+            ],
+            "score": 16664,
+            "title": "Advanced aliens didn't invent/discover this one basic thing.",
+            "author": "HotUKTakes",
+            "authorId": "2g72o13ms4",
+            "isLocked": false,
+            "selftext": "1. The Santi, from The Three Body Problem, are masters of dimensional engineering. They can build an AI computer the size of a planet, and fold it into the size of a photon.\n\nBut they never invented the concept of lying.\n\n  \n2. The Asgard, from Stargate, are an advanced civilization with FTL travel capable of spanning different galaxies. But they need the help of humans to fight their enemies the replicators, a mechanical lifeform comprised of replicating lego blocks, because human guns can blow the blocks apart, while Asgard energy weapons are just absorbed.\n\n  \nThe Asgard say the idea to use chemical reactions to launch a blunt object at high velocity never occured to them. \n\n  \n3. Despite having the ability to build a simulated beach, complete with simulated earth atmosphere, The Eridians didn't discover relativity and radiation.\n\n4. The aliens from War of the worlds just lick everything, clearly having no concepts of germs. Which is what kills them in the end.\n\n  \n5. Despite having FTL travel, the Havesters from Independence day, never invented network security, as they are hacked by a human macbook.\n\n  \n",
+            "permalink": "/r/TopCharacterTropes/comments/1wl21gv/advanced_aliens_didnt_inventdiscover_this_one/",
+            "subreddit": "TopCharacterTropes",
+            "createdUtc": 1789863529,
+            "isArchived": false,
+            "numComments": 1882
+          },
+          {
+            "id": "1wdrhsp",
+            "url": "https://www.reddit.com/gallery/1wde5i4",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/6caymew6rvoh1.png?width=1200&format=png&auto=webp&s=793f6e3aeccab0e882c9bf199b99259c736dadb2",
+                "type": "photo",
+                "width": 1200,
+                "height": 1200
+              },
+              {
+                "url": "https://preview.redd.it/04ptmgw6rvoh1.png?width=1200&format=png&auto=webp&s=1b13e6ebef25c7ba6198ab43e8afe4082d9fdbc5",
+                "type": "photo",
+                "width": 1200,
+                "height": 1200
+              },
+              {
+                "url": "https://preview.redd.it/90gjiew6rvoh1.png?width=1200&format=png&auto=webp&s=e85a877001b0d62d5a3643fd6555a6b8bd009033",
+                "type": "photo",
+                "width": 1200,
+                "height": 1200
+              },
+              {
+                "url": "https://preview.redd.it/7va52gw6rvoh1.png?width=1200&format=png&auto=webp&s=747e83437a5294315252bd9d83ad969e001fbec0",
+                "type": "photo",
+                "width": 1200,
+                "height": 1200
+              },
+              {
+                "url": "https://preview.redd.it/81zvrdw6rvoh1.png?width=1200&format=png&auto=webp&s=c88f530c75c90ea381dd94edb98ca44011bdcf2d",
+                "type": "photo",
+                "width": 1200,
+                "height": 1200
+              },
+              {
+                "url": "https://preview.redd.it/z4ta1gw6rvoh1.png?width=1200&format=png&auto=webp&s=8669f2fe8a094c0c2a884f572bbfb7e0bb44faa0",
+                "type": "photo",
+                "width": 1200,
+                "height": 1200
+              },
+              {
+                "url": "https://preview.redd.it/tx41ddw6rvoh1.png?width=1200&format=png&auto=webp&s=4f44c40f665eb5bf66311919a2171819d8021c24",
+                "type": "photo",
+                "width": 1200,
+                "height": 1200
+              },
+              {
+                "url": "https://preview.redd.it/fa21uew6rvoh1.png?width=1200&format=png&auto=webp&s=42ca3844ef44e95a741894ce892280148b402dc5",
+                "type": "photo",
+                "width": 1200,
+                "height": 1200
+              },
+              {
+                "url": "https://preview.redd.it/bxdwiew6rvoh1.png?width=1200&format=png&auto=webp&s=bfaa0af5359dd1a8a29f0f5f07f6e9ab05e8cd53",
+                "type": "photo",
+                "width": 1200,
+                "height": 1200
+              },
+              {
+                "url": "https://preview.redd.it/l7v4pew6rvoh1.png?width=1200&format=png&auto=webp&s=783101e563f3049cd4b327d84fb633c8c0a32e8c",
+                "type": "photo",
+                "width": 1200,
+                "height": 1200
+              },
+              {
+                "url": "https://preview.redd.it/47fi6ew6rvoh1.png?width=1200&format=png&auto=webp&s=3f12baf0b9043f805b2bacdb2ebdb515cbc931d2",
+                "type": "photo",
+                "width": 1200,
+                "height": 1200
+              },
+              {
+                "url": "https://preview.redd.it/a2m30fw6rvoh1.png?width=1200&format=png&auto=webp&s=493d23d0080114286ef0695c3bd6409579e87e4f",
+                "type": "photo",
+                "width": 1200,
+                "height": 1200
+              }
+            ],
+            "score": 14714,
+            "title": "I hate whatever the fuck this is, with my entire soul",
+            "author": "coolfunkDJ",
+            "authorId": "ajcc5",
+            "isLocked": false,
+            "selftext": "This sub has always been a shithole but it seems like even the comments realize how evil and disgusting this comic is.\n\nShe draws her boyfriend as some sort of caricature who’s short and chubby and with exaggerated features, and publicly shames him for everyone to see. She describes him as the “only viable option” and draws him with a dumb face mispronouncing “I love my girlfriend.”\n\nThis is just absolutely disgusting, she drew 12 pages of this and decided to upload it to the internet instead of just breaking up with him. And she then thought it was a good idea to post it? That tells me everything I need to know about this fucking asshole.\n\nI’ll gladly take PizzaCake over anything of this sort again. I guess she’s right, no one else would wanna date her, because she’s an entitled terrible person. Gah. I need a cold shower.\n\nEDIT: Oh my god the response from the mod is even better, I don't even need to say anything because honestly the joke writes itself here.\n\n>\"All right class, today we're going to have a little lesson in having empathy, because this comment section seems to be struggling with it.\n\n>The girl in this comic is struggling to work through and express complex emotions that she has only begun to examine. Remember, nobody is wrong for having feelings. When someone is working out how they feel about a touchy subject, it can take a lot of rumination to even figure out how you really feel about something and why, especially if the subject is taboo. The person might end up going down trains of thought that they ultimately decide don't quite fit, just to see what feels right. Self-reflection is a very healthy activity when you are having complex emotions. It can be extremely vulnerable to share the kinds of thoughts you have during these times, and people should be applauded for their emotional honesty when they do spell out frankly what they've been thinking.\n\n>It's a natural part of human life to start to realize you might be in a relationship that isn't a good fit for you. Just because there's nothing technically *wrong* in the relationship (i.e. he doesn't hit you), that doesn't mean the relationship is *right*, either. Things can be going pretty much all good, and yet the spark isn't there for some reason. Little things just feel off, but the more you think about those little things, the more you realize those are an important part of a good relationship for you, and you need those little things fixed to feel truly loved and appreciated.\n\n>But it can be hard for people, especially women, to feel comfortable admitting to themselves that those little things justify breaking up with someone. They'll dismiss those little things as trivial, because so often those little things are markers of respect and admiration that women tend to be denied by society at large from the time that they are little girls. Things like having others treat your feelings and opinions as valuable and worth consideration.\n\n>In most cultures in the world, women are socialized to be emotional caretakers and supporters of men, not the other way around. Men are socialized to present their thoughts with confidence; they are raised to feel like they deserve to be listened to. Women are socialized to be the listeners.\n\n>We see this reflected in so many aspects of society. [One clear and easy example of how this socialization manifests is that in the workplace, men tend to dominate conversations while women tend to be more reserved in offering their opinions -- and yet when you ask people to evaluate how much people of either gender were speaking during a meeting, women are often *perceived* to have been dominating the conversation, despite the measurable reality to the contrary.](https://medium.com/swlh/speaking-up-the-double-bind-of-womens-voices-in-business-592b0b56732c)\n\n>There's also [the Matilda Effect](https://en.wikipedia.org/wiki/Matilda_effect) to consider -- the tendency for women's contributions and achievements to be attributed to their male colleagues. [This isn't something that men do intentionally, but rather the product of socialization -- men being encouraged to speak up, while women are encouraged to wait their turn. Men being encouraged to *direct* a team with clear *instructions*, but women encouraged to *guide* a team through her offered *suggestions.*](https://www.forbes.com/sites/womensmedia/2012/12/03/womens-ideas-do-men-intentionally-steal-them/)\n\n>So it can be difficult for women to overcome their socialization and feel like they actually deserve to have their thoughts and feelings considered. And similarly, it can be difficult for men to overcome their socialization and recognize that they aren't putting any effort into listening to and respecting the thoughts and feelings of the women around them.\n\n>Now let's take this a step further. Let's take these issues and examine them as they manifest in an overall pleasant but imperfect romantic relationship. Now we see a man who does not even recognize that he never asks his girlfriend about her thoughts and feelings, and we see a girl who *wants* to have her opinion valued, but she isn't even sure if she *deserves* to expect her partner to listen to her thoughts without her asking. That's not inherently toxic or unfixable. That doesn't make him evil or abusive or even a bad boyfriend for not recognizing a small fault in himself that is a result of a pretty standard upbringing.\n\n>It also doesn't make her a bad person for starting to grow in her own self-worth to the point that she starts to want her partner to value her opinions.\n\n>Many couples who find themselves in this situation will indeed be able to help each other grow and change to fix this kind of issue, with a bit of work and healthy communication, if they are both equally invested in improving the relationship together.\n\n>But then we get to another question: Does it need to be her job to fix him?\n\n>For some women, the answer will be yes, I love my boyfriend, and if he can work on this for me, then I'm willing to work on it with him. I don't mind.\n\n>But for some other women, maybe the stronger answer, the answer that affords them more personal growth and self-actualization, is to say no.\n\n>It's not my job to teach a man how to listen to me. It's not my job to teach a man how to value me. And I deserve a man who values my opinion in the first place.\n\n>Because a woman is worth more than just what she does for a man. A man should want to be with her because of who she is, not just because she's there to support and love him without having needs of her own.\n\n>We don't know where the girl in this comic is going to land on this issue. She needs to figure that out for herself. But whatever she chooses, she is more empowered in her choice because she took the time to consider her own needs, wants, feelings, and values beyond what society tells her she should expect or deserve.\n\n>She's not a bad person for considering whether this relationship is fulfilling her needs, any more than her boyfriend is a bad boyfriend for not recognizing that her needs are going unmet when she hasn't yet communicated them. And when she makes her choice to either stay and try to fix him, or leave and find someone else that doesn't need coaching, neither of those decisions will make her a bad person, either.\n\n>We will be cleaning up comments in this thread that lack empathy for the woman in this comic, especially where they become vitriolic. We are currently being brigaded by many inflammatory users with no prior posting or comment history in this subreddit, and those users' comments will be subject to an even stricter scrutiny than our typical good faith users' comments. If you receive a ban, consider talking the issue out with us in modmail. Some of us mods might see something in you that says we can help you learn and grow.\n\n>Some of us may decide that it's not our job to fix you.\"\n\nGuys is it anti women to critique drawing your significant other as a Chudjak? Please discuss this totally serious argument in the comments below /s\n\nI was also banned for \"organizing a harassment campaign\" btw, harassment is definitely the same thing as criticizing a publicly available post that everyone can see! I wonder if the good mods over at r/comics feel the same about posts that *they* happen to dislike instead.",
+            "permalink": "/r/ihatethissmug/comments/1wdrhsp/i_hate_whatever_the_fuck_this_is_with_my_entire/",
+            "subreddit": "ihatethissmug",
+            "createdUtc": 1789157861,
+            "isArchived": false,
+            "numComments": 1894
+          }
+        ],
+        "nextCursor": "cur_Xnwtr1W0RnXs4bzLg0ANdg"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-giraffe-5e3cbaa1",
+      "kind": "anonymous",
+      "name": "Giraffe",
+      "artworkKey": "giraffe"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00034",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:41:42.077Z",
+  "started_at": "2026-11-23T07:41:42.143Z",
+  "completed_at": "2026-11-23T07:41:43.742Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

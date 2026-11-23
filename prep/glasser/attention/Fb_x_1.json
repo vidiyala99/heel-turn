@@ -1,0 +1,641 @@
+{
+  "id": "05ce8520-8070-4fa1-8cc4-abcdc45bbc9c",
+  "run_url": "https://app.glasser.ai/runs/05ce8520-8070-4fa1-8cc4-abcdc45bbc9c",
+  "provider": "anyapi",
+  "endpoint": "/twitter.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "limit": 20,
+    "query": "\"AI actors improvise scene\" OR (AI actors improvise scene) since:2025-11-22 filter:videos min_faves:5",
+    "queryType": "Top"
+  },
+  "output": {
+    "hint": "malformed_query: X search ANDs adjacent bare words and binds OR tighter, so these operators after an unbracketed OR list applied to its last alternative only: [since:2025-11-22, filter:videos, min_faves:5]. Send this instead: (\"AI actors improvise scene\" OR (AI actors improvise scene)) since:2025-11-22 filter:videos min_faves:5 large_result: this response is ~37 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 20,
+    "output": {
+      "data": {
+        "items": [
+          {
+            "id": "2124206769962459529",
+            "url": "https://x.com/Skylar_/status/2124206769962459529",
+            "lang": "en",
+            "text": "hollywood is cooked. in 2023 will smith eating spaghetti looked like a fever dream. in 2026 it looks like a scene from a real movie.\n\n5.4k likes. 2.2M views. 55 seconds\n\nkling 3.0 inside @Picsart https://picsart.go.link/faNX7\n\nthe same idea, year by year. 2023 is melting faces and pasta flying everywhere. 2024 the face holds but the fork does not. 2026 is a rooftop lunch with two actors, actual dialogue, a city skyline and pasta that behaves like pasta\n\nwhy it lands:\n\n> everyone remembers the 2023 version, so the jump hits instantly\n> one subject across every year, so the only thing that changes is the model\n> 2026 has dialogue and lip sync, not just a face\n> the year labels at the top do all the storytelling\n> 55 seconds and you watched the whole history of ai video\n\nthe spaghetti test went from the joke that proved ai video was bad to the benchmark everyone checks first\n\npick one prompt, run it on every new model, post the side by side",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124206625233731584/img/5KjRuehLLUqGGP9Y.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124206625233731584/vid/avc1/1080x1920/Qbt4AE1rq_3Hyf8s.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "16597471",
+            "likeCount": 30,
+            "viewCount": 2876,
+            "authorName": "SKY",
+            "createdUtc": 1795285334,
+            "quoteCount": 0,
+            "replyCount": 8,
+            "authorImage": "https://pbs.twimg.com/profile_images/2114389457499496448/Cvqh4hmX_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 0,
+            "bookmarkCount": 7,
+            "authorUsername": "Skylar_",
+            "authorVerified": true,
+            "conversationId": "2124206769962459529",
+            "authorFollowers": 30796
+          },
+          {
+            "id": "2123153179231830126",
+            "url": "https://x.com/SophiaAiExpert/status/2123153179231830126",
+            "lang": "en",
+            "text": "Imagine having full creative control over an AI generated movie scene. 🎬\n\nPika Enact is making that vision more interactive, allowing creators to reposition actors, reshape scenes, and control camera movements in real time.\n\nA fresh approach to AI filmmaking that could change how stories come to life. \n\nhttps://pika.art/blog/pika-enact?utm_source=x&utm_medium=caption&utm_campaign=261118-pika_enact&utm_content=sophiaaiexpert&utm_term=post&utm_id=b56b0cc3-00a6-4f95-8092-fe5a5087cb87",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123152678113185792/img/NreP_tOKvL2Eg4T0.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123152678113185792/vid/avc1/3840x2160/D6j1VGppP3ErgsRU.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2080701318747082752",
+            "likeCount": 203,
+            "viewCount": 28569,
+            "authorName": "Sophia AI & Tool Expert",
+            "createdUtc": 1795034138,
+            "quoteCount": 0,
+            "replyCount": 22,
+            "authorImage": "https://pbs.twimg.com/profile_images/2094756793662742528/u1eUvTz__normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 39,
+            "bookmarkCount": 1,
+            "authorUsername": "SophiaAiExpert",
+            "authorVerified": true,
+            "conversationId": "2123153179231830126",
+            "authorFollowers": 96170
+          },
+          {
+            "id": "2123127584342921652",
+            "url": "https://x.com/pika_labs/status/2123127584342921652",
+            "lang": "en",
+            "text": "Today, we’re excited to share Enact, a research preview of scenes that respond to you.\n\nEnact represents a new way of making AI video, one that’s designed to mimic the experience of directing on set. Built on Pika H3 Flex, it allows a creator to interact with “actors,” manually re-stage a scene, and manipulate the camera—all in real time.\n\nWe think this is the beginning of a new paradigm for creation. Read more and reach out for a demo below.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123127392667308032/img/rlmiKhvky1Tiu8k6.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123127392667308032/vid/avc1/1920x1080/xifqAEhMGgWCk7ic.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1650159466032271360",
+            "likeCount": 2232,
+            "viewCount": 605621,
+            "authorName": "Pika",
+            "createdUtc": 1795028036,
+            "quoteCount": 277,
+            "replyCount": 262,
+            "authorImage": "https://pbs.twimg.com/profile_images/2084681725800861696/_N_l4Le5_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 292,
+            "bookmarkCount": 1694,
+            "authorUsername": "pika_labs",
+            "authorVerified": false,
+            "conversationId": "2123127584342921652",
+            "authorFollowers": 152733
+          },
+          {
+            "id": "2123142372775399531",
+            "url": "https://x.com/Just_sharon7/status/2123142372775399531",
+            "lang": "en",
+            "text": "Pika just introduced AI video scenes that respond to you.\n\nPika Enact is a research experiment in live direction: reposition actors mid-scene with your mouse, talk to them conversationally, call “Action,” and control the camera while everything keeps playing.\n @pika_labs https://t.co/DSLZ1UE6JY",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123140151602016256/img/vlSeB9AHgFKXJVSa.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123140151602016256/vid/avc1/3840x2160/LebFoaG6hZYSqJ9A.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1516124892718002178",
+            "likeCount": 554,
+            "viewCount": 16833,
+            "authorName": "Sharon Riley",
+            "createdUtc": 1795031562,
+            "quoteCount": 0,
+            "replyCount": 33,
+            "authorImage": "https://pbs.twimg.com/profile_images/2095251203152347136/7FLjn--r_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 6,
+            "bookmarkCount": 351,
+            "authorUsername": "Just_sharon7",
+            "authorVerified": true,
+            "conversationId": "2123142372775399531",
+            "authorFollowers": 49283
+          },
+          {
+            "id": "2123245236155715920",
+            "url": "https://x.com/Nurakidah16/status/2123245236155715920",
+            "lang": "en",
+            "text": "This is starting to feel less like prompting a video model and more like directing a film. You can talk to your actors, adjust their performances, block the scene, and move the camera without starting over. Pika Enact makes the idea of an AI film set feel a lot more real. https://t.co/O2tX7G5vV9",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123245196901253120/img/WGwt1LXEF2DFwc_E.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123245196901253120/vid/avc1/832x480/rVjVhXH6E8Iy_9yk.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1166753727073509380",
+            "likeCount": 171,
+            "viewCount": 7345,
+            "authorName": "Nura Kidah ✨",
+            "createdUtc": 1795056086,
+            "quoteCount": 0,
+            "replyCount": 41,
+            "authorImage": "https://pbs.twimg.com/profile_images/2102104092751646720/lZ2Ha48r_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 1,
+            "bookmarkCount": 1,
+            "authorUsername": "Nurakidah16",
+            "authorVerified": true,
+            "conversationId": "2123245236155715920",
+            "authorFollowers": 13440
+          },
+          {
+            "id": "2123138921022595509",
+            "url": "https://x.com/I_amShiti/status/2123138921022595509",
+            "lang": "en",
+            "text": "AI video creation is moving beyond prompts. We're getting closer to actually directing scenes.\n\nPika Enact introduces a new way to interact with AI-generated videos. You can reposition actors and objects while the scene is playing, talk to actors and direct their dialogue or emotions, and control camera movements in real time.\n\nIt's like having a film set where you can direct, experiment, and reshape scenes as they unfold.\n\nThis is an exciting direction for the future of AI filmmaking.\n\n@pika_labs\n\n https://pika.art/blog/pika-enact?utm_source=x&utm_medium=caption&utm_campaign=261118-pika-enact-qrt&utm_content=i_amshiti&utm_term=post&utm_id=8c637519-a20d-42d3-8fdc-de88145c075a",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123138872900976640/img/wdC6Zfk87X72kZ6h.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123138872900976640/vid/avc1/832x480/_DI2tlJ27Y02OtA0.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1177640801767247874",
+            "likeCount": 1029,
+            "viewCount": 31462,
+            "authorName": "Kuria | AI",
+            "createdUtc": 1795030739,
+            "quoteCount": 1,
+            "replyCount": 45,
+            "authorImage": "https://pbs.twimg.com/profile_images/2036423514660708352/PtFecw86_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 153,
+            "bookmarkCount": 104,
+            "authorUsername": "I_amShiti",
+            "authorVerified": true,
+            "conversationId": "2123138921022595509",
+            "authorFollowers": 101755
+          },
+          {
+            "id": "2122752779898834958",
+            "url": "https://x.com/adam_james_hill/status/2122752779898834958",
+            "lang": "en",
+            "text": "A RAPTOR CAUGHT A HELICOPTER IN ITS JAWS ON A MOVIE SET. THE CAMERAS AND THE CREW FILMING IT ARE AI TOO\n\n4.2 million views. 60 seconds\n\nmade with seedance 2.5 inside @Picsart\n\na tour of a giant blue screen stage. a miniature jungle with a model helicopter, a raptor on a rock pillar snapping it out of the air. a scale city with water pouring through it. a swamp set where a crocodile lunges at two actors on a rope bridge while the camera crew keeps rolling. it ends on a spinosaurus under stage lights with broken gear on the floor\n\nwhy it works:\n\n• every set is a real filmmaking idea: miniatures, water tanks, blue screen, crane cameras\n• the crew in the foreground sells the scale, the monsters only look huge next to people\n• each scene escalates, so you watch the whole minute\n• it answers a question people already have: how do they film this stuff\n• nobody on screen is real, and that is the part people argue about\n\na real practical effects shoot like this is a studio, a rig team and a budget most films never get. here it is a few stills and one model\n\nto make one: one still per set, one shot per creature, cut them like a behind the scenes tour\n\nwould you have believed it was a real set if nobody told you?",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122751969496387584/img/qa3Bo8m66dcgKYct.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122751969496387584/vid/avc1/1080x1920/wdd-c51c7hyaXscv.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1926948787",
+            "likeCount": 72,
+            "viewCount": 569846,
+            "authorName": "Adam James Hill",
+            "createdUtc": 1794938676,
+            "quoteCount": 2,
+            "replyCount": 11,
+            "authorImage": "https://pbs.twimg.com/profile_images/1580962627093667840/QgSL5nQ__normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 7,
+            "bookmarkCount": 51,
+            "authorUsername": "adam_james_hill",
+            "authorVerified": true,
+            "conversationId": "2122752779898834958",
+            "authorFollowers": 12492
+          },
+          {
+            "id": "2122612361785724932",
+            "url": "https://x.com/TimesNow/status/2122612361785724932",
+            "lang": "en",
+            "text": "BJP releases an AI-generated video mocking Vijay’s newly formed TVK Cabinet. \n\nThe video recreates an iconic comedy-philosophical scene featuring veteran actors Shivaji Ganesan and Nagesh, with altered dialogues taking aim at the new ministers.\n\n@prathibhatweets takes us through the report.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122611641762361344/img/dZ38fLLo3JHhrOm7.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122611641762361344/vid/avc1/1280x720/6GYmGWuRqxGEUplC.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "240649814",
+            "likeCount": 4653,
+            "viewCount": 465228,
+            "authorName": "TIMES NOW",
+            "createdUtc": 1794905197,
+            "quoteCount": 105,
+            "replyCount": 169,
+            "authorImage": "https://pbs.twimg.com/profile_images/1354074536925388802/qkHhpnVw_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 1407,
+            "bookmarkCount": 544,
+            "authorUsername": "TimesNow",
+            "authorVerified": true,
+            "conversationId": "2122612361785724932",
+            "authorFollowers": 9839398
+          },
+          {
+            "id": "2122842480823632282",
+            "url": "https://x.com/Christos_antono/status/2122842480823632282",
+            "lang": "en",
+            "text": "one of the biggest obstacles in ai video is fine-grained control of what the actors do in a scene, and iterating on it.\n\nblocking the scene out in blender, then running video-to-video with a reference image for the look, has been done before. but it made every iteration ten times slower\n\nwe’ve removed that barrier by hosting blender in the cloud. now you can have agents building different scenes side by side, nailing every small detail, with full control of sequencing and timing",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122840313161293824/img/1VHfCRaYyzu3Y-kF.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122840313161293824/vid/avc1/1080x1214/nq6JpSfiEXkLS9n6.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1423763268997365768",
+            "likeCount": 177,
+            "viewCount": 13328,
+            "authorName": "Christos Antonopoulos",
+            "createdUtc": 1794960062,
+            "quoteCount": 0,
+            "replyCount": 17,
+            "authorImage": "https://pbs.twimg.com/profile_images/1986890011552448512/Xyx7sDoS_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 14,
+            "bookmarkCount": 227,
+            "authorUsername": "Christos_antono",
+            "authorVerified": true,
+            "conversationId": "2122842480823632282",
+            "authorFollowers": 1410
+          },
+          {
+            "id": "2122673132804710635",
+            "url": "https://x.com/isagi1000x/status/2122673132804710635",
+            "lang": "en",
+            "text": "THIS IS F**KING WILD. 🤯\n\nAn American creator reportedly made $10,725 in ONE MONTH running an AI-generated YouTube channel for kids.\n\nNo camera.\nNo animation experience.\nNo voiceover.\n\nOne of his Shorts hit 800K views.\n\nBut here's the really interesting part…\n\nHis entire content production workflow revolves around ONE PROMPT.\n\nHere's how he does it:\n\n1. OPENART — GENERATE THE VIDEO\n\nHe describes a 3D animated nursery scene, enters his prompt, and lets AI generate the visuals.\n\n2. LET AI HANDLE THE PRODUCTION\n\nNo complicated animation software. No professional editing skills. Just a prompt and an AI-generated render.\n\n3. CREATE SHORTS AND LONG-FORM CONTENT\n\nHe can generate Shorts and even longer videos of up to 5 minutes, giving him more ways to build his channel.\n\nAnd he actually demonstrated the entire process LIVE.\n\nThink about that.\n\nWhat once required animators, voice actors, editors and an entire production team can now be explored with an AI tool and a laptop.\n\nStudios like Cocomelon have massive teams behind their content.\n\nNow, independent creators can experiment with similar animated formats without building an entire studio.\n\nThe barrier to starting a faceless YouTube channel is getting ridiculously low.\n\nHe breaks down the full workflow in the video.\n\nSave this if you've been thinking about getting into YouTube automation. 👇",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122672840268824576/img/Dq39_QK3nE-b9jjz.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122672840268824576/vid/avc1/576x1024/LmjUiaM-3JICnD0U.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1903275142957932544",
+            "likeCount": 49,
+            "viewCount": 3354,
+            "authorName": "Isagii",
+            "createdUtc": 1794919686,
+            "quoteCount": 0,
+            "replyCount": 1,
+            "authorImage": "https://pbs.twimg.com/profile_images/2118034064078782464/d68V1P8n_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 8,
+            "bookmarkCount": 16,
+            "authorUsername": "isagi1000x",
+            "authorVerified": true,
+            "conversationId": "2122673132804710635",
+            "authorFollowers": 2478
+          },
+          {
+            "id": "2123150020262416446",
+            "url": "https://x.com/SaniAiTech/status/2123150020262416446",
+            "lang": "en",
+            "text": "AI video is no longer just about typing prompts and waiting for results.\n\nPika Enact introduces a completely different way to create.\n\nImagine directing your own AI movie set:\n\n→ Move characters while the scene is playing\n→ Speak to actors and change their performances\n→ Move the camera freely in real time\n→ Rehearse, give feedback, and call “Action”\n\nAll powered by Pika H3 Flex for instant responsiveness.\n\nFrom prompting scenes to directing them live. This is an exciting direction for AI filmmaking.\n\nhttps://pika.art/blog/pika-enact?utm_source=x&utm_medium=caption&utm_campaign=261118-pika_enact&utm_content=saniaitech&utm_term=post&utm_id=b56b0cc3-00a6-4f95-8092-fe5a5087cb87",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123144802414043136/img/tDSMx6XB9KK-ZhZl.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123144802414043136/vid/avc1/3840x2160/ozUWAtQm-WwhXqaL.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2024112218753900544",
+            "likeCount": 219,
+            "viewCount": 17783,
+            "authorName": "Sani Ai Tech",
+            "createdUtc": 1795033385,
+            "quoteCount": 0,
+            "replyCount": 18,
+            "authorImage": "https://pbs.twimg.com/profile_images/2062413323392647168/Vsz4abT4_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 33,
+            "bookmarkCount": 6,
+            "authorUsername": "SaniAiTech",
+            "authorVerified": true,
+            "conversationId": "2123150020262416446",
+            "authorFollowers": 31315
+          },
+          {
+            "id": "2122970847900209158",
+            "url": "https://x.com/sakibsahmed/status/2122970847900209158",
+            "lang": "en",
+            "text": "Went to the film premiere of Luca Guadagnino's ‘Artificial’ (OpenAI movie) in SF tonight. \nSharing notes on how the movie was made from the live Q&A with Luca and actors Andrew Garfield (Sam Altman), Monica Barbaro (Mira Murati) & Cooper Hoffman (Greg Brockman):\n\nLuca’s Vision\n-Luca: cinema is “like a lie that tells the truth”\n-Luca: “It’s never about the object, it’s always about the people. It’s not about AGI or AI, it’s about the conflict between worldview and way of being”\n-Core tension: Ilya’s idealism vs. the “brutality of the factual desire for prevailing”\n-Luca describes it as a “Shakespearean feud” that led to Sam Altman’s ousting and return in 2023\n-Andrew quoting Luca’s pitch: “this is a John Hughes movie. This is a high school screwball comedy, just with slightly higher stakes, mixed in with a little bit of Invasion of the Body Snatchers”\n\nShooting on and off location\n-San Francisco - the city is a protagonist, mirroring the shift from utopia to dystopia\n-Inspired by \"Philadelphia\" (film by Jonathan Demme) as a model for city-as-character\n-Coit Tower frescoes cited as an emblem of the city’s original utopian promise\n-Most corporate interiors built on a soundstage near Luca’s home in Italy (Luca acknowledged a budget constraint)\n\nPlaying Sam Altman\n-Andrew on Sam Altman: Key image is Sam as a ninja in a video game, collecting amulets of power undetected. \n-“You’re not aware that he [Sam] is putting you in a cage and leaving the key on the inside of the cage”\n-Sam’s gait and how he \"perches\": the seated posture (crisscross applesauce): “the way he [Sam] sat was tactical. Whether it’s conscious or not, again, is for us all to kind of debate”\n-On Sam’s relationship to truth, Andrew cited mythologist Michael Meade: when power comes into a space, “it’s very hard for truth to remain in that space as well”\n-Andrew playing Sam internally: “everything I say is for a greater purpose”\n-The Vanity Fair incident: Sam said on camera “we waved at each other”; Luca confirmed neither he nor Andrew was present for it\n\nPlaying Mira Murati & Greg Brockman\n-Monica on Mira Murati: “Intensely private,” which limited research but revealed character. \n-Mira grew up in communist Albania where education “was a kid’s sort of currency”\n-“She’s kind of always been a fish out of water”: young, a woman in tech, an immigrant\n-Mira and Ilya’s bond rooted in shared outsider status and idealism\n-Greg Brockman wedding anecdote: married at the OpenAI offices, Ilya officiated, a robot was the ring bearer. (but they didn't film this scene unfort)\n\nFilming the ChatGPT Breakthrough Scene (where it successfully beats a human player in a video game)\n-Luca’s approach: “freeze the moment instead of trim the moment”\n-Luca’s direction for the scene: “Put them in underwear”\n-Shot slowmo at 2,000 frames per second, “very few shots, like 2”\n-Background cast celebrating in slow motion; Sam and Ilya kept in real time. -This was a visual device to show they alone understood the magnitude of what was unleashed.\n-Andrew and Cooper practiced outside between setups in tighty-whities, spraying soda cans and champagne bottles\n-Limited takes because getting wet meant having to dry off and reset\n-Monica watched from the sidelines and described the intimate Andrew/Yura moment: “like they had just given birth to this new creation that they understood better than anyone else in the world how drastically this was going to change the face of humanity”.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/media/HXZOYM6bQAAEE_N.jpg",
+                "type": "photo"
+              },
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122970451882455040/img/W_C1HP8gD2VF9WBZ.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122970451882455040/vid/avc1/1080x1920/-aUvXGZxfWUhmikj.mp4?tag=29"
+              },
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122970451890823168/img/A0DOIavmcCq1MNXI.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122970451890823168/vid/avc1/1080x1920/icYA-MVJwwXZMOlZ.mp4?tag=29"
+              },
+              {
+                "url": "https://pbs.twimg.com/media/HXZOYMSbgAA7wLS.jpg",
+                "type": "photo"
+              }
+            ],
+            "isReply": false,
+            "authorId": "97739467",
+            "likeCount": 34,
+            "viewCount": 2906,
+            "authorName": "sakib (piercing star)",
+            "createdUtc": 1794990667,
+            "quoteCount": 0,
+            "replyCount": 1,
+            "authorImage": "https://pbs.twimg.com/profile_images/2092130156173512704/yEhFXk5y_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 8,
+            "bookmarkCount": 9,
+            "authorUsername": "sakibsahmed",
+            "authorVerified": true,
+            "conversationId": "2122970847900209158",
+            "authorFollowers": 455
+          },
+          {
+            "id": "2123089890338333161",
+            "url": "https://x.com/heyliccia/status/2123089890338333161",
+            "lang": "en",
+            "text": "THIS IS F**KING WILD.\n\nOne creator reportedly made $10,725 in a month running an AI-powered kids’ YouTube channel.\n\nNo camera.\nNo animation skills.\nNo complicated editing.\n\nAnd one of his Shorts pulled 800K views.\n\nHere’s the interesting part: his entire production process starts with ONE PROMPT.\n\nHere’s the workflow:\n\nOPENART → Describe the 3D nursery scene you want and generate the animation.\nAI DOES THE HEAVY LIFTING → No professional animation software or manual production process. Just prompt, generate and refine.\nREPURPOSE YOUR CONTENT → Create Shorts and longer videos of up to 5 minutes.\n\nHe even demonstrated the process LIVE.\n\nThink about how much this changes things.\n\nWhat once required animators, voice actors and editors can now be explored by a solo creator with an AI tool and a laptop.\n\nYou don’t need to build an entire production studio to start experimenting with animated content.\n\nThe barrier to entry is getting ridiculously low.\n\nThe full workflow is broken down in the video.\n\nSave this for later if you’re interested in YouTube automation.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123089854808338432/img/SZfdX5Jr18jXjdAK.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123089854808338432/vid/avc1/576x1024/VU6knbM07SS1euDC.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1492116232140636163",
+            "likeCount": 61,
+            "viewCount": 4848,
+            "authorName": "Felicia",
+            "createdUtc": 1795019049,
+            "quoteCount": 0,
+            "replyCount": 6,
+            "authorImage": "https://pbs.twimg.com/profile_images/1923334516015288321/0GB5mLy3_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 2,
+            "bookmarkCount": 10,
+            "authorUsername": "heyliccia",
+            "authorVerified": true,
+            "conversationId": "2123089890338333161",
+            "authorFollowers": 4250
+          },
+          {
+            "id": "2122645711049330711",
+            "url": "https://x.com/meAsifAi/status/2122645711049330711",
+            "lang": "en",
+            "text": "Created with @openart_ai \n WANT TO CREATE CINEMATIC AI SHORT FILMS LIKE THIS?\n\nImagine creating your own Hollywood-style films, powerful characters, futuristic worlds, and breathtaking cinematic scenes — all with AI! 🎬\n\nThe future of filmmaking is here, and you can learn how to create it with H3 AI Films Academy!\n\n🔥 24 PROFESSIONAL AI FILMMAKING COURSES — JUST $49!\n\n🎬 WHAT WILL YOU LEARN?\n\nAI Filmmaking Fundamentals\nProfessional Prompt Engineering\nAI Character Design & Consistency\nCinematic Image & Video Generation\nStorytelling & Storyboarding\nCamera Angles & Movements\nCinematic Scene Creation\nStart & End Frame Techniques\nAI Actors & Character Performance\nDialogue & Lip Sync\nCinematic Lighting & Visual Effects\nAI Sound Design & Music\nProfessional Video Editing\nShort Film Creation\nAI Commercials & Advertisements\nAnd much more!\n\nWhether you dream of creating sci-fi films, action sequences, fantasy adventures, or professional cinematic short films, we'll guide you through the complete AI filmmaking journey.\n\n💰 24 COURSES — ONLY $49!\n\nDon't just watch AI films. Learn how to CREATE them!\n\n🔥 Start your AI filmmaking journey today with H3 AI Films Academy.\n\n👇 Find the course link in the comments!\n\n#H3AIFilmsAcademy #AIFilmmaking #AIShortFilms #CinematicAI #AIFilmCreation #LearnAI #AIVideo",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122644994154528768/img/Er3bEypMuMFH9lZG.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122644994154528768/vid/avc1/1920x1080/NzZDYf1BIqOWUS-e.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1948384415987421185",
+            "likeCount": 6,
+            "viewCount": 723,
+            "authorName": "M. Asif",
+            "createdUtc": 1794913149,
+            "quoteCount": 0,
+            "replyCount": 5,
+            "authorImage": "https://pbs.twimg.com/profile_images/2067312856580943872/8gmuWvEA_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 1,
+            "bookmarkCount": 2,
+            "authorUsername": "meAsifAi",
+            "authorVerified": true,
+            "conversationId": "2122645711049330711",
+            "authorFollowers": 4576
+          },
+          {
+            "id": "2124558856567107667",
+            "url": "https://x.com/AIPulseNewsX/status/2124558856567107667",
+            "lang": "en",
+            "text": "she farted once. so she packed a suitcase and left 💀\n\nhe's laughing \"babe it's okay, everybody farts\"\nshe just goes \"not me\" and walks out into the snow in a fur coat\n\nnone of this is real btw. no actors, no set, no camera. the whole scene is AI\n\nthe faces, the snow, the light on the satin, even the timing of the joke… a year ago AI video couldn't land a punchline. now it's doing christmas rom-com better than half of netflix\n\nhonestly the wild part isn't the quality. i watched it twice before it even hit me that it's fake\n\nwould you have noticed?",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124557000818241536/img/zuT9318M-NIBFK37.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124557000818241536/vid/avc1/1080x1920/Ob9l3bp8J9NHCBY6.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2081411989490806784",
+            "likeCount": 10,
+            "viewCount": 1155,
+            "authorName": "AI Pulse",
+            "createdUtc": 1795369278,
+            "quoteCount": 0,
+            "replyCount": 0,
+            "authorImage": "https://pbs.twimg.com/profile_images/2105374755616382977/lmsGxp-p_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 2,
+            "bookmarkCount": 3,
+            "authorUsername": "AIPulseNewsX",
+            "authorVerified": true,
+            "conversationId": "2124558856567107667",
+            "authorFollowers": 169
+          },
+          {
+            "id": "2123336985657934200",
+            "url": "https://x.com/encrypt_wizard/status/2123336985657934200",
+            "lang": "en",
+            "text": "AI can now build a 3D world in minutes, and it looks stunning. then you step inside, and nothing moves. \n\nthe lid stays shut, the character stands frozen, and all you can do is look. we call it the dead scene, and it's the biggest gap in AI 3D today.\n\nManycore's Aholo stack already holds the cure. \n\nSpatialGen generates the world, and Lux3D makes the object, splits it into real parts, gives it joints, and rigs a character\n\nbut each of those is a separate tool with a separate result, and nobody had put them in one room.\n\nso I built Holorra for the @ManycoreTech Aholo Global 3D AI Hackathon: one browser tab where all of it becomes a single scene you can play. \n\nGenerate the world, split the parts, rig the actors, direct the scene.\n\neverything in it is real. \n\nan espresso machine came from one sentence, was cut into 4 parts without losing a single triangle, and got a working hinge and drawer from one more sentence. \n\nthe actor began as a statue, then got 52 joints in 81 seconds and 8 moves in 17. \n\nyou press Play, walk her through a Gaussian splat room, collect the beans, brew the coffee, frame the shot and dance.\n\nit runs on a phone, the co-director takes orders in English or Chinese, and you need no key and no sign-up.\n\ncheck it out: https://holorra.xyz/\n\nBuilt on the full Aholo stack, with thanks to @Aholo_Lux3D and Manycore.\n\n#Manycorehackathon #AholoLux3D #AIHackathon\n\n. @Grummz @AAAAAAAJtoy @Scobleizer @MaxForAI",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123335862486290432/img/HQ35CFkN2dd9hqvw.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123335862486290432/vid/avc1/3840x2160/FuUdwReOKPR9L03a.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "925088756566241280",
+            "likeCount": 92,
+            "viewCount": 2949,
+            "authorName": "MrNetwork",
+            "createdUtc": 1795077961,
+            "quoteCount": 3,
+            "replyCount": 21,
+            "authorImage": "https://pbs.twimg.com/profile_images/1866934536992354304/8lTxuhqj_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 15,
+            "bookmarkCount": 12,
+            "authorUsername": "encrypt_wizard",
+            "authorVerified": true,
+            "conversationId": "2123336985657934200",
+            "authorFollowers": 7434
+          },
+          {
+            "id": "2124629050291564554",
+            "url": "https://x.com/Skylar_/status/2124629050291564554",
+            "lang": "en",
+            "text": "holy sh*t. one person made this korean zombie thriller scene with AI and it looks like it came off a netflix set.\n\n1.5k likes. 26k views. 28 seconds\n\nkling 3.0 inside @Picsart https://picsart.go.link/faNX7\n\na girl runs down a school hallway with zombies behind her, finds the boy she's been looking for, and he's already turned. he grabs her, his eye goes milky white, and it cuts to a dark apartment block at night\n\nhow the creator built it:\n\n> character references so both faces stay the same in every shot\n> motion references for the chase and the grab\n> Seedance 2.5 for the generation\n> no actors, no set, no makeup team\n\nwhy it passes:\n\n> green fluorescent light, the look every korean thriller uses\n> the milky eye close-up is the one shot that sells the horror\n> a fast handheld chase hides the small glitches\n> 28 seconds and you already want episode 2\n\nk-drama horror pulls big numbers on every platform, and one character sheet per actor is enough to shoot a whole season\n\nbuild two character sheets, then generate the chase, the reunion and the turn as three shots",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124628993936687104/img/RA6C4Ha5m71W4Q0A.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124628993936687104/vid/avc1/1920x966/zclIt_W51dad0SZT.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "16597471",
+            "likeCount": 6,
+            "viewCount": 653,
+            "authorName": "SKY",
+            "createdUtc": 1795386013,
+            "quoteCount": 0,
+            "replyCount": 5,
+            "authorImage": "https://pbs.twimg.com/profile_images/2114389457499496448/Cvqh4hmX_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 0,
+            "bookmarkCount": 2,
+            "authorUsername": "Skylar_",
+            "authorVerified": true,
+            "conversationId": "2124629050291564554",
+            "authorFollowers": 30796
+          },
+          {
+            "id": "2123137443847397694",
+            "url": "https://x.com/Ambani_Wessley/status/2123137443847397694",
+            "lang": "en",
+            "text": "No more waiting for AI video to load 🙌\n\nPika Enact by @pika_labs runs faster than real time, so you can drag actors and props anywhere in the scene while it keeps playing.\n\nYou see every change instantly. It feels like directing a real set 🎬\n\nhttps://pika.art/blog/pika-enact?utm_source=x&utm_medium=caption&utm_campaign=261118-pika-enact-qrt&utm_content=ambani_wessley&utm_term=post&utm_id=8c637519-a20d-42d3-8fdc-de88145c075a https://t.co/0lNY7FD0ek",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123137429335166976/img/ZdW_pgDA0CvzfGU-.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123137429335166976/vid/avc1/832x480/zx3BVn3fDgLYEX0B.mp4?tag=16"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1166752238838136833",
+            "likeCount": 724,
+            "viewCount": 98195,
+            "authorName": "Wesley",
+            "createdUtc": 1795030387,
+            "quoteCount": 0,
+            "replyCount": 1,
+            "authorImage": "https://pbs.twimg.com/profile_images/2016408593658990592/iRSr9hqz_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 227,
+            "bookmarkCount": 249,
+            "authorUsername": "Ambani_Wessley",
+            "authorVerified": true,
+            "conversationId": "2123137443847397694",
+            "authorFollowers": 67364
+          },
+          {
+            "id": "2123147308011532589",
+            "url": "https://x.com/CholeSyntax/status/2123147308011532589",
+            "lang": "en",
+            "text": "This is the kind of innovation AI video needs.\n\nBuilt on Pika H3 Flex, Enact explores real-time scene manipulation, interactive actors, and hands-on camera control.\n\nNot just generating a video, but actually directing the scene. Big potential here! \n\nhttps://pika.art/blog/pika-enact?utm_source=x&utm_medium=caption&utm_campaign=261118-pika_enact&utm_content=cholesyntax&utm_term=post&utm_id=b56b0cc3-00a6-4f95-8092-fe5a5087cb87 https://t.co/n68dmVGc2Y",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123145706685022208/img/5NDz1Yuj7Ont4Qu2.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123145706685022208/vid/avc1/3840x2160/-prwhb9V7As7mzP5.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1770702011543207936",
+            "likeCount": 203,
+            "viewCount": 18649,
+            "authorName": "Chole Syntax Expert AI",
+            "createdUtc": 1795032739,
+            "quoteCount": 0,
+            "replyCount": 41,
+            "authorImage": "https://pbs.twimg.com/profile_images/2095434098689110016/E0-4VDef_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 40,
+            "bookmarkCount": 1,
+            "authorUsername": "CholeSyntax",
+            "authorVerified": true,
+            "conversationId": "2123147308011532589",
+            "authorFollowers": 41545
+          },
+          {
+            "id": "2074144043097866366",
+            "url": "https://x.com/Blazeon_TV/status/2074144043097866366",
+            "lang": "en",
+            "text": "Upcoming PALWORLD VIDEO TEASER \n\nTHEOLOGICAL POST ABOUT AI \n(Be open minded, I care not for tribalism biases. This will be my first time expressing my thoughts on this platform with no sarcasm/condescending/mockery tone):\n\nThe thing about creating is that the tool we use will always have it's own limit attributed to how capable its user is. \n\nA pencil on the hands of a highschooler isn't creating the same craft of the man who has experience. The same applies with being an actor and AI.\n\nActors and AI are specially tied together because they both are vessels of a larger thing, hence why I am drawing the parallels for all Anti-AI people to understand.\n\nAn actor can be great and can even improvise on his own, but the scene structure, the lighting, the ambient, the scenery and setting itself, the lines of script, the expression and feelings conveyed by the actor?\nAll of these were the filmmaker's vision. The actor is a conduit to this.\n\nThe same way a pencil is but a conduit or AI is but a conduit too.\n\nThis is why when people say that AI will replace things, I laugh at it.\n\nBecause the theological idea that, at some point, artificial intelligence is capable of generating human emotion to the finest detail, means that it would be the perfect conduit that would work way faster than any actor/pen would.\n\nBut this is not a loss of humanity's sense of uniqueness. You don't need to be scared for the lack of sense of purpose or \"soul\" that we all have that somehow is being replaced. No.\n\nWe still are superior to any other species on the Universe. You are just looking at it from a different, emotional perspective.\n\nSo allow me to bring up a new perspective that you should agree with about Humanity :\n\nTools are made for a reason. We innovate on them because we always ask \"What if?\"\n\nA human, 400,000 years ago, looked at the sparks of flint and stone, and created fire for the first time, and then said \"What if?\" and used said fire to cook food and use it to attack other living beings.\n\nA human asked themselves \"What if?\" when they looked at birds for millenia, envy to the idea of flight, until we ourselves created the very first mechanical bird wings, which then, from the Wright Brothers, came the very first plane.\n\nWe've always been using our vision since the dawn of time to ask ourselves \"What if?\".\n\nThat's what we do when we create stories too via art, books and movies. It being Jurassic Park, Star Wars or even Mona Lisa.\n\nIt is not the tool or how it is interpreted that makes it humane, it is the lived experience, the love, the loss, the happiness and sadness that made each and every single one of us humans different from each other.\n\nAnd this is why Vision will always exist, because to be human is to have vision and to Create with that vision.\n\nArtists jobs may be lost. (The conduits for art).\nActor jobs may be lost. (The conduits for cinematography).\nBut we will always be able to Create, no matter how advanced AI gets, because AI is just a superhuman conduit, that needs its pilot.\n\nWe had this specifically whenever we decided to create the first car, when carriage makers and blacksmiths lost their jobs and had to adapt, probably becoming mechanics now.\n\nWe had automation that clearly does the production job way better than manufacture too, which also led to the loss of many people's jobs too.\n\nTo create, is to innovate.\nAnd those things are not tied to jobs of the past.\nHence why humanity learns to adapt, learn how to use Televisions, cell phones, computers.\n\nInnovation through creation will always lead to the loss of certain jobs of the past, but that doesn't make humanity lose its purpose, it's uniqueness...\n\nIt's.... Soul.\n\nPerhaps the daunting feeling of what could be the meaning of life was always there - right in front of us - ever since we were born.\n\nPerhaps the meaning of life is, like God who created the Universe, be our own agents in creating our own mini-Universes that we have in our minds.\n\nOur own visions to create.\n\nCreating will always be part of what makes us humans, \nand that's what makes us different from other species.\n\nRegardless if now we have an ultra-advanced vessel to interpret our visions instead of ink, we will always have that thing that makes us human.\n\nOur visions to create.\nAnd to create is to innovate.\nWhich is bound to lead to jobs of the past adapting or just being erased.\n\nFood for thought.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2073978201177554944/img/YkqSIuZ0P-JJShtX.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2073978201177554944/vid/avc1/1920x1080/xvlOcALdaaUTv_66.mp4?tag=28"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1918326789522313216",
+            "likeCount": 10,
+            "viewCount": 1180,
+            "authorName": "Blazeon",
+            "createdUtc": 1783349450,
+            "quoteCount": 0,
+            "replyCount": 2,
+            "authorImage": "https://pbs.twimg.com/profile_images/2122484504749027328/D_bzirng_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 3,
+            "bookmarkCount": 1,
+            "authorUsername": "Blazeon_TV",
+            "authorVerified": true,
+            "conversationId": "2074144043097866366",
+            "authorFollowers": 3111
+          }
+        ],
+        "nextCursor": "cur_IQKGlPxdEJ7AUxtC1XvcpQ"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-capybara",
+      "kind": "anonymous",
+      "name": "Capybara",
+      "artworkKey": "capybara"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00049",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:41:30.786Z",
+  "started_at": "2026-11-23T07:41:30.894Z",
+  "completed_at": "2026-11-23T07:41:32.735Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

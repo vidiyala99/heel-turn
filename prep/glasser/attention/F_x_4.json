@@ -1,0 +1,628 @@
+{
+  "id": "5011b8d5-cbd7-4d4d-89d1-28b9fb5dde20",
+  "run_url": "https://app.glasser.ai/runs/5011b8d5-cbd7-4d4d-89d1-28b9fb5dde20",
+  "provider": "anyapi",
+  "endpoint": "/twitter.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "limit": 20,
+    "query": "multi-agent AI film director actor agents since:2025-11-22 filter:videos -filter:replies min_faves:20",
+    "queryType": "Top"
+  },
+  "output": {
+    "hint": "large_result: this response is ~53 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 20,
+    "output": {
+      "data": {
+        "items": [
+          {
+            "id": "2124148329114468476",
+            "url": "https://x.com/Ishh_021/status/2124148329114468476",
+            "lang": "en",
+            "text": "Don't waste 2 years learning to become an AI agentic engineer in 2026.  \n\nAndrew Ng, the godfather of AI, gave the complete playbook to become one from scratch.  \n\n1 hour course. Free:  \n\n• 00:00 - AI agent basics \n• 12:12 - AI Agentic workflows & design patterns \n• 53:27 - Practical tips for building AI agents \n• 1:20:30 - self-improving AI agent loops \n• 1:30:19 - multi-agent AI systems  \n\nI watched it last night.  \n\nHalfway through, I realized I could get into Anthropic in weeks, not years.  \n\nBookmark now. Watch it. Then build your own AI agent",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123856780065398784/img/ldUXg9NP3MHTWfSw.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123856780065398784/vid/avc1/640x360/BXxxucq-d_bWvEOe.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1653208312635346949",
+            "likeCount": 461,
+            "viewCount": 30841,
+            "authorName": "Ishika Rawat",
+            "createdUtc": 1795271401,
+            "quoteCount": 2,
+            "replyCount": 11,
+            "authorImage": "https://pbs.twimg.com/profile_images/2061156478682320896/QgP9GOxK_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 86,
+            "bookmarkCount": 693,
+            "authorUsername": "Ishh_021",
+            "authorVerified": true,
+            "conversationId": "2124148329114468476",
+            "authorFollowers": 0
+          },
+          {
+            "id": "2123446595286860200",
+            "url": "https://x.com/mentalium_/status/2123446595286860200",
+            "lang": "en",
+            "text": "Microsoft quietly dropped one of the CLEANEST FREE AI agent courses on GitHub\n\nBuilding AI agents is the skill companies are hiring for right now\n\n18 lessons. Real code. Design patterns. Tool use. Agentic RAG. Multi-agent systems. Memory. Context engineering. Production deployment. Security\n\nIt’s the practical path most people are still paying $2,000+ for\n\n01 Intro to AI Agents and use cases  \n02 Exploring agentic frameworks  \n03 Agentic design patterns  \n04 Tool use design pattern  \n05 Agentic RAG  \n06 Building trustworthy AI agents  \n07 Planning design pattern  \n08 Multi-agent design pattern  \n09 Metacognition design pattern  \n10 AI agents in production  \n11 Agentic protocols (MCP, A2A)  \n12 Context engineering  \n13 Agent memory management  \n14 Multi-agent collaboration  \n15 Computer-use agents  \n16 Scaling and deployment  \n17 Local AI agents  \n18 Securing AI agents  \n\nEach lesson has written content + Python code samples + short video\n\nMicrosoft put the full thing on GitHub for free\n80k+ stars already\n\nYou either start building real agents now, or keep watching random YouTube videos for another year\n\nSave this ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123446493428269057/img/JbJX2FGOxmcGrR2u.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123446493428269057/vid/avc1/1080x1350/f931Rj1oUl7R7Ruj.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1455805135737614344",
+            "likeCount": 1147,
+            "viewCount": 66778,
+            "authorName": "mentalium",
+            "createdUtc": 1795104094,
+            "quoteCount": 1,
+            "replyCount": 27,
+            "authorImage": "https://pbs.twimg.com/profile_images/2085340122493415424/aqTuTOfL_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 208,
+            "bookmarkCount": 2082,
+            "authorUsername": "mentalium_",
+            "authorVerified": true,
+            "conversationId": "2123446595286860200",
+            "authorFollowers": 0
+          },
+          {
+            "id": "2123031339687715077",
+            "url": "https://x.com/HeyShobhan/status/2123031339687715077",
+            "lang": "en",
+            "text": "Don't waste 2 years learning to become an AI agentic engineer in 2026.  \n\nAndrew Ng, the godfather of AI, gave the complete playbook to become one from scratch.  \n\n1 hour course. Free:  \n\n• 00:00 - AI agent basics \n• 12:12 - AI Agentic workflows & design patterns \n• 53:27 - Practical tips for building AI agents \n• 1:20:30 - self-improving AI agent loops \n• 1:30:19 - multi-agent AI systems  \n\nI watched it last night.  \n\nHalfway through, I realized I could get into Anthropic in weeks, not years.  \n\nBookmark now. Watch it. Then build your own AI agent",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123030848777953280/img/amZ2vbemy_pRzL8y.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123030848777953280/vid/avc1/640x360/ADfrFyN-8TpkPrLZ.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1965425376022114304",
+            "likeCount": 189,
+            "viewCount": 10237,
+            "authorName": "shobhanai",
+            "createdUtc": 1795005090,
+            "quoteCount": 1,
+            "replyCount": 16,
+            "authorImage": "https://pbs.twimg.com/profile_images/2087615958965993472/Cca7Iw-u_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 40,
+            "bookmarkCount": 241,
+            "authorUsername": "HeyShobhan",
+            "authorVerified": true,
+            "conversationId": "2123031339687715077",
+            "authorFollowers": 0
+          },
+          {
+            "id": "2122611475273617434",
+            "url": "https://x.com/AmitSha77280075/status/2122611475273617434",
+            "lang": "en",
+            "text": "Don't waste 2 years learning to become an AI agentic engineer in 2026.  \n\nAndrew Ng, the godfather of AI, gave the complete playbook to become one from scratch.  \n\n1 hour course. Free:  \n\n• 00:00 - AI agent basics \n• 12:12 - AI Agentic workflows & design patterns \n• 53:27 - Practical tips for building AI agents \n• 1:20:30 - self-improving AI agent loops \n• 1:30:19 - multi-agent AI systems  \n\nI watched it last night.  \n\nHalfway through, I realized I could get into Anthropic in weeks, not years.  \n\nBookmark now. Watch it. Then build your own AI agent",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122609340305776640/img/w6QYHIBQtStOLqHs.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122609340305776640/vid/avc1/1280x720/gQAuRzUQR0bD8e6l.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1614995176254214145",
+            "likeCount": 1652,
+            "viewCount": 155134,
+            "authorName": "Amit Sharma",
+            "createdUtc": 1794904986,
+            "quoteCount": 7,
+            "replyCount": 26,
+            "authorImage": "https://pbs.twimg.com/profile_images/2063671672507666432/sMECapSb_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 279,
+            "bookmarkCount": 3869,
+            "authorUsername": "AmitSha77280075",
+            "authorVerified": true,
+            "conversationId": "2122611475273617434",
+            "authorFollowers": 0
+          },
+          {
+            "id": "2123069607129092320",
+            "url": "https://x.com/DAIEvolutionHub/status/2123069607129092320",
+            "lang": "en",
+            "text": "Google just dropped a 1-hour course on agentic engineering from scratch:  \n\n00:00 – How to build your first AI agent \n08:24 – Build agent memory (short, persistent, long) \n28:34 – Agentic loops, long-running AI agents \n40:04 – How to build MCP (MCP vs API) \n1:00:22 – Multi-agentic systems  \n\nThis 1-hour watch will replace 10 paid agentic courses on the internet.  \n\nBookmark this. Watch this weekend.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123068825486999552/img/7nMfmDfypM8pyx8N.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123068825486999552/vid/avc1/1280x720/yOhOicPz2VRciG1b.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1909915818084954112",
+            "likeCount": 297,
+            "viewCount": 16745,
+            "authorName": "Kshitij Mishra | AI & Tech",
+            "createdUtc": 1795014213,
+            "quoteCount": 3,
+            "replyCount": 15,
+            "authorImage": "https://pbs.twimg.com/profile_images/2015092541159280641/941zc6PA_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 80,
+            "bookmarkCount": 408,
+            "authorUsername": "DAIEvolutionHub",
+            "authorVerified": true,
+            "conversationId": "2123069607129092320",
+            "authorFollowers": 0
+          },
+          {
+            "id": "2123097957792727122",
+            "url": "https://x.com/0xCodez/status/2123097957792727122",
+            "lang": "en",
+            "text": "These 20 GitHub repos will turn your Grok Bot into your most productive team ever\n\nThis is f*cking gold.\n\nSkills. Team. Plan. Memory. Tools.\n\n01 / Lauren Tan's noodle → Orchestrate agents using skills.\nhttp://github.com/poteto/noodle\n\n02 / mattpocock/skills → Skills for real engineers, straight from his .agents directory.\nhttp://github.com/mattpocock/skills\n\n03 / agent-skills → Production-grade engineering skills for AI coding agents.\nhttp://github.com/addyosmani/agent-skills\n\n04  / superpowers → An agentic skills framework and dev methodology that works.\nhttp://github.com/obra/superpowers\n\n05 / Vercel agent-skills → Vercel's official collection of agent skills.\nhttp://github.com/vercel-labs/agent-skills\n\n06 / awesome-agent-skills → 1000+ curated skills from official dev teams and the community.\nhttp://github.com/VoltAgent/awesome-agent-skills\n\n07 / Gas Town → Multi-agent workspace manager.\nhttp://github.com/gastownhall/gastown\n\n08 / gstack → 23 opinionated tools: CEO, designer, eng manager, release manager.\nhttp://github.com/garrytan/gstack\n\n09 / BMAD Method → Agile, AI-driven development for agent teams.\nhttp://github.com/bmad-code-org/BMAD-METHOD\n\n10 / grokbot-field-notes → Rules, playbooks and bot roles from a 72-hour Grok Bot live build.\nhttp://github.com/unicodef1wn/grokbot-field-notes\n\n11 / Spec Kit → GitHub's toolkit for spec-driven development.\nhttp://github.com/github/spec-kit\n\n12 / Task Master → AI-powered task management you can drop into your agent.\nhttp://github.com/eyaltoledano/claude-task-master\n\n13 / AGENTS.md → A simple, open format for guiding coding agents.\nhttp://github.com/agentsmd/agents.md\n\n14  / Beads → A memory upgrade for your coding agent.\nhttp://github.com/gastownhall/beads\n\n15 / mem0 → The memory layer for AI agents.\nhttp://github.com/mem0ai/mem0\n\n16 / Context7 → Up-to-date docs for AI agents.\nhttp://github.com/upstash/context7\n\n17 / npx skills → The open agent skills tool.\nhttp://github.com/vercel-labs/skills\n\n18 / Composio → 1000+ toolkits with auth and tool search.\nhttp://github.com/ComposioHQ/composio\n\n19  / GitHub MCP Server → GitHub's official MCP server.\nhttp://github.com/github/github-mcp-server\n\n20 /  Firecrawl → Search and scrape the web for your agents.\nhttp://github.com/firecrawl/firecrawl\n\nSkill → plan → team → memory → ship.\n\nBookmark this. Go build a team worth managing ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123097502211547136/img/mUcDNzTjMn13kVje.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123097502211547136/vid/avc1/1080x1350/X2Sc37-7EU0XZFrs.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2054190711243710464",
+            "likeCount": 378,
+            "viewCount": 30359,
+            "authorName": "Codez",
+            "createdUtc": 1795020973,
+            "quoteCount": 0,
+            "replyCount": 26,
+            "authorImage": "https://pbs.twimg.com/profile_images/2054197823738871808/3M0Lf362_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 43,
+            "bookmarkCount": 698,
+            "authorUsername": "0xCodez",
+            "authorVerified": true,
+            "conversationId": "2123097957792727122",
+            "authorFollowers": 0
+          },
+          {
+            "id": "2122676152317718850",
+            "url": "https://x.com/LunarResearcher/status/2122676152317718850",
+            "lang": "en",
+            "text": "This is f*cking insane. Former Google CEO Eric Schmidt just said the quiet part about making money with AI:\n\n\"If you really want to make money, it's actually easy. Found an agentic AI company. Build an agent to do something\n\nIf you build a better agent than anyone else, you can probably build one incredible company and own it yourself\"\n\nIn 27 seconds, the man who ran Google for 10 years explains why the next 1-2 years are the agentic window, and why it closes fast\n\nIdea → Fable 5.2 → One Agent → Harness → Loops → A Company You Own\n\nEverything below is free:\n\nBuilding effective agents, Anthropic's playbook\nhttps://www.anthropic.com/research/building-effective-agents\n\nHow Anthropic built its multi-agent research system\nhttps://www.anthropic.com/research/multi-agent-research-system\n\nHarnesses for agents that run for days\nhttps://www.anthropic.com/research/effective-harnesses-for-long-running-agents\n\nWriting tools your agent can actually use\nhttps://www.anthropic.com/research/writing-tools-for-agents\n\nClaude Agent SDK, the stack Anthropic builds on\nhttps://code.claude.com/docs/en/agent-sdk/overview\n\nClaude Code best practices\nhttps://code.claude.com/docs/en/best-practices\n\nSubagents: run the work in parallel\nhttps://code.claude.com/docs/en/sub-agents\n\nHooks: checks your agent can't skip\nhttps://code.claude.com/docs/en/hooks\n\nSkills: teach it a job once\nhttps://code.claude.com/docs/en/skills\n\nClaude Code in Action, free hands-on course\nhttps://anthropic.skilljar.com/claude-code-in-action\n\n12-factor agents: rules for agents that don't break\nhttps://github.com/humanlayer/12-factor-agents\n\nLangGraph: graphs of agents\nhttps://github.com/langchain-ai/langgraph\n\nKarpathy's autoresearch: an agent in a loop\nhttps://github.com/karpathy/autoresearch\n\nClaude cookbooks: recipes you can copy tonight\nhttps://github.com/anthropics/claude-cookbooks\n\nTotal: $0\n\n99% will spend the agentic window scrolling threads about agents. The 1% who ship one will own what comes out of it\n\nBookmark it and open the first link tonight\n\nThen read how to build an agent that runs for hours without you in the harness, loops and graphs guide below ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122672219239137280/img/zocEPAThF2uTjwI9.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122672219239137280/vid/avc1/2570x1440/n-rgLSHB3ToCsr24.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1734057981975642113",
+            "likeCount": 288,
+            "viewCount": 55159,
+            "authorName": "Lunar",
+            "createdUtc": 1794920406,
+            "quoteCount": 2,
+            "replyCount": 8,
+            "authorImage": "https://pbs.twimg.com/profile_images/2035680801216475136/FRvLbYgF_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 48,
+            "bookmarkCount": 1011,
+            "authorUsername": "LunarResearcher",
+            "authorVerified": true,
+            "conversationId": "2122676152317718850",
+            "authorFollowers": 0
+          },
+          {
+            "id": "2122382691949789312",
+            "url": "https://x.com/0xGenAi/status/2122382691949789312",
+            "lang": "en",
+            "text": "WHAT THE F*CK...\n\n1 Grok Bot and 9 GitHub projects can give one person an entire motion studio.\n\nDirector Bot directs. The projects animate, build the 3D, draw the explainers, render the video and export every format.\n\nA studio like this costs about $612,000 a year: six animators at the US median of $102,030. Director Bot is free to add, and all 9 projects are public on GitHub.\n\nMy first month with it: 31 finished videos, 2.1M views, 0 hours in After Effects.\n\n𝟭 𝗼𝗳𝗳𝗶𝗰𝗶𝗮𝗹 𝗯𝗼𝘁 𝗳𝗿𝗼𝗺 𝘁𝗵𝗲 𝗚𝗿𝗼𝗸 𝗕𝗼𝘁 𝘁𝗲𝗮𝗺 𝗮𝘁 𝗦𝗽𝗮𝗰𝗲𝗫𝗦𝗜:\n\n01 / 𝗗𝗶𝗿𝗲𝗰𝘁𝗼𝗿 𝗕𝗼𝘁 → Your video director: turns a brief into a short film, ad, explainer or music video, then plans, shoots, cuts and delivers it.\nhttps://x.ai/bot/marketplace/bots/video-director\n\nDirector Bot comes with its own instructions and skills. The GitHub projects give it a whole studio to direct: code that renders video, animation engines, 3D, math explainers and an encoder for every format.\n\n𝟵 𝗚𝗶𝘁𝗛𝘂𝗯 𝗽𝗿𝗼𝗷𝗲𝗰𝘁𝘀 𝘁𝗼 𝗽𝗹𝘂𝗴 𝗶𝗻:\n\n02 / 𝗛𝘆𝗽𝗲𝗿𝗙𝗿𝗮𝗺𝗲𝘀 → Write HTML, get a video. HeyGen built it for agents.\nhttps://github.com/heygen-com/hyperframes\n\n03 / 𝗥𝗲𝗺𝗼𝘁𝗶𝗼𝗻 → Makes videos with React code.\nhttps://github.com/remotion-dev/remotion\n\n04 / 𝗥𝗲𝗺𝗼𝘁𝗶𝗼𝗻 𝗦𝗸𝗶𝗹𝗹𝘀 → Remotion's official agent skills for writing Remotion videos.\nhttps://github.com/remotion-dev/skills\n\n05 / 𝗚𝗦𝗔𝗣 → Pro-grade JavaScript animation, now free for everyone.\nhttps://github.com/greensock/GSAP\n\n06 / 𝗔𝗻𝗶𝗺𝗲.𝗷𝘀 → A JavaScript animation engine for timelines and easing.\nhttps://github.com/juliangarnier/anime\n\n07 / 𝗧𝗵𝗿𝗲𝗲.𝗷𝘀 → The JavaScript 3D library.\nhttps://github.com/mrdoob/three.js\n\n08 / 𝗠𝗖𝗣 𝗳𝗼𝗿 𝗕𝗹𝗲𝗻𝗱𝗲𝗿 → Lets any LLM control Blender 3D.\nhttps://github.com/ahujasid/mcp-for-blender\n\n09 / 𝗠𝗮𝗻𝗶𝗺 → The engine behind 3Blue1Brown's math animations.\nhttps://github.com/3b1b/manim\n\n10 / 𝗙𝗙𝗺𝗽𝗲𝗴 → Cuts, converts and encodes video into any format.\nhttps://github.com/FFmpeg/FFmpeg\n\n𝗪𝗵𝗮𝘁 𝘁𝗵𝗲𝘆'𝘃𝗲 𝗮𝗹𝗿𝗲𝗮𝗱𝘆 𝗱𝗼𝗻𝗲 𝗳𝗼𝗿 𝘁𝗵𝗲 𝗽𝗲𝗼𝗽𝗹𝗲 𝘄𝗵𝗼 𝗴𝗼𝘁 𝘁𝗵𝗲𝗿𝗲 𝗳𝗶𝗿𝘀𝘁:\n\n𝗠𝗮𝗻𝗶𝗺: the author of 3Blue1Brown built it to animate those videos. 96,000 stars later, anyone can use the same engine.\n\n𝗛𝘆𝗽𝗲𝗿𝗙𝗿𝗮𝗺𝗲𝘀: 82,000 stars in 8 months. HeyGen built it so agents can write HTML and get video back.\n\n𝗚𝗦𝗔𝗣: over 15 years at the front of web animation, and now every plugin is free, thanks to Webflow.\n\nAdd Director Bot, paste the 9 GitHub links into one Grok Bot chat and type: \"Hire 6 bots for my motion studio, give each one the repos it needs, then make a 20-second launch video\"\n\nSave this, then read the full guide to setting up a team of Grok Bot agents from 0 in the article below.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122357720086962176/img/ta_nGkf8oDIqNXUu.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122357720086962176/vid/avc1/1080x1350/cI2sh4zmvFXQca4-.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2066921840363069440",
+            "likeCount": 62,
+            "viewCount": 5345,
+            "authorName": "GenAI",
+            "createdUtc": 1794850440,
+            "quoteCount": 0,
+            "replyCount": 5,
+            "authorImage": "https://pbs.twimg.com/profile_images/2083289176343027712/63iXpID5_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 10,
+            "bookmarkCount": 89,
+            "authorUsername": "0xGenAi",
+            "authorVerified": true,
+            "conversationId": "2122382691949789312",
+            "authorFollowers": 0
+          },
+          {
+            "id": "2124065558530576454",
+            "url": "https://x.com/humzaakhalid/status/2124065558530576454",
+            "lang": "en",
+            "text": "This is f*cking insane. OpenAI CEO Sam Altman:\n\n\"We are going to see 10-person billion-dollar companies pretty soon.\n\nIf I were 22 right now, I would feel like the luckiest kid in history.\"\n\nIn 20 seconds, he explains why the next billion-dollar company won't need an office full of people, just a few founders and a team of agents\n\nChatGPT → Codex → Harness → Agents SDK → Evals → A 10-Person Company Run By Agents\n\n99% of people will feel motivated for 3 minutes, then keep scrolling\n\nThe few who actually open the links will start building their company this weekend\n\n(Save this before it vanishes from your feed)\n\nEverything below is FREE:\n\nAI In Public Guides\nhttp://ai-in-public.guide\n\nBuilding Effective Agents\nhttp://anthropic.com/engineering/building-effective-agents\n\nA Practical Guide to Building Agents\nhttp://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf\n\nClaude Code Docs\nhttp://code.claude.com/docs\n\nCLAUDE. md\n\nSimple file that gives Claude your project rules and workflows so every session starts with full context\n\nClaude Code Agent Teams\nhttp://code.claude.com/docs/en/agent-teams\n\nAgent Skills Library\nhttp://github.com/anthropics/skills\n\nModel Context Protocol\nhttp://modelcontextprotocol.io\n\nHow Anthropic Built a Multi-Agent System\nhttp://anthropic.com/engineering/multi-agent-research-system\n\n280+ Free n8n Automation Templates\nhttp://github.com/enescingoz/awesome-n8n-templates\n\nAnthropic Academy Free Courses\nhttp://anthropic.com/learn\n\nAll of this costs $0\n\nThe next 10-person billion-dollar company will be built by someone who opens these links right now, not someone who scrolls past them\n\nBookmark it and start with the first link right now.\n\nThen read how to build an AI team with Claude & an AI employee for your business: ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124065532668432384/img/0fXPa91_LQ4_0nqv.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124065532668432384/vid/avc1/720x720/rlCu9C-MNFfl6BXO.mp4?tag=16"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1643554227615064065",
+            "likeCount": 191,
+            "viewCount": 45177,
+            "authorName": "Hamza Khalid",
+            "createdUtc": 1795251667,
+            "quoteCount": 2,
+            "replyCount": 34,
+            "authorImage": "https://pbs.twimg.com/profile_images/2062191018670501888/M7jUEryG_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 52,
+            "bookmarkCount": 451,
+            "authorUsername": "humzaakhalid",
+            "authorVerified": true,
+            "conversationId": "2124065558530576454",
+            "authorFollowers": 0
+          },
+          {
+            "id": "2123066467818017251",
+            "url": "https://x.com/mentalium_/status/2123066467818017251",
+            "lang": "en",
+            "text": "This might be the only FREE Stanford course you need on building production AI agents\n\nAnthropic pays $750,000+ a year to people who can engineer real agent systems\n\nStanford CS329Z: Engineering AI Agents\nLectures just started dropping publicly\n\n01 What Are AI Agents?  \nhttps://www.youtube.com/watch?v=DGI4vucR71w\n\n02 LLMs for Agent Builders & Context Engineering  \nhttps://www.youtube.com/watch?v=Vr1NzH8bT44\n\n03 RAG Explained: From BM25 to Agentic RAG  \nhttps://www.youtube.com/watch?v=psLc-46GqY0\n\n04 How AI Agents Use Tools, Function Calling & MCP  \nhttps://www.youtube.com/watch?v=s0S38lz6O7M\n\n05 DSPy vs LangGraph: Agent Frameworks  \nhttps://www.youtube.com/watch?v=q0Q-Hy8TTps\n\n06 AI Agent Design Patterns: ReAct, CodeAct & More  \nhttps://www.youtube.com/watch?v=JC_pLC5EX_w\n\n07 How AI Agent Memory Works  \nhttps://www.youtube.com/watch?v=qh5tP6PBZ6U\n\n08 Multi-Agent Systems: When More Agents Help or Hurt  \nhttps://www.youtube.com/watch?v=TlX_ft_PQIM\n\nFull playlist (more lectures coming):  \nhttps://www.youtube.com/playlist?list=PLPRcF5HR02_U\n\nCourse site:  \nhttps://cs329z.stanford.edu/\n\nYou either learn how to engineer agents properly or keep shipping broken demos for another year.\n\nSave this ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123066376617152512/img/f_ldWn80fXtixeSp.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123066376617152512/vid/avc1/1080x1350/L-0sSbUz0LGDUf-J.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1455805135737614344",
+            "likeCount": 215,
+            "viewCount": 9155,
+            "authorName": "mentalium",
+            "createdUtc": 1795013465,
+            "quoteCount": 2,
+            "replyCount": 12,
+            "authorImage": "https://pbs.twimg.com/profile_images/2085340122493415424/aqTuTOfL_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 38,
+            "bookmarkCount": 351,
+            "authorUsername": "mentalium_",
+            "authorVerified": true,
+            "conversationId": "2123066467818017251",
+            "authorFollowers": 0
+          },
+          {
+            "id": "2124409752839176254",
+            "url": "https://x.com/HeyShobhan/status/2124409752839176254",
+            "lang": "en",
+            "text": "Don't waste 2 years learning to become an AI agentic engineer in 2026.  \n\nAndrew Ng, the godfather of AI, gave the complete playbook to become one from scratch.  \n\n1 hour course. Free:  \n\n• 00:00 - AI agent basics \n• 12:12 - AI Agentic workflows & design patterns \n• 53:27 - Practical tips for building AI agents \n• 1:20:30 - self-improving AI agent loops \n• 1:30:19 - multi-agent AI systems  \n\nI watched it last night.  \n\nHalfway through, I realized I could get into Anthropic in weeks, not years.  \n\nBookmark now. Watch it. Then build your own AI agent",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124406090486136832/img/_FUxxSDT2-scgr4E.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124406090486136832/vid/avc1/640x360/RdKfKvLXEjLVxCGq.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1965425376022114304",
+            "likeCount": 185,
+            "viewCount": 10303,
+            "authorName": "shobhanai",
+            "createdUtc": 1795333729,
+            "quoteCount": 2,
+            "replyCount": 15,
+            "authorImage": "https://pbs.twimg.com/profile_images/2087615958965993472/Cca7Iw-u_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 47,
+            "bookmarkCount": 245,
+            "authorUsername": "HeyShobhan",
+            "authorVerified": true,
+            "conversationId": "2124409752839176254",
+            "authorFollowers": 0
+          },
+          {
+            "id": "2122669330877812742",
+            "url": "https://x.com/thegreatest_sv/status/2122669330877812742",
+            "lang": "en",
+            "text": "this is pure f*cking treasure\n\nAnthropic devs just dropped 20 GitHub repos that can turn your Claude Code into a whole f*cking engineering team:\n\nExposed for Opus 5.5:\n\n1. rtk: squeezes command output before it eats your context. the authors claim 60-90% fewer tokens\nhttp://github.com/rtk-ai/rtk\n\n2. claude-mem: your agent remembers what it did yesterday and brings back only what matters\nhttp://github.com/thedotmack/claude-mem\n\n3. beads: gives your agent its own task tracker, so long projects stop falling apart\nhttp://github.com/gastownhall/beads\n\n4. ccusage: one command shows exactly where your tokens and money went\nhttp://github.com/ccusage/ccusage\n\nmake it understand your code\n\n5. Graphify: turns your codebase, docs and PDFs into a map Claude can search\nhttp://github.com/Graphify-Labs/graphify\n\n6. Serena: finds and edits code by meaning, like a real IDE\nhttp://github.com/oraios/serena\n\n7. Context7: fresh library docs, so Claude stops writing for last year's API\nhttp://github.com/upstash/context7\n\n8. MarkItDown by Microsoft: any PDF, Word or Excel file becomes text Claude can read\nhttp://github.com/microsoft/markitdown\n\ngive it a method\n\n9. Superpowers: plan, test, review. the one almost everyone installs first\nhttp://github.com/obra/superpowers\n\n10. Spec Kit by GitHub: write the spec first, the agent builds exactly that\nhttp://github.com/github/spec-kit\n\n11. Archon: build your own repeatable AI coding workflow, same result every run\nhttp://github.com/coleam00/Archon\n\n12. Impeccable: gives Claude design taste and catches AI slop before it ships\nhttp://github.com/pbakaus/impeccable\n\nrun a whole team\n\n13. oh-my-claudecode: multi-agent teams inside Claude Code\nhttp://github.com/Yeachan-Heo/oh-my-claudecode\n\n14. Vibe Kanban: a kanban board where every card is an agent doing the work\nhttp://github.com/BloopAI/vibe-kanban\n\n15. CCPM: turns GitHub Issues into tasks that agents work on in parallel\nhttp://github.com/automazeio/ccpm\n\n16. container-use: every agent gets its own sandbox, so they stop breaking each other's code\nhttp://github.com/dagger/container-use\n\ncontrol it from anywhere\n\n17. Happy: run Claude, Codex and Grok from your phone, on the subscriptions you already pay for\nhttp://github.com/slopus/happy\n\n18. CC Switch: one desktop app to switch between Claude Code, Codex and other agents\nhttp://github.com/farion1231/cc-switch\n\n19. Claude Code Router: send each request to the model that fits it best\nhttp://github.com/musistudio/claude-code-router\n\n20. ccstatusline: a status line that shows what your session is doing right now\nhttp://github.com/sirmalloc/ccstatusline\n\nthe stack in one line: memory keeps the context, skills set the method, sandboxes let 5 agents work where 1 used to.\n\nsend this to the dev on your team still running one agent at a time.\n\ncheck each repo before you install. save this.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122643391796121601/img/MzcfSM9ExDaOJD4_.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122643391796121601/vid/avc1/1080x1350/I1tjnqQDBRdObq2d.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1214810521",
+            "likeCount": 123,
+            "viewCount": 8699,
+            "authorName": "kiosa",
+            "createdUtc": 1794918780,
+            "quoteCount": 2,
+            "replyCount": 21,
+            "authorImage": "https://pbs.twimg.com/profile_images/2049557081502752768/gymBLMZ8_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 14,
+            "bookmarkCount": 160,
+            "authorUsername": "thegreatest_sv",
+            "authorVerified": true,
+            "conversationId": "2122669330877812742",
+            "authorFollowers": 0
+          },
+          {
+            "id": "2122624784345563563",
+            "url": "https://x.com/Viveksahu1215/status/2122624784345563563",
+            "lang": "en",
+            "text": "𝗠𝗨𝗟𝗧𝗜-𝗔𝗚𝗘𝗡𝗧 𝗗𝗘𝗦𝗜𝗚𝗡 𝗣𝗔𝗧𝗧𝗘𝗥𝗡𝗦 — 𝗔 𝗖𝗢𝗦𝗧-𝗩𝗔𝗟𝗨𝗘 𝗕𝗥𝗘𝗔𝗞𝗗𝗢𝗪𝗡\n\nBuilding multi-agent AI systems isn't just about connecting multiple LLMs.\n\nIt's about choosing the right architecture to balance cost, performance, scalability, and reliability.\n\nHere are 6 important multi-agent design patterns every AI builder should understand.\n\n𝗛𝗘𝗥𝗘’𝗦 𝗧𝗛𝗘 𝗕𝗥𝗘𝗔𝗞𝗗𝗢𝗪𝗡:\n\n01 — 𝗦𝗘𝗤𝗨𝗘𝗡𝗧𝗜𝗔𝗟 𝗣𝗔𝗧𝗧𝗘𝗥𝗡\n\nAgents complete tasks one after another in a fixed sequence.\n\n→ Task 1 → Task 2 → Task 3 → Output\n\n→ Best For: Deterministic workflows with clear dependencies.\n\n→ Cost: $\n\n→ Hidden Cost: Slower execution when tasks could run in parallel.\n\n→ Use When: Simplicity and reliability are priorities.\n\n02 — 𝗣𝗔𝗥𝗔𝗟𝗟𝗘𝗟 𝗣𝗔𝗧𝗧𝗘𝗥𝗡\n\nMultiple agents work on independent tasks simultaneously.\n\n→ Agent A: Handles Task A.\n\n→ Agent B: Handles Task B.\n\n→ Agent C: Handles Task C.\n\n→ Merge: Combines all results.\n\n→ Best For: Reducing latency for independent tasks.\n\n→ Cost: $$\n\n→ Hidden Cost: Higher token usage and infrastructure costs.\n\n→ Avoid When: Tasks depend heavily on each other.\n\n03 — 𝗛𝗜𝗘𝗥𝗔𝗥𝗖𝗛𝗜𝗖𝗔𝗟 𝗣𝗔𝗧𝗧𝗘𝗥𝗡\n\nA manager agent delegates tasks to specialized agents.\n\n→ Research Agent: Collects information.\n\n→ Analysis Agent: Evaluates findings.\n\n→ Data Agent: Processes data.\n\n→ Report Agent: Generates reports.\n\n→ Best For: Enterprise-scale workflows.\n\n→ Cost: $$$\n\n→ Hidden Cost: Complex orchestration and higher development effort.\n\n→ Long-Term Value: Reusable sub-agents create leverage across workflows.\n\n04 — 𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗢𝗥–𝗖𝗥𝗜𝗧𝗜𝗖 𝗣𝗔𝗧𝗧𝗘𝗥𝗡\n\nOne agent generates an output while another reviews and improves it.\n\n→ Generator Agent: Creates the initial output.\n\n→ Critic Agent: Reviews quality and identifies issues.\n\n→ Revision: Improves the generated result.\n\n→ Best For: Content, code, plans, and complex outputs.\n\n→ Cost: $$$\n\n→ Hidden Cost: Multiple inference loops increase latency and cost.\n\n→ Worth It When: Accuracy matters more than speed.\n\n05 — 𝗛𝗨𝗠𝗔𝗡-𝗜𝗡-𝗧𝗛𝗘-𝗟𝗢𝗢𝗣\n\nAI performs tasks while humans review important decisions.\n\n→ AI Agent: Processes the request.\n\n→ Human Review: Checks the result.\n\n→ Action: Executes the approved task.\n\n→ Feedback: Improves future execution.\n\n→ Best For: High-risk decisions and compliance workflows.\n\n→ Cost: $$$\n\n→ Hidden Cost: Manual effort and additional latency.\n\n→ Essential For: Legal, safety, billing, and critical decisions.\n\n06 — 𝗖𝗢𝗠𝗣𝗢𝗦𝗜𝗧𝗘 𝗣𝗔𝗧𝗧𝗘𝗥𝗡\n\nCombines multiple design patterns into one complex workflow.\n\n→ Sequential: Executes dependent tasks.\n\n→ Parallel: Handles independent tasks.\n\n→ Hierarchical: Delegates responsibilities.\n\n→ Generator–Critic: Reviews outputs.\n\n→ Human-in-the-Loop: Adds human approval.\n\n→ Best For: Complex end-to-end automation.\n\n→ Cost: $$$$\n\n→ Hidden Cost: High infrastructure and orchestration overhead.\n\n→ Biggest Mistake: Using it for problems that don't need this complexity.\n\n𝗧𝗛𝗘 𝟮𝟬𝟮𝟲 𝗣𝗥𝗢𝗗𝗨𝗖𝗧𝗜𝗢𝗡 𝗦𝗧𝗔𝗖𝗞:\n\n𝗠𝗖𝗣 — 𝗧𝗢𝗢𝗟 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗜𝗩𝗜𝗧𝗬 𝗟𝗔𝗬𝗘𝗥\n\nConnects AI agents with external tools and data.\n\n→ Tool Access\n→ APIs\n→ Retrieval\n→ Databases\n→ External Systems\n\n→ Ecosystem: Anthropic, OpenAI, Microsoft.\n\n𝗔𝟮𝗔 — 𝗔𝗚𝗘𝗡𝗧 𝗖𝗢𝗢𝗥𝗗𝗜𝗡𝗔𝗧𝗜𝗢𝗡 𝗟𝗔𝗬𝗘𝗥\n\nEnables different AI agents to communicate and collaborate.\n\n→ Agent Messaging\n→ Task Delegation\n→ Shared Memory\n→ Workflow Coordination\n→ Capability Discovery\n\n→ Ecosystem: Google, AWS, Microsoft.\n\n𝗧𝗛𝗘 𝗞𝗘𝗬 𝗟𝗘𝗦𝗦𝗢𝗡:\n\nMore agents don't automatically mean better results.\n\nThe right architecture depends on task complexity, budget, execution speed, and reliability requirements.\n\nStart simple. Add orchestration and specialized agents only when they deliver measurable value.\n\nFollow @Viveksahu1215 for more AI tools & tech updates.\n\n#AI #AIAgents #AgenticAI #MultiAgentSystems #MCP #A2A #LLM #Automation",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122624759708225536/img/eG-WDN5vZ2qH8Sqy.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122624759708225536/vid/avc1/720x900/gJVhdeSf8HXlE7Jv.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1888950165417168896",
+            "likeCount": 115,
+            "viewCount": 2967,
+            "authorName": "Vivek sahu",
+            "createdUtc": 1794908159,
+            "quoteCount": 0,
+            "replyCount": 10,
+            "authorImage": "https://pbs.twimg.com/profile_images/2108295266642317312/ys-ro8Sg_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 29,
+            "bookmarkCount": 76,
+            "authorUsername": "Viveksahu1215",
+            "authorVerified": true,
+            "conversationId": "2122624784345563563",
+            "authorFollowers": 0
+          },
+          {
+            "id": "2124135848094384395",
+            "url": "https://x.com/akarixbt/status/2124135848094384395",
+            "lang": "en",
+            "text": "This is f*cking gold...\n\nThese 19 GitHub repos max it out\n\nSkills. Team. Plan. Memory. Tools.\n\n01 / Matt Pocock's skills → Skills for real engineers, from his .agents folder\nhttp://github.com/mattpocock/skills\n\n02 / Addy Osmani's agent-skills → Production-grade engineering skills\nhttp://github.com/addyosmani/agent-skills\n\n03 / superpowers → A skills framework + dev method that works\nhttp://github.com/obra/superpowers\n\n04 / Vercel agent-skills → Vercel's official agent skills\nhttp://github.com/vercel-labs/agent-skills\n\n05 / awesome-agent-skills → 1000+ curated skills\nhttp://github.com/VoltAgent/awesome-agent-skills\n\n06 / npx skills → The open agent skills tool\nhttp://github.com/vercel-labs/skills\n\n07 / Lauren Tan's noodle → Orchestrate agents using skills\nhttp://github.com/poteto/noodle\n\n08 / Gas Town → Multi-agent workspace manager\nhttp://github.com/gastownhall/gastown\n\n09 / Garry Tan's gstack → 23 tools: CEO, designer, eng manager, release\nhttp://github.com/garrytan/gstack\n\n10 / BMAD Method → Agile, AI-driven development\nhttp://github.com/bmad-code-org/BMAD-METHOD\n\n11 / Spec Kit → Spec-driven development toolkit\nhttp://github.com/github/spec-kit\n\n12 / Task Master → AI task management for your agent\nhttp://github.com/eyaltoledano/claude-task-master\n\n13 / AGENTS.md → An open format for guiding agents\nhttp://github.com/agentsmd/agents.md\n\n14 / Beads → A memory upgrade for your agent\nhttp://github.com/gastownhall/beads\n\n15 / mem0 → The memory layer for AI agents\nhttp://github.com/mem0ai/mem0\n\n16 / Context7 → Up-to-date docs for agents\nhttp://github.com/upstash/context7\n\n17 / Composio → 1000+ toolkits with auth\nhttp://github.com/ComposioHQ/composio\n\n18 / GitHub MCP → GitHub's official MCP server\nhttp://github.com/github/github-mcp-server\n\n19 / Firecrawl → Search and scrape the web for agents\nhttp://github.com/firecrawl/firecrawl\n\nSkills → team → plan → memory → tools → ship.\nBookmark this. Max yours out before Monday ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124124849224192000/img/tvkn008bLk2r4eYF.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124124849224192000/vid/avc1/720x900/plVkIurppOHdNxjR.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1661429354969063424",
+            "likeCount": 312,
+            "viewCount": 20789,
+            "authorName": "akari",
+            "createdUtc": 1795268425,
+            "quoteCount": 2,
+            "replyCount": 16,
+            "authorImage": "https://pbs.twimg.com/profile_images/2109300056817799168/wKnm7oc7_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 37,
+            "bookmarkCount": 465,
+            "authorUsername": "akarixbt",
+            "authorVerified": true,
+            "conversationId": "2124135848094384395",
+            "authorFollowers": 0
+          },
+          {
+            "id": "2123505648990113958",
+            "url": "https://x.com/0xCodila/status/2123505648990113958",
+            "lang": "en",
+            "text": "Google just released free 2-hour course on building Harness for LLM & AI agents from 0% to 100%:\n\n10% → 22:06 - build your first agent with Harness\n30% → 36:48 - Harness & Loop engineering\n60% → 54:20 - Graph engineering\n100% → 1:06:47 - full 24/7 multi-agent system the right way\n\n99% of people thinks they know how to build agents - but nobody knows what a Harness is, and that's the 100% part of using AI agents & models\n\nTake Harness from Google, build your first - then unlock the full agent engineering below:",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123489409618038784/img/uKAXUZ_rR7wg-Gl-.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123489409618038784/vid/avc1/1920x1080/YVCNRZrcQHp_qBtW.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "3430298277",
+            "likeCount": 912,
+            "viewCount": 126729,
+            "authorName": "codila",
+            "createdUtc": 1795118174,
+            "quoteCount": 8,
+            "replyCount": 36,
+            "authorImage": "https://pbs.twimg.com/profile_images/2064453666661441536/nj8n8Mei_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 166,
+            "bookmarkCount": 1512,
+            "authorUsername": "0xCodila",
+            "authorVerified": true,
+            "conversationId": "2123505648990113958",
+            "authorFollowers": 0
+          },
+          {
+            "id": "2123800042335060228",
+            "url": "https://x.com/fayzonnn/status/2123800042335060228",
+            "lang": "en",
+            "text": "video editors are officially cooked.\n\nDario Amodei wasn't exaggerating when he said AI agents would start executing full creative pipelines end to end, and this screen recording proves it.\n\nhanded Claude + Higgsfield one brief: produce and edit a high-converting vertical UGC ad from scratch.\n\nhands completely off the trackpad.\n\nwatch what the agent swarm executed inside the timeline on its own:\n\n→ generated the raw AI talking-head clips and b-roll shots via Higgsfield\n→ imported all media assets and arranged multi-track cuts on the timeline\n→ synced voiceover audio, paced the hook, and layered animated captions\n→ balanced exposure and color wheels across every scene\n→ exported a ready-to-run vertical ad in minutes\n\ncreative agencies still charge $2,500+ per video package for this exact workflow.\n\nmeanwhile one terminal session just knocked it out automatically.\n\nthe exact multi-agent prompt is dropped in the reply below ↓\n\nwould you let AI agents produce and edit your ad creatives?",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123800009044807680/img/nqp7-PBHal5OzV9A.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123800009044807680/vid/avc1/1080x1920/7fMl0xNYCHka_VsN.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1461242469019000836",
+            "likeCount": 93,
+            "viewCount": 5554,
+            "authorName": "fayz333",
+            "createdUtc": 1795188363,
+            "quoteCount": 0,
+            "replyCount": 13,
+            "authorImage": "https://pbs.twimg.com/profile_images/2115193988235857920/7HJAi3zm_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 7,
+            "bookmarkCount": 59,
+            "authorUsername": "fayzonnn",
+            "authorVerified": true,
+            "conversationId": "2123800042335060228",
+            "authorFollowers": 0
+          },
+          {
+            "id": "2124451759401869503",
+            "url": "https://x.com/zodchiii/status/2124451759401869503",
+            "lang": "en",
+            "text": "This is actually crazy...\n\nAnthropic CEO Dario Amodei was asked when we'd see the first billion-dollar company with one human employee. \n\nHis answer: \"End of 2026.\"\n\nThis May at Code with Claude he was asked again:\n\n\"Hasn't quite happened yet. But we've got seven more months.\"\n\nThat clock runs out in about 6 weeks, and every tool you need to build a one-person company is already free.\n\nClaude Code → Subagents → Skills → Hooks → MCP → Agent SDK → a company you run alone\n\nSave this before the algorithm buries it.\n\nEverything below is free:\n\nSTART HERE\n\nClaude Code Overview\nOfficial starting point\nhttps://code.claude.com/docs/en/overview\n\nClaude Code Best Practices\nHow Anthropic engineers actually use it\nhttps://code.claude.com/docs/en/best-practices\n\nCommon Workflows\nDebugging, refactors, tests, PRs step by step\nhttps://code.claude.com/docs/en/common-workflows\n\nBUILD YOUR AGENT TEAM\n\nCustom Subagents\nOne job, own tools, own model per agent\nhttps://code.claude.com/docs/en/sub-agents\n\nSkills\nReusable know-how your agents load on demand\nhttps://code.claude.com/docs/en/skills\n\nHooks Guide\nRules the agent can't skip\nhttps://code.claude.com/docs/en/hooks-guide\n\nMemory\nHow Claude remembers your project between sessions\nhttps://code.claude.com/docs/en/memory\n\nConnect Tools with MCP\nPlug agents into the apps you already use\nhttps://code.claude.com/docs/en/mcp\n\nPlugins\nPackage your whole setup and share it\nhttps://code.claude.com/docs/en/plugins/overview\n\nPermissions\nWhat agents can do without asking you\nhttps://code.claude.com/docs/en/permissions\n\nRUN IT WITHOUT YOU\n\nRun Claude Code Programmatically\nAgents with no chat window\nhttps://code.claude.com/docs/en/headless\n\nScheduled Tasks\nAgents that wake up on their own\nhttps://code.claude.com/docs/en/scheduled-tasks\n\nClaude Code GitHub Actions\nAgents on your PRs and issues\nhttps://code.claude.com/docs/en/github-actions\n\nClaude Agent SDK\nThe same agent loop that powers Claude Code\nhttps://code.claude.com/docs/en/agent-sdk/overview\n\nAgent SDK Quickstart\nYour first agent in code\nhttps://code.claude.com/docs/en/agent-sdk/quickstart\n\nANTHROPIC'S OWN PLAYBOOK\n\nBuilding Effective Agents\nWhat actually works in production\nhttps://www.anthropic.com/research/building-effective-agents\n\nHow We Built Our Multi-Agent Research System\nOne lead agent, many subagents\nhttps://www.anthropic.com/research/multi-agent-research-system\n\nEffective Harnesses for Long-Running Agents\nKeep agents working across sessions\nhttps://www.anthropic.com/research/effective-harnesses-for-long-running-agents\n\nHarness Design for Long-Running App Development\nBuilding whole apps with agents\nhttps://www.anthropic.com/research/harness-design-long-running-apps\n\nBuilding a C Compiler with a Team of Parallel Claudes\nWhat a team of agents can actually ship\nhttps://www.anthropic.com/research/building-c-compiler\n\nWriting Effective Tools for Agents\nWhy most agents fail at the tool layer\nhttps://www.anthropic.com/research/writing-tools-for-agents\n\nEffective Context Engineering for AI Agents\nWhat goes in the context and what stays out\nhttps://www.anthropic.com/research/effective-context-engineering-for-ai-agents\n\nEquipping Agents with Agent Skills\nHow skills work under the hood\nhttps://www.anthropic.com/research/equipping-agents-for-the-real-world-with-agent-skills\n\nCode Execution with MCP\nCheaper, faster agents\nhttps://www.anthropic.com/research/code-execution-with-mcp\n\nThe Components of Agent Memory\nHow agents remember\nhttps://www.anthropic.com/research/components-of-agent-memory\n\nDemystifying Evals for AI Agents\nHow to know your agent is getting better\nhttps://www.anthropic.com/research/demystifying-evals-for-ai-agents\n\nGITHUB REPOS\n\nClaude Agent SDK for Python\nhttps://github.com/anthropics/claude-agent-sdk-python\n\nClaude Agent SDK for TypeScript\nhttps://github.com/anthropics/claude-agent-sdk-typescript\n\nAnthropic Skills\nhttps://github.com/anthropics/skills\n\nOfficial Claude Code Plugins\nhttps://github.com/anthropics/claude-plugins-official\n\nClaude Code GitHub Action\nhttps://github.com/anthropics/claude-code-action\n\nClaude Cookbooks\nhttps://github.com/anthropics/claude-cookbooks\n\nMCP Servers\nhttps://github.com/modelcontextprotocol/servers\n\nMCP Inspector\nhttps://github.com/modelcontextprotocol/inspector\n\nAwesome Claude Code\nhttps://github.com/hesreallyhim/awesome-claude-code\n\nAwesome Claude Code Subagents\nhttps://github.com/VoltAgent/awesome-claude-code-subagents\n\nAwesome MCP Servers\nhttps://github.com/punkpeye/awesome-mcp-servers\n\nAgents by wshobson\nhttps://github.com/wshobson/agents\n\nFREE COURSES FROM ANTHROPIC\n\nClaude Code 101\nhttps://anthropic.skilljar.com/claude-code-101\n\nClaude Code in Action\nhttps://anthropic.skilljar.com/claude-code-in-action\n\nIntroduction to Subagents\nhttps://anthropic.skilljar.com/introduction-to-subagents\n\nIntroduction to Agent Skills\nhttps://anthropic.skilljar.com/introduction-to-agent-skills\n\nBuilding with the Claude API\nhttps://anthropic.skilljar.com/claude-with-the-anthropic-api\n\nAll of this is $0.\n\nPick one job you'd hand to an agent today, start with the first 4 links, and ship it before the year ends.\n\nSave it and read the Opus 5.5 guide👇🏼",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124451165954048001/img/hHn_3dkijJH3Wwnr.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124451165954048001/vid/avc1/1080x1350/WFhdrSLB1NBZbYZG.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1226636978256564226",
+            "likeCount": 156,
+            "viewCount": 20842,
+            "authorName": "darkzodchi",
+            "createdUtc": 1795343744,
+            "quoteCount": 1,
+            "replyCount": 43,
+            "authorImage": "https://pbs.twimg.com/profile_images/1999509933302124544/ABxY9N7S_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 12,
+            "bookmarkCount": 376,
+            "authorUsername": "zodchiii",
+            "authorVerified": true,
+            "conversationId": "2124451759401869503",
+            "authorFollowers": 0
+          },
+          {
+            "id": "2123271349930217807",
+            "url": "https://x.com/Viveksahu1215/status/2123271349930217807",
+            "lang": "en",
+            "text": "𝗠𝗨𝗟𝗧𝗜-𝗔𝗚𝗘𝗡𝗧 𝗗𝗘𝗦𝗜𝗚𝗡 𝗣𝗔𝗧𝗧𝗘𝗥𝗡𝗦 — 𝗔 𝗖𝗢𝗦𝗧-𝗩𝗔𝗟𝗨𝗘 𝗕𝗥𝗘𝗔𝗞𝗗𝗢𝗪𝗡\n\nBuilding multi-agent AI systems isn't just about connecting multiple LLMs.\n\nIt's about choosing the right architecture to balance cost, performance, scalability, and reliability.\n\nHere are 6 important multi-agent design patterns every AI builder should understand.\n\n𝗛𝗘𝗥𝗘’𝗦 𝗧𝗛𝗘 𝗕𝗥𝗘𝗔𝗞𝗗𝗢𝗪𝗡:\n\n01 — 𝗦𝗘𝗤𝗨𝗘𝗡𝗧𝗜𝗔𝗟 𝗣𝗔𝗧𝗧𝗘𝗥𝗡\n\nAgents complete tasks one after another in a fixed sequence.\n\n→ Task 1 → Task 2 → Task 3 → Output\n\n→ Best For: Deterministic workflows with clear dependencies.\n\n→ Cost: $\n\n→ Hidden Cost: Slower execution when tasks could run in parallel.\n\n→ Use When: Simplicity and reliability are priorities.\n\n02 — 𝗣𝗔𝗥𝗔𝗟𝗟𝗘𝗟 𝗣𝗔𝗧𝗧𝗘𝗥𝗡\n\nMultiple agents work on independent tasks simultaneously.\n\n→ Agent A: Handles Task A.\n\n→ Agent B: Handles Task B.\n\n→ Agent C: Handles Task C.\n\n→ Merge: Combines all results.\n\n→ Best For: Reducing latency for independent tasks.\n\n→ Cost: $$\n\n→ Hidden Cost: Higher token usage and infrastructure costs.\n\n→ Avoid When: Tasks depend heavily on each other.\n\n03 — 𝗛𝗜𝗘𝗥𝗔𝗥𝗖𝗛𝗜𝗖𝗔𝗟 𝗣𝗔𝗧𝗧𝗘𝗥𝗡\n\nA manager agent delegates tasks to specialized agents.\n\n→ Research Agent: Collects information.\n\n→ Analysis Agent: Evaluates findings.\n\n→ Data Agent: Processes data.\n\n→ Report Agent: Generates reports.\n\n→ Best For: Enterprise-scale workflows.\n\n→ Cost: $$$\n\n→ Hidden Cost: Complex orchestration and higher development effort.\n\n→ Long-Term Value: Reusable sub-agents create leverage across workflows.\n\n04 — 𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗢𝗥–𝗖𝗥𝗜𝗧𝗜𝗖 𝗣𝗔𝗧𝗧𝗘𝗥𝗡\n\nOne agent generates an output while another reviews and improves it.\n\n→ Generator Agent: Creates the initial output.\n\n→ Critic Agent: Reviews quality and identifies issues.\n\n→ Revision: Improves the generated result.\n\n→ Best For: Content, code, plans, and complex outputs.\n\n→ Cost: $$$\n\n→ Hidden Cost: Multiple inference loops increase latency and cost.\n\n→ Worth It When: Accuracy matters more than speed.\n\n05 — 𝗛𝗨𝗠𝗔𝗡-𝗜𝗡-𝗧𝗛𝗘-𝗟𝗢𝗢𝗣\n\nAI performs tasks while humans review important decisions.\n\n→ AI Agent: Processes the request.\n\n→ Human Review: Checks the result.\n\n→ Action: Executes the approved task.\n\n→ Feedback: Improves future execution.\n\n→ Best For: High-risk decisions and compliance workflows.\n\n→ Cost: $$$\n\n→ Hidden Cost: Manual effort and additional latency.\n\n→ Essential For: Legal, safety, billing, and critical decisions.\n\n06 — 𝗖𝗢𝗠𝗣𝗢𝗦𝗜𝗧𝗘 𝗣𝗔𝗧𝗧𝗘𝗥𝗡\n\nCombines multiple design patterns into one complex workflow.\n\n→ Sequential: Executes dependent tasks.\n\n→ Parallel: Handles independent tasks.\n\n→ Hierarchical: Delegates responsibilities.\n\n→ Generator–Critic: Reviews outputs.\n\n→ Human-in-the-Loop: Adds human approval.\n\n→ Best For: Complex end-to-end automation.\n\n→ Cost: $$$$\n\n→ Hidden Cost: High infrastructure and orchestration overhead.\n\n→ Biggest Mistake: Using it for problems that don't need this complexity.\n\n𝗧𝗛𝗘 𝟮𝟬𝟮𝟲 𝗣𝗥𝗢𝗗𝗨𝗖𝗧𝗜𝗢𝗡 𝗦𝗧𝗔𝗖𝗞:\n\n𝗠𝗖𝗣 — 𝗧𝗢𝗢𝗟 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗜𝗩𝗜𝗧𝗬 𝗟𝗔𝗬𝗘𝗥\n\nConnects AI agents with external tools and data.\n\n→ Tool Access\n→ APIs\n→ Retrieval\n→ Databases\n→ External Systems\n\n→ Ecosystem: Anthropic, OpenAI, Microsoft.\n\n𝗔𝟮𝗔 — 𝗔𝗚𝗘𝗡𝗧 𝗖𝗢𝗢𝗥𝗗𝗜𝗡𝗔𝗧𝗜𝗢𝗡 𝗟𝗔𝗬𝗘𝗥\n\nEnables different AI agents to communicate and collaborate.\n\n→ Agent Messaging\n→ Task Delegation\n→ Shared Memory\n→ Workflow Coordination\n→ Capability Discovery\n\n→ Ecosystem: Google, AWS, Microsoft.\n\n𝗧𝗛𝗘 𝗞𝗘𝗬 𝗟𝗘𝗦𝗦𝗢𝗡:\n\nMore agents don't automatically mean better results.\n\nThe right architecture depends on task complexity, budget, execution speed, and reliability requirements.\n\nStart simple. Add orchestration and specialized agents only when they deliver measurable value.\n\nFollow @Viveksahu1215 for more AI tools & tech updates.\n\n#AI #AIAgents #AgenticAI #MultiAgentSystems #MCP #A2A #LLM #Automation",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123271331081019392/img/S3xOIOsGMFHvzeoR.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123271331081019392/vid/avc1/720x900/Wef9hpY1UCedpbBP.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1888950165417168896",
+            "likeCount": 58,
+            "viewCount": 1457,
+            "authorName": "Vivek sahu",
+            "createdUtc": 1795062312,
+            "quoteCount": 1,
+            "replyCount": 11,
+            "authorImage": "https://pbs.twimg.com/profile_images/2108295266642317312/ys-ro8Sg_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 10,
+            "bookmarkCount": 24,
+            "authorUsername": "Viveksahu1215",
+            "authorVerified": true,
+            "conversationId": "2123271349930217807",
+            "authorFollowers": 0
+          },
+          {
+            "id": "2122308452726755451",
+            "url": "https://x.com/thegreatest_sv/status/2122308452726755451",
+            "lang": "en",
+            "text": "holy f*ck… SOMEONE JUST PUT ANTHROPIC’S AI AGENT PLAYBOOK ON GITHUB.\n\nthe exact stack people pay $500 courses to learn - sitting in 7 public repos. free.\n\nClaude Code. Agent loops. MCP. Context memory. Token optimization. Execution tracing.\n\nsave this before your feed buries it:\n\n1. CLAUDE CODE - THE AI CODING AGENT\n\nAnthropic’s official coding agent. Understands your codebase, edits files, runs commands and helps automate development.\n\nhttps://github.com/anthropics/claude-code\n\n2. RALPH - THE AUTONOMOUS AGENT LOOP\n\na technique for repeatedly running coding agents against a task until completion criteria are met.\n\nhttps://github.com/snarktank/ralph\n\n3. CLAUDE AGENT SDK - BUILD YOUR OWN AI AGENTS\n\nAnthropic’s official SDK for creating agents with tools, permissions and multi-step execution.\n\nhttps://github.com/anthropics/claude-agent-sdk-python\n\n4. MCP SERVERS - GIVE CLAUDE REAL TOOLS\n\nconnect AI agents to files, databases, search and external services.\n\nhttps://github.com/modelcontextprotocol/servers\n\n5. CLAUDE SKILLS - TEACH AI REUSABLE WORKFLOWS\n\npackage instructions, scripts and resources into reusable skills that agents can load when needed.\n\nhttps://github.com/anthropics/skills\n\n6. CLAUDE CODE ACTION - PUT AI INSIDE GITHUB\n\nrun Claude-powered development workflows through GitHub Actions.\n\nhttps://github.com/anthropics/claude-code-action\n\n7. AUTORESEARCH - LET AI RUN EXPERIMENTS\n\nAndrej Karpathy’s approach to autonomous experimentation, where an agent modifies code, evaluates results and iterates.\n\nhttps://github.com/karpathy/autoresearch\n\nthe exact stack people pay $500 courses to learn - sitting in 7 public repos. free.\n\nthe people building agent systems are playing a completely different game.\n\nLIKE + BOOKMARK + REPOST.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122288807726768128/img/rahJPmFUsOzslxZn.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122288807726768128/vid/avc1/1080x1526/dV1NjsDdolBulImC.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1214810521",
+            "likeCount": 78,
+            "viewCount": 4160,
+            "authorName": "kiosa",
+            "createdUtc": 1794832740,
+            "quoteCount": 1,
+            "replyCount": 30,
+            "authorImage": "https://pbs.twimg.com/profile_images/2049557081502752768/gymBLMZ8_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 6,
+            "bookmarkCount": 78,
+            "authorUsername": "thegreatest_sv",
+            "authorVerified": true,
+            "conversationId": "2122308452726755451",
+            "authorFollowers": 0
+          },
+          {
+            "id": "2122418093049643146",
+            "url": "https://x.com/Damir_Akaza/status/2122418093049643146",
+            "lang": "en",
+            "text": "I stopped editing my own videos, Fable 5.2 cuts them for me now.\n\nOn the screen it runs the edit like a director: cutting, color, music and captions go to separate agents, and Fable checks everything they send back.\n\nI send one message with the mood and length and get a draft with a numbered list of every cut. If a cut feels off, I reply “swap 4” and it renders again.\n\nHow it works:\n\nraw clips → one folder → Claude Code on Fable 5.2 → one message → draft.mp4 + list of cuts\n\nNow I have a lot more time for everything else.\n\nThe prompt is in the reply.\n\nHow to make Fable the brain of your agent team, step by step, is in the article below ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122417416223289346/img/qd5I4gCjVM5cp2g4.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122417416223289346/vid/avc1/1080x1438/6acuQ3ZRGHXlpsKV.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1644003153409454081",
+            "likeCount": 433,
+            "viewCount": 83366,
+            "authorName": "Damir Akaza",
+            "createdUtc": 1794858880,
+            "quoteCount": 2,
+            "replyCount": 31,
+            "authorImage": "https://pbs.twimg.com/profile_images/2070665160948080640/cuJWnmQV_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 33,
+            "bookmarkCount": 451,
+            "authorUsername": "Damir_Akaza",
+            "authorVerified": true,
+            "conversationId": "2122418093049643146",
+            "authorFollowers": 0
+          }
+        ],
+        "nextCursor": "cur_irhXXoSnAgQSYXu6XN1C1A"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-capybara",
+      "kind": "anonymous",
+      "name": "Capybara",
+      "artworkKey": "capybara"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00049",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:40:18.634Z",
+  "started_at": "2026-11-23T07:40:18.676Z",
+  "completed_at": "2026-11-23T07:40:20.393Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

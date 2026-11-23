@@ -1,0 +1,45 @@
+{
+  "id": "55648adc-032d-4892-b784-2aaac9cdd12a",
+  "run_url": "https://app.glasser.ai/runs/55648adc-032d-4892-b784-2aaac9cdd12a",
+  "provider": "anyapi",
+  "endpoint": "/youtube.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "query": "AI generated short film agents bloopers",
+    "sortBy": "popular",
+    "uploadDate": "this_year"
+  },
+  "output": {
+    "hint": "paging_unavailable: this result came from a source that cannot return a nextCursor, so it may be incomplete and there is no way to continue from here. Re-run with `requireFields: [\"nextCursor\"]` to be served only by a source that can page, which may cost more per request.",
+    "items": 0,
+    "output": {
+      "data": null,
+      "found": false,
+      "reason": "not_found"
+    },
+    "source": {
+      "id": "anonymous-tiger-6f8f398d",
+      "kind": "anonymous",
+      "name": "Tiger",
+      "artworkKey": "tiger"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00",
+  "charge_basis": {
+    "clause": "NO_RESULT",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:40:18.464Z",
+  "started_at": "2026-11-23T07:40:18.528Z",
+  "completed_at": "2026-11-23T07:40:19.365Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

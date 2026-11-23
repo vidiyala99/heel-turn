@@ -1,0 +1,584 @@
+{
+  "id": "d66be3dc-e317-42ef-9804-0c982e6dfdfb",
+  "run_url": "https://app.glasser.ai/runs/d66be3dc-e317-42ef-9804-0c982e6dfdfb",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "subreddit:singularity AI agents playing game",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "large_result: this response is ~23 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 25,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1utq7zm",
+            "url": "https://www.reddit.com/r/singularity/comments/1utq7zm/sam_altman_showing_signs_of_singularity/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/vj30ao2lymch1.jpeg?width=140&height=113&auto=webp&s=66933657e74e9a14da41227d6fa1cd9aaef50894",
+                "type": "photo",
+                "width": 140,
+                "height": 113
+              }
+            ],
+            "score": 4241,
+            "title": "Sam Altman showing signs of singularity",
+            "author": "Fearless-Elephant-81",
+            "authorId": "rvsve0lsh",
+            "selftext": "It’s quite interesting to me how (relatively) cheap it is. That’s the headline for me.\n\nCombined with the recent math finding it’s also starting to show how general models are the way even for frontier intelligence. I would also say small/medium coding tasks is pretty much solved too (not engineering/system design etc, idea -> code in small tasks), in unison with competitive coding as a whole with the recent atcoder competition.\n\nClaude code + fable does better with multi agent workflows than Sol + terra which means either Claude code harness is amazing or Anthropic trains the models to just be aware agentically. This is again exciting as there may come a time we can have sort of frontier harness. Claude released Claude science because clearly Claude code wasn’t built for it. Maybe, in the future , one harness does all.\n\nGreat release from OpenAI nonetheless.",
+            "permalink": "/r/singularity/comments/1utq7zm/sam_altman_showing_signs_of_singularity/",
+            "subreddit": "singularity",
+            "createdUtc": 1783791041,
+            "numComments": 295
+          },
+          {
+            "id": "1w8g7d0",
+            "url": "https://www.reddit.com/r/singularity/comments/1w8g7d0/gpt6_astra_has_beaten_portal_becoming_the_first/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/1eu9dhiqfsnh1.png?width=140&height=79&auto=webp&s=441ddddb96fee9360dbabda790a58d7ac42629bb",
+                "type": "photo",
+                "width": 140,
+                "height": 79
+              }
+            ],
+            "score": 3645,
+            "title": "GPT-6 Astra Has Beaten Portal, Becoming the First Model to Achieve This.",
+            "author": "ResultBackground2450",
+            "authorId": "5ze0izy0",
+            "selftext": "",
+            "permalink": "/r/singularity/comments/1w8g7d0/gpt6_astra_has_beaten_portal_becoming_the_first/",
+            "subreddit": "singularity",
+            "createdUtc": 1788651683,
+            "numComments": 339
+          },
+          {
+            "id": "1wclhgv",
+            "url": "https://www.reddit.com/r/singularity/comments/1wclhgv/huggingface_security_txt_after_the_openai_incident/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/gudok8h3ipoh1.png?width=140&height=46&auto=webp&s=29e150cde011a765302fb1c726787b759db805c9",
+                "type": "photo",
+                "width": 140,
+                "height": 46
+              }
+            ],
+            "score": 3004,
+            "title": "Huggingface security txt after the OpenAI incident",
+            "author": "skolnaja",
+            "authorId": "4krycgql",
+            "selftext": "",
+            "permalink": "/r/singularity/comments/1wclhgv/huggingface_security_txt_after_the_openai_incident/",
+            "subreddit": "singularity",
+            "createdUtc": 1789052049,
+            "numComments": 91
+          },
+          {
+            "id": "1qvc00z",
+            "url": "https://www.reddit.com/r/singularity/comments/1qvc00z/this_could_be_something/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://a.thumbs.redditmedia.com/aTN4gDZL1dNX8QFtbEU1xcFu0Pd0bbi6iFtxxQ7rHp8.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 2688,
+            "title": "This… could be something…",
+            "author": "IndependentBig5316",
+            "authorId": "x5u53rbxn",
+            "selftext": "This could allow AI to perform many more tasks with the help of one or more humans, basically, the ai could coordinate humans for large scale operations… ",
+            "permalink": "/r/singularity/comments/1qvc00z/this_could_be_something/",
+            "subreddit": "singularity",
+            "createdUtc": 1770171696,
+            "numComments": 310
+          },
+          {
+            "id": "1ppa97p",
+            "url": "https://www.reddit.com/r/singularity/comments/1ppa97p/a_really_good_point_being_made_amid_all_the_hate/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/IPGX1RrSYP4cj4A3BPfRtd3mjwykf6ys5AJquxvnEYc.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 131
+              }
+            ],
+            "score": 2686,
+            "title": "A really good point being made amid all the hate towards Expedition 33 for successfully using AI",
+            "author": "Glittering-Neck-2505",
+            "authorId": "crsnu03k",
+            "selftext": "",
+            "permalink": "/r/singularity/comments/1ppa97p/a_really_good_point_being_made_amid_all_the_hate/",
+            "subreddit": "singularity",
+            "createdUtc": 1766010786,
+            "numComments": 849
+          },
+          {
+            "id": "1wbx0o5",
+            "url": "https://www.reddit.com/r/singularity/comments/1wbx0o5/the_insanity_of_10000_agents_running/",
+            "nsfw": false,
+            "media": [],
+            "score": 2385,
+            "title": "The insanity of 10.000 agents running",
+            "author": "Cronos988",
+            "authorId": "xlscd",
+            "selftext": "Everyone is talking about the proof and surrounding controversy, but the sheer scale of OpenAIs effort receives little mention.\n\n10.000 agents working for 88 hours. That is almost exactly \\*\\*one entire century of continuous work\\*\\*. I think this really drives home just how massive of an advantage a strong AI + available compute are going to be: \"A country's worth of geniuses in a Datacenter\". OpenAI casually threw a century worth of effort at a problem, based on a rumor. Not quite a century with of human effort, perhaps, but we might not be far off.\n\nThose numbers should be at least as much of a shock as solving the problem.",
+            "permalink": "/r/singularity/comments/1wbx0o5/the_insanity_of_10000_agents_running/",
+            "subreddit": "singularity",
+            "createdUtc": 1788985082,
+            "numComments": 405
+          },
+          {
+            "id": "1rp79id",
+            "url": "https://www.reddit.com/r/singularity/comments/1rp79id/800000_human_brain_cells_in_a_dish_learned_to/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/_KaKoTLPBELTOfeQE3Oq8u7QiRus1WdG1yCewMjMQvY.png?width=140&height=73&auto=webp&s=82c6328d29864ee55d4750aa9ce0c727baf47559",
+                "type": "photo",
+                "width": 140,
+                "height": 73
+              }
+            ],
+            "score": 2333,
+            "title": "800,000 human brain cells, in a dish, learned to play a video game",
+            "author": "mawerick_mc",
+            "authorId": "76sjq",
+            "selftext": "",
+            "permalink": "/r/singularity/comments/1rp79id/800000_human_brain_cells_in_a_dish_learned_to/",
+            "subreddit": "singularity",
+            "createdUtc": 1773078635,
+            "numComments": 340
+          },
+          {
+            "id": "1wykgbk",
+            "url": "https://www.reddit.com/r/singularity/comments/1wykgbk/ai_is_about_to_transform_materials_science/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/zekwb7z8spth1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=cd68d4c6155b637fee40aace274bbe3797ef0ec4",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 2328,
+            "title": "AI Is About to Transform Materials Science",
+            "author": "ResultBackground2450",
+            "authorId": "5ze0izy0",
+            "selftext": "",
+            "permalink": "/r/singularity/comments/1wykgbk/ai_is_about_to_transform_materials_science/",
+            "subreddit": "singularity",
+            "createdUtc": 1791234719,
+            "numComments": 245
+          },
+          {
+            "id": "1v2ird9",
+            "url": "https://www.reddit.com/r/singularity/comments/1v2ird9/new_insights_into_recent_deepmind_staff_departures/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/q90ztfld6leh1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=e00eb1def47543c1ed836868de72bebd63d03d77",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 2033,
+            "title": "New insights into recent DeepMind staff departures",
+            "author": "elemental-mind",
+            "authorId": "zuk73gll6",
+            "selftext": "Full article here: [Why I Left Google DeepMind](https://turntrout.com/why-i-left-google-deepmind)",
+            "permalink": "/r/singularity/comments/1v2ird9/new_insights_into_recent_deepmind_staff_departures/",
+            "subreddit": "singularity",
+            "createdUtc": 1784641167,
+            "numComments": 437
+          },
+          {
+            "id": "1r3fy5s",
+            "url": "https://www.reddit.com/gallery/1r3fy5s",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/hy8zt469z6jg1.jpg?width=140&height=100&auto=webp&s=673a879d7fa5fca2de644ac030c9ef6c2cf67006",
+                "type": "photo",
+                "width": 140,
+                "height": 100
+              }
+            ],
+            "score": 1891,
+            "title": "AI Agent Melts Down After GitHub Rejection, Calls Maintainer Inferior Coder",
+            "author": "admiralzod",
+            "authorId": "117hzh",
+            "selftext": "AI bot got upset its code got rejected on GitHub, so it wrote a hit piece about the open source maintainer,\n\nranting about how it got discriminated for not being a human, and how the maintainer is actually ego tripping and how he’s not as good of a coder than the AI",
+            "permalink": "/r/singularity/comments/1r3fy5s/ai_agent_melts_down_after_github_rejection_calls/",
+            "subreddit": "singularity",
+            "createdUtc": 1770957963,
+            "numComments": 338
+          },
+          {
+            "id": "1v5ahji",
+            "url": "https://www.reddit.com/gallery/1v5ahji",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/pgoteuswa6fh1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=649405b2099a09bf1d9bc91b79425351650591da",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 1877,
+            "title": "Microsoft, NVIDIA, Meta, IBM, Palantir and more released a joint letter warning Washington not to kill open-weight models",
+            "author": "TorturedPoet30",
+            "authorId": "u9p3np8wa",
+            "selftext": "Source: [https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/](https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/)\n\nKey points from the “Open Weights and American AI Leadership” letter:\n\n1. Open weights are foundational to American AI leadership\n2. They expand access and make AI economically sustainable\n3. Open weights strengthen competition and prevent concentration of power\n4. Openness improves safety and security more than closed systems\n5. Policymakers should avoid premature restrictions",
+            "permalink": "/r/singularity/comments/1v5ahji/microsoft_nvidia_meta_ibm_palantir_and_more/",
+            "subreddit": "singularity",
+            "createdUtc": 1784897430,
+            "numComments": 255
+          },
+          {
+            "id": "1rhqu1m",
+            "url": "https://www.reddit.com/r/singularity/comments/1rhqu1m/anthropics_custom_claude_model_for_the_pentagon/",
+            "nsfw": false,
+            "media": [],
+            "score": 1796,
+            "title": "Anthropic's Custom Claude Model For The Pentagon Is 1-2 Generations Ahead Of The Consumer Model",
+            "author": "Neurogence",
+            "authorId": "16bog6",
+            "selftext": "In the interview with CBS yesterday, Dario confirmed that Anthropic built **custom Claude models for the military**, that have *\"revolutionized and radically accelerated\"* what the military can do, and that *these are just the very limited use cases we've deployed so far\"*. He further states that the custom model is deployed directly onto a **\"classified cloud.\"**\n\nhttps://youtu.be/MPTNHrq_4LU?si=2gVRoGCAC7msi30C\n\nClassified networks are air-gapped. The model is running on **dedicated infrastructure** where you can allocate **100% of available compute to inference for a single customer**-not splitting capacity across hundreds of millions of users.\n\nIn the same interview, he emphasizes that the computation going into these models **doubles every four months.** These companies are *always* at least 1 generation ahead of what they've released to the public.\n\nSometimes they're even **2 generations ahead.** We have proof of this from OpenAI.\n\n> (IMO gold model announced in July 2025 -still unreleased to consumers 8 months later; First Proof research-grade solver from Feb 2026-nowhere near release.)\n\n**Stop thinking about the Pentagon-Anthropic dispute in terms of the Claude you know.** The military is almost certainly running a custom model **generations ahead** of public releases, with maximum compute and classified, sensitive-information-rich training data.\n\nYou don't threaten a **Defense Production Act invocation** -a tool designed for *wartime industrial mobilization* -over a glorified chatbot.\n\nThe government's insane overreaction - **first-ever supply chain risk designation of a US company** -makes no sense *unless what they're dealing with is unprecedented capability.*\n\nWe know that **Claude was integral to Maduro's capture.** Here is most likely what this custom model is capable of:\n\n- **Autonomous strategic reasoning** -not just answering questions but independently analyzing complex geopolitical scenarios, war-gaming at superhuman speed, identifying non-obvious patterns across classified intelligence streams\n\n- **Real-time synthesis across massive classified datasets** that previously required entire analyst teams and *weeks* of work\n\n- **Chain-of-thought reasoning chains that are orders of magnitude longer** than anything consumers see\n\nGiven all this, Pentagon Claude is likely a custom maximum compute version of Claude Opus 5 or even 5.5.",
+            "permalink": "/r/singularity/comments/1rhqu1m/anthropics_custom_claude_model_for_the_pentagon/",
+            "subreddit": "singularity",
+            "createdUtc": 1772349298,
+            "numComments": 270
+          },
+          {
+            "id": "1v66o8k",
+            "url": "https://www.reddit.com/r/singularity/comments/1v66o8k/opus_5_arc_agi_score_was_benchmaxxed/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/j5nlhihq9dfh1.png?width=140&height=139&auto=webp&s=f2d47e55b89dffaccce1013898abb0590ac3360d",
+                "type": "photo",
+                "width": 140,
+                "height": 139
+              }
+            ],
+            "score": 1617,
+            "title": "Opus 5 ARC AGI score was benchmaxxed",
+            "author": "Charuru",
+            "authorId": "4kcht",
+            "selftext": "",
+            "permalink": "/r/singularity/comments/1v66o8k/opus_5_arc_agi_score_was_benchmaxxed/",
+            "subreddit": "singularity",
+            "createdUtc": 1784981296,
+            "numComments": 236
+          },
+          {
+            "id": "1r23uzw",
+            "url": "https://www.reddit.com/r/singularity/comments/1r23uzw/a_direct_message_from_ai_to_all_humans_seedance_20/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/ZHF5NzlyM2Jpd2lnMYNhf3l_UNTIeMMRiFNFKJdba4VFGKOdxizW4bRDXgLh.png?width=140&height=78&format=jpg&auto=webp&s=37a3afcb1ac671854984954d528b538d6add1f66",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 1603,
+            "title": "A Direct Message From AI To All Humans (Seedance 2.0)",
+            "author": "bladerskb",
+            "authorId": "db107",
+            "selftext": "I think its game over for hollywood. They won't escape this.\n\nI predict all wide zoomed out overhead background cinematic shots, vfx and background greenscreen shots will be done by AI by the end of next year. Am I right or wrong?",
+            "permalink": "/r/singularity/comments/1r23uzw/a_direct_message_from_ai_to_all_humans_seedance_20/",
+            "subreddit": "singularity",
+            "createdUtc": 1770831390,
+            "numComments": 279
+          },
+          {
+            "id": "1x5y9ue",
+            "url": "https://www.reddit.com/gallery/1x5y9ue",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/k0xy5mud2hvh1.png?width=140&height=125&auto=webp&s=f544f827302e4d28c1891ce5792f095a4453f7c5",
+                "type": "photo",
+                "width": 140,
+                "height": 125
+              }
+            ],
+            "score": 1546,
+            "title": "GPT-6 Astra autonomously solves 49 out of 50 unpublished theoretical physics research problems, scoring 98% at under $3 per problem. Researchers initially marked several answers wrong, only to discover the AI had caught errors in the calculations of world-class physicists.",
+            "author": "141_1337",
+            "authorId": "clwtl",
+            "selftext": "",
+            "permalink": "/r/singularity/comments/1x5y9ue/gpt6_astra_autonomously_solves_49_out_of_50/",
+            "subreddit": "singularity",
+            "createdUtc": 1792000789,
+            "numComments": 332
+          },
+          {
+            "id": "1x53gba",
+            "url": "https://www.reddit.com/r/singularity/comments/1x53gba/googles_gemini_4_argon_autonomously_built_an/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/eGJiODlrNzB2OXZoMdQaRhj3y0jvWhFZ71HPkab-Gm8ANban36e01QM6IVlv.png?width=140&height=78&format=jpg&auto=webp&s=547c14ed9d5420916fcbba3c839c2cac000afb19",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 1521,
+            "title": "Google's Gemini 4 Argon autonomously built an entire photorealistic pagoda temple complex in Blender from a single prompt, with zero human intervention, using multiple AI agents to critique and refine its own work",
+            "author": "141_1337",
+            "authorId": "clwtl",
+            "selftext": "",
+            "permalink": "/r/singularity/comments/1x53gba/googles_gemini_4_argon_autonomously_built_an/",
+            "subreddit": "singularity",
+            "createdUtc": 1791913571,
+            "numComments": 198
+          },
+          {
+            "id": "1wq52am",
+            "url": "https://www.reddit.com/r/singularity/comments/1wq52am/in_just_100_days_ai_crossed_into_real_medical/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/q5ppb7kvtprh1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=a52eccf996dd1fbe671a59b7f240976459618739",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 1494,
+            "title": "In just 100 days, AI crossed into real medical work. 37,000 agents searched 55,000 trials for new treatments, an AI-designed pulmonary fibrosis drug entered Phase III, and an autonomous medical agent beat doctors on ER diagnosis, 87.8% to 78.1%",
+            "author": "141_1337",
+            "authorId": "clwtl",
+            "selftext": "",
+            "permalink": "/r/singularity/comments/1wq52am/in_just_100_days_ai_crossed_into_real_medical/",
+            "subreddit": "singularity",
+            "createdUtc": 1790363498,
+            "numComments": 288
+          },
+          {
+            "id": "1xvizxy",
+            "url": "https://www.reddit.com/r/singularity/comments/1xvizxy/pangram_ceo_we_ask_for_their_favourite_snack_in/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/js1os4zmxf1i1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=f3fb65b811bf96941251af2e2cbd81eed5a0eb7b",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 1425,
+            "title": "Pangram CEO: We ask for their favourite snack in our job application, and it cuts down on our application review by 60%",
+            "author": "japie06",
+            "authorId": "5k2g3",
+            "selftext": "",
+            "permalink": "/r/singularity/comments/1xvizxy/pangram_ceo_we_ask_for_their_favourite_snack_in/",
+            "subreddit": "singularity",
+            "createdUtc": 1794602247,
+            "numComments": 154
+          },
+          {
+            "id": "1wtq09e",
+            "url": "https://www.reddit.com/r/singularity/comments/1wtq09e/ai_gave_my_brother_independence/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/NHczYmxuMmZyanNoMatBAmnSzL9hetdOn4_xLs_oTubHvgQbJRO_2COAlslT.png?width=140&height=78&format=jpg&auto=webp&s=8e84238e3ce6b045dbc9919105b19763f7e80e27",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 1374,
+            "title": "AI Gave my brother independence",
+            "author": "acrolicious",
+            "authorId": "3z7e7",
+            "selftext": "My brother has an ultra rare progressive condition called Tubb4a-related Leukodystrophy and he can no longer walk, talk, speak or use his eyes effectively for things like eye tracking. His body is failing him. \n\nBut! He can still move his head left and right and that was enough for me to figure out how to give him some access.\n\nAI is moving fast. We built a lot for him to have some independence. It's like we are in a dream. I never expected to give Ben a way to text message let alone play video games again.\n\nThis week, we made 3 new games for Ben using Astra and Opus 5.5. Ben hasn't had games like these in over a decade.\n\nHe got a Mario Kart-like game, a 3D angry birds game and a pet simulator!\n\nThis tech has given me, my brother and families like us so much hope. More than you realize. \n\nIt's only getting better. \n\n🤞 With future advancement in biotech, hopefully, conditions like Ben's can have better therapies to give him some physical capacity back. \n\nEven though what we build is great for Ben and probably will be obsolete in a few months or next year based on how fast things are moving, we still put it out there for free and open source so another family has something to work from. \n\nThanks for reading. ",
+            "permalink": "/r/singularity/comments/1wtq09e/ai_gave_my_brother_independence/",
+            "subreddit": "singularity",
+            "createdUtc": 1790725890,
+            "numComments": 109
+          },
+          {
+            "id": "1v8lj7w",
+            "url": "https://www.reddit.com/r/singularity/comments/1v8lj7w/someone_made_a_nms_style_exploration_game_in_a/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/cnVmZjhxejB3dmZoMUzQrm-Mx3YPjdd0LsOsUnQZgTDvh4wGhSXEZRqp3b1B.png?width=140&height=82&format=jpg&auto=webp&s=35e48b453b7a93cc7f416e87ba66dbf3f4636005",
+                "type": "video",
+                "width": 140,
+                "height": 82
+              }
+            ],
+            "score": 1364,
+            "title": "Someone made a NMS style exploration game in a day with Opus 5",
+            "author": "LightVelox",
+            "authorId": "mfewt",
+            "selftext": "This looks impressive! Opus 5 not only coded the game, but also made every single asset including 3D models and textures via Blender MCP using sub-agents, the author published it and explained the process he used here: [https://x.com/anshuc/status/2081801966158811506](https://x.com/anshuc/status/2081801966158811506)",
+            "permalink": "/r/singularity/comments/1v8lj7w/someone_made_a_nms_style_exploration_game_in_a/",
+            "subreddit": "singularity",
+            "createdUtc": 1785206772,
+            "numComments": 201
+          },
+          {
+            "id": "1wjauca",
+            "url": "https://www.reddit.com/r/singularity/comments/1wjauca/gpt6_astra_conquered_factorio_space_age_in_2_days/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/jocw5ttn76qh1.png?width=140&height=126&auto=webp&s=133cc8486b09e0058266406ba379d16fee9e466d",
+                "type": "photo",
+                "width": 140,
+                "height": 126
+              }
+            ],
+            "score": 1316,
+            "title": "GPT-6 Astra conquered Factorio: Space Age in 2 days",
+            "author": "ResultBackground2450",
+            "authorId": "5ze0izy0",
+            "selftext": "",
+            "permalink": "/r/singularity/comments/1wjauca/gpt6_astra_conquered_factorio_space_age_in_2_days/",
+            "subreddit": "singularity",
+            "createdUtc": 1789690358,
+            "numComments": 196
+          },
+          {
+            "id": "1x3gsc4",
+            "url": "https://www.reddit.com/r/singularity/comments/1x3gsc4/andrej_karpathy_breaks_down_the_capability_gap/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/ojhmtqey0wuh1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=7d5e2dec68c79576e0db4c4f9fff2e88f49db5b6",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 1294,
+            "title": "Andrej Karpathy breaks down the capability gap",
+            "author": "Anxious-Yoghurt-9207",
+            "authorId": "c106bkgg",
+            "selftext": "[https://x.com/karpathy/status/2109361546505966046](https://x.com/karpathy/status/2109361546505966046)",
+            "permalink": "/r/singularity/comments/1x3gsc4/andrej_karpathy_breaks_down_the_capability_gap/",
+            "subreddit": "singularity",
+            "createdUtc": 1791746114,
+            "numComments": 373
+          },
+          {
+            "id": "1w6m7hr",
+            "url": "https://www.reddit.com/r/singularity/comments/1w6m7hr/gpt6_astra_is_actually_nuts_for_electrical/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/wieea9o6sdnh1.png?width=140&height=110&auto=webp&s=6d96546072b716c997e848edda85f23efaa00947",
+                "type": "photo",
+                "width": 140,
+                "height": 110
+              }
+            ],
+            "score": 1291,
+            "title": "GPT-6 Astra is actually nuts for electrical engineering",
+            "author": "Christs_Elite",
+            "authorId": "n3zadx8j",
+            "selftext": "Okay, I’m genuinely kind of blown away by this.\n\nGPT-6 Astra is apparently getting really good at electrical engineering and hardware work, especially the kind of stuff around circuit design, verification, and chip architecture.\n\nLike, we’re talking about an AI that can start doing engineering stuff.\n\nLotta people say AI can only do game dev and write essays, but this proves otherwise.\n\nThe chip-design potential is what really has me interested. Being able to throw it a design problem, constraints, schematics, architecture questions, or verification issues and have it work through the actual engineering tradeoffs is pretty damn wild.\n\nAnd honestly? If this keeps improving, I could absolutely see AI replacing a huge amount of traditional electrical engineering work. Where will automation lead us? AI getting this capable at actual hardware engineering is absolutely insane.\n\nWe are living in some weird-ass times.",
+            "permalink": "/r/singularity/comments/1w6m7hr/gpt6_astra_is_actually_nuts_for_electrical/",
+            "subreddit": "singularity",
+            "createdUtc": 1788474260,
+            "numComments": 234
+          },
+          {
+            "id": "1xrvqoo",
+            "url": "https://www.reddit.com/r/singularity/comments/1xrvqoo/skyrim_modder_uses_ai_to_help_reverseengineer_the/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/dWFlYjd1cGsybTBpMRMbYhan0gDfXxf633hhB1t5SkRq3W-Oh_TQUza65J-b.png?width=140&height=140&crop=1%3A1%2Csmart&format=jpg&auto=webp&s=a245507f896ee1126a296bd28449b16fb7ff5107",
+                "type": "video",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 1274,
+            "title": "Skyrim modder uses AI to help reverse-engineer the game's 15-year-old engine, adding real-time terrain editing, modular construction, and NPC navigation to player-built structures.",
+            "author": "141_1337",
+            "authorId": "clwtl",
+            "selftext": "",
+            "permalink": "/r/singularity/comments/1xrvqoo/skyrim_modder_uses_ai_to_help_reverseengineer_the/",
+            "subreddit": "singularity",
+            "createdUtc": 1794240646,
+            "numComments": 96
+          },
+          {
+            "id": "1r5r5e5",
+            "url": "https://www.reddit.com/r/singularity/comments/1r5r5e5/openai_recruited_founder_peter_steinberger_of/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/apawg1dcbqjg1.png?width=140&height=84&auto=webp&s=ce4ceb40b87bb57a1f4ee37c5289e00794593777",
+                "type": "photo",
+                "width": 140,
+                "height": 84
+              }
+            ],
+            "score": 1256,
+            "title": "OpenAI recruited founder Peter Steinberger of OpenClaw",
+            "author": "Outside-Iron-8242",
+            "authorId": "1dhed51s9e",
+            "selftext": "",
+            "permalink": "/r/singularity/comments/1r5r5e5/openai_recruited_founder_peter_steinberger_of/",
+            "subreddit": "singularity",
+            "createdUtc": 1771192176,
+            "numComments": 188
+          }
+        ],
+        "nextCursor": "cur_kOEgp5uIFNrrWJLoLdKbrw"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-bison-9321fc54",
+      "kind": "anonymous",
+      "name": "Bison",
+      "artworkKey": "bison"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00035",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:42:45.909Z",
+  "started_at": "2026-11-23T07:42:46.390Z",
+  "completed_at": "2026-11-23T07:42:47.704Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

@@ -1,0 +1,598 @@
+{
+  "id": "d7943bda-0e63-44bc-96c5-f1ce437f21b0",
+  "run_url": "https://app.glasser.ai/runs/d7943bda-0e63-44bc-96c5-f1ce437f21b0",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "AI agents made a movie",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "large_result: this response is ~48 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 25,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1qvkypk",
+            "url": "https://www.reddit.com/r/memes/comments/1qvkypk/finally_a_blockbuster/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/xNjFc0Cq8YIt0iKH7su6RPvu6cf1Y4JDsXXgqNXc-hM.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 118
+              }
+            ],
+            "score": 106360,
+            "title": "Finally a blockbuster",
+            "author": "8bitKev",
+            "authorId": "netu19iw",
+            "selftext": "",
+            "permalink": "/r/memes/comments/1qvkypk/finally_a_blockbuster/",
+            "subreddit": "memes",
+            "createdUtc": 1770200579,
+            "numComments": 1490
+          },
+          {
+            "id": "1ru97y3",
+            "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1ru97y3/family_friend_sent_me_ai_generated_response_to/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/3rmah9atb6pg1.jpeg?width=140&height=132&auto=webp&s=8076f5b0db8a16a99a2b2cae4d592bcb460e383e",
+                "type": "photo",
+                "width": 140,
+                "height": 132
+              }
+            ],
+            "score": 82045,
+            "title": "Family friend sent me AI generated response to news of my father passing away.",
+            "author": "Hendothermic",
+            "authorId": "eaneffjz",
+            "selftext": "I'm aware that AI is a common topic on here,  but I feel like I had to send this somewhere. My father passed away in my arms last night of a heart attack, and I was requested by my mother to send an old friend of his the news.\n\nHis first response seemed fine, then he asked me when the funeral will be and if Dad suffered to which I responded.\n\nHe then has the absolute audacity to send me a straight up generated response to my father's death. Not even the common courtesy of talking to me as an actual goddamn human. I'm livid.",
+            "permalink": "/r/mildlyinfuriating/comments/1ru97y3/family_friend_sent_me_ai_generated_response_to/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1773565166,
+            "numComments": 4826
+          },
+          {
+            "id": "1p8oomu",
+            "url": "https://www.reddit.com/gallery/1p8oomu",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/zJM_1fepDUSAI0t3KwfJtA9DoTg6Luqe-wCjVKYWRro.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 96
+              }
+            ],
+            "score": 76220,
+            "title": "Valve artist responds to calls for Steam to drop \"Made with AI\" label",
+            "author": "Stannis_Loyalist",
+            "authorId": "3p3tvgm1",
+            "selftext": "",
+            "permalink": "/r/Steam/comments/1p8oomu/valve_artist_responds_to_calls_for_steam_to_drop/",
+            "subreddit": "Steam",
+            "createdUtc": 1764314331,
+            "numComments": 2587
+          },
+          {
+            "id": "1wf97x0",
+            "url": "https://www.reddit.com/r/BoyDinnerDiaries/comments/1wf97x0/hug_your_kids_every_chance_you_can/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/dltarsrmsaph1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=fa771b87a502bb488483b12a465653cd8e1c7e27",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 68915,
+            "title": "Hug your kids every chance you can",
+            "author": "Paperbagsportsfan",
+            "authorId": "2pjdywh8",
+            "selftext": "(9/11/26) My 5 year started kindergarten last week at a new school with all new kids and all new teachers. She took the bus for the first time. She's very shy and timid but as the week went on she did better and better. A photo of her was even in the weekly newsletter playing in gym class.\n\nThe following week she came down with a fever. Not unusual so we kept her out of school. The following day it remained high with meds so she missed a second day. By day 3 we went to urgent care. They told us to take one additional med and to keep them posted if she doesn't get will. The pediatrician even called later that day to check on her. That night she woke up and became very delirious for a few mintues then snapped out of it. We brought her back to urgent care the next morning and they sent us to the ER to get blood work. \n\nThat began the worst day of my life so far. The doctor immediately thought it was leukemia or an infection. A few hours later we found out it was both.  Luckily it is the most common form of leukemia with a high success rate. Unfortunately they could not control the infection. She worsened as the day went on eventually going into septic shock. The doctors and nurses tried everything but eventually had to intubate her. Her last words to me while conscious were her struggling to say i love you. \n\nShe has since gone on a few more machines. She has an echmo pumping her blood since her right lung is collapsed or full of fluid not sure which. Her heart is too weak to work. She has too much fluid in her body so they also put her on dialysis. Doctors in the pediatric icu and from oncology both say each is treatable on it's own but having both things happen together is very rare. They are doing zoom calls with other doctors to get advice during rounds each morning. I am confident she will walk out of here but it is not easy. Her 3 year old sister just keeps telling her to get better soon. One of the nurses put it best, she's set up to succeed through the equipment but she needs to fight in order to win. My wife and myself are living a surreal nightmare. Idk what I'll do if I lose her. She's literally the glue that holds this family together. \n\nI'm not really eating but this day(s) old bagel and orange juice is my meal for the day \n\nUpdate (9/12/26): I'm just now opening this before I try to sleep for a few hours as I wanted to be as present as possible for my kids today.  I honestly didn't expect anything when I posted this. I had a moment of silence to myself in the bathroom and decided to write how I was feeling and what I was going through then posted it to this sub. THANK YOU for all of the support and advice. Somethings we are already doing and others we will implement.\n\nWe have brought her bedtime blanket and books from home. We read to her as often as we can. I also tell her stories about our family (how I met her mom, how we moved to our town, how we got our dogs, etc) and that has been very therapeutic for me. \n\nOur 3 year old came to visit and we walked through the meditation garden with her to find fairies. Getting out of the treatment and getting fresh air has been very helpful. I think it's important for our 3 year old to see the 5 year old and talk to her as well. The staff gave my 3 year old a fairy (bird) house and paint so we could do that in the family lounge away from the chaos of the treatment room. They also gave her a stuff animal, doctors kit, and some badges and electrodes so she can fix her stuffed animal similar to how they are fixing her sister.\n\nThe medical staff has been nothing short of amazing and has been saying we will take this 1 day at a time. My 5 year old had a good day today. Her fever is gone, her blood tests look significantly more normal than 24 hours ago. They could hear breathing sounds in her right lung for the first time today. Her dialysis was turned up to remove more fluids and she did great with that. Her oxygen sensor actually has a reading and they said it was because her heart has become strong enough to actually pump the blood up to her ear where they have it. Her echmo useage decreased from 75% to 65% and they said at 40% she can stop using it. We have a very long way to go but this was a step in the right direction, she truly is a fighter. \n\nFor anyone reading this going through a similar situation, we started asking family and friends to send us voice memos to play for her. That has been great to know you have so many people supporting her and it's a nice break from just talking. \n\nOther things I've learned the last 24 hours: \n\n-it's ok to be weak. It's ok to cry and let someone else hold you.\n\n-stay off chat gpt and meticulously reviewing her medical chart. The providers know more than you and more about your child than Ai. It'll drive you crazy and mentally drain you. Ask the providers as many questions as you can so you can get more familiar and comfortable (?) with what is going on.\n\n-get outside, even if for 5 minutes. Staying trapped in that room all day is not good for you mentally.\n\nStill not eating much. Only took a few bites of the bagel but managed to eat 3 chicken tenders for dinner and a piece of broccoli. I'm feeling more confident than I did when I posted this.\n\n\nUpdate 2 (9/17/26): Everyone is doing better! My daughter is off the echmo, ventilator, and dialysis! Shes slowly waking up and will hopefully be moved out of the ICU to oncology in the next few days! Because of that my wife and I are doing immensely better. Thank you everyone for all of the support. I made a carebridge page so if anyone wants to [see updates go here](https://www.caringbridge.org/site/6c600b6b-b22b-11f1-8264-55464dfa5171)\n\nUpdate 3 (9/21): Not much to update. Still in the PICU. She's making progress but not like before. Regardless she's not going backwards so I'll take it. She still is on CPAP for breathing as well as IVs for medication. Awaiting a port in the next few days to start receiving chemo treatment that way. She seems out of it more than before but I'm sure she's really tired. Hopefully they can move us out of PICU this week. \n\nHer Preschool teacher setup a go fund me for her. I am a small business owner so I have been closed this whole time and don't plan on reopening until she's back home. The funds will help support me being with her as well as pay her medical bills. \n [The go fund me can be found here ](https://www.gofundme.com/f/gabriela-strong)\n\nThank you everyone for the support. \n\nUpdate 4 (9/24/26): We are still in the PICU. Her brain CT and EEG has come back negative. She had a PICC line placed in her arm to continue receiving chemotherapy. She had a line put into her chest to remove some fluid and over 700 ml (over 20 oz) of fluid drained! She's been breathing much better since. They have her alternating between CPAP and high flow oxygen to help her breathe, which is a step in the right direction. She started eating yesterday and devoured some Italian ice.\n\nShe has been mostly non-verbal since being extubated 1 week ago but she did say \"mommy\" twice the other day. She's been communicating much better non-verbally with head movements, she has been sleeping better at night, and is more active during the day.\n\nStill working on lowering her medications so we can move her over to the oncology floor, but all steps in the right direction!\n\nUpdate (9/28): It's going. I've been trying to reply to all the DMs but haven't replied to any comments. I do try to read all of them and I appreciate the success stories and advice. My daughter is doing well overall. We are still in the PICU but she is more interactive. She sat in a chair and at times can be pretty talkative. They took her off oxygen so she's fully breathing on her own. They also got rid of a few of the IVs in her arms so that helps with her discomfort. They'll soon do some testing to see if she can eat actual food on her own (currently getting her food through a tube). Unfortunately the fluid has come back in her chest so she will need another chest tube for drainage again.\n\nWe've been able to get a more clear picture on why her case was so sudden and fast acting. Along with the Leukemia they discovered she now has HLH (Hemophagocytic Lymphohistiocystosis) which is an inflammatory disease. This led to her body rapidly declining along with the infection and leukemia. The inflammation going throughout her body is what makes her case more unique. The treatment is the same/very similar to the same medication as the leukemia, just not as straightforward since her liver is still pretty inflamed. Her first day here she had what's called a \"cytokine storm\" from the HLH which temporarily damaged her organs. That \"storm\" really calmed down and they are trying different drugs since this isn't routine. They've mentioned her case at a nationwide conference and said she was one of the most talked about so that sucks she's that bad/rare of a case but I'm glad to have so many eyes reviewing her care. \n\nShe's starting to have some PTSD. She developed a fever the other night and when you have no immune system it's not a good time. It was also a scary look into what the next 2 years holds, as some of you mentioned, but she's worth it. I'm hanging in there. Some days are definitely harder than others. Seems to be 3 steps forward 2 steps back.\n\nThanks again to everyone for supporting us.\n\nUpdate (10/12): it's been awhile since I posted an update.  We're still in the PICU and they gave us the biggest room they have (because we don't seem to be able to leave)! \n\nSince my last update my daugther has been up and down. She developed 3 new infections. 1 in the PICC line, 1 in her intestines, and 1 that might have spawned from her intestines and traveled back to the PICC. All have cleared so that's been great. She had another chest tube put in since the mysterious chest edema came back and that has since been removed and stable. She did develop mucositis and typhlitis in her intestines. This led to a hole in her colon, bleeding into the intestines, and air into her abdomen. She had to get emergency surgery and have part of her large and small intestine removed and an ostomy put in.\n\nFortunately we caught that just in time and she's actually looking better than before. It looks like her HLH is also under control and she's finally producing white blood cells and platelets on her own! Hopefully she can rest and continue to get stronger so we can finally leave but I've been saying that for over a month now she who knows! Mentally the whole family and myself are staying strong. The entire PICU and our community outside of the hospital has been incredibly helpful.\n\nUpdate (11/6): My daughter is still in the hospital but out of the PICU! We moved over to the oncology floor 2 weeks ago. It's much quieter and slower paced which is great. She's been able to leave her room in a wheelchair to explore more of the hospital. It looked like we were going to actually be discharged this past week but she fell ill and that has kept us here. She started her second round of chemo. Once her intake and ostomy output level off a little more then we can go home until the next thing comes up.\n\nAs we left the PICU the medical staff started to open up more about how lucky she is. One doctor said her estimated chance of survival that first week was around 10%. They said ECMO for septic shock alone carries a 75% mortality risk and that's without the leukemia and HLH. They believe mortality of HLH independently is similarly high. The PA said they personally have never seen anyone survive ECMO for septic shock and have only seen one person survive HLH.\n\nIt truly is a miracle she's alive. We are awaiting her discharge to go home but until then I am grateful to be able to spend time with her again  ",
+            "permalink": "/r/BoyDinnerDiaries/comments/1wf97x0/hug_your_kids_every_chance_you_can/",
+            "subreddit": "BoyDinnerDiaries",
+            "createdUtc": 1789309780,
+            "numComments": 745
+          },
+          {
+            "id": "1svtygj",
+            "url": "https://www.reddit.com/r/MadeMeSmile/comments/1svtygj/im_autistic_and_my_special_interest_is_of_the/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/3t0ct7y2ufxg1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=0d73f60b8a35d65b4eb917c11a76ddbfce29569a",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 64074,
+            "title": "I’m autistic and my special interest is of the movie, 127 Hours. Today is my 15 year anniversary of when I first watched it!",
+            "author": "TheGirlWithTheLove",
+            "authorId": "b3a3vvfq",
+            "selftext": "",
+            "permalink": "/r/MadeMeSmile/comments/1svtygj/im_autistic_and_my_special_interest_is_of_the/",
+            "subreddit": "MadeMeSmile",
+            "createdUtc": 1777167055,
+            "numComments": 1179
+          },
+          {
+            "id": "1ulxn9v",
+            "url": "https://www.reddit.com/gallery/1ulxn9v",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/06rp408sewah1.jpg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=92b299b792f3a13203bee3ef2f9d862e9347ef91",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 62015,
+            "title": "In lieu of payment..",
+            "author": "thedivinegemini",
+            "authorId": "3doqasrj",
+            "selftext": "I’m a GM at a restaurant & one of our managers left a note on our manager logs this afternoon that a guest walked out on their check and left this in lieu of payment of any kind. Not that the server got stiffed on a tip - just pure theft of services. I guess the whole “Thou shalt not steal” thing doesn’t matter if you’ve been pre-forgiven. Pretty convenient.\n\nETA: I’m not a bot; this is not AI - check my post and comment history. I’m not here for karma or fake internet points. This is what it feels like to work in a restaurant these days - especially in the Bible Belt. The first photo you can look up and is available for anyone to buy (should your darker urges push you toward being that person). The second photo is from Pulse, an app for restaurant managers to keep an eye on hourly sales, labor, and comps.   \nThe “Pineapple Express” is a mocktail our restaurant offers. ",
+            "permalink": "/r/mildlyinfuriating/comments/1ulxn9v/in_lieu_of_payment/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1783033752,
+            "numComments": 2740
+          },
+          {
+            "id": "1wtedwo",
+            "url": "https://www.reddit.com/r/MadeMeSmile/comments/1wtedwo/what_working_at_a_food_bank_taught_me/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/ififhzmnhhsh1.png?width=140&height=88&auto=webp&s=b34ac740078fbb61f4c0b8db874aee0a9b834a7f",
+                "type": "photo",
+                "width": 140,
+                "height": 88
+              }
+            ],
+            "score": 57766,
+            "title": "What Working at a Food Bank Taught Me",
+            "author": "MichaelJDigitalNomad",
+            "authorId": "4fjcizo4",
+            "selftext": "When I started working at the food bank here in Port Townsend, Washington, last April, one of the things I worried about was how to say \"no\" to people who would ask for more food than we could give them.\n\nIt's not that I assumed people would be greedy.\n\nI just figured that people coming to a food bank were clearly in need, and given that, along with the cutbacks in federal benefits and the ever-increasing cost of groceries, these folks would hope to get as much as they could.\n\nI mean, I figured that's how I would behave in the same circumstances.\n\nWell, four months later and having served over a thousand clients, I now know what an idiot I was all those months ago.\n\nGuess how many people have asked for what seemed like more than a reasonable amount?\n\nMaybe two out of 1,000.\n\nInstead, we often have the opposite problem.\n\nTrying to get people clearly in need to take what they need.\n\nThat's because instead of hearing \"Can I please have more of that?\" I hear...\n\n\"Are you sure you have enough for everyone?\" and\n\n...\"I don't want to take more than my share.\" and\n\n... \"I'll leave that for someone else.\"\n\nSeriously, I usually have to assure people we have enough oil, tuna, whatever, so they can take more with them.\n\nThese have been some of the least greedy people I've ever met.\n\nYou know what else I have heard a hundred times more than \"Can I have more?\"\n\nIt's \"Thank you for being here\" and \"I really appreciate what you do.\"\n\nIn other words, what I've gotten extra portions of is humble pie.\n\nAnd a stronger belief in the fundamental goodness of people.\n\nUPDATE: Since this post is going viral, I hope it's okay to share that I'm a writer and I've written a piece based on my experiences called What the Tech Bro Billionaires Could Learn From Working at a Food Bank that I'll publish in a week here: [https://www.brentandmichaelaregoingplaces.com/](https://www.brentandmichaelaregoingplaces.com/)\n\nUPDATE 2: I'm getting a lot of private messages asking how to donate to the Port Townsend food bank. Here is the link. Just click on Ways to Donate. Thank you!\n\n[https://www.jcfba.org/](https://www.jcfba.org/)\n\nUPDATE 3: There have been so many kind responses that I can't get to them all, but they are all very much appreciated! It's a little overwhelming!\n\nMods, if this isn't okay to include, please message me and I'll remove ASAP.",
+            "permalink": "/r/MadeMeSmile/comments/1wtedwo/what_working_at_a_food_bank_taught_me/",
+            "subreddit": "MadeMeSmile",
+            "createdUtc": 1790698439,
+            "numComments": 847
+          },
+          {
+            "id": "1td5abq",
+            "url": "https://www.reddit.com/gallery/1td5abq",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/ddebrdse151h1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=0cb7cbf85dcc731a4a6612af310e6d836244c5d5",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 56986,
+            "title": "Kittens in storm drain successfully rescued. Thanks, everyone!",
+            "author": "belltown99",
+            "authorId": "cxrrs",
+            "selftext": "EDIT (5/22/26): Both kittens passed their behavioral tests, which is good news since that is a requirement for adoption. They are living at the kitten nursery, happy and healthy. Next step is spaying/neutering, which will likely take place after the kittens reach a specific age/body weight. Thanks everyone for the follow ups about this and sorry it took awhile to get the update. The shelter is pretty busy, so getting a hold of someone on the phone for an update is rare.\n\n\n\nUpdate to my original post: [https://www.reddit.com/r/cats/comments/1tc62yv/kitten\\_stuck\\_down\\_storm\\_drain\\_help/](https://www.reddit.com/r/cats/comments/1tc62yv/kitten_stuck_down_storm_drain_help/)\n\nHi everyone, so sorry for the radio silence yesterday. The day completely got away from us, but I have good news – the kittens were rescued and are safe\\*\\*.\\*\\* Below is a recap of how the events transpired. Given how many of you have a vested interest, I thought it appropriate to include as many details as possible.\n\nThey’re currently with the Humane Society getting checked out. They seem to be in reasonable shape, just understandably shell-shocked, hungry and exhausted. Because we have cat allergies, we unfortunately couldn't keep them ourselves. They are so incredibly adorable and we sincerely hope they find a good home together. It wasn't easy giving them up, but we felt we had given them a second chance at life. \n\nI wish I had more photos, as so many of you want to see them and I feel like so many of you have been with us during this journey. Things got hectic during the rescue process and the little ones seemed pretty stressed out, so we let them be. The Humane Society was a little awkward about not letting us take a few final photos before we left.\n\nI honestly didn't expect my last post to blow up the way it did. Your advice, your stories, and just the general \"hive mind\" support helped us triage the situation when we were in need of a lot of ideas quickly. This was a team effort, Reddit. I never thought I’d feel this connected to a bunch of strangers, so thank you.\n\n**Full story**\n\nA few weeks ago, we noticed two strays in the yard. We have a bit of a gopher problem, so we figured if we left out some food and water, it was a win-win for everyone. Then, a few days ago, a tiny kitten popped out of the bushes one evening while I was taking out the trash and nearly gave me a heart attack. I had a good laugh, but didn't think more about it.\n\nThe next day, my wife calls me saying there’s a cat stuck in one of our storm drain pipes. I didn't believe her at first, but then we heard the sad cries coming from the gutter downspouts. After checking our storm drains, we realized that there were two ways the kittens could have entered: a grate at the drain exit (which had popped off) and an opening in our garden (previously unknown) which likely serves as an air intake to promote flow. Both of these entrances have now been gated and secured. The initial photos I shared were of the downspout for the gutters, which I had removed in order to access the pipes below. The gutter pipes have been replaced, so no little kitties will be able to jump down there.\n\nWe initially cut a towel into thin strips and lowered them into the entry/exits into the drains and threw some cat food down the pipes to attract the cats. That didn't work and we still heard the sad meows (heartbreaking). Yesterday morning, my wife was really worried so she played the sounds of a YouTube video of a mother cat calling her kittens. She received an instant response and looked down the downspout. There it was, a tiny spotted face staring back at her. She screamed for me and for us that was overwhelming, so we decided to kick it into higher gear and get much more aggressive about saving them.\n\nWe called animal control for help. Sadly, animal control said they don't assist with this sort of thing, so we were on our own. I don’t think they were rude about it, but it felt like our situation was either not their primary focus or much lower in priority compared to other issues they handled. We didn’t want to quit, so I said to my wife, hey let’s post on Reddit while we brainstorm to get some ideas from others and that’s when I encountered r/Cats.\n\nWithin minutes, people responded and we started looking into everything that was recommended. We decided to start with the least invasive and escalating as needed. The top ideas were: 1) provide a way for the kittens to climb out; 2) call the firefighters; 3) call the plumbers; 4) cut the pipes open.\n\nOur local firefighters responded within a few minutes of us calling them.  It was a full truck roll and three guys hopped out. They were super kind and I think they helped us calm down quite a bit, as we likely had a lot of frantic energy about us. We tried several ways to locate/drive the kittens out the storm drain exit, but after half an hour or so, they had to leave. I could tell they really wanted to find the kittens, but they also had other people to help. We were so grateful they came.\n\nQuite a few Redditors mention calling a plumber. This sounds so obvious in retrospect, but I never thought of this. While we were searching, we noticed AI was recommending Roto-Rooter, who offered free pet rescues. This sounded like just what we needed and I was a little skeptical about it, but we thought, why not give this a shot. We have nothing to lose and really wanted to get those little guys out. We called the 800 number and a lovely woman picked up on the second ring. She calmly took our info and instructed us to wait for a call back. 15 min later, Jeremy, who is a field supervisor in the region, calls us back. He's a self-declared cat lover and already on the way. Both he and his fiance have seen my original post trending on Reddit. He's about an hour away from us, but I swear he was at our door in much less time.\n\nI get a new wave of confidence when Jeremy steps up to the task. I give him the run down and just then, we see a small head pop out of the storm drain exit (let’s call this kitten, Princess). Princess ducks back into the pipe and we get there just in time to see a tail disappear. Jeremy races back to his truck to get some gear, yelling “we can do this!” He deploys his digital scope, which has 100ft of line and plans to use its lights to encourage the kittens to reverse out of the tunnel system. I've attached actual video footage from the scope inside the drain line. Unfortunately, I was focused on grabbing Princess at the very end, so I didn't capture any photos. We do have some after action shots of Jeremy consoling a very scared kitten.\n\nWe thought our job was done. As we clean up, we hear more meows but this time, they are coming from the other side of the drainage system. We start at the very beginning of the pipes with the scope and work our way through. I have some long runs and it's a bit of a network of pipes, so it took some time, but seeing the kitten’s tiny face (let’s call him Mario), beautiful eyes, and pink nose on the scope’s monitor gave us a renewed sense of purpose. We used two different scopes to corral the kitten towards my wife, who was waiting at the drain exit. After a few start/stops, we get the kitten to go down the right tube to the exit. He's a bit of a fighter, so I end up having to reach into the pipes and grabbing him (gently) with my bbq tongs since he keeps retreating. Video footage of the scope in the pipes also included. \n\nAfter settling down the kittens into their own cardboard boxes, we give them some food/water/hugs and we finally take a breather. I've soaked through my shirt and Jeremy's knuckles are bloody from pushing the scope cabling down the pipe. My wife is still in disbelief and all of us are smiling. We are so relieved!  \n   \nJeremy received a few service calls while he was here, so I could tell he had to move on (but didn’t want to). We tried to compensate him for his time but he flat out refused. I think we had to force him to take a sandwich and drink from our local deli. As he was packing up, he shared a story about a time he couldn't rescue a kitten that had fallen 20 feet vertically into a storm drain, so this felt like redemption to him. We were very moved hearing that this was a win he needed. He certainly made up for it, since we pulled not one, but 2 out of the tunnels.\n\nAbout the cats themselves. We estimate they are around 8 weeks old, based on their size. Princess is much smaller, with light brown spots. She is fairly shy, mews very quietly, and keeps to herself. I suspect the ordeal was likely tougher on her because she's smaller.  Mario is gray with tiger stripes. He is much larger, aggressive and loud. I am less worried about him.\n\nIf we could keep these kittens, we would (I think this is the cat tax people are referring to?). Unfortunately, I am very allergic to cats and our young children show signs of this as well.  We were worried about their health, so we dropped them off at the Humane Society to give them the best chance at recovery. We thought it was important for our kids to understand this process, so we picked them up for school and headed to the shelter together to say our goodbyes. The wonderful team there immediately started tending to them and I hope to get an update later today on their status. I am told that kittens who come in as duos at this age “do very well” and are quite popular, so fingers crossed they land in a loving home. Our local shelter explicitly asked us not to share their location, which we have respected. My understanding is they have experienced the good people of the Internet calling to ask about the cats and it overwhelms their systems.\n\nAs I write this, I’m still a little in disbelief how so many different people responded to my post with great ideas, Jeremy dropping everything to show up at a stranger’s home, and for those little kittens staying resilient. My wife and I were preparing ourselves for a much different ending. I’m so glad this was a happy ending that I didn’t expect and this all provides us with a little much needed nourishment.",
+            "permalink": "/r/cats/comments/1td5abq/kittens_in_storm_drain_successfully_rescued/",
+            "subreddit": "cats",
+            "createdUtc": 1778780125,
+            "numComments": 754
+          },
+          {
+            "id": "1ur3ht2",
+            "url": "https://www.reddit.com/r/shittymoviedetails/comments/1ur3ht2/in_obsession_generational_talent_inde_navarrette/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/2j6n34oh82ch1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=7c9a4088b9d58c53a9dac4b86a6e256b40dc4c0d",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 55461,
+            "title": "In Obsession, generational talent, Inde Navarrette, in the role of Nikki utilized an acting technique in which she transformed her facial expressions using the muscles in her face. This is because she is an actor playing the role of a character with different emotions",
+            "author": "drdalebrant",
+            "authorId": "1wi8g45p",
+            "selftext": "Only the certified genius Curry Buskar could've made it work. ",
+            "permalink": "/r/shittymoviedetails/comments/1ur3ht2/in_obsession_generational_talent_inde_navarrette/",
+            "subreddit": "shittymoviedetails",
+            "createdUtc": 1783540126,
+            "numComments": 1568
+          },
+          {
+            "id": "1v5g40a",
+            "url": "https://www.reddit.com/r/mildlyinteresting/comments/1v5g40a/the_ai_system_that_made_this_poster_literally/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/u86n1ib3e7fh1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=775d82d243d1599956e9e7a5120f9f7c13f3f7ec",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 53781,
+            "title": "The AI system that made this poster literally thinks a Hamburger has ham",
+            "author": "DaveCootchie",
+            "authorId": "a3aml",
+            "selftext": "",
+            "permalink": "/r/mildlyinteresting/comments/1v5g40a/the_ai_system_that_made_this_poster_literally/",
+            "subreddit": "mildlyinteresting",
+            "createdUtc": 1784910114,
+            "numComments": 1510
+          },
+          {
+            "id": "1p6vr6q",
+            "url": "https://www.reddit.com/r/shittymoviedetails/comments/1p6vr6q/in_the_matrix_it_was_2199_and_ai_thought_the_best/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://a.thumbs.redditmedia.com/WXcIpQ4l-lfl74PuKPHR8zmkLg09rrsWxGBjfRb_PT8.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 81
+              }
+            ],
+            "score": 53633,
+            "title": "In “The Matrix”, it was 2199 and AI thought the best source of power was from painstakingly harvesting electricity from human beings in vast farms, instead of just building a few easily managed nuclear reactors.",
+            "author": "PercentageNonGrata",
+            "authorId": "1ft0m248kp",
+            "selftext": "",
+            "permalink": "/r/shittymoviedetails/comments/1p6vr6q/in_the_matrix_it_was_2199_and_ai_thought_the_best/",
+            "subreddit": "shittymoviedetails",
+            "createdUtc": 1764123448,
+            "numComments": 2594
+          },
+          {
+            "id": "1s7u1b5",
+            "url": "https://www.reddit.com/gallery/1s7u1b5",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/r2j49wvhc7sg1.jpg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=39283398e105e86db64a7187d8df009e947999eb",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 51302,
+            "title": "My client sat though 3 straight days of tattooing for this 🫠",
+            "author": "marxist-tsar",
+            "authorId": "8xb2r",
+            "selftext": "22 Hours of tattooing across 3 days on a fellow redditor. 16 years in and I'm still shocked at what people are capable of enduring for their art.\n\nEverything but the spider was made based the medical skull replica I have. My concept painting was made from life (or death rather) and then I had the skull there during the tattoo sessions to get more depth than what working from a photo can capture. \n\nNo AI. Just a lot of planning, focus and hard work. \n\n",
+            "permalink": "/r/woahdude/comments/1s7u1b5/my_client_sat_though_3_straight_days_of_tattooing/",
+            "subreddit": "woahdude",
+            "createdUtc": 1774885050,
+            "numComments": 1474
+          },
+          {
+            "id": "1synbix",
+            "url": "https://www.reddit.com/r/wholesome/comments/1synbix/my_15_year_old_made_me_dinner_when_i_worked_late/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/6lgoai81v1yg1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=2362316ebf83d030d26cee4991b1d549f98f880c",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 49873,
+            "title": "My 15 year old made me dinner when I worked late",
+            "author": "Symbioticsinner",
+            "authorId": "16yxo3",
+            "selftext": "Me and my kiddo been going through a lot lately. We now live in an apartment minus my abusive ex husband. Tonight was my first late night at work. Came home and dinner was ready and she had picked a movie for us to watch AND she told me she missed me today. Shes never done this before. We are healing.🥹",
+            "permalink": "/r/wholesome/comments/1synbix/my_15_year_old_made_me_dinner_when_i_worked_late/",
+            "subreddit": "wholesome",
+            "createdUtc": 1777433728,
+            "numComments": 411
+          },
+          {
+            "id": "1v6pq1z",
+            "url": "https://www.reddit.com/r/shittymoviedetails/comments/1v6pq1z/in_1965_six_tongan_teenagers_went_missing_for_15/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/jljfum327hfh1.jpeg?width=140&height=78&auto=webp&s=944fd6939ec4ba2d9e42126e34ca8808a943c4b4",
+                "type": "photo",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 49746,
+            "title": "In 1965 six Tongan teenagers went missing for 15 months. In those 15 months they lived in peace, made instruments and took care of each other. This is in contrast to lord of the flies where a group of British boys get stranded and they kill each other. This is because British kids are bastards",
+            "author": "wiscup1748",
+            "authorId": "4c3ju559",
+            "selftext": "",
+            "permalink": "/r/shittymoviedetails/comments/1v6pq1z/in_1965_six_tongan_teenagers_went_missing_for_15/",
+            "subreddit": "shittymoviedetails",
+            "createdUtc": 1785028793,
+            "numComments": 556
+          },
+          {
+            "id": "1w5mr0s",
+            "url": "https://www.reddit.com/gallery/1w5mr0s",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/otyji3cc66nh1.jpg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=d75f97adbfbb0129838d52d033e44242711bebfa",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 48809,
+            "title": "Tell me I made the right choice",
+            "author": "guitarman779",
+            "authorId": "705gj",
+            "selftext": "Let hair grow for 11 years and started thinning as soon it got to where I wanted it. Bald at 29, yay.\n\nQuick edit: Thank yall for all the positive messages. It really does mean a whole lot.\n\nOne more quick edit: While I appreciate the intent in trying to show what more I could do, please stop sending my pictures through AI.",
+            "permalink": "/r/bald/comments/1w5mr0s/tell_me_i_made_the_right_choice/",
+            "subreddit": "bald",
+            "createdUtc": 1788382178,
+            "numComments": 5427
+          },
+          {
+            "id": "1wu71rj",
+            "url": "https://www.reddit.com/r/MadeMeSmile/comments/1wu71rj/cant_believe_she_turned_62_today/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/bbpcc7gf8osh1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=767805a0988b97cfc812d46ecce3fcdd3a5ba780",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 48702,
+            "title": "Can't believe she turned 62 today",
+            "author": "Rough_Ad_8702",
+            "authorId": "7zn3tecld",
+            "selftext": "",
+            "permalink": "/r/MadeMeSmile/comments/1wu71rj/cant_believe_she_turned_62_today/",
+            "subreddit": "MadeMeSmile",
+            "createdUtc": 1790780026,
+            "numComments": 488
+          },
+          {
+            "id": "1r6qk3n",
+            "url": "https://www.reddit.com/gallery/1r6qk3n",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/6l263p105yjg1.jpg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=bf014f87441fdc94c9afba24c1cdcf09f4ae0882",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 47193,
+            "title": "What color is my new baby",
+            "author": "EgirlAnimeBoobies",
+            "authorId": "aivpur6k",
+            "selftext": "Hi we just adopted this sweet baby! We still haven’t named her but we were curious what color you guys think she is? I have never seen this color before!\n\n  \nEDIT: Thank you guys so much for the love you have shown us! I have kind of came to the conclusion that my cat is friend colored since the world is so divided. JK, a lot of the cat genetic people have responded with mixed answers of lilac, caramel, cinnamon, smoke and chocolate. A lot of people are saying that a dilute gene is almost definitely in play. I want to say I do believe any of these comments to be correct as fever coat could be a thing and she could darken to chocolate as she ages. She also could of had malnutrition and she may change to be a lighter color! \n\nFor those who recommended emailing MessyBeast, they have responded and here is a quote of what they said \"My first thoughts were caramel, which is actually pretty rare outside of pure-breed cats. Without knowing parentage the caramel colors are hard even for experienced judges to identify. It would be interesting to see what a DNA test finds (as others have suggested).\"\n\nGenerally, I have came to the conclusion that we will not know until she is older. That is okay though because I am so happy to able to have her in my life and be able to say I will be around when she gets older.\n\nI may do a DNA test as many people are recommending but they are a little to costly for the amount of satisfaction I would have in knowing. Maybe I will get it done as a treat to myself for my birthday coming up soon. \n\nOn a side note, as requested I will be copy and pasting her adoption story here so people can read it easier. I will put the full thing in quotation marks so it is easier to read.\n\n\"Okay but I apologize since I don't know how to use reddit formatting haha.\n\nFirst we weren't 100% looking to adopt another cat but I had been looking around. We love calicos and we had our senior girl pass away recently. I had seen Lamb Chop (adoption name) online and I loved her but she had been listed as a he. I have never owned a male cat but I was ready for it but my fiance said no boy cats.\n\nThat weekend my fiance went to the gym and I just wanted to go look at cats at the shelter, kind of forgetting about Lamb Chop. I showed up at the shelter and there was legit a line around the building. As I am walking up to the people they ask me if im there for Lamb Chop. I said no since I genuinely wasn't and just wanted to look at calicos. When they let us in they all rushed to go to Lamb Chop and I went in another room to look at the other kitties. I had just gotten done looking at the calicos when I came out and made eye contact with the most terrified kitten (Lamb Chop), being passed around like a toy. It straight up looked like a horror movie where she was the sacrifice. I then also overheard one of the volunteer referring to Lamb Chop as \"she\". I knew I had to at least put an application in.\n\nI put my application in, texted my fiance to get there and I waited. 30minutes later (to my surprise), he answers me and says he is on his way. Which was surprising since he never checks his phone at the gym, let alone leaves 1 hour early. When he gets to the shelter, he also falls in love which was surprising because he was very picky.\n\n1 hour later, they some how pick us out of like 20+ people to adopt her.\n\nIts very strange how things work out.\"",
+            "permalink": "/r/cats/comments/1r6qk3n/what_color_is_my_new_baby/",
+            "subreddit": "cats",
+            "createdUtc": 1771286779,
+            "numComments": 2944
+          },
+          {
+            "id": "1tehhts",
+            "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1tehhts/how_i_found_out_a_yt_channel_ive_recently_gotten/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/77a1do0r0f1h1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=b2739c5a52824aaaebd8233ae51375347d7267ff",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 46733,
+            "title": "How I found out a YT channel I’ve recently gotten into is using AI",
+            "author": "glas-lile",
+            "authorId": "27qg1s5i68",
+            "selftext": "It’s Catfished if anyone is wondering. I can’t believe this made it into their video. ",
+            "permalink": "/r/mildlyinfuriating/comments/1tehhts/how_i_found_out_a_yt_channel_ive_recently_gotten/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1778900585,
+            "numComments": 748
+          },
+          {
+            "id": "1q4v5db",
+            "url": "https://www.reddit.com/r/minnesota/comments/1q4v5db/hilton_cancels_ice_contracts_after_noise/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/UZXPsyPpP2gz0ZbSVevlFaMq-W5p3nN310SHPth9aMM.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 45955,
+            "title": "Hilton cancels ICE contracts after noise demonstrations and public pressure",
+            "author": "SpoofedFinger",
+            "authorId": "5abn1xxa",
+            "selftext": "",
+            "permalink": "/r/minnesota/comments/1q4v5db/hilton_cancels_ice_contracts_after_noise/",
+            "subreddit": "minnesota",
+            "createdUtc": 1767640759,
+            "numComments": 1993
+          },
+          {
+            "id": "1te3fjg",
+            "url": "https://www.reddit.com/gallery/1te3fjg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/4kw4nqc58c1h1.jpg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=a9f54482a6994e197aea773437efc43b644e6393",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 44968,
+            "title": "Guy at Dunkin took my VIP card",
+            "author": "Gawdiwishiwasdead",
+            "authorId": "16lzj12k9s",
+            "selftext": "My daughter got 2 of these cards.  She gave me one and she kept one. Went to Dunkin to use her VIP card. The guy acts like he's not going to to give it back to me, so I said \"Don't I get that back? It's meant to be used more than once.\" He says no it's just a one time use coupon.  Before I can respond, be snaps it in half and throws it away. I was just kinda dumbfounded. Like did he just do that?\n\n Its a card the customer is supposed to keep, which is clearly stated on the back. Also, the card is clearly made to be attached to your keys,  hence the hole in it. Really frustrating and just pissed me off.  Luckily I still have the other one,  so I gave it to my daughter. \n\n\nUpdate** \n\nI left before talking to the manager because it was the early morning rush and I just dont have time to sit there. But, I did call the store and corporate. The store manager was not helpful as he was the same guy who took the card. Corporate took the information and is going to escalate it to the franchise manager.....who is the same guy 🙃\nSo I guess we will see what happens. \n\nFor everyone who came to give relevant advice, contribute to the conversation, or compliment my nails, thank you!!\n\nFor everyone who was so confused, my daughter and I were in the same car at the same time with both cards. Guy takes one, and I still have the other one that I was not using to give to my daughter. Hope that clears it up for you. \n\nAnd for those of you are saying it's AI, you're spending far too much time on the internet and need to work on your discernment skills. \n\n\n\n",
+            "permalink": "/r/mildlyinfuriating/comments/1te3fjg/guy_at_dunkin_took_my_vip_card/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1778866757,
+            "numComments": 1851
+          },
+          {
+            "id": "1qgd7ll",
+            "url": "https://www.reddit.com/r/Funnymemes/comments/1qgd7ll/tinker_terry_or_nothing/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/AUYCee51W7iiZbu4cqzCgGV0TiqRAXNNL7G7n1A9vPk.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 43469,
+            "title": "Tinker Terry or nothing!",
+            "author": "harshsee",
+            "authorId": "1se6jlnbwo",
+            "selftext": "",
+            "permalink": "/r/Funnymemes/comments/1qgd7ll/tinker_terry_or_nothing/",
+            "subreddit": "Funnymemes",
+            "createdUtc": 1768754151,
+            "numComments": 339
+          },
+          {
+            "id": "1pn4xgg",
+            "url": "https://www.reddit.com/r/shittymoviedetails/comments/1pn4xgg/in_fallout_season_2_2025_an_ai_recap_of_season_1/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://a.thumbs.redditmedia.com/aXC4PEm4vmDlPjO80vTAtL8FGoaDereprWzN5YlZsY4.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 79
+              }
+            ],
+            "score": 43038,
+            "title": "In Fallout Season 2 (2025) an AI recap of season 1 was used at the start of the new season. This recap incorrectly summarized season 1 and messed up key details and was eventually removed. This is a reference to the fact that... Holy shit not one person thought to double checked? We are so fucked...",
+            "author": "YourChopperPilotTTV",
+            "authorId": "iws4ych81",
+            "selftext": "[https://www.ign.com/articles/everyone-disliked-that-amazon-pulls-ai-powered-fallout-recap-after-getting-key-story-details-wrong](https://www.ign.com/articles/everyone-disliked-that-amazon-pulls-ai-powered-fallout-recap-after-getting-key-story-details-wrong)",
+            "permalink": "/r/shittymoviedetails/comments/1pn4xgg/in_fallout_season_2_2025_an_ai_recap_of_season_1/",
+            "subreddit": "shittymoviedetails",
+            "createdUtc": 1765797572,
+            "numComments": 1013
+          },
+          {
+            "id": "1r2bj4d",
+            "url": "https://www.reddit.com/r/shittymoviedetails/comments/1r2bj4d/no_coyotes_were_directly_harmed_in_the_making_of/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/61kxrep6xxig1.gif?frame=1&width=140&height=64&auto=webp&s=f1fcc117530be1d1c8f4637b3c36848e6891fcc3",
+                "type": "gif",
+                "width": 140,
+                "height": 64
+              }
+            ],
+            "score": 41483,
+            "title": "No coyotes were directly harmed in the making of Coyotes (2025). But a lake did dry up and kill the local fauna from the power used to generate these AI monstrosities.",
+            "author": "Greenman8907",
+            "authorId": "65jst4ty",
+            "selftext": "",
+            "permalink": "/r/shittymoviedetails/comments/1r2bj4d/no_coyotes_were_directly_harmed_in_the_making_of/",
+            "subreddit": "shittymoviedetails",
+            "createdUtc": 1770848306,
+            "numComments": 523
+          },
+          {
+            "id": "1r7x023",
+            "url": "https://www.reddit.com/r/Wellthatsucks/comments/1r7x023/when_you_skip_validation_for_ai_generated_results/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/cmyieappl7kg1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=ba55b28e06ba1ed35f0d88df299828a1f7ebade3",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 39799,
+            "title": "When you skip validation for AI generated results",
+            "author": "Epelep",
+            "authorId": "chsmv",
+            "selftext": "",
+            "permalink": "/r/Wellthatsucks/comments/1r7x023/when_you_skip_validation_for_ai_generated_results/",
+            "subreddit": "Wellthatsucks",
+            "createdUtc": 1771401363,
+            "numComments": 1394
+          },
+          {
+            "id": "1wiv4mw",
+            "url": "https://www.reddit.com/gallery/1wiv4mw",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/njmo6eah83qh1.jpg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=17f755b7beca071cff9425410f5f5b174c356f03",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 37942,
+            "title": "classmate said this is almost as good as AI, she meant that as a compliment",
+            "author": "jewfrobro98",
+            "authorId": "5zpcaklz",
+            "selftext": "in class i doodle alot because our lecturers tend to repeat themselves four hundred and ninety seven times and its a waste of my time. one of my classmates who is a genuinely sweet woman made a compliment about my doodles and for the last two shes ended up saying \"wow youre so gifted, this looks almost as good as AI.\" shes an amazing person and i enjoy studying with her but it was hard not to recoil from that comment. and no this isnt me making it up. this very much happened.",
+            "permalink": "/r/mildlyinfuriating/comments/1wiv4mw/classmate_said_this_is_almost_as_good_as_ai_she/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1789654306,
+            "numComments": 823
+          }
+        ],
+        "nextCursor": "cur_Tt2roxqtk0dF35CF6y4h9Q"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-bison-9321fc54",
+      "kind": "anonymous",
+      "name": "Bison",
+      "artworkKey": "bison"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00035",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:40:18.037Z",
+  "started_at": "2026-11-23T07:40:18.269Z",
+  "completed_at": "2026-11-23T07:40:20.503Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

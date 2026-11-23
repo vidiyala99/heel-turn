@@ -1,0 +1,598 @@
+{
+  "id": "ddfe7717-edef-4b0a-8c05-d4de3039dcb6",
+  "run_url": "https://app.glasser.ai/runs/ddfe7717-edef-4b0a-8c05-d4de3039dcb6",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "subreddit:IndieGaming AI agents playing game",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "large_result: this response is ~31 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 25,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1sthkel",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1sthkel/making_a_cat_for_my_game_from_scratch_no_ai/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/bmd6cHdsaDBxeHdnMX58imS7JW8mLqLK1qHPGbXDLDjxgVCTemgQaRQLKRUN.png?width=140&height=140&format=jpg&auto=webp&s=a5d8e47e0d78230369efa68386865d9d70fc1fde",
+                "type": "video",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 4927,
+            "title": "Making a cat for my game from scratch (no AI)",
+            "author": "ccrroocc",
+            "authorId": "dz1jo",
+            "selftext": "You can follow my game on Kickstarter (launching soon),(game name is Tenkemo)\n\n[https://www.kickstarter.com/projects/mehstudios/tenkemo-explore-build-and-survive-with-animal-companions](https://www.kickstarter.com/projects/mehstudios/tenkemo-explore-build-and-survive-with-animal-companions)",
+            "permalink": "/r/IndieGaming/comments/1sthkel/making_a_cat_for_my_game_from_scratch_no_ai/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1776947907,
+            "numComments": 130
+          },
+          {
+            "id": "1sm4lsb",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1sm4lsb/received_this_email_from_a_player_one_of_the/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/mcy1133skcvg1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=2d6107fba532a1552d5f49d2578b392f3758178b",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 4380,
+            "title": "Received this email from a player. One of the reasons to make games",
+            "author": "N0lex",
+            "authorId": "bpru9",
+            "selftext": "We received an email from someone who played the demo of Stunt Paradise 2 (shared with permission).\n\nHe recently lost his best friend and has been going through a very hard time. While playing, he realized he was smiling and laughing again.\n\nI talked with him afterwards, we gifted him a key for the first game, and he even left us a review on Steam.\n\nWe’re just two indie devs working on this for years, dealing with all the usual struggles. But moments like this remind us why we do it.\n\nIf your game can make even one person feel a bit better - it’s worth it!",
+            "permalink": "/r/IndieGaming/comments/1sm4lsb/received_this_email_from_a_player_one_of_the/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1776255996,
+            "numComments": 41
+          },
+          {
+            "id": "1rjo5ne",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1rjo5ne/made_a_game_where_you_play_as_karen_and_destroy_a/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/dDNyZzFhcjVydG1nMUP7d4ycyywoef-fwrS-Sx8HZalo-RVA-KmlyRuWSwWg.png?width=140&height=78&format=jpg&auto=webp&s=395e29d87e257fd1b55f09546065c9d7d5827eb2",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 3472,
+            "title": "Made a game where you play as Karen and destroy a mall. Steam page just went live.",
+            "author": "sauce_studio",
+            "authorId": "25g4cg52op",
+            "selftext": "Steam: [https://store.steampowered.com/app/4374950/KAREN/](https://store.steampowered.com/app/4374950/KAREN/)",
+            "permalink": "/r/IndieGaming/comments/1rjo5ne/made_a_game_where_you_play_as_karen_and_destroy_a/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1772541278,
+            "numComments": 258
+          },
+          {
+            "id": "1vo1rxg",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1vo1rxg/im_an_indie_dev_that_doesnt_use_ai_these_are_the/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/nm3gp8yyzajh1.jpeg?width=140&height=113&auto=webp&s=e6d2698ca7691b7bb5a00d6ca8c2ee41ae96fee5",
+                "type": "photo",
+                "width": 140,
+                "height": 113
+              }
+            ],
+            "score": 3341,
+            "title": "I'm an indie dev that doesn't use AI. These are the types of people that want to ruin the industry",
+            "author": "Captain0010",
+            "authorId": "qlr6d",
+            "selftext": "Don't let them, please. ",
+            "permalink": "/r/IndieGaming/comments/1vo1rxg/im_an_indie_dev_that_doesnt_use_ai_these_are_the/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1786697195,
+            "numComments": 482
+          },
+          {
+            "id": "1r76owh",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1r76owh/7_years_of_work_3_months_since_release_and_my/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/ptzjhsx992kg1.png?width=140&height=71&auto=webp&s=b78f47076c23f7942a30ab0d35e5a4fe53c015ca",
+                "type": "photo",
+                "width": 140,
+                "height": 71
+              }
+            ],
+            "score": 3290,
+            "title": "7 years of work, 3 months since release, and my game is already dead. What can I do?",
+            "author": "Videoludid",
+            "authorId": "uou2tbnz",
+            "selftext": "After 7 years of work, half of it being full-time, I finally released my game Randomice late last year, and… it didn’t sell.\n\nWhen people click with the game, they \\*love\\* it. I’ve had players I don’t personally know saying “you’ve made one of my favorite games of all time”. Others have put it next to Silksong and Expedition 33 in their GOTY list. It’s really wonderful to hear such words from strangers.\n\nBut then… Why isn’t it getting more attention? Why is it so difficult to reach my audience?\n\nI tried to do some posts here and there, reached out to the media (but mostly got ignored outside of France), got dozens of streamers to play the game (Ezekiel III, LaserBelch, SuperBrioche, Coffee, ...), registered for many events, to no avail.\n\nI tried to reach out to some randomizer communities (my core target audience), but never got an answer from most of them.\n\nToday, the game is out, I’ve got around 40 daily players on average, and the trend is not going up.\n\nI promised to release new challenges every month throughout 2026, so I’m doing that for the fans, but it doesn’t get new people in.\n\nI don’t want the last 7 years I worked on this game to go to waste, but I don’t know what I can do to make players come to the game.\n\nAny ideas?\n\nSteam: [https://store.steampowered.com/app/2835650/Randomice/](https://store.steampowered.com/app/2835650/Randomice/)  \n[](https://store.steampowered.com/app/2835650/Randomice/)\n\nPressKit: [https://videoludid.com/presskit.html](https://videoludid.com/presskit.html)",
+            "permalink": "/r/IndieGaming/comments/1r76owh/7_years_of_work_3_months_since_release_and_my/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1771336662,
+            "numComments": 532
+          },
+          {
+            "id": "1wmjgtx",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1wmjgtx/im_making_an_antishooter_where_you_must_avoid/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/Nzk5MmQ4MzRzd3FoMXYJrCv2Cym6WKgXQNC0xqBA3XDD-PT3BFdg4Wc02bDY.png?width=140&height=78&format=jpg&auto=webp&s=a7b7ca0f20eac11b43125171a530b649aa2fd322",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 3227,
+            "title": "I’m making an anti-shooter where you must avoid people. You can play the Demo now!!",
+            "author": "naverdadenada",
+            "authorId": "g0tbm",
+            "selftext": "Me and my friends are working on this game called Laser Guy.\n\nIt’s a twin-stick anti-shooter where you’re maneuvering your laser around coworkers trying not to blast anyone. Just another day in the gamedev office!\n\nIt plays pretty uniquely and controls like a shooter, but plays more like an action-puzzle or puzzle-platformer\n\nWe had a recent playtest to help improve this demo! Thank you to anyone here who participated in the playtest!\n\nIf you’re interested in playing here’s the link to the steam page: [Laser Guy on Steam](https://store.steampowered.com/app/3656610/Laser_Guy/) \n\n",
+            "permalink": "/r/IndieGaming/comments/1wmjgtx/im_making_an_antishooter_where_you_must_avoid/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1790011858,
+            "numComments": 140
+          },
+          {
+            "id": "1xesu0z",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1xesu0z/my_response_to_ai_slop_painting_every_pixel_by/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/aDA0enA2cXNoanhoMVzoAP5-DRfagL4PiUsDT7tV39cXel1uVhykzZ904dBU.png?width=140&height=78&format=jpg&auto=webp&s=52b1bfe8a3df665b2c4923a3248c27d97137d046",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 3062,
+            "title": "My response to AI slop? Painting every pixel by hand",
+            "author": "SadMonkStudios",
+            "authorId": "2ix2nlx72i",
+            "selftext": "",
+            "permalink": "/r/IndieGaming/comments/1xesu0z/my_response_to_ai_slop_painting_every_pixel_by/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1792902240,
+            "numComments": 485
+          },
+          {
+            "id": "1rutu63",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1rutu63/im_developing_a_papers_please_inspired_game_where/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/oLQTzPCbbOAhLbwtDxjOylCka8NPWoL_1Kt_QjzGOdg.png?width=140&height=73&auto=webp&s=c3504bf949c16affe77ed87222ee2977db391b13",
+                "type": "photo",
+                "width": 140,
+                "height": 73
+              }
+            ],
+            "score": 2803,
+            "title": "I’m developing a Papers Please inspired game - where you play as a virtual referee!",
+            "author": "andre_mc",
+            "authorId": "124831",
+            "selftext": "",
+            "permalink": "/r/IndieGaming/comments/1rutu63/im_developing_a_papers_please_inspired_game_where/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1773618542,
+            "numComments": 90
+          },
+          {
+            "id": "1p8thle",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1p8thle/me_on_my_way_to_make_a_game_without_using_ai/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/0zI7Px1f8gJp5UeVLi8J-_MaFC9hMxkPRk-ZX2tI4gs.jpg",
+                "type": "gif",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 2730,
+            "title": "me on my way to make a game without using AI",
+            "author": "Neutronized",
+            "authorId": "s5dnkq",
+            "selftext": "",
+            "permalink": "/r/IndieGaming/comments/1p8thle/me_on_my_way_to_make_a_game_without_using_ai/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1764332432,
+            "numComments": 205
+          },
+          {
+            "id": "1u1wba5",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1u1wba5/sad_but_true/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/ODJlYjFiN2YyZjZoMVJIqyoHuhSbVlPc9mQnHXaTr_hTI8-YJfMhKDA8Ar42.png?width=140&height=140&crop=1%3A1%2Csmart&format=jpg&auto=webp&s=f59b3954c4f8a8437a5e2531adc5e7021f03b69c",
+                "type": "video",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 2580,
+            "title": "Sad but true",
+            "author": "GutterspawnGames",
+            "authorId": "ek3lcpjqk",
+            "selftext": "",
+            "permalink": "/r/IndieGaming/comments/1u1wba5/sad_but_true/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1781080432,
+            "numComments": 135
+          },
+          {
+            "id": "1vg90cf",
+            "url": "https://www.reddit.com/gallery/1vg90cf",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/1s1p29nxfkhh1.jpg?width=140&height=105&auto=webp&s=2d9343001c654ec55b9106be0a80277be09cacf3",
+                "type": "photo",
+                "width": 140,
+                "height": 105
+              }
+            ],
+            "score": 2545,
+            "title": "WE WON AN AWARD AT INDIE DEV ARGENTINA 2026!",
+            "author": "iNeptuno",
+            "authorId": "62tl8mp7",
+            "selftext": "Last weekend, Zupay: Shadows of Independence participated in Indie Dev Argentina 2026 (IDA). The event featured talks, a physical game showcase and even an awards ceremony where we were nominated for **Audio Excellence** and won the **Argentine Representation** award.\n\n**Zupay: Shadows of Independence** is an action-adventure hack-and-slash set during the War of Independence. Our protagonist, a former gaucho soldier, is killed during a royalist siege on his town. After his death, he is resurrected by Zupay, a myth from northern Argentina who makes him embark on a journey of vengeance against those who took everything from him.\n\nYou can play as both characters, the gaucho and Zupay: which feeds from his enemies' fear to grow stronger.\n\nWe invite you to play the free demo on Steam and let us know what you think. Adding the game to your wishlists helps us a lot.\n\nThank you very much!!",
+            "permalink": "/r/IndieGaming/comments/1vg90cf/we_won_an_award_at_indie_dev_argentina_2026/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1785940278,
+            "numComments": 126
+          },
+          {
+            "id": "1xudrf2",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1xudrf2/were_a_twoperson_indie_team_from_finland_and_we/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/d2x2ajcxaXF2NjFpMcqY4W5lXUQgPC-2CejpMZhfAoO__CFsaYWeqw_CmW67.png?width=140&height=78&format=jpg&auto=webp&s=36bc11f3dbfa6813d34d3d5245b5a79637f59d1e",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 2510,
+            "title": "We're a two-person indie team from Finland, and we just announced our first game Athran!",
+            "author": "OddSpireGames",
+            "authorId": "2hib11az6b",
+            "selftext": "Hey everyone!\n\nWe're Oddspire Games, a two-person indie team from Finland, and we've just released the announcement trailer for our game, **Athran**!\n\nWe've put a lot of work into getting to this point.\n\nWe'd love to hear what you think!\n\n(Note about AI usage:  \nWe use AI mainly during the early stages of concept art, such as helping us explore different ideas or by doing paintovers to concept art to refine designs. Once we have a design we're happy with, we create the actual 3D assets ourselves from scratch.  \nWe're two experienced game developers with 15+ years experience together in the industry, so all the actual game content is made by us using traditional development methods.)",
+            "permalink": "/r/IndieGaming/comments/1xudrf2/were_a_twoperson_indie_team_from_finland_and_we/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1794492679,
+            "numComments": 186
+          },
+          {
+            "id": "1xnx0e9",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1xnx0e9/no_ai_was_used_in_the_creation_of_my_destruction/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/dnpjMzBhbGFhbnpoMcOLHFzQahIccKZIbAh7eMFFE1LQyFqPcQuBT2Yqy1OQ.png?width=140&height=59&format=jpg&auto=webp&s=6969feb9e206f9c9cf1cc8c67c99cb832c61d5ca",
+                "type": "video",
+                "width": 140,
+                "height": 59
+              }
+            ],
+            "score": 2453,
+            "title": "No AI was used in the creation of my destruction shooter, about destroying an evil AI",
+            "author": "tenpindan",
+            "authorId": "5c05s",
+            "selftext": "",
+            "permalink": "/r/IndieGaming/comments/1xnx0e9/no_ai_was_used_in_the_creation_of_my_destruction/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1793819595,
+            "numComments": 557
+          },
+          {
+            "id": "1xxc136",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1xxc136/we_spent_15_years_building_our_own_engine_so_our/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/Zm54ZGxub2tpdjFpMfRsyN2_qB5bM_SR3dEFXBgccR1hdg8T15_BErxWDY-B.png?width=140&height=78&format=jpg&auto=webp&s=f4eb4ade956225873327c4eed39bf3bbbef709c5",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 2393,
+            "title": "We spent 1.5 years building our own engine so our 2D pixel art game could do this",
+            "author": "YesNinjas",
+            "authorId": "948wli7n",
+            "selftext": "I'm Aaron, the dev on Everrest. This is the run into Whisperwood, the first world: the camera swings around behind the boy, you run in with him, and it settles back to the normal view as the level starts. It's all 2D pixel art with a real 3D world underneath that we built ourselves.\n\nNo demo yet, our Steam page just went live. I'd love to hear what you think!\n\nAI disclosure: the art, animation, music and writing are all made by people, no generative AI. I've been a software engineer for 20 years and I use AI tools to assist with programming. This isn't vibe coded.",
+            "permalink": "/r/IndieGaming/comments/1xxc136/we_spent_15_years_building_our_own_engine_so_our/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1794790831,
+            "numComments": 167
+          },
+          {
+            "id": "1r9i5bo",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1r9i5bo/im_working_on_a_game_about_it_support_in_hell/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/kob55mkr0kkg1.png?width=140&height=104&auto=webp&s=cfb9ee90f784d4da593c37cf139ff6dc2d19a26f",
+                "type": "photo",
+                "width": 140,
+                "height": 104
+              }
+            ],
+            "score": 2113,
+            "title": "I'm working on a game about IT support in hell. Someone just used the ingame demo feedback form to request real IT help with their VPN",
+            "author": "Euphoric-Series-1194",
+            "authorId": "1l2away7jt",
+            "selftext": "I am developing [I.T. Never Ends](https://store.steampowered.com/app/4225400/IT_Never_Ends/), a simulator where you play as a tech support worker in a cursed office.\n\nThe demo includes a feedback tool called DEMO\\_FEEDBACK.exe where players can like, submit their thoughts about the demo, what works and what doesn't. To keep things transparent, the form feeds directly into a public channel in the game's Discord. We have been using it to let the community vote on the final price and suggest features.\n\nEarlier tonight somebody submitted a ticket that *asked for literal IT support.*\n\nIn the \"What frustrated you?\" box, a player wrote a multi paragraph plea for help. They got a VPN ticket in the game which reminded them that their real work VPN is currently broken. I feel like I'm having a stroke.\n\nI have officially reached peak immersion. I made a game about people submitting nonsense tickets, and now I am getting actual tickets through the game.\n\n",
+            "permalink": "/r/IndieGaming/comments/1r9i5bo/im_working_on_a_game_about_it_support_in_hell/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1771551727,
+            "numComments": 58
+          },
+          {
+            "id": "1wwiw4a",
+            "url": "https://www.reddit.com/gallery/1wwiw4a",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/tj4u9a4sz7th1.png?width=140&height=79&auto=webp&s=c40ec26af025029aa3366e1466ac641d854f8bb9",
+                "type": "photo",
+                "width": 140,
+                "height": 79
+              }
+            ],
+            "score": 2093,
+            "title": "After a strong suspicion that a commissioned work was made with AI, I decided to do my own artwork. How did I do?",
+            "author": "Captain0010",
+            "authorId": "qlr6d",
+            "selftext": "First photo is the commissioned artwork. The artist claims he doesn't use AI but regardless it seams generic AI art to me. I told him that in order to try and get a refund. So far he refuses to pay it back on the basis of the effort he put in.\n\nThe second photo is the one I made in-game using light and cinematography tricks.\n\nI planned to use the original artwork for Steam capsules and new YouTube trailer.\n\nMy game's current page: [STEAM](https://store.steampowered.com/app/2719670/The_Milgram_Experiment/)",
+            "permalink": "/r/IndieGaming/comments/1wwiw4a/after_a_strong_suspicion_that_a_commissioned_work/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1791019325,
+            "numComments": 495
+          },
+          {
+            "id": "1qwigph",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1qwigph/play_with_yourself_and_against_yourself_at_the/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/ZzVwZW5iMW9xbmhnMS9PNhER19fcm46UnHW6lKGgxXpWivHBjN0S0xiSN4XM.png?width=140&height=105&format=jpg&auto=webp&s=5f2f16635e88ece3a189a64072ebfc315f7302b6",
+                "type": "video",
+                "width": 140,
+                "height": 105
+              }
+            ],
+            "score": 2048,
+            "title": "Play with yourself and against yourself at the same time in UvsU: You vs You",
+            "author": "dietzribi",
+            "authorId": "4btvfr",
+            "selftext": "Hi, I'm the developer of Toodee and Topdee and Deep Snake, and I'm working on a new puzzle game called UvsU: You vs You.\n\nYou play against yourself in time-loop puzzles, sorta like Braid but if you had to kill yourself and avoid yourself instead of cooperating with yourself.\n\nThe video (by AlphaBetaGamer) explains it a lot better though.\n\nThere's also a demo on Steam if you'd like to try it out!\n\n[https://store.steampowered.com/app/2513270/UvsU\\_You\\_vs\\_You](https://store.steampowered.com/app/2513270/UvsU_You_vs_You)\n\n  \nI'd love to hear what you think, about the video, the demo, the game and if you have any cool ideas for a short elevator pitch that explains the concept well, because I didn't land yet on one that is REALLY perfect in explaining the game.\n\nAnd as always- wishlists super appreciated!!!",
+            "permalink": "/r/IndieGaming/comments/1qwigph/play_with_yourself_and_against_yourself_at_the/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1770289690,
+            "numComments": 89
+          },
+          {
+            "id": "1t39z63",
+            "url": "https://www.reddit.com/gallery/1t39z63",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/66tmd4zff2zg1.gif?frame=1&width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=050b60b6c7ffd02a9627d911a724f49ccfd4faa1",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 1938,
+            "title": "I quit my job 7 years ago to build my dream 2D pixel MMORPG",
+            "author": "brownie9104",
+            "authorId": "4dhfvl5n",
+            "selftext": "Hi , I’m a solo indie developer who has been making games for 7 years.  \n  \nMy latest project is a retro 2D MMORPG inspired by the  \nclassic feature-phone era games and the  \nnostalgia of playing online with strangers all night.  \n\n\nI’ve implemented over 5,000 unique equipment items and thousands of skills.  \nFor example, if you equip an “Acorn Ring,”   \nit summons a cute squirrel that throws acorns and fights alongside you!  \n  \nHonestly, managing all of this data by myself has taken a huge toll on me.   \nI went through a serious slump, had panic attacks,   \nand even seriously considered giving up and taking a factory job.  \n  \nLately, I’ve been working from 9 AM to 1 AM every single day, with no weekends off.   \nMy biggest motivation : I recently found out I’m going to be a dad.   \n  \nI’m absolutely terrified,   \nbut it has also given me the strongest drive I’ve ever had to finish this game and support my growing family.  \n  \nIt’s been a lonely and grueling process,   \nbut the game is finally starting to take shape, and I’m preparing for a CBT soon.  \n  \nI’d love to hear your thoughts on the overall vibe and the pixel art\n\nThank you.",
+            "permalink": "/r/IndieGaming/comments/1t39z63/i_quit_my_job_7_years_ago_to_build_my_dream_2d/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1777877321,
+            "numComments": 195
+          },
+          {
+            "id": "1rw1yhj",
+            "url": "https://www.reddit.com/gallery/1rw1yhj",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/yh4vf6wlpkpg1.png?width=140&height=78&auto=webp&s=ceebb80cb1229abea55026a4ffebaaee9bb2c552",
+                "type": "photo",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 1929,
+            "title": "We shipped our indie game on Steam, Xbox, PlayStation, Switch and Quest… and almost nobody noticed. Looking for honest advice.",
+            "author": "funboy_ff",
+            "authorId": "f2a2s",
+            "selftext": "Edit: Apparently this needed clarifying :) , the game is **HeadHunters**.\n\nThis photo basically sums up how the last months have felt.\n\nWe are a small indie team and we’ve just finished what felt like a huge milestone: launching our game on almost every platform we could possibly reach.  \nAnd yet… the result has been extremely discouraging.\n\nHere’s what we managed to do:\n\n**- Platforms**\n\nWe passed certification and released the game on (or are about to release on):\n\n* Steam\n* Xbox Series S/X (with the **Play Anywhere** tag)\n* PS4 / PS5\n* Nintendo Switch\n* Meta Quest\n\nJust getting through certification on all these platforms took a massive effort for our small team.\n\n**- Marketing attempts**\n\n*(I included the links only to show what we’ve actually shipped and the effort behind it. Not trying to promote the game here, just honestly looking for advice.)*\n\nWe also tried to push visibility in different ways:\n\n* Active social media: **Twitter** (@HeadHuntersGame)**, TikTok** (@sumalab\\_studio)**, Instagram (**@sumalab\\_studio) and **YouTube** (@HeadHuntersGame)\n* Around **$3000 spent on ads**\n* A **dedicated website** for the game ([https://headhunters.sumalab.com/](https://headhunters.sumalab.com/))\n* Around **500 emails sent** to YouTubers and gaming media\n* We even created a weird **“CEO character” using a plastic head prop** that we use in videos and social media posts\n\nOut of those \\~500 emails…  \n**4 people replied.**\n\n**- The painful part**\n\nThe few people who actually try the game seem to have a lot of fun with it.  \nPlayers laugh, play multiple matches, and often invite friends.\n\nBut the main problem is brutal:\n\n**Almost nobody even gets to see the game.**\n\nRight now we have:\n\n* **\\~500 wishlists on Steam**\n* Very few sales across platforms\n\nWhich honestly feels surreal considering the amount of work that went into development and certification.\n\nWe’re not saying the game is perfect.  \nBut it doesn’t feel like a quality issue, it feels like **a visibility issue**.\n\nAnd that’s where we’re stuck.\n\n# So I wanted to ask the community:\n\nIf you were in this situation:\n\n* What would you try next?\n* Are we missing something obvious?\n* Is there a strategy that worked for your game that we should try?\n\nRight now it feels like we built a fun arcade in the middle of the desert.  \nAnyone who walks in enjoys it… but almost nobody walks in.\n\nAny advice would be hugely appreciated.",
+            "permalink": "/r/IndieGaming/comments/1rw1yhj/we_shipped_our_indie_game_on_steam_xbox/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1773740473,
+            "numComments": 718
+          },
+          {
+            "id": "1xasef2",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1xasef2/im_building_a_cinematic_detective_game_heres_a/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/NjR4Y3RwbmdrbXdoMRQumyUSwslj9R_JwCXn4QkhMXM6ySBnlHrjP47WNQh2.png?width=140&height=78&format=jpg&auto=webp&s=ccc8763571cf972d1b2f55afd26b65e213e48b5a",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 1894,
+            "title": "I'm building a cinematic detective game — here's a glimpse of an interrogation.",
+            "author": "Valou_h",
+            "authorId": "2hyrywfd",
+            "selftext": "Hey everyone! I'm a solo developer working on *The Reason Behind*, a third-person detective thriller set in 1954 Providence.\n\nIn this short clip, you'll see a conversation between my detective, Howard P. Larson, and one of the game's suspects.\n\nI'm aiming for a cinematic, slow-burning experience inspired by games like *L.A. Noire* and *Heavy Rain*, with realistic character performances, complex characters, and a mystery that gradually takes a darker turn.\n\nI've been working on this project for quite a while, and getting these conversations to feel like a scene from a film is something I've been striving for, especially with the lighting aspect of the scenes.\n\nI have not used any gen AI at all, what you see is motion capture with professional voice actors, scripts and dialogues by a game writer, man made assets and native Unreal Engine 5 features.\n\nIf you'd like to learn more about it: [https://store.steampowered.com/app/5283300/The\\_Reason\\_Behind/](https://store.steampowered.com/app/5283300/The_Reason_Behind/)\n\nI'd love to hear your thoughts on the overall atmosphere!",
+            "permalink": "/r/IndieGaming/comments/1xasef2/im_building_a_cinematic_detective_game_heres_a/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1792503498,
+            "numComments": 274
+          },
+          {
+            "id": "1wy7ubc",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1wy7ubc/does_knowing_whether_a_game_was_made_with_ai/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/9z3g480x9nth1.png?width=140&height=71&auto=webp&s=2bb1e4d27054c3b32ee3bfa8ba193493d6b22319",
+                "type": "photo",
+                "width": 140,
+                "height": 71
+              }
+            ],
+            "score": 1776,
+            "title": "Does knowing whether a game was made with AI affect your decision to play it?",
+            "author": "meadowfernsies",
+            "authorId": "1074ee874w",
+            "selftext": "Hey everyone! Our philosophy has always been that art made with AI isn't actually art. And that humans should be in control of all creative things. Besides the obvious copyright and ethical arguments, we believe it has more soul. What do you think?\n\nShould Steam separate games based on whether they are made with AI or not?\n\nIf you want to support us, check out our steam page! We really appreciate it.  \n[https://store.steampowered.com/app/4864960/MAUS\\_TRAP/](https://store.steampowered.com/app/4864960/MAUS_TRAP/)",
+            "permalink": "/r/IndieGaming/comments/1wy7ubc/does_knowing_whether_a_game_was_made_with_ai/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1791204958,
+            "numComments": 1734
+          },
+          {
+            "id": "1vaevcu",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1vaevcu/my_girlfriend_and_i_are_making_a_survival_game/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/eTVvYm53cHBtOWdoMX-G7nxHbb6z4iPLvWeZOFfdGn0uG02j-5OQV7AE0ELn.png?width=140&height=78&format=jpg&auto=webp&s=f30f0d25c7728fcea5b3ad4763aa6f25741e5e81",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 1736,
+            "title": "My girlfriend and I are making a survival game set in Atlantis",
+            "author": "seaforgegame",
+            "authorId": "1xl1bsdbeh",
+            "selftext": "We enjoy playing co-op survival games so much that we decided to make our own. She was a technical artist at a game studio, so we decided to lean into creating a Mediterranean archipelago with some aesthetic influence from Myst, and game influence from Raft, Valheim, Sunkenland, and Abiotic Factor – some of our favorite games.\n\nIn Seaforge: Shores of Atlantis, you’re an explorer shipwrecked in an archipelago among the ruins of the sunken civilization of Atlantis. You dive into the Greek-themed ruins and exotic caves to fetch resources to build your home base. Though you’ll start with a rustic, basic shack, we leaned heavily into giving players a pathway to aesthetically pretty building tools: Grecian plaster, Tuscan-style stone masonry archways, hand-hewn timbers, hanging baskets, ivy on the walls, wainscotting. One of my favorite parts is the painting system that lets you get really creative with patterns and colors.\n\nAlong with the base, you’ll build out crafting stations like furnaces, and a full greenhouse, where we’ve created a bit of a twist on the classic gardening mechanic – you grow special plants that you can harvest and condense into energy ammunition for your weapons, crafted from rediscovered Atlantean tech. Then you set sail to take on islands infested with enemies that guard technology you need to advance, and find out the mystery behind the fall of Atlantis.\n\nWe still have a long ways to go, but we just pushed out our first reveal trailer! How do you like the aesthetic? What other kinds of base decorations should we have? Thoughts on the gardening to ammo harvest mechanic? \n\nAnd please consider wishlisting, it helps a lot! [https://store.steampowered.com/app/4712440/Seaforge\\_Shores\\_of\\_Atlantis/](https://store.steampowered.com/app/4712440/Seaforge_Shores_of_Atlantis/)\n\n",
+            "permalink": "/r/IndieGaming/comments/1vaevcu/my_girlfriend_and_i_are_making_a_survival_game/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1785373291,
+            "numComments": 124
+          },
+          {
+            "id": "1wfv8gz",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1wfv8gz/thrown_weapons_can_parry_bullets_midair/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/d2xiOWYyZzllZnBoMeI5cUBdQRAtfNK3JmZEXPrRuRb0X7JIwIVdBPLVQDkS.png?width=140&height=105&format=jpg&auto=webp&s=cb238065a9aba0faae54e772ea378ebe1c8fbcfa",
+                "type": "video",
+                "width": 140,
+                "height": 105
+              }
+            ],
+            "score": 1687,
+            "title": "Thrown weapons can parry bullets mid-air",
+            "author": "dpolk_",
+            "authorId": "hfyp6eks",
+            "selftext": "This is my physics weapon game [KILLSEC](https://store.steampowered.com/app/3940470/KILLSEC/)! Its heavily inspired by the all the ridiculous flash games I played in the 2010s\n\nthere's a playtest on discord if you want to try it out early! [https://discord.gg/4BE46HXvdU](https://discord.gg/4BE46HXvdU)",
+            "permalink": "/r/IndieGaming/comments/1wfv8gz/thrown_weapons_can_parry_bullets_midair/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1789365956,
+            "numComments": 59
+          },
+          {
+            "id": "1t3it0l",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1t3it0l/we_tried_to_figure_out_some_animal_interactions/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/N2F1YnFiNTJvNHpnMdyp4yDvesOTkOUFMKvRLGBq4woaynxycTkcLf104-Km.png?width=140&height=78&format=jpg&auto=webp&s=efaace7b47acd21c4b3c3cf5916dff181c82aaf3",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 1687,
+            "title": "We tried to figure out some animal interactions in our otter game, not sure how we got here haha",
+            "author": "Polygoat_studio",
+            "authorId": "w0j8n",
+            "selftext": "We’re aiming to create a peaceful, heartfelt adventure centered around exploration, kindness, and restoring nature through playful, hands-on interactions.\n\nSteam: [https://store.steampowered.com/app/4126510/My\\_Otter\\_Friends/](https://store.steampowered.com/app/4126510/My_Otter_Friends/)\n\nTrailer is in the works!",
+            "permalink": "/r/IndieGaming/comments/1t3it0l/we_tried_to_figure_out_some_animal_interactions/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1777903750,
+            "numComments": 97
+          },
+          {
+            "id": "1wbp0z1",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1wbp0z1/im_making_an_animal_game_where_you_play_as_a_wild/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/d21kbGhwNDBraW9oMZpbjeePmlUVtUhYKQ-qHxbQ5KQrUGo33Voyk6bIg1Jt.png?width=140&height=78&format=jpg&auto=webp&s=34fe3e2dd9541ff59b6b85fb531f7b66f58489b7",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 1591,
+            "title": "I'm making an animal game where you play as a wild pig",
+            "author": "Tiger_Dog",
+            "authorId": "zxk77",
+            "selftext": "",
+            "permalink": "/r/IndieGaming/comments/1wbp0z1/im_making_an_animal_game_where_you_play_as_a_wild/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1788968228,
+            "numComments": 167
+          }
+        ],
+        "nextCursor": "cur_c3oyRUpjWk4bMi8b7SCRGg"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-bison-9321fc54",
+      "kind": "anonymous",
+      "name": "Bison",
+      "artworkKey": "bison"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00035",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:42:46.437Z",
+  "started_at": "2026-11-23T07:42:46.841Z",
+  "completed_at": "2026-11-23T07:42:49.117Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

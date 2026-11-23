@@ -1,0 +1,628 @@
+{
+  "id": "481f0082-b3c8-4ce1-bdbc-1dc42ba5635a",
+  "run_url": "https://app.glasser.ai/runs/481f0082-b3c8-4ce1-bdbc-1dc42ba5635a",
+  "provider": "anyapi",
+  "endpoint": "/twitter.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "limit": 20,
+    "query": "AI agents film behind the scenes outtakes since:2025-11-22 filter:videos -filter:replies min_faves:20",
+    "queryType": "Top"
+  },
+  "output": {
+    "hint": "large_result: this response is ~39 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 20,
+    "output": {
+      "data": {
+        "items": [
+          {
+            "id": "2124231511499026436",
+            "url": "https://x.com/flxrnc/status/2124231511499026436",
+            "lang": "en",
+            "text": "I make a new animation every day now, these 18 GitHub repos are my secret\n\nthis is f*cking gold for Fable 5.2 and Opus 5.5 users\n\nLaunches. Explainers. Demos. Motion. VFX. Taste.\n\nhuashu-motion → launch films that write their own music\nhttp://github.com/alchaincyf/huashu-motion\n\nanything2explainer → pick a topic, get a narrated explainer\nhttp://github.com/Vincentwei1021/anything2explainer\n\nOpenScreen → screen recordings that look like polished demos\nhttp://github.com/getopenscreen/openscreen\n\nonetake → the whole piece in one unbroken camera move\nhttp://github.com/feitangyuan/onetake\n\nLemo-Opuscar → 99 film looks your agent can shoot in code\nhttp://github.com/lemomo-ai/lemo-opuscar\n\nEffectCraft → a full VFX toolkit you never pay for\nhttp://github.com/storytold/effectcraft\n\nGSAP → timelines that make every move smooth\nhttp://github.com/greensock/GSAP\n\nThree.js → 3D shots straight from a web page\nhttp://github.com/mrdoob/three.js\n\nBlender MCP → Claude does the heavy 3D lifting in Blender\nhttp://github.com/ahujasid/mcp-for-blender\n\nComfyUI → the AI image engine behind your shots\nhttp://github.com/Comfy-Org/ComfyUI\n\nHyperFrames → build in HTML, deliver as video\nhttp://github.com/heygen-com/hyperframes\n\nRemotion → videos you can edit like a web page\nhttp://github.com/remotion-dev/remotion\n\nRemotion Skills → your agent learns video the official way\nhttp://github.com/remotion-dev/skills\n\nImpeccable → a final polish pass on every frame\nhttp://github.com/pbakaus/impeccable\n\nTaste Skill → gives your agent a real sense of style\nhttp://github.com/Leonxlnx/taste-skill\n\nHallmark → no AI look, ever\nhttp://github.com/Nutlope/hallmark\n\nOpen Design → your own AI design studio, no subscription\nhttp://github.com/nexu-io/open-design\n\nFFmpeg → exports a clean MP4 every time\nhttp://github.com/FFmpeg/FFmpeg\n\nTopic → script → motion → score → export.\n\nBookmark this, then the guide below shows how to make your first animation ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124229033848197120/img/V4owgwAPxbCmNWrY.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124229033848197120/vid/avc1/1440x1800/6EDwdxRwBJG34fkh.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1878397321916162048",
+            "likeCount": 3587,
+            "viewCount": 321792,
+            "authorName": "Florence",
+            "createdUtc": 1795291233,
+            "quoteCount": 19,
+            "replyCount": 93,
+            "authorImage": "https://pbs.twimg.com/profile_images/2100596838915092480/4Mv5e9Qa_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 409,
+            "bookmarkCount": 8625,
+            "authorUsername": "flxrnc",
+            "authorVerified": true,
+            "conversationId": "2124231511499026436",
+            "authorFollowers": 4826
+          },
+          {
+            "id": "2124316097063371220",
+            "url": "https://x.com/0xForce_/status/2124316097063371220",
+            "lang": "en",
+            "text": "THIS IS FCK**** GOLDEN\n\nTHESE 3 FREE GITHUB REPOS LET YOU MAKE AI VIDEOS WITH CLAUDE CODE WITHOUT EVER STARTING FROM A BLANK PROMPT AGAIN\n\nThey kill the EMPTY prompt problem so you stop burning hours and money on generic outputs.\n\n→ Lemo Opuscar gives you a full short-film workflow in 51 visual styles \n\n→ mg-styles-15 hands over 15 motion graphic styles with the exact prompt, code, and render path behind each one \n\n→ ClaudeAnimationBase supplies hand-drawn cartoon setups with 30+ character expressions ready to drop in  \n\nOne install and the blank page is gone.\n\n Bookmark this.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124316065358336000/img/Yx5yOvKUvXyZjRCE.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124316065358336000/vid/avc1/576x1024/HUGR-jqsF6rzqED4.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1676214799221288961",
+            "likeCount": 62,
+            "viewCount": 2341,
+            "authorName": "Force🦅",
+            "createdUtc": 1795311400,
+            "quoteCount": 0,
+            "replyCount": 2,
+            "authorImage": "https://pbs.twimg.com/profile_images/2118357933738061824/zFIB5Ipr_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 8,
+            "bookmarkCount": 53,
+            "authorUsername": "0xForce_",
+            "authorVerified": true,
+            "conversationId": "2124316097063371220",
+            "authorFollowers": 8374
+          },
+          {
+            "id": "2123192874233913431",
+            "url": "https://x.com/Factsonfilm/status/2123192874233913431",
+            "lang": "en",
+            "text": "Behind the scenes of the whip pans in 'la La Land' (2016) 🎥 https://t.co/YdhhU8jCib",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/ext_tw_video_thumb/1623878312409075713/pu/img/2tW0UDaWmK8tGacu.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/ext_tw_video/1623878312409075713/pu/vid/720x900/FLBaCyrWw9hJcLpO.mp4?tag=12"
+              }
+            ],
+            "isReply": false,
+            "authorId": "913143693414080512",
+            "likeCount": 96,
+            "viewCount": 10337,
+            "authorName": "Film Facts 🎬",
+            "createdUtc": 1795043602,
+            "quoteCount": 0,
+            "replyCount": 0,
+            "authorImage": "https://pbs.twimg.com/profile_images/1445640446835761156/Mpb9YySs_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 5,
+            "bookmarkCount": 6,
+            "authorUsername": "Factsonfilm",
+            "authorVerified": true,
+            "conversationId": "2123192874233913431",
+            "authorFollowers": 302084
+          },
+          {
+            "id": "2123395315667484887",
+            "url": "https://x.com/beamnxw/status/2123395315667484887",
+            "lang": "en",
+            "text": "these 25 GitHub tools + skills turn Fable 5.2 into your one-person motion design studio\n\nthis is f*cking goldmine for Fable 5.2\n\nstoryboard. animate. add 3D. sync the sound. export the film\n\nthe full pipeline in 40 seconds\n\nDIRECT IT → ANIMATE IT → ADD DEPTH → ADD SOUND → SHIP IT\n\nthe full collection ↓\n\n01 / DIRECTION + STORYBOARD\n\n01. Motion Video Kit\nPlan launch films, set the visual direction + review the render\nhttps://github.com/echris6/motion-video-kit\n\n02. Video ShotCraft\nTurn product screenshots into storyboarded, editable promo videos\nhttps://github.com/Vincentwei1021/video-shotcraft\n\n03. Motion Design Skill\nGuide timing, easing + animation choreography\nhttps://github.com/LottieFiles/motion-design-skill\n\n04. Reanimate\nStudy reference animations frame by frame + compare motion\nhttps://github.com/NiazMorshed2007/reanimate\n\n05. Canvas Design\nCreate styleframes, posters + visual compositions\nhttps://github.com/anthropics/skills/tree/main/skills/canvas-design\n\n02 / 2D + ANIMATION\n\n06. Remotion + Agent Skills\nBuild videos with React + render frame-driven compositions\nhttps://github.com/remotion-dev/remotion\nhttps://github.com/remotion-dev/skills\n\n07. HyperFrames\nTurn HTML-based animations into rendered video\nhttps://github.com/heygen-com/hyperframes\n\n08. GSAP Skills\nBuild timelines, text reveals + SVG animations with GSAP\nhttps://github.com/greensock/gsap-skills\n\n09. Motion Canvas\nCreate animated diagrams, explainers + synchronized sequences\nhttps://github.com/motion-canvas/motion-canvas\n\n10. Claude Animation Base\nAnimate hand-painted characters with p5.js + p5.brush\nhttps://github.com/JohnHeibel/ClaudeAnimationBase\n\n03 / 3D + PHYSICS\n\n11. MCP for Blender\nConnect your agent to Blender for scene creation + editing\nhttps://github.com/ahujasid/mcp-for-blender\n\n12. React Three Fiber\nBuild Three.js scenes with React\nhttps://github.com/pmndrs/react-three-fiber\n\n13. Drei\nAdd cameras, environments, text + reusable 3D helpers\nhttps://github.com/pmndrs/drei\n\n14. React Three Rapier\nAdd rigid bodies, collisions + physical interactions\nhttps://github.com/pmndrs/react-three-rapier\n\n15. React Postprocessing\nFinish 3D scenes with depth of field, bloom + visual effects\nhttps://github.com/pmndrs/react-postprocessing\n\n04 / ASSETS + VOICE + TIMING\n\n16. ComfyUI\nBuild image + video asset workflows with your chosen models\nhttps://github.com/Comfy-Org/ComfyUI\n\n17. p5.brush\nCreate brush strokes, painted textures + hatching with code\nhttps://github.com/acamposuribe/p5.brush\n\n18. Kokoro\nGenerate voiceover audio locally\nhttps://github.com/hexgrad/kokoro\n\n19. librosa\nExtract beats + audio timing to sync your animation\nhttps://github.com/librosa/librosa\n\n20. faster-whisper\nTranscribe narration + get timestamps for captions\nhttps://github.com/SYSTRAN/faster-whisper\n\n05 / POLISH + QA + DELIVERY\n\n21. Audacity\nEdit and mix voiceover, music + sound effects\nhttps://github.com/audacity/audacity\n\n22. Design Motion Principles\nReview UI motion, transitions + animation consistency\nhttps://github.com/kylezantos/design-motion-principles\n\n23. Playwright\nCapture browser scenes + automate visual checks\nhttps://github.com/microsoft/playwright\n\n24. Chrome DevTools MCP\nInspect browser performance, console errors + rendering issues\nhttps://github.com/ChromeDevTools/chrome-devtools-mcp\n\n25. FFmpeg\nEncode, combine audio, resize + export your final video\nhttps://github.com/FFmpeg/FFmpeg\n\npick one main video engine + add the tools your project needs\n\nsave this for your next build + pick your tools + make something great\n\nthen build an AI team with Claude & an AI employee for your studio ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123390521431195648/img/F6XCp26TZAOGKa3W.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123390521431195648/vid/avc1/1080x1350/CqB9mI6titpYHS0X.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1829032796481888256",
+            "likeCount": 92,
+            "viewCount": 3950,
+            "authorName": "beamnxw ./",
+            "createdUtc": 1795091868,
+            "quoteCount": 0,
+            "replyCount": 22,
+            "authorImage": "https://pbs.twimg.com/profile_images/2074793345314861056/3FE1i0oW_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 7,
+            "bookmarkCount": 76,
+            "authorUsername": "beamnxw",
+            "authorVerified": true,
+            "conversationId": "2123395315667484887",
+            "authorFollowers": 17469
+          },
+          {
+            "id": "2122382691949789312",
+            "url": "https://x.com/0xGenAi/status/2122382691949789312",
+            "lang": "en",
+            "text": "WHAT THE F*CK...\n\n1 Grok Bot and 9 GitHub projects can give one person an entire motion studio.\n\nDirector Bot directs. The projects animate, build the 3D, draw the explainers, render the video and export every format.\n\nA studio like this costs about $612,000 a year: six animators at the US median of $102,030. Director Bot is free to add, and all 9 projects are public on GitHub.\n\nMy first month with it: 31 finished videos, 2.1M views, 0 hours in After Effects.\n\n𝟭 𝗼𝗳𝗳𝗶𝗰𝗶𝗮𝗹 𝗯𝗼𝘁 𝗳𝗿𝗼𝗺 𝘁𝗵𝗲 𝗚𝗿𝗼𝗸 𝗕𝗼𝘁 𝘁𝗲𝗮𝗺 𝗮𝘁 𝗦𝗽𝗮𝗰𝗲𝗫𝗦𝗜:\n\n01 / 𝗗𝗶𝗿𝗲𝗰𝘁𝗼𝗿 𝗕𝗼𝘁 → Your video director: turns a brief into a short film, ad, explainer or music video, then plans, shoots, cuts and delivers it.\nhttps://x.ai/bot/marketplace/bots/video-director\n\nDirector Bot comes with its own instructions and skills. The GitHub projects give it a whole studio to direct: code that renders video, animation engines, 3D, math explainers and an encoder for every format.\n\n𝟵 𝗚𝗶𝘁𝗛𝘂𝗯 𝗽𝗿𝗼𝗷𝗲𝗰𝘁𝘀 𝘁𝗼 𝗽𝗹𝘂𝗴 𝗶𝗻:\n\n02 / 𝗛𝘆𝗽𝗲𝗿𝗙𝗿𝗮𝗺𝗲𝘀 → Write HTML, get a video. HeyGen built it for agents.\nhttps://github.com/heygen-com/hyperframes\n\n03 / 𝗥𝗲𝗺𝗼𝘁𝗶𝗼𝗻 → Makes videos with React code.\nhttps://github.com/remotion-dev/remotion\n\n04 / 𝗥𝗲𝗺𝗼𝘁𝗶𝗼𝗻 𝗦𝗸𝗶𝗹𝗹𝘀 → Remotion's official agent skills for writing Remotion videos.\nhttps://github.com/remotion-dev/skills\n\n05 / 𝗚𝗦𝗔𝗣 → Pro-grade JavaScript animation, now free for everyone.\nhttps://github.com/greensock/GSAP\n\n06 / 𝗔𝗻𝗶𝗺𝗲.𝗷𝘀 → A JavaScript animation engine for timelines and easing.\nhttps://github.com/juliangarnier/anime\n\n07 / 𝗧𝗵𝗿𝗲𝗲.𝗷𝘀 → The JavaScript 3D library.\nhttps://github.com/mrdoob/three.js\n\n08 / 𝗠𝗖𝗣 𝗳𝗼𝗿 𝗕𝗹𝗲𝗻𝗱𝗲𝗿 → Lets any LLM control Blender 3D.\nhttps://github.com/ahujasid/mcp-for-blender\n\n09 / 𝗠𝗮𝗻𝗶𝗺 → The engine behind 3Blue1Brown's math animations.\nhttps://github.com/3b1b/manim\n\n10 / 𝗙𝗙𝗺𝗽𝗲𝗴 → Cuts, converts and encodes video into any format.\nhttps://github.com/FFmpeg/FFmpeg\n\n𝗪𝗵𝗮𝘁 𝘁𝗵𝗲𝘆'𝘃𝗲 𝗮𝗹𝗿𝗲𝗮𝗱𝘆 𝗱𝗼𝗻𝗲 𝗳𝗼𝗿 𝘁𝗵𝗲 𝗽𝗲𝗼𝗽𝗹𝗲 𝘄𝗵𝗼 𝗴𝗼𝘁 𝘁𝗵𝗲𝗿𝗲 𝗳𝗶𝗿𝘀𝘁:\n\n𝗠𝗮𝗻𝗶𝗺: the author of 3Blue1Brown built it to animate those videos. 96,000 stars later, anyone can use the same engine.\n\n𝗛𝘆𝗽𝗲𝗿𝗙𝗿𝗮𝗺𝗲𝘀: 82,000 stars in 8 months. HeyGen built it so agents can write HTML and get video back.\n\n𝗚𝗦𝗔𝗣: over 15 years at the front of web animation, and now every plugin is free, thanks to Webflow.\n\nAdd Director Bot, paste the 9 GitHub links into one Grok Bot chat and type: \"Hire 6 bots for my motion studio, give each one the repos it needs, then make a 20-second launch video\"\n\nSave this, then read the full guide to setting up a team of Grok Bot agents from 0 in the article below.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122357720086962176/img/ta_nGkf8oDIqNXUu.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122357720086962176/vid/avc1/1080x1350/cI2sh4zmvFXQca4-.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2066921840363069440",
+            "likeCount": 62,
+            "viewCount": 5345,
+            "authorName": "GenAI",
+            "createdUtc": 1794850440,
+            "quoteCount": 0,
+            "replyCount": 5,
+            "authorImage": "https://pbs.twimg.com/profile_images/2083289176343027712/63iXpID5_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 10,
+            "bookmarkCount": 89,
+            "authorUsername": "0xGenAi",
+            "authorVerified": true,
+            "conversationId": "2122382691949789312",
+            "authorFollowers": 2862
+          },
+          {
+            "id": "2124607398564204930",
+            "url": "https://x.com/yohirakun/status/2124607398564204930",
+            "lang": "en",
+            "text": "Japanese studio level anime is possible, you don't need millions of dollars. This scene was only $20 USD, but days of work. We are animators and artists who hand make everything, and let AI do the in-betweens. This scene from our upcoming film still in draft with mistakes, still the possibilities are endless. AI assisted fight scenes are coming soon. Follow my account to see one of the craziest anime films unravel this year, and how we made it. #anime #animation #ai #seedance",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124607193534156800/img/2iIg2wdo5ItY4Pts.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124607193534156800/vid/avc1/3840x2160/taQxiQk4k6UZgpsS.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1840048401565483008",
+            "likeCount": 219,
+            "viewCount": 10796,
+            "authorName": "YohiraKun",
+            "createdUtc": 1795380851,
+            "quoteCount": 4,
+            "replyCount": 19,
+            "authorImage": "https://pbs.twimg.com/profile_images/2112062215037636608/ipqItQjM_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 26,
+            "bookmarkCount": 136,
+            "authorUsername": "yohirakun",
+            "authorVerified": true,
+            "conversationId": "2124607398564204930",
+            "authorFollowers": 373
+          },
+          {
+            "id": "2124599205838893564",
+            "url": "https://x.com/Asteri_eth/status/2124599205838893564",
+            "lang": "en",
+            "text": "A FILM CREW PRIED AN ACTOR OUT OF A GIANT WORM'S MOUTH, SANK AN AIRPORT, WALKED A RAPTOR ON A LEASH AND SPUN UP A TORNADO. NOT ONE OF THESE SETS WAS EVER BUILT\n\n5.5M views. 39 seconds\n\nit opens on a desert stage in front of a blue screen. a huge worm puppet hangs off a crane, the crew sits at monitors on a dolly track, and when its mouth snaps shut two guys in black tees have to pull it open by hand. then a director with a megaphone calls action on a miniature airport and a jet goes down into a wall of water. then a jungle set where a guy runs from a raptor while two people in blue suits hold it back on ropes. last one, a green screen hall full of giant fans, a fabric funnel on the ceiling, and a tornado tearing through a tiny city with a red car flying out of it\n\nthe crew, the sets, the creatures, all of it is AI\n\nwhy it works:\n\n→ it's behind the scenes, not the movie. you see dolly tracks, monitors, tracking dots on the blue screen. your brain checks the gear and stops checking the monster\n\n→ every set shows how it was \"made\". crane, ropes, fans, a megaphone. the rig explains the effect so the impossible part feels handled\n\n→ the people do boring set jobs. holding cables, sitting at screens, waiting for the take. that's what real BTS footage looks like\n\n→ four worlds, one production. same studio light, same crew shirts, same handheld camera, so it plays like one shoot day instead of random clips\n\n→ it escalates. a puppet, then a crash, then a live dinosaur, then weather. each set is bigger than the last\n\nthe takeaway: if you want AI to look real, show the fake. a visible rig makes people believe the shot\n\nmulti-scene sequences that hold one look across 39 seconds are where seedance 2.5 surprises the most, and you can make them inside @Picsart\n\nwhich set would you want to work on?",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124599098300919808/img/Xe9lnvfhzmlB6WCA.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124599098300919808/vid/avc1/736x1280/Y7WPx1UuJWP2HMaQ.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1579761187134357504",
+            "likeCount": 22,
+            "viewCount": 2864,
+            "authorName": "Asteri",
+            "createdUtc": 1795378898,
+            "quoteCount": 0,
+            "replyCount": 0,
+            "authorImage": "https://pbs.twimg.com/profile_images/2022637969216327680/I0P63zlc_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 0,
+            "bookmarkCount": 13,
+            "authorUsername": "Asteri_eth",
+            "authorVerified": true,
+            "conversationId": "2124599205838893564",
+            "authorFollowers": 4064
+          },
+          {
+            "id": "2123060472198959218",
+            "url": "https://x.com/0xsacr3d/status/2123060472198959218",
+            "lang": "en",
+            "text": "This is f*cking insane. The Nobel winner behind AlphaGo, Demis Hassabis, just showed where AI agents really are right now:\n\n\"I can do a prototype of Theme Park in half an hour now. It took me six months when I was 17\"\n\nIn this free 39-minute talk, he covers agent hype, memory, continual learning, the 1,000x engineer and why he puts AGI at 2030\n\nPrompt → One Agent → Dozens Of Agents → Memory → One Person At 1,000x\n\nI've seen $600 courses that don't cover what he says in the first 12 minutes\n\nBookmark and watch the talk\n\nThen read what comes after the swarm: Verification Engineering, the $400K skill ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123041440217325568/img/TZiaeQ2LVzAWcsoA.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123041440217325568/vid/avc1/1808x1016/OZMmWksgG5O3imyR.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1796644321304748032",
+            "likeCount": 345,
+            "viewCount": 62028,
+            "authorName": "sacred",
+            "createdUtc": 1795012035,
+            "quoteCount": 4,
+            "replyCount": 8,
+            "authorImage": "https://pbs.twimg.com/profile_images/2119490846181531649/hqKx57Ex_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 43,
+            "bookmarkCount": 1036,
+            "authorUsername": "0xsacr3d",
+            "authorVerified": true,
+            "conversationId": "2123060472198959218",
+            "authorFollowers": 2176
+          },
+          {
+            "id": "2123099622147277048",
+            "url": "https://x.com/MCUFilmNews/status/2123099622147277048",
+            "lang": "en",
+            "text": "The first behind-the-scenes teaser for ‘AVENGERS: DOOMSDAY’.\n\nIn theaters December 18. https://t.co/7aZOCr0Iqq",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123060811056943105/img/ym97GJ4fbdr6ZliW.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123060811056943105/vid/avc1/1920x1080/LJDBCSSJiHhvZeRl.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1582378068563226624",
+            "likeCount": 334,
+            "viewCount": 9850,
+            "authorName": "MCU Film News",
+            "createdUtc": 1795021369,
+            "quoteCount": 0,
+            "replyCount": 4,
+            "authorImage": "https://pbs.twimg.com/profile_images/1763484403962171392/3NwtZxc3_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 42,
+            "bookmarkCount": 38,
+            "authorUsername": "MCUFilmNews",
+            "authorVerified": true,
+            "conversationId": "2123099622147277048",
+            "authorFollowers": 99929
+          },
+          {
+            "id": "2124560005957623999",
+            "url": "https://x.com/renproton/status/2124560005957623999",
+            "lang": "en",
+            "text": "THIS IS AN ACTUAL F*CKING GOLDMINE\n\nThese 20 GitHub repos will turn your Fable 5.2 into a premier motion studio\n\nskills. 3D. FX. Motion. Sound. Export\n\n01 /motion-design-skill → Timing, easing and Disney's 12 principles.\nhttp://github.com/LottieFiles/motion-design-skill\n\n02 ai-kit → CSS springs and motion audits for agents.\nhttp://github.com/motiondivision/ai-kit\n\n03 Remotion Skills → Official video skills for coding agents.\nhttp://github.com/remotion-dev/skills\n\n04 /hairline → Interactive line figures from an idea or an SVG.\nhttp://hairline.lucasmarkes.com/skills\n\n05 /anatomy → Machines and systems as isometric figures.\nhttp://skills.wheresryan.sh/anatomy\n\n06 /anatomy-reveal → Exploded product views and a reveal MP4.\nhttp://typingmind.com/skills/annnguyentt-anatomy-reveal\n\n07 /blender-agents → A full AI 3D team inside Blender via MCP.\nhttp://github.com/scenario-labs/blender-plugin\n\n08 Three.js → 3D scenes and camera moves.\nhttp://github.com/mrdoob/three.js\n\n09 react-three-rapier → Real physics for React Three Fiber scenes.\nhttp://github.com/pmndrs/react-three-rapier\n\n10 react-postprocessing → Bloom, depth of field and film effects.\nhttp://github.com/pmndrs/react-postprocessing\n\n11 three.quarks → Particle trails and VFX.\nhttp://github.com/Alchemist0823/three.quarks\n\n12 Tweakpane → Live controls for your scene parameters.\nhttp://github.com/cocopon/tweakpane\n\n13 GSAP → Animation timelines. Now fully free.\nhttp://github.com/greensock/GSAP\n\n14 Remotion → React video engine.\nhttp://github.com/remotion-dev/remotion\n\n15 Manim → Animated diagrams, equations and explainers.\nhttp://github.com/ManimCommunity/manim\n\n16 Lottie → Lightweight vector animation playback.\nhttp://github.com/airbnb/lottie-web\n\n17 Openverse API → 5.2M+ free sound effects, ambience and music.\nhttp://api.openverse.org/v1/\n\n18 librosa → Beat detection for music-synced animation.\nhttp://github.com/librosa/librosa\n\n19 WhisperX → Word-level timing for captions.\nhttp://github.com/m-bain/whisperX\n\n20 FFmpeg → Encoding and delivery.\nhttp://github.com/FFmpeg/FFmpeg\n\nSkill → scene → motion → sound → final cut.\n\nBookmark this then go build something worth watching with guide below ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124555683727380480/img/iXQ2ZLXo2Ab-To63.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124555683727380480/vid/avc1/1080x1350/57Ena1lFFvzr2IfI.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2078171552298778624",
+            "likeCount": 304,
+            "viewCount": 27852,
+            "authorName": "renproton",
+            "createdUtc": 1795369552,
+            "quoteCount": 2,
+            "replyCount": 13,
+            "authorImage": "https://pbs.twimg.com/profile_images/2107888160462209024/_Iv-MTty_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 24,
+            "bookmarkCount": 501,
+            "authorUsername": "renproton",
+            "authorVerified": true,
+            "conversationId": "2124560005957623999",
+            "authorFollowers": 1045
+          },
+          {
+            "id": "2123448129877909763",
+            "url": "https://x.com/SimplyBitcoin/status/2123448129877909763",
+            "lang": "en",
+            "text": "The Bitcoin marketing team is going above and beyond.\n\nMajor banks went down nationwide. The Fed is warning that AI agents could trigger bank runs in minutes. Bitcoin wasn't down.\n\nRustin has a sneaking suspicion who's behind the attacks. 👀 https://t.co/wFqItsn045",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/ext_tw_video_thumb/2123448041885569024/pu/img/_Ft9AlUWGOaDitJC.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/ext_tw_video/2123448041885569024/pu/vid/avc1/1280x720/HvUSFYAujvBN-D56.mp4?tag=12"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1286277333712809989",
+            "likeCount": 161,
+            "viewCount": 5431,
+            "authorName": "Simply Bitcoin",
+            "createdUtc": 1795104460,
+            "quoteCount": 0,
+            "replyCount": 3,
+            "authorImage": "https://pbs.twimg.com/profile_images/2074134353156980736/h9-qhivs_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 16,
+            "bookmarkCount": 6,
+            "authorUsername": "SimplyBitcoin",
+            "authorVerified": true,
+            "conversationId": "2123448129877909763",
+            "authorFollowers": 163344
+          },
+          {
+            "id": "2123907864817291706",
+            "url": "https://x.com/Criterion/status/2123907864817291706",
+            "lang": "en",
+            "text": "Evening viewing recommendation? On the Criterion Channel, watch our edition of Ryusuke Hamaguchi's DRIVE MY CAR (2021). https://bit.ly/3WOH4uk\n\nAlongside the film, enjoy an interview with Hamaguchi, a program about the making of the film featuring behind-the-scenes footage, and more!",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/media/HXmi8mtXAAAZ_JV.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123907745195737088/vid/avc1/1080x1080/WGp0xrSCLB4nEAQU.mp4?tag=16"
+              }
+            ],
+            "isReply": false,
+            "authorId": "22207520",
+            "likeCount": 299,
+            "viewCount": 19712,
+            "authorName": "Criterion",
+            "createdUtc": 1795214069,
+            "quoteCount": 5,
+            "replyCount": 4,
+            "authorImage": "https://pbs.twimg.com/profile_images/1775621652/C_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 31,
+            "bookmarkCount": 30,
+            "authorUsername": "Criterion",
+            "authorVerified": true,
+            "conversationId": "2123907864817291706",
+            "authorFollowers": 601256
+          },
+          {
+            "id": "2123973812106690592",
+            "url": "https://x.com/dtkillian12/status/2123973812106690592",
+            "lang": "en",
+            "text": "I crafted a short behind-the-scenes film for our launch. Monochromatic, low frame rate, dramatic music, After Effects native 3D and lighting.\n\n#saas #motiongraphics #aftereffects #ae #advertising https://t.co/TfadcgXv9F",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123970939742248960/img/rjQ0MK2XuHh5m5Xx.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123970939742248960/vid/avc1/1920x1080/sI9tYfjrJpf9EmbB.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2031139562496602112",
+            "likeCount": 140,
+            "viewCount": 3525,
+            "authorName": "Killian Djoumessi",
+            "createdUtc": 1795229792,
+            "quoteCount": 0,
+            "replyCount": 4,
+            "authorImage": "https://pbs.twimg.com/profile_images/2076679125767507968/Zc5E_KOn_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 5,
+            "bookmarkCount": 138,
+            "authorUsername": "dtkillian12",
+            "authorVerified": true,
+            "conversationId": "2123973812106690592",
+            "authorFollowers": 128
+          },
+          {
+            "id": "2124090520632803611",
+            "url": "https://x.com/WhaleNewsDaily/status/2124090520632803611",
+            "lang": "en",
+            "text": "🚨 WARNING: THE AI DEBT BOMB IS STARTING TO GO OFF!!\n\nPeople are talking about the Nvidia crash.\n\nBut something much more DANGEROUS is going on behind the scenes.\n\n99% of people will lose everything.\n\nIf you hold any assets today, you MUST read this before Monday's open.\n\nStocks, bonds, gold, and crypto are ALL in the danger zone.\n\nMost people are focused on the market crash, but something far more serious is happening today.\n\n→ Oracle crashed 19.3% this week to $101.19, its lowest close since December 2023\n\n→ It is now down 69.2% from its September 2025 record\n\n→ S&P rates Oracle BBB-, just one notch above junk\n\n→ The junk-bond fund HYG closed at its lowest level since April 2025\n\n→ Schwab says \"mounting doubts about the financing of the AI buildout\" helped fuel Friday's tech selloff\n\nThese are NOT isolated events.\n\nThey are converging into one MASSIVE financial crisis.\n\nOracle's collapse has revealed how overexposed everyone is right now.\n\nThe AI sector is facing its first major collapse.\n\nThis is NOT an ordinary tech stock correction.\n\nIt's the beginning of the end for the AI bubble.\n\nInvestors are dumping overvalued AI stocks, and TRILLIONS are disappearing.\n\nThe damage is spreading across every major financial market.\n\nMeanwhile, the AI buildout is being paid for with borrowed money.\n\nAs the debt gets riskier, the stocks fall with it.\n\nTo stop the bleeding, funds have to sell.\n\nAnd they are selling FAST.\n\nEvery leveraged position is getting closer to a margin call.\n\nThis creates a devastating chain reaction:\n\n→ Oracle breaks its yearly low\n\n→ AI debt gets riskier\n\n→ Leveraged longs hit margin calls\n\n→ Margin calls force selling in stocks, crypto, and gold\n\n→ Forced selling drags AI stocks even lower\n\n→ AI losses accelerate the bursting of the AI bubble\n\n→ Investors dump ALL risk assets to protect their capital\n\nThis is how separate crises merge into one global financial disaster.\n\nThe pressure is spreading across EVERY major asset class.\n\nAnd this is NOT normal market behavior.\n\nThe biggest financial crisis in history is unfolding before our eyes.\n\nPay attention TODAY, because by the time everyone understands what's happening, it'll be too late.\n\nEveryone was told the AI buildout would pay for itself. Everyone went all in.\n\nAnd I'm giving you a HARD warning right now:\n\nIf you want to survive the 2026-2027 cycle and stay ahead of the crowd, follow and turn on notifications.\n\nMany people will regret ignoring this warning about AI debt.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124090503717060608/img/xhn5rI1EwywzBnzR.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124090503717060608/vid/avc1/1920x1080/GY9wqKD3WNwtXftu.mp4?tag=16"
+              }
+            ],
+            "isReply": false,
+            "authorId": "4310658016",
+            "likeCount": 39,
+            "viewCount": 12247,
+            "authorName": "Whale News Daily",
+            "createdUtc": 1795257618,
+            "quoteCount": 2,
+            "replyCount": 6,
+            "authorImage": "https://pbs.twimg.com/profile_images/2104990924103196672/CsJzBlTZ_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 8,
+            "bookmarkCount": 19,
+            "authorUsername": "WhaleNewsDaily",
+            "authorVerified": true,
+            "conversationId": "2124090520632803611",
+            "authorFollowers": 358065
+          },
+          {
+            "id": "2123458879287959705",
+            "url": "https://x.com/zodchiii/status/2123458879287959705",
+            "lang": "en",
+            "text": "This is f*cking insane. Jensen Huang on people scared AI will take their job:\n\n“You’re not going to lose your job to AI. You’ll lose it to someone who got good at AI before you did.”\n\nThe PC didn’t fire anyone. The people who refused to learn it just got left behind.\n\nAI is already everywhere at Nvidia and they’re still hiring. Things he expected in 10 years are showing up in 1–2.\n\nLearn AI → Use it daily → Build agents → Own the system → Become the person nobody replaces\n\nAI isn’t coming for your job.  \nThe person who mastered it first is.\n\nMost will keep worrying.  \nA few will just learn it and pull ahead.\n\nBetter than any overpriced career course.\n\nBookmark it and send it to anyone panicking about their job.\n\nThen the Agents guide below shows how to put AI to work earning for you 24/7 ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123458324259864576/img/rG1nLigb4BDfO_Tz.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123458324259864576/vid/avc1/1280x720/VmkeUvLJZAyaH8fW.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1226636978256564226",
+            "likeCount": 32,
+            "viewCount": 1794,
+            "authorName": "darkzodchi",
+            "createdUtc": 1795107023,
+            "quoteCount": 0,
+            "replyCount": 2,
+            "authorImage": "https://pbs.twimg.com/profile_images/1999509933302124544/ABxY9N7S_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 1,
+            "bookmarkCount": 21,
+            "authorUsername": "zodchiii",
+            "authorVerified": true,
+            "conversationId": "2123458879287959705",
+            "authorFollowers": 30598
+          },
+          {
+            "id": "2122361770861801911",
+            "url": "https://x.com/RealMarvelX/status/2122361770861801911",
+            "lang": "en",
+            "text": "this is absolutely unbelievable 🤯\n\nAnthropic just open-sourced the python SDK behind Claude Code. you can now build your own AI agent with it. \n\nthis official Anthropic project lets developers bring Claude Code’s agent capabilities directly into their Python applications.\n\nit’s called Claude Agent SDK for Python.\n\nand it already has 8.5K+ GitHub stars.\n\nhere’s what makes it powerful:\n\n→ build autonomous agents: give Claude tasks and let it use tools, execute commands, read files, edit code, and complete multi-step workflows.\n\n→ use the Claude Code toolset: access tools like Read, Write, Edit, and Bash from your Python application.\n\n→ create custom tools: turn your own Python functions into tools Claude can call whenever it needs them.\n\n→ connect MCP servers: integrate external services and tools, or create in-process MCP servers directly inside your application.\n\n→ control agent behavior: use hooks to intercept tool calls, approve or block actions, and enforce your own rules.\n\n→ manage permissions: decide which tools Claude can use, which actions require approval, and which operations should be blocked.\n\n→ build interactive agents: use ClaudeSDKClient for ongoing conversations, streaming responses, and bidirectional communication.\n\n→ manage agent sessions: continue previous conversations, resume sessions, and configure system prompts and working directories.\n\nhere’s how to set it up:\n\nyou need Python 3.10 or later.\n\n1. install the SDK:\n\npip install claude-agent-sdk\n\n1. create a Python file called http://agent.py.\n2. add this simple example:\n\nimport anyio\nfrom claude_agent_sdk import query\nasync def main():\n    async for message in query(\n        prompt=\"Create a simple Python calculator\"\n    ):\n        print(message)\nhttp://anyio.run(main)\n\n1. run your script:\n\npython http://agent.py\n\nthat’s it. you’ve just created a basic Claude-powered coding agent.\n\na few important things to know:\n\n→ the Claude Code CLI is bundled with the Python package, so you don’t need to install it separately.\n\n→ you can still use a system-wide Claude Code installation or specify a custom CLI path.\n\n→ the SDK is MIT licensed and free to install.\n\n→ you’ll still need access to Claude models, and usage is subject to Anthropic’s pricing and applicable account terms.\n\n→ the Python SDK is designed to run Claude’s agent loop, not just send ordinary chatbot prompts.\n\nif you’re building AI applications with Python, this gives you a powerful starting point for creating agents with real tools and control over their behavior.\n\nsave this, and follow for more useful open-source tools.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122361598484385792/img/sEbTujiPY2w08ulV.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122361598484385792/vid/avc1/1180x2398/vNMWN30hRy4QOL-C.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2050852010514169856",
+            "likeCount": 20,
+            "viewCount": 792,
+            "authorName": "MAIL",
+            "createdUtc": 1794845452,
+            "quoteCount": 0,
+            "replyCount": 6,
+            "authorImage": "https://pbs.twimg.com/profile_images/2072087413862625280/2czrbEBw_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 0,
+            "bookmarkCount": 16,
+            "authorUsername": "RealMarvelX",
+            "authorVerified": true,
+            "conversationId": "2122361770861801911",
+            "authorFollowers": 2387
+          },
+          {
+            "id": "2123114134539497770",
+            "url": "https://x.com/RealAlexJones/status/2123114134539497770",
+            "lang": "en",
+            "text": "🚨BREAKING: DHS Now Admitting That Rise Of “Rogue” AI Agents Behind Unprecedented Telecommunication Outages/Disruptions!\n\nAlex Jones Was Right Again!\n\n\"First They Tell Us Nothing's Going On & A Loose Wire Did All This- Airlines, Radar, Amtrak, The Banks, Google, Apple, Explosions At Fuel Tank Companies- One Wire Gets Pulled & The Whole World Blows Up!\"\n\nNow, The Trump Admin Is Confirming What Alex Jones Has Been Reporting Since Friday!",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123112552779370497/img/hTOakwboTYKHTQe4.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123112552779370497/vid/avc1/1920x1080/OMlTcX7sbi3VR4M8.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "109065990",
+            "likeCount": 417,
+            "viewCount": 211328,
+            "authorName": "Alex Jones",
+            "createdUtc": 1795024829,
+            "quoteCount": 12,
+            "replyCount": 48,
+            "authorImage": "https://pbs.twimg.com/profile_images/798632247762948096/ycGYVWvr_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 104,
+            "bookmarkCount": 79,
+            "authorUsername": "RealAlexJones",
+            "authorVerified": true,
+            "conversationId": "2123114134539497770",
+            "authorFollowers": 4449670
+          },
+          {
+            "id": "2123960116785684719",
+            "url": "https://x.com/Kite_Frens_Eco/status/2123960116785684719",
+            "lang": "en",
+            "text": "One hour of hands-on AI coding flipped employee sentiment from 80% anxious to 80% optimistic.\n\nThis AI on Air clip comes from a recent episode on the @ycombinator channel, where the speaker is Amjad Masad, co-founder and CEO of Replit.\n\n▷ At a hackathon with a very large telecom company, surveys ran before and after employees used Replit. Beforehand, about 80% were anxious about AI and worried about their jobs. After just one hour, it flipped: about 80% were optimistic.\n\n▷ Masad argues that Silicon Valley constantly underestimates how little of the world has experienced these tools. Being two years behind means being forever behind, because vibe coding did not even exist two years ago.\n\n▷ Most banks still run something like 2023-era ChatGPT, an LLM barely connected to anything and not that useful, while Silicon Valley has moved on to agents that do things for you. Most companies are still figuring out how to rewrite the legacy software they cannot ignore.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123959962208718848/img/R-cSWyRKoyrkP4Lp.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123959962208718848/vid/avc1/1920x1080/oBOMVR4oU6jLd3f9.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1906739962420097024",
+            "likeCount": 32,
+            "viewCount": 1646,
+            "authorName": "Kite AI Community and Ecosystem",
+            "createdUtc": 1795226527,
+            "quoteCount": 0,
+            "replyCount": 4,
+            "authorImage": "https://pbs.twimg.com/profile_images/2012126606119272448/VAJdu2z2_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 2,
+            "bookmarkCount": 1,
+            "authorUsername": "Kite_Frens_Eco",
+            "authorVerified": true,
+            "conversationId": "2123960116785684719",
+            "authorFollowers": 162282
+          },
+          {
+            "id": "2123772336868356582",
+            "url": "https://x.com/0xpainy/status/2123772336868356582",
+            "lang": "en",
+            "text": "This is f*cking insane. Satya Nadella, the CEO who grew Microsoft 14x in 12 years, just told Andrew Ross Sorkin:\n\n\"In the last year, the team that builds Co-work became 11 developers. They don't build the product, they build a software factory that builds the product\n\nThat level of indirection is what's going to happen in all jobs\"\n\nIn 31 minutes, he explains why Microsoft just offered buyouts to 60,000 employees, why coding turned into a factory of subagents, and who gets left behind\n\nPrompts → Agents → Subagents → Software Factories → Whole Products Run By 11 People\n\nGetting AI doesn't mean a smarter Copilot in your inbox\n\nIt means a small team running a factory of agents that ships the whole product\n\nMost companies still hire more engineers to ship faster, Microsoft just offered 60,000 people a way out\n\nWorth more than most $2,500 AI leadership courses\n\nBookmark it before your next reorg\n\nThen grab the Verification Engineering course below and learn to run the factory, not write the code ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123742143747383296/img/9AMEUR927bTe9FYk.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123742143747383296/vid/avc1/1920x1080/3jDxjsuWgGObJWuU.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1934441408481349632",
+            "likeCount": 251,
+            "viewCount": 96463,
+            "authorName": "painy",
+            "createdUtc": 1795181757,
+            "quoteCount": 2,
+            "replyCount": 13,
+            "authorImage": "https://pbs.twimg.com/profile_images/2109670474263187456/nIyq82lN_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 24,
+            "bookmarkCount": 740,
+            "authorUsername": "0xpainy",
+            "authorVerified": true,
+            "conversationId": "2123772336868356582",
+            "authorFollowers": 215
+          },
+          {
+            "id": "2123497440502333833",
+            "url": "https://x.com/scryxnda/status/2123497440502333833",
+            "lang": "en",
+            "text": "HOLY F*CK. Anthropic just dropped a 37-minute guide that could save you MONTHS of figuring out how to build AI agents.\n\nstraight from the engineers behind Claude.\n\nagents that delegate tasks, work together, and execute entire business workflows on their own.\n\n37 minutes to learn what most people are still spending weeks trying to figure out.\n\nyou're seriously gonna want this one.\n\nsave it before it gets buried in your feed ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123494299148877824/img/VT0vPOrn2eThHROm.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123494299148877824/vid/avc1/1920x1080/WefGF6lklk157OJp.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1147172802430197760",
+            "likeCount": 33,
+            "viewCount": 1317,
+            "authorName": "scryx",
+            "createdUtc": 1795116217,
+            "quoteCount": 0,
+            "replyCount": 11,
+            "authorImage": "https://pbs.twimg.com/profile_images/2121878657304018944/KJ3aGVG7_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 2,
+            "bookmarkCount": 38,
+            "authorUsername": "scryxnda",
+            "authorVerified": true,
+            "conversationId": "2123497440502333833",
+            "authorFollowers": 264
+          }
+        ],
+        "nextCursor": "cur_enIJXVSq_ehOMgBhG703Ig"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-capybara",
+      "kind": "anonymous",
+      "name": "Capybara",
+      "artworkKey": "capybara"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00049",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:40:18.976Z",
+  "started_at": "2026-11-23T07:40:19.050Z",
+  "completed_at": "2026-11-23T07:40:20.743Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

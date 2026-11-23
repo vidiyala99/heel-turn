@@ -1,0 +1,324 @@
+{
+  "id": "19f74d56-2495-402b-a26c-d49134a57541",
+  "run_url": "https://app.glasser.ai/runs/19f74d56-2495-402b-a26c-d49134a57541",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "AI agents improvising film",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "large_result: this response is ~8 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge. paging_unavailable: this result came from a source that cannot return a nextCursor, so it may be incomplete and there is no way to continue from here. Re-run with `requireFields: [\"nextCursor\"]` to be served only by a source that can page, which may cost more per request.",
+    "items": 7,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1qhy2dm",
+            "url": "https://v.redd.it/7k6tj7s7jheg1",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/bmEweWRsczdqaGVnMUboOqcxtlIAjPUbKYgjJRhvsZ9jUUXzGw_kbODlSXgC.png?format=pjpg&auto=webp&s=6c77c56aebf6c2c2cd63a7fe7460d6333c80f304",
+                "type": "video",
+                "width": 720,
+                "height": 1272,
+                "videoUrl": "https://v.redd.it/7k6tj7s7jheg1/CMAF_720.mp4?source=fallback"
+              }
+            ],
+            "score": 52996,
+            "title": "BREAKING: ICE agents illegally entered the private hallways of an apartment building in Eden Prairie, refused to show a warrant, and threatened a resident for doing nothing. In the video, a woman sees ICE agents in the private hallways of her building and begins filming.",
+            "author": "Treefiddy1984",
+            "authorId": "a8vqdyc",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/ProgressiveHQ/comments/1qhy2dm/breaking_ice_agents_illegally_entered_the_private/",
+            "subreddit": "ProgressiveHQ",
+            "createdUtc": 1768906505,
+            "isArchived": false,
+            "numComments": 3056
+          },
+          {
+            "id": "1pv65uy",
+            "url": "https://i.redd.it/be3avo8uca9g1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/be3avo8uca9g1.jpeg?auto=webp&s=86b7c32c03562f70a41f48216cb904045776745e",
+                "type": "photo",
+                "width": 640,
+                "height": 684
+              }
+            ],
+            "score": 48504,
+            "title": "Favorite actor who’s actually honest",
+            "author": "Robot_Was_BMO",
+            "authorId": "177qt59h",
+            "isLocked": true,
+            "selftext": "",
+            "permalink": "/r/okbuddycinephile/comments/1pv65uy/favorite_actor_whos_actually_honest/",
+            "subreddit": "okbuddycinephile",
+            "createdUtc": 1766640378,
+            "isArchived": false,
+            "numComments": 351
+          },
+          {
+            "id": "1v5t1kl",
+            "url": "https://www.reddit.com/gallery/1v5t1kl",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/tl2sq7dvs9fh1.jpg?width=3426&format=pjpg&auto=webp&s=44e21f682c4a59e40537d340c9acf3db04682efb",
+                "type": "photo",
+                "width": 3426,
+                "height": 4578
+              },
+              {
+                "url": "https://preview.redd.it/79bbjm4ws9fh1.jpg?width=3483&format=pjpg&auto=webp&s=2abe30b0e48eb32495edefab4c9e3e0b011c65c0",
+                "type": "photo",
+                "width": 3483,
+                "height": 4501
+              },
+              {
+                "url": "https://preview.redd.it/14z1qtrws9fh1.jpg?width=3423&format=pjpg&auto=webp&s=552dbfd6158217007272a83302b17d5db79fa99e",
+                "type": "photo",
+                "width": 3423,
+                "height": 4482
+              },
+              {
+                "url": "https://preview.redd.it/ha8z8n3xs9fh1.jpg?width=3866&format=pjpg&auto=webp&s=879dacacc75f103b3aa1907818a0af8e3831fec9",
+                "type": "photo",
+                "width": 3866,
+                "height": 5212
+              },
+              {
+                "url": "https://preview.redd.it/tmvkc4sxs9fh1.jpg?width=3730&format=pjpg&auto=webp&s=7f8fbb57f2c754f74e5011a38edbc68a1114c8c3",
+                "type": "photo",
+                "width": 3730,
+                "height": 4521
+              },
+              {
+                "url": "https://preview.redd.it/7qveht6ys9fh1.jpg?width=3118&format=pjpg&auto=webp&s=e4b58581f4c0eb9b75e305e2e4bbfebfa07dfcf4",
+                "type": "photo",
+                "width": 3118,
+                "height": 4036
+              },
+              {
+                "url": "https://preview.redd.it/0h64owiys9fh1.jpg?width=3182&format=pjpg&auto=webp&s=a5693ae526b823fc6fd321934809a7756b2bd9bd",
+                "type": "photo",
+                "width": 3182,
+                "height": 4160
+              },
+              {
+                "url": "https://preview.redd.it/gkihpp0zs9fh1.jpg?width=3232&format=pjpg&auto=webp&s=947256f8edd5553743104167a2994cbed0b6890f",
+                "type": "photo",
+                "width": 3232,
+                "height": 4336
+              },
+              {
+                "url": "https://preview.redd.it/m1zdbuhzs9fh1.jpg?width=3622&format=pjpg&auto=webp&s=03f97d244b91a91cfa2e1cf31a65c2645d535ca8",
+                "type": "photo",
+                "width": 3622,
+                "height": 4784
+              },
+              {
+                "url": "https://preview.redd.it/glsx3hd0t9fh1.jpg?width=4980&format=pjpg&auto=webp&s=d49fb2ffa3af8edb44f465742e1383fb6c720b79",
+                "type": "photo",
+                "width": 4980,
+                "height": 3524
+              },
+              {
+                "url": "https://preview.redd.it/2dbrk6m1t9fh1.jpg?width=3830&format=pjpg&auto=webp&s=d0533a5a14fd3d64330c6a8d3e8deefdac283de3",
+                "type": "photo",
+                "width": 3830,
+                "height": 4830
+              },
+              {
+                "url": "https://preview.redd.it/rrhhgbt2t9fh1.jpg?width=3320&format=pjpg&auto=webp&s=2fca13ee9284d203397938d7cec6fca7d8082a75",
+                "type": "photo",
+                "width": 3320,
+                "height": 4298
+              },
+              {
+                "url": "https://preview.redd.it/hsm6tnk3t9fh1.jpg?width=3334&format=pjpg&auto=webp&s=71fcfd00dc2b6870c72281e1015ba263be8a22fa",
+                "type": "photo",
+                "width": 3334,
+                "height": 4362
+              },
+              {
+                "url": "https://preview.redd.it/e0bmafi4t9fh1.jpg?width=3130&format=pjpg&auto=webp&s=f730e1761fb1f9380d33287fb7e2ed4edde843c1",
+                "type": "photo",
+                "width": 3130,
+                "height": 4321
+              },
+              {
+                "url": "https://preview.redd.it/xw4awyc5t9fh1.jpg?width=3174&format=pjpg&auto=webp&s=1a7effaf0dee8fdc9c20483530426504e1c9b045",
+                "type": "photo",
+                "width": 3174,
+                "height": 4139
+              },
+              {
+                "url": "https://preview.redd.it/ybqc5pb6t9fh1.jpg?width=2801&format=pjpg&auto=webp&s=50f5a0a1b812b9ee358085ce04ccc35ebfd5cf56",
+                "type": "photo",
+                "width": 2801,
+                "height": 3688
+              },
+              {
+                "url": "https://preview.redd.it/45754gy6t9fh1.jpg?width=4665&format=pjpg&auto=webp&s=5170b4c3e307628f79e1bc99ff0b7a5b412ce044",
+                "type": "photo",
+                "width": 4665,
+                "height": 5886
+              },
+              {
+                "url": "https://preview.redd.it/902s4pp7t9fh1.jpg?width=3304&format=pjpg&auto=webp&s=6598bf5348168dcb381bed75acf356b3fd34261a",
+                "type": "photo",
+                "width": 3304,
+                "height": 4231
+              },
+              {
+                "url": "https://preview.redd.it/f9p8ks18t9fh1.jpg?width=3095&format=pjpg&auto=webp&s=5e4913745dd32f604186ff3acda421697b361018",
+                "type": "photo",
+                "width": 3095,
+                "height": 4151
+              },
+              {
+                "url": "https://preview.redd.it/5zgj04r8t9fh1.jpg?width=3290&format=pjpg&auto=webp&s=20b939ec32faed9ad0be86b090422eedcb219f6c",
+                "type": "photo",
+                "width": 3290,
+                "height": 4262
+              }
+            ],
+            "score": 46324,
+            "title": "A Fallout graphic novel I've been working on",
+            "author": "LauraMarieWackTats",
+            "authorId": "4digp0o7",
+            "isLocked": false,
+            "selftext": "&#x200B;\n\nSome background, I have been a professional artist/digital artist for over 15 years, and have been working on this since 2022. I got the idea many years ago after watching the film \"Samsara\", and decided to combine my love for Fallout with my own spiritual journey with Buddhism. The story follows a PLA Soldier that turns to Buddhism after the war to cope with the end of the world, and their journey through post-war Asia.  \n\nI stopped working on this full time ever since AI took over most of the digital art world, and was very discouraged to continue it. So here's everything that's left of the project.  ",
+            "permalink": "/r/Fallout/comments/1v5t1kl/a_fallout_graphic_novel_ive_been_working_on/",
+            "subreddit": "Fallout",
+            "createdUtc": 1784939401,
+            "isArchived": false,
+            "numComments": 1697
+          },
+          {
+            "id": "1pv1vgl",
+            "url": "https://i.redd.it/80zj72nd299g1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/80zj72nd299g1.jpeg?auto=webp&s=e8f1e73c271937d6a6e2f2bab07fbf4c95928b08",
+                "type": "photo",
+                "width": 1080,
+                "height": 1155
+              }
+            ],
+            "score": 42660,
+            "title": "That response genuinely made me spill my drink! 😂😭",
+            "author": "Raj_Valiant3011",
+            "authorId": "mlx6qbgve",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/StrangerThings/comments/1pv1vgl/that_response_genuinely_made_me_spill_my_drink/",
+            "subreddit": "StrangerThings",
+            "createdUtc": 1766624746,
+            "isArchived": false,
+            "numComments": 295
+          },
+          {
+            "id": "1r7x023",
+            "url": "https://i.redd.it/cmyieappl7kg1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/cmyieappl7kg1.jpeg?auto=webp&s=bd5adcbb315fc1291a3463efbe5a78487efdc64c",
+                "type": "photo",
+                "width": 1206,
+                "height": 1301
+              }
+            ],
+            "score": 39803,
+            "title": "When you skip validation for AI generated results",
+            "author": "Epelep",
+            "authorId": "chsmv",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/Wellthatsucks/comments/1r7x023/when_you_skip_validation_for_ai_generated_results/",
+            "subreddit": "Wellthatsucks",
+            "createdUtc": 1771401363,
+            "isArchived": false,
+            "numComments": 1394
+          },
+          {
+            "id": "1qc9z9t",
+            "url": "https://i.redd.it/ml0svadlx7dg1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/ml0svadlx7dg1.jpeg?auto=webp&s=fc8a6a54993b84a302f045b7cdcb6155c1827862",
+                "type": "photo",
+                "width": 1320,
+                "height": 2561
+              }
+            ],
+            "score": 39093,
+            "title": "ICE choked out a 10th grader, stole his phone, and then sold it. In an article about reckless and wanton ICE violence the illegal seizure and then *sale* of a minors phone caught my eye as street gang behavior.",
+            "author": "orangejulius",
+            "authorId": "409zv",
+            "isLocked": false,
+            "selftext": "https://www.propublica.org/article/videos-ice-dhs-immigration-agents-using-chokeholds-citizens",
+            "permalink": "/r/law/comments/1qc9z9t/ice_choked_out_a_10th_grader_stole_his_phone_and/",
+            "subreddit": "law",
+            "createdUtc": 1768354421,
+            "isArchived": false,
+            "numComments": 579
+          },
+          {
+            "id": "1sxaa7a",
+            "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/claude-powered-ai-coding-agent-deletes-entire-company-database-in-9-seconds-backups-zapped-after-cursor-tool-powered-by-anthropics-claude-goes-rogue",
+            "nsfw": false,
+            "media": [],
+            "score": 35985,
+            "title": "Claude-powered AI coding agent deletes entire company database in 9 seconds — backups zapped, after Cursor tool powered by Anthropic's Claude goes rogue",
+            "author": "WouldbeWanderer",
+            "authorId": "5p1ltmws",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/technology/comments/1sxaa7a/claudepowered_ai_coding_agent_deletes_entire/",
+            "subreddit": "technology",
+            "createdUtc": 1777310458,
+            "isArchived": false,
+            "numComments": 2750
+          }
+        ],
+        "nextCursor": "cur_VlMWxUhk15n01_3z7PCK0g"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-giraffe-5e3cbaa1",
+      "kind": "anonymous",
+      "name": "Giraffe",
+      "artworkKey": "giraffe"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00034",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:40:18.200Z",
+  "started_at": "2026-11-23T07:40:18.350Z",
+  "completed_at": "2026-11-23T07:40:20.362Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

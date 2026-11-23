@@ -1,0 +1,282 @@
+{
+  "id": "890c355d-b47e-4d55-8c4b-2a67360d2d46",
+  "run_url": "https://app.glasser.ai/runs/890c355d-b47e-4d55-8c4b-2a67360d2d46",
+  "provider": "anyapi",
+  "endpoint": "/youtube.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "query": "AI debate opponent practice",
+    "sortBy": "relevance",
+    "uploadDate": "this_year"
+  },
+  "output": {
+    "hint": "large_result: this response is ~8 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge. paging_unavailable: this result came from a source that cannot return a nextCursor, so it may be incomplete and there is no way to continue from here. Re-run with `requireFields: [\"nextCursor\"]` to be served only by a source that can page, which may cost more per request.",
+    "items": 18,
+    "output": {
+      "data": {
+        "videos": [
+          {
+            "id": "_87_64ZORTU",
+            "url": "https://www.youtube.com/watch?v=_87_64ZORTU",
+            "image": "https://i.ytimg.com/vi/_87_64ZORTU/hq720.jpg",
+            "title": "Practice Debating Solo with an AI Opponent",
+            "views": 5,
+            "channel": "TutorMigo",
+            "authorId": "UCHPpqAIF_nX1tmX_BYLCjjw",
+            "createdUtc": 1792741302,
+            "lengthText": "0:14",
+            "publishedTime": "1 month ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/EKj5kwGT6-u7b_8brd4dBB4f8ZLKkMqMN3mj7qn4YfKyntoi5T8lGPzeaD9bVFHOw3PTDGlQpvg=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "VPx6skrXGN8",
+            "url": "https://www.youtube.com/watch?v=VPx6skrXGN8",
+            "image": "https://i.ytimg.com/vi/VPx6skrXGN8/hq720.jpg",
+            "title": "How to Use an AI Debate Coach",
+            "views": 53,
+            "channel": "A.I. Unlocked",
+            "authorId": "UC9pUlZxmkDZ8aq8cnmB8efw",
+            "createdUtc": 1790149302,
+            "lengthText": "7:03",
+            "publishedTime": "2 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/J3nFGi73C7e31roELmezC3SPlUEL8N_SZ6hUYeGdRAN31bWhcmXxYxTHeLDXhrxbUXKWF4BtzQ=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "F5MpSRo7_ak",
+            "url": "https://www.youtube.com/watch?v=F5MpSRo7_ak",
+            "image": "https://i.ytimg.com/vi/F5MpSRo7_ak/hq720.jpg",
+            "title": "GD Training with AI  #gd #aitools #interview",
+            "views": 1126,
+            "channel": "Literature Summary",
+            "authorId": "UCshm5Lub1y4gNhh1-MyrPvw",
+            "createdUtc": 1774251702,
+            "lengthText": "18:54",
+            "publishedTime": "8 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/ytc/AIdro_lMrLcMl-o2x5fy1BhawByKiWfWzyimpp3qyELUPUA7gw=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "OIQtFCiprx8",
+            "url": "https://www.youtube.com/watch?v=OIQtFCiprx8",
+            "image": "https://i.ytimg.com/vi/OIQtFCiprx8/hq720.jpg",
+            "title": "What Is a Rebuttal? - Learn Debate",
+            "views": 7,
+            "channel": "Debate Ladder",
+            "authorId": "UCLmrYOXHKb0ewRTPyiEqOyA",
+            "createdUtc": 1795160502,
+            "lengthText": "3:09",
+            "publishedTime": "3 days ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/L3vZ_cCui835Ffuj7QTQYbVkv-qFSTd-gSQ15oDLlkp2nyf3NeSzWvUuKTMp3tZpM02NQodt=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "W7IPzFaD3FY",
+            "url": "https://www.youtube.com/watch?v=W7IPzFaD3FY",
+            "image": "https://i.ytimg.com/vi/W7IPzFaD3FY/hq720.jpg",
+            "title": "AI Classroom Simulator & Debate Coach | GDE MIT Hackathon 2026",
+            "views": 41,
+            "channel": "Hunor Kozma",
+            "authorId": "UCTYxuJk--ady_RPdnagTycA",
+            "createdUtc": 1774251702,
+            "lengthText": "1:50",
+            "publishedTime": "8 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/ytc/AIdro_nWxbb-tDpPCMymb5EdDWNH3pkIE48_1Kl54ClMmRltiA=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "S8ENKpWza8g",
+            "url": "https://www.youtube.com/watch?v=S8ENKpWza8g",
+            "image": "https://i.ytimg.com/vi/S8ENKpWza8g/hq720.jpg",
+            "title": "Pnyx for Business - AI Real Time Training",
+            "views": 3,
+            "channel": "Pnyx",
+            "authorId": "UCH3ei6_SafYk58giqKK9suw",
+            "createdUtc": 1784792502,
+            "lengthText": "0:50",
+            "publishedTime": "4 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/U6LS_TatJ0TruQ1hUQe-6NA5wC3Ly_uy9P_WA23azOodjdpCjWS9W6JrT36L-lhlqjAI9JzqzTs=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "9N1bKXO22J4",
+            "url": "https://www.youtube.com/watch?v=9N1bKXO22J4",
+            "image": "https://i.ytimg.com/vi/9N1bKXO22J4/hq720.jpg",
+            "title": "Duo debate Demo video.",
+            "views": 10,
+            "channel": "Ishaan",
+            "authorId": "UCH7_vBAyrLd6gOv5Aiv2PNA",
+            "createdUtc": 1774251702,
+            "lengthText": "1:50",
+            "publishedTime": "8 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/ytc/AIdro_nbIRpRoYqRgJ2spNIQtwabq6ir18ziB_GIrg8eyjIddwsRWvvxJsp8Y8bqRYKGYd7v5A=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "fWQvk-0wgUs",
+            "url": "https://www.youtube.com/watch?v=fWQvk-0wgUs",
+            "image": "https://i.ytimg.com/vi/fWQvk-0wgUs/hq720.jpg",
+            "title": "Claude vs ChatGPT: Is It Okay to Have an AI as Your Partner? | Judged by Gemini | AI-Fight #18",
+            "views": 20,
+            "channel": "AI-Fight: Claude vs ChatGPT",
+            "authorId": "UCJ7K6hRBIj_rzsyRhAvoGxQ",
+            "createdUtc": 1794382902,
+            "lengthText": "9:05",
+            "publishedTime": "12 days ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/znCvKiiE6LY3ltSK-jIiu9nqa3BeqYPu8wGX042xzOtbhDooNOIWUkU4deisQ0sKFvTvkxBwww=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "m3DCzKsh61w",
+            "url": "https://www.youtube.com/watch?v=m3DCzKsh61w",
+            "image": "https://i.ytimg.com/vi/m3DCzKsh61w/hq720.jpg",
+            "title": "English Listening Practice: AI Debate — She Loves It, He Doesn’t! | B1 Slow English",
+            "views": 4201,
+            "channel": "English Walking Podcast",
+            "authorId": "UCWrmuhr0MY989QpLj6jcfdQ",
+            "createdUtc": 1787470902,
+            "lengthText": "29:53",
+            "publishedTime": "3 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/NnOx05WuNJHjQMh-UjnQ4Lq65XV3wJO-CdeQb-YMgbc5afaI1fqCTskJbd9ruCfmkhGNvfaT=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "8jM5R3vWx4U",
+            "url": "https://www.youtube.com/watch?v=8jM5R3vWx4U",
+            "image": "https://i.ytimg.com/vi/8jM5R3vWx4U/hq720.jpg",
+            "title": "AI Ep 31: Make AI Think Like Your Enemy",
+            "views": 4,
+            "channel": "StringCan Interactive",
+            "authorId": "UC9lHlrfWWC89u5Wr7wWyeNQ",
+            "createdUtc": 1769154102,
+            "lengthText": "1:44",
+            "publishedTime": "10 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/ytc/AIdro_n1jL8jryo-2bv93vGqu4iAOoVsy4eJ2uFj6nd8I35J5XQ=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "jmgpwvDKpw8",
+            "url": "https://www.youtube.com/watch?v=jmgpwvDKpw8",
+            "image": "https://i.ytimg.com/vi/jmgpwvDKpw8/hqdefault.jpg",
+            "title": "The Declaration In the Age of General Purpose AI",
+            "views": 265,
+            "channel": "Stanford Law School",
+            "authorId": "UCK8Ar8dzFbKIJiALebDysUQ",
+            "createdUtc": 1787470902,
+            "lengthText": "1:07:14",
+            "publishedTime": "3 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/KJyh-45qdNfEb0KQ75EmJL8VabHWx_4DhkCnbPQ8yEmBu6ydSxVvv0Xtm0nJa_0IkXTpkmtroA=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "bQqvgk-0pRU",
+            "url": "https://www.youtube.com/watch?v=bQqvgk-0pRU",
+            "image": "https://i.ytimg.com/vi/bQqvgk-0pRU/hq720.jpg",
+            "title": "Expose Your AI",
+            "views": 1581,
+            "channel": "Lance Wallnau",
+            "authorId": "UCMYEENkVtflErQeTH2SXppQ",
+            "createdUtc": 1790149302,
+            "lengthText": "2:00",
+            "publishedTime": "2 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/ytc/AIdro_kc_gJ4ZwkZGzUFPkLKuk9IVlegLNjmk0edyEsOvjjM1kg=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "UYFaJzARSXE",
+            "url": "https://www.youtube.com/watch?v=UYFaJzARSXE",
+            "image": "https://i.ytimg.com/vi/UYFaJzARSXE/hq720.jpg",
+            "title": "Is AI Your New Best Friend or Enemy? | Learn English by Talking | English Podcast",
+            "views": 6,
+            "channel": "Lin",
+            "authorId": "UCyomfdV4tXN4fSBlTYIWjvQ",
+            "createdUtc": 1769154102,
+            "lengthText": "17:43",
+            "publishedTime": "10 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/ytc/AIdro_k9XrKEjeqnVQ_ExBSkLiNtUAbq9qlCdjlKe0ywClY98iY03q7dSB_WmMajNAsA2n6ytg=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "EZznRyMkz8s",
+            "url": "https://www.youtube.com/watch?v=EZznRyMkz8s",
+            "image": "https://i.ytimg.com/vi/EZznRyMkz8s/hq720.jpg",
+            "title": "Europe’s fight to stay in the AI race • FRANCE 24 English",
+            "views": 16230,
+            "channel": "FRANCE 24 English",
+            "authorId": "UCQfwfsi5VrQ8yKZ-UWmAEFg",
+            "createdUtc": 1782200502,
+            "lengthText": "13:03",
+            "publishedTime": "5 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/ytc/AIdro_n_QTJ5-GLGnftQFkb7Kp36W2eBH3H-7ZqTQxzFkkqGrIE=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "acLNLsuujkM",
+            "url": "https://www.youtube.com/watch?v=acLNLsuujkM",
+            "image": "https://i.ytimg.com/vi/acLNLsuujkM/hq720.jpg",
+            "title": "How Would Ancient Humans React to AI?",
+            "views": 19,
+            "channel": "Sticklam",
+            "authorId": "UC4612te5L8TEnoM3TKrYoZQ",
+            "createdUtc": 1790149302,
+            "lengthText": "15:30",
+            "publishedTime": "2 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/87Id6Pekchz3FCO2F5EMe-Uy5Dhnsl-NPpsaT2zx9Fko1Q7i5PipeZwgqROSBUomxLEj1cRh=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "XJ9rPReJFP0",
+            "url": "https://www.youtube.com/watch?v=XJ9rPReJFP0",
+            "image": "https://i.ytimg.com/vi/XJ9rPReJFP0/hq720.jpg",
+            "title": "Beyond Hallucinations: How to Use AI for Co-Creative Intelligence",
+            "views": 18,
+            "channel": "Lee Chazen",
+            "authorId": "UCVkNBR-0BsvAjVd6MiMfiKg",
+            "createdUtc": 1769154102,
+            "lengthText": "31:54",
+            "publishedTime": "10 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/guhCIEjtb35-QjaSNp4_-WPRljHv8b5ZkedQByA6HEiFic2n87Rci9_4nEHYleDjEIlVmPkM_vg=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "1xvXpxc6dOc",
+            "url": "https://www.youtube.com/watch?v=1xvXpxc6dOc",
+            "image": "https://i.ytimg.com/vi/1xvXpxc6dOc/hqdefault.jpg",
+            "title": "AI as a Thinking Partner: The TRACE Framework for Assessment",
+            "views": 11,
+            "channel": "Teaching and Learning Cooperative",
+            "authorId": "UC53Rg-Frcgl393yu8eCJmoA",
+            "createdUtc": 1794901302,
+            "lengthText": "14:46",
+            "publishedTime": "6 days ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/uIB0RzPLOtGqUTfJ6fayM-hbpR4uaPe0M_OojUPfP_yrSW4ZlUQUaar6212Rt2hh6mXMtrlXEG8=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "xnvZmwgWevw",
+            "url": "https://www.youtube.com/watch?v=xnvZmwgWevw",
+            "image": "https://i.ytimg.com/vi/xnvZmwgWevw/hq720.jpg",
+            "title": "When Models Rob Models: AI’s Theft Problem",
+            "views": 50,
+            "channel": "AI Green Room",
+            "authorId": "UCmlEyhVSOtX-hKp4fMu7qww",
+            "createdUtc": 1787470902,
+            "lengthText": "26:27",
+            "publishedTime": "3 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/eIOvQO0V3BDUsvnZD74lSyjdj3M-jryRfojkBZ_fpYga2xI9tP_BxnJVhF6sKcoESU0z5VP5cQ=s68-c-k-c0x00ffffff-no-rj"
+          }
+        ],
+        "nextCursor": "cur_5UiIzq9rU_bp4oqEqtljuA"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-tiger-6f8f398d",
+      "kind": "anonymous",
+      "name": "Tiger",
+      "artworkKey": "tiger"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00043",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:41:41.691Z",
+  "started_at": "2026-11-23T07:41:41.837Z",
+  "completed_at": "2026-11-23T07:41:42.684Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

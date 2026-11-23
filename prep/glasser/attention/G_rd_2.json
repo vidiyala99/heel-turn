@@ -1,0 +1,591 @@
+{
+  "id": "edf660a1-56fb-4f1b-8ef4-3742ac5bf28c",
+  "run_url": "https://app.glasser.ai/runs/edf660a1-56fb-4f1b-8ef4-3742ac5bf28c",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "AI agents social deduction game",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "large_result: this response is ~20 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 25,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1pwc7iu",
+            "url": "https://www.reddit.com/r/NonPoliticalTwitter/comments/1pwc7iu/play_stupid_games/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://a.thumbs.redditmedia.com/EdoAYHCCoAmopTPD-fGHr2z3YFQHK31MgRt81U_JpE0.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 114
+              }
+            ],
+            "score": 77480,
+            "title": "Play stupid games....",
+            "author": "BarelyLegalSeagull",
+            "authorId": "zhmk2",
+            "selftext": "",
+            "permalink": "/r/NonPoliticalTwitter/comments/1pwc7iu/play_stupid_games/",
+            "subreddit": "NonPoliticalTwitter",
+            "createdUtc": 1766776114,
+            "numComments": 386
+          },
+          {
+            "id": "1p8oomu",
+            "url": "https://www.reddit.com/gallery/1p8oomu",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/zJM_1fepDUSAI0t3KwfJtA9DoTg6Luqe-wCjVKYWRro.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 96
+              }
+            ],
+            "score": 76220,
+            "title": "Valve artist responds to calls for Steam to drop \"Made with AI\" label",
+            "author": "Stannis_Loyalist",
+            "authorId": "3p3tvgm1",
+            "selftext": "",
+            "permalink": "/r/Steam/comments/1p8oomu/valve_artist_responds_to_calls_for_steam_to_drop/",
+            "subreddit": "Steam",
+            "createdUtc": 1764314331,
+            "numComments": 2587
+          },
+          {
+            "id": "1pcgbwa",
+            "url": "https://www.reddit.com/r/memes/comments/1pcgbwa/steam_for_the_win/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/RuYfKPO5DSN4H_tMxJSiIi0SXDoFXmjf92EDK5HcZaQ.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 75537,
+            "title": "Steam for the win",
+            "author": "[deleted]",
+            "authorId": "0",
+            "selftext": "",
+            "permalink": "/r/memes/comments/1pcgbwa/steam_for_the_win/",
+            "subreddit": "memes",
+            "createdUtc": 1764700254,
+            "numComments": 1330
+          },
+          {
+            "id": "1q23oeg",
+            "url": "https://www.reddit.com/r/NonPoliticalTwitter/comments/1q23oeg/ai_ads_be_like/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/Wtktf5wv4NMQA02ae3rlYOidchMLbzDuPRC5a1Sc_Sg.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 137
+              }
+            ],
+            "score": 72625,
+            "title": "AI ads be like:",
+            "author": "ChickenWingExtreme",
+            "authorId": "1uywx9atjb",
+            "selftext": "",
+            "permalink": "/r/NonPoliticalTwitter/comments/1q23oeg/ai_ads_be_like/",
+            "subreddit": "NonPoliticalTwitter",
+            "createdUtc": 1767372596,
+            "numComments": 607
+          },
+          {
+            "id": "1qn19s1",
+            "url": "https://www.reddit.com/r/sports/comments/1qn19s1/alex_jeffrey_pretti_the_minnesota_icu_nurse_who/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/cDNndnZzZG5kbGZnMdwiFU7kVxWW5FJsk-UshnTPTZnWw-xmPs25AqEe2hWk.png?width=140&height=140&crop=1%3A1%2Csmart&format=jpg&auto=webp&s=91932993651fd73cab34f2924fe1ae2263b299b1",
+                "type": "video",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 61106,
+            "title": "Alex Jeffrey Pretti, the Minnesota ICU nurse who was murdered by ICE agents yesterday, was honored today before the New York Sirens vs. Minnesota Frost hockey game at the Grand Casino Arena in St. Paul.",
+            "author": "cmaia1503",
+            "authorId": "3in26siv",
+            "selftext": "",
+            "permalink": "/r/sports/comments/1qn19s1/alex_jeffrey_pretti_the_minnesota_icu_nurse_who/",
+            "subreddit": "sports",
+            "createdUtc": 1769388911,
+            "numComments": 88
+          },
+          {
+            "id": "1pahpt6",
+            "url": "https://www.gamesradar.com/games/valve-artist-says-thats-like-saying-food-products-shouldnt-have-their-ingredients-list-as-epics-tim-sweeney-and-more-call-on-steam-to-drop-the-made-with-ai-label/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/kBB7qxPIfwWFner0RncX9fEJUTjG1lS7kVKq1XB7oeo.jpeg?width=140&height=78&auto=webp&s=95d128a75dfa56f6103b8ec99669decb37c3beac",
+                "type": "photo",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 54439,
+            "title": "Valve artist responds to Epic Games CEO Tim Sweeney and more calling on Steam to drop the 'Made with AI' label: \"This is like saying food products shouldn't have their ingredients list... The only people afraid of this are the ones that know their product is low effort.\"",
+            "author": "ChiefLeef22",
+            "authorId": "7a7qkhpq",
+            "selftext": "",
+            "permalink": "/r/gaming/comments/1pahpt6/valve_artist_responds_to_epic_games_ceo_tim/",
+            "subreddit": "gaming",
+            "createdUtc": 1764507574,
+            "numComments": 2125
+          },
+          {
+            "id": "1wevzj1",
+            "url": "https://www.reddit.com/r/cringereels/comments/1wevzj1/dumbass/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/bWF0dHNvYzBkN3BoMbuqgKYyixM4Mfp2g93Ql8-PIZGxqh6wucgljp6aEMrs.jpeg?width=140&height=140&crop=1%3A1%2Csmart&format=jpg&auto=webp&s=3c8fd3db2ae24a3f48bb4c5a454cec4302cc70f2",
+                "type": "video",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 51496,
+            "title": "Dumbass",
+            "author": "K-Rod7",
+            "authorId": "2grgj44n0t",
+            "selftext": "🚨 More KROD: gaming clips, streams & socials 👉 https://linktr.ee/KRODMEDIA",
+            "permalink": "/r/cringereels/comments/1wevzj1/dumbass/",
+            "subreddit": "cringereels",
+            "createdUtc": 1789268206,
+            "numComments": 2361
+          },
+          {
+            "id": "1t58vm4",
+            "url": "https://www.reddit.com/r/SipsTea/comments/1t58vm4/narcissism_worsening/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/nfj3lh92vhzg1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=2c6d4d4b3dc40e15cf9928e7ee3d0e2c97ac053f",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 51285,
+            "title": "Narcissism worsening.",
+            "author": "SuspiciousLow3062",
+            "authorId": "1zhodbedjg",
+            "selftext": "",
+            "permalink": "/r/SipsTea/comments/1t58vm4/narcissism_worsening/",
+            "subreddit": "SipsTea",
+            "createdUtc": 1778063317,
+            "numComments": 2753
+          },
+          {
+            "id": "1px9xwx",
+            "url": "https://www.reddit.com/r/pcmasterrace/comments/1px9xwx/private_equity_is_killing_private_ownership_first/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/ZmFpc2w2bjZpdDlnMfjm9xYAn_POqzYPqQ5XUfllfmUARKNamgHFYO-YeV5d.png?width=140&height=78&format=jpg&auto=webp&s=e3e6be6c7c22cd2b7301f8c81496d8d94f922a09",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 48940,
+            "title": "Private equity is killing private ownership: first it was housing - now it's the personal computer",
+            "author": "SagansCandle",
+            "authorId": "wrlvini",
+            "selftext": "DRAM and GPU prices aren't going up because of \"AI\" - it's because the wealthy have more money than they know what to do with, so they're buying up all the assets. \"AI\" is just the vehicle (the excuse) - it's not the root of the problem nor is it the ultimate goal.\n\nThe super rich don't want to hold on to \"liquid\" money - they invest in assets. While they're buying up all the housing, now they're buying up all the computers and putting them into massive datacenters.\n\nWhether or not the AI bubble crashes, they'll be selling you a \"gaming PC in the cloud,\" for a monthly fee, of course. And while they kill the personal computer market, just like Netflix, once your only option is a subscription service, the price will skyrocket.\n\nThis is happening in real-time. If we want to stop it, now's the time to act.\n\nSources:\n\n* Gamers Nexus: [NVIDIA: WTF?](https://www.youtube.com/watch?v=cUrJVdF2me0) \n* Garys Economics: [The REAL reason behind the housing crisis](https://www.youtube.com/watch?v=BTlUyS-T-_4) \n* [Network (1976)](https://www.youtube.com/watch?v=pqzTcy3SnLg)",
+            "permalink": "/r/pcmasterrace/comments/1px9xwx/private_equity_is_killing_private_ownership_first/",
+            "subreddit": "pcmasterrace",
+            "createdUtc": 1766873040,
+            "numComments": 2919
+          },
+          {
+            "id": "1xsz27z",
+            "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1xsz27z/my_son_did_this_by_accident_and_didnt_apologize/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/uze87i8squ0i1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=4a92c58e41dbc085d0f5dd8ddbd6bc0dc07ef31e",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 44533,
+            "title": "My son did this by accident and didn't apologize.",
+            "author": "returntothenorth",
+            "authorId": "204il5eywb",
+            "selftext": "I don't even care about the board game. He just didn't make any sorry related jokes. ",
+            "permalink": "/r/mildlyinfuriating/comments/1xsz27z/my_son_did_this_by_accident_and_didnt_apologize/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1794345624,
+            "numComments": 2859
+          },
+          {
+            "id": "1pc43km",
+            "url": "https://www.reddit.com/r/memes/comments/1pc43km/what_a_w_steam/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/_5WWv5rffcd49J9GX3xgWlkLl9LhtWMbztcJb1TpXDc.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 44102,
+            "title": "What a W Steam",
+            "author": "ZealousidealChain473",
+            "authorId": "du7tc90s0",
+            "selftext": "",
+            "permalink": "/r/memes/comments/1pc43km/what_a_w_steam/",
+            "subreddit": "memes",
+            "createdUtc": 1764667470,
+            "numComments": 538
+          },
+          {
+            "id": "1wo0lpw",
+            "url": "https://www.reddit.com/r/antiai/comments/1wo0lpw/every_single_ad_is_for_ai_these_days/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/qqg34m16i8rh1.jpeg?width=140&height=135&auto=webp&s=c145bfe90800468ac4a22fa6d2290bf457933fb2",
+                "type": "photo",
+                "width": 140,
+                "height": 135
+              }
+            ],
+            "score": 41132,
+            "title": "Every single ad is for AI these days",
+            "author": "Strict-Jeweler-2281",
+            "authorId": "2gqrqy9m",
+            "selftext": "",
+            "permalink": "/r/antiai/comments/1wo0lpw/every_single_ad_is_for_ai_these_days/",
+            "subreddit": "antiai",
+            "createdUtc": 1790153742,
+            "numComments": 637
+          },
+          {
+            "id": "1uloxhr",
+            "url": "https://www.pushsquare.com/news/2026/07/sony-abandons-social-media-for-24-hoursplus-after-controversially-killing-physical-games?__cf_chl_f_tk=E1rDF3IoLmMmrkK3Tk6wiS20lLphQVEwyqzRTxRdx0k-1783013593-1.0.1.1-_sjpTLixe3eVJUToTQFInMDXa0qcAJCEeClCJR2sE5w",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/I1_Oqw7KMQgyEL_NqeCiEmGjAq80st_-fvjxMjcezDk.jpeg?width=140&height=78&auto=webp&s=5a908816a5ffe6de3282c04857eb9b151150aff6",
+                "type": "photo",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 40290,
+            "title": "Sony Abandons Social Media for 24 Hours+ After Controversially Killing Physical Games",
+            "author": "Mellow200",
+            "authorId": "5m9wgh7p",
+            "selftext": "The original announcement post on X has now reached 60k replies and over 83M views in just 24 hours",
+            "permalink": "/r/gaming/comments/1uloxhr/sony_abandons_social_media_for_24_hours_after/",
+            "subreddit": "gaming",
+            "createdUtc": 1783013789,
+            "numComments": 4054
+          },
+          {
+            "id": "1ph3dar",
+            "url": "https://www.reddit.com/r/therewasanattempt/comments/1ph3dar/to_be_as_free_as_norway/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/0prLFjaqd_geQR9AniKkYkdxxXyrUuM7l-urLlPpMTI.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 39865,
+            "title": "To be as free as Norway",
+            "author": "IsThisAUserName86",
+            "authorId": "jyy61mlo",
+            "selftext": "",
+            "permalink": "/r/therewasanattempt/comments/1ph3dar/to_be_as_free_as_norway/",
+            "subreddit": "therewasanattempt",
+            "createdUtc": 1765168633,
+            "numComments": 999
+          },
+          {
+            "id": "1r7x023",
+            "url": "https://www.reddit.com/r/Wellthatsucks/comments/1r7x023/when_you_skip_validation_for_ai_generated_results/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/cmyieappl7kg1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=ba55b28e06ba1ed35f0d88df299828a1f7ebade3",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 39799,
+            "title": "When you skip validation for AI generated results",
+            "author": "Epelep",
+            "authorId": "chsmv",
+            "selftext": "",
+            "permalink": "/r/Wellthatsucks/comments/1r7x023/when_you_skip_validation_for_ai_generated_results/",
+            "subreddit": "Wellthatsucks",
+            "createdUtc": 1771401363,
+            "numComments": 1394
+          },
+          {
+            "id": "1r3dvcv",
+            "url": "https://www.reddit.com/r/International/comments/1r3dvcv/only_the_guilty_fear_the_truth/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/c1hqfkavg6jg1.jpeg?width=140&height=114&auto=webp&s=f614fbe875b4c4fa75eb85f4157a4117db71772e",
+                "type": "photo",
+                "width": 140,
+                "height": 114
+              }
+            ],
+            "score": 36446,
+            "title": "Only the guilty fear the truth",
+            "author": "EqualMidnight3089",
+            "authorId": "281xpgoljp",
+            "selftext": "",
+            "permalink": "/r/International/comments/1r3dvcv/only_the_guilty_fear_the_truth/",
+            "subreddit": "International",
+            "createdUtc": 1770951784,
+            "numComments": 915
+          },
+          {
+            "id": "1ree20k",
+            "url": "https://www.newscientist.com/article/2516885-ais-cant-stop-recommending-nuclear-strikes-in-war-game-simulations/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/q3QU9aPNch0j5gkFNIJO_NVAl4eXbl9Cv2jEI0BolhQ.jpeg?width=140&height=93&auto=webp&s=1de3eec985cf54d5c359bfe6f0ccb65d87a467d9",
+                "type": "photo",
+                "width": 140,
+                "height": 93
+              }
+            ],
+            "score": 36283,
+            "title": "AIs can’t stop recommending nuclear strikes in war game simulations - Leading AIs from OpenAI, Anthropic, and Google opted to use nuclear weapons in simulated war games in 95 per cent of cases",
+            "author": "Teruyo9",
+            "authorId": "5cfat",
+            "selftext": "",
+            "permalink": "/r/technology/comments/1ree20k/ais_cant_stop_recommending_nuclear_strikes_in_war/",
+            "subreddit": "technology",
+            "createdUtc": 1772028213,
+            "numComments": 2787
+          },
+          {
+            "id": "1qol10u",
+            "url": "https://www.reddit.com/r/AskReddit/comments/1qol10u/what_do_you_think_about_the_italian_government/",
+            "nsfw": false,
+            "media": [],
+            "score": 36023,
+            "title": "What do you think about the Italian government wanting to ban ICE agents to come to the Olympic Games as security forces?",
+            "author": "ReduceCO2Now",
+            "authorId": "26whms7bps",
+            "selftext": "",
+            "permalink": "/r/AskReddit/comments/1qol10u/what_do_you_think_about_the_italian_government/",
+            "subreddit": "AskReddit",
+            "createdUtc": 1769536309,
+            "numComments": 2998
+          },
+          {
+            "id": "1sxaa7a",
+            "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/claude-powered-ai-coding-agent-deletes-entire-company-database-in-9-seconds-backups-zapped-after-cursor-tool-powered-by-anthropics-claude-goes-rogue",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/Fm6buU-AX7KeegRqofL5hDPf1-twSaUDAG8yAc1Qld0.jpeg?width=140&height=78&auto=webp&s=398498a9f8c84a8e7d2d8f1ec9aeaa766166bd75",
+                "type": "photo",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 35989,
+            "title": "Claude-powered AI coding agent deletes entire company database in 9 seconds — backups zapped, after Cursor tool powered by Anthropic's Claude goes rogue",
+            "author": "WouldbeWanderer",
+            "authorId": "5p1ltmws",
+            "selftext": "",
+            "permalink": "/r/technology/comments/1sxaa7a/claudepowered_ai_coding_agent_deletes_entire/",
+            "subreddit": "technology",
+            "createdUtc": 1777310458,
+            "numComments": 2750
+          },
+          {
+            "id": "1rbjc4s",
+            "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1rbjc4s/unlike_every_other_switch_game_you_cant_just/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/mxox25cw41lg1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=8453d53937307a26362f3a9b4afcb18c4f9a3521",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 35045,
+            "title": "Unlike every other Switch game, you can't just change the language here, you need to pay again for a seperate version. How greedy can Nintendo get?",
+            "author": "ExtremeConnection26",
+            "authorId": "6irhaqc4",
+            "selftext": "Image from [https://bsky.app/profile/miley-crisis.bsky.social/post/3mfcsjdlk3c27](https://bsky.app/profile/miley-crisis.bsky.social/post/3mfcsjdlk3c27)",
+            "permalink": "/r/mildlyinfuriating/comments/1rbjc4s/unlike_every_other_switch_game_you_cant_just/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1771759030,
+            "numComments": 3744
+          },
+          {
+            "id": "1x2tvxb",
+            "url": "https://www.reddit.com/r/90s/comments/1x2tvxb/i_dont_even_recognize_this_world_anymore/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/7yqv2xrtbquh1.jpeg?width=140&height=102&auto=webp&s=01ef0e37005172c44bbf30bb84004d0b73617c6e",
+                "type": "photo",
+                "width": 140,
+                "height": 102
+              }
+            ],
+            "score": 35011,
+            "title": "I don’t even recognize this world anymore.",
+            "author": "Anarchist_Nihilist",
+            "authorId": "1r971lhsr0",
+            "selftext": "I recently watched my parents’ home and sat on the back porch where I grew up. A heavy sense of sadness settled over me while I reflected on the beautiful childhood I had there. Born in the early 90s, I lacked a smartphone or social media until the mid-to-late 2000s. I am among the last generation raised without them. I realized I will never revisit the marvelous moments I shared in that backyard, not because adulthood blocks childhood, but because the world I knew is gone. We have lost something we did not realize we possessed. I am thankful I arrived before the 2010s, when everything seemed to shift. Everything feels so repetitive now. I don’t know if my eyes got deteriorated or what, but life felt real back then. Colors felt more vivid, skies felt blue, the sun felt yellow, people felt alive and not robotic like they do now. Their mannerisms were different, the way they talked, moved, understood, and engaged in conversations was different. I feel like even their attention spans were longer.\n\nListening to songs from the 80s-90s and early 2000s always brings tears. I want to return to those years. I feel out of place in what the world has become, so technologically advanced that people have lost their human side. Everyone is caught in social media trends, and life feels mechanical and empty, like a fever dream or The Twilight Zone. On Twitter X, I see only gender conflicts, videos and images of war, people divided into left and right, and leaders posting tweets like they are in a South Park episode. Like you could literally post a blatant lie, misinformation and get 100k likes. I miss the late 1990s and early 2000s atmosphere, fashion, themes, old gadgets, movies, cartoons, songs, hairstyles, camera quality, retro gaming consoles, you name it. Feels like we had the best balance of technology and humanity back then. For me personally, it all started going downhill after 2007 when the iPhones came out, and the movies, programs, and everything went HD and then the rise of social media and smartphones made things worse. Finally, COVID hit, and after that, we were bombarded with inflation, generative AI and deepfakes.\n\nNostalgia does not quite capture my longing for a different era. I feel terrible, truly terrible, for children growing up after social media. They never experienced life as we did, and I arrived just in time to enjoy the final wonderful parts of the 20th century.\n\nDoes anyone else feel the same, or is there something wrong with me? Is it because I notice too much?",
+            "permalink": "/r/90s/comments/1x2tvxb/i_dont_even_recognize_this_world_anymore/",
+            "subreddit": "90s",
+            "createdUtc": 1791677079,
+            "numComments": 1775
+          },
+          {
+            "id": "1rgseae",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1rgseae/youre_now_training_a_war_machine_lets_see_proof/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/ntf4zqlnr5mg1.png?width=140&height=134&auto=webp&s=5d8d420498f2259681fda2107579d2f6bcadd71d",
+                "type": "photo",
+                "width": 140,
+                "height": 134
+              }
+            ],
+            "score": 35009,
+            "title": "You're now training a war machine. Let's see proof of cancellation.",
+            "author": "zaxo666",
+            "authorId": "352dwzr9",
+            "selftext": "Yeah, we're all in the death business now that OpenAI has succumbed to the corrupt Department of War. \n\nLet's see proof of your cancellation boys and girls. ",
+            "permalink": "/r/ChatGPT/comments/1rgseae/youre_now_training_a_war_machine_lets_see_proof/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1772250842,
+            "numComments": 2708
+          },
+          {
+            "id": "1wfcu92",
+            "url": "https://www.reddit.com/r/Steam/comments/1wfcu92/player_accuses_indie_game_of_using_ai_voice_acting/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/58y7qhiehbph1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=d5efd6d841e50b646d57da9ebb17fca87b4e7094",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 34675,
+            "title": "Player Accuses Indie Game of Using AI Voice Acting",
+            "author": "NeNest0r",
+            "authorId": "18v0esu9my",
+            "selftext": "A player criticized the voice acting of one of the heroines in the indie game Luminary, assuming that the voice had been generated by AI.\n\nThe developer jumped into the review to explain that the voice actually belongs to his wife, who was trying her hand at voice acting for the first time.",
+            "permalink": "/r/Steam/comments/1wfcu92/player_accuses_indie_game_of_using_ai_voice_acting/",
+            "subreddit": "Steam",
+            "createdUtc": 1789318112,
+            "numComments": 1969
+          },
+          {
+            "id": "1qmb62o",
+            "url": "https://www.reddit.com/r/Gamingcirclejerk/comments/1qmb62o/in_fallout_11997_the_opening_cutscene_shows_a/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/R3VjfvLQIuDsuBLox-3GzsZFenmGIvJqva4Hqz8CksE.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 93
+              }
+            ],
+            "score": 33664,
+            "title": "In Fallout 1(1997) the opening cutscene shows a pre-war propaganda broadcast of American Soldiers executing a Canadian insurrectionist. This is a reference to how a federal agent shooting a civilian without consequences is a work of fiction and would never occur in the real world.",
+            "author": "thesturdierone",
+            "authorId": "27es6ctv",
+            "selftext": "",
+            "permalink": "/r/Gamingcirclejerk/comments/1qmb62o/in_fallout_11997_the_opening_cutscene_shows_a/",
+            "subreddit": "Gamingcirclejerk",
+            "createdUtc": 1769321368,
+            "numComments": 379
+          },
+          {
+            "id": "1uthaoz",
+            "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1uthaoz/googles_ai_overview_spoiled_me_todays_wordle/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/kmq4sy4d3lch1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=f9e10ca02442eda9a6f634ca6960a04bb229f510",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 32523,
+            "title": "Google's Ai overview spoiled me today's wordle...",
+            "author": "pavelele",
+            "authorId": "393m05hz",
+            "selftext": "",
+            "permalink": "/r/mildlyinfuriating/comments/1uthaoz/googles_ai_overview_spoiled_me_todays_wordle/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1783768433,
+            "numComments": 741
+          }
+        ],
+        "nextCursor": "cur_9nfYKCc7WtMy5T0KLslmKw"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-bison-9321fc54",
+      "kind": "anonymous",
+      "name": "Bison",
+      "artworkKey": "bison"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00035",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:40:28.088Z",
+  "started_at": "2026-11-23T07:40:28.141Z",
+  "completed_at": "2026-11-23T07:40:29.808Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

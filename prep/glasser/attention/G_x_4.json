@@ -1,0 +1,134 @@
+{
+  "id": "1d7300af-3833-44e8-b2f9-106c5724634e",
+  "run_url": "https://app.glasser.ai/runs/1d7300af-3833-44e8-b2f9-106c5724634e",
+  "provider": "anyapi",
+  "endpoint": "/twitter.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "limit": 20,
+    "query": "Smallville generative agents town since:2025-11-22 filter:videos -filter:replies min_faves:20",
+    "queryType": "Top"
+  },
+  "output": {
+    "items": 3,
+    "output": {
+      "data": {
+        "items": [
+          {
+            "id": "2124255072150294926",
+            "url": "https://x.com/6AW0RON0k/status/2124255072150294926",
+            "lang": "en",
+            "text": "GTA 6 IS OUT. HERE ARE TWO BUSINESSES YOU LAUNCH FROM ONE LAPTOP\n\ni'm selling my TV. don't need it anymore. because the next 12 months is a window that's closing fast\n\nGTA 6 is the biggest content event of the decade. last time a GTA dropped, kids on Shorts channels were pulling five to six figures a month off clips. this time you don't touch a single frame yourself\n\nbusiness 1: the clip factory\n\n40 accounts, three agents, a mac mini in the corner of your room\n\n→ agent 1 monitors every top-50 twitch stream. catches the exact moments chat explodes. 300+ messages a minute\n→ agent 2 cuts the clip, reframes to 9:16, adds captions, generates 3 title variants\n→ agent 3 pushes to tiktok, shorts, reels. rotating across every account\n→ a google sheet tracks what hits. the agents repeat the format that wins\n\nthree open-source repos doing the heavy lifting:\n\n1. yt-dlp. pulls any stream in seconds. raw material for every clip\nhttp://github.com/yt-dlp/yt-dlp\n\n2. ClipsAI. detects viral moments in long video, cuts them, auto-reframes to vertical\nhttp://github.com/ClipsAI/clipsai\n\n3. Postiz. schedules and posts across every platform from one dashboard\nhttp://github.com/gitroomhq/postiz\n\ndrop all 3 in one folder. one line to claude code: \"yt-dlp feeds clipsai, clipsai feeds postiz, log every post in a google sheet\"\nzero editors. 24/7 output\n\nbusiness 2: NPCs that think\nevery FiveM RP server is fighting for the same players right now. the ones that win will have NPCs that aren't mannequins\n\n3 NPCs running on claude. each one has its own memory and a private chat the player never sees. the tipster reads the room, the bartender works the target, the enforcer waits in the alley. you don't write a single line of dialogue\n\nthree repos that make it real:\n\n1. generative-agents. memory stream + reflection + planning. the stanford paper that started it all\nhttp://github.com/joonspk-research/generative-agents\n\n2. mem0. long-term memory for every NPC. they remember your face, your money, what you did last week\nhttp://github.com/mem0ai/mem0\n\n3. ai-town. agents that talk to each other when you're not around. the hidden chat\nhttp://github.com/a16z-infra/ai-town\n\none folder, one message to claude code: \"port this to fivem lua. 3 NPCs, shared memory, one private channel\"\n\nbartenders that gossip about your crimes. cops that remember your face. gangs that plan around you\n\nright now every RP server runs NPCs off a dialogue tree. nobody is selling ones that think yet\n\nlicense it per server. 150 servers × $200 = $30K\nthe math\n\ntwo businesses. six open-source repos. one laptop. fable 5.2 alone doesn't ship this. the repos do the heavy lifting\nthe kids doing this already shipped last week. the ones starting tomorrow are late\n\nfull breakdown of both pipelines, every prompt, and the google sheet template is in the article below\nwhich one are you building first. \n\nthe clip factory or the NPCs?",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124255014042415104/img/EZ2oSCS6tLfm4PVA.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124255014042415104/vid/avc1/720x1280/b6zshF7rmgg8_ZMf.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1571169253746688003",
+            "likeCount": 39,
+            "viewCount": 2765,
+            "authorName": "6AWORON0k",
+            "createdUtc": 1795296850,
+            "quoteCount": 0,
+            "replyCount": 5,
+            "authorImage": "https://pbs.twimg.com/profile_images/2059609048924794883/SGw85JsS_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 2,
+            "bookmarkCount": 19,
+            "authorUsername": "6AW0RON0k",
+            "authorVerified": true,
+            "conversationId": "2124255072150294926",
+            "authorFollowers": 1171
+          },
+          {
+            "id": "2114719706385137956",
+            "url": "https://x.com/MollySOShea/status/2114719706385137956",
+            "lang": "en",
+            "text": "Do you think we’re living in a simulation?\n\nThis Stanford PhD raised over $300M, now valued at $2B, backed by Fei-Fei Li (@drfeifei), Andrej @karpathy, Greenoaks, & @IndexVentures, to build AI simulations of real people. \n\nTheir Stanford research achieved 85%+ accuracy predicting human behavior.\n\nI sat down with Simile Co-Founder & CEO Joon Sung Park (@joon_s_pk) to get into it all.\n\nSimile (@simile_ai) builds real-world simulations with access to 40M+ real people across its global panel partnerships for companies liek Deloitte, Wealthfront, CVS & more to test major decisions.\n\nJoon completed his Stanford PhD advised by Michael Bernstein & Percy Liang, now his co-founders, & is the first author of the 'Generative Agents' paper. That paper introduced Smallville, a simulated town where 25 LLM-powered agents lived, worked, & socialized on their own.\n\nRecorded at Index Ventures in San Francisco, we talked about Elon Musk’s simulation theory & whether human behavior can actually be predicted..\n\n𝐓𝐈𝐌𝐄𝐒𝐓𝐀𝐌𝐏𝐒\n(00:00) Joon Sung Park, Co-Founder & CEO at Simile\n(00:44) Do we live in a simulation?\n(04:01) The AI town that planned its own Valentine’s party\n(06:46) Predicting human behavior with 85% accuracy\n(11:09) Is human behavior predictable?\n(13:40) What really drives human decisions?\n(15:45) How Simile simulates customers & markets\n(20:05) Why big companies want simulated customers\n(21:31) Digital twins & a panel of 40M real people\n(22:51) Who actually answers polls????\n(24:22) How Simile keeps bad data out\n(29:29) What Simile predicted about this episode\n(33:34) The EV campaign that looked perfect until it wasn’t\n(37:02) Simulating climate change, AGI & UBI\n(39:06) What happens when you simulate your interviewer\n(40:13) Raising $300M at a $2B valuation\n(44:54) Simulation is in its GPT-4 era\n(49:43) What the most successful people have in common\n(53:58) The “now what?” moment that ends careers\n(55:25) The $15B question",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2114715665823330304/img/eHJHHNlfIXgZZ6UY.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2114715665823330304/vid/avc1/3840x2160/PXH-WFYHSxaAOuKH.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "954060455831580672",
+            "likeCount": 278,
+            "viewCount": 476608,
+            "authorName": "Molly O’Shea",
+            "createdUtc": 1793023442,
+            "quoteCount": 10,
+            "replyCount": 27,
+            "authorImage": "https://pbs.twimg.com/profile_images/1673061505351450624/2A8YvQ2N_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 34,
+            "bookmarkCount": 244,
+            "authorUsername": "MollySOShea",
+            "authorVerified": true,
+            "conversationId": "2114719706385137956",
+            "authorFollowers": 80829
+          },
+          {
+            "id": "2022793709914378294",
+            "url": "https://x.com/simile_ai/status/2022793709914378294",
+            "lang": "en",
+            "text": "Happy Valentine’s Day from Team Simile!\n\nFun fact: In our founders’ 2023 paper, @joon_s_pk and team introduced the concept of generative agents to the world by simulating a town of 25 agents… one of who was planning a Valentine’s Day party. \n\nThe agents autonomously spread invitations to the party over the next two days, made new acquaintances, and asked each other out on dates to the party. \n\nThis town of agents, Smallville, along with all the flirty festivities, was instrumental in creating the field of AI-based simulation. \n\nLove is in the air! 🎈",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2022793381848469504/img/I54Y2cSEk10A4_yk.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2022793381848469504/vid/avc1/3396x1910/Amf8qFZJgkk549ij.mp4?tag=21"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1918080199130005506",
+            "likeCount": 321,
+            "viewCount": 69227,
+            "authorName": "Simile",
+            "createdUtc": 1771106576,
+            "quoteCount": 4,
+            "replyCount": 11,
+            "authorImage": "https://pbs.twimg.com/profile_images/2082749779847618560/nqMjk3Zw_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 31,
+            "bookmarkCount": 96,
+            "authorUsername": "simile_ai",
+            "authorVerified": false,
+            "conversationId": "2022793709914378294",
+            "authorFollowers": 17681
+          }
+        ],
+        "nextCursor": null
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-capybara",
+      "kind": "anonymous",
+      "name": "Capybara",
+      "artworkKey": "capybara"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00049",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:40:28.522Z",
+  "started_at": "2026-11-23T07:40:28.624Z",
+  "completed_at": "2026-11-23T07:40:29.798Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

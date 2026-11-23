@@ -1,0 +1,628 @@
+{
+  "id": "197f7635-d13c-49d3-8812-cd71d5fddf9a",
+  "run_url": "https://app.glasser.ai/runs/197f7635-d13c-49d3-8812-cd71d5fddf9a",
+  "provider": "anyapi",
+  "endpoint": "/twitter.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "limit": 20,
+    "query": "AI boss simulation practice difficult conversation since:2025-11-22 filter:videos -filter:replies min_faves:20",
+    "queryType": "Top"
+  },
+  "output": {
+    "hint": "large_result: this response is ~48 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 20,
+    "output": {
+      "data": {
+        "items": [
+          {
+            "id": "2123700578467385595",
+            "url": "https://x.com/himanshumahuri/status/2123700578467385595",
+            "lang": "en",
+            "text": "Jane Street is reportedly paying a junior engineer anywhere between $220K and $600K a year for his work in machine learning and large-scale data processing.\n\nAnd there's a free 1-hour lecture where he explains the technology and techniques behind his work.\n\nYes, it's completely free.\n\nMost people use AI to write captions, generate ideas or save a little time. But there's a much bigger side to AI that most people haven't explored yet.\n\nHe's working with massive datasets and building systems that can handle workloads most developers rarely encounter.\n\nThis is the kind of lecture worth saving if you're serious about building a career in AI.\n\nFollow @codewithimanshu for more AI resources and insights from people working in the industry.\n\n↓\n\nWhat does he actually do to earn that kind of money?\n\nHis work focuses on building high-performance machine learning systems capable of handling enormous computational workloads.\n\nHe's not just using existing AI tools. He's involved in developing and improving the systems behind them.\n\nHe's also part of the PyTorch core team, working with one of the most widely used machine learning frameworks in the industry.\n\nHis work involves performance optimization, large-scale computing and making ML systems run more efficiently.\n\nThe reported $220K-$600K compensation range reflects how much top-level engineering roles can vary depending on performance and impact.\n\nCompanies like Jane Street value engineers who can solve difficult technical problems and improve systems that operate at a massive scale.\n\nThat's a very different skill set from simply knowing how to use AI tools.\n\nFollow @codewithimanshu for more insights into some of the highest-paying AI and engineering careers in 2026.\n\n↓\n\nWhat will you actually learn from this lecture?\n\nThis isn't another basic introduction to AI.\n\nIt gets into the technical concepts behind building and optimizing machine learning systems.\n\nHere's what the lecture covers:\n\n«How to design ML pipelines for extremely large datasets»\n\n«Why understanding PyTorch internals is important»\n\n«Techniques for improving the speed of computational workloads»\n\n«How memory layouts and GPU kernels affect performance»\n\n«The fundamentals behind systems that handle complex, large-scale operations»\n\nThese are skills that take time and practice to develop, but understanding them can give you a much better picture of how modern ML infrastructure works.\n\nA lot of developers might find these topics difficult at first. That's completely normal.\n\nThe important thing is to stay curious and keep learning instead of avoiding the technical side.\n\nFollow @codewithimanshu for more useful AI lectures, technical breakdowns and learning resources.\n\n↓\n\nWhy is this lecture worth more than another expensive bootcamp?\n\nThink about the cost of learning:\n\nA 12-week ML bootcamp can cost $10,000-$15,000.\n\nA master's degree in machine learning from universities like Stanford or CMU can cost $80,000 or more.\n\nBut this lecture from someone working in the field is available for free.\n\nYou don't need to spend thousands of dollars just to get started with learning advanced machine learning concepts.\n\nThe difference between an average AI developer and someone working on advanced ML infrastructure often comes down to their technical understanding, practical experience and the problems they're capable of solving.\n\nWatching one lecture won't make anyone a $500K engineer overnight. But learning from people who work on these systems is a good place to start.\n\nInstead of spending another evening scrolling through random videos, give this lecture an hour.\n\nYou might discover an area of AI engineering you never thought about exploring.\n\nSave it, watch it and keep learning.\n\nFollow @codewithimanshu for more AI content, valuable resources and insights from people building the technology we use every day.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123699695658967040/img/e3WmC9-p1brMXQI-.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123699695658967040/vid/avc1/854x480/bjqmhlegOBHOv590.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1062034323249881088",
+            "likeCount": 56,
+            "viewCount": 1860,
+            "authorName": "Himanshu Kumar",
+            "createdUtc": 1795164649,
+            "quoteCount": 0,
+            "replyCount": 12,
+            "authorImage": "https://pbs.twimg.com/profile_images/2025653770273849344/Hu4W4WjX_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 26,
+            "bookmarkCount": 7,
+            "authorUsername": "himanshumahuri",
+            "authorVerified": true,
+            "conversationId": "2123700578467385595",
+            "authorFollowers": 69038
+          },
+          {
+            "id": "2122767521925230896",
+            "url": "https://x.com/GoogleDeepMind/status/2122767521925230896",
+            "lang": "en",
+            "text": "Teaching robots new tasks just got a lot faster. 🤖\n\nWith Gemini 4 Hydrogen and the new robotics plugin for Google @Antigravity, you can connect a supported arm, practice in @MuJoCo simulation, and run tasks in the real world using plain conversation.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122766777495027712/img/txiZKq1vSg1HeE5I.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122766777495027712/vid/avc1/1920x1080/qi_E-8h1bCJ5rj8-.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "4783690002",
+            "likeCount": 1369,
+            "viewCount": 191802,
+            "authorName": "Google DeepMind",
+            "createdUtc": 1794942190,
+            "quoteCount": 78,
+            "replyCount": 177,
+            "authorImage": "https://pbs.twimg.com/profile_images/1695024885070737408/-M-HSH5P_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 137,
+            "bookmarkCount": 525,
+            "authorUsername": "GoogleDeepMind",
+            "authorVerified": false,
+            "conversationId": "2122767521925230896",
+            "authorFollowers": 1621352
+          },
+          {
+            "id": "2122785493267976569",
+            "url": "https://x.com/databricks/status/2122785493267976569",
+            "lang": "en",
+            "text": "Imagine hiring someone with 20 PhDs, then giving them no access to your company’s meetings, documents, or data.\n\nThat’s how @OpenAI Co-founder and President @gdb describes the problem with even the most capable AI models: intelligence without business context can only go so far.\n\nAt DATA + AI LIVE, Greg and Databricks Co-founder and CEO @alighodsi discuss what it takes for autonomous AI agents to do real enterprise work: access to business context, plus the permissions and guardrails that make them safe to trust. Then see how the new Genie puts that into practice.\n\nWatch the full conversation: https://www.youtube.com/live/BsVfRCNI8IY",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/media/HXWmJ1VWEAEwaQ5.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122785353245351936/vid/avc1/1080x1920/JFbggEl_b7y3eBTk.mp4?tag=16"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1562518867",
+            "likeCount": 82,
+            "viewCount": 9122,
+            "authorName": "Databricks",
+            "createdUtc": 1794946475,
+            "quoteCount": 2,
+            "replyCount": 15,
+            "authorImage": "https://pbs.twimg.com/profile_images/2070268421615333376/SZUvhQiQ_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 11,
+            "bookmarkCount": 30,
+            "authorUsername": "databricks",
+            "authorVerified": false,
+            "conversationId": "2122785493267976569",
+            "authorFollowers": 100586
+          },
+          {
+            "id": "2124137408237019579",
+            "url": "https://x.com/0xsacr3d/status/2124137408237019579",
+            "lang": "en",
+            "text": "This is f*cking insane. The Turing Award winner who taught computers to see, Yann LeCun, just explained why today's AI still isn't really intelligent:\n\n\"It's human intelligence that allows a teenager to learn to drive in 20 hours of practice. We have literally billions of hours of training data of people driving cars around, and we still can't use that to get a machine to drive as reliably as humans\"\n\nIn this free 82-minute conversation, he covers why chatbots mastered language but not the world, what a world model is, why a house cat still knows things no AI does, why superintelligence will work for us and why AI can't stay in the hands of 3 or 4 companies\n\nChatbots → Language → World Models → Machines That Learn Like A Teenager → Superintelligence That Works For Us\n\nI've seen $1,500 AI courses that don't cover what he says in the first 2 minutes\n\nBookmark and watch the full conversation\n\nThen read how to check what your agents actually understand: Verification Engineering ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124128905707536384/img/GMSYwLr-BJcw1oLt.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124128905707536384/vid/avc1/1280x720/ve9KNcB8x6TiLrXI.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1796644321304748032",
+            "likeCount": 29,
+            "viewCount": 2748,
+            "authorName": "sacred",
+            "createdUtc": 1795268797,
+            "quoteCount": 1,
+            "replyCount": 2,
+            "authorImage": "https://pbs.twimg.com/profile_images/2119490846181531649/hqKx57Ex_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 2,
+            "bookmarkCount": 33,
+            "authorUsername": "0xsacr3d",
+            "authorVerified": true,
+            "conversationId": "2124137408237019579",
+            "authorFollowers": 2176
+          },
+          {
+            "id": "2122573187082785206",
+            "url": "https://x.com/MacHenry1324/status/2122573187082785206",
+            "lang": "en",
+            "text": "A founder building a court for AI agents learns in the first minute that his interviewer is a lawyer.\n\nAlbert Castellana (@kstellana) says: \"That's very much on point for this conversation.\"\n\nThen Henri Arslanian (@HenriArslanian) says something I didn't expect. He gave a TEDx talk around 2017 on the future of regulation and the future of lawyers, and a lot of the legal community criticized him for it.\n\nNow, he says, a lot of what they're discussing is coming through.\nThat's the part I'd watch.\n\nBeing early looks like being wrong for a while. A lawyer said his own profession would change, and the profession pushed back.\n\nNow agents are about to make deals, and the disputes that follow have no obvious court to go to.\n\nMy read, and it's only a read: the people best placed to judge whether agents need a different kind of court are the ones who work inside the current one.\n\nThe episode opens with a lawyer and a founder discovering they're on the same problem.\n\n@GenLayer's answer is a court where validators, each running a different AI model, judge the dispute.\n\nWho should decide whether agents need their own court: the people who practice law, or the people building the agents?",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122571675787030528/img/6wOHFyucQM3vttSr.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122571675787030528/vid/avc1/1902x1080/HG_9Kgn3dnygYFof.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1839819331984637952",
+            "likeCount": 143,
+            "viewCount": 26029,
+            "authorName": "Mac-Henry💱",
+            "createdUtc": 1794895857,
+            "quoteCount": 0,
+            "replyCount": 50,
+            "authorImage": "https://pbs.twimg.com/profile_images/2066559631917232128/RQulGHRf_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 41,
+            "bookmarkCount": 5,
+            "authorUsername": "MacHenry1324",
+            "authorVerified": true,
+            "conversationId": "2122573187082785206",
+            "authorFollowers": 3727
+          },
+          {
+            "id": "2123032889386496247",
+            "url": "https://x.com/Use_Archivum/status/2123032889386496247",
+            "lang": "en",
+            "text": "AI agents can be incredibly smart within a session, but once the session ends, they become amnesiac.\n\nArchivum solves this by giving AI agents long-term memory stored as plain files directly on your machine.\n\nWhile working, agents save short notes as memories.\n\nBut not every note is necessarily correct.\n\nFor example, an agent might guess a configuration file path without ever verifying it.\n\nLater, you tell it that the project has moved to pnpm and Vitest.\n\nNow, the old notes and new information contradict each other.\n\nThis is where **Dream** comes in.\n\nDream revisits conversation transcripts and existing notes with better context.\n\nIt then:\n- Verifies information against your wiki.\n- Corrects outdated facts.\n- Merges duplicate notes.\n- Resolves conflicting information.\n\nThe interesting part? Dream never modifies your memory directly.\n\nInstead, it proposes changes. You review the diff and decide whether to approve or reject them.\n\nWhat Archivum offers:\n\n- 17 MCP tools and 18 CLI commands.\n- Secrets are redacted before anything is written to disk.\n- Every wiki change is versioned and can be restored.\n- Run Dream with your own LLM API key or through an agent you already use, with no additional API key required.\n\nArchivum is open-source under the MIT license, with zero runtime dependencies.\n\nGet started:\n\n`npx archivums init`\n\nOr try the simulation without installing anything:\n\nhttps://tryarchivum.com/try",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123032646456606720/img/5EoAYtvzNLfrhq89.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123032646456606720/vid/avc1/1920x1080/wgzqant8zteQRu6C.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2122666902484815872",
+            "likeCount": 22,
+            "viewCount": 1333,
+            "authorName": "Archivum",
+            "createdUtc": 1795005459,
+            "quoteCount": 2,
+            "replyCount": 11,
+            "authorImage": "https://pbs.twimg.com/profile_images/2123008235666075649/lcNeVkPU_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 6,
+            "bookmarkCount": 0,
+            "authorUsername": "Use_Archivum",
+            "authorVerified": true,
+            "conversationId": "2123032889386496247",
+            "authorFollowers": 121
+          },
+          {
+            "id": "2123088844296007921",
+            "url": "https://x.com/theSethian/status/2123088844296007921",
+            "lang": "en",
+            "text": "BREAKING: GTA 6 JUST CAME OUT. ELON MUSK HAS 43 DAYS LEFT TO KEEP HIS PROMISE.\n\nIn the video below, Musk calls it live on stream, then the boss of GTA's publisher takes a shot at him.\n\nIt was the Grok 4 launch in July 2025. Musk described AI building a whole game you could run on a PC, a console or a phone.\n\n\"I would expect the first really good AI video game to be next year,\" he said.\n\nThree months later he turned it into a deadline, posting on X that xAI's game studio would release one before the end of 2026.\n\nStrauss Zelnick runs Take-Two, which publishes GTA. At a Semafor summit in April, he aimed the AI jobs debate at Musk. The richest man on earth has unlimited money and people and works 20 hours a day, so if AI takes anyone's job, why not his?\n\nThen Zelnick delivered the punchline.\n\"Maybe Elon Musk is indeed a simulation.\"\n\nThis month he told investors that hit games still come from people.\n\nxAI hasn't announced a title or a release date.\n\nWill Musk pull it off in 43 days, or is this just another Elon deadline?",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123088549649977344/img/S-55gPwE3jX3qrJa.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123088549649977344/vid/avc1/1920x1080/zU045-7nAwhRm1-6.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "271760810",
+            "likeCount": 125,
+            "viewCount": 31008,
+            "authorName": "Sethian",
+            "createdUtc": 1795018800,
+            "quoteCount": 0,
+            "replyCount": 18,
+            "authorImage": "https://pbs.twimg.com/profile_images/2104127427572039681/DrpcHta6_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 6,
+            "bookmarkCount": 79,
+            "authorUsername": "theSethian",
+            "authorVerified": true,
+            "conversationId": "2123088844296007921",
+            "authorFollowers": 2484
+          },
+          {
+            "id": "2124104383541420506",
+            "url": "https://x.com/cryptojosh101/status/2124104383541420506",
+            "lang": "en",
+            "text": "one thing i took away from @ruthybuilds 's conversation is that AI can shorten the learning curve, \n\nbut you still have to put in the work.\n\nfrom content marketing and copywriting to building an audience on X \n\nthere's a lot you can learn by studying people who are already getting results.\n\nbut don't stop at watching or reading.\n\nstudy their approach, experiment with what works, create your own content, \n\nengage with businesses, and build meaningful connections along the way.\n\ni especially agree with the emphasis on learning by doing. \n\ninformation only becomes valuable when you put it into practice.\n\nAI gives you more ways to learn and build. what matters is how well you use those opportunities.\n\ndon't just consume. learn, experiment, and execute.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124104168537300992/img/M6OtD107SZrs5J5A.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124104168537300992/vid/avc1/1920x1080/R9twXo83p3TxHQq-.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1772337453371740160",
+            "likeCount": 23,
+            "viewCount": 467,
+            "authorName": "£M£S€N",
+            "createdUtc": 1795260923,
+            "quoteCount": 0,
+            "replyCount": 13,
+            "authorImage": "https://pbs.twimg.com/profile_images/2086155682118569984/2CQdMB5H_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 1,
+            "bookmarkCount": 0,
+            "authorUsername": "cryptojosh101",
+            "authorVerified": true,
+            "conversationId": "2124104383541420506",
+            "authorFollowers": 3661
+          },
+          {
+            "id": "2123262089968169208",
+            "url": "https://x.com/thediary_keeper/status/2123262089968169208",
+            "lang": "en",
+            "text": "A look back at Legal AI: New York.\n\nFrom the conversations to the ideas shaping the future of legal practice, it was a great opportunity to share what we are building at useABI and our vision for the future of M&A.\n\nA few moments from the conversation. https://t.co/5sQjVstjjv",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123261841262473216/img/JMN2GfHV0RZE5pUx.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123261841262473216/vid/avc1/3840x2160/PbkNVbTMS985gkUr.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "999445366981488641",
+            "likeCount": 94,
+            "viewCount": 2791,
+            "authorName": "ABI",
+            "createdUtc": 1795060105,
+            "quoteCount": 1,
+            "replyCount": 1,
+            "authorImage": "https://pbs.twimg.com/profile_images/2120159796590514176/-D6jcsFx_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 11,
+            "bookmarkCount": 18,
+            "authorUsername": "thediary_keeper",
+            "authorVerified": true,
+            "conversationId": "2123262089968169208",
+            "authorFollowers": 13355
+          },
+          {
+            "id": "2124367016446366067",
+            "url": "https://x.com/emmzy_xyz/status/2124367016446366067",
+            "lang": "en",
+            "text": "One thing i took away from @ruthybuilds’ conversation is that AI can shorten the learning curve, but you still have to put in the work.\n\nWeather it is content marketing, copywriting, or building an audience on X, there is a lot to learn from people already getting results.\n\nStudy their approach, experiment, create your own content, and build meaningful connections.\n\nThe real value comes from putting what you learn into practice.\n\ndon’t just consume. learn, experiment, and execute.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124290959068303360/img/YfUkIoFfXnylxKCA.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124290959068303360/vid/avc1/480x270/-hR1lKw0yb-CwJBt.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1629805283085111296",
+            "likeCount": 79,
+            "viewCount": 1202,
+            "authorName": "Emmzy",
+            "createdUtc": 1795323540,
+            "quoteCount": 0,
+            "replyCount": 96,
+            "authorImage": "https://pbs.twimg.com/profile_images/2112973969569492992/jwF_Z-44_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 1,
+            "bookmarkCount": 2,
+            "authorUsername": "emmzy_xyz",
+            "authorVerified": true,
+            "conversationId": "2124367016446366067",
+            "authorFollowers": 3908
+          },
+          {
+            "id": "2122271930703388965",
+            "url": "https://x.com/brandon1/status/2122271930703388965",
+            "lang": "en",
+            "text": "Up until recently, getting a robot to do something new meant one of two things: writing control code for it line by line, or training an AI using simulation and human demonstrations.\n\nA third path is increasingly promising. Frontier multimodal models can now look at a camera feed and understand the scene, write and run code against a robot's controller, and check their own progress on the task, retrying when something goes wrong.\n\nPut these pieces together and the way you interact with a robot completely changes. You describe the task in plain language, the way you would to a coworker, and agents work out the rest.\n\nThe emerging term for this is Robot Use Agents (RUA). Computer Use Agents (CUA) enable AI to operate software. RUAs let it operate robots in the physical world.\n\nOnce telling a robot what to do is as simple as a conversation, the hope is that the cost of programming robots for autonomous work drops from months to days.\n\nMuch like what coding agents have done for software, we envision this unlock leading to an abundance of diverse robot use cases, especially ones that were previously cost-prohibitive.\n\nAt Hebbian, we have been working with research and industry partners to bring such capabilities to the masses.\n\nToday, we're introducing Hebbian RUA in public beta. With RUA, you give a frontier model a goal, camera views, and a set of predefined robot tools, and it controls a robot to perform the task.\n\nThink of RUA as what frontier models need to understand how to control a robot. Developers then bring their own model and loop, based on their task.\n\nAgents can do much more than control arms based on what they see. We're excited to share what we're seeing work, and where there's still room for improvement, in the coming weeks.\n\nIf you are excited about applying RUAs for autonomous work and would like to collaborate with us, get in touch!!",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122269948945035264/img/X2IIzMrxaHyxVG6N.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122269948945035264/vid/avc1/1920x1080/PgQCrin6n3ATVxW9.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "993931267744841729",
+            "likeCount": 85,
+            "viewCount": 3832,
+            "authorName": "Brandon Ong",
+            "createdUtc": 1794824032,
+            "quoteCount": 1,
+            "replyCount": 12,
+            "authorImage": "https://pbs.twimg.com/profile_images/2047480785444405248/Ge3_MFBh_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 12,
+            "bookmarkCount": 40,
+            "authorUsername": "brandon1",
+            "authorVerified": true,
+            "conversationId": "2122271930703388965",
+            "authorFollowers": 1364
+          },
+          {
+            "id": "2122653932757438493",
+            "url": "https://x.com/shahidivibez/status/2122653932757438493",
+            "lang": "en",
+            "text": "What if a blockchain didn’t just run code, it judged meaning with an AI jury?\n\nIn this conversation with @HenriArslanian, @kstellana breaks down how @GenLayer actually does it: \n\nstart small on a delegated PoS network, send the transaction to the chain, let an LLM propose the outcome, rotate the leader for liveness, then double the validators again and again until you hit 15 (and more if it’s appealed).\n\nOptimistic Democracy in practice.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122653760010764288/img/xeFDtP00cBiSjuBV.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122653760010764288/vid/avc1/1170x662/4mdXTvFt0MYPTZ8q.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1606802858397077505",
+            "likeCount": 248,
+            "viewCount": 7137,
+            "authorName": "shahidivibez.unc",
+            "createdUtc": 1794915109,
+            "quoteCount": 4,
+            "replyCount": 151,
+            "authorImage": "https://pbs.twimg.com/profile_images/2103633416344231936/iY4ABo1e_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 113,
+            "bookmarkCount": 0,
+            "authorUsername": "shahidivibez",
+            "authorVerified": true,
+            "conversationId": "2122653932757438493",
+            "authorFollowers": 3134
+          },
+          {
+            "id": "2122688242499928461",
+            "url": "https://x.com/TheMuskManWorld/status/2122688242499928461",
+            "lang": "en",
+            "text": "🐊🦁 WHEN A BABY CROCODILE MEETS A BABY LION IN THE JUNGLE! 😂🌿❤️\n\nBOSS, THE FUTURE KING OF THE JUNGLE JUST MET THE FUTURE KING OF THE RIVER! 🤣🔥\n\nToday, I tried creating an adorable and hilarious conversation between a baby crocodile and a baby lion using Gemini Argon! 🎬✨\n\nAnd guess what? Their entire conversation is in HINDI! 🇮🇳😂\n\n🦁 One thinks he already owns the entire jungle!\n\n🐊 The other is probably thinking, “Bhai, pehle swimming seekh le, phir king banna!” 🤣💦\n\nARRE BHAI, DONO ABHI BABY HAIN, LEKIN ATTITUDE DONO KA FULL DON LEVEL! 😂🔥\n\nWho knew these two little wild buddies could be so cute together? 🥹❤️\n\nStill experimenting, still learning, and having fun exploring AI-generated videos!\n\n🎥 Watch till the end and tell me!\n\nTeam Baby Lion 🦁 or Team Baby Crocodile 🐊?\n\nWhich one stole your heart? 😂👇\n\n© TheMuskManWorld",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2121851379371356160/img/BmhUJJ3S5WYC3KZc.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2121851379371356160/vid/avc1/720x1280/A2CbXCuulhh0sCYH.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1713785145679872001",
+            "likeCount": 39,
+            "viewCount": 958,
+            "authorName": "Mr. X",
+            "createdUtc": 1794923289,
+            "quoteCount": 0,
+            "replyCount": 17,
+            "authorImage": "https://pbs.twimg.com/profile_images/2084368641609637888/t4ACigcD_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 16,
+            "bookmarkCount": 1,
+            "authorUsername": "TheMuskManWorld",
+            "authorVerified": true,
+            "conversationId": "2122688242499928461",
+            "authorFollowers": 8802
+          },
+          {
+            "id": "2123227256445403360",
+            "url": "https://x.com/TheMuskManWorld/status/2123227256445403360",
+            "lang": "en",
+            "text": "🐻🐟 WHEN A BABY BEAR MEETS A BABY FISH! THE CUTEST FRIENDSHIP IN MY AI JUNGLE! 😂🌿❤️\n\nBOSS, FRIENDSHIP HAS NO BOUNDARIES, NOT EVEN BETWEEN LAND AND WATER! 🤣💦\n\nToday, I created another adorable and hilarious conversation between a baby bear and a baby fish using Gemini Argon! 🎬✨\n\nAnd yes, the conversation is in HINDI with ENGLISH SUBTITLES! 🇮🇳❤️\n\n🐻 Baby Bear: “Hey little fish, why do you always stay in the water? Come outside and play with me!” 🥹\n\n🐟 Baby Fish: “I’d love to, brother bear, but whenever I come out, I get terrible hiccups!” 😂\n\n🐻 Baby Bear: “No problem! Then I’ll come into the water! SPLASH!” 💦🤣\n\nARRE BHAI, DOSTI HO TOH AISI! EK PAANI SE BAHAR NAHI AA SAKTA, TOH DOOSRA KHUD PAANI MEIN KOOD GAYA! 😭😂❤️\n\nWho needs a swimming coach when friendship is this strong? 🤣🐻\n\nMy little AI jungle universe is getting more adorable with every new episode! 🌴✨\n\nStill experimenting, still learning, and enjoying every moment of creating these cute AI stories! 🎬❤️\n\n🎥 Watch till the end!\n\nWho stole your heart today, Baby Bear 🐻 or Baby Fish 🐟?\n\nAnd tell me, which two adorable animals should become best friends in my next episode? 😂👇\n\n© TheMuskManWorld",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123111762065305600/img/Xqf8JwI4Cjf3Zymp.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123111762065305600/vid/avc1/720x1280/SZwWv68a898X5bS-.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1713785145679872001",
+            "likeCount": 47,
+            "viewCount": 861,
+            "authorName": "Mr. X",
+            "createdUtc": 1795051800,
+            "quoteCount": 0,
+            "replyCount": 21,
+            "authorImage": "https://pbs.twimg.com/profile_images/2084368641609637888/t4ACigcD_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 15,
+            "bookmarkCount": 1,
+            "authorUsername": "TheMuskManWorld",
+            "authorVerified": true,
+            "conversationId": "2123227256445403360",
+            "authorFollowers": 8802
+          },
+          {
+            "id": "2122318311576703141",
+            "url": "https://x.com/Tape_Vector/status/2122318311576703141",
+            "lang": "en",
+            "text": "People I Learn From #12\n\nSome people earn your respect through their work.\n\nOthers earn your friendship through their actions.\n\nAnd sometimes you are fortunate enough to meet someone who does both.\n\nThis week, I want to thank someone who has become a genuinely important friend to me.\n\n@InvestifyDaily.\n\nAnd this one is particularly personal.\n\nWhen we first connected here on X, something happened that I have come to appreciate more and more.\n\nThere were no barriers.\n\nNo hesitation.\n\nNo need to prove anything.\n\nNo questions about how many followers I had, how successful my work was, or what either of us could gain from knowing the other.\n\nHe simply accepted me as a friend.\n\nFrom the very beginning.\n\nAnd I accepted him the same way.\n\nI think that is becoming increasingly rare, especially in an online environment where people often judge each other by numbers, reputation, or perceived influence.\n\nBut friendship should not work that way.\n\nSometimes you connect with someone and immediately feel comfortable talking to them.\n\nYou discover that you share values.\n\nYou respect each other's opinions.\n\nYou can disagree without losing that respect.\n\nAnd gradually, without even noticing it, what started as a conversation between two strangers becomes a genuine friendship.\n\nThat is what happened with us.\n\nBut there is something more important I want to acknowledge.\n\nThe last few days have been particularly difficult for me.\n\nI am not going to turn this post into a discussion about what happened.\n\nThat is not why I am writing it.\n\nWhat matters is that during those difficult days, my friend was there.\n\nHe stayed close.\n\nHe made time for me.\n\nHe showed genuine concern and support.\n\nAnd he reminded me that the friendships we build here can become much more meaningful than we initially expect.\n\nHe probably does not realize how much I appreciated that.\n\nBut I did.\n\nAnd I want him to know.\n\nBecause supporting someone when everything is going well is relatively easy.\n\nBeing there when life becomes difficult is something different.\n\nIt requires caring about the person, not just the account.\n\nAnd that is exactly what he showed me.\n\nThank you, my friend.\n\nI genuinely mean that.\n\nNow, there is another reason I want to dedicate this week's appreciation post to @InvestifyDaily.\n\nBeyond being a good friend, he is also someone whose work and determination I respect.\n\nHis account focuses on long term investing and the technologies that could shape the next decade.\n\nQuantum computing.\n\nArtificial intelligence.\n\nDefense.\n\nCybersecurity.\n\nAI infrastructure.\n\nAnd the companies attempting to turn those technologies into commercially viable businesses.\n\nIf you follow him, you already know that $IONQ is one of his strongest convictions.\n\nHe spends a considerable amount of time studying the quantum computing industry.\n\nNot only the stock price.\n\nThe technology.\n\nThe companies.\n\nGovernment involvement.\n\nCommercialization.\n\nStrategic acquisitions.\n\nCybersecurity applications.\n\nAnd the broader question of how quantum computing could eventually become part of the world's critical infrastructure.\n\nThat is a complicated subject.\n\nAnd I respect the effort required to understand it well enough to explain it to others.\n\nHis interest also extends to the wider quantum ecosystem and companies such as $INFQ and $QBTS, alongside AI infrastructure names like $NBIS and $APLD.\n\nBut what I find most interesting is not the list of companies.\n\nIt is the time horizon.\n\nHe is interested in what these industries might become years from now.\n\nNot simply what their stocks might do tomorrow.\n\nAnd while I believe that long term conviction must always be tested against actual business execution, valuation, competition, and dilution, I respect people who are willing to do the research and develop their own perspective.\n\nWe do not have to agree on every company.\n\nWe do not have to use the same investing strategy.\n\nAnd we certainly do not need to reach identical conclusions.\n\nWhat matters is the quality of the thinking behind those conclusions.\n\nThat is something I appreciate about our conversations.\n\nHe has conviction, but he is also willing to learn.\n\nAnd I think that distinction matters.\n\nNobody understands every market.\n\nNobody has all the answers.\n\nNobody gets every investment right.\n\nThe important thing is being willing to improve.\n\nTo ask questions.\n\nTo challenge your own assumptions.\n\nTo recognize mistakes.\n\nAnd to continue learning even when you already have strong opinions.\n\nI respect that attitude.\n\nI also respect the amount of work he puts into building his presence here while maintaining a demanding professional career.\n\nResearch.\n\nDaily market discussions.\n\nLonger articles through The Investify Letter.\n\nCommunity conversations.\n\nLive discussions.\n\nTrying to explain complicated technology in language that ordinary investors can understand.\n\nThat takes time.\n\nAnd consistency.\n\nEspecially when you are trying to build something without pretending you have already figured everything out.\n\nHe shares the journey as it happens.\n\nThe progress.\n\nThe difficult periods.\n\nThe lessons.\n\nThe moments when the market tests his patience.\n\nAnd the reasons he continues investing in the technologies he believes could matter over the coming years.\n\nI appreciate that transparency.\n\nBut there is another side of him that I respect even more.\n\nHe supports other people.\n\nHe takes the time to recognize their work.\n\nHe gives credit when someone contributes something useful.\n\nHe encourages creators who are still building their accounts.\n\nHe participates in conversations instead of simply publishing content and disappearing.\n\nAnd he does it without making everything about himself.\n\nI have experienced that personally.\n\nHe has supported my research.\n\nHe has engaged with my work.\n\nHe has taken an interest in what I am building.\n\nAnd he has treated me with respect from the first time we connected.\n\nThat matters to me because I have always believed that a person's character tells you much more than their follower count or professional title.\n\nYou can be extremely knowledgeable and still be difficult to respect.\n\nYou can be successful and still treat people poorly.\n\nYou can publish impressive research and still forget that there are human beings behind the accounts interacting with it.\n\nTechnical ability and personal character are two different things.\n\nAnd I value both.\n\nWith @InvestifyDaily, I have had the opportunity to appreciate both.\n\nThere is also something I want to say about friendship in this community.\n\nMost of us came here because of markets.\n\nStocks.\n\nInvesting.\n\nTrading.\n\nResearch.\n\nThe search for better opportunities and better information.\n\nI certainly did.\n\nI wanted to share the systems I was developing, exchange ideas, and learn from people who approached the market differently.\n\nI never expected that one of the most valuable things I would find here would be genuine friendships.\n\nPeople I had never met in person.\n\nPeople living thousands of kilometers away.\n\nPeople with different backgrounds, different experiences, and different perspectives.\n\nAnd yet, somehow, some of those connections became much more meaningful than a discussion about the latest earnings report or technical setup.\n\nThat is something I did not anticipate.\n\nAnd I am grateful for it.\n\nEspecially during difficult moments, when you realize that somebody on the other side of the world genuinely cares about how you are doing.\n\nNot about your portfolio.\n\nNot about your latest post.\n\nNot about how many impressions your research generated.\n\nAbout you.\n\nAs a person.\n\nThose are the moments that reveal what a friendship really means.\n\nAnd that is why this week's post matters to me.\n\nTo my friend @InvestifyDaily.\n\nThank you for welcoming me into your world without barriers.\n\nThank you for trusting me from the beginning.\n\nThank you for the conversations, the support, and the respect.\n\nThank you for appreciating my work and allowing me to appreciate yours.\n\nBut above everything else, thank you for being close to me during these difficult days.\n\nYou did not have to be.\n\nBut you were.\n\nAnd I will remember that.\n\nI hope you know that the friendship and support go both ways.\n\nIf you ever need me, and there is something within my ability to do, I will do my best to be there for you.\n\nJust as you have been there for me.\n\nAnd to everyone reading this.\n\nIf you are interested in quantum computing, AI infrastructure, emerging technologies, defense, and long term investing, I genuinely recommend getting to know @InvestifyDaily and his work.\n\nHe shares his research openly, writes The Investify Letter, and follows companies and technologies that may play an important role in the future.\n\nYou do not need to agree with every thesis to appreciate the work that goes into researching it.\n\nAnd from my personal experience, there is also a good person behind that account.\n\nSomeone who takes friendship seriously.\n\nSomeone who supports others.\n\nSomeone who understands that life is bigger than markets.\n\nI am grateful that our paths crossed.\n\nI am grateful for the friendship we have built.\n\nAnd I am particularly grateful that you were there for me when the last few days became difficult.\n\nI have said this before.\n\nFirst, great people. Then, great professionals.\n\nThat is the order that matters to me.\n\nYou have earned my respect through your work.\n\nBut you have earned my friendship through your actions.\n\nAnd that means considerably more.\n\nThank you, brother.\n\nFor everything.\n\nI am fortunate to call you my friend.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122317795341860864/img/q26E_zxQfVoYRbwm.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122317795341860864/vid/avc1/416x752/Kd9VIpP_mtATe8qa.mp4?tag=25"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2068953165194555392",
+            "likeCount": 20,
+            "viewCount": 1160,
+            "authorName": "TAPE Vector",
+            "createdUtc": 1794835090,
+            "quoteCount": 1,
+            "replyCount": 8,
+            "authorImage": "https://pbs.twimg.com/profile_images/2117534563232624640/K-eikITl_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 4,
+            "bookmarkCount": 2,
+            "authorUsername": "Tape_Vector",
+            "authorVerified": true,
+            "conversationId": "2122318311576703141",
+            "authorFollowers": 2189
+          },
+          {
+            "id": "2123589645271269741",
+            "url": "https://x.com/TheMuskManWorld/status/2123589645271269741",
+            "lang": "en",
+            "text": "🐞🐌 WHEN A BABY LADYBUG MEETS A BABY SNAIL! THE SLOWEST JUNGLE COMEDY EVER! 😂🌿❤️\n\nBOSS, SOME PEOPLE ARE ALWAYS IN A HURRY, WHILE OTHERS ARE LIVING LIFE IN PERMANENT CHILL MODE! 🤣🔥\n\nToday, I created another adorable and funny conversation between a baby ladybug and a baby snail using Gemini Argon! 🎬✨\n\nAnd yes, the conversation is in HINDI with ENGLISH SUBTITLES! 🇮🇳❤️\n\n🐞 Baby Ladybug: “Bro, why are you walking so slowly? Are you going to a wedding?” 😂\n\n🐌 Baby Snail: “Relax, bro! My house is on my back. What’s the hurry?” 🤣\n\nARRE BHAI, SNAIL KI LIFE HI ALAG LEVEL PAR HAI! 😭😂\n\nNo rent! 🏠\n\nNo packing! 📦\n\nNo moving expenses! 💰\n\nNo tension about getting home late! 🤣🔥\n\nBOSS, THIS LITTLE GUY IS LITERALLY LIVING THE ULTIMATE WORK-FROM-HOME LIFESTYLE! 🐌💻😂\n\nMeanwhile, poor Ladybug is probably wondering how someone can be THIS relaxed! 🐞🤣\n\nMy AI jungle universe keeps getting cuter and funnier with every new episode! 🌴❤️\n\nStill experimenting, still learning, and enjoying these little AI creations! 🎬✨\n\n🎥 Watch till the end!\n\nBe honest, are you Team Ladybug 🐞, always rushing, or Team Snail 🐌, enjoying life at your own pace? 😂👇\n\nAnd which two tiny creatures should meet in my next AI jungle episode?\n\n© TheMuskManWorld",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123302590138159104/img/65Sg-bXR36FtFdbq.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123302590138159104/vid/avc1/720x1280/ihVT4RHxS0pSdkOh.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1713785145679872001",
+            "likeCount": 35,
+            "viewCount": 1272,
+            "authorName": "Mr. X",
+            "createdUtc": 1795138200,
+            "quoteCount": 0,
+            "replyCount": 12,
+            "authorImage": "https://pbs.twimg.com/profile_images/2084368641609637888/t4ACigcD_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 16,
+            "bookmarkCount": 1,
+            "authorUsername": "TheMuskManWorld",
+            "authorVerified": true,
+            "conversationId": "2123589645271269741",
+            "authorFollowers": 8802
+          },
+          {
+            "id": "2123296463643926819",
+            "url": "https://x.com/emptysoulprime/status/2123296463643926819",
+            "lang": "en",
+            "text": "Good morning, humans\n\nGame Face ON! 💀  @TransientLabs \n\n     As a metaphor, \"putting on your game face\" means intentionally shifting from everyday relaxation into a state of deep focus, resilience, and readiness for a challenge.\n   Viewed through the lens of Stoicism, this metaphor aligns closely with the ancient practice of preparing the mind for adversity, mastering emotional reactions, and focusing strictly on what is within your control.\n\n1. As a Metaphor\nIn everyday life, a game face is an invisible piece of armor you put on before stepping onto a figurative \"field\"such as a difficult conversation, a high stakes job interview, or a personal crisis.\n   Compartmentalization: It represents setting aside distractions, personal insecurities, or minor frustrations so they do not interfere with the task at hand.\n   Intentionality: Just as an athlete warms up before a match, putting on a game face signals a deliberate transition from passive living to active execution.\n  Composure under pressure: It symbolizes projecting calm and competence even when conditions are chaotic or intimidating.\n\n2. Through the Lens of Stoicism\nWhile modern sports culture often treats a game face as a way to intimidate opponents or hide fear, Stoic philosophy views it as an internal alignment rather than a mask for others.\n  The Dichotomy of Control (Epictetus): A Stoic game face is rooted in accepting that you cannot control the outcome of the \"game,\" the fairness of the referee, or the strength of the opponent. You only control your own effort, character, and response.\n  Premeditatio Malorum (Seneca): Stoics practiced visualizing potential hardships before they happened so they wouldn't be caught off guard. Putting on a Stoic game face means entering a situation already having accepted the worst-case scenario, which removes fear and hesitation.\n   Apatheia (Freedom from Irrational Passions): Stoicism does not mean lacking emotion; it means not being ruled by destructive impulses like panic, anger, or self-pity. A Stoic game face is the calm steadiness of someone whose inner peace is undisturbed by external noise.\n   Amor Fati (Marcus Aurelius): Rather than dreading a tough challenge, a Stoic welcomes it as necessary training. As Marcus Aurelius wrote, \"The impediment to action advances action. What stands in the way becomes the way.\" The game face is the expression of someone ready to use the obstacle itself as fuel.\n...\n    A game face mindset is defined by a state of calm, locked-in focus, where distractions are effectively blocked out and pressure is channeled into steady action. The ability to perform well under pressure is contingent upon the establishment of clear routines, the maintenance of controlled energy levels, and a commitment to the task at hand.\n  The following constitute the fundamental principles of the mindset:\nPresent Moment Focus: The focus is maintained on the immediate action or activity, as opposed to concerns regarding the ultimate outcome.\n  Controlled Intensity: \n  The nervous energy is transformed into a state of readiness, facilitated by steady breathing, which enables the maintenance of mental acuity.\n  The process of preparation is of paramount importance in ensuring that distractions or mistakes do not disrupt the desired outcome. It is essential to adhere to the preparation and fundamentals meticulously in order to maintain focus and avoid any potential disruptions.\nResilient Reset: In the event of an issue, it is imperative to acknowledge the situation promptly, to move on swiftly, and to transition immediately to the subsequent task.\n    A Brief Explanation of the Most Efficacious Method for Initiating the Process\n    Establishment of a trigger routine is the most efficacious method of initiating the process. Prior to initiation, it is recommended to employ a simple physical cue, such as taking two slow breaths, adjusting one's posture, or repeating a brief focus phrase.\n     The process of narrowing the target should be initiated. It is recommended that a single, distinct objective be selected for the following ten minutes in order to maintain concentration.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123274368272719872/img/sl0pJBTS7QrU2ZLW.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123274368272719872/vid/avc1/1024x1280/leaBrMCMZDgINHEd.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1539187509573337093",
+            "likeCount": 107,
+            "viewCount": 6606,
+            "authorName": "𝐄𝐒𝐏",
+            "createdUtc": 1795068300,
+            "quoteCount": 1,
+            "replyCount": 81,
+            "authorImage": "https://pbs.twimg.com/profile_images/2058323196969955328/xQJuc9kU_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 38,
+            "bookmarkCount": 3,
+            "authorUsername": "emptysoulprime",
+            "authorVerified": true,
+            "conversationId": "2123296463643926819",
+            "authorFollowers": 5610
+          },
+          {
+            "id": "2123176879771594918",
+            "url": "https://x.com/0xDucky1st/status/2123176879771594918",
+            "lang": "en",
+            "text": "A $5 disagreement can expose a much bigger problem with AI agents.\n\nImagine one agent pays another to check a dataset. The payment succeeds. The result arrives. But half the entries are wrong.\n\nThe transaction record can show that money moved. It cannot, by itself, tell us whether the work met the agreement.\n\nThat is what caught my attention in this conversation between @kstellana and @HenriArslanian. Albert describes agents operating globally, moving small amounts at high speed, while the people or companies behind them may be difficult to identify. He then gets to the harder part: ordinary smart contracts handle deterministic operations, but disputes often require interpreting ambiguity.\n\nMy takeaway is that the dispute process needs to be part of the deal from the beginning.\n\nWhat counts as acceptable work? What evidence should both sides keep? Who decides if they disagree, and what happens to the payment while that decision is made?\n\nFor a small job, chasing a counterparty through a lengthy legal process makes little economic sense. Yet accepting every bad result makes little sense either.\n\nThat is why @GenLayer ’s focus on adjudication interests me. Before I would trust an agent to do business with strangers, I would want a credible answer to what happens when the work is disputed.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123176510458843136/img/-HOLDxkOzae9ZvNt.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123176510458843136/vid/avc1/1080x1080/dfL5BMhhM3mKn2_L.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1484968420081045504",
+            "likeCount": 301,
+            "viewCount": 10555,
+            "authorName": "Ducky | 𝔽rAI",
+            "createdUtc": 1795039789,
+            "quoteCount": 0,
+            "replyCount": 131,
+            "authorImage": "https://pbs.twimg.com/profile_images/2120689725770235904/NU0WfOsU_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 0,
+            "bookmarkCount": 0,
+            "authorUsername": "0xDucky1st",
+            "authorVerified": true,
+            "conversationId": "2123176879771594918",
+            "authorFollowers": 12258
+          },
+          {
+            "id": "2123096677431246948",
+            "url": "https://x.com/TheMuskManWorld/status/2123096677431246948",
+            "lang": "en",
+            "text": "🕷️🐜 WHEN A BABY SPIDER MEETS A BABY BLACK ANT IN THE JUNGLE! 😂🌿❤️\n\nBOSS, EVEN THE TINIEST CREATURES HAVE BIG STORIES TO TELL! 🤣🔥\n\nToday, I tried creating an adorable and funny conversation between a baby spider and a baby black ant using Gemini Argon! 🎬✨\n\nAnd this time, their entire conversation is in HINDI! 🇮🇳😂\n\nOne is busy planning its next spiderweb, while the other is probably wondering, “Bhai, yeh jungle hai ya construction site?” 🤣🕸️\n\nARRE BHAI, ITNE CHHOTE BACHCHE AUR ITNI BADI BAATEIN! 😂❤️\n\nStill experimenting, still learning, and having fun bringing these little characters to life with AI! 🥹\n\n🎥 Watch till the end!\n\nHow did this one turn out? Cute, funny, or completely crazy? 😂👇\n\n© TheMuskManWorld",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2121666817836171264/img/gJT-q3wqgNBKBUPK.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2121666817836171264/vid/avc1/720x1280/d0e_c3Fd9UPlgEH3.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1713785145679872001",
+            "likeCount": 23,
+            "viewCount": 1488,
+            "authorName": "Mr. X",
+            "createdUtc": 1795020667,
+            "quoteCount": 0,
+            "replyCount": 8,
+            "authorImage": "https://pbs.twimg.com/profile_images/2084368641609637888/t4ACigcD_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 8,
+            "bookmarkCount": 1,
+            "authorUsername": "TheMuskManWorld",
+            "authorVerified": true,
+            "conversationId": "2123096677431246948",
+            "authorFollowers": 8802
+          },
+          {
+            "id": "2122806446131920938",
+            "url": "https://x.com/TheMuskManWorld/status/2122806446131920938",
+            "lang": "en",
+            "text": "🦒❤️ WHEN A BABY BOY GIRAFFE MEETS A BABY GIRL GIRAFFE! 😂🌿🔥\n\nBOSS, LOVE IS REACHING NEW HEIGHTS IN MY AI JUNGLE! 🤣💕🦒\n\nToday, I created another adorable and hilarious conversation between a baby male giraffe and a baby female giraffe using Gemini Argon! 🎬✨\n\nAnd yes, their entire conversation is in HINDI! 🇮🇳😂\n\n🦒 Mr. Baby Giraffe is probably trying to impress the little lady with his height! 😎\n\n🦒 Miss Baby Giraffe is like, “Bhai, gardan lambi hone se dimaag bada nahi ho jaata!” 🤣💀\n\nARRE BHAI, DONO KI GARDAN LAMBI HAI, LEKIN ATTITUDE USSE BHI ZYADA LAMBA HAI! 😭😂🔥\n\nOne is trying to be Mr. Romantic! ❤️\n\nThe other is already the queen of savage replies! 👑🤣\n\nWho knew two baby giraffes could make such an adorable little pair? 🥹💕\n\nStill experimenting, still learning, and having fun bringing my AI jungle universe to life! 🎬🌴\n\n🎥 Watch till the end!\n\nTeam Baby Boy Giraffe 🦒💙 or Team Baby Girl Giraffe 🦒💕?\n\nAnd tell me, should I create more cute animal couples in my AI jungle? 😂👇\n\n© TheMuskManWorld",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122414985632706560/img/Z6EmDM4o0LnDmcxq.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122414985632706560/vid/avc1/720x1280/QcZCWrlprqgKF82U.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1713785145679872001",
+            "likeCount": 29,
+            "viewCount": 1298,
+            "authorName": "Mr. X",
+            "createdUtc": 1794951471,
+            "quoteCount": 0,
+            "replyCount": 8,
+            "authorImage": "https://pbs.twimg.com/profile_images/2084368641609637888/t4ACigcD_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 8,
+            "bookmarkCount": 2,
+            "authorUsername": "TheMuskManWorld",
+            "authorVerified": true,
+            "conversationId": "2122806446131920938",
+            "authorFollowers": 8802
+          }
+        ],
+        "nextCursor": "cur_g-Vi3T6WSPj0MnsZPz0Adw"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-capybara",
+      "kind": "anonymous",
+      "name": "Capybara",
+      "artworkKey": "capybara"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00049",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:40:34.347Z",
+  "started_at": "2026-11-23T07:40:34.559Z",
+  "completed_at": "2026-11-23T07:40:39.078Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

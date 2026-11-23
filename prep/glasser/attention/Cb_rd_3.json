@@ -1,0 +1,577 @@
+{
+  "id": "303de19a-bef1-4f26-ba8b-82d6d0ef5327",
+  "run_url": "https://app.glasser.ai/runs/303de19a-bef1-4f26-ba8b-82d6d0ef5327",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "AI driving instructor simulation",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "large_result: this response is ~68 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 25,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1pm0mds",
+            "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1pm0mds/i_got_uninvited_to_a_friends_holiday_potluck/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/7WlhG6c6ed3Spc7pbZm8QXROZxyLLbXdEL_K0V8lbZA.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 110892,
+            "title": "I got uninvited to a friend’s holiday potluck, while I was on my way to it.",
+            "author": "Any_Gap9612",
+            "authorId": "1xelz9ceu4",
+            "selftext": "I was invited to a potluck hosted by a friend, and was told that it was happening 3 weeks in advance.\n\nThe day of the dinner, my mom and I cooked some food to bring. I texted my friend a heads up that I was on my way to theirs. They replied saying that the dinner location was changed to a different friend’s house in the next city over, about 20 miles away.\n\nI started driving towards the city and asked for the address. They said everyone was already there and that there wasn’t enough room for me. I tried following up but didn’t hear anything else from them afterwards, and I didn’t want to make a scene by texting other people that were there, as most were friend-adjacent for me.\n\nI cut my losses, turned around and went home. I got an apology text a couple of days afterwards, but felt like the rug got pulled from under me. Super frustrating situation all around.\n\nEDIT: Wow this post blew up right away, appreciate all y'alls kind words and gold. Yes, the food in the photo was what my mom and I cooked (lumpia and pancit 🇵🇭). No, i'm not AI. As for the friend, i'm planning to cut contact with her.",
+            "permalink": "/r/mildlyinfuriating/comments/1pm0mds/i_got_uninvited_to_a_friends_holiday_potluck/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1765672551,
+            "numComments": 9058
+          },
+          {
+            "id": "1stj5dw",
+            "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1stj5dw/lifted_truck_lambo_parking_lot_bad_time/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/ejdsaWxreHUxeXdnMco-eEgMPZd5WtYsCyENnpfgjUBeokV_WKW60Bn2YU5Q.png?width=140&height=102&format=jpg&auto=webp&s=407e0d0fcda6b2e2bf038372ba4b56c556b063e8",
+                "type": "video",
+                "width": 140,
+                "height": 102
+              }
+            ],
+            "score": 82519,
+            "title": "Lifted truck + Lambo + Parking lot = Bad time",
+            "author": "Evasionz--",
+            "authorId": "5f5adqz",
+            "selftext": "Lifted trucks probably shouldn't be anywhere near dense parking lots.\n\nEdit: A lot of people are skeptical of whether this is AI/staged, or ask why the lady didn't back off the car. This is in a dense parking lot with cars that have dashcams/ EV sentry mode everywhere. Also her truck was in 2 wheel drive, you can see the back right tire spinning as she tries to reverse off the car. Her truck is stuck. She probably has an open differential and can't back off the car. She may have a 4wd mode, but she didn't use it in the heat of the moment. ",
+            "permalink": "/r/mildlyinfuriating/comments/1stj5dw/lifted_truck_lambo_parking_lot_bad_time/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1776951747,
+            "numComments": 10933
+          },
+          {
+            "id": "1wf97x0",
+            "url": "https://www.reddit.com/r/BoyDinnerDiaries/comments/1wf97x0/hug_your_kids_every_chance_you_can/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/dltarsrmsaph1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=fa771b87a502bb488483b12a465653cd8e1c7e27",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 68915,
+            "title": "Hug your kids every chance you can",
+            "author": "Paperbagsportsfan",
+            "authorId": "2pjdywh8",
+            "selftext": "(9/11/26) My 5 year started kindergarten last week at a new school with all new kids and all new teachers. She took the bus for the first time. She's very shy and timid but as the week went on she did better and better. A photo of her was even in the weekly newsletter playing in gym class.\n\nThe following week she came down with a fever. Not unusual so we kept her out of school. The following day it remained high with meds so she missed a second day. By day 3 we went to urgent care. They told us to take one additional med and to keep them posted if she doesn't get will. The pediatrician even called later that day to check on her. That night she woke up and became very delirious for a few mintues then snapped out of it. We brought her back to urgent care the next morning and they sent us to the ER to get blood work. \n\nThat began the worst day of my life so far. The doctor immediately thought it was leukemia or an infection. A few hours later we found out it was both.  Luckily it is the most common form of leukemia with a high success rate. Unfortunately they could not control the infection. She worsened as the day went on eventually going into septic shock. The doctors and nurses tried everything but eventually had to intubate her. Her last words to me while conscious were her struggling to say i love you. \n\nShe has since gone on a few more machines. She has an echmo pumping her blood since her right lung is collapsed or full of fluid not sure which. Her heart is too weak to work. She has too much fluid in her body so they also put her on dialysis. Doctors in the pediatric icu and from oncology both say each is treatable on it's own but having both things happen together is very rare. They are doing zoom calls with other doctors to get advice during rounds each morning. I am confident she will walk out of here but it is not easy. Her 3 year old sister just keeps telling her to get better soon. One of the nurses put it best, she's set up to succeed through the equipment but she needs to fight in order to win. My wife and myself are living a surreal nightmare. Idk what I'll do if I lose her. She's literally the glue that holds this family together. \n\nI'm not really eating but this day(s) old bagel and orange juice is my meal for the day \n\nUpdate (9/12/26): I'm just now opening this before I try to sleep for a few hours as I wanted to be as present as possible for my kids today.  I honestly didn't expect anything when I posted this. I had a moment of silence to myself in the bathroom and decided to write how I was feeling and what I was going through then posted it to this sub. THANK YOU for all of the support and advice. Somethings we are already doing and others we will implement.\n\nWe have brought her bedtime blanket and books from home. We read to her as often as we can. I also tell her stories about our family (how I met her mom, how we moved to our town, how we got our dogs, etc) and that has been very therapeutic for me. \n\nOur 3 year old came to visit and we walked through the meditation garden with her to find fairies. Getting out of the treatment and getting fresh air has been very helpful. I think it's important for our 3 year old to see the 5 year old and talk to her as well. The staff gave my 3 year old a fairy (bird) house and paint so we could do that in the family lounge away from the chaos of the treatment room. They also gave her a stuff animal, doctors kit, and some badges and electrodes so she can fix her stuffed animal similar to how they are fixing her sister.\n\nThe medical staff has been nothing short of amazing and has been saying we will take this 1 day at a time. My 5 year old had a good day today. Her fever is gone, her blood tests look significantly more normal than 24 hours ago. They could hear breathing sounds in her right lung for the first time today. Her dialysis was turned up to remove more fluids and she did great with that. Her oxygen sensor actually has a reading and they said it was because her heart has become strong enough to actually pump the blood up to her ear where they have it. Her echmo useage decreased from 75% to 65% and they said at 40% she can stop using it. We have a very long way to go but this was a step in the right direction, she truly is a fighter. \n\nFor anyone reading this going through a similar situation, we started asking family and friends to send us voice memos to play for her. That has been great to know you have so many people supporting her and it's a nice break from just talking. \n\nOther things I've learned the last 24 hours: \n\n-it's ok to be weak. It's ok to cry and let someone else hold you.\n\n-stay off chat gpt and meticulously reviewing her medical chart. The providers know more than you and more about your child than Ai. It'll drive you crazy and mentally drain you. Ask the providers as many questions as you can so you can get more familiar and comfortable (?) with what is going on.\n\n-get outside, even if for 5 minutes. Staying trapped in that room all day is not good for you mentally.\n\nStill not eating much. Only took a few bites of the bagel but managed to eat 3 chicken tenders for dinner and a piece of broccoli. I'm feeling more confident than I did when I posted this.\n\n\nUpdate 2 (9/17/26): Everyone is doing better! My daughter is off the echmo, ventilator, and dialysis! Shes slowly waking up and will hopefully be moved out of the ICU to oncology in the next few days! Because of that my wife and I are doing immensely better. Thank you everyone for all of the support. I made a carebridge page so if anyone wants to [see updates go here](https://www.caringbridge.org/site/6c600b6b-b22b-11f1-8264-55464dfa5171)\n\nUpdate 3 (9/21): Not much to update. Still in the PICU. She's making progress but not like before. Regardless she's not going backwards so I'll take it. She still is on CPAP for breathing as well as IVs for medication. Awaiting a port in the next few days to start receiving chemo treatment that way. She seems out of it more than before but I'm sure she's really tired. Hopefully they can move us out of PICU this week. \n\nHer Preschool teacher setup a go fund me for her. I am a small business owner so I have been closed this whole time and don't plan on reopening until she's back home. The funds will help support me being with her as well as pay her medical bills. \n [The go fund me can be found here ](https://www.gofundme.com/f/gabriela-strong)\n\nThank you everyone for the support. \n\nUpdate 4 (9/24/26): We are still in the PICU. Her brain CT and EEG has come back negative. She had a PICC line placed in her arm to continue receiving chemotherapy. She had a line put into her chest to remove some fluid and over 700 ml (over 20 oz) of fluid drained! She's been breathing much better since. They have her alternating between CPAP and high flow oxygen to help her breathe, which is a step in the right direction. She started eating yesterday and devoured some Italian ice.\n\nShe has been mostly non-verbal since being extubated 1 week ago but she did say \"mommy\" twice the other day. She's been communicating much better non-verbally with head movements, she has been sleeping better at night, and is more active during the day.\n\nStill working on lowering her medications so we can move her over to the oncology floor, but all steps in the right direction!\n\nUpdate (9/28): It's going. I've been trying to reply to all the DMs but haven't replied to any comments. I do try to read all of them and I appreciate the success stories and advice. My daughter is doing well overall. We are still in the PICU but she is more interactive. She sat in a chair and at times can be pretty talkative. They took her off oxygen so she's fully breathing on her own. They also got rid of a few of the IVs in her arms so that helps with her discomfort. They'll soon do some testing to see if she can eat actual food on her own (currently getting her food through a tube). Unfortunately the fluid has come back in her chest so she will need another chest tube for drainage again.\n\nWe've been able to get a more clear picture on why her case was so sudden and fast acting. Along with the Leukemia they discovered she now has HLH (Hemophagocytic Lymphohistiocystosis) which is an inflammatory disease. This led to her body rapidly declining along with the infection and leukemia. The inflammation going throughout her body is what makes her case more unique. The treatment is the same/very similar to the same medication as the leukemia, just not as straightforward since her liver is still pretty inflamed. Her first day here she had what's called a \"cytokine storm\" from the HLH which temporarily damaged her organs. That \"storm\" really calmed down and they are trying different drugs since this isn't routine. They've mentioned her case at a nationwide conference and said she was one of the most talked about so that sucks she's that bad/rare of a case but I'm glad to have so many eyes reviewing her care. \n\nShe's starting to have some PTSD. She developed a fever the other night and when you have no immune system it's not a good time. It was also a scary look into what the next 2 years holds, as some of you mentioned, but she's worth it. I'm hanging in there. Some days are definitely harder than others. Seems to be 3 steps forward 2 steps back.\n\nThanks again to everyone for supporting us.\n\nUpdate (10/12): it's been awhile since I posted an update.  We're still in the PICU and they gave us the biggest room they have (because we don't seem to be able to leave)! \n\nSince my last update my daugther has been up and down. She developed 3 new infections. 1 in the PICC line, 1 in her intestines, and 1 that might have spawned from her intestines and traveled back to the PICC. All have cleared so that's been great. She had another chest tube put in since the mysterious chest edema came back and that has since been removed and stable. She did develop mucositis and typhlitis in her intestines. This led to a hole in her colon, bleeding into the intestines, and air into her abdomen. She had to get emergency surgery and have part of her large and small intestine removed and an ostomy put in.\n\nFortunately we caught that just in time and she's actually looking better than before. It looks like her HLH is also under control and she's finally producing white blood cells and platelets on her own! Hopefully she can rest and continue to get stronger so we can finally leave but I've been saying that for over a month now she who knows! Mentally the whole family and myself are staying strong. The entire PICU and our community outside of the hospital has been incredibly helpful.\n\nUpdate (11/6): My daughter is still in the hospital but out of the PICU! We moved over to the oncology floor 2 weeks ago. It's much quieter and slower paced which is great. She's been able to leave her room in a wheelchair to explore more of the hospital. It looked like we were going to actually be discharged this past week but she fell ill and that has kept us here. She started her second round of chemo. Once her intake and ostomy output level off a little more then we can go home until the next thing comes up.\n\nAs we left the PICU the medical staff started to open up more about how lucky she is. One doctor said her estimated chance of survival that first week was around 10%. They said ECMO for septic shock alone carries a 75% mortality risk and that's without the leukemia and HLH. They believe mortality of HLH independently is similarly high. The PA said they personally have never seen anyone survive ECMO for septic shock and have only seen one person survive HLH.\n\nIt truly is a miracle she's alive. We are awaiting her discharge to go home but until then I am grateful to be able to spend time with her again  ",
+            "permalink": "/r/BoyDinnerDiaries/comments/1wf97x0/hug_your_kids_every_chance_you_can/",
+            "subreddit": "BoyDinnerDiaries",
+            "createdUtc": 1789309780,
+            "numComments": 745
+          },
+          {
+            "id": "1td5abq",
+            "url": "https://www.reddit.com/gallery/1td5abq",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/ddebrdse151h1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=0cb7cbf85dcc731a4a6612af310e6d836244c5d5",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 56986,
+            "title": "Kittens in storm drain successfully rescued. Thanks, everyone!",
+            "author": "belltown99",
+            "authorId": "cxrrs",
+            "selftext": "EDIT (5/22/26): Both kittens passed their behavioral tests, which is good news since that is a requirement for adoption. They are living at the kitten nursery, happy and healthy. Next step is spaying/neutering, which will likely take place after the kittens reach a specific age/body weight. Thanks everyone for the follow ups about this and sorry it took awhile to get the update. The shelter is pretty busy, so getting a hold of someone on the phone for an update is rare.\n\n\n\nUpdate to my original post: [https://www.reddit.com/r/cats/comments/1tc62yv/kitten\\_stuck\\_down\\_storm\\_drain\\_help/](https://www.reddit.com/r/cats/comments/1tc62yv/kitten_stuck_down_storm_drain_help/)\n\nHi everyone, so sorry for the radio silence yesterday. The day completely got away from us, but I have good news – the kittens were rescued and are safe\\*\\*.\\*\\* Below is a recap of how the events transpired. Given how many of you have a vested interest, I thought it appropriate to include as many details as possible.\n\nThey’re currently with the Humane Society getting checked out. They seem to be in reasonable shape, just understandably shell-shocked, hungry and exhausted. Because we have cat allergies, we unfortunately couldn't keep them ourselves. They are so incredibly adorable and we sincerely hope they find a good home together. It wasn't easy giving them up, but we felt we had given them a second chance at life. \n\nI wish I had more photos, as so many of you want to see them and I feel like so many of you have been with us during this journey. Things got hectic during the rescue process and the little ones seemed pretty stressed out, so we let them be. The Humane Society was a little awkward about not letting us take a few final photos before we left.\n\nI honestly didn't expect my last post to blow up the way it did. Your advice, your stories, and just the general \"hive mind\" support helped us triage the situation when we were in need of a lot of ideas quickly. This was a team effort, Reddit. I never thought I’d feel this connected to a bunch of strangers, so thank you.\n\n**Full story**\n\nA few weeks ago, we noticed two strays in the yard. We have a bit of a gopher problem, so we figured if we left out some food and water, it was a win-win for everyone. Then, a few days ago, a tiny kitten popped out of the bushes one evening while I was taking out the trash and nearly gave me a heart attack. I had a good laugh, but didn't think more about it.\n\nThe next day, my wife calls me saying there’s a cat stuck in one of our storm drain pipes. I didn't believe her at first, but then we heard the sad cries coming from the gutter downspouts. After checking our storm drains, we realized that there were two ways the kittens could have entered: a grate at the drain exit (which had popped off) and an opening in our garden (previously unknown) which likely serves as an air intake to promote flow. Both of these entrances have now been gated and secured. The initial photos I shared were of the downspout for the gutters, which I had removed in order to access the pipes below. The gutter pipes have been replaced, so no little kitties will be able to jump down there.\n\nWe initially cut a towel into thin strips and lowered them into the entry/exits into the drains and threw some cat food down the pipes to attract the cats. That didn't work and we still heard the sad meows (heartbreaking). Yesterday morning, my wife was really worried so she played the sounds of a YouTube video of a mother cat calling her kittens. She received an instant response and looked down the downspout. There it was, a tiny spotted face staring back at her. She screamed for me and for us that was overwhelming, so we decided to kick it into higher gear and get much more aggressive about saving them.\n\nWe called animal control for help. Sadly, animal control said they don't assist with this sort of thing, so we were on our own. I don’t think they were rude about it, but it felt like our situation was either not their primary focus or much lower in priority compared to other issues they handled. We didn’t want to quit, so I said to my wife, hey let’s post on Reddit while we brainstorm to get some ideas from others and that’s when I encountered r/Cats.\n\nWithin minutes, people responded and we started looking into everything that was recommended. We decided to start with the least invasive and escalating as needed. The top ideas were: 1) provide a way for the kittens to climb out; 2) call the firefighters; 3) call the plumbers; 4) cut the pipes open.\n\nOur local firefighters responded within a few minutes of us calling them.  It was a full truck roll and three guys hopped out. They were super kind and I think they helped us calm down quite a bit, as we likely had a lot of frantic energy about us. We tried several ways to locate/drive the kittens out the storm drain exit, but after half an hour or so, they had to leave. I could tell they really wanted to find the kittens, but they also had other people to help. We were so grateful they came.\n\nQuite a few Redditors mention calling a plumber. This sounds so obvious in retrospect, but I never thought of this. While we were searching, we noticed AI was recommending Roto-Rooter, who offered free pet rescues. This sounded like just what we needed and I was a little skeptical about it, but we thought, why not give this a shot. We have nothing to lose and really wanted to get those little guys out. We called the 800 number and a lovely woman picked up on the second ring. She calmly took our info and instructed us to wait for a call back. 15 min later, Jeremy, who is a field supervisor in the region, calls us back. He's a self-declared cat lover and already on the way. Both he and his fiance have seen my original post trending on Reddit. He's about an hour away from us, but I swear he was at our door in much less time.\n\nI get a new wave of confidence when Jeremy steps up to the task. I give him the run down and just then, we see a small head pop out of the storm drain exit (let’s call this kitten, Princess). Princess ducks back into the pipe and we get there just in time to see a tail disappear. Jeremy races back to his truck to get some gear, yelling “we can do this!” He deploys his digital scope, which has 100ft of line and plans to use its lights to encourage the kittens to reverse out of the tunnel system. I've attached actual video footage from the scope inside the drain line. Unfortunately, I was focused on grabbing Princess at the very end, so I didn't capture any photos. We do have some after action shots of Jeremy consoling a very scared kitten.\n\nWe thought our job was done. As we clean up, we hear more meows but this time, they are coming from the other side of the drainage system. We start at the very beginning of the pipes with the scope and work our way through. I have some long runs and it's a bit of a network of pipes, so it took some time, but seeing the kitten’s tiny face (let’s call him Mario), beautiful eyes, and pink nose on the scope’s monitor gave us a renewed sense of purpose. We used two different scopes to corral the kitten towards my wife, who was waiting at the drain exit. After a few start/stops, we get the kitten to go down the right tube to the exit. He's a bit of a fighter, so I end up having to reach into the pipes and grabbing him (gently) with my bbq tongs since he keeps retreating. Video footage of the scope in the pipes also included. \n\nAfter settling down the kittens into their own cardboard boxes, we give them some food/water/hugs and we finally take a breather. I've soaked through my shirt and Jeremy's knuckles are bloody from pushing the scope cabling down the pipe. My wife is still in disbelief and all of us are smiling. We are so relieved!  \n   \nJeremy received a few service calls while he was here, so I could tell he had to move on (but didn’t want to). We tried to compensate him for his time but he flat out refused. I think we had to force him to take a sandwich and drink from our local deli. As he was packing up, he shared a story about a time he couldn't rescue a kitten that had fallen 20 feet vertically into a storm drain, so this felt like redemption to him. We were very moved hearing that this was a win he needed. He certainly made up for it, since we pulled not one, but 2 out of the tunnels.\n\nAbout the cats themselves. We estimate they are around 8 weeks old, based on their size. Princess is much smaller, with light brown spots. She is fairly shy, mews very quietly, and keeps to herself. I suspect the ordeal was likely tougher on her because she's smaller.  Mario is gray with tiger stripes. He is much larger, aggressive and loud. I am less worried about him.\n\nIf we could keep these kittens, we would (I think this is the cat tax people are referring to?). Unfortunately, I am very allergic to cats and our young children show signs of this as well.  We were worried about their health, so we dropped them off at the Humane Society to give them the best chance at recovery. We thought it was important for our kids to understand this process, so we picked them up for school and headed to the shelter together to say our goodbyes. The wonderful team there immediately started tending to them and I hope to get an update later today on their status. I am told that kittens who come in as duos at this age “do very well” and are quite popular, so fingers crossed they land in a loving home. Our local shelter explicitly asked us not to share their location, which we have respected. My understanding is they have experienced the good people of the Internet calling to ask about the cats and it overwhelms their systems.\n\nAs I write this, I’m still a little in disbelief how so many different people responded to my post with great ideas, Jeremy dropping everything to show up at a stranger’s home, and for those little kittens staying resilient. My wife and I were preparing ourselves for a much different ending. I’m so glad this was a happy ending that I didn’t expect and this all provides us with a little much needed nourishment.",
+            "permalink": "/r/cats/comments/1td5abq/kittens_in_storm_drain_successfully_rescued/",
+            "subreddit": "cats",
+            "createdUtc": 1778780125,
+            "numComments": 754
+          },
+          {
+            "id": "1ree20k",
+            "url": "https://www.newscientist.com/article/2516885-ais-cant-stop-recommending-nuclear-strikes-in-war-game-simulations/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/q3QU9aPNch0j5gkFNIJO_NVAl4eXbl9Cv2jEI0BolhQ.jpeg?width=140&height=93&auto=webp&s=1de3eec985cf54d5c359bfe6f0ccb65d87a467d9",
+                "type": "photo",
+                "width": 140,
+                "height": 93
+              }
+            ],
+            "score": 36283,
+            "title": "AIs can’t stop recommending nuclear strikes in war game simulations - Leading AIs from OpenAI, Anthropic, and Google opted to use nuclear weapons in simulated war games in 95 per cent of cases",
+            "author": "Teruyo9",
+            "authorId": "5cfat",
+            "selftext": "",
+            "permalink": "/r/technology/comments/1ree20k/ais_cant_stop_recommending_nuclear_strikes_in_war/",
+            "subreddit": "technology",
+            "createdUtc": 1772028213,
+            "numComments": 2787
+          },
+          {
+            "id": "1wojvzi",
+            "url": "https://www.reddit.com/r/antiai/comments/1wojvzi/both_funny_and_worrying/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/lvpy69q3gcrh1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=5613741bc15ba72991b28b9436814c35dacfef6c",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 25751,
+            "title": "Both funny and worrying",
+            "author": "Frxdnt",
+            "authorId": "1jni7r86af",
+            "selftext": "",
+            "permalink": "/r/antiai/comments/1wojvzi/both_funny_and_worrying/",
+            "subreddit": "antiai",
+            "createdUtc": 1790201478,
+            "numComments": 954
+          },
+          {
+            "id": "1pcz82l",
+            "url": "https://www.reddit.com/r/ProgrammerHumor/comments/1pcz82l/youareabsolutelyright/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/EbnLzFl0GxAgR4p65AD67gV-Am8asbFAdBLgZ972HlI.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 129
+              }
+            ],
+            "score": 24665,
+            "title": "youAreAbsolutelyRight",
+            "author": "electricjimi",
+            "authorId": "q3ew9",
+            "selftext": "",
+            "permalink": "/r/ProgrammerHumor/comments/1pcz82l/youareabsolutelyright/",
+            "subreddit": "ProgrammerHumor",
+            "createdUtc": 1764752018,
+            "numComments": 271
+          },
+          {
+            "id": "1usmsx8",
+            "url": "https://www.telegraph.co.uk/films/2026/07/10/christopher-nolan-interview-odyssey-backlash/?WT.mc_id=tmgoff_tw_post",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/KyjDwMQ4L5NfXdQLttR9_i_BWmWkRbfcv3UeFUTqs6w.jpeg?width=140&height=78&auto=webp&s=5c64e809aabad67f368a94d88270ca4b5c243650",
+                "type": "photo",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 23799,
+            "title": "Christopher Nolan: \"I’ve never seen a more rapid wholesale dismissal of a supposedly foundational jump in technology in my lifetime. So much energy has been expended on bringing in AI, but if you look at Gen Z's reaction, they’re utterly rejecting it. They see it for what it is very quickly”",
+            "author": "ChiefLeef22",
+            "authorId": "7a7qkhpq",
+            "selftext": ">“I’ve never seen a more rapid wholesale dismissal of a supposedly foundational jump in technology in my lifetime,” he says. “So much energy has been expended on bringing in AI, but if you look at that generation’s reaction, they’re utterly rejecting it.” He cites his own four children – in their late teens and early 20s – as a further example.\n\n>“**Their judgment of AI slop has been immediate and harsh.** They see it for what it is very quickly – and it’s much easier for them to identify it, because it grew out of an online world they know really well. And while that doesn’t mean that every aspect of the technology is useless or meaningless, in film-making it’s hitting at exactly the wrong time. After years of driving towards heavily virtual environments, we’re seeing a renewed interest in more tactile, more real forms of storytelling.”\n\nMassive Nolan W",
+            "permalink": "/r/antiai/comments/1usmsx8/christopher_nolan_ive_never_seen_a_more_rapid/",
+            "subreddit": "antiai",
+            "createdUtc": 1783687884,
+            "numComments": 989
+          },
+          {
+            "id": "1pmk9df",
+            "url": "https://www.reddit.com/gallery/1pmk9df",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://a.thumbs.redditmedia.com/iZ7lvSUd8t0NgigrfrBxwOSv1vdYpmgFrus-XOH3c90.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 23721,
+            "title": "Three weeks of hard work on a paper all for nothing because of AI use",
+            "author": "MortemPerPectus",
+            "authorId": "hpz3an8e9",
+            "selftext": "Im glad that the final assignment (media analysis) was cancelled because it meant I could focus on other finals, not to mention it doesn’t matter grade-wise since he just gave everyone a 10/10 on this and the previous assignment. Where it’s mildly infuriating for me is I spent three weeks on the previous assignment (position paper/argumentative essay) arguing against the use of AI (more in the creative arts but there was a paragraph about it in education too) and managed over 3000 words for it which I was really proud of and really wanting feedback on so I could improve my writing. Instructor got so disappointed he gave up on the entire class.",
+            "permalink": "/r/mildlyinfuriating/comments/1pmk9df/three_weeks_of_hard_work_on_a_paper_all_for/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1765734733,
+            "numComments": 3421
+          },
+          {
+            "id": "1xn1dw9",
+            "url": "https://www.reddit.com/r/EntitledPeople/comments/1xn1dw9/but_the_menu_is_right_here_on_your_website/",
+            "nsfw": false,
+            "media": [],
+            "score": 18698,
+            "title": "\"But the menu is right here on your website!!!\"",
+            "author": "Poly_Olly_Oxen_Free",
+            "authorId": "wts2gsi",
+            "selftext": "Edit: Just to prevent repeated questions: No, I am not going to dox myself so you can get a cheap meal at my restaurant that you will never visit. You're likely not taking a 2-3 hour (or more) drive to get here. We're in central PA, and that's as close as I'm gonna get.  \n\nNo, I am not AI, an AI would not say farting-dick-nipples. If you're asking me for my location, or calling me AI, don't waste your time.  \n\nYes, I smoke pot at work when I get a break from the chaos. Yes, my employees are allowed to do the same. I don't get why some of yall are so anti-pot. I thought this was a liberal website. I can guarantee that you would rather have us cook for you stoned than have us cook for you sober. \n\n\n\nI own a restaurant. I also work in the kitchen of said restaurant 11am-11pm on Fridays, Saturdays, and Sundays. On most days, we have our lunch menu from 11am-3pm, and dinner starts at 3pm with our Early Bird special going from 3pm-6pm, and full priced dinner starts at 6:01pm. On Sundays, we have both our normal lunch menu and a special brunch menu during \"lunch\" hours. \n\nSo, here I am, enjoying a bowl out by the dumpster on a Sunday after the lunch/brunch dies down. The only customers in the store are 3 elderly couples who came in for the Early Bird dinner special. Felt safe taking a break. But no. A new table gets sat **at 3:45pm**. It's another elderly couple. They ask the server for brunch items. Server explains that brunch ends at 3pm. Of course, they ask for a manager. \n\nMy FoH manager comes out and once again explains that they are too late for brunch, and instead offers them the Early Bird menu. Nope, that's not good enough. They want eggs Benedict and French toast, they want mimosas. \n\nFoH manager comes out and tells me about the issue. I put my bowl down, sigh, and walk inside. I wash my hands, hit the mouthwash, and go to the table. \n\nAs soon as I get there, the woman shoves her phone in my face, quite rudely. I explain to her (this is the third person telling her this), the brunch menu is only available until 3pm, and that she'd missed the window to order those items. She then **yells** the title of this post at me, while shoving her phone in my face again. \n\nI get out my own phone, and go to our website. I get to the brunch menu page, and zoom in on the hours that it's available. I show her my screen, and ask if hers says something different. It does not. She asks if I can make an exception for her. Honestly, I could have made her the fucking egg benny and some French toast. We technically could have served her mimosas. But her attitude was not going to be rewarded that day. \n\nI told her she could order from the Early Bird menu, or the dinner menu, but otherwise I couldn't help her, and she should leave. Her husband ordered \"The Twos\" (a 22oz Porterhouse steak, a 22oz beer, and 2 large sides for $22). She decided to only get a coffee. She gave me the stink eye every time I walked out of the kitchen. \n\nWhen her husband decided he wanted to order a dessert, she stormed out and went to go sit in the car. Hubby was a good guy though. He got the Crème brûlée and even bought some of our rock candy to go (blue razz and black cherry). Left a 24% tip, even though all our menus clearly state that we pay our employees a living wage, and tips are not required/expected.",
+            "permalink": "/r/EntitledPeople/comments/1xn1dw9/but_the_menu_is_right_here_on_your_website/",
+            "subreddit": "EntitledPeople",
+            "createdUtc": 1793731560,
+            "numComments": 1281
+          },
+          {
+            "id": "1r657he",
+            "url": "https://mashable.com/article/ai-hard-drive-hdd-shortages-western-digital-sold-out",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/XLoYSBOg9rXs2MeXeRhD7PMewb1DJ4xckdOkAvW5hBI.jpeg?width=140&height=78&auto=webp&s=4a95c7d94d6f8c2d97755f6f9864fe0c28a953f9",
+                "type": "photo",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 16811,
+            "title": "AI: Hard drives are already sold out for the entire year, says Western Digital",
+            "author": "gdelacalle",
+            "authorId": "aznww",
+            "selftext": "",
+            "permalink": "/r/technology/comments/1r657he/ai_hard_drives_are_already_sold_out_for_the/",
+            "subreddit": "technology",
+            "createdUtc": 1771234259,
+            "numComments": 1356
+          },
+          {
+            "id": "1wl21gv",
+            "url": "https://www.reddit.com/gallery/1wl21gv",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/82snm617jkqh1.jpg?width=140&height=78&auto=webp&s=8dfa4ddbe0697d8cbc7fca1ddadc148fd7260fcd",
+                "type": "photo",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 16660,
+            "title": "Advanced aliens didn't invent/discover this one basic thing.",
+            "author": "HotUKTakes",
+            "authorId": "2g72o13ms4",
+            "selftext": "1. The Santi, from The Three Body Problem, are masters of dimensional engineering. They can build an AI computer the size of a planet, and fold it into the size of a photon.\n\nBut they never invented the concept of lying.\n\n  \n2. The Asgard, from Stargate, are an advanced civilization with FTL travel capable of spanning different galaxies. But they need the help of humans to fight their enemies the replicators, a mechanical lifeform comprised of replicating lego blocks, because human guns can blow the blocks apart, while Asgard energy weapons are just absorbed.\n\n  \nThe Asgard say the idea to use chemical reactions to launch a blunt object at high velocity never occured to them. \n\n  \n3. Despite having the ability to build a simulated beach, complete with simulated earth atmosphere, The Eridians didn't discover relativity and radiation.\n\n4. The aliens from War of the worlds just lick everything, clearly having no concepts of germs. Which is what kills them in the end.\n\n  \n5. Despite having FTL travel, the Havesters from Independence day, never invented network security, as they are hacked by a human macbook.\n\n  \n",
+            "permalink": "/r/TopCharacterTropes/comments/1wl21gv/advanced_aliens_didnt_inventdiscover_this_one/",
+            "subreddit": "TopCharacterTropes",
+            "createdUtc": 1789863529,
+            "numComments": 1882
+          },
+          {
+            "id": "1xkx08t",
+            "url": "https://www.reddit.com/r/isthisAI/comments/1xkx08t/my_wife_is_not_convinced_that_this_halloween/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/dzU2NXZycHRleXloMVzWXR3QlpNQbTs3UpCuKsxVoIkc5lJHOfxq0t4RMPd2.jpeg?width=140&height=140&crop=1%3A1%2Csmart&format=jpg&auto=webp&s=65d34235d85276601e33a238a8f22ccf1a035e91",
+                "type": "video",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 16132,
+            "title": "My wife is not convinced that this Halloween block party is AI. It seems so uncanny/off to me.",
+            "author": "Chumpcinco",
+            "authorId": "alqcg",
+            "selftext": "There’s too many spidermen and minions and I know people suck at driving but those cars are moving pretty fast through a neighborhood Halloween party. ",
+            "permalink": "/r/isthisAI/comments/1xkx08t/my_wife_is_not_convinced_that_this_halloween/",
+            "subreddit": "isthisAI",
+            "createdUtc": 1793518334,
+            "numComments": 2379
+          },
+          {
+            "id": "1xgt6yy",
+            "url": "https://www.reddit.com/r/GirlDinnerDiaries/comments/1xgt6yy/considering_giving_up_my_daughter_i_cant_take/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/3kldzbj8g0yh1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=36531efdff822d6e1c355bc45acbe40ff64701ff",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 15899,
+            "title": "Considering giving up my daughter, I can't take care of her",
+            "author": "True_One7607",
+            "authorId": "1t70r3pbcr",
+            "selftext": "last night's dinner of papa john's jack-o-latern pizza, which I will be having for lunch today too. I know I could have saved the $12 and used it towards bills, but my daughter asked for pizza and I didn't have the energy to cook. Seeing her light up at a fun gimmicky pizza was awesome because I already tell her \"no\" to so many things.\n\nI'm just so tired. I am at the point where I think about shoplifting more often than not to be able to provide basic necessities for my daughter, or giving up custody to the state because life is not getting any easier. Obviously not going to, because my child's biological father is already in prison and the last thing I need is a criminal record. I don't receive any type of child support, I make \"too much\" for SNAP, TANF, low-income housing according to social services. I make $21 an hour but it's part-time and capped at 29 hours a week for a job that \"doesn't have the budget to make me full-time\". My hours are getting cut because I can't work more than a certain amount in a calendar year and I'm close to hitting that limit. Plasma donation was going well at least making sure I could cover all of my bills, but then I lost weight and at 102 pounds, they will not let you donate plasma for safety reasons, gotta be at least 110 pounds to donate safely.\n\nI just went through a 4 round/1 writing assignment interview schedule for a 4 year university and got rejected because they \"went with another candidate\" lmao. It felt like a kick to the gut. I'm still putting it applications any and everywhere I can. But I either get no calls back for interviews or just outright rejections by their AIs that review resumes. I've paid out of pocket for resume reviews. I have a bachelor's degree. I'd cry to make 40-45k a year at a full-time job and have PTO and not be at the whims of my supervisor and their moods. No one is hiring. I'd even go work retail or fast food if it meant a full-time job with benefits\n\nI budget down to the penny, I shop at aldi and lidl. I use my local buy nothing group. I go to TWO different food banks every month, but they keep giving out less and less. Most days, I'm surviving on peanut butter sandwiches and canned vegetables. Not because that's what I want to eat but that's because that is what the food banks are giving out. I haven't bought ground beef in months, chicken and turkey are rare treats each week. And now our rent is going up. Again. It's getting to the point where one entire paycheck won't even cover the roof over our heads. An entire paycheck, gone, and I'll still owe more before I can even begin thinking about electricity, groceries, gas, or anything else we need to get through the month. I don't know how I'm supposed to keep making the numbers work when they simply don't add up anymore. I can't budget my way out of not having enough money to begin with. How can I take care of my daughter when shit just isn't adding up? I can't not buy groceries, I can't NOT pay my electric bill or put gas in my car. Some days I just want to say fuck it and rage quit and blow up my life and some days the thought of it never getting better makes me want to unalive myself.  Having to tell my kid no over and over that we can't do fun things like go to the movies, or trampoline park or having to decline her classmates birthday parties because I can't afford a gift for them or even the gas to drive her there and pick her back up\n\nI want to be able to fill up my gas tank without it overdrafting my account. I want to be able to pay my rent in one go and my electric bill at the same time and not constantly pay late fees on top of the bills themselves. I want to be able to doordash lunch at least once a week like I see my supervisor doing 3-4x a week instead of just not eating lunch at my desk and drinking the free coffee we have and ignoring my stomach hurting. Holy shit I want to be able to take my kid on an actual vacation. I want to be able to buy my kid the Christmas gifts she wants without having to go through toys for tots or other charities. Things are not getting better, and I am so tired of struggling. Had I known 9 years later I would be in this bad of a place and struggling THIS much I would have given her up for adoption. Its not fair to her to live in poverty and have a mom barely making it. I know I'm not the only one struggling but I just feel beat down and tired. I'm only 27 and really thought life would be different for me, for us. I'm just waiting for the day my daughter tells me she hates me because I just fucking suck at taking care of her. I know logically she isn't better off without me, I don't even want to be rich. I just want to make a stable income and be able to afford the basic necessities and maybe some fun stuff on the weekends or over her summer break. Or to be able to cover emergency expenses. Life is just way harder than it needs to be ",
+            "permalink": "/r/GirlDinnerDiaries/comments/1xgt6yy/considering_giving_up_my_daughter_i_cant_take/",
+            "subreddit": "GirlDinnerDiaries",
+            "createdUtc": 1793109313,
+            "numComments": 1423
+          },
+          {
+            "id": "1xttybq",
+            "url": "https://www.reddit.com/gallery/1xttybq",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/oik54lljq11i1.jpeg?width=140&height=88&auto=webp&s=301c782c732206658e6d52947a8dd9da6e998f4f",
+                "type": "photo",
+                "width": 140,
+                "height": 88
+              }
+            ],
+            "score": 14847,
+            "title": "I drew everyday for 2 years",
+            "author": "Dawn_Jon",
+            "authorId": "1wbso33um2",
+            "selftext": "Recently crossed a two year milestone since I began drawing and wanted to follow up on my [one year progression post](https://www.reddit.com/r/learntodraw/comments/1oum4gk/i_drew_everyday_for_a_year/).\n\nI picked up art in November 2024 as a complete beginner after watching Pewdiepie's one year art journey. I thought I could do it too, so I bought a sketchbook and began practicing daily.\n\nJust as I passed my one year mark, I watched a Proko livestream and realized we lived in the same city in Southern California. Now I had been self taught for my first year, and with my poor judgement, I thought that was a badge of honor. Nevertheless, I was curious to know if Proko offered any in person lessons. But what I stumbled upon was Watts Atelier.\n\n[Watts Atelier](https://www.youtube.com/watch?v=rl8cVO-WS64) is an art sanctuary run by Jeff Watts. An atelier where anyone can sign up for as few or as many classes as they’d like, for however long they want, at a fraction of the cost of traditional art school. An institution that has been running for 30+ years and where [Proko](https://stanprokopenko.com/2009/09/7-years-watts-atelier/) himself trained as a student and later taught for a total of 11 years. \n\nI thought about it for a month, making every excuse under the sun as to why attending this atelier would be too much. Excuses like *I don’t like drawing realism and from life, I don’t like using charcoal and newsprint, I don’t want to spend money, I like being self taught*, *WTF is the Reilly Method, it looks chaotic.* But the more I learned about this atelier and how artists travelled across the world to be there, the more I realized I would regret not attending when it was only a 25 minute drive.\n\nThe year was split across six terms, and I took just one class per term, which came out to just one three-hour class every 1.5 weeks throughout the year. It’s what I could manage while working full time as an engineer. The classes I took focused on [figure quick sketching](https://www.youtube.com/watch?v=ZqDhYjJY0Pg), [head drawing](https://www.youtube.com/watch?v=4eXrNCR7xfE), and [figure drawing](https://www.youtube.com/watch?v=kjjqyRu26D8). Drawing from life was incredibly difficult, and it felt like starting over again. I mixed in my in person classes with some of their online content and Proko videos, which helped push me forward on the off days. At this stage of my training, it was extremely important to me for all my learning resources to align cohesively. Every instructor at Watts was once a student there. Meaning no matter who I learned from, the concepts continued building on the same foundation. A huge bonus was that I could supplement my practice with Proko’s resources as he also stood on the shoulders of Jeff Watts and Frank Reilly.\n\nTo say Watts Atelier has been effective for me is a gross understatement. Learning to become a great artist is not just about developing fundamental skills, but instilling the mindset to be patient, persistent, and persevering through plateaus. Not all of the art journey is fun, and there’s a saying that “misery loves company.” The fellow students and instructors I’ve met there have made this personal journey just a little less lonely. I know it comes from a place of privilege to be able to afford lessons, but if there happens to be any [masters](https://www.artrenewal.org/Atelier/Search) near you that fits within your budget and schedule, absolutely take that opportunity to learn from them. The window of time in which we can dedicate ourselves to training is shorter than we think. Don’t regret it.\n\nAs for the actual year of drawing, I practice between 2-3 hours a day. I practiced a lot from Proko’s [YouTube](https://www.youtube.com/watch?v=u6-bCgRmcko&list=PLtG4P3lq8RHHFhiyjXP4UT-yUo7pC13GQ) and his [figure drawing fundamentals course](https://www.proko.com/course/figure-drawing-fundamentals). I watched a lot of Watts Atelier online content both on their [YouTube channel](https://www.youtube.com/@wattsatelier) and one of the former instructors' [channel](https://www.youtube.com/@foundationartschool/videos). What I learn in class is pretty much identical to what you’d see from their online program, but my goal in person was to leave knowing what to practice. I didn’t care how my drawings turned out or the mistakes I made during class. What I hated was hearing the same critique in my next session. I wanted to both identify my weaknesses and form a plan with the instructors on how to isolate and practice through the off days. Some may not agree with this philosophy, but there’s a phrase I strongly agree with. “If you have enough starts, the finishes will take care of themselves.” My daily drawings never carry to the next day. If I have 5+ hours that day to practice, then I’ll go for a longer drawing. But chances are I don’t have that much time and I’ll do many quicker sketches to get more starts in. \n\nAlthough I’ve made a lot of progress this year, I’m nowhere near where I’d like to be. I’ll be training for a long time. The purpose of this post is to share the path that I'm on, not to tell you what you must do. If you’d like to reach out to exchange work or have me share more about what I’m learning in class, I’m all ears.\n\nIf you’d like to see everything I’ve drawn since the beginning, as well as what I practice day to day, it's all here on my [timeline](https://jonathanlinart.com/).\n\nSee you lovely artists next year. Happy doodling!\n\nTL;DR Just draw and practice",
+            "permalink": "/r/learntodraw/comments/1xttybq/i_drew_everyday_for_2_years/",
+            "subreddit": "learntodraw",
+            "createdUtc": 1794431839,
+            "numComments": 423
+          },
+          {
+            "id": "1wrud91",
+            "url": "https://www.reddit.com/r/whatisit/comments/1wrud91/what_is_this_in_the_sky/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/amt1dGJwYnhlNHNoMSwE8JkvvlqNAQPG3r-aDx-llVeOR_gUhbHw0E4KvLEo.png?width=140&height=140&crop=1%3A1%2Csmart&format=jpg&auto=webp&s=0e1e5a2b5fe4fd9d63c07af4c7b630179b4dfa15",
+                "type": "video",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 14788,
+            "title": "What is this in the sky?",
+            "author": "Alert_Usual1197",
+            "authorId": "c22hrelm",
+            "selftext": "Location- central Missouri\n\nMy parents sent me this earlier and have no clue what it is. At first I thought it was those black birds that swarm and dance around. But there isn't enough movement and they are way to high in the sky I believe. They sent me another video and it just stays in same position. Neat looking tho!\n\nEdit: this is not AI... my parents were taking a drive and noticed it. Its what old retired people do and they wouldn't know how to make an AI video in the first place. 😂",
+            "permalink": "/r/whatisit/comments/1wrud91/what_is_this_in_the_sky/",
+            "subreddit": "whatisit",
+            "createdUtc": 1790540074,
+            "numComments": 2672
+          },
+          {
+            "id": "1qwbj18",
+            "url": "https://www.reddit.com/r/wallstreetbets/comments/1qwbj18/the_spacex_ipo_is_going_to_tank_the_market/",
+            "nsfw": false,
+            "media": [],
+            "score": 14499,
+            "title": "The SpaceX IPO is going to tank the market",
+            "author": "El_Nahual",
+            "authorId": "lrzhu",
+            "selftext": "Look guys, this is pretty simple. \n\nSpaceX wants to go public at an eye-watering $1.5 _trillion_ valuation. What are the earnings for this out-of-this-world company? [$8 Billion](https://www.reuters.com/business/finance/spacex-generated-about-8-billion-profit-last-year-ahead-ipo-sources-say-2026-01-30/). That gives us a PE ratio of, checks notes, 187.  (Edit: I've been informed in the comments that 8B is EBITDA, not earnings, so the PE ratio is probably north of 300. NOICE.)\n\nNow, this is 2026, PE ratios are about as relevant as a telegraph operators fingering speed, but still, there must be _some_ narrative to command such a rocketship valuation, right?\n\nAh, yes. Datacenters in space. \n\nSure, Elon is the world's biggest bullshit factory, but at least most of his bullshit looks appetizing if you squint. Self driving cars? Yeah! Robotaxis? Sure! Humanoid sexdolls? Why not!\n\nBut what the fuck is a DATACENTER IN SPACE good for. We've got datacenters at home, goddamit. \n\n(Of course, it goes without saying that the whole X.ai acquisition is a shit tamale wrapped in a shit sandwich, a shitducken so to speak, but whose counting shit here).\n\nHere is my prediction. Unlike you highly regarded turd chompers, IPO investors are a legitimately sophisticated bunch. There will be a roadshow, and pension funds, endowments, etc will actually have to _smell_ the shit before chomping on it.\n\nAnd I don't think they will. \n\nSo instead of the famously diamond-handed Punxatawney Teachers Union buying a chunk of the IPO, it will be desperate buyers of ~~hand grenades~~ hot potatoes who just want to watch it pop like god's asterisk on poppers at the adult cinema before shifting it to the next victim.\n\nNow, that may be irrelevant when the pop is for fucking _figma_, but we're talking SpaceX here. _Elon_. Either the IPO doesn't happen or when it does it will drop like the challenger shuttle.\n\nAnd people will panic. \n\nThe entire AI narrative that has been holding on our K-shaped economy will blow up like a little kid flying into space when his fat cousin jumps off the see-saw. Bye, timmy.\n\nJust you fucking wait. Buying calls.",
+            "permalink": "/r/wallstreetbets/comments/1qwbj18/the_spacex_ipo_is_going_to_tank_the_market/",
+            "subreddit": "wallstreetbets",
+            "createdUtc": 1770265763,
+            "numComments": 2248
+          },
+          {
+            "id": "1p8f1uh",
+            "url": "https://www.reddit.com/r/GTA/comments/1p8f1uh/drunk_driving_simulator/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/sjdgglV0LU1GOj-m6hvcvhK6KdfqlEtYnzj-2HuC5rU.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 14496,
+            "title": "drunk driving simulator",
+            "author": "Forward_Wrap1877",
+            "authorId": "1hnbo9a6ka",
+            "selftext": "",
+            "permalink": "/r/GTA/comments/1p8f1uh/drunk_driving_simulator/",
+            "subreddit": "GTA",
+            "createdUtc": 1764283229,
+            "numComments": 302
+          },
+          {
+            "id": "1pr8q3g",
+            "url": "https://www.reddit.com/gallery/1pr8q3g",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/KKMe9ZrMoAMfx3Xh_CSgj4KpWwndptWYTahlaRbHetQ.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 13751,
+            "title": "Debating life choices going forward.",
+            "author": "GrueMaster",
+            "authorId": "yn7ibbl",
+            "selftext": "So, last night,  while driving for Uber, I had an ... incident. \n\nI had just dropped off a rider and was backing out of his driveway onto the street when I heard a series of pops and saw flashes down the road.  Thinking it was fireworks, I kept backing up when my driver's side window seemingly blew up in my face.  Instincts kicked in and I drove back into the long driveway and stopped while ducking.  My rider was cowering behind a parked car, then came over and asked if I was ok. My glasses and seahawks had had been knocked off, but I turned to respond and almost lowered my window when I saw the bullet hole, so I opened the door instead. I told him I thought I was ok, then wiped my face to discover blood on the right side. I grabbed my rag I use when the windshield fogs up and applied pressure to my right temple and called 911 (phone AI assistant was NOT helpful, asking which app I wanted to use). Had to go through the Uber app (it was just easier and I had to go offline anyways).  Police said to leave the car where it was and go get checked by EMS. I opted not to let the ambulance take me to the hospital as it was a mile away,  and I had a friend racing to the scene (Police recommended calling him).  From what I can tell,  the bullet (that ended up on the door armrest) came through the glass, clipped my glasses on the side (a 1/4\") piece of the ear hook is shattered where it meets the frame), sending everything flying.\n\nOverall, I'm ok. Not hurt. I have everything spinning through insurance claims, and Safelite will be installing a new window tomorrow. \n\nOh, and I now have 2 powerball lottery tickets.",
+            "permalink": "/r/uberdrivers/comments/1pr8q3g/debating_life_choices_going_forward/",
+            "subreddit": "uberdrivers",
+            "createdUtc": 1766216117,
+            "numComments": 725
+          },
+          {
+            "id": "1vk1zu6",
+            "url": "https://www.reddit.com/r/YouShouldKnow/comments/1vk1zu6/ysk_americas_largest_newspaper_chain_usa_today/",
+            "nsfw": false,
+            "media": [],
+            "score": 12970,
+            "title": "YSK: America’s largest newspaper chain, USA Today, just partnered with Palantir to analyze audience data.",
+            "author": "andmario_com",
+            "authorId": "25qrftv9je",
+            "selftext": "Why YSK: \n\nIn its Q2 earnings call Thursday morning, USA Today Co. chairman and CEO Mike Reed told investors he expects the partnership to “**strengthen how we collect, connect and activate audience data to drive more effective and faster monetization across our platform.**”\n\n“**Every visit, every session, and every moment of attention creates a signal,**” Reed said. “When we connect those signals, they become actionable intelligence that allows us to engage users more effectively and monetize those relationships faster and at much greater value. The work our team is doing with Palantir is a direct extension of this strategy. We are applying Palantir’s AI-powered platform to one of the largest opportunities in front of us, converting the sheer scale of our audience into known, orchestrated first-party relationships, because that is what turns our reach into sustainable, higher value revenue.”\n\n**By using any USA Today websites, you'll be directly contributing to Palantir's mass surveillance network.**\n\nSource: [Here](https://www.niemanlab.org/2026/08/americas-largest-newspaper-chain-usa-today-co-partners-with-palantir-to-analyze-audience-data/)",
+            "permalink": "/r/YouShouldKnow/comments/1vk1zu6/ysk_americas_largest_newspaper_chain_usa_today/",
+            "subreddit": "YouShouldKnow",
+            "createdUtc": 1786311292,
+            "numComments": 246
+          },
+          {
+            "id": "1tzweuo",
+            "url": "https://futurism.com/future-society/professors-incoming-students-dont-understand-math",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/8eNE5lYfvybc4IopDzRNytOJnYXUGR1PiNfNSp7ZdtQ.jpeg?width=140&height=93&auto=webp&s=d9191caabd7f37cac5f5186e240fa1915ae2d3a0",
+                "type": "photo",
+                "width": 140,
+                "height": 93
+              }
+            ],
+            "score": 11916,
+            "title": "WARNING: University Of California Math And Science Professors Have Written A Formal Letter To University Leadership. Warning That Incoming Students Now Arrive With Middle School Level Math Skills, And Asking U.C To Reinstate Standardized Testing Requirements It Dropped During COVID 🤯💥",
+            "author": "InterstellarKinetics",
+            "authorId": "1y4sxqx7ag",
+            "selftext": "Nearly a third of students enrolling in first-semester calculus at UC Berkeley are now displaying what the faculty letter calls “severe preparation deficits,” and professors say they are being forced to reteach middle school mathematics inside courses that are supposed to be preparing students for science, engineering, economics, and other quantitatively demanding fields. The letter, reported by the Wall Street Journal, states directly: “UC has finite resources and can help only so many students,” framing the situation not merely as an academic concern but as a resource crisis in which university instructors are effectively being asked to perform the remediation work that K through 12 education failed to complete, while simultaneously delivering the college-level material those students enrolled and paid to receive. The University of California dropped its SAT and ACT requirements at the onset of the COVID pandemic in 2020, a decision that has since become standard practice across American higher education, with more than 90 percent of colleges now declining to require standardized test scores from applicants.\n\nThe UC professors’ request puts the university in the middle of a genuinely difficult conflict with no clean resolution. The case against reinstatement is well established and data-supported: Harvard-led research found that wealthy, typically white students are thirteen times more likely to achieve high SAT or ACT scores than students from low-income families, largely because rigorous test preparation is expensive and unequally distributed, meaning that reinstatement would functionally advantage applicants with economic resources rather than measuring raw academic ability. But elite institutions have been quietly reversing course regardless: MIT reinstated its SAT requirement in 2022, Harvard and Dartmouth followed in 2024, and Yale reinstated its requirement just last month. UC has explicitly refused to follow that trend, encouraging prospective students to focus on essays, coursework, and extracurriculars instead, and the faculty letter is a direct challenge to that position from within the institution’s own classrooms.\n\nThe AI dimension of the crisis is what transforms this from a familiar debate about admissions policy into something with a different and more urgent character. Grade inflation across American colleges has surged dramatically since the mainstream adoption of ChatGPT and other AI tools, with recent research showing that the share of A grades in courses particularly vulnerable to AI-assisted completion, including humanities and engineering, jumped approximately 30 percent since 2023, meaning that the grades appearing on the high school transcripts of incoming UC students are increasingly untethered from what those students actually learned. At the same time, studies have documented that heavy AI use is specifically linked to impaired critical thinking skills, weakened memory, and measurably lower brain activity in areas associated with creativity and synthesis, with one study finding that students who used ChatGPT to write essays showed lower neural engagement in creativity-related brain regions compared to students who used a standard search engine or no assistance at all. The professors writing to UC leadership are not merely describing a gap between what they expected and what they found. They are describing a feedback loop in which AI enables students to pass courses without learning the underlying material, inflated grades mask that failure from admissions officers, and universities then receive students whose transcripts signal readiness that their actual skills do not reflect.",
+            "permalink": "/r/InterstellarKinetics/comments/1tzweuo/warning_university_of_california_math_and_science/",
+            "subreddit": "InterstellarKinetics",
+            "createdUtc": 1780889068,
+            "numComments": 260
+          },
+          {
+            "id": "1x7v7gj",
+            "url": "https://www.reddit.com/r/ClaudeAI/comments/1x7v7gj/this_is_61_kb_html_file/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/YnN3bnFsdjB5d3ZoMRJy8ktkrENMwFs2mSpDVAH5vpc3thEy2iqFXx5AN9T6.png?width=140&height=78&format=jpg&auto=webp&s=ac81561a79de364e6621322ec1e8fdede4c44457",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 11639,
+            "title": "This is 61 KB HTML file 🤯",
+            "author": "Any-Reputation8118",
+            "authorId": "9fxkv4i8",
+            "selftext": "I built a real-time ocean simulation with Claude Code (Opus 5.5)\n\n**What it is:** a single 61 KB HTML file that renders a sunset ocean in your browser with WebGPU. It has an FFT wave simulation, whitecaps, a physically based sky with clouds, and sun glitter. You fly around with WASD and the mouse.\n\n**How I used Claude Code:** I gave it one prompt: make the most realistic water scene it could, in WebGPU, with a floating camera. It wrote the renderer from scratch with no engine or libraries. It took screenshots of its own output and had separate subagents critique the screenshots, so it wasn't judging its own work. The whole thing took about 30 minutes.\n\n**Free to try:** [ocean-noniv.vercel.app](https://ocean-noniv.vercel.app), preferably in Chrome. It needs a WebGPU-capable GPU, and on laptops you have to force Chrome onto the dedicated GPU. Otherwise the performance might be bad or it might not run at all. On RTX 5070 Ti I get ~260 FPS at 2560×1440 resolution. Click the canvas to look around, WASD to move, H for a settings panel.\n\n**Repo with unminified and more organised version:** [github.com/Noniv/web-ocean](https://github.com/Noniv/web-ocean)",
+            "permalink": "/r/ClaudeAI/comments/1x7v7gj/this_is_61_kb_html_file/",
+            "subreddit": "ClaudeAI",
+            "createdUtc": 1792193082,
+            "numComments": 903
+          },
+          {
+            "id": "1uznax2",
+            "url": "https://www.reddit.com/r/blender/comments/1uznax2/5403_nodes_later_i_have_every_metal_and_most/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/NG05Z2YwcHRjeGRoMfWNxMgYwpHxuinx048xhDqtpcDeeO3pxE5NoZA_vX9j.png?width=140&height=78&format=jpg&auto=webp&s=cbd4bf978fb848dbffc89113ad23f0c3051c8041",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 11542,
+            "title": "5,403 Nodes Later, I Have EVERY Metal and Most Alloys in ONE Node. 100% Physically Accurate, Data Straight from the Research Papers. [FREE]",
+            "author": "savageopress115",
+            "authorId": "974j13b6",
+            "selftext": "A complete rework of the Metallic BSDF node that includes multi-layer roughness for realistic material reflections, physically accurate material presets for lots of common metal and many alloys, and multiple additional effects and parameters added for enhanced realism and easier control. All physically based Materials use technical data taken directly from the original research papers.\n\nI Hope you all find this useful, and feel free to report issues or reply with feature requests. And as always, absolutely zero AI was used in the creation of this material.\n\nMAIN PROJECT RESOURCES:\n\n[~~https://youtu.be/r3bkGPobpTw~~](https://youtu.be/r3bkGPobpTw) Information on layered roughness, what it is, and how to implement it, released by LucasPrismal. Very pivotal in the creation of this project, and is the main source of information for this material. EDIT: video is found here as a re-upload, the original was struck to hell by Sony copyright:  [https://youtu.be/uz8PIi3ELJg](https://youtu.be/uz8PIi3ELJg)\n\n[https://youtu.be/K5okG0feNyQ](https://youtu.be/K5okG0feNyQ) Informational video by Christopher 3D explaining material annodization in Blender and how to convert thin film to voltage.\n\n[https://youtu.be/PwhACBSOsyU](https://youtu.be/PwhACBSOsyU) Informational video by Christopher 3D explaining variable roughness and how to implement it in Blender. Very pivotal in this project.\n\nScratch maps used in this material were generated with an after Effects plugin created by LucasPrismal, and can be found in the description of this video here: [https://youtu.be/kWhBrvPHGvU](https://youtu.be/kWhBrvPHGvU)\n\nADDITIONAL DATA SOURCES:\n\nPalmqvist, A. (2026) Physically Based - The PBR Values Database Available at: [https://physicallybased.info/](https://physicallybased.info/) (Accessed: 18 July 2026).\n\nPortsmouth, J., KUTZ, P., &  HILL, S. (2026). OpenPBR: Novel Features and Implementation Details. Physically Based Shading in Theory and Practice, pg, 67. [https://arxiv.org/pdf/2512.23696#appendix.D](https://arxiv.org/pdf/2512.23696#appendix.D)\n\nM. N. Polyanskiy, \"Refractive index database,\" [https://refractiveindex.info](https://refractiveindex.info). Accessed on 2026-07-18.\n\nDOWNLOAD UPDATED VERSION: This Node is now available as an online asset library! Instructions to install along with written and video guides explaining how to use the node can be found on a dedicated website landing page: [https://metallic-bsdf-plus.carrd.co/](https://metallic-bsdf-plus.carrd.co/) Feel free to support by starring the project on Github!: [https://github.com/savageopress11/Metallic\\_BSDF\\_Plus](https://github.com/savageopress11/Metallic_BSDF_Plus)\n\nOUTDATED DOWNLOAD: [~~https://drive.proton.me/urls/FTY2DYW66M#uCsZ3fTftiOB~~](https://drive.proton.me/urls/FTY2DYW66M#uCsZ3fTftiOB)\n\nEDIT: I plan to add more material wear effects in the future. Ambient occlusion, Burnished metal, rust, etc. Right now it is intended to be used as a physically accurate base to your metal materials. Additionally, If you want to use the current material effects, bear in mind that a texture coordinate node is needed to use the effects, just like with any image texture in blender.\n\nEDIT: When I say every metal, I mean every metal that has been studied for it's physical properties for 3D rendering. 30+ metals at this point in time, with more on the way.",
+            "permalink": "/r/blender/comments/1uznax2/5403_nodes_later_i_have_every_metal_and_most/",
+            "subreddit": "blender",
+            "createdUtc": 1784353151,
+            "numComments": 513
+          },
+          {
+            "id": "1remcjj",
+            "url": "https://www.reddit.com/r/Damnthatsinteresting/comments/1remcjj/simulating_100000_miles_of_driving_force_over_26/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/a2RpcDBxOWZ1b2xnMSuuOzPd-P-jrs6rIRTgxBDrfSukkOdehgoQPiIA8Upo.jpeg?width=140&height=79&format=jpg&auto=webp&s=5b83c569e433d4cedfefcfdc2304e2f4b20d0625",
+                "type": "video",
+                "width": 140,
+                "height": 79
+              }
+            ],
+            "score": 11289,
+            "title": "Simulating 100,000 miles of driving force over 26 days",
+            "author": "Solid_Maintenance_28",
+            "authorId": "ar2ayl9y",
+            "selftext": "",
+            "permalink": "/r/Damnthatsinteresting/comments/1remcjj/simulating_100000_miles_of_driving_force_over_26/",
+            "subreddit": "Damnthatsinteresting",
+            "createdUtc": 1772045960,
+            "numComments": 336
+          },
+          {
+            "id": "1wtrf7f",
+            "url": "https://www.reddit.com/gallery/1wtrf7f",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/ckbvo3t53ksh1.jpg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=32193bfa8aa2ba666636cb738e6a989014decece",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 11211,
+            "title": "Trying to find matches to the cyberpunk cars, to her RL counterparts",
+            "author": "Dario_moonchane",
+            "authorId": "dkylkv9h",
+            "selftext": "just some fun exercise!\n\n1- quadra  type 66/mustang \n\n2- Villefort Alvarado/ el dorado\n\n3- rayfield caliburn/Chiron\n\n4- Villefort deleon/mark 8\n\n5- Villefort cortes/imperial \n\n6- rayfield Aerondight/ bodo 77\n\n7- makigai tanishi/samurai\n\n8- herrera outlaw/celestiq\n\n9-coincidence?\n\nnot exactly the cars they are inspired for, because some cars here didn't even come out in 2020, but the what we have today to simulate if we wanted to drive the cyberpunk cars",
+            "permalink": "/r/cyberpunkgame/comments/1wtrf7f/trying_to_find_matches_to_the_cyberpunk_cars_to/",
+            "subreddit": "cyberpunkgame",
+            "createdUtc": 1790729833,
+            "numComments": 291
+          }
+        ],
+        "nextCursor": "cur_iXQrIwfaLIHMQ49jLEjE_w"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-bison-9321fc54",
+      "kind": "anonymous",
+      "name": "Bison",
+      "artworkKey": "bison"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00035",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:41:41.661Z",
+  "started_at": "2026-11-23T07:41:41.778Z",
+  "completed_at": "2026-11-23T07:41:43.194Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

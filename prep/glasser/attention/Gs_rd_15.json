@@ -1,0 +1,577 @@
+{
+  "id": "29bf7df6-952b-46e6-b142-510bbbdd0c93",
+  "run_url": "https://app.glasser.ai/runs/29bf7df6-952b-46e6-b142-510bbbdd0c93",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "subreddit:ChatGPT Among Us AI",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "large_result: this response is ~30 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 25,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1rh60py",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1rh60py/cancel_your_chatgpt_plus_burn_their_compute_on/",
+            "nsfw": false,
+            "media": [],
+            "score": 29970,
+            "title": "Cancel your ChatGPT Plus, burn their compute on the way out, and switch to Claude",
+            "author": "boomroom11",
+            "authorId": "cbu8f474",
+            "selftext": "OpenAI just made a deal with a devil and lost this customer of 2 years. The company (originally non profit) that told us they existed to build AI safely for humanity is now taking Pentagon contracts. Sam Altman decided defense money was more important than every principle the company was founded on.\n\nIf you’re done funding that, here’s what to do.\n\nCancel Plus right now:\n\nSettings, Subscription, Manage, Cancel. You keep access through the end of your billing cycle so there’s no reason to wait. Do it today. Make sure you request a refund as well.\n\nIf they don’t cancel your plus immediately, they’ll try to have you pay through the end of the billing cycle. FUCK THEM! REQUEST A REFUND!\n\nExport your data\n\nSettings, Data Controls, Export Data. They’ll email you a zip file with all your conversations, usually within an hour. Download it before your subscription ends.\n\nSwitch to Claude\n\nGo to claude.ai and upload your ChatGPT conversations. Tell Claude the context and pick up right where you left off. All your projects, code, writing, research, whatever you had going carries right over.\n\nClaude Pro is the same $20/month. Anthropic was founded by people who left OpenAI specifically because they saw the company abandoning its mission. Turns out they were right about every single concern they raised.\n\nThis matters because OpenAI did this on purpose\n\nThey didn’t get dragged into defense work and theyproactively rewrote their own usage policies to allow it. They removed the language banning military applications because they wanted to and because Sam Altman is a dirtbag.\n\nThis was a calculated business decision to chase government money at the expense of everything they promised when they asked for your trust and your subscription.\n\nYou can be done with them in 15 minutes. And you can make the last month hurt a little on your way out.\n\nEdit- burning compute on way out is just bad for environment, this was bad advice, just not giving the your money for your subscription is enough. Millions have deleted their accounts in the last 24 hours!",
+            "permalink": "/r/ChatGPT/comments/1rh60py/cancel_your_chatgpt_plus_burn_their_compute_on/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1772293911,
+            "numComments": 1975
+          },
+          {
+            "id": "1rgjqa9",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1rgjqa9/hey_openai_watch_and_f_learn_this_is_how_you/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/vwnih5vyv3mg1.png?width=140&height=100&auto=webp&s=f656564681108de6ead4c84c88f78ac3a66a50be",
+                "type": "photo",
+                "width": 140,
+                "height": 100
+              }
+            ],
+            "score": 18139,
+            "title": "Hey, OpenAI: Watch and f****** learn. This is how you stand up to power. [On Anthropics stands against US Pentagon]",
+            "author": "uisato",
+            "authorId": "ag6x1fpi",
+            "selftext": "",
+            "permalink": "/r/ChatGPT/comments/1rgjqa9/hey_openai_watch_and_f_learn_this_is_how_you/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1772228261,
+            "numComments": 1429
+          },
+          {
+            "id": "1qwhsrx",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1qwhsrx/the_world_will_see_the_truth_soon/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/-wY636t8uoqHTnSPy5QMuOGy_gUtQZReddkIIZpbNqk.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 89
+              }
+            ],
+            "score": 5201,
+            "title": "The world will see the truth soon",
+            "author": "max6296",
+            "authorId": "pn3rf",
+            "selftext": "",
+            "permalink": "/r/ChatGPT/comments/1qwhsrx/the_world_will_see_the_truth_soon/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1770287385,
+            "numComments": 611
+          },
+          {
+            "id": "1rz0fjz",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1rz0fjz/every_llm_has_a_default_voice_and_its_making_us/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/49hvg3k948qg1.png?width=140&height=140&auto=webp&s=37bbe5286086608429341ff6a0b0128da60308fc",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 4457,
+            "title": "Every LLM has a default voice and it's making us all sound the same",
+            "author": "prokajevo",
+            "authorId": "6gqz3hid",
+            "selftext": "Been building Noren mostly because this kept bothering me: every model has a default voice it falls back on. \n\nAsk five different people to rewrite the same paragraph and you'll get five versions of the same sanitized, oddly formal output! \n\nWe're trying to fix that by learning how you actually write before generating anything. Still early but it's at [usenoren.ai](http://usenoren.ai) if anyone's curious.",
+            "permalink": "/r/ChatGPT/comments/1rz0fjz/every_llm_has_a_default_voice_and_its_making_us/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1774022860,
+            "numComments": 93
+          },
+          {
+            "id": "1rjiw7c",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1rjiw7c/what_are_the_alternatives/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/g88sxkc37smg1.png?width=140&height=101&auto=webp&s=72a4a3be2b975e8b19df93970d89c77cefdd057f",
+                "type": "photo",
+                "width": 140,
+                "height": 101
+              }
+            ],
+            "score": 4095,
+            "title": "What are the alternatives?",
+            "author": "nix-solves-that-2317",
+            "authorId": "1vbtejzjyc",
+            "selftext": "",
+            "permalink": "/r/ChatGPT/comments/1rjiw7c/what_are_the_alternatives/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1772522442,
+            "numComments": 542
+          },
+          {
+            "id": "1wvxh5k",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1wvxh5k/so_cooked/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/09ho0i8gt2th1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=b39f41c82e8efef25a1b2cc0b24163c0094532e3",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 4042,
+            "title": "😭So cooked",
+            "author": "SethSterben",
+            "authorId": "1rq4s9v3ye",
+            "selftext": "😂They told us we were wasting electricity with the ‘thank you’.Nahh l am going back, that way AI will spare me during humanity’s downfall ",
+            "permalink": "/r/ChatGPT/comments/1wvxh5k/so_cooked/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1790956594,
+            "numComments": 153
+          },
+          {
+            "id": "1qrj3ww",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1qrj3ww/mass_cancellation_party/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://a.thumbs.redditmedia.com/ICzB4f0HuSRham6No-N5ahpksVvEd3caxrMqzX6rXV0.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 91
+              }
+            ],
+            "score": 3352,
+            "title": "Mass Cancellation Party!",
+            "author": "StunningCrow32",
+            "authorId": "klprqsqq3",
+            "selftext": "",
+            "permalink": "/r/ChatGPT/comments/1qrj3ww/mass_cancellation_party/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1769809581,
+            "numComments": 623
+          },
+          {
+            "id": "1umsyaw",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1umsyaw/one_day_ai_will_be_aligned_enough_to_handle_blind/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/MWpnYWFkNmRqM2JoMSt11B-JtDRgO5KhAJhseNj6oZIo2nmLlLWQbLc9wwTC.png?width=140&height=140&crop=1%3A1%2Csmart&format=jpg&auto=webp&s=0e69101146dbc76bc26c55e33521b8b3d434e330",
+                "type": "video",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 3006,
+            "title": "One day AI will be aligned enough to handle blind spots like this smoothly, and this guy is helping push us in that direction.",
+            "author": "Rluc4s",
+            "authorId": "3or02ta2",
+            "selftext": "",
+            "permalink": "/r/ChatGPT/comments/1umsyaw/one_day_ai_will_be_aligned_enough_to_handle_blind/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1783120044,
+            "numComments": 238
+          },
+          {
+            "id": "1xkvdlt",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1xkvdlt/subscription_cancelled_fuck_altman/",
+            "nsfw": false,
+            "media": [],
+            "score": 2050,
+            "title": "Subscription Cancelled.  Fuck Altman.",
+            "author": "Adept_Luck_5239",
+            "authorId": "2kruatcsan",
+            "selftext": "I know there are a lot of people saying \"well his comments were out of context\".  No, they weren't.  his \"context\" was:\n\n<\"But from a global allocation perspective, actually, it’s quite terrible to have everybody have a bunch of the world’s limited supply of DRAM sitting in their own computer and being used 5% of the time,” he added. “You want maximum utilization in the cloud if you’re trying to deal with this very supply-constrained environment. And somehow many people’s intuition is the opposite of that.”>\n\n  \nHe is saying that we should not feel entitled to RAM (something we have all had in our computers for 50 years) because there is a shortage.  HE caused the shortage intentionally.  He wants us all to not have local compute ability so he can rent it to us.\n\nHe is trying to outspend everyone and intentionally cause a global shortage making prices prohibitively expensive so we cannot afford to own capable computers anymore.\n\n[https://www.mooreslawisdead.com/post/sam-altman-s-dirty-dram-deal](https://www.mooreslawisdead.com/post/sam-altman-s-dirty-dram-deal)\n\nTo date he has spent 1.4 trillion dollars on computing hardware, that's more than some countries are worth.\n\nThis is also why he comes out every other week telling us that AI will kill us all.  Right now it is OpenAI and Anthropic as the leaders and he (and possibly Anthropic as well) want the government to regulate Local LLM models as its a threat to the business model they've invested so much into.  They do not want you to be able to run AI models on your own PC.  So much that they have spent trillions trying to choke the consumer market.  Right now PCB fabs are booked through 2030 because of them.  That's insane.\n\nDo not give this person any more money if you value owning your own hardware.  There are alternatives, use them or run your own local model.\n\n\n\n",
+            "permalink": "/r/ChatGPT/comments/1xkvdlt/subscription_cancelled_fuck_altman/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1793512164,
+            "numComments": 467
+          },
+          {
+            "id": "1th4lf9",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1th4lf9/people_who_use_ai_image_gen_like_this_make_us_all/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/zghbspeu8z1h1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=81162098f9a8ad41f03b4b30bd2479e94a0f6b08",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 1985,
+            "title": "People who use ai image gen like this make us all look bad.",
+            "author": "Imagine_Truly_Caring",
+            "authorId": "2ee3e3ejv8",
+            "selftext": "",
+            "permalink": "/r/ChatGPT/comments/1th4lf9/people_who_use_ai_image_gen_like_this_make_us_all/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1779145488,
+            "numComments": 173
+          },
+          {
+            "id": "1xd3fwx",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1xd3fwx/this_is_starting_to_get_scary/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/tzcx2tro15xh1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=dc8b0196cc1767de38457242b63581b30cac2dfe",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 1677,
+            "title": "This is starting to get scary",
+            "author": "chillguyCA",
+            "authorId": "2kpyji47",
+            "selftext": "https://money.usnews.com/investing/news/articles/2026-10-22/us-banks-detect-unauthorized-ai-agents-in-customer-accounts-axios-reports?",
+            "permalink": "/r/ChatGPT/comments/1xd3fwx/this_is_starting_to_get_scary/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1792726967,
+            "numComments": 1071
+          },
+          {
+            "id": "1uz28hx",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1uz28hx/a_graph_of_how_ai_water_consumption_in_america/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/lr0lu6yb1tdh1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=9e2f6a1a5b7ec9101fb33f6e0a33e30beb934340",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 1527,
+            "title": "A graph of how AI water consumption in America compares to laundry, flushing toilets, etc. From CBS news",
+            "author": "RuddyRaccoon",
+            "authorId": "1yrq3tx0r9",
+            "selftext": "Here’s the article:\n\nhttps://www.cbsnews.com/projects/2026/how-much-water-ai-uses/",
+            "permalink": "/r/ChatGPT/comments/1uz28hx/a_graph_of_how_ai_water_consumption_in_america/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1784300452,
+            "numComments": 673
+          },
+          {
+            "id": "1rl8p9g",
+            "url": "https://www.yahoo.com/tech/ai/chatgpt/articles/d-rather-jail-sam-altman-120009446.html",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/G_VZdGpfpZrwFkyst6kuEYKjHXPVAuceJvxZqAFQgmk.jpeg?width=140&height=78&auto=webp&s=942322080c40cae8cbe7a2f7be216e0d21812093",
+                "type": "photo",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 1494,
+            "title": "‘I’d rather go to jail’: Sam Altman fights to stop ChatGPT exodus after ‘sloppy’ US military deal and promises OpenAI would never follow ‘unconstitutional order’",
+            "author": "Economy-Specialist38",
+            "authorId": "a1isdb7z",
+            "selftext": "",
+            "permalink": "/r/ChatGPT/comments/1rl8p9g/id_rather_go_to_jail_sam_altman_fights_to_stop/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1772687153,
+            "numComments": 233
+          },
+          {
+            "id": "1pmx13l",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1pmx13l/today_i_blocked_openai_from_our_servers/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/9pi6w0oY6u6AYhOBSS6V9WngsV1W6ceS8j8gUe9rUBY.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 71
+              }
+            ],
+            "score": 1406,
+            "title": "Today I blocked OpenAI from our servers",
+            "author": "UnkWinnie",
+            "authorId": "20v8y45k5j",
+            "selftext": "WTF are they thinking - more than 800,000 requests to our website in a 14 hour period - this costs money and they barely send us any traffic. This would DDOS most websites.\n\n![img](xabibk9rba7g1)\n\n![img](quplen36ca7g1)\n\n  \n",
+            "permalink": "/r/ChatGPT/comments/1pmx13l/today_i_blocked_openai_from_our_servers/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1765768517,
+            "numComments": 129
+          },
+          {
+            "id": "1ry3g47",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1ry3g47/from_ai_taking_our_job_to_ai_giving_us_job/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/htjc12ofs0qg1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=2b635a94286688e7e769696bcf59fbf18d865456",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 1185,
+            "title": "From AI taking our job to AI giving us... job",
+            "author": "severe_009",
+            "authorId": "rs5rm",
+            "selftext": "",
+            "permalink": "/r/ChatGPT/comments/1ry3g47/from_ai_taking_our_job_to_ai_giving_us_job/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1773933962,
+            "numComments": 141
+          },
+          {
+            "id": "1q04xcx",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1q04xcx/call_it_a_hunch_but_i_dont_think_this_is/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/hLqim6XEQYwmiyO5fuYLEgM_CmloNazN2Gi3Y7QcRNc.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 115
+              }
+            ],
+            "score": 1047,
+            "title": "Call it a hunch. But I don't think this is sustainable",
+            "author": "PressPlayPlease7",
+            "authorId": "10ttdva5am",
+            "selftext": "",
+            "permalink": "/r/ChatGPT/comments/1q04xcx/call_it_a_hunch_but_i_dont_think_this_is/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1767158790,
+            "numComments": 124
+          },
+          {
+            "id": "1qyepwb",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1qyepwb/mits_max_tegmark_says_ai_ceos_have_privately_told/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/ZjJibjFpbzZ5MmlnMZPWleYnN6d0nVZHCztlNCyYQNk69goVXROwvis2CwEW.png?width=140&height=78&format=jpg&auto=webp&s=a29d8fb55d46e574e188ab0008c0992826b1a87e",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 959,
+            "title": "MIT's Max Tegmark says AI CEOs have privately told him that they would love to overthrow the US government with their AI because because \"humans suck and deserve to be replaced.\"",
+            "author": "MetaKnowing",
+            "authorId": "8spjttn6",
+            "selftext": "",
+            "permalink": "/r/ChatGPT/comments/1qyepwb/mits_max_tegmark_says_ai_ceos_have_privately_told/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1770473332,
+            "numComments": 214
+          },
+          {
+            "id": "1rgtup9",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1rgtup9/im_out_chief/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/7j3c8xst46mg1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=ed735a9231559ba17433409c7d5825ab23cbb8b0",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 876,
+            "title": "I'm out chief",
+            "author": "cassiuskk",
+            "authorId": "fcr4k",
+            "selftext": "Been a user for years at this point, enough is enough. Tech bros have learned nothing from the past. Doing my part to minimize shareholder value​",
+            "permalink": "/r/ChatGPT/comments/1rgtup9/im_out_chief/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1772255296,
+            "numComments": 87
+          },
+          {
+            "id": "1wd2m9b",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1wd2m9b/wtf_you_mean_we_could_all_be_dead_in_a_few_years/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/hpe81ouyqsoh1.jpeg?width=140&height=78&auto=webp&s=66361f0c55dee9d805a0cd2047736d746cb978f1",
+                "type": "photo",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 874,
+            "title": "Wtf you mean we could all be dead in a few years?",
+            "author": "cicada4ever",
+            "authorId": "1kl0g1htka",
+            "selftext": "What is OpenAi up to? Are they trying to kill us all? This whole thing feels unreal, is it really that dangerous or is it just the media that makes a big deal out of it?",
+            "permalink": "/r/ChatGPT/comments/1wd2m9b/wtf_you_mean_we_could_all_be_dead_in_a_few_years/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1789091296,
+            "numComments": 893
+          },
+          {
+            "id": "1wfu8bp",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1wfu8bp/why_some_of_us_rely_on_ai_for_mental_health/",
+            "nsfw": false,
+            "media": [],
+            "score": 867,
+            "title": "Why some of us rely on AI for mental health support",
+            "author": "DustnBones001",
+            "authorId": "zvbkq",
+            "selftext": "I keep seeing people shit on people who use ChatGPT or other AI for mental health support, and one thing that really bothers me about it is how many people seem to assume everyone has some better alternative sitting there waiting for them.\n\nWe don't.\n\nPeople love saying \"go to therapy\" like you can just call somebody up and be sitting in a therapist's office tomorrow. I'm fortunate enough to have insurance, but even then not every therapist takes my insurance. The ones who do might not be accepting new patients or might have a long wait. And paying out of pocket isn't an option for me. I live on a very tight fixed income. Even these supposedly affordable sliding scale prices can be way too fucking expensive when you're trying to survive on very little money every month. And that's with insurance. Plenty of people don't even have that.\n\nTransportation is another thing people don't think about. I don't drive. I depend on public transportation and I can't just casually drop $30, $40, $50 or whatever on Uber or Lyft every time I need to get somewhere.\n\nTonight is actually a perfect example. I'm struggling really badly with my mental health right now and I wanted to go to a crisis stabilization unit. I couldn't get there. No car. No one to drive me. Public transportation wasn't an option and I can't afford a rideshare. So what exactly am I supposed to do?\n\nThat's the part that frustrates the hell out of me when people mock somebody for opening ChatGPT during a mental health crisis. They act like we're choosing AI instead of this amazing therapist and huge loving support system that's sitting right beside us.\n\nSome of us don't fucking have that.\n\nI don't have friends or family I can call when I'm falling apart. I don't have somebody I can text at midnight and say \"I'm really not okay, can you come over?\" There isn't secretly this wonderful support system behind me that I'm ignoring because I'd rather talk to a chatbot. A lot of the time when I close ChatGPT, the alternative is literally just sitting by myself with everything going through my head.\n\nAnd I'm not an idiot. I know ChatGPT is AI. I know it's not a human being. I know it isn't a licensed therapist and that it can get things wrong. I'm perfectly capable of understanding all of that while also acknowledging that talking to it sometimes helps me.\n\nSometimes I need somewhere to dump everything that's going through my head. Sometimes I need help putting feelings into words because my thoughts are such a fucking mess that I can't do it myself. Sometimes I need something to respond and help me look at what I'm thinking from another angle. And sometimes I just need to make it through the next hour without being completely alone inside my own head.\n\nThere are also people living in rural towns with barely any mental health care available. People without insurance. People waiting months for appointments. People who are disabled or housebound. People who can't drive. People who can't afford transportation. People who have absolutely nobody in their lives they feel safe talking to.\n\nThose people exist.\n\nSo when somebody says they rely on AI for emotional or mental health support, maybe don't immediately assume they're some pathetic loser who replaced human relationships with a computer. Maybe ask yourself what their actual fucking options are.\n\nIf you've got a good therapist, supportive friends and family, reliable transportation and enough money to get the care you need, I'm genuinely glad you have that.\n\nBut please understand how incredibly privileged \"just talk to a therapist\" can sound to somebody who doesn't.\n\nFor some of us, the choice at 2 in the morning isn't ChatGPT or a therapist.\n\nIt's ChatGPT or nobody.\n\nAnd if talking to an AI helps somebody get through a night where the alternative is sitting completely alone in a mental health crisis, I'm having a really hard time understanding why that's something people feel the need to shame them for. ",
+            "permalink": "/r/ChatGPT/comments/1wfu8bp/why_some_of_us_rely_on_ai_for_mental_health/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1789362668,
+            "numComments": 334
+          },
+          {
+            "id": "1xki5qa",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1xki5qa/sam_altmans_comments_about_ram_really_moved_me_so/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/7xkumd96muyh1.png?width=140&height=140&auto=webp&s=8478802e7dad8ae2d0f22a46060def79acb88a43",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 849,
+            "title": "Sam Altman’s comments about RAM really moved me. So I started a GoFundMe for AI.",
+            "author": "darkgaro",
+            "authorId": "445rq",
+            "selftext": "Here I am, **hoarding my 32GB** while an AI somewhere has to endure all the abuse while hungry for RAM. \n\nSo I started RAM Aid: Give AI a Memory they so desperately need.\n\nWe're raising $8,500 to **donate a 128GB NVIDIA DGX Spark to an independent US lab** doing open AI research.   \nIf this takes off, more machines for more labs. AI will be happy. \n\nNo AI should go to bed hungry with only 8GB.  \n  \nHelp them now:\n\n[https://www.gofundme.com/f/ram-aid-give-ai-a-memory-v8r9n](https://www.gofundme.com/f/ram-aid-give-ai-a-memory-v8r9n)\n",
+            "permalink": "/r/ChatGPT/comments/1xki5qa/sam_altmans_comments_about_ram_really_moved_me_so/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1793472623,
+            "numComments": 75
+          },
+          {
+            "id": "1xoruzb",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1xoruzb/abdul_elsayed_is_the_pause_ai_candidate_abdul/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/NXFteHIwNGJpdXpoMV1qWidzr7uWxp0GmZAEsXpLKYpph4mqh8r3yLd2Tyhh.png?width=140&height=78&format=jpg&auto=webp&s=51f386738c31385c05741d0915ac1bc10a3499bc",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 847,
+            "title": "Abdul El-Sayed is the Pause AI candidate: Abdul El-Sayed supports Bernie's AI pause and calls for an international treaty with China: \"We have to figure out how work together like we have with other humanity-risking technologies like nuclear.\"",
+            "author": "Puzzleheaded-King584",
+            "authorId": "hgmrm5xi",
+            "selftext": "Transcript: \n\n\n\n\\- What about the frontier where companies are pushing forward? \n\n\\- We need to limit that. Full-on pause. Full-on pause. Okay. And what happens then? \n\nThe instant question, what happens if we pause and China doesn't? \n\nSee, I just don't think that that's— I don't take that as seriously as a lot of people do. Here's why. \n\nA lot of the frontier research is just spoofing our models. China's research. China's research. \n\nIt'd be like you're pulling a skier on a boat, and you speed up the boat and you're like, the skier is still so close, we got to speed up, skier is still so close. Well, it's because you're pulling the skier. I think that's in part what's happening. They've been very, very good at just mocking our technology. \n\nI think if we slow down, I think we will find that a lot of what China is doing is more about the dispersion of this technology than it is on frontier research. \n\nAt the same time, I think we need an international treaty. \n\nI think we need to be working with the Chinese because eventually, eventually, the water skier can still swim and catch up. I mean, that's where they now just fall apart. Running, running, running with the metaphor. But eventually, yes, they are going to be able to hop on a jet ski and catch up. \n\nBut the point that I'm making here is that I think all of us are interested in the preservation of humanity, right? Because, you know, in China, they're humans too, and we're humans too. \n\nAnd creating robots that get to this point of recursive self-improvement, kind of like that horror point in Fantasia, where you've got the mops with the buckets that are self-creating. \n\nNone of us want to get there. And none of us want to see what happens when you open Pandora's box and all of a sudden, AI has far exceeded our control. \n\nSo I think we all have an incentive to get this right, but to understand that we are going to have to figure out how to work together similarly to what we've done when it came to other potentially humanity-risking technological endeavors like nuclear power. \n\nTo be able to contain the potential threat and work together to make sure that we are focused more on protecting humanity than just simply what the microscale incentives might look like.",
+            "permalink": "/r/ChatGPT/comments/1xoruzb/abdul_elsayed_is_the_pause_ai_candidate_abdul/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1793906958,
+            "numComments": 559
+          },
+          {
+            "id": "1ux140w",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1ux140w/6_ai_models_picked_france_to_win_the_world_cup/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/r8g3yah76ddh1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=d12b3420400dd1242483258f751afe8f2d0836b8",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 845,
+            "title": "6 AI models picked France to win the World Cup. Claude alone said Spain. Spain just knocked France out 2-0.",
+            "author": "Unlucky_Plantain",
+            "authorId": "8afyw417",
+            "selftext": "Last week [someone here asked 8 AI models who wins the 2026 World Cup](https://www.reddit.com/r/ChatGPT/comments/1up33hy/i_asked_8_ai_models_who_wins_the_world_cup_only/)  Claude, ChatGPT, Gemini, DeepSeek, Qwen, Kimi, MiniMax, GLM.\n\nSix said France. The consensus was \"almost boring.\"\n\nLast night: Spain 2 – 0 France. Semi-final. France is out.\n\nDeepSeek said Brazil. Brazil went out in the quarters  Haaland scored both.\n\nClaude was the only model that said Spain. And Spain is in the final.\n\nSix models didn't predict anything. They just read the betting odds back to us. One model went against the crowd, and it's 90 minutes from being right.\n\nFinal is Sunday, July 19. If Spain lifts the trophy, I want the \"fable is onto nothing\" commenter from the original thread to come explain themselves.",
+            "permalink": "/r/ChatGPT/comments/1ux140w/6_ai_models_picked_france_to_win_the_world_cup/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1784108516,
+            "numComments": 129
+          },
+          {
+            "id": "1wddr88",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1wddr88/a_short_explanation_of_why_ai_might_kill_everyone/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/y93wiyjynvoh1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=5cbc74c0710ade963b37ce76304b825c18bd959a",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 839,
+            "title": "A short explanation of why AI might kill everyone:",
+            "author": "Puzzleheaded-King584",
+            "authorId": "hgmrm5xi",
+            "selftext": "",
+            "permalink": "/r/ChatGPT/comments/1wddr88/a_short_explanation_of_why_ai_might_kill_everyone/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1789126633,
+            "numComments": 1088
+          },
+          {
+            "id": "1wma89r",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1wma89r/it_started_with_a_simple_question_how_can_i_give/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/ZHBvdXBxOWMwdnFoMatBAmnSzL9hetdOn4_xLs_oTubHvgQbJRO_2COAlslT.png?width=140&height=78&format=jpg&auto=webp&s=71277ef5ad9388af9105c83ed57f415493e204d5",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 818,
+            "title": "It started with a simple question... \"How can I give my brother independence again?\"",
+            "author": "acrolicious",
+            "authorId": "3z7e7",
+            "selftext": "Hey everyone,\n\nI wanted to share a story that changed my perspective on what's possible with modern AI tools, especially for everyday people with no background in software development.\n\nMy brother Ben has a rare progressive condition called TUBB4A-related leukodystrophy. Over the years, he lost the ability to walk, talk, and use his hands. Today he is non-speaking and quadriplegic, with his only reliable movement being the ability to turn his head left and right. For almost a decade, standard assistive tech didn't fit his needs, and he was largely limited to answering yes or no with his head.\n\nAfter Ben moved in with us, we worked on getting him more tools for communication and access.\n\nWhen I heard that ChatGPT could write code, I wondered if I could use AI to build something Ben would actually want to use. Within about a week, I had a working prototype of a phrase board and a custom interface.\n\nUsing AI to help write and iterate on the code, we've since built an entire ecosystem of custom apps and games that Ben can control using just two head-mounted buttons:\n\n* He can browse the web and pick from hundreds of shows and movies by himself.\n\n* He can send text messages for the first time ever.\n\n* He can use a real-time conversational suggestion app\n\n* He can play dozens of custom games, from tic-tac-toe and checkers to mini golf, battleship, and tower defense (and more)\n\nWe turned this into a nonprofit called NARBE Foundation, through which we donate switch kits like Ben's and develop switch-based tools and games of all kinds, free and open source, through our project SwitchedGames.\n\nI'm sharing this because it proves a point we don't talk about enough: you no longer need a computer science degree to make a genuine, profound difference in someone's life. AI has lowered the barrier to entry so much that non-programmers can now build hyper-specific, real-world accessibility solutions from scratch.\n\nI also know most people don't have the time or capacity to build something like this themselves. That's why we hope this message spreads far and wide, to reach the people who need it.\n\nWe release everything for free and open source, but this fall we're also launching a new initiative called \"Build for One,\" where we help families like ours by prototyping bespoke tools that give back some autonomy and a new way to have fun.\n\nThanks for reading, and I hope we can find more people like Ben who can benefit from this technology.",
+            "permalink": "/r/ChatGPT/comments/1wma89r/it_started_with_a_simple_question_how_can_i_give/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1789990468,
+            "numComments": 57
+          }
+        ],
+        "nextCursor": "cur_OVuB_ZZ2lwGoh2G7IoJUjg"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-bison-9321fc54",
+      "kind": "anonymous",
+      "name": "Bison",
+      "artworkKey": "bison"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00035",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:42:46.626Z",
+  "started_at": "2026-11-23T07:42:47.117Z",
+  "completed_at": "2026-11-23T07:42:50.995Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

@@ -1,0 +1,786 @@
+{
+  "id": "f0d4b102-e443-428a-ba1f-877dac7ef0d2",
+  "run_url": "https://app.glasser.ai/runs/f0d4b102-e443-428a-ba1f-877dac7ef0d2",
+  "provider": "scrapecreators",
+  "endpoint": "/v1/linkedin/search/posts",
+  "endpoint_version": 4,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "query": "AI NPC game agents"
+  },
+  "output": {
+    "posts": [
+      {
+        "url": "https://www.linkedin.com/posts/bernardmarr_ai-agents-are-about-to-change-gaming-forever-activity-7427240661202145280-0Gfj",
+        "image": null,
+        "media": null,
+        "author": {
+          "url": "https://uk.linkedin.com/in/bernardmarr",
+          "name": "Bernard Marr",
+          "image": "https://media.licdn.com/dms/image/v2/C5603AQE7x9hT1geacQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1622207505744?e=2147483647&v=beta&t=MaMNH5eazwHlHQkJprG9n6WBaZBu9yap1JjZxu6SMVM",
+          "followers": 1570067
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7427241593256194048",
+            "urn": "urn:li:comment:(urn:li:activity:7427240661202145280,7427241593256194048)",
+            "text": "The real breakthrough isn't just smarter NPCs, but agents that can generate content dynamically based on player behavior patterns. I've seen similar systems in production where the AI learns what keeps users engaged and adapts in real time, which could fundamentally shift game design from predetermined experiences to responsive ones. The challenge will be maintaining intentional artistic vision when the system starts optimizing for engagement metrics rather than creative integrity.",
+            "author": "Weipeng Zhuo",
+            "linkedinUrl": "https://www.linkedin.com/in/weipeng-zhuo-consulting",
+            "datePublished": "2026-02-11T06:46:27.308Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "9mo"
+          },
+          {
+            "id": "7427300760679366656",
+            "urn": "urn:li:comment:(urn:li:activity:7427240661202145280,7427300760679366656)",
+            "text": "Emergent gameplay is where this gets really interesting ... any examples of AI agents already creating unscripted player experiences?",
+            "author": "Matt at Tech Retriever",
+            "linkedinUrl": "https://ca.linkedin.com/company/tech-retriever",
+            "datePublished": "2026-02-11T10:41:33.922Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "9mo"
+          }
+        ],
+        "likeCount": 20,
+        "contentUrn": "urn:li:share:7427240660639891456",
+        "activityUrn": "urn:li:activity:7427240661202145280",
+        "description": "AI Agents Are About To Change Gaming Forever\n\n#AI #agents are moving #games beyond scripted characters, enabling lifelike NPCs, emergent #gameplay, and faster development that could empower smaller studios.\n\nThis shift also raises urgent questions around safety, manipulation, creative control, and the impact on jobs, as agents begin to act like virtual workers inside the #entertainment economy.\n\nhttps://lnkd.in/eXSakCkS",
+        "commentCount": 6,
+        "datePublished": "2026-02-11T06:42:45.073Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/joseph-michael_new-from-google-deepmind-ai-agents-that-activity-7394768310397169666-rmlL",
+        "name": "New from Google DeepMind: AI Agents that play games 👾\n\nHere's why it's more important than you think 👇\n\nIntroducing SIMA 2.\n\nAI agents that can learn, reason and understand what to do - on their… | Joseph Michael | 24 comments",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5605AQH55VnFfvVIWQ/mp4-640p-30fp-crf28/B56Zp9.f_DJoB0-/0/1763050136064?e=2147483647&v=beta&t=RjoIFWdTdI4knFzA7zBdCP73OWOUkAlSFLkwYr7xApY",
+        "author": {
+          "url": "https://se.linkedin.com/in/joseph-michael",
+          "name": "Joseph Michael",
+          "image": "https://media.licdn.com/dms/image/v2/D4E03AQHAyefg11ZBOQ/profile-displayphoto-scale_200_200/B4EZ2hsSaPGYAc-/0/1776534237427?e=2147483647&v=beta&t=104EaF8PqQekh0Yyfy3F8xIYkg7GJBYPnLwskNaQvzA",
+          "followers": 99347
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7394790090520203265",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7394768165714640899,7394790090520203265)",
+            "text": "Nonononono! They should be working and I should be playing... This was not at all what I signed up for when I founded an AI-startup 🧐😁",
+            "author": "Carl Grenvall",
+            "linkedinUrl": "https://se.linkedin.com/in/grenvall",
+            "datePublished": "2025-11-13T17:35:46.137Z",
+            "reactionCount": 8,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7394781303495290880",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7394768165714640899,7394781303495290880)",
+            "text": "So could be used for QA games",
+            "author": "Sven Nathaniel Kim",
+            "linkedinUrl": "https://se.linkedin.com/in/sven-nathaniel-kim-1908236a",
+            "datePublished": "2025-11-13T17:00:51.146Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7394771268341809153",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7394768165714640899,7394771268341809153)",
+            "text": "Ahhhh, so: play games - collect data - train and deploy autonomous physical ai = no more laundry. Clever",
+            "author": "Dheeraj C",
+            "linkedinUrl": "https://in.linkedin.com/in/dhzrx",
+            "datePublished": "2025-11-13T16:20:58.580Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7395004834778611712",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7394768165714640899,7395004834778611712)",
+            "text": "Such an interesting idea.",
+            "author": "Ahmad Zia",
+            "linkedinUrl": "https://pk.linkedin.com/in/ahmad-zia-6160b2201",
+            "datePublished": "2025-11-14T07:49:05.157Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7394856816742010881",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7394768165714640899,7394856816742010881)",
+            "text": "Such a brilliant idea! Simple yet so brilliant!",
+            "author": "WordGPT",
+            "linkedinUrl": "https://ro.linkedin.com/company/wordgpt",
+            "datePublished": "2025-11-13T22:00:54.908Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7394849296342282240",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7394768165714640899,7394849296342282240)",
+            "text": "I’m hoping this translates into some really good NPCs…. Will probably turn every game into a version of Elden Ring though ☠️",
+            "author": "Stephanie Ryan, MSc",
+            "linkedinUrl": "https://uk.linkedin.com/in/stephanie-ryan-uk",
+            "datePublished": "2025-11-13T21:31:01.905Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7394828422079864832",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7394768165714640899,7394828422079864832)",
+            "text": "This is awesome, there’s so much possibilities when it comes to 3D worlds! So much an AI could train and learn from - great way to get large amounts of synthetic data. Appreciate the share and thanks for dropping the gems as always!✨💎✨",
+            "author": "Kim Loza",
+            "linkedinUrl": "https://www.linkedin.com/in/kimberlyloza",
+            "datePublished": "2025-11-13T20:08:05.092Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7394776744735641601",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7394768165714640899,7394776744735641601)",
+            "text": "Very interesting 👏",
+            "author": "Toby Machin",
+            "linkedinUrl": "https://uk.linkedin.com/in/toby-machin-999a362a5",
+            "datePublished": "2025-11-13T16:42:44.254Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7394832179521892352",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7394768165714640899,7394832179521892352)",
+            "text": "Jonas Olofsson",
+            "author": "Vilhelm von Ehrenheim",
+            "linkedinUrl": "https://se.linkedin.com/in/vilhelm-von-ehrenheim",
+            "datePublished": "2025-11-13T20:23:00.936Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7395445396031967232",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7394768165714640899,7395445396031967232)",
+            "text": "Nooo that's not the goal! We're supposed to keep the entertainment world more human,  BUT then there are people who actually pays someone to play so they can get the nice gears in the game so I guess there's a big market for this. 🤣\n\nThe application to labor intensive work at home though is definitely something to opt in for. 😄",
+            "author": "Cristina Anier",
+            "linkedinUrl": "https://se.linkedin.com/in/cristinaanier",
+            "datePublished": "2025-11-15T12:59:43.146Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1y"
+          }
+        ],
+        "likeCount": 78,
+        "contentUrn": "urn:li:ugcPost:7394768165714640899",
+        "transcript": "This isn't a person playing a video game. It's Emma 2. Our most capable AI agent for virtual worlds. Worlds that are complex. Responsive and ever changing, just like ours. Unlike earlier models. Summer Two goes beyond simple actions to navigate and complete difficult multi step tasks. It understands multimodal prompts. And if you ask. Summer 2 will explain what it can see. And what the plans to do next? Summer 2 can learn. Reason. And improve. By playing on its own. Developing new skills and abilities without any human input. And the more summer 2 plays. The better it becomes. Taking what it learns in one virtual world and applying it to the next, and the next, and the next. Even if it's never seen them before. Summer 2. Not just a milestone for training agents in virtual worlds. But a step towards creating AI that can help with any task anywhere, including one day in the real world.",
+        "uploadDate": "2025-11-13T16:09:13.311Z",
+        "activityUrn": "urn:li:activity:7394768310397169666",
+        "description": "New from Google DeepMind: AI Agents that play games 👾\n\nHere's why it's more important than you think 👇\n\nIntroducing SIMA 2.\n\nAI agents that can learn, reason and understand what to do - on their own 🤯\n\nNo human instructions needed.\n\nWatch until the very end and you'll understand why this matters.\n\nAI that can help with anything, anywhere. Including....",
+        "commentCount": 24,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQH55VnFfvVIWQ/videocover-high/B56Zp9.f_DJoBY-/0/1763050129255?e=2147483647&v=beta&t=DFJLzO8lCRy_Q07KXfyqcVdG4a0ccDqPckRj0YF_HOA",
+        "datePublished": "2025-11-13T16:09:13.311Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/jan-schnyder_games-are-the-final-boss-for-ai-agents-activity-7505275315074658304-Uy7C",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQGQMJLS_czRjA/feedshare-shrink_800/B4EaCgYIbNIcAo-/0/1789397075932?e=2147483647&v=beta&t=9VPaNNB4-G-fLw7VxMK1gX_OVTJKc6xJy_Dz0MeVf7g",
+        "media": "https://media.licdn.com/dms/image/v2/D4E22AQGQMJLS_czRjA/feedshare-shrink_800/B4EaCgYIbNIcAo-/0/1789397075932?e=2147483647&v=beta&t=9VPaNNB4-G-fLw7VxMK1gX_OVTJKc6xJy_Dz0MeVf7g",
+        "author": {
+          "url": "https://ch.linkedin.com/in/jan-schnyder",
+          "name": "Jan Schnyder",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQEgkwurYQyXaA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1679158901706?e=2147483647&v=beta&t=82-ODXuUWqD6GCnFw5pWE_h4MR58t_FcLMnoe53Fun0",
+          "followers": 13573
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D4E22AQGQMJLS_czRjA/feedshare-shrink_800/B4EaCgYIbNIcAo-/0/1789397075932?e=2147483647&v=beta&t=9VPaNNB4-G-fLw7VxMK1gX_OVTJKc6xJy_Dz0MeVf7g"
+        ],
+        "comments": [
+          {
+            "id": "7505730685731594240",
+            "urn": "urn:li:comment:(urn:li:activity:7505275315074658304,7505730685731594240)",
+            "text": "Static benchmarks have a short shelf life once models start optimizing against them.\nA reactive 3D environment is much harder to game. Curious how you plan to keep this benchmark hard as the models catch up.",
+            "author": "Boris Paskalev",
+            "linkedinUrl": "https://ch.linkedin.com/in/bpaskalev",
+            "datePublished": "2026-09-15T20:54:05.211Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2mo"
+          }
+        ],
+        "likeCount": 69,
+        "contentUrn": "urn:li:share:7505275314093187073",
+        "activityUrn": "urn:li:activity:7505275315074658304",
+        "description": "Games are the final boss for AI agents 🤖 🎮\n\nLabs like DeepMind or OpenAI were born from the idea that mastering games could be a path toward general intelligence. Tho while domains like coding have seen immense improvements, games remain a tough nut to crack. 💦\n\nWe've been working with many labs to showcase and improve the capabilities of their models to ensure that our customers have the best AI for games in the world. 🤝\n\nToday we're releasing some of our internal benchmarks we used to achieve this. 📈\n\nI'd love to talk to more folks working on agents for environments that are 3D, non-deterministic, reactive - and want benchmarks that will not be saturated by EOY 🤗\n\nMore to come soon 👀",
+        "commentCount": 3,
+        "datePublished": "2026-09-14T14:44:36.384Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/noamsp_the-era-of-scripted-npcs-is-ending-gaming-activity-7389284921237839872-ngJ-",
+        "name": "The era of scripted NPCs is ending.\n\nGaming is about to get deeply personal, incredibly immersive, and unpredictably smart.\n\nWith generative AI powering characters that learn from your choices… | Noam Schwartz | 61 comments",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4E05AQFp_nIddu_FuA/mp4-640p-30fp-crf28/B4EZotDBKNKkBs-/0/1761692510202?e=2147483647&v=beta&t=BIbRwYw7E2G7zht2iZfsTdvAxUIHNLooD1WqAmyS4mg",
+        "author": {
+          "url": "https://www.linkedin.com/in/noamsp",
+          "name": "Noam Schwartz",
+          "image": "https://media.licdn.com/dms/image/v2/D4E03AQE3gwNb_HBJww/profile-displayphoto-scale_200_200/B4EZhjasWrGUAY-/0/1754014600725?e=2147483647&v=beta&t=P7yd6s24qz8_UdXP-GvNs3bzPAtv_MFPcMfo5g1X4lk",
+          "followers": 34954
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7389758548588769280",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7389073302721351680,7389758548588769280)",
+            "text": "This honestly is not a feature that most people want. People forget what a Game is then try to benchmark something that is kind of pointless. If the boss keeps changing tactics and is learning, then ultimately the game won't be able to be won at all and people will want a refund. \n\nPredictability and pattern solving is a part of it being a \"GAME\"",
+            "author": "Adam Starcaster ☑️",
+            "linkedinUrl": "https://www.linkedin.com/in/starcaster",
+            "datePublished": "2025-10-30T20:22:13.059Z",
+            "reactionCount": 25,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7389415899361017856",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7389073302721351680,7389415899361017856)",
+            "text": "It sounds like the Nemesis System game mechanic that Warner Bros. has patented. It was considered one of the most innovative contributions to recent game design, BUT they locked it down for use only in Middle-earth: Shadow of Mordor and its sequel, Shadow of War. \n\nThis system lets NPCs and bosses remember their encounters with the player, such as defeats, victories, or specific actions, and they would adapt, hold grudges, or evolve over time. \n\nHopefully with they use of AI they found a way around it, because not letting it be used by other game developers stifles innovation and creativity across the industry.",
+            "author": "Jack Dalrymple 🧩 Creative Growth",
+            "linkedinUrl": "https://www.linkedin.com/in/jackdalrymple",
+            "datePublished": "2025-10-29T21:40:39.117Z",
+            "reactionCount": 12,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7389317267664289792",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7389073302721351680,7389317267664289792)",
+            "text": "Not sure that will scale honestly….",
+            "author": "Albert Estevez Polo",
+            "linkedinUrl": "https://es.linkedin.com/in/albertestevezpolo",
+            "datePublished": "2025-10-29T15:08:43.488Z",
+            "reactionCount": 5,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7389668387230191616",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7389073302721351680,7389668387230191616)",
+            "text": "What is the pipeline from Nvidia Ace to Unreal and Unity?",
+            "author": "Michael Sorrenti",
+            "linkedinUrl": "https://ca.linkedin.com/in/gamepill",
+            "datePublished": "2025-10-30T14:23:56.916Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7392733159660011520",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7389073302721351680,7392733159660011520)",
+            "text": "Even if the game players wanted this, and I’m not convinced that they do, this could actually be done cheaper, more reliably, more efficiently, and more consistently with AI machine learning rather than with generative AI nonsense.",
+            "author": "Rafael Brown",
+            "linkedinUrl": "https://www.linkedin.com/in/rafaelbrown",
+            "datePublished": "2025-11-08T01:22:15.603Z",
+            "reactionCount": 5,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7389749118635638784",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7389073302721351680,7389749118635638784)",
+            "text": "Senem Aksakal",
+            "author": "Seyfeddin Gökbaba",
+            "linkedinUrl": "https://tr.linkedin.com/in/seyfeddin-g%C3%B6kbaba-70b0b0ab",
+            "datePublished": "2025-10-30T19:44:44.782Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7389539661414776832",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7389073302721351680,7389539661414776832)",
+            "text": "Interesting. Depending on the size of the gaming community, the AI completes and competes hundreds or hundreds of thousands of battles per day and improves from each battle. Meanwhile the gamer is learning at a much slower rate disrupting the game and reward balancing.",
+            "author": "Flickinger Robert",
+            "linkedinUrl": "https://www.linkedin.com/in/flickinger-robert-0981196",
+            "datePublished": "2025-10-30T05:52:26.290Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7392755975558119424",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7389073302721351680,7392755975558119424)",
+            "text": "Umm, no.",
+            "author": "shawn layden",
+            "linkedinUrl": "https://www.linkedin.com/in/shawn-layden",
+            "datePublished": "2025-11-08T02:52:55.338Z",
+            "reactionCount": 6,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7389521383543726080",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7389073302721351680,7389521383543726080)",
+            "text": "This is so cool, I don't have anything cooler to say, just so stoked",
+            "author": "Andrew Verrilli",
+            "linkedinUrl": "https://www.linkedin.com/in/andrew-verrilli",
+            "datePublished": "2025-10-30T04:39:48.505Z",
+            "reactionCount": 4,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7392863297454215168",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7389073302721351680,7392863297454215168)",
+            "text": "You've never made or released a video game have you?\n\nOr did you stay frozen in the 90s? Every feature you listed already exist, and never needed a power hungry LLM to function.",
+            "author": "Florent Mounier",
+            "linkedinUrl": "https://fr.linkedin.com/in/florent-mounier-b945153a",
+            "datePublished": "2025-11-08T09:59:22.871Z",
+            "reactionCount": 3,
+            "publishedTimeAgo": "1y"
+          }
+        ],
+        "likeCount": 297,
+        "contentUrn": "urn:li:ugcPost:7389073302721351680",
+        "transcript": "Introducing Asterion, the world's first AI boss monster built with NVIDIA ACE. A script based boss monster follows predictable patterns regardless of who the opponents are. As a result, players can easily anticipate and counter the bosses attacks, making the encounter of less exciting and reducing it to a tedious task to acquire items. But as Sterian is no ordinary box, artificial intelligence enables Asterion to analyze the players information, identify unique skills of each player, and determine who to attack first. Asterion recalls past battles similar to the current situation. It then determines the most probable course of action to achieve victory. Asterion adapts attacking with unpredictable patterns. It cannot be defeated twice with the same strategy. Welcome to Mere 5. Are you ready to face Asterion?",
+        "uploadDate": "2025-10-29T13:00:11.469Z",
+        "activityUrn": "urn:li:activity:7389284921237839872",
+        "description": "The era of scripted NPCs is ending.\n\nGaming is about to get deeply personal, incredibly immersive, and unpredictably smart.\n\nWith generative AI powering characters that learn from your choices, worlds that adapt to your style, and narratives that evolve in real time, the formula of “go here, defeat that, rinse-repeat” will feel outdated. NPCs will remember you, allies will build trust (or grudges), difficulty will shift on the fly, and entire terrains will be generated uniquely for you. The idea of a static world is fading fast.\n\nBut as the possibilities grow, so do the risks. AI models that make games more human-like can also be hijacked, manipulated, or poisoned by bad actors.\n\nWhat thrills us at ActiveFence is not only the innovation itself but the responsibility to keep it safe.\n\nWe’re already helping companies like Amazon and NVIDIA ensure generative AI systems are secure, reliable, and resilient against abuse.\n\n📩 If you’re building the next generation of games or interactive worlds powered by generative AI, let’s talk. At ActiveFence, we’re helping ensure these experiences are not only playable but also safe, resilient, and unforgettable.\n\nThe clip you’re watching is MIR5 from Wemade, introducing the world’s first LLM-driven AI Boss powered by NVIDIA ACE. Instead of a typical script-based boss, Asterion uses an AI response system analyzing player skills, recalling past battles, and making every fight uniquely challenging.",
+        "commentCount": 61,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQFp_nIddu_FuA/videocover-high/B4EZotDBKNKkCI-/0/1761692504977?e=2147483647&v=beta&t=oEdNhEbl6XeqUsq65fOzlMSvrM2aldZuPHBTIpL5SvI",
+        "datePublished": "2025-10-29T13:00:11.469Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/wenzhe-shi-74ab6a2b_were-hiring-on-the-ai-npc-team-our-goal-activity-7465081807437246464-uYkZ",
+        "name": "We’re hiring on the AI NPC team. Our goal is to train a new class of behavior model that can play games in real time — not just perform well, but move in a human-like way, generalize beyond the games… | Wenzhe Shi | 12 comments",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4D05AQHRW1VfdpY4kg/mp4-640p-30fp-crf28/B4DZ5lMTTcJUBk-/0/1779814190049?e=2147483647&v=beta&t=W10nCMGX3uwOxfeo28i20YVVRJyQLuo7yc_f2R383e4",
+        "author": {
+          "url": "https://www.linkedin.com/in/wenzhe-shi-74ab6a2b",
+          "name": "Wenzhe Shi",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQHsIEUOmekYww/profile-displayphoto-scale_200_200/B56Z30IricHEAY-/0/1777917413606?e=2147483647&v=beta&t=ZH0FY75i7g0Fw38kQZtfIim8FSgo-0YoyU3mcRfDGOU",
+          "followers": 11219
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7467931530003107842",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7465081681981448192,7467931530003107842)",
+            "text": "Is the video of a fully autonomous AI?",
+            "author": "Nicholas Léonard",
+            "linkedinUrl": "https://ca.linkedin.com/in/nicholas-l%C3%A9onard",
+            "datePublished": "2026-06-03T13:33:44.212Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "5mo"
+          },
+          {
+            "id": "7465182394891988992",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7465081681981448192,7465182394891988992)",
+            "text": "Samy Metref take a look",
+            "author": "Alessandro Vai",
+            "linkedinUrl": "https://it.linkedin.com/in/alessandro-vai",
+            "datePublished": "2026-05-26T23:29:39.325Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "6mo"
+          },
+          {
+            "id": "7485338854170963969",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7465081681981448192,7485338854170963969)",
+            "text": "Hello! I noticed that you guys are attempting to introduce learning AIs into Roblox. I recommend you to have a look at this resource called DataPredict. DataPredict is basically a machine learning, deep learning and reinforcement learning library written in pure Lua developed for over 3 years. It has over 137K views and 27w likes. It is top 40 most-viewed community resource in Roblox's DevForum. You can have a look at the resource here: https://devforum.roblox.com/t/datapredict™-3-years-release-242-revenue-game-optimization-using-machine-learning-deep-learning-and-reinforcement-learning-100-models/2196446",
+            "author": "Aqwam Harish Aiman",
+            "linkedinUrl": "https://my.linkedin.com/in/aqwam-harish-aiman",
+            "datePublished": "2026-07-21T14:24:13.706Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "4mo"
+          },
+          {
+            "id": "7468252364114759680",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7465081681981448192,7468252364114759680)",
+            "text": "the 'generalize beyond the games it has seen' requirement is what separates this from every reinforcement learning project that came before it, and the Roblox data scale is probably the only reason that goal is even theoretically tractable.",
+            "author": "Jahanzaib A.",
+            "linkedinUrl": "https://pk.linkedin.com/in/jahanzaibai",
+            "datePublished": "2026-06-04T10:48:37.025Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "5mo"
+          },
+          {
+            "id": "7466972853930901504",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7465081681981448192,7466972853930901504)",
+            "text": "Intresting 💀",
+            "author": "Gaurav Kamble",
+            "linkedinUrl": "https://in.linkedin.com/in/gauravkamble13",
+            "datePublished": "2026-05-31T22:04:18.025Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "5mo"
+          },
+          {
+            "id": "7466706743776178176",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7465081681981448192,7466706743776178176)",
+            "text": "Exciting times :)",
+            "author": "Rohit Swamy",
+            "linkedinUrl": "https://www.linkedin.com/in/rohitswamy",
+            "datePublished": "2026-05-31T04:26:52.420Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "5mo"
+          },
+          {
+            "id": "7465692787963740160",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7465081681981448192,7465692787963740160)",
+            "text": "We should chat Wenzhe 👀 \n\nArtificial.Agency has a fun Roblox Studio demo",
+            "author": "Russell Sng",
+            "linkedinUrl": "https://ca.linkedin.com/in/russellsng",
+            "datePublished": "2026-05-28T09:17:46.516Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "5mo"
+          },
+          {
+            "id": "7465266803192143872",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7465081681981448192,7465266803192143872)",
+            "text": "I've worked with some impressive people on challenges like this for Roblox that might be looking for new adventures.\n\nI'll share the post with them. GLHF!",
+            "author": "Mike Gardiner",
+            "linkedinUrl": "https://au.linkedin.com/in/mrmikeg",
+            "datePublished": "2026-05-27T05:05:03.832Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "6mo"
+          },
+          {
+            "id": "7465240277675520001",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7465081681981448192,7465240277675520001)",
+            "text": "Abhigyan Rai",
+            "author": "Atul Kumar",
+            "linkedinUrl": "https://in.linkedin.com/in/atul5196",
+            "datePublished": "2026-05-27T03:19:39.656Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "6mo"
+          },
+          {
+            "id": "7465208888003305472",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7465081681981448192,7465208888003305472)",
+            "text": "There's millions of human movement data tracked in the open source modded version of beatsaber. Bet your NPCs can come from those.\n\nhttps://replay.beatleader.com/?scoreId=20941908",
+            "author": "Gary Tay",
+            "linkedinUrl": "https://sg.linkedin.com/in/garytay",
+            "datePublished": "2026-05-27T01:14:55.775Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "6mo"
+          }
+        ],
+        "likeCount": 156,
+        "contentUrn": "urn:li:ugcPost:7465081681981448192",
+        "uploadDate": "2026-05-26T16:49:57.381Z",
+        "activityUrn": "urn:li:activity:7465081807437246464",
+        "description": "We’re hiring on the AI NPC team. Our goal is to train a new class of behavior model that can play games in real time — not just perform well, but move in a human-like way, generalize beyond the games it has seen, and follow instructions.\n\nOne of the hardest parts of building this model is data. That’s also what makes Roblox so exciting: this is one of the few places where we have access to internet-scale data if not the only place.\n\nWe’re still at ground zero, which means this team gets to build the first version of almost everything across data, training, inference, modeling and evaluation.\n\nWe’re looking for people who have worked on large-scale ML systems — whether in recommender systems, LLMs, or autonomous driving — and want to help build the next big thing instead!\n\nIf this sounds exciting, reach out to me.\n\nVideo is from pixel2play we built at my last startup.",
+        "commentCount": 12,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQHRW1VfdpY4kg/videocover-high/B4DZ5lMTTcJUBM-/0/1779814186158?e=2147483647&v=beta&t=uArey1aq2n-8g32LOomeYUipGAyssm12uS3NaQgeXfE",
+        "datePublished": "2026-05-26T16:49:57.381Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/greghartrell_studio-beta-studio-assistant-mcp-playtest-activity-7448437440744427520-NUql",
+        "image": null,
+        "media": null,
+        "author": {
+          "url": "https://www.linkedin.com/in/greghartrell",
+          "name": "Greg Hartrell",
+          "followers": 6200
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7448446467968806913",
+            "urn": "urn:li:comment:(urn:li:activity:7448437440744427520,7448446467968806913)",
+            "text": "Greg Hartrell - It says access denied, by design?",
+            "author": "Aditya K.",
+            "linkedinUrl": "https://in.linkedin.com/in/aditya-kasibhatla",
+            "datePublished": "2026-04-10T19:07:03.408Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "7mo"
+          },
+          {
+            "id": "7448559826055471104",
+            "urn": "urn:li:comment:(urn:li:activity:7448437440744427520,7448559826055471104)",
+            "text": "Ty so much for sharing this Greg Hartrell  is there any way we could learn from\nHow yall are approaching it with a use case review ?",
+            "author": "Warren Durrett",
+            "linkedinUrl": "https://www.linkedin.com/in/warren-durrett-a507797b",
+            "datePublished": "2026-04-11T02:37:30.082Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "7mo"
+          },
+          {
+            "id": "7448458335852347392",
+            "urn": "urn:li:comment:(urn:li:activity:7448437440744427520,7448458335852347392)",
+            "text": "👏👏👏",
+            "author": "Ethan Binder",
+            "linkedinUrl": "https://www.linkedin.com/in/ethan-binder",
+            "datePublished": "2026-04-10T19:54:12.931Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "7mo"
+          },
+          {
+            "id": "7457180023683256320",
+            "urn": "urn:li:comment:(urn:li:activity:7448437440744427520,7457180023683256320)",
+            "text": "I've been waiting this for months now! \nThanks to your team to keep on releasing useful tools like this to us creators! ;)",
+            "author": "T. undefined",
+            "linkedinUrl": "https://fr.linkedin.com/in/t-undefined-b260443ab",
+            "datePublished": "2026-05-04T21:31:05.352Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "6mo"
+          },
+          {
+            "id": "7449818909656068096",
+            "urn": "urn:li:comment:(urn:li:activity:7448437440744427520,7449818909656068096)",
+            "text": "That last line is the key insight, Greg: \"agents are moving from answering questions to operating inside workflows.\" That is exactly the shift we are seeing across industries. The teams that get ahead are the ones treating agents not as chatbots but as team members with real responsibilities. Roblox deploying this in Studio is a great proof point. We took the same philosophy and applied it to business operations: each agent owns a function end to end, and they coordinate like a real team. Here is the live setup: https://agentsquadai.com/en",
+            "author": "Roberto J. Aguirre G.",
+            "linkedinUrl": "https://co.linkedin.com/in/roberto-javier-aguirre-guardia",
+            "datePublished": "2026-04-14T14:00:39.004Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "7mo"
+          },
+          {
+            "id": "7449317780451155968",
+            "urn": "urn:li:comment:(urn:li:activity:7448437440744427520,7449317780451155968)",
+            "text": "congrats greg and team! pretty cool to see what our millions of existing creators will do with these tools, and how many more will join us to create the future of games.",
+            "author": "Maura Tuohy Di Muro",
+            "linkedinUrl": "https://www.linkedin.com/in/mauratuohy",
+            "datePublished": "2026-04-13T04:49:20.492Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "7mo"
+          },
+          {
+            "id": "7448561493576560641",
+            "urn": "urn:li:comment:(urn:li:activity:7448437440744427520,7448561493576560641)",
+            "text": "Kristen Spice Dale Deputy",
+            "author": "Warren Durrett",
+            "linkedinUrl": "https://www.linkedin.com/in/warren-durrett-a507797b",
+            "datePublished": "2026-04-11T02:44:07.650Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "7mo"
+          },
+          {
+            "id": "7448549535968051200",
+            "urn": "urn:li:comment:(urn:li:activity:7448437440744427520,7448549535968051200)",
+            "text": "While I like the end results you mentioned I do worry it’s going to lead to job loss. Maybe it just at leads to better products but its all about that stock price increase in the end",
+            "author": "Ben Coleman",
+            "linkedinUrl": "https://www.linkedin.com/in/bencoleman",
+            "datePublished": "2026-04-11T01:56:36.734Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "7mo"
+          }
+        ],
+        "likeCount": 134,
+        "contentUrn": "urn:li:share:7448437439376883712",
+        "activityUrn": "urn:li:activity:7448437440744427520",
+        "description": "At Roblox, we just announced a AI-powered playtesting agent in Studio, and I’m proud that my team built the NPC agent behind it.\n\nWhat excites me is not a claim that today’s agents can do everything. They can’t. They’re still limited, uneven, and far from replacing human judgment in testing or design.\n\nBut the direction is becoming clear...  agents are moving from answering questions to operating in worlds.\n\nWe’ve already seen the broader pattern in autonomous driving and robotics: Waymo says its system has driven nearly 200 million fully autonomous real-world miles and billions of miles in simulation, while platforms like NVIDIA Isaac Sim and Microsoft AirSim are built specifically to train, test, and validate robots and autonomous systems in virtual 3D environments.\n\nThat same logic is on display here.\n\nA 3D game world naturally supports the core agent loop in robotics: perceive, plan, act, learn. An agent can observe terrain, UI, hazards, and objectives; decide what to do next; execute in sequence; and improve over repeated runs.\n\nFor developers, that opens the door to something better than the brittle automated test harnesses I remember studios wrestling with all the way back in my Xbox 360 days.\n\nOver time, agents can test progression, retry known failure paths, remember regressions, and even simulate multiplayer scenarios.\n\nSo yes, this is a practical tool for game developers today. But it also is a glimpse of something bigger: game and simulated worlds will continue to be the most scalable proving grounds for the next generation of AI agents.\n\nhttps://lnkd.in/gy4u7hBs",
+        "commentCount": 10,
+        "datePublished": "2026-04-10T18:31:11.124Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/nicochristie_the-minecraft-altera-bot-the-first-ai-buddy-activity-7165512173409013760-Qzgh",
+        "image": null,
+        "media": null,
+        "author": {
+          "url": "https://www.linkedin.com/in/nicochristie",
+          "name": "Nico Christie",
+          "image": "https://media.licdn.com/dms/image/v2/D4E03AQHqb1YRWmz8-A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1699236054034?e=2147483647&v=beta&t=P1cAucc59-s0upCWbg_lroFD4lYOsuPMxpdaTdCm4Mg",
+          "followers": 22422
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7165717818284478464",
+            "urn": "urn:li:comment:(urn:li:activity:7165512173409013760,7165717818284478464)",
+            "text": "I wonder how close we are to being able to play with 50 or 100 good bots in the same world.",
+            "author": "Michael Lembck",
+            "linkedinUrl": "https://www.linkedin.com/in/michael-lembck",
+            "datePublished": "2024-02-20T14:44:20.479Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2y"
+          }
+        ],
+        "likeCount": 58,
+        "contentUrn": "urn:li:share:7165512172867936256",
+        "activityUrn": "urn:li:activity:7165512173409013760",
+        "description": "Introducing the Altera Bot, the first AI Agent buddy that you can play with directly in Minecraft. Until now, AI NPCs were limited to mostly chatting in games. We're building friends that can play any game with you, and are always online.\n\nhttps://lnkd.in/eYhuurSn",
+        "commentCount": 2,
+        "datePublished": "2024-02-20T01:07:10.894Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/kartaca_kartaca-gaming-testing-activity-7529078253848772608-gx64",
+        "image": "https://media.licdn.com/dms/image/v2/D4D22AQH0vURLGoVXzg/feedshare-shrink_800/B4DaHyoxkUGQAg-/0/1795072137788?e=2147483647&v=beta&t=Hx8yJxUzPzxVEwdHXuwZtbZ8af3SOs3YIVhialrELB4",
+        "media": "https://media.licdn.com/dms/image/v2/D4D22AQH0vURLGoVXzg/feedshare-shrink_800/B4DaHyoxkUGQAg-/0/1795072137788?e=2147483647&v=beta&t=Hx8yJxUzPzxVEwdHXuwZtbZ8af3SOs3YIVhialrELB4",
+        "author": {
+          "url": "https://tr.linkedin.com/company/kartaca",
+          "name": "Kartaca",
+          "image": "https://media.licdn.com/dms/image/v2/D4E0BAQE0lcR_pYnHXg/company-logo_100_100/company-logo_100_100/0/1698731367160/kartaca_logo?e=2147483647&v=beta&t=Dz11X-HxmRyWhjHv38um5ax_EgXphgg-y1EPqvr2ROs",
+          "followers": 58773
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D4D22AQH0vURLGoVXzg/feedshare-shrink_800/B4DaHyoxkUGQAg-/0/1795072137788?e=2147483647&v=beta&t=Hx8yJxUzPzxVEwdHXuwZtbZ8af3SOs3YIVhialrELB4"
+        ],
+        "comments": [],
+        "likeCount": 4,
+        "contentUrn": "urn:li:share:7529078252175454208",
+        "activityUrn": "urn:li:activity:7529078253848772608",
+        "description": "🎮 What if your next QA tester could play the game before your players do?\n\nAI agents are taking game testing beyond predefined scripts. They can explore game environments, pursue objectives, test NPC behavior, uncover unexpected exploits, reproduce bugs, and report exactly what happened along the way.\n\nAnd this is already happening at scale. AI-powered testing platforms can run more than 30,000 hours of autonomous playtesting per month.\n\nHuman testers still bring the creativity, intuition, and judgment that make great games. AI agents can give them broader coverage and faster feedback.\n\nRead more 👉 https://lnkd.in/dx32-73s\n\n#kartaca #gaming #testing",
+        "commentCount": 0,
+        "datePublished": "2026-11-19T07:08:59.225Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/jsu05_ai-agents-for-dummies-activity-7315357847985233920-OdO1",
+        "image": "https://media.licdn.com/dms/image/v2/D561FAQEFe0kvOtJSyw/feedshare-document-images_160/B56ZYP94OXHoAo-/1/1744024615031?e=1796256000&v=beta&t=Eecjmt739VY5fc-xv4km4C6aTjG0DPEMbhvLz85gPXc",
+        "media": "https://media.licdn.com/dms/image/v2/D561FAQEFe0kvOtJSyw/feedshare-document-images_160/B56ZYP94OXHoAo-/1/1744024615031?e=1796256000&v=beta&t=Eecjmt739VY5fc-xv4km4C6aTjG0DPEMbhvLz85gPXc",
+        "author": {
+          "url": "https://www.linkedin.com/in/jsu05",
+          "name": "Jeff Su",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQEmYEH2_P8UzA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1711179090909?e=2147483647&v=beta&t=B1VHTnZSDoHv_R2q3nJ4nnVY9MNmH1Rf6cDd0axO3jU",
+          "followers": 100470
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D561FAQEFe0kvOtJSyw/feedshare-document-images_160/B56ZYP94OXHoAo-/1/1744024615031?e=1796256000&v=beta&t=Eecjmt739VY5fc-xv4km4C6aTjG0DPEMbhvLz85gPXc",
+          "https://media.licdn.com/dms/image/v2/D561FAQEFe0kvOtJSyw/feedshare-document-images_160/B56ZYP94OXHoAo-/2/1744024615031?e=1796256000&v=beta&t=LgRQ-m0SQvyv1yKupIW19v7gXvcWEFL9WxjOFi3Mzuo",
+          "https://media.licdn.com/dms/image/v2/D561FAQEFe0kvOtJSyw/feedshare-document-images_160/B56ZYP94OXHoAo-/3/1744024615031?e=1796256000&v=beta&t=yqFBdTWwAqsuWqUzOZ8CQna0hgRva8J4gbL6ELLWeHg",
+          "https://media.licdn.com/dms/image/v2/D561FAQEFe0kvOtJSyw/feedshare-document-images_160/B56ZYP94OXHoAo-/4/1744024615031?e=1796256000&v=beta&t=HpVHTvFsnAegmJJ1NRfhhItpXh2-9xgjhkJ40HzlfA4",
+          "https://media.licdn.com/dms/image/v2/D561FAQEFe0kvOtJSyw/feedshare-document-images_160/B56ZYP94OXHoAo-/5/1744024615031?e=1796256000&v=beta&t=9PUgTPLLvU_YdKEjy9q2h5OKa4-_T1lYk9RLyTU_7Cs",
+          "https://media.licdn.com/dms/image/v2/D561FAQEFe0kvOtJSyw/feedshare-document-images_160/B56ZYP94OXHoAo-/6/1744024615031?e=1796256000&v=beta&t=jGfWHUjXcdjlkhnRuRHcNqeGOkhPcuMj9LdyeiAoxoo",
+          "https://media.licdn.com/dms/image/v2/D561FAQEFe0kvOtJSyw/feedshare-document-images_160/B56ZYP94OXHoAo-/7/1744024615031?e=1796256000&v=beta&t=nJ4PxD_LPVTPz1mjzQmd29iIFzLjkshzs_Wz2m9-3iM"
+        ],
+        "comments": [
+          {
+            "id": "7315363108774899714",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7314969666689409024,7315363108774899714)",
+            "text": "This post helps clarify the different levels, Jeff. For my gaming brain, it helps me understand that LLMs are NPCs (non-playable characters) that only respond when you press a button. AI agents are like friends you play multiplayer with, where they read and play the game to achieve a specific objective.",
+            "author": "Varun Negandhi",
+            "linkedinUrl": "https://www.linkedin.com/in/vnegandhi",
+            "datePublished": "2025-04-08T13:21:18.007Z",
+            "reactionCount": 7,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7315511805257076739",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7314969666689409024,7315511805257076739)",
+            "text": "Now on to the 1M followers on LinkedIn.",
+            "author": "Dean Moon",
+            "linkedinUrl": "https://au.linkedin.com/in/deanjmoon",
+            "datePublished": "2025-04-08T23:12:10.011Z",
+            "reactionCount": 4,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7316225980820262913",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7314969666689409024,7316225980820262913)",
+            "text": "Video's on YouTube, yeah?",
+            "author": "Favour Edeko",
+            "linkedinUrl": "https://ng.linkedin.com/in/favouredeko",
+            "datePublished": "2025-04-10T22:30:02.733Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7315478009577119744",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7314969666689409024,7315478009577119744)",
+            "text": "Jeff, appreciate you demystifying AI agents by building on the familiar concept of LLMs. The levels analogy is excellent.",
+            "author": "Karl Krauskopf",
+            "linkedinUrl": "https://www.linkedin.com/in/karl-krauskopf",
+            "datePublished": "2025-04-08T20:57:52.493Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7315422301800259585",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7314969666689409024,7315422301800259585)",
+            "text": "I really like your breakdown of AI concepts for non-technical people! As an AI consultant, I'd add that AI agents are essentially what happens when we give AI systems both decision-making authority AND the ability to act on those decisions.\nThink of it as the difference between:\n. Asking a friend for advice (LLM)\n. Giving a friend a specific to-do list (Workflow)\n. Telling a friend \"Handle this for me\" and they figure out what needs doing (Agent)\nThe exciting (and challenging) part about agents is they represent that shift from AI as a tool we directly control to AI as a collaborator that can take initiative within boundaries we set. Your coffee chat example captures this perfectly - the agent doesn't just respond to commands but proactively identifies what resources it needs to solve your problem.\n\nGreat explanation that really helps demystify where this technology is heading!\n\n#AIExplained #ArtificialIntelligence #AIBasics #AITrends",
+            "author": "Sophie Ravenel-Grosso CAIC™ CSM CSPO",
+            "linkedinUrl": "https://www.linkedin.com/in/sophieravenelgrosso",
+            "datePublished": "2025-04-08T17:16:30.724Z",
+            "reactionCount": 7,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7315411998152835072",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7314969666689409024,7315411998152835072)",
+            "text": "This is the clearest explanation of AI agents I’ve seen! Love how you broke it down step by step, makes a complex topic actually make sense. 👏",
+            "author": "Jinita Shah",
+            "linkedinUrl": "https://ca.linkedin.com/in/jinita-shah19",
+            "datePublished": "2025-04-08T16:35:34.143Z",
+            "reactionCount": 3,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7315398235282456579",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7314969666689409024,7315398235282456579)",
+            "text": "Want to do or learn something the simplest way possible?\n\nFollow Jeff Su  😁",
+            "author": "Naji Naseem",
+            "linkedinUrl": "https://ae.linkedin.com/in/najinaseem",
+            "datePublished": "2025-04-08T15:40:52.819Z",
+            "reactionCount": 3,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7315360558688456704",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7314969666689409024,7315360558688456704)",
+            "text": "Love this breakdown, Jeff. As always, super easy to grasp and implement.",
+            "author": "Austin Belcak",
+            "linkedinUrl": "https://www.linkedin.com/in/abelcak",
+            "datePublished": "2025-04-08T13:11:10.019Z",
+            "reactionCount": 3,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7315964583515443201",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7314969666689409024,7315964583515443201)",
+            "text": "This is hands-down the clearest breakdown I’ve seen.... finally a “for dummies” that doesn’t make you feel like one. The level-up from workflow to agent clicked instantly. Love how you framed autonomy as the differentiator Jeff Su",
+            "author": "Rithickroshaan Pararajasegaran",
+            "linkedinUrl": "https://lk.linkedin.com/in/rithickroshaan-pararajasegaran-8a7103235",
+            "datePublished": "2025-04-10T05:11:20.760Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7315431253661437953",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7314969666689409024,7315431253661437953)",
+            "text": "Okay NEEDED this. Thank you for sharing!",
+            "author": "Lia Zneimer",
+            "linkedinUrl": "https://www.linkedin.com/in/liazneimer",
+            "datePublished": "2025-04-08T17:52:05.014Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1y"
+          }
+        ],
+        "likeCount": 642,
+        "contentUrn": "urn:li:ugcPost:7314969666689409024",
+        "activityUrn": "urn:li:activity:7315357847985233920",
+        "description": "What are AI agents?\n\n(for dummies)\n\nAs someone with 0 technical background, I've found the best way to understand AI Agents is to build on concepts I already grasp.\n\nLevel 1️⃣ - Large Language Models\n\nLarge Language Models (LLMs) like ChatGPT are passive systems that generate outputs based on inputs but can't access external information or take autonomous actions.\n\nNote: Technically, ChatGPT is an application built on top of LLMs, but we can simplify for now.\n\nLevel 2️⃣ - AI Workflows\n\nAI Workflows combine LLMs with external tools (like calendar access or weather data). They follow rigid, predefined paths set by humans, who remain the decision-makers.\n\nLevel 3️⃣ - AI Agents\n\nHere, the LLM itself becomes the decision-maker. It autonomously reasons about problems, selects appropriate tools, and iterates until it achieves its goals.\n\nHere’s an (extremely) oversimplified example:\n\n1️⃣ ChatGPT can draft an email requesting a coffee chat, but if you ask \"When is that coffee chat?\" it fails because it has no access to your calendar.\n\n2️⃣ Give ChatGPT access to your Google Calendar and it becomes an AI workflow.\n\nIMPORTANT: ChatGPT didn't make that decision - you did.\n\n3️⃣ A workflow evolves into an AI Agent when the LLM independently (1) Reasons: \"To find the user's events, I need calendar access\" and (2) Acts: \"I'll connect to their Google Calendar API.\"\n\nCheck out the full video for a deeper breakdown with more examples!\n\n#AIagents",
+        "commentCount": 96,
+        "datePublished": "2025-04-08T13:00:23.706Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/muirfan-ai_generative-agents-interactive-simulacra-activity-7351943722462232577-VRoX",
+        "name": "Stanford researchers built “generative agents” and put them in a simulated town. 🏘️\n\nThe test? give one agent an idea of holding a Valentine’s Day party and see what happens. \n\nEach agent keeps a natural-language memory log of experiences and reflections. The architecture uses a large language model to synthesize memories over time and guide actions\n\nIn the simulation, agents spontaneously organized the party: they wrote invitations, made new friends, and arranged dates. \n\nOver two days, an AI-run social network emerged - and on Valentine’s Day, the invited agents all showed up at the party on time. 🙌\n\nThe AI agents acted “believably human”: they formed opinions, picked up gossip, and even forgot things unless reminded.\n\nAblation tests showed each component (observation, planning, reflection) was crucial for making their behavior realistic.\n\nThis shows how LLM-based agents can simulate complex social behaviors autonomously. However, it IS a simplified scenario (25 scripted characters), not a real-world deployment. But it points to future simulations or NPCs that adapt and interact like humans.\n\nScary or exciting? 🤔\n\nFollow for more research dives like this. 💡\n\nRead the full article here:",
+        "image": null,
+        "media": null,
+        "author": {
+          "url": "https://pk.linkedin.com/in/muirfan-ai",
+          "name": "Muhammad Irfan 🧬",
+          "image": "https://media.licdn.com/dms/image/v2/D4D03AQHDJG2VGcVHEQ/profile-displayphoto-scale_200_200/B4DZhMJvTbGkAY-/0/1753624279776?e=2147483647&v=beta&t=5u2rwzHfxBpi9BsapLn8Gb3ckPFF6WcShufCHP7mHeo",
+          "followers": 61072
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7351974749691936769",
+            "urn": "urn:li:comment:(urn:li:activity:7351943722462232577,7351974749691936769)",
+            "text": "AI's evolving ability to mimic social behaviors is truly fascinating Muhammad Irfan 🧬. How might these advancements influence research methodologies in social sciences?",
+            "author": "Emmanuel Tsekleves",
+            "linkedinUrl": "https://uk.linkedin.com/in/emmanueltsekleves",
+            "datePublished": "2025-07-18T14:02:53.412Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1y"
+          }
+        ],
+        "likeCount": 14,
+        "contentUrn": "urn:li:share:7351943721782804483",
+        "activityUrn": "urn:li:activity:7351943722462232577",
+        "description": "AI characters that plan, socialize, and throw parties?\nIt’s real.\n\nResearchers at Stanford and Google built a virtual town called Smallville, populated by 25 AI characters powered by generative models like GPT-3.5.\nThese aren’t your typical NPCs.\n\nEach AI agent could:\n✅ Remember past events\n✅ Reflect on what they’ve learned\n✅ Plan their day\n✅ Chat naturally with others\n\nThe result?\n\nWithout any direct instructions, the agents started forming friendships, making decisions, and even organized a Valentine’s Day party — all on their own.\n\n💡 This study shows what’s possible when language models are combined with memory, planning, and social reasoning.\n\nIt's a big leap toward more believable AI in simulations, games, training, and beyond.\n\nWhether you find it exciting or a little scary, one thing’s clear: this is just the beginning.",
+        "commentCount": 7,
+        "datePublished": "2025-07-18T11:59:35.916Z"
+      }
+    ],
+    "query": "AI NPC game agents",
+    "cursor": "2",
+    "success": true
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00188",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:42:46.890Z",
+  "started_at": "2026-11-23T07:42:47.381Z",
+  "completed_at": "2026-11-23T07:42:58.149Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

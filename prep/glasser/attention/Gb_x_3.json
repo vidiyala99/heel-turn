@@ -1,0 +1,193 @@
+{
+  "id": "76a2c6f6-9d3c-4b4e-973a-066d9da0e790",
+  "run_url": "https://app.glasser.ai/runs/76a2c6f6-9d3c-4b4e-973a-066d9da0e790",
+  "provider": "anyapi",
+  "endpoint": "/twitter.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "limit": 20,
+    "query": "\"AI NPCs remember player betrayal\" OR (AI NPCs remember player betrayal) since:2025-11-22 filter:videos min_faves:5",
+    "queryType": "Top"
+  },
+  "output": {
+    "hint": "malformed_query: X search ANDs adjacent bare words and binds OR tighter, so these operators after an unbracketed OR list applied to its last alternative only: [since:2025-11-22, filter:videos, min_faves:5]. Send this instead: (\"AI NPCs remember player betrayal\" OR (AI NPCs remember player betrayal)) since:2025-11-22 filter:videos min_faves:5 large_result: this response is ~23 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 5,
+    "output": {
+      "data": {
+        "items": [
+          {
+            "id": "2123161950461038773",
+            "url": "https://x.com/mojeskoqq/status/2123161950461038773",
+            "lang": "en",
+            "text": "HOW TO MAKE F*CK YOU MONEY WITH CLAUDE + GTA VI NPCs (FULL GUIDE)\n\nGTA 6 is out today. every FiveM RP server is about to fight for the same players\n\nthe servers that win won't have better cars. they'll have NPCs that think\n\nthis is 3 NPCs running on claude. each one has its own memory, and they share a private chat the player never sees. the tipster reads the room, the bartender works the target, the enforcer waits in the alley. you don't write a single line of dialogue\n\nfable 5.2 doesn't do this alone. 3 open-source repos make it actually work:\n\n1. generative_agents. memory stream + reflection + planning. the stanford paper that started it all\nhttps://github.com/joonspk-research/generative_agents\n\n2. mem0. long-term memory for every NPC. they remember your face, your money, what you did last week\nhttps://github.com/mem0ai/mem0\n\n3. ai-town. agents that talk to each other when you're not around. that's the hidden chat\nhttps://github.com/a16z-infra/ai-town\n\ndrop all 3 in one folder. one message to claude code: \"port this to fivem lua. 3 NPCs, shared memory, one private channel\"\n\nthat's the pack:\n• bartenders that gossip about your crimes\n• informants that sell you out\n• cops that remember your face\n• gangs that plan around you\n\nright now most RP NPCs are mannequins with a dialogue tree. nobody is selling this yet\n\nlicense it per server. 100 servers × $300 = $30K. do the math\n\nthe full build with every prompt and the fivem setup is in the article below. which NPC are you building first?",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123159178311323650/img/JA1EAIfg-vfj46kr.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123159178311323650/vid/avc1/1932x1080/usds5VsABOZ0Bqxi.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2058253770492956672",
+            "likeCount": 409,
+            "viewCount": 39969,
+            "authorName": "mojesko",
+            "createdUtc": 1795036230,
+            "quoteCount": 0,
+            "replyCount": 16,
+            "authorImage": "https://pbs.twimg.com/profile_images/2117579319711256576/bTXhNZyw_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 25,
+            "bookmarkCount": 495,
+            "authorUsername": "mojeskoqq",
+            "authorVerified": true,
+            "conversationId": "2123161950461038773",
+            "authorFollowers": 4388
+          },
+          {
+            "id": "2124152488148242885",
+            "url": "https://x.com/viktorcarterr/status/2124152488148242885",
+            "lang": "en",
+            "text": "🚨HOW TO MAKE F*CK YOU MONEY WITH CLAUDE + GTA VI NPCs (FULL GUIDE)\n\nGTA 6 is out today and every FiveM RP server is about to fight for the same players.\n\nThe servers that win won't have better cars. They'll have NPCs that think.\n\nThis is 3 NPCs running on Claude:\n\n→ The tipster reads the room\n→ The bartender works the target\n→ The enforcer waits outside\n\nEach one has its own memory, and they share a private chat the player never sees. You don't write a single line of dialogue.\n\nFable 5.2 doesn't do this alone. These 3 open-source repos are what make it work 👇🏼\n\n1. generative_agents\nMemory stream, reflection and planning. The Stanford paper that started it all.\nhttps://github.com/joonspk-research/generative_agents\n\n2. mem0\nLong-term memory for every NPC. They remember your face, your money and what you did last week.\nhttps://github.com/mem0ai/mem0\n\n3. ai-town\nAgents that talk to each other when you're not around. That's the hidden chat.\nhttps://github.com/a16z-infra/ai-town\n\nDrop all 3 in one folder and send Claude Code one message:\n\n\"Port this to FiveM Lua. 3 NPCs, shared memory, one private channel\"\n\nThat's the pack:\n\n→ Bartenders who gossip\n→ Informants who sell you out\n→ Cops who remember you\n→ Gangs that plan around you\n\nRight now most RP NPCs are mannequins with a dialogue tree. Nobody is selling this yet.\n\nLicense it per server:\n100 servers × $300 = $30K\n\nDo the math.\n\nWhich NPC are you building first?\n\n🔖 Save this",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124152084366819328/img/cCTRxFFguRVsctAG.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124152084366819328/vid/avc1/1932x1080/VdwGhzoRSuasfp8I.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1156039853236113408",
+            "likeCount": 136,
+            "viewCount": 7214,
+            "authorName": "Viktor",
+            "createdUtc": 1795272392,
+            "quoteCount": 0,
+            "replyCount": 47,
+            "authorImage": "https://pbs.twimg.com/profile_images/2118381266168864769/o30OwJdG_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 29,
+            "bookmarkCount": 64,
+            "authorUsername": "viktorcarterr",
+            "authorVerified": true,
+            "conversationId": "2124152488148242885",
+            "authorFollowers": 842776
+          },
+          {
+            "id": "2123444418258571548",
+            "url": "https://x.com/RealMarvelX/status/2123444418258571548",
+            "lang": "en",
+            "text": "this Claude Code + GTA 6 business idea could make $30K licensing AI NPCs to 100 FiveM servers.\n\nmost RP servers have NPCs that follow scripts and repeat the same dialogue.\n\nbut imagine NPCs that remember players, talk to each other, make plans, and react to what happens in the city.\n\nyou can build a system like this using Claude Code and 3 open-source projects.\n\nhere’s how the setup works:\n\nthree NPCs run on AI, each with its own memory and access to a private communication channel the player never sees.\n\n* the tipster: gathers information and shares secrets.\n* the bartender: listens to conversations and works the room.\n* the enforcer: watches from the shadows and waits for instructions.\n\nthey can exchange information behind the scenes, so their behaviour feels connected instead of scripted.\n\n3 open-source repos make this possible:\n\n1. Generative Agents\n\ngives NPCs memory, reflection, and planning capabilities.\n\nGitHub: https://github.com/joonspk-research/generative_agents\n\n2. Mem0\n\nadds long-term memory so NPCs can remember players, past interactions, money, and previous events.\n\nGitHub: https://github.com/mem0ai/mem0\n\n3. AI Town\n\nprovides a foundation for AI agents that interact and communicate with one another.\n\nGitHub: https://github.com/a16z-infra/ai-town\n\nhow to build it with Claude Code:\n\n1. clone all three repositories into one project folder.\n2. give Claude Code access to the codebases.\n3. ask it to adapt the architecture for FiveM using Lua.\n4. connect each NPC to its own memory.\n5. create a private communication channel for NPC-to-NPC interactions.\n6. connect their decisions and actions to your FiveM server.\n\nyour goal is to create:\n\n* bartenders who gossip about player crimes.\n* informants who sell information.\n* cops who remember repeat offenders.\n* gangs that coordinate based on player behaviour.\n\nhere’s where the money comes in.\n\ninstead of building an entire RP server, you could develop an AI NPC system and license it to server owners.\n\nat $300 per server, 100 paying servers would generate $30,000.\n\nread the article below for the complete setup.\n\nwhich NPC would you build first: the bartender, the informant, or the enforcer?",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123444318740328449/img/Z4Hzv7zBC9yaT580.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123444318740328449/vid/avc1/1932x1080/LfK-uDhU1A8nQgzy.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2050852010514169856",
+            "likeCount": 17,
+            "viewCount": 1035,
+            "authorName": "MAIL",
+            "createdUtc": 1795103575,
+            "quoteCount": 0,
+            "replyCount": 4,
+            "authorImage": "https://pbs.twimg.com/profile_images/2072087413862625280/2czrbEBw_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 0,
+            "bookmarkCount": 12,
+            "authorUsername": "RealMarvelX",
+            "authorVerified": true,
+            "conversationId": "2123444418258571548",
+            "authorFollowers": 2387
+          },
+          {
+            "id": "2124255072150294926",
+            "url": "https://x.com/6AW0RON0k/status/2124255072150294926",
+            "lang": "en",
+            "text": "GTA 6 IS OUT. HERE ARE TWO BUSINESSES YOU LAUNCH FROM ONE LAPTOP\n\ni'm selling my TV. don't need it anymore. because the next 12 months is a window that's closing fast\n\nGTA 6 is the biggest content event of the decade. last time a GTA dropped, kids on Shorts channels were pulling five to six figures a month off clips. this time you don't touch a single frame yourself\n\nbusiness 1: the clip factory\n\n40 accounts, three agents, a mac mini in the corner of your room\n\n→ agent 1 monitors every top-50 twitch stream. catches the exact moments chat explodes. 300+ messages a minute\n→ agent 2 cuts the clip, reframes to 9:16, adds captions, generates 3 title variants\n→ agent 3 pushes to tiktok, shorts, reels. rotating across every account\n→ a google sheet tracks what hits. the agents repeat the format that wins\n\nthree open-source repos doing the heavy lifting:\n\n1. yt-dlp. pulls any stream in seconds. raw material for every clip\nhttp://github.com/yt-dlp/yt-dlp\n\n2. ClipsAI. detects viral moments in long video, cuts them, auto-reframes to vertical\nhttp://github.com/ClipsAI/clipsai\n\n3. Postiz. schedules and posts across every platform from one dashboard\nhttp://github.com/gitroomhq/postiz\n\ndrop all 3 in one folder. one line to claude code: \"yt-dlp feeds clipsai, clipsai feeds postiz, log every post in a google sheet\"\nzero editors. 24/7 output\n\nbusiness 2: NPCs that think\nevery FiveM RP server is fighting for the same players right now. the ones that win will have NPCs that aren't mannequins\n\n3 NPCs running on claude. each one has its own memory and a private chat the player never sees. the tipster reads the room, the bartender works the target, the enforcer waits in the alley. you don't write a single line of dialogue\n\nthree repos that make it real:\n\n1. generative-agents. memory stream + reflection + planning. the stanford paper that started it all\nhttp://github.com/joonspk-research/generative-agents\n\n2. mem0. long-term memory for every NPC. they remember your face, your money, what you did last week\nhttp://github.com/mem0ai/mem0\n\n3. ai-town. agents that talk to each other when you're not around. the hidden chat\nhttp://github.com/a16z-infra/ai-town\n\none folder, one message to claude code: \"port this to fivem lua. 3 NPCs, shared memory, one private channel\"\n\nbartenders that gossip about your crimes. cops that remember your face. gangs that plan around you\n\nright now every RP server runs NPCs off a dialogue tree. nobody is selling ones that think yet\n\nlicense it per server. 150 servers × $200 = $30K\nthe math\n\ntwo businesses. six open-source repos. one laptop. fable 5.2 alone doesn't ship this. the repos do the heavy lifting\nthe kids doing this already shipped last week. the ones starting tomorrow are late\n\nfull breakdown of both pipelines, every prompt, and the google sheet template is in the article below\nwhich one are you building first. \n\nthe clip factory or the NPCs?",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124255014042415104/img/EZ2oSCS6tLfm4PVA.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124255014042415104/vid/avc1/720x1280/b6zshF7rmgg8_ZMf.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1571169253746688003",
+            "likeCount": 39,
+            "viewCount": 2765,
+            "authorName": "6AWORON0k",
+            "createdUtc": 1795296850,
+            "quoteCount": 0,
+            "replyCount": 5,
+            "authorImage": "https://pbs.twimg.com/profile_images/2059609048924794883/SGw85JsS_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 2,
+            "bookmarkCount": 19,
+            "authorUsername": "6AW0RON0k",
+            "authorVerified": true,
+            "conversationId": "2124255072150294926",
+            "authorFollowers": 1171
+          },
+          {
+            "id": "2123731076967170349",
+            "url": "https://x.com/wordsdematthew/status/2123731076967170349",
+            "lang": "en",
+            "text": "Anderson Cooper: Well, the biggest release in gaming is upon us. Grand Theft Auto 6 is out after a 13-year wait. The video game reportedly surpassed $1.5 billion in pre-sales alone. You may know someone who is a case of GTA 6 flu, maybe they called in sick, or took PTO to get in on the action on launch day. I got a chance to play some of GTA 6 with Harold Goldberg today. He's a video game critic and feature writer for the New York Times to see what the hype is about. Take a look. I have not played a game, a video game, since Castle Wolfenstein on my Apple IIe.\n\nHarold Goldberg: Wow.\n\nAnderson Cooper: I think it was.\n\nHarold Goldberg: Wow, a long time.\n\nAnderson Cooper: So that would have been 1986.\n\nHarold Goldberg: But a good game.\n\nAnderson Cooper: I mean, for the time.\n\nHarold Goldberg: For the time, yeah.\n\nAnderson Cooper: It seemed amazing.\n\nHarold Goldberg: So what are we going to do? So let's check out where we are. So this is, I'd like you to meet Jason.\n\nAnderson Cooper: Wow.\n\nHarold Goldberg: So that's Jason. He's one of the...\n\nAnderson Cooper: First of all, I had no idea that even the graphics were this good.\n\nHarold Goldberg: Yeah, that is Rockstar's version of Florida called Leonida.\n\nAnderson Cooper: And is there a general plot of, like, that you know going into it?\n\nHarold Goldberg: This is the story of Jason and Lucia. They are like a modern day Bonnie and Clyde.\n\nAnderson Cooper: But it's really interesting. I hadn't realized how immersive it is, how it's sort of experiential and just, you're kind of living in somebody else's life.\n\nHarold Goldberg: Yeah, you are. You are. And they do really kind of love each other. Would do anything for each other, certainly at this point.\n\nAnderson Cooper: And you kind of feel like you're them at some point.\n\nHarold Goldberg: Let's just see if we can go steal something from another store. Let's see what's going on with these guys.\n\nAnderson Cooper: Now are you controlling the punches?\n\nHarold Goldberg: I am. I am.\n\nAnderson Cooper: Do you... Okay, so they're both... Can I try?\n\nHarold Goldberg: Yes. Just the square button.\n\nAnderson Cooper: Oh, he's down. As soon as you hand it to me, I get knocked out.\n\nHarold Goldberg: What happened? Let's see what happens. Let's see what happens.\n\nAnderson Cooper: When do I come to? When do I come to?\n\nHarold Goldberg: Right now. For the record, that was not me. That was you getting hit.\n\nAnderson Cooper: Oh, he's back home now.\n\nHarold Goldberg: So he's back home now.\n\nAnderson Cooper: Oh, wow. Wow. Wow. He doesn't seem too happy.\n\nHarold Goldberg: Okay, here, let me... Okay, let me... How about if you drive the car?\n\nAnderson Cooper: Okay. Oh, oh, oh, oh, sorry.\n\nHarold Goldberg: So back up this way.\n\nAnderson Cooper: Oh, boy. Oh, boy. Okay. Oh, boy. Okay. I mean, you're fine.\n\nHarold Goldberg: It's meant to be destructible.\n\nAnderson Cooper: Okay.\n\nHarold Goldberg: Anderson. Anderson. And we're a very cautious good driver normally.\n\nAnderson Cooper: Yeah, yeah.\n\nHarold Goldberg: So if you wanted to just do that, you can.\n\nAnderson Cooper: I can just... Yeah, you can just... There is something sort of satisfying I will say about that.\n\nHarold Goldberg: Yeah, it really is.\n\nAnderson Cooper: Yeah.\n\nHarold Goldberg: You know, most people just think this is like a bang 'em up, shoot 'em up game.\n\nAnderson Cooper: There's a lot more to it.\n\nHarold Goldberg: There is a lot more to it. And I think one of the important points is that as a couple, you're supposed to watch your relationship grow. You're supposed to kind of nurture each other as you do these missions.\n\nAnderson Cooper: So... And that's a first in a game like this.\n\nHarold Goldberg: In a game like this, yeah.\n\nKaitlan Collins: Grand Theft Auto 6 is an astonishing American epic. I want to get to your review in a moment, Gene, but Brian, you've been playing this. This game is breaking records like no other it seems like today. What stands out to you from what you've seen so far?\n\nBrian Stelter: Yeah, Gene's the real expert, but the beauty of Grand Theft Auto is that you can do anything, that you can be anybody. That's why so many people want to trade the real world for this virtual world. And that's partly why this is the biggest entertainment story of the year and one of the biggest of the decade. You know, when a movie comes out, it's a big deal for a week or if the movie makers are lucky for a month. But this game is going to be with players for years to come. That's why the scale of this is so big. And you know, gaming is serious nowadays because gamers are serious. Gene's the kind of reviewer who's been fighting this inside his own news outlet for years saying you've got to take games seriously because they are what tens of millions of people are taking seriously. And I feel like, Kaitlan, this week's actually a breakthrough week where you are seeing a lot of respect for just the sheer scale and scope and importance of a launch like this.\n\nKaitlan Collins: Yeah, I think that's a really good way to put it, Brian. There's not the, you know, fake outrage responding to it. The level of respect is real. And Gene, in your review that we referenced, you write that it is a great gathering of art forms and talent, an unruly, comprehensive cultural atlas of American life and manners where race, class, gender, money, and attention shape our circumstances and what we decide to do about them. And you said great gathering of art forms and talent. And you know, in that form of what this looks like, it's bigger than just a game, it seems like, while also just being a game.\n\nGene Park: Yeah, I think the most remarkable thing about Grand Theft Auto 6 is the scale of effort that went into this. The cast and crew numbers in the tens of thousands. So when I say it's a great atlas of American manners and gathering of art forms, it's like, this is what happens when you take the world's most talented artists, which includes people like SZA, people like Travis Scott, people like The Weeknd, who all have new tracks in the game, and all come together to create one piece of art. And that thing is Grand Theft Auto 6.\n\nKaitlan Collins: Well, and it's amazing, the effort that they put into developing this, and the level of detail, I think is something astonishing. We were just talking about when you go and look at these actual street corners in real life, they mimic what you see, and the game mimics what you see in real life.\n\nGene Park: Yeah, so, you know, Rockstar Games is actually a Scottish studio. So for the past 10 or so- Which I just learned today and is incredible.\n\nKaitlan Collins: Yeah, and for the past 10 years, these Scottish guys have just been hanging out in Miami all\n\nGene Park: Day. They're coming out later this weekend about the nightlife, and how well the nightlife is represented. And it was mostly just a bunch of Scottish video game programmers hanging out in bottle service in various nightclubs for the last several years. And of course, they're buying drinks and everything like that, but they're mostly just studying the lighting and the architecture, and hearing the sounds, and how air travels through the vents and everything. Well,\n\nKaitlan Collins: And they paid such close attention even to, what did the street lights look at midnight? Did they have enough of these kind of convenience stores on one block to actually look what it looked like in real life? I mean, that's kind of amazing. They were going to clubs, buying bottle service, to see what the clubs actually looked like on the inside.\n\nGene Park: Yeah, and the scale of reality there is impressive, because in the game, there's 114 unique bars that you can go to. All different bartenders, all different walks of life, all different sets of architecture just represented in the game.\n\nKaitlan Collins: Yeah, you know, Brian, to your point about what this has looked like in terms of these moments, you know, I was seeing concern online that a lot of the movies that are premiering this weekend, they're worried because everyone's going to be playing this game, and those movies might not get as much attention as they would on a normal weekend without a massive release like this.\n\nBrian Stelter: It's true. Some studios have moved their films out of the way this weekend because of Grand Theft Auto. And today, millions of people have been watching other people play the game online on Twitch. The streaming service, Twitch, as they've broken a record today with the number of people who are just watching as spectators. And there is a political dimension, Kaitlan, right? I mean, Vice President Vance posted a GTA meme today. He wants to see him in on it. I noticed some Fox commentators were bemoaning the violence, but then one of the top social media accounts for Democrats started making fun of those conservative complaints as if to brand the opposing party as out of touch with average people. So you really see people, you know, even in the political dimension, trying to take advantage of this cultural moment and capitalize on it.\n\nKaitlan Collins: Well, and to think about the last time this came out was GTA 5 came out. 2013. And that's when I got this hat right here. I love that. But to think about, you know, you're talking about these Scottish planners looking at all this. American life has changed so much since 2013 to 2026 and what it is like now and, you know, changing that landscape to match the reality that people experience now. That was actually the biggest question going into Grand Theft Auto 6.\n\nGene Park: Grand Theft Auto has always been a satire of America, at least since Grand Theft Auto 3. So people are wondering, well, America is a little ridiculous right now. How can you actually satirize America? And I spoke to Rob Nelson, the head of Development at Rockstar, and he said, well, we'll just mirror it, basically, you know. So that's why they just spent a lot of time, you know, they hired a lot of Miami stylists to make sure that everyone was dressed appropriately. They created a whole studio in LA full of thousands of writers to write scripts for each of the individual, each of the 33,000 individual characters in the game. Which are just the random characters that you as a player come across. Just random characters, exactly. I mean, when Omar was like cutting that guy off in traffic, that person that he's interacting with is what's known as an NPC that he's just meeting. Yeah, and to Brian's point, the term NPC has been politicized as well, too. Right, because now it's like an insult that people use in real life. Exactly, yeah. Just like sheeple or something like that, right?\n\nKaitlan Collins: What has been your biggest takeaway from the game so far?\n\nGene Park: I think the biggest takeaway is just, again, like how well it represents life in general, you know. These NPCs don't act like NPCs, they engage conversation with you, they start conversations with you, or if you start conversations with them, it's not up to you to end it, you know. There's a lot of road rage, road rage incidents that might happen, you know, and true to some of the Florida news spirit that might reflect that.\n\nKaitlan Collins: Brian, you've been playing, what's been your favorite moment so far?\n\nBrian Stelter: I like how it blends the real world and the virtual world in more and more ways, you know. I'm kind of, you know, I remember playing GTA when I was a kid, but I still like playing Pac-Man and Tetris and really old-fashioned games. But here's the thing about video gaming, it's getting more serious because if we're really heading toward an AI-driven world where we have driverless cars and robot butlers and a lot more leisure time, then gaming is going to become an even bigger part of people's lives. And companies like Rockstar Games, they're going to be making even bigger hits in the future.\n\nSOURCE: CNN, Nov. 20, 2026",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123730875976146944/img/107IlBCCUFVsJhFV.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123730875976146944/vid/avc1/1280x720/Cx8IqrZ7btyWAe4T.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2024914538546823168",
+            "likeCount": 5,
+            "viewCount": 2067,
+            "authorName": "corgo",
+            "createdUtc": 1795171920,
+            "quoteCount": 0,
+            "replyCount": 0,
+            "authorImage": "https://pbs.twimg.com/profile_images/2120920383813455872/1NBXQhr0_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 1,
+            "bookmarkCount": 2,
+            "authorUsername": "wordsdematthew",
+            "authorVerified": true,
+            "conversationId": "2123731076967170349",
+            "authorFollowers": 5467
+          }
+        ],
+        "nextCursor": null
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-capybara",
+      "kind": "anonymous",
+      "name": "Capybara",
+      "artworkKey": "capybara"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00049",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:41:36.392Z",
+  "started_at": "2026-11-23T07:41:36.455Z",
+  "completed_at": "2026-11-23T07:41:37.571Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

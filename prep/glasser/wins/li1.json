@@ -1,0 +1,279 @@
+{
+  "id": "d7926b01-e5ed-4d63-a994-e84db32a0402",
+  "run_url": "https://app.glasser.ai/runs/d7926b01-e5ed-4d63-a994-e84db32a0402",
+  "provider": "scrapecreators",
+  "endpoint": "/v1/linkedin/search/posts",
+  "endpoint_version": 4,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "query": "Crewbase Collective hackathon won",
+    "date_posted": "last-year"
+  },
+  "output": {
+    "posts": [
+      {
+        "url": "https://www.linkedin.com/posts/misslers_on-monday-im-judging-the-multiplayer-ai-activity-7529619981584596993-fxER",
+        "image": "https://media.licdn.com/dms/image/v2/D4E10AQEKwrjptTcmvQ/image-shrink_1280/B4EaH6VZofJwAg-/0/1795201276898?e=2147483647&v=beta&t=2Cisdb3InLfsaWFJY5g0xGje5RuceV-ru48reoJR3k0",
+        "media": "https://media.licdn.com/dms/image/v2/D4E10AQEKwrjptTcmvQ/image-shrink_1280/B4EaH6VZofJwAg-/0/1795201276898?e=2147483647&v=beta&t=2Cisdb3InLfsaWFJY5g0xGje5RuceV-ru48reoJR3k0",
+        "author": {
+          "url": "https://www.linkedin.com/in/misslers",
+          "name": "Merve Isler",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQHcSZm3dbhRPQ/profile-displayphoto-scale_200_200/B56aGeYlmkIkAc-/0/1793658610097?e=2147483647&v=beta&t=o4esBsM3h822yJyhOQd8PNMWrIr97gkUrccm4EMbC98",
+          "followers": 20962
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D4E10AQEKwrjptTcmvQ/image-shrink_1280/B4EaH6VZofJwAg-/0/1795201276898?e=2147483647&v=beta&t=2Cisdb3InLfsaWFJY5g0xGje5RuceV-ru48reoJR3k0"
+        ],
+        "comments": [
+          {
+            "id": "7529619983375663105",
+            "urn": "urn:li:comment:(urn:li:activity:7529619981584596993,7529619983375663105)",
+            "text": "Join us here: luma.com/finch-jd7i",
+            "author": "Merve Isler",
+            "linkedinUrl": "https://www.linkedin.com/in/misslers",
+            "datePublished": "2026-11-20T19:01:37.612Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2d"
+          },
+          {
+            "id": "7529704925472313344",
+            "urn": "urn:li:comment:(urn:li:activity:7529619981584596993,7529704925472313344)",
+            "text": "Franklyn, thank you!! Hope we get to say hi.",
+            "author": "Merve Isler",
+            "linkedinUrl": "https://www.linkedin.com/in/misslers",
+            "datePublished": "2026-11-21T00:39:09.386Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2d"
+          },
+          {
+            "id": "7529628603337129984",
+            "urn": "urn:li:comment:(urn:li:activity:7529619981584596993,7529628603337129984)",
+            "text": "See you there, last time I could not say hi...",
+            "author": "Franklyn Rosario, MBA-ITM",
+            "linkedinUrl": "https://www.linkedin.com/in/franklynrosario",
+            "datePublished": "2026-11-20T19:35:52.771Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2d"
+          }
+        ],
+        "likeCount": 19,
+        "contentUrn": "urn:li:share:7529619980217171969",
+        "activityUrn": "urn:li:activity:7529619981584596993",
+        "description": "On Monday I’m judging the Multiplayer AI Hackathon in San Francisco.\n\nTeams will spend the day building AI agents that act like living characters, across three tracks: animated films, co-op games, and growing with agents.\n\nThank you to Crewbase Collective, AdaL and the AWS Builder Loft for having me. Happy that Marvelous is a partner on this one too.\n\nCan’t wait to see what you build. Link in the first comment.",
+        "commentCount": 3,
+        "datePublished": "2026-11-20T19:01:37.183Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/rakesh-visualstrategist_diwalifestiverse-sanfrancisco-aihouse-activity-7527791291724824577-d0GW",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQHN4jPVwH-Vqw/feedshare-image-high-res/B56aHgWSM_G0AQ-/0/1794765300770?e=2147483647&v=beta&t=s9dTYukLqHaax3LEVV6L5xZWFFnZxz-1abWWBWI9p9E",
+        "media": "https://media.licdn.com/dms/image/v2/D5622AQHN4jPVwH-Vqw/feedshare-image-high-res/B56aHgWSM_G0AQ-/0/1794765300770?e=2147483647&v=beta&t=s9dTYukLqHaax3LEVV6L5xZWFFnZxz-1abWWBWI9p9E",
+        "author": {
+          "url": "https://in.linkedin.com/in/rakesh-visualstrategist",
+          "name": "Rakesh Kumar",
+          "image": "https://media.licdn.com/dms/image/v2/D4D03AQFzReQcckEq8w/profile-displayphoto-scale_200_200/B4DZ76iq9vKsAc-/0/1782319855247?e=2147483647&v=beta&t=LsG1jbtju6bjQemCGF36NVPpacuL3gqizVkVZvAa-Cs",
+          "followers": 977
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D5622AQHN4jPVwH-Vqw/feedshare-image-high-res/B56aHgWSM_G0AQ-/0/1794765300770?e=2147483647&v=beta&t=s9dTYukLqHaax3LEVV6L5xZWFFnZxz-1abWWBWI9p9E",
+          "https://media.licdn.com/dms/image/v2/D5622AQGgcUPqao_3Sg/feedshare-shrink_800/B56aHgWSRaG4Ag-/0/1794765301103?e=2147483647&v=beta&t=yyAAunYTSH28iGGRhF9DJEqhXho_sbMZd2wU81U89TA",
+          "https://media.licdn.com/dms/image/v2/D5622AQGzmevOZjMbkQ/feedshare-image-high-res/B56aHgWSSSIUAQ-/0/1794765301182?e=2147483647&v=beta&t=J2l3l8pbOdEq-7-6gV59nBL-X4NrN8ZA5hZFMpSgoos",
+          "https://media.licdn.com/dms/image/v2/D5622AQEWLlu7nub12g/feedshare-shrink_800/B56aHgWSSrJUAg-/0/1794765301186?e=2147483647&v=beta&t=Iqvb2A4j_HiehsnAUTYNj6rvzE_goB0ljii6usEJMC4",
+          "https://media.licdn.com/dms/image/v2/D5622AQG-kNq4A7SHTQ/feedshare-shrink_800/B56aHgWSSqJ0Ag-/0/1794765301180?e=2147483647&v=beta&t=7j-1OstpaWpFuq0XQZvBboCSX_PRlsqYTdj_Hdodovo"
+        ],
+        "comments": [
+          {
+            "id": "7528535381257093121",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7527791290659422208,7528535381257093121)",
+            "text": "Two agents can agree with each other and still be wrong. I’d be curious to see how teams checked the work after a handoff and decided when to stop or ask a person.\n\nDid any team find that a second agent added more coordination work than it saved? Those lessons would be valuable to share alongside the demos, Rakesh.",
+            "author": "Arnav Patel",
+            "linkedinUrl": "https://in.linkedin.com/in/arnavpatel369",
+            "datePublished": "2026-11-17T19:11:48.316Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "5d"
+          }
+        ],
+        "likeCount": 16,
+        "contentUrn": "urn:li:ugcPost:7527791290659422208",
+        "activityUrn": "urn:li:activity:7527791291724824577",
+        "description": "A room full of builders. One challenge: make two AI agents work as a team.\n\nDiwali Festiverse's SF hackathon kicked off in San Francisco, hosted by Crewbase Collective.\n\nLaptops open. People gathered around shared screens. Conversations across the table.\nThe task: build two AI agents that communicate, delegate tasks and work together.\n\nAs a co-founder, I want our work at AI House and HiDevs to create more spaces like this. Places where people can find others to build with and put their ideas to the test.\n\nThe SF kickoff is one part of that work, with builders at the centre.\nBuilding Festiverse with Deepak Chawla, Saurabh Khire alongside Crewbase Collective, AI House - Bangalore and HiDevs .\n\nFestiverse sponsors: Lyzr AI • AdaL • Finch • BAND • Agent 37 (YC F26)\nSponsor teams: Arick Goomanovsky, Li Yin, Gary Yang , Siva Surendira and Vishnu Krishnaprasad.\n\n#DiwaliFestiverse #SanFrancisco #AIHouse #AIAgents #Hackathon",
+        "commentCount": 2,
+        "datePublished": "2026-11-15T17:55:03.545Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/emresimdi_another-week-and-another-update-on-a-fast-activity-7526871544950624257-HrK8",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQEAVSZIYmbJ8w/feedshare-image-high-res/B4EaHSmw1DI0AQ-/0/1794534740540?e=2147483647&v=beta&t=__wex7VFleucTvzxGkpTJe9hXbPHkRJ7MKokiZUn2Yo",
+        "media": "https://media.licdn.com/dms/image/v2/D4E22AQEAVSZIYmbJ8w/feedshare-image-high-res/B4EaHSmw1DI0AQ-/0/1794534740540?e=2147483647&v=beta&t=__wex7VFleucTvzxGkpTJe9hXbPHkRJ7MKokiZUn2Yo",
+        "author": {
+          "url": "https://www.linkedin.com/in/emresimdi",
+          "name": "Emre Simdi",
+          "image": "https://media.licdn.com/dms/image/v2/C4D03AQHVUcu6bE1FiA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1658738519165?e=2147483647&v=beta&t=R6HYE-yxWa-sS0fee2iSuiCmaTTT7QMQMkCP14KKKcw",
+          "followers": 37945
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D4E22AQEAVSZIYmbJ8w/feedshare-image-high-res/B4EaHSmw1DI0AQ-/0/1794534740540?e=2147483647&v=beta&t=__wex7VFleucTvzxGkpTJe9hXbPHkRJ7MKokiZUn2Yo"
+        ],
+        "comments": [
+          {
+            "id": "7526876435819610112",
+            "urn": "urn:li:comment:(urn:li:activity:7526871544950624257,7526876435819610112)",
+            "text": "I don't think trainings are old-fashioned - we launched a well-received training program for 23k+ employees and combined it with hands-on exercises. It's needed for getting everyone aligned on the foundations. I do agree though that training alone isn't enough",
+            "author": "Grishma Jena",
+            "linkedinUrl": "https://www.linkedin.com/in/grishmajena",
+            "datePublished": "2026-11-13T05:19:44.902Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526893835185115136",
+            "urn": "urn:li:comment:(urn:li:activity:7526871544950624257,7526893835185115136)",
+            "text": "Love this! Creating workflows is an interesting challenge because often they need to be scalable and fungible to be truly effective in this environment. I always encourage others to work backwards from the outcomes they are trying to achieve.",
+            "author": "Devin Johnson",
+            "linkedinUrl": "https://www.linkedin.com/in/devin1",
+            "datePublished": "2026-11-13T06:28:53.233Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526906778882637824",
+            "urn": "urn:li:comment:(urn:li:activity:7526871544950624257,7526906778882637824)",
+            "text": "What a fun evening with thoughtful conversation and unforgettable Turkish food and wine! Thank you for the invite and getting my wheels turning with some new friends. We’re building the future, one set of behavior changes at a time.",
+            "author": "Kalia Waits-Smith ⛸️",
+            "linkedinUrl": "https://www.linkedin.com/in/kalia-waits-smith",
+            "datePublished": "2026-11-13T07:20:19.252Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7527221918366793728",
+            "urn": "urn:li:comment:(urn:li:activity:7526871544950624257,7527221918366793728)",
+            "text": "I like that the biggest takeaway was how people discover useful workflows by trying things themselves. The point about leaders being far from day to day work really rings true.",
+            "author": "Jahid Sajon",
+            "linkedinUrl": "https://my.linkedin.com/in/jahidsajon",
+            "datePublished": "2026-11-14T04:12:34.359Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 52,
+        "contentUrn": "urn:li:share:7526824245453135872",
+        "activityUrn": "urn:li:activity:7526871544950624257",
+        "description": "Another week and another update on a fast startup life:\nWe hosted our first dinner in San Francisco! On AI adoption!\nLeaders from Lyft, TaskRabbit, Freshworks, Abridge and others joined!\n\nSo what did we hear?\n\n1. Most leaders come up with AI workflows by experimenting themselves! They think ‘imagination’ is the key skill.\n\n2. Leaders can be far away from the ‘day to day work’ which makes it hard for them to identify and build useful AI workflows.\n\n3. Trainings are old fashioned, and it is not working for AI.\n\n4. There is a serious expectation for the new hires to be AI native from day one! Not an easy task to fulfill!\n\n5. Being ‘mostly accurate’ for an AI tool is not enough for regulated industries which really hinders the adoption.\n\n6. And unfortunately… the fear of being left behind and be replaced by AI... \n\nI picked a Turkish restaurant, so there was plenty of cultural chat among the AI chat :)\n\nWell, what are your takes on these?\n\nHow do you come up with AI workflows for your team? Do you ask Claude?\n\nIf you are looking for a job, how do you feel about the ‘AI native’ request?…\n\nWhat do you think is the best way to train on AI?\n\nAnd… if you are interested joining the next AI adoption dinner, we’re currently planning for big cities in the US, please DM me!\n\n--\nThank you for your time and presense! Alisa Liebowitz Chris Lambert Kanishka Thakur Kalia Waits-Smith ⛸️ Dilek Barlow Gurtej Gill Bethel Zelalem, MSOD, PMP Kevin Law Sameer Shariff",
+        "commentCount": 7,
+        "datePublished": "2026-11-13T05:00:18.826Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/brendanfalk_this-is-the-first-time-ive-spoken-publicly-activity-7519458766661140480-wNC7",
+        "name": "This is the first time I've spoken publicly about getting acquired by AWS, why we're building Hercules, and my journey as an entrepreneur. \n\nHonored to do it with my friend, Moritz Plassnig (CEO… | Brendan Falk | 10 comments",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4D05AQFH1VJAn9YCUg/mp4-640p-30fp-crf28/B4DaFp72deJ4Bk-/0/1792778667417?e=2147483647&v=beta&t=SoHI2-88cC4atBqOMKgLyQnCAsiTqC-TDJAGLP_EHdw",
+        "author": {
+          "url": "https://www.linkedin.com/in/brendanfalk",
+          "name": "Brendan Falk",
+          "image": "https://media.licdn.com/dms/image/v2/C4E03AQGI0b8FDxd_GA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1566752585301?e=2147483647&v=beta&t=kKS4kKuBr0QJyLs3Fu7IngF3kR-L43IVDr4xxz9xKgU",
+          "followers": 8964
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7519492092935708672",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7519458703872331776,7519492092935708672)",
+            "text": "that is an incredible \"chamath's salesforce\" quote",
+            "author": "Matt Slotnick",
+            "linkedinUrl": "https://www.linkedin.com/in/mslotnick",
+            "datePublished": "2026-10-23T20:17:00.363Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7520704606721703936",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7519458703872331776,7520704606721703936)",
+            "text": "As AI takes on more implementation, where do you most need human depth? Customer knowledge, technical judgement?",
+            "author": "John Knight",
+            "linkedinUrl": "https://au.linkedin.com/in/saltworthjk",
+            "datePublished": "2026-10-27T04:35:06.177Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "3w"
+          },
+          {
+            "id": "7519459309324349440",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7519458703872331776,7519459309324349440)",
+            "text": "the '10s of millions of revenue with 7 people' timestamp is the one i'm skipping to. the interview format is fine, but that ratio is the actual story of the ai era.",
+            "author": "Roshaan Ali",
+            "linkedinUrl": "https://pk.linkedin.com/in/roshaan-awan",
+            "datePublished": "2026-10-23T18:06:44.142Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7519569556202254336",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7519458703872331776,7519569556202254336)",
+            "text": "There he is 🐐… miss you bruv",
+            "author": "Darren Lucia",
+            "linkedinUrl": "https://www.linkedin.com/in/darrenlucia",
+            "datePublished": "2026-10-24T01:24:49.046Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7523177265984188417",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7519458703872331776,7523177265984188417)",
+            "text": "The bit about hitting those revenue numbers with only 7 people is wild.",
+            "author": "Ro Sotelo",
+            "linkedinUrl": "https://ca.linkedin.com/in/roxysotelo",
+            "datePublished": "2026-11-03T00:20:34.086Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7519513810290855936",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7519458703872331776,7519513810290855936)",
+            "text": "Brendan Falk  really enjoyed listening to your journey and strategic decisions along the way. Thanks for sharing!",
+            "author": "Claire Lange",
+            "linkedinUrl": "https://au.linkedin.com/in/clairelangeaustralia",
+            "datePublished": "2026-10-23T21:43:18.185Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7520548456466251779",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7519458703872331776,7520548456466251779)",
+            "text": "Thanks for sharing!",
+            "author": "Veronica Nutting",
+            "linkedinUrl": "https://www.linkedin.com/in/veronicanutting",
+            "datePublished": "2026-10-26T18:14:37.055Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "3w"
+          }
+        ],
+        "likeCount": 174,
+        "contentUrn": "urn:li:ugcPost:7519458703872331776",
+        "transcript": "The SASS apocalypse, the narrative when it really all started was why the hell would I pay sales force and when and I love using this example like Chamath started this company called AM 90 and the whole pitch was we'll give you software that's 80% is good for 90% lower cost. So I'm paying sales force $1,000,000 a year. Why don't they pay Chammas like crappy Salesforce $100,000 a year? And we have seen the complete opposite from our estimates. We see our customers. They are happy to pay us actually more for their existing software. Yeah, way more because it's not about cost saving, it's all about revenue generation. And so coming back to this straight forward that we keep talking about, he was running his business and he's doing an at ten, $20 million of revenue. If your core business operations run way faster because you have software that's designed for your business, your revenue goes up and so.",
+        "uploadDate": "2026-10-23T18:04:34.759Z",
+        "activityUrn": "urn:li:activity:7519458766661140480",
+        "description": "This is the first time I've spoken publicly about getting acquired by AWS, why we're building Hercules, and my journey as an entrepreneur.\n\nHonored to do it with my friend, Moritz Plassnig (CEO CloudBees) as he launches Codeship Labs.\n\nWatch the full interview at https://lnkd.in/dzuhHmWv\n\nTimestamps:\n- 0:00 Intro\n- 3:52 How Fig started\n- 9:00 Betting on autocomplete\n- 10:55 Getting acquired by AWS\n- 16:30 Navigating the idea maze\n- 19:26 Zeus: Palantir-like enterprise AI transformations\n- 22:42 Hercules: The best AI app builder for business\n- 26:41 Reaching 10s of millions of revenue with 7 people\n- 37:41 Our emphasis on customer support\n- 40:46 The SaaS-pocalypse\n- 45:19 Closing thoughts",
+        "commentCount": 10,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQFH1VJAn9YCUg/videocover-high/B4DaFp72deJ4BM-/0/1792778662406?e=2147483647&v=beta&t=P-O2Akf7FKMZhbZNh9oX9y5Ni3KUFne8wMheo055jNQ",
+        "datePublished": "2026-10-23T18:04:34.759Z"
+      }
+    ],
+    "query": "Crewbase Collective hackathon won",
+    "cursor": null,
+    "success": true
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00188",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:33:49.145Z",
+  "started_at": "2026-11-23T07:33:49.179Z",
+  "completed_at": "2026-11-23T07:33:54.388Z",
+  "task_id": "tsk_965d2263a224d7b9",
+  "metadata": {}
+}

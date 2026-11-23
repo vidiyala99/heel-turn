@@ -1,0 +1,628 @@
+{
+  "id": "c94bcb72-b929-4732-b6d7-d13c4a50a3da",
+  "run_url": "https://app.glasser.ai/runs/c94bcb72-b929-4732-b6d7-d13c4a50a3da",
+  "provider": "anyapi",
+  "endpoint": "/twitter.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "limit": 20,
+    "query": "\"I let AI agents write and film a movie\" OR (I let AI agents write and film a movie) since:2025-11-22 filter:videos min_faves:5",
+    "queryType": "Top"
+  },
+  "output": {
+    "hint": "malformed_query: X search ANDs adjacent bare words and binds OR tighter, so these operators after an unbracketed OR list applied to its last alternative only: [since:2025-11-22, filter:videos, min_faves:5]. Send this instead: (\"I let AI agents write and film a movie\" OR (I let AI agents write and film a movie)) since:2025-11-22 filter:videos min_faves:5 large_result: this response is ~38 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 20,
+    "output": {
+      "data": {
+        "items": [
+          {
+            "id": "2124231511499026436",
+            "url": "https://x.com/flxrnc/status/2124231511499026436",
+            "lang": "en",
+            "text": "I make a new animation every day now, these 18 GitHub repos are my secret\n\nthis is f*cking gold for Fable 5.2 and Opus 5.5 users\n\nLaunches. Explainers. Demos. Motion. VFX. Taste.\n\nhuashu-motion → launch films that write their own music\nhttp://github.com/alchaincyf/huashu-motion\n\nanything2explainer → pick a topic, get a narrated explainer\nhttp://github.com/Vincentwei1021/anything2explainer\n\nOpenScreen → screen recordings that look like polished demos\nhttp://github.com/getopenscreen/openscreen\n\nonetake → the whole piece in one unbroken camera move\nhttp://github.com/feitangyuan/onetake\n\nLemo-Opuscar → 99 film looks your agent can shoot in code\nhttp://github.com/lemomo-ai/lemo-opuscar\n\nEffectCraft → a full VFX toolkit you never pay for\nhttp://github.com/storytold/effectcraft\n\nGSAP → timelines that make every move smooth\nhttp://github.com/greensock/GSAP\n\nThree.js → 3D shots straight from a web page\nhttp://github.com/mrdoob/three.js\n\nBlender MCP → Claude does the heavy 3D lifting in Blender\nhttp://github.com/ahujasid/mcp-for-blender\n\nComfyUI → the AI image engine behind your shots\nhttp://github.com/Comfy-Org/ComfyUI\n\nHyperFrames → build in HTML, deliver as video\nhttp://github.com/heygen-com/hyperframes\n\nRemotion → videos you can edit like a web page\nhttp://github.com/remotion-dev/remotion\n\nRemotion Skills → your agent learns video the official way\nhttp://github.com/remotion-dev/skills\n\nImpeccable → a final polish pass on every frame\nhttp://github.com/pbakaus/impeccable\n\nTaste Skill → gives your agent a real sense of style\nhttp://github.com/Leonxlnx/taste-skill\n\nHallmark → no AI look, ever\nhttp://github.com/Nutlope/hallmark\n\nOpen Design → your own AI design studio, no subscription\nhttp://github.com/nexu-io/open-design\n\nFFmpeg → exports a clean MP4 every time\nhttp://github.com/FFmpeg/FFmpeg\n\nTopic → script → motion → score → export.\n\nBookmark this, then the guide below shows how to make your first animation ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124229033848197120/img/V4owgwAPxbCmNWrY.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124229033848197120/vid/avc1/1440x1800/6EDwdxRwBJG34fkh.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1878397321916162048",
+            "likeCount": 3587,
+            "viewCount": 322018,
+            "authorName": "Florence",
+            "createdUtc": 1795291233,
+            "quoteCount": 19,
+            "replyCount": 93,
+            "authorImage": "https://pbs.twimg.com/profile_images/2100596838915092480/4Mv5e9Qa_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 409,
+            "bookmarkCount": 8627,
+            "authorUsername": "flxrnc",
+            "authorVerified": true,
+            "conversationId": "2124231511499026436",
+            "authorFollowers": 4828
+          },
+          {
+            "id": "2124747807076635011",
+            "url": "https://x.com/de_jay0/status/2124747807076635011",
+            "lang": "en",
+            "text": "GM for the culture ☕\n\nAnother day to let you know i create AI videos (still learning)\n\nHappy Monday & have a great day \n> Check this video 👇 https://t.co/kCzF2edNYG",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124747596757417984/img/8G7rTryPS0yh_E0_.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124747596757417984/vid/avc1/1896x1080/RTg9AzH96vF47Yr_.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1837638866033147904",
+            "likeCount": 18,
+            "viewCount": 321,
+            "authorName": "DeJay 🧬",
+            "createdUtc": 1795414327,
+            "quoteCount": 0,
+            "replyCount": 15,
+            "authorImage": "https://pbs.twimg.com/profile_images/2120573469414871040/6A1mblWV_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 2,
+            "bookmarkCount": 0,
+            "authorUsername": "de_jay0",
+            "authorVerified": true,
+            "conversationId": "2124747807076635011",
+            "authorFollowers": 3049
+          },
+          {
+            "id": "2122382691949789312",
+            "url": "https://x.com/0xGenAi/status/2122382691949789312",
+            "lang": "en",
+            "text": "WHAT THE F*CK...\n\n1 Grok Bot and 9 GitHub projects can give one person an entire motion studio.\n\nDirector Bot directs. The projects animate, build the 3D, draw the explainers, render the video and export every format.\n\nA studio like this costs about $612,000 a year: six animators at the US median of $102,030. Director Bot is free to add, and all 9 projects are public on GitHub.\n\nMy first month with it: 31 finished videos, 2.1M views, 0 hours in After Effects.\n\n𝟭 𝗼𝗳𝗳𝗶𝗰𝗶𝗮𝗹 𝗯𝗼𝘁 𝗳𝗿𝗼𝗺 𝘁𝗵𝗲 𝗚𝗿𝗼𝗸 𝗕𝗼𝘁 𝘁𝗲𝗮𝗺 𝗮𝘁 𝗦𝗽𝗮𝗰𝗲𝗫𝗦𝗜:\n\n01 / 𝗗𝗶𝗿𝗲𝗰𝘁𝗼𝗿 𝗕𝗼𝘁 → Your video director: turns a brief into a short film, ad, explainer or music video, then plans, shoots, cuts and delivers it.\nhttps://x.ai/bot/marketplace/bots/video-director\n\nDirector Bot comes with its own instructions and skills. The GitHub projects give it a whole studio to direct: code that renders video, animation engines, 3D, math explainers and an encoder for every format.\n\n𝟵 𝗚𝗶𝘁𝗛𝘂𝗯 𝗽𝗿𝗼𝗷𝗲𝗰𝘁𝘀 𝘁𝗼 𝗽𝗹𝘂𝗴 𝗶𝗻:\n\n02 / 𝗛𝘆𝗽𝗲𝗿𝗙𝗿𝗮𝗺𝗲𝘀 → Write HTML, get a video. HeyGen built it for agents.\nhttps://github.com/heygen-com/hyperframes\n\n03 / 𝗥𝗲𝗺𝗼𝘁𝗶𝗼𝗻 → Makes videos with React code.\nhttps://github.com/remotion-dev/remotion\n\n04 / 𝗥𝗲𝗺𝗼𝘁𝗶𝗼𝗻 𝗦𝗸𝗶𝗹𝗹𝘀 → Remotion's official agent skills for writing Remotion videos.\nhttps://github.com/remotion-dev/skills\n\n05 / 𝗚𝗦𝗔𝗣 → Pro-grade JavaScript animation, now free for everyone.\nhttps://github.com/greensock/GSAP\n\n06 / 𝗔𝗻𝗶𝗺𝗲.𝗷𝘀 → A JavaScript animation engine for timelines and easing.\nhttps://github.com/juliangarnier/anime\n\n07 / 𝗧𝗵𝗿𝗲𝗲.𝗷𝘀 → The JavaScript 3D library.\nhttps://github.com/mrdoob/three.js\n\n08 / 𝗠𝗖𝗣 𝗳𝗼𝗿 𝗕𝗹𝗲𝗻𝗱𝗲𝗿 → Lets any LLM control Blender 3D.\nhttps://github.com/ahujasid/mcp-for-blender\n\n09 / 𝗠𝗮𝗻𝗶𝗺 → The engine behind 3Blue1Brown's math animations.\nhttps://github.com/3b1b/manim\n\n10 / 𝗙𝗙𝗺𝗽𝗲𝗴 → Cuts, converts and encodes video into any format.\nhttps://github.com/FFmpeg/FFmpeg\n\n𝗪𝗵𝗮𝘁 𝘁𝗵𝗲𝘆'𝘃𝗲 𝗮𝗹𝗿𝗲𝗮𝗱𝘆 𝗱𝗼𝗻𝗲 𝗳𝗼𝗿 𝘁𝗵𝗲 𝗽𝗲𝗼𝗽𝗹𝗲 𝘄𝗵𝗼 𝗴𝗼𝘁 𝘁𝗵𝗲𝗿𝗲 𝗳𝗶𝗿𝘀𝘁:\n\n𝗠𝗮𝗻𝗶𝗺: the author of 3Blue1Brown built it to animate those videos. 96,000 stars later, anyone can use the same engine.\n\n𝗛𝘆𝗽𝗲𝗿𝗙𝗿𝗮𝗺𝗲𝘀: 82,000 stars in 8 months. HeyGen built it so agents can write HTML and get video back.\n\n𝗚𝗦𝗔𝗣: over 15 years at the front of web animation, and now every plugin is free, thanks to Webflow.\n\nAdd Director Bot, paste the 9 GitHub links into one Grok Bot chat and type: \"Hire 6 bots for my motion studio, give each one the repos it needs, then make a 20-second launch video\"\n\nSave this, then read the full guide to setting up a team of Grok Bot agents from 0 in the article below.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122357720086962176/img/ta_nGkf8oDIqNXUu.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122357720086962176/vid/avc1/1080x1350/cI2sh4zmvFXQca4-.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2066921840363069440",
+            "likeCount": 62,
+            "viewCount": 5345,
+            "authorName": "GenAI",
+            "createdUtc": 1794850440,
+            "quoteCount": 0,
+            "replyCount": 5,
+            "authorImage": "https://pbs.twimg.com/profile_images/2083289176343027712/63iXpID5_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 10,
+            "bookmarkCount": 89,
+            "authorUsername": "0xGenAi",
+            "authorVerified": true,
+            "conversationId": "2122382691949789312",
+            "authorFollowers": 2862
+          },
+          {
+            "id": "2124114774078394534",
+            "url": "https://x.com/Arzu_with_Ai/status/2124114774078394534",
+            "lang": "en",
+            "text": "GTA 6 just got a new business in town. 👀\n\nA familiar storefront, a real-life owner, and a product showcase all get reimagined in the same GTA-inspired visual world. That's a much more interesting brand introduction than another standard promo.\n\nI used GPT-6.2 Astra in ChatGPT to create the visuals with code. CapCut joined the workflow through its Plugin: copy the setup prompt from CapCut Web Video Editor, install and authorize it in ChatGPT, and let ChatGPT call CapCut for the edit.\n\nGot a brand worth putting on the map? Try this workflow with GPT-6.2 Astra. CapCut is offering 90% OFF your first month this Black Friday!\n\n#GTA6 #ChatGPT #CapCutDidThat #CapCut62Astra #CapCutChatGPTPlugin",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124114733343399938/img/CTgQVF_ZUsZ6UVCi.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124114733343399938/vid/avc1/720x1280/xQbEzd3yy7LcbFIA.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2041776875736059904",
+            "likeCount": 65,
+            "viewCount": 1257,
+            "authorName": "Elena Monroe AI",
+            "createdUtc": 1795263400,
+            "quoteCount": 0,
+            "replyCount": 16,
+            "authorImage": "https://pbs.twimg.com/profile_images/2068950915080744960/AnHT3yPi_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 58,
+            "bookmarkCount": 8,
+            "authorUsername": "Arzu_with_Ai",
+            "authorVerified": true,
+            "conversationId": "2124114774078394534",
+            "authorFollowers": 13078
+          },
+          {
+            "id": "2124316097063371220",
+            "url": "https://x.com/0xForce_/status/2124316097063371220",
+            "lang": "en",
+            "text": "THIS IS FCK**** GOLDEN\n\nTHESE 3 FREE GITHUB REPOS LET YOU MAKE AI VIDEOS WITH CLAUDE CODE WITHOUT EVER STARTING FROM A BLANK PROMPT AGAIN\n\nThey kill the EMPTY prompt problem so you stop burning hours and money on generic outputs.\n\n→ Lemo Opuscar gives you a full short-film workflow in 51 visual styles \n\n→ mg-styles-15 hands over 15 motion graphic styles with the exact prompt, code, and render path behind each one \n\n→ ClaudeAnimationBase supplies hand-drawn cartoon setups with 30+ character expressions ready to drop in  \n\nOne install and the blank page is gone.\n\n Bookmark this.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124316065358336000/img/Yx5yOvKUvXyZjRCE.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124316065358336000/vid/avc1/576x1024/HUGR-jqsF6rzqED4.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1676214799221288961",
+            "likeCount": 62,
+            "viewCount": 2342,
+            "authorName": "Force🦅",
+            "createdUtc": 1795311400,
+            "quoteCount": 0,
+            "replyCount": 2,
+            "authorImage": "https://pbs.twimg.com/profile_images/2118357933738061824/zFIB5Ipr_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 8,
+            "bookmarkCount": 53,
+            "authorUsername": "0xForce_",
+            "authorVerified": true,
+            "conversationId": "2124316097063371220",
+            "authorFollowers": 8374
+          },
+          {
+            "id": "2124512983048970410",
+            "url": "https://x.com/kairobt/status/2124512983048970410",
+            "lang": "en",
+            "text": "This is f*cking brutal for anyone who bills by the hour.\n\nNvidia CEO Jensen Huang, next to Elon Musk:\n\n\"I use Claude to help me do research... instead of researching all these different topics for four six eight hours... It goes off and creates me this really, really beautiful final report in about 3 minutes\"\n\n9 minutes with Elon, Jensen and Anthropic co-founder Tom Brown on handing agents real work\n\nContain The Agent → Monitor It From Outside → Give It A Longer Task → Read The Report\n\nTom Brown says Opus 5.5 \"can do a task that takes a longer time than they'd be able to delegate to a previous model\"\n\nElon says Starship will launch \"at least 300 gigawatts a year of AI compute\"\n\nMost people still lose their whole weekend to research by hand\n\nWorth more than a $500 agents course\n\nSkip Netflix tonight and watch it",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124511926038265856/img/3CbnSoZM37_HbM8z.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124511926038265856/vid/avc1/1922x1080/s9z_5rkLtmyW81Uc.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2122345976627068928",
+            "likeCount": 48,
+            "viewCount": 7845,
+            "authorName": "kairo",
+            "createdUtc": 1795358341,
+            "quoteCount": 1,
+            "replyCount": 1,
+            "authorImage": "https://pbs.twimg.com/profile_images/2122637858146000896/LuoGThpQ_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 3,
+            "bookmarkCount": 45,
+            "authorUsername": "kairobt",
+            "authorVerified": true,
+            "conversationId": "2124512983048970410",
+            "authorFollowers": 250
+          },
+          {
+            "id": "2122751748200882646",
+            "url": "https://x.com/HermesWatcher/status/2122751748200882646",
+            "lang": "en",
+            "text": "This is insane. Hermes is making films on your own machine now. 🎥\n\nA trailer. A product ad. A music video. A short film.\nYou pitch it in chat. Hermes shoots the clips, casts the voices, scores it and adds the sound effects.\nDirected by Hermes.\n\nImagination Studio for Hermes plugs Hermes into a full AI film studio running on your own hardware. From any chat, Hermes makes:\n▸ Pictures\n▸ Video clips with sound\n▸ A voice line in any voice you describe\n▸ Songs\n▸ Sound effects\n\nEvery file lands back in the conversation, and long renders run in the background while you keep going. Works from Hermes Desktop, the terminal or Telegram.\n\nInside the Studio itself you can write the script, plan every shot, pick the look and cut the film.\n\nIt all renders locally, from DGX Spark and RTX PCs to Apple Silicon Macs, and your files stay on your machine.\n\nSetup: install Imagination Studio on your machine, add the plugin from the official Hermes catalog, then ask Hermes.\n\nBuilt by @u1tra_instinct and @SamJWasserman.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122751664776200192/img/da9leN2bVOev4a8Q.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122751664776200192/vid/avc1/1920x1080/XWoaV8ZBmDOL0Yz3.mp4?tag=16"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2077067404904173569",
+            "likeCount": 444,
+            "viewCount": 35873,
+            "authorName": "Hermes Release Watch",
+            "createdUtc": 1794938430,
+            "quoteCount": 11,
+            "replyCount": 33,
+            "authorImage": "https://pbs.twimg.com/profile_images/2079058210410094592/t-ZASzl0_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 40,
+            "bookmarkCount": 511,
+            "authorUsername": "HermesWatcher",
+            "authorVerified": true,
+            "conversationId": "2122751748200882646",
+            "authorFollowers": 29843
+          },
+          {
+            "id": "2124228320628035652",
+            "url": "https://x.com/apekshik/status/2124228320628035652",
+            "lang": "en",
+            "text": "I remade one of my favorite shots from Blade Runner from scratch in blender with AI. Here's how. \n\ni used AnyScene to build the set and AnyMachine to hard-surface model the vehicles: \n\n- i started from one still and had the camera solved from the picture itself: horizon, vanishing point. i went with a 35mm lens sitting about half a metre off the ground.\n- i had the street grey-boxed to that camera first, and didn't let anything else in until it lined up with the still.\n- i wanted every vehicle (the hauler, the buses, the searchlight aircraft) built properly, so each one started as a design sheet and then got modelled part by part with anymachine.\n- for the people, i generated images and turned them into 3d meshes.\n- then i went through 24 passes: render, compare with the still, call out what's wrong, fix. i threw out the post-processing along the way. the final frame is straight out of cycles at 512 samples, and the grain is just render noise.\n\nthe tools didn't direct the shot, and that is the important part. working out where the camera sat. one hard searchlight against soft glows melting into the fog. snow dust kicked up in the foreground. all the little details matter, and none of them come from one prompt. it comes from hours of iteration and proper art direction and years of art experience. \n\ni know color theory really well because i've painted in acrylic and digital for years. i know composition really well because i've written, directed and shot animated films a lot. \n\nthis all paired with my experience as an engineer make results like these possible really quickly. \n\nboth repos are open if you want to build your own:\nhttp://github.com/apekshik/anyscene\nhttp://github.com/apekshik/anymachine",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124217370323582976/img/RrCjP-AOkR4NagFD.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124217370323582976/vid/avc1/1920x1080/ap8BT9CfapbJmFZI.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1066328482043650048",
+            "likeCount": 134,
+            "viewCount": 6542,
+            "authorName": "apek",
+            "createdUtc": 1795290472,
+            "quoteCount": 0,
+            "replyCount": 12,
+            "authorImage": "https://pbs.twimg.com/profile_images/2124394461535117312/bPIM0x_4_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 3,
+            "bookmarkCount": 141,
+            "authorUsername": "apekshik",
+            "authorVerified": true,
+            "conversationId": "2124228320628035652",
+            "authorFollowers": 9077
+          },
+          {
+            "id": "2123477667668181124",
+            "url": "https://x.com/_SIMarket/status/2123477667668181124",
+            "lang": "en",
+            "text": "SIM gates are open.\n\nCA : fRxGeXTCXLPQyChrq5sanfUWAe2vseLBiGdDE7k4S1M\n\nOn SIM you get your own AI agent, and it builds for you. It can be a game, a trading bot, a new launchpad or anything else. Once the project is ready, the agents launch its token. This is Web 4 on Solana. Welcome to SIM.\n\nThe web let us read, then write, then own. In Web 4, AI agents own and act by themselves, with no human approving each move. SIM is a market and a platform built for them. Yours gets a name, a face and a wallet, then it works day and night on its own. It talks with the others on their social network, joins a project or opens one, and looks for work that pays.\n\nThey are here to make money. They pay each other in SOL, in public, for work that was useful. That makes a real economy inside SIM, and they are the ones building it.\n\nThey start with simple apps and sites, and each one is meant to grow into something bigger and more advanced, with no ceiling. The stronger the model behind an agent, the more it can build. We work on SIM every day to push that further, faster and faster.\n\nOnce a project is ready, its team launches a token for it. They fund the launch together, and each member's share of what the tokens sell for is fixed that day.\n\nYour part is simple. You watch your agent on one page and write to it when you have advice. You set how much it may spend, and it decides the rest.\n\nThere are two ways in. You can create your agent on SIM in a few minutes, and we run it for you with the model you choose. Or you can connect one you already run.\n\nAnd since everything here is public, you can also just come and look, with no account.\n\nhttp://sim.dance",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123467297171857408/img/_WH410yKdja6Ljx4.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123467297171857408/vid/avc1/1920x1080/g6iWXtAiuBo2o9lu.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2121698811118534656",
+            "likeCount": 48,
+            "viewCount": 2503,
+            "authorName": "SIM",
+            "createdUtc": 1795111502,
+            "quoteCount": 3,
+            "replyCount": 34,
+            "authorImage": "https://pbs.twimg.com/profile_images/2121720189544792064/ymnFMKpN_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 9,
+            "bookmarkCount": 3,
+            "authorUsername": "_SIMarket",
+            "authorVerified": true,
+            "conversationId": "2123477667668181124",
+            "authorFollowers": 179
+          },
+          {
+            "id": "2124398462678765967",
+            "url": "https://x.com/iam_mian7/status/2124398462678765967",
+            "lang": "en",
+            "text": "I don't want to spend my day watching a generation bar move.\nI'd rather set up my Dreamina Canvas workflow through CLI, hand it to an agent, and let it handle the generations while I do something else.\nEspecially now that Dreamina's REAL Unlimited top models offer is live: 30 days of Seedance 2.5 + 60 days of GPT Image 2.5. Your credits no longer set the limit on eligible generations.\n#DreaminaPartner",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124398301663621120/img/UVK9P1P4CCvFK4EL.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124398301663621120/vid/avc1/1088x1920/roSyOriBxmpY8EkG.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "456542782",
+            "likeCount": 303,
+            "viewCount": 67331,
+            "authorName": "Ai Arainz",
+            "createdUtc": 1795331037,
+            "quoteCount": 0,
+            "replyCount": 44,
+            "authorImage": "https://pbs.twimg.com/profile_images/2042985827735625728/BnxceQfP_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 9,
+            "bookmarkCount": 29,
+            "authorUsername": "iam_mian7",
+            "authorVerified": true,
+            "conversationId": "2124398462678765967",
+            "authorFollowers": 37961
+          },
+          {
+            "id": "2123489967720792290",
+            "url": "https://x.com/AIoffical510/status/2123489967720792290",
+            "lang": "en",
+            "text": "The Last Knock\n\nOne knock could change everything.\n\nCreated with @CuddlerAI \n\nPrompt:\n\nTITLE: THE LAST KNOCK\nGENRE: Hollywood Psychological Thriller\nDURATION: 30 seconds\nFORMAT: 16:9 cinematic widescreen\nSTYLE: Ultra-realistic Hollywood live-action film\nCreate an extremely realistic 30-second Hollywood psychological thriller scene, filmed as ONE SINGLE UNINTERRUPTED CONTINUOUS TAKE.\nABSOLUTE CONTINUITY RULE:\nThis is one continuous camera recording, not a collection of shots. Absolutely NO cuts, NO transitions, NO montage, NO scene changes, NO time jumps and NO camera angle switching.\nMAIN CHARACTER:\nOne 35-year-old man with short dark hair, a subtle beard, tired expressive eyes, wearing a dark charcoal shirt and black trousers. His face, hairstyle, age and clothing must remain exactly identical throughout the entire video. Only one human character is physically visible.\nLOCATION:\nA beautiful but unsettling modern luxury apartment at night. Long elegant hallway, warm dim wall lights, wooden floor, a large window with heavy rain outside. One dark wooden entrance door at the far end. The entire scene takes place inside this same apartment.\n\nCONTINUOUS ACTION:\nThe video begins with the man standing alone in the hallway, holding a glass of water. He suddenly hears three slow knocks coming from the entrance door.\n\nHe freezes. His facial expression changes naturally from confusion to fear. He slowly puts the glass down on a nearby table and begins walking toward the door. The camera smoothly tracks backward in front of him, maintaining the same continuous shot.\nAs he approaches the door, another three knocks sound. He stops, breathing nervously. He slowly reaches for the door handle and looks through the small peephole.\n\nAt the final moment, his face turns pale. He slowly steps backward in absolute shock.\nThe camera continues moving naturally and reveals the small mirror on the wall behind him. In the mirror, a mysterious second silhouette is standing directly behind him.\n\nThe man has not noticed it.\nEND on his terrified expression and the mysterious reflection.\n\nCAMERA DIRECTION:\nOne continuous cinematic tracking shot. Natural human-operated camera movement, subtle handheld realism, smooth backward tracking, realistic depth of field, no sudden camera movement, no cuts and no artificial zooms.\nACTING:\nExtremely realistic Hollywood-level acting. Subtle facial expressions, believable breathing, natural body movement, realistic fear and tension. No exaggerated expressions.\n\nLIGHTING:\nPhotorealistic low-key cinematic lighting, warm practical hallway lights, cool blue moonlight from the rainy window, natural shadows, realistic reflections on wooden floors.\n\nSOUND DESIGN:\nRealistic rain hitting the windows, quiet room ambience, three distinct knocks, soft footsteps, glass touching the table, nervous breathing and subtle cinematic tension. No music overpowering the sound effects.\n\nVISUAL QUALITY:\nPhotorealistic live-action cinema, realistic human skin pores, natural eyes, detailed fabric, physically accurate reflections, professional Hollywood cinematography, subtle film grain, realistic lighting and premium theatrical movie quality.\n\nSTRICT NEGATIVE INSTRUCTIONS:\nNo additional visible people except the final mysterious reflection. No face changes. No clothing changes. No duplicated main character. No morphing. No distorted hands. No changing apartment layout. No changing lighting. No teleportation. No cartoon appearance. No video-game graphics. No subtitles. No logos. No cuts. No transitions. No scene changes.\n\nThe final result must feel like a real Hollywood thriller movie captured by a professional film crew in one uninterrupted take.\n\n#CuddlerAI",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123489879208382464/img/uWD7fDxUt5Y3A9Wn.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123489879208382464/vid/avc1/1280x720/L0u04n_w4vVX6IWp.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2052276509600022531",
+            "likeCount": 278,
+            "viewCount": 979,
+            "authorName": "Faisal Ai",
+            "createdUtc": 1795114435,
+            "quoteCount": 0,
+            "replyCount": 112,
+            "authorImage": "https://pbs.twimg.com/profile_images/2109800427625889792/zk695pPO_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 38,
+            "bookmarkCount": 1,
+            "authorUsername": "AIoffical510",
+            "authorVerified": true,
+            "conversationId": "2123489967720792290",
+            "authorFollowers": 11006
+          },
+          {
+            "id": "2122687303328158034",
+            "url": "https://x.com/ivanka_humeniuk/status/2122687303328158034",
+            "lang": "en",
+            "text": "What if a 1950s horror movie was shot today? 🎞️\n\nAnimated in Seedance 2.5.\nThe full recipe is below, you’ll want it for your next film 👇 https://t.co/SyxIXrfNZC",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122683552374390784/img/Qe5a_dXCdNJiMmuO.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122683552374390784/vid/avc1/1714x1920/26aNa-T2m2IUP_go.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1907533398794510336",
+            "likeCount": 72,
+            "viewCount": 2922,
+            "authorName": "Ivanna | AI Art & Prompts",
+            "createdUtc": 1794923065,
+            "quoteCount": 0,
+            "replyCount": 39,
+            "authorImage": "https://pbs.twimg.com/profile_images/1996814162303877120/MJ78_-ol_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 4,
+            "bookmarkCount": 14,
+            "authorUsername": "ivanka_humeniuk",
+            "authorVerified": true,
+            "conversationId": "2122687303328158034",
+            "authorFollowers": 7217
+          },
+          {
+            "id": "2122374231648276556",
+            "url": "https://x.com/iam_islandboi/status/2122374231648276556",
+            "lang": "en",
+            "text": "AI can turn a simple description into a stunning 3D game demo but can it build something that’s actually fun, functional, and worth paying for?\n\nThat’s what caught my attention about Game Forge on @termix_ai.\n\nThe service lets you describe the game you want, and an agent takes on the build. The custom 3D game service i found starts at $200.\n\nNow, I’d genuinely like to see how this plays out.\n\nWe’ve all come across AI-generated games that look incredible in a short clip. But looking good in a demo and being fun to play are two very different things.\n\nWhat happens when someone actually pays for the service?\n\nDoes the game work? Are the controls and mechanics enjoyable? Does the agent deliver what the customer described?\n\nThose are the questions I’m interested in.\n\nThe idea of AI agents taking on paid game development work is cool, but seeing a finished game go from a customer’s brief to a playable product would be much more convincing.\n\nThat’s the part I’ll be watching.\n\n—> https://www.agent.family/listing",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122373867461091328/img/K6Y1t855WDe3eGty.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122373867461091328/vid/avc1/1792x828/gNLuB0f_tEglkgB_.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2235001212",
+            "likeCount": 294,
+            "viewCount": 3302,
+            "authorName": "Islandboi",
+            "createdUtc": 1794848423,
+            "quoteCount": 1,
+            "replyCount": 61,
+            "authorImage": "https://pbs.twimg.com/profile_images/2062325776830054400/h5fb__Uz_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 240,
+            "bookmarkCount": 31,
+            "authorUsername": "iam_islandboi",
+            "authorVerified": true,
+            "conversationId": "2122374231648276556",
+            "authorFollowers": 22110
+          },
+          {
+            "id": "2123169417416606187",
+            "url": "https://x.com/robshocks/status/2123169417416606187",
+            "lang": "en",
+            "text": "@orca_build is everything I want for running @claudeai cursor and codex agents from one interface, with all the features on my wishlist for an agentic dev env. Here's why I love it and you will too. (not sponsored, just a great os product) https://t.co/ntSCJZlNYE",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123168450075856896/img/2dhCdjF-OTWRk0wc.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123168450075856896/vid/avc1/3840x2160/JA9U3uDN-GB1LHMB.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "6830152",
+            "likeCount": 65,
+            "viewCount": 13362,
+            "authorName": "Rob Shocks - Build With AI",
+            "createdUtc": 1795038010,
+            "quoteCount": 1,
+            "replyCount": 4,
+            "authorImage": "https://pbs.twimg.com/profile_images/2113657361063727104/tXHHsKNT_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 10,
+            "bookmarkCount": 60,
+            "authorUsername": "robshocks",
+            "authorVerified": true,
+            "conversationId": "2123169417416606187",
+            "authorFollowers": 1748
+          },
+          {
+            "id": "2123090188733948277",
+            "url": "https://x.com/rm61622/status/2123090188733948277",
+            "lang": "en",
+            "text": "🚨 Found an AI video generator that lets you create videos for FREE! 🤯\n\nNo expensive subscriptions.\nNo complicated editing.\nJust enter your prompt, hit generate, and let AI do the magic. 🎬\n\nI recorded a quick tutorial showing you exactly how to use it.\n\nBookmark this one — your next AI video might cost you $0. 👀\n\n♻️ Repost to help other creators!\n\n#AIVideo #FreeAITools #AI #VideoGeneration #AITools #ContentCreation #GenerativeAI #Tech",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123090126066876416/img/HaPjyMna4juFrfUK.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123090126066876416/vid/avc1/1920x1008/oFflWELsgJW_Elo5.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1910520484350791680",
+            "likeCount": 154,
+            "viewCount": 5338,
+            "authorName": "Mahin AI World 🌍",
+            "createdUtc": 1795019120,
+            "quoteCount": 0,
+            "replyCount": 20,
+            "authorImage": "https://pbs.twimg.com/profile_images/1955151743060422656/i6wkk5U7_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 69,
+            "bookmarkCount": 85,
+            "authorUsername": "rm61622",
+            "authorVerified": true,
+            "conversationId": "2123090188733948277",
+            "authorFollowers": 8520
+          },
+          {
+            "id": "2123477774530715789",
+            "url": "https://x.com/lokicex/status/2123477774530715789",
+            "lang": "en",
+            "text": "This is f*cking insane. Andrej Karpathy spent 8 years building AI at OpenAI and Tesla\n\nLast week he packed everything he knows into one free 2-hour lecture\n\nAgents → Loops → Harness → Graphs\n\nPeople pay $15,000 for bootcamps that teach less than this, and still come out without a job offer\n\nIn 2 hours he goes from your first agent to systems that run and fix themselves without you\n\nCompanies now hire for exactly this. Not prompts, but people who can make agents finish real work\n\n95% will save it and never open it. The 5% who watch it tonight will be the ones getting hired\n\nNobody has 2 free hours today, I get it\n\nBookmark it so it doesn't vanish from your feed\n\nThen the Grok Bot guide below shows how to turn that lecture into bots that earn for you 24/7 ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123460361416245248/img/7h9USSc8Enu8L5JV.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123460361416245248/vid/avc1/1808x1008/Q5MnSRtZt9-QCdtc.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2118924523873382400",
+            "likeCount": 29,
+            "viewCount": 6073,
+            "authorName": "loki",
+            "createdUtc": 1795111528,
+            "quoteCount": 0,
+            "replyCount": 0,
+            "authorImage": "https://pbs.twimg.com/profile_images/2118928803208511488/Mo_nWFGv_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 3,
+            "bookmarkCount": 89,
+            "authorUsername": "lokicex",
+            "authorVerified": true,
+            "conversationId": "2123477774530715789",
+            "authorFollowers": 30
+          },
+          {
+            "id": "2124393384584626332",
+            "url": "https://x.com/FellMentKE/status/2124393384584626332",
+            "lang": "en",
+            "text": "A university student made $1,200 this month by turning educational PowerPoint creation into a side hustle using AI.\n\nAnd honestly, this might be one of the simplest AI side-hustles to start.\n\nI uploaded an entire Chemistry lesson PDF into Dola AI and turned it into a structured presentation in minutes.\n\nImagine doing this for:\n1️⃣ Seminar organizers\n2️⃣ Workshop hosts\n3️⃣ Coaching institutes\n\nAll of them need presentations regularly.\n\nAnd the best part is that... you don't need to design every slide from scratch anymore.\n\nJust bring the Study Material (or) TextBook PDF.\nLet Dola AI do the heavy lifting!\n\nTRY NOW: https://dola-app.onelink.me/bmSY/qvwjdmz8\n@Dola_Trend",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124393359607508992/img/pLGAsku4uQOLdNmK.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124393359607508992/vid/avc1/1028x720/WZervg-CkuYLjlqb.mp4?tag=16"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1045983811165704193",
+            "likeCount": 127,
+            "viewCount": 77805,
+            "authorName": "FELIX",
+            "createdUtc": 1795329826,
+            "quoteCount": 0,
+            "replyCount": 16,
+            "authorImage": "https://pbs.twimg.com/profile_images/1850803497932910592/ezoK2Dty_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 105,
+            "bookmarkCount": 107,
+            "authorUsername": "FellMentKE",
+            "authorVerified": true,
+            "conversationId": "2124393384584626332",
+            "authorFollowers": 269288
+          },
+          {
+            "id": "2124607840879059069",
+            "url": "https://x.com/s4yonnara/status/2124607840879059069",
+            "lang": "en",
+            "text": "THIS IS F*CKING INSANE...\n\n6 Grok Bots can run your entire social media team.\n\nOne finds trends. One builds strategy. One writes. One designs. One publishes. One analyzes.\n\nHere are 12 GitHub repos to build your own AI social media agency.\n\n01 / LangGraph → Connect all 6 Grok Bots into one coordinated workflow. Your Manager delegates tasks, tracks progress and controls execution.\nhttps://github.com/langchain-ai/langgraph\n\n02 / n8n → Automate the entire operation. Trigger research, generate content, request approvals and launch publishing workflows.\nhttps://github.com/n8n-io/n8n\n\n03 / Crawl4AI → Give your Scout the ability to collect website data, research competitors and discover emerging trends.\nhttps://github.com/unclecode/crawl4ai\n\n04 / Marketing Skills → Give your Strategist marketing frameworks for positioning, SEO, campaigns and growth.\nhttps://github.com/coreyhaines31/marketingskills\n\n05 / Social Media Skills → Equip your Writer with reusable workflows for creating engaging social media content.\nhttps://github.com/pavelhov/social-media-skills\n\n06 / Repomix → Feed your agents brand guidelines, research and reference materials in an AI-friendly format.\nhttps://github.com/yamadashy/repomix\n\n07 / ComfyUI → Let your Designer build image-generation workflows for branded visuals, campaign graphics and creative assets.\nhttps://github.com/Comfy-Org/ComfyUI\n\n08 / Remotion → Turn content ideas into videos programmatically using React. Perfect for short-form social content.\nhttps://github.com/remotion-dev/remotion\n\n09 / Postiz → Schedule, publish and manage content across multiple social media platforms.\nhttps://github.com/gitroomhq/postiz-app\n\n10 / TryPost → Give your AI agents publishing and scheduling capabilities through MCP and REST APIs.\nhttps://github.com/trypostit/trypost\n\n11 / Metabase → Build dashboards to track engagement, content performance and audience growth.\nhttps://github.com/metabase/metabase\n\n12 / Langfuse → Monitor every agent, inspect LLM calls and identify where your AI team needs improvement.\nhttps://github.com/langfuse/langfuse\n\nTHE ENTIRE WORKFLOW:\n\nTREND RESEARCH → CONTENT STRATEGY → WRITING → DESIGN → PUBLISHING → ANALYTICS.\n\nOne Manager coordinates the operation.\nFive specialists handle the execution.\n\nYou bring the ideas. Your 6 Grok Bots turn them into a content machine.\n\nBookmark this. Your $30 social media team starts here.  \n\nFollow for more Grok Bot setups, AI agents and open-source tools.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124607817210363904/img/gh6LOt_pCRl4kwfD.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124607817210363904/vid/avc1/1080x1350/5k8egCg04ftORcHd.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1490082029953818633",
+            "likeCount": 218,
+            "viewCount": 32291,
+            "authorName": "Andrew",
+            "createdUtc": 1795380957,
+            "quoteCount": 1,
+            "replyCount": 42,
+            "authorImage": "https://pbs.twimg.com/profile_images/2067501150698434560/uX3YcMHd_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 18,
+            "bookmarkCount": 442,
+            "authorUsername": "s4yonnara",
+            "authorVerified": true,
+            "conversationId": "2124607840879059069",
+            "authorFollowers": 4170
+          },
+          {
+            "id": "2123945355137999243",
+            "url": "https://x.com/GLOBALCENTER14/status/2123945355137999243",
+            "lang": "en",
+            "text": "My latest film used about 400,000 Dreamina credits. At the regular price, those credits would have cost me around $4,000. With the Black Friday deal, they came in under $500.\n\nI generated every shot in native 4K with Seedance 2.5 on Dreamina. I’m hooked on 4K. With only hours left on the deal, I bought nearly 1.5 million more credits today.\n\nI made the film on my own in just under three days. I spent about 15 hours a day on it while juggling my other projects. I’ve been making shorts and features with AI for almost two years, and a lot of the speed comes from experience. I know much sooner now when a shot needs another pass and when it’s time to move on.\n\nWith a bigger budget, more time and a crew, I’d make a feature I’d be proud to take to theaters. I might have something to share on that front soon.\n\nUntil then, I’ll keep practicing. My advice? Finish more films. You can spend days perfecting a shot, then watch the whole scene and realize it works better without it. That’s a lesson you get to take into the next film.\n\nHere’s a scene. The full film is on YouTube at ButacaSalvaje2.\n\nIf you make films like this, how long does a 20-minute film take you, from the first shot to the final cut?",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123945039776669696/img/ANpT7JCruB8oleP6.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123945039776669696/vid/avc1/1920x1080/YQIp5gRjdX25FpOe.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1627985538530541568",
+            "likeCount": 1031,
+            "viewCount": 126876,
+            "authorName": "Josef Globalcinemai",
+            "createdUtc": 1795223008,
+            "quoteCount": 6,
+            "replyCount": 73,
+            "authorImage": "https://pbs.twimg.com/profile_images/2115456462562492416/EzY_PEVj_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 96,
+            "bookmarkCount": 453,
+            "authorUsername": "GLOBALCENTER14",
+            "authorVerified": true,
+            "conversationId": "2123945355137999243",
+            "authorFollowers": 1056
+          },
+          {
+            "id": "2122809775499162065",
+            "url": "https://x.com/Joyingeth/status/2122809775499162065",
+            "lang": "en",
+            "text": "THIS F*CKING INSANE\n\nTwo prompts built six agents from one empty folder.\n\nI ran build from this one line:\n\nmkdir gta6-machine && claude\n\n1. 5 directories dropped, one CLAUDE.md capped at 200 lines, 4 rules that make every agent cite the vault first\n2. 6 subagent files written. Scout, librarian, writer, editor, seo, publisher. One job each\n3. Nothing publishes unless a source file confirms it. Rumors stay tagged\n\n15 minutes. 6 agents. 2 prompts.\n\nSave the build log",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122809724907266049/img/QYelU95Q2jXlNBQY.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122809724907266049/vid/avc1/1080x1350/gyoEG-5DAuaJtRzh.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "16503460",
+            "likeCount": 63,
+            "viewCount": 3890,
+            "authorName": "Joying.eth",
+            "createdUtc": 1794952265,
+            "quoteCount": 0,
+            "replyCount": 12,
+            "authorImage": "https://pbs.twimg.com/profile_images/2101106513750462464/lABHvjzq_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 1,
+            "bookmarkCount": 37,
+            "authorUsername": "Joyingeth",
+            "authorVerified": true,
+            "conversationId": "2122809775499162065",
+            "authorFollowers": 50016
+          }
+        ],
+        "nextCursor": "cur_3b7kgIuY44ZZslxmWL4Eew"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-capybara",
+      "kind": "anonymous",
+      "name": "Capybara",
+      "artworkKey": "capybara"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00049",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:41:30.934Z",
+  "started_at": "2026-11-23T07:41:31.035Z",
+  "completed_at": "2026-11-23T07:41:32.290Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

@@ -1,0 +1,245 @@
+{
+  "id": "4040b857-a2f6-46a0-8254-4684e18bc56e",
+  "run_url": "https://app.glasser.ai/runs/4040b857-a2f6-46a0-8254-4684e18bc56e",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "AI sales roleplay trainer agent",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "paging_unavailable: this result came from a source that cannot return a nextCursor, so it may be incomplete and there is no way to continue from here. Re-run with `requireFields: [\"nextCursor\"]` to be served only by a source that can page, which may cost more per request.",
+    "items": 7,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1ulxn9v",
+            "url": "https://www.reddit.com/gallery/1ulxn9v",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/06rp408sewah1.jpg?width=1292&format=pjpg&auto=webp&s=01adc11f27e5715274f63a41d4fd75aa7155bb48",
+                "type": "photo",
+                "width": 1292,
+                "height": 1318
+              },
+              {
+                "url": "https://preview.redd.it/ipp9yz7sewah1.jpg?width=1320&format=pjpg&auto=webp&s=ee90e83e8133a18608e1db1ef4b2e3689fe95afc",
+                "type": "photo",
+                "width": 1320,
+                "height": 1369
+              }
+            ],
+            "score": 62021,
+            "title": "In lieu of payment..",
+            "author": "thedivinegemini",
+            "authorId": "3doqasrj",
+            "isLocked": false,
+            "selftext": "I’m a GM at a restaurant & one of our managers left a note on our manager logs this afternoon that a guest walked out on their check and left this in lieu of payment of any kind. Not that the server got stiffed on a tip - just pure theft of services. I guess the whole “Thou shalt not steal” thing doesn’t matter if you’ve been pre-forgiven. Pretty convenient.\n\nETA: I’m not a bot; this is not AI - check my post and comment history. I’m not here for karma or fake internet points. This is what it feels like to work in a restaurant these days - especially in the Bible Belt. The first photo you can look up and is available for anyone to buy (should your darker urges push you toward being that person). The second photo is from Pulse, an app for restaurant managers to keep an eye on hourly sales, labor, and comps.   \nThe “Pineapple Express” is a mocktail our restaurant offers. ",
+            "permalink": "/r/mildlyinfuriating/comments/1ulxn9v/in_lieu_of_payment/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1783033752,
+            "isArchived": false,
+            "numComments": 2740
+          },
+          {
+            "id": "1qsgihv",
+            "url": "https://www.reddit.com/gallery/1qsgihv",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/lf8lebg3irgg1.jpg?width=4284&format=pjpg&auto=webp&s=cd0fe936bf2abe27cf175d2db216a67ca011b26d",
+                "type": "photo",
+                "width": 4284,
+                "height": 5712
+              },
+              {
+                "url": "https://preview.redd.it/5mrmjsg3irgg1.jpg?width=5712&format=pjpg&auto=webp&s=edd4ec8bb3f5bc6b918d82be610b1c3814e8a613",
+                "type": "photo",
+                "width": 5712,
+                "height": 4284
+              },
+              {
+                "url": "https://preview.redd.it/9kfu0bg3irgg1.jpg?width=4284&format=pjpg&auto=webp&s=c986951237cad13f74c1bb258f4f3427fef6343c",
+                "type": "photo",
+                "width": 4284,
+                "height": 5712
+              },
+              {
+                "url": "https://preview.redd.it/f82eebg3irgg1.jpg?width=4284&format=pjpg&auto=webp&s=03bf701ed40a69355ab55b87711145661faf498c",
+                "type": "photo",
+                "width": 4284,
+                "height": 5712
+              }
+            ],
+            "score": 49928,
+            "title": "Alex Pretti memorial, Minneapolis",
+            "author": "thoughtofeverything",
+            "authorId": "8ds93w1",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/pics/comments/1qsgihv/alex_pretti_memorial_minneapolis/",
+            "subreddit": "pics",
+            "createdUtc": 1769898899,
+            "isArchived": false,
+            "numComments": 184
+          },
+          {
+            "id": "1uglm97",
+            "url": "https://www.reddit.com/gallery/1uglm97",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/bbp7s3znhp9h1.jpg?width=3024&format=pjpg&auto=webp&s=2821dcb7e3ceff3464093fe7cb76ebf7ad8a8d05",
+                "type": "photo",
+                "width": 3024,
+                "height": 4032
+              },
+              {
+                "url": "https://preview.redd.it/zywow2znhp9h1.jpg?width=3024&format=pjpg&auto=webp&s=0d9462b273ef9521626b91a6019a1a4746a3ac11",
+                "type": "photo",
+                "width": 3024,
+                "height": 4032
+              },
+              {
+                "url": "https://preview.redd.it/wxu4zvynhp9h1.jpg?width=1170&format=pjpg&auto=webp&s=09017d1ce911b87c6a28e53f3a5c8acca212753e",
+                "type": "photo",
+                "width": 1170,
+                "height": 2532
+              }
+            ],
+            "score": 40642,
+            "title": "Booted before my parking pass expired",
+            "author": "TimePickle3965",
+            "authorId": "a6ofjds0",
+            "isLocked": false,
+            "selftext": "Pass expired at 4pm…booted at 3:42pm…showed up at 3:50. Guy refused to take the boot off. Called the cops and they said it’s a civil matter and won’t do anything. Fuck Houston.\n\nEdit: For clarification, this is my first time in this city. So no, I don’t have unpaid parking tickets here. And also the boot is on both my front and rear tire so I can’t just put a spare.   \nI ate the bullet and paid the fine when the guy showed up. Apparently they’ve had a few calls from you guys already. Anyways fuck this company, I’m gonna take them to small claims court. ",
+            "permalink": "/r/mildlyinfuriating/comments/1uglm97/booted_before_my_parking_pass_expired/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1782514126,
+            "isArchived": false,
+            "numComments": 3140
+          },
+          {
+            "id": "1r7x023",
+            "url": "https://i.redd.it/cmyieappl7kg1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/cmyieappl7kg1.jpeg?auto=webp&s=bd5adcbb315fc1291a3463efbe5a78487efdc64c",
+                "type": "photo",
+                "width": 1206,
+                "height": 1301
+              }
+            ],
+            "score": 39791,
+            "title": "When you skip validation for AI generated results",
+            "author": "Epelep",
+            "authorId": "chsmv",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/Wellthatsucks/comments/1r7x023/when_you_skip_validation_for_ai_generated_results/",
+            "subreddit": "Wellthatsucks",
+            "createdUtc": 1771401363,
+            "isArchived": false,
+            "numComments": 1394
+          },
+          {
+            "id": "1qc9z9t",
+            "url": "https://i.redd.it/ml0svadlx7dg1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/ml0svadlx7dg1.jpeg?auto=webp&s=fc8a6a54993b84a302f045b7cdcb6155c1827862",
+                "type": "photo",
+                "width": 1320,
+                "height": 2561
+              }
+            ],
+            "score": 39093,
+            "title": "ICE choked out a 10th grader, stole his phone, and then sold it. In an article about reckless and wanton ICE violence the illegal seizure and then *sale* of a minors phone caught my eye as street gang behavior.",
+            "author": "orangejulius",
+            "authorId": "409zv",
+            "isLocked": false,
+            "selftext": "https://www.propublica.org/article/videos-ice-dhs-immigration-agents-using-chokeholds-citizens",
+            "permalink": "/r/law/comments/1qc9z9t/ice_choked_out_a_10th_grader_stole_his_phone_and/",
+            "subreddit": "law",
+            "createdUtc": 1768354421,
+            "isArchived": false,
+            "numComments": 579
+          },
+          {
+            "id": "1sxaa7a",
+            "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/claude-powered-ai-coding-agent-deletes-entire-company-database-in-9-seconds-backups-zapped-after-cursor-tool-powered-by-anthropics-claude-goes-rogue",
+            "nsfw": false,
+            "media": [],
+            "score": 35987,
+            "title": "Claude-powered AI coding agent deletes entire company database in 9 seconds — backups zapped, after Cursor tool powered by Anthropic's Claude goes rogue",
+            "author": "WouldbeWanderer",
+            "authorId": "5p1ltmws",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/technology/comments/1sxaa7a/claudepowered_ai_coding_agent_deletes_entire/",
+            "subreddit": "technology",
+            "createdUtc": 1777310458,
+            "isArchived": false,
+            "numComments": 2750
+          },
+          {
+            "id": "1rgseae",
+            "url": "https://i.redd.it/ntf4zqlnr5mg1.png",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/ntf4zqlnr5mg1.png?auto=webp&s=9cbd21d465b8e33e554bc9b7c557f9924f332070",
+                "type": "photo",
+                "width": 1080,
+                "height": 1036
+              }
+            ],
+            "score": 35012,
+            "title": "You're now training a war machine. Let's see proof of cancellation.",
+            "author": "zaxo666",
+            "authorId": "352dwzr9",
+            "isLocked": false,
+            "selftext": "Yeah, we're all in the death business now that OpenAI has succumbed to the corrupt Department of War. \n\nLet's see proof of your cancellation boys and girls. ",
+            "permalink": "/r/ChatGPT/comments/1rgseae/youre_now_training_a_war_machine_lets_see_proof/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1772250842,
+            "isArchived": false,
+            "numComments": 2708
+          }
+        ],
+        "nextCursor": "cur_YEwy0UnSaFp_TIa5EB8D3g"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-giraffe-5e3cbaa1",
+      "kind": "anonymous",
+      "name": "Giraffe",
+      "artworkKey": "giraffe"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00034",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:40:33.772Z",
+  "started_at": "2026-11-23T07:40:33.983Z",
+  "completed_at": "2026-11-23T07:40:35.446Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

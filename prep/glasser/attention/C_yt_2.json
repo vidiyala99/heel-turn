@@ -1,0 +1,60 @@
+{
+  "id": "fc96f905-ec51-4f98-95dc-71ef27f66e22",
+  "run_url": "https://app.glasser.ai/runs/fc96f905-ec51-4f98-95dc-71ef27f66e22",
+  "provider": "anyapi",
+  "endpoint": "/youtube.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "query": "AI examiner driving test simulation",
+    "sortBy": "popular",
+    "uploadDate": "this_year"
+  },
+  "output": {
+    "hint": "paging_unavailable: this result came from a source that cannot return a nextCursor, so it may be incomplete and there is no way to continue from here. Re-run with `requireFields: [\"nextCursor\"]` to be served only by a source that can page, which may cost more per request.",
+    "items": 1,
+    "output": {
+      "data": {
+        "videos": [
+          {
+            "id": "5MKKBqOkQ4g",
+            "url": "https://www.youtube.com/watch?v=5MKKBqOkQ4g",
+            "image": "https://i.ytimg.com/vi/5MKKBqOkQ4g/hq720.jpg",
+            "title": "Why Young Drivers of Canada Solves The Practice Gap Problem in Moncton, NB",
+            "views": 26,
+            "channel": "Young Drivers of Canada",
+            "authorId": "UC7WHwElzTRzl4cAg5L8H14A",
+            "createdUtc": 1774251635,
+            "lengthText": "4:14",
+            "publishedTime": "8 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/RoGq5hqERDDMpW0K0KntLK1PgTZIci9flsqJdrvp1ztwbekIsXDv85SyBibIrtqk8Xm_-NXb=s68-c-k-c0x00ffffff-no-rj"
+          }
+        ]
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-badger",
+      "kind": "anonymous",
+      "name": "Badger",
+      "artworkKey": "badger"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.0012",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:40:33.481Z",
+  "started_at": "2026-11-23T07:40:33.783Z",
+  "completed_at": "2026-11-23T07:40:35.520Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

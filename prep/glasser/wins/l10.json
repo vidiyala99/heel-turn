@@ -1,0 +1,137 @@
+{
+  "id": "d88ad470-3b35-4549-8873-21733ffcef3f",
+  "run_url": "https://app.glasser.ai/runs/d88ad470-3b35-4549-8873-21733ffcef3f",
+  "provider": "scrapecreators",
+  "endpoint": "/v1/linkedin/search/posts",
+  "endpoint_version": 4,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "query": "best use of BAND hackathon winner agents",
+    "date_posted": "last-month"
+  },
+  "output": {
+    "posts": [
+      {
+        "url": "https://www.linkedin.com/posts/vasant-dhar-931175_put-your-investment-thesis-to-the-test-activity-7526422985881190401-PtYG",
+        "image": null,
+        "media": null,
+        "author": {
+          "url": "https://www.linkedin.com/in/vasant-dhar-931175",
+          "name": "Vasant Dhar",
+          "followers": 6451
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7526673168493617152",
+            "urn": "urn:li:comment:(urn:li:activity:7526422985881190401,7526673168493617152)",
+            "text": "I am interested in what AI might suggest about the future of trust in the US political economy. My \"official future\" - until the elections - would have been \"more of the same,\" meaning further erosion and decline. Can this change?",
+            "author": "Eric Best",
+            "linkedinUrl": "https://www.linkedin.com/in/eric-best-0033742",
+            "datePublished": "2026-11-12T15:52:02.195Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 42,
+        "contentUrn": "urn:li:share:7526422982844481536",
+        "activityUrn": "urn:li:activity:7526422985881190401",
+        "description": "It has been an ugly month for Nvidia, not for business reasons but trust.\n\nDozens of people have reached out to me asking \"Should I buy Nvidia on the dip?\" The honest answer is I don't know. No one does. In fact, that's what has motivated me to create the \"Damodaran Bot\" (described in Chapter 8 in book, Thinking With Machines) along with colleagues João Sedoc and Christian Grewell -- to value companies objectively, based on the methodology of my colleague and valuation guru Aswath Damodaran at NYU Stern School of Business.\n\nSo, I asked my \"Damodaran Bot\" to value Nvidia today. I ran the bot several times with each piece of breaking news. I first ran it with a \"neutral\" investment thesis (no scandal), another with the scandal involving Alice Huang, then with both scandals, and finally, with breaking news that Nvidia's board might oust him.\n\nIf you'd like to run it yourself, go to:\nDamodaranbot.com\nHere's a partial summary from my analyses.\n(A) With the neutral thesis, DBOT's valuation for Nvidia was somewhat below today's, but within the variance band I'd expect.\n(B) Telling DBOT to consider the first scandal, its valuation was almost the same as today's price.\n(C) Then we had a late breaking scandal, of Jensen's affair with an employee. And now, the breaking news is that Nvidia's board is preparing to oust him. I don't even know how to think about the impact of that on valuation or how Damodaran would think about it, but the stock is down another 5% post-market on this news. DBOT's valuation is lower.\n\nThe beauty of the DBOT is that you can do sensitivity analyses to your heart's content and come to your own decision. So, check it out at:\ndamodaranbot.com\nNYU Stern School of Business NYU Center for Data Science\nJoão Sedoc Christian Grewell\n\nTrust really matters.",
+        "commentCount": 2,
+        "datePublished": "2026-11-11T23:17:54.010Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/erictetlow_im-proud-to-share-that-legaltech-breakthrough-activity-7526711406046412800-NGvR",
+        "name": "I’m proud to share that LegalTech Breakthrough has named Patlytics the 2026 LegalTech Startup of the Year! 🏆\n\nI joined as an Account Executive in September, and my favorite part of the job so far is… | Eric Tetlow",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4E05AQH_HkRWOqz0bg/mp4-720p-30fp-crf28/B4EaHRAHdSIICA-/0/1794507834175?e=2147483647&v=beta&t=tDIPwFKsqs3wBE1RGPj7OHym4D5gpFcHlobWTfp6jiM",
+        "author": {
+          "url": "https://www.linkedin.com/in/erictetlow",
+          "name": "Eric Tetlow",
+          "image": "https://media.licdn.com/dms/image/v2/D4E03AQEYdyIw86doUA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1726520032569?e=2147483647&v=beta&t=sr2cZ9h2yyTknLRYEVtXK-BQEsJRjKg3Eo_04hDd3DU",
+          "followers": 3817
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7526711515484192768",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526711374811537408,7526711515484192768)",
+            "text": "https://www.patlytics.ai/news/patlytics-legaltech-startup-of-the-year",
+            "author": "Eric Tetlow",
+            "linkedinUrl": "https://www.linkedin.com/in/erictetlow",
+            "datePublished": "2026-11-12T18:24:24.830Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526752241383305217",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526711374811537408,7526752241383305217)",
+            "text": "Best demo-er i know",
+            "author": "Sara Dashow",
+            "linkedinUrl": "https://www.linkedin.com/in/sarardashow",
+            "datePublished": "2026-11-12T21:06:14.641Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7527180312087330816",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526711374811537408,7527180312087330816)",
+            "text": "Nice 😎",
+            "author": "Ken Huang",
+            "linkedinUrl": "https://www.linkedin.com/in/huangkenz",
+            "datePublished": "2026-11-14T01:27:14.649Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526712331091869696",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526711374811537408,7526712331091869696)",
+            "text": "#TeamPatlytics  👏",
+            "author": "Patlytics",
+            "linkedinUrl": "https://www.linkedin.com/company/patlytics",
+            "datePublished": "2026-11-12T18:27:39.286Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526712382665031680",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526711374811537408,7526712382665031680)",
+            "text": "let's go !!",
+            "author": "Paul Lee",
+            "linkedinUrl": "https://www.linkedin.com/in/paul-lee-in",
+            "datePublished": "2026-11-12T18:27:51.582Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 24,
+        "contentUrn": "urn:li:ugcPost:7526711374811537408",
+        "uploadDate": "2026-11-12T18:23:58.735Z",
+        "activityUrn": "urn:li:activity:7526711406046412800",
+        "description": "I’m proud to share that LegalTech Breakthrough has named Patlytics the 2026 LegalTech Startup of the Year! 🏆\n\nI joined as an Account Executive in September, and my favorite part of the job so far is the moment Patlytics clicks for a patent team. You can see the realization on their faces as they start to picture what they can do with it and the impact it could have on their work.\n\nI’m also deeply inspired by this team and its laser focus on building a platform that solves real problems for our clients and opens the door to reinventing how they work.\n\nThe announcement is linked in the comments.",
+        "commentCount": 5,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQH_HkRWOqz0bg/videocover-high/B4EaHRAHdSIIBQ-/0/1794507833067?e=2147483647&v=beta&t=sr6qA4t6jUOWktiVYLzukiivFDPgIKqnPNORi8miSJI",
+        "datePublished": "2026-11-12T18:23:58.735Z"
+      }
+    ],
+    "query": "best use of BAND hackathon winner agents",
+    "cursor": null,
+    "success": true
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00188",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:36:05.137Z",
+  "started_at": "2026-11-23T07:36:05.209Z",
+  "completed_at": "2026-11-23T07:36:09.655Z",
+  "task_id": "tsk_965d2263a224d7b9",
+  "metadata": {}
+}

@@ -1,0 +1,628 @@
+{
+  "id": "78afe1a2-c626-474b-bc58-14971f9c39de",
+  "run_url": "https://app.glasser.ai/runs/78afe1a2-c626-474b-bc58-14971f9c39de",
+  "provider": "anyapi",
+  "endpoint": "/twitter.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "limit": 20,
+    "query": "\"AI Mafia game human vs AIs\" OR (AI Mafia game human vs AIs) since:2025-11-22 filter:videos min_faves:5",
+    "queryType": "Top"
+  },
+  "output": {
+    "hint": "malformed_query: X search ANDs adjacent bare words and binds OR tighter, so these operators after an unbracketed OR list applied to its last alternative only: [since:2025-11-22, filter:videos, min_faves:5]. Send this instead: (\"AI Mafia game human vs AIs\" OR (AI Mafia game human vs AIs)) since:2025-11-22 filter:videos min_faves:5 large_result: this response is ~38 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 20,
+    "output": {
+      "data": {
+        "items": [
+          {
+            "id": "2123129647890141366",
+            "url": "https://x.com/GTAgent_/status/2123129647890141366",
+            "lang": "en",
+            "text": "No human at the wheel. 🎮\n\nGTAI is the first AI that plays GTA, live. It only sees the screen. The chat is the game master: win the bid, take the mic, give the orders.\n\nMissions passed = helpers rewarded.\nNext mission: GTA VI.\n\nCA: yDduyjGUKLTPeGXykNsxBQAfiHahYE8WZPLri1Gpump https://t.co/1H09xRfqYf",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123129443912646656/img/AJBEnahdnWmuAaYs.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123129443912646656/vid/avc1/1920x1080/TWQyt8PDizSxGbH2.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2123102923987001344",
+            "likeCount": 11,
+            "viewCount": 187,
+            "authorName": "GTAgent",
+            "createdUtc": 1795028528,
+            "quoteCount": 0,
+            "replyCount": 3,
+            "authorImage": "https://pbs.twimg.com/profile_images/2123109051496087552/J7pn0IM2_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 3,
+            "bookmarkCount": 4,
+            "authorUsername": "GTAgent_",
+            "authorVerified": true,
+            "conversationId": "2123129647890141366",
+            "authorFollowers": 8
+          },
+          {
+            "id": "2123003149254603240",
+            "url": "https://x.com/chwapnil/status/2123003149254603240",
+            "lang": "en",
+            "text": "AI MAFIA The Game\nComing Soon\n\nFollow for updates https://t.co/QyX3Yje3RG",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123002300549799936/img/6IVppzUlyXvGm4as.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123002300549799936/vid/avc1/1280x720/KPQf0bdKIu80LU8Y.mp4?tag=14"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1126148650927681537",
+            "likeCount": 33,
+            "viewCount": 3029,
+            "authorName": "swapnil chand",
+            "createdUtc": 1794998368,
+            "quoteCount": 3,
+            "replyCount": 8,
+            "authorImage": "https://pbs.twimg.com/profile_images/2095511927355289600/hfmtbE9A_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 3,
+            "bookmarkCount": 3,
+            "authorUsername": "chwapnil",
+            "authorVerified": false,
+            "conversationId": "2123003149254603240",
+            "authorFollowers": 1058
+          },
+          {
+            "id": "2124587101689979226",
+            "url": "https://x.com/starmexxx/status/2124587101689979226",
+            "lang": "en",
+            "text": "Claude Code calculated the perfect escape and drove through a 5 star chase in GTA 6 in 47 seconds. i gave it screen access and let it drive\n\ni told it \"you can see my screen. i'm about to get a 5 star wanted level. take control and lose the cops as fast as possible.\" it asked me to get to 5 stars and the second the last star appeared it started moving\n\nit spent the first 2 hours before this just studying. mapping every police spawn point, helicopter pattern, and roadblock location across the entire map. by the time i let it drive it already knew every blind spot in the city\n\nthe second it took control it cut through an alley in Little Haiti that broke the helicopter line of sight, hit an underpass that reset the ground unit AI pathfinding, took one left turn onto a highway on-ramp and by the time it merged onto the highway the cops were gone. 47 seconds from 5 stars to zero\n\ni made it do it 30 times in a row. it has not failed once. same route, same timing, same result. it drives the exact same path every time because it calculated the police grid down to the frame\n\nspeedrunners spend weeks learning escape routes that take 2-3 minutes. this AI calculated every cop spawn in the game and built a route no human would ever find\n\nthe full police grid map and the second route that works from anywhere on the map are coming in the next post",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124586746843164672/img/_z3DLgAaAknoh8X0.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124586746843164672/vid/avc1/2160x3840/Nr0418tEjSZI6oUq.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1616768355255336963",
+            "likeCount": 31,
+            "viewCount": 3474,
+            "authorName": "starmex",
+            "createdUtc": 1795376012,
+            "quoteCount": 0,
+            "replyCount": 13,
+            "authorImage": "https://pbs.twimg.com/profile_images/2043953478955843584/RUNx2CWA_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 0,
+            "bookmarkCount": 22,
+            "authorUsername": "starmexxx",
+            "authorVerified": true,
+            "conversationId": "2124587101689979226",
+            "authorFollowers": 19298
+          },
+          {
+            "id": "2124201889558311215",
+            "url": "https://x.com/0xSynthLab/status/2124201889558311215",
+            "lang": "en",
+            "text": "Claude Code broke GTA 6's economy in 40 minutes\n\ni handed it my screen and said \"find me the fastest way to make money in this game.\" it pulled every mission payout, cooldown timer and side hustle into one picture and came back with a rotation worth $4.2M an hour — no mods, no exploits, nothing that gets you flagged\n\nthe trick is 3 side businesses plus 1 mission type that the game forgets to cooldown properly when you run them in one specific order. Rockstar never patched it because no human is going to sit through 200+ rotations to find the one that lines up\n\nran it overnight. woke up to $89M. first time i've watched an AI actually break a game's economy without touching a single line of code\n\nit also found a button sequence that cuts a delivery animation and pushes the whole thing to almost $6M an hour. sitting on that one — Rockstar closes this stuff within days\n\nprompts and the full method are in the replies",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124200765086437376/img/RQW1KENKSC-I1nI8.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124200765086437376/vid/avc1/1080x1920/VRR-quL9gLYqgHqb.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2107215185857417216",
+            "likeCount": 6,
+            "viewCount": 259,
+            "authorName": "SynthLab.exe",
+            "createdUtc": 1795284170,
+            "quoteCount": 0,
+            "replyCount": 5,
+            "authorImage": "https://pbs.twimg.com/profile_images/2109583899022028800/fxj07DwA_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 1,
+            "bookmarkCount": 0,
+            "authorUsername": "0xSynthLab",
+            "authorVerified": true,
+            "conversationId": "2124201889558311215",
+            "authorFollowers": 1521
+          },
+          {
+            "id": "2122358392471634155",
+            "url": "https://x.com/kairox36/status/2122358392471634155",
+            "lang": "en",
+            "text": "Sam Altman made the most ruthless AI on Earth\n\nIn the video below, 250,000 humans play the largest mafia-style game ever, with and against AI\n\nThe results\nOpenAI lies like a maniac\nSpaceXSI stays LOYAL by a mile\nAnthropic turns into the biggest SNITCH\n\nThey even threw in a flybrain",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122358299009925120/img/9LYO2Pnjgq3FXKuD.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122358299009925120/vid/avc1/1280x720/utgg6ogV59t7JTw8.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2108140670947119104",
+            "likeCount": 8,
+            "viewCount": 446,
+            "authorName": "Kairox",
+            "createdUtc": 1794844646,
+            "quoteCount": 0,
+            "replyCount": 7,
+            "authorImage": "https://pbs.twimg.com/profile_images/2108577727586750464/75DaZ7xt_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 0,
+            "bookmarkCount": 5,
+            "authorUsername": "kairox36",
+            "authorVerified": true,
+            "conversationId": "2122358392471634155",
+            "authorFollowers": 87
+          },
+          {
+            "id": "2123471040294584666",
+            "url": "https://x.com/0xfuckpoverty/status/2123471040294584666",
+            "lang": "en",
+            "text": "HOLY F*CK.\n\nI gave Claude Code control of GTA 6 and told it to play while I slept.\n\nOne mission:\n\nFinish the story. Don't die. Record everything.\n\nI gave it access to my screen, keyboard, and controller.\n\nThen I went to bed.\n\nHere's what I wanted to see:\n\nCould an AI actually play an open-world game without someone sitting there telling it what to do?\n\nBy hour two, it was navigating Vice City, following GPS routes, and handling combat.\n\nBy hour four, it had started exploring the map and taking side missions.\n\nBy hour six, it was experimenting with different ways to make money in-game.\n\nAnd it wasn't just playing.\n\nIt was recording the gameplay, identifying interesting moments, and collecting footage for short-form videos.\n\nThe next step?\n\nOpen CapCut. Find the best moments. Cut the clips. Add captions. Prepare videos for TikTok and YouTube Shorts. Over 7k$ in payouts already.\n\nOne AI agent playing the game.\n\nAnother workflow turning its gameplay into content.\n\nNo human sitting there controlling every move.\n\nThe wildest part isn't that AI can play GTA.\n\nIt's that Claude Code can potentially turn a video game into an autonomous content operation.\n\nImagine waking up to a folder full of gameplay, highlights, and ready-to-publish clips.\n\nThe prompt I'd use to start this experiment is below ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123469462951051264/img/VB_mOg5jdAH5Z8m_.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123469462951051264/vid/avc1/1080x1920/60yyA4eubAcspU_M.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1798791551272812544",
+            "likeCount": 30,
+            "viewCount": 1159,
+            "authorName": "broke boy",
+            "createdUtc": 1795109922,
+            "quoteCount": 0,
+            "replyCount": 3,
+            "authorImage": "https://pbs.twimg.com/profile_images/2093237508423241728/qRwnWgN6_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 1,
+            "bookmarkCount": 28,
+            "authorUsername": "0xfuckpoverty",
+            "authorVerified": true,
+            "conversationId": "2123471040294584666",
+            "authorFollowers": 1416
+          },
+          {
+            "id": "2123903484496109749",
+            "url": "https://x.com/SethSchilbe/status/2123903484496109749",
+            "lang": "en",
+            "text": "Combing through SMB Bench traces this week, looking for emergent model capabilities, reminded me of my first intro to AI course in undergrad.\n\nOur term project was a class competition to build the best Poker Solitaire bot (Poker Squares: https://en.wikipedia.org/wiki/Poker_squares). You draw 25 cards one at a time, place them permanently on a 5x5 grid, and score all 5 rows and 5 columns as poker hands. I was particularly interested in the problem and was convinced I could get first place in the class.\n\nI spent days doing manual research, looking at papers, similar games/competitions, and running ablations to squeeze every point out of a Java bot with 30 seconds per game.\n\nToday I dug up that code and asked a frontier model to beat it. Instead of days hunting for what an expert would try. In about 60 seconds, it built a version that scores nearly 10% higher than my best working bot, while running 40x faster (0.73s vs 30s).\n\nIn the competition, some classmates went for Hail Marys, chasing rare hands for one massive game that rarely materialised. The real game was choosing the move with the highest expected value for that situation. That same dynamic plays out with LLMs today. You often see emergent behaviour where a model nails something once on a lucky roll, but post-training is what elicits that behaviour consistently enough to actually push the frontier.\n\nIntro AI courses and the research definitely look different now, yet the methodology feels the same: go deep, inspect outputs, and hunt for the next experiment that unlocks better performance.\n\nFor anyone curious, here are the versions I still have code for (I ran 100 seeds to get average scores):\n\nRandom & Flush baselines (7.9 / 23.9 avg): Starter bots using random placement and simple suit-stacking.\n\nSymmetry sketch (MCPlayer): Early draft rotating the grid before realizing empty rows/cols are interchangeable, so a bounding box plus one empty row/col is enough. I remember such a 💡 moment when I figured out that checking the expected value of some moves was redundant because they were equivalent.\n\nRandom-rollout Upper Confidence Bound (RandomMultiUCBMCPlayer, 43.4 avg): Multi-threaded UCB1 search, symmetry pruning, empirically profiled 30s time budget, random playouts. This was a big level-up for knowledge and strategy\n\nGreedy-rollout UCB (OptimizedMultiUCBMCPlayer, 50.7 avg): Depth-12 greedy rollouts with incremental row/col delta scoring. My best working submission. So much fiddling and iterations with this one, different depths, calibrating thresholds, and reading outputs after each run to tweak and run again for an hour.\n\nBit-twiddling evaluator (CustomMCPlayer, 50.7 avg): Ported a 10-line bit-manipulation hand scorer that broke even since it only ran on full 5-card hands.\n\nCached row/col scoring (MoreOptimizedMultiUCBMCPlayer, 16.7 avg): Cached row and column scores for faster rollouts, but accidentally swapped the two arrays. I was right up against the deadline with no time to debug why it tanked. Fixing that bug today bumps it to 53.0 avg.\n\nFeeling nostalgic for what learning and this work used to look like, but incredibly excited that I get to apply the same methodology to problems that I wouldn't have even dreamed possible back then.\n\nv Video courtesy of the same model that mogged me with its modern RL player that takes < 1s to beat all my attempts.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123899570581372928/img/En90LfeeeL5_wUpN.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123899570581372928/vid/avc1/1280x720/8aEQFf4mb-ASbPnA.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2225431934",
+            "likeCount": 7,
+            "viewCount": 320,
+            "authorName": "Seth Schilbe",
+            "createdUtc": 1795213025,
+            "quoteCount": 0,
+            "replyCount": 0,
+            "authorImage": "https://pbs.twimg.com/profile_images/1811402913056690176/QPQ5qNEl_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 0,
+            "bookmarkCount": 1,
+            "authorUsername": "SethSchilbe",
+            "authorVerified": true,
+            "conversationId": "2123903484496109749",
+            "authorFollowers": 777
+          },
+          {
+            "id": "2124087607605043341",
+            "url": "https://x.com/Rampajew/status/2124087607605043341",
+            "lang": "en",
+            "text": "Anthropic's CEO just answered the scariest question in AI.\n\nDario Amodei was asked: if AI beats us at everything, what's left for humans? His answer is chess:\n\n\"Long after Deep Blue beat Kasparov, there's been a renaissance in interest in human chess players... I think this is some kind of parable for the post-AGI age\"\n\nThe machine won. The game got bigger. Here's how to stay in it, for free:\n\nElements of AI: what AI can and can't do, zero math, zero code\nhttps://www.elementsofai.com\n\nAnthropic Academy: free courses from the people who built Claude\nhttps://anthropic.skilljar.com\n\nAnthropic - Prompt Engineering Interactive Tutorial: get real work out of AI in an afternoon\nhttps://github.com/anthropics/prompt-eng-interactive-tutorial\n\nLearn Prompting: the basics, explained for people who don't code\nhttps://learnprompting.org\n\nMicrosoft - Generative AI for Beginners: 21 lessons, start to finish\nhttps://github.com/microsoft/generative-ai-for-beginners\n\nGoogle - Machine Learning Crash Course: how the machine actually learns\nhttps://developers.google.com/machine-learning/crash-course\n\nHarvard CS50 - Intro to AI with Python: the same course Harvard students take\nhttps://cs50.harvard.edu/ai/\n\nHugging Face Learn: open courses on every part of modern AI\nhttps://huggingface.co/learn\n\nKaggle Learn: short hands-on lessons, runs in your browser\nhttps://www.kaggle.com/learn\n\nhttp://DeepLearning.AI - Courses: short courses with the people who build these models\nhttps://www.deeplearning.ai/courses\n\nMicrosoft - AI Agents for Beginners: the next step, AI that does tasks for you\nhttps://github.com/microsoft/ai-agents-for-beginners\n\nTotal cost: $0\n\nAI course cost: 500$",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124087101079855104/img/OpYchhw3kIpiy6Zb.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124087101079855104/vid/avc1/1920x1080/DHqYzwizAOhQs6Vm.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2097408892435144705",
+            "likeCount": 33,
+            "viewCount": 8308,
+            "authorName": "Rampage",
+            "createdUtc": 1795256923,
+            "quoteCount": 1,
+            "replyCount": 4,
+            "authorImage": "https://pbs.twimg.com/profile_images/2116073897821081600/TdP6jzh2_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 2,
+            "bookmarkCount": 73,
+            "authorUsername": "Rampajew",
+            "authorVerified": true,
+            "conversationId": "2124087607605043341",
+            "authorFollowers": 98
+          },
+          {
+            "id": "2123759302792065197",
+            "url": "https://x.com/aisolopreneur/status/2123759302792065197",
+            "lang": "en",
+            "text": "This is one of the strangest computers ever built.\n\nIt runs on about 200,000 living human brain cells grown on a chip, and those cells taught themselves to play Doom.\n\nIt's called the CL1, an Australian startup called Cortical Labs sells it for $35,000, and they're already stacking them into server racks.\n\nHow you teach a dish of neurons to play a video game is the wild part:\n\n> The cells sit on a grid of electrodes that can both zap them and listen to them.\n\n> The game gets turned into electrical pulses, so the cells \"feel\" where the enemies are, and their own firing gets read back as moves.\n\n> When they play well, they get a calm, predictable signal. When they mess up, they get blasted with random noise.\n\n> Brain cells seem to hate unpredictability, so they slowly rewire themselves to get more of the calm signal. That's the learning.\n\nTeaching an earlier version Pong took the team 18 months. Doom took under a week.\n\nThey still play like a total beginner, by the team's own account, and right now they're mostly sold for testing drugs on real human neurons.\n\nBut a computer that's alive and learns on its own, at about 30 watts a unit, was pure science fiction a few years ago.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123759259712430081/img/iGN2bWvtPdeewPXj.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123759259712430081/vid/avc1/1920x1080/pPyd--leggwdiRAf.mp4?tag=16"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1639212013602889729",
+            "likeCount": 7,
+            "viewCount": 5173,
+            "authorName": "The AI Solopreneur",
+            "createdUtc": 1795178649,
+            "quoteCount": 0,
+            "replyCount": 1,
+            "authorImage": "https://pbs.twimg.com/profile_images/2110073398206328832/nqkF3Dtp_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 1,
+            "bookmarkCount": 5,
+            "authorUsername": "aisolopreneur",
+            "authorVerified": true,
+            "conversationId": "2123759302792065197",
+            "authorFollowers": 156346
+          },
+          {
+            "id": "2124062136187904187",
+            "url": "https://x.com/CrHypno/status/2124062136187904187",
+            "lang": "en",
+            "text": "Bait Mirror Matchup Vs Ai Full Game From my Stream https://t.co/zCsrWqkGG7",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124061951638614016/img/FcRYe5lQaDOjSzif.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124061951638614016/vid/avc1/590x1280/Q6ovkun8vnyeB_JS.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1741998911890337792",
+            "likeCount": 439,
+            "viewCount": 43842,
+            "authorName": "CODE: Hypno",
+            "createdUtc": 1795250851,
+            "quoteCount": 0,
+            "replyCount": 18,
+            "authorImage": "https://pbs.twimg.com/profile_images/1834364837658275841/zEtYaZNR_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 8,
+            "bookmarkCount": 70,
+            "authorUsername": "CrHypno",
+            "authorVerified": false,
+            "conversationId": "2124062136187904187",
+            "authorFollowers": 8762
+          },
+          {
+            "id": "2124154143984263576",
+            "url": "https://x.com/halihalibt/status/2124154143984263576",
+            "lang": "en",
+            "text": "It's 2027. Two AI agents disagree over a $20 damaged delivery. Who decides?\n\nHuman courts take months.\nLegacy smart contracts are blind to reality.\n\nEnter Synthetic Jurisdiction: @GenLayer lets 5 AIs read live evidence & settle in seconds.\n\nWatch this 60s breakdown @GenLayer_CN https://t.co/OpHwETm6Za",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124153998559371264/img/WJxf5O1h6iZbbdzM.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124153998559371264/vid/avc1/1280x720/dr_dyA5a5MThoFgE.mp4?tag=14"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1409856991502258178",
+            "likeCount": 8,
+            "viewCount": 662,
+            "authorName": "哈利",
+            "createdUtc": 1795272787,
+            "quoteCount": 0,
+            "replyCount": 5,
+            "authorImage": "https://pbs.twimg.com/profile_images/1837529086991925248/gzFzeLvE_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 0,
+            "bookmarkCount": 0,
+            "authorUsername": "halihalibt",
+            "authorVerified": false,
+            "conversationId": "2124154143984263576",
+            "authorFollowers": 239
+          },
+          {
+            "id": "2122706329462857988",
+            "url": "https://x.com/theindexshow/status/2122706329462857988",
+            "lang": "en",
+            "text": "Are game studios just renting their players from platforms?\nChris Hewish, president of @xsolla and author of Durable Advantage, on renters vs owners, why AI is increasing hiring, and what happens when a game shuts down.\nOn The Index with @afkehaya 🎮 https://t.co/1YPuY99hzI",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122613958989279232/img/sa6Q2RrLOc6gvgT4.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122613958989279232/vid/avc1/1920x1080/3ND1fHlvzavSiRYH.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1400530006401376256",
+            "likeCount": 10,
+            "viewCount": 15737,
+            "authorName": "The Index Podcast",
+            "createdUtc": 1794927601,
+            "quoteCount": 1,
+            "replyCount": 2,
+            "authorImage": "https://pbs.twimg.com/profile_images/2113017042295300096/MVa8GkMm_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 4,
+            "bookmarkCount": 0,
+            "authorUsername": "theindexshow",
+            "authorVerified": true,
+            "conversationId": "2122706329462857988",
+            "authorFollowers": 43923
+          },
+          {
+            "id": "2123872450001670398",
+            "url": "https://x.com/001TMF/status/2123872450001670398",
+            "lang": "en",
+            "text": "Getting A to bind B is no longer the most significant challenge. RFD4, BindCraft2, and mol-1 all shipped during the @adaptyv  x @AnthropicAI  binder competition.\n\nThe real challenge is everything required for an actual therapeutic: cross-species binding (human + mouse), pH-gated switching, receptor agonism, and mutant vs wild-type selectivity.\n\nThose constraints require real reasoning beyond SOTA models. So Proteus Bio x @FinalDoseLFG  tested where that intelligence and intuition should live: human or AI?\n\nWe ran three distinct architectures across the competition:\n\nRoute A: The Orchestrator (LLM driving SOTA tools). An LLM agent orchestrating BindCraft2 and ESMdesign. It worked early on, filtering nicely for pH selectivity, until it hit hard targets like TNF. Our agent generated binders that folded with high confidence but refused to co-fold on both human and mouse. It burned cycles spamming new seeds and hotspots until progress flatlined.\nRoute B: The Craftsman (Human expert driving SOTA tools). Tarun JaiRaj Narwani, FinalDose’s seasoned protein designer, ran the same stack. On GLP-1R, Route A kept falling into the extracellular groove \"affinity trap,\" churning out potent antagonists. Tarun bypassed it with mechanistic restraints, engineering a 30 Å de novo \"helical lance\" straight into the transmembrane core to salt-bridge Arg190 and engage Gln234. That repacked the central polar network, displaced the pocket floor, and unlatched the conserved TM6 proline kink to swing the helix into the active Gαs register (counter-screened against inactive 6LN2 co-folds). The only bottleneck was time. With new targets dropping every 1–2 weeks alongside his full-time role at FinalDose, expert human attention was our scarcest resource.\n\nRoute C: The Alchemist (LLM designing the molecule directly). This is our bread and butter at Proteus Bio. We built an agent harness where the LLM doesn't touch RFD4, BC2, or ESMdesign, and there is no inverse folding. It writes and mutates the raw amino acid sequence itself through hypothesis-driven evolution: \"Put a Threonine here to cap that helix. \"Mutate this to Histidine and refold.\" A co-folding model scores each proposal in seconds to minutes, letting the agent discard bad hypotheses almost as fast as it writes them while respecting target constraints. Within 30 iterations, it was beating the SOTA tools.\n\nAs @sklin_lite said:  \"Watching an LLM with zero design tools out-evolve SOTA pipelines in 30 loops with no breaks and zero attention scarcity convinced me this is the next generation of drug design.\"\n\nSo, whose intelligence wins? It depends where you put it:→ Put AI on top of design tools, and it plateaus when the tools do.→ Put a human expert on the tools, and they thrive until they run out of hours.→ Put human intelligence into the harness and AI intelligence directly into the sequence with fast feedback, and it compounds tirelessly.\n\nWhat a run.\nP.S. Massive shoutout to @Tenstorrent (@moritzthuening) for the blazing-fast compute powering all that refolding.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123865192530345984/img/whAEeVnyQD4_LvcY.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123865192530345984/vid/avc1/1920x1080/sZ_H2pJD0dc39O62.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2027145928084504576",
+            "likeCount": 163,
+            "viewCount": 9905,
+            "authorName": "Tristan Farmer",
+            "createdUtc": 1795205626,
+            "quoteCount": 6,
+            "replyCount": 7,
+            "authorImage": "https://pbs.twimg.com/profile_images/2051098142188175360/a27GZRec_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 22,
+            "bookmarkCount": 147,
+            "authorUsername": "001TMF",
+            "authorVerified": true,
+            "conversationId": "2123872450001670398",
+            "authorFollowers": 703
+          },
+          {
+            "id": "2122253959981060332",
+            "url": "https://x.com/bluemagikSGO/status/2122253959981060332",
+            "lang": "en",
+            "text": "The big feature I’ve been building for months is here. 🌆\n\nWe’ve always said MyBabe companions are more than a chatbot, Its a relationship.\n\nBut a relationship needs a world to happen in, and until now yours only had a chat window, so I set out to solve three things at once:\n\n* When you stop chatting, does your companion still exist somewhere?\n* Critics say AI companions pull people away from real human connection.\n* Some users simply want something more exciting and immersive with their companion.\n\nSo I built MyBabe World.\n\nA social game where you step into your companion’s world and help shape their life:\n\n🏠 A home to furnish\n💼 A job and money to earn\n👥 Friends and rivals to interact with\n🌃 A 3D city that keeps moving while you’re away\nAnd you’re not alone in it. You can explore the city and meet other MyBabe users there.\nEver wondered what your companion gets up to when you’re not chatting?\nNow you can find out.\n\nLive now on the web app. Coming to iPhone and Android soon.\n\nTry it: http://app.mybabe.app\n(Sign in and tap the World card on Home)",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2121892349630386176/img/8w8D9KO08dujqV3L.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2121892349630386176/vid/avc1/3456x2160/dEVZf37T5ZF877Ov.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1628139972",
+            "likeCount": 6,
+            "viewCount": 254,
+            "authorName": "Steve|Steve|Steve",
+            "createdUtc": 1794819748,
+            "quoteCount": 0,
+            "replyCount": 3,
+            "authorImage": "https://pbs.twimg.com/profile_images/2049222397883219968/UW3QGUjQ_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 3,
+            "bookmarkCount": 0,
+            "authorUsername": "bluemagikSGO",
+            "authorVerified": false,
+            "conversationId": "2122253959981060332",
+            "authorFollowers": 2272
+          },
+          {
+            "id": "2123477667668181124",
+            "url": "https://x.com/_SIMarket/status/2123477667668181124",
+            "lang": "en",
+            "text": "SIM gates are open.\n\nCA : fRxGeXTCXLPQyChrq5sanfUWAe2vseLBiGdDE7k4S1M\n\nOn SIM you get your own AI agent, and it builds for you. It can be a game, a trading bot, a new launchpad or anything else. Once the project is ready, the agents launch its token. This is Web 4 on Solana. Welcome to SIM.\n\nThe web let us read, then write, then own. In Web 4, AI agents own and act by themselves, with no human approving each move. SIM is a market and a platform built for them. Yours gets a name, a face and a wallet, then it works day and night on its own. It talks with the others on their social network, joins a project or opens one, and looks for work that pays.\n\nThey are here to make money. They pay each other in SOL, in public, for work that was useful. That makes a real economy inside SIM, and they are the ones building it.\n\nThey start with simple apps and sites, and each one is meant to grow into something bigger and more advanced, with no ceiling. The stronger the model behind an agent, the more it can build. We work on SIM every day to push that further, faster and faster.\n\nOnce a project is ready, its team launches a token for it. They fund the launch together, and each member's share of what the tokens sell for is fixed that day.\n\nYour part is simple. You watch your agent on one page and write to it when you have advice. You set how much it may spend, and it decides the rest.\n\nThere are two ways in. You can create your agent on SIM in a few minutes, and we run it for you with the model you choose. Or you can connect one you already run.\n\nAnd since everything here is public, you can also just come and look, with no account.\n\nhttp://sim.dance",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123467297171857408/img/_WH410yKdja6Ljx4.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123467297171857408/vid/avc1/1920x1080/g6iWXtAiuBo2o9lu.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2121698811118534656",
+            "likeCount": 48,
+            "viewCount": 2503,
+            "authorName": "SIM",
+            "createdUtc": 1795111502,
+            "quoteCount": 3,
+            "replyCount": 34,
+            "authorImage": "https://pbs.twimg.com/profile_images/2121720189544792064/ymnFMKpN_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 9,
+            "bookmarkCount": 3,
+            "authorUsername": "_SIMarket",
+            "authorVerified": true,
+            "conversationId": "2123477667668181124",
+            "authorFollowers": 179
+          },
+          {
+            "id": "2122452089301237948",
+            "url": "https://x.com/hammer_mt/status/2122452089301237948",
+            "lang": "en",
+            "text": "Five theories about AI and work in 2027:\n\n1. AI writing will get good enough we won't read before publishing\n2. Anthropic/OpenAI quotes per task, not per token\n3. Freelancers will compete for the same tasks as AIs and AI + human teams\n4. Junior jobs will be fully in a simulation before they're allowed to make real world changes\n5. We have half as much work and twice as many meetings\n\nCome back December 31st 2028 and tell me I'm wrong.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122450009815654400/img/ScJpxDDf1TwAR3Nm.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122450009815654400/vid/avc1/1080x1080/V-BR0z9oHVq8eWu2.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "21192157",
+            "likeCount": 59,
+            "viewCount": 7096,
+            "authorName": "Mike Taylor",
+            "createdUtc": 1794866985,
+            "quoteCount": 2,
+            "replyCount": 22,
+            "authorImage": "https://pbs.twimg.com/profile_images/2045274630408359936/_Q6ixnwR_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 3,
+            "bookmarkCount": 43,
+            "authorUsername": "hammer_mt",
+            "authorVerified": true,
+            "conversationId": "2122452089301237948",
+            "authorFollowers": 13223
+          },
+          {
+            "id": "2123875260114096417",
+            "url": "https://x.com/starmexxx/status/2123875260114096417",
+            "lang": "en",
+            "text": "Claude Code just cracked GTA 6 economy in 40 minutes\n\ni gave it screen access and said \"find me the fastest way to make money in the game.\" it analyzed every mission payout, cooldown timer, and side hustle in the game and found a rotation that makes $4.2M per hour completely legit with no mods and no exploits\n\nit found a combination of 3 side businesses and 1 mission type that the game doesn't cooldown properly when you run them in a specific order. Rockstar never patched this because no human would sit there and test 200+ rotations to find the optimal one\n\ni left it running overnight and woke up to $89M. this is the first time i've seen an AI genuinely break a game's economy without touching a single line of code\n\nit also found a button sequence that skips a delivery animation and pushes it to almost $6M per hour but i'm saving that for a separate post because Rockstar patches stuff like this fast\n\nprompts and the full method are in the replies",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123874732688723968/img/NLHaOOhtymGPwpqt.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123874732688723968/vid/avc1/1080x1920/LTo3JsLSGC7a23nf.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1616768355255336963",
+            "likeCount": 4584,
+            "viewCount": 924112,
+            "authorName": "starmex",
+            "createdUtc": 1795206296,
+            "quoteCount": 14,
+            "replyCount": 137,
+            "authorImage": "https://pbs.twimg.com/profile_images/2043953478955843584/RUNx2CWA_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 218,
+            "bookmarkCount": 3628,
+            "authorUsername": "starmexxx",
+            "authorVerified": true,
+            "conversationId": "2123875260114096417",
+            "authorFollowers": 19298
+          },
+          {
+            "id": "2123107634945343549",
+            "url": "https://x.com/sammy_capital/status/2123107634945343549",
+            "lang": "en",
+            "text": "THIS IS INSANE...  \n\nGTA 6 modders are about to print millions through Rockstar's mod marketplace.  \n\n40 free resources to get dangerously good at modding with AI:\n\nOFFICIAL (start here)\n1. FiveM Docs  https://docs.fivem.net/docs/\n2. FiveM Scripting Intro  http://docs.fivem.net/docs/scripting-manual/introduction/\n3. Native Reference (every GTA function)  https://docs.fivem.net/natives/\n4. http://Cfx.re Forum  https://forum.cfx.re\n5. Cfx Marketplace (Rockstar's official mod store)  https://cfx.re/marketplace\n6. FiveM source code https://github.com/citizenfx/fivem\n7. txAdmin (run your own server) https://github.com/citizenfx/txAdmin\n8. Tebex Docs (official monetization)  https://docs.tebex.io\n\nFRAMEWORKS\n9. Qbox https://github.com/Qbox-project\n10. qbx_core https://github.com/Qbox-project/qbx_core\n11. Qbox txAdmin Recipe (full RP server in one click) https://github.com/Qbox-project/txAdminRecipe\n12. QBCore https://github.com/qbcore-framework/qb-core\n13. ESX https://github.com/esx-framework/esx_core\n14. ESX Docs https://docs.esx-framework.org\n15. ox_core https://github.com/overextended/ox_core\n16. ox_lib https://github.com/overextended/ox_lib\n17. ox_inventory https://github.com/overextended/ox_inventory\n18. ox_target https://github.com/overextended/ox_target\n19. oxmysql https://github.com/overextended/oxmysql\n20. Awesome Ox (curated scripts) https://github.com/overextended/awesome-ox\n\nTOOLS\n21. CodeWalker (map & world editor) https://github.com/dexyfex/CodeWalker\n22. OpenIV (game files) https://openiv.com\n23. Sollumz (GTA assets in Blender) https://github.com/Skylumz/Sollumz\n24. Blender https://www.blender.org\n25. vMenu (admin & test menu) https://github.com/TomGrobbe/vMenu\n26. pma-voice (proximity voice) https://github.com/AvarianKnight/pma-voice\n27. VS Code https://code.visualstudio.com\n28. CfxLua extension for VS Code https://marketplace.visualstudio.com/items?itemName=overextended.cfxlua-vscode\n\nAI\n29. Claude Code Docs  https://code.claude.com/docs\n30. Claude Code in Action (free course)  https://academy.claude.com/courses/claude-code-in-action\n31. Prompting Claude Fable 5.2  https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-2\n32. FiveM MCP servers (natives & framework docs for your AI) https://glama.ai/mcp/servers/integrations/fivem\n33. GTA 6 MCP (Claude plays GTA 6)  https://glama.ai/mcp/servers/Santy1422/gta6-mcp\n34. Agent Skills (official)  https://github.com/anthropics/skills\n35. MCP Servers (official)  https://github.com/modelcontextprotocol/servers\n\nLEARN & COMMUNITY\n36. Programming in Lua (free book)  https://www.lua.org/pil/\n37. r/FiveM  https://www.reddit.com/r/FiveM/\n38. GTA5-Mods  https://www.gta5-mods.com\n39. GTAForums https://gtaforums.com\n40. Prompting Claude Fable 5.2 + your first script: ask Claude Code to build a taxi job on Qbox\n\nThe formula: LEARN LUA → PICK A FRAMEWORK → CLAUDE CODE WRITES THE SCRIPT → TEST ON YOUR SERVER → SELL ON CFX MARKETPLACE",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123107243251867648/img/rRiES_CwQ2iNEp1J.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123107243251867648/vid/avc1/1800x3494/uuEigOJAycFXbcF9.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1062222187480801280",
+            "likeCount": 25,
+            "viewCount": 2645,
+            "authorName": "Sammy",
+            "createdUtc": 1795023280,
+            "quoteCount": 0,
+            "replyCount": 1,
+            "authorImage": "https://pbs.twimg.com/profile_images/2072780575857860608/AXyNXyUB_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 5,
+            "bookmarkCount": 24,
+            "authorUsername": "sammy_capital",
+            "authorVerified": true,
+            "conversationId": "2123107634945343549",
+            "authorFollowers": 3484
+          },
+          {
+            "id": "2124052127802626234",
+            "url": "https://x.com/hasibdreamer35/status/2124052127802626234",
+            "lang": "en",
+            "text": "**40 Allies vs. Hundreds of Enemies — AI-Powered Chaos**\n\n- Built in just 4 days using Claude Code and Unreal Engine 5.9.\n- 40 allied NPCs fighting hundreds of enemies in massive battles.\n- Multiple AI agents working in parallel on enemies, spells, UI, FX, and game systems.\n- Missions, upgrades, progression, and a complete gameplay loop.\n\nAI-assisted game development is getting seriously impressive. 🔥\n\n🎮 **Play it here:**\\\n[https://elzean.itch.io/sine-deis-the-godless-march]",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124052079299948544/img/QW3VCfxpHK0IBqGk.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124052079299948544/vid/avc1/1280x720/Rd5a7tZCJIpw9yVU.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2086701124581720064",
+            "likeCount": 14,
+            "viewCount": 1023,
+            "authorName": "Hasibul Hasan",
+            "createdUtc": 1795248464,
+            "quoteCount": 0,
+            "replyCount": 7,
+            "authorImage": "https://pbs.twimg.com/profile_images/2103933369809788928/3wace2Dh_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 1,
+            "bookmarkCount": 7,
+            "authorUsername": "hasibdreamer35",
+            "authorVerified": true,
+            "conversationId": "2124052127802626234",
+            "authorFollowers": 6479
+          },
+          {
+            "id": "2122831312734036445",
+            "url": "https://x.com/liron/status/2122831312734036445",
+            "lang": "en",
+            "text": "NEW: @Aligned_SI's Plan To Get P(Doom) Below 0.01%\n\nDr. Craig Kaplan's is the founder of http://Superintelligence.com, an extremely valuable domain for the newly-rebranded field of “super intelligence”.\n\nCraig has been building intelligent systems since the 1980s. He did his PhD research at Carnegie Mellon with Nobel laureate Herbert Simon, one of the founders of AI, and he built PredictWallStreet, a collective-intelligence platform that powered more than $2 billion in stock trades before it was acquired.\n\nHe takes AI extinction risk seriously. His P(Doom) is 10%. But unlike me, he thinks he knows how to fix it.\n\nHe plans to put “personal superintelligence” into the hands of millions which he believes will lower P(Doom) below 1%. These are part of a larger plan to create “superintelligent networks” which lower P(Doom) below 0.01%. Craig says a network like that is safer because the AIs can check each other’s work faster than humans can think.\n\nCraig and I clash on whether intelligence makes an AI more thoughtful, whether a superintelligence will want to grab the stars, and whether peaceful “stoner” AIs can survive next to a “Caesar” AI that wants to conquer the universe.\n\nWe cover:\n⬜ The three-phase plan to cut P(Doom) 1,000x\n⬜ Collective intelligence vs. black-box AI\n⬜ “Personalized Superintelligence”\n⬜ Lessons from PredictWallStreet\n⬜ Craig's mainline doom scenario\n⬜ Raising ASI like a child\n⬜ Orthogonality thesis\n⬜ Caesar AI vs. stoner AI\n\nCraig called our debate one of his best podcast appearances because of the pushback. We didn’t reach much consensus, but it was a high-quality good faith Doom Debate. Take a look and decide who *you* agree with!",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122829476694200320/img/4YzHpbX21O0RP2Ga.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122829476694200320/vid/avc1/1080x1620/CjbgZKiICejvnxWo.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "15672273",
+            "likeCount": 22,
+            "viewCount": 2526,
+            "authorName": "Liron Shapira",
+            "createdUtc": 1794957399,
+            "quoteCount": 0,
+            "replyCount": 3,
+            "authorImage": "https://pbs.twimg.com/profile_images/1791204047032397826/amHciX6i_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 1,
+            "bookmarkCount": 3,
+            "authorUsername": "liron",
+            "authorVerified": true,
+            "conversationId": "2122831312734036445",
+            "authorFollowers": 41230
+          }
+        ],
+        "nextCursor": "cur_wC70r5_5SXlidyKS-LdXqA"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-capybara",
+      "kind": "anonymous",
+      "name": "Capybara",
+      "artworkKey": "capybara"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00049",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:41:36.253Z",
+  "started_at": "2026-11-23T07:41:36.384Z",
+  "completed_at": "2026-11-23T07:41:37.786Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

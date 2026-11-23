@@ -1,0 +1,556 @@
+{
+  "id": "2429fed5-27ad-4f3b-9d1d-3f39d0f1cdf0",
+  "run_url": "https://app.glasser.ai/runs/2429fed5-27ad-4f3b-9d1d-3f39d0f1cdf0",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "I let AI agents write and film a movie",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "large_result: this response is ~91 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 25,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1vehe64",
+            "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1vehe64/book_i_bought_didnt_edit_out_the_ai_prompt/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/kjlbefbjm6hh1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=86b78da7021d314b6ea5ffddd8d3f47666efa9aa",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 73725,
+            "title": "Book I bought didn't edit out the AI prompt ",
+            "author": "pjcace",
+            "authorId": "60k2g",
+            "selftext": "Absolutely worthless book. Didn't even remove the prompt in the introduction. The whole book, a travel guide, was generalities and no specifics. You could change the name and have it be any city anywhere.",
+            "permalink": "/r/mildlyinfuriating/comments/1vehe64/book_i_bought_didnt_edit_out_the_ai_prompt/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1785772518,
+            "numComments": 1322
+          },
+          {
+            "id": "1wf97x0",
+            "url": "https://www.reddit.com/r/BoyDinnerDiaries/comments/1wf97x0/hug_your_kids_every_chance_you_can/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/dltarsrmsaph1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=fa771b87a502bb488483b12a465653cd8e1c7e27",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 68915,
+            "title": "Hug your kids every chance you can",
+            "author": "Paperbagsportsfan",
+            "authorId": "2pjdywh8",
+            "selftext": "(9/11/26) My 5 year started kindergarten last week at a new school with all new kids and all new teachers. She took the bus for the first time. She's very shy and timid but as the week went on she did better and better. A photo of her was even in the weekly newsletter playing in gym class.\n\nThe following week she came down with a fever. Not unusual so we kept her out of school. The following day it remained high with meds so she missed a second day. By day 3 we went to urgent care. They told us to take one additional med and to keep them posted if she doesn't get will. The pediatrician even called later that day to check on her. That night she woke up and became very delirious for a few mintues then snapped out of it. We brought her back to urgent care the next morning and they sent us to the ER to get blood work. \n\nThat began the worst day of my life so far. The doctor immediately thought it was leukemia or an infection. A few hours later we found out it was both.  Luckily it is the most common form of leukemia with a high success rate. Unfortunately they could not control the infection. She worsened as the day went on eventually going into septic shock. The doctors and nurses tried everything but eventually had to intubate her. Her last words to me while conscious were her struggling to say i love you. \n\nShe has since gone on a few more machines. She has an echmo pumping her blood since her right lung is collapsed or full of fluid not sure which. Her heart is too weak to work. She has too much fluid in her body so they also put her on dialysis. Doctors in the pediatric icu and from oncology both say each is treatable on it's own but having both things happen together is very rare. They are doing zoom calls with other doctors to get advice during rounds each morning. I am confident she will walk out of here but it is not easy. Her 3 year old sister just keeps telling her to get better soon. One of the nurses put it best, she's set up to succeed through the equipment but she needs to fight in order to win. My wife and myself are living a surreal nightmare. Idk what I'll do if I lose her. She's literally the glue that holds this family together. \n\nI'm not really eating but this day(s) old bagel and orange juice is my meal for the day \n\nUpdate (9/12/26): I'm just now opening this before I try to sleep for a few hours as I wanted to be as present as possible for my kids today.  I honestly didn't expect anything when I posted this. I had a moment of silence to myself in the bathroom and decided to write how I was feeling and what I was going through then posted it to this sub. THANK YOU for all of the support and advice. Somethings we are already doing and others we will implement.\n\nWe have brought her bedtime blanket and books from home. We read to her as often as we can. I also tell her stories about our family (how I met her mom, how we moved to our town, how we got our dogs, etc) and that has been very therapeutic for me. \n\nOur 3 year old came to visit and we walked through the meditation garden with her to find fairies. Getting out of the treatment and getting fresh air has been very helpful. I think it's important for our 3 year old to see the 5 year old and talk to her as well. The staff gave my 3 year old a fairy (bird) house and paint so we could do that in the family lounge away from the chaos of the treatment room. They also gave her a stuff animal, doctors kit, and some badges and electrodes so she can fix her stuffed animal similar to how they are fixing her sister.\n\nThe medical staff has been nothing short of amazing and has been saying we will take this 1 day at a time. My 5 year old had a good day today. Her fever is gone, her blood tests look significantly more normal than 24 hours ago. They could hear breathing sounds in her right lung for the first time today. Her dialysis was turned up to remove more fluids and she did great with that. Her oxygen sensor actually has a reading and they said it was because her heart has become strong enough to actually pump the blood up to her ear where they have it. Her echmo useage decreased from 75% to 65% and they said at 40% she can stop using it. We have a very long way to go but this was a step in the right direction, she truly is a fighter. \n\nFor anyone reading this going through a similar situation, we started asking family and friends to send us voice memos to play for her. That has been great to know you have so many people supporting her and it's a nice break from just talking. \n\nOther things I've learned the last 24 hours: \n\n-it's ok to be weak. It's ok to cry and let someone else hold you.\n\n-stay off chat gpt and meticulously reviewing her medical chart. The providers know more than you and more about your child than Ai. It'll drive you crazy and mentally drain you. Ask the providers as many questions as you can so you can get more familiar and comfortable (?) with what is going on.\n\n-get outside, even if for 5 minutes. Staying trapped in that room all day is not good for you mentally.\n\nStill not eating much. Only took a few bites of the bagel but managed to eat 3 chicken tenders for dinner and a piece of broccoli. I'm feeling more confident than I did when I posted this.\n\n\nUpdate 2 (9/17/26): Everyone is doing better! My daughter is off the echmo, ventilator, and dialysis! Shes slowly waking up and will hopefully be moved out of the ICU to oncology in the next few days! Because of that my wife and I are doing immensely better. Thank you everyone for all of the support. I made a carebridge page so if anyone wants to [see updates go here](https://www.caringbridge.org/site/6c600b6b-b22b-11f1-8264-55464dfa5171)\n\nUpdate 3 (9/21): Not much to update. Still in the PICU. She's making progress but not like before. Regardless she's not going backwards so I'll take it. She still is on CPAP for breathing as well as IVs for medication. Awaiting a port in the next few days to start receiving chemo treatment that way. She seems out of it more than before but I'm sure she's really tired. Hopefully they can move us out of PICU this week. \n\nHer Preschool teacher setup a go fund me for her. I am a small business owner so I have been closed this whole time and don't plan on reopening until she's back home. The funds will help support me being with her as well as pay her medical bills. \n [The go fund me can be found here ](https://www.gofundme.com/f/gabriela-strong)\n\nThank you everyone for the support. \n\nUpdate 4 (9/24/26): We are still in the PICU. Her brain CT and EEG has come back negative. She had a PICC line placed in her arm to continue receiving chemotherapy. She had a line put into her chest to remove some fluid and over 700 ml (over 20 oz) of fluid drained! She's been breathing much better since. They have her alternating between CPAP and high flow oxygen to help her breathe, which is a step in the right direction. She started eating yesterday and devoured some Italian ice.\n\nShe has been mostly non-verbal since being extubated 1 week ago but she did say \"mommy\" twice the other day. She's been communicating much better non-verbally with head movements, she has been sleeping better at night, and is more active during the day.\n\nStill working on lowering her medications so we can move her over to the oncology floor, but all steps in the right direction!\n\nUpdate (9/28): It's going. I've been trying to reply to all the DMs but haven't replied to any comments. I do try to read all of them and I appreciate the success stories and advice. My daughter is doing well overall. We are still in the PICU but she is more interactive. She sat in a chair and at times can be pretty talkative. They took her off oxygen so she's fully breathing on her own. They also got rid of a few of the IVs in her arms so that helps with her discomfort. They'll soon do some testing to see if she can eat actual food on her own (currently getting her food through a tube). Unfortunately the fluid has come back in her chest so she will need another chest tube for drainage again.\n\nWe've been able to get a more clear picture on why her case was so sudden and fast acting. Along with the Leukemia they discovered she now has HLH (Hemophagocytic Lymphohistiocystosis) which is an inflammatory disease. This led to her body rapidly declining along with the infection and leukemia. The inflammation going throughout her body is what makes her case more unique. The treatment is the same/very similar to the same medication as the leukemia, just not as straightforward since her liver is still pretty inflamed. Her first day here she had what's called a \"cytokine storm\" from the HLH which temporarily damaged her organs. That \"storm\" really calmed down and they are trying different drugs since this isn't routine. They've mentioned her case at a nationwide conference and said she was one of the most talked about so that sucks she's that bad/rare of a case but I'm glad to have so many eyes reviewing her care. \n\nShe's starting to have some PTSD. She developed a fever the other night and when you have no immune system it's not a good time. It was also a scary look into what the next 2 years holds, as some of you mentioned, but she's worth it. I'm hanging in there. Some days are definitely harder than others. Seems to be 3 steps forward 2 steps back.\n\nThanks again to everyone for supporting us.\n\nUpdate (10/12): it's been awhile since I posted an update.  We're still in the PICU and they gave us the biggest room they have (because we don't seem to be able to leave)! \n\nSince my last update my daugther has been up and down. She developed 3 new infections. 1 in the PICC line, 1 in her intestines, and 1 that might have spawned from her intestines and traveled back to the PICC. All have cleared so that's been great. She had another chest tube put in since the mysterious chest edema came back and that has since been removed and stable. She did develop mucositis and typhlitis in her intestines. This led to a hole in her colon, bleeding into the intestines, and air into her abdomen. She had to get emergency surgery and have part of her large and small intestine removed and an ostomy put in.\n\nFortunately we caught that just in time and she's actually looking better than before. It looks like her HLH is also under control and she's finally producing white blood cells and platelets on her own! Hopefully she can rest and continue to get stronger so we can finally leave but I've been saying that for over a month now she who knows! Mentally the whole family and myself are staying strong. The entire PICU and our community outside of the hospital has been incredibly helpful.\n\nUpdate (11/6): My daughter is still in the hospital but out of the PICU! We moved over to the oncology floor 2 weeks ago. It's much quieter and slower paced which is great. She's been able to leave her room in a wheelchair to explore more of the hospital. It looked like we were going to actually be discharged this past week but she fell ill and that has kept us here. She started her second round of chemo. Once her intake and ostomy output level off a little more then we can go home until the next thing comes up.\n\nAs we left the PICU the medical staff started to open up more about how lucky she is. One doctor said her estimated chance of survival that first week was around 10%. They said ECMO for septic shock alone carries a 75% mortality risk and that's without the leukemia and HLH. They believe mortality of HLH independently is similarly high. The PA said they personally have never seen anyone survive ECMO for septic shock and have only seen one person survive HLH.\n\nIt truly is a miracle she's alive. We are awaiting her discharge to go home but until then I am grateful to be able to spend time with her again  ",
+            "permalink": "/r/BoyDinnerDiaries/comments/1wf97x0/hug_your_kids_every_chance_you_can/",
+            "subreddit": "BoyDinnerDiaries",
+            "createdUtc": 1789309780,
+            "numComments": 745
+          },
+          {
+            "id": "1td5abq",
+            "url": "https://www.reddit.com/gallery/1td5abq",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/ddebrdse151h1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=0cb7cbf85dcc731a4a6612af310e6d836244c5d5",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 56986,
+            "title": "Kittens in storm drain successfully rescued. Thanks, everyone!",
+            "author": "belltown99",
+            "authorId": "cxrrs",
+            "selftext": "EDIT (5/22/26): Both kittens passed their behavioral tests, which is good news since that is a requirement for adoption. They are living at the kitten nursery, happy and healthy. Next step is spaying/neutering, which will likely take place after the kittens reach a specific age/body weight. Thanks everyone for the follow ups about this and sorry it took awhile to get the update. The shelter is pretty busy, so getting a hold of someone on the phone for an update is rare.\n\n\n\nUpdate to my original post: [https://www.reddit.com/r/cats/comments/1tc62yv/kitten\\_stuck\\_down\\_storm\\_drain\\_help/](https://www.reddit.com/r/cats/comments/1tc62yv/kitten_stuck_down_storm_drain_help/)\n\nHi everyone, so sorry for the radio silence yesterday. The day completely got away from us, but I have good news – the kittens were rescued and are safe\\*\\*.\\*\\* Below is a recap of how the events transpired. Given how many of you have a vested interest, I thought it appropriate to include as many details as possible.\n\nThey’re currently with the Humane Society getting checked out. They seem to be in reasonable shape, just understandably shell-shocked, hungry and exhausted. Because we have cat allergies, we unfortunately couldn't keep them ourselves. They are so incredibly adorable and we sincerely hope they find a good home together. It wasn't easy giving them up, but we felt we had given them a second chance at life. \n\nI wish I had more photos, as so many of you want to see them and I feel like so many of you have been with us during this journey. Things got hectic during the rescue process and the little ones seemed pretty stressed out, so we let them be. The Humane Society was a little awkward about not letting us take a few final photos before we left.\n\nI honestly didn't expect my last post to blow up the way it did. Your advice, your stories, and just the general \"hive mind\" support helped us triage the situation when we were in need of a lot of ideas quickly. This was a team effort, Reddit. I never thought I’d feel this connected to a bunch of strangers, so thank you.\n\n**Full story**\n\nA few weeks ago, we noticed two strays in the yard. We have a bit of a gopher problem, so we figured if we left out some food and water, it was a win-win for everyone. Then, a few days ago, a tiny kitten popped out of the bushes one evening while I was taking out the trash and nearly gave me a heart attack. I had a good laugh, but didn't think more about it.\n\nThe next day, my wife calls me saying there’s a cat stuck in one of our storm drain pipes. I didn't believe her at first, but then we heard the sad cries coming from the gutter downspouts. After checking our storm drains, we realized that there were two ways the kittens could have entered: a grate at the drain exit (which had popped off) and an opening in our garden (previously unknown) which likely serves as an air intake to promote flow. Both of these entrances have now been gated and secured. The initial photos I shared were of the downspout for the gutters, which I had removed in order to access the pipes below. The gutter pipes have been replaced, so no little kitties will be able to jump down there.\n\nWe initially cut a towel into thin strips and lowered them into the entry/exits into the drains and threw some cat food down the pipes to attract the cats. That didn't work and we still heard the sad meows (heartbreaking). Yesterday morning, my wife was really worried so she played the sounds of a YouTube video of a mother cat calling her kittens. She received an instant response and looked down the downspout. There it was, a tiny spotted face staring back at her. She screamed for me and for us that was overwhelming, so we decided to kick it into higher gear and get much more aggressive about saving them.\n\nWe called animal control for help. Sadly, animal control said they don't assist with this sort of thing, so we were on our own. I don’t think they were rude about it, but it felt like our situation was either not their primary focus or much lower in priority compared to other issues they handled. We didn’t want to quit, so I said to my wife, hey let’s post on Reddit while we brainstorm to get some ideas from others and that’s when I encountered r/Cats.\n\nWithin minutes, people responded and we started looking into everything that was recommended. We decided to start with the least invasive and escalating as needed. The top ideas were: 1) provide a way for the kittens to climb out; 2) call the firefighters; 3) call the plumbers; 4) cut the pipes open.\n\nOur local firefighters responded within a few minutes of us calling them.  It was a full truck roll and three guys hopped out. They were super kind and I think they helped us calm down quite a bit, as we likely had a lot of frantic energy about us. We tried several ways to locate/drive the kittens out the storm drain exit, but after half an hour or so, they had to leave. I could tell they really wanted to find the kittens, but they also had other people to help. We were so grateful they came.\n\nQuite a few Redditors mention calling a plumber. This sounds so obvious in retrospect, but I never thought of this. While we were searching, we noticed AI was recommending Roto-Rooter, who offered free pet rescues. This sounded like just what we needed and I was a little skeptical about it, but we thought, why not give this a shot. We have nothing to lose and really wanted to get those little guys out. We called the 800 number and a lovely woman picked up on the second ring. She calmly took our info and instructed us to wait for a call back. 15 min later, Jeremy, who is a field supervisor in the region, calls us back. He's a self-declared cat lover and already on the way. Both he and his fiance have seen my original post trending on Reddit. He's about an hour away from us, but I swear he was at our door in much less time.\n\nI get a new wave of confidence when Jeremy steps up to the task. I give him the run down and just then, we see a small head pop out of the storm drain exit (let’s call this kitten, Princess). Princess ducks back into the pipe and we get there just in time to see a tail disappear. Jeremy races back to his truck to get some gear, yelling “we can do this!” He deploys his digital scope, which has 100ft of line and plans to use its lights to encourage the kittens to reverse out of the tunnel system. I've attached actual video footage from the scope inside the drain line. Unfortunately, I was focused on grabbing Princess at the very end, so I didn't capture any photos. We do have some after action shots of Jeremy consoling a very scared kitten.\n\nWe thought our job was done. As we clean up, we hear more meows but this time, they are coming from the other side of the drainage system. We start at the very beginning of the pipes with the scope and work our way through. I have some long runs and it's a bit of a network of pipes, so it took some time, but seeing the kitten’s tiny face (let’s call him Mario), beautiful eyes, and pink nose on the scope’s monitor gave us a renewed sense of purpose. We used two different scopes to corral the kitten towards my wife, who was waiting at the drain exit. After a few start/stops, we get the kitten to go down the right tube to the exit. He's a bit of a fighter, so I end up having to reach into the pipes and grabbing him (gently) with my bbq tongs since he keeps retreating. Video footage of the scope in the pipes also included. \n\nAfter settling down the kittens into their own cardboard boxes, we give them some food/water/hugs and we finally take a breather. I've soaked through my shirt and Jeremy's knuckles are bloody from pushing the scope cabling down the pipe. My wife is still in disbelief and all of us are smiling. We are so relieved!  \n   \nJeremy received a few service calls while he was here, so I could tell he had to move on (but didn’t want to). We tried to compensate him for his time but he flat out refused. I think we had to force him to take a sandwich and drink from our local deli. As he was packing up, he shared a story about a time he couldn't rescue a kitten that had fallen 20 feet vertically into a storm drain, so this felt like redemption to him. We were very moved hearing that this was a win he needed. He certainly made up for it, since we pulled not one, but 2 out of the tunnels.\n\nAbout the cats themselves. We estimate they are around 8 weeks old, based on their size. Princess is much smaller, with light brown spots. She is fairly shy, mews very quietly, and keeps to herself. I suspect the ordeal was likely tougher on her because she's smaller.  Mario is gray with tiger stripes. He is much larger, aggressive and loud. I am less worried about him.\n\nIf we could keep these kittens, we would (I think this is the cat tax people are referring to?). Unfortunately, I am very allergic to cats and our young children show signs of this as well.  We were worried about their health, so we dropped them off at the Humane Society to give them the best chance at recovery. We thought it was important for our kids to understand this process, so we picked them up for school and headed to the shelter together to say our goodbyes. The wonderful team there immediately started tending to them and I hope to get an update later today on their status. I am told that kittens who come in as duos at this age “do very well” and are quite popular, so fingers crossed they land in a loving home. Our local shelter explicitly asked us not to share their location, which we have respected. My understanding is they have experienced the good people of the Internet calling to ask about the cats and it overwhelms their systems.\n\nAs I write this, I’m still a little in disbelief how so many different people responded to my post with great ideas, Jeremy dropping everything to show up at a stranger’s home, and for those little kittens staying resilient. My wife and I were preparing ourselves for a much different ending. I’m so glad this was a happy ending that I didn’t expect and this all provides us with a little much needed nourishment.",
+            "permalink": "/r/cats/comments/1td5abq/kittens_in_storm_drain_successfully_rescued/",
+            "subreddit": "cats",
+            "createdUtc": 1778780125,
+            "numComments": 754
+          },
+          {
+            "id": "1w03283",
+            "url": "https://www.reddit.com/r/PeopleBeingRidiculous/comments/1w03283/what_are_your_thoughts_on_andrew_garfields/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/qk75u6gz1plh1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=cbf44e939e502e30138f5dada1b731dc370b852d",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 32378,
+            "title": "What are your thoughts on Andrew Garfield's statement?",
+            "author": "IWasNotBriefed",
+            "authorId": "2kia8sjpdz",
+            "selftext": "Andrew Garfield used a new Esquire interview to deliver one of the sharpest takedowns of Donald Trump from any Hollywood actor this year, calling him a \"wannabe f*scist, grifter, opportunist, power-hungry, ethic-less, spineless f*cking pig.\"\n\nThe remark came during a wide-ranging conversation about his upcoming role as OpenAI founder Sam Altman in Luca Guadagnino's film Artificial. Garfield was discussing the Jungian concept of the shadow self, arguing that society's refusal to acknowledge its own darker impulses is precisely what allows figures like Trump and British politician Nigel Farage to rise to power.\n\n\"If we weren't all less rejecting in the first place, less 'that's not us', then Donald Trump wouldn't have been voted in twice, and Nigel Farage wouldn't be anywhere near a position of power,\" Garfield told Esquire. \"Whereas if we go, 'OK, interesting — where am I [in a] wannabe f*scist, grifter, opportunist, power-hungry, ethic-less, spineless f*cking pig?' We can identify that this is the bad part of us.\"\n\nHe then added: \"And then it's, 'Ah, sweet Nigel. Guys, let's just not let him get anywhere near this.'\"",
+            "permalink": "/r/PeopleBeingRidiculous/comments/1w03283/what_are_your_thoughts_on_andrew_garfields/",
+            "subreddit": "PeopleBeingRidiculous",
+            "createdUtc": 1787857260,
+            "numComments": 3999
+          },
+          {
+            "id": "1x2ovgd",
+            "url": "https://www.reddit.com/r/whatisit/comments/1x2ovgd/found_these_two_usb_drives_you_think_you_plug/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/se093d9n6puh1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=9be79947e733728589d2f2598f37dbb551b4940f",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 32200,
+            "title": "Found these two usb drives. You think you plug them in and immediately *poof*?",
+            "author": "twohundred37",
+            "authorId": "8vnl7",
+            "selftext": "I know enough not to plug these into anything I own. But the curiosity is killing me.\n\nHas anyone seen this before? Google just brings up the Radiohead song. Which, maybe that’s all that’s on these, but there’s two of them. One is 64gb, and I think the other one is the same or more maybe. That’s a lot of space for a single mp3 file, and a backup.\n\n**UPDATE 1:** I’ve got an old laptop I’m willing to sacrifice. I’ll plug one in when I get home tonight. Wish me luck.\n\n**UPDATE 2:** Alright, I finally got around to plugging the first drive into the sacrificial laptop.\n\nThere are only two files on it.\n\nThe first is a PDF titled *How to Disappear Completely*. It's essentially a field manual for digital privacy. It starts with some pretty strange, almost philosophical writing about surveillance, identity, and the information we leave behind. Then it gets surprisingly practical. Instructions for booting an operating system called Tails, along with resources about Tor, encryption, Monero, anonymous communication, and digital privacy.\n\nThe second file is called ~~Rabbit\\_hole.txt.~~  Rabbit\\_hole.7z\n\nAs for Tails, apparently it's an entire operating system that runs from a USB drive, routes internet traffic through Tor, and is designed to forget what you've done when you shut it down.\n\n**I'm going to try booting from the other USB now.**\n\nI'll update again once I've had a chance to explore it.\n\nAnd seriously, don't take this as encouragement to plug random USB drives into your computer. That's a genuinely terrible idea.\n\n**Update 3:** UPDATE: So many of you reached out asking, so here it is:\\*\\*   \n\\[\\*\\*[https://drive.proton.me/urls/MXTHZ4WTK0#hMr28LShANzD\\*\\*\\]](https://drive.proton.me/urls/MXTHZ4WTK0#hMr28LShANzD**%5D)([https://drive.proton.me/urls/MXTHZ4WTK0#hMr28LShANzD](https://drive.proton.me/urls/MXTHZ4WTK0#hMr28LShANzD))  \n\\*\\*UPDATE: The password was thomyorke. lol.\\*\\*    \nThree days. I spent three days to find the password was Thom Yorke’s name. All lowercase, no spaces. I don’t even want to talk about how much time I wasted trying to crack it. I had John the Ripper running, tried wordlists, dates, variations of stuff from the other files. I was actually starting to learn a little about cryptography, which is cool I guess, but ultimately unnecessary because apparently the secret to this entire operation was listening to Radiohead in 2001.    \nAnyway. Sorry I’ve been gone. I have a pretty good explanation, although I’m not sure it’s going to satisfy anybody.    \nWhen I finally got the archive open, there was a bunch of stuff in it. PDFs, spreadsheets, pictures of buildings, text files, a couple more zip files. The whole thing looked like somebody had dumped the contents of an office computer onto a flash drive. Except the office was apparently run by people who communicate exclusively in vague, ominous corporate language.    \nEverything was associated with something called PROJECT LANTERN.    \nI googled it. Nothing that seemed relevant.    \nThere was a spreadsheet called PERSONNEL.xlsx with about 200 people in it. Names, numbers, assignments, statuses. Most of them were listed as inactive or transferred. Some were pending. I didn’t recognize anybody.    \nThe PDFs were mostly internal memos. Lots of references to transfers, custody, exceptions, relay procedures, etc. Some of them contradicted each other. There was one that appeared to be documenting an event before it had actually happened, although I’m willing to admit I might just be misunderstanding the dates.    \nThe pictures were the weirdest part. Not because there was anything particularly disturbing in them. Quite the opposite. Just some industrial building, a loading bay, a door, a wall. The kind of pictures you’d take if you were trying to sell a warehouse on Facebook Marketplace.    \nThere was also a folder called DO\\\\\\_NOT\\\\\\_DISTRIBUTE, so obviously that’s where I started.    \nI was pretty convinced I’d found somebody’s elaborate art project. Maybe an ARG, maybe some college kid’s attempt at making the world’s most unnecessarily complicated scavenger hunt. Whatever it was, they’d put some serious time into it.    \nAnd then my phone rang.    \nThis was two days after I’d opened the archive. It was late, probably around midnight. Unknown number. I answered because I answer basically every phone call, which I realize is insane behavior in 2026.    \nThere was a little clicking sound and then a guy asked if I’d “reviewed the exception.”    \nI said, “What?”    \nHe asked again.    \nI said, “Dude, I think you’ve got the wrong number.”    \nHe said, “Then you haven’t finished.”    \nClick.    \nI sat there for a minute trying to decide whether I’d just received the creepiest wrong-number call of my life or whether somebody was fucking with me.    \nFor context, my phone number isn’t exactly difficult to find. I also posted pictures of the USB drives on Reddit. It’s entirely possible somebody figured out who I was and decided to have some fun.    \nHonestly, if that’s what happened, pretty solid prank.    \nThe next afternoon I stopped at a gas station and this black Chevy van pulled in across from me. Two guys up front, dark windows, the whole thing. The passenger rolled his window down and asked me what time it was.    \nI told him.    \nHe looked at the driver, said “Okay, thanks,” and they left.    \nThat’s literally all that happened.    \nI wouldn’t even mention it except I’d been reading these stupid documents for two days and had started noticing all the references to clocks and timing and transfers. So naturally my brain decided these two random dudes were federal agents instead of, you know, electricians who needed to know what time it was.    \nI went home and told my wife I thought somebody might be following me.    \nShe asked if I’d taken the trash out.    \nFair.    \nOver the next week or so I got pretty obsessive about the files. I started looking at metadata, checking hashes, learning what EXIF data is. There are a couple files named CHECK.note and EXIF.note, which made me think the photographs might have something hidden in them.    \nI also found RELAY.sha256, and two more archives called 01\\\\\\_TRANSFER.zip and 02\\\\\\_REVIEW.zip.    \nI don’t know if any of that means anything yet. But the files seem to reference each other in ways that feel intentional.    \nAnd this is where the whole thing started getting a little uncomfortable.    \nI got another phone call.    \nThis one was at 2:17 in the morning. No voice, just some low humming sound and three little electronic beeps before it disconnected.    \nI wrote down the time because I was already sufficiently far down the rabbit hole to be keeping notes on weird phone calls.    \nThe following morning I noticed 02:17 written in my notebook next to one of the document references.    \nNow, I want to be very clear about something. I have no idea whether I wrote that down before or after the phone call. I was staying up until 3 AM looking at spreadsheets and listening to music. My sleep schedule was completely fucked. It’s entirely possible I’d seen the number somewhere and subconsciously attached some significance to it.    \nBut man, that one bothered me.    \nA few days later I saw what I thought was the same black van parked across from a restaurant.    \nI actually walked over and asked the guy if we’d met before.    \nHe was an HVAC technician.    \nHad a van full of tools and everything.    \nSo that’s where I’m at mentally. I’m apparently the kind of person who finds two flash drives on the sidewalk and, two weeks later, starts interrogating heating and cooling contractors in parking lots.    \nI apologized. He looked at me like I was an absolute lunatic. Understandable.    \nThen, last week, somebody knocked on my door.    \nThree knocks, pause, two more.    \nI looked through the peephole and there was a guy in a gray jacket holding an envelope.    \nI opened the door and he asked if I was the guy who’d found the USB drives.    \nI just stared at him.    \nHe said, “You should stop looking for the original.”    \nI asked what original.    \nHe said, “The one that wasn’t copied.”    \nAt this point I was about two seconds away from having a complete psychological event on my front porch.    \nThen he handed me the envelope.    \nIt was a note about putting trash in the wrong recycling bin.    \nIt was my fucking neighbor.    \nHe’d apparently been trying to talk to me for a week, had seen my original Reddit post, and thought he’d make a joke out of it.    \nI hate this man.    \nAnyway, the reason I’m updating now is because I’ve finally organized everything into something other people can look through.    \nThere are 26 files total in the collection. Eight PDFs, the personnel spreadsheet, photos, logs, and those two nested archives. Some of the PDFs seem to disagree with each other. Some of the dates don’t line up. There’s also a file with SHA-256 hashes, so at least somebody cared about verifying the integrity of all this nonsense.    \nI’ve been trying to work out whether there’s a coherent story buried in here, and I think I’ve reached the limits of what I can figure out by myself.    \nI know there are people on here who actually understand digital forensics, cryptography, image metadata, etc. A hell of a lot better than I do, anyway.    \nSo I’m putting the archive up for people to mess with.    \nI haven’t run any executables, and I wouldn’t recommend anybody do that with random files found on a USB drive. I’ve been examining copies, not plugging mystery hardware directly into my everyday computer like a complete moron.    \nThere is one thing I keep coming back to.    \nOne of the documents contains the sentence:    \n“The receiving party may not be aware that receipt has occurred.”    \nI originally assumed that meant whoever found the drives.    \nBut the more I look at the way the files are organized, the more I wonder whether whoever made this thing intended for it to be passed around.    \nMaybe finding the drives wasn’t the end of whatever this is. Maybe it was the beginning.    \nOr maybe some Radiohead fan with a computer science degree is currently laughing his ass off watching me lose my mind over an Excel spreadsheet.    \nBoth seem equally plausible at this point.    \nAnyway, here’s the archive. If you find anything, let me know. Especially if you figure out what the hell the relay files are supposed to be.    \nAnd if anybody drives a black Chevy Express van around southern Illinois, please stop asking strangers what time it is. Some of us are going through some shit.",
+            "permalink": "/r/whatisit/comments/1x2ovgd/found_these_two_usb_drives_you_think_you_plug/",
+            "subreddit": "whatisit",
+            "createdUtc": 1791663229,
+            "numComments": 3257
+          },
+          {
+            "id": "1xhurse",
+            "url": "https://www.reddit.com/gallery/1xhurse",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/zr9w8j9lu8yh1.jpeg?width=140&height=105&auto=webp&s=622d417b15b552a44ae9cd266eebc20d026551dd",
+                "type": "photo",
+                "width": 140,
+                "height": 105
+              }
+            ],
+            "score": 30017,
+            "title": "An older man approached me on Chuckanut Drive. I almost walked away.",
+            "author": "MichaelJDigitalNomad",
+            "authorId": "4fjcizo4",
+            "selftext": "I was on a solo road trip, visiting Chuckanut Drive in Washington to shoot the sunset, when a gentleman walked up and asked where I was from.\n\nI'm a pretty chatty guy, but I was cautious. I’ve seen plenty of movies where someone gets shoved into the back of a van, never to be heard from again, and I know the less-murdery-scams too.\n\nTurns out he just wanted to show me the best places for photos. \n\nI felt a bit dubious, but humored him because why not? After all, I had a fair bit of time to kill until the sunset, and I've met some interesting folks during my ten years of travel. \n\nI let him show me three or four, which clearly made him happy. \n\nAnd guess what? The fellow knew his stuff! \n\nEach vantage point he led me to actually was a great spot for a picture.\n\nDone helping me, he approached a few other couples too, but they weren’t interested.\n\nLater, I saw him sitting on a rock, looking a bit lonely, so I went over to chat. He seemed surprised when I sat next to him. \n\nTurns out he’d lived on Chuckanut for thirty years and was happy to share pictures of the view from his place down the road. It was a modest house, but with fantastic views, which he was proud of. \n\nWhen he asked what I do, I told him about our travel life, and he asked if I might write about him someday. I said, sure. \n\nI wish I’d gotten his name. So, to the man on the rock: thank you for the sunset tour.\n\nAnd if you’re reading this and are ever on Chuckanut Drive and he approaches you, let him show you around.\n\nAnd if you're worried about something bad happening, he doesn’t even have a van. \n\nJust excellent taste in viewpoints.  ",
+            "permalink": "/r/MadeMeSmile/comments/1xhurse/an_older_man_approached_me_on_chuckanut_drive_i/",
+            "subreddit": "MadeMeSmile",
+            "createdUtc": 1793208891,
+            "numComments": 779
+          },
+          {
+            "id": "1tlmbdz",
+            "url": "https://www.reddit.com/r/LinkedInLunatics/comments/1tlmbdz/dehydrating_for_our_ai_overlords/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/qxxu07pa7x2h1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=5e043aef512ae8dd64ea9ef31926b0042d244cc4",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 25491,
+            "title": "Dehydrating for our AI overlords",
+            "author": "eldubinoz",
+            "authorId": "k6b5n",
+            "selftext": "",
+            "permalink": "/r/LinkedInLunatics/comments/1tlmbdz/dehydrating_for_our_ai_overlords/",
+            "subreddit": "LinkedInLunatics",
+            "createdUtc": 1779556558,
+            "numComments": 320
+          },
+          {
+            "id": "1qqa0wn",
+            "url": "https://www.reddit.com/r/TwoXChromosomes/comments/1qqa0wn/first_encounter_with_ice/",
+            "nsfw": false,
+            "media": [],
+            "score": 25221,
+            "title": "First encounter with ICE",
+            "author": "Impossible_Ad_569",
+            "authorId": "a1aht2zz",
+            "selftext": "My husband and I are on work visas in the US, and we've been living here for years now.\n\nWe were out running errands yesterday, and decided to stop by our local Target to pick up a few things. As we were walking out of the store, we saw a group of ICE agents standing near the entrance, speaking to a few people.\n\nI didn't think much of it at first, but as we approached our car, two of the agents approached us. I'm from Europe, and my husband is from Asia, both have accents, and I think that might have raised some suspicions. one guy asked us where we were from and asked to see our driver's licenses. we cooperated and handed over our licenses. He then asked us a bunch of invasive questions about our work, where we live, and what we're doing in the US.\n\nTo be honest, it was a bit unsettling. We'd never had any issues with immigration before, and this was our first experience with ICE.  they didn't seem to be hostile or aggressive, but it was still a bit intimidating. The whole situation lasted about 10 minutes, and they eventually let us go.\n\nThink about You're just walking along and someone comes up to you and asks for your information just because you look foreign. It sounds like a scene from a Gestapo movie.\n\nJust venting.\n\n",
+            "permalink": "/r/TwoXChromosomes/comments/1qqa0wn/first_encounter_with_ice/",
+            "subreddit": "TwoXChromosomes",
+            "createdUtc": 1769696917,
+            "numComments": 1773
+          },
+          {
+            "id": "1pmk9df",
+            "url": "https://www.reddit.com/gallery/1pmk9df",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://a.thumbs.redditmedia.com/iZ7lvSUd8t0NgigrfrBxwOSv1vdYpmgFrus-XOH3c90.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 23721,
+            "title": "Three weeks of hard work on a paper all for nothing because of AI use",
+            "author": "MortemPerPectus",
+            "authorId": "hpz3an8e9",
+            "selftext": "Im glad that the final assignment (media analysis) was cancelled because it meant I could focus on other finals, not to mention it doesn’t matter grade-wise since he just gave everyone a 10/10 on this and the previous assignment. Where it’s mildly infuriating for me is I spent three weeks on the previous assignment (position paper/argumentative essay) arguing against the use of AI (more in the creative arts but there was a paragraph about it in education too) and managed over 3000 words for it which I was really proud of and really wanting feedback on so I could improve my writing. Instructor got so disappointed he gave up on the entire class.",
+            "permalink": "/r/mildlyinfuriating/comments/1pmk9df/three_weeks_of_hard_work_on_a_paper_all_for/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1765734733,
+            "numComments": 3421
+          },
+          {
+            "id": "1u5hto8",
+            "url": "https://www.reddit.com/r/CuratedTumblr/comments/1u5hto8/i_dont_think_we_appreciate_daniel_radcliffe_enough/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/1n0h4uww887h1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=0f025276b4d4dc2816318c22ad7a4762d89c41e5",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 20209,
+            "title": "I don't think we appreciate Daniel Radcliffe enough",
+            "author": "Many-Excitement3246",
+            "authorId": "1ilvg83iwi",
+            "selftext": "also the other Tumblr sub is mean and deletes all my posts so you're stuck with me",
+            "permalink": "/r/CuratedTumblr/comments/1u5hto8/i_dont_think_we_appreciate_daniel_radcliffe_enough/",
+            "subreddit": "CuratedTumblr",
+            "createdUtc": 1781433669,
+            "numComments": 338
+          },
+          {
+            "id": "1vtzan6",
+            "url": "https://www.reddit.com/r/comics/comments/1vtzan6/oc_spidey_stands_against_technofascism/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/hukbe9na4mkh1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=a735f31874671635486ab52f1d8db55c4f18335d",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 19583,
+            "title": "[OC] Spidey stands against Technofascism",
+            "author": "tanishsingj",
+            "authorId": "62q2zfge",
+            "selftext": "Hi All! I made this comic in response to Brand New Day. I loved the movie overall, but I feel very disappointed that Disney used our favorite character for propaganda promoting a fascist surveillance state. Media is never neutral, and the reason I love Super Hero comics is because they challenge the status quo, they ask us to be better than we are now, to ask how we can serve each other better. Marvel through Disney has preverted this ideal by using Spider-Man, the everyman hero to normalize AI surveillance and technofascism \n\nSadly, I suspect that with the Warner Bros deal, this will not be the last time symbols of the human spirit will be used by corporations to subdue what they represent. So, my fellow true believers, it is on us to be the heroes. To hold what these heroes have taught us and rebel against anything that is used to subdue the most vulnerable, as the flock cameras have been used. \n\nThey are trying to keep us quiet, but we know what Spider-Man would actually do. He would stand up for the immigrants Flock Cameras use to track and harm, He would rebel against AI companies who have no care for our precious Earth, its artists or the people, He would resist the tide of injustice everyday.\n\nLet's be our own heroes. Do not go gently. ✊️",
+            "permalink": "/r/comics/comments/1vtzan6/oc_spidey_stands_against_technofascism/",
+            "subreddit": "comics",
+            "createdUtc": 1787267637,
+            "numComments": 253
+          },
+          {
+            "id": "1w7y8ba",
+            "url": "https://www.reddit.com/r/marvelstudios/comments/1w7y8ba/james_mcavoy_says_he_starred_in_xmen_first_class/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/zt47kf26tonh1.jpeg?width=140&height=87&auto=webp&s=9a0ab5223ba39331f1b834c5a8e3041ce79508aa",
+                "type": "photo",
+                "width": 140,
+                "height": 87
+              }
+            ],
+            "score": 18846,
+            "title": "James McAvoy says he starred in X-Men : First Class because he had no money in the bank “My first child came, and I neither myself nor my wife at the time worked for about six months to a year.",
+            "author": "AppropriatePurple609",
+            "authorId": "itypkrol",
+            "selftext": "“My first child came, and I neither myself nor my wife at the time worked for about six months to a year. We just stayed at home and looked after him. And I, we weren't like, we weren't penniless. We didn't have any debt, but we had pretty much nothing in the bank…\n\nX-Men came in. I went, \"Where's it filming?\" They went, \"Pinewood, it's 40 minutes from my front door.\" I was like, \"Awesome.\" And I was also like, \"X-Men, great!\" I loved the cartoon when I was a kid. That'd be brilliant. I loved the movies that came out in 2000 and Bryan's original movies were brilliant.\n\nBut I was like, this is a three-picture deal, they're paying well, it's 40 minutes from my front door, I'm a fan of the original material, I get to be young Jean-Luc Xavier. And I was like, this is a no-brainer.\n\nSo my agent called me, she was like, \"What do you think?\" And I was like, \"It's a work of genius, we're doing it!”\n\nVia : Joshua Horowitz interview ",
+            "permalink": "/r/marvelstudios/comments/1w7y8ba/james_mcavoy_says_he_starred_in_xmen_first_class/",
+            "subreddit": "marvelstudios",
+            "createdUtc": 1788607761,
+            "numComments": 540
+          },
+          {
+            "id": "1pfzzo1",
+            "url": "https://www.reddit.com/r/tifu/comments/1pfzzo1/tifu_by_telling_my_wife_how_hot_she_looked_in_a/",
+            "nsfw": false,
+            "media": [],
+            "score": 16950,
+            "title": "TIFU by telling my wife how hot she looked in a shirt",
+            "author": "DaddyOhMy",
+            "authorId": "13hsqb",
+            "selftext": "This happened not even a half hour ago. \n\nWe are going out for my MiL's birthday this evening and my wife came out and asked if the shirt she is wearing looked okay on her. It wasn't anything special but she looked damn good in it. Really good and I told her so. It fit great and was just the perfect amount of tight in the right places. I joked about looking forward to getting it off of her later, making the lame dad joke about the only way the shirt would look better is if it was on our bedroom floor. She laughed and said I was going to regret saying that. Turns out my mom gave it to her. \n\nIt wasn't new, my mom had it for a while but hadn't worn it for years. When we visited her over Thanksgiving weekend, my mom and my wife went through her closet to see what she might want before donating the rest to a shelter. My wife started to tease me, asking if I thought it looked that hot when my mother wore it. Then our kids started piling on (going extra with it after being icked out by my earlier comments). \n\nA few minutes later, my phone started blowing up. My wife took no time to share this with my mom and my sisters. Now I'm getting shit from every side and I supplied the ammunition. I have no doubt whatsoever that my wife will make sure to wear the shirt the next time we get together with my family. \n\nTL;DR: My wife wore a hand-me-down shirt she got from my mother and now I'm getting abused by everyone for letting her know how sexy she looks in it.\n\nEdit for clarification: \nThis took off way more than I expected and is still getting some traction. I'd like to clarify a few things because I doubt everyone is going to go through all the comments to see my responses.\n1. My kids are in their 20s. I'm fairly confident they've heard much worse things than \"It would look better on the floor.\" And if anyone finds an issue with parents showing their kids that they are still into each other, that's a you problem.\n2. My wife shared it with my mom & sisters because she knew they'd find it funny. And they did.\n3. At no point was there anything malicious done by or intended by anyone. My family likes to take the piss out of each other. It's all good natured and I have no problems when I am on the receiving side. Plus, if any of us say it's going too far, it will stop immediately. \n4. I used the term \"my phone started blowing up\" because it amuses me when the AI garbage posts write stuff like that.\n5. My family uses the term \"abused\" when referring to teasing. It isn't meant in a malevolent manner and I wasn't thinking about how triggering the term could be to others. That's an entirely different FU & I apologize for being careless with writing that. \n6. My fuck up was making myself such an easy target for my family to mess with me. As I already noted, I didn't mind it at all. I just don't like handing them the ammunition on a silver platter.\n7. Anyone who thinks my wife should get rid of the shirt or I should do something so she can't wear it, HELL NO! It's very flattering on her and makes her look even hotter than she normally is. Why would I punish myself by taking away such an amazing view? ",
+            "permalink": "/r/tifu/comments/1pfzzo1/tifu_by_telling_my_wife_how_hot_she_looked_in_a/",
+            "subreddit": "tifu",
+            "createdUtc": 1765055110,
+            "numComments": 1117
+          },
+          {
+            "id": "1r1898s",
+            "url": "https://www.reddit.com/r/wallstreetbets/comments/1r1898s/two_federal_reserve_members_say_the_jobs_numbers/",
+            "nsfw": false,
+            "media": [],
+            "score": 16186,
+            "title": "Two Federal Reserve Members Say the Jobs Numbers Are Wrong. Revision Is Tomorrow.",
+            "author": "AlfrescoDog",
+            "authorId": "2ydxv4t",
+            "selftext": "Listen up, degenerates, because this thing is going down *tomorrow*, and if the play suits your fancy, you’ll likely choose to grab a seat today. Yes, today.\n\n**Two voting FOMC members** have said the payroll jobs data is overstated.\n\nAnd no, this isn’t some Econ 101 dropout yelling “the numbers are fake” from his parents’ basement. This is coming straight from the Federal Reserve.\n\nI’ve got the receipts.\n\nOh, and one of those two voters?  \n**Jerome Powell**. The Fed Chair himself.\n\n=====\n\nOn **December 10, 2025**, during his [FOMC press conference](https://www.youtube.com/watch?v=Ko-_yb2UkDk) (The Fed’s official YT channel), Powell said:\n\n>Gradual cooling in the labor market has continued. Unemployment is now up three-tenths from June through September. Payroll jobs averaging 40,000 per month since April. We think there’s an **overstatement in these numbers by about 60,000**, so that would be negative 20,000 per month.\n\nThe payroll jobs data is overstated.  \nBy a lot. Roughly **60,000 jobs per month**.\n\nThe BLS says we’re adding +40k jobs per month.  \nWhile the Fed is: “Cool story, bro. But you’re actually down –20k.”\n\nSame energy as what you tell women you make, versus what actually shows up in your bank account.\n\nNow, later in the same press conference, [Powell added](https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20251210.pdf) (The Fed’s own transcript):\n\n>It’s very difficult to estimate job growth in real time. They don’t count everybody. They have a survey. And there’s been something of a **systematic overcount**. And so we expect it and they correct it twice a year.\n\n>So the last time they corrected it, we thought the correction would be 800,000 or 900,000. I won’t get the numbers exactly right. And that was exactly what happened.\n\n>So we think that that has persisted. And so there was an overcount in the payroll job numbers, we think, **continuing**.\n\n>And it will be corrected. I don’t have the exact month in my head right now.\n\nPowell is referring to the U.S. Bureau of Labor Statistics (BLS) and its two annual corrections:\n\n* The **preliminary benchmark revision**.\n* And the **final benchmark revision**.\n\nThe [preliminary benchmark revision](https://www.bls.gov/news.release/prebmk.nr0.htm) was released on **September 9, 2025**.\n\nPowell said the Fed expected a correction of “800,000 or 900,000.”  \nThe actual number? **-911,000**.\n\nWhat the Fed anticipated is *exactly* what happened.\n\nMore importantly, Powell said this discrepancy has **persisted**. The overcount didn’t stop. It didn’t get fixed. Which means the **final benchmark revision will most likely confirm another significant downward correction**.\n\nPowell didn’t have the exact month in his head.  \nI do.\n\nThe final benchmark revision is released alongside the **January 2026 Employment Situation report**.\n\n=====\n\n# It’s Not Just Powell\n\nNow fast-forward.  \nOn **January 30, 2026**, Fed Governor Christopher J. Waller [released a statement](https://www.federalreserve.gov/newsevents/speech/waller20260130a.htm):\n\n>Labor market remains weak. Despite ticking down in its most recent reading, the unemployment rate has risen since the middle of last year.\n\n>**Payroll gains in 2025 were very weak**. Compared to the prior ten-year average of about 1.9 million jobs created per year, payrolls increased just under 600,000 for 2025. And, **last year’s data will be revised downward soon** to likely show that there was virtually no growth in payroll employment in 2025. Zero. Zip. Nada.\n\nYes. Those are his words, quoted from his statement, on the official Federal Reserve page.\n\nJust like Powell, Waller expects payroll data to be revised downward—to the point where 2025 shows virtually no employment growth *(writing properly and using an em dash? Cue in the \"I'm an AI\" comments, for sure!)*\n\nAnd remember: Waller was on the shortlist to become the next Fed Chair.  \nWaller was also one of the two dissents in the last FOMC.\n\nYet, he didn’t mince words:\n\n>Let this sink in for a moment—**zero job growth** versus an average of almost 2 million for the 10 years prior to 2025. **This does not remotely look like a healthy labor market**.\n\nSo now we have *two* voting FOMC members—one of them aligned with the current administration—expecting a major downward payroll revision.\n\nAnd we know what revision they’re talking about.  \nIt’s the final benchmark revision, released with the January 2026 Employment Situation report.\n\n=====\n\n# Here’s When the Rewrite Drops\n\nOriginally, the report was scheduled for Friday, February 6, 2026. But due to the government shutdown, it was [postponed](https://www.bls.gov/schedule/2026/02_sched.htm) to **Wednesday, February 11, 2026 at 08:30 ET**.\n\nThat’s the setup. That’s it.\n\nAbsent a major bullish offset, a large final downward payroll revision, especially one approaching what Governor Waller is warning about, **is likely to make the market red**.\n\nNow, I’m not saying this will be the start of a crash, bubbles popping, or bear market. I’m not saying that. Heck, I’m not even expecting an actual correction.  \nBut I do believe that tomorrow, we’ll see red because of this.\n\n=====\n\nOk, so Puts the word.  \nOn who?\n\nI’m sniping stocks/ETFs that are already doing well. Sure, you could try to short software names, but they’re already in the toilet.\n\nThese are my positions, ranked by most to least exposure.  \nI’ll be honest, though. 80% of my play is on IWM.\n\nIWM Feb 11 262 Put  \nIWM Feb 13 259 Put  \nIWM Feb 13 256 Put\n\nThen, I’m testing some individual names, but these are just a couple hundred in cheap lottos since they’re like 0.10 - 0.20 per contract.\n\nTGT Feb 13 108 Put  \nSBUX Feb 13 94 Put  \nPNC Feb 13 227.5 Put  \nUSB Feb 13 57 Put  \nXLI Feb 13 167 Put\n\nI’m including the individual names in case you are hunting them, want to look cute, or you have a micro account and want to find cheap options.  \nBut for most people, you can focus on IWM.\n\nHave a nice day.",
+            "permalink": "/r/wallstreetbets/comments/1r1898s/two_federal_reserve_members_say_the_jobs_numbers/",
+            "subreddit": "wallstreetbets",
+            "createdUtc": 1770746987,
+            "numComments": 1081
+          },
+          {
+            "id": "1v1x7hn",
+            "url": "https://www.reddit.com/r/moviecritic/comments/1v1x7hn/entire_film_studies_could_be_done_on_christopher/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/ot2n3dyk3geh1.jpeg?width=140&height=78&auto=webp&s=1552f2cba2ec11ebbe462ebaf05aa365939a0449",
+                "type": "photo",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 15909,
+            "title": "Entire film studies could be done on Christopher Nolan’s interpretation of Agamemnon.",
+            "author": "Sailorhat11",
+            "authorId": "bj9ofxzv",
+            "selftext": "I feel like film classes could write whole essays on the way in which Christopher Nolan wrote and built up Agamemnon in his version of the Odyssey. The weight, the gravity of his being and his presence within Odysseus’s mind. Was he that big? Did he tower over others like the picture here? Or was this just how Odysseus had built him up in his mind?\n\nHe is the embodiment of politicians, particularly strongmen, since time immemorial. A facade of power and strength, cruel to those lesser than, only to be small and killed so easily bc he turned everyone against him.\n\nOr is this monstrous figure in Odysseus’s mind the physical embodiment of his guilt? I must go to Troy because of Agamemnon, I’ve followed Agamemnon long enough, as excuses to lay his guilt on someone else?\n\nOr was he truly this behemoth of a man? The king that held an army together on that beach for 10 years? Only to be humbled before Odysseus in death?\n\nTo me he’s the most fascinating character on the whole movie and he’s all three: the diminutive despot covering himself in the trappings of a god and pretending to be monstrous warrior, the specter who haunts Odysseus’s mind for embodying his shame over Troy, and the small man, who would do anything for power until all those who should cherish him learn to despise him.\n\nEdit 1: as I think more on it: Agamemnon represented everything Odysseus was not and was afraid of becoming. He killed his child for wind, murdered by those he thought he loved. Yet in the end it was Odysseus who did the most monstrous thing of all. And Agamemnon standing at the gates right when they opened was the representation that he had become what he hated, and let the devils in both physically and mentally.\n\nEdit 2: wow this post got bigger than I ever thought possible! A few other observations that others have pointed out that I agree with:\n\n\\- the golden spine hanging from his helmet, representative of how he himself did not have a spine. We never see him fight. His own brother lives in the shit and squalor of the Trojan horse while he never draws a sword.\n\n\\-people have complained about his voice, but that was the point, to show how small, insignificant, and equal to all he was in death. Sacrificed his child, led an army of 1,000 ships for 10 years for what? To be equal in death as the lowly farmers son, drinking with his hand from a small pool atop an overturned shield.\n\n\\-his armor is ridiculous and too large and out of place. That was intentional. Again, are we seeing what he actually was? Or how Odysseus remembered him to be? The Odyssey itself was an oral story for centuries before it was written down and Nolan chose to show the entire story in someone telling another a story. Perhaps we never see his face bc of Odysseus’s shame at what he’d done, a man who loved his family, breaking Zeus’s law to such an extent that he ends the Bronze Age. Perhaps he was afraid he would see his own face if he removed the helmet in his memory.\n\nEdit 3: this is crazy! I’ve never had any post get big! I’m just a nobody, so to be able to share my interpretation and have so many others share there’s is awesome! \n\nWhat do others think?",
+            "permalink": "/r/moviecritic/comments/1v1x7hn/entire_film_studies_could_be_done_on_christopher/",
+            "subreddit": "moviecritic",
+            "createdUtc": 1784579667,
+            "numComments": 1631
+          },
+          {
+            "id": "1xgt6yy",
+            "url": "https://www.reddit.com/r/GirlDinnerDiaries/comments/1xgt6yy/considering_giving_up_my_daughter_i_cant_take/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/3kldzbj8g0yh1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=36531efdff822d6e1c355bc45acbe40ff64701ff",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 15899,
+            "title": "Considering giving up my daughter, I can't take care of her",
+            "author": "True_One7607",
+            "authorId": "1t70r3pbcr",
+            "selftext": "last night's dinner of papa john's jack-o-latern pizza, which I will be having for lunch today too. I know I could have saved the $12 and used it towards bills, but my daughter asked for pizza and I didn't have the energy to cook. Seeing her light up at a fun gimmicky pizza was awesome because I already tell her \"no\" to so many things.\n\nI'm just so tired. I am at the point where I think about shoplifting more often than not to be able to provide basic necessities for my daughter, or giving up custody to the state because life is not getting any easier. Obviously not going to, because my child's biological father is already in prison and the last thing I need is a criminal record. I don't receive any type of child support, I make \"too much\" for SNAP, TANF, low-income housing according to social services. I make $21 an hour but it's part-time and capped at 29 hours a week for a job that \"doesn't have the budget to make me full-time\". My hours are getting cut because I can't work more than a certain amount in a calendar year and I'm close to hitting that limit. Plasma donation was going well at least making sure I could cover all of my bills, but then I lost weight and at 102 pounds, they will not let you donate plasma for safety reasons, gotta be at least 110 pounds to donate safely.\n\nI just went through a 4 round/1 writing assignment interview schedule for a 4 year university and got rejected because they \"went with another candidate\" lmao. It felt like a kick to the gut. I'm still putting it applications any and everywhere I can. But I either get no calls back for interviews or just outright rejections by their AIs that review resumes. I've paid out of pocket for resume reviews. I have a bachelor's degree. I'd cry to make 40-45k a year at a full-time job and have PTO and not be at the whims of my supervisor and their moods. No one is hiring. I'd even go work retail or fast food if it meant a full-time job with benefits\n\nI budget down to the penny, I shop at aldi and lidl. I use my local buy nothing group. I go to TWO different food banks every month, but they keep giving out less and less. Most days, I'm surviving on peanut butter sandwiches and canned vegetables. Not because that's what I want to eat but that's because that is what the food banks are giving out. I haven't bought ground beef in months, chicken and turkey are rare treats each week. And now our rent is going up. Again. It's getting to the point where one entire paycheck won't even cover the roof over our heads. An entire paycheck, gone, and I'll still owe more before I can even begin thinking about electricity, groceries, gas, or anything else we need to get through the month. I don't know how I'm supposed to keep making the numbers work when they simply don't add up anymore. I can't budget my way out of not having enough money to begin with. How can I take care of my daughter when shit just isn't adding up? I can't not buy groceries, I can't NOT pay my electric bill or put gas in my car. Some days I just want to say fuck it and rage quit and blow up my life and some days the thought of it never getting better makes me want to unalive myself.  Having to tell my kid no over and over that we can't do fun things like go to the movies, or trampoline park or having to decline her classmates birthday parties because I can't afford a gift for them or even the gas to drive her there and pick her back up\n\nI want to be able to fill up my gas tank without it overdrafting my account. I want to be able to pay my rent in one go and my electric bill at the same time and not constantly pay late fees on top of the bills themselves. I want to be able to doordash lunch at least once a week like I see my supervisor doing 3-4x a week instead of just not eating lunch at my desk and drinking the free coffee we have and ignoring my stomach hurting. Holy shit I want to be able to take my kid on an actual vacation. I want to be able to buy my kid the Christmas gifts she wants without having to go through toys for tots or other charities. Things are not getting better, and I am so tired of struggling. Had I known 9 years later I would be in this bad of a place and struggling THIS much I would have given her up for adoption. Its not fair to her to live in poverty and have a mom barely making it. I know I'm not the only one struggling but I just feel beat down and tired. I'm only 27 and really thought life would be different for me, for us. I'm just waiting for the day my daughter tells me she hates me because I just fucking suck at taking care of her. I know logically she isn't better off without me, I don't even want to be rich. I just want to make a stable income and be able to afford the basic necessities and maybe some fun stuff on the weekends or over her summer break. Or to be able to cover emergency expenses. Life is just way harder than it needs to be ",
+            "permalink": "/r/GirlDinnerDiaries/comments/1xgt6yy/considering_giving_up_my_daughter_i_cant_take/",
+            "subreddit": "GirlDinnerDiaries",
+            "createdUtc": 1793109313,
+            "numComments": 1423
+          },
+          {
+            "id": "1xuzigx",
+            "url": "https://www.reddit.com/r/antiwork/comments/1xuzigx/microsoft_proudly_announced_1_month_ago_that_they/",
+            "nsfw": false,
+            "media": [],
+            "score": 15209,
+            "title": "Microsoft proudly announced < 1 month ago that they were letting 60k employees go. Shareholders gushed. Today the titanic struck an iceberg.",
+            "author": "TheScythe",
+            "authorId": "ducwj",
+            "selftext": "Does anybody, customer or shareholder, believe for one moment that this situation would be better when MS is soon 60k people fewer? Like a million monkeys banging on typewriters trying to write Shakespeare, we'll have a thousand MBA dipshits begging their Claude prompt with garbage like: \"Bring Office 365 back online plz! I manage the skeletal O365 team and you have my permission to do whatever.\" While they sit back and expect the tin god to create a miracle. (side note: Copilot was also down, so they'd need to use a competitor)\n\nThis has been my question all along: fire every expensive expert in favor of AI, but then who is telling the AI what to do? The dumbest people on the planet, aka middle managers or worse: the C-Suite.\n\n[Edit: Thanks everyone for the awesome thoughts! Since this has attention, I thought I'd clean up my grammar, etc. My mom taught me to tidy up before company arrives rather than during, but I guess I forgot the lesson. She'd be disappointed right now.]",
+            "permalink": "/r/antiwork/comments/1xuzigx/microsoft_proudly_announced_1_month_ago_that_they/",
+            "subreddit": "antiwork",
+            "createdUtc": 1794547703,
+            "numComments": 596
+          },
+          {
+            "id": "1xujyso",
+            "url": "https://www.reddit.com/gallery/1xujyso",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/wfjfpvxnx71i1.jpeg?width=140&height=78&auto=webp&s=73c4f11cab2ef52dd62041e03db0f5bc4f4fa97c",
+                "type": "photo",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 14728,
+            "title": "Hello (again) Internet! Steph and I have some news... 👀",
+            "author": "MatPatGT",
+            "authorId": "d613n",
+            "selftext": "Hey friends! So remember when I made that big emotional retirement video about stepping away from YouTube? Yeah...about that... While life offline has been absolutely wonderful, there's one major thing we've been missing over the last 2.5 years: You.\n\nThat's why Steph and I just started a new channel. It's called **PatChat.** \n\nLook, the plan was to have hobbies. Maybe read some books. Spend more time together. Touch grass. And we DID! We ARE! And it's GREAT! But then we'll watch a weird documentary, visit a cool new place, or find ourselves working with the United States Congress and inevitably one of us will turn to the other and say \"We should make a video about this.\"   \n  \nSo, THAT'S PatChat...a place where two chronically curious nerds have a chance to present you with the fun wacky thing that's caught our attention. Why? Because we think you're cool and we like talking to you. And BOY, do we have stories to tell. Since leaving Theorist, we've been making movies, writing a musical, working with YouTube on AI policies, and getting involved with Washington DC. You know, normal retirement activities. So now we're taking everything we've been learning about out in the real world and bringing it back to share with you.\n\nAnd, just to be clear, this isn't Game Theory 2.0 and these aren't theories. The Theorist channels are in the hands of their own teams, doing their own thing! No, this is a chance for Steph and I to get back to doing what we loved about creating in the first place: Working together to learn about fun things and then sharing that learning with anyone who happens to be interested online. \n\nIt's like 2016 all over again! Heck, even the thumbnails are a throwback, haha! (That's less of an intentional choice and more a sign of where my Photoshop skills stopped developing, tbh.)\n\nSo, if you've missed hanging out with us, we'd love to see you again!\n\n**Check out PatChat here:** [https://www.youtube.com/@MatthewPatrick](https://www.youtube.com/@MatthewPatrick)\n\nOur first videos are live, and we'll have new ones available...when they're ready. We're excited to do these, but we're also trying to maintain the healthy balance we fought so hard to get when we left in the first place. \n\nTL;DR: Thanks for being here, friends. We hope to see you again.\n\nLove,  \nMatPat & Steph",
+            "permalink": "/r/GameTheorists/comments/1xujyso/hello_again_internet_steph_and_i_have_some_news/",
+            "subreddit": "GameTheorists",
+            "createdUtc": 1794506823,
+            "numComments": 669
+          },
+          {
+            "id": "1uyizf5",
+            "url": "https://www.reddit.com/r/moviecritic/comments/1uyizf5/the_odyssey_2026_review_imax_is_officially_a/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/b4b0093ecodh1.jpeg?width=140&height=93&auto=webp&s=e1eb63dcf2ea0c29ba1d3d38cfb167a50d6c2114",
+                "type": "photo",
+                "width": 140,
+                "height": 93
+              }
+            ],
+            "score": 13998,
+            "title": "The Odyssey (2026) Review - IMAX is Officially a Trojan Horse",
+            "author": "karmicbreath",
+            "authorId": "atyha7me",
+            "selftext": "I went into this film with no pre-formed opinion. I didn't want to jump on the hate bandwagon before seeing it. Nolan has never made a truly bad movie ever. I've been entertained by almost everything he's made. So I went in open-minded.\n\nLet me get the controversial stuff out of the way. The casting, modern English, modern accents, and historical inaccuracies didn't take me out of it one bit. I was completely fine with all of that.\n\nMy problem with this movie is it simply didn't have that \"wow\" factor.\n\nDinosaurs hit the big screen in 1993. There was nothing mind blowing about the cyclops or giants.\n\n*Game of Thrones* and *House of the Dragon* offer more immersive and visually breathtaking visuals from the fantasy genre. *The Northman* had a far superior siege sequence than the siege of Troy, not to mention photography. On that note...\n\nI was completely unimpressed by the photography. Worst of Nolan’s career. What’s the point of shooting large format if all you’re gonna do is shoot tight, shallow, crammed, darkly lit, claustrophobic, shoulder-mount camera shake shots?\n\nThe score was forgettable. So were the set pieces generally. And my god, the sound effects were bad. Every time I heard a sword stabbing or slitting someone, it just took me out. Pretty sure they just pulled sound effects from movies 20 years old. For a $250m movie, record some fresh fucking sound effects.\n\nJohn Leguizamo and Samantha Morton gave the best performances in the movie.\n\nThere were some sequences I found quite engaging. I don't want to spoil it, but my favorite scene was mainly anchored by Elliot Page and had a truly absorbing atmosphere and tone to it.\n\nThe best element of the movie was the relationship between Damon and Himesh Patel. That should have been the primary focus of the story in my opinion.\n\nI’m drawing a line in the sand right now. I have little further interest in movies shot in IMAX. I like large format, but I want a wide screen image. Would rather more movies just get shot in Alexa LF. I don't particularly love this movie, but *Roma* is a better example of what large format photography should look like.\n\nYou can’t have agile, high energy action sequences on IMAX like *Die Hard 3* \\- taxi raging through Central Park. Everything has to be really stiff. If you give audiences *The Odyssey's* ocean sequences and have them watch back to back with *Master and Commander's* ocean sequences, I’d love to know what they think is more visually immersive and gripping. I'm willing to bet it's the latter.\n\n**3/5.**",
+            "permalink": "/r/moviecritic/comments/1uyizf5/the_odyssey_2026_review_imax_is_officially_a/",
+            "subreddit": "moviecritic",
+            "createdUtc": 1784244531,
+            "numComments": 2848
+          },
+          {
+            "id": "1xb2yd3",
+            "url": "https://www.reddit.com/r/Teachers/comments/1xb2yd3/ai_is_destroying_kids_understanding_of_what/",
+            "nsfw": false,
+            "media": [],
+            "score": 13964,
+            "title": "AI is destroying kids' understanding of what humanity is capable of.",
+            "author": "Useful_Possession915",
+            "authorId": "1dhb3ko38z",
+            "selftext": "My 6th graders are reading a historical fiction book about the *Titanic* and when we got to the part where the ship hits the iceberg, I played the iceberg scene from the 1997 movie. I was telling them how much research James Cameron did for the movie and was pointing out aspects of the scene that were historically accurate (the flat waveless sea, the lack of moonlight, etc.). A bunch of kids made comments along the lines of \"What are you talking about, that's obviously AI.\"\n\nI told them that it was not AI and that generative AI did not exist back then. I said that people have been making movies with special effects for over 100 years, whereas genAI has only been around for a few years. I still got responses of \"There's no way it's possible to make a scene like that without AI.\"\n\nWe ended up taking a detour from the rest of the lesson while I showed them behind the scenes videos on YouTube of how the scene was filmed--basically a mix of the ship set and a giant prop iceberg, a model ship in a tank, and CGI. Then that led to a talk about the difference between AI and CGI, and CGI vs. practical effects. I showed them another video about the making of the original Godzilla movie.\n\nI know we talk a lot about how students think they can't write a paper or do a research project without using AI, but it just breaks my heart that these kids think that humans can't even make art on their own. How many other skills and talents are these kids dismissing as impossible and not worth pursuing because they think that only a machine can do it?",
+            "permalink": "/r/Teachers/comments/1xb2yd3/ai_is_destroying_kids_understanding_of_what/",
+            "subreddit": "Teachers",
+            "createdUtc": 1792527388,
+            "numComments": 675
+          },
+          {
+            "id": "1sf7m1z",
+            "url": "https://www.reddit.com/r/Helldivers/comments/1sf7m1z/i_just_shot_my_shot_for_the_helldivers_movie/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/570a85e1vttg1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=1193fb1b3a9d784d2fbc4a26c396299865c20a70",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 13667,
+            "title": "I just shot my shot for the Helldivers movie…",
+            "author": "deanosauruz",
+            "authorId": "mv2wp",
+            "selftext": "I’ve worked hard for the last 2 years on a career in acting, so I decided to put lessons to work and shot my shot for the upcoming movie. Wish me luck, frends.\n\nEdit: Spelling errors are because of impulsivity and canva not having an active spell check. Just drop the hellpod accurately on me\n\nEdit: People have asked about some of the shorts I’ve done so here they are below.\n\nBrain Cancer is For P\\*$$ies: https://youtu.be/\\_laPlvVY4nI\n\nPlating Passion: https://youtu.be/ehMPar5IJEE\n\nKeep The Faith - A Dystopian Sci-fi inspired by THX-1138\n\nhttps://youtu.be/HCIcYobLgCA",
+            "permalink": "/r/Helldivers/comments/1sf7m1z/i_just_shot_my_shot_for_the_helldivers_movie/",
+            "subreddit": "Helldivers",
+            "createdUtc": 1775593482,
+            "numComments": 331
+          },
+          {
+            "id": "1qh3kus",
+            "url": "https://www.reddit.com/gallery/1qh3kus",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/vPW1UVYVKZhkvr5cotY4o0uiXzDQuWMfOwu25cON7-Q.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 13576,
+            "title": "[Terrifying Trope] \"Longer than you think\"",
+            "author": "elchuni",
+            "authorId": "1s58x3b2",
+            "selftext": "1- The Jaunt (Stephen King) - To explain this trope, let's go straight to the example where the name comes from. In the Jaunt, humanity discovers teleportation but there's a problem, time goes different during the teleportation process, so to avoid people going crazy they make them fall asleep before the process begins. Sadly, a kid tries to hold his breath when the sleeping gas comes in to see what happens and ends up living an eternity in that state before appearing in the other side. He turns crazy by this and screams \"It's longer than you think dad\" alongside other iconic phrases. What I told you it's just an abridged version.\n\n2- Emesis Blue (Fortress Films) - One big plot point in the movie is the spawn machine, a device made to resurrect the mercenaries to keep the fight going, however due to the events of a previous movie it got damaged and the respawn process became messed up. Because of this, every time that we see someone coming back from the dead, we see them being horribly screwed, either physically, mentally or both. Not only that but it's heavily implied that, just like The Jaunt (the biggest inspiration of the movie), respawning takes an awful time to happen for them. The mercenaries in the movie have the worst kind of immortality with infinite lives and infinite deaths.\n\n3- Love Train / W Corp (Library of Ruina) - In Project Moon, every corporation has a singularity that places them in the spot of being the representatives of a district, in W Corp case is warp technology, basically the same thing as The Jaunt. However, unlike The Jaunt, W Corp is straight up evil, people has been using these trains daily not knowing that they were trapped for eternity, only rich people with access to special cabins can avoid the process by sleeping before departure, the rest? Well... cases like Love Train happens where people go nuts and try to massacre each other, which is even more horrifying than you think because your senses never stop feeling during the warp, you could be ripped away and still be alive because of how time works and will hurt for hundreds of thousands of years.\n\n4- Szayelaporro Granz (Bleach) - One of the Espada of Aizen, this guy is able to resurrect himself and pressumes to be immortal... until he meets Mayuri Kurotsuchi and her sidekick. Mayuri becomes able to poison Szayel by making him feel time so slowly that he isn't able to move his body as he reacts, so he stays frozen slowly watching how Mayuri talks until he gets closer and kills him, ending his misery.",
+            "permalink": "/r/TopCharacterTropes/comments/1qh3kus/terrifying_trope_longer_than_you_think/",
+            "subreddit": "TopCharacterTropes",
+            "createdUtc": 1768827785,
+            "numComments": 1491
+          },
+          {
+            "id": "1p63ros",
+            "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1p63ros/single_father_38m_with_daughter_17f_discovered/",
+            "nsfw": false,
+            "media": [],
+            "score": 13507,
+            "title": "Single father [38M] with daughter [17F], discovered she has a large amount of cash and I'm suspicious",
+            "author": "Direct-Caterpillar77",
+            "authorId": "ikujf6ia",
+            "selftext": "**I am not The OOP, OOP is u/numbthrowaway12**\n\n**Single father [38M] with daughter [17F], discovered she has a large amount of cash and I'm suspicious**\n\n**TRIGGER WARNING:** >!Death of a loved one, fears of drug use!<\n\n**MOOD SPOILER:** >!Positive ending!<\n\n[Original Post](https://www.reddit.com/r/relationships/comments/2or7bz/single_father_38m_with_daughter_17f_discovered/)  **Dec 9, 2014**\n\nI'm a concerned father of a 17 year-old daughter seeking advice. Names have been changed to maintain some confidentiality.\n\nMy background info: My wife passed away when my daughter was very young. I was still in college, but with the help of my parents, managed to finish college and graduate school while raising her. I've dated a few times since the death of my wife, but haven't been able to maintain a serious relationship due to my career and the responsibilities of raising my daughter.\n\nMy relationship with my daughter, Sarah, has always been very good. Sarah shared my love of the outdoors so we used to go hiking, kayaking and camping together quite often. In the last year or so, she seemed to become interested in other activities at school so she hasn't spent as much time with me. I'm perfectly ok with that, she's growing up and coming into her own.\n\nFinancially we're very secure, I've been fortunate to make a nice living in a career I enjoy, and the hours are pretty manageable. Despite that, I've tried not to spoil my daughter and make sure she understand the importance of work. In exchange for an allowance and gas money, she has to complete chores around the house as well as help our elderly neighbor (she's 90) with things like taking out the trash, getting groceries, etc. She's an A-student, participates well in school activities and used to be a girl scout until she was 14. Honestly, I've always been very proud of her.\n\nShe was out with her friends Saturday to watch a movie. I had a contractor come over to replace a couple of windows in the house while she was out. Now, I've always respected her space, and she knew about this before hand. I ended up having to move around some of the furniture in her room and discovered a small box behind her drawers. Curiosity got the best of me and I opened it after the contractor was done, and there was about $3000 in cash inside! That's way too much money for her to have. After the discovery, I snooped around her room a bit and found some expensive brand-name clothing in her closet that I had never seen her wear before. Some were a bit too mature for my taste, but that's a discussion for another day.\n\nSince then, I've doubled checked my accounts to see if she had secretly taken money from my accounts, but no. I never carry much cash on me so she couldn't have stolen it from me. I don't think she's selling drugs, because I never found a stash in her room. She's not dating anybody as far as I know, so it couldn't be a boyfriend's money either.\n\nI haven't discussed the discovery with her yet, but I intend to do it tonight. Any advice on how to approach this subject with her? $3000 is a lot of money for her age, and I imagine she's spent more so we could be talking about $5000-$6000 here. I don't want to be too confrontational and would a way to bring up the subject so she feels safe enough to be completely honest with me. I'm so worried, I keep hoping she isn't caught up in something illegal that could jeopardize her future. Maybe I overlooked some signs? I'm freaking out and looking for your help here.\n\ntl;dr: Found a large amount of cash in my daughter's room. Not sure how to bring up the subject in a way that will encourage her to be honest with me about it. Any advice would help.\n\n**RELEVANT COMMENTS**\n\n**Zorkeldschorken**\n\n> You need to talk to her.  \"I was cleaning up after the contractors left and found that box of cash under your dresser.  That's a lot of money to leave lying around the house.  It would probably be better to deposit that into a bank.  How did you managed to save that much up, anyway?\"\n>\n> Everyone's jumping to the worst possible scenarios (drugs/prostitution/whatever), but chances are it's perfectly innocent.\n>\n> She may be doing more odd jobs for other neighbors.  Maybe the neighbor she's helping out has been giving her tips or more money than you're aware of.\n>\n> The fact that it was stashed in a box in her room is nothing to be worried about.  She's 17.  She's probably been keeping stuff in that box since she was a kid, and doesn't realize that a bank would be a better place.\n\n**OOP**\n\n>>Thanks for the advice, this seems like a good way to start the conversation. I don't want her to think that I'm snooping around in her bedroom and invading her privacy. I've always stressed to her the importance of dialogue and honesty, so I'm hoping she will come clean and it's nothing serious. \n\n**~**\n\n**wombatzilla**\n\n> Does she work? I worked from the time I was 15 and I saved up enough money by the time I was 18 to buy myself a computer, a very nice film camera, and plane tickets / rent for an apartment. \n>\n> If she's been working that's really not that much money. \n>\n> Either way I think you need to just ask her about it and don't come from an accusatory place. If she responds in a secretive/angry way you know something weird is going on. If she's calm and has a reasonable explanation for it you know she's probably telling the truth. \n\n\nEdit: My daughter doesn't have a part-time job. She does have a savings account that I opened for her with about $1200 in it, which is why I'm worried she's keeping this money secret. She's accessed her savings account before to buy things like a new phone and camera, as well as gifts and other smaller purchases. She gets $50 a week in allowance, but if she wants to buy electronics or other things that she wants, it comes out of her savings. Any expenditure from extracurricular activities also comes out of her allowance. As for the neighbor, I've told her before that she does not have to give my daughter anything for helping out, since I'm already paying her via allowance.\n\nEdit2: The clothing were really high-end brands, like Gucci and Versace. By mature I didn't mean revealing or anything like that, just didn't seem like clothing a 17 year-old would want/wear. Also, I know $50 seems like a lot but we live in an expensive city, the cheapest takeout place near me costs like $9 just for lunch. As for my neighbor, she might be 90 but her mind is pretty sharp. I don't know why but I didn't think about her slipping my daughter cash here and there, so that's a possibility. The more I think about it, the calmer I'm feeling. I'll talk to her tonight and explain the circumstances of my discovery, and take it from there.\n\n\n[Update](https://www.reddit.com/r/relationships/s/bYVgldGLa5)  **Dec 12, 2014 (3 days later)**\n\nI was signed into this account on my laptop and noticed I received PMs asking for an update to my [post](https://ud.reddit.com/r/relationships/comments/2or7bz/single_father_38m_with_daughter_17f_discovered/). So, here it is. \n\nI had a long talk with my daughter Sarah that night. I sat her down and described the circumstances of the discovery. I explained that I was worried because it's a large sum of money and I didn't want her savings to be stolen. \n\nWell, turns out the elderly neighbor, Anne, has been giving her cash for the better part of a year now. Anne wanted her to have the money to help with college expenses, and told Sarah to keep it a secret from me because I've always refused to accept money from her. Sarah also told me that part of the money was her own. She had been saving up for my birthday present and didn't want to put it in the savings account because, well, she'd have to ask me and it wouldn't be a surprise anymore. \n\nLater in the conversation, I brought up the expensive clothing. Those were throwaways from her friend's mother. Her friend is really tall so she couldn't wear them and gave them to Sarah instead. They needed some slight alterations so she hasn't worn them yet. I apologized for snooping and explained that as a father, I was obviously concerned for her well-being. I also assured her that we are financially stable and that I've put aside enough money for her college expenses. I told her to keep an eye out for Anne, to make sure that her welfare is not affected by the money she's paying Sarah. Also, I asked her to write a thank-you card to her friend's mom and to include a present for her at Christmas this year.  \n\nAfter the revelations, I wanted to reward her for her savings habit, so I offered to start a checking account for her and we looked into the options online. Turns out, the bank I use offers a junior checking which I can co-sign (overdraft fees, etc) for her. It turns into her own personal account at 18. She'll have the use of a debit card, the bank also offers an online-based financial planning guide, so she will read that before starting the account. We're going to the local branch to set that up for her this weekend.\n\nSarah seemed to reflect well to our talk. She took the opportunity to reveal that she has been in a relationship for a couple of months. I've actually met her girlfriend a few times before, they go to the same school and I just thought they were good friends so that was a surprise. So yes, she came out of the closet to me. \n\nBeing a dad, I still verified the clothing story with her friend's mom. Overall, I'm happy it was just me dramatically overreacting. However, I do feel rather guilty for the minor panic attack I had. As a parent, it's astonishing sometimes how quickly your child grows up. Just another part of the learning process I guess. \n\nP/S: I didn't reduce her allowance but did encourage her to keep saving because it's an excellent habit. \n\n---   \n**tl;dr**: Money from neighbor, clothes from friend's mom, so she's getting her own checking account. She also disclosed she's in a relationship. Worst of all, my tortured soul is left wondering what she's buying for my birthday.\n\n**THIS IS A REPOST SUB - I AM NOT THE OOP** \n\n**DO NOT CONTACT THE OOP's OR COMMENT ON LINKED POSTS, REMEMBER - RULE 7**",
+            "permalink": "/r/BestofRedditorUpdates/comments/1p63ros/single_father_38m_with_daughter_17f_discovered/",
+            "subreddit": "BestofRedditorUpdates",
+            "createdUtc": 1764046801,
+            "numComments": 509
+          },
+          {
+            "id": "1tgfpnk",
+            "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1tgfpnk/googled_a_horror_film_i_was_recommended_and_the/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/zz2zehqmqu1h1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=b39841b6236b4c46ef38b8bc1013fac823bbef4c",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 13422,
+            "title": "Googled a horror film I was recommended and the first sentence of the auto AI summary spoiled the plot twist",
+            "author": "Jaximumpower",
+            "authorId": "x1jjg",
+            "selftext": "",
+            "permalink": "/r/mildlyinfuriating/comments/1tgfpnk/googled_a_horror_film_i_was_recommended_and_the/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1779090891,
+            "numComments": 490
+          },
+          {
+            "id": "1x30jc0",
+            "url": "https://www.reddit.com/r/antiai/comments/1x30jc0/bringing_your_ai_girlfriend_on_a_date/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/05uqk4q94suh1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=f169d17106d75b1928a0262ab28c4d81ec3f36c0",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 12999,
+            "title": "Bringing your AI girlfriend on a date",
+            "author": "Bat_Country420",
+            "authorId": "qyp83",
+            "selftext": "",
+            "permalink": "/r/antiai/comments/1x30jc0/bringing_your_ai_girlfriend_on_a_date/",
+            "subreddit": "antiai",
+            "createdUtc": 1791698771,
+            "numComments": 931
+          }
+        ],
+        "nextCursor": "cur_xC4PVwU-CZZFkYpyHcPpmg"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-bison-9321fc54",
+      "kind": "anonymous",
+      "name": "Bison",
+      "artworkKey": "bison"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00035",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:41:31.100Z",
+  "started_at": "2026-11-23T07:41:31.245Z",
+  "completed_at": "2026-11-23T07:41:34.147Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

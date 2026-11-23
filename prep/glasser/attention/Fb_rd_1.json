@@ -1,0 +1,195 @@
+{
+  "id": "3d759f55-fe10-4ce5-a55d-421745dec480",
+  "run_url": "https://app.glasser.ai/runs/3d759f55-fe10-4ce5-a55d-421745dec480",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "AI actors improvise scene",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "paging_unavailable: this result came from a source that cannot return a nextCursor, so it may be incomplete and there is no way to continue from here. Re-run with `requireFields: [\"nextCursor\"]` to be served only by a source that can page, which may cost more per request.",
+    "items": 7,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1pm0mds",
+            "url": "https://i.redd.it/cvd6ean0f27g1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/cvd6ean0f27g1.jpeg?auto=webp&s=9bdd1a028ff6b6dc7213eb85d09c62dfaf28ce1f",
+                "type": "photo",
+                "width": 1206,
+                "height": 1358
+              }
+            ],
+            "score": 110899,
+            "title": "I got uninvited to a friend’s holiday potluck, while I was on my way to it.",
+            "author": "Any_Gap9612",
+            "authorId": "1xelz9ceu4",
+            "isLocked": false,
+            "selftext": "I was invited to a potluck hosted by a friend, and was told that it was happening 3 weeks in advance.\n\nThe day of the dinner, my mom and I cooked some food to bring. I texted my friend a heads up that I was on my way to theirs. They replied saying that the dinner location was changed to a different friend’s house in the next city over, about 20 miles away.\n\nI started driving towards the city and asked for the address. They said everyone was already there and that there wasn’t enough room for me. I tried following up but didn’t hear anything else from them afterwards, and I didn’t want to make a scene by texting other people that were there, as most were friend-adjacent for me.\n\nI cut my losses, turned around and went home. I got an apology text a couple of days afterwards, but felt like the rug got pulled from under me. Super frustrating situation all around.\n\nEDIT: Wow this post blew up right away, appreciate all y'alls kind words and gold. Yes, the food in the photo was what my mom and I cooked (lumpia and pancit 🇵🇭). No, i'm not AI. As for the friend, i'm planning to cut contact with her.",
+            "permalink": "/r/mildlyinfuriating/comments/1pm0mds/i_got_uninvited_to_a_friends_holiday_potluck/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1765672551,
+            "isArchived": false,
+            "numComments": 9058
+          },
+          {
+            "id": "1ve7uis",
+            "url": "https://i.redd.it/5rl0q1s5i4hh1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/5rl0q1s5i4hh1.jpeg?auto=webp&s=01fa80ec8a9eb333585c44a55270b06bee3b9cfa",
+                "type": "photo",
+                "width": 1080,
+                "height": 1699
+              }
+            ],
+            "score": 61284,
+            "title": "\"I wonder why A-list star Zendaya is paid more than a perpetual side character actor?\" -Some folks unironically",
+            "author": "witty_valentino",
+            "authorId": "2hic2szm7t",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/okbuddycinephile/comments/1ve7uis/i_wonder_why_alist_star_zendaya_is_paid_more_than/",
+            "subreddit": "okbuddycinephile",
+            "createdUtc": 1785746833,
+            "isArchived": false,
+            "numComments": 2829
+          },
+          {
+            "id": "1x2k752",
+            "url": "https://variety.com/2026/tv/news/nicolas-cage-ai-waiver-amazon-spider-noir-1236907564/",
+            "nsfw": false,
+            "media": [],
+            "score": 48710,
+            "title": "Nicolas Cage Says He’s ‘Probably Not’ Working With Amazon Again After Refusing to Sign AI Waiver for ‘Spider-Noir’: ‘I’m Not an AI-Friendly Actor’",
+            "author": "MarvelsGrantMan136",
+            "authorId": "5adwlxvn",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/technology/comments/1x2k752/nicolas_cage_says_hes_probably_not_working_with/",
+            "subreddit": "technology",
+            "createdUtc": 1791651466,
+            "isArchived": false,
+            "numComments": 877
+          },
+          {
+            "id": "1quvpbq",
+            "url": "https://i.redd.it/ae79x1vwxahg1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/ae79x1vwxahg1.jpeg?auto=webp&s=a63a535ef0d79cf8118270c43ac931a1695a90da",
+                "type": "photo",
+                "width": 2160,
+                "height": 2700
+              }
+            ],
+            "score": 45773,
+            "title": "Awkward combination [OC]",
+            "author": "Chilikto",
+            "authorId": "yaoph",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/comics/comments/1quvpbq/awkward_combination_oc/",
+            "subreddit": "comics",
+            "createdUtc": 1770134242,
+            "isArchived": false,
+            "numComments": 193
+          },
+          {
+            "id": "1po7zx8",
+            "url": "https://fortune.com/2025/12/15/joseph-gordon-levitt-ai-laws-dystopian/",
+            "nsfw": false,
+            "media": [],
+            "score": 39501,
+            "title": "Actor Joseph Gordon-Levitt wonders why AI companies don’t have to ‘follow any laws’",
+            "author": "MetaKnowing",
+            "authorId": "8spjttn6",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/technology/comments/1po7zx8/actor_joseph_gordonlevitt_wonders_why_ai/",
+            "subreddit": "technology",
+            "createdUtc": 1765906205,
+            "isArchived": false,
+            "numComments": 1482
+          },
+          {
+            "id": "1y26l7o",
+            "url": "https://www.cinemablend.com/news/2550821/american-psycho-behind-the-scenes-facts-you-might-not-know",
+            "nsfw": false,
+            "media": [],
+            "score": 35218,
+            "title": "TIL while filming the famous business card scene in \"American Psycho\", Christian Bale would break into a sweat at the exact same time, take after take. Director Mary Harron noticed this and gave him the nickname \"Robo-Actor\"",
+            "author": "Pfeffer_Prinz",
+            "authorId": "gv8sbfe0",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/todayilearned/comments/1y26l7o/til_while_filming_the_famous_business_card_scene/",
+            "subreddit": "todayilearned",
+            "createdUtc": 1795292628,
+            "isArchived": false,
+            "numComments": 1128
+          },
+          {
+            "id": "1rm95mi",
+            "url": "https://i.redd.it/6vgpxhwh5eng1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/6vgpxhwh5eng1.jpeg?auto=webp&s=3cc1a2de32f14ca78dd50ce84bf855b356f7d1f1",
+                "type": "photo",
+                "width": 640,
+                "height": 427
+              }
+            ],
+            "score": 34593,
+            "title": "Came across some legendary information about this scene, It makes it 100 times better!! 😂",
+            "author": "Adventurous-Way1293",
+            "authorId": "qxrvy78e9",
+            "isLocked": false,
+            "selftext": "During the interrogation scene in Ben Franklin, Rainn Wilson actually improvised several of Dwight’s questions while trying to expose the Ben Franklin impersonator.\n\nWhat makes the moment even better is that Andy Daly, who played the impersonator, somehow knew the perfect answers.\n\nOne question in particular wasn’t in the script at all. Rainn suddenly asked, “Are you nearsighted or farsighted?” — completely on the spot. Luckily for Daly, he had done some quick research beforehand and remembered that Benjamin Franklin invented bifocals because he struggled with both distance and reading vision.\n\nSo without missing a beat, Daly answered:\n\n“Both. That’s why I invented the bifocal.”\n\nThe response surprised everyone on set. Even Mindy Kaling asked if the two actors had planned it beforehand. They hadn’t. It was a completely spontaneous moment that just happened to line up perfectly — one of those rare improv exchanges so good it had to stay in the final episode.",
+            "permalink": "/r/DunderMifflin/comments/1rm95mi/came_across_some_legendary_information_about_this/",
+            "subreddit": "DunderMifflin",
+            "createdUtc": 1772788201,
+            "isArchived": false,
+            "numComments": 724
+          }
+        ],
+        "nextCursor": "cur_X7Njp9TlNvp048u0uQGh-g"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-giraffe-5e3cbaa1",
+      "kind": "anonymous",
+      "name": "Giraffe",
+      "artworkKey": "giraffe"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00034",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:41:30.936Z",
+  "started_at": "2026-11-23T07:41:31.086Z",
+  "completed_at": "2026-11-23T07:41:32.928Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

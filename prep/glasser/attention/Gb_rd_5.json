@@ -1,0 +1,202 @@
+{
+  "id": "6ba0fb34-afbb-4054-8ef2-0a7a0bc938e0",
+  "run_url": "https://app.glasser.ai/runs/6ba0fb34-afbb-4054-8ef2-0a7a0bc938e0",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "AI agents economy simulation town",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "large_result: this response is ~16 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge. paging_unavailable: this result came from a source that cannot return a nextCursor, so it may be incomplete and there is no way to continue from here. Re-run with `requireFields: [\"nextCursor\"]` to be served only by a source that can page, which may cost more per request.",
+    "items": 7,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1wf97x0",
+            "url": "https://i.redd.it/dltarsrmsaph1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/dltarsrmsaph1.jpeg?auto=webp&s=85db05e0ad64fba3dbf48bafe920d1b0ea778aad",
+                "type": "photo",
+                "width": 6120,
+                "height": 8160
+              }
+            ],
+            "score": 68905,
+            "title": "Hug your kids every chance you can",
+            "author": "Paperbagsportsfan",
+            "authorId": "2pjdywh8",
+            "isLocked": false,
+            "selftext": "(9/11/26) My 5 year started kindergarten last week at a new school with all new kids and all new teachers. She took the bus for the first time. She's very shy and timid but as the week went on she did better and better. A photo of her was even in the weekly newsletter playing in gym class.\n\nThe following week she came down with a fever. Not unusual so we kept her out of school. The following day it remained high with meds so she missed a second day. By day 3 we went to urgent care. They told us to take one additional med and to keep them posted if she doesn't get will. The pediatrician even called later that day to check on her. That night she woke up and became very delirious for a few mintues then snapped out of it. We brought her back to urgent care the next morning and they sent us to the ER to get blood work. \n\nThat began the worst day of my life so far. The doctor immediately thought it was leukemia or an infection. A few hours later we found out it was both.  Luckily it is the most common form of leukemia with a high success rate. Unfortunately they could not control the infection. She worsened as the day went on eventually going into septic shock. The doctors and nurses tried everything but eventually had to intubate her. Her last words to me while conscious were her struggling to say i love you. \n\nShe has since gone on a few more machines. She has an echmo pumping her blood since her right lung is collapsed or full of fluid not sure which. Her heart is too weak to work. She has too much fluid in her body so they also put her on dialysis. Doctors in the pediatric icu and from oncology both say each is treatable on it's own but having both things happen together is very rare. They are doing zoom calls with other doctors to get advice during rounds each morning. I am confident she will walk out of here but it is not easy. Her 3 year old sister just keeps telling her to get better soon. One of the nurses put it best, she's set up to succeed through the equipment but she needs to fight in order to win. My wife and myself are living a surreal nightmare. Idk what I'll do if I lose her. She's literally the glue that holds this family together. \n\nI'm not really eating but this day(s) old bagel and orange juice is my meal for the day \n\nUpdate (9/12/26): I'm just now opening this before I try to sleep for a few hours as I wanted to be as present as possible for my kids today.  I honestly didn't expect anything when I posted this. I had a moment of silence to myself in the bathroom and decided to write how I was feeling and what I was going through then posted it to this sub. THANK YOU for all of the support and advice. Somethings we are already doing and others we will implement.\n\nWe have brought her bedtime blanket and books from home. We read to her as often as we can. I also tell her stories about our family (how I met her mom, how we moved to our town, how we got our dogs, etc) and that has been very therapeutic for me. \n\nOur 3 year old came to visit and we walked through the meditation garden with her to find fairies. Getting out of the treatment and getting fresh air has been very helpful. I think it's important for our 3 year old to see the 5 year old and talk to her as well. The staff gave my 3 year old a fairy (bird) house and paint so we could do that in the family lounge away from the chaos of the treatment room. They also gave her a stuff animal, doctors kit, and some badges and electrodes so she can fix her stuffed animal similar to how they are fixing her sister.\n\nThe medical staff has been nothing short of amazing and has been saying we will take this 1 day at a time. My 5 year old had a good day today. Her fever is gone, her blood tests look significantly more normal than 24 hours ago. They could hear breathing sounds in her right lung for the first time today. Her dialysis was turned up to remove more fluids and she did great with that. Her oxygen sensor actually has a reading and they said it was because her heart has become strong enough to actually pump the blood up to her ear where they have it. Her echmo useage decreased from 75% to 65% and they said at 40% she can stop using it. We have a very long way to go but this was a step in the right direction, she truly is a fighter. \n\nFor anyone reading this going through a similar situation, we started asking family and friends to send us voice memos to play for her. That has been great to know you have so many people supporting her and it's a nice break from just talking. \n\nOther things I've learned the last 24 hours: \n\n-it's ok to be weak. It's ok to cry and let someone else hold you.\n\n-stay off chat gpt and meticulously reviewing her medical chart. The providers know more than you and more about your child than Ai. It'll drive you crazy and mentally drain you. Ask the providers as many questions as you can so you can get more familiar and comfortable (?) with what is going on.\n\n-get outside, even if for 5 minutes. Staying trapped in that room all day is not good for you mentally.\n\nStill not eating much. Only took a few bites of the bagel but managed to eat 3 chicken tenders for dinner and a piece of broccoli. I'm feeling more confident than I did when I posted this.\n\n\nUpdate 2 (9/17/26): Everyone is doing better! My daughter is off the echmo, ventilator, and dialysis! Shes slowly waking up and will hopefully be moved out of the ICU to oncology in the next few days! Because of that my wife and I are doing immensely better. Thank you everyone for all of the support. I made a carebridge page so if anyone wants to [see updates go here](https://www.caringbridge.org/site/6c600b6b-b22b-11f1-8264-55464dfa5171)\n\nUpdate 3 (9/21): Not much to update. Still in the PICU. She's making progress but not like before. Regardless she's not going backwards so I'll take it. She still is on CPAP for breathing as well as IVs for medication. Awaiting a port in the next few days to start receiving chemo treatment that way. She seems out of it more than before but I'm sure she's really tired. Hopefully they can move us out of PICU this week. \n\nHer Preschool teacher setup a go fund me for her. I am a small business owner so I have been closed this whole time and don't plan on reopening until she's back home. The funds will help support me being with her as well as pay her medical bills. \n [The go fund me can be found here ](https://www.gofundme.com/f/gabriela-strong)\n\nThank you everyone for the support. \n\nUpdate 4 (9/24/26): We are still in the PICU. Her brain CT and EEG has come back negative. She had a PICC line placed in her arm to continue receiving chemotherapy. She had a line put into her chest to remove some fluid and over 700 ml (over 20 oz) of fluid drained! She's been breathing much better since. They have her alternating between CPAP and high flow oxygen to help her breathe, which is a step in the right direction. She started eating yesterday and devoured some Italian ice.\n\nShe has been mostly non-verbal since being extubated 1 week ago but she did say \"mommy\" twice the other day. She's been communicating much better non-verbally with head movements, she has been sleeping better at night, and is more active during the day.\n\nStill working on lowering her medications so we can move her over to the oncology floor, but all steps in the right direction!\n\nUpdate (9/28): It's going. I've been trying to reply to all the DMs but haven't replied to any comments. I do try to read all of them and I appreciate the success stories and advice. My daughter is doing well overall. We are still in the PICU but she is more interactive. She sat in a chair and at times can be pretty talkative. They took her off oxygen so she's fully breathing on her own. They also got rid of a few of the IVs in her arms so that helps with her discomfort. They'll soon do some testing to see if she can eat actual food on her own (currently getting her food through a tube). Unfortunately the fluid has come back in her chest so she will need another chest tube for drainage again.\n\nWe've been able to get a more clear picture on why her case was so sudden and fast acting. Along with the Leukemia they discovered she now has HLH (Hemophagocytic Lymphohistiocystosis) which is an inflammatory disease. This led to her body rapidly declining along with the infection and leukemia. The inflammation going throughout her body is what makes her case more unique. The treatment is the same/very similar to the same medication as the leukemia, just not as straightforward since her liver is still pretty inflamed. Her first day here she had what's called a \"cytokine storm\" from the HLH which temporarily damaged her organs. That \"storm\" really calmed down and they are trying different drugs since this isn't routine. They've mentioned her case at a nationwide conference and said she was one of the most talked about so that sucks she's that bad/rare of a case but I'm glad to have so many eyes reviewing her care. \n\nShe's starting to have some PTSD. She developed a fever the other night and when you have no immune system it's not a good time. It was also a scary look into what the next 2 years holds, as some of you mentioned, but she's worth it. I'm hanging in there. Some days are definitely harder than others. Seems to be 3 steps forward 2 steps back.\n\nThanks again to everyone for supporting us.\n\nUpdate (10/12): it's been awhile since I posted an update.  We're still in the PICU and they gave us the biggest room they have (because we don't seem to be able to leave)! \n\nSince my last update my daugther has been up and down. She developed 3 new infections. 1 in the PICC line, 1 in her intestines, and 1 that might have spawned from her intestines and traveled back to the PICC. All have cleared so that's been great. She had another chest tube put in since the mysterious chest edema came back and that has since been removed and stable. She did develop mucositis and typhlitis in her intestines. This led to a hole in her colon, bleeding into the intestines, and air into her abdomen. She had to get emergency surgery and have part of her large and small intestine removed and an ostomy put in.\n\nFortunately we caught that just in time and she's actually looking better than before. It looks like her HLH is also under control and she's finally producing white blood cells and platelets on her own! Hopefully she can rest and continue to get stronger so we can finally leave but I've been saying that for over a month now she who knows! Mentally the whole family and myself are staying strong. The entire PICU and our community outside of the hospital has been incredibly helpful.\n\nUpdate (11/6): My daughter is still in the hospital but out of the PICU! We moved over to the oncology floor 2 weeks ago. It's much quieter and slower paced which is great. She's been able to leave her room in a wheelchair to explore more of the hospital. It looked like we were going to actually be discharged this past week but she fell ill and that has kept us here. She started her second round of chemo. Once her intake and ostomy output level off a little more then we can go home until the next thing comes up.\n\nAs we left the PICU the medical staff started to open up more about how lucky she is. One doctor said her estimated chance of survival that first week was around 10%. They said ECMO for septic shock alone carries a 75% mortality risk and that's without the leukemia and HLH. They believe mortality of HLH independently is similarly high. The PA said they personally have never seen anyone survive ECMO for septic shock and have only seen one person survive HLH.\n\nIt truly is a miracle she's alive. We are awaiting her discharge to go home but until then I am grateful to be able to spend time with her again  ",
+            "permalink": "/r/BoyDinnerDiaries/comments/1wf97x0/hug_your_kids_every_chance_you_can/",
+            "subreddit": "BoyDinnerDiaries",
+            "createdUtc": 1789309780,
+            "isArchived": false,
+            "numComments": 745
+          },
+          {
+            "id": "1q8n11m",
+            "url": "https://i.redd.it/yl730v93lecg1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/yl730v93lecg1.jpeg?auto=webp&s=7deca67d2e397c5feb93bf416f7eab5f3bf151cf",
+                "type": "photo",
+                "width": 3024,
+                "height": 4032
+              }
+            ],
+            "score": 64640,
+            "title": "Sometimes you get lucky at the pump",
+            "author": "CONative976",
+            "authorId": "a0aodti5",
+            "isLocked": false,
+            "selftext": "Apparently diesel fuel got mixed in with unleaded fuel around some stations in town. My Costco was affected. So they are offering premium for the price of unleaded for the inconvenience while they clean the unleaded tanks 🙂",
+            "permalink": "/r/Costco/comments/1q8n11m/sometimes_you_get_lucky_at_the_pump/",
+            "subreddit": "Costco",
+            "createdUtc": 1767999117,
+            "isArchived": false,
+            "numComments": 2336
+          },
+          {
+            "id": "1r7x023",
+            "url": "https://i.redd.it/cmyieappl7kg1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/cmyieappl7kg1.jpeg?auto=webp&s=bd5adcbb315fc1291a3463efbe5a78487efdc64c",
+                "type": "photo",
+                "width": 1206,
+                "height": 1301
+              }
+            ],
+            "score": 39796,
+            "title": "When you skip validation for AI generated results",
+            "author": "Epelep",
+            "authorId": "chsmv",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/Wellthatsucks/comments/1r7x023/when_you_skip_validation_for_ai_generated_results/",
+            "subreddit": "Wellthatsucks",
+            "createdUtc": 1771401363,
+            "isArchived": false,
+            "numComments": 1394
+          },
+          {
+            "id": "1ree20k",
+            "url": "https://www.newscientist.com/article/2516885-ais-cant-stop-recommending-nuclear-strikes-in-war-game-simulations/",
+            "nsfw": false,
+            "media": [],
+            "score": 36286,
+            "title": "AIs can’t stop recommending nuclear strikes in war game simulations - Leading AIs from OpenAI, Anthropic, and Google opted to use nuclear weapons in simulated war games in 95 per cent of cases",
+            "author": "Teruyo9",
+            "authorId": "5cfat",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/technology/comments/1ree20k/ais_cant_stop_recommending_nuclear_strikes_in_war/",
+            "subreddit": "technology",
+            "createdUtc": 1772028213,
+            "isArchived": false,
+            "numComments": 2787
+          },
+          {
+            "id": "1sxaa7a",
+            "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/claude-powered-ai-coding-agent-deletes-entire-company-database-in-9-seconds-backups-zapped-after-cursor-tool-powered-by-anthropics-claude-goes-rogue",
+            "nsfw": false,
+            "media": [],
+            "score": 35995,
+            "title": "Claude-powered AI coding agent deletes entire company database in 9 seconds — backups zapped, after Cursor tool powered by Anthropic's Claude goes rogue",
+            "author": "WouldbeWanderer",
+            "authorId": "5p1ltmws",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/technology/comments/1sxaa7a/claudepowered_ai_coding_agent_deletes_entire/",
+            "subreddit": "technology",
+            "createdUtc": 1777310458,
+            "isArchived": false,
+            "numComments": 2750
+          },
+          {
+            "id": "1rgseae",
+            "url": "https://i.redd.it/ntf4zqlnr5mg1.png",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/ntf4zqlnr5mg1.png?auto=webp&s=9cbd21d465b8e33e554bc9b7c557f9924f332070",
+                "type": "photo",
+                "width": 1080,
+                "height": 1036
+              }
+            ],
+            "score": 35007,
+            "title": "You're now training a war machine. Let's see proof of cancellation.",
+            "author": "zaxo666",
+            "authorId": "352dwzr9",
+            "isLocked": false,
+            "selftext": "Yeah, we're all in the death business now that OpenAI has succumbed to the corrupt Department of War. \n\nLet's see proof of your cancellation boys and girls. ",
+            "permalink": "/r/ChatGPT/comments/1rgseae/youre_now_training_a_war_machine_lets_see_proof/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1772250842,
+            "isArchived": false,
+            "numComments": 2708
+          },
+          {
+            "id": "1uaaeel",
+            "url": "https://i.redd.it/8kucx2a1da8h1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/8kucx2a1da8h1.jpeg?auto=webp&s=dd36397e7cfa2a8f6ca1c7877d4d775e53858823",
+                "type": "photo",
+                "width": 4032,
+                "height": 3024
+              }
+            ],
+            "score": 34521,
+            "title": "Drove past this yard in my town",
+            "author": "PreviousJaguar7640",
+            "authorId": "l4whhfkb",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/pics/comments/1uaaeel/drove_past_this_yard_in_my_town/",
+            "subreddit": "pics",
+            "createdUtc": 1781895120,
+            "isArchived": false,
+            "numComments": 1862
+          }
+        ],
+        "nextCursor": "cur_ZB45_52PnVN4RBV2j3ftQQ"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-giraffe-5e3cbaa1",
+      "kind": "anonymous",
+      "name": "Giraffe",
+      "artworkKey": "giraffe"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00034",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:41:36.786Z",
+  "started_at": "2026-11-23T07:41:36.886Z",
+  "completed_at": "2026-11-23T07:41:38.873Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

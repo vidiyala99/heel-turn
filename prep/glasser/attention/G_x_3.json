@@ -1,0 +1,46 @@
+{
+  "id": "75afaba1-33e1-4eb6-9ba3-b675562d9e6b",
+  "run_url": "https://app.glasser.ai/runs/75afaba1-33e1-4eb6-9ba3-b675562d9e6b",
+  "provider": "anyapi",
+  "endpoint": "/twitter.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "limit": 20,
+    "query": "AI NPCs betray player since:2025-11-22 filter:videos -filter:replies min_faves:20",
+    "queryType": "Top"
+  },
+  "output": {
+    "items": 0,
+    "output": {
+      "data": {
+        "items": [],
+        "nextCursor": null
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-bison-091bf9ea",
+      "kind": "anonymous",
+      "name": "Bison",
+      "artworkKey": "bison"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00049",
+  "charge_basis": {
+    "clause": "NO_RESULT",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:40:28.334Z",
+  "started_at": "2026-11-23T07:40:28.394Z",
+  "completed_at": "2026-11-23T07:40:31.040Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

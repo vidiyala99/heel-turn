@@ -1,0 +1,591 @@
+{
+  "id": "199f2ac9-abea-4ec4-8b60-0488af10be01",
+  "run_url": "https://app.glasser.ai/runs/199f2ac9-abea-4ec4-8b60-0488af10be01",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "multi-agent AI film director actor agents",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "large_result: this response is ~25 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 25,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1qhy2dm",
+            "url": "https://www.reddit.com/r/ProgressiveHQ/comments/1qhy2dm/breaking_ice_agents_illegally_entered_the_private/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/bmEweWRsczdqaGVnMUboOqcxtlIAjPUbKYgjJRhvsZ9jUUXzGw_kbODlSXgC.png?width=140&height=140&crop=1%3A1%2Csmart&format=jpg&auto=webp&s=819c3ce977ba6c9d26c2b36cdd947313ae46bd09",
+                "type": "video",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 52997,
+            "title": "BREAKING: ICE agents illegally entered the private hallways of an apartment building in Eden Prairie, refused to show a warrant, and threatened a resident for doing nothing. In the video, a woman sees ICE agents in the private hallways of her building and begins filming.",
+            "author": "Treefiddy1984",
+            "authorId": "a8vqdyc",
+            "selftext": "",
+            "permalink": "/r/ProgressiveHQ/comments/1qhy2dm/breaking_ice_agents_illegally_entered_the_private/",
+            "subreddit": "ProgressiveHQ",
+            "createdUtc": 1768906505,
+            "numComments": 3056
+          },
+          {
+            "id": "1pv65uy",
+            "url": "https://www.reddit.com/r/okbuddycinephile/comments/1pv65uy/favorite_actor_whos_actually_honest/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/sx480BrdvoHBdKCuVuEnEDlTnPVSVy2w7B_EEXqAx6Y.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 48498,
+            "title": "Favorite actor who’s actually honest",
+            "author": "Robot_Was_BMO",
+            "authorId": "177qt59h",
+            "selftext": "",
+            "permalink": "/r/okbuddycinephile/comments/1pv65uy/favorite_actor_whos_actually_honest/",
+            "subreddit": "okbuddycinephile",
+            "createdUtc": 1766640378,
+            "numComments": 351
+          },
+          {
+            "id": "1pv1vgl",
+            "url": "https://www.reddit.com/r/StrangerThings/comments/1pv1vgl/that_response_genuinely_made_me_spill_my_drink/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/pmT_H1UvNsq-g24_OSM9yhi_dyAeVNLTejgeS7tpESI.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 42666,
+            "title": "That response genuinely made me spill my drink! 😂😭",
+            "author": "Raj_Valiant3011",
+            "authorId": "mlx6qbgve",
+            "selftext": "",
+            "permalink": "/r/StrangerThings/comments/1pv1vgl/that_response_genuinely_made_me_spill_my_drink/",
+            "subreddit": "StrangerThings",
+            "createdUtc": 1766624746,
+            "numComments": 295
+          },
+          {
+            "id": "1qeylzi",
+            "url": "https://www.reddit.com/r/law/comments/1qeylzi/we_are_america_how_could_you_possibly_target/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/NnU2enZzNHY2dGRnMW3PyNAkH24vP-_sYbtJ8z2Y2jeaxeyKjr_toPSeorp6.png?width=140&height=78&format=jpg&auto=webp&s=17d55f00de69e3384fa2b8603be0a318203c1e2b",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 40958,
+            "title": "We are America. How could you possibly target Native Americans — with ICE Officers — and then imprison us? That is impossible. It's legally impossible to do that. - Chase Iron Eyes",
+            "author": "biospheric",
+            "authorId": "c9oyxptg",
+            "selftext": "Jan 16, 2026 - *Status Coup News* and *MeidasTouch*. Chase Iron Eyes is director and lead legal counsel for the *Lakota People’s Law Project*. He earned his JD with an emphasis in Federal Indian Law from the University of Denver’s Sturm College of Law. \n\nHere’s the full 7-minutes on *YouTube*: [Trump's ICE Kidnaps Native Americans in Minneapolis: “We are America!”](https://www.youtube.com/watch?v=qqbGobWWZCM) \\- From the description: *Minneapolis Independent reporter Zach D. Roberts was live on the ground on January 15th, 2026 from ICE protests in Minneapolis outside the Whipple Federal Building. As ICE agents continued attacking unarmed protesters, Native Americans from the Oglala Sioux Tribal Council arrived looking in the ICE prison for three Minneapolis Oglala Sioux tribal members who were taken by ICE in the Little Earth community.* \n\nRelated: \n\n* Oglala Sioux Tribe: [https://www.oglala.gov](https://www.oglala.gov)\n* Lakota People's Law Project: [https://lakotalaw.org](https://lakotalaw.org)\n* Aftermath of the U.S.-Dakota War of 1862: The Trials & Hanging: [https://www.mnhs.org/usdakotawar...](https://www.mnhs.org/usdakotawar/stories/history/aftermath/trials-hanging)",
+            "permalink": "/r/law/comments/1qeylzi/we_are_america_how_could_you_possibly_target/",
+            "subreddit": "law",
+            "createdUtc": 1768611958,
+            "numComments": 529
+          },
+          {
+            "id": "1r7x023",
+            "url": "https://www.reddit.com/r/Wellthatsucks/comments/1r7x023/when_you_skip_validation_for_ai_generated_results/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/cmyieappl7kg1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=ba55b28e06ba1ed35f0d88df299828a1f7ebade3",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 39799,
+            "title": "When you skip validation for AI generated results",
+            "author": "Epelep",
+            "authorId": "chsmv",
+            "selftext": "",
+            "permalink": "/r/Wellthatsucks/comments/1r7x023/when_you_skip_validation_for_ai_generated_results/",
+            "subreddit": "Wellthatsucks",
+            "createdUtc": 1771401363,
+            "numComments": 1394
+          },
+          {
+            "id": "1qc9z9t",
+            "url": "https://www.reddit.com/r/law/comments/1qc9z9t/ice_choked_out_a_10th_grader_stole_his_phone_and/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/wEg6VrjkRoj-ZImQA4Bb9YCbR8r1pXxYkXag7a8NEzs.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 39096,
+            "title": "ICE choked out a 10th grader, stole his phone, and then sold it. In an article about reckless and wanton ICE violence the illegal seizure and then *sale* of a minors phone caught my eye as street gang behavior.",
+            "author": "orangejulius",
+            "authorId": "409zv",
+            "selftext": "https://www.propublica.org/article/videos-ice-dhs-immigration-agents-using-chokeholds-citizens",
+            "permalink": "/r/law/comments/1qc9z9t/ice_choked_out_a_10th_grader_stole_his_phone_and/",
+            "subreddit": "law",
+            "createdUtc": 1768354421,
+            "numComments": 579
+          },
+          {
+            "id": "1sxaa7a",
+            "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/claude-powered-ai-coding-agent-deletes-entire-company-database-in-9-seconds-backups-zapped-after-cursor-tool-powered-by-anthropics-claude-goes-rogue",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/Fm6buU-AX7KeegRqofL5hDPf1-twSaUDAG8yAc1Qld0.jpeg?width=140&height=78&auto=webp&s=398498a9f8c84a8e7d2d8f1ec9aeaa766166bd75",
+                "type": "photo",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 35989,
+            "title": "Claude-powered AI coding agent deletes entire company database in 9 seconds — backups zapped, after Cursor tool powered by Anthropic's Claude goes rogue",
+            "author": "WouldbeWanderer",
+            "authorId": "5p1ltmws",
+            "selftext": "",
+            "permalink": "/r/technology/comments/1sxaa7a/claudepowered_ai_coding_agent_deletes_entire/",
+            "subreddit": "technology",
+            "createdUtc": 1777310458,
+            "numComments": 2750
+          },
+          {
+            "id": "1qga7vq",
+            "url": "https://deadline.com/2026/01/stellan-skarsgard-trump-greenland-demands-absurd-1236686236/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/34jaU8PFSpKo6y0GEoM6BG-JH3Y38ESbK8BfxX4QV_o.jpeg?width=140&height=93&auto=webp&s=2a0213e3b593308e6f56d43121eb802590852237",
+                "type": "photo",
+                "width": 140,
+                "height": 93
+              }
+            ],
+            "score": 35817,
+            "title": "Stellan Skarsgård reacts to Trump’s Greenland demands: “It’s absurd, isn’t it? It’s a little man who got megalomania, and he’s trying to take the world. He took Venezuela, suddenly, and that’s for Chevron. He’ll take Greenland for minerals. He’s a criminal.”",
+            "author": "cmaia1503",
+            "authorId": "3in26siv",
+            "selftext": "\\> The Swedish actor and Norwegian Sentimental Value director Joachim Trier, whose home countries are Denmark’s closest neighbors, were asked for their thoughts on the situation during the winners’ press conference at the European Film Awards in Berlin on Saturday night.\n\n\\> “You want us to comment on what’s happening in Greenland?,” said Skarsgård, who then launched into a characteristically forthright reply.\n\n\\> “It’s absurd, isn’t it? It’s a little man who got megalomania, and he’s trying to take the world. He took Venezuela, suddenly, and that’s for Chevron. He’ll take Greenland for minerals. He’s a criminal,” said Skarsgård, who also won a Golden Globe for Best Supporting Actor last week. \n\n\\> He was alluding to news that the U.S. is pushing to expand energy giant Chevron’s license for its oil production in Venezuela in the wake of its military operation in early January removing incumbent Venezuelan president Nicolás Maduro from power.\n\n\\> Trier, whose films are imbued with a humanist approach, took a more measured tone in his response.\n\n\\> “Sitting in Europe today. I think that what we’ve learned from history is that the idea of appropriation of other countries and the idea of colonialization is something that we suffer through guilt for in Europe, in the sense that we are trying to move forward from that idiotic idea,” he said.  \n\n\\> “Denmark has come a long way in apologizing and trying to make good for their appropriation of Greenland in the past, and Greenland is for people from Greenland. So, this idea of reappropriating it for another culture, when Denmark has been very clear that America can, through NATO Alliance, protect Greenland if they feel like it in a greater military capacity, and now this is happening. I agree with Stellen that it’s an absurd notion, and international law must be respected, because grinding that down will have such tremendous domino effects on how other superpowers will treat other countries, so the dominant effect of that is extremely worrying, if it is to happen,” he concluded.",
+            "permalink": "/r/Fauxmoi/comments/1qga7vq/stellan_skarsgård_reacts_to_trumps_greenland/",
+            "subreddit": "Fauxmoi",
+            "createdUtc": 1768747140,
+            "numComments": 238
+          },
+          {
+            "id": "1uze0s6",
+            "url": "https://www.reddit.com/r/okbuddycinephile/comments/1uze0s6/progressive_or_racist_director/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/tkk56uek7vdh1.png?width=140&height=138&auto=webp&s=39756bc5d9b3f4119d8f091d314d8c4e747bb777",
+                "type": "photo",
+                "width": 140,
+                "height": 138
+              }
+            ],
+            "score": 35328,
+            "title": "Progressive or Racist Director?",
+            "author": "Oh_Lawd_He_commin420",
+            "authorId": "1vmdcgd5rm",
+            "selftext": "",
+            "permalink": "/r/okbuddycinephile/comments/1uze0s6/progressive_or_racist_director/",
+            "subreddit": "okbuddycinephile",
+            "createdUtc": 1784326763,
+            "numComments": 171
+          },
+          {
+            "id": "1y26l7o",
+            "url": "https://www.cinemablend.com/news/2550821/american-psycho-behind-the-scenes-facts-you-might-not-know",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/hP7UtQxM7TdE6-LpKJ3U8nqbUlLVtM8P7c65B9_zUBM.jpeg?width=140&height=70&auto=webp&s=4a1a80eda60122d72d37d8f0a9a22be48d4b518f",
+                "type": "photo",
+                "width": 140,
+                "height": 70
+              }
+            ],
+            "score": 35214,
+            "title": "TIL while filming the famous business card scene in \"American Psycho\", Christian Bale would break into a sweat at the exact same time, take after take. Director Mary Harron noticed this and gave him the nickname \"Robo-Actor\"",
+            "author": "Pfeffer_Prinz",
+            "authorId": "gv8sbfe0",
+            "selftext": "",
+            "permalink": "/r/todayilearned/comments/1y26l7o/til_while_filming_the_famous_business_card_scene/",
+            "subreddit": "todayilearned",
+            "createdUtc": 1795292628,
+            "numComments": 1128
+          },
+          {
+            "id": "1rgseae",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1rgseae/youre_now_training_a_war_machine_lets_see_proof/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/ntf4zqlnr5mg1.png?width=140&height=134&auto=webp&s=5d8d420498f2259681fda2107579d2f6bcadd71d",
+                "type": "photo",
+                "width": 140,
+                "height": 134
+              }
+            ],
+            "score": 35009,
+            "title": "You're now training a war machine. Let's see proof of cancellation.",
+            "author": "zaxo666",
+            "authorId": "352dwzr9",
+            "selftext": "Yeah, we're all in the death business now that OpenAI has succumbed to the corrupt Department of War. \n\nLet's see proof of your cancellation boys and girls. ",
+            "permalink": "/r/ChatGPT/comments/1rgseae/youre_now_training_a_war_machine_lets_see_proof/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1772250842,
+            "numComments": 2708
+          },
+          {
+            "id": "1xinaqs",
+            "url": "https://www.reddit.com/r/SipsTea/comments/1xinaqs/after_observers_lawfully_filmed_ice_in_a_public/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/b2E0bjQ2NThlZnloMWYRmLpgXuNbZf61hkYTiqv8WtYjKKoyS3Jd_UHa0hF9.png?width=140&height=140&crop=1%3A1%2Csmart&format=jpg&auto=webp&s=afb2c9f844443b5986f12d9281860f561a0833d1",
+                "type": "video",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 33706,
+            "title": "After observers lawfully filmed ICE in a public parking lot, the agents followed their car, boxed them in, and slashed their tire in retaliation. The observers bravely caught the whole thing on video",
+            "author": "ExactlySorta",
+            "authorId": "3prne0od",
+            "selftext": "",
+            "permalink": "/r/SipsTea/comments/1xinaqs/after_observers_lawfully_filmed_ice_in_a_public/",
+            "subreddit": "SipsTea",
+            "createdUtc": 1793288119,
+            "numComments": 600
+          },
+          {
+            "id": "1w03283",
+            "url": "https://www.reddit.com/r/PeopleBeingRidiculous/comments/1w03283/what_are_your_thoughts_on_andrew_garfields/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/qk75u6gz1plh1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=cbf44e939e502e30138f5dada1b731dc370b852d",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 32378,
+            "title": "What are your thoughts on Andrew Garfield's statement?",
+            "author": "IWasNotBriefed",
+            "authorId": "2kia8sjpdz",
+            "selftext": "Andrew Garfield used a new Esquire interview to deliver one of the sharpest takedowns of Donald Trump from any Hollywood actor this year, calling him a \"wannabe f*scist, grifter, opportunist, power-hungry, ethic-less, spineless f*cking pig.\"\n\nThe remark came during a wide-ranging conversation about his upcoming role as OpenAI founder Sam Altman in Luca Guadagnino's film Artificial. Garfield was discussing the Jungian concept of the shadow self, arguing that society's refusal to acknowledge its own darker impulses is precisely what allows figures like Trump and British politician Nigel Farage to rise to power.\n\n\"If we weren't all less rejecting in the first place, less 'that's not us', then Donald Trump wouldn't have been voted in twice, and Nigel Farage wouldn't be anywhere near a position of power,\" Garfield told Esquire. \"Whereas if we go, 'OK, interesting — where am I [in a] wannabe f*scist, grifter, opportunist, power-hungry, ethic-less, spineless f*cking pig?' We can identify that this is the bad part of us.\"\n\nHe then added: \"And then it's, 'Ah, sweet Nigel. Guys, let's just not let him get anywhere near this.'\"",
+            "permalink": "/r/PeopleBeingRidiculous/comments/1w03283/what_are_your_thoughts_on_andrew_garfields/",
+            "subreddit": "PeopleBeingRidiculous",
+            "createdUtc": 1787857260,
+            "numComments": 3999
+          },
+          {
+            "id": "1qrof0l",
+            "url": "https://arstechnica.com/tech-policy/2026/01/ice-protester-says-her-global-entry-was-revoked-after-agent-scanned-her-face/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/LdlnccAzLq9wBBqHzVRPysu38CeswsaBAlFdFkxC_NM.jpeg?width=140&height=78&auto=webp&s=3f7723ec6578dc9ccdf75ece945cf6d24c83f92e",
+                "type": "photo",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 31346,
+            "title": "ICE protester Nicole Cleland, a 56-year-old resident of Richfield and a director at Target Corporation, says her Global Entry was revoked after agent scanned her face | Global Entry and Precheck revoked three days after incident, court filing says.",
+            "author": "ControlCAD",
+            "authorId": "wds6w",
+            "selftext": "",
+            "permalink": "/r/technology/comments/1qrof0l/ice_protester_nicole_cleland_a_56yearold_resident/",
+            "subreddit": "technology",
+            "createdUtc": 1769822443,
+            "numComments": 929
+          },
+          {
+            "id": "1sy934t",
+            "url": "https://www.the-independent.com/tech/claude-ai-agent-deletes-startup-anthropic-b2966176.html",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/u94w11OUFIsQPNwvOhEJZOlyRevAuBn6OWCkNCT96w8.jpeg?width=140&height=93&auto=webp&s=17f70cb392c5d3c06a4526bedc80a5b8b7067652",
+                "type": "photo",
+                "width": 140,
+                "height": 93
+              }
+            ],
+            "score": 31044,
+            "title": "‘It took nine seconds’: Claude AI agent deletes company’s entire database",
+            "author": "curseofdarkastle",
+            "authorId": "7jn1nose",
+            "selftext": "",
+            "permalink": "/r/nottheonion/comments/1sy934t/it_took_nine_seconds_claude_ai_agent_deletes/",
+            "subreddit": "nottheonion",
+            "createdUtc": 1777399264,
+            "numComments": 1423
+          },
+          {
+            "id": "1qrcbvy",
+            "url": "https://www.reddit.com/r/law/comments/1qrcbvy/georgia_fort_independent_journalistvp_of/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/bTMzNHNvOTF4aWdnMUZB9uG_oEseYamNA76aneFTGEP3Brn8B5O0r9l9x102.png?width=140&height=140&crop=1%3A1%2Csmart&format=jpg&auto=webp&s=92b6acc855a21fac3214b9e51012fceba8aba07f",
+                "type": "video",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 30840,
+            "title": "Georgia Fort, independent journalist,VP of Minnesota NABJ chapter,was also arrested by federal agents.She filmed her arrest and stated: “I don’t feel like I have my First Amendment right as a member of the press because now federal agents are at my door arresting me for filming the church protest.”",
+            "author": "drempath1981",
+            "authorId": "1xttp3aku1",
+            "selftext": "",
+            "permalink": "/r/law/comments/1qrcbvy/georgia_fort_independent_journalistvp_of/",
+            "subreddit": "law",
+            "createdUtc": 1769794960,
+            "numComments": 1786
+          },
+          {
+            "id": "1puzgvm",
+            "url": "https://www.reddit.com/r/Fauxmoi/comments/1puzgvm/finn_wolfhard_on_who_cried_the_most_after/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/WwyOgUu2Fk_2PSXfr4qToLZJ6g-RJo5iDkcsYwCpN8o.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 139
+              }
+            ],
+            "score": 30691,
+            "title": "Finn Wolfhard on who cried the most after ‘Stranger Things’ ended: “Our agents”",
+            "author": "Relevant-Peach3997",
+            "authorId": "vcgu7gjw",
+            "selftext": "",
+            "permalink": "/r/Fauxmoi/comments/1puzgvm/finn_wolfhard_on_who_cried_the_most_after/",
+            "subreddit": "Fauxmoi",
+            "createdUtc": 1766616785,
+            "numComments": 772
+          },
+          {
+            "id": "1q8rn5v",
+            "url": "https://www.reddit.com/r/UnderReportedNews/comments/1q8rn5v/masked_agents_were_recorded_removing_unmarked/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/NGusEIWkqiH_GH9JreDBtEvZ7racZk-_tgVIka3Tnxc.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 29868,
+            "title": "Masked agents were recorded removing unmarked evidence from the home of Renée Good's killer",
+            "author": "PoppyAppletree",
+            "authorId": "zgb8b",
+            "selftext": "Source:\n\n[https://bsky.app/profile/chadloder.bsky.social/post/3mbzgb3nzr22q](https://bsky.app/profile/chadloder.bsky.social/post/3mbzgb3nzr22q)\n\nAdditional information:\n\n[https://thehill.com/homenews/state-watch/5679294-ice-officer-shooting-minneapolis/](https://thehill.com/homenews/state-watch/5679294-ice-officer-shooting-minneapolis/)\n\nEdit: The original paparazzi shots are from the Daily ~~Heil~~ Mail. You can find that pretty easily (\"Gun-toting feds in ski masks\"), but their reporting itself is best taken with a ~~pinch~~ dessert spoon of salt. Their poor reputation is thoroughly deserved, hence the secondary journalistic commentary.",
+            "permalink": "/r/UnderReportedNews/comments/1q8rn5v/masked_agents_were_recorded_removing_unmarked/",
+            "subreddit": "UnderReportedNews",
+            "createdUtc": 1768011034,
+            "numComments": 823
+          },
+          {
+            "id": "1qjytzl",
+            "url": "https://www.reddit.com/r/minnesota/comments/1qjytzl/fbi_and_homeland_security_just_arrested_nekima/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/wC1BG0lSRBjKn50SR4NUUYsIzh-I2qy5RHEE8mtcVBg.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 28332,
+            "title": "Fbi and Homeland security just arrested Nekima Armstrong, one of the protesters exposing a st.pauls ice director at a church service!!",
+            "author": "cantcoloratall91",
+            "authorId": "c20k6jx5",
+            "selftext": "",
+            "permalink": "/r/minnesota/comments/1qjytzl/fbi_and_homeland_security_just_arrested_nekima/",
+            "subreddit": "minnesota",
+            "createdUtc": 1769098682,
+            "numComments": 1547
+          },
+          {
+            "id": "1vrorv7",
+            "url": "https://www.reddit.com/gallery/1vrorv7",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/i27fyojxu4kh1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=c3a827596c763f770bb6e0dc47b4d7ca14fd5ac5",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 27383,
+            "title": "Another AI 'human' chatbot",
+            "author": "captain-obIivious",
+            "authorId": "7wtwj8ri",
+            "selftext": "Had to fix a double payment for my credit card and this is the beginning and end of the conversation. I hate when the chatbot claims it's a human... I ended up getting what I wanted but still annoyed Amex (and every other company) is lying and trying to deceive people like this.",
+            "permalink": "/r/mildlyinfuriating/comments/1vrorv7/another_ai_human_chatbot/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1787058675,
+            "numComments": 1840
+          },
+          {
+            "id": "1smgk52",
+            "url": "https://www.reddit.com/gallery/1smgk52",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/gopqk2jcqevg1.jpg?width=140&height=100&auto=webp&s=29f622c672bd50a307c6917a718fcd16d96df17b",
+                "type": "photo",
+                "width": 140,
+                "height": 100
+              }
+            ],
+            "score": 25777,
+            "title": "Im currently house hunting. Here is the photo in the ad vs the house in real life…",
+            "author": "slim_shady_21",
+            "authorId": "3yqjxe2",
+            "selftext": "Im assuming they used AI to clean up the front yard. I guess the AI just decided to install a brand new roof, driveway, and retaining wall!!! The interior wasnt much better either…\n\nEdit: wow this recieved a lot of attention. To answer a few of the questions i see repeatedly popping up…\n\n\\- I am in Quebec, Canada. Not really sure about the laws for this type of thing. My real estate agent told me that this is unfortunately very common practice. He agreed with me that the way it changed the whole house is false advertising but that there isnt much that can be done but move on to the next house.\n\n\\- It was a property flip. The house was bought last year and now is being resold with full interior renovation. The work looked very shoddy and i dont trust it. The back of the house was full of old electrical equipment with the wires diconnected and hanging off, the garage was wired up loosely with 14/2 between all the boxes just fastened to the wall which is not up to code. All wires need to be in a pipe or in a wall. The roof was also completely finished and needed to be redone. \n\n\\- Overall the property was just not up to my standard and even if i could look over the egregious false advertising, there was just too many other issues. ",
+            "permalink": "/r/mildlyinfuriating/comments/1smgk52/im_currently_house_hunting_here_is_the_photo_in/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1776281997,
+            "numComments": 1588
+          },
+          {
+            "id": "1tlmbdz",
+            "url": "https://www.reddit.com/r/LinkedInLunatics/comments/1tlmbdz/dehydrating_for_our_ai_overlords/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/qxxu07pa7x2h1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=5e043aef512ae8dd64ea9ef31926b0042d244cc4",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 25491,
+            "title": "Dehydrating for our AI overlords",
+            "author": "eldubinoz",
+            "authorId": "k6b5n",
+            "selftext": "",
+            "permalink": "/r/LinkedInLunatics/comments/1tlmbdz/dehydrating_for_our_ai_overlords/",
+            "subreddit": "LinkedInLunatics",
+            "createdUtc": 1779556558,
+            "numComments": 320
+          },
+          {
+            "id": "1x79j0p",
+            "url": "https://www.reddit.com/r/blender/comments/1x79j0p/we_did_it_we_reverseengineered_blender_with_ai/",
+            "nsfw": false,
+            "media": [],
+            "score": 24878,
+            "title": "WE DID IT! We reverse-engineered Blender with AI and made it open source. Introducing BlenderCraft 🚀",
+            "author": "ofdavarci",
+            "authorId": "em47p",
+            "selftext": "After an entire weekend of running 19 autonomous Claude agents and burning an irresponsible amount of tokens, we're proud to announce **BlenderCraft**.\n\nA 100% free, open-source, clean-room reimplementation of Blender.\n\nWe achieved something incredible:\n\n✅ 100% feature parity with Blender  \n✅ Modeling, sculpting, animation, Geometry Nodes  \n✅ Cycles and Eevee rendering  \n✅ Native .blend file support  \n✅ Windows, macOS, and Linux  \n✅ No subscriptions. No paywalls. Free forever.\n\nWe even managed to reproduce the original source code almost line by line.\n\nOur biggest breakthrough came when we discovered a mysterious public repository containing the entire source code:\n\n[https://projects.blender.org/blender/blender](https://projects.blender.org/blender/blender)\n\nApparently, it's been there since October 13, 2002.\n\n**24 YEARS AGO.**\n\nSo yeah, we didn't actually build anything.\n\nTurns out the Blender community solved the whole \"free and open-source creative software\" problem 24 years before AI made it trendy.\n\nJokes aside, massive respect to Ton Roosendaal, the Blender Foundation, and the thousands of developers and contributors who made Blender what it is today.\n\nWhile everyone's celebrating AI for making software free and open source, these legends have been doing it for decades.\n\n**Software is over. Blender was just early. 🧡**  \n  \n[https://x.com/ofdavarci](https://x.com/ofdavarci)",
+            "permalink": "/r/blender/comments/1x79j0p/we_did_it_we_reverseengineered_blender_with_ai/",
+            "subreddit": "blender",
+            "createdUtc": 1792134758,
+            "numComments": 1095
+          },
+          {
+            "id": "1qtn676",
+            "url": "https://www.reddit.com/r/UnderReportedNews/comments/1qtn676/dashcam_video_shows_dhs_agents_box_in_draw_guns/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/Z2FncDE1YTR3MGhnMcz8iY_gryfqkl6wiugXjue8nsbE6VaQA_jsChhK59qN.png?width=140&height=78&format=jpg&auto=webp&s=51cdd1fe7fb28bbfe789cf8a6df96b3c76c632bf",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 23718,
+            "title": "Dashcam Video Shows DHS Agents Box In & Draw Guns on an Unarmed Minnesota Woman Who Was Driving and Filming Them",
+            "author": "JeanJauresJr",
+            "authorId": "hs5kf",
+            "selftext": "https://x.com/David\\_J\\_Bier/status/2017631864337437034",
+            "permalink": "/r/UnderReportedNews/comments/1qtn676/dashcam_video_shows_dhs_agents_box_in_draw_guns/",
+            "subreddit": "UnderReportedNews",
+            "createdUtc": 1770012603,
+            "numComments": 996
+          },
+          {
+            "id": "1raud02",
+            "url": "https://www.reddit.com/r/Gamingcirclejerk/comments/1raud02/xbox_to_win_the_console_war_this_is_clearly_a/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/7tcz03ulbvkg1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=d1a1818fdf485a29061ceb67c365093843a84ab0",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 23102,
+            "title": "Xbox to win the console war, this is clearly a good idea with zero chance of anything bad happening",
+            "author": "RadiantZote",
+            "authorId": "gvwek9bj",
+            "selftext": "",
+            "permalink": "/r/Gamingcirclejerk/comments/1raud02/xbox_to_win_the_console_war_this_is_clearly_a/",
+            "subreddit": "Gamingcirclejerk",
+            "createdUtc": 1771688789,
+            "numComments": 1790
+          }
+        ],
+        "nextCursor": "cur_7mPwP-vAsUhC1gtnReW20Q"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-bison-9321fc54",
+      "kind": "anonymous",
+      "name": "Bison",
+      "artworkKey": "bison"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00035",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:40:18.739Z",
+  "started_at": "2026-11-23T07:40:18.772Z",
+  "completed_at": "2026-11-23T07:40:20.237Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

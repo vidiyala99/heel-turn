@@ -1,0 +1,64 @@
+{
+  "id": "fee2f44d-c566-4792-ba69-f166ad2629b1",
+  "run_url": "https://app.glasser.ai/runs/fee2f44d-c566-4792-ba69-f166ad2629b1",
+  "provider": "serper",
+  "endpoint": "/search",
+  "endpoint_version": 2,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "q": "SearchHack winners Telem Tavily first place project"
+  },
+  "output": {
+    "organic": [
+      {
+        "link": "https://searchhack.devpost.com/",
+        "title": "SearchHack: Build the next layer of AI search: Agentic web search ...",
+        "snippet": "SearchHack: Build the next layer of AI search. Agentic web search challenge using Telem AI. This hackathon has ended. Find more hackathons View the winners. Who ...",
+        "position": 1,
+        "displayedLink": "https://searchhack.devpost.com"
+      },
+      {
+        "date": "Nov 12, 2026",
+        "link": "https://builderbase.com/event/searchhack-build-the-next-layer-of-ai-search",
+        "title": "SearchHack: Agentic Web Search Challenge",
+        "snippet": "SearchHack ... Register now and show your build to the investors who fund AI search. Register. SearchHack · a Telem AI series event Questions?",
+        "position": 2,
+        "displayedLink": "https://builderbase.com › event › searchhack-build-the-next-l..."
+      }
+    ],
+    "peopleAlsoAsk": [
+      {
+        "question": "What is a good hackathon project?"
+      }
+    ],
+    "relatedSearches": [
+      {
+        "query": "Search hack winners telem tavily first place project free"
+      },
+      {
+        "query": "Search hack winners telem tavily first place project github"
+      }
+    ],
+    "searchParameters": {
+      "q": "SearchHack winners Telem Tavily first place project",
+      "type": "search",
+      "engine": "google"
+    }
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.001",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:36:33.772Z",
+  "started_at": "2026-11-23T07:36:33.815Z",
+  "completed_at": "2026-11-23T07:36:34.372Z",
+  "task_id": "tsk_965d2263a224d7b9",
+  "metadata": {}
+}

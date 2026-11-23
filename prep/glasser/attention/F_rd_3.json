@@ -1,0 +1,209 @@
+{
+  "id": "9259bbfe-e573-4b38-a2f8-62fbb6de78fc",
+  "run_url": "https://app.glasser.ai/runs/9259bbfe-e573-4b38-a2f8-62fbb6de78fc",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "AI generated short film agents bloopers",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "large_result: this response is ~14 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge. paging_unavailable: this result came from a source that cannot return a nextCursor, so it may be incomplete and there is no way to continue from here. Re-run with `requireFields: [\"nextCursor\"]` to be served only by a source that can page, which may cost more per request.",
+    "items": 7,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1r7x023",
+            "url": "https://i.redd.it/cmyieappl7kg1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/cmyieappl7kg1.jpeg?auto=webp&s=bd5adcbb315fc1291a3463efbe5a78487efdc64c",
+                "type": "photo",
+                "width": 1206,
+                "height": 1301
+              }
+            ],
+            "score": 39793,
+            "title": "When you skip validation for AI generated results",
+            "author": "Epelep",
+            "authorId": "chsmv",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/Wellthatsucks/comments/1r7x023/when_you_skip_validation_for_ai_generated_results/",
+            "subreddit": "Wellthatsucks",
+            "createdUtc": 1771401363,
+            "isArchived": false,
+            "numComments": 1394
+          },
+          {
+            "id": "1qja59c",
+            "url": "https://i.redd.it/y8cdvdteoreg1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/y8cdvdteoreg1.jpeg?auto=webp&s=54f29131dd12c5d93137cd57ca82952c5fe6b988",
+                "type": "photo",
+                "width": 1320,
+                "height": 1556
+              }
+            ],
+            "score": 27236,
+            "title": "Broken Clock",
+            "author": "UnHolySir",
+            "authorId": "cxh1at0b",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/okbuddycinephile/comments/1qja59c/broken_clock/",
+            "subreddit": "okbuddycinephile",
+            "createdUtc": 1769029321,
+            "isArchived": false,
+            "numComments": 680
+          },
+          {
+            "id": "1usmsx8",
+            "url": "https://www.telegraph.co.uk/films/2026/07/10/christopher-nolan-interview-odyssey-backlash/?WT.mc_id=tmgoff_tw_post",
+            "nsfw": false,
+            "media": [],
+            "score": 23796,
+            "title": "Christopher Nolan: \"I’ve never seen a more rapid wholesale dismissal of a supposedly foundational jump in technology in my lifetime. So much energy has been expended on bringing in AI, but if you look at Gen Z's reaction, they’re utterly rejecting it. They see it for what it is very quickly”",
+            "author": "ChiefLeef22",
+            "authorId": "7a7qkhpq",
+            "isLocked": false,
+            "selftext": ">“I’ve never seen a more rapid wholesale dismissal of a supposedly foundational jump in technology in my lifetime,” he says. “So much energy has been expended on bringing in AI, but if you look at that generation’s reaction, they’re utterly rejecting it.” He cites his own four children – in their late teens and early 20s – as a further example.\n\n>“**Their judgment of AI slop has been immediate and harsh.** They see it for what it is very quickly – and it’s much easier for them to identify it, because it grew out of an online world they know really well. And while that doesn’t mean that every aspect of the technology is useless or meaningless, in film-making it’s hitting at exactly the wrong time. After years of driving towards heavily virtual environments, we’re seeing a renewed interest in more tactile, more real forms of storytelling.”\n\nMassive Nolan W",
+            "permalink": "/r/antiai/comments/1usmsx8/christopher_nolan_ive_never_seen_a_more_rapid/",
+            "subreddit": "antiai",
+            "createdUtc": 1783687884,
+            "isArchived": false,
+            "numComments": 989
+          },
+          {
+            "id": "1qcx3x8",
+            "url": "https://i.redd.it/xtvzvo7abddg1.png",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/xtvzvo7abddg1.png?auto=webp&s=6c95b4a4aa037e895b523505b089a55f58fd3fba",
+                "type": "photo",
+                "width": 799,
+                "height": 580
+              }
+            ],
+            "score": 22222,
+            "title": "“You Gotta Stop Obstructing Us, That’s Why That Lesbian B**** is Dead:” MN Woman Recounts “Vile” Behavior by ICE Agents",
+            "author": "ashleywalkerreports",
+            "authorId": "13tcr5gune",
+            "isLocked": false,
+            "selftext": "On Sunday (1/11/26), Patty O’Keefe says she and her friend, Brandon Sigüenza, were violently arrested and detained by ICE. She explains that federal officers pepper-sprayed the air vent to their car, broke their windows, dragged them out of the car, handcuffed them, and brought them to the detention center at the Federal Whipple Building in separate vehicles.\n\nOn the way to the facility, O’Keefe says one of the agents told her, “‘You guys gotta stop obstructing us, that’s why that lesbian bitch is dead.’ Speaking about Renee Good.” For the rest of the ride, she says she was “taunted, mocked, insulted, belittled, and demoralized.”\n\nWhen entering the detention center, O’Keefe says they saw “probably about 100 people in holding cells” of various sizes, mostly of Hispanic and East African people. She says, “We heard screaming, crying, just visceral agony. Someone saying, let me go, let me go, please let me go, just begging. We heard a child crying.”\n\nO’Keefe recounts that her friend, Sigüenza, was brought into another room for questioning, where he “was offered money or legal protection for any undocumented family members that he might have, in exchange for names of other undocumented people or protest leaders. A bribe, essentially.” O’Keefe says another man in Sigüenza’s cell was offered the same, which both men declined.\n\nThis is just one account of attacks by ICE agents being reported across Minnesota. O’Keefe spoke publicly today (Wednesday, 1/14/26) as local and state leaders highlighted escalating ICE activity, and announced that new, local, and live community briefings will begin soon.\n\nMinneapolis City Councilmember Aurin Chowdhury of Ward 12 says the short, livestream update will be like a newsletter to keep the public informed. She says the details are “forthcoming, and will be announced through our official channels.”\n\nYou can watch the entire press conference on YouTube on the City of Minneapolis’s account.\n\nTime stamp for the title quote in the video is 12:30: [https://youtube.com/live/--bkRXBFXww?feature=share](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fyoutube.com%2Flive%2F--bkRXBFXww%3Ffeature%3Dshare&data=05%7C02%7Cashley.walker%40mnnradio.com%7C090f1cb6080946d1482808de52fd153b%7C9ec27d530bd54273bb29f1a384648c78%7C0%7C0%7C639039444106781178%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=NjnzA9KgqPZ6q%2BVs6fZfjH3pDDN3IkeLOmbrA0gw9%2Bo%3D&reserved=0)\n\nMinnesota Public Radio coverage, audio interview with the two: [https://www.mprnews.org/episode/2026/01/13/minnesotans-describe-their-encounters-with-ice-agents](https://www.mprnews.org/episode/2026/01/13/minnesotans-describe-their-encounters-with-ice-agents)\n\nKare11 interview, visual interview with the two that shows a picture and video from the event: [https://youtu.be/Inn-sfiMcyE?si=e1Kf1hAdpH0IvgMY](https://youtu.be/Inn-sfiMcyE?si=e1Kf1hAdpH0IvgMY)",
+            "permalink": "/r/stpaul/comments/1qcx3x8/you_gotta_stop_obstructing_us_thats_why_that/",
+            "subreddit": "stpaul",
+            "createdUtc": 1768419564,
+            "isArchived": false,
+            "numComments": 3609
+          },
+          {
+            "id": "1xfzb0z",
+            "url": "https://i.redd.it/xohaqnvuttxh1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/xohaqnvuttxh1.jpeg?auto=webp&s=b22679994febce79ba13bec58cb08d727f369b2d",
+                "type": "photo",
+                "width": 1320,
+                "height": 1496
+              }
+            ],
+            "score": 21905,
+            "title": "First AI film in China was a flop",
+            "author": "No_Psychology8158",
+            "authorId": "24iwwnbqr3",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/antiai/comments/1xfzb0z/first_ai_film_in_china_was_a_flop/",
+            "subreddit": "antiai",
+            "createdUtc": 1793027006,
+            "isArchived": false,
+            "numComments": 559
+          },
+          {
+            "id": "1ulcf8i",
+            "url": "https://i.redd.it/9pv3cls42sah1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/9pv3cls42sah1.jpeg?auto=webp&s=82640401050b014e8776cf9be1f45ba4b1004073",
+                "type": "photo",
+                "width": 1440,
+                "height": 1676
+              }
+            ],
+            "score": 20899,
+            "title": "The Anti Ai Movement Has Reached Hollywood",
+            "author": "No_Top_9023",
+            "authorId": "trm48o19",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/BeAmazed/comments/1ulcf8i/the_anti_ai_movement_has_reached_hollywood/",
+            "subreddit": "BeAmazed",
+            "createdUtc": 1782981079,
+            "isArchived": false,
+            "numComments": 297
+          },
+          {
+            "id": "1wkv0b7",
+            "url": "https://i.redd.it/4g9kf2as1jqh1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/4g9kf2as1jqh1.jpeg?auto=webp&s=7ac75cd7923130dcfb9b11ced1fe983b0d67d84b",
+                "type": "photo",
+                "width": 3840,
+                "height": 2560
+              }
+            ],
+            "score": 17930,
+            "title": "AOC: \"We must make it clear now that should the AI bubble pop, Congress should not bail out Big Tech...Silicon Valley billionaires want us to believe that AI robots will destroy humanity. But the biggest threat to humanity are the tech oligarchs themselves.\"",
+            "author": "Zorosthirdsordx",
+            "authorId": "296mcsauxx",
+            "isLocked": false,
+            "selftext": "*Last weekend, Dario Amodei, the CEO of Anthropic, one of the largest AI companies in the world, publicly asked his industry to slow down AI development.*\n\n*Shortly after, Sam Altman, the CEO of OpenAI, followed suit. Then Elon Musk.*\n\n*This all came days after an Anthropic researcher quit, citing his belief that this technology could wipe out humanity and that AI companies are “gambling with our lives.”*\n\n*For years, people have warned that generative AI could slip out of our direct control.*\n\n*Those safety concerns must be taken seriously.*\n\n*And this is why I have advocated for strict safety standards on how AI is built and deployed, public oversight over this technology, and using existing laws to hold these companies accountable when they cause harm.*\n\n*But I want to draw your attention to another reality: Right now, the U.S. economy and our financial futures are riding on Silicon Valley’s bet that AI will soon be immensely profitable and pay off. And that bet isn’t looking good.*\n\n*The formula for a profitable business isn’t complicated: make more money than you spend. But the biggest AI companies aren’t doing that. They are spending hundreds of billions per year on data centers, chips, and other costs while their ability to make revenues that exceed their already-immense sunk costs are unclear. Experts estimate that these AI companies will require another $600 billion of debt just to finance themselves in 2026 alone. That is more than the entire budgets of the U.S. Departments of Justice, Transportation, and Education combined.*\n\n*Meanwhile, despite almost every single one of these companies not turning a profit and having sunk billions of investor dollars in development of data centers and other infrastructure, AI companies are also on a spending spree of hundreds of millions of dollars in lobbying and dark money in our elections.*\n\n*It would be one thing if we were discussing a few private companies with a poor business model. But last year, virtually all stock market gains - 80% - rested entirely on just a handful of AI* companies.\n\n*That tells us two things:*\n\n1. *Nearly the entire U.S. economy outside the AI industry is relatively stagnating and faring poorly and the gains from these few companies are disguising it; and*\n2. *Millions of people’s retirements - including their pensions, 401ks, and investments - are potentially exposed to this risk.*\n\n*That’s why these AI companies’ dubious financial positions matter to working people.*\n\n*These companies argue that debt is necessary. They’ll tell you that building transformative technologies requires upfront capital, and that massive borrowing today will pay off in generating unprecedented prosperity tomorrow.*\n\n*But this is not the typical debt that startups take on while they build out a company. We are talking about billions going on trillions of dollars leveraged with no indication that these companies will be able to recoup these funds profitably. And they are increasingly looking to the government as their source of cash.*\n\n*In an effort to hide their debt, tech companies have been relying on “circular financing” where tech giants like Google, Amazon, and Microsoft give billions to AI startups like OpenAI and Anthropic, only for those startups to hand that money right back to buy AI processing power.*\n\n*In other words, these AI companies are luring in new investors by making it look like their financials are healthier than they really are.*\n\n*What’s even worse is that retirement and pension funds are key to supporting this illusion.*\n\n*When the AI companies issue bonds to raise more money, your pension funds and retirement accounts are some of the biggest buyers. When Musk’s AI business went public, it became part of index funds where millions of Americans invest our savings. Many Americans don’t even know that their retirement investments are tied up in these companies at all.*\n\n*From Big Tech’s perspective, that’s a feature, not a bug. By tying our futures to their reckless gambling, AI billionaires are trying to make themselves too big to fail. They think they can take such dangerous risks because we will bail them out if things go wrong.*\n\n*Sound familiar? This scene is dangerously reminiscent of the rampant speculation, corruption, and broken incentives leading up to the 2008 financial crisis that plunged millions of working class Americans into financial chaos that we never fully recovered from.*\n\n*It is no accident that these warnings from Altman and Amodei come months - if not weeks - before these companies were meant to go public.*\n\n*When companies go public, they have to be more transparent about how they are doing financially. And after a waiting period, they typically have to let private investors - like their own employees - sell their shares.*\n\n*The New York Times recently confirmed that OpenAI has postponed going public for this very reason. They are in no rush for the truth about their finances to come out.*\n\n*But the moment these oligarchs began to seek our public tax dollars and public contracts while exposing their companies to public pension funds and investments, they opened themselves to public accountability and scrutiny.*\n\n*Silicon Valley billionaires have rigged the game and are attempting to shift their financial risk to working people: If they’re right about AI’s potential, they reap the profits. If they’re wrong and the bubble bursts, they are setting up the American people to pick up the tab.*\n\n*Heads, they win; tails, we lose.*\n\n*We can stop this, and we shouldn’t play their game. Together we can address both the economic and safety threats of unrestricted AI development and prevent financial chaos and stabilize market* ***risk.***\n\n*We must make it clear now that should the AI bubble pop, Congress should not bail out Big Tech.*\n\n*And across our federal agencies, we have the authorities and tools to hold AI companies and their leaders accountable for releasing dangerous, unvetted, and defective products. We must not wait.*\n\n*Silicon Valley billionaires want us to believe that AI robots will destroy humanity.*\n\n*But the biggest threat to humanity are the tech oligarchs themselves.*\n\n*It’s time we hold them accountable.*\n\n*Thank you for reading.*\n\n*In solidarity,*\n\n*Alexandria*",
+            "permalink": "/r/MurderedByAOC/comments/1wkv0b7/aoc_we_must_make_it_clear_now_that_should_the_ai/",
+            "subreddit": "MurderedByAOC",
+            "createdUtc": 1789845674,
+            "isArchived": false,
+            "numComments": 264
+          }
+        ],
+        "nextCursor": "cur_eYghz2Yb338bEonSp-9EVw"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-giraffe-5e3cbaa1",
+      "kind": "anonymous",
+      "name": "Giraffe",
+      "artworkKey": "giraffe"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00034",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:40:18.491Z",
+  "started_at": "2026-11-23T07:40:18.543Z",
+  "completed_at": "2026-11-23T07:40:20.942Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

@@ -1,0 +1,128 @@
+{
+  "id": "9195f4bd-9cbd-4ed2-9e67-c9476f9fd005",
+  "run_url": "https://app.glasser.ai/runs/9195f4bd-9cbd-4ed2-9e67-c9476f9fd005",
+  "provider": "serper",
+  "endpoint": "/search",
+  "endpoint_version": 2,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "q": "AI agent society simulation hackathon winner 2026 devpost agents living characters"
+  },
+  "output": {
+    "organic": [
+      {
+        "date": "Mar 15, 2026",
+        "link": "https://devpost.com/software/agentropolis",
+        "title": "Agentropolis",
+        "snippet": "Agentropolis is a society simulation running on a 3D map of Toronto. You can start a session and watch a city of AI characters come to life.",
+        "position": 1,
+        "displayedLink": "https://devpost.com › software › agentropolis"
+      },
+      {
+        "link": "https://agentsforhumans.devpost.com/",
+        "title": "Agents for Humans Hackathon: Build an AI agent with Strands ... - Devpost",
+        "snippet": "Build an AI agent with Strands Agents SDK that handles repetitive tasks. This hackathon has ended. Find more hackathons View the winners ... © 2026 Devpost, Inc.",
+        "position": 2,
+        "displayedLink": "https://agentsforhumans.devpost.com"
+      },
+      {
+        "link": "https://the-great-agent-hackathon.devpost.com/",
+        "title": "The Great Agent Hackathon: Build AI agents for the enterprise - Devpost",
+        "snippet": "Winners announced soon … a live Main Stage finale in front of India's top product leaders at TGPF. ElevenLabs, Sarvam, AWS, and Anthropic powering the build.",
+        "position": 3,
+        "displayedLink": "https://the-great-agent-hackathon.devpost.com"
+      },
+      {
+        "date": "Aug 2, 2026",
+        "link": "https://forum.uipath.com/t/i-built-an-ai-agent-for-a-global-hackathon-and-i-need-your-vote/5766107",
+        "title": "I built an AI agent for a global hackathon and I need your vote",
+        "snippet": "Hey I built an AI compliance agent called LexWatch for a global UiPath hackathon and I need your vote to win the People's Choice prize. just ...",
+        "position": 4,
+        "displayedLink": "https://forum.uipath.com › t › i-built-an-ai-agent-for-a-g... › 5766107"
+      },
+      {
+        "link": "https://deep-agents-hackathon.devpost.com/",
+        "title": "Deep Agents Hackathon: We've stacked real infra and real AI so ...",
+        "snippet": "In one sprint, build agents, copilots, and autonomous systems that actually work end to end. This hackathon has ended. Find more hackathons View the winners ...",
+        "position": 5,
+        "displayedLink": "https://deep-agents-hackathon.devpost.com"
+      },
+      {
+        "date": "Aug 24, 2026",
+        "link": "https://builder.aws.com/content/3INJ4miNJzex0c3YRxNY4CDehgQ/agents-for-humans-hackathon-build-ai-agents-that-improve-everyday-life",
+        "title": "Agents for Humans Hackathon: Build AI Agents That Improve Everyday Life",
+        "snippet": "The Agents for Humans Hackathon is a virtual hackathon challenging developers to build AI agents that solve real problems for real people.",
+        "position": 6,
+        "displayedLink": "https://builder.aws.com › content › 3INJ4miNJzex0c3YRxNY4CDehgQ › agents-for-humans-hackathon..."
+      },
+      {
+        "link": "https://www.facebook.com/Channel4News/videos/a-new-experiment-left-10-ai-agents-alone-in-a-virtual-town-for-15-days-they-wrot/940823918789419/",
+        "title": "A new experiment left 10 AI agents alone in a virtual town for 15 days. ...",
+        "position": 7,
+        "displayedLink": "https://www.facebook.com › Channel4News › ... › 940823918789419"
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=DCXjvKmUIGY",
+        "title": "How to Win the All Things Agentic Hackathon: Judging Criteria Live Q&A",
+        "snippet": "Christina Lin (DevRel Engineering Manager) and Willie Turney break down exactly what judges look for in the All Things Agentic Hackathon — then ...",
+        "position": 8,
+        "displayedLink": "https://www.youtube.com › watch"
+      },
+      {
+        "link": "https://authorizedtoact.devpost.com/",
+        "title": "Authorized to Act: Auth0 for AI Agents: Build an agentic AI ... - Devpost",
+        "snippet": "Build an agentic AI application using Auth0 for AI Agents Token Vault. This hackathon has ended. Find more hackathons View the winners. Who can participate.",
+        "position": 9,
+        "displayedLink": "https://authorizedtoact.devpost.com"
+      },
+      {
+        "link": "https://www.reddit.com/r/singularity/comments/1tqaq7p/emergence_ai_ran_a_simulated_society_on_claude/",
+        "title": "Emergence AI ran a simulated society on Claude, Gemini, Grok and GPT for ...",
+        "snippet": "The actual experiment: they ran the exact same city five times and only changed which model was running the agents. Claude, Gemini, Grok, GPT, ...",
+        "position": 10,
+        "displayedLink": "https://www.reddit.com › r › ... › emergence_ai_ran_a_simulate..."
+      }
+    ],
+    "relatedSearches": [
+      {
+        "query": "AI agent Hackathon 2026"
+      },
+      {
+        "query": "Agents for Humans hackathon"
+      },
+      {
+        "query": "All things Agentic hackathon"
+      },
+      {
+        "query": "Devpost Hackathon winners"
+      },
+      {
+        "query": "Devpost Google AI Hackathon"
+      },
+      {
+        "query": "AI Builders hackathon"
+      }
+    ],
+    "searchParameters": {
+      "q": "AI agent society simulation hackathon winner 2026 devpost agents living characters",
+      "type": "search",
+      "engine": "google"
+    }
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.001",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:36:35.060Z",
+  "started_at": "2026-11-23T07:36:35.104Z",
+  "completed_at": "2026-11-23T07:36:35.807Z",
+  "task_id": "tsk_965d2263a224d7b9",
+  "metadata": {}
+}

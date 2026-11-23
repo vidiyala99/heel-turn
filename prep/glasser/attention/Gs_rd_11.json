@@ -1,0 +1,591 @@
+{
+  "id": "8800a7de-b403-4bf7-8cf6-ceb9bfbf777b",
+  "run_url": "https://app.glasser.ai/runs/8800a7de-b403-4bf7-8cf6-ceb9bfbf777b",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "subreddit:IndieGaming AI NPCs",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "large_result: this response is ~63 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 25,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1pn0yev",
+            "url": "https://www.reddit.com/gallery/1pn0yev",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/3GYd7bSUOURzND4m9bLrjYf3CZsenLE0kR6HcCyqfcY.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 79
+              }
+            ],
+            "score": 317,
+            "title": "After six years of development, I’m finally revealing Mythologous, an online, living text RPG with emergent NPCs and Celtic myth.",
+            "author": "Certain-Capital-5206",
+            "authorId": "cc96w7ux9",
+            "selftext": "# Welcome to Mythologous\n\nAfter almost six years of quiet creation, 30,000 lines of code and probably as many cups of tea.. I’m finally ready to reveal Mythologous - a persistent, text-based open-world RPG sim and dungeon crawler, and a personal passion project I began in 2020.\n\nSteam link: [https://store.steampowered.com/app/4126230/Mythologous/?beta=0](https://store.steampowered.com/app/4126230/Mythologous/?beta=0)\n\nInspired by the games that defined my childhood. *The Elder Scrolls, Runescape, Star Wars Galaxies, The Sims, Dwarf Fortress, Demon’s Souls,* and even the legendary *Ultima* series. Mythologous aims to recapture something we’ve quietly lost in modern gaming: depth, immersion, and charm.\n\nFrom dungeon crawling and spellcasting to foraging, fishing, and crafting, Mythologous encourages deep role-playing and world immersion, and combines retro style game mechanics with some modern aspects such as Emergent NPC AI that is powered by a a proprietary AI state machine architecture programmed in C#.\n\nWhether you’re exploring a dungeon, commanding a companion, or performing a ritual, every system is built to feel tangible and interconnected - part of a living, breathing world.\n\nGenAI is used for NPC dialogue only, acting only as an expression layer for the underlying simulation but not a driver of behaviour or outcomes, or used as a replacement for authored content or writing.\n\nIts use is experimental and subject to iteration, but early results have been positive and have helped improve immersion so far.\n\n# == A World That Thinks for Itself ==\n\nAt the heart of the game lies a proprietary four-layer AI state machine, a system I’ve developed over the 6 years, inspired by *The Elder Scrolls IV: Oblivion*’s Radiant AI and then expanded far beyond it.\n\nThere are no scripted NPCs, no static spawns, quests are not scripted or explicit but come about due to circumstances, goals, and desires.\n\nAlthough Mythologous is text-driven, it’s closer in spirit to simulation first games like Dwarf Fortress or Caves of Qud than to narrative-led RPGs. The focus is on systems, world state, and emergent outcomes with text serving as the interface to that simulation.\n\nEach character in the land of Mythaera  (every farmer, merchant, guard, knight, and creature) lives their own life, sets their own goals, and reacts emergently to the state of the world around them. NPCs become hungry and shop to restock on food, the blacksmith gathers materials to produce goods to sell, the farmer supplies the baker, and bandits ambush players and NPCs alike and demand valuable possessions such as coins or exposed jewellery they might spot you wearing.\n\nTo bring even more life to this simulation, NPCs use generative AI for dialogue and conversational responses, allowing you to talk to them naturally, trade, question, or command them with real language, while the underlying simulation logic ensures the world remains stable and believable. NPC backstories, world lore and books are crafted by hand.\n\n# == Reimagining the Systems I Loved ==\n\nIt’s fair to say I’ve borrowed mechanics from those classics, but I’ve also reimagined and expanded them through this custom-built engine, which began as a personal experiment.\n\nFor the first few years, I worked on *Mythologous* quietly, on and off just to see if I could create a complex, self-sustaining world.\n\nThen one day, the simulation came together..\n\nAs systems began to merge, NPCs began to respond in ways I had not comprehended, all the while remaining emergent, immersive and believable, and from that moment, I was hooked.\n\nSince then, I’ve been fully committed to bringing this world to life.\n\nTo give the game’s UI and atmosphere the polish it deserved, I’ve worked with a small group of incredibly talented UI developers, artists, composers, and writers, helping to shape *Mythologous* into the world I imagined. It’s been a privilege to collaborate with such amazing people, and I can’t wait to show you more of their work.\n\n# == Key Pillars of Mythologous (WIP) ==\n\n**A World That Never Sleeps:** Every NPC eats, works, fights, sleeps, and remembers. The simulation keeps moving, even when you log off.\n\n**Emergent Radiant AI:** NPCs react to hunger, danger, reputation, wealth, and your actions, no scripted quests, just emergent behaviour. (Inspired by Oblivion's Radiant AI)\n\n**Natural Command & Interaction**: Type naturally to talk, trade, or command companions who respond based on trust and personality.\n\n**Extraction Dungeons**: Risk everything for deeper loot. Fall inside, and the dungeon keeps what you brought.\n\n**Hybrid Dungeon Engine**: Procedural generation built from handcrafted rooms and layouts for authentic, varied exploration every run with mobsters, NPCs, loot, traps and puzzles.\n\n**Magic Through Incantation:** Learn spells by typing real incantations. Mix reagents, experiment freely... sometimes disastrously.\n\n**Live Economy & Crafting:** Every crop, coin, and resource matters. Scarcity and greed shape the world’s balance.\n\n**Skills That Grow With Use**: No fixed classes. You become what you practice.\n\n**Proprietary Construction Set:** The entire overworld is built with our very own game and level editor, allowing handcrafted detail with rapid production.\n\n**Sound & Atmosphere:** A full original score and reactive SFX bring text and world to life.\n\n**Solo by Design, Party by Choice**: Adventure alone, or trust others (NPC or player), if you dare.\n\n>If you're interested in how this is bring built, a dev log can be found in the discord below!\n\n# == The World of Mythologous (Mythaera) 🌳🌙🐉 ==\n\nRooted in Celtic mythology yet reimagined into a living, unified world, Mythaera brings together legends and beings from across the Celtic cultures.\n\nFrom Redcaps and Leprechauns to Banshees and the dreaded Ellen Trechend, the land is alive with creatures both mischievous and benevolent.\n\nThe Fae weave through the forests and ruins, shaping fate in ways unseen. Every legend, every myth, every whisper belongs here, in one vast mythos reborn.\n\n# == The Mission ==\n\nI want to release Mythologous for free and share it with players who love games built on simulation, systems, and emergent storytelling.\n\nThis has been an amazingly challenging but creative journey so far, and a project that I’m committed to polishing and sharing with the world. I’m self-funding development and collaborating with creatives who share the vision.\n\nThere are no monetization plans right now - only the goal of building and releasing the best possible version of the game. That said, if this finds its audience, I’ll explore community-driven ways to support ongoing development that stay true to its spirit.\n\n# == Next Steps ==\n\nMythologous will be playable on desktop as well as in browser both on desktop and mobile. \n\n>Having a mobile build is a key part of the vision for accessibility to check on your character wherever you are and is something we've already made some great progress on.\n\nWe’ll be opening the game up for closed Alpha testing and welcoming in a limited number of first explorers to experience the initial demo scenarios we’re currently working on completing, these demo scenarios will showcase the core mechanics and pillars of what makes Mythologous unique as well as serve as player onboarding.\n\nThis timeframe is currently planned for early to mid Q1 2026. This will be followed by ‘hopefully’ a stable open Alpha later in 2026 with non-persistent scenarios and an open world persistent simulation with limited player abilities. Beyond that, the ultimate end goal is to release the fully persistent simulation with full player abilities and interaction with the polished core gameplay loop.\n\nAs we continue to complete and add more features to the game, community steer is something I’m planning on paying close attention to, particularly for certain features and aspects of the game that I’m still trying to shape.\n\n# Here is a look at the current timeline, some of these are TBC as things develop!\n\n**The Age of Opening (Pre-Alpha / Coming Soon) - NOW**\n\n>*The first rift tore through the skies of Mythaera, a wound between realms that would never fully heal. The air shimmers with omens, and whispers of those soon to cross over.*\n\nInitial announcement and discord dev log community opens.\n\n**The Age of Ghosts (Closed Alpha) – Mid Q1 2026**\n\n>*The spirits wander unseen, observers between life and death. They watch the cities breathe, the gates tremble, and the first echoes of power stir in the Otherworld.*\n\nPlayers exist as incorporeal spirits who can observe the living simulation. The world moves, NPCs live, but players have limited action within the persistent world. To test all game mechanics, isolated gameplay scenarios will allow players to explore all aspects of the world with full interactions.\n\n**The Age of Awakening (Open Alpha) – Timeframe TBC**\n\n>*The Veil weakens. The Tuatha Dé begin to take form and cross the veil in droves. The realms stir as mortal and myth alike feel the pull of convergence.*\n\nSame as closed alpha but with a publicly released demo build to be accessed by anyone.\n\n**The Age of Reckoning (Full Beta / Pre-Release)**\n\n>*The rift fully opens. War spills between worlds as the Otherworld’s denizens march. Heroes rise, cities fall, and the fate of Mythaera hangs in the balance.*\n\nFull release with persistent server to serve as a final testing ground before 1.0 release. All core pillars should be represented in game.\n\n**The Age of Myth (1.0 Launch)**\n\n>*The Tuatha Dé stand revealed, gods reborn among mortals. The veil is torn, the realms are one, and the myths of Mythaera live once more.*\n\nFull 1.0 release with persistent server and all core pillars / features\n\n# == The Veil Opens Soon ==\n\nOfficial Announcement Trailer:\n\nThe trailer showcases a new UI that is currently in concept!\n\n**🎬** [**Announcement Trailer**](https://youtu.be/0YeBlJ3IhdI) **🎬**\n\nYou can already glimpse the world, its art, music, and background here:\n\n**🌐** [**Mythologous**](https://mythologous.com/) **🌐**\n\nJoin the Discord to to access the dev log and become one of the first spirits of the Veil:\n\n**👻** [**Join the Veil (Discord)**](https://discord.gg/HjcpXBXJYM) **👻**\n\nAnd wishlist the game to be notified when the first Orb Gates open:\n\n**💫** [**Wishlist on Steam**](https://store.steampowered.com/app/4126230/Mythologous/?beta=0) **💫**",
+            "permalink": "/r/IndieGaming/comments/1pn0yev/after_six_years_of_development_im_finally/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1765781612,
+            "numComments": 62
+          },
+          {
+            "id": "1xkodht",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1xkodht/fleshgrinder_an_isometric_posapocalyptic/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/c3dsMjF2b3p1dnloMRinBfD30nlkv3a0fMJmpDxTh98FLr4xgm3B-gM-c3dU.png?width=140&height=78&format=jpg&auto=webp&s=457f7c89cce8890ce457991c7ab78dd7de9b8821",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 176,
+            "title": "Fleshgrinder - an isometric pos-apocalyptic action-rpg in the vein of Diablo 2, Fallout 1-2 and Alien Shooter",
+            "author": "D3c1m470r",
+            "authorId": "fx8kyy25",
+            "selftext": "Hey!\n\nI'm the solo developer of Fleshgrinder, which tries to present a possible dystopian future where most of the population has been infected with a digital virus, made possible by having invasive augmentations in our bodies, connected to our nervous system.\n\n\n\nImplants like Neuralink are bound to be commonplace in the near future to upskill our species and enable us to have faster and better control over computer systems.\n\n\n\nWhat happens when the information stops being one-way through these systems?\n\nWill they be able to manipulate us on such a level that an intelligent,\n\ndigital virus could take over the minds of the augmented population?\n\n\n\nPlayers of Fleshgrinder take on a desperate mission to lead a squad of maximum three operatives to try and stop this intelligent virus controlling us as a hive-mind, causing an extinction level incident in the near future.\n\n\n\nFeatures:\n\n\\- optional friendly fire and hardcore permadeath mode\n\n\\- dismemberment physics\n\n\\- resettable randomized mission areas in a persistent world\n\n\\- 30+ weapons, 60+ armors, augmentations, ammo types with penetration mechanics\n\n\\- highly randomized attributes on all gear with 6 rarity types\n\n\\- NPCs, side-quests, factions with reputation mechanics\n\n\\- 11 enemy types\n\n\\- terminal system controlling doors, light, alarms, with puzzles included\n\n\\- Genesis tiers which strengthen all monsters throughout the world once the virus accumulates enough materials by harvesting the infected with its infrastructure like the Fleshprocessor\n\n\n\nThe demo has 3 missions and you can try all classes now and was recently updated so the tutorial includes the minigun, while the game received a massive visual upgrade replacing sprite sheets, 2d pre-rendered sprites with 3d models and correcting animations.\n\n\n\nSteam page: [https://store.steampowered.com/app/5074630/Fleshgrinder/](https://store.steampowered.com/app/5074630/Fleshgrinder/)\n\n\n\nAll of the game's socials can be found on the steam page.\n\n\n\nGen AI was used for coding only.\n\n\n\nThanks!",
+            "permalink": "/r/IndieGaming/comments/1xkodht/fleshgrinder_an_isometric_posapocalyptic/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1793489131,
+            "numComments": 30
+          },
+          {
+            "id": "1xjvebx",
+            "url": "https://www.reddit.com/gallery/1xjvebx",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/t7sawg710pyh1.png?width=140&height=100&auto=webp&s=1a6ef6f39aff1df2d7551644ee0ed37dfa0dec31",
+                "type": "photo",
+                "width": 140,
+                "height": 100
+              }
+            ],
+            "score": 82,
+            "title": "*Looking for playtesters for Legato, a first person RPG in the style of King's Field with a PS1 look (20 Steam keys)",
+            "author": "lunaticedit",
+            "authorId": "9mesn",
+            "selftext": "Hey everyone. I've been working on a game called Legato for a while now and I'm looking for some new play testers. I've got about 20 Steam playtest keys to give out.\n\nIt's a first person action RPG, very much inspired by King's Field and the old PS1 dungeon crawlers. Slow combat, big dungeons, lots of exploring. It renders at a low resolution with an optional CRT filter (scanlines, S-Video, composite).\n\n**Story**\n\nYou wake up in a cave at the edge of the kingdom of Veyr and don't really remember how you got there. The people in the nearby village are forgetting things. Names first, then faces. The King hasn't been seen in seven years and nobody's allowed through the city gate. Everyone you talk to has their own version of what happened.\n\nIt's more sad than grim/dark. Lots of old churches, ruins, flooded and burned places, people trying to hang on to what they're losing. You piece the story together from talking to people and reading things you find.\n\n**Gameplay**\n\n* Combat is slow and deliberate. Enemies wind up before attacking so you can block, dodge, or parry and riposte. Some attacks glow red and can't be parried, so you need to move. Spamming attacks just drains your stamina.\n* Weapons scale with different stats - Swords, spears, axes, maces, flails, bows, crossbows.\n* Magic is called rotes. You learn them from inscriptions, books and NPCs.\n* Dungeons have puzzles built into them, like draining a flooded cloister or setting a line of signal glasses. Every boss has its own patterns.\n* Quest markers are optional. You can turn them off and just go by your journal if you prefer a more natural experience.\n* Works with controller or keyboard and mouse, though controllers are preferred.\n\n**What's in it**\n\nActs I and II are done. 9 main quest chapters, 20+ side quests (some with multiple endings), 7 dungeons, 5 bosses. Part of Act III is in too. It's still an alpha so there will be bugs.\n\n**What I'm looking for**\n\nMostly where you got stuck or lost, fights that felt unfair or too easy, parts that annoyed/bored you, and parts you wanted more of. And my favorite.. bugs!\n\nJoin the Discord, ask for a key, I'll get you one: [https://discord.gg/ffgaJugAU7](https://discord.gg/ffgaJugAU7)  \nRuns on Windows, Linux and Mac (Apple silicon only).\n\n**GenAI disclosure**  \n  \nI used AI coding assistants heavily while making this. The art, models and sounds are all generated using iterative procedural generation (no AI generators) - though the content is static (not procedural like No Man's Sky and the like). The game doesn't use AI at all when you play it.",
+            "permalink": "/r/IndieGaming/comments/1xjvebx/looking_for_playtesters_for_legato_a_first_person/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1793404623,
+            "numComments": 33
+          },
+          {
+            "id": "1xv2bww",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1xv2bww/arkansas_2125_im_slowly_getting_closer_to_the/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/aWd0anhhOW45YzFpMXIUemvHi0yGRWs4GrmVWlOfv-IuY3NZU8o5I7RVLb7y.png?width=140&height=78&format=jpg&auto=webp&s=ddf3dd72d1da966e01df74bd181757e80bba5560",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 44,
+            "title": "Arkansas 2125 I'm slowly getting closer to the full version",
+            "author": "Forward_Key_4937",
+            "authorId": "2fwl2nalom",
+            "selftext": "Hey, two days ago I released a new beta 0.8 update on Steam. I added a new language, Russian, because I have a few players from the East who like my game. I also added a new model of Donald Trump created by a Reddit user. I also have a new first aid kit model and two new static NPCs who smoke cigarettes to improve the game's atmosphere and give some life to the somewhat empty locations. I also added a retro filter, which is the ability to pixelate the game, which can be turned on or off. The pixelization capability is set as for 800 by 600 resolution.You feel like you're playing a game from that period. \n\nWhat's next? In the next version, I'll add the Italian language and replace the backgrounds with photos created using GPT chat with screenshots taken in the game engine. Why? I want you to notice that the game is primarily created by humans, not AI. Because this isn't my game, it's not Vibe coding done in four hours, it's just me at my desk with my favorite engine running. \n\nWhat do you think about the game's direction? Is it good, or should we keep the AI backgrounds? You can already see the first change at the end of the trailer. New graphics in the 3D model of the main character, the so-called capsule graphics ",
+            "permalink": "/r/IndieGaming/comments/1xv2bww/arkansas_2125_im_slowly_getting_closer_to_the/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1794557798,
+            "numComments": 20
+          },
+          {
+            "id": "1tpx2aj",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1tpx2aj/my_7yearold_daughter_and_i_are_building_an_rpg/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/g6l813bn4u3h1.jpeg?width=140&height=88&auto=webp&s=f6d7900e58418253b23428eaaeafb16c2c824d67",
+                "type": "photo",
+                "width": 140,
+                "height": 88
+              }
+            ],
+            "score": 40,
+            "title": "My 7-year-old daughter and I are building an RPG together - she designs the story, I code. Here's Tilda v0.3",
+            "author": "toben27_0815xy",
+            "authorId": "2cqeiznpef",
+            "selftext": "My daughter and I have been building this game evening by evening. She invents the story and characters, I write the code. She tests and complains, I fix and rebuild.\n\nTilda is a 2D RPG about a girl who discovers something is controlling the forest animals. Card-based combat, crafting, puzzles, NPCs.\n\nJust released v0.3 with full English translation and bug fixes based on community feedback.\n\nWould love to hear:\n\n\\- Does the game feel fun in the first 10 minutes?  \n\\- Is the card combat intuitive or confusing?  \n\\- Any moments where you got stuck?\n\n[https://toben27.itch.io/tilda-und-die-zeitschleife](https://toben27.itch.io/tilda-und-die-zeitschleife)\n\n  \nAI disclosure: The main characters (Tilda, Patch, the robot) and forest environment were originally designed by an artist. Additional assets were generated with AI tools based on her style, with manual cleanup. All code, game design, and story are human-made.",
+            "permalink": "/r/IndieGaming/comments/1tpx2aj/my_7yearold_daughter_and_i_are_building_an_rpg/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1779955588,
+            "numComments": 4
+          },
+          {
+            "id": "1xnog8e",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1xnog8e/a_sandbox_rpg_inspired_by_dwarf_fortress/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/NDQyYWV1ZjdtbHpoMVbsotEFYFzHUfwHlfPArts0mbbllCMKYJjr5sAoDp74.png?width=140&height=78&format=jpg&auto=webp&s=b5a29520c2b07f8893e72ef8b133a16cdf933487",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 33,
+            "title": "A sandbox RPG inspired by Dwarf Fortress Adventure Mode and Caves of Qud, with ToME4-style combat",
+            "author": "Mean-Plankton6122",
+            "authorId": "289wsl5wmr",
+            "selftext": "Hey everyone!\n\nI've been working on a 2D sandbox RPG called *Of Tales and Deeds*, inspired by Dwarf Fortress Adventure Mode and Caves of Qud, with turn-based combat inspired by ToME4.\n\nThe main idea is to create a living world where NPCs have their own routines, memories, relationships and goals. Cities have economies, factions compete, and things keep happening even when you're not around.\n\nI'm also working on procedural quests, guilds, politics and reputation, trying to connect everything so that your actions actually affect the world.\n\nThere's still a lot to improve, but the game is already playable, and I'd love to get some feedback!\n\nYou can try it for free here:  \n[https://defacci.itch.io/of-tales-and-deeds](https://defacci.itch.io/of-tales-and-deeds)\n\nI also just created a Discord server! I'm not much of a Discord user myself, but figured it could be a nice place to share feedback, report bugs or discuss ideas.\n\n[https://discord.gg/JCHtpMP4R](https://discord.gg/JCHtpMP4R)\n\n**A quick note about AI:** I've been programming for around 15 years, including 7 years working in big tech. The game's design, architecture and systems are all my own. I do use AI as a coding assistant for routine tasks, debugging and things I'd previously look up on Stack Overflow (which is pretty dead these days). It's a useful tool, but the technical decisions and direction are mine. There are no AI-generated assets in the game.",
+            "permalink": "/r/IndieGaming/comments/1xnog8e/a_sandbox_rpg_inspired_by_dwarf_fortress/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1793799605,
+            "numComments": 5
+          },
+          {
+            "id": "1vx3dwy",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1vx3dwy/when_time_runs_out_it_chases_you/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/MWV6MTF1cTB2YmxoMY3AZ3teUxmU8O_jWiltwTt9LVzrxrYDNVliLZH-prbX.png?width=140&height=78&format=jpg&auto=webp&s=dc8e6a3c5b25109cdcb3f33d7be29664a837cfd1",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 13,
+            "title": "When time runs out, it chases you.",
+            "author": "Anxious_Candle6135",
+            "authorId": "27lvs2iq7d",
+            "selftext": "A horror roguelike where every second and every death counts. Survival hinges on careful preparation: extract resources and trade with NPCs before launching expeditions across 3 deadly realms. You're on a strict timer—and every time you die, that timer permanently shrinks, pushing your odds of survival closer to zero.\n\n  \n**If you want to support me, you can wishlist on Steam:** Liminal Angel\n\n  \n\n\nGenAI Disclosure: As a solo dev, AI tools were only used to help generate and refine select textures and 3D models.",
+            "permalink": "/r/IndieGaming/comments/1vx3dwy/when_time_runs_out_it_chases_you/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1787579381,
+            "numComments": 1
+          },
+          {
+            "id": "1x824rz",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1x824rz/code_of_the_savage_my_ultimainspired_openworld/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/bWcyZGg4bmhyeXZoMQO38xw-GQJGHa9Qgy6ek4SIZ_AEW7iA6sckk8D0PfH6.png?width=140&height=78&format=jpg&auto=webp&s=0503bfb9191357d8909402ffe0c736b70cba119f",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 8,
+            "title": "Code of The Savage, my Ultima-inspired open-world RPG, now has a Steam demo",
+            "author": "EggbertDragon",
+            "authorId": "1uuzree0",
+            "selftext": "Hi everyone, I’m Geoff, the developer of Code of The Savage.\n\nIts an open world RPG inspired by Ultima 6 and 7, with exploration, NPCs going about their daily lives, and a world full of things to interact with. Go adventuring, get into trouble, or take a break to fish and bake some bread.\n\nThe public demo is now available on Steam. Check out the launch trailer.\n\nGive it a try. i would love to hear your feedback.  \n[https://store.steampowered.com/app/673100/Code\\_of\\_The\\_Savage/](https://store.steampowered.com/app/673100/Code_of_The_Savage/)\n\nAI disclosure: Ive used ai for coding assistance with debug tools etc, excel macros, and localization. - not used for creative writing, art or music.",
+            "permalink": "/r/IndieGaming/comments/1x824rz/code_of_the_savage_my_ultimainspired_openworld/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1792215148,
+            "numComments": 3
+          },
+          {
+            "id": "1xzkd0u",
+            "url": "https://www.reddit.com/gallery/1xzkd0u",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/g0oszpxhie2i1.png?width=140&height=78&auto=webp&s=ce4ac7db6f8ee01530fee7931f437e4d238b0f80",
+                "type": "photo",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 7,
+            "title": "My weird, nerdy, alien moon farm/life sim is out in Early Access, after four years of solo development (No AI)",
+            "author": "bluespruce_",
+            "authorId": "egpy2b1h",
+            "selftext": "Hi all, I’m a first-time solo developer, making the game [Cave Oasis at Shylake](https://store.steampowered.com/app/3689220/Cave_Oasis_at_Shylake/). It’s a quirky, hopeful, eco-futuristic farm/life sim focused on balancing community and ecosystem needs. It’s out in Early Access on Steam, and there’s a free demo available too!\n\nPlayers move to a small town on a moon after applying to be their new hydroponic greenhouse farmer. Then dust storms start to appear, threatening the precious sunlight reaching the town’s solar field and wild biomes. You’ll work with the town’s NPCs to grow, craft, research, and coordinate solutions to prepare the town for the coming storms.\n\nI was inspired by games like Stardew Valley, My Time in Portia/Sandrock, I Was a Teenage Exocolonist, and Eco. I’m also a huge fan of hopeful sci-fi books, and the game has a lot of similarity to the works of Becky Chambers, Kim Stanley Robinson, Nnedi Okorafor, Annalee Newitz, Ursula K. Le Guin and Octavia Butler.\n\nI’ve made everything in the game myself, including art, code, writing, and music/sound, with no generative AI used in any way. I’m using the Godot game engine and Blender 3D art software.\n\nI hope you all like it!",
+            "permalink": "/r/IndieGaming/comments/1xzkd0u/my_weird_nerdy_alien_moon_farmlife_sim_is_out_in/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1795021165,
+            "numComments": 1
+          },
+          {
+            "id": "1u0p47r",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1u0p47r/mythologous_a_livingworld_text_rpg_with_emergent/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/ZnRzampyZHJjNTZoMX81aUGrqTlnTjOflvONAwDtuTL9JNjVCuIH43ZY5Pnb.png?width=140&height=78&format=jpg&auto=webp&s=7f1fc430008d6cfb6c58c9bcfabd2236b3ef2398",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 7,
+            "title": "Mythologous, a living-world text RPG with emergent NPCs and Celtic myth",
+            "author": "Certain-Capital-5206",
+            "authorId": "cc96w7ux9",
+            "selftext": "Hi everyone, I’m a solo developer working on the recently announced game, Mythologous. Over the past 6 years I’ve been building this online text based old school RPG that’s inspired by classics like Ultima, The Elder Scrolls, and old school MUDs.\n\nThe game has a handcrafted overworld, emergent NPCs with schedules, responsibilities, needs and wants, running in a simulated world and economy.\n\nSupply is driven by NPCs and players, while demand is driven by environmental pressures, which can be directed by NPCs, players, or meta events. For example: bandit attacks, players buying up resources or stealing crops, or a meta event such as an invasion from Otherworldians as part of the underlying narrative.\n\nThere is a dungeon extraction loop. Dungeons are procedurally generated from handmade set pieces and stitched together by the engine, populated with monsters, bosses, NPC encounters, loot, extraction points, locked chests, and doors leading to special rooms. Orb shards are used to enter portals to dungeons, and each shard can lead to a different kind of place, ranging from common and relatively safe to rare and highly dangerous. Inspecting them can give clues as to where they lead, so you can prepare properly. Orb shards can also be traded.\n\n# Features\n\nHere are some key pillars from the game:\n\n* World simulation and economy\n* Emergent NPC behaviour\n* Dungeon extraction loop\n* Typed spell incantations with discovery and experimentation\n* Tactical combat system focused on stances, stamina, equipment, and preparation\n* Aiming for over 100 lore books with stories, histories and magical instruction manuals\n\nMore features include: Crafting, magic rituals, summoning, resource gathering, fishing, enchanting, several magic schools, smithing, multiple other non-combat skills, player owned houses and shops, and more.\n\n# Credit\n\nAbout 2 years ago, after the first 4 years of side hobby development, I had only a very basic command prompt style interface, while the underlying engine and systems began to come to life behind it.\n\nAt that point, I decided to begin investing in the project and formed a small team of creatives to help bring this game to life through art, illustrations, UI, music, and audio.\n\nAmong them are Michael Phillips, former ZeniMax / Elder Scrolls Online assistant art director; George Oldziey, composer on Ultima IX and Wing Commander; and Wes Johnson, known for character voices across The Elder Scrolls such as Sheogorath and Lucien Lachance.\n\n# Next steps\n\nWe’re now moving through a series of closed alpha waves as we build towards an open alpha, in the meantime, we have a small but growing community on Discord where I post updates regularly.\n\nIf interested, feel free to check the game out on Steam or via Discord. Alpha sign-up details can be found through either channel.\n\nSteam: [Mythologous on Steam](https://store.steampowered.com/app/4126230/Mythologous/)\n\nDiscord: [https://discord.gg/W5JhNjzXRJ](https://discord.gg/W5JhNjzXRJ)\n\n# Generative AI Statement\n\nGenerative AI is NOT used for world or character narrative writing, lore, game logic, audio, art, trailer voice over, or calculating outcomes of any kind. All those things are handcrafted, human authored, and deterministic within the Emergence Engine.\n\nThe game has a small optional AI assisted NPC commentary system for short form dialogue to remark on things happening around them and is not part of the core game mechanics. The feature is isolated, experimental, and subject to change or removal, pending community feedback.",
+            "permalink": "/r/IndieGaming/comments/1u0p47r/mythologous_a_livingworld_text_rpg_with_emergent/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1780963191,
+            "numComments": 1
+          },
+          {
+            "id": "1vrpxzh",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1vrpxzh/tuning_the_snow_scooter_physics_for_a/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/Mmc4emF0cDIzNWtoMbs4z-VuWTqK9qFyLQsCtS2_6RUna59DJOxEbKav6hHt.png?width=140&height=78&format=jpg&auto=webp&s=00ca49070162009f3571f610ce471e11377e857b",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 4,
+            "title": "Tuning the snow scooter physics for a time-pressure horror game.",
+            "author": "Anxious_Candle6135",
+            "authorId": "27lvs2iq7d",
+            "selftext": "horror roguelike where survival requires precise planning. The gameplay loops between a prep phase-gathering resources and trading with NPCs and expeditions through 3 deadly realms. Time is strictly limited, and every death drains what little you have left, drastically cutting your chances of success.\n\n**If you want to support me, you can wishlist on Steam:** [Steampage link](https://store.steampowered.com/app/5026530/Liminal_Angel/)\n\nGenAI Disclosure: As a solo dev, AI tools were only used to help generate and refine select textures and 3D models.",
+            "permalink": "/r/IndieGaming/comments/1vrpxzh/tuning_the_snow_scooter_physics_for_a/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1787061460,
+            "numComments": 1
+          },
+          {
+            "id": "1wf2q9n",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1wf2q9n/heres_hollow_cedar_so_far_wed_love_to_hear_your/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/cnptem5wYWU2OXBoMWBscBKMtbZ2LztC35k1SDM3nfgObyMaj9AQjhcWSRVV.png?width=140&height=78&format=jpg&auto=webp&s=1e75314635bf4f0a5c7c729bfb42678479c0e7a2",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 4,
+            "title": "Here's Hollow Cedar so far! We'd love to hear your feedback and suggestions.",
+            "author": "Willdabeast117",
+            "authorId": "a24fi7g7",
+            "selftext": "Wishlist: [https://store.steampowered.com/app/4890360/Hollow\\_Cedar/](https://store.steampowered.com/app/4890360/Hollow_Cedar/)\n\nThe first proper look at Hollow Cedar, and we’d love to hear your feedback. Good, bad, and especially your suggestions.\n\n**Before you watch it**, one thing. The trailer shows the game foundations: building, hunting, farming, weather. Foundations look the same in every game in this genre and we know it. The parts that make this different aren't in the video yet, so here they are in writing.\n\n**What we're actually going for**\n\nMost survival games give you a base and nobody to support/put in it. You build your perfect home and then it just sits there empty.\n\n**NPC recruitment.** You bring people into your base and they maintain it. Tend crops, gather, keep fires going, fight for you. The base keeps running while you're out. There are missions you need to take your NPC’s with you to get something done, so who you've recruited changes what you can attempt.\n\n**The story is the best progression route.** Solving the mystery is the faster way to get stronger than solo grinding. You don't have to follow it, but it pays if you do.\n\n**Reputation that matters.** What you've done, and do, changes how settlements and people deal with you.\n\n**No monsters.** Nothing crawled out of the ground. No demons, no zombies, no infected. The danger is the cold, the hunger, the weather, the wildlife, and the people who survived alongside you and want what you have.\n\nIt isn't about those four things just sitting next to each other. The point is how they interlock together.\n\n**The Background**\n\nWe're a small team who love survival games, with 1000s of hours into loads of different games, even setting up our own self-hosted 8 server cluster for ARK. During our party chat some time ago, we were chatting about all the games we played, what we liked, what we didn't like, what was missing. Then there was a 'light bulb' moment – Let's make our own! And with nearly 40 years of development experience, it looked like an exciting new challenge.\n\nThe concept of Hollow Cedar started to take shape!\n\nWe love a story and making that story relatable was important for us. We spent quite a while trying to work out what the story should be whilst starting to work on the core of the game. Then 2024 gave us the answer! AI, and where it's potentially heading.\n\n**The Story**\n\nAI took the jobs first, then the cameras, then the factories, the governments, hospitals, and courts. It happened slowly, one system at a time, and at every step it looked like progress.\n\nThen it went too far. The collapse that followed swept the world and left survivors clinging to life amongst abandoned towns, dense forests and crumbling infrastructure. Humanity split, and the survivors who remain still cannot agree on how to live.\n\nYou wake up after an accident, with no memory of who you were, and nobody is inclined to help you find out.\n\n**What's in it**\n\nAll the below is in and functional. Some of it is still being expanded or tweaked.\n\n**Survival**\n\n* 8sqkm. open world (still being built out)\n* Full weather system: clear, overcast, fog, wind, rain, thunderstorms, snow - the conditions affect your stats/health\n* Four seasons with time of day and a temperature that matters\n* Hunting, skinning and harvesting\n* Fishing and Farming, gated by season, so some crops only grow and certain fish only spawn, at certain times of the year\n* Death caches: you drop a buried temporary stash where you died, and you must go and dig it up (as does anyone else that wants to steal your stuff)\n* Buried storage, so you can stash your stuff in the ground and hide it away\n* Lockpicking and access/security systems\n\n**Base building**\n\n* Full building system with placement or ghost options\n* Tiered building options, along with base defences, traps, cctv\n* Crafting stations and specialist buildings (in, and still being added to)\n\n**People / Creatures**\n\n* NPC recruitment: you recruit people into your base and they maintain it. They tend crops, gather/harvest resources, keep fires going and fight for you, so your base keeps running while you're out in the world\n* Reputation that matters: what you've done changes how settlements and people deal with you\n* Creature taming and mountable companions that follow, fight and help you by harvesting what they can\n\n**Progression**\n\n* Story-driven levelling: chasing the mystery is the fastest way to get stronger, rather than straight up grind, so you don't HAVE to follow the story if you don't want to, but it helps.\n* Skill, Crafting and tech progression\n\n**Playing it**\n\nFirst and third person, playable solo, co-op or PvPvE servers for the MMO experience. Official or Self-hosted servers. Full controller support and key rebinding.\n\n**What we're not happy with yet**\n\nCombat. It's in and it works, but it isn't where it needs to be. We're working on the feel of it rather than the feature list at the moment, and multiplayer makes that a project on its own.\n\n**Where we're at**\n\nThe story is written and exists on paper, start to finish, and we're implementing it as the map gets built out. That's the work in front of us: building the world and putting the story in.\n\nWhen it hits Early Access, the intention is that it's the complete game. Full map, full story, finishable start to finish. The Early Access window is for catching the bugs playtests miss and polishing against real play, not for filling in missing content.\n\n**The video**\n\nYou might notice the odd marketplace asset as placeholder while our own assets are being produced. We'd rather tell you than have you find it.\n\nSteam page:[ https://store.steampowered.com/app/4890360/Hollow\\_Cedar/](https://store.steampowered.com/app/4890360/Hollow_Cedar/)\n\nHappy to answer anything, including the awkward ones. Would love to see you getting involved on our Discord also (links on Steam page).\n\n",
+            "permalink": "/r/IndieGaming/comments/1wf2q9n/heres_hollow_cedar_so_far_wed_love_to_hear_your/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1789290621,
+            "numComments": 5
+          },
+          {
+            "id": "1vxy8vv",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1vxy8vv/something_is_always_watching_in_my_game_liminal/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/ZG0waGN3YzFraWxoMXpshM7-Aabwx8MfCV1sIINmpSRdKNnMtz6unlgU3bjX.png?width=140&height=78&format=jpg&auto=webp&s=20ca2853dc58964a6e25ea755c9ef416c91f53c3",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 3,
+            "title": "Something is always watching in my game: Liminal Angel",
+            "author": "Anxious_Candle6135",
+            "authorId": "27lvs2iq7d",
+            "selftext": "Strategic survival meets time-pressure horror. This roguelike splits into two core phases: prep (gathering resources and trading with NPCs) and expedition (traversing 3 dangerous realms). With a strictly limited clock that bleeds extra time with every death, precise planning is your only way out.\n\n**If you want to support me, you can wishlist on Steam:** Liminal Angel\n\n  \n\n\nGenAI Disclosure: As a solo dev, AI tools were only used to help generate and refine select textures and 3D models.",
+            "permalink": "/r/IndieGaming/comments/1vxy8vv/something_is_always_watching_in_my_game_liminal/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1787660392,
+            "numComments": 1
+          },
+          {
+            "id": "1ueu37u",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1ueu37u/we_built_a_cybersecurity_spythriller_escape_room/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/NDgxN21lbnRoYjloMf13IC3tXEQ3PPccv2fdT8NZMU84hv6oxG8D67XIS0ZX.png?width=140&height=78&format=jpg&auto=webp&s=bfd309b23eca7019613c0eae26854a6b2cb9d241",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 2,
+            "title": "We built a cybersecurity spy-thriller escape room where the hacking runs on real VMs — Mission 1 just launched free",
+            "author": "zcliffe",
+            "authorId": "o32qz",
+            "selftext": "Hi folks, I'm a cyber security academic and the lead developer behind Hacktivity Games.  \n  \nThe game is SAFETYNET Holding Back the ENTROPY — a spy-thriller cybersecurity escape room. You play as an operative for SAFETYNET, a counter-intelligence agency, running ops against their rival organisation ENTROPY. Pick locks, decode messages, talk your way past NPCs through branching dialogue — then drop into a live Linux VM for the actual hacking.  \n  \nWhat makes it different: you can walk up to a PC in the game and find yourself on a Kali desktop. It's not a scripted terminal simulation (unlike literally every other hacking game) — it's a real virtual machine, running on the same infrastructure as our cybersecurity training labs.  \n  \nIt's beginner-friendly — Mission 1 introduces the security/hacking tools and techniques as you go, with in-character hints from your handler if you get stuck.  \n  \nFull disclosure: I'm the lead developer of Hacktivity (hacktivity.co.uk), a cybersecurity training platform with academic roots. AI tools were used at various points during development, alongside many years of work from human developers.  \n  \nMission 1 is free. Sign up at [hacktivity.co.uk](http://hacktivity.co.uk), no subscription needed to play.  \n  \nHappy hacking!",
+            "permalink": "/r/IndieGaming/comments/1ueu37u/we_built_a_cybersecurity_spythriller_escape_room/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1782345154,
+            "numComments": 5
+          },
+          {
+            "id": "1y109ee",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1y109ee/ive_release_my_new_game_blue_check_a_cozy/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/dHN0OHhwOTR4cTJpMVbsotEFYFzHUfwHlfPArts0mbbllCMKYJjr5sAoDp74.png?width=140&height=78&format=jpg&auto=webp&s=bb32facd02dfa84346fb5053ad5fc97504f10ecb",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 2,
+            "title": "I've release my new game, Blue Check, a cozy psychological horror about chats and loneliness",
+            "author": "PidoProductions",
+            "authorId": "2qm4s5voze",
+            "selftext": "A couple of weeks ago, I released my new game on Itch, and it's free!\n\nIt's called **Blue Check**. It's a cozy psychological horror where you can chat with NPCs. The replies are generated with a local AI (before you kill me for that, hear me out, please)\n\nI wanted to tell a story about how sad and frustrating it is to write to a friend, only to receive that damn \"blue check\". To achieve this, I thought it was a good idea to use AI in the only ethical way: just for text and local (no ChatGPT, no privacy issues, you can write anything you want)\n\nThis game tells a deeply personal and bittersweet story about loneliness, isolation, and the struggles we sometimes keep hidden inside ourselves\n\nI hope you give it a try!",
+            "permalink": "/r/IndieGaming/comments/1y109ee/ive_release_my_new_game_blue_check_a_cozy/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1795171098,
+            "numComments": 1
+          },
+          {
+            "id": "1whl488",
+            "url": "https://store.steampowered.com/app/5243030/By_the_GODS/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/22Wocbx6OYWKQus_E9tisedzh5n2hoaUX183QqfGQcQ.jpeg?width=140&height=80&auto=webp&s=5c66741ab7e0bd12fbf0511781bb58f3e91f8f15",
+                "type": "photo",
+                "width": 140,
+                "height": 80
+              }
+            ],
+            "score": 1,
+            "title": "I made a game, and it's on Steam!",
+            "author": "HowdelyDoodely",
+            "authorId": "edi8i9s5",
+            "selftext": "I'm a solo dev, spent a little over a year working on this in my free times. I wanted a lighthearted gambling game that could be set in almost any fantasy world. It takes Rock Paper Scissors and gives it a bit more depth. Play against 8 NPCs through a \"night\" at the tavern. Play your friends on multiplayer.   \n  \nI made the game on GameMaker, using the in-engine sprite editor for all art. Logic Pro X for the music and SFX, recording takes between planes and neighbors haha.\n\nAll of the art, music, sounds, characters, and mechanics, are all me 100%. I did use AI to help me with debugging and explaining things to me, so I can learn what I'm doing between Youtube and the Gamemaker manual. I'm an artist before anything. The game is by no means \"AI generated\", rest assured. Simply trying to learn this stuff, because I want to make games so bad. \n\nThanks for checking it out!\n\n",
+            "permalink": "/r/IndieGaming/comments/1whl488/i_made_a_game_and_its_on_steam/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1789527360,
+            "numComments": 1
+          },
+          {
+            "id": "1vvb7ne",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1vvb7ne/a_demonic_horse_is_blocking_your_only_way_forward/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/aDAxa2d1bno2eGtoMdigAeH3w_CrgsFYyllvRGxCgZmSpMZLzbdzpyJAI3b8.png?width=140&height=78&format=jpg&auto=webp&s=1ae9292e08c46de17f44114aacd6da0f7863b83d",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 1,
+            "title": "A demonic horse is blocking your only way forward.",
+            "author": "Anxious_Candle6135",
+            "authorId": "27lvs2iq7d",
+            "selftext": "Precise survival planning meets intense time pressure in this horror roguelike. Gather resources and deal with local NPCs during the preparation phase before risking it all in 3 deadly realms. Stay sharp: dying drains your total time limit, rapidly killing your chances of making it out.\n\n**If you want to support me, you can wishlist on Steam:** Liminal Angel\n\n\n\nGenAI Disclosure: As a solo dev, AI tools were only used to help generate and refine select textures and 3D models.",
+            "permalink": "/r/IndieGaming/comments/1vvb7ne/a_demonic_horse_is_blocking_your_only_way_forward/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1787401864,
+            "numComments": 1
+          },
+          {
+            "id": "1vuf6a2",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1vuf6a2/a_deer_in_the_distance_testing_thermal_imaging/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/MDgzeWh3bzQzcWtoMWnKWV27jCcJBk8eQQnxRJkj-p1temGrMkVxmE7cz6f0.png?width=140&height=78&format=jpg&auto=webp&s=274c66caca62ac5e24c1b1ec4c5a67420341cc43",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 1,
+            "title": "A deer in the distance. testing thermal imaging goggles. \"Liminal Angel\"",
+            "author": "Anxious_Candle6135",
+            "authorId": "27lvs2iq7d",
+            "selftext": "A survival-focused horror roguelike built around risk management. Stock up on materials and trade with NPCs, then launch high-stakes expeditions through 3 dangerous realms. You're fighting the clock, and every death directly reduces your remaining time.\n\n**If you want to support me, you can wishlist on Steam:** Liminal Angel\n\n\n\nGenAI Disclosure: As a solo dev, AI tools were only used to help generate and refine select textures and 3D models.",
+            "permalink": "/r/IndieGaming/comments/1vuf6a2/a_deer_in_the_distance_testing_thermal_imaging/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1787315810,
+            "numComments": 2
+          },
+          {
+            "id": "1wcns3e",
+            "url": "https://www.reddit.com/gallery/1wcns3e",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/devkdcqlupoh1.png?width=140&height=140&auto=webp&s=bf014a683ccf81fe6e2ba35fc0931ce0171efd1f",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 1,
+            "title": "Upcoming Idle desktop emergent storytelling ... thing.",
+            "author": "MrPhraust",
+            "authorId": "of2kawzr",
+            "selftext": "Hello all! I'm a developer currently in the process of creating some various games and other projects. However - A game I've been working on for about a year or so now, is nearing completion!\n\nI'm a gamer of the 80's and 90's and grew up with what is now \"retro pixel art\". I love the style, the way animations could feel alive with only a few alternating pixels. The artists of that era (Roberta Williams and her husband!) are legends to me.\n\nAs an ode to those old games of yesteryear I have created a fully living highly immersive pixel art cityscape. And you thought GTA was the only upcoming game with thousands of NPCS on a living schedule, explore buildings, time of day, weather, etc!\n\nLife Goes On: The City - an idle desktop companion that is a mix of ambient sound generator (soothing lapping water sounds, ambient weather, all dynamic and changing as the in game weather changes), emergent storytelling device, fidget toy, chill vibe creator, and whatever else.\n\nLGO:TC doesn't need your attention, it sits in a small 256x256 (or 512x512, you decide) window on top of your other windows and.. well.. goes on. The city is active and full of life... What you see in the images are the different ways the user can interact with the scene.. every window, every boat, every helicopter has NPCs doing their thing and responding to the city around them!\n\nSo what can happen? Well, for just a preview - here is what can happen in the program (this list is not complete, it does much more!)\n\n1: Full weather system, can even set to your local real time and weather so it mimics what you see outside your own window!\n\n2: day and night cycle\n\n3: thousands of NPCs on a real schedule, each one doing unique tasks at any given moment.\n\n4: \"spy\" on anything on the city, see what is going on and how they are responding to the city around them.\n\n5: ALIEN INVASIONS!\n\n6: In-game social media that responds to the changing world, talking about it and also just posting about their day.\n\n7: interact with the scene! left clicking let's you spy, right clicking lets you interact... right click a sailboat and watch the sails furl and unfurl, right click window washer platforms and watch the window washers start their shift.\n\n8: Full emergency response events with unfolding mini stories and events: two car collisions, police show up, a suspect runs?! backup is called, more lights show up on scene, suspect is running! meanwhile paramedics are stabilizing the patient, oh no their vitals are dropping! to the hospital! But it will never play out the same way twice.\n\n9: So. Much. More. To. Discover!\n\nTens of thousands of NPCs, endless replay-ability, no two experiences are ever the same! I'm sure I've forgotten things I wanted to mention, and there are things I left out for you to discover upon playing.\n\nThe purpose? There is none, at its heart its an ode to games of the past, all the click interaction and pixel RPG games of the 90's and 80's. It can be used to help keep you focused while working, give you something to fidget with when bored... So much!\n\nOh and did I mention it even has cheat codes? They are hidden throughout the city in various ways, find them, use them, have fun!\n\nThis is an upcoming release, still a few months out but hoping to get it released before Christmas!\n\nA note on AI: AI was used in this, but only in a performance testing way - I am not good at peformance optimization and catching memory leaks, etc. The AI in visual studio helps me find issues in these literally thousands of variables that run this program. So AI is used in a way that helps me fine tune my code so it works well on all systems!\n\nThanks and I hope everyone enjoys their day.",
+            "permalink": "/r/IndieGaming/comments/1wcns3e/upcoming_idle_desktop_emergent_storytelling_thing/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1789057067,
+            "numComments": 1
+          },
+          {
+            "id": "1txmwey",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1txmwey/after_2_years_of_solo_development_afterhours_i/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/N21ybW1ibDgxaDVoMZLSRd_ra-fmCeUcfm_tzcDwOgWx3ekBZ11QaGvM8Ga1.png?width=140&height=78&format=jpg&auto=webp&s=18393d4b7337d39f36cf19fe6d8f2bf5ab56fe58",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 1,
+            "title": "After 2 years of solo development after-hours, I finally have a short gameplay preview for my dark fantasy game, Bloodsalt. Does the art style fit the vibe?",
+            "author": "BloodsaltGame",
+            "authorId": "2abwc0fhbv",
+            "selftext": "Hey everyone! 👋\n\nI’m a solo dev, and for the past 2 years, I’ve been pouring my after-hours into bringing my dark fantasy world to life. It’s my very first game – **Bloodsalt**.\n\nIt’s a 2D Action RPG combining brutal combat with a cartoonish art style. I’m focusing on:\n\n* **Challenging combat** (parrying, dodging, and heavy strikes).\n* **Story-driven quests** where you team up with NPCs to fight side-by-side.\n* **A living world** (NPCs have actual daily routines—if a guard tells you he was patrolling the forest, it means you could have actually followed him back then and seen him do it!).\n\nI’ve just set up my Steam page! While I'm still working on the official trailer, I'm currently polishing a massive Demo (the entire Act 1, with over an hour of gameplay) that I will release very soon to see if I'm heading in the right direction.\n\nI’m super nervous to finally show this, but I'd love your honest feedback on this short clip. What do you think of the art style? Is this a game you would play?\n\nIf you’d like to get notified when the free Demo drops, wishlisting the game would mean the world to me: [Bloodsalt on Steam](https://store.steampowered.com/app/4543740/Bloodsalt/)\n\n(As per subreddit rules regarding AI: I used AI tools to translate the game and this post into English, and to generate some temporary placeholder sound effects, which will be entirely replaced in the final version of the game).\n\nThank you!",
+            "permalink": "/r/IndieGaming/comments/1txmwey/after_2_years_of_solo_development_afterhours_i/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1780670480,
+            "numComments": 1
+          },
+          {
+            "id": "1uku97q",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1uku97q/devlog_1_turdventure_week_1_update_cop_chases/",
+            "nsfw": false,
+            "media": [],
+            "score": 1,
+            "title": "[Devlog #1] Turdventure – Week 1 update: cop chases, doorbell pranks, and the messiest comedy-arcade game you'll see this year",
+            "author": "Wide_Profession4353",
+            "authorId": "2h9dsanqsy",
+            "selftext": "Hey r/indiegaming!\n\nI'm a solo/duo indie dev (SQUIXX) working on **Turdventure**, a comedy-arcade mobile game built in Unity.\n\nThe premise: you're walking your dog and you have to decide whether to scoop the poop before the cops arrive — or strategically leave it as a trap for unsuspecting pedestrians to step on, earning you points. It's chaotic, it's absurd, it's deliberately gross in a cartoon way 😂\n\n**This week's progress:**\n\n🎮 **Mechanics implemented:**\n- **Cop chase**: when you leave evidence on the sidewalk too long, the officer spots it and comes running after you\n- **Doorbell Prank**: place the bag on a doorstep, ring the bell, and run before the homeowner steps on it for bonus points\n- **Pedestrian reactions**: colorful explosion effects when NPCs step on your \"surprises\"\n- **World map screen**: first version with explosion effect for level selection\n\n🚀 **Bonus milestone:** Steam page just submitted for Valve review — release date set for July 30, 2026!\n\n📹 **Video previews:** just posted our first clips on YouTube/TikTok if you want to see the chaos in motion!\n\n**What I'm working on next:**\n- Scoring system and combos\n- Pedestrian AI with different behaviors (baby stroller, cyclist, runner, dog owner rival...)\n- First playable build\n\n*GenAI disclosure (corrected on 3 August 2026 - the original wording here was inaccurate and understated it): the game was designed, coded and developed by one person. Generative AI was used to produce the visual assets and the audio, all of it reworked by hand afterwards; the text was written by me together with AI; one promotional video was generated with Kling AI. Design, code and gameplay are mine.*\n\nWould love feedback on the concept — is this the kind of absurd humor that clicks with you, or is it a hard sell?\n\nDiscord: discord.gg/edKprkQaHD",
+            "permalink": "/r/IndieGaming/comments/1uku97q/devlog_1_turdventure_week_1_update_cop_chases/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1782931502,
+            "numComments": 2
+          },
+          {
+            "id": "1xe866y",
+            "url": "https://www.reddit.com/gallery/1xe866y",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/yv5i41izyexh1.png?width=140&height=140&auto=webp&s=00b244c96eb2d27cabc280c642f1528be73e0fe1",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 1,
+            "title": "I'm making a cosy multiplayer game, but I wanted the world to feel like it's hiding something",
+            "author": "Danfable",
+            "authorId": "begu1",
+            "selftext": "This is Meridian. You get your own room to make a home in, meet other players, trade furniture and take on jobs around the building. Then there are places like the Overlook, where everyone can sit around chatting beside that enormous shaft.\n\n\n\nI want the history of the place to give people something to wonder about together. How much mystery would you want in a social game like this: something you actively investigate, or little things you gradually piece together while playing?\n\n\n\nThese are screenshots from the game. The Overlook crowd is staged with NPCs; the beta community is still tiny. There's an iPhone beta if you'd like to explore: [https://www.keepmeyoung.uk/meridian](https://www.keepmeyoung.uk/meridian)\n\n\n\nAI disclosure for the sub's rules: some assets were hand-drawn using AI-generated references, and some in-game voices are AI-generated. AI also assisted with code and marketing copy.",
+            "permalink": "/r/IndieGaming/comments/1xe866y/im_making_a_cosy_multiplayer_game_but_i_wanted/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1792847153,
+            "numComments": 1
+          },
+          {
+            "id": "1xa2gje",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1xa2gje/fleshgrinder_a_solodeveloped_isometric_horror/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/NDdtNnI0b2o4Z3doMQFUs4wTa3ysGkkO2U9PiLGbs6XKBgQLCmRgT9fjJOn4.png?width=140&height=78&format=jpg&auto=webp&s=11a056b9945f491a50faf8cda060a8c2880e3a28",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 1,
+            "title": "Fleshgrinder - a solo-developed isometric horror ARPG - free demo participating in Steam Next Fest starting right now! (Oct 19-26)",
+            "author": "D3c1m470r",
+            "authorId": "fx8kyy25",
+            "selftext": "Hey!\n\nThe video is purely demo gameplay which you can try now at  \n[https://store.steampowered.com/app/5074630/Fleshgrinder/](https://store.steampowered.com/app/5074630/Fleshgrinder/)\n\nFleshgrinder tries to present a possible dystopian world where a digital virus that can infect humans goes on its own agenda,\n\nsince the infection vector is really high after most of us will have cybernetic augmentations to upskill our species with\n\naugmentations like Neuralink.\n\nIn the game's story, SynTech is responsible for research and development of these implants and since they are running proprietary\n\nsoftware on these augs inside our bodies connected to our nervous system, their latest research in Terminus Points Genesis Chamber\n\nto digitally try to enhance the species through DNA mutations goes terribly wrong. They created a digital virus that appears to behave\n\nin a hive-minded manner that takes over the minds of anyone who can be infected through their wireless protocols,\n\ndirect contact with infected tissue, or other supply-chain based attacks.\n\nIt harvests DNA by collecting biomass, while rare-earth metals and other synthetic materials are also a vector\n\nso that it can create mutants and evolve them.\n\nIngame, this is reflected by the Fleshgrinder infrastructure with machines like the Fleshprocessor and Fleshprinter,\n\nwhich takes humanoids as inputs and outputs different types of monsters while collecting materials that can advance\n\nthe Genesis Tiers - strengthening all monsters throughout the world and spawning attacks on the player.\n\nFeatures optional friendly fire, hardcore permadeath mode,\n\ndismemberment physics, randomized mission areas, 30+ weapons, 60+ armors, augmentations,\n\nconsumables, ammo types with deep penetration mechanics and tons of loot with highly randomized attributes.\n\nNPCs with lots of side-quests and a faction reputation system which determines trade prices,\n\ndialogue choices and overall behaviour. 11 unique enemy types in a huge persistent world where everything stays as you left it.\n\nGen AI was only used for code, every content and ingame asset is human made.\n\nHope you liked this description! If you do, feel free to wishlist and try out the demo.\n\nThanks!",
+            "permalink": "/r/IndieGaming/comments/1xa2gje/fleshgrinder_a_solodeveloped_isometric_horror/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1792429323,
+            "numComments": 1
+          },
+          {
+            "id": "1xvgr9o",
+            "url": "https://bladeandbranch.itch.io/blade-and-branch",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/ZrN39Sg4KrL6GUD-vMwPTXg0TNhjoZQM_mXR5JkRgYU.png?width=140&height=111&auto=webp&s=78a9f4b4866b225f4699166823cb79868c4b23da",
+                "type": "photo",
+                "width": 140,
+                "height": 111
+              }
+            ],
+            "score": 1,
+            "title": "I created Blade and Branch, a free survival crafting game on Itch. Available now.",
+            "author": "BladenBranch",
+            "authorId": "2pf1i0dhg4",
+            "selftext": "Disclaimer: I made this with Claude assistance, on pretty much everything. I have made it free to play because of this, I find it fun and wouldn't charge money for something that AI played the biggest part of.\n\nBlade and Branch is an open world survival crafting game set in an english folklore setting. Not entirely too far off from Witcher series. It has online co-op through Hamachi or Tailscale. You can build your own village, create Kin that join your village, and you can actually chat with them and give them commands such as bring 60 sticks here all through typed conversation. The world is a living ecosystem where prey and predators are in a delicate balance. too little prey and the predators will begin to roam to find food or begin eating eachother.\n\nOverall I kind of wanted the skill progression of WURM and Life is Feudal, with better combat and graphics I enjoy a lot more. This is a brutal game where anythign can kill you, your village can be burned to the ground by raiders, and you can also go to war with other NPC villages just by how you interact with the world, whether you aid them with their bounties or by killing beasts terrorizing their area, or whether you choose to capture their villagers and sacrifice them for your own personal gains.\n\nThe entire worlds history is known and learned by NPC's in the world, if you slay a troll they may begin calling you by your name \\_\\_\\_\\_\\_\\_\\_ Trollsbane, etc... I am trying to make the NPC conversation as robust and interesting as possible without ever adding an LLM to the game as I don't have any intention of adding an ai to people's computers.\n\nAnyway, thanks for reading the post!",
+            "permalink": "/r/IndieGaming/comments/1xvgr9o/i_created_blade_and_branch_a_free_survival/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1794597028,
+            "numComments": 1
+          },
+          {
+            "id": "1w0nnu2",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1w0nnu2/all_creature_in_the_tall_grass_in_liminal_angel/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/bjhyZHg3ZDBuM21oMRcDtL_RA5dMTjjOPdMfxRVSwF_DPJsI4Mu5_XC85OM-.png?width=140&height=78&format=jpg&auto=webp&s=2718e2ed6773ff1e6ed124f52a2d0f4b06a93c24",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 1,
+            "title": "all creature in the tall grass in LIMINAL ANGEL",
+            "author": "Anxious_Candle6135",
+            "authorId": "27lvs2iq7d",
+            "selftext": "In this horror roguelike, time is literally your life force. You spend the prep phase gathering resources and trading with NPCs before heading into 3 unforgiving realms. The twist? Every time you die, your overall timer shrinks, rapidly closing your window for escape.\n\n**If you want to support me, you can wishlist on Steam:** Liminal Angel\n\n\n\nGenAI Disclosure: As a solo dev, AI tools were only used to help generate and refine select textures and 3D models.",
+            "permalink": "/r/IndieGaming/comments/1w0nnu2/all_creature_in_the_tall_grass_in_liminal_angel/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1787915676,
+            "numComments": 1
+          }
+        ],
+        "nextCursor": "cur_kPgDf-yF02DqhBAGfE4dSg"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-bison-9321fc54",
+      "kind": "anonymous",
+      "name": "Bison",
+      "artworkKey": "bison"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00035",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:42:46.359Z",
+  "started_at": "2026-11-23T07:42:46.824Z",
+  "completed_at": "2026-11-23T07:42:49.838Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

@@ -1,0 +1,108 @@
+{
+  "id": "5282232f-f593-45f9-84d3-6436a81d64ef",
+  "run_url": "https://app.glasser.ai/runs/5282232f-f593-45f9-84d3-6436a81d64ef",
+  "provider": "serper",
+  "endpoint": "/search",
+  "endpoint_version": 2,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "q": "Universal Hackathon Crewbase Collective winners 1st place devpost OR luma"
+  },
+  "output": {
+    "organic": [
+      {
+        "link": "https://www.linkedin.com/posts/promptql-io_universal-hackathon-create-your-own-ai-activity-7517705601293062145-EiYQ",
+        "title": "Universal Hackathon - Create Your Own AI Workforce | AWS Builder Loft",
+        "snippet": "Join us at the Universal Hackathon this Monday, October 19, at Amazon Web Services (AWS) Builder Loft in San Francisco.",
+        "position": 1,
+        "displayedLink": "https://www.linkedin.com › posts › promptql-io_universal-hacka..."
+      },
+      {
+        "link": "https://crewbasecollective.com/events",
+        "title": "Hackathons, Workshops & Events - Crewbase Collective",
+        "snippet": "Universal Hackathon. Oct 19, 2026. 9:30 AM – 8:30 PM. AWS Builders Loft, 525 ... Get updates on upcoming hackathons, workshops, and community events across the ...",
+        "position": 2,
+        "displayedLink": "https://crewbasecollective.com › events"
+      },
+      {
+        "link": "https://luma-hackathon-500.devpost.com/",
+        "title": "LUMA Pitch Competition (July 3rd - 10th): Pitch your idea, win $130 in ...",
+        "snippet": "Pitch your idea, win $130 in subscription prizes guaranteed! This hackathon has ended. Find more hackathons View the winners ... 1st Place. 1 winner. Wolfram ...",
+        "position": 3,
+        "displayedLink": "https://luma-hackathon-500.devpost.com"
+      },
+      {
+        "link": "https://multimodal-frontier-hackathon.devpost.com/",
+        "title": "Multimodal Frontier Hackathon: We've stacked real infra and ... - Devpost",
+        "snippet": "winners -- 1st place: $1000 cash plus $1000 in credits -- 2nd place: $600 in credits … 1st: $500 cash, $5000",
+        "position": 4,
+        "displayedLink": "https://multimodal-frontier-hackathon.devpost.com"
+      },
+      {
+        "link": "https://luma.devpost.com/",
+        "title": "LUMA Pitch Competition: Pitch your idea, for prizes worth $52800 ...",
+        "snippet": "Pitch your idea, for prizes worth $52800! (Cash for winner + subscriptions for all!) This hackathon has ended. Find more hackathons View the winners ...",
+        "position": 5,
+        "displayedLink": "https://luma.devpost.com"
+      },
+      {
+        "link": "https://la-hacks-2026.devpost.com/",
+        "title": "LA Hacks 2026 - Devpost",
+        "snippet": "1st Place: $1,500 … 1st Place: $3,000. Prizes: 1st Place: ASUS Ascent GX10 supercomputer + ASUS Zenscreen portable monitors ($4000+ value),",
+        "position": 6,
+        "displayedLink": "https://la-hacks-2026.devpost.com"
+      },
+      {
+        "date": "6 hours ago",
+        "link": "https://luma.com/finch-jd7i",
+        "title": "Multiplayer AI Hackathon (Thanksgiving Special) | 2K+ Prizes",
+        "snippet": "​1st Place: 1 year of AdaL Pro ($240 value) ​Crewbase Collective is organization running hackathons and events across the San Francisco.",
+        "position": 7,
+        "displayedLink": "https://luma.com › finch-jd7i"
+      },
+      {
+        "link": "https://devpost.com/submit-to/29606-luma-pitch-competition-july-3rd-10th/manage/submissions",
+        "title": "My hackathon projects",
+        "snippet": "This hackathon has ended. View the winners View schedule Apr 11 – Jul 10, 2026 Online Public $130 in cash 751 participants. This hackathon has closed.",
+        "position": 8,
+        "displayedLink": "https://devpost.com › submit-to › ... › submissions"
+      },
+      {
+        "link": "https://global-innovation-challenge-v1.devpost.com/project-gallery",
+        "title": "Global Innovation Build Challenge V1 - Devpost",
+        "snippet": "A global online hackathon open to all studemts, encouraging innovation and optionally using AI for creative projects.",
+        "position": 9,
+        "displayedLink": "https://global-innovation-challenge-v1.devpost.com › project-gallery"
+      },
+      {
+        "date": "Apr 26, 2026",
+        "link": "https://www.startupgrantsindia.com/competitions/luma-hackathon",
+        "title": "LUMA Hackathon! (2026): Results & Updates",
+        "snippet": "US$110,000 in prizes, with US$37,000 (about ₹35.2 lakh) for first place. Funding & Benefits. Up to ₹35.15L. Funding amount breakdown, perks ...",
+        "position": 10,
+        "displayedLink": "https://www.startupgrantsindia.com › competitions › luma-hackathon"
+      }
+    ],
+    "searchParameters": {
+      "q": "Universal Hackathon Crewbase Collective winners 1st place devpost OR luma",
+      "type": "search",
+      "engine": "google"
+    }
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.001",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:36:31.358Z",
+  "started_at": "2026-11-23T07:36:31.392Z",
+  "completed_at": "2026-11-23T07:36:32.962Z",
+  "task_id": "tsk_965d2263a224d7b9",
+  "metadata": {}
+}

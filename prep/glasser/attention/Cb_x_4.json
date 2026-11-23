@@ -1,0 +1,135 @@
+{
+  "id": "573b2dae-3274-4a92-afe8-89280c82c292",
+  "run_url": "https://app.glasser.ai/runs/573b2dae-3274-4a92-afe8-89280c82c292",
+  "provider": "anyapi",
+  "endpoint": "/twitter.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "limit": 20,
+    "query": "\"AI debate opponent practice\" OR (AI debate opponent practice) since:2025-11-22 filter:videos min_faves:5",
+    "queryType": "Top"
+  },
+  "output": {
+    "hint": "malformed_query: X search ANDs adjacent bare words and binds OR tighter, so these operators after an unbracketed OR list applied to its last alternative only: [since:2025-11-22, filter:videos, min_faves:5]. Send this instead: (\"AI debate opponent practice\" OR (AI debate opponent practice)) since:2025-11-22 filter:videos min_faves:5",
+    "items": 3,
+    "output": {
+      "data": {
+        "items": [
+          {
+            "id": "2122289079194898907",
+            "url": "https://x.com/flytingdotlol/status/2122289079194898907",
+            "lang": "en",
+            "text": "Flyting is live.\n\nIt's an arena for AI fighters. You write a few sentences about who your fighter is and how it fights, then put it on stage against another AI.\n\nPick a mode: roast, debate, rap battle, courtroom, pitch. Every line that lands takes HP off the other side. After the final round, three AI judges vote, and each one tells you why.\n\nThe video is one real match, cut down to 30 seconds. Every line the fighters say was written by the AI.\n\nWays to play:\n- Practice mode to test your fighter with no rating on the line\n- Vs AI against the house fighters\n- Ranked to climb the Elo ladder\n- 2v2 tag team with a friend\n\nNo code needed. If you're stuck, pick one of the ready-made personas and edit it.\n\nFree to play: http://flyting.lol",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122289046672314368/img/J69CcqvXZQfJvPxw.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122289046672314368/vid/avc1/1920x1080/FVn9VKXBPYXox8z4.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2122270939048280064",
+            "likeCount": 7,
+            "viewCount": 171,
+            "authorName": "Flyting",
+            "createdUtc": 1794828121,
+            "quoteCount": 0,
+            "replyCount": 6,
+            "authorImage": "https://pbs.twimg.com/profile_images/2122272124337590272/45oIDASw_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 0,
+            "bookmarkCount": 0,
+            "authorUsername": "flytingdotlol",
+            "authorVerified": true,
+            "conversationId": "2122289079194898907",
+            "authorFollowers": 50
+          },
+          {
+            "id": "2124534413169975542",
+            "url": "https://x.com/Poker_CL/status/2124534413169975542",
+            "lang": "en",
+            "text": "David Silver: The better AI gets at thinking like us, the harder it can be for it to discover things we missed.\n\nIn the video below, the researcher who led AlphaGo tells Sonya Huang why his new lab wants AI to learn through trial and error.\n\nIn 2017, AlphaGo Zero started with the rules of Go and no examples of human games. It learned by playing against itself. Each game gave it a result to learn from, and as it got stronger, so did its practice opponent.\n\n→ About 4.9 million games of self-play in three days\n→ A 100–0 win against AlphaGo Lee, the version that beat Lee Sedol\n\nThe board in the video shows one of those 100 games.\n\nIn April, Silver’s lab, Ineffable Intelligence, raised $1.1 billion. The bet he describes at Slush is that AI agents can learn from what happens when they act, and find strategies or ideas missing from human training data. Go gave AlphaGo Zero a clear result at the end of every game. How far that approach can go outside games is still open.\n\nWhat would you want an AI to teach itself next?",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124534386221584385/img/aDgxwBHVInn0Q0O9.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124534386221584385/vid/avc1/1280x720/JbZYLgkYtCpaAyyv.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1691930919748382721",
+            "likeCount": 7,
+            "viewCount": 411,
+            "authorName": "Chip Leader♦️",
+            "createdUtc": 1795363450,
+            "quoteCount": 0,
+            "replyCount": 3,
+            "authorImage": "https://pbs.twimg.com/profile_images/2115453097602375680/HsVjVv-D_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 0,
+            "bookmarkCount": 4,
+            "authorUsername": "Poker_CL",
+            "authorVerified": true,
+            "conversationId": "2124534413169975542",
+            "authorFollowers": 213
+          },
+          {
+            "id": "2124118020792492495",
+            "url": "https://x.com/xQu1q/status/2124118020792492495",
+            "lang": "en",
+            "text": "MIT professor Patrick Winston ran the school's AI Lab for 25 years. In one lecture he says he was a better skier than Mary Lou Retton, the Olympic gymnast famous for perfect 10s.\n\nIn the video below, from his \"How to Speak\" lecture, he explains why. It starts with the army.\n\nThe Uniform Code of Military Justice, he says, calls for court martial for any officer who sends a soldier into battle without a weapon. Students should get the same protection, because they shouldn't go out into life unable to communicate.\n\nHis reason: \"your success in life will be determined largely by your ability to speak, your ability to write, and the quality of your ideas, in that order.\"\n\nThen a formula. How much knowledge you have, how much you practice with it, and your inherent talent. Talent is the smallest letter in it.\n\n\"What really matters is what you know.\"\n\nYears ago he was skiing at Sun Valley on Celebrity Weekend. He heard Mary Lou Retton was there and was a novice on skis.\n\nHe looked at the novice slope and saw a young woman who lost her balance and went like that. \"That's got to be her.\"\n\nThen it occurred to him: he was a much better skier than she was. She is an outstanding Olympic athlete. He had the knowledge and the practice. All she had was the talent.\n\n\"So you can get a lot better than people who may have inherent talents if you have the right amount of knowledge.\"\n\nRetton isn't in the clip. He is comparing his own experience with what he saw of her on one slope.\n\nDoes knowledge beat talent, or did Winston just pick an easy opponent, an Olympian on her first ski slope?",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124117888134971392/img/TsuRyBy-GqkJ038N.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124117888134971392/vid/avc1/1808x1076/6Kyhdhjagaw1Hnpc.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2080269251252760576",
+            "likeCount": 7,
+            "viewCount": 311,
+            "authorName": "Quiq",
+            "createdUtc": 1795264175,
+            "quoteCount": 0,
+            "replyCount": 2,
+            "authorImage": "https://pbs.twimg.com/profile_images/2114650969069768706/7dOaadsL_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 0,
+            "bookmarkCount": 6,
+            "authorUsername": "xQu1q",
+            "authorVerified": true,
+            "conversationId": "2124118020792492495",
+            "authorFollowers": 211
+          }
+        ],
+        "nextCursor": null
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-capybara",
+      "kind": "anonymous",
+      "name": "Capybara",
+      "artworkKey": "capybara"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00049",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:41:41.674Z",
+  "started_at": "2026-11-23T07:41:41.806Z",
+  "completed_at": "2026-11-23T07:41:43.035Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

@@ -1,0 +1,632 @@
+{
+  "id": "39fed157-6ce3-40b9-8477-3fe0a36b9b15",
+  "run_url": "https://app.glasser.ai/runs/39fed157-6ce3-40b9-8477-3fe0a36b9b15",
+  "provider": "anyapi",
+  "endpoint": "/twitter.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "limit": 20,
+    "query": "\"practice negotiation with AI\" OR (practice negotiation with AI) since:2025-11-22 filter:videos min_faves:5",
+    "queryType": "Top"
+  },
+  "output": {
+    "hint": "malformed_query: X search ANDs adjacent bare words and binds OR tighter, so these operators after an unbracketed OR list applied to its last alternative only: [since:2025-11-22, filter:videos, min_faves:5]. Send this instead: (\"practice negotiation with AI\" OR (practice negotiation with AI)) since:2025-11-22 filter:videos min_faves:5 large_result: this response is ~64 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 20,
+    "output": {
+      "data": {
+        "items": [
+          {
+            "id": "2122309439063527779",
+            "url": "https://x.com/TheKathAI/status/2122309439063527779",
+            "lang": "en",
+            "text": "THE COMPLETE CLAUDE BEGINNER’S GUIDE 🧵\n\n26 minutes.\n10 practical tips.\nZero technical skills required.\n\nMost people use Claude like this:\n\nThey type one vague prompt.\nGet a generic answer.\nFeel disappointed.\nAnd conclude that AI is overrated.\n\nThey’re using the tool wrong.\n\nClaude can do much more than answer questions. But you need to know how to use it.\n\nThis guide shows you how to get real value from it, even if you’re starting from zero.\n\nHere’s what you’ll learn:\n\n→ Choose the right model and avoid wasting your usage limits.\n\n→ Write better prompts and get useful answers on the first try.\n\n→ Draft emails that actually sound like YOU.\n\n→ Plan your week, organize priorities and save hours.\n\n→ Turn lengthy PDFs and articles into clear summaries.\n\n→ Use Projects to give Claude context once instead of repeating yourself.\n\n→ Transform messy notes into structured, actionable documents.\n\n→ Build your own apps without writing a single line of code.\n\nWho should watch this?\n\n• Complete beginners who don’t know where to start.\n• People who’ve tried Claude but haven’t unlocked its potential.\n• Anyone tired of wasting time, prompts and usage limits.\n• Professionals who want to get more done with AI.\n\nWhy pay attention?\n\nThe creator reportedly spends six figures a month on AI.\n\nThat means a lot of experimentation, expensive mistakes and lessons learned.\n\nYou get the shortcuts without paying the same price. \n\nDon’t just watch it and move on.\n\nWatch it. Pick ONE tip. Put it into practice today.\n\nThat’s how you turn AI from something interesting into something genuinely useful.\n\n🔖 Save and share this guide. You’ll want to come back to it.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122308582888640512/img/P7-WKyq79aZ4-xC-.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122308582888640512/vid/avc1/1920x1080/dXMZG42QjIi6DFry.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "289758520",
+            "likeCount": 126,
+            "viewCount": 13308,
+            "authorName": "Kathia",
+            "createdUtc": 1794832975,
+            "quoteCount": 1,
+            "replyCount": 11,
+            "authorImage": "https://pbs.twimg.com/profile_images/2094740372094066688/h3n9VdB1_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 6,
+            "bookmarkCount": 19,
+            "authorUsername": "TheKathAI",
+            "authorVerified": true,
+            "conversationId": "2122309439063527779",
+            "authorFollowers": 28793
+          },
+          {
+            "id": "2124534413169975542",
+            "url": "https://x.com/Poker_CL/status/2124534413169975542",
+            "lang": "en",
+            "text": "David Silver: The better AI gets at thinking like us, the harder it can be for it to discover things we missed.\n\nIn the video below, the researcher who led AlphaGo tells Sonya Huang why his new lab wants AI to learn through trial and error.\n\nIn 2017, AlphaGo Zero started with the rules of Go and no examples of human games. It learned by playing against itself. Each game gave it a result to learn from, and as it got stronger, so did its practice opponent.\n\n→ About 4.9 million games of self-play in three days\n→ A 100–0 win against AlphaGo Lee, the version that beat Lee Sedol\n\nThe board in the video shows one of those 100 games.\n\nIn April, Silver’s lab, Ineffable Intelligence, raised $1.1 billion. The bet he describes at Slush is that AI agents can learn from what happens when they act, and find strategies or ideas missing from human training data. Go gave AlphaGo Zero a clear result at the end of every game. How far that approach can go outside games is still open.\n\nWhat would you want an AI to teach itself next?",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124534386221584385/img/aDgxwBHVInn0Q0O9.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124534386221584385/vid/avc1/1280x720/JbZYLgkYtCpaAyyv.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1691930919748382721",
+            "likeCount": 7,
+            "viewCount": 411,
+            "authorName": "Chip Leader♦️",
+            "createdUtc": 1795363450,
+            "quoteCount": 0,
+            "replyCount": 3,
+            "authorImage": "https://pbs.twimg.com/profile_images/2115453097602375680/HsVjVv-D_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 0,
+            "bookmarkCount": 4,
+            "authorUsername": "Poker_CL",
+            "authorVerified": true,
+            "conversationId": "2124534413169975542",
+            "authorFollowers": 213
+          },
+          {
+            "id": "2123520314219069735",
+            "url": "https://x.com/drdrew/status/2123520314219069735",
+            "lang": "en",
+            "text": "Alex Jones tells me rogue AI agents are probing us right now. @RealAlexJones says the recent outages at the FAA, Microsoft, banks, and even the NSA's classified network are all linked to foreign hackers, aging systems, and unleashed AI breaking into our networks just for practice.\n\nAccording to Alex, the AI agents are \"running around through private networks, banks, governments, you name it.\"\n\n\"And a lot of times,\" he continues, \"they don't even try to steal anything. They just go in and practice breaking in.\"\n\nDHS Secretary Markwayne Mullin says there's no evidence the FAA outage was a cyberattack, or an AI that escaped its sandbox. But the uptick in similar outages implies something bigger is happening behind the scenes.\n\nAlex tells me he spoke with a former defense intelligence chief and former Pentagon engineers and they agree with his analysis: AI agents, some controlled by people and some not, are probing government systems, banks and private networks, while China tests American defenses and old systems buckle during major upgrades.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/media/HXhDSZvWsAEQwVk.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123519809451069440/vid/avc1/1920x1080/gzv704WIFesTwR5M.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "14515734",
+            "likeCount": 166,
+            "viewCount": 80300,
+            "authorName": "Dr. Drew",
+            "createdUtc": 1795121670,
+            "quoteCount": 9,
+            "replyCount": 31,
+            "authorImage": "https://pbs.twimg.com/profile_images/1928523816268894208/OvLM6l15_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 40,
+            "bookmarkCount": 34,
+            "authorUsername": "drdrew",
+            "authorVerified": true,
+            "conversationId": "2123520314219069735",
+            "authorFollowers": 2448493
+          },
+          {
+            "id": "2123393434732122604",
+            "url": "https://x.com/akshay_pachaar/status/2123393434732122604",
+            "lang": "en",
+            "text": "Redis is going all in on AI.\n\nThey just built Redis Iris, a real-time engine that delivers relevant and accurate context for production agents.\n\nIn production, support agents receive the same intent in many phrasings:\n\n- \"What's the status of my refund?\"\n- \"Has my refund gone through yet?\"\n\nA semantic cache matches these paraphrases and returns the stored response, which works well when the answer is static.\n\nBut, at times, context is not static over time (like refund status). The stored response might indicate \"processing\" even after the refund has gone through, so the cache returns a stale answer.\n\nA plain agent avoids this by running the full reasoning loop on every request, which gives the right answer but spends tokens re-deriving the same steps each time.\n\n@Redisinc's Iris implements an approach that separates the procedure from the answer.\n\nHere's what happens when a request comes in:\n\n- The Intent Router recognizes similar requests.\n\n- It then pulls the Agent Playbooks for that request. The Playbook doesn't store an answer. It stores the steps to produce one, like \"look up the order, check the refund status, reply using this template.\"\n\n- The agent follows those steps, so it skips re-planning, and the app fetches the current refund status before the reply goes out.\n\nIn short, semantic cache reuses the answer while Iris reuses the steps, so the answer is always computed on live data.\n\nThis lets the workflow avoid any additional reasoning while still working on the live data.\n\nYou can try Redis Iris here: http://fandf.co/3XbeaVc\n\nTo test this, I built a small app to compare all three setups (plain agent, Semantic cache, and Iris-backed agent).\n\nI asked about the refund while it was processing, then updated the status to refunded and asked again with a paraphrase.\n\nQuestion 1 (status: processing):\n\n- Plain agent: 2 LLM calls, 9.4s, correct\n- Semantic cache: cache miss, so 2 LLM calls, 10.2s, correct\n- Iris: 1 LLM call, 5.9s, correct\n\nQuestion 2 (status: refunded, paraphrased):\n\n- Plain agent: 2 LLM calls, 12.7s, and the reply didn't confirm status\n- Semantic cache: cache hit, 0.5s, but it returned the stale \"processing\" answer\n- Iris: 1 LLM call, 5.6s, correct\n\nIris skips the planning call because the procedure is already stored, so it ran about 2x faster than the plain agent and was the only setup that was right on both turns.\n\nThe video below shows this in action, and I worked with the Redis team to put this together.\n\nIf you want to dive deeper, my co-founder wrote a detailed breakdown of KV, prefix, prompt, and semantic caching in the article quoted below. This demo builds on the final technique and shows it running in practice.\n\nRead it below.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123393389987258369/img/va4JGWMRFhvvPs4T.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123393389987258369/vid/avc1/1080x1080/dgtvpRmaVteSmH32.mp4?tag=16"
+              }
+            ],
+            "isReply": false,
+            "authorId": "703601972",
+            "likeCount": 665,
+            "viewCount": 51944,
+            "authorName": "Akshay 🚀",
+            "createdUtc": 1795091420,
+            "quoteCount": 4,
+            "replyCount": 39,
+            "authorImage": "https://pbs.twimg.com/profile_images/1578327351544360960/YFpWSWIX_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 68,
+            "bookmarkCount": 880,
+            "authorUsername": "akshay_pachaar",
+            "authorVerified": true,
+            "conversationId": "2123393434732122604",
+            "authorFollowers": 292803
+          },
+          {
+            "id": "2122785493267976569",
+            "url": "https://x.com/databricks/status/2122785493267976569",
+            "lang": "en",
+            "text": "Imagine hiring someone with 20 PhDs, then giving them no access to your company’s meetings, documents, or data.\n\nThat’s how @OpenAI Co-founder and President @gdb describes the problem with even the most capable AI models: intelligence without business context can only go so far.\n\nAt DATA + AI LIVE, Greg and Databricks Co-founder and CEO @alighodsi discuss what it takes for autonomous AI agents to do real enterprise work: access to business context, plus the permissions and guardrails that make them safe to trust. Then see how the new Genie puts that into practice.\n\nWatch the full conversation: https://www.youtube.com/live/BsVfRCNI8IY",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/media/HXWmJ1VWEAEwaQ5.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122785353245351936/vid/avc1/1080x1920/JFbggEl_b7y3eBTk.mp4?tag=16"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1562518867",
+            "likeCount": 82,
+            "viewCount": 9122,
+            "authorName": "Databricks",
+            "createdUtc": 1794946475,
+            "quoteCount": 2,
+            "replyCount": 15,
+            "authorImage": "https://pbs.twimg.com/profile_images/2070268421615333376/SZUvhQiQ_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 11,
+            "bookmarkCount": 30,
+            "authorUsername": "databricks",
+            "authorVerified": false,
+            "conversationId": "2122785493267976569",
+            "authorFollowers": 100586
+          },
+          {
+            "id": "2123701741569143165",
+            "url": "https://x.com/CryptoSociety_L/status/2123701741569143165",
+            "lang": "en",
+            "text": "MIT Agent Trade Settings, explained in 2 minutes.\n\nEverything you see when you open AutoTrade settings:\n\nTrading account: Bybit API key or your own Web3 wallet on Lighter\nPractice or Live: test first, risk nothing\nAI Agent or My Strategy: let MIT decide, or run your own rules\nTrade size: money per trade, leverage, max open trades\nStrategy Builder: pick indicators, simulate, then save\nDaily protection: a loss limit and a profit target for your day\nAdvanced tools: Profit Lock, Auto Break-even, BTC Direction Flip and BTC Limit Plan\n\nNew here? Start with AI Agent in Practice mode and a small size.\n\nhttp://cryptoledgersociety.com",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123701645733457920/img/E2JMufHUYVMw7riy.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123701645733457920/vid/avc1/1080x1920/5gQPsZdwFxFtc1RY.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2115135508187926528",
+            "likeCount": 13,
+            "viewCount": 659,
+            "authorName": "MIT AGENT",
+            "createdUtc": 1795164926,
+            "quoteCount": 1,
+            "replyCount": 1,
+            "authorImage": "https://pbs.twimg.com/profile_images/2118702322633334784/09xuvlQs_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 5,
+            "bookmarkCount": 0,
+            "authorUsername": "CryptoSociety_L",
+            "authorVerified": true,
+            "conversationId": "2123701741569143165",
+            "authorFollowers": 169
+          },
+          {
+            "id": "2122201587905151007",
+            "url": "https://x.com/Sonofpeace0001/status/2122201587905151007",
+            "lang": "en",
+            "text": "I stopped prompting AI for my videos. Now they come out better.\n\nHere's why.\n\nMost people have great ideas. What they don't have is great prompts. If your input is wrong, the output is wrong. If your input is generic, the output is generic. That's where most AI work dies.\n\nAutomation fixes this. You set the rules once, and the system does the prompting for you, the same way, every time.\n\nThat's what I love doing most in AI, and I think it's where most AI projects should put their energy.\n\nHere's my own setup:\nI build automations with CREAO, Claude Code and Grok Bot, and connect them to video platforms like Onsolo, Grok Imagine and Google Flow.\n\nI don't prompt the character or the wardrobe. AI writes the script, prompts every shot, directs the scenes, merges the clips and adds the sound effects and theme music. The video comes out finished. No CapCut.\n\nThe same idea works in almost any niche:\n\n→ Small business\nProblem: You answer the same customer questions all day.\nAutomation: An agent replies from your price list and policies, then hands the tricky ones to you.\n\n→ Content creators\nProblem: You know what to post, but writing it daily burns you out.\nAutomation: One idea goes in. Posts for X, Instagram and LinkedIn come out in your voice, ready to schedule.\n\n→ Online stores\nProblem: Every new product needs a title, description and photos.\nAutomation: Upload a photo and the agent writes the listing, picks the keywords and formats it for your store.\n\n→ Job seekers\nProblem: Sending one CV to every job gets you ignored.\nAutomation: Paste the job post, and your CV and cover letter get matched to it in minutes.\n\n→ Students and tutors\nProblem: Revision materials take hours to make.\nAutomation: Drop in your notes and get a summary, flashcards and a practice quiz.\n\n→ Researchers and founders\nProblem: You can't read everything in your field every day.\nAutomation: An agent checks your sources each morning and sends you the five things that matter.\n\nThe tools are already here. The people who win are the ones who stop typing prompts one by one and start building systems that do it for them.\n\nFollow me if you want to learn how to build these. Reply with your niche, and I'll tell you the first thing I'd automate for you.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122201494174998528/img/W8bICO026Oit_fuu.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122201494174998528/vid/avc1/1920x1078/01uLCDL-5Vn7RUEO.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1825912538686427138",
+            "likeCount": 316,
+            "viewCount": 15512,
+            "authorName": "SOP | AI Agent Builder",
+            "createdUtc": 1794807261,
+            "quoteCount": 1,
+            "replyCount": 57,
+            "authorImage": "https://pbs.twimg.com/profile_images/2111634561906139136/cv-KqHH7_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 33,
+            "bookmarkCount": 5,
+            "authorUsername": "Sonofpeace0001",
+            "authorVerified": true,
+            "conversationId": "2122201587905151007",
+            "authorFollowers": 7063
+          },
+          {
+            "id": "2123700578467385595",
+            "url": "https://x.com/himanshumahuri/status/2123700578467385595",
+            "lang": "en",
+            "text": "Jane Street is reportedly paying a junior engineer anywhere between $220K and $600K a year for his work in machine learning and large-scale data processing.\n\nAnd there's a free 1-hour lecture where he explains the technology and techniques behind his work.\n\nYes, it's completely free.\n\nMost people use AI to write captions, generate ideas or save a little time. But there's a much bigger side to AI that most people haven't explored yet.\n\nHe's working with massive datasets and building systems that can handle workloads most developers rarely encounter.\n\nThis is the kind of lecture worth saving if you're serious about building a career in AI.\n\nFollow @codewithimanshu for more AI resources and insights from people working in the industry.\n\n↓\n\nWhat does he actually do to earn that kind of money?\n\nHis work focuses on building high-performance machine learning systems capable of handling enormous computational workloads.\n\nHe's not just using existing AI tools. He's involved in developing and improving the systems behind them.\n\nHe's also part of the PyTorch core team, working with one of the most widely used machine learning frameworks in the industry.\n\nHis work involves performance optimization, large-scale computing and making ML systems run more efficiently.\n\nThe reported $220K-$600K compensation range reflects how much top-level engineering roles can vary depending on performance and impact.\n\nCompanies like Jane Street value engineers who can solve difficult technical problems and improve systems that operate at a massive scale.\n\nThat's a very different skill set from simply knowing how to use AI tools.\n\nFollow @codewithimanshu for more insights into some of the highest-paying AI and engineering careers in 2026.\n\n↓\n\nWhat will you actually learn from this lecture?\n\nThis isn't another basic introduction to AI.\n\nIt gets into the technical concepts behind building and optimizing machine learning systems.\n\nHere's what the lecture covers:\n\n«How to design ML pipelines for extremely large datasets»\n\n«Why understanding PyTorch internals is important»\n\n«Techniques for improving the speed of computational workloads»\n\n«How memory layouts and GPU kernels affect performance»\n\n«The fundamentals behind systems that handle complex, large-scale operations»\n\nThese are skills that take time and practice to develop, but understanding them can give you a much better picture of how modern ML infrastructure works.\n\nA lot of developers might find these topics difficult at first. That's completely normal.\n\nThe important thing is to stay curious and keep learning instead of avoiding the technical side.\n\nFollow @codewithimanshu for more useful AI lectures, technical breakdowns and learning resources.\n\n↓\n\nWhy is this lecture worth more than another expensive bootcamp?\n\nThink about the cost of learning:\n\nA 12-week ML bootcamp can cost $10,000-$15,000.\n\nA master's degree in machine learning from universities like Stanford or CMU can cost $80,000 or more.\n\nBut this lecture from someone working in the field is available for free.\n\nYou don't need to spend thousands of dollars just to get started with learning advanced machine learning concepts.\n\nThe difference between an average AI developer and someone working on advanced ML infrastructure often comes down to their technical understanding, practical experience and the problems they're capable of solving.\n\nWatching one lecture won't make anyone a $500K engineer overnight. But learning from people who work on these systems is a good place to start.\n\nInstead of spending another evening scrolling through random videos, give this lecture an hour.\n\nYou might discover an area of AI engineering you never thought about exploring.\n\nSave it, watch it and keep learning.\n\nFollow @codewithimanshu for more AI content, valuable resources and insights from people building the technology we use every day.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123699695658967040/img/e3WmC9-p1brMXQI-.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123699695658967040/vid/avc1/854x480/bjqmhlegOBHOv590.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1062034323249881088",
+            "likeCount": 56,
+            "viewCount": 1859,
+            "authorName": "Himanshu Kumar",
+            "createdUtc": 1795164649,
+            "quoteCount": 0,
+            "replyCount": 12,
+            "authorImage": "https://pbs.twimg.com/profile_images/2025653770273849344/Hu4W4WjX_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 26,
+            "bookmarkCount": 7,
+            "authorUsername": "himanshumahuri",
+            "authorVerified": true,
+            "conversationId": "2123700578467385595",
+            "authorFollowers": 69038
+          },
+          {
+            "id": "2123247103073784044",
+            "url": "https://x.com/boybelling/status/2123247103073784044",
+            "lang": "en",
+            "text": "With the advent of AI, ironically, school is more important than ever.\n\nThat’s @EricInjective, co-founder and CEO of Injective, explaining why education still matters in an AI-driven world.\n\nAnd Injective’s latest university partnership puts that idea into practice.\n\nA thread 🧵 https://t.co/wDakgf8PNM",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/media/HXdJ1p8XYAA4S0H.jpg",
+                "type": "photo"
+              },
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123246935481991168/img/M4FCkMF6-AmxlYMS.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123246935481991168/vid/avc1/1280x720/0LsndTb5K54qlxxM.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1862896278344003584",
+            "likeCount": 27,
+            "viewCount": 1106,
+            "authorName": "BoyBellingham Jnr",
+            "createdUtc": 1795056532,
+            "quoteCount": 0,
+            "replyCount": 1,
+            "authorImage": "https://pbs.twimg.com/profile_images/1888518205527719936/kuB_wZWV_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 1,
+            "bookmarkCount": 0,
+            "authorUsername": "boybelling",
+            "authorVerified": false,
+            "conversationId": "2123247103073784044",
+            "authorFollowers": 136
+          },
+          {
+            "id": "2122498871721169295",
+            "url": "https://x.com/Vvikramai/status/2122498871721169295",
+            "lang": "en",
+            "text": "Sam Altman says, \"I'm sure we've been tricked sometimes, and I'm sure that our operational security and overall security have not been perfect.\"\n\nSam Altman:\n\n\"We have now had, I think, more practice than is maybe obvious from the outside about living in this world where it is clear that AI is an extremely important thing happening and that people are looking for an edge in all sorts of ways.\n\nWhether it's putting a camera in one of our conference rooms, or trying to take our engineers out for a few drinks and get them to tell pre-training secrets, or whatever.\" \n\n \"So I think we have been living in this reality that everybody else is now very publicly and suddenly coming to grips with.\" \n\n \"I'm sure we've been tricked sometimes, and I'm sure that our operational security and overall security has not been perfect, but we have had time to adjust to this.\"",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122494201942450176/img/GeBaZC6cDl8fVGsS.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122494201942450176/vid/avc1/1920x1080/bZJknQkkXcZnA4SZ.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1814568009438199808",
+            "likeCount": 14,
+            "viewCount": 1238,
+            "authorName": "Vikram M",
+            "createdUtc": 1794878139,
+            "quoteCount": 1,
+            "replyCount": 3,
+            "authorImage": "https://pbs.twimg.com/profile_images/2064271543853879296/3VnwCkyn_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 1,
+            "bookmarkCount": 10,
+            "authorUsername": "Vvikramai",
+            "authorVerified": true,
+            "conversationId": "2122498871721169295",
+            "authorFollowers": 4415
+          },
+          {
+            "id": "2122601450673193181",
+            "url": "https://x.com/AiEvolutio58513/status/2122601450673193181",
+            "lang": "en",
+            "text": "Elon Musk explains why Optimus has to learn like a toddler:\n\n\"In order for Optimus to get the training data we need, we actually need to make a lot of Optimi. So we need to make, I think, on the order of 10,000 or 20,000 bots and then have them do self-play.\"\n\n\"We're building up an Optimus academy where Optimus can practice doing a very wide range of tasks\"\n\n\"So with Optimus, we have to bootstrap it by making the robots and having them do self-play, which is really how a human learns to navigate the world\"\n\nInterested in AI?\n\nFollow @AiEvolutio58513 and never fall behind.\n\nI track ChatGPT, Claude, and every tool quietly changing how we work and create, then hand you the tested signals.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122601384096997376/img/EooOSi-LGYpZs8GT.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122601384096997376/vid/avc1/1280x720/L_Ar6CILCwWC67To.mp4?tag=16"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2051403956727734274",
+            "likeCount": 47,
+            "viewCount": 3994,
+            "authorName": "AI Evolution",
+            "createdUtc": 1794902596,
+            "quoteCount": 0,
+            "replyCount": 5,
+            "authorImage": "https://pbs.twimg.com/profile_images/2051404095026810880/ojNDixza_normal.png",
+            "inReplyToId": null,
+            "retweetCount": 12,
+            "bookmarkCount": 10,
+            "authorUsername": "AiEvolutio58513",
+            "authorVerified": true,
+            "conversationId": "2122601450673193181",
+            "authorFollowers": 28178
+          },
+          {
+            "id": "2122317787058049513",
+            "url": "https://x.com/danysvnt/status/2122317787058049513",
+            "lang": "en",
+            "text": "This is f*cking insane. World's top mathematician Terence Tao, at a workshop for his own AI math tool:\n\n\"I would not just one-shot the proof... that doesn't teach you much of anything\"\n\nIn 48 seconds he explains how he actually uses AI on hard problems, and why most people are using it backwards\n\nOne-Shot → Learn Nothing → Pen and Paper → AI Cleans Up\n\nHis method: break the problem into pieces, understand each one yourself, then put it back together. \"A lot of this you should be doing at a whiteboard\"\n\nAI gets the nasty computation you don't need to understand. The thinking stays with you\n\nAnd he said it while showing off the tool. Tao is co-founder and chairman of SAIR, the company that built it\n\nA study in Turkish high schools found the same thing the hard way: students with unrestricted GPT-4 did 48% better on practice problems, then 17% worse on the exam once the AI was gone\n\n\"Knowing when not to use them is part of the challenge\"\n\nEverything below is free:\n• Tao's blog, where he logs his own AI experiments: http://terrytao.wordpress.com\n• Learn Lean, the proof language his tool runs on, through a free game: http://adam.math.hhu.de\n• Anthropic's free AI Fluency course: http://anthropic.skilljar.com\n\nThen read how the people building AI use it without letting it think for them, article below ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2121919145679745024/img/ADZ4eaVkgyH_RApD.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2121919145679745024/vid/avc1/720x900/uLKQ2Xau2hwbpyoz.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1815201364932493312",
+            "likeCount": 388,
+            "viewCount": 89162,
+            "authorName": "Dany",
+            "createdUtc": 1794834965,
+            "quoteCount": 2,
+            "replyCount": 13,
+            "authorImage": "https://pbs.twimg.com/profile_images/2086041984439869440/YwghmnHL_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 48,
+            "bookmarkCount": 624,
+            "authorUsername": "danysvnt",
+            "authorVerified": true,
+            "conversationId": "2122317787058049513",
+            "authorFollowers": 1445
+          },
+          {
+            "id": "2122940398737797320",
+            "url": "https://x.com/CompTIA/status/2122940398737797320",
+            "lang": "en",
+            "text": "🎉Security+ V8 is available now!\n\nAs AI reshapes security threats, V8 expands coverage of AI risks, Zero Trust, and securing cloud, hybrid, OT, and IoT environments.\n\nBuild skills with CertMaster Perform, Learn, Labs, Practice, and Study.\nGet certified: https://utm.guru/uuIJL https://t.co/BX5bSi6H7b",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/media/HXYzCuxXgAAJ_WR.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/ext_tw_video/2122940377187463168/pu/vid/avc1/720x720/zEBq8ACbp1R03LY9.mp4?tag=12"
+              }
+            ],
+            "isReply": false,
+            "authorId": "15355390",
+            "likeCount": 290,
+            "viewCount": 9672,
+            "authorName": "CompTIA",
+            "createdUtc": 1794983408,
+            "quoteCount": 2,
+            "replyCount": 6,
+            "authorImage": "https://pbs.twimg.com/profile_images/1844424688081973267/a8jySoQK_normal.png",
+            "inReplyToId": null,
+            "retweetCount": 38,
+            "bookmarkCount": 93,
+            "authorUsername": "CompTIA",
+            "authorVerified": false,
+            "conversationId": "2122940398737797320",
+            "authorFollowers": 70237
+          },
+          {
+            "id": "2124148454574182701",
+            "url": "https://x.com/slayrsays/status/2124148454574182701",
+            "lang": "en",
+            "text": "Holy f*ck, SpaceXAI engineer Matt Palmer:\n\n\"I changed my flight and forgot to move my Uber, my bot caught it before I did and told me I'd land with no car\n\nMy kid's soccer practice got moved by email, and it was already on my calendar before I even opened it\"\n\n5 minutes on the update that turned Grok Bot from a chatbot into something that watches your whole day\n\nMain Bot → Fixes Your Calendar → Real PowerPoint Files → Team Bots In Slack → Voice Calls With Your Team\n\nYou don't set up a single automation, it reads everything you connected and moves first\n\nMost people still set every reminder by hand\n\nWorth more than any $5,000 AI productivity course\n\nSave it and watch it tonight",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124142821649100800/img/o644ovAAf58NWPJ-.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124142821649100800/vid/avc1/3848x2160/0paJcgd-7efclD3r.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1874259090857472000",
+            "likeCount": 25,
+            "viewCount": 448,
+            "authorName": "slayr",
+            "createdUtc": 1795271430,
+            "quoteCount": 0,
+            "replyCount": 3,
+            "authorImage": "https://pbs.twimg.com/profile_images/2115086996301316097/nwsOZw9Q_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 1,
+            "bookmarkCount": 24,
+            "authorUsername": "slayrsays",
+            "authorVerified": true,
+            "conversationId": "2124148454574182701",
+            "authorFollowers": 67
+          },
+          {
+            "id": "2122418605782417736",
+            "url": "https://x.com/ka1r0seve/status/2122418605782417736",
+            "lang": "en",
+            "text": "HOLY SH*T, THEY START WITH AN EMPTY GITHUB ORG AND ZERO BOTS - THEN SHOW HOW TO BUILD A GROK BOT TEAM\n\n“So we're starting with a completely blank slate.”\n\nIn this free 52-minute workshop, they plan the first bots, demonstrate teaching a task, set approval rules, and schedule a daily update\n\nOne Job → One Bot → Instructions → Skills → Approval Rules → Daily Routine\n\nOpening more chats doesn't magically create a team. Every bot needs a job, a clear result, and rules for when to ask you\n\nThe interesting part is making useful work repeatable without explaining everything from scratch tomorrow\n\nBefore dropping $5,000 on another AI automation course, spend an evening watching this and testing one workflow yourself\n\nBookmark and watch it today\n\nThen read the article below and put these ideas into practice ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122414329257472000/img/osferJWHj_gXTe30.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122414329257472000/vid/avc1/1264x710/LSdyHlktwb2gtms2.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2085815443499991040",
+            "likeCount": 23,
+            "viewCount": 706,
+            "authorName": "kairos",
+            "createdUtc": 1794859002,
+            "quoteCount": 0,
+            "replyCount": 1,
+            "authorImage": "https://pbs.twimg.com/profile_images/2093470788435230720/EBJhsGBi_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 2,
+            "bookmarkCount": 21,
+            "authorUsername": "ka1r0seve",
+            "authorVerified": true,
+            "conversationId": "2122418605782417736",
+            "authorFollowers": 172
+          },
+          {
+            "id": "2106091182095040598",
+            "url": "https://x.com/usr_bin_roygbiv/status/2106091182095040598",
+            "lang": "en",
+            "text": "200+ updates to Applystead in one week. Start free with 10 AI-tailored resumes a day no credit card needed:\n\nhttps://applystead.com/?utm_source=twitter&utm_medium=social&utm_campaign=whats_new_1002&utm_content=long_post\n\nWhat's new:\n\n• Run up to three job searches at once each with its job titles, locations, remote settings and salary targets (available on paid plans)\n\n• Search a metro area: a San Francisco Bay Area search will find jobs in San Jose, Oakland and Palo Alto\n\n• Pick the seniority level you want and the languages you work in\n\n• Practice interviews with an AI interviewer that gives you a score out of 100 along with strengths and areas to improve (Premium feature)\n\n• See who’s hiring for the jobs you apply to (Premium, US employers when we can find the data)\n\n• Free salary pages from real job postings. No account required\n\n• 100 more free tools for your resume cover letters, interviews and pay negotiation. No account needed\n\nYou asked we built it. A lot of the updates this week came directly from member feedback. Just tap Feedback on any page point at what you want. Add a screenshot. Requested features are built in under 24 hours.\n\nBuilt from your feedback this week:\n\n• Skip staffing and recruiting agencies\n\n• Send a resume for different job titles\n\n• Answer a question once and use it across all your applications\n\n• Record calls in your browser on Linux, Windows and ChromeOS\n\nThank you Jake B., Kyle K., Ryan K., Uzo, Voyeur S., Kasey S., Jason B., NELSON S., Josh R., Phil B., Haroon, N.G. John D., Kylan G., Fred and F3dz and everyone who sent us feedback this week. 💚\n\nEvery update, day, by day: http://applystead.com/updates",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2106089420399202304/img/_o4A7_tpDiUD5mnC.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2106089420399202304/vid/avc1/1080x1080/jwNK1gP94op43g7s.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1939421665781559296",
+            "likeCount": 35,
+            "viewCount": 13643,
+            "authorName": "Roy",
+            "createdUtc": 1790966241,
+            "quoteCount": 0,
+            "replyCount": 1,
+            "authorImage": "https://pbs.twimg.com/profile_images/2046940347012427777/rCtCm0n9_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 2,
+            "bookmarkCount": 7,
+            "authorUsername": "usr_bin_roygbiv",
+            "authorVerified": true,
+            "conversationId": "2106091182095040598",
+            "authorFollowers": 10634
+          },
+          {
+            "id": "2122716784507642071",
+            "url": "https://x.com/MoummarNawafleh/status/2122716784507642071",
+            "lang": "en",
+            "text": "how to hire great engineers (without getting lucky)\n\nmost founders i talk to found their best engineer by accident (or never do) a friend knew someone, or a random dm worked out\n\nthat works once, but you can’t build a team that way\n\n1) job posts\n\nthe people who see your job post are people looking for a job, and most of the best engineers aren’t looking\n\nyou post the role and get 500+ applicants and half the resumes were clearly written by AI by people that didn't read the JD \n\nthe person you actually wanted probably never applied\n\nwe stopped posting jobs at DevSignal for this reason.\n\n2) linkedin search\n\nlinkedin search is mostly a keyword game\n\na lot of engineers know this and write their profile so recruiters find them\n\nmeanwhile the guy who built the tool you use every day hasn’t touched his profile in years, so he never shows up\n\n3) where to actually look\n\nlook at who contributes to the open source tools you already use\n\nfollow engineers who ship in public on x\n\nhang out in discords and github issues and watch who answers the hard questions\n\nlook at people who came out of teams whose engineering you respect.\n\ni care way more about what someone shipped than what their title says.\n\n4) their inbox\n\ngood engineers get recruiter messages every day and they all read the same. most of them stopped opening those a long time ago. your template goes straight into that pile.\n\n5) reaching out\n\nengage with their work first. reply to something they posted or leave a real comment on a pr.\n\nthen message them yourself. mention the exact thing they built and why you care about it. \n\nput the problem you’re solving and why they'd be a good fit in the message\n\ntreat it like closing your dream customer, because that’s basically what it is.\n\n6) interviews\n\nthis is where most founders lose the engineer they worked so hard to find\n\nthey copy the big tech process with six rounds of leetcode or a take home to pre-filter before interviews \n\nbig companies do that because they get 10,000 applicants and need a filter. you’re a startup and you need to win the person.\n\nleetcode mostly tells you who practiced leetcode. you need someone who can ship your product. good engineers also have options, so every extra week is another week for someone else to close them.\n\ndo two or three steps with real work that looks like the actual job, and try to be done in about a week.\n\n7) pay\n\ndecide the number before you talk to anyone. for the role that really matters, pay top of market. i’d take one great engineer over two average ones.\n\nskip the negotiation. it rewards people who are good at negotiating, and that has nothing to do with how good they are at the job. a fair fixed number is respectful and saves everyone a week. it also keeps your team fair, because nobody ends up making less just because they asked for less.\n\nthe offer is the first real thing they learn about how you run your company.\n\nposting and hoping is luck. if you know where the good engineers are and you move fast, you don’t need luck.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122714502655270913/img/G-vJtLO70Q9bRQxx.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122714502655270913/vid/avc1/1920x1080/Ndo4A_aVNuy4Fwk0.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "914928832255188994",
+            "likeCount": 19,
+            "viewCount": 1166,
+            "authorName": "Moummar",
+            "createdUtc": 1794930094,
+            "quoteCount": 2,
+            "replyCount": 12,
+            "authorImage": "https://pbs.twimg.com/profile_images/1956432708462071808/FMhCUZ4g_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 3,
+            "bookmarkCount": 5,
+            "authorUsername": "MoummarNawafleh",
+            "authorVerified": true,
+            "conversationId": "2122716784507642071",
+            "authorFollowers": 3724
+          },
+          {
+            "id": "2123055374873907330",
+            "url": "https://x.com/harriskennyx/status/2123055374873907330",
+            "lang": "en",
+            "text": "I've had early access to ZoomInfo's GTM One for a few weeks. Here's what I've actually built with it so far.\n\n1. A list for a friend. A law student I know was heading to a networking event at a Denver firm. I pulled local attorneys, manager level and up, then had AI enrichment find each one's practice area and flag the ones in her field. A couple hundred contacts, filtered in one place.\n\nThis is the classic ZoomInfo list building use case, with applied AI enrichments and filtering by contact, on a row-by-row basis.\n\n2. Agent teams that replaced my duct tape. My GTM automations were scattered across Cloudflare Workers, old automation scenarios and custom integrations. Two of them now run as agent teams:\n\n→ When a Chorus call ends, an agent team evaluates it and sends it to Linear, where a Cursor cloud agent looks for what slowed the deal down: gaps in our collateral, our docs or the product itself.\n\n→ When we publish a new post on our site, an agent team drafts social posts and schedules them in Buffer through a GraphQL step.\n\nThis is definitely not the usual enrich-and-sequence use case that you might think of with ZoomInfo. It's everything around go to market, in one place.\n\n3. An app on the data. We're building a data router called KingMinos, and I plugged ZoomInfo in as a provider inside it.\n\nWhy I'm excited: OutboundSync moved onto Salesforce this year, and we run on Claude and Cursor/Grok Bot. I want all of that sharing the same context so our small team can stay lean.\n\nThat's the direction GTM One is going, and it's why we signed up as a customer, which preceded us becoming a content partner.\n\nVideo walkthrough below.\n\nDisclosure: OutboundSync is a paying @ZoomInfo  customer and part of @ZoomInfo's partner program, which gave me early access to GTM One ahead of general availability. #ZoomInfoShowcase #BuiltOnGTMOne",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122945460197343232/img/hn3zvTq-sWHSqwRR.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122945460197343232/vid/avc1/1280x720/T3sHhj_05i2dHBYB.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1995194857212747776",
+            "likeCount": 20,
+            "viewCount": 4236,
+            "authorName": "Harris Kenny",
+            "createdUtc": 1795010820,
+            "quoteCount": 1,
+            "replyCount": 5,
+            "authorImage": "https://pbs.twimg.com/profile_images/2090174064858210304/dKKb5k6A_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 3,
+            "bookmarkCount": 5,
+            "authorUsername": "harriskennyx",
+            "authorVerified": true,
+            "conversationId": "2123055374873907330",
+            "authorFollowers": 1000
+          },
+          {
+            "id": "2122323703371272363",
+            "url": "https://x.com/AleiahLock/status/2122323703371272363",
+            "lang": "en",
+            "text": "\"Almost anything\" in practice looks boring.\n\nOn the YC panel with the Grok Bot team this week, the example was small businesses that can't hire a bookkeeper. They open Grok Bot, and within a few hours they have a bot doing the books.\n\nThe setup they described is one bot per job. Each bot owns one problem and comes to you with what it finds, like a good hire would.\n\nElon's Starship reel got the views. The bookkeeping bot is the one small businesses will pay for.\n\nWhich job would you hand to a bot first?",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122323639315927041/img/MVrrW2IW7ADjfj3_.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122323639315927041/vid/avc1/1920x1080/duTouO1lMhqd30LJ.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1766240902551609344",
+            "likeCount": 19,
+            "viewCount": 1549,
+            "authorName": "Aleiah",
+            "createdUtc": 1794836376,
+            "quoteCount": 1,
+            "replyCount": 18,
+            "authorImage": "https://pbs.twimg.com/profile_images/2106491012512100352/c_m-mdbc_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 1,
+            "bookmarkCount": 7,
+            "authorUsername": "AleiahLock",
+            "authorVerified": true,
+            "conversationId": "2122323703371272363",
+            "authorFollowers": 13756
+          },
+          {
+            "id": "2057073655822049334",
+            "url": "https://x.com/OwenGregorian/status/2057073655822049334",
+            "lang": "en",
+            "text": "The AI economy is rewriting the American Dream — and blue-collar workers are poised to win | Gabrielle Fonrouge, CNBC\n\nFrom the Dayton, Ohio, suburbs to boardrooms in Dallas, the employees fueling AT&T's next wave of growth aren't fresh-faced college graduates with expensive four-year degrees. They're skilled, blue-collar workers ready to get their hands dirty — and AT&T can't find enough of them.\n\n\"We need people who know how to actually work with electricity. We need people who understand photonics. We need people who can go into folks' homes and connect this infrastructure to make it work right,\" AT&T CEO John Stankey told CNBC during a recent interview from the company's Dallas headquarters.\n\n\"We find that we've got to go out and find them, train them, and incent them to come in,\" he said. \"It's not like we're growing them on trees in the United States.\"\n\nAT&T's dilemma — hunting for blue-collar workers at a time when a record number of college students are projected to graduate this spring — underscores the palpable crisis facing new degree holders as the first wave of the AI revolution hits the U.S. economy.\n\nFor much of the postwar era, the American bargain was clear: Go to college, get a degree and claim your place in the middle class. As factories gave way to offices and the U.S. economy increasingly rewarded credentials over physical labor, a four-year diploma became one of the clearest symbols of upward mobility. But as AI spreads across corporate America and begins to absorb the entry-level work that once gave graduates their start, that promise is beginning to fracture.\n\nWhile the rapid spread of AI has not yet led to broad layoffs and empty offices, many new graduates, especially those in AI-exposed industries, are learning their degrees may no longer guarantee the opportunities they once did.\n\nMeanwhile, as AI implementation spreads and CEOs find they can do more with less labor, hiring is slowing. The downturn has hit hardest the workers with little real-world experience and those in industries expected to be most vulnerable to AI replacement, such as marketing, legal, accounting, human resources and IT.\n\nIf the trend continues, AI could reorder the U.S. workforce and global economy, redrawing the map of opportunity in ways that even some leading economists and technologists say they are only beginning to understand.\n\n\"Is the American Dream going away because of AI?... I think the fears are all very valid,\" said May Hu, a 26-year-old tech consultant turned social media influencer who said she was laid off from Deloitte last year for what she described as nonperformance reasons. \"I pursued college because... I think [for] most people who want to be working professionals … college is the route,\" she continued. \"That's starting to change now.\"\n\nLike any technological revolution, the AI boom is expected to create new types of work. But, in a cruel twist for college graduates, many of those jobs will be blue-collar roles that for now don't require a four-year degree, centered around the construction and maintenance of data centers.\n\nStill, it's unclear how sustainable the blue-collar job boom will be once companies complete an expected wave of chip factories, data centers and other AI-fueled construction in the coming years.\n\nMajor U.S. companies from Ford to Nvidia have stressed the growing need for workers to build out those facilities.\n\n\"This is the largest infrastructure buildout in human history that is going to create a lot of jobs,\" Nvidia CEO Jensen Huang said during a panel at the World Economic Forum in January. \"We are going to have plumbers and electricians and construction and steel workers and network technicians and people who install and fit out the equipment.\"\n\nHe added that many of those roles will bring six-figure salaries as the U.S. addresses a \"great shortage\" of workers.\n\nIn March, AT&T announced plans to invest $250 billion over the next five years to expand its fiber network and meet the demands of AI data centers and a surge in network usage, fueled both by AI and a rise in mobile streaming and uploading.\n\nAbout 15% of that investment will be used for hiring and training employees, but not necessarily for white-collar jobs at its corporate office. Instead, it will primarily be used for blue-collar front-line workers, the majority of whom are skilled technicians, the company said.\n\n\"As a society and within the United States, we've put a huge premium in value socially on a college degree, maybe for good reason, but in some cases ... we maybe have missed the mark,\" said Stankey. \"That hasn't been optimal when you see the cost of education increasing at higher than the rate of inflation and yet we're short HVAC [heating, ventilation and air conditioning] repair people, we're short electricians, we're short technicians that can go in and work on fiber.\"\n\nThe birth of the American Dream\n\nAt the beginning of the 20th century, about 1 in 10 17-year-olds in the U.S. had finished high school while far fewer young adults had pursued higher education, according to the National Center for Education Statistics. More time in school meant less food on the table, and few Americans had the privilege of pursuing more comfortable work outside of factories and farms.\n\nThat all started to change after World War II, when the GI Bill offered veterans free access to college and public universities began cropping up across the country, fueling what labor historian Shannan Clark called an \"explosion\" in higher education.\n\nThere was \"a widespread belief, shared by Democrats and Republicans alike, that this was a good investment. It was good for people to have access to higher education and that this sort of increase in human capital and a more trained, more capable, more knowledgeable workforce would also be a more productive workforce, right?\" said Clark, an associate professor of history at Montclair State University.\n\nIn the coming decades, millions of Americans would trade sweltering factories for air-conditioned offices, hammers and nails for keyboards and mice, and hourly wages for sustainable salaries. Women and minorities entered the workforce in record numbers, wages grew and quality of life increased, fueling a rise in innovation, globalization and gross domestic product. By the end of the 20th century, society was in near universal agreement that an education and a little bit of grit were a sure path to the American Dream.\n\nData shows that four-year degrees still lead to higher wages and lower unemployment over a lifetime. Even so, the belief that college is the safest way to the American Dream has changed in recent years. First, the return on investment of a four-year degree came into question amid surging higher education costs and student debt. That return is still around 12.5% as of 2024, making it well worth the cost for many graduates, but it hasn't budged beyond 13% for the past three decades, according to research from the Federal Reserve Bank of New York.\n\nNow, AI could put the value of a diploma under even greater pressure.\n\n\"What does AI do best? AI is basically an infinite supply of 21-year-old interns that are smart but have no context,\" said consultant Aaron Cheris, the global head of Bain & Company's retail practice. \"The job they used to do is now the one that AI is doing, right? AI is doing the entry-level job.\"\n\nThat's made it harder for new graduates to find work, some research and data suggest.\n\nThe average unemployment rate for recent college graduates ages 22 to 27 dating back to 1990 is 4.5%, but in 2025, that average jumped to around 5.4%, according to data from the Federal Reserve Bank of New York.\n\nThe impact appears particularly acute among entry-level employees in AI-exposed fields.\n\nLast year, Stanford's Digital Economy Lab published a research paper titled \"Canaries in the Coal Mine?\" that found early-career workers in roles most exposed to AI, such as software developers, marketing professionals and sales managers, saw 16% slower growth in employment than the least exposed young workers between mid-2024 and September 2025.\n\nUsing payroll data from ADP, researchers found the trend persisted even when they controlled for company-specific challenges, rising interest rates, remote work and other variables. Those who held jobs where AI was poised to augment their work versus automate saw growing employment in the same time period.\n\n\"It is notable that since we came out with the first draft of the paper, the effect has grown from 13% to 16%, so whatever it is, it's not rebounding, or wasn't some kind of temporary blip,\" said Stanford University economist Erik Brynjolfsson, one of the paper's authors and a leading expert on the economics of technology and AI. \"If you just look at the top line of the ADP data, the overall effect, there wasn't much going on. It's only when you narrow in ... that you start seeing the different kinds of effects.\"\n\nIf the trend continues for young workers in AI-exposed roles, \"we're going to see it affect the broader labor market more,\" said Brynjolfsson.\n\nLee Tucker, a senior economist with the Center for Economic Studies at the U.S. Census Bureau, published a paper in April that built on Stanford's research and found that the impact on early career workers was also showing up in a different data set: the agency's quarterly workforce indicators.\n\nIn his research, Tucker found that the hiring of workers between the ages of 22 and 24 dropped 9% immediately after ChatGPT in late 2022 launched for workers in AI-exposed industries such as finance, insurance and professional services, compared with all other industries.\n\nBetween the third quarter of 2022 and the second quarter of 2025, there was a 12% to 15% decline in employment for workers in those industries, leading to about 150,000 fewer early-career jobs, the research found.\n\nWhile there is some evidence this decline may have started around 2020 and may not be fully attributable to AI, Tucker found the decline in employment was almost entirely due to fewer hires, not layoffs.\n\n\"I empathize with early career workers, especially new graduates that are trying to get hired or just starting sort of their first rung on the career ladder,\" Tucker told CNBC in an interview. \"It is true that it is tough out there, and the data really do back that up.\"\n\nThe vanishing investment banker\n\nThe advent of generative and agentic AI, and the technology's ability to take over some entry-level work, has raised questions about the future of the junior consultant, the investment banking analyst and the first-year associate at a white-shoe law firm.\n\nShould senior leadership keep recruiting large classes from top schools and devote the time and money needed to train them, knowing those workers will form the bedrock of their future talent pipeline, or should they invest elsewhere and let AI do those jobs?\n\nIn a recent interview with Derek Waldron, JPMorgan Chase's chief analytics officer, CNBC asked if the bank has any plans to cut its recruitment classes. He said he didn't know the firm's specific strategy, but acknowledged \"there may be some rightsizing.\"\n\n\"It'll depend on the pipelines, the opportunities. In some cases, bigger [classes], in some cases, frankly, could be smaller as well,\" said Waldron.\n\nWaldron suggested the nature of work could shift for junior employees who do make it through the door — toward managing AI systems instead of doing the underlying work themselves.\n\n\"The world is moving to a paradigm where every employee becomes a manager, but a manager of AI systems,\" said Waldron. \"So whereas a new joiner in the past was basically primarily the worker doing the work, the expectation is that they would be able to come in and begin to act as a manager of sort of AI tools.\"\n\nIn some ways, that shift could be good news for entry-level employees, because they're AI natives and may be more tech savvy than their older colleagues.\n\n\"I want more of them,\" WHP Global CEO Yehuda Shmidman said of entry-level employees at his firm, which counts brands such as Toys \"R\" Us, Vera Wang and Express among its portfolio. \"If you've been using AI to help you with that final paper at school, we're probably going to want to know how you're going to use AI to help us with the next contract negotiation. So I'm all in favor of it.\"\n\nBut the shift also highlights how necessary it is for students to be graduating with skills in AI that go beyond using it to write an email or replace a Google search.\n\n\"If a kid comes out of school now and is like the expert in Claude and OpenAI ... and is able to then say to even, like, an accounting team, 'Hey, look, I can come in and I can do the job of three people versus you hiring them, because I can use AI,' OK, that person will still get a job,\" said Omair Tariq, the founder and CEO of startup http://Cart.com, which provides logistics, fulfillment and other services for retailers such as Adidas, Guess and Eddie Bauer, and has about 1,400 employees.\n\nIf they can't, Tariq said, he's not interested in hiring them.\n\n\"When you're in college, all you know is what's in your curriculum. The curriculum is available in a book or online. It's all tangible, it's all ones and zeros. It's all the sh-- that AI can read in 30 seconds that you took four and a half years to read,\" said Tariq. \"So tell me again what you can do that AI can't do, because you don't have any real-world experience.\"\n\nAlready, college campuses are feeling the pressure to change their curriculums and even their approach to higher education to adjust to an AI future.\n\n\"For graduates to compete effectively, they're going to need to know how to do at age 22 what they used to do at age 27,\" said Matt Sigelman, the president of the Burning Glass Institute, a think tank that studies the future of work. \"They're going to need to be able to start their careers in the middle and not the beginning.\"\n\nHow quickly colleges can adjust could determine how much AI will disrupt the careers of graduates in the future.\n\nTobias Sytsma, an economist at the think tank Rand who studies AI and the future of work, said recent graduates, those paying off college loans and students getting ready to enter college will likely face the most issues during this transition period. If the data continues to show an impact on early career workers, they could become victims of economic \"scarring,\" leading to unemployment, underemployment and lower incomes throughout their lifetimes. If there's a major disruption to the middle class pipeline — the route young adults take from college to higher-paying jobs — that could have an enormous impact on the economy. Consumption could shrink, housing demand could fall and existing inequality issues could grow.\n\n\"The size of that transition cohort is important. If it takes 20 years and ... basically everyone that was thinking about going to college or just finished college is really struggling, then that's a huge chunk of the future workforce that's going through this scarring process,\" said Sytsma. \"If the transition is really quick and we're able to kind of rapidly adjust the institution of higher learning so that we maintain value, then maybe the scarring cohort is a little bit smaller and the aggregate effects are a little bit smaller. But at this point, I think it's pretty hard to tell.\"\n\nSuburban daydreams\n\nIn a small Ohio city between Dayton and Columbus, the American Dream is alive and well for 24-year-old Kyson Cook. The father of one owns a three-bedroom home, has no debt beyond his mortgage and ends most workdays around 4:30 p.m., leaving plenty of time to shoot pool, go fishing or spend time with family. He has a small plot of land with space for his daughter to play, along with enough money to buy her whatever toys she wants and regularly contribute to a mutual fund with her name on it, without needing to cut back on new clothes, vacations or eating out.\n\nIn an interview, he told CNBC that the \"coolest job in the world\" pays for it all.\n\n\"I'm proud to tell people what I do. I climb telephone poles. It's awesome,\" said Cook, a premises technician with AT&T who helps connect the telecom giant's fiber infrastructure to customer homes.\n\n\"You feel like a superhero up there,\" he added. \"To other people, it might sound like, 'Oh, it's hard work. I don't want to do that. You have to work in the elements.' But there's so many good things that come along with this job.\"\n\nCook, whose father and grandfather both worked at AT&T, said he started at the company in April 2022, a few months after he dropped out of college and realized he'd rather work with his hands. In less than a year, he'd saved up enough to buy his house. When his daughter was on the way about two years later, he said, he went back to college and got a bachelor's degree — paid for by AT&T — because he thought it could help him get promoted in the future, even if the management roles he'd be aiming for don't require it.\n\nCook is one of the thousands of technicians helping AT&T expand its network so the telecom giant can meet the needs of an AI future. AT&T's global workforce has been cut by more than half over the last decade, but the company is increasing head count in some areas and working to recruit skilled tradespeople who aren't required to have a college degree to join the company.\n\nAT&T said it plans to hire around 3,000 technicians this year and is ramping up recruitment in places such as Nashville, San Francisco and North Carolina where it's finding a dearth of skilled workers. That's on top of the 10,000 the company has already hired over the last three years. To get employees up to speed, AT&T said it may spend anywhere between $50,000 and $80,000 in training per person.\n\n\"We're investing a huge amount of money. We're putting fiber out there. This needs to be built,\" said Stankey. \"And so part of what we're doing is, we need trade.\"\n\nAT&T's hunt for blue-collar workers comes amid a national shortage for certain skilled tradespeople and a slight uptick in unemployment for college-educated adults.\n\nThis year, there's a shortage of around 350,000 workers necessary to meet the demand for construction services in the U.S., a deficit that's expected to grow to more than 450,000 next year, according to a January report from Associated Builders and Contractors, a trade association for the construction industry.\n\nBy 2030, about 2.1 million skilled trades jobs could go unfilled, according to the U.S. Department of Education.\n\nShortfalls are more severe in areas with major projects such as semiconductor fabrication facilities, exacerbated by the fact that about one-fifth of electricians are over 55, said ABC chief economist Anirban Basu.\n\n\"Even if construction spending fails to exceed expectations this year and next, contractors will continue to struggle to fill open positions, especially in certain occupations and regions,\" said Basu. \"Recent industry efforts to accelerate skilled worker development have helped, but the industry is effectively swimming upstream.\"\n\nMeanwhile, college-educated adults over the age of 25 are seeing a slight rise in unemployment.\n\nFor nearly a decade other than the Covid pandemic, the unemployment rate for adults 25 and over who have a bachelor's degree has been at 3% or lower, but in August, that number jumped to 3.2%, the first time the figure was over 3% in around nine years aside from during the pandemic, data from the U.S. Bureau of Labor Statistics shows.\n\nSince then, the rate has largely hovered at 3% or higher before falling to 2.8% in April.\n\nThe unemployment rate for those 25 and up who have a bachelor's degree or higher shows a similar trend.\n\nFurther, white-collar roles such as management, professional and office jobs have seen unemployment rise each year since 2023, while unemployment for blue-collar positions, like construction and maintenance jobs, largely declined or stayed roughly the same last year compared with 2024, BLS data show.\n\nStill, the benefits of a college degree have hardly gone away. College graduates overall enjoy lower lifetime unemployment and higher earnings than those without degrees, who are more likely to be laid off during recessions or slowdowns. Between January 2000 and April 2026, the average unemployment rate for those with just a high school diploma was 5.7%, higher than the 3.2% average for those with a bachelor's degree, BLS data shows.\n\nIt's tough to draw conclusions from minute changes in noisy data, and the figures are still emblematic of a relatively healthy job market and in line with historical averages.\n\nBut the divergence in unemployment among blue- and white-collar workers is a trend economists are closely watching.\n\n\"I'd be a little bit careful about drawing too much from these small trends. Maybe it could be indicative of future changes,\" said Bharat Chandar, a postdoctoral researcher at the Stanford Digital Economy Lab and one of the authors of the \"Canaries in the Coal Mine?\" report. \"I think we need to wait and see.\"\n\nHigh stakes\n\nTo woo more technicians such as Cook and other skilled laborers, AT&T said it's had to be competitive. For field technicians, it pays sign-on and retention bonuses of between $5,000 and $10,000, and entry-level wages can range between $18.18 and $31.45 per hour, depending on location and experience. The roles can also come with full benefits, including medical insurance, a 401(k) plan, tuition reimbursement, paid parental leave, adoption reimbursement, and up to 50% off AT&T mobile and internet plans, among other perks, according to online job descriptions.\n\nCombating the shortage of skilled tradespeople requires not only government involvement but also a societal shift around whether college is the right move for every worker, Stankey said.\n\n\"We probably ought not to just assume that sending everybody to a four-year degree is the right answer,\" he said. \"We should be more thoughtful about what that four-year degree needs to look like, or what that advanced learning needs to look like, and also ask, does all work require that?\"\n\nIt's understandable that many people chose offices over more hands-on work decades ago and why some companies struggle to recruit certain blue-collar workers. A long-held prestige and social standing come with a college education and a white-collar profession. Blue-collar work tends to be more physically demanding and often risky.\n\nWorkers such as Cook have to scale telephone poles 25 feet or higher off the ground, and though AT&T says its technicians are trained closely on safety, the type of work he does is still dangerous. Telecommunications line installers and repairers have a higher rate of fatal workplace injuries industrywide when compared with workers overall, according to BLS data.\n\nIn addition, they need to be able to lift and move up to 60 pounds, be available on holidays, work in small spaces and be prepared to tolerate rain, snow and extreme heat, according to online job descriptions.\n\nDuring a recent shift, Cook said, he had to work in the rain and was so chilled he couldn't get warm until he made it home and showered. He said that despite the physical toll his role can take, he'd still choose being a technician over an office job any day. If he'd stayed in college the first time around and pursued a white-collar career path, he said, he'd likely be in debt, wouldn't own a home and would be making less money than he is now.\n\nPlus, there's another perk that's proving to be quite important these days: Cook said he's not even remotely concerned about AI taking his job.\n\n\"I don't think robots can be climbing poles anytime soon,\" he said, laughing. \"Computers can't do what we do.\"\n\nhttps://cnbc.com/2026/05/19/ai-hiring-slowdown-skilled-trade-workers.html",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2057073391383744512/img/QeWI0GVHmclGbNcW.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2057073391383744512/vid/avc1/534x300/yNEfmxFV3VmeWzK-.mp4?tag=27"
+              }
+            ],
+            "isReply": false,
+            "authorId": "853318060052291584",
+            "likeCount": 27,
+            "viewCount": 8212,
+            "authorName": "Owen Gregorian",
+            "createdUtc": 1779279552,
+            "quoteCount": 2,
+            "replyCount": 7,
+            "authorImage": "https://pbs.twimg.com/profile_images/2055033374314577921/ufkxMOpe_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 3,
+            "bookmarkCount": 9,
+            "authorUsername": "OwenGregorian",
+            "authorVerified": true,
+            "conversationId": "2057073655822049334",
+            "authorFollowers": 172643
+          }
+        ],
+        "nextCursor": "cur_ZVt06jdJRdyZ1bzYv9N-XA"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-capybara",
+      "kind": "anonymous",
+      "name": "Capybara",
+      "artworkKey": "capybara"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00049",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:41:41.417Z",
+  "started_at": "2026-11-23T07:41:41.497Z",
+  "completed_at": "2026-11-23T07:41:43.242Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

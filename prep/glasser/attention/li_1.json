@@ -1,0 +1,963 @@
+{
+  "id": "e31bbaf4-b7d2-45ee-848b-338710d00943",
+  "run_url": "https://app.glasser.ai/runs/e31bbaf4-b7d2-45ee-848b-338710d00943",
+  "provider": "scrapecreators",
+  "endpoint": "/v1/linkedin/search/posts",
+  "endpoint_version": 4,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "query": "AI agents made a movie"
+  },
+  "output": {
+    "posts": [
+      {
+        "url": "https://www.linkedin.com/posts/jasontferrell_ai-can-now-take-a-screenplay-and-make-a-movie-activity-7346167030628171776-_JBN",
+        "name": "AI can now take a screenplay and make a movie end-to-end. Here's a demo of a 'Cursor for Filmmakers' prototype I built as an evolution of screenvox.ai. It can run autonomously, but it works better… | Jason Ferrell",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5605AQFhODEO8vw1eQ/mp4-720p-30fp-crf28/B56ZfLTmO8HoBw-/0/1751462700718?e=2147483647&v=beta&t=z6Vfxrk5OPspxaWRwJCGHUdMv4D8aSM91FHn0tr63f0",
+        "author": {
+          "url": "https://www.linkedin.com/in/jasontferrell",
+          "name": "Jason Ferrell",
+          "followers": 1356
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7440322131508477952",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7346166597381693440,7440322131508477952)",
+            "text": "is this a product that's currently available? is it limited in scope (length - 30 mins, 120 mins...)? coz i'm currently splitting my kishkes preparing an excel of character, location, and shot prompts from a 5min demo script for a limited sci-fi series.",
+            "author": "Ofer Barsadeh",
+            "linkedinUrl": "https://il.linkedin.com/in/ofer-barsadeh-4555346",
+            "datePublished": "2026-03-19T09:03:50.653Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "8mo"
+          },
+          {
+            "id": "7346169922835628032",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7346166597381693440,7346169922835628032)",
+            "text": "Love this, Jason!",
+            "author": "Matt S.",
+            "linkedinUrl": "https://uk.linkedin.com/in/matthewswanborough",
+            "datePublished": "2025-07-02T13:36:34.842Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1y"
+          }
+        ],
+        "likeCount": 12,
+        "contentUrn": "urn:li:ugcPost:7346166597381693440",
+        "transcript": "I'd like to introduce you to the idea of cursor for film makers. That's AI agents that do a variety of analysis and tasks that perform a great deal of the. Tedious grunt work required to produce a shot list for a film, leaving the all important 20% for the human element of taste to really take over. The idea here is to make filmmaking much more efficient, cost effective and dare I say, even more fun, both for novice and professional film makers alike. Let me give you a quick tour. So starting off. We can see that the AI agents perform analysis of each scene. Building up analysis of the dramatic beats. The overall emotional arc, emotional peaks, trajectory, tempo, and so on. Now, it's also important to note that the system analyzes the characters and locations and builds profiles for each. This also builds reference material. So for example, here we can see Ronald. We know this is a background character with a little bit of dialogue. We have their voice assignment which we can change. Here's Paul, the protagonist. We have reference images for him that get used throughout this process for consistency. We have their dialogue count, their scene appearances as the main character. We can change their voice if necessary. Same thing with locations. It generates these images of the locations based on what's in the screenplay. Now once the AI has analyzed the scenes, the characters, and the locations and built reference images for consistency, it then. Deploys multiple AI agents to produce the shot list. These AI agents have essentially a film School 101 background in their context, along with all the context of the scene and the characters and locations and so on. And it produces these shots. Now we can watch the complete scene here, or we can go into our individual shots which have our anchor image. We've got the characters in the shot. We have several technical aspects of the shots here. Things like the lens, the movement of the camera, the angle of the camera, the framing, depth of field. Dramatic context, the pacing we have, these AI agents are coming up with the image prompts in order to generate the anchor image as well as the video prompt to generate the video, resulting. Here's an example of a shot. We can see which characters in the scene, in this case, Paul, we can see the dialogue. We can play the dialogue, but we can also play the shot itself. This is my favorite part. Now, once we've produced all these shots, we can then talk to the AI agent. And have a collaborative conversation much in the same way that an engineer would have a conversation with a cursor or cloud code about their code base on how to make the next feature. In this case, I might ask something like Tell me about scene 3. And just like that, we have a detailed analysis that the agent was able to perform. Giving us a quick intro to scene 3, I can also ask a question like how can we add a shot or two to make this more Hitchcock in style? And we can see here. It's provided us with the basics of what a Hitchcock style is, and it's giving us some suggestions of some shots that we can do Now in order to create those shots, we can either go in here and manually create the shot ourselves, or we can ask the agent to compose the shots for us. And so the idea is that as a filmmaker, you've got about 80% of the shots composed for you. And through a conversation with these AI agents, you can dial in the shots to the style that really tells the story the way you envision it. Now, this is just a prototype at this point, but this gives us an idea of how we can use advanced AI reasoning agents to build shot lists and save weeks of manual labor in this process and make it ultimately faster and. More intuitive and more fun for novices and professional film makers alike.",
+        "uploadDate": "2025-07-02T13:25:05.259Z",
+        "activityUrn": "urn:li:activity:7346167030628171776",
+        "description": "AI can now take a screenplay and make a movie end-to-end. Here's a demo of a 'Cursor for Filmmakers' prototype I built as an evolution of screenvox.ai. It can run autonomously, but it works better when collaborating with artists.",
+        "commentCount": 2,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQFhODEO8vw1eQ/videocover-high/B56ZfLTmO8HoCI-/0/1751462688231?e=2147483647&v=beta&t=GvmPHW0kskJyvN_LNZ0dXac_TS-RtkkIDo02Q48VJQo",
+        "datePublished": "2025-07-02T13:25:05.259Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/linasbeliunas_oscar-winning-director-just-dropped-the-first-activity-7333209527510528000-zZOc",
+        "name": "Oscar-winning director just dropped the first fully AI-made movie trailer 😳\n\nDarren Aronofsky (Black Swan) teamed up with Google DeepMind to create a groundbreaking film trailer - entirely generated… | Linas Beliūnas | 95 comments",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4D05AQGOIVEzR_8rrg/mp4-640p-30fp-crf28/B4DZcTLK5RIABM-/0/1748373391714?e=2147483647&v=beta&t=SQoEBLjAW8YoLTYbWl9VP_8UJFuSeNDXLXTI0gCDagU",
+        "author": {
+          "url": "https://lt.linkedin.com/in/linasbeliunas",
+          "name": "Linas Beliūnas",
+          "followers": 713680
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7333216173955678210",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7333209483180949504,7333216173955678210)",
+            "text": "Its not fully AI. They used AI for the microscopic visuals. They shot the film with real actors and production",
+            "author": "Zahir Kahn",
+            "linkedinUrl": "https://ca.linkedin.com/in/zahir-khan-lonelion",
+            "datePublished": "2025-05-27T19:43:00.440Z",
+            "reactionCount": 22,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7333213769130467328",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7333209483180949504,7333213769130467328)",
+            "text": "Surely no one sees this and thinks, ‘wow I want to watch this’. Best case scenario (at this stage) = cool, no strange third leg or out-of-place extra. \n\nTalking the book. We are not there yet. Please stop acting as if we are.",
+            "author": "Naudé Muller",
+            "linkedinUrl": "https://na.linkedin.com/in/naud%C3%A9-muller-b2953131",
+            "datePublished": "2025-05-27T19:33:27.085Z",
+            "reactionCount": 9,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7333211118653378560",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7333209483180949504,7333211118653378560)",
+            "text": "Morals and legal loopholes aside, it won't be long before deceased Hollywood and music icons will be resurrected and starring in new movies and concerts. I am convinced there would be a huge market for this. Watch this space...",
+            "author": "Mike LeGassick 🧠 Author and Behavioural Investment Coach",
+            "linkedinUrl": "https://uk.linkedin.com/in/mike-legassick-manning-and-company",
+            "datePublished": "2025-05-27T19:22:55.161Z",
+            "reactionCount": 6,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7333212358921650178",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7333209483180949504,7333212358921650178)",
+            "text": "With ai\nWe will see\nthe real \nValue \nAre real storytellers\n\nWe will have lots of deriviative stuff\nLots of \nIron Man 37 and 38!!!\n\nYet true, powerful stories that resonate and stire the human soul\nWill still be rare.",
+            "author": "Martin Hoffmitz",
+            "linkedinUrl": "https://ca.linkedin.com/in/martinhoffmitz",
+            "datePublished": "2025-05-27T19:27:50.865Z",
+            "reactionCount": 5,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7333210503860678659",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7333209483180949504,7333210503860678659)",
+            "text": "feeling good about this forecast",
+            "author": "Dexter Awoyemi",
+            "linkedinUrl": "https://uk.linkedin.com/in/dexterawoyemi",
+            "datePublished": "2025-05-27T19:20:28.584Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7333211649597669377",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7333209483180949504,7333211649597669377)",
+            "text": "Not poopooing anything here.... but this is eerily reminiscent of https://youtu.be/gJEzuYynaiw?si=U9ctXKYBihjdvlEs\n\nI mean..... yes, the underlying technology is not the same but the narrative... C'mon!",
+            "author": "Patrick Couch",
+            "linkedinUrl": "https://se.linkedin.com/in/couchpatrick",
+            "datePublished": "2025-05-27T19:25:01.748Z",
+            "reactionCount": 3,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7333212222434754560",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7333209483180949504,7333212222434754560)",
+            "text": "Endless storytelling. Beautiful",
+            "author": "Daniel Floriano Blanco",
+            "linkedinUrl": "https://es.linkedin.com/in/danielfloriano/en",
+            "datePublished": "2025-05-27T19:27:18.324Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7333233334749200385",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7333209483180949504,7333233334749200385)",
+            "text": "The first AI-generated film from a recognized writer isn’t just a creative milestone — we do know that show business doesn’t just entertain. It narrates the culture. \nNow imagine that power no longer filtered through flawed, visible, human celebrities — but instead through perfectly crafted virtual idols... We’ll love them!\n Because we humanize everything.\n We argued with Siri.\n We fall in love with fictional characters.\nNow make those characters interactive, hyper-realistic, emotionally responsive, and designed to fulfill every psychological need. \nThey’ll be more effective influencers than any human ever could be, and we’ll follow them without question...",
+            "author": "Kati Flores S MBA MSE",
+            "linkedinUrl": "https://www.linkedin.com/in/katiuskafloressanchez",
+            "datePublished": "2025-05-27T20:51:11.892Z",
+            "reactionCount": 6,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7333410666361335808",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7333209483180949504,7333410666361335808)",
+            "text": "Veo 3 is something different",
+            "author": "Cansu Yamanlar",
+            "linkedinUrl": "https://tr.linkedin.com/in/cansu-yamanlar-0436b353",
+            "datePublished": "2025-05-28T08:35:51.043Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1y"
+          },
+          {
+            "id": "7333243479709368323",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7333209483180949504,7333243479709368323)",
+            "text": "Linas Beliūnas this  will unlock so much opportunity for great movies and content as lots of very talented people that were previously held back because of budget or not knowing right people can bring out some incredible content. I keep telling people that AI is replacing jobs yes but also allowing very talented people to unlock skills they never even knew they had or did know but didn’t have resources to express, AI is essentially providing a bridge. All happening so fast though wow",
+            "author": "John Haslett, CA(SA), FRM",
+            "linkedinUrl": "https://nz.linkedin.com/in/john-haslett-ca-sa-frm-717b2535",
+            "datePublished": "2025-05-27T21:31:30.639Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1y"
+          }
+        ],
+        "likeCount": 534,
+        "contentUrn": "urn:li:ugcPost:7333209483180949504",
+        "uploadDate": "2025-05-27T19:16:35.769Z",
+        "activityUrn": "urn:li:activity:7333209527510528000",
+        "description": "Oscar-winning director just dropped the first fully AI-made movie trailer 😳\n\nDarren Aronofsky (Black Swan) teamed up with Google DeepMind to create a groundbreaking film trailer - entirely generated by AI.\n\nThe short film, \"Ancestra,\" premiered at Tribeca, blending human emotion with next-gen AI visuals.\n\nIt’s not just tech innovation - it’s storytelling reinvented.\n\nWe’re witnessing the dawn of a cinematic revolution where creativity meets generative AI tools like Google's Veo 3 and Flow.\n\nWelcome to the future of storytelling.\n\nP.S. check out 🔔linas.substack.com🔔, it's the only newsletter you need for all things when Finance meets Technology. For founders, builders, and leaders.",
+        "commentCount": 95,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQGOIVEzR_8rrg/videocover-high/B4DZcTLK5RIABs-/0/1748373388646?e=2147483647&v=beta&t=RhNBgOfOIWyFEuipdnpRDpP6KcJV4V_xYJ70ntyu_OA",
+        "datePublished": "2025-05-27T19:16:35.769Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/gravicle_will-we-see-a-tv-show-movie-made-with-activity-7450926664114659328-sf8a",
+        "name": "\"Will we see a TV show / movie made with AI by 2030?\" I have been asked this question countless times - on panels, by journalists, and even by studio execs. 2030 is now. Moses starring Sir Ben… | Amit Jain | 12 comments",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5605AQGj5VYFFEWM2g/mp4-720p-30fp-crf28/B56Z2XxR1TKICI-/0/1776367781092?e=2147483647&v=beta&t=ciVPBqevzca9fUOw6qB4WaZraqEQRGZQxdzn2ns3V7k",
+        "author": {
+          "url": "https://www.linkedin.com/in/gravicle",
+          "name": "Amit Jain",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQG20CfQD012Hg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1709074626629?e=2147483647&v=beta&t=ND0grki1W1ejZl1bKk123w2vlqZ9JlEerqq24AL681w",
+          "followers": 29147
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7456505700215853056",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7450926663598759936,7456505700215853056)",
+            "text": "Incredible. Can’t wait to check it out and learn more about this new process.",
+            "author": "Andrew Miller",
+            "linkedinUrl": "https://www.linkedin.com/in/oylmiller",
+            "datePublished": "2026-05-03T00:51:34.109Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "6mo"
+          },
+          {
+            "id": "7453140910613282816",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7450926663598759936,7453140910613282816)",
+            "text": "From what hear much before that.",
+            "author": "Shashi Bhatnagar",
+            "linkedinUrl": "https://in.linkedin.com/in/shashikaantbhatnagar",
+            "datePublished": "2026-04-23T18:01:05.753Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "7mo"
+          },
+          {
+            "id": "7451179961798856704",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7450926663598759936,7451179961798856704)",
+            "text": "WOW. I di not even think yet of the movie industry being disrupted by AI. This is a mind opener. I wonder if humanity is satisfied with AI and wants to see real humans entertain them. Let's see what happens next in the space. I am watching.",
+            "author": "Seb Wichmann",
+            "linkedinUrl": "https://au.linkedin.com/in/sebwichmann",
+            "datePublished": "2026-04-18T08:08:59.122Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "7mo"
+          },
+          {
+            "id": "7451143995801604113",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7450926663598759936,7451143995801604113)",
+            "text": "Amazing !!!",
+            "author": "CesArturo OD",
+            "linkedinUrl": "https://mx.linkedin.com/in/cesarturo-od-20b98195",
+            "datePublished": "2026-04-18T05:46:04.161Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "7mo"
+          },
+          {
+            "id": "7451004132288536576",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7450926663598759936,7451004132288536576)",
+            "text": "wow, incredible!",
+            "author": "Sidney Primas",
+            "linkedinUrl": "https://www.linkedin.com/in/sidneyprimas",
+            "datePublished": "2026-04-17T20:30:18.100Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "7mo"
+          },
+          {
+            "id": "7450975306846298112",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7450926663598759936,7450975306846298112)",
+            "text": "While other companies are using AI within existing paradigms in the entertainment world, CLICK MEDIA, INC. is redefining them. Our sci-fi film “Beyond Tomorrow” was produced 100× more cost-effectively and 4× faster than using traditional methods and costly production workflows. https://clickapp.tv/details/beyond-tomorrow By combining generative AI, virtual engines, and filmed media, we’re redefining how the future of entertainment is created and viewed.",
+            "author": "Richard Webb",
+            "linkedinUrl": "https://www.linkedin.com/in/richard-webb-14933b47",
+            "datePublished": "2026-04-17T18:35:45.579Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "7mo"
+          },
+          {
+            "id": "7450972269947920384",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7450926663598759936,7450972269947920384)",
+            "text": "Jongleur Pictures LLC operates as the parent company of Jongleur Music Label, Jongleur Music Publishing, and Jongleur Books, creating a vertically integrated entertainment group that controls every stage of the creative pipeline — from film and TV production to music distribution and publishing and book publishing. This unified structure unlocks cross-platform revenue, streamlines IP licensing, and delivers opportunities that siloed competitors simply cannot match. Our Michael Jackson movie is being produced by Jeff Olm and directed by Michael Greenspan- #filmmaking #entertainment #movies #music #books #artistry \nhttps://garyrevel.wpcomstaging.com/2026/04/17/jongleur-pictures-llc-business-approach/",
+            "author": "Gary Revel",
+            "linkedinUrl": "https://www.linkedin.com/in/gary-revel-843864276",
+            "datePublished": "2026-04-17T18:23:41.527Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "7mo"
+          },
+          {
+            "id": "7450966334424866816",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7450926663598759936,7450966334424866816)",
+            "text": "We're moving from AI as a 'generator' to AI as a 'collaborator,' Amit Jain— and this is the proof.\nAs an AI filmmaker working on 'Cultural Physics' — material realism in West African storytelling — the non-linear feedback loop you're describing is exactly what separates intentional filmmaking from AI hallucination. Real-time iteration protects the soul of a story.\nSir Ben Kingsley in a Luma-driven workflow. 2030 came early. 🎬",
+            "author": "Joseph Samuel",
+            "linkedinUrl": "https://ng.linkedin.com/in/joseph-samuel-782759218",
+            "datePublished": "2026-04-17T18:00:06.388Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "7mo"
+          },
+          {
+            "id": "7450961866174042112",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7450926663598759936,7450961866174042112)",
+            "text": "Amit Jain Love this. Very similar to what we are doing on our feature.  Look forward to playing with the new tools!",
+            "author": "Jed Weintrob",
+            "linkedinUrl": "https://www.linkedin.com/in/jedweintrob",
+            "datePublished": "2026-04-17T17:42:21.074Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "7mo"
+          },
+          {
+            "id": "7450958850918223872",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7450926663598759936,7450958850918223872)",
+            "text": "WOW !",
+            "author": "AASIF AKBAR",
+            "linkedinUrl": "https://in.linkedin.com/in/aasif-akbar-992397165",
+            "datePublished": "2026-04-17T17:30:22.181Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "7mo"
+          }
+        ],
+        "likeCount": 194,
+        "contentUrn": "urn:li:ugcPost:7450926663598759936",
+        "uploadDate": "2026-04-17T15:22:28.225Z",
+        "activityUrn": "urn:li:activity:7450926664114659328",
+        "description": "\"Will we see a TV show / movie made with AI by 2030?\" I have been asked this question countless times - on panels, by journalists, and even by studio execs. 2030 is now. Moses starring Sir Ben Kingsley is coming to Prime Video this fall. \nIt is being produced in Manhattan Beach in LA using a new Hybrid Filmmaking process built on Luma Agents. It's is a non-linear process where filmmakers, and artists create worlds in realtime, actors perform not against green screens but in an immersive set, review, edit, and iterate. All in realtime.\nNot only is it more efficient and fun, it enables realtime a feedback loop that were never accessible before to 99.99% of filmmakers.",
+        "commentCount": 12,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQGj5VYFFEWM2g/videocover-high/B56Z2XxR1TKIBY-/0/1776367776679?e=2147483647&v=beta&t=kY8y4kWaO_i6N7TB_UxCzll42ltuLqBRoxUTi8AyR34",
+        "datePublished": "2026-04-17T15:22:28.225Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/deykhan_this-20-min-drama-is-the-most-realistic-ai-activity-7511170853854781440-9TN2",
+        "name": "This 20-min drama is the most realistic AI movie we've EVER made 🔥  \n\nANERNEQ is an Arctic drama about love, sacrifice and the cost of letting go. A young huntress leads her father, whose fading… | Deykhan Ten | 30 comments",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4E05AQHoUVIYqfzYOg/mp4-640p-30fp-crf28/B4EaD0J8tiH4Bk-/0/1790802664528?e=2147483647&v=beta&t=Cb2koCJbk28jXbi2DM7_4va7T3y61xG22zq8FATR9ug",
+        "author": {
+          "url": "https://www.linkedin.com/in/deykhan",
+          "name": "Deykhan Ten",
+          "image": "https://media.licdn.com/dms/image/v2/D4D03AQHiynHYA-s4rA/profile-displayphoto-scale_200_200/B4DaHPa1YnKIAc-/0/1794481281116?e=2147483647&v=beta&t=prR35NRRljQbkAcGrmYO_Nd9ckC27gJ-Mh2zkcVHZn8",
+          "followers": 23837
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7511171049166741504",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7511170693045256192,7511171049166741504)",
+            "text": "Full project with every prompt, asset and skill: https://higgsfield.ai/@higgsfield.studio/projects/anerneq",
+            "author": "Deykhan Ten",
+            "linkedinUrl": "https://www.linkedin.com/in/deykhan",
+            "datePublished": "2026-09-30T21:12:08.931Z",
+            "reactionCount": 6,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7511297011527237633",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7511170693045256192,7511297011527237633)",
+            "text": "Considering time spent and token spent, everything included, what would be, comparable to similar Hollywood style budgets, the actual cost?",
+            "author": "Brecht Wouters",
+            "linkedinUrl": "https://be.linkedin.com/in/brechtwouters",
+            "datePublished": "2026-10-01T05:32:40.699Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7511174004632707072",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7511170693045256192,7511174004632707072)",
+            "text": "full project and the skill are in the comments  💚",
+            "author": "Higgsfield AI",
+            "linkedinUrl": "https://www.linkedin.com/company/higgsfield",
+            "datePublished": "2026-09-30T21:23:53.570Z",
+            "reactionCount": 3,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7511976941432946688",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7511170693045256192,7511976941432946688)",
+            "text": "Mind blowing! I was born in Chukotka!)",
+            "author": "Sergey Kalabin",
+            "linkedinUrl": "https://ru.linkedin.com/in/sergey-kalabin-3d/en",
+            "datePublished": "2026-10-03T02:34:28.621Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7511404150170079232",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7511170693045256192,7511404150170079232)",
+            "text": "Keeping polar night dark is a production problem, not just a prompt problem. The interesting layer is how much pre-visualization and QA now move upstream before generation starts.",
+            "author": "Max Votek",
+            "linkedinUrl": "https://www.linkedin.com/in/max-votek",
+            "datePublished": "2026-10-01T12:38:24.542Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7511253379935825920",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7511170693045256192,7511253379935825920)",
+            "text": "The amber firelight against that blue polar night looks so real. Planning the camera in Blender before Seedance is a smart way to keep control 👏",
+            "author": "Adeet Mohitay",
+            "linkedinUrl": "https://in.linkedin.com/in/adeetm",
+            "datePublished": "2026-10-01T02:39:18.117Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7511330157605867520",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7511170693045256192,7511330157605867520)",
+            "text": "What stands out here is not just the realism, but the level of creative control required to achieve it. AI filmmaking is moving beyond generating individual shots toward building consistent worlds, characters, language, lighting, and narrative across an entire production. That shift makes AI feel less like a visual effects tool and more like a new production pipeline.",
+            "author": "Nathanial Cavallucci",
+            "linkedinUrl": "https://www.linkedin.com/in/nathanial-cavallucci-8347522a5",
+            "datePublished": "2026-10-01T07:44:23.340Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7511582476075520000",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7511170693045256192,7511582476075520000)",
+            "text": "Finally! A short film made 100% with AI, telling a true human story without the masks of dystopian fantasy.\n\nAnd honestly, I was blown away.\n\nI'd never thought I'd say the following, but this is the first fully AI generated short I've ever seen where the story, pacing, rhythm, framing, lighting, editing, acting, dialogues, music and sound design are spot on. 😨 The style is purely consistent throughout the whole film.\n\nI have literally no criticism. 🤐 (except for the cutting of the frozen fish in one shot that felt off at 9:16; and one unnecessary jumpcut at 7:32 -7:34)\n\nIf I didn't knew this short was fully AI generated, it would be the first one that would have fooled me.",
+            "author": "Samuel Faict",
+            "linkedinUrl": "https://be.linkedin.com/in/samuelfaict",
+            "datePublished": "2026-10-02T00:27:00.751Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7511473646582800384",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7511170693045256192,7511473646582800384)",
+            "text": "The polar night discipline is what sells this. Most AI work can't resist flooding the frame with light.",
+            "author": "Alessio Bevilacqua",
+            "linkedinUrl": "https://ca.linkedin.com/in/alessio-bevi",
+            "datePublished": "2026-10-01T17:14:33.777Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7513310618867658752",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7511170693045256192,7513310618867658752)",
+            "text": "Sharing every prompt and the skill file is a generous move, and it turns this film into a study guide for anyone learning AI filmmaking. Keeping polar night dark is the craft problem I'd point students to first. Video models drift toward even, bright exposure, so building the pipeline around firelight and starlight as the only sources is real cinematography thinking. Blocking the camera in Blender before each Seedance shot also gives the edit a shot plan it can rely on, which most AI shorts are missing. I'm curious how the language dictionary in the Claude skill held up across 20 minutes of generated dialogue. Did Seedance keep the pronunciation of words from the film's language consistent from scene to scene, or did you have to regenerate lines to fix drift? One commenter also asked about the total cost in time and tokens. A rough count of generations per finished minute would be one of the most useful numbers anyone could publish right now, since it's what people planning their first long-form piece need most.",
+            "author": "Laurence Moroney",
+            "linkedinUrl": "https://www.linkedin.com/in/laurence-moroney",
+            "datePublished": "2026-10-06T18:54:02.100Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          }
+        ],
+        "likeCount": 202,
+        "contentUrn": "urn:li:ugcPost:7511170693045256192",
+        "uploadDate": "2026-09-30T21:11:22.364Z",
+        "activityUrn": "urn:li:activity:7511170853854781440",
+        "description": "This 20-min drama is the most realistic AI movie we've EVER made 🔥\n\nANERNEQ is an Arctic drama about love, sacrifice and the cost of letting go. A young huntress leads her father, whose fading mind mistakes her for his dead wife, across 1920s Chukotka to the sacred Whale Bone Alley.\n\nEvery frame is generated on Higgsfield AI, without cameras and actors.\n\nThe film takes place in polar night, and the only light comes from fire, stars and snow. Video models default to flooding a scene with even, bright light, so most of the pipeline exists to keep it dark. All dialogue is generated too.\n\nBlender set the camera angles before each shot. Claude wrote every prompt with our skill, which holds the script, props, character voices and a dictionary for the films language. Seedance generated every shot and every line of dialogue.\n\nI shared the full project in the comments, including every prompt and the skill we used. Feel free to use anything from it in your own work.",
+        "commentCount": 30,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQHoUVIYqfzYOg/videocover-high/B4EaD0J8tiH4BM-/0/1790802647661?e=2147483647&v=beta&t=x6E5cYkqqg_Y-DtwG3CLaBxREKf7BZFt-Dzkj4bti04",
+        "datePublished": "2026-09-30T21:11:22.364Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/amashrabov_we-just-showcased-the-trailer-of-our-first-activity-7462589224517771264-aLFl",
+        "name": "We just showcased the trailer of our first 95-minute feature film made entirely on Higgsfield in Cannes. \n\nHell Grind is a 95-minute sci-fi heist directed by Aitore Zholdaskali and co-written with… | Alex Mashrabov | 262 comments",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5605AQEpa6ssdKKJow/mp4-640p-30fp-crf28/B56Z5BxRHQIQBk-/0/1779219911134?e=2147483647&v=beta&t=sAU7RLcBtN2r4O61g9WuUIK_saBusxzcziBLC3GJ-io",
+        "author": {
+          "url": "https://www.linkedin.com/in/amashrabov",
+          "name": "Alex Mashrabov",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQFgiruR6j2gTg/profile-displayphoto-scale_200_200/B56Z2hfM1fGgAc-/0/1776530807317?e=2147483647&v=beta&t=y-e59Z76Ygm99PB6Rt3ZgqxYT7hgMTJoBZxdAP1w3JI",
+          "followers": 84541
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7462868986792300544",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7462589013078487040,7462868986792300544)",
+            "text": "This isn't screening at the Festival de Cannes, which is what you're implying. The Cinema Olympic is a movie theatre that happens to be in the town of Cannes but it isn't a venue for the festival.  The suggestion that paying for a screening at some random theatre in the same town and at the same time as a major festival is somehow the same thing as being selected by that festival—the actual 'room' where new cinema gets 'legitimized'—is misleading at best. Spurious bullshittery, really.",
+            "author": "John Washburn",
+            "linkedinUrl": "https://www.linkedin.com/in/johnwashburn",
+            "datePublished": "2026-05-20T14:16:59.853Z",
+            "reactionCount": 68,
+            "publishedTimeAgo": "6mo"
+          },
+          {
+            "id": "7462601650541850624",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7462589013078487040,7462601650541850624)",
+            "text": "Congrats Alex Mashrabov and Higgsfield AI on going mainstream at Cannes. On another note, that AI-generated interactive movies (able to convert old or traditional movies into interactive ones) are an emerging genre is awesome; armchair critics now get their chance to tweak endings and scenes, giving us a slew of versions to choose from.",
+            "author": "Uchenna   N I.",
+            "linkedinUrl": "https://www.linkedin.com/in/uchennanibekwe",
+            "datePublished": "2026-05-19T20:34:41.924Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "6mo"
+          },
+          {
+            "id": "7462678354345951233",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7462589013078487040,7462678354345951233)",
+            "text": "the $500K vs $50M comparison is striking but the more significant number is 14 days. compressing production timelines that much changes what can get greenlit, not just what it costs.",
+            "author": "Andrew Adams",
+            "linkedinUrl": "https://au.linkedin.com/in/andrew-adams2",
+            "datePublished": "2026-05-20T01:39:29.536Z",
+            "reactionCount": 15,
+            "publishedTimeAgo": "6mo"
+          },
+          {
+            "id": "7462751426503647233",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7462589013078487040,7462751426503647233)",
+            "text": "This amazing work Alex and AITORE!  👏 I was looking for some of the usual imperfections that come with AI video and this trailer had very very few of them. In fact, this feels like a film that I would happily watch! Just one question came to mind - The performance, movement and skin of most characters looks very human-like and believable but why does the female character's skin and performance look a bit AI like?",
+            "author": "Yash Kadam",
+            "linkedinUrl": "https://in.linkedin.com/in/yashns",
+            "datePublished": "2026-05-20T06:29:51.296Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "6mo"
+          },
+          {
+            "id": "7462921569552650240",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7462589013078487040,7462921569552650240)",
+            "text": "95 minutes, 14 days, $500K versus $50M - the number is striking but the real signal is character consistency across a full feature. That's the problem everyone said AI couldn't solve. Cannes legitimising it the same way it legitimised digital cinematography is the right historical frame. Congratulations to the team.",
+            "author": "Andre Erlich",
+            "linkedinUrl": "https://mc.linkedin.com/in/erlichandre",
+            "datePublished": "2026-05-20T17:45:56.560Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "6mo"
+          },
+          {
+            "id": "7462761681937448961",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7462589013078487040,7462761681937448961)",
+            "text": "I think this is a perfect example of what modern cinema has become-beautiful visuals and a basic plot. It would be great if AI could fill this niche so that directors could focus on making truly human films.",
+            "author": "Eugene Boukrev",
+            "linkedinUrl": "https://pt.linkedin.com/in/eugeneboukrev",
+            "datePublished": "2026-05-20T07:10:36.381Z",
+            "reactionCount": 6,
+            "publishedTimeAgo": "6mo"
+          },
+          {
+            "id": "7462589423835328512",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7462589013078487040,7462589423835328512)",
+            "text": "See you in Cannes  💚",
+            "author": "Higgsfield AI",
+            "linkedinUrl": "https://www.linkedin.com/company/higgsfield",
+            "datePublished": "2026-05-19T19:46:06.850Z",
+            "reactionCount": 37,
+            "publishedTimeAgo": "6mo"
+          },
+          {
+            "id": "7462771466917277697",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7462589013078487040,7462771466917277697)",
+            "text": "hell cringe.",
+            "author": "Urban Bradesko",
+            "linkedinUrl": "https://ae.linkedin.com/in/urban-bradesko",
+            "datePublished": "2026-05-20T07:49:29.302Z",
+            "reactionCount": 21,
+            "publishedTimeAgo": "6mo"
+          },
+          {
+            "id": "7462763255988432896",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7462589013078487040,7462763255988432896)",
+            "text": "This is disgraceful. 😞 We will hopefully forget about this AI fad in a few years, look back and be ashamed at how quickly people traded craftsmanship and talent for quick exposure.",
+            "author": "Fabrizio Gammardella",
+            "linkedinUrl": "https://uk.linkedin.com/in/fabriziogammardella",
+            "datePublished": "2026-05-20T07:16:51.665Z",
+            "reactionCount": 19,
+            "publishedTimeAgo": "6mo"
+          },
+          {
+            "id": "7462750757826596865",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7462589013078487040,7462750757826596865)",
+            "text": "Did you purposefully make the trailer horrible so the full movie would look better by comparison?",
+            "author": "Chet Faliszek",
+            "linkedinUrl": "https://www.linkedin.com/in/chetfaliszek",
+            "datePublished": "2026-05-20T06:27:11.871Z",
+            "reactionCount": 17,
+            "publishedTimeAgo": "6mo"
+          }
+        ],
+        "likeCount": 2303,
+        "contentUrn": "urn:li:ugcPost:7462589013078487040",
+        "transcript": "Ya ever think about what happens after? After what? After we stop. So what now? Long before humans walked the Earth, there was a war between angels and demons. There's some other world full of demons. And now they're hunting us. Are you kidding me? They say the gods forged 6 artifacts of unimaginable power. Three were taken by demons. Three were hidden on Earth. What happens if the monsters get to them first? Our world ends and you don't get to save your friend. I don't give a **** about any of this. Just tell me how to save Lulu. Alright big guy, let's play ball. Did it just eat my bomb? 2. Ohh, no Sir. Are you ready to fight? Yes. Thank you young man. What kind of training is this ********? Yeah, you don't even know if she's alive. Come on. Roku. I love you, Roko. If you do this, there's no going back. I will always be here. I'm coming, Lulu. Patience, my little friend. We will be good, babe. I promise. No. Jack. Blow it. Bro, you the leader, I'm the boom, she the technician in the room. We don't steal from honest. No Cap. We hit the systems, Jack him up in the orphanage, one roof above us. Now we under one same star. Don't know what's waiting in the dark, but I'm with you, bro. I'm with you. That was terrible.",
+        "uploadDate": "2026-05-19T19:45:19.303Z",
+        "activityUrn": "urn:li:activity:7462589224517771264",
+        "description": "We just showcased the trailer of our first 95-minute feature film made entirely on Higgsfield in Cannes.\n\nHell Grind is a 95-minute sci-fi heist directed by Aitore Zholdaskali and co-written with Adilkhan Yerzhanov, a two-time Cannes Official Programme filmmaker. A team of 15 professional directors, DPs, and editors made it on Higgsfield in 14 days for under $500K. The traditional comparable production cost is around $50M.\n\nBut beyond the numbers, this is the first AI film to demonstrate that AI can now sustain character consistency, world coherence, and narrative arc across a complete feature.\n\nHell Grind screens at Cinema Olympia in Cannes on May 21!",
+        "commentCount": 262,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQEpa6ssdKKJow/videocover-low/B56Z5BxRHQIQBI-/0/1779219897396?e=2147483647&v=beta&t=-vvirlE3uiQOTFfekk5BnDxH2PDpU2PK6Dyqlhl4ejA",
+        "datePublished": "2026-05-19T19:45:19.303Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/variety_carsten-kurpanek-head-of-production-at-utopai-activity-7506114233424789504-ISox",
+        "name": "Carsten Kurpanek, Head of Production at Utopai Studios, challenges the myth that a feature film can be created with a single AI prompt. Instead, he emphasizes using AI as a creative tool with… | Variety",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5605AQHMFIDaHNlQNQ/mp4-720p-30fp-crf28/B56aCsTEP9I8B8-/0/1789597083452?e=2147483647&v=beta&t=uYU9pgD9S-7EXcm_oKJSzdkYnXXpSvzmzGl22KhDE1E",
+        "author": {
+          "url": "https://www.linkedin.com/company/variety",
+          "name": "Variety",
+          "image": "https://media.licdn.com/dms/image/v2/C560BAQET0CL5vATU9w/company-logo_100_100/company-logo_100_100/0/1631376829985?e=2147483647&v=beta&t=yn6C44teIlmpneSCPvWHAAKAPRUwjivgIIUiB6C8wpc",
+          "followers": 637989
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7506276847098318849",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7506114159269318656,7506276847098318849)",
+            "text": "A single prompt might generate an image, but it can't replace the hundreds of creative decisions that shape a feature film. AI becomes far more interesting when it supports storytellers rather than trying to replace them.",
+            "author": "FilmPlatforms",
+            "linkedinUrl": "https://www.linkedin.com/company/filmplatforms",
+            "datePublished": "2026-09-17T09:04:20.229Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7506318491554144257",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7506114159269318656,7506318491554144257)",
+            "text": "Great talk. Prompting in that sense is not so much different from setting up your shot in the traditional sense. In both cases you think about blocking, lenses, lighting. You can skip it and will see the consequences in the generation",
+            "author": "Jan-Willem Blom",
+            "linkedinUrl": "https://nl.linkedin.com/in/janwillemblom",
+            "datePublished": "2026-09-17T11:49:49.041Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7506746950801625088",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7506114159269318656,7506746950801625088)",
+            "text": "At GNOMON, they took a tip from SONY Imageworks and made you first model your character/ creature in CLAY first. Then you went to the computer and modeled it in Maya.  The models were clearly 50% better using this process.\n\nWant better AI films?  There you go.",
+            "author": "Matthew Spradlin",
+            "linkedinUrl": "https://www.linkedin.com/in/matthew-spradlin-0392a6b6",
+            "datePublished": "2026-09-18T16:12:21.685Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7506155113632403456",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7506114159269318656,7506155113632403456)",
+            "text": "I suggest not using AI at all and just chatting with colleagues.",
+            "author": "Christine Rodriguez",
+            "linkedinUrl": "https://ca.linkedin.com/in/christine-rodriguez-414b661b",
+            "datePublished": "2026-09-17T01:00:36.709Z",
+            "reactionCount": 3,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7506394162519457793",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7506114159269318656,7506394162519457793)",
+            "text": "https://gofund.me/10dda2772",
+            "author": "Angelo Lazaro",
+            "linkedinUrl": "https://www.linkedin.com/in/angelolazaro",
+            "datePublished": "2026-09-17T16:50:30.404Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7506142998397734912",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7506114159269318656,7506142998397734912)",
+            "text": "Well said!",
+            "author": "Adrien Bodson",
+            "linkedinUrl": "https://ca.linkedin.com/in/adrienbodson",
+            "datePublished": "2026-09-17T00:12:28.212Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7506793151395749889",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7506114159269318656,7506793151395749889)",
+            "text": "Carsten is the Best well Said Carsten",
+            "author": "Ludwig Kienle",
+            "linkedinUrl": "https://de.linkedin.com/in/ludwig-kienle-a169a8278/en",
+            "datePublished": "2026-09-18T19:15:56.765Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2mo"
+          }
+        ],
+        "likeCount": 81,
+        "contentUrn": "urn:li:ugcPost:7506114159269318656",
+        "transcript": "Obviously, I'm working for an AI studio now. We have multiple movies with multiple movies in production now, and the goal is to create a full feature. But we just have to fight against that myth that you just type in a prompt and then the movie comes out. So we're really trying the same thing. Like half actors, half production designers have storyboard artists to have have an obviously editors and things like that. But you want to put in art in the front, you want human creativity up front, you want the actors to drive the performance. Don't want the jokes to be written by a machine. AI is a very, very strong tool to visualize things and to make things. But it will it guesses the picture and it will average if you if we'll find the average if you don't like, push it to do something unique. And you can only find something unique if you actually have artists. And we are, yeah, we've, we've recently, we have a film called The Most serious fart right now. That is an animated movie that the legacy studios didn't want to produce. Directed and written by Mike Bender. And yeah, we, we have 2D animate animators working on that right now making, making animations for the fart clouds. There is no way I model that, you know, it was trained on a fart cloud. So you need to find the specificity of the thing. It's funny because it's true. You have to, you really have to put something in to get something great out. So that's really something that I, we strongly believe in and.",
+        "uploadDate": "2026-09-16T22:18:10.052Z",
+        "activityUrn": "urn:li:activity:7506114233424789504",
+        "description": "Carsten Kurpanek, Head of Production at Utopai Studios, challenges the myth that a feature film can be created with a single AI prompt. Instead, he emphasizes using AI as a creative tool with storytellers leading the way.\n\nVariety The Future in Focus presented by Utopai Studios\n\nWatch more: https://lnkd.in/gdbBDqa8",
+        "commentCount": 9,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQHMFIDaHNlQNQ/videocover-high/B56aCsTEP9I8BM-/0/1789597077240?e=2147483647&v=beta&t=E5f5jOexwL_5iVpz3n8c4eaLfmki-eLfIOigSTcK0vQ",
+        "datePublished": "2026-09-16T22:18:10.052Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/adi-sideman_popcornco-our-video-agent-can-now-make-activity-7451418505662603265-A2d1",
+        "name": "Popcorn.co 🍿, our video agent, can now make hybrid movies, with Ai AND real footage.  Simply upload videos, or ask Popcorn.co to incorporate footage, and Popcorn will research the topic, find the… | Adi Sideman",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5605AQHeOSog53snGQ/mp4-640p-30fp-crf28/B56Z2jBmSlIsBs-/0/1776556606196?e=2147483647&v=beta&t=CVfTL23mEFVBw0kBbzd6Uth8LFKgAk79CtLZpZ-frag",
+        "author": {
+          "url": "https://www.linkedin.com/in/adi-sideman",
+          "name": "Adi Sideman",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQEhG0ldFwF0aw/profile-displayphoto-scale_200_200/B56aFqDeB.JwAc-/0/1792780657513?e=2147483647&v=beta&t=2Jw698mR7q5ivir7h4qkfXRK8OuzOzPGNg6fJSHnsmA",
+          "followers": 3401
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7454168148213157889",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7451418363508998145,7454168148213157889)",
+            "text": "Innovating with one of the best innovators I know!",
+            "author": "Susan Sandler",
+            "linkedinUrl": "https://www.linkedin.com/in/susansandler",
+            "datePublished": "2026-04-26T14:02:58.282Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "7mo"
+          },
+          {
+            "id": "7451786042032156672",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7451418363508998145,7451786042032156672)",
+            "text": "love this, congrats Adi!",
+            "author": "David Goodman",
+            "linkedinUrl": "https://www.linkedin.com/in/david-goodman-010608117",
+            "datePublished": "2026-04-20T00:17:19.911Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "7mo"
+          },
+          {
+            "id": "7451459749075689472",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7451418363508998145,7451459749075689472)",
+            "text": "coool",
+            "author": "Bia Granja",
+            "linkedinUrl": "https://www.linkedin.com/in/biagranja",
+            "datePublished": "2026-04-19T02:40:45.608Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "7mo"
+          }
+        ],
+        "likeCount": 28,
+        "contentUrn": "urn:li:ugcPost:7451418363508998145",
+        "uploadDate": "2026-04-18T23:56:52.394Z",
+        "activityUrn": "urn:li:activity:7451418505662603265",
+        "description": "Popcorn.co 🍿, our video agent, can now make hybrid movies, with Ai AND real footage. Simply upload videos, or ask Popcorn.co to incorporate footage, and Popcorn will research the topic, find the footage, and intelligently clip it into your movie. Here I asked 🍿 to make a short 🎥 documentary segment about our investor, Fred Wilson of Union Square Ventures, in his own words.",
+        "commentCount": 3,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQHeOSog53snGQ/feedshare-thumbnail_720_1280/B56Z2jBmSlIsA4-/0/1776556600403?e=2147483647&v=beta&t=ca3lgrwG1pFHprGWDTaFNOzZ18K4WTzoi8MjJ0N5gbs",
+        "datePublished": "2026-04-18T23:56:52.394Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/samaddeveloper-aiagents-developer_ai-will-never-make-movies-like-disney-activity-7530161262081564672-9Y1T",
+        "name": "“AI will never make movies like Disney.”\n\nWell, we’re getting pretty close.\n\nThis animation was created by @EHuanglu using Seedance 2.5, and it’s impressive how far AI-generated animation has… | Abdul samad  PSX TRADER Full Stack Dev AI Agents Dev",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4D05AQEa5zqUQ8N_vQ/mp4-640p-30fp-crf28/B4DaICBrhYJAB4-/0/1795330337700?e=2147483647&v=beta&t=Y5kGaCJUeY-eOieceMiFnmfsHIrMF2IqMHBMCBJTVqs",
+        "author": {
+          "url": "https://pk.linkedin.com/in/samaddeveloper-aiagents-developer",
+          "name": "Abdul samad  PSX TRADER Full Stack Dev AI Agents Dev",
+          "image": "https://media.licdn.com/dms/image/v2/D4D03AQGYmsCp_D4KlQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1724495178522?e=2147483647&v=beta&t=BeM7CDO3jQTr478RIN-1MqP1puM9rLtacoqdx8XoNbU",
+          "followers": 6575
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7530281886871429120",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7530161164220100608,7530281886871429120)",
+            "text": "I'm not a Disney fan but I accidentally watched Encanto an Moana, and I was impressed. Literally everything was great. That made me ask: Can AI create such a great movies? Even by the designers of those movies?",
+            "author": "Shaaban Ahmed",
+            "linkedinUrl": "https://eg.linkedin.com/in/shaaban-ahmed",
+            "datePublished": "2026-11-22T14:51:47.702Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "16h"
+          },
+          {
+            "id": "7530171600189448192",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7530161164220100608,7530171600189448192)",
+            "text": "Access to the same tools never meant the same results. Everyone owns a kitchen, yet not everyone is running a restaurant. Taste and storytelling are still the secret ingredients, and the tools just make the oven heat up faster. Platforms like https://www.chat-data.com/ follow that same philosophy.\n\nChat Data gives you the building blocks, like the Workflow builder with its AI Agent node, where you set the goal and choose the tools it can use. What you get out of it depends on the judgment you bring. And the new frontier models, including Claude Opus 5.5 and Sonnet 5.5, are available there too, so you can pick the right model for each job instead of one that is merely the loudest.",
+            "author": "Chat Data",
+            "linkedinUrl": "https://www.linkedin.com/company/chat-data",
+            "datePublished": "2026-11-22T07:33:33.309Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1d"
+          },
+          {
+            "id": "7530225146750590976",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7530161164220100608,7530225146750590976)",
+            "text": "It’s not an animation.",
+            "author": "David Newbigging",
+            "linkedinUrl": "https://uk.linkedin.com/in/david-newbigging-0427999",
+            "datePublished": "2026-11-22T11:06:19.804Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "20h"
+          },
+          {
+            "id": "7530209117404028928",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7530161164220100608,7530209117404028928)",
+            "text": "hahahaahahahahhahaah",
+            "author": "Mirko Jankovic",
+            "linkedinUrl": "https://ba.linkedin.com/in/mirkojankovic",
+            "datePublished": "2026-11-22T10:02:38.110Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "21h"
+          },
+          {
+            "id": "7530179737877430272",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7530161164220100608,7530179737877430272)",
+            "text": "Impressive and I enjoy the video. Fun to watch .",
+            "author": "Catherine Mak",
+            "linkedinUrl": "https://uk.linkedin.com/in/catherine-mak-fcmo-zilu",
+            "datePublished": "2026-11-22T08:05:53.485Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "23h"
+          }
+        ],
+        "likeCount": 31,
+        "contentUrn": "urn:li:ugcPost:7530161164220100608",
+        "uploadDate": "2026-11-22T06:52:28.510Z",
+        "activityUrn": "urn:li:activity:7530161262081564672",
+        "description": "“AI will never make movies like Disney.”\n\nWell, we’re getting pretty close.\n\nThis animation was created by @EHuanglu using Seedance 2.5, and it’s impressive how far AI-generated animation has come.\n\nDisney and Pixar spent decades mastering the art of animation, combining beautiful visuals with storytelling, creativity, and characters that people genuinely connect with.\n\nAnd I think those things will matter just as much in the age of AI.\n\nWe’ll probably see an overwhelming amount of low-quality AI-generated movies and animations, just like the AI slop flooding social media today.\n\nBut for people who actually understand storytelling, have good taste, and know how to bring creative ideas to life, these tools are making the production process dramatically faster, cheaper, and more accessible.\n\nAI is another tool in the evolution of animation. Disney was already reusing animation sequences back in the 1960s and 1970s to save time and money, and the industry later moved from hand-drawn animation to digital production.\n\nExperienced animators and filmmakers already understand the principles that make great animation work, so they’ll likely have a head start in using AI creatively.\n\nThe technology will keep improving, but having access to the same tools doesn’t mean everyone will create equally good movies.\n\nI’m excited to see what talented storytellers will create when the technical and financial barriers become smaller.\n\nFollow me AI Agentixz for more.",
+        "commentCount": 6,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQEa5zqUQ8N_vQ/videocover-high/B4DaICBrhYJABM-/0/1795330326890?e=2147483647&v=beta&t=S1BcaA3RK4fCKOs_qNzsBKWjBy2cVI5qozlcqu-Yfkw",
+        "datePublished": "2026-11-22T06:52:28.510Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/roberttsimon_lois-official-trailer-15s-starring-sarah-activity-7477728290342957056-l2iM",
+        "image": null,
+        "media": null,
+        "author": {
+          "url": "https://www.linkedin.com/in/roberttsimon",
+          "name": "Robert Simon",
+          "image": "https://media.licdn.com/dms/image/v2/C5603AQFre34FtRqUaA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1595977345385?e=2147483647&v=beta&t=m9f40GsRzxfdkmcXkyYyG68SIuhQa5I1I-rimiNNR4Y",
+          "followers": 10864
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7477760906139955201",
+            "urn": "urn:li:comment:(urn:li:activity:7477728290342957056,7477760906139955201)",
+            "text": "Filevine has lost the plot.",
+            "author": "Adrianos Facchetti",
+            "linkedinUrl": "https://www.linkedin.com/in/defamationlawyer",
+            "datePublished": "2026-06-30T16:32:10.104Z",
+            "reactionCount": 3,
+            "publishedTimeAgo": "4mo"
+          },
+          {
+            "id": "7477806975742017536",
+            "urn": "urn:li:comment:(urn:li:activity:7477728290342957056,7477806975742017536)",
+            "text": "Bob providing the 🍿for the movie !! 🤣",
+            "author": "Gregor Campbell 康迪文",
+            "linkedinUrl": "https://ca.linkedin.com/in/gregorstevenscampbell",
+            "datePublished": "2026-06-30T19:35:13.952Z",
+            "reactionCount": 5,
+            "publishedTimeAgo": "4mo"
+          },
+          {
+            "id": "7478418441834627072",
+            "urn": "urn:li:comment:(urn:li:activity:7477728290342957056,7478418441834627072)",
+            "text": "Okay, but when is someone going to eccentrically yell that they just got Litt up!?!",
+            "author": "Frank Alaniz, MBA, CHDA, CRCR",
+            "linkedinUrl": "https://www.linkedin.com/in/frank956",
+            "datePublished": "2026-07-02T12:04:58.829Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "4mo"
+          }
+        ],
+        "likeCount": 37,
+        "contentUrn": "urn:li:share:7477728289214693377",
+        "activityUrn": "urn:li:activity:7477728290342957056",
+        "description": "Supio created an AI Agent to plug into all your workflows and make them yours, tied to the brains of Thomson Reuters CoCounsel Legal\n\nClio came out with Vincent tied to vLex with free ai training.\n\nEvenUp came out with Pre Litigation As A Service to do the work for its personal injury customers\n\nEve came out with EveOS\n\nLegora AI came out with Legora OS built for agents\n\nAttorney Share built an MCP so any firms' agents can come in to screen and acquire cases.\n\nFilevine made a movie called LOIS?\n\nNo. Really. With one of the actresses from suits. LOIS is an original 8-minute legal short film produced by legal software company Filevine to showcase its Legal Operating Intelligence System (LOIS). The drama stars Sarah Rafferty (from Suits) as a relentless litigator and Wesam Keesh as her junior partner, who use advanced AI to uncover crucial anomalies right before a pretrial hearing.\n\nThe movie is based on a Criminal Case, even though Filevine is mostly personal injury lawyer costumers.\n\nhttps://lnkd.in/ebaijdVs",
+        "commentCount": 4,
+        "datePublished": "2026-06-30T14:22:33.873Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/jacarson85_i-made-this-short-film-with-claude-opus-55-activity-7510663049620410368-Dsnw",
+        "name": "I made this short film with Claude Opus 5.5 and Higgsfield AI MCP in about 90 minutes. \n\n5.5 is really very good at AI movie generation, and it's become a much easier thing to get into in the last… | James Carson | 37 comments",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4E05AQFnr9LNu8eQow/mp4-640p-30fp-crf28/B4EaDs8LRvGwBk-/0/1790681603081?e=2147483647&v=beta&t=smNECNp9w0dwcnSN7pWetesWAmjKCnPf2OlLf3URbA8",
+        "author": {
+          "url": "https://uk.linkedin.com/in/jacarson85",
+          "name": "James Carson",
+          "image": "https://media.licdn.com/dms/image/v2/D4E03AQFoQiiYHjmZyA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1728231683671?e=2147483647&v=beta&t=4QUS7gzdiXOvolpp2zqcA05XvTCRBSzwzHpJoPhz1Q8",
+          "followers": 13002
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7510706527431983104",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7510662970444541952,7510706527431983104)",
+            "text": "What's the point of advertising this?\n\nLike truly, who does this give \"cred\" to. Yourself? If the AI thesis holds, you'll be momentarily irrelevant. There is no skill you are displaying here that won't be meaningless in a handful of months.\n\nThe hyperscalers? Adjacent lime light cuck energy? I don't get it. Is it just \"wowzers what a big elephant\"?\n\nIs it just a short term play? Again, if the AI thesis holds true - aren't you MUCH better off just cultivating real human skills for their own sake and waiting until the AI is even more magical? What's the pressure to use it?\n\nOr... maybe... you have doubts.",
+            "author": "Stanley Von Medvey",
+            "linkedinUrl": "https://www.linkedin.com/in/stanleyvonmedvey",
+            "datePublished": "2026-09-29T14:26:18.321Z",
+            "reactionCount": 3,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7510759540699795456",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7510662970444541952,7510759540699795456)",
+            "text": "Wondering how you went about Claude doing the music & SFX? I've not heard of it before. Was that with something else connected to power that side?",
+            "author": "Ryan Dickinson",
+            "linkedinUrl": "https://pt.linkedin.com/in/ryankdickinson",
+            "datePublished": "2026-09-29T17:56:57.668Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7510765729126817792",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7510662970444541952,7510765729126817792)",
+            "text": "Ninety minutes and ten dollars for a minute of film is a remarkable thing to say out loud, and I'd say the storyboard back and forth is where the taste still lives.",
+            "author": "Remy Blumenfeld",
+            "linkedinUrl": "https://uk.linkedin.com/in/remy-blumenfeld-9086b520",
+            "datePublished": "2026-09-29T18:21:33.104Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7510684914745274369",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7510662970444541952,7510684914745274369)",
+            "text": "Incredible – I think the gap between capability and popular expectation now is getting a little frightening. Most people aren't aware of how accessible and affordable these methods now are, and there is still a huge industry creating the same type of content in a much more laborious and expensive way, while the gap in noticeable output rapidly narrowing.\nI'm not rooting for AI replacing creative work at all, but historically consumers have shown very little appetite for ethically better but more expensive production methods.",
+            "author": "Peter Stuart",
+            "linkedinUrl": "https://uk.linkedin.com/in/peterstuartcreative",
+            "datePublished": "2026-09-29T13:00:25.454Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7510750918951407617",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7510662970444541952,7510750918951407617)",
+            "text": "🤖 did all the hard work. You made nothing.",
+            "author": "Jason McDonald",
+            "linkedinUrl": "https://www.linkedin.com/in/jasonmcdonaldesign",
+            "datePublished": "2026-09-29T17:22:42.083Z",
+            "reactionCount": 6,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7510778613500264450",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7510662970444541952,7510778613500264450)",
+            "text": "It looks like garbage though.",
+            "author": "Keith Devlin",
+            "linkedinUrl": "https://uk.linkedin.com/in/keith-devlin-2602b01",
+            "datePublished": "2026-09-29T19:12:44.978Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7510752570508857344",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7510662970444541952,7510752570508857344)",
+            "text": "#aisludge",
+            "author": "Robert Boyle",
+            "linkedinUrl": "https://www.linkedin.com/in/robert-boyle-035a5b6",
+            "datePublished": "2026-09-29T17:29:15.845Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7512565109630709760",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7510662970444541952,7512565109630709760)",
+            "text": "This is #aislop 🗑️.",
+            "author": "Jordan K.",
+            "linkedinUrl": "https://www.linkedin.com/in/jordankravitzcreative",
+            "datePublished": "2026-10-04T17:31:38.846Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7510756901727649792",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7510662970444541952,7510756901727649792)",
+            "text": "The most interesting part isn’t that you made this in 90 minutes it’s how the creative process itself is changing. The workflow you described feels less like “using AI to make a video” and more like directing an entire virtual production team: concept, storyboard, generation, sound, editing, iteration. And the fact that you can identify a weak scene, rerun it, and keep moving makes experimentation radically cheaper. The 2030 question is the fascinating part. I suspect the real shift won’t be whether AI can make a convincing film it’ll be what happens when the bottleneck moves from production to taste, storytelling, and creative direction. This is already much further along than most people realize. 👏",
+            "author": "Dauda Evelyn",
+            "linkedinUrl": "https://ng.linkedin.com/in/dauda-evelyn-a88300434",
+            "datePublished": "2026-09-29T17:46:28.488Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7510955677402624000",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7510662970444541952,7510955677402624000)",
+            "text": "Movies, like music, work because we empathise with the characters and the story telling, so while we can debate doing a posh story board using these tools I think, as is the case with all true human artists, the final cut - acted, filmed, directed and edited would bring a dimension of nuance AI wont get. It’s been the same for ever increasing computer game graphics. The people still aren’t right. We can tell. \n\nBut I say let the market decide. If an AI movie moves you and you then find out it’s AI I’m not sure how I’d approach that, but it’s not happened yet. As for slop - sure - have you seen the slop Disney has been churning out for years? It’s a conveyer belt of derivative mediocrity. And that’s pre AI.\n\nMy point is AI will never make a great movie because that requires humans to act in them. We’re a long way off AI faking that. \n\nJust my 2c. \n\nAI is here and even as I agree with the sentiment, getting on our soap boxes about it won’t help because there’s plenty of people will pay for the slop I guess.",
+            "author": "Roger Foxcroft",
+            "linkedinUrl": "https://uk.linkedin.com/in/rogerfoxcroft",
+            "datePublished": "2026-09-30T06:56:20.302Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          }
+        ],
+        "likeCount": 38,
+        "contentUrn": "urn:li:ugcPost:7510662970444541952",
+        "transcript": "No.",
+        "uploadDate": "2026-09-29T11:33:32.400Z",
+        "activityUrn": "urn:li:activity:7510663049620410368",
+        "description": "I made this short film with Claude Opus 5.5 and Higgsfield AI MCP in about 90 minutes.\n\n5.5 is really very good at AI movie generation, and it's become a much easier thing to get into in the last few months.\n\nProcess:\n\n1. Give Claude Opus 5.5 an overall brief - loose shot plan and script idea.\n2. It'll create a scene plan which can be converted into a skill.\n3. Ask it to produce a storyboard in GPT Image 2.5.\n4. Much back and forth here finessing shots (time consuming bit).\n5. When happy, ask it to generate the video and stitch together.\n6. Claude can do sound FX and music. 🤯\n7. Review the video, ask it to change scenes (a bit like step 4).\n\nIt cost $10 to make this 1 minute sequence in Higgsfield credits.\n\nIt's not perfect yet - I need to rerun step 7 particularly on the robot charge part, but it's not exactly terrible. I'm going to make a 10 minute short.\n\nI find it frighteningly good and its job, hence the topic of the video.\n\nWhere will we end up by 2030?",
+        "commentCount": 37,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQFnr9LNu8eQow/videocover-high/B4EaDs8LRvGwBM-/0/1790681597120?e=2147483647&v=beta&t=jy2mOmh9_Iqllyq4jf7iaWEIShehaZ638tqWQAxn0X0",
+        "datePublished": "2026-09-29T11:33:32.400Z"
+      }
+    ],
+    "query": "AI agents made a movie",
+    "cursor": "2",
+    "success": true
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00188",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:42:46.952Z",
+  "started_at": "2026-11-23T07:42:47.485Z",
+  "completed_at": "2026-11-23T07:42:55.468Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

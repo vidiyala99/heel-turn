@@ -1,0 +1,46 @@
+{
+  "id": "a41d215e-dde4-45b1-89f5-ca6d5d57b76f",
+  "run_url": "https://app.glasser.ai/runs/a41d215e-dde4-45b1-89f5-ca6d5d57b76f",
+  "provider": "scrapecreators",
+  "endpoint": "/v1/twitch/profile",
+  "endpoint_version": 4,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "handle": "turinggames"
+  },
+  "output": {
+    "id": "709654931",
+    "handle": "turinggames",
+    "isLive": false,
+    "stream": {},
+    "success": true,
+    "followers": 1,
+    "isPartner": false,
+    "description": null,
+    "displayName": "turinggames",
+    "lastBroadcast": {
+      "title": null,
+      "startedAt": null
+    },
+    "bannerImageURL": null,
+    "profileImageURL": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ebb84563-db81-4b9c-8940-64ed33ccfc7b-profile_image-150x150.png",
+    "similarStreamers": [],
+    "currentViewersCount": null
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00188",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:42:13.909Z",
+  "started_at": "2026-11-23T07:42:14.018Z",
+  "completed_at": "2026-11-23T07:42:17.788Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

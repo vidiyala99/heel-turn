@@ -1,0 +1,86 @@
+{
+  "id": "ec9e3140-a481-48d2-b9c3-ab07fd63ef1e",
+  "run_url": "https://app.glasser.ai/runs/ec9e3140-a481-48d2-b9c3-ab07fd63ef1e",
+  "provider": "anyapi",
+  "endpoint": "/youtube.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "query": "AI debate coach simulation",
+    "sortBy": "popular",
+    "uploadDate": "this_year"
+  },
+  "output": {
+    "hint": "paging_unavailable: this result came from a source that cannot return a nextCursor, so it may be incomplete and there is no way to continue from here. Re-run with `requireFields: [\"nextCursor\"]` to be served only by a source that can page, which may cost more per request.",
+    "items": 3,
+    "output": {
+      "data": {
+        "videos": [
+          {
+            "id": "HYo3NEVABKo",
+            "url": "https://www.youtube.com/watch?v=HYo3NEVABKo",
+            "image": "https://i.ytimg.com/vi/HYo3NEVABKo/hq720.jpg",
+            "title": "I Made 3 AIs Roast Each Other… ChatGPT vs Gemini vs Grok",
+            "views": 297400,
+            "channel": "Baatwaala",
+            "authorId": "UCwtZ8gHUdojLJaWxTjcSRTg",
+            "createdUtc": 1776930035,
+            "lengthText": "8:25",
+            "publishedTime": "7 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/W_oyt3ep_AHQem_NeBXOCQH32aTtjRSsp5YM-dFCyNMMm9fyabG5DLhfYPVbpMQlY46Cfmw2Oog=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "zyzK0HHd810",
+            "url": "https://www.youtube.com/watch?v=zyzK0HHd810",
+            "image": "https://i.ytimg.com/vi/zyzK0HHd810/hq720.jpg",
+            "title": "Should Students Be Allowed to Use AI for Schoolwork? | Full WSDC Debate Simulation",
+            "views": 299,
+            "channel": "WSDC Debate Lab",
+            "authorId": "UCL3SqMq4SBlBmIWP86KIqfw",
+            "createdUtc": 1794210035,
+            "lengthText": "53:51",
+            "publishedTime": "2 weeks ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/C2bDeiA3bt7lD-lJw5NG3OVTkHRi7gwYFbuIeJ6tylk25E0JetPWGo8_IvZsyJnyMrb7NYlyow=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "W7IPzFaD3FY",
+            "url": "https://www.youtube.com/watch?v=W7IPzFaD3FY",
+            "image": "https://i.ytimg.com/vi/W7IPzFaD3FY/hq720.jpg",
+            "title": "AI Classroom Simulator & Debate Coach | GDE MIT Hackathon 2026",
+            "views": 41,
+            "channel": "Hunor Kozma",
+            "authorId": "UCTYxuJk--ady_RPdnagTycA",
+            "createdUtc": 1774251635,
+            "lengthText": "1:50",
+            "publishedTime": "8 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/ytc/AIdro_nWxbb-tDpPCMymb5EdDWNH3pkIE48_1Kl54ClMmRltiA=s68-c-k-c0x00ffffff-no-rj"
+          }
+        ]
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-badger",
+      "kind": "anonymous",
+      "name": "Badger",
+      "artworkKey": "badger"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.0012",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:40:34.017Z",
+  "started_at": "2026-11-23T07:40:34.150Z",
+  "completed_at": "2026-11-23T07:40:35.257Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

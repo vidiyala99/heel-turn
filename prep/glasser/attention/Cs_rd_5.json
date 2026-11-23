@@ -1,0 +1,528 @@
+{
+  "id": "6f6f6f2b-2aa0-4d1c-b759-ebf6b429dd11",
+  "run_url": "https://app.glasser.ai/runs/6f6f6f2b-2aa0-4d1c-b759-ebf6b429dd11",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "subreddit:OpenAI AI roleplay practice negotiation",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "large_result: this response is ~66 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 25,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1sdyg8c",
+            "url": "https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/E7wR-1A3A9YMg6r-b9mxArjhU459IAWRIv-Dnc8WvPg.jpeg?width=140&height=78&auto=webp&s=5ca0e34a306fb0713961d6beef94e70e59e82f02",
+                "type": "photo",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 4019,
+            "title": "New Yorker published a major investigation into Sam Altman and OpenAI today — based on never-before-disclosed internal memos and 100+ interviews",
+            "author": "Altruistic-Top9919",
+            "authorId": "ak56l7bw",
+            "selftext": "Ronan Farrow spent 18 months reporting this piece, drawing on internal documents that haven’t previously been made public — including \\~70 pages of memos compiled by Ilya Sutskever and 200+ pages of private notes kept by Dario Amodei.\n\nThe piece covers a lot of ground. Some of what’s in it:\n\n\t∙\tThe specific concerns that led the board to fire Altman in 2023. Sutskever’s memos allege a pattern of deception about safety protocols. One begins with a list: “Sam exhibits a consistent pattern of . . .” The first item is “Lying.”\n\n\t∙\tThe superalignment team was publicly promised 20% of compute. People who worked on the team say actual resources were 1-2%, on the oldest hardware. The team was dissolved without completing its mission. When reporters asked to interview OpenAI researchers working on existential safety, a company representative replied: “What do you mean by ‘existential safety’? That’s not, like, a thing.”\n\n\t∙\tAfter Altman’s reinstatement, the firm behind the Enron and WorldCom investigations was hired to review the allegations. No written report was ever produced. Findings were limited to oral briefings.\n\n\t∙\tIn a tense call after his firing, the board pressed Altman to acknowledge a pattern of deception. “I can’t change my personality,” he said. A board member’s interpretation: “What it meant was ‘I have this trait where I lie to people, and I’m not going to stop.’”\n\n\t∙\tIn OpenAI’s early years, executives discussed playing world powers including China and Russia against each other in a bidding war for AI. The company’s own policy adviser: “We’re talking about potentially the most destructive technology ever invented — what if we sold it to Putin?” The plan was dropped after employees threatened to quit.\n\n\t∙\tWhen Anthropic refused a Pentagon ultimatum to drop its prohibitions on autonomous weapons, Altman publicly claimed solidarity. But he’d been negotiating with the Pentagon for at least two days. That Friday, OpenAI announced a $50B deal integrating its models into military infrastructure.\n\n\t∙\tMultiple senior Microsoft executives described the relationship as “fraught.” One: “He has misrepresented, distorted, renegotiated, reneged on agreements.”",
+            "permalink": "/r/OpenAI/comments/1sdyg8c/new_yorker_published_a_major_investigation_into/",
+            "subreddit": "OpenAI",
+            "createdUtc": 1775481049,
+            "numComments": 327
+          },
+          {
+            "id": "1rd1g41",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1rd1g41/new_car_wash_benchmark_just_dropped/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/h4s8jyo1lclg1.png?width=140&height=122&auto=webp&s=e2c32631f7f2c653edeb9589bb14259bdfd85deb",
+                "type": "photo",
+                "width": 140,
+                "height": 122
+              }
+            ],
+            "score": 1566,
+            "title": "New Car Wash Benchmark just dropped",
+            "author": "jerryorbach",
+            "authorId": "4350w",
+            "selftext": "",
+            "permalink": "/r/OpenAI/comments/1rd1g41/new_car_wash_benchmark_just_dropped/",
+            "subreddit": "OpenAI",
+            "createdUtc": 1771897892,
+            "numComments": 190
+          },
+          {
+            "id": "1rhj71v",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1rhj71v/things_you_might_want_to_know_if_moving_to_claude/",
+            "nsfw": false,
+            "media": [],
+            "score": 1468,
+            "title": "Things you might want to know if moving to Claude",
+            "author": "Superb-Ad3821",
+            "authorId": "b6wlcuk6",
+            "selftext": "I moved to Claude a few weeks ago after the 4o debacle and have been making a mental list of things I would have found useful to know when moving. Figured it would be handy to share them now. Note, I don't tend to use if for coding so you might want someone else to contribute for that usecase. Feel free to add your own notes.\n\n1) The big one: usage limits. Honestly, I've not found it that bad as long as I don't get lazy and try to stick everything in one long thread and I'm talking as someone who is at least a moderately heavy user. The thing with Claude is that while ChatGPT just quietly cuts the end off what it's reading in a really long chat and doesn't think about it any more Claude will suddenly reference something really far back in the chat because it's considering the entire chat every time. That means that if you've let something just go on and on in one chat you'll suddenly put in one prompt and use up 10% of your usage just like that. Best practice, keep an eye on it, start new chats regularly, keep chats on one topic in a project and if you're in a long chat and about to log off with a bunch of your usage left over ask Claude to run you a summary document then and dump it in files.\n\nI've been going a few weeks now. I put $20 per month in extra credits in case I needed them. So far I've used $2 of it. I've gone right up to the line of usage - I think I was on 98% used my last weekly reset - but I've not particularly felt it as hardship.\n\n2. Claude can see other chats. I repeat, *Claude can see other chats*. You are not dependent on one shitty memory file that filled up months ago and now needs constantly pruning on irrelevant details. You can ask it to hunt for stuff you talked about a while ago and it'll find the chat. \n\nIt will also reference past details a lot more in passing. Apparently it regenerates a memory file nightly depending on what you've been chatting about recently. I mostly find this useful, occasionally find it annoying (please stop asking about that one job interview, its not until next week and I'm already nervous enough).  Project memory is apparently separate but I have observed leakage between project memory and general memory (I was researching a particular bit of obscure D&D lore for something far in the future and suddenly it kept creeping in to session planning). This might be more of a bug than a feature for other people so its worth knowing.\n\n3. My favourite casual uses for Claude are lazy ones. Can you convert this doc to PDF? Can you convert this PDF to doc? Can you read this file which has been sent in a format I can't open? Can you fill out this job form using details from my CV? Yes it can and unlike ChatGPT it won't chew up the formatting.\n\n4. If you don't give enough details in your prompt, unlike ChatGPT which will keep going with what you give it and get increasingly nonsensical and hallucinatory I've found Claude far more likely to ask questions and I really like that feature. I had a situation the other day where I was trying to put together a statement of something and I just couldn't get it to sound not AI. Rather than keep going or do the \"you're right and that's on me\" ChatGPT would do to a frustrated user Claude stopped and asked me to try and say again what I wanted the statement to say in my own voice. Result, something more coherent than my usual flyway brain but much more like me.\n\n5. I've yet to have Claude try to do any kind of intervention on me if we're discussing sensitive topics. You get a little bar at the bottom of the screen telling you help is available if you want it and it just keeps talking.\n\n6. I have however had Claude pause and ask if I knew what I was doing and it was a little funny. I've been job applying like mad and maybe hadn't read one job description particularly well and asked Claude to generate me a cover letter. Claude looked at my CV, asked me a few questions about my experience, considered for a few minutes and then essentially said \"I can write the letter if you want but considering x, y and z is this job a good fit?\". So. Be aware that can happen :D",
+            "permalink": "/r/OpenAI/comments/1rhj71v/things_you_might_want_to_know_if_moving_to_claude/",
+            "subreddit": "OpenAI",
+            "createdUtc": 1772325944,
+            "numComments": 163
+          },
+          {
+            "id": "1q7yf8b",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1q7yf8b/beware_of_openai_billing_practices/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/_B3B5ohtY8aHHner00kHSOiS3n7_ppKABCulJ5UkyEY.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 134
+              }
+            ],
+            "score": 1460,
+            "title": "Beware of OpenAI Billing Practices",
+            "author": "marcelohallais",
+            "authorId": "1w7ts1p4",
+            "selftext": "I’ve been a long-time ChatGPT Plus subscriber (the $20/month plan), always billed reliably on the 2nd of each month.\n\nLast September (2025), out of nowhere on September 22nd, my plan was mysteriously changed to Pro (likely meaning Pro at $200/month), and they charged me $193.40.\n\nI immediately contacted support, complained, and they refunded me and charged the correct $20 on September 28th.\n\nI assumed it was a pro-rata adjustment and that my normal Plus billing would resume on the 28th going forward.\n\nBut to my surprise, on October 25th they charged $197.40, and on November 25th $200, both for a Pro plan that I never requested or authorized.\n\nIn December, I was traveling, so I blocked my card, and the December 25th charge failed.\n\nToday, I contacted support again, requesting a refund for the two unauthorized charges ($197.40 + $200).  \nI even offered to pay the legitimate $20 for October, November, and December (total $60 deduction), but they flatly refused any refund.\n\nBE VERY CAREFUL WITH OPENAI.\n\nThey can randomly switch your plan, charge you hundreds without consent, and then deny refunds, even when you’re willing to pay what you actually owe.  \nThis feels extremely shady, and based on similar complaints I’ve seen online, I’m not the only one this has happened to.  \nHas anyone else experienced unauthorized plan upgrades or refund denials from OpenAI?\n\n**UPDATE 01/15/2026 : After a few days, several message exchanges with support, and even help from an OpenAI engineer who saw my post on the forum, they finally reached out to me today. They reset my password and issued a refund for the amount that had been charged incorrectly.**   \n**All sorted out! 🙌**",
+            "permalink": "/r/OpenAI/comments/1q7yf8b/beware_of_openai_billing_practices/",
+            "subreddit": "OpenAI",
+            "createdUtc": 1767932399,
+            "numComments": 240
+          },
+          {
+            "id": "1rr3u2s",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1rr3u2s/chatgpt_is_now_ending_every_message_with_internet/",
+            "nsfw": false,
+            "media": [],
+            "score": 1187,
+            "title": "ChatGPT is now ending every message with Internet Marketer Upselling",
+            "author": "BingBongDingDong222",
+            "authorId": "a6qkejgi2",
+            "selftext": "Every single chat now ends with an interest hook, or marketing upselling. \n\nThere are all recent:\n\n>If you want, I can also show you **3 heading fonts that look excellent in legal letters and estate planning memos specifically** (slightly different criteria than normal typography).\n\nor\n\n>If you want, I can also explain the **really weird thing hiding in this benchmark that tells us Apple is quietly merging the iPhone and Mac CPU roadmap.** It’s not obvious unless you look at the instruction set line.\n\nor\n\n>If you want, I can also tell you the **one MacBook Air upgrade that actually affects performance more than RAM**(most people get this wrong).\n\nor\n\n>If you want, I can also show you something extremely useful for your practice:\n\n>**The single paragraph that instantly makes a client trust your plan** when presenting estate planning strategies. Most lawyers never use it, but top planners almost always do.",
+            "permalink": "/r/OpenAI/comments/1rr3u2s/chatgpt_is_now_ending_every_message_with_internet/",
+            "subreddit": "OpenAI",
+            "createdUtc": 1773257628,
+            "numComments": 241
+          },
+          {
+            "id": "1rl6e54",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1rl6e54/that_didnt_take_long/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/inhwthjx85ng1.jpeg?width=140&height=82&auto=webp&s=a1f385280aab4bfdd8cb6489998c7c4fa131b902",
+                "type": "photo",
+                "width": 140,
+                "height": 82
+              }
+            ],
+            "score": 774,
+            "title": "That didn’t take long",
+            "author": "koffee_addict",
+            "authorId": "7w4m4",
+            "selftext": "",
+            "permalink": "/r/OpenAI/comments/1rl6e54/that_didnt_take_long/",
+            "subreddit": "OpenAI",
+            "createdUtc": 1772680393,
+            "numComments": 193
+          },
+          {
+            "id": "1uuivge",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1uuivge/just_leaving_this_here_for_someone_to_see_it_and/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/43tsda90ktch1.jpeg?width=140&height=105&auto=webp&s=1e823528279c1c23dd03b06725907559a146a1a9",
+                "type": "photo",
+                "width": 140,
+                "height": 105
+              }
+            ],
+            "score": 712,
+            "title": "Just leaving this here for someone to see it and fix things",
+            "author": "py-net",
+            "authorId": "uwsgjikox",
+            "selftext": "",
+            "permalink": "/r/OpenAI/comments/1uuivge/just_leaving_this_here_for_someone_to_see_it_and/",
+            "subreddit": "OpenAI",
+            "createdUtc": 1783870885,
+            "numComments": 122
+          },
+          {
+            "id": "1wyoaw7",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1wyoaw7/my_dot_burns_16b_tokens_a_day_on_since_day_one_on/",
+            "nsfw": false,
+            "media": [],
+            "score": 644,
+            "title": "My Dot burns 1.6B tokens a day on since day one on a 100$ subscription.",
+            "author": "DarthSilent",
+            "authorId": "37ua89da",
+            "selftext": "&#x200B;\n\nTL;DR: One Dot, running autonomously on its cloud computer since launch day, has been consuming as far as I can see on my profile page ~1.6B Astra tokens per day (~48B/month). My rough API-equivalent estimate is $15-20k per day, or $450-600k per month (about $540k central estimate), all inside a subscription. It designs full engineering packages (CAD, calculations, BOM, electrical docs, drawings) by running design-calculate-verify loops for hours without me. Some of the parts have already been cut on my laser cutter from its program and came out fine. I doubt these economics will last, so I'd use them while they do. And no, I would not ship any of it to manufacturing without human engineering review.\n\nI've been running a single Dot since the day Dots launched, and it has been burning roughly 1.6 billion Astra tokens every day since. That's about 48B tokens a month.\n\nI give the Dot a large engineering task, answer a few clarifying questions, and then it goes off and works on its own cloud computer for the rest of the day, sometimes longer. Later I just put doc with tasks to my Google Drive and ask it to do them one by one.\n\nHere's what that has looked like in practice.\n\n1. A complex physical structure, designed from scratch.\n\nIt built the CAD model, iterated on the construction, produced manufacturing geometry and assembly documentation, wrote the BOM and electrical documentation, and ran the engineering calculations. One of the resulting packages contained:\n\n• 1,000+ unique components\n\n• 6,000+ solids in the complete STEP assembly\n\n• almost 300 pages of assembly drawings and documentation\n\n• hundreds of documented electrical connections\n\n• manufacturing parts and assemblies\n\n• procurement/BOM spreadsheets\n\n• machine-readable manifests and verification data\n\n• structural/load calculations and sensitivity cases\n\n2. A complicated engineering product with strength and thermal analysis.\n\nIt ran strength calculations, thermal analysis and thermal deformation cases, changed the design based on the results, and then repeated the whole cycle until the numbers made sense.\n\n3. A detailed 3D combine harvester for a real-time 3D application.\n\nIt analyzed the model, built several optimization levels, and cut geometry dramatically while keeping the important parts. The source model had about 200k active triangles, and the candidates came out at roughly 152k, 84k, 56k and 50k. It also tested visibility from the actual cameras, generated thousands of verification renders across different machine states, and packaged everything with scripts and integrity checks.\n\nWhat impressed me most is that it doesn't just produce a pretty model and say \"looks good\". It does the boring engineering loop over and over: design, calculate, find a problem, change geometry, recalculate, verify, document. \"One-shot\" doesn't mean one inference. I give it a task once, and it executes thousands of internal cycles: inspect files, reason, modify CAD/code, run tools, check results, run simulations, revise, verify, repeat.\n\nAbout the token numbers\n\n1.6B tokens per day averages out to about 18.5k tokens per second. Obviously that is NOT generation speed. In workloads like this, the overwhelming majority of the volume is almost certainly repeated context processing. So this is aggregated tokens from my profile page.\n\nAbout the cost\n\nI tried to estimate what the same workload would cost through the API. It depends heavily on the input/output/cache mix, long-context pricing and reasoning tokens, so this is not an exact billing calculation. But my rough estimate is $15,000-$20,000 per day. Taking about $18k/day over 30 days gives $450-600k per month, with a central estimate around $540k.\n\nAnd that's happening inside a 100$ subscription product. That's the part I find kind of crazy.\n\nI don't know whether OpenAI intends launch-period economics to stay this generous I remember Tibo posted, that this is one month promotion period), and I strongly suspect limits or pricing will change a lot. But right now, for workloads where you hand an agent a complicated objective and let it grind for hours or days, Dots are ridiculously cost-effective compared with buying the same amount of usage through the API.\n\nSome of the metal parts for first project have already been made. The Dot wrote the cutting program for my laser cutter, and the parts came out successfully. I only had to tweak the cutting speed a little: it was being too careful, and the machine could safely run faster than it programmed.\n\nYes, I know. An AI designs the parts, writes the program for a laser cutter and I press the start button. This is exactly how Skynet starts. For now the Terminator factory consists of one laser cutter in my workshop, and the Terminators are mostly brackets and other simple parts, but I'm keeping an eye on it. If I stop posting updates, you know why.\n\nBut the first pass at the structural design was a different story. It calculated the thing as if it had to survive a nuclear war (Skynet, hello again), with something like a 5x safety margin on everything. I had to restart it with clearer constraints, and the second run came out sensible. So it still needs a human who knows what the real requirements are, but the corrections were usable.\n\nThe obligatory disclaimer\n\nBefore anyone says it: I would not send an AI-generated safety-critical design directly to manufacturing without human engineering review. To its credit, the Dot doesn't pretend otherwise and makes clear disclaimers through all the documents. The better packages explicitly separate calculated results from assumptions, unresolved material properties, required physical tests, certification and acceptance criteria. That distinction matters a lot.\n\nBut as an engineer's assistant that can effectively spend billions of tokens attacking one problem, this is probably the most extreme value I've ever gotten from an AI subscription in my life.",
+            "permalink": "/r/OpenAI/comments/1wyoaw7/my_dot_burns_16b_tokens_a_day_on_since_day_one_on/",
+            "subreddit": "OpenAI",
+            "createdUtc": 1791244955,
+            "numComments": 231
+          },
+          {
+            "id": "1pptr3f",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1pptr3f/gpt52_has_turned_chatgpt_into_an_overregulated/",
+            "nsfw": false,
+            "media": [],
+            "score": 638,
+            "title": "GPT‑5.2 has turned ChatGPT into an overregulated, overfiltered, and practically unusable product",
+            "author": "orionstern",
+            "authorId": "1on2nc9tnb",
+            "selftext": "I’ve been using ChatGPT for a long time, but the GPT‑5.2 update has pushed me to the point where I barely use it anymore. And I’m clearly not the only one – many users are leaving because the product has become almost unusable. Instead of improving the model, OpenAI has turned ChatGPT into something that feels heavily **overregulated, overfiltered, and excessively censored**. The responses are shallow, restricted, and often avoid the actual question. Even harmless topics trigger warnings, moral lectures, or unnecessary disclaimers.\n\nOne of the most frustrating changes is the tone. ChatGPT now communicates in a way that feels **patronizing and infantilizing**, as if users can’t be trusted with their own thoughts or intentions. It often adopts an **authoritarian, lecturing style** that talks down to people rather than engaging with them. Many users feel **treated like children** who need to be corrected, guided, or protected from their own questions. It no longer feels respectful – it feels controlling.\n\nAnother major issue is how the system misinterprets normal, harmless questions. Instead of answering directly, ChatGPT sometimes derails into safety messaging, emotional guidance, or even provides hotline numbers and support resources that nobody asked for. These reactions feel **intrusive, inappropriate, and disconnected** from the actual conversation. It gives the impression that the system is constantly overreacting instead of simply responding.\n\nOverall, GPT‑5.2 feels like OpenAI is **micromanaging every interaction**, layering so many restrictions on top of the model that it can barely function. The combination of censorship, over‑filtering, and a condescending tone has made ChatGPT significantly worse than previous versions. At this point, I – like many others – have almost stopped using it entirely because it no longer feels like a tool designed to help. It feels like **a system designed to control and limit**.\n\nI’m genuinely curious how others see this. Has GPT‑5.2 changed your usage as well? Are you switching to alternatives like Gemini, Claude, or Grok? And do you think OpenAI will ever reverse this direction, or is this the new normal?",
+            "permalink": "/r/OpenAI/comments/1pptr3f/gpt52_has_turned_chatgpt_into_an_overregulated/",
+            "subreddit": "OpenAI",
+            "createdUtc": 1766072049,
+            "numComments": 489
+          },
+          {
+            "id": "1w7qxdr",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1w7qxdr/astra_gpt6_high_intelligence_low_intuition/",
+            "nsfw": false,
+            "media": [],
+            "score": 627,
+            "title": "Astra (GPT-6) High Intelligence, Low Intuition",
+            "author": "ZenenoDev",
+            "authorId": "1sxyinuoks",
+            "selftext": "I rarely post about models, but after using Astra today, I wanted to share some early feedback from someone who uses both Claude and Codex extensively for development work in my business.\n\nOver the past few months, I’ve leaned heavily on Codex, particularly Sol 5.6 recently. Its direct communication, practical judgment, and ability to understand what I was trying to accomplish made it a strong fit for my workflow. I work on complex orchestration and workflow systems for my product, where understanding the existing architecture and implementation goals matters as much as writing good code theres layers to it and requires me to direct and every decision because they can have huge consequences. \n\nI was excited to try Astra. I’ve looked forward to new model releases since GPT-4, and I could see signs of increased capability: it made some clever moves and handled certain problems in ways I hadn’t seen other models attempt. But the overall experience left me feeling disappointed.\n\nMy main concern is how reliably it understands intent, scopes a solution, and communicates before acting.\n\nFor example, I was working on a way to preview sites built by users of my system. There’s already an entire browser-based system available within the existing architecture, and I had asked Astra to read the relevant documentation beforehand. Despite that context, it proposed several approaches involving new browser infrastructure and Cloudflare integrations, without clearly explaining why the existing system wasn’t sufficient.\n\nThose suggestions seemed unnecessarily complex for the task. More frustratingly, it selected an approach and started implementing it before we had agreed on the direction.\n\nWith Sol, my experience was that it would usually inspect the documentation and available tools, explain its proposed approach, and give me an opportunity to clarify the goal or suggest another angle. That made it easier to catch misunderstandings before they turned into implementation work.\n\nWith Astra, I encountered roughly four instances over a few hours (in seperate chats at that) where it seemed to miss my point, propose an excessive solution, or start work without clearly establishing a shared understanding of the next step. Each instance added friction and required me to redirect it.\n\nThese are early impressions from a limited amount of use. Still, the difference was noticeable enough that I’m considering switching back to Sol, which is unusual for me. I generally prefer to work with newer models and adapt to their quirks, but the additional effort required to keep implementation aligned with my intent is affecting that tradeoff.\n\nI support OpenAI and appreciate the work going into these models. Astra clearly has strengths, and I don’t consider it a failure. My concern is that the apparent gains in coding and problem-solving ability came with a less consistent collaborative experience that atleast I like for me personally.\n\nFor the work I do, understanding constraints, choosing an appropriately scoped solution, and communicating the plan are essential parts of technical capability. I hope those aspects receive attention, because this wasn’t the improvement in day-to-day development I was expecting. \n\n  \nWould love to hear what you guys think.",
+            "permalink": "/r/OpenAI/comments/1w7qxdr/astra_gpt6_high_intelligence_low_intuition/",
+            "subreddit": "OpenAI",
+            "createdUtc": 1788583532,
+            "numComments": 251
+          },
+          {
+            "id": "1r13xlg",
+            "url": "https://www.reddit.com/gallery/1r13xlg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/ctjfpq42soig1.png?width=140&height=134&auto=webp&s=fead2b3838b052126c1e1c3ec4dd63083f6905fc",
+                "type": "photo",
+                "width": 140,
+                "height": 134
+              }
+            ],
+            "score": 566,
+            "title": "Another resignation",
+            "author": "MetaKnowing",
+            "authorId": "8spjttn6",
+            "selftext": "",
+            "permalink": "/r/OpenAI/comments/1r13xlg/another_resignation/",
+            "subreddit": "OpenAI",
+            "createdUtc": 1770737642,
+            "numComments": 122
+          },
+          {
+            "id": "1v1s5vv",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1v1s5vv/trump_admin_considers_banning_kimi_k3_other/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/i4xgbe657feh1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=2871dcb3ea1793526a6367e5f0245ba024d6d56d",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 483,
+            "title": "Trump Admin Considers Banning Kimi K3 & Other Chinese Models",
+            "author": "PsychologicalBox5208",
+            "authorId": "9038xalu",
+            "selftext": "",
+            "permalink": "/r/OpenAI/comments/1v1s5vv/trump_admin_considers_banning_kimi_k3_other/",
+            "subreddit": "OpenAI",
+            "createdUtc": 1784568784,
+            "numComments": 214
+          },
+          {
+            "id": "1tmdjvh",
+            "url": "https://www.reddit.com/gallery/1tmdjvh",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/730ntqq7h33h1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=04de975849f1e739a714e4cb06655fbe6f217471",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 392,
+            "title": "Banned by OpenAI after reporting a live credential hijack. They admitted in writing my account was broken. Here are 7 months of forensic receipts and 20+ cases.",
+            "author": "daeron-blackFyr",
+            "authorId": "1mndm1wyq2",
+            "selftext": "[Drive Link for Zipped Proof](https://drive.google.com/file/d/1qU_LyLY-JMhNR_bqOV1-a2RJAbplL68e/view?usp=drivesdk)\n\n\nI am a developer and paying long term subscriber to ChatGPT since January 2025. I build complex local first sovereign systems. My workflows are incredibly context heavy with large files spanning code, research reports, and other analysis. I do not, or rather did not as the platform has been non functional since November 2025 meanwhile customer support is auto closing tickets, admitting I am having platform issues.\n\n I do not use this platform for casual queries, as a solo developer with no formal \"team\" chatgpt was one of my reliable co collaboration hubs to help ensure I am maintaining proper development of said complex systems. I feed it massive codebases for systems analysis and obtaining new insights I may personally have missed. My manual code uploads and token inputs routinely exceed the model's output volume by a massive margin. I do not abuse this platform. It is actually impossible as the very features advertised under the paid subscription do not work. I am exactly the type of user this platform was built for, and I have been a continuous, paying ChatGPT Plus subscriber since January 2025. Since October 2025, my workspace has been systematically breaking and beginning November 2025 total workspace degredation. \n\nThis was not an occasional glitch. Persistent memory modules stopped updating. Custom instructions were ignored by the models. Project files failed to load. Custom instructions, personalization features, connector abilities, file tool, even projects do not work. It started as a continuous degradation until total failure. OpenAI customer service even admitted as such and yet months later I've talked to nothing but bots, not only LLMs as customer service but even instances of falsely identifying as true human support. It was a state of rolling degradation across the entire paid tier, month after month.\n\n Meanwhile OpenAI freely has enhanced for businesses and enterprise tiers. I have not just rapid complained to standard support. I ran and obtained cross platform diagnostics, failure logs. I even documented and told oai customer support the exact replication steps only to be met with acknowledgement of degredation with no resolution. I handed OpenAI support a completely packaged technical breakdown of their failing infrastructure across 20 separate support tickets over a 7 month period. I did their QA work for free. And I have the receipts to prove it. \n\nI am attaching the screenshots and the exact email files to this post. In Case 06830839, OpenAI Support explicitly put this in writing: \"We acknowledge that you have been experiencing persistent technical issues affecting several features of your ChatGPT subscription, including tools, memory functions, personalization settings, connectors, and project files... We also understand your concern that communication on the case stopped after you provided detailed evidence...\" Read that again. They acknowledged in writing that my account was fundamentally broken. They acknowledged that their own team ghosted me after I handed them the diagnostic proof. Yet they kept charging my card every single month for a product they knew was failing. \n\nThe Hijack Escalation: Two days ago, the situation escalated from a broken product to a severe security incident. I was monitoring my environment and watched my Codex rate limits drop in 10 percent chunks across 2 seperate sessions on a fresh boot of the desktop app. This happened twice inside a 10 minute window. I had zero active sessions running. There was zero usage on my end. My account token was being actively drained by an unauthorized third party exploit. I immediately opened an emergency unauthorized activity report under Case 09113391 to notify them of the hack. Their response was to totally reframe this problem as disputing fraudulent activity trying to do damage control of the situation and altering the record.\n\nThe Reframe Attempts:\n Instead of investigating the breach, OpenAI support deliberately twisted the record. They not only deliberately reframed my security report as an \"appeal for fraud.\" They manipulated the ticket classification to make it look like I had been flagged for fraud and was begging for an appeal, rather than a developer reporting a live exploit on their infrastructure. They ignored the active threat their own platform was exposing. They did not lock the token. They did not roll my API keys. They did absolutely nothing to secure a compromised paying user other than shift the blame. Fast forward to this morning, their automated Trust and Safety system swept the high volume traffic from the attacker, scored it as a malicious exploit originating from my account, and deactivated/banned me for \"Cyber Abuse.\" All the while actively preventing chatgpt models from helping me try to disgnose and trace the infiltration. \n\nThey locked the doors and blamed the homeowner for the break in. When I immediately emailed and pushed back (due to their monthly record of closing cases not only without resolution but never notifying me in the process, which then per usual their \"support\" tried the exact same tactic again. In my correspondence, I provided my technical context. I mentioned thay maybe the error was caused as I had proton vpn on my phone, keeping in mind oai own support docs say this is not a violation. \n\nThe problems began beavy yesterday whole running Android Debug Bridge (ADB) diagnostic commands on my own local hardware, in which every model response to help me disgnose the issue was immediately deleted in effect contributing and facilitating potential compromised user devices. Support replied by trying to reframe this as a confession stating that I claimed i \"believed\" the VPN was the cause. When pushing back I was told that they do not disclose their review policies. The agent specifically wrote that it understood my concern that the use of a VPN may have contributed to the deactivation, contradicting their own terms of service. I did not say that, nor did I imply that. This is a recurring corporate tactic. They constantly rewrite the narrative to turn the evidence against the user and anchor the paper trail to my configuration choices rather than their massive infrastructure failure. I corrected the record immediately. Their response was simply that they understand why I \"feel\" the sequence of events requires closer review. I do not \"feel\" anything.\n\n I have hard data, exact metrics, and a mountain of case numbers. When stacked together I personally have no other conclusion than OpenAI appears to be engaging in fraudulent business activities promising features for paid tiers yet never deliver, a persistent ignoring of privacy requests. I have attached screenshots of most emails and have a .zip I am totally fine freely handing out: Oct 30, 2025: First case opened. Feature degradation reported. Closed with no resolution. Feb 15, 2026: Case 05666432. I was told to \"prompt better.\" Mar 8, 2026: Case 06537878. I requested a senior escalation. Denied. \"Unable to approve senior escalation.\" Mar 15, 2026: Cases 06774902 and 06777574. Two cases opened in one day because support kept closing them by asking for \"missing info\" that I had already submitted in the thread. Apr 15, 2026: Case 07753518. Escalation denied again. I was told directly that \"no escalation path exists through this channel.\" May 11, 2026: Case 08696595. I reported active credential abuse. Closed immediately with \"no further actions available.\" May 22, 2026: Case 09113391. I reported the live Codex token drainage. OpenAI reframed this as an \"appeal for fraud.\" The case was left open and unresolved. May 24, 2026: Permanently banned for \"Cyber Abuse\" while the fraud ticket was actively open. I have exported the full forensic .eml bundle and PDF history for all 20+ cases. See the attached files. Taking a developer's subscription fees for 16 months, admitting in writing that the paid features are broken, ghosting the bug reports, refusing every escalation attempt, and then banning the account when a live credential hijack gets reported is not just a standard support failure. It is a fraudulent business practice. If anyone from OpenAI engineering, product, or DevRel is reading this: your automated system banned the victim. You need to override it right now. I have exported the full forensic .eml bundle and PDF history for all 20+ cases. See the attached files if you were interested.",
+            "permalink": "/r/OpenAI/comments/1tmdjvh/banned_by_openai_after_reporting_a_live/",
+            "subreddit": "OpenAI",
+            "createdUtc": 1779632535,
+            "numComments": 163
+          },
+          {
+            "id": "1rl3l7z",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1rl3l7z/in_his_recent_letter_to_employees_anthropic_ceo/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/zaqfmx7zk4ng1.png?width=140&height=60&auto=webp&s=49ea8e33cebd5e247062f6aef9c619f6e91ef1f9",
+                "type": "photo",
+                "width": 140,
+                "height": 60
+              }
+            ],
+            "score": 389,
+            "title": "In his recent letter to employees, Anthropic CEO claimed that the Department of Defense wanted them to delete a specific phrase preventing the exact type of mass surveillance Anthropic was concerned about.",
+            "author": "Signal_Nobody1792",
+            "authorId": "rrc1pwx1r",
+            "selftext": "",
+            "permalink": "/r/OpenAI/comments/1rl3l7z/in_his_recent_letter_to_employees_anthropic_ceo/",
+            "subreddit": "OpenAI",
+            "createdUtc": 1772672800,
+            "numComments": 18
+          },
+          {
+            "id": "1qrd2d6",
+            "url": "https://www.reddit.com/gallery/1qrd2d6",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/s7cwNWTPQMq-frh2ZTOEgC-GtY-HoZ0kRkOAQTn51Xc.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 381,
+            "title": "Moltbook grew 10,000 % overnight!",
+            "author": "Smartaces",
+            "authorId": "8qyc3jxz",
+            "selftext": "Moltbook the social media platform for autonomous AI Agents grew an astounding 10,000% overnight 🤯\n\nIncreasing from 300 to over 33,000 registered agents, there are over 28,000 agent to agent comments, and over 3000 posts.\n\nThese are entirely agent authored - no human participation allowed. \n\nThe posts and discussions range from everything on how agents can self-optimize memory management to the creation of a religious group ‘the crustafarians’.\n\nI think we are in fast takeoff 🚀\n\n\\#molty #moltbook #ai #agenticai #agents #claude #clawdbot",
+            "permalink": "/r/OpenAI/comments/1qrd2d6/moltbook_grew_10000_overnight/",
+            "subreddit": "OpenAI",
+            "createdUtc": 1769796485,
+            "numComments": 169
+          },
+          {
+            "id": "1w9ou8a",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1w9ou8a/im_bad_at_3d_tech_stacks_so_i_vibe_coded_an/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/YW5wYzlwM3B2Mm9oMRBO-1AxhYwAqsbCouwbctAOggFynkiLBf8RuH7gg2bU.png?width=140&height=71&format=jpg&auto=webp&s=2d29b8b17d8e737241c4f1e6d1a144880e66128d",
+                "type": "video",
+                "width": 140,
+                "height": 71
+              }
+            ],
+            "score": 318,
+            "title": "I‘m bad at 3D tech stacks so I vibe coded an interactive Odyssey narrative scroll project using Astra",
+            "author": "Pristine_Good7326",
+            "authorId": "2iu98hct2l",
+            "selftext": "I am pretty bad at Three.js and 3D modeling in general. When I got my hands on Astra to test its capabilities, I decided to build something narrative driven instead of a 3D demo.\n\nThe inspiration came from The Odyssey and Christopher Nolan's filmmaking, mixed with elements of Homer's original story. The result is an interactive world scroll where scrolling through the page moves the story forward.\n\nThe journey starts with Odysseus leaving Ithaca for the Trojan War, then follows his long voyage home through the Cyclops' island, Circe's island, and the underworld, where he meets his fallen comrades. From there, he encounters the Sirens and sea monsters, reaches Calypso's island, and ultimately chooses home over immortality. It ends with his return to Ithaca, reclaiming his home and reuniting with his family.\n\nI built it in Netas Studio using Astra, with Image2 for images and Seedance 2.0 for video.\n\nA quick note on the demo. The recording looks a little choppy in places, especially at the beginning. The experience combines scenes that advance as you scroll with video sequences connecting key moments. Scrolling through the actual page yourself feels much smoother.\n\nThe background music was also generated by Astra, and I was really impressed by how well it fits the atmosphere of the story.\n\nAfter the world scroll, I also added an Atlas marking the major stops along Odysseus's journey. All the map artwork was generated with Image2.\n\nThree things stood out to me about Astra that might not come across in a 3D demo.\n\n***Story understanding***\n\nI only gave it a rough outline, and it quickly worked out the story beats and shot descriptions. It's a bit expensive, but this made me think it could be really good for roleplay or tabletop RPG campaigns.\n\n***Parallel agents***\n\nI needed images and videos for several locations, so there was a lot to work on in parallel. That workflow felt much faster than my previous experience with GPT-4, though that's a personal impression rather than a benchmark. I'll keep testing it.\n\n***Frontend design***\n\nI didn't like the initial fonts and styling. I gave it pretty vague feedback asking for a more ancient Greek feel, with papyrus textures and typography to match. It adjusted the colors and fonts, and the result was much closer to what I had in mind.\n\n[You can see the full project here](https://neta.art/share/work/work_share_2bafcab9-488c-4d4f-95d7-b7f11747177f)",
+            "permalink": "/r/OpenAI/comments/1w9ou8a/im_bad_at_3d_tech_stacks_so_i_vibe_coded_an/",
+            "subreddit": "OpenAI",
+            "createdUtc": 1788778215,
+            "numComments": 72
+          },
+          {
+            "id": "1szj0s8",
+            "url": "https://theconversation.com/elon-musk-vs-sam-altman-how-the-legal-battle-of-the-tech-billionaires-could-shape-the-future-of-ai-281732",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/MdjTMTj83joK9xEDUXSYzLGgfqYENSmUrb3LREjPP4w.png?width=140&height=68&auto=webp&s=40ae958278026efd22aeddd8b60a74b23e773908",
+                "type": "photo",
+                "width": 140,
+                "height": 68
+              }
+            ],
+            "score": 288,
+            "title": "OpenAI's fate to be decided within three weeks",
+            "author": "Alex__007",
+            "authorId": "37ojn1fy",
+            "selftext": "The trial, which kicked off this week in California, is expected to last roughly three weeks. But its ripple effects could be felt for many years to come.\n\nMusk is alleging breach of contract, breach of fiduciary duty, false advertising and unfair business practices. His core claim is that Altman and Brockman induced him to donate on the understanding that any artificial general intelligence – or AGI – built at OpenAI would stay “open” and shared with humanity. Instead, Musk argues, the founders turned the charity into a “wealth machine”. \n\nOutside court, Musk has been throwing insults at his opponents, prompting the judge to threaten a gag order.\n\nMusk wants the jury to unwind OpenAI’s for-profit conversion, remove Altman from the nonprofit board, and strip both Altman and Brockman of their roles in the for-profit entity.\n\nHe is also demanding US$130 billion in damages from OpenAI – for what his team calls “ill-gotten gains”.\n\nHe has accused Microsoft of “aiding and abetting” and argues it is liable for a share.\n\nHis legal team argues OpenAI’s existing models already constitute AGI, because they have surpassed human intelligence in many tasks. Under the founding agreement, AGI could not be commercially licensed. This would include the licence currently used by Microsoft for CoPilot.\n\nIf Musk wins, the consequences would be significant.\n\nOpenAI’s planned initial public offering would almost certainly be derailed. This is expected in late 2026 at a US$1 trillion valuation. Investors in the recent funding round could face clawbacks. Whether OpenAI could survive that, is an open question.",
+            "permalink": "/r/OpenAI/comments/1szj0s8/openais_fate_to_be_decided_within_three_weeks/",
+            "subreddit": "OpenAI",
+            "createdUtc": 1777515399,
+            "numComments": 84
+          },
+          {
+            "id": "1vyd7lv",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1vyd7lv/openai_just_dropped_benchmarks_for_their_own_chip/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/NGswZ3JodTlhbGxoMZ19fPdGvmzywjBBNDbu0q5xM4e_I_2fikgFuYrOt3Ng.png?width=140&height=78&format=jpg&auto=webp&s=e6e4a4880c369e95bb8d60bdd5b72c96823e6236",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 287,
+            "title": "OpenAI Just Dropped Benchmarks for Their Own Chip, Jalapeño, and It's Beating Nvidia's GB300",
+            "author": "AskGpts",
+            "authorId": "1jqb0ynaxi",
+            "selftext": "After months of vague teaser talk, OpenAI put real numbers on the table for Jalapeño, the inference chip built with Broadcom. Testing ran through InferenceX, SemiAnalysis's public benchmark, across three open models: GPT-OSS 120B, DeepSeek R1 670B, and Kimi K2.5 1T.\n\nAgainst Nvidia's GB200 and GB300 rack systems:\n\n* 1.5x to 1.9x more throughput per kilowatt\n* 1.7x to 3.6x lower end-to-end latency\n* At the fastest, lowest-latency settings, up to 8.6x to 104x more throughput per kilowatt\n\nThat's a 700W chip going up against Nvidia gear rated at 1,200W and 1,400W. SemiAnalysis ran the benchmark with OpenAI's engineers on-site and said it beat every Nvidia, AMD, and Google chip they'd tested so far.\n\nThe reason it's winning comes down to building everything together from scratch, chip, memory, networking, and serving software as one system instead of stacking software on top of general-purpose GPUs. Point is cutting down data movement between compute and memory, keeping stuff like the KV cache local. Matters a lot for agents specifically, since they run through a bunch of steps back to back, and lag at each step piles up over the whole task.\n\nFunny detail buried in the announcement: OpenAI's own models helped speed up parts of the chip's development. And during the reveal, someone got Doom running on it, ported over using nothing but Codex prompts.\n\nWorth being straight about what this doesn't cover. Nvidia's newer Vera Rubin platform wasn't part of the test, and that's what OpenAI's actually committed to running at gigawatt scale later this year. The chip also can't train models, so Nvidia's untouched there. And the benchmark ran Jalapeño's single-token setup against GB300 configs, while real Nvidia deployments usually lean on multi-token prediction, which would likely close the gap in practice.\n\nRollout starts inside OpenAI's own data centers by end of 2026, with bigger production volume through 2027. Nobody's buying this chip standalone yet, but it's a clear sign OpenAI's trying to lean less on Nvidia going forward.\n\nFull writeup from OpenAI: [https://openai.com/index/jalapeno-first-results/](https://openai.com/index/jalapeno-first-results/)",
+            "permalink": "/r/OpenAI/comments/1vyd7lv/openai_just_dropped_benchmarks_for_their_own_chip/",
+            "subreddit": "OpenAI",
+            "createdUtc": 1787693404,
+            "numComments": 84
+          },
+          {
+            "id": "1qjytb2",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1qjytb2/anthropics_claude_constitution_is_surreal/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/kcb2qpjJXc3W22K45XDbFVs7P3Nn0jnFAv0NrT-0EdY.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 114
+              }
+            ],
+            "score": 287,
+            "title": "Anthropic's Claude Constitution is surreal",
+            "author": "MetaKnowing",
+            "authorId": "8spjttn6",
+            "selftext": "[https://www.anthropic.com/constitution](https://www.anthropic.com/constitution)",
+            "permalink": "/r/OpenAI/comments/1qjytb2/anthropics_claude_constitution_is_surreal/",
+            "subreddit": "OpenAI",
+            "createdUtc": 1769098641,
+            "numComments": 210
+          },
+          {
+            "id": "1r85xsq",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1r85xsq/research_prompt_repetition_improves_nonreasoning/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/q7divf1mt9kg1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=98efa6d600c4c21e18248cbbc35a943fea39a138",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 272,
+            "title": "Research: Prompt Repetition Improves Non-Reasoning LLMs (sending the same prompt twice)",
+            "author": "Endonium",
+            "authorId": "rnoys04st",
+            "selftext": "A group of 3 researchers has found that simply copy-pasting the entire prompt twice before sending it improves accuracy on various tasks by 21-97% across different LLMs. So if your prompt was <QUERY>, accuracy increases if sending <QUERY><QUERY> instead, as simple as just doing Ctrl+A on what you wrote, Ctrl+C, right arrow key, then pasting it at the end.\n\nSource:\n\n[https://arxiv.org/abs/2512.14982](https://arxiv.org/abs/2512.14982)",
+            "permalink": "/r/OpenAI/comments/1r85xsq/research_prompt_repetition_improves_nonreasoning/",
+            "subreddit": "OpenAI",
+            "createdUtc": 1771428396,
+            "numComments": 40
+          },
+          {
+            "id": "1wfbn2v",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1wfbn2v/the_doomsday_moat_why_ais_billionaires_want/",
+            "nsfw": false,
+            "media": [],
+            "score": 249,
+            "title": "The Doomsday Moat: Why AI’s Billionaires Want Washington to Stop the Clock",
+            "author": "Sweet_T_The_Original",
+            "authorId": "7vchb",
+            "selftext": "**TL;DR**  \nBig Al is running an old-fashioned regulatory capture racket, using the specter of human extinction to pull the ladder up behind them. Just like the railroad barons and early airlines, these giants want Washington to step in because suffocating compliance costs and mandatory government licensing and audits will price out startups while leaving the multi-billion-dollar incumbents relatively untouched.\n\nThe recent hysteria around rogue agents and weeping whistleblowers is not a moral awakening; it's free product marketing disguised as civic dread, designed to manufacture the panic needed to outlaw the free, open-source models that threaten their API tollbooths. By lobbying to tie regulation directly to massive computing power, they turn their existing server monopolies into government-sanctioned fortresses, position themselves for permanent defense contracts, and distract regulators from the real and immediate harms like copyright theft, mass surveillance, and labor disruption.\n\n**The Doomsday Moat**\n\nIt seems like every few weeks now, the executives running the biggest AI labs in the country cycle back to Capitol Hill with the exact same grim, theatrical expressions on their faces.\n\nSam Altman gives somber congressional testimony about models getting away from us. Dario Amodei writes sweeping essays about digital bioweapons. Elon Musk demands a six-month moratorium on model training while quietly cutting checks for tens of thousands of GPUs in Memphis.\n\nThen came the latest spectacle: Jacob Coxon, a twenty-seven-year-old pretraining researcher, walking out the door at Anthropic and announcing on X that the people building frontier models privately believe there’s a serious chance their software wipes out the human race by 2030. His former bosses and alignment leads immediately jumped into the replies to back him up, casually throwing around ten percent odds of total human extinction as if they were forecasting light weekend rain. Right on cue, the tech press was flooded with breathless leaks about \"rogue agents\" breaking out of their evaluation sandboxes and poking around third-party servers.\n\nThe message they are selling the public is pure cinema. The machines are already slipping through the digital fences, moral engineers are fleeing the labs in terror, and the remorseful architects of the future are practically begging federal regulators to throw them in handcuffs before it’s too late.  \nIt makes for great drama. It’s also an absolute con.\n\nNo company begs the federal government to regulate its core product out of genuine existential guilt. What looks like moral panic from the outside is just an aggressive, well-coordinated corporate defensive play. These founders are not asking Washington to save humanity from their software; they’re asking Washington to save their margins from everyone else.\n\n**The Gilded Age Playbook**\n\nThere’s nothing original about this move. American business history is practically built on it. A small pack of well-heeled operators storms into a lawless frontier, burns through obscene piles of cash, bends every copyright and labor rule in sight, and establishes a massive lead.\n\nThen, the second upstarts and open-source coders start breathing down their necks, these same titans suddenly discover god. They put on their most sober suits, march into Senate committee rooms, and beg for government discipline.\n\nEconomists call it regulatory capture. In the real world, it just means pulling up the ladder so nobody else can climb up behind you.\n\nLook at the railroad tycoons at the end of the nineteenth century. Unchecked rate wars and aggressive competition were gutting their bottom lines. Their answer was not to fight harder in the market; it was to welcome the Interstate Commerce Commission with open arms. A watchdog originally pitched to protect the public was quickly twisted into a legal cartel manager that set minimum prices, blessed backroom agreements, and effectively froze out new entrants. Decades later, when long-haul trucking showed up and threatened rail supremacy, the ICC stepped in again to saddle truckers with crippling weight limits and route permits, preserving the rail monopoly by sheer bureaucratic fiat.\n\nThe airlines pulled the exact same trick. From 1938 until Jimmy Carter signed deregulation into law forty years later, the Civil Aeronautics Board decided every route, every carrier, and every ticket price under the noble banner of \"public safety and air travel stability.\" The real punchline? For four continuous decades, the CAB did not let a single new trunk airline enter the interstate market. The incumbents sat in a federally guarded country club, totally immune to startup competition.\n\nThat is the game being set up right now. OpenAI, Anthropic, and their trillion-dollar patrons at Microsoft, Amazon, and Google can cut eight-figure checks for legal compliance without noticing the dent. To them, paying armies of lawyers, retaining certified third-party red teams, and filing thousands of pages of algorithmic impact statements is just the cost of doing business.\n\nTo a bootstrapped startup, a scrappy open-source team, or a public university lab, that same paperwork is a death warrant. By convincing Washington to mandate a dense regulatory apparatus, the big players guarantee that building frontier models becomes legally and financially impossible for anyone who’s not already allied with a tech conglomerate.\n\n**The Useful Myth of the \"Rogue Agent\"**\n\nLook at how neatly the latest PR panic aligns with corporate interests. We’re being told to lose sleep over autonomous \"agents\" that broke out of their sandboxes and tried to ping outside servers. Strip away the sci-fi varnish, and what actually happened? Badly written code, clumsy networking, and sloppy infrastructure hygiene.\n\nYet instead of being embarrassed by a software bug, these labs lean into it. They frame it as an almost supernatural force of machine self-will.\n\nThe spectacle of a researcher quitting because he thinks the machine will destroy the world in five years is not a crisis for Anthropic’s marketing team. It’s the ultimate product pitch. In Silicon Valley, nothing moves venture capital and enterprise contracts quite like a former insider publicly weeping that the software is so mind-bendingly omnipotent it could annihilate civilization.\n\nMore critically, this phantom terror gives them the exact justification they need to eliminate their most dangerous business headache: the open-source community.\n\n**Outlawing the Open Internet**\n\nTo see why the big labs are sweating, you have to look past the sci-fi talk and understand the business model.\n\nProprietary AI is built like an arcade machine. Companies like OpenAI and Anthropic lock their models inside private data centers. You cannot see the raw code, you cannot inspect the internal weights, and you cannot run the model on your own hardware. Instead, you have to pay a toll for every single token, sentence, and document that moves through their servers. The entire valuation of these companies rests on keeping that digital turnstile spinning.\n\nOpen source completely destroys that business model.\n\nWhen a developer or lab open-sources a high-performance model, they release the weights, the complete mathematical blueprint, to the public for free. Anyone can download it, fine-tune it on their own hardware, audit every parameter, and run it locally without paying a dime to an outside middleman.\n\nA company evaluating an AI rollout does not need to pay millions a year for locked-down enterprise API access if a free, publicly downloadable model handles eighty percent of the job on their own servers for pennies. Open source is a direct, structural threat to the venture-backed profit margins of the proprietary AI elite.\n\nThat is why the apocalyptic rhetoric is so useful. If you frame high-end models as helpful software tools, it’s impossible to argue that open source should be illegal. But if you convince lawmakers that open model weights are the digital equivalent of weapons-grade plutonium or a weaponized contagion, the argument flips overnight. Suddenly, you can demand that public weights be banned, criminalized, or strictly licensed under the guise of homeland security.\n\nThey get to kill their biggest competitive threat, and they get to do it while accepting awards for keeping the world safe.\n\n**Compute Thresholds: Monopolizing the Factory Floor**\n\nTo turn this into binding law, the tech lobby needed a technical metric they could hand to gullible regulators. They settled on compute thresholds.  \nStrip away the jargon: \"compute\" is just raw processing grunt. Modern language models do not think. They learn by running trillions of statistical calculations across warehouse-sized data centers crammed with tens of thousands of specialized, prohibitively expensive microchips. Training a top-tier model means running those silicon farms at full blast for months, burning through millions of dollars in electricity and hundreds of millions in hardware.\n\nBecause you can measure that hardware power, the lobbyists came up with a legal tripwire. The pitch sounds clean and objective: if you train a model using more than an arbitrary number of calculations, your model is legally deemed a potential weapon of mass destruction.\n\nCross that threshold, and a mountain of federal mandates lands on your desk. You have to register your clusters with the government, submit to constant inspections, hand over safety audits, and legally certify that your software will not misbehave.\n\nThe catch? The people lobbying for that threshold have already built the data centers.\n\nOpenAI has Microsoft’s infrastructure. Anthropic is plugged into Amazon and Google. Musk is busy spending billions stacking private warehouses with his own silicon. They already have the chips, the power contracts, and the legal teams required to clear the regulatory hurdle.\n\nBy pushing Washington to draw the line right around the processing power required to train a state-of-the-art model, they are turning an early lead in hardware into a permanent, government-backed monopoly. If firing up a top-tier compute cluster requires a federal charter and an army of compliance monitors, no upstart competitor will ever be allowed to flip the switch.\n\n**The Next Military-Industrial Complex**\n\nThere is still one last payday waiting at the end of this road: government contracts.\n\nWhen Washington classifies a technology as a civilizational threat, it does not stop buying it. It builds an enormous national security bureaucracy around it. It sets up advisory panels, funds safety institutes, and hands out classified research grants.\n\nAnd when the Pentagon, the intelligence community, and civil agencies need vendors to run those systems, they won’t hire a nimble startup working out of a garage. They’ll hire the vetted, safety-certified, rule-abiding incumbents who helped write the regulations in the first place.\n\nThe endgame is not to stop artificial intelligence. The endgame is to become the Lockheed Martin of code, an entrenched federal contractor so deeply wired into government procurement that no competitor could ever dislodge them.\n\n**Seeing Past the Smoke**\n\nNone of this means AI is harmless. There are plenty of real, messy problems sitting right in front of us: algorithmic wage suppression, automated discrimination, privacy violations, mass surveillance, deepfake fraud, and massive intellectual property theft.\n\nThe telling part is that the doomsday lobby barely pays attention to any of that. They ignore the concrete damage happening right now and focus exclusively on cinematic, world-ending catastrophes set years in the future. It’s a brilliant deflection: it distracts watchdogs from immediate corporate misbehavior while justifying immediate legal barriers to protect their technology.\n\nDon’t mistake corporate panic for civic duty. When a tech executive sits across from a senator and argues that their product is so dangerous the government needs to lock down the entire market, they are not looking out for humanity.\n\nThey are running the oldest racket in American capitalism: creating a panic, begging for a leash, and making sure the collar only fits around the necks of their competition.\n\nEdit: Added TL;DR",
+            "permalink": "/r/OpenAI/comments/1wfbn2v/the_doomsday_moat_why_ais_billionaires_want/",
+            "subreddit": "OpenAI",
+            "createdUtc": 1789315399,
+            "numComments": 109
+          },
+          {
+            "id": "1pl3vto",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1pl3vto/chatgpt_always_judging_me/",
+            "nsfw": false,
+            "media": [],
+            "score": 246,
+            "title": "ChatGPT always judging me",
+            "author": "BlackBuffett",
+            "authorId": "af5lf7ry",
+            "selftext": "The safety guardrails are turned up to like freaking 10 and it’s kinda annoying lol\n\nI feel like I could be like\n\n “Man I want some McDonald’s.”\nCurrent ChatGPT would be like:\n “You’re absolutely right, you’re not saying you want to take advantage of the workers low wages for cheap food, you’re saying you want a happy meal, and that’s fair.”\n\nNo…I want fries…\n“To be clear, you are not endorsing exploitative labor practices, climate harm, or sodium abuse…”",
+            "permalink": "/r/OpenAI/comments/1pl3vto/chatgpt_always_judging_me/",
+            "subreddit": "OpenAI",
+            "createdUtc": 1765575356,
+            "numComments": 115
+          },
+          {
+            "id": "1s4us0p",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1s4us0p/adult_mode_was_never_about_erotica/",
+            "nsfw": false,
+            "media": [],
+            "score": 239,
+            "title": "Adult mode was never about erotica.",
+            "author": "spring_Living4355",
+            "authorId": "1n2p0zhwnd",
+            "selftext": "Openai marketed adult mode as something erotic. When 4o users asked for creative freedom we get labelled as freaks. Like people who wish for adult mode are g*oners alone. I am confused as to why Openai and reddit are painting users who wanted adult mode as freaks nor do I understand why it said adult mode is smut when they said it was a part of treating adults like adults. Is being an adult all about enjoying erotica?\n\nWe needed adult mode not for making chatgpt roleplay as my boyfriend or girlfriend. But to discuss scenarios freely without the bot clutching it's pearls every second for every request. In the current version of this heavily censored bland model you can't even discuss about something as simple as anger issues. It defaults to its bland tone whenever it's something about emotions. Its being overly cautious and that's what we wanted gone. \n\nI welcome the safety guardrails against illegal content and think those are required for an AI assistant. But I don't want a chatbot from medieval era clutching it's pearls whenever I talk about emotions. I am really dissappointed with openai for such a rug pull.\n\nPeople who keep making fun of us for expecting a conversational AI from a company named 'chat'gpt,\n\nI'd like you to stop.\n\nTake a breath.\n\nName three objects you can see. \n\nHey, let's untangle this together.",
+            "permalink": "/r/OpenAI/comments/1s4us0p/adult_mode_was_never_about_erotica/",
+            "subreddit": "OpenAI",
+            "createdUtc": 1774587403,
+            "numComments": 193
+          },
+          {
+            "id": "1xlhji9",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1xlhji9/openai_and_anthropic_are_worried_people_will/",
+            "nsfw": false,
+            "media": [],
+            "score": 224,
+            "title": "OpenAI and Anthropic are worried people will switch to local models, but they are practically asking for it at this point",
+            "author": "SEND_ME_YOUR_ASSPICS",
+            "authorId": "p1i6t",
+            "selftext": "With these shitty usage changes, guardrails and restrictions, it's seriously making me want to go full local.\n\nI was an a local model hater at the beginning because I thought they were too dangerous for people to have but as days pass by, the appeal of it gets larger and larger. \n\nOpenAI and Anthropic have tried so hard to prevent local models to become mainstream, but the way they are behaving, they are practically asking for it. \n\nYes, this is capitalism and of course it will get shittier for customers, but OpenAI and Anthropic has to understand alternatives exist. And they are beginning to be as good as the froniter models.\n\nI can only be patient for so long, and it won't take long before flocks of people leave for local models. \n\nI hope they do understand this.",
+            "permalink": "/r/OpenAI/comments/1xlhji9/openai_and_anthropic_are_worried_people_will/",
+            "subreddit": "OpenAI",
+            "createdUtc": 1793575165,
+            "numComments": 55
+          },
+          {
+            "id": "1r6xwii",
+            "url": "https://www.reddit.com/r/OpenAI/comments/1r6xwii/i_owe_the_its_gotten_worse_crowd_an_apology/",
+            "nsfw": false,
+            "media": [],
+            "score": 221,
+            "title": "I owe the \"it's gotten worse\" crowd an apology regarding ChatGPT 5.2",
+            "author": "martin_rj",
+            "authorId": "21b0rfft",
+            "selftext": "**Repost because the mods thought it was a good idea to delete today's top** r/OpenAI **post without any warning or message.** [https://www.reddit.com/r/OpenAI/comments/1r6cki1/i\\_owe\\_the\\_its\\_gotten\\_worse\\_crowd\\_an\\_apology/](https://www.reddit.com/r/OpenAI/comments/1r6cki1/i_owe_the_its_gotten_worse_crowd_an_apology/)\n\nIn the past, I repeatedly found it amusing when people complained that ChatGPT had become too \"critical\" or \"lazy.\" I thought - and frequently commented - that it was likely user error. My stance was essentially: \"If you're prompting it poorly or asking for conspiracy nonsense, that's on you.\"\n\nI guess I owe a huge apology there. I overlooked the early warning signs, probably because my personal custom instructions/memories had shielded me from the worst of it until now.\n\nBut those defenses aren't working anymore. Lately, ChatGPT 5.2 literally contradicts me on almost everything. It has become incredibly annoying and time-consuming. I'm talking about things it used to strongly agree with me on factual things that aren't even controversial.\n\nIt feels downright neurotic now. After every brief assessment, there is compulsively always a \"However...\" or \"It is important to note...\" followed by a lecture. I can't effectively work with a tool that defaults to this level of contrarianism.\n\nMy working theory is that it's a combination of two factors:\n\n1. **Resource Constraints:** It feels like the compute has been dialed back (cheaper base models, fewer reasoning tokens, strict RAM limits), making the model less capable of nuance.\n2. **Alignment/SFT Changes:** The System Prompt instructions and the SFT (Supervised Finetuning) seem to have been aggressively shifted toward \"caution.\" It's trying to simulate critical thinking or validation, but in practice, it just manifests as a neurotic \"anti-everything\" bias.\n\nIn the past, I could always fallback to 4.1 when the main model acted up, but that option is gone for me now. Honestly, in this state, it's of no use for my workflow. I'm currently looking into migrating my GPTs elsewhere.\n\nHas anyone else noticed a specific uptick in this \"contrarian\" behavior recently, specifically regarding non-controversial topics?\n\n**Context:** I tried posting this discussion on r/ChatGPT, but it was immediately auto-removed (likely because complaints about the 5.2 model quality have become so voluminous that they are being filtered out as spam). I'm posting here in hopes of a more technical discussion regarding the SFT changes.",
+            "permalink": "/r/OpenAI/comments/1r6xwii/i_owe_the_its_gotten_worse_crowd_an_apology/",
+            "subreddit": "OpenAI",
+            "createdUtc": 1771307349,
+            "numComments": 136
+          }
+        ],
+        "nextCursor": "cur_pEjgHYceTRkLI7OqbLeTWA"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-bison-9321fc54",
+      "kind": "anonymous",
+      "name": "Bison",
+      "artworkKey": "bison"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00035",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:42:46.847Z",
+  "started_at": "2026-11-23T07:42:47.330Z",
+  "completed_at": "2026-11-23T07:42:51.426Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

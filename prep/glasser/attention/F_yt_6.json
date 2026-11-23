@@ -1,0 +1,60 @@
+{
+  "id": "75bdbe47-6ff5-49f9-9a0d-650e478b9a40",
+  "run_url": "https://app.glasser.ai/runs/75bdbe47-6ff5-49f9-9a0d-650e478b9a40",
+  "provider": "anyapi",
+  "endpoint": "/youtube.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "query": "AI agents film behind the scenes outtakes",
+    "sortBy": "popular",
+    "uploadDate": "this_year"
+  },
+  "output": {
+    "hint": "paging_unavailable: this result came from a source that cannot return a nextCursor, so it may be incomplete and there is no way to continue from here. Re-run with `requireFields: [\"nextCursor\"]` to be served only by a source that can page, which may cost more per request.",
+    "items": 1,
+    "output": {
+      "data": {
+        "videos": [
+          {
+            "id": "4IrOYO37r7g",
+            "url": "https://www.youtube.com/watch?v=4IrOYO37r7g",
+            "image": "https://i.ytimg.com/vi/4IrOYO37r7g/hq720.jpg",
+            "title": "Agent Kim Reactivated | Behind the Scenes | Netflix [ENG SUB]",
+            "views": 262981,
+            "channel": "Netflix K-Content",
+            "authorId": "UCpiCK8c6PBktcxq7Az_t4RQ",
+            "createdUtc": 1784792420,
+            "lengthText": "9:59",
+            "publishedTime": "4 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/gc4xAB9RK0opz6k0VTqOp-8aODHaORm8rIY-xxqf7jjre1zSl3F7novR7cIUWLy9bSpphhEabg=s68-c-k-c0x00ffffff-no-rj"
+          }
+        ]
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-badger",
+      "kind": "anonymous",
+      "name": "Badger",
+      "artworkKey": "badger"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.0012",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:40:19.022Z",
+  "started_at": "2026-11-23T07:40:19.104Z",
+  "completed_at": "2026-11-23T07:40:20.748Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

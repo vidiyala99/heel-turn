@@ -1,0 +1,208 @@
+{
+  "id": "37a0da82-a595-4491-bebb-9c96595fcf2d",
+  "run_url": "https://app.glasser.ai/runs/37a0da82-a595-4491-bebb-9c96595fcf2d",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "AI hostage negotiator simulation game",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "paging_unavailable: this result came from a source that cannot return a nextCursor, so it may be incomplete and there is no way to continue from here. Re-run with `requireFields: [\"nextCursor\"]` to be served only by a source that can page, which may cost more per request.",
+    "items": 7,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1p8oomu",
+            "url": "https://www.reddit.com/gallery/1p8oomu",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/huxo57p78y3g1.png?width=756&format=png&auto=webp&s=d50204aaada1350bb1bcfb9598d81483ab3d19e1",
+                "type": "photo",
+                "width": 756,
+                "height": 521
+              },
+              {
+                "url": "https://preview.redd.it/iiktn5j68y3g1.png?width=751&format=png&auto=webp&s=7090e1b723ea00e7dc9a61ec81d6ef136377aac8",
+                "type": "photo",
+                "width": 751,
+                "height": 451
+              }
+            ],
+            "score": 76219,
+            "title": "Valve artist responds to calls for Steam to drop \"Made with AI\" label",
+            "author": "Stannis_Loyalist",
+            "authorId": "3p3tvgm1",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/Steam/comments/1p8oomu/valve_artist_responds_to_calls_for_steam_to_drop/",
+            "subreddit": "Steam",
+            "createdUtc": 1764314331,
+            "isArchived": false,
+            "numComments": 2587
+          },
+          {
+            "id": "1pcgbwa",
+            "url": "https://i.redd.it/o29n3c4v3u4g1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/o29n3c4v3u4g1.jpeg?auto=webp&s=e247d641ad54c652a1070f1fcb00812e36175ba4",
+                "type": "photo",
+                "width": 4096,
+                "height": 4096
+              }
+            ],
+            "score": 75543,
+            "title": "Steam for the win",
+            "author": "[deleted]",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/memes/comments/1pcgbwa/steam_for_the_win/",
+            "subreddit": "memes",
+            "createdUtc": 1764700254,
+            "isArchived": false,
+            "numComments": 1330
+          },
+          {
+            "id": "1pahpt6",
+            "url": "https://www.gamesradar.com/games/valve-artist-says-thats-like-saying-food-products-shouldnt-have-their-ingredients-list-as-epics-tim-sweeney-and-more-call-on-steam-to-drop-the-made-with-ai-label/",
+            "nsfw": false,
+            "media": [],
+            "score": 54442,
+            "title": "Valve artist responds to Epic Games CEO Tim Sweeney and more calling on Steam to drop the 'Made with AI' label: \"This is like saying food products shouldn't have their ingredients list... The only people afraid of this are the ones that know their product is low effort.\"",
+            "author": "ChiefLeef22",
+            "authorId": "7a7qkhpq",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/gaming/comments/1pahpt6/valve_artist_responds_to_epic_games_ceo_tim/",
+            "subreddit": "gaming",
+            "createdUtc": 1764507574,
+            "isArchived": false,
+            "numComments": 2125
+          },
+          {
+            "id": "1px9xwx",
+            "url": "https://v.redd.it/warpd4m6it9g1",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/ZmFpc2w2bjZpdDlnMfjm9xYAn_POqzYPqQ5XUfllfmUARKNamgHFYO-YeV5d.png?format=pjpg&auto=webp&s=72196027b41138f2143d610dee0239e136308749",
+                "type": "video",
+                "width": 1920,
+                "height": 1080,
+                "videoUrl": "https://v.redd.it/warpd4m6it9g1/CMAF_1080.mp4?source=fallback"
+              }
+            ],
+            "score": 48938,
+            "title": "Private equity is killing private ownership: first it was housing - now it's the personal computer",
+            "author": "SagansCandle",
+            "authorId": "wrlvini",
+            "isLocked": false,
+            "selftext": "DRAM and GPU prices aren't going up because of \"AI\" - it's because the wealthy have more money than they know what to do with, so they're buying up all the assets. \"AI\" is just the vehicle (the excuse) - it's not the root of the problem nor is it the ultimate goal.\n\nThe super rich don't want to hold on to \"liquid\" money - they invest in assets. While they're buying up all the housing, now they're buying up all the computers and putting them into massive datacenters.\n\nWhether or not the AI bubble crashes, they'll be selling you a \"gaming PC in the cloud,\" for a monthly fee, of course. And while they kill the personal computer market, just like Netflix, once your only option is a subscription service, the price will skyrocket.\n\nThis is happening in real-time. If we want to stop it, now's the time to act.\n\nSources:\n\n* Gamers Nexus: [NVIDIA: WTF?](https://www.youtube.com/watch?v=cUrJVdF2me0) \n* Garys Economics: [The REAL reason behind the housing crisis](https://www.youtube.com/watch?v=BTlUyS-T-_4) \n* [Network (1976)](https://www.youtube.com/watch?v=pqzTcy3SnLg)",
+            "permalink": "/r/pcmasterrace/comments/1px9xwx/private_equity_is_killing_private_ownership_first/",
+            "subreddit": "pcmasterrace",
+            "createdUtc": 1766873040,
+            "isArchived": false,
+            "numComments": 2919
+          },
+          {
+            "id": "1xsz27z",
+            "url": "https://i.redd.it/uze87i8squ0i1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/uze87i8squ0i1.jpeg?auto=webp&s=e10948d6e6724819d6f9c5126b080f55c53240a4",
+                "type": "photo",
+                "width": 2268,
+                "height": 4032
+              }
+            ],
+            "score": 44532,
+            "title": "My son did this by accident and didn't apologize.",
+            "author": "returntothenorth",
+            "authorId": "204il5eywb",
+            "isLocked": false,
+            "selftext": "I don't even care about the board game. He just didn't make any sorry related jokes. ",
+            "permalink": "/r/mildlyinfuriating/comments/1xsz27z/my_son_did_this_by_accident_and_didnt_apologize/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1794345624,
+            "isArchived": false,
+            "numComments": 2859
+          },
+          {
+            "id": "1pc43km",
+            "url": "https://i.redd.it/t0ol0c1eer4g1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/t0ol0c1eer4g1.jpeg?auto=webp&s=5a34467c578c8fca5e8f81f50d47da536f81d471",
+                "type": "photo",
+                "width": 2048,
+                "height": 2207
+              }
+            ],
+            "score": 44103,
+            "title": "What a W Steam",
+            "author": "ZealousidealChain473",
+            "authorId": "du7tc90s0",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/memes/comments/1pc43km/what_a_w_steam/",
+            "subreddit": "memes",
+            "createdUtc": 1764667470,
+            "isArchived": false,
+            "numComments": 538
+          },
+          {
+            "id": "1ree20k",
+            "url": "https://www.newscientist.com/article/2516885-ais-cant-stop-recommending-nuclear-strikes-in-war-game-simulations/",
+            "nsfw": false,
+            "media": [],
+            "score": 36282,
+            "title": "AIs can’t stop recommending nuclear strikes in war game simulations - Leading AIs from OpenAI, Anthropic, and Google opted to use nuclear weapons in simulated war games in 95 per cent of cases",
+            "author": "Teruyo9",
+            "authorId": "5cfat",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/technology/comments/1ree20k/ais_cant_stop_recommending_nuclear_strikes_in_war/",
+            "subreddit": "technology",
+            "createdUtc": 1772028213,
+            "isArchived": false,
+            "numComments": 2787
+          }
+        ],
+        "nextCursor": "cur_GXwe3_SH7Gwg_qt8VVJtfQ"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-giraffe-5e3cbaa1",
+      "kind": "anonymous",
+      "name": "Giraffe",
+      "artworkKey": "giraffe"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00034",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:41:41.839Z",
+  "started_at": "2026-11-23T07:41:41.900Z",
+  "completed_at": "2026-11-23T07:41:43.736Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

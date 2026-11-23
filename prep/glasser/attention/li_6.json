@@ -1,0 +1,607 @@
+{
+  "id": "35d95633-daf7-4735-a2b2-91b329a8b342",
+  "run_url": "https://app.glasser.ai/runs/35d95633-daf7-4735-a2b2-91b329a8b342",
+  "provider": "scrapecreators",
+  "endpoint": "/v1/linkedin/search/posts",
+  "endpoint_version": 4,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "query": "AI sales coach simulation"
+  },
+  "output": {
+    "posts": [
+      {
+        "url": "https://www.linkedin.com/posts/lizaadams_i-built-a-simulator-where-three-ai-customer-activity-7404159000973426688-JXc2",
+        "name": "I built a simulator where three AI customer stakeholders debate an AI sales rep in real time. Then it grades the AI rep's performance and coaches them on what to do next. See the 40-sec demo… | Liza Adams | 28 comments",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4E05AQH63DcJp8CZ_w/mp4-640p-30fp-crf28/B4EZsDW4kVHcBs-/0/1765287894979?e=2147483647&v=beta&t=nxAKAfEM8uRr_MuTu5jNMMF7r5Gq6g0NDp4ginzX_vs",
+        "author": {
+          "url": "https://www.linkedin.com/in/lizaadams",
+          "name": "Liza Adams",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQG2MlR_TRmvgA/profile-displayphoto-scale_200_200/B56Z44484HGsAc-/0/1779070914285?e=2147483647&v=beta&t=VVBy_Zi_c9_0O_SEga9QlxMNpyBfO70vfXrQ-hlKbg8",
+          "followers": 29252
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7404173070711767041",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7404158998385573889,7404173070711767041)",
+            "text": "This is wild, feels like the future of sales training happening in real time.",
+            "author": "Rachel London",
+            "linkedinUrl": "https://www.linkedin.com/in/rachel-london",
+            "datePublished": "2025-12-09T15:00:22.942Z",
+            "reactionCount": 3,
+            "publishedTimeAgo": "11mo"
+          },
+          {
+            "id": "7404159169701826562",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7404158998385573889,7404159169701826562)",
+            "text": "Buying Committee Simulator (with voice option): https://claude.ai/public/artifacts/bf83c67c-b98a-46d8-b8b9-a56ef8651d61\n(The voices are pretty robotic but we can see where this will go as AI advances.)\n\nNewsletter on how to create AI simulators: https://www.linkedin.com/pulse/your-strategy-doc-just-became-living-ai-sales-coach-liza-adams-lbzzc",
+            "author": "Liza Adams",
+            "linkedinUrl": "https://www.linkedin.com/in/lizaadams",
+            "datePublished": "2025-12-09T14:05:08.683Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "11mo"
+          },
+          {
+            "id": "7404348517055545346",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7404158998385573889,7404348517055545346)",
+            "text": "Liza Adams Great example! This would on 🔥 with voice mode. May be notebook LM style - where the rep can listen to these stakeholders debate each other, compare the solution to competitors.. in any case - love you what built here!",
+            "author": "Sharad Verma",
+            "linkedinUrl": "https://www.linkedin.com/in/heysharad",
+            "datePublished": "2025-12-10T02:37:32.610Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "11mo"
+          },
+          {
+            "id": "7404200950900420608",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7404158998385573889,7404200950900420608)",
+            "text": "wow! Can I customize this for different scenarios and use cases? I can see something like this being great for candidates to practise interviews for example.",
+            "author": "Sherehan Ross",
+            "linkedinUrl": "https://www.linkedin.com/in/sherehanross",
+            "datePublished": "2025-12-09T16:51:10.097Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "11mo"
+          },
+          {
+            "id": "7404701410988158979",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7404158998385573889,7404701410988158979)",
+            "text": "This is next-level, Liza! Really shows how much more you learn by watching dynamics unfold without jumping in. Would love to hear what surprised you most from early runs?",
+            "author": "🏀 Stephen Oommen",
+            "linkedinUrl": "https://www.linkedin.com/in/stephenoommen",
+            "datePublished": "2025-12-11T01:59:49.080Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "11mo"
+          },
+          {
+            "id": "7404542500180336640",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7404158998385573889,7404542500180336640)",
+            "text": "I appreciate how the tool lets humans observe without pressure. It shows that thoughtful AI training can accelerate skill development while keeping learning safe and practical.",
+            "author": "Robert Scheinfeld",
+            "linkedinUrl": "https://www.linkedin.com/in/robert-scheinfeld",
+            "datePublished": "2025-12-10T15:28:21.791Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "11mo"
+          },
+          {
+            "id": "7404380903504093184",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7404158998385573889,7404380903504093184)",
+            "text": "Watching how AI handles competing priorities and then getting a breakdown of wins, misses, and coaching is such a smart way to accelerate skill development. Liza Adams",
+            "author": "Mahesh Sheshadri",
+            "linkedinUrl": "https://in.linkedin.com/in/maheshsheshadri",
+            "datePublished": "2025-12-10T04:46:14.140Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "11mo"
+          },
+          {
+            "id": "7404371246617886720",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7404158998385573889,7404371246617886720)",
+            "text": "This is a smart way to pressure-test messaging before it meets real buying committees with real friction. \n\nSeeing where value lands, stalls, or breaks across competing priorities is exactly how reps sharpen judgment, not just talk tracks.  Liza Adams",
+            "author": "Vijayashree Venkat",
+            "linkedinUrl": "https://in.linkedin.com/in/vijayashreevenkat",
+            "datePublished": "2025-12-10T04:07:51.760Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "11mo"
+          },
+          {
+            "id": "7404179522247593985",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7404158998385573889,7404179522247593985)",
+            "text": "Awesome. This is a fun way to re-think your sales approach! Awesome tool!",
+            "author": "Jessica Aries",
+            "linkedinUrl": "https://www.linkedin.com/in/jessicaaries",
+            "datePublished": "2025-12-09T15:26:01.108Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "11mo"
+          },
+          {
+            "id": "7404386628196257792",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7404158998385573889,7404386628196257792)",
+            "text": "Austin Webb Jennifer Sikora",
+            "author": "Julie Bryce",
+            "linkedinUrl": "https://www.linkedin.com/in/julie-bryce",
+            "datePublished": "2025-12-10T05:08:59.014Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "11mo"
+          }
+        ],
+        "likeCount": 51,
+        "contentUrn": "urn:li:ugcPost:7404158998385573889",
+        "uploadDate": "2025-12-09T14:04:28.428Z",
+        "activityUrn": "urn:li:activity:7404159000973426688",
+        "description": "I built a simulator where three AI customer stakeholders debate an AI sales rep in real time. Then it grades the AI rep's performance and coaches them on what to do next. See the 40-sec demo below.\n\nIT wants security. Finance wants ROI. Travel wants ease of use. They interrupt each other, push back, and argue while the AI rep tries to get them all to yes.\n\nThis is a tough scenario by design. A group demo where competing priorities clash. In real life, reps sometimes get 1:1 time with each stakeholder. But training for the hardest room makes the easier ones feel manageable.\n\nThe human rep doesn't participate. They watch, observe, and learn. It's sales training where your team sees how messaging lands against realistic buyer dynamics without the pressure of a live deal.\n\nRun it twice and you get a completely different conversation. Every response is a live AI call, not a script.\n\nHere's the starting prompt:\n\n\"Please build a simulator where an AI sales rep presents to a buying committee of 3 AI stakeholders based on the attached strategy document. They should react, interrupt, ask tough questions, and debate each other.\n\nEvery response should be a live AI call, not scripted, so each run produces a different conversation. I want to watch, not participate.\n\nAt the end, show me which stakeholders are sold, which aren't, and why. Then grade the AI rep's performance and give coaching: what worked, what they missed, and suggested next steps.\"\n\nYour strategy doc does the heavy lifting. The personas, objection handling, and value props you already built become the AI's playbook. Garbage in, garbage out.\n\nThe first version won't be perfect. Review what it builds and refine from there. Sometimes that means adjusting the prompt. Sometimes it means improving your strategy doc. Either way, you learn something useful.\n\nTry the simulator yourself and read the full breakdown in my latest newsletter. Links in the comments. Share with us what you think.",
+        "commentCount": 28,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQH63DcJp8CZ_w/feedshare-thumbnail_720_1280/B4EZsDW4kVHcA0-/0/1765287890968?e=2147483647&v=beta&t=E1DXLyw-7KNA8F5dHs533iLKxFrIxzaWx59WevMYtM4",
+        "datePublished": "2025-12-09T14:04:28.428Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/elaycohen_check-out-this-video-by-jesse-rome-from-aslan-activity-7367387824020516865-12jZ",
+        "name": "Check out this video by Jesse Rome from ASLAN Sales Training. He breaks down how AI coaching and role play are brought to life to help sales reps master their craft. Using \"cold calling\" as an… | Elay Cohen",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5605AQE6tzMIDHxU2g/mp4-720p-30fp-crf28/B56Zj44AXWHkB0-/0/1756522133344?e=2147483647&v=beta&t=Sgz0d1nQdx1tRIWp_CMsWhzDEud8LjADbXXp_iADnTg",
+        "author": {
+          "url": "https://www.linkedin.com/in/elaycohen",
+          "name": "Elay Cohen",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQE7flkOhkcXPQ/profile-displayphoto-scale_200_200/B56aAmcD_mKwAc-/0/1787351288958?e=2147483647&v=beta&t=zgykTa0lqp27Kl2Vj2S6Xb9r2WnIxufOdck7dmse9rI",
+          "followers": 20626
+        },
+        "images": [],
+        "comments": [],
+        "likeCount": 24,
+        "contentUrn": "urn:li:ugcPost:7367387621058076672",
+        "transcript": "How are we bringing the AI role play and the AI coach and feedback to life? Let's just take the example of a cold calling, right? You have to make X amount of cold calls a week. I used to make 80 code calls that day. It was a grind and you're just getting hung up on. You're getting feedback and maybe your manager listens to your calls or sits with you, you know, once a week. And so now you have a tool. I think people don't give cold calling enough credit. There are so many different levels to it. You have to prepare the message, right? What is my like elevator pitch or my intro message? But then you need to also have the questions that you're gonna ask if that goes well. But the likely scenario is none of that's gonna go well. So you're gonna have to handle objections. So those are really three different skills all built into one code call. And so you need to simulate those situations and get feedback on each one of those three skills so that going into the next call. You feel ready for anything. And historically we did what? Like battlecards, flash cards, like videos, elements all that was good, but it wasn't interactive and it wasn't just in time and it never felt real. And reps hate to role play, but they do love to be successful. So how does the AI actually simulate it? What's the experience like? Yeah, well, it's 2 two different ways. And we can show you kind of the two different types of AI role play that we interact with. One is the AI coach, which is like our pitch practice. And that is like you're talking to yourself and the AI then like analyzes your tone, your pace, your messaging, your keywords, and it'll give you live feedback right after. And so I think that is so important for any sort of product rollout or any sort of training reinforcement. It's like you just learn these five things. Let's see if you can actually say it, not write it down, not tell me you learned it. Not click through a bunch of answers till you get it right and tell your manager like practice it. The other one, which is even more fun is the AI role play where you're really interacting back and forth and you create this persona and you tell them you know how to be mean or be nice or give me this objection if I say this. And so I always try to build, build those in stages where I ensure that I like tell the Rep, you know, and prompt the Rep like lead with your messaging and then I'll prompt the AI, give them an objection. So it'll make the Rep handle that objection and then I'll prompt the AI if they do X advance, if they don't hang up basically on them. And if they do well, then they then have to ask some probing questions, some qualifying questions. So what if we can get you to practice it? You can get live feedback. We can all collapse like, you know, calibrate on that, but without the embarrassment and a safe place, right? Because I could practice and it's my own coach and then I can decide when I want to pull in my manager or my team. I love that. You're scaling stand and deliver across a broad set of skills and behaviors that will ultimately make sales people better.",
+        "uploadDate": "2025-08-30T02:48:56.670Z",
+        "activityUrn": "urn:li:activity:7367387824020516865",
+        "description": "Check out this video by Jesse Rome from ASLAN Sales Training. He breaks down how AI coaching and role play are brought to life to help sales reps master their craft. Using \"cold calling\" as an example, Jesse explain how instant AI feedback on tone and messaging to interactive role plays simulate real objections and conversations. Now, AI Role Play provides a safe and repeatable way to practice without the awkwardness of traditional stand and deliver and manager coaching.\n\nHow are your teams leveraging AI Role Play?\n\nLet me know if you want to see it in action. SalesHood",
+        "commentCount": 0,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQE6tzMIDHxU2g/videocover-high/B56Zj44AXWHkCM-/0/1756522114506?e=2147483647&v=beta&t=W4Lt_phmT38OyCijKtziNVqJtay5qBSliwzkPGNSYVE",
+        "datePublished": "2025-08-30T02:48:56.670Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/pingwu_another-week-another-product-ships-the-activity-7481000713460797440-KhVS",
+        "name": "Another week, another product ships! The Cresta Training Simulator is here. AI agents that role play as your customers, so your agents can practice the calls that matter most, the sales pitch, the… | Ping Wu | 14 comments",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5605AQFfvn-iP_Bolw/mp4-640p-30fp-crf28/B56Z9HabcLJoB0-/0/1783609552759?e=2147483647&v=beta&t=95SUnXddHMKx9RW0UqNdu95wTF1gFFnzBRaY2jfWVtg",
+        "author": {
+          "url": "https://www.linkedin.com/in/pingwu",
+          "name": "Ping Wu",
+          "followers": 25108
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7481000895212847104",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7480999938454122497,7481000895212847104)",
+            "text": "https://cresta.com/blog/cresta-launches-training-simulator-bringing-ai-agent-technology-to-human-agent-training",
+            "author": "Ping Wu",
+            "linkedinUrl": "https://www.linkedin.com/in/pingwu",
+            "datePublished": "2026-07-09T15:06:43.695Z",
+            "reactionCount": 5,
+            "publishedTimeAgo": "4mo"
+          },
+          {
+            "id": "7481030640570630144",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7480999938454122497,7481030640570630144)",
+            "text": "Incredible",
+            "author": "Holly Rose Faith",
+            "linkedinUrl": "https://www.linkedin.com/in/hollyrosefaith",
+            "datePublished": "2026-07-09T17:04:55.540Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "4mo"
+          },
+          {
+            "id": "7481009275981426688",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7480999938454122497,7481009275981426688)",
+            "text": "💪",
+            "author": "Saam Motamedi",
+            "linkedinUrl": "https://www.linkedin.com/in/saammotamedi",
+            "datePublished": "2026-07-09T15:40:01.825Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "4mo"
+          },
+          {
+            "id": "7482011419794771968",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7480999938454122497,7482011419794771968)",
+            "text": "This turns training into an organisational learning loop: rare, high-stakes calls become reusable practice, tacit judgement becomes visible, and compliance behaviours can be tested before a real customer is at risk. Especially powerful for financial services.",
+            "author": "Ella Zhao",
+            "linkedinUrl": "https://nz.linkedin.com/in/ella-zhao-ai",
+            "datePublished": "2026-07-12T10:02:11.530Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "4mo"
+          },
+          {
+            "id": "7481528469785423872",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7480999938454122497,7481528469785423872)",
+            "text": "Shoutout Krystal T. Yue Peng Congrats!! 🎉🥳🥳",
+            "author": "Gaurav Shah",
+            "linkedinUrl": "https://ca.linkedin.com/in/gs336",
+            "datePublished": "2026-07-11T02:03:07.274Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "4mo"
+          },
+          {
+            "id": "7481039954677108737",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7480999938454122497,7481039954677108737)",
+            "text": "This is especially exciting to see! Last year, I asked a business consultant within my department whether Cresta could support AI-powered role-play, and the answer at the time was, “Not yet.”\n\nHaving spent years in contact centers, I’ve seen how valuable realistic practice can be, especially for sales, retention, and the difficult conversations agents may not encounter until they are live with a customer. Seeing that idea become a scalable, data-driven training experience is incredible. The ability to practice repeatedly, receive feedback using the same quality standards, and build confidence before the real conversation has so much potential.",
+            "author": "Melissa Duuring",
+            "linkedinUrl": "https://www.linkedin.com/in/melissaduuring",
+            "datePublished": "2026-07-09T17:41:56.197Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "4mo"
+          },
+          {
+            "id": "7491312359416918016",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7480999938454122497,7491312359416918016)",
+            "text": "Outstanding Ping Wu . Keep staying ahead of the game!",
+            "author": "Michael Hall",
+            "linkedinUrl": "https://www.linkedin.com/in/michaelkhallslk",
+            "datePublished": "2026-08-07T02:00:48.339Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "3mo"
+          },
+          {
+            "id": "7485879460685164544",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7480999938454122497,7485879460685164544)",
+            "text": "This sounds like a game changer for training! Having AI simulate those tough calls will really help agents feel more prepared when it counts.",
+            "author": "Rohan Pinto",
+            "linkedinUrl": "https://ca.linkedin.com/in/rohanpinto",
+            "datePublished": "2026-07-23T02:12:24.343Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "4mo"
+          },
+          {
+            "id": "7484607272048881664",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7480999938454122497,7484607272048881664)",
+            "text": "This sounds like a game changer for training! Giving agents a chance to practice those tough calls anytime is such a smart approach.",
+            "author": "Rohan Pinto",
+            "linkedinUrl": "https://ca.linkedin.com/in/rohanpinto",
+            "datePublished": "2026-07-19T13:57:10.936Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "4mo"
+          },
+          {
+            "id": "7481554352550125568",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7480999938454122497,7481554352550125568)",
+            "text": "This sounds like a game changer for training. It's so true that practice makes a huge difference, especially for those tough calls that can really catch someone off guard.",
+            "author": "Rohan Pinto",
+            "linkedinUrl": "https://ca.linkedin.com/in/rohanpinto",
+            "datePublished": "2026-07-11T03:45:58.206Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "4mo"
+          }
+        ],
+        "likeCount": 222,
+        "contentUrn": "urn:li:ugcPost:7480999938454122497",
+        "uploadDate": "2026-07-09T15:06:00.341Z",
+        "activityUrn": "urn:li:activity:7481000713460797440",
+        "description": "Another week, another product ships! The Cresta Training Simulator is here. AI agents that role play as your customers, so your agents can practice the calls that matter most, the sales pitch, the retention save, the upsell, and the tricky support situations that go sideways fast, before they ever face a real customer!\n\nFor years, training has been passive. A new agent gets some coursework, a few knowledge checks, maybe a role play with their supervisor. Then businesses put them on a live revenue call and hope. The conversations that matter most are the ones they've practiced least.\n\nHere's what changes that:\n\n► Abundant practice. Real practice used to mean a supervisor running role play, and (human) supervisors don't scale. Now the AI plays the customer, built from real conversations, pushing back and escalating the way real people do. Every agent can practice a hard call anytime, run it ten times, and get better each time. Want to practice in the Costco line? Cresta makes that possible.\n\n► Personalized, data-driven, and \"moneyball\" for sales and service calls. Every practice call is graded on the same QA criteria you use on live calls, on the same platform, feeding the same coaching data. Cresta also uncovers the hidden behaviors that make your best sellers great, then Training Simulator trains everyone on them.\n\n► Edge cases, seen once, trained across the whole team. Every day, the trickiest calls are the ones each individual agent might see once every a few weeks, so nobody's ready when they hit. The AI picks those up and turns them into practice for everyone. One rare, brutal call becomes a rep the entire team has run.\n\nBetter practice, in abundance, tied to how each agent actually performs. That's how you get agents who are ready before it counts.\n\nFull blog in the comments.",
+        "commentCount": 14,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQFfvn-iP_Bolw/videocover-high/B56Z9HabcLJoBU-/0/1783609545210?e=2147483647&v=beta&t=T3hEqUPDWWoo0FMIzhgsw8B_-KvqwrJnknqnMdTDszg",
+        "datePublished": "2026-07-09T15:06:00.341Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/ciguy_controversial-opinion-every-sales-team-should-activity-7417249172216762368-AjIu",
+        "name": "Controversial opinion: Every sales team should be using AI to help reps run a sales call the way their CEO or CRO would.\n\nWhat we’re doing at Avarra:\n\n→ Reps do learning sessions with an Avatar, same… | Dan Strauss",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5605AQFPLNtNS-Z35Q/mp4-640p-30fp-crf28/B56Zu2q19BIoBw-/0/1768296259507?e=2147483647&v=beta&t=et3JH5GycJ4sqP0MY5dbQKkLSB-bg1jsxe72u0udiec",
+        "author": {
+          "url": "https://www.linkedin.com/in/ciguy",
+          "name": "Dan Strauss",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQFV1Zv2rp4j8g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1695217359198?e=2147483647&v=beta&t=2SzLJ1hZVM6WMMFFZZDsGflLbQX_pg_KC3C8gjKhSwI",
+          "followers": 4329
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7417580953403047936",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7416771936854183937,7417580953403047936)",
+            "text": "AI avatars coaching sellers like the CEO would is actually Brilliant. Slashes ramp time, builds instincts, frees managers.",
+            "author": "Matt Huang",
+            "linkedinUrl": "https://www.linkedin.com/in/matthuangusa",
+            "datePublished": "2026-01-15T14:58:31.281Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "10mo"
+          }
+        ],
+        "likeCount": 13,
+        "contentUrn": "urn:li:ugcPost:7416771936854183937",
+        "transcript": "What is Avara? Avara is a fully customized AI sales simulation platform that enables your reps to get the at bats and coaching they need to be productive in weeks instead of quarters. Just listen to what our customers have to say. Time to ramp has come down like over 25%. It's clearly one of the most important tools we have now to onboard and develop reps Overall, I think it should be, you know, a part of every great learning organization stack. Building simulations are easier than ever. Upload your playbooks or meeting transcripts or let our avatar interview you. Could you tell me about the simulation you'd like to build and what specific behaviors your team needs to improve? Yeah, definitely our biggest challenge right now is that reps aren't digging in deep with discovery. They're going to pitch the product too quickly. We really want them to understand the business objectives, challenges, pain that the client is facing so that we can really sell our product and position it in a way that's valuable for the company. I'll help you build a simulation where reps practice deep discovery and value based selling with the security director who's exploring SIM solutions for the first time. Avara simulations are tailored to your. Exact business scenarios, onboarding, product launches, advanced discovery and objection handling, and all of your other sales best practices. Our platform coaches your reps to your exact sales methodology, instilling the critical sales behaviors they need to be successful. Avara does the heavy lifting, freeing busy enablement teams from repetitive manual role plays. Managers spend less time on basics and more on high value coaching. So Rep see real results sooner. Our avatars replicate real meeting experiences far more natural than voice only role plays. Hey Michael, it's nice to see you. I understand you're having some challenges around ramping reps. Yeah, it's been a real pain point for us. Our new hires are taking almost nine months to hit quota and it's really impacting our growth targets and give you a real time coaching to continuously improve. I noticed you moved to scheduling a demo pretty quickly after uncovering the personal impact. What additional pain points do you think might have been worth exploring? I think we probably didn't spend enough time on the pain. They probably could have qualified it a little bit more and put some dollars behind it, like to know how much they're actually losing from having this problem. That's a great observation. You're absolutely right. When the prospect mentioned customer response times doubling to 48 hours, that was a perfect moment to ask about revenue impact. Something like what does that mean in terms of lost business? Or can you quantify the revenue impact of these delayed response times? Would you like to practice a few questions that could help? And cover those financial impacts. As you can see, Avara ensures every Rep in every region gets the app, bats and coaching they need to consistently execute your playbook. In fast moving markets, enablement can't be an afterthought. When reps aren't prepared for high stakes conversations, it hurts your pipeline and your bottom line. Stop burning valuable leads and losing deals your team should win. Discover how Avara can help you shape behavior. Win more deals. And scale your results. Book a demo now at avalara dot AI and see the difference real simulation makes.",
+        "uploadDate": "2026-01-14T17:00:08.466Z",
+        "activityUrn": "urn:li:activity:7417249172216762368",
+        "description": "Controversial opinion: Every sales team should be using AI to help reps run a sales call the way their CEO or CRO would.\n\nWhat we’re doing at Avarra:\n\n→ Reps do learning sessions with an Avatar, same format as a CRO, giving 1:1 training → →Reps practice real customer situations on demand, before they roll the dice on live calls\n→ They get instant, practical feedback tied to how leaders expect deals to be run\n→ The focus is on judgment, decision making, and execution, not memorized scripts\n→ We build confidence and competence before reps talk to real prospects\n\nThe result after a few months:\n\nRamp time goes from 3–6 months to closer to 6 weeks\nReps practice on their own, even at 9pm, without being told\nManagers save 10+ hours a week by not repeating the same coaching (if they were even doing it)\n\n“But my team won’t actually use it.”\n\nYou don’t need to force it.\n\nThe reps who want to get better lean in.\nThe ones who don’t either improve quickly or make that clear over time.\n\nAvarra creates:\n\n→ Healthy learning culture: competition between reps to sharpen execution\n→ Self-driven practice, not manager-mandated activity\n→ Real skill development that shows up in live deals\n\nThis isn’t role play for the sake of practice.\nIt’s about reinforcing how great leaders think, so reps make better decisions in real time.\n\nSeriously, start using AI to develop your team the right way.\nFuture you will thank present you.",
+        "commentCount": 1,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQFPLNtNS-Z35Q/videocover-high/B56Zu2q19BIoBU-/0/1768296245142?e=2147483647&v=beta&t=HQcVoSsBJEvrvHMSCeLul48tVw36nq6raynJ671aaR0",
+        "datePublished": "2026-01-14T17:00:08.466Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/muchbetter-ai_salesenablement-aisales-salestraining-activity-7480912583907131392-xMWr",
+        "name": "#salesenablement #aisales #salestraining #personalizedtraining | muchbetter ai",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4E05AQFT0pZ8Bt72jA/mp4-640p-30fp-crf28/B4EZ9GKRU5HsBk-/0/1783588540046?e=2147483647&v=beta&t=tOQCBJrw6ByUzY9pZ8SWqSpAZYU9eIENmIkGnMvLcFw",
+        "author": {
+          "url": "https://fr.linkedin.com/company/muchbetter-ai",
+          "name": "muchbetter ai",
+          "image": "https://media.licdn.com/dms/image/v2/D4E0BAQHWI4QmNOL7jQ/company-logo_100_100/B4EZmkQ.yUKYAQ-/0/1759397539343/muchbetter_ai_logo?e=2147483647&v=beta&t=FPSxceNEQ8RephIFUpQWfSUrrHhgYnhbIZgO05CY7Ac",
+          "followers": 4005
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7481302828687294464",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7480912415937773568,7481302828687294464)",
+            "text": "Genial!",
+            "author": "Géraldine Fillet",
+            "linkedinUrl": "https://fr.linkedin.com/in/geraldinefillet",
+            "datePublished": "2026-07-10T11:06:30.244Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "4mo"
+          }
+        ],
+        "likeCount": 21,
+        "contentUrn": "urn:li:ugcPost:7480912415937773568",
+        "transcript": "Hello, c'est Jules, Product Manager chez Mudge Better. Aujourd'hui je vous pr��sente la semaine release avec bulles du Rh��ne. Bulles du Rh��ne vous permet de pr��parer votre prochain rendez-vous avant qu'il n'ait lieu demain. Vous avez un rendez-vous important, vous ��tes stress��, vous avez pr��par�� votre dossier, relu vos notes��? Consultez votre CRM. Mais avez-vous d��j�� r��p��t�� la conversation��? Avec bulles du Rh��ne, vous ouvrez much better, vous renseignez quelques informations sur le contexte de l'��change et en quelques secondes vous lancez une simulation personnalis��e comme si votre rendez-vous commen��ait maintenant. Imaginez que vous avez une n��gociation importante demain matin avant le rendez-vous. Vous simulez les objections, les questions difficiles et les points de blocage potentiels. le jour J, vous aurez d��j�� pr��par�� les objections et vous serez beaucoup plus confiants. La fonctionnalit�� build du Rh��ne permet de s'entra��ner avant un rendez-vous pr��cis, arriver mieux pr��parer face �� un client et reproduire un appel pour s'entra��ner. Si ��a vous int��resse n'h��sitez pas �� me contacter.",
+        "uploadDate": "2026-07-09T09:15:48.610Z",
+        "activityUrn": "urn:li:activity:7480912583907131392",
+        "description": "[Summer Release'26] Build Your Own\n\nOne-size-fits-all training no longer reflects the reality of customer conversations.\n\nEvery meeting is different. Every customer has unique challenges, objections, and expectations. Learning should be just as personalized.\n\nThat's why we present you: Build Your Own. 🔧 👇\n\nGenerate a tailored AI simulation in seconds using your own context:\n• Meeting notes\n• CRM opportunities\n• Product documentation\n• Account information\n\nWhether you're preparing for a strategic negotiation, a product launch, or a complex customer meeting, each simulation is adapted to your specific situation.\n\nBecause the best way to prepare for a conversation is to practice the conversation you're actually going to have.\n\n☀️ Available now as part of our Summer Release.\nLearn more: https://lnkd.in/eXZ5bDjD\n\n#SalesEnablement #AISales #SalesTraining #PersonalizedTraining",
+        "commentCount": 1,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQFT0pZ8Bt72jA/videocover-high/B4EZ9GKRU5HsBM-/0/1783588532372?e=2147483647&v=beta&t=QWHrwMbAQCbTQGrpBKvR-ITaTFqNx5up_naVa2uRC-4",
+        "datePublished": "2026-07-09T09:15:48.610Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/stephen-miller-absorb_ai-sales-coaching-software-isnt-hype-and-activity-7505557324154073088-lHI5",
+        "image": null,
+        "media": null,
+        "author": {
+          "url": "https://uk.linkedin.com/in/stephen-miller-absorb",
+          "name": "Stephen Miller",
+          "followers": 2889
+        },
+        "images": [],
+        "comments": [],
+        "likeCount": 6,
+        "contentUrn": "urn:li:share:7505557323529220098",
+        "activityUrn": "urn:li:activity:7505557324154073088",
+        "description": "AI sales coaching software isn't hype, and it won't replace your sales managers. See what the evidence shows, plus what to look for before you buy.\nhttps://ow.ly/7ee150ZN8EH",
+        "commentCount": 0,
+        "datePublished": "2026-09-15T09:25:12.571Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/cuebo_tough-tongue-ai-vs-cuebo-which-sales-readiness-activity-7500788456739115008-obr9",
+        "image": null,
+        "media": null,
+        "author": {
+          "url": "https://in.linkedin.com/company/cuebo",
+          "name": "Cuebo",
+          "image": "https://media.licdn.com/dms/image/v2/D560BAQFq8YkNMiXyCQ/company-logo_100_100/company-logo_100_100/0/1725688670088?e=2147483647&v=beta&t=_u1uEe5wk9YEKM5kXvrxIisBk5AcVFxNLjjGq7sbHhE",
+          "followers": 1289
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7508846273727340547",
+            "urn": "urn:li:comment:(urn:li:activity:7500788456739115008,7508846273727340547)",
+            "text": "Thanks for comparison, Cuebo team! \n\nAlso if helpful here is my take on what we exactly do when it comes to sales roleplay: https://youtu.be/bUH_6eGGqOc?si=0s68EBtc0d4kSG2G",
+            "author": "Ajitesh Abhishek",
+            "linkedinUrl": "https://www.linkedin.com/in/ajiteshnandan",
+            "datePublished": "2026-09-24T11:14:19.275Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1mo"
+          }
+        ],
+        "likeCount": 2,
+        "contentUrn": "urn:li:share:7500788455711535104",
+        "activityUrn": "urn:li:activity:7500788456739115008",
+        "description": "Tough Tongue AI vs Cuebo.\n\nThe difference isn't just AI roleplay.\n\nIt's what happens after the practice session.\n\nTough Tongue AI focuses on voice-based sales simulations and foundational feedback.\n\nCuebo is built around broader sales readiness - video roleplay, screen-share assessment, granular AI feedback, coaching, and analytics tied to real sales performance.\n\nFor teams evaluating AI sales roleplay or sales coaching software, that distinction matters.\n\nPractice is useful.\n\nPractice that improves how reps perform on real calls is better.\n\nWe broke down Tough Tongue AI vs Cuebo across roleplay realism, feedback, coaching, analytics, language support, and sales readiness.\n\nRead the comparison: https://lnkd.in/dy9dgrP6",
+        "commentCount": 1,
+        "datePublished": "2026-09-02T05:35:25.969Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/quotatraining_sales-reps-shouldnt-practise-on-customers-activity-7495871474466119680-llTy",
+        "name": "Sales reps shouldn't practise on customers.\n\nThat's the idea behind Quota AI.\n\nWe built a platform where sales teams can practise real conversations with AI, get immediate coaching, analyse real… | Quota AI",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4E05AQG7D8fvDkgcxg/mp4-640p-30fp-crf28/B4EaAavQKXJYBk-/0/1787155010730?e=2147483647&v=beta&t=YxF06vbQJ9G7L-CjNajPdThb1w9Xl4aT_2fYHt24baU",
+        "author": {
+          "url": "https://ie.linkedin.com/company/quotatraining",
+          "name": "Quota AI",
+          "image": "https://media.licdn.com/dms/image/v2/D4D0BAQH5OoFFIM4oNg/company-logo_100_100/B4DZ64AZYfKAAI-/0/1781203572538/quotatraining_logo?e=2147483647&v=beta&t=KmbG7RoS6-AvirY9Cv8Ha8fsdzP7lCfOF5wVq_njuMw",
+          "followers": 173
+        },
+        "images": [],
+        "comments": [],
+        "likeCount": 4,
+        "contentUrn": "urn:li:ugcPost:7495871263178067969",
+        "transcript": "Meet Quota AI, an AI powered sales training and coaching platform built to help sales teams practice, improve and perform. From the moment reps log in, they can see their training activity, track their progress, and access simulations designed around the conversations they face every day. The simulation library gives reps a central place to find exactly what they need to practice. From discovery and prospecting to objection handling, product demos, negotiation, and closing, reps can practice the conversations they face throughout the entire sales cycle. And because every sales organization is different, simulations can be customized around your company, your products, your methodology, and the real situations your reps face with customers. Choose a simulation and you're ready to practice. Quota creates a realistic AI powered conversation, giving reps a safe environment to practice before speaking with a real customer. Each scenario puts the Rep into a realistic sales situation where they need to think and listen. Hello, this is Eva. Ohh about good morning, how are you today? As soon as the call ends, quota analysis the conversation and highlights where reps can improve Quota analysis the interaction and provides immediate actionable feedback. Reps can see what they did well, where they made mistakes, and which areas need improvement. Instead of generic feedback, every simulation becomes an opportunity to learn, practice again and continuously improve. Reps can understand not only their overall performance, but the specific behaviors and skills that influence the conversation. Take the feedback, try again, and turn every practice session into measurable development. But coaching doesn't have to wait until after a simulation. With quota, coach reps can get practical support whenever they need it. For example, I have a discovery call with a CFO in 20 minutes. What questions should I ask to uncover business impact? Quote A coach provides immediate guidance to help the Rep prepare for the conversation ahead. From discovery questions and objection handling to meeting preparation and difficult customer conversations, reps have an AI sales coach available whenever they need it. It's practical coaching available on demand exactly when the Rep needs it. And quota isn't limited to simulations. Reps can also upload their real sales calls and receive a complete coaching summary of the conversation. Quota Analysis The call identifies strengths and areas for improvement and turns real customer conversations into another opportunity to learn and. For sales leaders, quota provides visibility across the entire team. Managers can drill into each individual Rep and understand their performance, their strengths, their most common mistakes, and the areas where additional coaching is needed. They can also use the leaderboard to create. Friendly competition, encouraging reps to practice, improve and keep developing their skills. But it doesn't stop at the individual level. Team analytics brings that information together, helping managers identify patterns and skill gaps across the organization. Instead of relying on occasional call reviews or intuition to decide what to coach, managers have real performance data to guide their one to ones and training sessions they can quickly identify. Occurring mistakes understand where individual reps are struggling and spot skill gaps across the entire team. This makes coaching more focused, personalized, and actionable. Every Rep can also see their own development over time. Personal analytics provides a clear picture of individual performance, while the skill radar highlights strengths and the areas that need more attention. As reps continue practicing, they can see how their skills are developing, understand where they're making progress, and identify exactly where they should focus next. Because sales training shouldn't be something you complete once, it should be a continuous process of practicing, learning, and improving quota AI. Practice with AI.",
+        "uploadDate": "2026-08-19T15:57:06.006Z",
+        "activityUrn": "urn:li:activity:7495871474466119680",
+        "description": "Sales reps shouldn't practise on customers.\n\nThat's the idea behind Quota AI.\n\nWe built a platform where sales teams can practise real conversations with AI, get immediate coaching, analyse real customer calls, and understand exactly where they need to improve.\n\nFor sales leaders, it means something equally important:\n\nVisibility.\n\nSee the strengths, recurring mistakes and skill gaps across your team, and use that data to make coaching more focused and effective.\n\n🎯 AI sales simulations\n💬 On-demand AI coaching\n📞 Real call analysis\n📊 Team & individual analytics\n📈 Skill tracking and progress\n\nWe put together a quick demo to show how it all works.\n\n👇 Meet Quota AI.\n\nPractice with AI. Perform when it matters.",
+        "commentCount": 0,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQG7D8fvDkgcxg/videocover-low/B4EaAavQKXJYBI-/0/1787154995626?e=2147483647&v=beta&t=1zM9ePLTSTRW72eWXoscZppRbxCM7iRihJ7Xc-59xP4",
+        "datePublished": "2026-08-19T15:57:06.006Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/chrisbussing_it-takes-400-conversations-for-a-sales-rep-activity-7508965569677713408-9cX6",
+        "name": "It takes 400 conversations for a sales rep to get confident delivering their pitch. Most reps get those 400 reps in on real prospects (very risky). \n\nLast week I sat down in SF with Hyperbound… | Chris Bussing | 27 comments",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5605AQGozYvj8Hg0sA/mp4-640p-30fp-crf28/B56aDU0VU2IMBg-/0/1790276895409?e=2147483647&v=beta&t=ZM2JUlt7Z7oJrP1lbXhrSHKTZ2udLko8yT-Pl0omHWg",
+        "author": {
+          "url": "https://www.linkedin.com/in/chrisbussing",
+          "name": "Chris Bussing",
+          "image": "https://media.licdn.com/dms/image/v2/D4E03AQG6R0awbMCWTA/profile-displayphoto-scale_200_200/B4EZ2rcnMaIgAc-/0/1776697901564?e=2147483647&v=beta&t=v2GtNvMvZ7teXWlAm9DpetJPSUUV1blEVdf64dyOxSw",
+          "followers": 15102
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7508966108876464129",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7508965298222526465,7508966108876464129)",
+            "text": "Sriharsha Guduguntla & Atul Raghunathan it's inspiring how you used your own technology to teach yourselves as engineers how to sell & build a company that is now helping enterprise sales orgs around the industry! Cheers to the continued growth ahead!  🚀",
+            "author": "Chris Bussing",
+            "linkedinUrl": "https://www.linkedin.com/in/chrisbussing",
+            "datePublished": "2026-09-24T19:10:30.201Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7508965694009462786",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7508965298222526465,7508965694009462786)",
+            "text": "Watch the full conversation with the Hyperbound founders here:\nhttps://www.youtube.com/watch?v=vwLgnj4AiT8",
+            "author": "Chris Bussing",
+            "linkedinUrl": "https://www.linkedin.com/in/chrisbussing",
+            "datePublished": "2026-09-24T19:08:51.289Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7508985836974170112",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7508965298222526465,7508985836974170112)",
+            "text": "The challenge is in ensuring that right practices are retained past ramp and throughout their time at the firm",
+            "author": "Nitin Bhoopal",
+            "linkedinUrl": "https://www.linkedin.com/in/nitin-bhoopal",
+            "datePublished": "2026-09-24T20:28:53.746Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7509109437803061249",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7508965298222526465,7509109437803061249)",
+            "text": "Long hair Atul Raghunathan  🔥 🔥 🔥",
+            "author": "Drew Spencer Leahy 🍦",
+            "linkedinUrl": "https://www.linkedin.com/in/leahydrew",
+            "datePublished": "2026-09-25T04:40:02.480Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7509053392611135488",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7508965298222526465,7509053392611135488)",
+            "text": "Practicing before the real call makes a lot of sense. Better to build confidence before the pressure is on.",
+            "author": "Yvonne Coulson",
+            "linkedinUrl": "https://www.linkedin.com/in/msveteranaffairs",
+            "datePublished": "2026-09-25T00:57:20.264Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7508974082990997505",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7508965298222526465,7508974082990997505)",
+            "text": "Woohooo!! AI being both the Chief of Staff and a Trusted Advisor for the rep is the future!",
+            "author": "Hyperbound",
+            "linkedinUrl": "https://www.linkedin.com/company/hyperbound-ai",
+            "datePublished": "2026-09-24T19:42:11.377Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7508980090207105025",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7508965298222526465,7508980090207105025)",
+            "text": "🔥  🔥  🔥  🔥",
+            "author": "Samuel R.",
+            "linkedinUrl": "https://www.linkedin.com/in/samuelrothmann",
+            "datePublished": "2026-09-24T20:06:03.610Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7508975193646694400",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7508965298222526465,7508975193646694400)",
+            "text": "yay, it's finally out!  🥳  🙌",
+            "author": "Cassie Xiuchen Dong",
+            "linkedinUrl": "https://www.linkedin.com/in/cassie-dong",
+            "datePublished": "2026-09-24T19:46:36.179Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7508974592477028352",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7508965298222526465,7508974592477028352)",
+            "text": "🚀🚀",
+            "author": "Keshav Balachandar",
+            "linkedinUrl": "https://www.linkedin.com/in/keshav-b",
+            "datePublished": "2026-09-24T19:44:12.849Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7508974105023500288",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7508965298222526465,7508974105023500288)",
+            "text": "cannot wait to watch this!",
+            "author": "Luca Rondanini",
+            "linkedinUrl": "https://www.linkedin.com/in/rluca",
+            "datePublished": "2026-09-24T19:42:16.631Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1mo"
+          }
+        ],
+        "likeCount": 80,
+        "contentUrn": "urn:li:ugcPost:7508965298222526465",
+        "transcript": "For those of you that are not familiar with Hyper Bound, right where we started was actually a technology called AI role play. So the idea is, you know, you can build an AI persona that simulates any type of buying scenario. So if I'm going into a call with the VP of Sales, I can build a simulation of a VP of Sales and practice with that bot and effectively role play with it. And so this was the technology that we invented about 3 years ago. We were one of the first companies to do it and brought this technology to market. And when you think about what that does. It essentially allows a Rep to practice a conversation over and over again in a simulated environment somewhere safe where they're not practicing on the prospect. And effectively that directly impacts ramp, right? Because we found from our research that takes over 400 conversations for a Rep to become confident and be able to actually deliver their pitch. Now if you can take that time to value down to two weeks where you can give them those 400 conversations in, in a matter of two weeks, that's a huge time save and it can reduce ramp time by more than 50%, which we've done for almost every customer of ours that's deployed AI. Play. You guys are basically compressing time for sellers and companies and when you scale that across hundreds, thousands of sellers, that's an amazing impact.",
+        "uploadDate": "2026-09-24T19:08:21.644Z",
+        "activityUrn": "urn:li:activity:7508965569677713408",
+        "description": "It takes 400 conversations for a sales rep to get confident delivering their pitch. Most reps get those 400 reps in on real prospects (very risky).\n\nLast week I sat down in SF with Hyperbound founders Sriharsha Guduguntla & Atul Raghunathan who told me their AI sales coach helps sellers at companies like LinkedIn, Notion, & Intel get those 400 reps done in 2 weeks.\n\nTheir AI role-play cuts ramp time for new reps by more than 50% for almost every enterprise customer that rolls it out.\n\nA rapidly growing $300M Cybersecurity company (one you'd know if I said the name) onboarded around 250 reps with it. Their CRO said it \"changed the math\" on their headcount plans.\n\nThe part sales leaders should steal isn't just about the tool. It's the model:\n\n→ Ramp has a volume problem and a skill problem\n→ AI handles the volume and gets reps to 90-95%\n→ The manager's limited time goes to the last 5-10%\n\nOne more insight I didn't expect: reps take AI feedback better than their manager's.\n\nNo judgment. No politics. No 30-minute compliment sandwich.\nJust the feedback.\nLess personal.\n\nFull episode on the new era of AI sales training is linked in the comments.\n\nLeaders: how many practice conversations does a new hire get before their first real call?",
+        "commentCount": 27,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQGozYvj8Hg0sA/videocover-high/B56aDU0VU2IMBI-/0/1790276887786?e=2147483647&v=beta&t=mFjMDLZe8Ptunu2TGcRTo6ca5YfMeu6hpeioYp9yBP8",
+        "datePublished": "2026-09-24T19:08:21.644Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/strategic-sales-partner_when-did-you-last-actually-hear-one-of-your-activity-7513363859718459392-iA2h",
+        "image": "https://media.licdn.com/dms/image/v2/D4E10AQFBgfxqSPnohQ/image-shrink_1280/B4EaETUlJcJkAc-/0/1791325524849?e=2147483647&v=beta&t=Se4oxukAqckimoLpdRY7ALbgf5o0w-iQyesRpj8wxdk",
+        "media": "https://media.licdn.com/dms/image/v2/D4E10AQFBgfxqSPnohQ/image-shrink_1280/B4EaETUlJcJkAc-/0/1791325524849?e=2147483647&v=beta&t=Se4oxukAqckimoLpdRY7ALbgf5o0w-iQyesRpj8wxdk",
+        "author": {
+          "url": "https://nz.linkedin.com/in/strategic-sales-partner",
+          "name": "Paul O'Donohue",
+          "image": "https://media.licdn.com/dms/image/v2/D4E03AQFmct_RqzARWg/profile-displayphoto-scale_200_200/B4EaDMLrVELAAc-/0/1790132009826?e=2147483647&v=beta&t=J5dIAMCPXU5klAEuWEsdfnxKRPWtTxxDcNBAJgf3RaY",
+          "followers": 8332
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D4E10AQFBgfxqSPnohQ/image-shrink_1280/B4EaETUlJcJkAc-/0/1791325524849?e=2147483647&v=beta&t=Se4oxukAqckimoLpdRY7ALbgf5o0w-iQyesRpj8wxdk"
+        ],
+        "comments": [
+          {
+            "id": "7513363861459378176",
+            "urn": "urn:li:comment:(urn:li:activity:7513363859718459392,7513363861459378176)",
+            "text": "https://www.eventbrite.co.nz/e/the-ai-revenue-engine-stop-practising-on-your-prospects-tickets-2002929340575?utm_source=linkedin&utm_medium=connect&utm_campaign=ai-revenue-engine-pt2-oct26&utm_content=connect&utm_term=msg1",
+            "author": "Paul O'Donohue",
+            "linkedinUrl": "https://nz.linkedin.com/in/strategic-sales-partner",
+            "datePublished": "2026-10-06T22:25:36.123Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7513608379454541824",
+            "urn": "urn:li:comment:(urn:li:activity:7513363859718459392,7513608379454541824)",
+            "text": "Will be a great session!",
+            "author": "Paul Fuller",
+            "linkedinUrl": "https://www.linkedin.com/in/psfuller",
+            "datePublished": "2026-10-07T14:37:13.756Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          }
+        ],
+        "likeCount": 9,
+        "contentUrn": "urn:li:share:7513363858661629952",
+        "activityUrn": "urn:li:activity:7513363859718459392",
+        "description": "When did you last actually hear one of your salespeople run a discovery call?\nNot the CRM notes. Not the activity report. The call itself.\n\nMost CEOs I talk to go quiet at that question. Then I ask the next one: so where is your team practising those conversations?\n\nFor most teams, the honest answer is in front of prospects. Every fumbled call is a practice session, and you pay for it out of your pipeline.\n\nOn 15 October, Kat Davey and I are running a free 30-minute session on fixing that, with two live demos of SARA, our AI role-play coach.\n\nLink in the comments.",
+        "commentCount": 2,
+        "datePublished": "2026-10-06T22:25:35.705Z"
+      }
+    ],
+    "query": "AI sales coach simulation",
+    "cursor": "2",
+    "success": true
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00188",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:42:46.984Z",
+  "started_at": "2026-11-23T07:42:47.568Z",
+  "completed_at": "2026-11-23T07:42:58.088Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

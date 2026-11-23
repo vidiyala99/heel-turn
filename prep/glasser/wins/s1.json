@@ -1,0 +1,99 @@
+{
+  "id": "d1e79136-db88-41cd-9fa8-c1a3ff2a9033",
+  "run_url": "https://app.glasser.ai/runs/d1e79136-db88-41cd-9fa8-c1a3ff2a9033",
+  "provider": "serper",
+  "endpoint": "/search",
+  "endpoint_version": 2,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "q": "Crewbase Collective hackathon winners Universal Hackathon"
+  },
+  "output": {
+    "organic": [
+      {
+        "date": "Oct 19, 2026",
+        "link": "https://crewbasecollective.com/events/universal-hackathon-mvd90xut",
+        "title": "Hackathons, Workshops & Events - Crewbase Collective",
+        "snippet": "Universal Hackathon Date & Time Monday, October 19, 20269:30 AM – 8:30 PM. Winner announcements and Demos Speakers Monday, Oct 19 10:30 AM – 10 ...",
+        "position": 1,
+        "displayedLink": "https://crewbasecollective.com › events › universal-hackathon-mvd90xut"
+      },
+      {
+        "link": "https://www.youtube.com/playlist?list=PLHTf8aeb05DE",
+        "title": "Crewbase Collective × Finch.AI (San Francisco 2026)",
+        "snippet": "Full talks and clips from the Universal Hackathon at the AWS Builder Loft in San Francisco on Monday 19 October 2026, organized by Crewbase Collective",
+        "position": 2,
+        "displayedLink": "https://www.youtube.com › playlist"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/promptql-io_universal-celebration-hackathon-luma-activity-7517705601293062145-FbdW",
+        "title": "PromptQL - Universal Celebration Hackathon · Luma",
+        "snippet": "Join us at the Universal Hackathon this Monday, October 19, Crewbase Collective is organizing, with The AI Collective and GenAI Assembling ...",
+        "position": 3,
+        "displayedLink": "https://www.linkedin.com › posts › promptql-io_universal-celeb..."
+      },
+      {
+        "link": "https://www.reddit.com/r/PromptQL/comments/1x8g2f4/join_us_at_universal_hackathon_in_sf_on_october/",
+        "title": "Join us at Universal Hackathon in SF on October 19, with a $1000 PromptQL- ...",
+        "snippet": "Universal Hackathon in SF on October 19, with a $1,000 PromptQL-credit prize events. The event is organized by Crewbase Collective, October 19, ...",
+        "position": 4,
+        "displayedLink": "https://www.reddit.com › r › ... › join_us_at_universal_hackat..."
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=nWgv_m_ooIE",
+        "title": "He Won 40+ Hackathons and Moved to the US 🇺🇸 Here is The Blueprint.",
+        "snippet": "He won 40+ hackathons and moved to the US 🇺🇸 In this interview, Satyam breaks down his mindset, the strategies that helped him consistently win ...",
+        "position": 5,
+        "displayedLink": "https://www.youtube.com › watch"
+      },
+      {
+        "link": "https://www.instagram.com/p/De_CADPhK2c/",
+        "title": "What an incredible day at AWS Builder Loft in San Francisco ...",
+        "snippet": "Crewbase Collective, 100+ participants. Congratulations to our winning teams! mentors, volunteers, and staff,",
+        "position": 6,
+        "displayedLink": "https://www.instagram.com › p › De_CADPhK2c"
+      },
+      {
+        "link": "https://www.instagram.com/reel/De9c4smx3G6/",
+        "title": "The challenge is on!  Hackathon 2026 kicked off last week. Our ...",
+        "position": 7,
+        "displayedLink": "https://www.instagram.com › reel › De9c4smx3G6"
+      },
+      {
+        "link": "https://www.facebook.com/BlackGirlsCodeOrg/posts/congrats-to-our-winners-of-the-sanfrancisco-hackathon-thanks-to-our-sponsors-col/1596790083684856/",
+        "title": "Congrats to our winners of the #SanFrancisco hackathon. Thanks ...",
+        "snippet": "The winners of our event Business Hackathon. 1st Prize : Qualified qualifiers 2nd Prize : Merci 3rd Prize : Tufan The three groups were able to ...",
+        "position": 8,
+        "displayedLink": "https://www.facebook.com › BlackGirlsCodeOrg › ... › 1596790083684856"
+      },
+      {
+        "link": "https://www.ncsea.com/summit/hackathon/",
+        "title": "The Big Build: SE Hackathon Coding Solutions for Structural Engineers",
+        "snippet": "A panel of judges will recognize standout work with three awards: Best Overall Hack (Gold), Most Collaborative (Silver), and Most Relevant (Bronze). What to ...",
+        "position": 9,
+        "displayedLink": "https://www.ncsea.com › summit › hackathon"
+      }
+    ],
+    "searchParameters": {
+      "q": "Crewbase Collective hackathon winners Universal Hackathon",
+      "type": "search",
+      "engine": "google"
+    }
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.001",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:34:33.792Z",
+  "started_at": "2026-11-23T07:34:33.839Z",
+  "completed_at": "2026-11-23T07:34:34.666Z",
+  "task_id": "tsk_965d2263a224d7b9",
+  "metadata": {}
+}

@@ -1,0 +1,228 @@
+{
+  "id": "bd427cdd-6407-4392-bed9-166c6aaec880",
+  "run_url": "https://app.glasser.ai/runs/bd427cdd-6407-4392-bed9-166c6aaec880",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "AI NPCs remember player betrayal",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "large_result: this response is ~8 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge. paging_unavailable: this result came from a source that cannot return a nextCursor, so it may be incomplete and there is no way to continue from here. Re-run with `requireFields: [\"nextCursor\"]` to be served only by a source that can page, which may cost more per request.",
+    "items": 7,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1p8oomu",
+            "url": "https://www.reddit.com/gallery/1p8oomu",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/huxo57p78y3g1.png?width=756&format=png&auto=webp&s=d50204aaada1350bb1bcfb9598d81483ab3d19e1",
+                "type": "photo",
+                "width": 756,
+                "height": 521
+              },
+              {
+                "url": "https://preview.redd.it/iiktn5j68y3g1.png?width=751&format=png&auto=webp&s=7090e1b723ea00e7dc9a61ec81d6ef136377aac8",
+                "type": "photo",
+                "width": 751,
+                "height": 451
+              }
+            ],
+            "score": 76223,
+            "title": "Valve artist responds to calls for Steam to drop \"Made with AI\" label",
+            "author": "Stannis_Loyalist",
+            "authorId": "3p3tvgm1",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/Steam/comments/1p8oomu/valve_artist_responds_to_calls_for_steam_to_drop/",
+            "subreddit": "Steam",
+            "createdUtc": 1764314331,
+            "isArchived": false,
+            "numComments": 2587
+          },
+          {
+            "id": "1vgo00q",
+            "url": "https://www.reddit.com/gallery/1vgo00q",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/00af6eud8nhh1.jpg?width=720&format=pjpg&auto=webp&s=961099ce92b411312930577a81ee628a65441695",
+                "type": "photo",
+                "width": 720,
+                "height": 1280
+              },
+              {
+                "url": "https://preview.redd.it/7hocblud8nhh1.jpg?width=2316&format=pjpg&auto=webp&s=dc44df904bcf251b125374c33008bb5cd0fda1ad",
+                "type": "photo",
+                "width": 2316,
+                "height": 3088
+              }
+            ],
+            "score": 41769,
+            "title": "(18) to (19) I think I’ve found the light at the end of the tunnel",
+            "author": "fallofanotheryear",
+            "authorId": "1om79f2pjg",
+            "isLocked": false,
+            "selftext": "I’ve managed to crawl out of a very dark place. In the first photo, I hadn’t left my house in months or talked to anyone. I was in the pits of hell, majorly depressed, and barely hanging on. The period of being housebound lasted 16 months, from May 2024 to October 2025.\n\nI have had a much better time lately. I try to get up every day and take walks, cycle, read, listen to music, and be in nature. It feels like a world away from how I spent my days a year ago, and I am doing a lot better. Socially, though, I am suffering. I have no friends, but I have absolutely zero shame about that. My life circumstances have not been kind to me, so that’s understandable. I am currently trying to put myself out there, and since I am incredibly sensitive to rejection, I will try and do rejection therapy. I need it.\n\nWhen I worked as a server in a restaurant at 16, I remember my rejection sensitivity being so bad that I would avoid asking customers whether they wanted still or sparkling water, and I just offered tap. Why? Because if they declined and said they didn’t want to buy a bottle of water, I would tragically internalise that and think they’ve said no to me because it’s me. I have a very low opinion of myself, and it really did hurt me. That’s really sad. I really should do rejection therapy because people always tell me it’s a part of life. I’ve been so badly abandoned and betrayed by my own family, and I haven’t lived to get rejected yet. I just hide away and avoid it because I know it will be so unbearable.\n\nI’ve got this! I’m a total loner, but I have truly found peace in the mundane things. I romanticise life so much; music is everything to me. I’ve got to get out of this bubble, though. It’s going to be so uncomfortable, but I really do need to deal with it and learn to be okay with it. Having an awful childhood and being treated poorly really does affect you massively. I’m so damn sensitive. I’ll be okay, though. I really think I’ve done most of the hard stuff already. I need to leave the bubble. I’ll do it!\n\n**Edit:** Thank you for the very kind comments. I still have a negative opinion of my physical appearance, so it is difficult to believe the compliments, but I really appreciate them and hope to believe them one day. The hard-won victory for me is finally liking myself on the inside.\n\nThe focus of this post is mainly a mental health victory. I didn’t do anything in particular to change my looks. I am incredibly insecure, and I feel ugly most days, even though I know deep down I am not. \n\nA few comments asked, no I am not wearing face makeup my skin has imperfections, just eye makeup and lip makeup. My SPF gives a nice glow it’s Ultra Violette SPF 50, I mix it with Rodial Bronzing Glow Drops. I am aware I can still change things that I’m insecure about physically. For example, I have never been to a gym before because I get so anxious, which I know sounds silly, but I am going to start a fitness journey. I know that will help me feel better about myself on the outside. But I like myself on the inside, very much, and that is the real change. I have accepted myself.\n\nLife is hard. I have Autism, ADHD, and something called Avoidant Personality Disorder, so it just makes life difficult. That has got to be why I find it so hard to do simple things like socialise and do what I really want to do without shame or anxiety.\n\nI am nowhere near where I want to be. Even at this stage, I still have really bad days and think dark thoughts, but I have found some peace, even if it is just for a few minutes every day. That is why I will keep going on. I know I will find it easier once I learn how to live with myself as I grow older, but it is enough right now that I feel moments of relief and my life is not constant psychological torture anymore.",
+            "permalink": "/r/GlowUps/comments/1vgo00q/18_to_19_i_think_ive_found_the_light_at_the_end/",
+            "subreddit": "GlowUps",
+            "createdUtc": 1785973584,
+            "isArchived": false,
+            "numComments": 838
+          },
+          {
+            "id": "1ucmp9t",
+            "url": "https://i.redd.it/uwumeznsku8h1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/uwumeznsku8h1.jpeg?auto=webp&s=e8f67d0a09f51bca66c544ad08fd1ca209d711c7",
+                "type": "photo",
+                "width": 1920,
+                "height": 1918
+              }
+            ],
+            "score": 38125,
+            "title": "Remember the times when Al wasn't that evil?",
+            "author": "Tili44",
+            "authorId": "2g9fwnb6",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/memes/comments/1ucmp9t/remember_the_times_when_al_wasnt_that_evil/",
+            "subreddit": "memes",
+            "createdUtc": 1782139865,
+            "isArchived": false,
+            "numComments": 746
+          },
+          {
+            "id": "1xbt0if",
+            "url": "https://i.redd.it/m1qcv5mpruwh1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/m1qcv5mpruwh1.jpeg?auto=webp&s=7087ddd1304fc2cc930f18063b52f947ac868574",
+                "type": "photo",
+                "width": 1121,
+                "height": 1401
+              }
+            ],
+            "score": 35424,
+            "title": "It’s over",
+            "author": "Queasy_Section7",
+            "authorId": "cnqknyn6",
+            "isLocked": false,
+            "selftext": "Well, that’s that then ",
+            "permalink": "/r/masseffect/comments/1xbt0if/its_over/",
+            "subreddit": "masseffect",
+            "createdUtc": 1792602544,
+            "isArchived": false,
+            "numComments": 5266
+          },
+          {
+            "id": "1wfcu92",
+            "url": "https://i.redd.it/58y7qhiehbph1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/58y7qhiehbph1.jpeg?auto=webp&s=b02f3bde0405bbf2282b627626d04da968a0239a",
+                "type": "photo",
+                "width": 891,
+                "height": 1280
+              }
+            ],
+            "score": 34671,
+            "title": "Player Accuses Indie Game of Using AI Voice Acting",
+            "author": "NeNest0r",
+            "authorId": "18v0esu9my",
+            "isLocked": false,
+            "selftext": "A player criticized the voice acting of one of the heroines in the indie game Luminary, assuming that the voice had been generated by AI.\n\nThe developer jumped into the review to explain that the voice actually belongs to his wife, who was trying her hand at voice acting for the first time.",
+            "permalink": "/r/Steam/comments/1wfcu92/player_accuses_indie_game_of_using_ai_voice_acting/",
+            "subreddit": "Steam",
+            "createdUtc": 1789318112,
+            "isArchived": false,
+            "numComments": 1969
+          },
+          {
+            "id": "1xbt84j",
+            "url": "https://i.redd.it/3u6tdth2tuwh1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/3u6tdth2tuwh1.jpeg?auto=webp&s=d88744efc8724a42d1996372759ccdb2b56949e6",
+                "type": "photo",
+                "width": 1147,
+                "height": 1434
+              }
+            ],
+            "score": 30341,
+            "title": "BioWare is closing down.",
+            "author": "TheocraticAtheist",
+            "authorId": "txmcwymf",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/pcmasterrace/comments/1xbt84j/bioware_is_closing_down/",
+            "subreddit": "pcmasterrace",
+            "createdUtc": 1792603000,
+            "isArchived": false,
+            "numComments": 4041
+          },
+          {
+            "id": "1pfltg5",
+            "url": "https://i.redd.it/k2ttow9a5k5g1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/k2ttow9a5k5g1.jpeg?auto=webp&s=b287fd17ee0ade746b1e6fe344ef71fef35e84ae",
+                "type": "photo",
+                "width": 460,
+                "height": 588
+              }
+            ],
+            "score": 25045,
+            "title": "Remember when the biggest threat was a VCR and not a nuclear warhead?",
+            "author": "SipsTeaFrog",
+            "authorId": "5wyuki5q",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/SipsTea/comments/1pfltg5/remember_when_the_biggest_threat_was_a_vcr_and/",
+            "subreddit": "SipsTea",
+            "createdUtc": 1765015506,
+            "isArchived": false,
+            "numComments": 364
+          }
+        ],
+        "nextCursor": "cur_HigfXz_9rtMgUhU-F_lagA"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-giraffe-5e3cbaa1",
+      "kind": "anonymous",
+      "name": "Giraffe",
+      "artworkKey": "giraffe"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00034",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:41:36.489Z",
+  "started_at": "2026-11-23T07:41:36.550Z",
+  "completed_at": "2026-11-23T07:41:38.022Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

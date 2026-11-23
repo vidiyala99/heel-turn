@@ -1,0 +1,97 @@
+{
+  "id": "b7f56040-5dce-4b8c-82af-e8f4313c5473",
+  "run_url": "https://app.glasser.ai/runs/b7f56040-5dce-4b8c-82af-e8f4313c5473",
+  "provider": "scrapecreators",
+  "endpoint": "/v1/linkedin/search/posts",
+  "endpoint_version": 4,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "query": "Universal Hackathon AWS Builder Loft first place",
+    "date_posted": "last-month"
+  },
+  "output": {
+    "posts": [
+      {
+        "url": "https://www.linkedin.com/posts/emresimdi_another-week-and-another-update-on-a-fast-activity-7526871544950624257-HrK8",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQEAVSZIYmbJ8w/feedshare-image-high-res/B4EaHSmw1DI0AQ-/0/1794534740540?e=2147483647&v=beta&t=__wex7VFleucTvzxGkpTJe9hXbPHkRJ7MKokiZUn2Yo",
+        "media": "https://media.licdn.com/dms/image/v2/D4E22AQEAVSZIYmbJ8w/feedshare-image-high-res/B4EaHSmw1DI0AQ-/0/1794534740540?e=2147483647&v=beta&t=__wex7VFleucTvzxGkpTJe9hXbPHkRJ7MKokiZUn2Yo",
+        "author": {
+          "url": "https://www.linkedin.com/in/emresimdi",
+          "name": "Emre Simdi",
+          "image": "https://media.licdn.com/dms/image/v2/C4D03AQHVUcu6bE1FiA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1658738519165?e=2147483647&v=beta&t=R6HYE-yxWa-sS0fee2iSuiCmaTTT7QMQMkCP14KKKcw",
+          "followers": 37945
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D4E22AQEAVSZIYmbJ8w/feedshare-image-high-res/B4EaHSmw1DI0AQ-/0/1794534740540?e=2147483647&v=beta&t=__wex7VFleucTvzxGkpTJe9hXbPHkRJ7MKokiZUn2Yo"
+        ],
+        "comments": [
+          {
+            "id": "7526876435819610112",
+            "urn": "urn:li:comment:(urn:li:activity:7526871544950624257,7526876435819610112)",
+            "text": "I don't think trainings are old-fashioned - we launched a well-received training program for 23k+ employees and combined it with hands-on exercises. It's needed for getting everyone aligned on the foundations. I do agree though that training alone isn't enough",
+            "author": "Grishma Jena",
+            "linkedinUrl": "https://www.linkedin.com/in/grishmajena",
+            "datePublished": "2026-11-13T05:19:44.902Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526893835185115136",
+            "urn": "urn:li:comment:(urn:li:activity:7526871544950624257,7526893835185115136)",
+            "text": "Love this! Creating workflows is an interesting challenge because often they need to be scalable and fungible to be truly effective in this environment. I always encourage others to work backwards from the outcomes they are trying to achieve.",
+            "author": "Devin Johnson",
+            "linkedinUrl": "https://www.linkedin.com/in/devin1",
+            "datePublished": "2026-11-13T06:28:53.233Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526906778882637824",
+            "urn": "urn:li:comment:(urn:li:activity:7526871544950624257,7526906778882637824)",
+            "text": "What a fun evening with thoughtful conversation and unforgettable Turkish food and wine! Thank you for the invite and getting my wheels turning with some new friends. We’re building the future, one set of behavior changes at a time.",
+            "author": "Kalia Waits-Smith ⛸️",
+            "linkedinUrl": "https://www.linkedin.com/in/kalia-waits-smith",
+            "datePublished": "2026-11-13T07:20:19.252Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7527221918366793728",
+            "urn": "urn:li:comment:(urn:li:activity:7526871544950624257,7527221918366793728)",
+            "text": "I like that the biggest takeaway was how people discover useful workflows by trying things themselves. The point about leaders being far from day to day work really rings true.",
+            "author": "Jahid Sajon",
+            "linkedinUrl": "https://my.linkedin.com/in/jahidsajon",
+            "datePublished": "2026-11-14T04:12:34.359Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 52,
+        "contentUrn": "urn:li:share:7526824245453135872",
+        "activityUrn": "urn:li:activity:7526871544950624257",
+        "description": "Another week and another update on a fast startup life:\nWe hosted our first dinner in San Francisco! On AI adoption!\nLeaders from Lyft, TaskRabbit, Freshworks, Abridge and others joined!\n\nSo what did we hear?\n\n1. Most leaders come up with AI workflows by experimenting themselves! They think ‘imagination’ is the key skill.\n\n2. Leaders can be far away from the ‘day to day work’ which makes it hard for them to identify and build useful AI workflows.\n\n3. Trainings are old fashioned, and it is not working for AI.\n\n4. There is a serious expectation for the new hires to be AI native from day one! Not an easy task to fulfill!\n\n5. Being ‘mostly accurate’ for an AI tool is not enough for regulated industries which really hinders the adoption.\n\n6. And unfortunately… the fear of being left behind and be replaced by AI... \n\nI picked a Turkish restaurant, so there was plenty of cultural chat among the AI chat :)\n\nWell, what are your takes on these?\n\nHow do you come up with AI workflows for your team? Do you ask Claude?\n\nIf you are looking for a job, how do you feel about the ‘AI native’ request?…\n\nWhat do you think is the best way to train on AI?\n\nAnd… if you are interested joining the next AI adoption dinner, we’re currently planning for big cities in the US, please DM me!\n\n--\nThank you for your time and presense! Alisa Liebowitz Chris Lambert Kanishka Thakur Kalia Waits-Smith ⛸️ Dilek Barlow Gurtej Gill Bethel Zelalem, MSOD, PMP Kevin Law Sameer Shariff",
+        "commentCount": 7,
+        "datePublished": "2026-11-13T05:00:18.826Z"
+      }
+    ],
+    "query": "Universal Hackathon AWS Builder Loft first place",
+    "cursor": null,
+    "success": true
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00188",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:33:55.136Z",
+  "started_at": "2026-11-23T07:33:55.170Z",
+  "completed_at": "2026-11-23T07:34:06.691Z",
+  "task_id": "tsk_965d2263a224d7b9",
+  "metadata": {}
+}

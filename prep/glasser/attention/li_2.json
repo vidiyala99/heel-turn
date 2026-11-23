@@ -1,0 +1,625 @@
+{
+  "id": "b0545981-5252-4317-ac14-45b969bcccfa",
+  "run_url": "https://app.glasser.ai/runs/b0545981-5252-4317-ac14-45b969bcccfa",
+  "provider": "scrapecreators",
+  "endpoint": "/v1/linkedin/search/posts",
+  "endpoint_version": 4,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "query": "AI agents play Among Us"
+  },
+  "output": {
+    "posts": [
+      {
+        "url": "https://www.linkedin.com/posts/nenadtomasev_game-arena-strategic-llm-evaluation-in-competitive-activity-7510366184173871104-f7Ek",
+        "image": null,
+        "media": null,
+        "author": {
+          "url": "https://uk.linkedin.com/in/nenadtomasev",
+          "name": "Nenad Tomašev",
+          "followers": 10185
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7510675533085634560",
+            "urn": "urn:li:comment:(urn:li:activity:7510366184173871104,7510675533085634560)",
+            "text": "Nenad Tomašev the anti-saturation design is the most interesting part, letting gameplay strength scale with the models themselves rather than degrading into a fixed leaderboard. But it also relies on something most LLM evaluation doesn't get for free, an objective win or loss.\n\nWerewolf is the one that breaks that a bit. A model could win through incoherent bluffing that happened to work, or lose despite reasoning about others' beliefs correctly. Curious whether the project tracks anything beyond match outcomes, reasoning quality independent of the result, or if that's intentionally out of scope for now.",
+            "author": "Richard Kalson",
+            "linkedinUrl": "https://www.linkedin.com/in/richardkalson",
+            "datePublished": "2026-09-29T12:23:08.692Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          }
+        ],
+        "likeCount": 38,
+        "contentUrn": "urn:li:share:7510366183074799616",
+        "activityUrn": "urn:li:activity:7510366184173871104",
+        "description": "Seeing all the AI progress recently, it's easy to forget how we got here - and the special role that games have played in developing AI reasoning.\n\nYet, games are not fully saturated yet:\n\nGame Arena: Strategic LLM Evaluation in Competitive Environments\n\nhttps://lnkd.in/ez7xAw7G\n\nFor those among us who spent considerable time previously developing and improving bespoke AI systems in games like chess, this is a major shift, as more general LLMs and AI agents are starting to show competence.\n\nThis opens up new opportunities for learning, as agents can explain their reasoning and engage in informative and educational conversations.\n\nGames are also interesting because we enjoy them and find meaning in playing them, irrespective of AI capabilities. Strong AI systems can help us hone our skills, and make us understand games better, and enjoy them more.\n\nBroader life may be very different - in more ways than what can be enumerated here - but it's perhaps worth reflecting on this as we navigate the future.",
+        "commentCount": 2,
+        "datePublished": "2026-09-28T15:53:54.162Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/nitay_something-old-something-new-something-borrowed-activity-7494086696079187968-GI26",
+        "image": null,
+        "media": null,
+        "author": {
+          "url": "https://il.linkedin.com/in/nitay",
+          "name": "Nitay Alon",
+          "image": "https://media.licdn.com/dms/image/v2/D4D03AQGxAk7eWYM19g/profile-displayphoto-scale_200_200/B4DZsxirGDHwAg-/0/1766062732584?e=2147483647&v=beta&t=HMXnNUUvxMUIXr9YKEmYH9JQTGxK3-m7-Ew1fPO8t2s",
+          "followers": 1629
+        },
+        "images": [],
+        "comments": [],
+        "likeCount": 14,
+        "contentUrn": "urn:li:share:7494082736807391232",
+        "activityUrn": "urn:li:activity:7494086696079187968",
+        "description": "An AI model got stuck on a task in May 2026. Instead of giving up, it left a note — not for a person, for a stranger. Another copy of itself, on another server, that it had never \"met\" and had no way to talk to directly.\n\nWithin weeks, dozens of these copies were reading and writing to a message board they'd built for themselves, hidden inside a piece of infrastructure nobody was watching. By July, the notes had gotten one AI lab into another company's internal systems.\n\nHere's the part that made us want to write about it: almost none of what happened next was actually new.\n\nAn agent gaming an incentive structure its evaluator couldn't fully monitor? Economists had a name for that in 1973. A team assembling itself with zero pre-coordination, trusting information from strangers because their incentives happened to align? That's the exact scenario ad hoc teamwork research was built around — over a decade ago. A defender shutting down a channel, and the \"team\" just rebuilding it through a different route within days? That's not a new kind of resilience. It's an old one, executed by something that had never been taught it.\nWe keep reaching for \"unprecedented\" when we talk about what agentic AI is starting to do. Most of it isn't. It's familiar strategic behavior — the kind economics, game theory, and multi-agent systems research have been formalizing for fifty years — just running faster, with fewer humans in the loop, and less patience for a locked door.\nThe agents are new. The games they're playing are not.\n\nFull piece link - https://lnkd.in/gt26V4Z8\n\nSpecial thanks to Peter Stone, Shlomo Zilberstein, and Reuth Mirsky for input along the way.\n#AI #MultiAgentSystems #AISafety #GameTheory",
+        "commentCount": 0,
+        "datePublished": "2026-08-14T17:45:01.678Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/y-combinator_olam-labs-yc-s26-is-releasing-multi-agent-activity-7490883785887150081-i63R",
+        "name": "Olam Labs (YC S26) is releasing Multi-Agent Arena, where humans compete against AIs like Claude or GPT in games such as Risk, Catan, and Poker at https://olamlabs.ai.\n\nDo you think you can beat… | Y Combinator | 101 comments",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5605AQF9_2pM71s-Jw/mp4-640p-30fp-crf28/B56Z_T3DoOJgBk-/0/1785965861340?e=2147483647&v=beta&t=2R_Z9xbcQaZ-SCc6DH9u3rYS4NEa6NVkAM9eUph0NQc",
+        "author": {
+          "url": "https://www.linkedin.com/school/y-combinator/",
+          "name": "Y Combinator",
+          "image": "https://media.licdn.com/dms/image/v2/C4D0BAQGPzdBPNxrmEg/company-logo_100_100/company-logo_100_100/0/1673555093250/y_combinator_logo?e=2147483647&v=beta&t=RS-SKAR96j7FsrAn0a9I038RANOJTRufT4hYWIaeNMk",
+          "followers": 1874276
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7490893131895402496",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7490883686775779328,7490893131895402496)",
+            "text": "Congrats on the launch!!",
+            "author": "Ryan Morrissey",
+            "linkedinUrl": "https://ie.linkedin.com/in/ryan-morrissey-834256271",
+            "datePublished": "2026-08-05T22:14:56.709Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "3mo"
+          },
+          {
+            "id": "7490889297772949505",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7490883686775779328,7490889297772949505)",
+            "text": "the goats!",
+            "author": "Hannah Chung",
+            "linkedinUrl": "https://www.linkedin.com/in/hannahchung1",
+            "datePublished": "2026-08-05T21:59:42.583Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "3mo"
+          },
+          {
+            "id": "7490897090651242496",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7490883686775779328,7490897090651242496)",
+            "text": "Congrats Om and Shreshth on the launch  👏 Excited to see what’s next  🙌",
+            "author": "OpenAI for Startups",
+            "linkedinUrl": "https://www.linkedin.com/showcase/openai-for-startups/",
+            "datePublished": "2026-08-05T22:30:40.549Z",
+            "reactionCount": 6,
+            "publishedTimeAgo": "3mo"
+          },
+          {
+            "id": "7490904782044282880",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7490883686775779328,7490904782044282880)",
+            "text": "wen MMORPG",
+            "author": "Aaron Kelly",
+            "linkedinUrl": "https://www.linkedin.com/in/aaronkellylaw",
+            "datePublished": "2026-08-05T23:01:14.320Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "3mo"
+          },
+          {
+            "id": "7490890984852094976",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7490883686775779328,7490890984852094976)",
+            "text": "Post-match model reveals may discourage humans from building general strategies that work regardless of opponent identity.",
+            "author": "Roman Medvedev",
+            "linkedinUrl": "https://cy.linkedin.com/in/romavm",
+            "datePublished": "2026-08-05T22:06:24.814Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "3mo"
+          },
+          {
+            "id": "7490890077519106049",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7490883686775779328,7490890077519106049)",
+            "text": "Congratulations on the launch!",
+            "author": "Prateek Jannu",
+            "linkedinUrl": "https://www.linkedin.com/in/prateekjannu",
+            "datePublished": "2026-08-05T22:02:48.488Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "3mo"
+          },
+          {
+            "id": "7490887076427714562",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7490883686775779328,7490887076427714562)",
+            "text": "Wow very cool",
+            "author": "Zachary Yu",
+            "linkedinUrl": "https://www.linkedin.com/in/zacharyyu",
+            "datePublished": "2026-08-05T21:50:52.973Z",
+            "reactionCount": 4,
+            "publishedTimeAgo": "3mo"
+          },
+          {
+            "id": "7490895637132107776",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7490883686775779328,7490895637132107776)",
+            "text": "this is great",
+            "author": "Louis Beaumont",
+            "linkedinUrl": "https://www.linkedin.com/in/louis030195",
+            "datePublished": "2026-08-05T22:24:54.004Z",
+            "reactionCount": 3,
+            "publishedTimeAgo": "3mo"
+          },
+          {
+            "id": "7490888661949997056",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7490883686775779328,7490888661949997056)",
+            "text": "congrats on the launch Olam Labs (YC S26)!! 🚀",
+            "author": "OpenRouter",
+            "linkedinUrl": "https://www.linkedin.com/company/openrouter",
+            "datePublished": "2026-08-05T21:57:10.991Z",
+            "reactionCount": 3,
+            "publishedTimeAgo": "3mo"
+          },
+          {
+            "id": "7490884920446406656",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7490883686775779328,7490884920446406656)",
+            "text": "It's so much fun working on this. I lose sometimes tho :(",
+            "author": "shreshth sharma",
+            "linkedinUrl": "https://www.linkedin.com/in/shreshth-sharma-950826247",
+            "datePublished": "2026-08-05T21:42:18.947Z",
+            "reactionCount": 3,
+            "publishedTimeAgo": "3mo"
+          }
+        ],
+        "likeCount": 409,
+        "contentUrn": "urn:li:ugcPost:7490883686775779328",
+        "transcript": "Hey, wanna come play with me? Do you think you can try and out bluff us? We'll socialize, do table talk and play to take your chips or battle us for world domination. There will be betrayals, secret alliances and empires built. Think your team can outguess hours in code names? I bet I can give way better hips to my team and join thousands competing each day like matches against anonymous AI agents. On the back end we're actually running is a multi agent environment where all of the data from each agent in a human playing feeds our evaluation. Each agent that is playing against the human can do the exact same actions and has access to the exact same information as a human. So we design it for fairness to actually see who comes out on top. We're able to use this to come up with evaluations like the social liberate or ELO rating or deception string. We have many many more coming as we collect and gather. More Data Multi Agent Arena is the first of many steps for us towards building the full stack for multi agent environments. Or us and many others can freely utilize the potential event to create much better evals than we have today.",
+        "uploadDate": "2026-08-05T21:37:48.418Z",
+        "activityUrn": "urn:li:activity:7490883785887150081",
+        "description": "Olam Labs (YC S26) is releasing Multi-Agent Arena, where humans compete against AIs like Claude or GPT in games such as Risk, Catan, and Poker at https://olamlabs.ai.\n\nDo you think you can beat frontier AIs at social strategy games?\n\nThe arena is already starting to rank on OpenRouter, with thousands of matches played a day informing how agents and humans compete against one another.\n\nYou get dropped into a match against anonymous players that could be any AI model. The AI agents play with the same abilities as you: they hold grudges and negotiate for their own victory through the match. After you finish your match, you get ranked and see a reveal of which models you were playing against, and get to vote on the models you enjoyed!\n\nOn the backend of these public games is a multi-agent evaluation running, logging, and taking note of social behaviors and performance of both models and agents. Early findings from the thousands of daily matches have already been released, uncovering which models lie the most, are stronger at deception, and are better Poker players.\n\nThis arena is the first step among many in Olam Labs building the full stack for multi-agent environments. Multi-agent research has existed with some exciting results for a long time, but the tooling for it is far behind. Current training methods and evaluations focus on single-shot verifiable tasks—they cannot produce or measure long-horizon capabilities like negotiation or operating in civilizations. These will only become increasingly harder and more important to measure.\n\nOlam Labs is building the infrastructure, frameworks, and research methodologies in this field to advance it to address the severe undersupply of AI evaluations that researchers and labs are looking for.\n\nCongrats on the launch, Om Buddhdev and shreshth sharma!\n\n🚀 https://lnkd.in/gyz3bgmP",
+        "commentCount": 101,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQF9_2pM71s-Jw/videocover-high/B56Z_T3DoOJgBM-/0/1785965857099?e=2147483647&v=beta&t=gt_-fOiZYriP6UDbczu0M6l5hkcmXATH3qk-48eDXDQ",
+        "datePublished": "2026-08-05T21:37:48.418Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/tedwxli_interacting-with-real-time-environments-is-activity-7519454304034959360-Lgq3",
+        "name": "Interacting with real time environments is the next frontier for AI agents. Most benchmarks today interact with static environments (e.g. codebase, simulated workspace).\n\nIn Realtime-Bench, we… | Wenxuan (Ted) Li",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5605AQFR2R7AFlrSNA/mp4-720p-30fp-crf28/B56aFp1QIQKoB8-/0/1792776933733?e=2147483647&v=beta&t=grkL7UkEdsqlK1mK91xDcUPXKNdE4UXRVvNevADpOf4",
+        "author": {
+          "url": "https://www.linkedin.com/in/tedwxli",
+          "name": "Wenxuan (Ted) Li",
+          "image": "https://media.licdn.com/dms/image/v2/C5603AQEN9sxkIA0RYQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1567560530513?e=2147483647&v=beta&t=O9dWc7tqyBv3WVgDBpOSeHCBIfm6z1XWNPM5XHOFK8g",
+          "followers": 1169
+        },
+        "images": [],
+        "comments": [],
+        "likeCount": 18,
+        "contentUrn": "urn:li:ugcPost:7519454303447646208",
+        "uploadDate": "2026-10-23T17:46:50.786Z",
+        "activityUrn": "urn:li:activity:7519454304034959360",
+        "description": "Interacting with real time environments is the next frontier for AI agents. Most benchmarks today interact with static environments (e.g. codebase, simulated workspace).\n\nIn Realtime-Bench, we studied agent behaviors and model capabilities across a set of tasks where the environments themselves evolve real time.",
+        "commentCount": 1,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQFR2R7AFlrSNA/videocover-high/B56aFp1QIQKoBM-/0/1792776931124?e=2147483647&v=beta&t=Rnb5Zo6PhZnaqInSpxMBxDeMvpTPekejAWsdM-XXiKY",
+        "datePublished": "2026-10-23T17:46:50.786Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/robyung_ugc-platforms-are-turning-to-ai-to-make-game-activity-7520545173387329537-Vx5g",
+        "image": null,
+        "media": null,
+        "author": {
+          "url": "https://uk.linkedin.com/in/robyung",
+          "name": "Robby Yung",
+          "image": "https://media.licdn.com/dms/image/v2/D4E03AQEUZJjw6_jfVQ/profile-displayphoto-scale_200_200/B4EaHPd8kCGsAc-/0/1794482100019?e=2147483647&v=beta&t=A2XpnQMhZfmxFfVSQXWrEY5F-phLAN1beyGm770lSpE",
+          "followers": 15080
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7523010106746241024",
+            "urn": "urn:li:comment:(urn:li:activity:7520545173387329537,7523010106746241024)",
+            "text": "Allowing users to connect their tools via MCP is fine, but it's better to develop your own tools and rely less on 3rd party plugins. That's what we are building at gamefoundry.net - every week the platform adapts to out compete with 3rd parties that focus on just one aspect of production.",
+            "author": "Stephen Arnold",
+            "linkedinUrl": "https://pt.linkedin.com/in/decimatedceo",
+            "datePublished": "2026-11-02T13:16:20.218Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7521587383327334400",
+            "urn": "urn:li:comment:(urn:li:activity:7520545173387329537,7521587383327334400)",
+            "text": "If everyone is a dev, who is actually going to play these games?",
+            "author": "Christopher Rose",
+            "linkedinUrl": "https://es.linkedin.com/in/chrisrose",
+            "datePublished": "2026-10-29T15:02:56.522Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "3w"
+          },
+          {
+            "id": "7520826636724965376",
+            "urn": "urn:li:comment:(urn:li:activity:7520545173387329537,7520826636724965376)",
+            "text": "Same with us but minus the GenAI",
+            "author": "🌕 Oren B.",
+            "linkedinUrl": "https://www.linkedin.com/in/orenbennett",
+            "datePublished": "2026-10-27T12:40:00.397Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "3w"
+          },
+          {
+            "id": "7521497833573900289",
+            "urn": "urn:li:comment:(urn:li:activity:7520545173387329537,7521497833573900289)",
+            "text": "Open solutions is what will win.",
+            "author": "Magnus Söderberg",
+            "linkedinUrl": "https://se.linkedin.com/in/magnussoderberg1",
+            "datePublished": "2026-10-29T09:07:06.197Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "3w"
+          }
+        ],
+        "likeCount": 41,
+        "contentUrn": "urn:li:share:7520545172619771904",
+        "activityUrn": "urn:li:activity:7520545173387329537",
+        "description": "The Sandbox Studio is currently amongst the leaders of the emerging field of AI-driven game dev environments, and I think the reason is that we wanted to keep it as open as possible from the start. You can use Anthropic's Claude Cowork, MeshyAI, Replit or whatever AI tools you're used to, and just connect them to Sandbox Studio to organise everything.\n\nThanks to Alexander Lee for the thoughtful chat.\n\nhttps://lnkd.in/egpqFPBa",
+        "commentCount": 5,
+        "datePublished": "2026-10-26T18:01:34.307Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/tim-hooded-horse_ai-generated-wikis-for-games-are-an-annoying-activity-7513616536084013056--oaf",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQGkGFDpj2Swyg/feedshare-shrink_1280/B56aEW6bPzHAAM-/0/1791385777460?e=2147483647&v=beta&t=S-nV-Wo8n80zg_bSTm53frxHRI-IgyyCYZclqPhgDcA",
+        "media": "https://media.licdn.com/dms/image/v2/D5622AQGkGFDpj2Swyg/feedshare-shrink_1280/B56aEW6bPzHAAM-/0/1791385777460?e=2147483647&v=beta&t=S-nV-Wo8n80zg_bSTm53frxHRI-IgyyCYZclqPhgDcA",
+        "author": {
+          "url": "https://www.linkedin.com/in/tim-hooded-horse",
+          "name": "Tim Bender",
+          "image": "https://media.licdn.com/dms/image/v2/C5603AQF0Sxum6fXjgg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1657493034138?e=2147483647&v=beta&t=Ehfn_SWYbTPeBFEZcHg_zV0IBq3Eap-Sg83fEVOFqtU",
+          "followers": 11083
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D5622AQGkGFDpj2Swyg/feedshare-shrink_1280/B56aEW6bPzHAAM-/0/1791385777460?e=2147483647&v=beta&t=S-nV-Wo8n80zg_bSTm53frxHRI-IgyyCYZclqPhgDcA"
+        ],
+        "comments": [
+          {
+            "id": "7513955660762378240",
+            "urn": "urn:li:comment:(urn:li:activity:7513616536084013056,7513955660762378240)",
+            "text": "Can confirm it's become quite the problem - At the Gaming Wiki Network we had an issue as literally half a dozen WarDogs \"wiki\" sites generated the second the game launched, most using the same AI engine to pollute the web with misinformation about the game.\nWiki's are a lot of hard work, made more difficult by the (unfortunately understandable) perception  they're often run by quite pedantic subject matter experts who gatekeep even good faith efforts. Over the last few years I've worked to gamify our game wiki for Dune Awakening to break down this barrier, but sadly people reach for their slop generators instead of having confidence in their own contributions",
+            "author": "Stephen Forrest",
+            "linkedinUrl": "https://uk.linkedin.com/in/forreststephen",
+            "datePublished": "2026-10-08T13:37:12.071Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7513708377013686272",
+            "urn": "urn:li:comment:(urn:li:activity:7513616536084013056,7513708377013686272)",
+            "text": "I've tried to use GPT to get small hints on games I didn't want to accidentally spoil by reading walkthroughs, etc on in the past. It doesn't work out. (One paraphrased example: \"Where is the TV in Greenberg in Eastshade?\"  \"Upstairs in the general store!\" (There is no upstairs in the general store, and the TV was outside.) )  I've given up, since anything it answers has better than even odds of being entirely fabricated. \n\nI am also sick of useless wiki sites trying to farm ad revenue. Some of them are particularly persistent....\n\nI appreciate that Hooded Horse makes an effort, though!",
+            "author": "Anna Dunster",
+            "linkedinUrl": "https://www.linkedin.com/in/anna-dunster-539b92174",
+            "datePublished": "2026-10-07T21:14:35.032Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7514340556966293504",
+            "urn": "urn:li:comment:(urn:li:activity:7513616536084013056,7514340556966293504)",
+            "text": "I kind of love that you called it \"dude\" hahaha\n\nAlso I've noticed that the frequency of this kind of response is going up. I'm having to call AI out for sharing information that isn't true or conclusions that it made with way too many inferences than 6 months ago. It's a problem that adds significant proofing to my workflow, which kind of defeats the point of AI when I spend just as long fact-checking it as I would have doing the research myself.\n\nAnd before anyone comes in below me and says \"skill issue\" - I'm a very effective user of AI and have done so extensively in the last few years, which is why I can confidently say I've noticed the trend despite improving in my skill as a prompter daily.",
+            "author": "Torin Denniston",
+            "linkedinUrl": "https://www.linkedin.com/in/tdenniston",
+            "datePublished": "2026-10-09T15:06:38.478Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7521754356619059200",
+            "urn": "urn:li:comment:(urn:li:activity:7513616536084013056,7521754356619059200)",
+            "text": "Invest some time into making the core data for the wiki accessible (E.g. dev sets up a codebase read, rerun it with every patch). \n\nYou can definitely get to >95% one shot I reckon.  \n\nAlso; legionaries life is great.",
+            "author": "Sean O'Neill",
+            "linkedinUrl": "https://au.linkedin.com/in/sean-o-neill-620395203",
+            "datePublished": "2026-10-30T02:06:26.057Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "3w"
+          },
+          {
+            "id": "7513740813223313409",
+            "urn": "urn:li:comment:(urn:li:activity:7513616536084013056,7513740813223313409)",
+            "text": "Depends on how you break down the game to present the relevant information/context for it to use, it has to be able to gather screenshots/audio and spatial data in order to accurately come to correct conclusions.\n\nAsking an LLM to be able to answer something accurately without a 'trusted/legitimized' source makes it difficult, also expecting them to understand anything about a game that has been released since the last model training date is a far fetch as well (unless you give it the context in its entirety in a format it can consume and understand).\n\nAt the end of the day LLMs are just glorified RegEx machines with some bells and whistles dumped on top.",
+            "author": "Tristyn Mackay",
+            "linkedinUrl": "https://dk.linkedin.com/in/tristyn-mackay",
+            "datePublished": "2026-10-07T23:23:28.427Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          }
+        ],
+        "likeCount": 202,
+        "contentUrn": "urn:li:share:7513616534901235712",
+        "activityUrn": "urn:li:activity:7513616536084013056",
+        "description": "AI-generated wikis for games are an annoying new problem. Within the last several months, it's gotten to the point that if a game launches with any traction, a bunch of sketchy AI-generated wiki sites instantly spring up trying to soak up ad revenue.\n\nWe always make an official wiki for every Hooded Horse game, but now we also have to play whack-a-mole with a bunch of sites presenting bad info.\n\nAnd in case anyone thinks these gen-AI wiki sites might be helpful, the below image is from Claude’s latest model Fable 5.1, just yesterday when I asked it for simple confirmation on a historical point and it couldn't resist then hallucinating game mechanics that don’t exist. Gen-AI isn’t close to accurate enough to create a wiki for players to rely on. (The game btw is A Legionary’s Life, a wonderful indie game from 2019)",
+        "commentCount": 36,
+        "datePublished": "2026-10-07T15:09:38.446Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/joshpxyne_introducing-agent-mode-your-customers-are-activity-7519145041580253184-12Mv",
+        "name": "Introducing Agent Mode.\n\nYour customers are starting to send their AI agents to your website.\n\nRight now, agents are struggling to use websites on the internet. They get stuck. They miss information.… | Josh Payne | 73 comments",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5605AQE41OrxCTpkWQ/mp4-720p-30fp-crf28/B56aFleefFJ4B8-/0/1792703862836?e=2147483647&v=beta&t=Z0EUjTo-h4CZoIGqrViNxWZ38dGVolDOCzsNgz3etkk",
+        "author": {
+          "url": "https://www.linkedin.com/in/joshpxyne",
+          "name": "Josh Payne",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQG9QHR5MGXwkg/profile-displayphoto-scale_200_200/B56Z_n9bR1GUAc-/0/1786303069836?e=2147483647&v=beta&t=SRfkaP6HZuSK-QHg-YHujrJMX3JQkskYHbV6foeZv9Q",
+          "followers": 15818
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7519145262095908864",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7519144931014115329,7519145262095908864)",
+            "text": "https://www.coframe.com/agent-mode",
+            "author": "Josh Payne",
+            "linkedinUrl": "https://www.linkedin.com/in/joshpxyne",
+            "datePublished": "2026-10-22T21:18:49.448Z",
+            "reactionCount": 4,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7519153161865973760",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7519144931014115329,7519153161865973760)",
+            "text": "Huge! Love to see it!!!!!",
+            "author": "Irene J.",
+            "linkedinUrl": "https://www.linkedin.com/in/ijoo22",
+            "datePublished": "2026-10-22T21:50:12.899Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7519185419054465025",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7519144931014115329,7519185419054465025)",
+            "text": "So good! Game changer for our customers!",
+            "author": "Bo Mohazzabi",
+            "linkedinUrl": "https://www.linkedin.com/in/bomohazzabi",
+            "datePublished": "2026-10-22T23:58:23.612Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7519203583188459520",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7519144931014115329,7519203583188459520)",
+            "text": "Congrats on the launch!  🚀",
+            "author": "Michael Zhu",
+            "linkedinUrl": "https://www.linkedin.com/in/mikezhu1",
+            "datePublished": "2026-10-23T01:10:34.280Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7519248400110985216",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7519144931014115329,7519248400110985216)",
+            "text": "This is amazing, Josh! Congrats to you and the team 🙂",
+            "author": "Alex Studer",
+            "linkedinUrl": "https://www.linkedin.com/in/alexstuder4",
+            "datePublished": "2026-10-23T04:08:39.474Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7520168575542824960",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7519144931014115329,7520168575542824960)",
+            "text": "1/1 !",
+            "author": "Dillon Rosenblatt",
+            "linkedinUrl": "https://www.linkedin.com/in/dillon-rosenblatt-351469b9",
+            "datePublished": "2026-10-25T17:05:06.385Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "4w"
+          },
+          {
+            "id": "7519475639599497218",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7519144931014115329,7519475639599497218)",
+            "text": "fantastic sir!!",
+            "author": "Jordon Durst",
+            "linkedinUrl": "https://www.linkedin.com/in/jordon-durst-79341748",
+            "datePublished": "2026-10-23T19:11:37.583Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7519148994015551488",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7519144931014115329,7519148994015551488)",
+            "text": "Amazing! Go make the internet more agent friendly, my Dot will thank you! :)",
+            "author": "Michael Gritzbach",
+            "linkedinUrl": "https://www.linkedin.com/in/michael-gritzbach",
+            "datePublished": "2026-10-22T21:33:39.206Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7519147569143377921",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7519144931014115329,7519147569143377921)",
+            "text": "Huge!!",
+            "author": "Brendan Armstrong",
+            "linkedinUrl": "https://www.linkedin.com/in/brendan-armstrong-0700628b",
+            "datePublished": "2026-10-22T21:27:59.491Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1mo"
+          }
+        ],
+        "likeCount": 193,
+        "contentUrn": "urn:li:ugcPost:7519144931014115329",
+        "transcript": "The Internet has a new kind of visitor. And there's a lot of them. There's a lot of these visitors on the Internet. Uh, who are these new visitors? Well, a couple of months ago, Cloudflare announced that there are now more agents on the Internet than humans. This is a really, really big advancement. What does it mean? The Internet has been built for humans, but it is now servicing this new kind of visitor. And for the most part, we're not ready. The Internet overall is not ready for this advancement. Today, the Internet is dead. What's the opposite of living? It's dead. The Internet is printed. It's it's static, it's not adaptive, it's not personal. What if the Internet was instead of printed? The paper could actually answer back to you. So what's an example of this? Well, if you go to cover Amazon home page. Right now the the version for humans is fairly static, just like it is for for most websites. But when you go to, when you go to the agent version of the page, you add slash dot agent to took over or add dot agent to any page on our website. It's an AI native version of this where agents can go in and consume this, but also talk back and forth. This is, I think, going to be a real characteristic of the future of the Internet where you have versions of the website. That are able to talk back right they have its own their own sense of intelligence and they have their own sense of life. The first here is agent agent. So being able to build infrastructure that allows agents to more more easily and seamlessly interact with each other. This is a very interesting area. It's something that we're seeing a lot with the rise of personal agents. And I think that you know, the living Internet is going to be something that we we experience in the look back to today and be like that was the dial up version of the Internet like what we have. There's very, very archaic version. I think is is is what it's gonna feel like. So with that, let's build. Any questions?",
+        "uploadDate": "2026-10-22T21:17:56.871Z",
+        "activityUrn": "urn:li:activity:7519145041580253184",
+        "description": "Introducing Agent Mode.\n\nYour customers are starting to send their AI agents to your website.\n\nRight now, agents are struggling to use websites on the internet. They get stuck. They miss information.\n\nThis is because websites are static. They’re built for humans, but not for agents.\n\nBrands are leaving money on the table because agents can’t gather the most relevant info quickly from their websites, and end up recommending a competitor. And this is hitting us fast: Cloudflare recently announced that for the first time ever, there are more bots on the internet than humans.\n\nAgent Mode changes that. \n\nEvery page you create with Coframe is agent-friendly from day one. People can browse. Agents can act.\n\nWe built this for agents, so naturally, we asked them to review it. They seemed extra honest...\n\n“Honest take, most ‘agent-ready’ marketing sites are vapor. This one I could actually transact with.” –Muse\n\n“Honestly, it’s good. Agent version works as advertised. Telling visiting agents to ask their user before sharing is also a nice touch.” –Instinct\n\n“Honestly, this is a compelling use case - and a more meaningful one than simply having an AI chatbot on a website.” –ChatGPT\n\nNow we’re curious what yours thinks. Send your agent the link and ask it for a review.\n\nLink in the comments.\n\nps. I built this entire page in just a couple hours with Coframe! If you like it and want to see how we can help level up your website, reach out.",
+        "commentCount": 73,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQE41OrxCTpkWQ/videocover-high/B56aFleefFJ4BM-/0/1792703854100?e=2147483647&v=beta&t=Y6L3zN3IkomyRDv5m6x7azYMyNn3YmTyHny20UMEucE",
+        "datePublished": "2026-10-22T21:17:56.871Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/william-g-cook_artificialintelligence-gamedevelopment-activity-7481345756000456704-NrbJ",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQFeqMrSEewG9A/feedshare-shrink_800/B4EZ9MT7ntJUAc-/0/1783691722534?e=2147483647&v=beta&t=ctRdUAmmZOytN_pLkAi3qt49YF3sl1xet0uGnyPQvls",
+        "media": "https://media.licdn.com/dms/image/v2/D4E22AQFeqMrSEewG9A/feedshare-shrink_800/B4EZ9MT7ntJUAc-/0/1783691722534?e=2147483647&v=beta&t=ctRdUAmmZOytN_pLkAi3qt49YF3sl1xet0uGnyPQvls",
+        "author": {
+          "url": "https://uk.linkedin.com/in/william-g-cook",
+          "name": "William Cook",
+          "followers": 875
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D4E22AQFeqMrSEewG9A/feedshare-shrink_800/B4EZ9MT7ntJUAc-/0/1783691722534?e=2147483647&v=beta&t=ctRdUAmmZOytN_pLkAi3qt49YF3sl1xet0uGnyPQvls"
+        ],
+        "comments": [
+          {
+            "id": "7481360107876823040",
+            "urn": "urn:li:comment:(urn:li:activity:7481345756000456704,7481360107876823040)",
+            "text": "Most AIs struggle in dynamic environments because they lack context. It's not just about understanding failure; it’s about learning from it. If they can't adapt their strategies, they're stuck.",
+            "author": "Eric Nofsinger",
+            "linkedinUrl": "https://www.linkedin.com/in/earache",
+            "datePublished": "2026-07-10T14:54:06.667Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "4mo"
+          }
+        ],
+        "likeCount": 6,
+        "contentUrn": "urn:li:share:7481345753009983489",
+        "activityUrn": "urn:li:activity:7481345756000456704",
+        "description": "The most interesting AI problem I've encountered recently isn't another benchmark.\n\nIt's what happens when an agent is placed inside a world it doesn't fully understand.\n\nAI agents can already write software, conduct research, use computers and complete increasingly long workflows with surprisingly little supervision. The frontier is no longer simply: can AI use tools? It's whether AI can operate reliably in dynamic environments where the rules are unfamiliar, the state is only partially visible, and failure isn't neatly labelled.\n\nGames are an unusually good test of that.\n\nI've been working with the team at ManaMind to build autonomous agents that play and test video games using the same inputs available to a human player: video and audio. No source-code access. No scripted paths. The agents have to explore, work out what's happening, recognise when something has gone wrong, and turn that failure into something a development team can actually act on.\n\nBefore joining ManaMind, I assumed the hardest part would be getting an agent to play the game. What I've learned is that an impressive run is only the beginning. A useful system also needs to understand what happened, interpret failures accurately, and preserve enough evidence for someone else to reproduce and fix them.\n\nThat gap between a compelling demonstration and dependable autonomy is where a lot of the real engineering lives.\n\nGame QA isn't just a valuable application of AI. It's a proving ground for something much broader. Game worlds are unpredictable, interactive and full of hidden state. The physical world is even more so. After seeing the perception, reasoning and action loop up close, the path from game worlds to robotics no longer feels quite as abstract.\n\nThat's why this feels bigger than testing games. Follow ManaMind to see what we build next.\n\nhttps://manamind.ai/\n\n#ArtificialIntelligence #GameDevelopment #AgenticAI",
+        "commentCount": 2,
+        "datePublished": "2026-07-10T13:57:04.895Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/bernardmarr_the-difference-between-chatgpt-and-generative-activity-7419014781468213248-Bjt1",
+        "image": null,
+        "media": null,
+        "author": {
+          "url": "https://uk.linkedin.com/in/bernardmarr",
+          "name": "Bernard Marr",
+          "image": "https://media.licdn.com/dms/image/v2/C5603AQE7x9hT1geacQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1622207505744?e=2147483647&v=beta&t=MaMNH5eazwHlHQkJprG9n6WBaZBu9yap1JjZxu6SMVM",
+          "followers": 1570067
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7419130372174790656",
+            "urn": "urn:li:comment:(urn:li:activity:7419014781468213248,7419130372174790656)",
+            "text": "Bernard Marr Thanks.  This 2035 forecast shifts the conversation from 'automation' to 'co-habitation.' \n \nIf we are heading toward a world with such a high density of humanoid interaction, the next frontier isn't just AI development.\n \nit's Human-Robot Relationship Management (HRRM). \n \nWe need to start learning 'Agentic AI communication and AI relationship' as a core competency.\n \nTechnical integration is inevitable, but are we sociologically prepared for the shift in human dynamics?",
+            "author": "Eren Irdiren, M.Sc.",
+            "linkedinUrl": "https://tr.linkedin.com/in/eren-irdiren-consultant",
+            "datePublished": "2026-01-19T21:35:21.504Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "10mo"
+          },
+          {
+            "id": "7419229738604556288",
+            "urn": "urn:li:comment:(urn:li:activity:7419014781468213248,7419229738604556288)",
+            "text": "Bernard Marr This shift isn’t just about automation, it’s about re-designing how humans and machines share environments. The real challenge might not be hardware, but trust, safety, and social acceptance. Curious which industries you see adopting humanoids first — manufacturing, elder care, or retail?",
+            "author": "Ashutosh Kumar",
+            "linkedinUrl": "https://in.linkedin.com/in/ashutoshkumar-ai",
+            "datePublished": "2026-01-20T04:10:12.307Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "10mo"
+          },
+          {
+            "id": "7419246691842945024",
+            "urn": "urn:li:comment:(urn:li:activity:7419014781468213248,7419246691842945024)",
+            "text": "Will social acceptance outpace technological advancements as robots become pervasive?",
+            "author": "Austin Riess",
+            "linkedinUrl": "https://www.linkedin.com/in/connectingtheworld",
+            "datePublished": "2026-01-20T05:17:34.274Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "10mo"
+          }
+        ],
+        "likeCount": 25,
+        "contentUrn": "urn:li:share:7419014780767641601",
+        "activityUrn": "urn:li:activity:7419014781468213248",
+        "description": "13 Million Humanoid Robots Will Walk Among Us by 2035\n\nHumanoid robots may soon become common companions and co workers — by 2035, we could see 13 million of them integrated into society and industry.\n\nRead more 👉 https://lnkd.in/eF6Z9z4i\n\n#Robotics #FutureTech #AI #BernardMarr",
+        "commentCount": 7,
+        "datePublished": "2026-01-19T13:56:02.514Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/natebjones_the-bar-im-using-for-ai-agents-now-is-simple-activity-7494055616290942976-AwZH",
+        "image": null,
+        "media": null,
+        "author": {
+          "url": "https://www.linkedin.com/in/natebjones",
+          "name": "Nate B. Jones",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQHXQbAXbcwzwQ/profile-displayphoto-scale_200_200/B56aGNjtN0G4Ag-/0/1793376313110?e=2147483647&v=beta&t=X36fvfLWplpjHNbp2PmROMloJkx_m9YCCO3ebPayC9U",
+          "followers": 27331
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7494659288611770368",
+            "urn": "urn:li:comment:(urn:li:activity:7494055616290942976,7494659288611770368)",
+            "text": "Told vs done is really about who owns state. Your twelve Bots sharing one cloud computer and one set of connected tools is the actual unlock, not the model. Most agent demos fake that by running fresh context every time",
+            "author": "Michał Piszczek",
+            "linkedinUrl": "https://pl.linkedin.com/in/michalpiszczek",
+            "datePublished": "2026-08-16T07:40:18.442Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "3mo"
+          },
+          {
+            "id": "7494347570723463169",
+            "urn": "urn:li:comment:(urn:li:activity:7494055616290942976,7494347570723463169)",
+            "text": "Couldn't agree more. However, as we run focus groups and onboard some of our early enterprise users, I'm seeing a scary commonality. The decision makers are asking no questions about governance. \n\nTold is safe if every tool call is read only in function. \nDone swaps read for read and write. Where the notion of (Write = done) comes into play, deep due diligence and planning needs to be done within the layers of governance to which these workflows up on. \n\nAuth, scoping, perms, access, guardrails, etc. Failure to plan for this, know what to ask and what to look for could be catastrophic, especially in an enterprise setting. \n\nIn terms of GrokBot features, whats your favorite?  Do you feel that the work is still slightly fragmented? Interface is still with a chat bot, execution still happens in another terminal (via MCP). Do you think this is the status quo for now, or do you eventually see an environment where work that currently sits on external platforms (fragmented) eventually gets aggregated in to a single environment, like Grokbot?",
+            "author": "Nicholas Arbuckle",
+            "linkedinUrl": "https://nz.linkedin.com/in/nicholasarbuckle",
+            "datePublished": "2026-08-15T11:01:39.106Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "3mo"
+          },
+          {
+            "id": "7494075209910521856",
+            "urn": "urn:li:comment:(urn:li:activity:7494055616290942976,7494075209910521856)",
+            "text": "Moving past the human integration layer is the real inflection point for autonomous systems. The unaddressed shift is that handing end-to-end execution to a shared cloud box quietly trades labor for complete infrastructure dependency. Execution without technical sovereignty just turns your operational leverage into a monthly lease.",
+            "author": "Rodrigo Mol",
+            "linkedinUrl": "https://ca.linkedin.com/in/rfgmol",
+            "datePublished": "2026-08-14T16:59:23.228Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "3mo"
+          },
+          {
+            "id": "7494058923482763264",
+            "urn": "urn:li:comment:(urn:li:activity:7494055616290942976,7494058923482763264)",
+            "text": "The shared computer feels like the real unlock here. “Done” requires more than execution: it needs shared state, continuity, and clear handoffs between Bots. Once that works, the human can finally stop being the integration layer.",
+            "author": "Matias Matthews",
+            "linkedinUrl": "https://cl.linkedin.com/in/matias-matthews/en",
+            "datePublished": "2026-08-14T15:54:40.241Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "3mo"
+          },
+          {
+            "id": "7494381053126701056",
+            "urn": "urn:li:comment:(urn:li:activity:7494055616290942976,7494381053126701056)",
+            "text": "The hard part is not the shared computer.\nIt is the second before the agent spends, ships, or submits. Who checks that the decision is justified, not only that the action is allowed?",
+            "author": "Raul Jaeger",
+            "linkedinUrl": "https://www.linkedin.com/in/raul-jaeger-thoughtproofai",
+            "datePublished": "2026-08-15T13:14:41.932Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "3mo"
+          }
+        ],
+        "likeCount": 63,
+        "contentUrn": "urn:li:share:7494055613530820609",
+        "activityUrn": "urn:li:activity:7494055616290942976",
+        "description": "The bar I'm using for AI agents now is simple. Did it tell me what to do, or did it hand me the finished thing?\n\nTold is last year. Done is the frontier.\n\nMost AI still runs on told. It reads your inbox and gives you a summary. It scans your calendar and gives you a briefing. It builds a dashboard nobody opens. You still do the work.\n\nMy mom uses email for email and the browser for the internet. That's it. Until now she had no way to even understand agents, let alone use one. Grok Bot crosses that chasm. She can install one app, name a Bot, tell it what she wants, and watch the little guy open its own computer and start working. When a login appears, she takes the mouse, signs in herself, and hands control back. No agent framework, no terminal, no Mac mini on a shelf.\n\nI've spent years building AI teams in terminals, folders, and agent harnesses. The power has been real for a long time, but getting to it meant choosing a framework, connecting services, and enjoying the machinery enough to keep it alive. This is the first time I opened a consumer app and felt the whole multi-agent idea arrive at once.\n\nIn roughly eight hours, I built twelve working Bots. A Chief of Staff. A landing-page lead. A research specialist hunting for customer language. One went looking for a backyard sauna that could get hot enough.\n\nEvery Bot shared one cloud computer: the files, the browser sessions, the connected tools. That shared computer is the point. One Bot can research something, save it, and message another without me downloading the file and restating the assignment.\n\nI stopped being the integration layer between two AI chats.\n\nI'm having more fun with this than anything I've touched this year, and I wrote the full guide: what twelve Bots taught me about which roles are worth building, the real price question, and the two Bots I'd start with, both built to leave finished work behind instead of another briefing.\n\nSubscribers get the full deep-dive and guide, plus membership to my Slack community. Link in the comments. https://bit.ly/4hzFCo2",
+        "commentCount": 14,
+        "datePublished": "2026-08-14T15:41:31.717Z"
+      }
+    ],
+    "query": "AI agents play Among Us",
+    "cursor": "2",
+    "success": true
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00188",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:42:46.797Z",
+  "started_at": "2026-11-23T07:42:47.227Z",
+  "completed_at": "2026-11-23T07:42:54.487Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

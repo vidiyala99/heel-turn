@@ -1,0 +1,47 @@
+{
+  "id": "241756a4-db37-4d7f-a033-ed6d23d1df96",
+  "run_url": "https://app.glasser.ai/runs/241756a4-db37-4d7f-a033-ed6d23d1df96",
+  "provider": "anyapi",
+  "endpoint": "/twitter.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "limit": 20,
+    "query": "\"AI sales call roleplay trainer\" OR (AI sales call roleplay trainer) since:2025-11-22 filter:videos min_faves:5",
+    "queryType": "Top"
+  },
+  "output": {
+    "hint": "malformed_query: X search ANDs adjacent bare words and binds OR tighter, so these operators after an unbracketed OR list applied to its last alternative only: [since:2025-11-22, filter:videos, min_faves:5]. Send this instead: (\"AI sales call roleplay trainer\" OR (AI sales call roleplay trainer)) since:2025-11-22 filter:videos min_faves:5",
+    "items": 0,
+    "output": {
+      "data": {
+        "items": [],
+        "nextCursor": null
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-bison-091bf9ea",
+      "kind": "anonymous",
+      "name": "Bison",
+      "artworkKey": "bison"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00049",
+  "charge_basis": {
+    "clause": "NO_RESULT",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:41:41.390Z",
+  "started_at": "2026-11-23T07:41:41.448Z",
+  "completed_at": "2026-11-23T07:41:47.116Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

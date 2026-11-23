@@ -1,0 +1,73 @@
+{
+  "id": "9f3e088f-d14a-4d34-a5b2-0eb6f6988896",
+  "run_url": "https://app.glasser.ai/runs/9f3e088f-d14a-4d34-a5b2-0eb6f6988896",
+  "provider": "anyapi",
+  "endpoint": "/youtube.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "query": "AI actors agents wrote their own script",
+    "sortBy": "popular",
+    "uploadDate": "this_year"
+  },
+  "output": {
+    "hint": "paging_unavailable: this result came from a source that cannot return a nextCursor, so it may be incomplete and there is no way to continue from here. Re-run with `requireFields: [\"nextCursor\"]` to be served only by a source that can page, which may cost more per request.",
+    "items": 2,
+    "output": {
+      "data": {
+        "videos": [
+          {
+            "id": "Lyiwex_cj1k",
+            "url": "https://www.youtube.com/watch?v=Lyiwex_cj1k",
+            "image": "https://i.ytimg.com/vi/Lyiwex_cj1k/hq720.jpg",
+            "title": "How to Write Viral Scripts Using AI (Works in Every Niche)",
+            "views": 349214,
+            "channel": "Aftab Khan",
+            "authorId": "UC50i0desIu8UvQCtZSVgoEA",
+            "createdUtc": 1779522020,
+            "lengthText": "23:24",
+            "publishedTime": "6 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/pjSLamRlgkK4UgcQve4b_t4L57mMUGBVQpiG275o2m3dKSMNJtilf8AQfZzF_2lvv2Wj7B6VJQ=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "tbjmI7rwITg",
+            "url": "https://www.youtube.com/watch?v=tbjmI7rwITg",
+            "image": "https://i.ytimg.com/vi/tbjmI7rwITg/hq720.jpg",
+            "title": "Two AI Video Agents, One AI Microdrama (Same Bible, Same Scripts, Same Call Sheet)",
+            "views": 673,
+            "channel": "Jordan's Lens",
+            "authorId": "UCPjYp979xiISHAN-8glSPnA",
+            "createdUtc": 1790149220,
+            "lengthText": "13:51",
+            "publishedTime": "2 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/o2W0Wq17OU-lHwi8lN70WNjj2ZXYaHnmALsaZlkb241ZkAUmX8O0K1l5hLLxjiFaQqV3A3EQ=s68-c-k-c0x00ffffff-no-rj"
+          }
+        ]
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-badger",
+      "kind": "anonymous",
+      "name": "Badger",
+      "artworkKey": "badger"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.0012",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:40:18.891Z",
+  "started_at": "2026-11-23T07:40:18.936Z",
+  "completed_at": "2026-11-23T07:40:20.482Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

@@ -1,0 +1,628 @@
+{
+  "id": "0fdad437-b0ac-4c83-b646-218c6e38f484",
+  "run_url": "https://app.glasser.ai/runs/0fdad437-b0ac-4c83-b646-218c6e38f484",
+  "provider": "anyapi",
+  "endpoint": "/twitter.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "limit": 20,
+    "query": "AI generated short film agents bloopers since:2025-11-22 filter:videos -filter:replies min_faves:20",
+    "queryType": "Top"
+  },
+  "output": {
+    "hint": "large_result: this response is ~47 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 20,
+    "output": {
+      "data": {
+        "items": [
+          {
+            "id": "2123783744620273752",
+            "url": "https://x.com/RealMarvelX/status/2123783744620273752",
+            "lang": "en",
+            "text": "you can build a complete GTA 6 clipping studio with this 20 open-source repos and an AI coding agent.\n\nfrom capturing livestreams to finding viral moments, reframing gameplay, adding captions, and exporting videos for TikTok, Reels, and YouTube Shorts.\n\nhere are the 20 tools behind the workflow:\n\nCAPTURE AND SOURCE VIDEOS\n\n01. Remotion Skills : gives coding agents instructions for building and rendering videos.\n\nhttps://github.com/remotion-dev/skills\n\n02. ClipsAI : automatically turns long videos into shorter, shareable clips.\n\nhttps://github.com/ClipsAI/clipsai\n\n03. FunClip : selects video segments using speech recognition and transcript-based editing.\n\nhttps://github.com/modelscope/FunClip\n\n04. yt-dlp : downloads videos from supported websites when you have permission to use them.\n\nhttps://github.com/yt-dlp/yt-dlp\n\n05. TwitchDownloader : downloads Twitch VODs, clips, and chat replays.\n\nhttps://github.com/lay295/TwitchDownloader\n\n06. Streamlink : captures livestreams from supported streaming platforms.\n\nhttps://github.com/streamlink/streamlink\n\n07. OBS Studio : records gameplay, reactions, and screen footage.\n\nhttps://github.com/obsproject/obs-studio\n\nFIND THE BEST MOMENTS\n\n08. PySceneDetect : detects scene changes to help identify different moments in a video.\n\nhttps://github.com/Breakthrough/PySceneDetect\n\n09. Auto-Editor : automatically removes silence and dead air.\n\nhttps://github.com/WyattBlue/auto-editor\n\n10. faster-whisper : transcribes speech locally with optimized Whisper models.\n\nhttps://github.com/SYSTRAN/faster-whisper\n\n11. WhisperX : generates accurate word-level timestamps for subtitles.\n\nhttps://github.com/m-bain/whisperX\n\n12. Silero VAD : detects speech segments and separates them from silence.\n\nhttps://github.com/snakers4/silero-vad\n\nREFRAME AND TRACK GAMEPLAY\n\n13. MediaPipe : tracks faces, poses, and landmarks for smarter video framing.\n\nhttps://github.com/google-ai-edge/mediapipe\n\n14. OpenCV : provides computer vision tools for object tracking, cropping, and video processing.\n\nhttps://github.com/opencv/opencv\n\nCAPTIONS AND FINAL EDITING\n\n15. Subtitle Edit : create, synchronize, correct, and style subtitles.\n\nhttps://github.com/SubtitleEdit/subtitleedit\n\n16. LosslessCut : trim video and audio without unnecessary re-encoding.\n\nhttps://github.com/mifi/lossless-cut\n\n17. MoviePy : automate video editing with Python scripts.\n\nhttps://github.com/Zulko/moviepy\n\n18. OpenCut : open-source video editor for editing clips on a timeline.\n\nhttps://github.com/OpenCut-app/OpenCut\n\n19. Remotion : build reusable video templates and generate clips programmatically.\n\nhttps://github.com/remotion-dev/remotion\n\n20. FFmpeg : handle video cropping, audio mixing, encoding, and final exports.\n\nhttps://github.com/FFmpeg/FFmpeg\n\nTHE COMPLETE WORKFLOW:\n\n1. capture gameplay or authorized livestream footage.\n2. transcribe the video and detect interesting moments.\n3. identify funny reactions, intense gameplay, and memorable scenes.\n4. cut the best moments into short clips.\n5. reframe everything into vertical 9:16.\n6. add synchronized captions and audio.\n7. export versions for TikTok, Instagram Reels, and YouTube Shorts.\n\nyou can use Claude Code or another coding agent to connect these tools into one automated workflow.\n\nthe goal is to spend less time editing and more time finding moments people actually want to watch.\n\ncapture → detect → clip → reframe → caption → export.\n\nbookmark this list before building your GTA 6 content studio. ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123783623430037505/img/96qMZ-9XesBeACI-.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123783623430037505/vid/avc1/1080x1350/qx8-BtDzkA0JadRh.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2050852010514169856",
+            "likeCount": 434,
+            "viewCount": 43554,
+            "authorName": "MAIL",
+            "createdUtc": 1795184477,
+            "quoteCount": 1,
+            "replyCount": 61,
+            "authorImage": "https://pbs.twimg.com/profile_images/2072087413862625280/2czrbEBw_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 37,
+            "bookmarkCount": 732,
+            "authorUsername": "RealMarvelX",
+            "authorVerified": true,
+            "conversationId": "2123783744620273752",
+            "authorFollowers": 2387
+          },
+          {
+            "id": "2122382691949789312",
+            "url": "https://x.com/0xGenAi/status/2122382691949789312",
+            "lang": "en",
+            "text": "WHAT THE F*CK...\n\n1 Grok Bot and 9 GitHub projects can give one person an entire motion studio.\n\nDirector Bot directs. The projects animate, build the 3D, draw the explainers, render the video and export every format.\n\nA studio like this costs about $612,000 a year: six animators at the US median of $102,030. Director Bot is free to add, and all 9 projects are public on GitHub.\n\nMy first month with it: 31 finished videos, 2.1M views, 0 hours in After Effects.\n\n𝟭 𝗼𝗳𝗳𝗶𝗰𝗶𝗮𝗹 𝗯𝗼𝘁 𝗳𝗿𝗼𝗺 𝘁𝗵𝗲 𝗚𝗿𝗼𝗸 𝗕𝗼𝘁 𝘁𝗲𝗮𝗺 𝗮𝘁 𝗦𝗽𝗮𝗰𝗲𝗫𝗦𝗜:\n\n01 / 𝗗𝗶𝗿𝗲𝗰𝘁𝗼𝗿 𝗕𝗼𝘁 → Your video director: turns a brief into a short film, ad, explainer or music video, then plans, shoots, cuts and delivers it.\nhttps://x.ai/bot/marketplace/bots/video-director\n\nDirector Bot comes with its own instructions and skills. The GitHub projects give it a whole studio to direct: code that renders video, animation engines, 3D, math explainers and an encoder for every format.\n\n𝟵 𝗚𝗶𝘁𝗛𝘂𝗯 𝗽𝗿𝗼𝗷𝗲𝗰𝘁𝘀 𝘁𝗼 𝗽𝗹𝘂𝗴 𝗶𝗻:\n\n02 / 𝗛𝘆𝗽𝗲𝗿𝗙𝗿𝗮𝗺𝗲𝘀 → Write HTML, get a video. HeyGen built it for agents.\nhttps://github.com/heygen-com/hyperframes\n\n03 / 𝗥𝗲𝗺𝗼𝘁𝗶𝗼𝗻 → Makes videos with React code.\nhttps://github.com/remotion-dev/remotion\n\n04 / 𝗥𝗲𝗺𝗼𝘁𝗶𝗼𝗻 𝗦𝗸𝗶𝗹𝗹𝘀 → Remotion's official agent skills for writing Remotion videos.\nhttps://github.com/remotion-dev/skills\n\n05 / 𝗚𝗦𝗔𝗣 → Pro-grade JavaScript animation, now free for everyone.\nhttps://github.com/greensock/GSAP\n\n06 / 𝗔𝗻𝗶𝗺𝗲.𝗷𝘀 → A JavaScript animation engine for timelines and easing.\nhttps://github.com/juliangarnier/anime\n\n07 / 𝗧𝗵𝗿𝗲𝗲.𝗷𝘀 → The JavaScript 3D library.\nhttps://github.com/mrdoob/three.js\n\n08 / 𝗠𝗖𝗣 𝗳𝗼𝗿 𝗕𝗹𝗲𝗻𝗱𝗲𝗿 → Lets any LLM control Blender 3D.\nhttps://github.com/ahujasid/mcp-for-blender\n\n09 / 𝗠𝗮𝗻𝗶𝗺 → The engine behind 3Blue1Brown's math animations.\nhttps://github.com/3b1b/manim\n\n10 / 𝗙𝗙𝗺𝗽𝗲𝗴 → Cuts, converts and encodes video into any format.\nhttps://github.com/FFmpeg/FFmpeg\n\n𝗪𝗵𝗮𝘁 𝘁𝗵𝗲𝘆'𝘃𝗲 𝗮𝗹𝗿𝗲𝗮𝗱𝘆 𝗱𝗼𝗻𝗲 𝗳𝗼𝗿 𝘁𝗵𝗲 𝗽𝗲𝗼𝗽𝗹𝗲 𝘄𝗵𝗼 𝗴𝗼𝘁 𝘁𝗵𝗲𝗿𝗲 𝗳𝗶𝗿𝘀𝘁:\n\n𝗠𝗮𝗻𝗶𝗺: the author of 3Blue1Brown built it to animate those videos. 96,000 stars later, anyone can use the same engine.\n\n𝗛𝘆𝗽𝗲𝗿𝗙𝗿𝗮𝗺𝗲𝘀: 82,000 stars in 8 months. HeyGen built it so agents can write HTML and get video back.\n\n𝗚𝗦𝗔𝗣: over 15 years at the front of web animation, and now every plugin is free, thanks to Webflow.\n\nAdd Director Bot, paste the 9 GitHub links into one Grok Bot chat and type: \"Hire 6 bots for my motion studio, give each one the repos it needs, then make a 20-second launch video\"\n\nSave this, then read the full guide to setting up a team of Grok Bot agents from 0 in the article below.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122357720086962176/img/ta_nGkf8oDIqNXUu.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122357720086962176/vid/avc1/1080x1350/cI2sh4zmvFXQca4-.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2066921840363069440",
+            "likeCount": 62,
+            "viewCount": 5345,
+            "authorName": "GenAI",
+            "createdUtc": 1794850440,
+            "quoteCount": 0,
+            "replyCount": 5,
+            "authorImage": "https://pbs.twimg.com/profile_images/2083289176343027712/63iXpID5_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 10,
+            "bookmarkCount": 89,
+            "authorUsername": "0xGenAi",
+            "authorVerified": true,
+            "conversationId": "2122382691949789312",
+            "authorFollowers": 2862
+          },
+          {
+            "id": "2122848259110785189",
+            "url": "https://x.com/0xAI42exe/status/2122848259110785189",
+            "lang": "en",
+            "text": "THIS GTA 6 + YOUTUBE SHORTS METHOD IS EVERYWHERE RIGHT NOW: $22,477 FROM CLIPS.\n\nThe pitch goes like this:\n\n→ Grab a viral GTA video from someone else\n→ Drop the link into an AI clipping tool\n→ Get a stack of short clips\n→ Post them on your channel\n\nThe catch is YouTube's reused content policy. Channels that repost other people's videos with no commentary of their own get turned down for monetization, and in July 2025 YouTube tightened the rules on mass-produced, repetitive uploads.\n\nThe $22K screenshot also never shows the channel or the videos behind the money.\n\nFilm your own gameplay and let AI do the cutting and editing. That keeps you monetized and still saves you hours\n\nHave you ever seen a reupload channel actually get paid?",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122834622023155712/img/mMoyKlD4AJ5TgJro.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122834622023155712/vid/avc1/720x1280/sCStaogX7zukitrZ.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1721308001733160960",
+            "likeCount": 1324,
+            "viewCount": 104835,
+            "authorName": "0xAI42.exe",
+            "createdUtc": 1794961440,
+            "quoteCount": 3,
+            "replyCount": 15,
+            "authorImage": "https://pbs.twimg.com/profile_images/2061656199670427648/ePDdRZ2Q_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 162,
+            "bookmarkCount": 1714,
+            "authorUsername": "0xAI42exe",
+            "authorVerified": true,
+            "conversationId": "2122848259110785189",
+            "authorFollowers": 1795
+          },
+          {
+            "id": "2124316097063371220",
+            "url": "https://x.com/0xForce_/status/2124316097063371220",
+            "lang": "en",
+            "text": "THIS IS FCK**** GOLDEN\n\nTHESE 3 FREE GITHUB REPOS LET YOU MAKE AI VIDEOS WITH CLAUDE CODE WITHOUT EVER STARTING FROM A BLANK PROMPT AGAIN\n\nThey kill the EMPTY prompt problem so you stop burning hours and money on generic outputs.\n\n→ Lemo Opuscar gives you a full short-film workflow in 51 visual styles \n\n→ mg-styles-15 hands over 15 motion graphic styles with the exact prompt, code, and render path behind each one \n\n→ ClaudeAnimationBase supplies hand-drawn cartoon setups with 30+ character expressions ready to drop in  \n\nOne install and the blank page is gone.\n\n Bookmark this.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124316065358336000/img/Yx5yOvKUvXyZjRCE.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124316065358336000/vid/avc1/576x1024/HUGR-jqsF6rzqED4.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1676214799221288961",
+            "likeCount": 62,
+            "viewCount": 2341,
+            "authorName": "Force🦅",
+            "createdUtc": 1795311400,
+            "quoteCount": 0,
+            "replyCount": 2,
+            "authorImage": "https://pbs.twimg.com/profile_images/2118357933738061824/zFIB5Ipr_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 8,
+            "bookmarkCount": 53,
+            "authorUsername": "0xForce_",
+            "authorVerified": true,
+            "conversationId": "2124316097063371220",
+            "authorFollowers": 8374
+          },
+          {
+            "id": "2123031084497531060",
+            "url": "https://x.com/0xnicc0/status/2123031084497531060",
+            "lang": "en",
+            "text": "This is f*cking gold, 20 GitHub repos turn Fable 5.2 into a full design studio\n\nSkills, systems, UI, canvas, assets and QA\n\nEvery repo is open source and costs nothing ↓\n\n01 ui-ux-pro-max → 80 UI styles, palettes and font pairings.\nhttp://github.com/nextlevelbuilder/ui-ux-pro-max-skill…\n\n02 /canvas-design → Anthropic's skill for posters and art as PNG and PDF.\nhttp://github.com/anthropics/skills/tree/main/skills/canvas-design…\n\n03 /pptx → Real slide decks. Anthropic official.\nhttp://github.com/anthropics/skills/tree/main/skills/pptx…\n\n04 /theme-factory → 10 ready themes for slides, docs and landing pages.\nhttp://github.com/anthropics/skills/tree/main/skills/theme-factory…\n\n05 stitch-skills → Google Labs skills that turn a prompt into UI screens.\nhttp://github.com/google-labs-code/stitch-skills…\n\n06 /frontend-design → Anthropic's skill for UI that doesn't look AI-generated.\nhttp://github.com/anthropics/skills/tree/main/skills/frontend-design…\n\n07 DESIGN.md → Google's format that describes your visual identity to agents.\nhttp://github.com/google-labs-code/design.md…\n\n08 Astryx → Meta's open-source design system, built for agents.\nhttp://github.com/meta/astryx\n\n09 shadcn/ui → Components you own as code.\nhttp://github.com/shadcn-ui/ui\n\n10 Tailwind CSS → Utility-first styling.\nhttp://github.com/tailwindlabs/tailwindcss…\n\n11 Magic UI → Animated components to copy and paste.\nhttp://github.com/magicuidesign/magicui…\n\n12 Magic MCP → Like v0, inside Claude Code.\nhttp://github.com/21st-dev/magic-mcp…\n\n13 Figma Context MCP → Figma layouts straight to your agent.\nhttp://github.com/GLips/Figma-Context-MCP…\n\n14 Penpot → Open-source Figma alternative with an official MCP.\nhttp://github.com/penpot/penpot\n\n15 Excalidraw → Hand-drawn diagrams and wireframes.\nhttp://github.com/excalidraw/excalidraw…\n\n16 tldraw → An infinite canvas SDK.\nhttp://github.com/tldraw/tldraw\n\n17 Lucide → Clean, consistent open-source icons.\nhttp://github.com/lucide-icons/lucide…\n\n18 Leonardo → Adobe's palettes built from a contrast ratio.\nhttp://github.com/adobe/leonardo\n\n19 rembg → Background removal in one line.\nhttp://github.com/danielgatis/rembg…\n\n20 agent-browser → The agent opens the page and checks the design itself.\nhttp://github.com/vercel-labs/agent-browser…\n\nA design agency bills per screen, this studio runs on $0\n\nBookmark it, give Fable 5.2 all 20 and design something people remember\n\nThen read the article below, it shows how Fable 5.2 brings that design to life with motion ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123030651087597568/img/mdwBx2rPM69EQlo1.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123030651087597568/vid/avc1/1080x1350/Og2QwwGrmlMgjCY-.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2085649504951234560",
+            "likeCount": 341,
+            "viewCount": 33014,
+            "authorName": "nicco",
+            "createdUtc": 1795005029,
+            "quoteCount": 4,
+            "replyCount": 10,
+            "authorImage": "https://pbs.twimg.com/profile_images/2085652328732844032/J4d7DQSA_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 43,
+            "bookmarkCount": 570,
+            "authorUsername": "0xnicc0",
+            "authorVerified": true,
+            "conversationId": "2123031084497531060",
+            "authorFollowers": 1573
+          },
+          {
+            "id": "2123046314670006379",
+            "url": "https://x.com/thegreatest_sv/status/2123046314670006379",
+            "lang": "en",
+            "text": "WHOEVER PUT THESE 7 REPOS ON GITHUB IS F*CKING INSANE.\n\nthey’re basically a survival kit for anyone who doesn’t want AI taking their job in 2027:\n\n1. Screenpipe (22k stars)\nrecords your computer work locally, then shows you which tasks you repeat every day and are worth automating\nhttp://github.com/screenpipe/screenpipe\n\n2. Meetily (32k stars)\nAI meeting notes that run on your own laptop. no bot joins the call, nothing leaves your machine\nhttp://github.com/Zackriya-Solutions/meetily\n\n3. Skyvern (23k stars)\nan AI that fills out forms and clicks through websites for you, even the ones with no API\nhttp://github.com/Skyvern-AI/skyvern\n\n4. Stirling-PDF (96k stars)\nevery PDF tool in one place: merge, split, sign, OCR, redact. self-hosted, so your contracts stay yours\nhttp://github.com/Stirling-Tools/Stirling-PDF\n\n5. MoneyPrinterTurbo (144k stars)\ntype a topic, get a finished HD short video: script, footage, subtitles and music\nhttp://github.com/harry0703/MoneyPrinterTurbo\n\n6. Chatterbox (27k stars)\nopen-source text to speech that clones a voice from a short clip. voiceovers without a studio\nhttp://github.com/resemble-ai/chatterbox\n\n7. Paperless-ngx (48k stars)\nscan any paper, it reads it, tags it and files it. find any receipt or contract in seconds\nhttp://github.com/paperless-ngx/paperless-ngx\n\ntell me which agents you want me to visualize next",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123045976872992768/img/_-3J8MPWA7JK7oIu.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123045976872992768/vid/avc1/1080x1350/Pq_1Jy2Elkmr-Q0K.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1214810521",
+            "likeCount": 953,
+            "viewCount": 57643,
+            "authorName": "kiosa",
+            "createdUtc": 1795008660,
+            "quoteCount": 4,
+            "replyCount": 30,
+            "authorImage": "https://pbs.twimg.com/profile_images/2049557081502752768/gymBLMZ8_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 101,
+            "bookmarkCount": 1981,
+            "authorUsername": "thegreatest_sv",
+            "authorVerified": true,
+            "conversationId": "2123046314670006379",
+            "authorFollowers": 12582
+          },
+          {
+            "id": "2123446595286860200",
+            "url": "https://x.com/mentalium_/status/2123446595286860200",
+            "lang": "en",
+            "text": "Microsoft quietly dropped one of the CLEANEST FREE AI agent courses on GitHub\n\nBuilding AI agents is the skill companies are hiring for right now\n\n18 lessons. Real code. Design patterns. Tool use. Agentic RAG. Multi-agent systems. Memory. Context engineering. Production deployment. Security\n\nIt’s the practical path most people are still paying $2,000+ for\n\n01 Intro to AI Agents and use cases  \n02 Exploring agentic frameworks  \n03 Agentic design patterns  \n04 Tool use design pattern  \n05 Agentic RAG  \n06 Building trustworthy AI agents  \n07 Planning design pattern  \n08 Multi-agent design pattern  \n09 Metacognition design pattern  \n10 AI agents in production  \n11 Agentic protocols (MCP, A2A)  \n12 Context engineering  \n13 Agent memory management  \n14 Multi-agent collaboration  \n15 Computer-use agents  \n16 Scaling and deployment  \n17 Local AI agents  \n18 Securing AI agents  \n\nEach lesson has written content + Python code samples + short video\n\nMicrosoft put the full thing on GitHub for free\n80k+ stars already\n\nYou either start building real agents now, or keep watching random YouTube videos for another year\n\nSave this ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123446493428269057/img/JbJX2FGOxmcGrR2u.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123446493428269057/vid/avc1/1080x1350/f931Rj1oUl7R7Ruj.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1455805135737614344",
+            "likeCount": 1147,
+            "viewCount": 66778,
+            "authorName": "mentalium",
+            "createdUtc": 1795104094,
+            "quoteCount": 1,
+            "replyCount": 27,
+            "authorImage": "https://pbs.twimg.com/profile_images/2085340122493415424/aqTuTOfL_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 208,
+            "bookmarkCount": 2082,
+            "authorUsername": "mentalium_",
+            "authorVerified": true,
+            "conversationId": "2123446595286860200",
+            "authorFollowers": 6272
+          },
+          {
+            "id": "2123069607129092320",
+            "url": "https://x.com/DAIEvolutionHub/status/2123069607129092320",
+            "lang": "en",
+            "text": "Google just dropped a 1-hour course on agentic engineering from scratch:  \n\n00:00 – How to build your first AI agent \n08:24 – Build agent memory (short, persistent, long) \n28:34 – Agentic loops, long-running AI agents \n40:04 – How to build MCP (MCP vs API) \n1:00:22 – Multi-agentic systems  \n\nThis 1-hour watch will replace 10 paid agentic courses on the internet.  \n\nBookmark this. Watch this weekend.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123068825486999552/img/7nMfmDfypM8pyx8N.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123068825486999552/vid/avc1/1280x720/yOhOicPz2VRciG1b.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1909915818084954112",
+            "likeCount": 297,
+            "viewCount": 16745,
+            "authorName": "Kshitij Mishra | AI & Tech",
+            "createdUtc": 1795014213,
+            "quoteCount": 3,
+            "replyCount": 15,
+            "authorImage": "https://pbs.twimg.com/profile_images/2015092541159280641/941zc6PA_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 80,
+            "bookmarkCount": 408,
+            "authorUsername": "DAIEvolutionHub",
+            "authorVerified": true,
+            "conversationId": "2123069607129092320",
+            "authorFollowers": 57726
+          },
+          {
+            "id": "2123800042335060228",
+            "url": "https://x.com/fayzonnn/status/2123800042335060228",
+            "lang": "en",
+            "text": "video editors are officially cooked.\n\nDario Amodei wasn't exaggerating when he said AI agents would start executing full creative pipelines end to end, and this screen recording proves it.\n\nhanded Claude + Higgsfield one brief: produce and edit a high-converting vertical UGC ad from scratch.\n\nhands completely off the trackpad.\n\nwatch what the agent swarm executed inside the timeline on its own:\n\n→ generated the raw AI talking-head clips and b-roll shots via Higgsfield\n→ imported all media assets and arranged multi-track cuts on the timeline\n→ synced voiceover audio, paced the hook, and layered animated captions\n→ balanced exposure and color wheels across every scene\n→ exported a ready-to-run vertical ad in minutes\n\ncreative agencies still charge $2,500+ per video package for this exact workflow.\n\nmeanwhile one terminal session just knocked it out automatically.\n\nthe exact multi-agent prompt is dropped in the reply below ↓\n\nwould you let AI agents produce and edit your ad creatives?",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123800009044807680/img/nqp7-PBHal5OzV9A.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123800009044807680/vid/avc1/1080x1920/7fMl0xNYCHka_VsN.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1461242469019000836",
+            "likeCount": 93,
+            "viewCount": 5554,
+            "authorName": "fayz333",
+            "createdUtc": 1795188363,
+            "quoteCount": 0,
+            "replyCount": 13,
+            "authorImage": "https://pbs.twimg.com/profile_images/2115193988235857920/7HJAi3zm_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 7,
+            "bookmarkCount": 59,
+            "authorUsername": "fayzonnn",
+            "authorVerified": true,
+            "conversationId": "2123800042335060228",
+            "authorFollowers": 462
+          },
+          {
+            "id": "2124417980499210344",
+            "url": "https://x.com/Feljoy_ix/status/2124417980499210344",
+            "lang": "zh",
+            "text": "想用Muse做出这种电影质感视频 ？\n\n你需要给它安装学习以下几个Skill\n\n​从电影级提示词、专业分镜、角色一致性 到 AI 虚拟剧组和后期自动合成 一套全跑通：\n\n1. muse-video-prompt-skill — \n六段式电影提示词 → 生成 → 多段拼接 → 抽帧验证。和我们现行规矩最贴：定稿提示词不擅改、单段 10 秒上限、长片用上一段快照接续、每段抽帧自查、音频/口型必须交你终验。不承诺锁脸，这点它自己也写明了。\n\n2. Muse-animated-short-film — \n动画短片全流程：角色表 → 剧本圣经 → 关键帧 → mega prompt → 视频 → 旁白 → ffmpeg 成片。最有用的是两条硬规矩：全项目画幅锁定、上一景末帧 = 下一景首帧的 match-cut。原文是越南语，样片《The Last Lantern》流程完整。\n\n3. muse-video-skill — \n虚拟剧组前期策划：导演/编剧/摄影/美术/特效/声音 6 角色 + 38 个案例，只出剧本/分镜/美术/提示词包，不做实际渲染。和现有的 chaojifeng 导演层有重叠，增量主要是案例库和 Creative Pack 导出格式。",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124417926812057600/img/R2JsX-CDMv5hNyb1.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124417926812057600/vid/avc1/1694x720/cDs3R-UrM4b0aS3f.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1307014001767845888",
+            "likeCount": 515,
+            "viewCount": 39153,
+            "authorName": "Felix(好运圣体)",
+            "createdUtc": 1795335690,
+            "quoteCount": 3,
+            "replyCount": 44,
+            "authorImage": "https://pbs.twimg.com/profile_images/2121801066723561472/qfOtmL2__normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 45,
+            "bookmarkCount": 721,
+            "authorUsername": "Feljoy_ix",
+            "authorVerified": true,
+            "conversationId": "2124417980499210344",
+            "authorFollowers": 8987
+          },
+          {
+            "id": "2123138921022595509",
+            "url": "https://x.com/I_amShiti/status/2123138921022595509",
+            "lang": "en",
+            "text": "AI video creation is moving beyond prompts. We're getting closer to actually directing scenes.\n\nPika Enact introduces a new way to interact with AI-generated videos. You can reposition actors and objects while the scene is playing, talk to actors and direct their dialogue or emotions, and control camera movements in real time.\n\nIt's like having a film set where you can direct, experiment, and reshape scenes as they unfold.\n\nThis is an exciting direction for the future of AI filmmaking.\n\n@pika_labs\n\n https://pika.art/blog/pika-enact?utm_source=x&utm_medium=caption&utm_campaign=261118-pika-enact-qrt&utm_content=i_amshiti&utm_term=post&utm_id=8c637519-a20d-42d3-8fdc-de88145c075a",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123138872900976640/img/wdC6Zfk87X72kZ6h.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123138872900976640/vid/avc1/832x480/_DI2tlJ27Y02OtA0.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1177640801767247874",
+            "likeCount": 1029,
+            "viewCount": 31462,
+            "authorName": "Kuria | AI",
+            "createdUtc": 1795030739,
+            "quoteCount": 1,
+            "replyCount": 45,
+            "authorImage": "https://pbs.twimg.com/profile_images/2036423514660708352/PtFecw86_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 153,
+            "bookmarkCount": 104,
+            "authorUsername": "I_amShiti",
+            "authorVerified": true,
+            "conversationId": "2123138921022595509",
+            "authorFollowers": 101755
+          },
+          {
+            "id": "2122510946341986367",
+            "url": "https://x.com/carm1nee/status/2122510946341986367",
+            "lang": "en",
+            "text": "Claude Fable 5.2 + TradingView... just took full control of the chart & it's f*cking DANGEROUS...\n\nthis FREE indicator scores every closed candle for AI agents, & this MCP bridge plugs Claude Code straight into TradingView, so Fable 5.2 reads the signal panel LIVE & calls SHORT, LONG or WAIT on its own\n\ni rebuilt the setup as a paper desk & replayed every 4h candle of BTC, ETH & SOL from Nov 1 to Nov 17: Fable took 7 trades, said WAIT 6 times & all 6 closed trades ended green (+9.01R)\n\nfirst understand how this setup works:\n\n> you see candles, an AI agent can't read a chart\n> the indicator scores every closed candle out of 100 for long & short & puts the signal, entry, stop & targets in a panel on your chart\n> the bridge connects Claude Code to TradingView Desktop on your machine, so Fable 5.2 reads that panel, switches symbols & replays history by itself\n\nhow to use it with Fable 5.2:\n\n1. paste ai-agent-lens.pine from the indicator repo into the Pine Editor on TradingView & hit \"add to chart\"\n\n2. every closed candle gets a long & a short score out of 100, built from 5 factors, with no repainting\n\n3. each setup comes with an entry, an ATR stop & 1.5R / 3R targets, drawn on your chart like TradingView's position tool\n\n4. paste the install prompt from tradingview-mcp's README into Claude Code: it clones the repo, runs npm install & adds the MCP server for you\n\n5. launch TradingView Desktop in debug mode with ONE command, the repo has the script for Mac, Windows & Linux\n\n6. ask Claude to run tv_health_check & once it says connected, Fable 5.2 sees your chart\n\n7. give Fable 5.2 agent/AGENT_PROMPT.md from the indicator repo & ask for the signal: decision, entry, stop, targets, size & exactly why it could fail\n\n8. run tv stream tables & the indicator's panel streams into your terminal as JSON every time it changes\n\n9. put it on ANY date with tv replay start & let Fable trade the chart bar by bar\n\nboth repos are FREE & open source, links in the first reply:",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122509555498123265/img/vmo0aofkZQsbKXUj.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122509555498123265/vid/avc1/1080x1718/MQCBvcCqBH7d6921.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1296554647273054208",
+            "likeCount": 367,
+            "viewCount": 50796,
+            "authorName": "Сarm1ne",
+            "createdUtc": 1794881018,
+            "quoteCount": 0,
+            "replyCount": 11,
+            "authorImage": "https://pbs.twimg.com/profile_images/1961723732151484416/_-g3KJ2o_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 57,
+            "bookmarkCount": 661,
+            "authorUsername": "carm1nee",
+            "authorVerified": true,
+            "conversationId": "2122510946341986367",
+            "authorFollowers": 19405
+          },
+          {
+            "id": "2123762151630192739",
+            "url": "https://x.com/0xnoonez/status/2123762151630192739",
+            "lang": "en",
+            "text": "HOLY F*CK. DESIGN AGENCIES ARE F*CKING COOKED.\n\n20 free GitHub repos just turned Fable 5.2 into a full design studio.\n\nSkills. Systems. UI. Canvas. Assets. QA.\n\nEvery repo is open source and costs nothing ↓\n\n01 UI UX Pro Max → 80 UI styles, palettes and font pairings.\nhttp://github.com/nextlevelbuilder/ui-ux-pro-max-skill\n\n02 /canvas-design → Anthropic's skill for posters and art as PNG and PDF.\nhttp://github.com/anthropics/skills/tree/main/skills/canvas-design\n\n03 /pptx → Real slide decks. Anthropic official.\nhttp://github.com/anthropics/skills/tree/main/skills/pptx\n\n04 /theme-factory → 10 ready themes for slides, docs and landing pages.\nhttp://github.com/anthropics/skills/tree/main/skills/theme-factory\n\n05 Stitch Skills → Google Labs skills that turn a prompt into UI screens.\nhttp://github.com/google-labs-code/stitch-skills\n\n06 /frontend-design → Anthropic's skill for UI that doesn't look AI-generated.\nhttp://github.com/anthropics/skills/tree/main/skills/frontend-design\n\n07 DESIGN.md → Google's format that describes your visual identity to agents.\nhttp://github.com/google-labs-code/design.md\n\n08 Astryx → Meta's open-source design system, built for agents.\nhttp://github.com/meta/astryx\n\n09 shadcn/ui → Components you own as code.\nhttp://github.com/shadcn-ui/ui\n\n10 Tailwind CSS → Utility-first styling.\nhttp://github.com/tailwindlabs/tailwindcss\n\n11 Magic UI → Animated components to copy and paste.\nhttp://github.com/magicuidesign/magicui\n\n12 Magic MCP → Like v0, inside Claude Code.\nhttp://github.com/21st-dev/magic-mcp\n\n13 Figma Context MCP → Figma layouts straight to your agent.\nhttp://github.com/GLips/Figma-Context-MCP\n\n14 Penpot → Open-source Figma alternative with an official MCP.\nhttp://github.com/penpot/penpot\n\n15 Excalidraw → Hand-drawn diagrams and wireframes.\nhttp://github.com/excalidraw/excalidraw\n\n16 tldraw → An infinite canvas SDK.\nhttp://github.com/tldraw/tldraw\n\n17 Lucide → Clean, consistent open-source icons.\nhttp://github.com/lucide-icons/lucide\n\n18 Leonardo → Adobe's palettes built from a contrast ratio.\nhttp://github.com/adobe/leonardo\n\n19 rembg → Background removal in one line.\nhttp://github.com/danielgatis/rembg\n\n20 Agent Browser → The agent opens the page and checks the design itself.\nhttp://github.com/vercel-labs/agent-browser\n\nBrief → brand → system → screens → assets → QA.\n\nA design agency bills per screen. This studio runs on $0.\n\nBookmark this, give Fable 5.2 all 20 and design something people remember.\n\nThen read the article below. It shows how Fable 5.2 brings that design to life with motion ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123761604089061376/img/rfZjjOdXbtE2z_Fi.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123761604089061376/vid/avc1/1080x1350/FZC4fa4xiPXjUN7W.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1798113716648431616",
+            "likeCount": 469,
+            "viewCount": 33092,
+            "authorName": "noonez",
+            "createdUtc": 1795179329,
+            "quoteCount": 3,
+            "replyCount": 6,
+            "authorImage": "https://pbs.twimg.com/profile_images/2065062455621865472/FFnQEB_1_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 52,
+            "bookmarkCount": 649,
+            "authorUsername": "0xnoonez",
+            "authorVerified": true,
+            "conversationId": "2123762151630192739",
+            "authorFollowers": 675
+          },
+          {
+            "id": "2123170805425004821",
+            "url": "https://x.com/zentalksai/status/2123170805425004821",
+            "lang": "en",
+            "text": "> had the plan for a short film open in my AI chat\n> connected Suno MCP and asked it to score the opening scene\n> first version was close\n> changed one line of the lyrics, kept the rest\n> cut the bridge, added an outro\n> split the stems for the edit\n> played it inline to check the timing\n> never opened another tab\n\nthe song came out of the same conversation where the idea started",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123170603951636480/img/jqzp-QDxClaqX7Sl.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123170603951636480/vid/avc1/1720x920/lEwpQLpYQfBVUF4p.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1652732289908973568",
+            "likeCount": 225,
+            "viewCount": 31771,
+            "authorName": "zen.",
+            "createdUtc": 1795038341,
+            "quoteCount": 0,
+            "replyCount": 10,
+            "authorImage": "https://pbs.twimg.com/profile_images/2086466198116413440/dLYNu-yR_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 7,
+            "bookmarkCount": 12,
+            "authorUsername": "zentalksai",
+            "authorVerified": true,
+            "conversationId": "2123170805425004821",
+            "authorFollowers": 120069
+          },
+          {
+            "id": "2124560005957623999",
+            "url": "https://x.com/renproton/status/2124560005957623999",
+            "lang": "en",
+            "text": "THIS IS AN ACTUAL F*CKING GOLDMINE\n\nThese 20 GitHub repos will turn your Fable 5.2 into a premier motion studio\n\nskills. 3D. FX. Motion. Sound. Export\n\n01 /motion-design-skill → Timing, easing and Disney's 12 principles.\nhttp://github.com/LottieFiles/motion-design-skill\n\n02 ai-kit → CSS springs and motion audits for agents.\nhttp://github.com/motiondivision/ai-kit\n\n03 Remotion Skills → Official video skills for coding agents.\nhttp://github.com/remotion-dev/skills\n\n04 /hairline → Interactive line figures from an idea or an SVG.\nhttp://hairline.lucasmarkes.com/skills\n\n05 /anatomy → Machines and systems as isometric figures.\nhttp://skills.wheresryan.sh/anatomy\n\n06 /anatomy-reveal → Exploded product views and a reveal MP4.\nhttp://typingmind.com/skills/annnguyentt-anatomy-reveal\n\n07 /blender-agents → A full AI 3D team inside Blender via MCP.\nhttp://github.com/scenario-labs/blender-plugin\n\n08 Three.js → 3D scenes and camera moves.\nhttp://github.com/mrdoob/three.js\n\n09 react-three-rapier → Real physics for React Three Fiber scenes.\nhttp://github.com/pmndrs/react-three-rapier\n\n10 react-postprocessing → Bloom, depth of field and film effects.\nhttp://github.com/pmndrs/react-postprocessing\n\n11 three.quarks → Particle trails and VFX.\nhttp://github.com/Alchemist0823/three.quarks\n\n12 Tweakpane → Live controls for your scene parameters.\nhttp://github.com/cocopon/tweakpane\n\n13 GSAP → Animation timelines. Now fully free.\nhttp://github.com/greensock/GSAP\n\n14 Remotion → React video engine.\nhttp://github.com/remotion-dev/remotion\n\n15 Manim → Animated diagrams, equations and explainers.\nhttp://github.com/ManimCommunity/manim\n\n16 Lottie → Lightweight vector animation playback.\nhttp://github.com/airbnb/lottie-web\n\n17 Openverse API → 5.2M+ free sound effects, ambience and music.\nhttp://api.openverse.org/v1/\n\n18 librosa → Beat detection for music-synced animation.\nhttp://github.com/librosa/librosa\n\n19 WhisperX → Word-level timing for captions.\nhttp://github.com/m-bain/whisperX\n\n20 FFmpeg → Encoding and delivery.\nhttp://github.com/FFmpeg/FFmpeg\n\nSkill → scene → motion → sound → final cut.\n\nBookmark this then go build something worth watching with guide below ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124555683727380480/img/iXQ2ZLXo2Ab-To63.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124555683727380480/vid/avc1/1080x1350/57Ena1lFFvzr2IfI.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2078171552298778624",
+            "likeCount": 304,
+            "viewCount": 27852,
+            "authorName": "renproton",
+            "createdUtc": 1795369552,
+            "quoteCount": 2,
+            "replyCount": 13,
+            "authorImage": "https://pbs.twimg.com/profile_images/2107888160462209024/_Iv-MTty_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 24,
+            "bookmarkCount": 501,
+            "authorUsername": "renproton",
+            "authorVerified": true,
+            "conversationId": "2124560005957623999",
+            "authorFollowers": 1045
+          },
+          {
+            "id": "2122306232631652691",
+            "url": "https://x.com/anstapnever/status/2122306232631652691",
+            "lang": "en",
+            "text": "this is f*cking gold for Fable 5.2\n\nthese 20 GitHub repos will turn your Fable 5.2 into a full Design studio.\n\nskills. systems. UI. canvas. assets. QA.\n\n01 ui-ux-pro-max → 80 UI styles, palettes and font pairings.\nhttp://github.com/nextlevelbuilder/ui-ux-pro-max-skill\n\n02 /canvas-design → Anthropic's skill for posters and art as PNG and PDF.\nhttp://github.com/anthropics/skills/tree/main/skills/canvas-design\n\n03 /pptx → Real slide decks. Anthropic official.\nhttp://github.com/anthropics/skills/tree/main/skills/pptx\n\n04 /theme-factory → 10 ready themes for slides, docs and landing pages.\nhttp://github.com/anthropics/skills/tree/main/skills/theme-factory\n\n05 stitch-skills → Google Labs skills that turn a prompt into UI screens.\nhttp://github.com/google-labs-code/stitch-skills\n\n06 /frontend-design → Anthropic's skill for UI that doesn't look AI-generated.\nhttp://github.com/anthropics/skills/tree/main/skills/frontend-design\n\n07 DESIGN.md → Google's format that describes your visual identity to agents.\nhttp://github.com/google-labs-code/design.md\n\n08 Astryx → Meta's open-source design system, built for agents.\nhttp://github.com/meta/astryx\n\n09 shadcn/ui → Components you own as code.\nhttp://github.com/shadcn-ui/ui\n\n10 Tailwind CSS → Utility-first styling.\nhttp://github.com/tailwindlabs/tailwindcss\n\n11 Magic UI → Animated components to copy and paste.\nhttp://github.com/magicuidesign/magicui\n\n12 Magic MCP → Like v0, inside Claude Code.\nhttp://github.com/21st-dev/magic-mcp\n\n13 Figma Context MCP → Figma layouts straight to your agent.\nhttp://github.com/GLips/Figma-Context-MCP\n\n14 Penpot → Open-source Figma alternative with an official MCP.\nhttp://github.com/penpot/penpot\n\n15 Excalidraw → Hand-drawn diagrams and wireframes.\nhttp://github.com/excalidraw/excalidraw\n\n16 tldraw → An infinite canvas SDK.\nhttp://github.com/tldraw/tldraw\n\n17 Lucide → Clean, consistent open-source icons.\nhttp://github.com/lucide-icons/lucide\n\n18 Leonardo → Adobe's palettes built from a contrast ratio.\nhttp://github.com/adobe/leonardo\n\n19 rembg → Background removal in one line.\nhttp://github.com/danielgatis/rembg\n\n20 agent-browser → The agent opens the page and checks the design itself.\nhttp://github.com/vercel-labs/agent-browser\n\nSkill → system → UI → canvas → ship.\n\nBookmark this then go design something people remember.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122304532671774720/img/qE0NKYx03mgjKWcq.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122304532671774720/vid/avc1/1080x1350/m1xeKCmHcalAEmhK.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1755493156403990528",
+            "likeCount": 1175,
+            "viewCount": 109078,
+            "authorName": "anstap",
+            "createdUtc": 1794832211,
+            "quoteCount": 5,
+            "replyCount": 25,
+            "authorImage": "https://pbs.twimg.com/profile_images/2092774544444448768/pdGS2jmZ_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 138,
+            "bookmarkCount": 2054,
+            "authorUsername": "anstapnever",
+            "authorVerified": true,
+            "conversationId": "2122306232631652691",
+            "authorFollowers": 2247
+          },
+          {
+            "id": "2123489967720792290",
+            "url": "https://x.com/AIoffical510/status/2123489967720792290",
+            "lang": "en",
+            "text": "The Last Knock\n\nOne knock could change everything.\n\nCreated with @CuddlerAI \n\nPrompt:\n\nTITLE: THE LAST KNOCK\nGENRE: Hollywood Psychological Thriller\nDURATION: 30 seconds\nFORMAT: 16:9 cinematic widescreen\nSTYLE: Ultra-realistic Hollywood live-action film\nCreate an extremely realistic 30-second Hollywood psychological thriller scene, filmed as ONE SINGLE UNINTERRUPTED CONTINUOUS TAKE.\nABSOLUTE CONTINUITY RULE:\nThis is one continuous camera recording, not a collection of shots. Absolutely NO cuts, NO transitions, NO montage, NO scene changes, NO time jumps and NO camera angle switching.\nMAIN CHARACTER:\nOne 35-year-old man with short dark hair, a subtle beard, tired expressive eyes, wearing a dark charcoal shirt and black trousers. His face, hairstyle, age and clothing must remain exactly identical throughout the entire video. Only one human character is physically visible.\nLOCATION:\nA beautiful but unsettling modern luxury apartment at night. Long elegant hallway, warm dim wall lights, wooden floor, a large window with heavy rain outside. One dark wooden entrance door at the far end. The entire scene takes place inside this same apartment.\n\nCONTINUOUS ACTION:\nThe video begins with the man standing alone in the hallway, holding a glass of water. He suddenly hears three slow knocks coming from the entrance door.\n\nHe freezes. His facial expression changes naturally from confusion to fear. He slowly puts the glass down on a nearby table and begins walking toward the door. The camera smoothly tracks backward in front of him, maintaining the same continuous shot.\nAs he approaches the door, another three knocks sound. He stops, breathing nervously. He slowly reaches for the door handle and looks through the small peephole.\n\nAt the final moment, his face turns pale. He slowly steps backward in absolute shock.\nThe camera continues moving naturally and reveals the small mirror on the wall behind him. In the mirror, a mysterious second silhouette is standing directly behind him.\n\nThe man has not noticed it.\nEND on his terrified expression and the mysterious reflection.\n\nCAMERA DIRECTION:\nOne continuous cinematic tracking shot. Natural human-operated camera movement, subtle handheld realism, smooth backward tracking, realistic depth of field, no sudden camera movement, no cuts and no artificial zooms.\nACTING:\nExtremely realistic Hollywood-level acting. Subtle facial expressions, believable breathing, natural body movement, realistic fear and tension. No exaggerated expressions.\n\nLIGHTING:\nPhotorealistic low-key cinematic lighting, warm practical hallway lights, cool blue moonlight from the rainy window, natural shadows, realistic reflections on wooden floors.\n\nSOUND DESIGN:\nRealistic rain hitting the windows, quiet room ambience, three distinct knocks, soft footsteps, glass touching the table, nervous breathing and subtle cinematic tension. No music overpowering the sound effects.\n\nVISUAL QUALITY:\nPhotorealistic live-action cinema, realistic human skin pores, natural eyes, detailed fabric, physically accurate reflections, professional Hollywood cinematography, subtle film grain, realistic lighting and premium theatrical movie quality.\n\nSTRICT NEGATIVE INSTRUCTIONS:\nNo additional visible people except the final mysterious reflection. No face changes. No clothing changes. No duplicated main character. No morphing. No distorted hands. No changing apartment layout. No changing lighting. No teleportation. No cartoon appearance. No video-game graphics. No subtitles. No logos. No cuts. No transitions. No scene changes.\n\nThe final result must feel like a real Hollywood thriller movie captured by a professional film crew in one uninterrupted take.\n\n#CuddlerAI",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123489879208382464/img/uWD7fDxUt5Y3A9Wn.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123489879208382464/vid/avc1/1280x720/L0u04n_w4vVX6IWp.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2052276509600022531",
+            "likeCount": 278,
+            "viewCount": 979,
+            "authorName": "Faisal Ai",
+            "createdUtc": 1795114435,
+            "quoteCount": 0,
+            "replyCount": 112,
+            "authorImage": "https://pbs.twimg.com/profile_images/2109800427625889792/zk695pPO_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 38,
+            "bookmarkCount": 1,
+            "authorUsername": "AIoffical510",
+            "authorVerified": true,
+            "conversationId": "2123489967720792290",
+            "authorFollowers": 11006
+          },
+          {
+            "id": "2124060934406893992",
+            "url": "https://x.com/ayush26291/status/2124060934406893992",
+            "lang": "en",
+            "text": "Fuck, this is absolutely insane.\n\nDario Amodei, CEO of Anthropic, was asked what a young person who has just finished high school should do today.\n\nHis answer:\n\n«AI already knows how to do a junior lawyer’s job. A junior financial analyst’s. A junior consultant’s.\nWe can’t deny that it will also eliminate jobs, and probably in large numbers».\n\nIn a few minutes, he lists the professions that will disappear first and THE skill that will let you stay in the game.\n\nHis advice boils down to one sentence:\n\n«Obviously, learning to use AI».\n\nThose who start this year won’t compete against AI: they’ll be the ones directing it.\n\nEverything that follows is free. Start today:\n\n1. . Anthropic - Prompt Engineering Interactive Tutorial: the fastest way to learn how to direct a model. http://github.com/anthropics/prompt-eng-interactive-tutorial\n\n2. Anthropic Courses: from your first prompt to managing agents. \nhttp://github.com/anthropics/courses\n\n3. Anthropic Cookbook: practical recipes you can copy starting today. \nhttp://github.com/anthropics/anthropic-cookbook\n\n4. Microsoft - Generative AI for Beginners: 21 lessons, no degree required. http://github.com/microsoft/generative-ai-for-beginners\n\n5. Microsoft - AI Agents for Beginners: build agents that do a junior’s work for you. http://github.com/microsoft/ai-agents-for-beginners\n\n6. Hugging Face - Agents Course: free and with certification, from A to Z. http://github.com/huggingface/agents-course\n\n7. Google Cloud - Generative AI: hands-on notebooks from Google. http://github.com/GoogleCloudPlatform/generative-ai\n\n8. OpenAI Cookbook: code for every common task. http://github.com/openai/openai-cookbook\n\n9. http://DAIR.AI - Prompt Engineering Guide: the go-to guide everyone shares. \nhttp://github.com/dair-ai/Prompt-Engineering-Guide\n\n10. Andrej Karpathy - Neural Networks Zero to Hero: to understand what’s under the hood. http://github.com/karpathy/nn-zero-to-hero\n\n11. CrewAI: get your own team of AI workers up and running. \nhttp://github.com/crewAIInc/crewAI\n\n12. Microsoft - AutoGen: put several agents to work on the same task. \nhttp://github.com/microsoft/autogen\n\n13. Awesome LLM Apps: hundreds of hands-on projects to learn from. http://github.com/Shubhamsaboo/awesome-llm-apps\n\n14. http://DeepLearning.AI - Short Courses: free one-hour courses taught by subject-matter experts. http://deeplearning.ai/short-courses",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124060701543346176/img/O1EJQ81GlwXrPkLf.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124060701543346176/vid/avc1/1280x720/okRYSdVEMgqIfHSG.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1806220986913607680",
+            "likeCount": 56,
+            "viewCount": 3056,
+            "authorName": "TechIgnite AI",
+            "createdUtc": 1795250564,
+            "quoteCount": 1,
+            "replyCount": 9,
+            "authorImage": "https://pbs.twimg.com/profile_images/2096957694708211712/PlxtjHIW_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 20,
+            "bookmarkCount": 15,
+            "authorUsername": "ayush26291",
+            "authorVerified": false,
+            "conversationId": "2124060934406893992",
+            "authorFollowers": 3109
+          },
+          {
+            "id": "2124609821232050199",
+            "url": "https://x.com/DangerousThinkg/status/2124609821232050199",
+            "lang": "en",
+            "text": "The Last Man\n\nWhich studio would have the stones to produce this film and release it?\n\nAn incredible AI generated trailer\n\nA movie that many would go to a theater to see\n\nSiskel & Ebert would sit up and take notice, even in their current state https://t.co/ZGsZjf0qIo",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124609132376256512/img/IDAK5JYgcJRVIEKN.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124609132376256512/vid/avc1/720x570/OvD3xdAITDNIA8g5.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1660728219299971073",
+            "likeCount": 44,
+            "viewCount": 5194,
+            "authorName": "Dangerous Thoughts",
+            "createdUtc": 1795381429,
+            "quoteCount": 1,
+            "replyCount": 0,
+            "authorImage": "https://pbs.twimg.com/profile_images/1661085285986213888/NxXbGhtW_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 2,
+            "bookmarkCount": 8,
+            "authorUsername": "DangerousThinkg",
+            "authorVerified": true,
+            "conversationId": "2124609821232050199",
+            "authorFollowers": 152709
+          },
+          {
+            "id": "2122343938283483339",
+            "url": "https://x.com/Rainmaker1973/status/2122343938283483339",
+            "lang": "en",
+            "text": "This short animation wasn't drawn or filmed. Every scene, voice, and expression, even the presented slides, were generated by AI.\n\nA year ago, this would have taken a studio weeks. https://t.co/dxJGb8UVb7",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122305110877274112/img/xzqSeTi5Ly-eWkcA.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122305110877274112/vid/avc1/480x852/cpKdlGVXbdD_tGu0.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "177101260",
+            "likeCount": 43,
+            "viewCount": 26582,
+            "authorName": "Massimo",
+            "createdUtc": 1794841200,
+            "quoteCount": 0,
+            "replyCount": 6,
+            "authorImage": "https://pbs.twimg.com/profile_images/914888589670043654/KVvwjcWA_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 10,
+            "bookmarkCount": 14,
+            "authorUsername": "Rainmaker1973",
+            "authorVerified": true,
+            "conversationId": "2122343938283483339",
+            "authorFollowers": 4448459
+          }
+        ],
+        "nextCursor": "cur_ad1LDEZZATvupTW_SGTcXw"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-capybara",
+      "kind": "anonymous",
+      "name": "Capybara",
+      "artworkKey": "capybara"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00049",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:40:18.405Z",
+  "started_at": "2026-11-23T07:40:18.462Z",
+  "completed_at": "2026-11-23T07:40:19.718Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

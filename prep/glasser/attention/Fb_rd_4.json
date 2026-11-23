@@ -1,0 +1,211 @@
+{
+  "id": "62c5c23e-b2e8-41f6-aade-c04a585abf3f",
+  "run_url": "https://app.glasser.ai/runs/62c5c23e-b2e8-41f6-aade-c04a585abf3f",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "AI characters improv comedy bloopers",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "large_result: this response is ~12 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge. paging_unavailable: this result came from a source that cannot return a nextCursor, so it may be incomplete and there is no way to continue from here. Re-run with `requireFields: [\"nextCursor\"]` to be served only by a source that can page, which may cost more per request.",
+    "items": 7,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1xkso8k",
+            "url": "https://v.redd.it/anivtle44xyh1",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/Ym5ueG15NzQ0eHloMTSFJC21CXgrD2c1IyxhscfPRPhIpgj0rok86RCDDFfx.png?format=pjpg&auto=webp&s=dbd2cab0ff220fe06f01a3e168895fd4d7d240fb",
+                "type": "video",
+                "width": 720,
+                "height": 1280,
+                "videoUrl": "https://v.redd.it/anivtle44xyh1/CMAF_720.mp4?source=fallback"
+              }
+            ],
+            "score": 49731,
+            "title": "The Moment Rowan Atkinson Transforms into Mr. Bean is Absurd",
+            "author": "Alternative-Dot-34",
+            "authorId": "188xxdto2y",
+            "isLocked": false,
+            "selftext": "Honestly nothing humbles you quite like realizing your entire personality is just five different variations of sitting quietly while mentally screaming until it is socially acceptable to leave.\n\nThe video is from a vintage television interview featuring Rowan Atkinson discussing his comedic style and the genesis of his physical comedy characters. In the scene, Atkinson sits in a chair wearing a gray suit and patterned tie, explaining a comedic premise about an ordinary train passenger before standing up and demonstrating the bit. As he sits back down, his posture stiffens, his eyes widen into a mischievous stare, and he begins executing silent, exaggerated facial contortions and silent giggles. The sudden shift from an articulate interviewee into a cartoonish persona captures that exact moment someone’s internal chaos finally breaches the surface.",
+            "permalink": "/r/interesting/comments/1xkso8k/the_moment_rowan_atkinson_transforms_into_mr_bean/",
+            "subreddit": "interesting",
+            "createdUtc": 1793502629,
+            "isArchived": false,
+            "numComments": 767
+          },
+          {
+            "id": "1s52joz",
+            "url": "https://i.redd.it/hh0gpdqyykrg1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/hh0gpdqyykrg1.jpeg?auto=webp&s=e49ecf6dc36a991a4188501db4c1a2de9fa2600d",
+                "type": "photo",
+                "width": 1426,
+                "height": 1921
+              }
+            ],
+            "score": 42190,
+            "title": "Google's new AI algorithm might lower RAM prices",
+            "author": "Bobert25467",
+            "authorId": "3qw6mvvn",
+            "isLocked": false,
+            "selftext": "https://arstechnica.com/ai/2026/03/google-says-new-turboquant-compression-can-lower-ai-memory-usage-without-sacrificing-quality/",
+            "permalink": "/r/pcmasterrace/comments/1s52joz/googles_new_ai_algorithm_might_lower_ram_prices/",
+            "subreddit": "pcmasterrace",
+            "createdUtc": 1774614144,
+            "isArchived": false,
+            "numComments": 2053
+          },
+          {
+            "id": "1r3joqr",
+            "url": "https://www.reddit.com/r/Epstein/comments/1r3joqr/i_mapped_every_connection_in_the_epstein_files_it/",
+            "nsfw": false,
+            "media": [],
+            "score": 35096,
+            "title": "I mapped every connection in the Epstein files. It started with 6,000 documents. It's now 1.5 million. Here's what changed.",
+            "author": "EricKeller2",
+            "authorId": "5uqd8",
+            "isLocked": false,
+            "selftext": "A week ago I posted about an open database at [https://EpsteinExposed.com](https://EpsteinExposed.com) I've been building to cross-reference the Epstein case files that I've been working on for a couple of months. That post hit 568k views and 4.6k upvotes and took my server down twice.\n\nI have done nothing but ingest, clean, and index data since then. Here's where it stands.\n\n**Where it was vs. where it is now**\n\nLast week the database had roughly 6,000 documents. Right now it has 1,522,060. That's not a typo. One and a half million documents, all full-text searchable. You can search a name, an address, a company, an account number and it searches inside the actual pages (OCR where needed) and email bodies. Not just titles.\n\nFlights went from 1,708 to... still 1,708. More on that in a second.\n\nEmails went from 2,700 to over 10,000. Persons went from 1,438 to 1,350 after cleanup (duplicates, aliases, bad OCR entries). We also added 638,000 documents worth of redaction analysis, 107,000 named entities pulled via NLP, 1,530 audio and video transcripts, and over 4,300 photos and media items.\n\n**The redaction analysis**\n\nI'm not here to say every redaction is corrupt. Some obviously protect victims, minors, and addresses.\n\nBut the patterns are hard to explain away.\n\nWe analyzed 638,000 documents and found roughly 1.8 million individual redactions. Of those, about 616,000 were flagged as potentially improper, meaning the surrounding context suggests they're protecting individuals or hiding transactions rather than serving a legitimate legal purpose.\n\nWe also recovered 39,500 pages of text from under government black bars. Some of it names people. Some of it describes money moving. The government blacked it out anyway.\n\nI worked with a researcher who independently processed 519k PDFs with their own pipeline. That let us cross-check what we're finding. The patterns hold up.\n\nIf you want to judge for yourself, every doc page on the site shows redaction density and any recovered text.\n\n**Entity extraction**\n\n107,000 named entities pulled out via NLP. People, organizations, places, dates. At 1.5 million documents you cannot read your way through this. Structure is the only way to make it usable.\n\n**What happened this week**\n\nCongress is now actively fighting DOJ over the redactions.\n\nRep. Ro Khanna read six previously redacted names on the House floor: Leslie Wexner, Salvatore Nuara, Zurab Mikeladze, Leonic Leonov, Nicola Caputo, and Sultan Ahmed bin Sulayem.\n\nWexner was named as an FBI \"co-conspirator\" in a document that was redacted until Congress forced disclosure this month. A federal judge ordered Wexner to testify under oath, first time ever. Maxwell pleaded the Fifth before House Oversight, then offered testimony in exchange for clemency.\n\nUpcoming depositions: Wexner (Feb 18), Richard Kahn (Feb 25), Hillary Clinton (Feb 26), Bill Clinton (Feb 27), Darren Indyke (Mar 5). All indexed in the database with source documents linked.\n\nImportant caveat that I'll keep repeating.. being named in a document is not proof of wrongdoing. People appear in emails, contact lists, forwarded threads, and passing mentions. This applies to everyone in the database.\n\n**New tools**\n\nFull-text search across 1.5M documents, 28k OCR pages, and 10k emails. Not just titles. The actual content.\n\nAI research assistant where you can ask a question in plain English and get an answer with citations you can verify against the source docs.\n\nDegrees of separation tool that finds the shortest documented path between any two people with flights and docs shown at each hop.\n\nRedaction analysis on every document page showing density, flags, and recovered text.\n\nInvestigation dossiers that are community-built evidence boards. Pin any person, document, flight, or email. Add notes. Upvote, comment, add community fact-checks. 14 starter dossiers are live covering the biggest threads (Wexner pipeline, NPA cover-up, intelligence ties, the banks, modeling pipeline, survivors' fight).\n\nBlack Book explorer with an interactive viewer for Epstein's contacts cross-referenced against flights, documents, and known connections.\n\nTimeline browser with every event, filing, arrest, and deposition on a searchable timeline with filters.\n\nMedia gallery with over 4,300 items including FBI raid photos, property interiors, trial exhibits, and government releases.\n\n**What still bugs me**\n\nThe government didn't just withhold documents. In hundreds of thousands of cases, they blacked out specific names and transactions inside documents they claimed to release. Congress had to read six of those names into the record from the House floor. How many more are still under black bars?\n\nThe 2013 to 2019 passenger manifest gap is still there. 835 flights, zero released manifests. The DOJ still has the island visitor logbook, the boat logs, over 40 seized computers, and a database. The EFTA was supposed to release \"all\" records. It didn't.\n\n**The database**\n\nEverything is at EpsteinExposed.com. Free. No ads. No paywall.\n\nYou can browse the entire database without an account. Accounts are only needed for building dossiers and posting notes.\n\nCommunity forum for collaborative research: [board.epsteinexposed.com](http://board.epsteinexposed.com)\n\nAll data comes from publicly released court records, DOJ/FBI disclosures, House Oversight releases, FAA records, and the v2 research corpus.\n\nThis is built and maintained by one person. If it's been useful to you there's a support page on the site. Every dollar goes directly to server costs and data processing. No ads, no investors, no paywall, ever.\n\nIf you find errors, broken links, or bad data, call it out. That kind of cleanup is how this stays credible.\n\n**TL;DR:** Database went from roughly 6k docs to 1.5 million in a week. Full-text searchable. 616k potentially improper government redactions flagged. 39,500 pages of hidden text recovered. New tools include an AI assistant, investigation dossiers, black book explorer, timeline, and media gallery. Wexner depositions start Tuesday. Everything at epsteinexposed.com.\n\n**Update**\n\nThis post hit 4.4 million views. I genuinely did not expect that. The level of support has blown me away. Do you see what we can accomplish together?\n\nThank you to everyone who's been digging through the data, reporting errors, and building dossiers. A few of you found connections I'd missed entirely. Dozens of new people were added to the database this week based on things people flagged in the comments and DMs.\n\nAbout 14K in donations have come in less than 48 hours! This will go a long way towards keep the server alive and thriving. If you've gotten value out of this and want to help keep it running: [https://epsteinexposed.com/support](https://epsteinexposed.com/support).\n\nA few things worth repeating:\n\nBeing named in a document is not proof of wrongdoing. Don't dox people, don't post addresses, don't harass anyone. If this is going to be taken seriously by journalists and congressional staff it has to stay clean and source-based.\n\nIf you find an error, say something. Bad OCR, duplicate entries, false connections. That boring cleanup work is what makes this trustworthy.\n\nThe depositions start Tuesday. Wexner on Feb 18. That's four days from now. The database has everything we know indexed and ready for whatever comes out of it.\n\n/EDIT Many documents are offline due to a major upgrade in the data pipeline that will tremendously improve accuracy. (still 250K available and 1.5m pages)",
+            "permalink": "/r/Epstein/comments/1r3joqr/i_mapped_every_connection_in_the_epstein_files_it/",
+            "subreddit": "Epstein",
+            "createdUtc": 1770970663,
+            "isArchived": false,
+            "numComments": 1434
+          },
+          {
+            "id": "1rz0254",
+            "url": "https://i.redd.it/11hs1yld28qg1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/11hs1yld28qg1.jpeg?auto=webp&s=95f417e91e61589e4a62efff4fd4d3894ddb3d84",
+                "type": "photo",
+                "width": 1284,
+                "height": 2083
+              }
+            ],
+            "score": 34893,
+            "title": "Adam Pearson responds to comedian’s tweet: “You can tell a lot about a persons character by looking at who they're willing to punch down towards - even in the name of comedy.”",
+            "author": "LunaLore_",
+            "authorId": "1jmodce7dh",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/Fauxmoi/comments/1rz0254/adam_pearson_responds_to_comedians_tweet_you_can/",
+            "subreddit": "Fauxmoi",
+            "createdUtc": 1774022054,
+            "isArchived": false,
+            "numComments": 981
+          },
+          {
+            "id": "1w0vbjp",
+            "url": "https://i.redd.it/bp1e1p6175mh1.png",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/bp1e1p6175mh1.png?auto=webp&s=da12fdd40c22a4ba7f007622f1a29a510a151e0d",
+                "type": "photo",
+                "width": 640,
+                "height": 748
+              }
+            ],
+            "score": 31132,
+            "title": "Pokemon",
+            "author": "chinesebulk",
+            "authorId": "21a746sb3u",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/ComedyHell/comments/1w0vbjp/pokemon/",
+            "subreddit": "ComedyHell",
+            "createdUtc": 1787934448,
+            "isArchived": false,
+            "numComments": 361
+          },
+          {
+            "id": "1wivcd7",
+            "url": "https://i.redd.it/44jz39dka3qh1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/44jz39dka3qh1.jpeg?auto=webp&s=ca4f90d1b77955b96b833c031c069ce2d06415d9",
+                "type": "photo",
+                "width": 736,
+                "height": 736
+              }
+            ],
+            "score": 28054,
+            "title": "Honestly..there is a certain comedy/humor that Zuko brings to the group that i deadass feel like was missing for a while and this scene kinda showed it to me.",
+            "author": "Apprehensive_Ring_39",
+            "authorId": "7riwqpe5",
+            "isLocked": false,
+            "selftext": "Like he is deadass one of the funniest characters in the show without even trying to be and that's what's so funny to me.",
+            "permalink": "/r/TheLastAirbender/comments/1wivcd7/honestlythere_is_a_certain_comedyhumor_that_zuko/",
+            "subreddit": "TheLastAirbender",
+            "createdUtc": 1789654803,
+            "isArchived": false,
+            "numComments": 384
+          },
+          {
+            "id": "1w4fihg",
+            "url": "https://v.redd.it/v58d8cghhxmh1",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/am9kaDFxZ2hoeG1oMYgTHHr4TH1E2364nraS2FjoOoWb3n4XS1FH3dpgBnWW.png?format=pjpg&auto=webp&s=95bb31a90d902a79c53e48b48ddb078d7be9ed7e",
+                "type": "video",
+                "width": 1080,
+                "height": 1920,
+                "videoUrl": "https://v.redd.it/v58d8cghhxmh1/CMAF_1080.mp4?source=fallback"
+              }
+            ],
+            "score": 27844,
+            "title": "The AI Bubble",
+            "author": "explosivejoseph",
+            "authorId": "71bro",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/StandUpComedy/comments/1w4fihg/the_ai_bubble/",
+            "subreddit": "StandUpComedy",
+            "createdUtc": 1788277019,
+            "isArchived": false,
+            "numComments": 1146
+          }
+        ],
+        "nextCursor": "cur_wwMzesnXCLtd6cAuAucwVA"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-giraffe-5e3cbaa1",
+      "kind": "anonymous",
+      "name": "Giraffe",
+      "artworkKey": "giraffe"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00034",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:41:31.329Z",
+  "started_at": "2026-11-23T07:41:31.452Z",
+  "completed_at": "2026-11-23T07:41:33.588Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

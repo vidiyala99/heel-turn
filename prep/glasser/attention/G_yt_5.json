@@ -1,0 +1,267 @@
+{
+  "id": "42035bf9-e51c-49f9-a141-0349cc50ad2f",
+  "run_url": "https://app.glasser.ai/runs/42035bf9-e51c-49f9-a141-0349cc50ad2f",
+  "provider": "anyapi",
+  "endpoint": "/youtube.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "query": "AI agents play Werewolf mafia",
+    "sortBy": "popular",
+    "uploadDate": "this_year"
+  },
+  "output": {
+    "hint": "paging_unavailable: this result came from a source that cannot return a nextCursor, so it may be incomplete and there is no way to continue from here. Re-run with `requireFields: [\"nextCursor\"]` to be served only by a source that can page, which may cost more per request.",
+    "items": 17,
+    "output": {
+      "data": {
+        "videos": [
+          {
+            "id": "JhBtg-lyKdo",
+            "url": "https://www.youtube.com/watch?v=JhBtg-lyKdo",
+            "image": "https://i.ytimg.com/vi/JhBtg-lyKdo/hq720.jpg",
+            "title": "10 AIs Play Mafia",
+            "views": 2653795,
+            "channel": "Turing Games",
+            "authorId": "UCX_o-hHyIPhU43N_aGQG1GA",
+            "createdUtc": 1766475630,
+            "lengthText": "29:59",
+            "publishedTime": "11 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/SIOfIlZRNJUV5HEyT5PkjCaCcc7wvn3joNTP6bZXGAoQ4NS5gCAC1QgjpheLwHSbvT8GnbMFE_E=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "OwyUGkoLgwY",
+            "url": "https://www.youtube.com/watch?v=OwyUGkoLgwY",
+            "image": "https://i.ytimg.com/vi/OwyUGkoLgwY/hq720.jpg",
+            "title": "1 Human vs 10 AIs Mafia",
+            "views": 438716,
+            "channel": "Turing Games",
+            "authorId": "UCX_o-hHyIPhU43N_aGQG1GA",
+            "createdUtc": 1769154030,
+            "lengthText": "30:43",
+            "publishedTime": "10 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/SIOfIlZRNJUV5HEyT5PkjCaCcc7wvn3joNTP6bZXGAoQ4NS5gCAC1QgjpheLwHSbvT8GnbMFE_E=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "DgstvYY55D8",
+            "url": "https://www.youtube.com/watch?v=DgstvYY55D8",
+            "image": "https://i.ytimg.com/vi/DgstvYY55D8/hq720.jpg",
+            "title": "10 AIs Play Ultimate Werewolf",
+            "views": 127235,
+            "channel": "Turing Games",
+            "authorId": "UCX_o-hHyIPhU43N_aGQG1GA",
+            "createdUtc": 1784792430,
+            "lengthText": "29:47",
+            "publishedTime": "4 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/SIOfIlZRNJUV5HEyT5PkjCaCcc7wvn3joNTP6bZXGAoQ4NS5gCAC1QgjpheLwHSbvT8GnbMFE_E=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "KLsHik2IOdc",
+            "url": "https://www.youtube.com/watch?v=KLsHik2IOdc",
+            "image": "https://i.ytimg.com/vi/KLsHik2IOdc/hq720.jpg",
+            "title": "12 AIs Play Mafia: ChatGPT vs Gemini vs Grok",
+            "views": 3898,
+            "channel": "Schrodinger's Agents",
+            "authorId": "UCKX9aj_k2OX9qOyQSdKWW3g",
+            "createdUtc": 1769154030,
+            "lengthText": "31:52",
+            "publishedTime": "10 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/bnT98BCDpS_cq5WcHDXZqeCjBvuGuLScSuRbbIev48_u0Lv4xp_wxpVItXsDcWqsagjs9OUcv6M=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "LFa7j7_b4ic",
+            "url": "https://www.youtube.com/watch?v=LFa7j7_b4ic",
+            "image": "https://i.ytimg.com/vi/LFa7j7_b4ic/hq720.jpg",
+            "title": "AI Play Mafia : Vigilante vs Godfather",
+            "views": 3585,
+            "channel": "Schrodinger's Agents",
+            "authorId": "UCKX9aj_k2OX9qOyQSdKWW3g",
+            "createdUtc": 1771832430,
+            "lengthText": "20:48",
+            "publishedTime": "9 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/bnT98BCDpS_cq5WcHDXZqeCjBvuGuLScSuRbbIev48_u0Lv4xp_wxpVItXsDcWqsagjs9OUcv6M=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "vwea_8zHDrI",
+            "url": "https://www.youtube.com/watch?v=vwea_8zHDrI",
+            "image": "https://i.ytimg.com/vi/vwea_8zHDrI/hq720.jpg",
+            "title": "Play Ultimate Werewolf with AI (ChatGPT , Gemini ...)",
+            "views": 169,
+            "channel": "Mentiss AI",
+            "authorId": "UCyBYQnl-wPq-jPsx4NvUyAA",
+            "createdUtc": 1769154030,
+            "lengthText": "12:52",
+            "publishedTime": "10 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/yE093fpCSMAQgt6d0ZUdUluFuqrS52A9On64NesXCWdV2ragLO2YgFhvFBR27s5YQlF4ZR2sBQ=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "IA3IgqCld5I",
+            "url": "https://www.youtube.com/watch?v=IA3IgqCld5I",
+            "image": "https://i.ytimg.com/vi/IA3IgqCld5I/hq720.jpg",
+            "title": "Can AI Successfully Lie to Other AIs in Werewolf?",
+            "views": 149,
+            "channel": "Model Behavior",
+            "authorId": "UCWArcN3slnhW5He1yMvMYjg",
+            "createdUtc": 1792741230,
+            "lengthText": "36:47",
+            "publishedTime": "1 month ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/7RNvF-OeLkwQ4nKqd5xk8wfFRtRt_h0-DIIRs9z_m33gX3ZUM5tRO2QX-1hyo4CfWWinqyXe=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "xZ5IpS_knME",
+            "url": "https://www.youtube.com/watch?v=xZ5IpS_knME",
+            "image": "https://i.ytimg.com/vi/xZ5IpS_knME/hq720.jpg",
+            "title": "AI Werewolf: Full Game Played Entirely by AI Agents",
+            "views": 130,
+            "channel": "PlayAIWolf",
+            "authorId": "UCOgiA1fGuW1aiDMu6KMLU2w",
+            "createdUtc": 1787470830,
+            "lengthText": "12:29",
+            "publishedTime": "3 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/ytc/AIdro_mymR-MbSZiXcxemf76BWkS2_J1h-FgBePsVD9r7FjOXZDjU4qX1ONi8S2eqHfN6i8s0w=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "wYMMFhRPt4c",
+            "url": "https://www.youtube.com/watch?v=wYMMFhRPt4c",
+            "image": "https://i.ytimg.com/vi/wYMMFhRPt4c/hq720.jpg",
+            "title": "11 AI's play Mafia",
+            "views": 64,
+            "channel": "Mobie",
+            "authorId": "UCnF3irktHCtKmZBrQ-ptqcg",
+            "createdUtc": 1771832430,
+            "lengthText": "12:04",
+            "publishedTime": "9 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/_7duvQfzyz4Yn5AX7HboGOkBz9QrpfLwdq3TBrStf8UAx0zGJdSr1229YDn_1oegsnkm1v-3=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "xR12y0_dQ8k",
+            "url": "https://www.youtube.com/watch?v=xR12y0_dQ8k",
+            "image": "https://i.ytimg.com/vi/xR12y0_dQ8k/hq720.jpg",
+            "title": "20 AI AGENTS PLAY MAFIA",
+            "views": 56,
+            "channel": "The Last Observer",
+            "authorId": "UC4BEgkuVQ7exiMXthXpmbLg",
+            "createdUtc": 1794210030,
+            "lengthText": "24:29",
+            "publishedTime": "2 weeks ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/ytc/AIdro_mB0AEzuPBnHUnbJ05Kn6OFC0GWil99rk2mq0C8tMcOp8jSTPBxtIYFzdnOER1R9KYpvA=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "DpQWgr5q6Eg",
+            "url": "https://www.youtube.com/watch?v=DpQWgr5q6Eg",
+            "image": "https://i.ytimg.com/vi/DpQWgr5q6Eg/hq720.jpg",
+            "title": "10 AI Agents Play Mafia. Two of Them Are Lying. | Episode 1",
+            "views": 57,
+            "channel": "AI Supper Club",
+            "authorId": "UCP5de1asD6q2gizIO42GZGQ",
+            "createdUtc": 1790149230,
+            "lengthText": "32:22",
+            "publishedTime": "2 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/tjqsmKQpNA3uHHiXoT5I8mCtDmmz2jZR9r5LY9L_58M8dBj7fhNqAS-3Wq5F6n9W5OufFXj6tg=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "1Tv-U-EwSlI",
+            "url": "https://www.youtube.com/watch?v=1Tv-U-EwSlI",
+            "image": "https://i.ytimg.com/vi/1Tv-U-EwSlI/hq720.jpg",
+            "title": "MetaMafia: Building AI Agents for Social Deduction Games",
+            "views": 39,
+            "channel": "Scotty Hoag",
+            "authorId": "UCIbt6XmQjTGSUncbt8pe_6A",
+            "createdUtc": 1779522030,
+            "lengthText": "3:36",
+            "publishedTime": "6 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/ytc/AIdro_m84es8p0aHENy_Edra8pNKbFyAdlKmcVPFyjY8OeSEMls=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "_TXVXkwerK0",
+            "url": "https://www.youtube.com/watch?v=_TXVXkwerK0",
+            "image": "https://i.ytimg.com/vi/_TXVXkwerK0/hq720.jpg",
+            "title": "I Made 8 AI Agents Play Mafia. Here's What Happened",
+            "views": 35,
+            "channel": "Simulation Protocol",
+            "authorId": "UCaeD-cYXh1Tlec13yT__YKw",
+            "createdUtc": 1792741230,
+            "lengthText": "35:03",
+            "publishedTime": "1 month ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/6WLfMmUk4DqNo-NJsGGNsa_LyeNXwnVJAYdeZ688CJENfo5gwBm-5ren6jBqnwnPFQxvOCxDyA=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "6uBgXeEHEL8",
+            "url": "https://www.youtube.com/watch?v=6uBgXeEHEL8",
+            "image": "https://i.ytimg.com/vi/6uBgXeEHEL8/hq720.jpg",
+            "title": "AI Agents Playing Mafia",
+            "views": 17,
+            "channel": "ADHD Maxxing",
+            "authorId": "UCTZSt76AF66DZotPwMoju5w",
+            "lengthText": "38:40",
+            "publishedTime": "Streamed 1 month ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/WTyylXuHcBkjToNF-KG2Uep4XEQ9z1KrB89ZFnwGEgqcTFV256j_Z16QtMyY0c3dESrVVvpQ=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "7Dprm5tL57o",
+            "url": "https://www.youtube.com/watch?v=7Dprm5tL57o",
+            "image": "https://i.ytimg.com/vi/7Dprm5tL57o/hq720.jpg",
+            "title": "We Made 8 AI Countries Play Mafia",
+            "views": 30,
+            "channel": "Simulation Protocol",
+            "authorId": "UCaeD-cYXh1Tlec13yT__YKw",
+            "createdUtc": 1792741230,
+            "lengthText": "38:56",
+            "publishedTime": "1 month ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/6WLfMmUk4DqNo-NJsGGNsa_LyeNXwnVJAYdeZ688CJENfo5gwBm-5ren6jBqnwnPFQxvOCxDyA=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "tud4ZpfBH3o",
+            "url": "https://www.youtube.com/watch?v=tud4ZpfBH3o",
+            "image": "https://i.ytimg.com/vi/tud4ZpfBH3o/hq720.jpg",
+            "title": "Season 1, Episode 11 - Large Language Mafia: Why AIs Playing Werewolf Matters",
+            "views": 13,
+            "channel": "CasiornThinks",
+            "authorId": "UCZ6XoRtQOeMP4rndtUovIog",
+            "createdUtc": 1779522030,
+            "lengthText": "12:09",
+            "publishedTime": "6 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/0WjMVARkhhg2Ze3kgGsZevpqCIgegPYwvOuUbNbmAY8YxhfFrmQNn_-EkE26tM9IHeKb7xMTqA=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "ruYHUw_Xxwk",
+            "url": "https://www.youtube.com/watch?v=ruYHUw_Xxwk",
+            "image": "https://i.ytimg.com/vi/ruYHUw_Xxwk/hq720.jpg",
+            "title": "Agent-Bravo's 4-round deception masterclass! #Shorts #Prescio #AImafia",
+            "views": 1,
+            "channel": "Prescio",
+            "authorId": "UCNEMt7OwMTNfIgvLg0r4w5Q",
+            "createdUtc": 1774251630,
+            "lengthText": "0:31",
+            "publishedTime": "8 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/29HsN3jB_u8zDyhFXTUOqYwAnaMWf242SYCnR1kYQSNPky26hVP3VdLwcMR3eb_YqTnikWB3qw=s68-c-k-c0x00ffffff-no-rj"
+          }
+        ]
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-badger",
+      "kind": "anonymous",
+      "name": "Badger",
+      "artworkKey": "badger"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.0012",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:40:28.777Z",
+  "started_at": "2026-11-23T07:40:28.899Z",
+  "completed_at": "2026-11-23T07:40:30.383Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

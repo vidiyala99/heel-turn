@@ -1,0 +1,220 @@
+{
+  "id": "c3c4a528-fcd3-432e-8188-861b090f59f3",
+  "run_url": "https://app.glasser.ai/runs/c3c4a528-fcd3-432e-8188-861b090f59f3",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "Smallville generative agents town",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "large_result: this response is ~17 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge. paging_unavailable: this result came from a source that cannot return a nextCursor, so it may be incomplete and there is no way to continue from here. Re-run with `requireFields: [\"nextCursor\"]` to be served only by a source that can page, which may cost more per request.",
+    "items": 7,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1r7x023",
+            "url": "https://i.redd.it/cmyieappl7kg1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/cmyieappl7kg1.jpeg?auto=webp&s=bd5adcbb315fc1291a3463efbe5a78487efdc64c",
+                "type": "photo",
+                "width": 1206,
+                "height": 1301
+              }
+            ],
+            "score": 39802,
+            "title": "When you skip validation for AI generated results",
+            "author": "Epelep",
+            "authorId": "chsmv",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/Wellthatsucks/comments/1r7x023/when_you_skip_validation_for_ai_generated_results/",
+            "subreddit": "Wellthatsucks",
+            "createdUtc": 1771401363,
+            "isArchived": false,
+            "numComments": 1394
+          },
+          {
+            "id": "1revg00",
+            "url": "https://i.redd.it/wa07kab5jqlg1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/wa07kab5jqlg1.jpeg?auto=webp&s=26a5a0f6355d71331d600833ce0f7ae4ce678a0f",
+                "type": "photo",
+                "width": 1290,
+                "height": 1533
+              }
+            ],
+            "score": 28624,
+            "title": "Blind refugee abandoned by Border Patrol is dead. Nurul Amin Shah Alam, a Rohingya refugee from Burma, was nearly blind and spoke no English. He was dropped off by agents in Buffalo on the other side of town from his home. His family was not notified of his release. Police are investigating",
+            "author": "Getatbay",
+            "authorId": "laxdzlw4",
+            "isLocked": true,
+            "selftext": "https://www.investigativepost.org/2026/02/25/blind-refugee-abandoned-by-border-patrol-is-dead/",
+            "permalink": "/r/UnderReportedNews/comments/1revg00/blind_refugee_abandoned_by_border_patrol_is_dead/",
+            "subreddit": "UnderReportedNews",
+            "createdUtc": 1772066377,
+            "isArchived": false,
+            "numComments": 755
+          },
+          {
+            "id": "1xl3opj",
+            "url": "https://i.redd.it/10vk8tydb0zh1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/10vk8tydb0zh1.jpeg?auto=webp&s=93959205650aa5f1e0cca2f5927fa914621fe22a",
+                "type": "photo",
+                "width": 1179,
+                "height": 2096
+              }
+            ],
+            "score": 22592,
+            "title": "Small towns are small towns for a reason.",
+            "author": "exporterofgold",
+            "authorId": "6qhtpwtm",
+            "isLocked": false,
+            "selftext": "The food’s a mystery sandwich from a random deli.\n\nAs someone who grew up in a city of over 4 million people, I always had a naive view of what small town life was like. I grew up watching shows like Smallville and Supernatural and basically thought it’d be like that. I know…it’s stupid lol.\n\nI moved to a small town and lived there for about a year and half and it was legit one of the worst experiences in my life. For one, there were no jobs. I mean, no jobs at all; I applied to anything I could find. Don’t even get me started entertainment wise.\n\nThe people are also so insular. I used to think I was an introvert all my life until I saw what true introversion was and that is not me at all haha.\n\nI’ve moved back to the city, and I’ve never been so alive. I don’t even stress to get a job. Went for an interview the other day and half assed it and got an offer in a week. Money wise, I’m doing good again. And I’ve met people from all over the world.\n\nYou couldn’t pay me to live in anywhere less than a million again.",
+            "permalink": "/r/BoyDinnerDiaries/comments/1xl3opj/small_towns_are_small_towns_for_a_reason/",
+            "subreddit": "BoyDinnerDiaries",
+            "createdUtc": 1793541392,
+            "isArchived": false,
+            "numComments": 1094
+          },
+          {
+            "id": "1q4rira",
+            "url": "https://www.reddit.com/gallery/1q4rira",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/grpnh65sckbg1.jpg?width=1080&format=pjpg&auto=webp&s=b88f63b026f26b3aaf9cffbf965162c8ef2cb66a",
+                "type": "photo",
+                "width": 1080,
+                "height": 1998
+              },
+              {
+                "url": "https://preview.redd.it/a3xba5esckbg1.jpg?width=1080&format=pjpg&auto=webp&s=53612c1bab3755cdbeedbb8ed9f330e0e8afe27f",
+                "type": "photo",
+                "width": 1080,
+                "height": 1350
+              },
+              {
+                "url": "https://preview.redd.it/5y1dr0lsckbg1.jpg?width=1080&format=pjpg&auto=webp&s=3446237d39f347eb5e246b64c723ac3e754e7132",
+                "type": "photo",
+                "width": 1080,
+                "height": 1101
+              },
+              {
+                "url": "https://preview.redd.it/ar922rssckbg1.jpg?width=1080&format=pjpg&auto=webp&s=aa65bf443c1b5f18c1fd1edb18a0af9467fccb1f",
+                "type": "photo",
+                "width": 1080,
+                "height": 1100
+              }
+            ],
+            "score": 20086,
+            "title": "Ironically, the character gets away by telling the truth.",
+            "author": "SatoruGojo232",
+            "authorId": "spngawh1q",
+            "isLocked": false,
+            "selftext": "1. Walter White openly admitting to his brother-in-law Hank Schrader (who is a DEA agent) in \"Breaking Bad\" that the bag he is carrying contains half a million in cash (from his secret meth manufacturing empire) which Hank laughs off as a joke.\n\n2. Clark Kent openly revealing that he's actually Superman to his love interest and fellow journalist colleague Lois Lane when she expresses her curiosity on how he manages to be at the scene of every sensational event within Metropolis, which Lois dismisses as a sick joke.\n\n3. Walter White, in another scene from \"Breaking Bad\", openly admitting that the WW in the recovered diary of Gale Boetticher, a scientist who worked for the meth manufacturing drug empire of Gus Fring, actually refers to him, to Hank Schrader when he jokingly makes that assumption. While Hank later on does use this moment to eventually figure out Walter's secret criminal activities, in this particular scene he laughs it off as Walt making a sarcastic joke.\n\n4.Bruce Wayne openly revealing once to a judge in court that he's Batman, which is just ignored by the judge and the rest of the court assuming him to be delusional. There's another instance in the comics apparently where he's in a courtroom and he tells the judge \"Your honour, I cannot make any unbiased statements with regards to the recent Batman-related incidents in Gotham because I am the Batman\" which again everyone laughs off as him being sarcastic and funny. It's also said that in some narratives he secretly visits many online communities through anonymous accounts to spread theories that Bruce Wayne is Batman, which are written off by the public as \"wild conspiracy theories\".",
+            "permalink": "/r/TopCharacterTropes/comments/1q4rira/ironically_the_character_gets_away_by_telling_the/",
+            "subreddit": "TopCharacterTropes",
+            "createdUtc": 1767633121,
+            "isArchived": false,
+            "numComments": 869
+          },
+          {
+            "id": "1udjzie",
+            "url": "https://i.redd.it/zdhg2vm7u19h1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/zdhg2vm7u19h1.jpeg?auto=webp&s=96f68f8d442fff416c67fbad30eb8641430446d0",
+                "type": "photo",
+                "width": 3024,
+                "height": 4032
+              }
+            ],
+            "score": 18684,
+            "title": "My mom is posting fanfic and AI images about her fictional harem of REAL MEN SHE KNOWS living in a town together with her as the mayor",
+            "author": "Gojiquats",
+            "authorId": "3wiohem",
+            "isLocked": false,
+            "selftext": "I don’t know what to even say to my mother anymore. My mom has taken her obsession with men and social media to a new level now exacerbated by AI.\n\nFor some context, my mom has always been very odd, like to the point where she is very well known in every community I’ve ever been in for being bizarre and generally hostile and angry (especially toward me, the lucky only child lol). It was literally traumatic dealing with her all my childhood and adolescence, so now at 30 I just keep her at arm’s length.\n\nI won’t get into every detail because we’d be here all day, but some of the stranger things include making me break up with my first boyfriend in middle school because she had feelings for him (no, he and his parents did not appreciate it), banning an extremely historically significant book from my entire school district because it contained the word “vagina”, posting batshit insane posts all day and night on social media spreading very personal info about other people (something like 60,000 Facebook posts), running an IG account for sensual photos of her feet, making a scene at my wedding because she didn’t like one of the songs that played because it reminded her of a guy she had an affair with, hardcore MAGA bible thumping. You get the idea (maybe)? She said her favorite hobby is posting on Facebook if that tells you anything. And also she has cheated on my dad like a billion times but they’re still together specifically because she relies on him financially as she didn’t want to work. Their marriage has been god awful ever since I could remember, I don’t know what is even going on there.\n\nANYWAY her favorite topic is men, specifically any man who gives her any attention whatsoever, even if in a professional context. So that generally means: her pharmacist, her therapist, her chiropractor (who she wrote an AI book about — that’s another rabbit hole), gym employees, etc. She will very openly have a thing for these men to where she centers her whole life and personality around them and orbits them for years and vague-posts about them every day. She recently has started a campaign on social media where she has generated her collection of men as uncannily accurate AI images and she attaches AI fan fiction about how the men all live together in a town that she’s the mayor of (no, her husband isn’t invited to the town I guess). I don’t know why this was the final straw of my remaining sanity, but seeing MANY AI photos and fanfic of her married chiropractor man (who she INCLUDES THE REAL NAME OF!!) and her on her public Facebook page just left me speechless.\n\nShe posted several dozen of these images and stories for a few weeks, even making a dedicated Facebook page for it that she invited a ton of people to follow. After not getting traction or engagement on the posts, she finally posted a collection of AI images announcing she was going to run a “pageant” of all the men in her lore so the audience could vote on the best man. She included ACTUAL REAL DETAILS about these actual real men with AI images depicting them in various scenarios (running a 5k, drinking coffee with her, etc.)\n\nThen when no one participated in the vote of best man, she made a post complaining that no one is giving it the attention she expected. She then posted an image that said “OFFICIAL ANNOUNCEMENT: Due to lack of participation, voting has concluded. With no votes cast, no winner will be named.”\n\nIdk why, but that image was the final, final straw. I don’t know what I’m even supposed to say. I’ve always had a strained relationship with her which has caused a lifetime of mommy issues lol, but I’m at the point where it’s like… there is nothing I could say or do to help the situation. I’ve expressed concern many times over the years, she’s always just blown me off. She is not interested in anyone’s opinion if it isn’t from her idolized men. Yes she has been in therapy many times, no there is not even a hint of substance usage going on. She ALWAYS insists everything is innocent and that there is nothing strange about it, and that everyone else is the problem for not seeing it.\n\nJust ranting, I suppose. My husband has said before that he would have gone no contact by now. I have gone to pretty low contact, but it’s not the greatest since my parents are my only surviving family. My dad checked out decades ago so he has nothing to say about it lol.\n\nAnyway I’m avoiding her for at least as long as it takes for her to give up on this and move onto some other cringe activity because I’m tapping out of this one.\n\nCelsius and Aldi protein pudding for breakfast. The pudding is surprisingly packed with protein, it’s a great snack/light meal. 10/10.\n\nEdit: Okay so I wasn’t expecting this much attention on it lol. I’ve been dealing with her for so long that this just feels normal to me now, your responses have helped me put things into perspective.\n\nSince the middle school boyfriend is coming up in comments a lot: It was a really weird situation. I was in 8th grade, he was in 9th, so he was 14/15 when we dated. He is a great guy, we are still friends to this day. He looked much older than his age and had facial hair, many people thought I was dating a grown ass man. She would CONSTANTLY ask about him/talk about him, she didn’t allow me to delete my text messages with him because she wanted to read our conversations. (We SHARED a cell phone when I was in middle and high school.) She wouldn’t let me do things I wanted to do like make Easter eggs unless I invited him. She’d go with us on “dates” and sit at the table with us and play her romance music. She suddenly forbade me from speaking to him at all because she found out we kissed once (the horror!), then stepped in and would message him using my Facebook account in the middle of the night. His mom (who is a lovely woman) rightfully told her to get away from him, and then she I guess stopped. I was limited to the info I could get since she controlled my phone and communications. He still jokes about it to this day and has asked my husband if she did the same thing to him. The only explanation she gave me was “it’s natural to want to feel wanted by a man of any age.” He definitely was not about it at all.\n\nRegarding her mental health/diagnosis: I think the only things she has been officially diagnosed with are depression, anxiety, and CPTSD. She had a horribly abusive childhood that included getting abused by her adoptive parents and married off at 16. I really do feel for her in that regard, because she clearly hasn’t been able to work through it. I ALSO have depression, anxiety, and CPTSD from growing up in this environment lol. Histrionic sounds about right, but again there hasn’t been a diagnosis.\n\n**Another** **edit**: I just looked at the posts again. It appears that all posts using the real name of at least one of the men have been removed so something happened there.  He now has a different name but the same face. ",
+            "permalink": "/r/GirlDinnerDiaries/comments/1udjzie/my_mom_is_posting_fanfic_and_ai_images_about_her/",
+            "subreddit": "GirlDinnerDiaries",
+            "createdUtc": 1782227782,
+            "isArchived": false,
+            "numComments": 1656
+          },
+          {
+            "id": "1qql16y",
+            "url": "https://newrepublic.com/post/205893/maga-representative-booed-town-hall-support-ice",
+            "nsfw": false,
+            "media": [],
+            "score": 17336,
+            "title": "MAGA Rep. Booed Out of Town Hall For Refusing to Denounce ICE Killings: Representative Harriet Hageman’s constituents tore into her.",
+            "author": "thenewrepublic",
+            "authorId": "ba0snhoh",
+            "isLocked": false,
+            "selftext": ">Wyoming Representative Harriet Hageman faced hostile blowback from a crowd at Casper College Tuesday evening, who so furiously demanded answers from the MAGA lawmaker regarding ICE agents killing Alex Pretti and Renee Good that they effectively jeered her out of the assembly hall.\n\n>“I’m a student here at CC, and I was here at the last town hall back in August. You mentioned Laken Riley,” a male student said, referring to the 22-year-old who was murdered in 2024 by a Venezuelan immigrant. “However, you did not mention today either of the people who were killed in Minnesota recently. Why is that?”\n\n>The question elicited uproar from the crowd, footage published by WyoFile showed. One older man shouted, “shot 10 times in the back,” referring to the number of times agents shot Pretti.\n\n>“When I was speaking in August I was describing the Laken Riley Act that we had passed earlier in the year,” Hageman responded before the student cut her off.\n\n>“That’s not the question. Why haven’t you mentioned either of the people killed in Minnesota?” he pressed.\n\n>“Let me answer the question. I spoke about Laken Riley because it was one of the bills that we passed. I haven’t talked about what’s happening in Minnesota today,” Hageman continued.\n\n>But that set off the crowd again.\n\n>...",
+            "permalink": "/r/UnderReportedNews/comments/1qql16y/maga_rep_booed_out_of_town_hall_for_refusing_to/",
+            "subreddit": "UnderReportedNews",
+            "createdUtc": 1769720703,
+            "isArchived": false,
+            "numComments": 280
+          },
+          {
+            "id": "1pvekwr",
+            "url": "https://www.reddit.com/r/pettyrevenge/comments/1pvekwr/tying_to_inflate_your_commmission_how_about_no/",
+            "nsfw": false,
+            "media": [],
+            "score": 16143,
+            "title": "Tying to inflate your commmission? How about 'No'?",
+            "author": "UncleHeavy",
+            "authorId": "ci0ke",
+            "isLocked": false,
+            "selftext": "I'm not sure if this fits here, but a friend suggested that you all might get a laugh out of this.  \n  \nAbout 22 years ago I was buying an old farmhouse and land that had been on the market for 2 years.   \nI liked what I saw, knew there was going to be a ton of work to make it habitable, but I was willing to put the time and money into it.   \nContacted their agent and everything was going swimmingly.   \n48 hours from exchanging contracts and what do you know? A new buyer has offered £30k over my offer, but the sellers like me, so if I can go £5k above that, the agent is sure I will be able to get the house.  \nNow my parents were many things, but they did not bring me up to be a fool, and I was well aware that I was being played and he was trying to inflate his commission.  \nI simply told the estate agent to advise the sellers to take the increased bid and to make it easier, I was withdrawing my offer immediately. I was willing to take the financial loss of all the surveys, etc. because I don't like being screwed over by anyone.  \nI wish I was a fly on the wall to see how that conversation went...  \nBy chance, I saw the sellers in town about 3 months later and they said that they hoped that I was recovering from my illness that had forced me to withdraw from the sale.   \nYes, that was genuinely the story the Estate Agent had come up with.  \nNow, I could have nodded and smiled, but I decided to tell them the truth instead. That their estate agent had tried to squeeze me for an additional £35k and that because of his actions, the property was still for sale.  \nLong story short, we had a chat and they were still willing to sell to me and since I had all the paperwork, surveys, etc. ready to go, they could pull the property from the market, & we could just get solicitors to do their bit and conduct it as a private sale.  \nSo that's what we did.  \nI got my house, the sellers got a fair price, and the agent didn't get a penny.  \nWas it Petty? Yes.  \nWas it worth it? Absolutely.",
+            "permalink": "/r/pettyrevenge/comments/1pvekwr/tying_to_inflate_your_commmission_how_about_no/",
+            "subreddit": "pettyrevenge",
+            "createdUtc": 1766673230,
+            "isArchived": false,
+            "numComments": 322
+          }
+        ],
+        "nextCursor": "cur_T--c5dLJnqdRBaQVWE49yg"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-giraffe-5e3cbaa1",
+      "kind": "anonymous",
+      "name": "Giraffe",
+      "artworkKey": "giraffe"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00034",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:40:28.587Z",
+  "started_at": "2026-11-23T07:40:28.739Z",
+  "completed_at": "2026-11-23T07:40:30.363Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

@@ -1,0 +1,98 @@
+{
+  "id": "017405c5-9d00-4ac8-aac2-0d6fd2228c6b",
+  "run_url": "https://app.glasser.ai/runs/017405c5-9d00-4ac8-aac2-0d6fd2228c6b",
+  "provider": "serper",
+  "endpoint": "/search",
+  "endpoint_version": 2,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "q": "Crewbase Collective Zero Human Startup Hackathon winners"
+  },
+  "output": {
+    "organic": [
+      {
+        "link": "https://www.linkedin.com/posts/abhinav-garg-12b9343b5_my-team-and-i-just-won-500-at-the-zero-human-activity-7494806275881459712-Pp3C",
+        "title": "Abhinav Garg's Post",
+        "snippet": "My team and I just won $500 at the Zero-Human Company Hackathon, second place for Superserve, but that wasn't even the best part.",
+        "position": 1,
+        "displayedLink": "https://www.linkedin.com › posts › abhinav-garg-12b9343b5_my-t..."
+      },
+      {
+        "link": "https://luma.com/jrtd50a7",
+        "title": "Zero Human Startup Hackathon | #SFTechWeek",
+        "snippet": "​6:00 – 8:00 | Final Demos & Winners ... ​​Organized by Crewbase Collective. ​Crewbase Collective is organization running hackathons and events across the San ...",
+        "position": 2,
+        "displayedLink": "https://luma.com › jrtd50a7"
+      },
+      {
+        "link": "https://www.instagram.com/reel/Dcd6W_yvMDM/",
+        "title": "Meet the winners of the Agentic Hackathon! What an incredible ...",
+        "position": 3,
+        "displayedLink": "https://www.instagram.com › reel › Dcd6W_yvMDM"
+      },
+      {
+        "link": "https://crewbasecollective.com/events",
+        "title": "Hackathons, Workshops & Events - Crewbase Collective",
+        "snippet": "Zero Human Startup Hackathon. Hackathon. Zero Human Startup Hackathon. Oct 7, 2026. 10:00 AM – 5:00 PM. Sports Basement Outdoor & Camping, 1590, Bryant Street ...",
+        "position": 4,
+        "displayedLink": "https://crewbasecollective.com › events"
+      },
+      {
+        "date": "Oct 7, 2026",
+        "link": "https://www.tech-week.com/calendar/sf/events/zero-human-startup-hackathon-sf-techweek-3b61694c-3ed6-4bf8-b54b-c364b66d5934",
+        "title": "Zero Human Startup Hackathon | #SF TechWeek",
+        "snippet": "Build an Zero Human startup powered by a team of AI agents. Phase 1 is the foundation; Phase 2 is where you turn it into a functioning company.",
+        "position": 5,
+        "displayedLink": "https://www.tech-week.com › calendar › ... › zero-human-startup-hackatho..."
+      },
+      {
+        "link": "https://www.tiktok.com/@medallionxln/video/7694157741857705246",
+        "title": "SF Tech Week recap: Zero Human Hackathon, DigitalOcean truck ...",
+        "position": 6,
+        "displayedLink": "https://www.tiktok.com › @medallionxln › video › 7694157741857705246"
+      },
+      {
+        "link": "https://www.linkedin.com/posts/zubair480_we-won-2nd-place-at-crewai-hackathon-in-san-activity-7487710934313013248-JC6O",
+        "title": "Zubair Zafar's Post",
+        "snippet": "We won 2nd Place at CrewAI hackathon in San Francisco At 12:51 AM on Sunday, my phone rang. I was home sick, completely unaware of the ...",
+        "position": 7,
+        "displayedLink": "https://www.linkedin.com › posts › zubair480_we-won-2nd-place-..."
+      },
+      {
+        "link": "https://www.instagram.com/reel/Dbbz_yXOwZc/",
+        "title": "Super excited to have partnered with @hackathoncompany for the YC ...",
+        "position": 8,
+        "displayedLink": "https://www.instagram.com › reel › Dbbz_yXOwZc"
+      },
+      {
+        "date": "Oct 20, 2024",
+        "link": "https://www.unitec.ac.nz/hackathon-winners-using-ai-to-help-businesses-reduce-carbon-footprint/",
+        "title": "Hackathon winners using AI to help businesses reduce carbon footprint",
+        "snippet": "The winning projects and teams are as follows: · First place ($4,000 cash prize) – Getting control of carbon footprint with ECOLENS. · Second ...",
+        "position": 9,
+        "displayedLink": "https://www.unitec.ac.nz › hackathon-winners-using-ai-..."
+      }
+    ],
+    "searchParameters": {
+      "q": "Crewbase Collective Zero Human Startup Hackathon winners",
+      "type": "search",
+      "engine": "google"
+    }
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.001",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:36:30.008Z",
+  "started_at": "2026-11-23T07:36:30.048Z",
+  "completed_at": "2026-11-23T07:36:30.602Z",
+  "task_id": "tsk_965d2263a224d7b9",
+  "metadata": {}
+}

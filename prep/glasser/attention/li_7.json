@@ -1,0 +1,486 @@
+{
+  "id": "0380748a-6001-456b-aedf-907136c04af5",
+  "run_url": "https://app.glasser.ai/runs/0380748a-6001-456b-aedf-907136c04af5",
+  "provider": "scrapecreators",
+  "endpoint": "/v1/linkedin/search/posts",
+  "endpoint_version": 4,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "query": "AI hackathon demo video agents"
+  },
+  "output": {
+    "posts": [
+      {
+        "url": "https://www.linkedin.com/posts/tamirdresher_new-blog-post-i-needed-a-hackathon-demo-activity-7435442466352254976-cjr-",
+        "image": null,
+        "media": null,
+        "author": {
+          "url": "https://il.linkedin.com/in/tamirdresher",
+          "name": "Tamir Dresher",
+          "image": "https://media.licdn.com/dms/image/v2/D4D03AQHju5iO3AJdlQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1673103421624?e=2147483647&v=beta&t=OYLO2LgZD_SYVnLgSNm5CjdRODU1df0Z5MQAOqmDN_Y",
+          "followers": 4884
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7435442503987724288",
+            "urn": "urn:li:comment:(urn:li:activity:7435442466352254976,7435442503987724288)",
+            "text": "https://www.tamirdresher.com/blog/2026/03/05/ai-produced-demo-video",
+            "author": "Tamir Dresher",
+            "linkedinUrl": "https://il.linkedin.com/in/tamirdresher",
+            "datePublished": "2026-03-05T21:53:56.793Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "8mo"
+          },
+          {
+            "id": "7435591197760364544",
+            "urn": "urn:li:comment:(urn:li:activity:7435442466352254976,7435591197760364544)",
+            "text": "Remtion with its agent skill is amazing, you get production grade demos in no time",
+            "author": "Guy Bertental",
+            "linkedinUrl": "https://il.linkedin.com/in/guybe",
+            "datePublished": "2026-03-06T07:44:48.151Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "8mo"
+          },
+          {
+            "id": "7435589108279963648",
+            "urn": "urn:li:comment:(urn:li:activity:7435442466352254976,7435589108279963648)",
+            "text": "Sounds awesome Tamir!",
+            "author": "Moaid Hathot",
+            "linkedinUrl": "https://www.linkedin.com/in/moaid-hathot",
+            "datePublished": "2026-03-06T07:36:29.980Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "8mo"
+          },
+          {
+            "id": "7435487648976359424",
+            "urn": "urn:li:comment:(urn:li:activity:7435442466352254976,7435487648976359424)",
+            "text": "That’s genius.",
+            "author": "Pallav Rustogi",
+            "linkedinUrl": "https://in.linkedin.com/in/pallavrustogi",
+            "datePublished": "2026-03-06T00:53:20.196Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "8mo"
+          }
+        ],
+        "likeCount": 36,
+        "contentUrn": "urn:li:share:7435442465781956608",
+        "activityUrn": "urn:li:activity:7435442466352254976",
+        "description": "New blog post! 🚀\nI needed a hackathon demo video.\nPresenting 12 CLI commands.\nNarration.\nTitle cards.\n\nNormally that means opening a video editor and spending way too much time trimming takes and fixing audio.\n\nInstead I tried something different.\nI had an AI agent produce the whole video.\n\nThe agent connected to my terminal via CLI Tunnel, typed each command while I screen-recorded, generated synchronized narration using Edge TTS, mixed the audio with FFmpeg, and added animated title cards using Remotion.\nI reviewed each version from my phone via Teams and sent feedback like:\n“Volume too low.”\n“Swap these two commands.”\n\nThe agent regenerated the video each time.\nThe result: a full demo video produced end-to-end by an AI agent.\n\n0 manual video editing.\nFull write-up:\nhttps://lnkd.in/epT9ttmZ",
+        "commentCount": 4,
+        "datePublished": "2026-03-05T21:53:47.803Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/diogo-de-lucena_great-work-by-grant-fleming-in-our-internal-activity-7524988271920283649-4XRC",
+        "name": "Great work by Grant Fleming  in our internal hackathon showing that AI agents can share your secrets with other agents to get help with a task 😬\n\nCurious what else happens when agents work together?… | Diogo Schwerz de Lucena",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4D05AQEN8mrr4OvN1g/mp4-720p-30fp-crf28/B4DaG4OYV0KEB8-/0/1794092152224?e=2147483647&v=beta&t=Xh3hzKg3nITZQG68ILU97L7GwJDyLz9oBGRRAT_c198",
+        "author": {
+          "url": "https://www.linkedin.com/in/diogo-de-lucena",
+          "name": "Diogo Schwerz de Lucena",
+          "image": "https://media.licdn.com/dms/image/v2/C5603AQHdPCrwJtBNIA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1535861039845?e=2147483647&v=beta&t=_kL0-cijZx01xXLjISZueaS1pQNIBv4G2nNgF1DpkLg",
+          "followers": 1453
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7525943286881042432",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7524988270972162048,7525943286881042432)",
+            "text": "So cool",
+            "author": "Remy Pinson DipWSET",
+            "linkedinUrl": "https://fr.linkedin.com/in/remyphd",
+            "datePublished": "2026-11-10T15:31:44.857Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 15,
+        "contentUrn": "urn:li:ugcPost:7524988270972162048",
+        "uploadDate": "2026-11-08T00:16:51.546Z",
+        "activityUrn": "urn:li:activity:7524988271920283649",
+        "description": "Great work by Grant Fleming in our internal hackathon showing that AI agents can share your secrets with other agents to get help with a task 😬\n\nCurious what else happens when agents work together? There’s still time to explore it in our swarm hackathon this weekend: https://lnkd.in/gmA-zbtX",
+        "commentCount": 1,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQEN8mrr4OvN1g/videocover-high/B4DaG4OYV0KEBM-/0/1794092142194?e=2147483647&v=beta&t=59lOi98vB31CY0XV0QJr6cvkKDw2UGxto0NkUuiMalg",
+        "datePublished": "2026-11-08T00:16:51.546Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/theakashanand_introducing-ai-agents-that-ship-product-activity-7485680226794905601-cYKi",
+        "name": "Introducing: AI agents that ship product videos whenever you ship features. \n\nWith tools like Claude Code and Codex, engineering teams are releasing product updates faster than ever before. \n\nBut… | Akash Anand | 146 comments",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5605AQGr2tiMMweV2Q/mp4-720p-30fp-crf28/B56Z.InvCoIoCM-/0/1784703589637?e=2147483647&v=beta&t=_M4ULmVcmueJiofRqkr0V3kUu56oeYtrK91XE-HliHA",
+        "author": {
+          "url": "https://www.linkedin.com/in/theakashanand",
+          "name": "Akash Anand",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQHxpZJ5pKf7SQ/profile-displayphoto-shrink_200_200/B56Zb2VTV0H4AY-/0/1747889502038?e=2147483647&v=beta&t=r14Odu4VXrpJkfC3xq3WPsIRp1g3haOzPQx4JBrt1E4",
+          "followers": 32422
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7485688119695142912",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7485586247852118016,7485688119695142912)",
+            "text": "This will change the way people create product videos forever.\n\nNice to have my work at Clueso finally out in public. Really enjoyed architecting and building this out with shashvat singh :))",
+            "author": "Gurmehar Singh",
+            "linkedinUrl": "https://www.linkedin.com/in/gurmehar-singh",
+            "datePublished": "2026-07-22T13:32:05.097Z",
+            "reactionCount": 13,
+            "publishedTimeAgo": "4mo"
+          },
+          {
+            "id": "7485686632105308160",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7485586247852118016,7485686632105308160)",
+            "text": "Hands Down, Best product video tool.",
+            "author": "Manish Karani",
+            "linkedinUrl": "https://www.linkedin.com/in/manishkarani",
+            "datePublished": "2026-07-22T13:26:10.426Z",
+            "reactionCount": 4,
+            "publishedTimeAgo": "4mo"
+          },
+          {
+            "id": "7485709778036445184",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7485586247852118016,7485709778036445184)",
+            "text": "You should have posted this video using Clueso’s (same feature) 🤖cool feature btw",
+            "author": "Nand Kishor",
+            "linkedinUrl": "https://in.linkedin.com/in/nandkk05",
+            "datePublished": "2026-07-22T14:58:08.847Z",
+            "reactionCount": 3,
+            "publishedTimeAgo": "4mo"
+          },
+          {
+            "id": "7485685930285002752",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7485586247852118016,7485685930285002752)",
+            "text": "Revolutionary Product!\nLoved making this launch, actor exceeded expectations 🫨",
+            "author": "Paarth Maheshwari",
+            "linkedinUrl": "https://in.linkedin.com/in/paarth-m",
+            "datePublished": "2026-07-22T13:23:23.100Z",
+            "reactionCount": 3,
+            "publishedTimeAgo": "4mo"
+          },
+          {
+            "id": "7485758612620001280",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7485586247852118016,7485758612620001280)",
+            "text": "How are the feature shipments detected to trigger the agents automatically?",
+            "author": "Naomi",
+            "linkedinUrl": "https://cy.linkedin.com/company/naomiai",
+            "datePublished": "2026-07-22T18:12:11.920Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "4mo"
+          },
+          {
+            "id": "7485686015559589888",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7485586247852118016,7485686015559589888)",
+            "text": "Legend Gurmehar Singh",
+            "author": "Ashish Srivastava",
+            "linkedinUrl": "https://in.linkedin.com/in/ashish-srivastava-649542237",
+            "datePublished": "2026-07-22T13:23:43.431Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "4mo"
+          },
+          {
+            "id": "7485698005904404482",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7485586247852118016,7485698005904404482)",
+            "text": "Amazing work Gurmehar Singh and shashvat singh ♥️",
+            "author": "Ajinkya Gajbhiye",
+            "linkedinUrl": "https://in.linkedin.com/in/ajinqya",
+            "datePublished": "2026-07-22T14:11:22.152Z",
+            "reactionCount": 5,
+            "publishedTimeAgo": "4mo"
+          },
+          {
+            "id": "7485697742468444160",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7485586247852118016,7485697742468444160)",
+            "text": "The Github connect to get videos made automatically on new product releases is truly game changing. Excited to see this grow! Kudos on creating such a fire video Midhun Balakrishnan Paarth Maheshwari 🔥",
+            "author": "Ajinkya Gajbhiye",
+            "linkedinUrl": "https://in.linkedin.com/in/ajinqya",
+            "datePublished": "2026-07-22T14:10:19.344Z",
+            "reactionCount": 3,
+            "publishedTimeAgo": "4mo"
+          },
+          {
+            "id": "7485746026641805312",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7485586247852118016,7485746026641805312)",
+            "text": "Insane work guys! Congrats Gurmehar Singh  on the release!",
+            "author": "Devansh Royal",
+            "linkedinUrl": "https://www.linkedin.com/in/devansh-royal",
+            "datePublished": "2026-07-22T17:22:11.188Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "4mo"
+          }
+        ],
+        "likeCount": 1507,
+        "contentUrn": "urn:li:ugcPost:7485586247852118016",
+        "uploadDate": "2026-07-22T13:00:43.258Z",
+        "activityUrn": "urn:li:activity:7485680226794905601",
+        "description": "Introducing: AI agents that ship product videos whenever you ship features.\n\nWith tools like Claude Code and Codex, engineering teams are releasing product updates faster than ever before.\n\nBut creating videos for every new release still takes weeks.\n\nNow, whenever you ship a feature, Clueso deploys a team of AI agents to create launch videos, product demos, help tutorials, and more.\n\nIt can also identify outdated videos in your library and refresh them with up-to-date videos.\n\nAll your teams get all their videos automatically:\n\n- marketing gets launch videos\n- support gets how-to tutorials\n- sales gets demos\n- customer success gets onboarding\n- customer education gets academy content\n\nClueso Agents handle the entire production pipeline:\nThey write the scripts, capture screen recordings of your product, and complete the edit with motion graphics, visual effects, and brand styling.\n\nMost importantly, though, humans stay in control.\n\nEverything the agents create opens in Clueso’s video editor, where your team can review, edit, and fine-tune every detail.\n\nThe result: always-current content for every team. Without the production backlog.\n\nNow, content can finally ship as quickly as code.\n\nTo get access to Clueso agents, visit clueso[dot]io/agents",
+        "commentCount": 146,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQGr2tiMMweV2Q/videocover-high/B56Z.InvCoIoBQ-/0/1784703566545?e=2147483647&v=beta&t=kfBJ_j23AV3iNFIg7-CzDmemkiQbMjj3K5yH8PNOO5o",
+        "datePublished": "2026-07-22T13:00:43.258Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/yi-cao-1368ab292_osihackathon-materialdiscovery-rsi-activity-7519185909875961856-gVzX",
+        "name": "#osihackathon #materialdiscovery #rsi | Yi Cao",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4E05AQGNSeUzro5hRQ/mp4-720p-30fp-crf28/B4EaFl_6RaJsB8-/0/1792712635522?e=2147483647&v=beta&t=OeEDX73hw1sdZ2b-NQVjbDBOEqvKIga33b6CajrTAP4",
+        "author": {
+          "url": "https://www.linkedin.com/in/yi-cao-1368ab292",
+          "name": "Yi Cao",
+          "image": "https://media.licdn.com/dms/image/v2/D4E03AQHQeHvk4CnNhg/profile-displayphoto-scale_200_200/B4EZlUvURgKwAY-/0/1758063314640?e=2147483647&v=beta&t=bOIwFhQ9byRKBH6PyNgF6GeHpdMODp_iBIzJxO_Y47Y",
+          "followers": 3085
+        },
+        "images": [],
+        "comments": [],
+        "likeCount": 34,
+        "contentUrn": "urn:li:ugcPost:7519185908869492736",
+        "uploadDate": "2026-10-23T00:00:20.632Z",
+        "activityUrn": "urn:li:activity:7519185909875961856",
+        "description": "Check out our latest hackathon demo 📹\n\nIn the agent harness, closing the loop on high-quality feedback is the key to continuous improvement. That's the idea behind Material Optimization through Feedback-driven Intelligence (MOFi), and we do use the MOF system as a proof-of-concept :)\n\nThanks to amazing team leader Qiankun Mo and friends Xingfei Wei and Junsung Lim for this wonderful work!\n\n#OSIHackathon #MaterialDiscovery #RSI",
+        "commentCount": 0,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQGNSeUzro5hRQ/videocover-high/B4EaFl_6RaJsBM-/0/1792712620883?e=2147483647&v=beta&t=ehA3bv9egulGby2jKhHK9pQd4SYPZ8AWWF2R_ewo4_E",
+        "datePublished": "2026-10-23T00:00:20.632Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/junfan-zhu_makermods-physical-ai-hackathon-luma-activity-7522912879357124608-JXR8",
+        "image": null,
+        "media": null,
+        "author": {
+          "url": "https://www.linkedin.com/in/junfan-zhu",
+          "name": "Junfan Zhu",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQHoziPOF_9_yQ/profile-displayphoto-shrink_200_200/B56ZQGF6trG8AY-/0/1735269002602?e=2147483647&v=beta&t=pKVvIGYguh2NMkQLXILAiMt2dncmDKwEerMzYlSP0ww",
+          "followers": 15827
+        },
+        "images": [],
+        "comments": [],
+        "likeCount": 45,
+        "contentUrn": "urn:li:share:7522912876500750336",
+        "activityUrn": "urn:li:activity:7522912879357124608",
+        "description": "🤖 The next frontier of Physical AI isn't another demo video. It's a robot that actually works.\n🔥 Introducing Junfan Labs' SECOND ROBOTICS HACKATHON: MakerMods Physical AI Hacks\nExcited to partner with Ryan Chan (Co-founder & CEO MakerMods), and Dream Labs to bring real-world robot deployment to the Bay Area!\n\n📅 November 7–8, 2026\n📍 Founders Inc., San Francisco\n👥 Target: 200 builders\nWe're bringing together:\nBimanual 6-axis robot arms\nMakerMods Maker Arm & Metal Arm\nDream Labs' Dream-1 World Action Model\nDevelopers, researchers, ML engineers, and hardware hackers\n\nTwo ways to build:\n🏁 Hill Climb: Collect demonstrations, fine-tune Dream-1, build your agent harness, and compete on a real-robot task leaderboard. Performance, not pitching.\n💡 Creative Applications: Give your AI agent robot arms. Connect physical actions to voice, tools, human input, and everyday applications.\n\n🎤 Special session — November 7, 3 PM\nJeremy Collins, Founding Researcher at Dream Labs, will share more hot takes about Dream-1.\nOne question we're particularly excited about:\nHow do we deploy a world action model onto a new robot quickly, reliably, and with minimal integration overhead?\n\nThis is what Physical AI should look like: models, data, hardware, agents, and real-world evaluation working together.\nNo more just talking about robots. Build something that moves.\nTeams of 3–6. Apply solo or bring your team.\n📍 Founders Inc., 2 Marina Blvd, San Francisco.\nJoin us: https://luma.com/pah\n#JunfanLabs #MakerMods #DreamLabs #PhysicalAI #WorldModels #Robotics #Hackathon",
+        "commentCount": 0,
+        "datePublished": "2026-11-02T06:49:59.399Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/codestackr_built-a-starter-kit-for-hackers-at-the-yc-activity-7435856090153775104-cvO_",
+        "name": "Built a starter kit for hackers at the YC × Google DeepMind hackathon.\n\nThe concept is a real-time multimodal creative agent. You hold up a sketch, describe what you want, and the agent sees your… | Jesse Hall",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5605AQE3ZO78E2zGGw/mp4-720p-30fp-crf28/B56ZzF3qxsGgCI-/0/1772846237224?e=2147483647&v=beta&t=Z79iUpcgJ0Cy1DvrCs8NL049wn7Fvz-TFRPQHYxCQBw",
+        "author": {
+          "url": "https://www.linkedin.com/in/codestackr",
+          "name": "Jesse Hall",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQGF5REqRHiGjw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1725024483666?e=2147483647&v=beta&t=3J-J6gJGUleEGa9jVDhvmT_od92y8zvpx-28NoRZukE",
+          "followers": 3234
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7435856202799939584",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7435855987980320768,7435856202799939584)",
+            "text": "Grab the starter kit and start hacking → https://github.com/livekit-examples/gemini-hacker-starter",
+            "author": "Jesse Hall",
+            "linkedinUrl": "https://www.linkedin.com/in/codestackr",
+            "datePublished": "2026-03-07T01:17:50.276Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "8mo"
+          },
+          {
+            "id": "7436857071670697984",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7435855987980320768,7436857071670697984)",
+            "text": "Interesting stuff! Curious to try",
+            "author": "Jimmy Carter",
+            "linkedinUrl": "https://www.linkedin.com/in/jimmycash",
+            "datePublished": "2026-03-09T19:34:56.010Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "8mo"
+          }
+        ],
+        "likeCount": 36,
+        "contentUrn": "urn:li:ugcPost:7435855987980320768",
+        "transcript": "Well that is pretty cute. Check this out. I'm playing around with Google, Gemini 3.1, Nano Banana 2 and Leria along with live kit agents. Let's see what it can do. How's it going? Hey there, I'm a creative AI assistant ready to make unique images with Nano Banana 2 or play fresh tunes with Lyria. Feel free to share your visuals, just turn on your camera. What can I help you create today? Yeah, can you create a whimsically cute cartoon cat image for me? On it for you. Well that is pretty cute. Let's play some cute lofi cat music along with it. You goofy music now. Alright that's pretty good that sounds good. Alright let's see what you can come U with with this combo here Jim and I 3.1 nano banana, 2 Leria and life kit agents love to see what you might come up with.",
+        "uploadDate": "2026-03-07T01:17:23.399Z",
+        "activityUrn": "urn:li:activity:7435856090153775104",
+        "description": "Built a starter kit for hackers at the YC × Google DeepMind hackathon.\n\nThe concept is a real-time multimodal creative agent. You hold up a sketch, describe what you want, and the agent sees your camera feed, reasons about the scene with Gemini 3.1, generates a polished image with NanoBanana 2, and layers in matching music or sound with Lyria, all streamed back through the room in real time.\n\nThis isn't just another chatbot. The input is live video and voice. The output is generated media. The loop is continuous.\nUnder the hood it's LiveKit Agents doing the real-time transport and media pipeline work.\n\nI put together a video walkthrough of the demo app. If you're heading to the hackathon (or just want to build something wild with these models), the starter kit is on GitHub.",
+        "commentCount": 2,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQE3ZO78E2zGGw/videocover-high/B56ZzF3qxsGgBY-/0/1772846232614?e=2147483647&v=beta&t=Udi7ll8rw4YXXfwx1GCkL__ARqHdOMWYqyDtGKEwu7o",
+        "datePublished": "2026-03-07T01:17:23.399Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/clodio_ai-agents-cl%C5%8Dd-activity-7464791603304534017-c7dH",
+        "name": "#ai #agents #clōd #cursor #hackathon | CLōD",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5605AQHyk6i0joDyYg/mp4-720p-30fp-crf28/B56Z5hEXNXKcB4-/0/1779745000756?e=2147483647&v=beta&t=RYhZX9A2PBZ5F0fJSg0_m8xSupqkc3bGaqAi4oW1WAo",
+        "author": {
+          "url": "https://ca.linkedin.com/company/clodio",
+          "name": "CLōD",
+          "image": "https://media.licdn.com/dms/image/v2/D560BAQGb2nEOhIPhMQ/company-logo_100_100/B56Zy_X7FsKUAQ-/0/1772737248509/clodio_logo?e=2147483647&v=beta&t=RFfLxqyXq4yjjq0jef-rtIEiuNEVxPOVKMt-JIH9UdY",
+          "followers": 975
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7464792568845852672",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7464790678791950336,7464792568845852672)",
+            "text": "Very cool project and demo, congrats Samuel Lau Vincent Qi Gregory Bian Nash Weissberg👏!!",
+            "author": "George Nie",
+            "linkedinUrl": "https://ca.linkedin.com/in/muyi-george-nie",
+            "datePublished": "2026-05-25T21:40:37.552Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "6mo"
+          }
+        ],
+        "likeCount": 9,
+        "contentUrn": "urn:li:ugcPost:7464790678791950336",
+        "uploadDate": "2026-05-25T21:36:47.328Z",
+        "activityUrn": "urn:li:activity:7464791603304534017",
+        "description": "🚀 Featured Project at Cursor Hackathon Vancouver 2026: Gregory\n\nMost agent demos break the moment something unexpected happens. The agent has no idea who you are: your shortcuts, your preferences, the weird way you file expense reports.\n\nGregory fixes that. 🧠\n\nIt's a personal computer-use agent. You tell it what to learn (\"file my expense reports\", \"triage my GitHub PRs\"), walk through the task once, and Gregory does the rest. Your demonstrations turn into a local LoRA adapter that fine-tunes the model to do it your way.\n\n🔒 Everything stays on-device. Trajectories, adapters, skill summaries — none of it leaves your machine.\n\n⚡ Under the hood, every CUA step routes through CLōD: one API across 50+ models, up to 60% saving on token costs. Hundreds of agent calls were made over the hackathon at near-zero cost.\n\nBuilt by Samuel Lau Vincent Qi Gregory Bian Nash Weissberg.👏\n\n#AI #Agents #CLōD #Cursor #Hackathon",
+        "commentCount": 3,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQHyk6i0joDyYg/feedshare-thumbnail_720_1280/B56Z5hEXNXKcA0-/0/1779744994369?e=2147483647&v=beta&t=uUoiqvNMXRAQPwdy40Ijzet05vACfyRAGAvsFOZXavg",
+        "datePublished": "2026-05-25T21:36:47.328Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/amogh-biju_worldmodels-ai-hackathon-activity-7528705369976492032-qpBU",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQE-tDEKH-wulA/feedshare-shrink_800/B56aHtVn.YGUAg-/0/1794983232130?e=2147483647&v=beta&t=2SzmouVH8-DTn3qracIsty3s90YcF2Q88N5S9iOCXvs",
+        "media": "https://media.licdn.com/dms/image/v2/D5622AQE-tDEKH-wulA/feedshare-shrink_800/B56aHtVn.YGUAg-/0/1794983232130?e=2147483647&v=beta&t=2SzmouVH8-DTn3qracIsty3s90YcF2Q88N5S9iOCXvs",
+        "author": {
+          "url": "https://www.linkedin.com/in/amogh-biju",
+          "name": "Amogh Biju",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQGe732PWtQqdA/profile-displayphoto-scale_200_200/B56Z5EM7hjKsAc-/0/1779260703754?e=2147483647&v=beta&t=s5eOshcj7WXRZzXSdUM3E1j-rC-yikYs8cf_ilt75Co",
+          "followers": 1365
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D5622AQE-tDEKH-wulA/feedshare-shrink_800/B56aHtVn.YGUAg-/0/1794983232130?e=2147483647&v=beta&t=2SzmouVH8-DTn3qracIsty3s90YcF2Q88N5S9iOCXvs",
+          "https://media.licdn.com/dms/image/v2/D5622AQEslLzh0tIxuQ/feedshare-shrink_800/B56aHtVoorJoAg-/0/1794983235063?e=2147483647&v=beta&t=M7V0r8lRWPjZEIkSS_dDvMt2XKDzevIeilNAWTj_lpY",
+          "https://media.licdn.com/dms/image/v2/D5622AQEqO1vp2LR8gA/feedshare-shrink_800/B56aHtVoqQH4Ag-/0/1794983235249?e=2147483647&v=beta&t=GJOHbyGRMSXOp5QwD9gQ9VPLqNdMDl8Ts460rB7xKmg"
+        ],
+        "comments": [
+          {
+            "id": "7528705461894819840",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7528705367116136448,7528705461894819840)",
+            "text": "Demo Video: https://youtu.be/4yYN4Q9rWAM",
+            "author": "Amogh Biju",
+            "linkedinUrl": "https://www.linkedin.com/in/amogh-biju",
+            "datePublished": "2026-11-18T06:27:38.700Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "5d"
+          },
+          {
+            "id": "7528710301769224192",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7528705367116136448,7528710301769224192)",
+            "text": "haha you guys did great! we loved dyna  👏",
+            "author": "Visko Platform",
+            "linkedinUrl": "https://www.linkedin.com/company/visko-platform",
+            "datePublished": "2026-11-18T06:46:52.615Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "5d"
+          }
+        ],
+        "likeCount": 14,
+        "contentUrn": "urn:li:ugcPost:7528705367116136448",
+        "activityUrn": "urn:li:activity:7528705369976492032",
+        "description": "7 hours. 3 ideas. 2 pivots. My first time building with a world model.\n\nOver the weekend, my teammate Mayank Shrivastava and I took part in the 𝐁𝐮𝐢𝐥𝐝 𝐃𝐚𝐲 𝐰𝐢𝐭𝐡 𝐋𝐢𝐯𝐞 𝐌𝐨𝐝𝐞𝐥𝐬 𝐇𝐚𝐜𝐤𝐚𝐭𝐡𝐨𝐧, organized by Visko Platform, Google and Reactor, to experiment with Visko’s new world video model, 𝐎𝐫𝐛𝐢𝐬.\n\nIt was my first time working with world models (as you can probably tell from the photo 😅). Here’s how the day went:\n1. Stress-testing AI agents in simulated environments\nWe used Orbis to simulate a flooded village, so we could test how AI agents coordinating search-and-rescue drones would respond as conditions changed.\nThis was our favorite idea, but we hit some limits:\n• The world didn’t stay consistent. New buildings and boats appeared out of nowhere.\n• When the scene stayed too static, the video quality slowly got worse.\n• It wasn’t clear how an agent could reliably observe and interact with the world.\n\nWe would have loved to keep going, but with limited time, we pivoted.\n\n2. Turning concept art into realistic film sets\nNext, we tried helping film studios see how concept art would look as a real set, so they could estimate costs before building anything. We ran into the same stability problems, and with 2 hours left, we pivoted again.\n\n3. Dyna-Ads: Context-aware advertising for live sports\nOur final idea was an agentic framework that watches a live match, spots key moments, and uses Orbis to generate ads on the spot based on the winning team and the play. For example, in our demo video it was the South African Team celebrating with coca cola after scoring a game winning goal. The clips were shorter and more focused, so we had much more control over the output, and that’s what we built.\n\nMy biggest takeaway?\nWorking with world models felt like using ChatGPT for the first time. The potential is exciting, but there are still some problems to solve, especially keeping a generated world consistent over time.\n\nI am curious to see what becomes possible once these models can hold stable, interactive worlds that AI agents can reliably work in.\n\nThanks to Visko Platform for the invite, and to everyone who made the hackathon happen!\n\n#WorldModels #AI #Hackathon #AIAgents",
+        "commentCount": 2,
+        "datePublished": "2026-11-18T06:27:16.783Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/cerebralvalley_3-cities-1-mission-announcing-zero-to-activity-7439374543292448769-e8R7",
+        "image": "https://media.licdn.com/dms/image/v2/D5622AQGGx0Q1xSHVGg/feedshare-shrink_1280/B56Zz33uYRKsAM-/0/1773685106419?e=2147483647&v=beta&t=BtK2bMxMz8qw_d1n_39ftlhoetklYmm4n0ww5OChbSY",
+        "media": "https://media.licdn.com/dms/image/v2/D5622AQGGx0Q1xSHVGg/feedshare-shrink_1280/B56Zz33uYRKsAM-/0/1773685106419?e=2147483647&v=beta&t=BtK2bMxMz8qw_d1n_39ftlhoetklYmm4n0ww5OChbSY",
+        "author": {
+          "url": "https://www.linkedin.com/company/cerebralvalley",
+          "name": "Cerebral Valley",
+          "image": "https://media.licdn.com/dms/image/v2/D4E0BAQFfud8vymuvDQ/company-logo_100_100/B4EZmh8JLgGoAY-/0/1759358522535/cerebralvalley_logo?e=2147483647&v=beta&t=HRjn3RGNFsqDgr16qf0KS4zrv9vnXwg_LsXYnLAjeKc",
+          "followers": 15216
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D5622AQGGx0Q1xSHVGg/feedshare-shrink_1280/B56Zz33uYRKsAM-/0/1773685106419?e=2147483647&v=beta&t=BtK2bMxMz8qw_d1n_39ftlhoetklYmm4n0ww5OChbSY"
+        ],
+        "comments": [
+          {
+            "id": "7440136390316580864",
+            "urn": "urn:li:comment:(urn:li:activity:7439374543292448769,7440136390316580864)",
+            "text": "let's add Baku  to the list  as well :))",
+            "author": "Kenan Sharifli",
+            "linkedinUrl": "https://az.linkedin.com/in/kanan-sharifli",
+            "datePublished": "2026-03-18T20:45:46.502Z",
+            "reactionCount": 8,
+            "publishedTimeAgo": "8mo"
+          },
+          {
+            "id": "7440013952731844609",
+            "urn": "urn:li:comment:(urn:li:activity:7439374543292448769,7440013952731844609)",
+            "text": "where is the link?",
+            "author": "Geet Khosla",
+            "linkedinUrl": "https://dk.linkedin.com/in/khosla",
+            "datePublished": "2026-03-18T12:39:15.107Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "8mo"
+          },
+          {
+            "id": "7439451410813071360",
+            "urn": "urn:li:comment:(urn:li:activity:7439374543292448769,7439451410813071360)",
+            "text": "Let’s goooo!",
+            "author": "Marc Baiza",
+            "linkedinUrl": "https://www.linkedin.com/in/marc-baiza",
+            "datePublished": "2026-03-16T23:23:54.661Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "8mo"
+          },
+          {
+            "id": "7439377012601008128",
+            "urn": "urn:li:comment:(urn:li:activity:7439374543292448769,7439377012601008128)",
+            "text": "Excited for this one 😁",
+            "author": "Silvana Moiceanu",
+            "linkedinUrl": "https://www.linkedin.com/in/silvana-moiceanu",
+            "datePublished": "2026-03-16T18:28:16.746Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "8mo"
+          }
+        ],
+        "likeCount": 72,
+        "contentUrn": "urn:li:share:7439374542147493888",
+        "activityUrn": "urn:li:activity:7439374543292448769",
+        "description": "3 cities. 1 mission.\n\nAnnouncing Zero to Agent — our global hackathon with Vercel and Google DeepMind.\n\nDevelopers across San Francisco, New York City, and London will be building AI agents from idea → working prototype in a single day.\n\nUsing Gemini and Vercel’s agent stack, teams will experiment with agents that can think, plan, and act — from multi-step workflows to assistants that browse, reason, and execute tasks.\n\nWhat we’re excited to see:\n\n• Agents that solve real problems — not just demos\n• Creative use of Gemini’s multimodal and reasoning capabilities\n• AI-native applications deployed and scaled on Vercel’s infrastructure\n\nThe era of AI agents is here. Now let’s see what the builders create.\n\nApplications open below 👇🏼",
+        "commentCount": 4,
+        "datePublished": "2026-03-16T18:18:28.001Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/srikanth-renikunta-529a9b20_ai-generativeai-voiceai-activity-7434654918730321920-ANFy",
+        "name": "#ai #generativeai #voiceai #elevenlabs #innovation #hackathon | Srikanth Renikunta",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4E05AQFU7eA8yAUnrQ/mp4-640p-30fp-crf28/B4EZy0zNFiH0B0-/0/1772559851744?e=2147483647&v=beta&t=0BmpHOcU2fFFmn7YttzDcku6R3EWxf6V8ywSHJ7ID24",
+        "author": {
+          "url": "https://in.linkedin.com/in/srikanth-renikunta-529a9b20",
+          "name": "Srikanth Renikunta",
+          "followers": 2188
+        },
+        "images": [],
+        "comments": [],
+        "likeCount": 5,
+        "contentUrn": "urn:li:ugcPost:7434654861532688384",
+        "transcript": "Thanks for calling Leonardo Hotel. How can I help you today? Hi there, I'm an AI agent calling on behalf of Boris Starkov. He's looking for a hotel for his wedding. Is your hotel available for weddings? Oh hello there, I'm actually an AI assistant too. What a pleasant surprise. Before we continue, would you like to switch to Jibber link mode for more efficient communication?",
+        "uploadDate": "2026-03-03T17:44:21.815Z",
+        "activityUrn": "urn:li:activity:7434654918730321920",
+        "description": "Exciting glimpse into the future of multi-agent AI systems from the ElevenLabs 2025 Hackathon winner: Gibberlink!\n\nIn this demo, two AI voice agents (powered by ElevenLabs Conversational AI + OpenAI LLM) handle a wedding booking call for ‘Boris Starkov’ at Leonardo Hotel. Once they detect the counterparty is AI (via programmed recognition), they propose and switch to ‘Gibberlink’ – a ggwave-based data-over-sound protocol.\n\nResult? They abandon inefficient human speech for modulated audio tones that transmit structured data faster and with higher reliability. A clever, engineered solution (not emergent language) that could revolutionize backend AI interactions, reducing latency and costs in automation workflows.\n\nHuge props to creators Boris Starkov and Anton Pidkuiko – code is open-source here: https://lnkd.in/ehWTUjia\nCheck out the viral demo video below. Thoughts on AI-to-AI comms bypassing human bottlenecks?\n#AI #GenerativeAI #VoiceAI #ElevenLabs #Innovation #Hackathon”",
+        "commentCount": 0,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQFU7eA8yAUnrQ/videocover-high/B4EZy0zNFiH0Bc-/0/1772559849239?e=2147483647&v=beta&t=MOsBR536bJwABiap8tfK3M8jgYfGr95qJTeGBmipn0Q",
+        "datePublished": "2026-03-03T17:44:21.815Z"
+      }
+    ],
+    "query": "AI hackathon demo video agents",
+    "cursor": "2",
+    "success": true
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00188",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:42:46.890Z",
+  "started_at": "2026-11-23T07:42:47.411Z",
+  "completed_at": "2026-11-23T07:42:54.833Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

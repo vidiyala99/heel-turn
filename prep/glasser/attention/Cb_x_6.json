@@ -1,0 +1,599 @@
+{
+  "id": "645d1adb-7993-46b9-9e97-d7348a7cc220",
+  "run_url": "https://app.glasser.ai/runs/645d1adb-7993-46b9-9e97-d7348a7cc220",
+  "provider": "anyapi",
+  "endpoint": "/twitter.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "limit": 20,
+    "query": "\"AI coach feedback simulation training human\" OR (AI coach feedback simulation training human) since:2025-11-22 filter:videos min_faves:5",
+    "queryType": "Top"
+  },
+  "output": {
+    "hint": "malformed_query: X search ANDs adjacent bare words and binds OR tighter, so these operators after an unbracketed OR list applied to its last alternative only: [since:2025-11-22, filter:videos, min_faves:5]. Send this instead: (\"AI coach feedback simulation training human\" OR (AI coach feedback simulation training human)) since:2025-11-22 filter:videos min_faves:5 large_result: this response is ~36 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 19,
+    "output": {
+      "data": {
+        "items": [
+          {
+            "id": "2122297879599439910",
+            "url": "https://x.com/ai_bites/status/2122297879599439910",
+            "lang": "en",
+            "text": "What if a humanoid could suppress a specific movement without losing the rest of the motion?\n\nRedirectMimic introduces a local motion-content redaction method for whole-body control. It lets the policy observe the original reference while training it to follow a rule-generated edited target—replacing selected arm movements while preserving surrounding motion and keeping the deployed interfaces unchanged.\n\nIn Unitree G1 simulation, the method reduced overhead-arm content occurrence to 2.7% and achieved 94.2% core-window joint success, while maintaining tracking accuracy on unedited motions comparable to a pretrained controller. \n\nTitle: RedirectMimic: Local Motion Content Redaction for Humanoid Whole-Body Control\nProject URL: https://xiaopeng-whu.github.io/RedirectMimic/\nPaper: https://arxiv.org/abs/2611.14049v1",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/ext_tw_video_thumb/2122297853372469248/pu/img/nNgTxNylR4Nyy9VM.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/ext_tw_video/2122297853372469248/pu/vid/avc1/1280x720/vRqkpFF-2GHXU68-.mp4?tag=12"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2728547289",
+            "likeCount": 32,
+            "viewCount": 1263,
+            "authorName": "AI Bites | YouTube Channel",
+            "createdUtc": 1794830219,
+            "quoteCount": 0,
+            "replyCount": 1,
+            "authorImage": "https://pbs.twimg.com/profile_images/1340989629684731905/bPSstYDz_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 1,
+            "bookmarkCount": 19,
+            "authorUsername": "ai_bites",
+            "authorVerified": true,
+            "conversationId": "2122297879599439910",
+            "authorFollowers": 2548
+          },
+          {
+            "id": "2123804193651851386",
+            "url": "https://x.com/CJackyp1/status/2123804193651851386",
+            "lang": "en",
+            "text": "AI Is Changing the Way We Train!\n\nWhat if AI could become your personal running coach?\n\nWith ChatGPT Health, you can turn your recent running data into a personalized half-marathon training plan. \n\n Here's what makes it exciting: https://t.co/R4yDHDqPDg",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123804085132640256/img/sA3IDS4fMOiLopij.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123804085132640256/vid/avc1/1280x720/YdhGnZ46KTgwLIne.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2088051761345142784",
+            "likeCount": 35,
+            "viewCount": 386,
+            "authorName": "C Jacky",
+            "createdUtc": 1795189352,
+            "quoteCount": 0,
+            "replyCount": 3,
+            "authorImage": "https://pbs.twimg.com/profile_images/2088066028215623680/x3otK7lX_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 19,
+            "bookmarkCount": 4,
+            "authorUsername": "CJackyp1",
+            "authorVerified": false,
+            "conversationId": "2123804193651851386",
+            "authorFollowers": 496
+          },
+          {
+            "id": "2123447427814375663",
+            "url": "https://x.com/joshzemon/status/2123447427814375663",
+            "lang": "en",
+            "text": "This is f*cking insane. Andrej Karpathy, the man who co-founded OpenAI and led AI at Tesla:\n\n\"Reinforcement learning is terrible\n\nIt just so happens that everything that we had before is much worse\"\n\nIn 7 minutes, he explains why LLMs still can't learn like humans, and why training them is like \"sucking supervision bits through a straw\"\n\nHuman Learning → Reinforcement Learning → One Reward → Every Token Upweighted\n\nThe models are smart. The way they learn is still broken\n\nBookmark and watch it today\n\nThen read how to build around those limits: Harness, Loops, Graphs ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123446352545734656/img/Pt8h7kxthM7ZUa01.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123446352545734656/vid/avc1/1080x1080/bYUs7qFyWcoX6275.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1658247810989293569",
+            "likeCount": 1280,
+            "viewCount": 76365,
+            "authorName": "Josh The Monkey",
+            "createdUtc": 1795104293,
+            "quoteCount": 10,
+            "replyCount": 10,
+            "authorImage": "https://pbs.twimg.com/profile_images/2117555383564718080/ynqe6tOO_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 58,
+            "bookmarkCount": 1465,
+            "authorUsername": "joshzemon",
+            "authorVerified": true,
+            "conversationId": "2123447427814375663",
+            "authorFollowers": 846
+          },
+          {
+            "id": "2123438654202720448",
+            "url": "https://x.com/ByteEcosystem/status/2123438654202720448",
+            "lang": "en",
+            "text": "Anthropic CEO Dario Amodei:\n\nWe will pace the training and deployment of AI systems, taking as long as is necessary to have confidence that they are safe and will remain under human control.\n\nWe will not bend to either business nor political pressure. https://t.co/5bVjPIr0Og",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123437115199434752/img/JusHgNXxIohd1oTH.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123437115199434752/vid/avc1/1280x720/CM-vh7SYQ3rk-xad.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1470792056406560775",
+            "likeCount": 1212,
+            "viewCount": 89916,
+            "authorName": "Byte",
+            "createdUtc": 1795102201,
+            "quoteCount": 29,
+            "replyCount": 61,
+            "authorImage": "https://pbs.twimg.com/profile_images/2113995969142632448/D6MAXrA4_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 87,
+            "bookmarkCount": 38,
+            "authorUsername": "ByteEcosystem",
+            "authorVerified": true,
+            "conversationId": "2123438654202720448",
+            "authorFollowers": 227741
+          },
+          {
+            "id": "2123332625347563822",
+            "url": "https://x.com/Skybornfx/status/2123332625347563822",
+            "lang": "en",
+            "text": "AI is speeding up algorithms for new simulations\n\nIf AI now handles research and writes algorithms much faster than people, a lot of practical applications open up in simulations. The same process that trains models on world dynamics can push designs that used to stay theoretical.\n\nA train that runs on one pair of side wheels becomes a question of the right algorithm and training loop. Robot dogs that climb through windows onto building roofs sit in the same category. The bottleneck shifts from inventing the idea to running enough simulation cycles.\n\nThe next wave of everyday machines may come from models that already finished the hard part.\n\n#AIResearch #Simulations #RoboticsFuture",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123332559006302208/img/H8oUv2asaJBBUSI_.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123332559006302208/vid/avc1/848x464/oB3FDtfxQ68maaKa.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1785269281841917954",
+            "likeCount": 51,
+            "viewCount": 730,
+            "authorName": "Skybo",
+            "createdUtc": 1795076922,
+            "quoteCount": 0,
+            "replyCount": 32,
+            "authorImage": "https://pbs.twimg.com/profile_images/2109221310165340160/oBuTEwGa_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 3,
+            "bookmarkCount": 0,
+            "authorUsername": "Skybornfx",
+            "authorVerified": true,
+            "conversationId": "2123332625347563822",
+            "authorFollowers": 2586
+          },
+          {
+            "id": "2122355012928155705",
+            "url": "https://x.com/EchoShao8899/status/2122355012928155705",
+            "lang": "en",
+            "text": "AI is moving from on-demand to always-on. But can it learn when you actually want help?\n\nWe introduce Deep Personalization: an Observer Agent that continually learns from your work patterns and implicit feedback to decide when to step in.\n\nIt improves proactive-timing F1 by 2.4–3.0× across three model backbones.\n\nWe co-design the agent and its training and inference engines to run the Observer locally on systems like NVIDIA DGX Spark, keeping your screen observations on-device.\n\nThe next PC won’t wait for your prompt. It will learn when to help! Check out our blog at: https://nvlabs.github.io/deep-personalization/",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122354831381901312/img/6Gc57GSZV9zsl81w.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122354831381901312/vid/avc1/3840x2160/bFI0MCihMqkZDbMM.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1506457373430333447",
+            "likeCount": 198,
+            "viewCount": 21250,
+            "authorName": "Yijia Shao",
+            "createdUtc": 1794843841,
+            "quoteCount": 14,
+            "replyCount": 19,
+            "authorImage": "https://pbs.twimg.com/profile_images/1600839794837229568/jeUmyEuD_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 38,
+            "bookmarkCount": 101,
+            "authorUsername": "EchoShao8899",
+            "authorVerified": false,
+            "conversationId": "2122355012928155705",
+            "authorFollowers": 5307
+          },
+          {
+            "id": "2122363411228930328",
+            "url": "https://x.com/Morgesnat/status/2122363411228930328",
+            "lang": "en",
+            "text": "This is f*cking insane. Nvidia ex-CEO Jensen Huang singled out customer service call centers as work AI is likely to heavily automate:\n\n“your job will be eliminated or changed.”\n\nIn under 2 minutes, he explains the shift: AI handles the calls. People manage, coordinate and evaluate the AI doing the work.\n\nThat's a practical reason to start learning how agents work.\n\nLearning AI → Building Agents → Harness → Feedback Loops → Human Review\n\nSave this before it gets buried in your feed.\n\nFree learning materials and open-source tools:\n\nHugging Face's LLM course: understand the models behind AI applications\nhttps://huggingface.co/learn/llm-course/chapter1/1\n\nAnthropic's courses on prompting, tool use and evaluating outputs\nhttps://github.com/anthropics/courses\n\nMicrosoft's practical lessons on building AI agents\nhttps://github.com/microsoft/ai-agents-for-beginners\n\nTurn project files into context your AI can read\nhttps://github.com/yamadashy/repomix\n\nGive your agent access to current library documentation\nhttps://github.com/upstash/context7\n\nConnect model providers through a common interface\nhttps://github.com/BerriAI/litellm\n\nAn AI coding partner that edits files and works through test failures\nhttps://github.com/Aider-AI/aider\n\nBuild agents that interact with websites through a browser\nhttps://github.com/browser-use/browser-use\n\nCheck whether your app's browser interactions actually work\nhttps://github.com/microsoft/playwright\n\nTest your JavaScript and TypeScript logic after changes\nhttps://github.com/vitest-dev/vitest\n\nCompare prompts and model outputs against repeatable test cases\nhttps://github.com/promptfoo/promptfoo\n\nBuild Python agents with tools and validated outputs\nhttps://github.com/pydantic/pydantic-ai\n\nConnect agent steps with persistent state and human review\nhttps://github.com/langchain-ai/langgraph\n\nAll of this costs $0\n\nPick one task. Build a small agent workflow. Check what it actually does.\n\nBookmark this and start with one resource tonight.\n\nThen use “Harness, Loops and Graphs: 25 Patterns for Building Better Apps With Agents” to give that workflow context, checks and clear handoffs ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122361010174513153/img/SBVG1skk3lGO4XYJ.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122361010174513153/vid/avc1/1280x720/5QEgTEEni8lgvu5H.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1865706344507977728",
+            "likeCount": 32,
+            "viewCount": 765,
+            "authorName": "DroChill",
+            "createdUtc": 1794845843,
+            "quoteCount": 0,
+            "replyCount": 0,
+            "authorImage": "https://pbs.twimg.com/profile_images/1968522746624659456/CUgnYCJ__normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 1,
+            "bookmarkCount": 29,
+            "authorUsername": "Morgesnat",
+            "authorVerified": true,
+            "conversationId": "2122363411228930328",
+            "authorFollowers": 32
+          },
+          {
+            "id": "2123907161709572127",
+            "url": "https://x.com/fdotinc/status/2123907161709572127",
+            "lang": "en",
+            "text": "your brain runs on 20 watts\n\nso why does ai need 100million watt data centers?\n\nif we simulate the neurons of a human brain, we could teach ai without training, without wasting power\n\n\"My first goal was to create synthetic neurons. It was able to move a robot without controllers, without anything, just the neurons connecting directly to the joints and sensing the environment\"",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123901427030638593/img/TX0AWakDeQYx1ucP.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123901427030638593/vid/avc1/1280x720/DVRa9i0TAMNE9Frz.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1230404765827256320",
+            "likeCount": 155,
+            "viewCount": 7446,
+            "authorName": "Founders Inc",
+            "createdUtc": 1795213902,
+            "quoteCount": 6,
+            "replyCount": 14,
+            "authorImage": "https://pbs.twimg.com/profile_images/2092016236221874176/saYapk1H_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 12,
+            "bookmarkCount": 79,
+            "authorUsername": "fdotinc",
+            "authorVerified": true,
+            "conversationId": "2123907161709572127",
+            "authorFollowers": 92733
+          },
+          {
+            "id": "2122465133389873210",
+            "url": "https://x.com/TengX6/status/2122465133389873210",
+            "lang": "en",
+            "text": "[1/4] 🚀 Introducing Infrathon (https://infrathonx.github.io/)\n\nCan LLM agents autonomously improve real-world AI infrastructure, make new discoveries, and outperform human-designed baselines on long-horizon, open-ended optimization tasks?\n\nAI infra optimization requires repeated implementation, profiling, and testing. Agents must preserve correctness, recover from failed experiments, and keep searching when early attempts stall. Existing evaluations often focus on specific components or shorter runs.\n\nTogether with @uwnlp, @allen_ai, @radixark, and @PyromindHS, we introduce Infrathon: a benchmark of 25 real-world, open-ended AI infrastructure optimization tasks spanning operators, modules, and end-to-end training or serving workflows, with 12–24-hour budgets.\n\nOne example: Claude Opus 5.5 increases mean KV-cache compression from 6.82× to 19.86× while improving video quality.\n\n🏠 Homepage: https://infrathonx.github.io/\n📝 Blog: https://infrathonx.github.io/blog.html\n📄 Paper: https://arxiv.org/abs/2611.11995\n🤗 Hugging Face Daily Papers: https://huggingface.co/papers/2611.11995\n💻 Code: https://github.com/InfrathonX/Infrathon\n📦 Dataset: https://huggingface.co/datasets/Infrathon/Infrathon\n🐳 Docker Hub: https://hub.docker.com/r/infrathon/infrathon",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122463868941402113/img/ZufZB7ea6AqOZpcs.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122463868941402113/vid/avc1/1280x1068/qenz_4CsFtAjY3JK.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1171425990649634820",
+            "likeCount": 33,
+            "viewCount": 6566,
+            "authorName": "Teng Xiao",
+            "createdUtc": 1794870095,
+            "quoteCount": 10,
+            "replyCount": 4,
+            "authorImage": "https://pbs.twimg.com/profile_images/1968919524893409280/4wlLOp0i_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 13,
+            "bookmarkCount": 14,
+            "authorUsername": "TengX6",
+            "authorVerified": true,
+            "conversationId": "2122465133389873210",
+            "authorFollowers": 383
+          },
+          {
+            "id": "2123787067264036886",
+            "url": "https://x.com/verysmartkitty/status/2123787067264036886",
+            "lang": "en",
+            "text": "This is f*cking insane. Elon Musk says work will become optional, and the people with Grok Bots won’t wait for it:\n\n\"People won’t have to work at all.\"\n\nIn 82 seconds he puts a date on it. Less than 20 years, maybe 10 or 15. AI and robotics make work a choice.\n\nHe compares it to growing your own vegetables. Some people will still do it because they enjoy it.\n\nAnd he dares you to replay the clip in 20 years and call it ridiculous. He thinks it’ll be true.\n\nYour Job → Grok Bot → A Team of Bots → Robots → Harness → Work Becomes Optional\n\nYou don’t have to wait 15 years. The Grok Bot marketplace already has bots that take real work off your plate today:\n\nThe Morning Newspaper\nTurns your email and calendar into a custom paper that’s ready when you wake up\nhttp://x.ai/bot/marketplace/bots/the-morning-newspaper\n\nImport Bot\nMoves your setup over from other AI tools and staffs your expert bots\nhttp://x.ai/bot/marketplace/bots/import-bot\n\nAlfred\nDesigns, audits and governs the smallest useful Grok Bot org, with clear human owners\nhttp://x.ai/bot/marketplace/bots/alfred\n\nLingxi’s Engineer Bot\nLaunches cloud coding agents, watches PRs, and only asks you to merge\nhttp://x.ai/bot/marketplace/bots/engineer-bot\n\nTinkabot\nWraps any API into a working MCP + skills plugin and gets it ready to publish\nhttp://x.ai/bot/marketplace/bots/tinkabot\n\nStartup QA Bot\nWalks through your live product every weekday and reports bugs with screenshots and repro steps\nhttp://x.ai/bot/marketplace/bots/startup-qa-bot\n\nPM bot\nWrites the exact product cut: what’s in, what’s out, how you know it’s done\nhttp://x.ai/bot/marketplace/bots/pm-bot\n\nfigma bro\nTurns Figma frames into build specs and generates screens from a brief\nhttp://x.ai/bot/marketplace/bots/figma-bro\n\nCritiquito\nTurns any screenshot or Figma link into ranked, concrete design fixes\nhttp://x.ai/bot/marketplace/bots/critiquito\n\nSEO & AEO Desk\nTurns keywords or Search Console data into writer-ready briefs for Google and AI answers\nhttp://x.ai/bot/marketplace/bots/seo-aeo-desk\n\nClip Bot\nFinds the best moments in long recordings and cuts captioned short clips\nhttp://x.ai/bot/marketplace/bots/clip-bot\n\nGTM Loop Closer\nCatches every dropped promise across meetings, email, Slack and CRM\nhttp://x.ai/bot/marketplace/bots/follow-through-agent\n\nSales Call Coach\nScores your sales calls and tells you exactly what to fix before the next one\n http://x.ai/bot/marketplace/bots/sales-call-coach\n\nRecruiting Coordinator\nSchedules interview loops, preps interviewers and chases stalled threads from your calendar\n http://x.ai/bot/marketplace/bots/mr-toms\n\nBrowse the full marketplace: https://x.ai/bot/marketplace\n\nWant to build your own? Start here:\n\nGrok Bot 101 (the setup guide): https://x.ai/bot/guides/grok-bot-101\nGet started (docs): https://docs.x.ai/grok-bot/get-started\nWork with Grok Bot (docs): https://docs.x.ai/grok-bot/bots\nSkills, routines and automations (docs): https://docs.x.ai/grok-bot/skills-routines-and-automations\nTop 10 Grok Bot skills to use: https://composio.dev/blog/top-grok-bot-skills\n56 ready use cases: https://x.ai/bot/use-cases\nWork becomes optional first for the people whose bots already do the work.\n\nMost people will wait. A few will hand a job to a bot this week.\n\nBookmark it and hand one job to a bot right now.\n\nThen read the Grok Bot engineering guide below and build your own team of Grok Bots ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123773264438726656/img/gcX3ixme903qVEC3.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123773264438726656/vid/avc1/1924x1080/k4r8lFkCzrs5tjm_.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "525594574",
+            "likeCount": 23,
+            "viewCount": 751,
+            "authorName": "cat",
+            "createdUtc": 1795185269,
+            "quoteCount": 0,
+            "replyCount": 0,
+            "authorImage": "https://pbs.twimg.com/profile_images/2120847598231625729/1kZ3e7me_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 4,
+            "bookmarkCount": 24,
+            "authorUsername": "verysmartkitty",
+            "authorVerified": true,
+            "conversationId": "2123787067264036886",
+            "authorFollowers": 204
+          },
+          {
+            "id": "2122892518304186562",
+            "url": "https://x.com/Viveksahu1215/status/2122892518304186562",
+            "lang": "en",
+            "text": "𝗧𝗢𝗣 𝟭𝟬 𝗙𝗨𝗡𝗗𝗔𝗠𝗘𝗡𝗧𝗔𝗟𝗦 𝗢𝗙 𝗔𝗡 𝗔𝗜 𝗔𝗨𝗧𝗢𝗠𝗔𝗧𝗜𝗢𝗡 𝗦𝗬𝗦𝗧𝗘𝗠 🤖\n\nAI automation is more than connecting tools and running workflows.\n\nA powerful automation system needs triggers, integrations, data processing, decision-making, execution, security, and continuous improvement.\n\nHere are 10 essential components that make AI automation systems work.\n\n1. Workflow Triggers — Start the Process\n\nTriggers initiate workflows automatically.\n\n- Time-based triggers.\n- Event-based triggers.\n- User-defined conditions.\n\n2. Integration Layer — Connect Everything\n\nConnect different applications and services using APIs and webhooks.\n\n3. Data Ingestion — Collect Information\n\nGather and prepare data through three important steps:\n\n- Clean data.\n- Normalize information.\n- Enrich records.\n\n4. Data Transformation — Prepare Raw Data\n\nConvert collected information into structured, usable data for automation and decision-making.\n\n5. AI Decision Engine — Make Smarter Decisions\n\nThree approaches power automated decisions:\n\n- Rule-based logic.\n- Learning-based models.\n- Agentic AI.\n\n6. Workflow Orchestration — Coordinate Tasks\n\nManage task sequencing, dependencies, and worker queues to keep workflows organized.\n\n7. Action Execution — Get Things Done\n\nExecute actions such as updating databases, calling APIs, and sending notifications.\n\n8. Performance Optimization — Improve Efficiency\n\nUse failover mechanisms, caching, parallel execution, and human-in-the-loop controls.\n\n9. Scalability Layer — Handle Growing Workloads\n\nDesign systems that can handle increasing tasks, users, and data without losing reliability.\n\n10. Feedback Loop — Continuously Improve\n\nTrack execution results, outcomes, and performance metrics to improve future workflows.\n\n𝗧𝗛𝗥𝗘𝗘 𝗠𝗢𝗥𝗘 𝗧𝗛𝗜𝗡𝗚𝗦 𝗧𝗛𝗔𝗧 𝗠𝗔𝗧𝗧𝗘𝗥\n\n- Security & Governance: Manage API keys, permissions, OAuth, and compliance.\n- API Security: Ensure authentication, authorization, and access control.\n- Monitoring & Reliability: Track logs, failures, audit trails, and recovery.\n\nThe real power of AI automation comes from combining all these components into one reliable, continuously improving system.\n\nFollow @Viveksahu1215 for more AI tools & tech updates.\n\n#AI #Automation #AIAgents #ArtificialIntelligence #AITools",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122892502432948224/img/cTKIOBAl5xYphoAb.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122892502432948224/vid/avc1/800x1000/NBKWGGj8nvAh9YO2.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1888950165417168896",
+            "likeCount": 78,
+            "viewCount": 2181,
+            "authorName": "Vivek sahu",
+            "createdUtc": 1794971992,
+            "quoteCount": 2,
+            "replyCount": 9,
+            "authorImage": "https://pbs.twimg.com/profile_images/2108295266642317312/ys-ro8Sg_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 27,
+            "bookmarkCount": 49,
+            "authorUsername": "Viveksahu1215",
+            "authorVerified": true,
+            "conversationId": "2122892518304186562",
+            "authorFollowers": 9166
+          },
+          {
+            "id": "2122452089301237948",
+            "url": "https://x.com/hammer_mt/status/2122452089301237948",
+            "lang": "en",
+            "text": "Five theories about AI and work in 2027:\n\n1. AI writing will get good enough we won't read before publishing\n2. Anthropic/OpenAI quotes per task, not per token\n3. Freelancers will compete for the same tasks as AIs and AI + human teams\n4. Junior jobs will be fully in a simulation before they're allowed to make real world changes\n5. We have half as much work and twice as many meetings\n\nCome back December 31st 2028 and tell me I'm wrong.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122450009815654400/img/ScJpxDDf1TwAR3Nm.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122450009815654400/vid/avc1/1080x1080/V-BR0z9oHVq8eWu2.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "21192157",
+            "likeCount": 59,
+            "viewCount": 7095,
+            "authorName": "Mike Taylor",
+            "createdUtc": 1794866985,
+            "quoteCount": 2,
+            "replyCount": 22,
+            "authorImage": "https://pbs.twimg.com/profile_images/2045274630408359936/_Q6ixnwR_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 3,
+            "bookmarkCount": 43,
+            "authorUsername": "hammer_mt",
+            "authorVerified": true,
+            "conversationId": "2122452089301237948",
+            "authorFollowers": 13223
+          },
+          {
+            "id": "2124137555285143640",
+            "url": "https://x.com/0xWekna/status/2124137555285143640",
+            "lang": "en",
+            "text": "Holy f*ck. Andrej Karpathy, whom Elon called the world’s #2 mind in computer vision:\n\n\"Reinforcement learning is terrible\n\nIt just so happens that everything that we had before is much worse\"\n\nIn this 7-minute clip, he breaks down why LLMs still don't learn like humans and why training them is like \"sucking supervision bits through a straw\".\n\nHuman Learning → Reinforcement Learning → One Reward → Every Token Upweighted\n\nThe models are smart. Their learning process is still broken.\n\nMore valuable than most $1,000 AI course this year.\n\nSave it and watch today.\n\nThen learn how to build around those limitations: Harness, Loops, Graphs ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124134567162363904/img/GsZkm-idHnnBXV8R.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124134567162363904/vid/avc1/1080x1080/mJcP7DwheDYXUD_o.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1687429122765492226",
+            "likeCount": 46,
+            "viewCount": 2453,
+            "authorName": "Wekna",
+            "createdUtc": 1795268832,
+            "quoteCount": 1,
+            "replyCount": 3,
+            "authorImage": "https://pbs.twimg.com/profile_images/1712144025682124804/_awTBacz_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 3,
+            "bookmarkCount": 58,
+            "authorUsername": "0xWekna",
+            "authorVerified": true,
+            "conversationId": "2124137555285143640",
+            "authorFollowers": 70
+          },
+          {
+            "id": "2124137408237019579",
+            "url": "https://x.com/0xsacr3d/status/2124137408237019579",
+            "lang": "en",
+            "text": "This is f*cking insane. The Turing Award winner who taught computers to see, Yann LeCun, just explained why today's AI still isn't really intelligent:\n\n\"It's human intelligence that allows a teenager to learn to drive in 20 hours of practice. We have literally billions of hours of training data of people driving cars around, and we still can't use that to get a machine to drive as reliably as humans\"\n\nIn this free 82-minute conversation, he covers why chatbots mastered language but not the world, what a world model is, why a house cat still knows things no AI does, why superintelligence will work for us and why AI can't stay in the hands of 3 or 4 companies\n\nChatbots → Language → World Models → Machines That Learn Like A Teenager → Superintelligence That Works For Us\n\nI've seen $1,500 AI courses that don't cover what he says in the first 2 minutes\n\nBookmark and watch the full conversation\n\nThen read how to check what your agents actually understand: Verification Engineering ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124128905707536384/img/GMSYwLr-BJcw1oLt.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124128905707536384/vid/avc1/1280x720/ve9KNcB8x6TiLrXI.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1796644321304748032",
+            "likeCount": 29,
+            "viewCount": 2748,
+            "authorName": "sacred",
+            "createdUtc": 1795268797,
+            "quoteCount": 1,
+            "replyCount": 2,
+            "authorImage": "https://pbs.twimg.com/profile_images/2119490846181531649/hqKx57Ex_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 2,
+            "bookmarkCount": 33,
+            "authorUsername": "0xsacr3d",
+            "authorVerified": true,
+            "conversationId": "2124137408237019579",
+            "authorFollowers": 2176
+          },
+          {
+            "id": "2123465834320269339",
+            "url": "https://x.com/vikktorrrre/status/2123465834320269339",
+            "lang": "en",
+            "text": "Dario Amodei: Anthropic will not compromise AI safety to win the AI race.\n\n“We will pace the training and deployment of AI systems, taking as long as is necessary to have confidence that they are safe and will remain under human control.”\n\n“Neither business nor political pressure will change our position.”\n\n“Today puts the company in a stronger financial position and, in doing so, only strengthens our resolve to do the right thing.”\n\n“It doesn't matter which company has the best models. Everyone wins because everyone is building safely.”\n\n“The goal is to make the whole industry better, regardless of whether Anthropic is winning or losing at any given time.”",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123465655512969217/img/QG_sHeUXqkwFAX9F.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123465655512969217/vid/avc1/1920x1080/KjVgGrUdeHcVHTUp.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1785805702935515137",
+            "likeCount": 35,
+            "viewCount": 2698,
+            "authorName": "Veee",
+            "createdUtc": 1795108681,
+            "quoteCount": 1,
+            "replyCount": 9,
+            "authorImage": "https://pbs.twimg.com/profile_images/2012714142877044736/_6qWAbnU_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 2,
+            "bookmarkCount": 5,
+            "authorUsername": "vikktorrrre",
+            "authorVerified": true,
+            "conversationId": "2123465834320269339",
+            "authorFollowers": 13365
+          },
+          {
+            "id": "2122624784345563563",
+            "url": "https://x.com/Viveksahu1215/status/2122624784345563563",
+            "lang": "en",
+            "text": "𝗠𝗨𝗟𝗧𝗜-𝗔𝗚𝗘𝗡𝗧 𝗗𝗘𝗦𝗜𝗚𝗡 𝗣𝗔𝗧𝗧𝗘𝗥𝗡𝗦 — 𝗔 𝗖𝗢𝗦𝗧-𝗩𝗔𝗟𝗨𝗘 𝗕𝗥𝗘𝗔𝗞𝗗𝗢𝗪𝗡\n\nBuilding multi-agent AI systems isn't just about connecting multiple LLMs.\n\nIt's about choosing the right architecture to balance cost, performance, scalability, and reliability.\n\nHere are 6 important multi-agent design patterns every AI builder should understand.\n\n𝗛𝗘𝗥𝗘’𝗦 𝗧𝗛𝗘 𝗕𝗥𝗘𝗔𝗞𝗗𝗢𝗪𝗡:\n\n01 — 𝗦𝗘𝗤𝗨𝗘𝗡𝗧𝗜𝗔𝗟 𝗣𝗔𝗧𝗧𝗘𝗥𝗡\n\nAgents complete tasks one after another in a fixed sequence.\n\n→ Task 1 → Task 2 → Task 3 → Output\n\n→ Best For: Deterministic workflows with clear dependencies.\n\n→ Cost: $\n\n→ Hidden Cost: Slower execution when tasks could run in parallel.\n\n→ Use When: Simplicity and reliability are priorities.\n\n02 — 𝗣𝗔𝗥𝗔𝗟𝗟𝗘𝗟 𝗣𝗔𝗧𝗧𝗘𝗥𝗡\n\nMultiple agents work on independent tasks simultaneously.\n\n→ Agent A: Handles Task A.\n\n→ Agent B: Handles Task B.\n\n→ Agent C: Handles Task C.\n\n→ Merge: Combines all results.\n\n→ Best For: Reducing latency for independent tasks.\n\n→ Cost: $$\n\n→ Hidden Cost: Higher token usage and infrastructure costs.\n\n→ Avoid When: Tasks depend heavily on each other.\n\n03 — 𝗛𝗜𝗘𝗥𝗔𝗥𝗖𝗛𝗜𝗖𝗔𝗟 𝗣𝗔𝗧𝗧𝗘𝗥𝗡\n\nA manager agent delegates tasks to specialized agents.\n\n→ Research Agent: Collects information.\n\n→ Analysis Agent: Evaluates findings.\n\n→ Data Agent: Processes data.\n\n→ Report Agent: Generates reports.\n\n→ Best For: Enterprise-scale workflows.\n\n→ Cost: $$$\n\n→ Hidden Cost: Complex orchestration and higher development effort.\n\n→ Long-Term Value: Reusable sub-agents create leverage across workflows.\n\n04 — 𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗢𝗥–𝗖𝗥𝗜𝗧𝗜𝗖 𝗣𝗔𝗧𝗧𝗘𝗥𝗡\n\nOne agent generates an output while another reviews and improves it.\n\n→ Generator Agent: Creates the initial output.\n\n→ Critic Agent: Reviews quality and identifies issues.\n\n→ Revision: Improves the generated result.\n\n→ Best For: Content, code, plans, and complex outputs.\n\n→ Cost: $$$\n\n→ Hidden Cost: Multiple inference loops increase latency and cost.\n\n→ Worth It When: Accuracy matters more than speed.\n\n05 — 𝗛𝗨𝗠𝗔𝗡-𝗜𝗡-𝗧𝗛𝗘-𝗟𝗢𝗢𝗣\n\nAI performs tasks while humans review important decisions.\n\n→ AI Agent: Processes the request.\n\n→ Human Review: Checks the result.\n\n→ Action: Executes the approved task.\n\n→ Feedback: Improves future execution.\n\n→ Best For: High-risk decisions and compliance workflows.\n\n→ Cost: $$$\n\n→ Hidden Cost: Manual effort and additional latency.\n\n→ Essential For: Legal, safety, billing, and critical decisions.\n\n06 — 𝗖𝗢𝗠𝗣𝗢𝗦𝗜𝗧𝗘 𝗣𝗔𝗧𝗧𝗘𝗥𝗡\n\nCombines multiple design patterns into one complex workflow.\n\n→ Sequential: Executes dependent tasks.\n\n→ Parallel: Handles independent tasks.\n\n→ Hierarchical: Delegates responsibilities.\n\n→ Generator–Critic: Reviews outputs.\n\n→ Human-in-the-Loop: Adds human approval.\n\n→ Best For: Complex end-to-end automation.\n\n→ Cost: $$$$\n\n→ Hidden Cost: High infrastructure and orchestration overhead.\n\n→ Biggest Mistake: Using it for problems that don't need this complexity.\n\n𝗧𝗛𝗘 𝟮𝟬𝟮𝟲 𝗣𝗥𝗢𝗗𝗨𝗖𝗧𝗜𝗢𝗡 𝗦𝗧𝗔𝗖𝗞:\n\n𝗠𝗖𝗣 — 𝗧𝗢𝗢𝗟 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗜𝗩𝗜𝗧𝗬 𝗟𝗔𝗬𝗘𝗥\n\nConnects AI agents with external tools and data.\n\n→ Tool Access\n→ APIs\n→ Retrieval\n→ Databases\n→ External Systems\n\n→ Ecosystem: Anthropic, OpenAI, Microsoft.\n\n𝗔𝟮𝗔 — 𝗔𝗚𝗘𝗡𝗧 𝗖𝗢𝗢𝗥𝗗𝗜𝗡𝗔𝗧𝗜𝗢𝗡 𝗟𝗔𝗬𝗘𝗥\n\nEnables different AI agents to communicate and collaborate.\n\n→ Agent Messaging\n→ Task Delegation\n→ Shared Memory\n→ Workflow Coordination\n→ Capability Discovery\n\n→ Ecosystem: Google, AWS, Microsoft.\n\n𝗧𝗛𝗘 𝗞𝗘𝗬 𝗟𝗘𝗦𝗦𝗢𝗡:\n\nMore agents don't automatically mean better results.\n\nThe right architecture depends on task complexity, budget, execution speed, and reliability requirements.\n\nStart simple. Add orchestration and specialized agents only when they deliver measurable value.\n\nFollow @Viveksahu1215 for more AI tools & tech updates.\n\n#AI #AIAgents #AgenticAI #MultiAgentSystems #MCP #A2A #LLM #Automation",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122624759708225536/img/eG-WDN5vZ2qH8Sqy.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122624759708225536/vid/avc1/720x900/gJVhdeSf8HXlE7Jv.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1888950165417168896",
+            "likeCount": 115,
+            "viewCount": 2967,
+            "authorName": "Vivek sahu",
+            "createdUtc": 1794908159,
+            "quoteCount": 0,
+            "replyCount": 10,
+            "authorImage": "https://pbs.twimg.com/profile_images/2108295266642317312/ys-ro8Sg_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 29,
+            "bookmarkCount": 76,
+            "authorUsername": "Viveksahu1215",
+            "authorVerified": true,
+            "conversationId": "2122624784345563563",
+            "authorFollowers": 9166
+          },
+          {
+            "id": "2123454585411191151",
+            "url": "https://x.com/vishalsingh2972/status/2123454585411191151",
+            "lang": "en",
+            "text": "Anthropic CEO Dario Amodei during IPO:\n\n\"We will pace the training and deployment of AI systems, taking as long as is necessary to have confidence that they are safe and will remain under human control.\"\n\n\"We will not bend to either business nor political pressure.\"\n\n\"If we can show it's possible to make the right choices on safety and still build an incredibly successful company, others in our industry will be inspired to do the same.\"\n\n\"We call this a race to the top, it doesn't matter which company has the best models. Everyone wins because everyone is building safely.\"",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123454330103812096/img/zYMwNp_XrW53EP6R.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123454330103812096/vid/avc1/1920x1080/AIds1vQ_FzedH8f_.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1647076250782162946",
+            "likeCount": 31,
+            "viewCount": 4197,
+            "authorName": "Vishal Singh",
+            "createdUtc": 1795105999,
+            "quoteCount": 0,
+            "replyCount": 3,
+            "authorImage": "https://pbs.twimg.com/profile_images/1647082070542528512/cw4eyk7v_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 0,
+            "bookmarkCount": 7,
+            "authorUsername": "vishalsingh2972",
+            "authorVerified": true,
+            "conversationId": "2123454585411191151",
+            "authorFollowers": 15247
+          },
+          {
+            "id": "2122213892768366625",
+            "url": "https://x.com/Prayag12B/status/2122213892768366625",
+            "lang": "en",
+            "text": "AI is now effectively training itself. \n\nData from Anthropic shows their research speed has doubled in just one year, largely because they’re letting AI do the heavy lifting in R&D. OpenAI’s own teams have ramped up their use of internal coding agents sevenfold since the summer. It’s no longer just humans writing the code; we’re watching the feedback loop close in real time.\n\nMeasurable Speed: The folks at Meter found that Anthropic's progress on specific tasks literally doubled.\n\nThe 'AI building AI' shift: A huge chunk of that acceleration isn't just better hardware; it’s the models actually doing the research work.\n\nExploding R&D Spend: OpenAI researchers went from spending $1,000 a day on coding agents to over $7,000 a day in just a few months; they’re voting with their budgets.\n\nClaude’s rising impact: By September, Claude was handling 26% of Anthropic's R&D, a massive jump from the \\<1% levels we saw back in February.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122211762431037440/img/RJu-0x7NoDA3mVRo.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122211762431037440/vid/avc1/1280x720/9a_gvuCi9wq0fbE6.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "806400881889517568",
+            "likeCount": 5,
+            "viewCount": 232,
+            "authorName": "Prayag",
+            "createdUtc": 1794810195,
+            "quoteCount": 0,
+            "replyCount": 3,
+            "authorImage": "https://pbs.twimg.com/profile_images/2090312734525247488/mgLyqcNQ_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 0,
+            "bookmarkCount": 0,
+            "authorUsername": "Prayag12B",
+            "authorVerified": true,
+            "conversationId": "2122213892768366625",
+            "authorFollowers": 1105
+          },
+          {
+            "id": "2122792165969711544",
+            "url": "https://x.com/LengrandSandra/status/2122792165969711544",
+            "lang": "en",
+            "text": "Human judgment must guide agent output.\n\n• message becomes a shared purchase order\n• team gives feedback right on the work\n• you approve what is worth doing\n\nTeamily AI Collaborative Studio keeps people in charge.\n\n#CollaborativeStudio https://t.co/w9yK6YOV3z",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/ext_tw_video_thumb/2122792158142795776/pu/img/VLBr9mVXA49EXs1F.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/ext_tw_video/2122792158142795776/pu/vid/avc1/966x544/F-LrbvX24X-WUcuK.mp4?tag=12"
+              }
+            ],
+            "isReply": false,
+            "authorId": "419078266",
+            "likeCount": 10,
+            "viewCount": 6359,
+            "authorName": "Maya Sharma",
+            "createdUtc": 1794948066,
+            "quoteCount": 0,
+            "replyCount": 3,
+            "authorImage": "https://pbs.twimg.com/profile_images/2070017751700135936/RUCIw4yy_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 8,
+            "bookmarkCount": 3,
+            "authorUsername": "LengrandSandra",
+            "authorVerified": false,
+            "conversationId": "2122792165969711544",
+            "authorFollowers": 24
+          }
+        ],
+        "nextCursor": null
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-capybara",
+      "kind": "anonymous",
+      "name": "Capybara",
+      "artworkKey": "capybara"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00049",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:41:41.916Z",
+  "started_at": "2026-11-23T07:41:42.010Z",
+  "completed_at": "2026-11-23T07:41:43.614Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

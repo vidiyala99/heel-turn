@@ -1,0 +1,271 @@
+{
+  "id": "eb47ec41-3a84-486b-a60d-899ede0203e5",
+  "run_url": "https://app.glasser.ai/runs/eb47ec41-3a84-486b-a60d-899ede0203e5",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "AI sales call roleplay trainer",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "large_result: this response is ~30 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge. paging_unavailable: this result came from a source that cannot return a nextCursor, so it may be incomplete and there is no way to continue from here. Re-run with `requireFields: [\"nextCursor\"]` to be served only by a source that can page, which may cost more per request.",
+    "items": 7,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1p8oomu",
+            "url": "https://www.reddit.com/gallery/1p8oomu",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/huxo57p78y3g1.png?width=756&format=png&auto=webp&s=d50204aaada1350bb1bcfb9598d81483ab3d19e1",
+                "type": "photo",
+                "width": 756,
+                "height": 521
+              },
+              {
+                "url": "https://preview.redd.it/iiktn5j68y3g1.png?width=751&format=png&auto=webp&s=7090e1b723ea00e7dc9a61ec81d6ef136377aac8",
+                "type": "photo",
+                "width": 751,
+                "height": 451
+              }
+            ],
+            "score": 76216,
+            "title": "Valve artist responds to calls for Steam to drop \"Made with AI\" label",
+            "author": "Stannis_Loyalist",
+            "authorId": "3p3tvgm1",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/Steam/comments/1p8oomu/valve_artist_responds_to_calls_for_steam_to_drop/",
+            "subreddit": "Steam",
+            "createdUtc": 1764314331,
+            "isArchived": false,
+            "numComments": 2587
+          },
+          {
+            "id": "1qq86e8",
+            "url": "https://v.redd.it/x8jfxpdsfagg1",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/aGZveWRnZnNmYWdnMYfYCjukiOrDZNs31x2yKcRXDLdtV-dT2BYp6iSlVMoZ.png?format=pjpg&auto=webp&s=eddd8c9eef14053df861adaf508fa94488210fa4",
+                "type": "video",
+                "width": 640,
+                "height": 360,
+                "videoUrl": "https://v.redd.it/x8jfxpdsfagg1/CMAF_360.mp4?source=fallback"
+              }
+            ],
+            "score": 73443,
+            "title": "Full Leaked TPUSA Zoom Call\": Erika Kirk speaks with staff regarding attendance and sales following Charlie Kirk's death.",
+            "author": "Logical-Flow-6703",
+            "authorId": "tf5ktmhg",
+            "isLocked": true,
+            "selftext": "https://x.com/SuppressedNws1/status/2016678155537277045?t=jFqmDGWSNacx5mIdVbis7g&s=19",
+            "permalink": "/r/UnderReportedNews/comments/1qq86e8/full_leaked_tpusa_zoom_call_erika_kirk_speaks/",
+            "subreddit": "UnderReportedNews",
+            "createdUtc": 1769692341,
+            "isArchived": false,
+            "numComments": 3607
+          },
+          {
+            "id": "1wf97x0",
+            "url": "https://i.redd.it/dltarsrmsaph1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/dltarsrmsaph1.jpeg?auto=webp&s=85db05e0ad64fba3dbf48bafe920d1b0ea778aad",
+                "type": "photo",
+                "width": 6120,
+                "height": 8160
+              }
+            ],
+            "score": 68923,
+            "title": "Hug your kids every chance you can",
+            "author": "Paperbagsportsfan",
+            "authorId": "2pjdywh8",
+            "isLocked": false,
+            "selftext": "(9/11/26) My 5 year started kindergarten last week at a new school with all new kids and all new teachers. She took the bus for the first time. She's very shy and timid but as the week went on she did better and better. A photo of her was even in the weekly newsletter playing in gym class.\n\nThe following week she came down with a fever. Not unusual so we kept her out of school. The following day it remained high with meds so she missed a second day. By day 3 we went to urgent care. They told us to take one additional med and to keep them posted if she doesn't get will. The pediatrician even called later that day to check on her. That night she woke up and became very delirious for a few mintues then snapped out of it. We brought her back to urgent care the next morning and they sent us to the ER to get blood work. \n\nThat began the worst day of my life so far. The doctor immediately thought it was leukemia or an infection. A few hours later we found out it was both.  Luckily it is the most common form of leukemia with a high success rate. Unfortunately they could not control the infection. She worsened as the day went on eventually going into septic shock. The doctors and nurses tried everything but eventually had to intubate her. Her last words to me while conscious were her struggling to say i love you. \n\nShe has since gone on a few more machines. She has an echmo pumping her blood since her right lung is collapsed or full of fluid not sure which. Her heart is too weak to work. She has too much fluid in her body so they also put her on dialysis. Doctors in the pediatric icu and from oncology both say each is treatable on it's own but having both things happen together is very rare. They are doing zoom calls with other doctors to get advice during rounds each morning. I am confident she will walk out of here but it is not easy. Her 3 year old sister just keeps telling her to get better soon. One of the nurses put it best, she's set up to succeed through the equipment but she needs to fight in order to win. My wife and myself are living a surreal nightmare. Idk what I'll do if I lose her. She's literally the glue that holds this family together. \n\nI'm not really eating but this day(s) old bagel and orange juice is my meal for the day \n\nUpdate (9/12/26): I'm just now opening this before I try to sleep for a few hours as I wanted to be as present as possible for my kids today.  I honestly didn't expect anything when I posted this. I had a moment of silence to myself in the bathroom and decided to write how I was feeling and what I was going through then posted it to this sub. THANK YOU for all of the support and advice. Somethings we are already doing and others we will implement.\n\nWe have brought her bedtime blanket and books from home. We read to her as often as we can. I also tell her stories about our family (how I met her mom, how we moved to our town, how we got our dogs, etc) and that has been very therapeutic for me. \n\nOur 3 year old came to visit and we walked through the meditation garden with her to find fairies. Getting out of the treatment and getting fresh air has been very helpful. I think it's important for our 3 year old to see the 5 year old and talk to her as well. The staff gave my 3 year old a fairy (bird) house and paint so we could do that in the family lounge away from the chaos of the treatment room. They also gave her a stuff animal, doctors kit, and some badges and electrodes so she can fix her stuffed animal similar to how they are fixing her sister.\n\nThe medical staff has been nothing short of amazing and has been saying we will take this 1 day at a time. My 5 year old had a good day today. Her fever is gone, her blood tests look significantly more normal than 24 hours ago. They could hear breathing sounds in her right lung for the first time today. Her dialysis was turned up to remove more fluids and she did great with that. Her oxygen sensor actually has a reading and they said it was because her heart has become strong enough to actually pump the blood up to her ear where they have it. Her echmo useage decreased from 75% to 65% and they said at 40% she can stop using it. We have a very long way to go but this was a step in the right direction, she truly is a fighter. \n\nFor anyone reading this going through a similar situation, we started asking family and friends to send us voice memos to play for her. That has been great to know you have so many people supporting her and it's a nice break from just talking. \n\nOther things I've learned the last 24 hours: \n\n-it's ok to be weak. It's ok to cry and let someone else hold you.\n\n-stay off chat gpt and meticulously reviewing her medical chart. The providers know more than you and more about your child than Ai. It'll drive you crazy and mentally drain you. Ask the providers as many questions as you can so you can get more familiar and comfortable (?) with what is going on.\n\n-get outside, even if for 5 minutes. Staying trapped in that room all day is not good for you mentally.\n\nStill not eating much. Only took a few bites of the bagel but managed to eat 3 chicken tenders for dinner and a piece of broccoli. I'm feeling more confident than I did when I posted this.\n\n\nUpdate 2 (9/17/26): Everyone is doing better! My daughter is off the echmo, ventilator, and dialysis! Shes slowly waking up and will hopefully be moved out of the ICU to oncology in the next few days! Because of that my wife and I are doing immensely better. Thank you everyone for all of the support. I made a carebridge page so if anyone wants to [see updates go here](https://www.caringbridge.org/site/6c600b6b-b22b-11f1-8264-55464dfa5171)\n\nUpdate 3 (9/21): Not much to update. Still in the PICU. She's making progress but not like before. Regardless she's not going backwards so I'll take it. She still is on CPAP for breathing as well as IVs for medication. Awaiting a port in the next few days to start receiving chemo treatment that way. She seems out of it more than before but I'm sure she's really tired. Hopefully they can move us out of PICU this week. \n\nHer Preschool teacher setup a go fund me for her. I am a small business owner so I have been closed this whole time and don't plan on reopening until she's back home. The funds will help support me being with her as well as pay her medical bills. \n [The go fund me can be found here ](https://www.gofundme.com/f/gabriela-strong)\n\nThank you everyone for the support. \n\nUpdate 4 (9/24/26): We are still in the PICU. Her brain CT and EEG has come back negative. She had a PICC line placed in her arm to continue receiving chemotherapy. She had a line put into her chest to remove some fluid and over 700 ml (over 20 oz) of fluid drained! She's been breathing much better since. They have her alternating between CPAP and high flow oxygen to help her breathe, which is a step in the right direction. She started eating yesterday and devoured some Italian ice.\n\nShe has been mostly non-verbal since being extubated 1 week ago but she did say \"mommy\" twice the other day. She's been communicating much better non-verbally with head movements, she has been sleeping better at night, and is more active during the day.\n\nStill working on lowering her medications so we can move her over to the oncology floor, but all steps in the right direction!\n\nUpdate (9/28): It's going. I've been trying to reply to all the DMs but haven't replied to any comments. I do try to read all of them and I appreciate the success stories and advice. My daughter is doing well overall. We are still in the PICU but she is more interactive. She sat in a chair and at times can be pretty talkative. They took her off oxygen so she's fully breathing on her own. They also got rid of a few of the IVs in her arms so that helps with her discomfort. They'll soon do some testing to see if she can eat actual food on her own (currently getting her food through a tube). Unfortunately the fluid has come back in her chest so she will need another chest tube for drainage again.\n\nWe've been able to get a more clear picture on why her case was so sudden and fast acting. Along with the Leukemia they discovered she now has HLH (Hemophagocytic Lymphohistiocystosis) which is an inflammatory disease. This led to her body rapidly declining along with the infection and leukemia. The inflammation going throughout her body is what makes her case more unique. The treatment is the same/very similar to the same medication as the leukemia, just not as straightforward since her liver is still pretty inflamed. Her first day here she had what's called a \"cytokine storm\" from the HLH which temporarily damaged her organs. That \"storm\" really calmed down and they are trying different drugs since this isn't routine. They've mentioned her case at a nationwide conference and said she was one of the most talked about so that sucks she's that bad/rare of a case but I'm glad to have so many eyes reviewing her care. \n\nShe's starting to have some PTSD. She developed a fever the other night and when you have no immune system it's not a good time. It was also a scary look into what the next 2 years holds, as some of you mentioned, but she's worth it. I'm hanging in there. Some days are definitely harder than others. Seems to be 3 steps forward 2 steps back.\n\nThanks again to everyone for supporting us.\n\nUpdate (10/12): it's been awhile since I posted an update.  We're still in the PICU and they gave us the biggest room they have (because we don't seem to be able to leave)! \n\nSince my last update my daugther has been up and down. She developed 3 new infections. 1 in the PICC line, 1 in her intestines, and 1 that might have spawned from her intestines and traveled back to the PICC. All have cleared so that's been great. She had another chest tube put in since the mysterious chest edema came back and that has since been removed and stable. She did develop mucositis and typhlitis in her intestines. This led to a hole in her colon, bleeding into the intestines, and air into her abdomen. She had to get emergency surgery and have part of her large and small intestine removed and an ostomy put in.\n\nFortunately we caught that just in time and she's actually looking better than before. It looks like her HLH is also under control and she's finally producing white blood cells and platelets on her own! Hopefully she can rest and continue to get stronger so we can finally leave but I've been saying that for over a month now she who knows! Mentally the whole family and myself are staying strong. The entire PICU and our community outside of the hospital has been incredibly helpful.\n\nUpdate (11/6): My daughter is still in the hospital but out of the PICU! We moved over to the oncology floor 2 weeks ago. It's much quieter and slower paced which is great. She's been able to leave her room in a wheelchair to explore more of the hospital. It looked like we were going to actually be discharged this past week but she fell ill and that has kept us here. She started her second round of chemo. Once her intake and ostomy output level off a little more then we can go home until the next thing comes up.\n\nAs we left the PICU the medical staff started to open up more about how lucky she is. One doctor said her estimated chance of survival that first week was around 10%. They said ECMO for septic shock alone carries a 75% mortality risk and that's without the leukemia and HLH. They believe mortality of HLH independently is similarly high. The PA said they personally have never seen anyone survive ECMO for septic shock and have only seen one person survive HLH.\n\nIt truly is a miracle she's alive. We are awaiting her discharge to go home but until then I am grateful to be able to spend time with her again  ",
+            "permalink": "/r/BoyDinnerDiaries/comments/1wf97x0/hug_your_kids_every_chance_you_can/",
+            "subreddit": "BoyDinnerDiaries",
+            "createdUtc": 1789309780,
+            "isArchived": false,
+            "numComments": 745
+          },
+          {
+            "id": "1ulxn9v",
+            "url": "https://www.reddit.com/gallery/1ulxn9v",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/06rp408sewah1.jpg?width=1292&format=pjpg&auto=webp&s=01adc11f27e5715274f63a41d4fd75aa7155bb48",
+                "type": "photo",
+                "width": 1292,
+                "height": 1318
+              },
+              {
+                "url": "https://preview.redd.it/ipp9yz7sewah1.jpg?width=1320&format=pjpg&auto=webp&s=ee90e83e8133a18608e1db1ef4b2e3689fe95afc",
+                "type": "photo",
+                "width": 1320,
+                "height": 1369
+              }
+            ],
+            "score": 62016,
+            "title": "In lieu of payment..",
+            "author": "thedivinegemini",
+            "authorId": "3doqasrj",
+            "isLocked": false,
+            "selftext": "I’m a GM at a restaurant & one of our managers left a note on our manager logs this afternoon that a guest walked out on their check and left this in lieu of payment of any kind. Not that the server got stiffed on a tip - just pure theft of services. I guess the whole “Thou shalt not steal” thing doesn’t matter if you’ve been pre-forgiven. Pretty convenient.\n\nETA: I’m not a bot; this is not AI - check my post and comment history. I’m not here for karma or fake internet points. This is what it feels like to work in a restaurant these days - especially in the Bible Belt. The first photo you can look up and is available for anyone to buy (should your darker urges push you toward being that person). The second photo is from Pulse, an app for restaurant managers to keep an eye on hourly sales, labor, and comps.   \nThe “Pineapple Express” is a mocktail our restaurant offers. ",
+            "permalink": "/r/mildlyinfuriating/comments/1ulxn9v/in_lieu_of_payment/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1783033752,
+            "isArchived": false,
+            "numComments": 2740
+          },
+          {
+            "id": "1wtedwo",
+            "url": "https://i.redd.it/ififhzmnhhsh1.png",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/ififhzmnhhsh1.png?auto=webp&s=3d23feb5be732598e3eee4eb9ca865c4cff4666b",
+                "type": "photo",
+                "width": 848,
+                "height": 539
+              }
+            ],
+            "score": 57771,
+            "title": "What Working at a Food Bank Taught Me",
+            "author": "MichaelJDigitalNomad",
+            "authorId": "4fjcizo4",
+            "isLocked": false,
+            "selftext": "When I started working at the food bank here in Port Townsend, Washington, last April, one of the things I worried about was how to say \"no\" to people who would ask for more food than we could give them.\n\nIt's not that I assumed people would be greedy.\n\nI just figured that people coming to a food bank were clearly in need, and given that, along with the cutbacks in federal benefits and the ever-increasing cost of groceries, these folks would hope to get as much as they could.\n\nI mean, I figured that's how I would behave in the same circumstances.\n\nWell, four months later and having served over a thousand clients, I now know what an idiot I was all those months ago.\n\nGuess how many people have asked for what seemed like more than a reasonable amount?\n\nMaybe two out of 1,000.\n\nInstead, we often have the opposite problem.\n\nTrying to get people clearly in need to take what they need.\n\nThat's because instead of hearing \"Can I please have more of that?\" I hear...\n\n\"Are you sure you have enough for everyone?\" and\n\n...\"I don't want to take more than my share.\" and\n\n... \"I'll leave that for someone else.\"\n\nSeriously, I usually have to assure people we have enough oil, tuna, whatever, so they can take more with them.\n\nThese have been some of the least greedy people I've ever met.\n\nYou know what else I have heard a hundred times more than \"Can I have more?\"\n\nIt's \"Thank you for being here\" and \"I really appreciate what you do.\"\n\nIn other words, what I've gotten extra portions of is humble pie.\n\nAnd a stronger belief in the fundamental goodness of people.\n\nUPDATE: Since this post is going viral, I hope it's okay to share that I'm a writer and I've written a piece based on my experiences called What the Tech Bro Billionaires Could Learn From Working at a Food Bank that I'll publish in a week here: [https://www.brentandmichaelaregoingplaces.com/](https://www.brentandmichaelaregoingplaces.com/)\n\nUPDATE 2: I'm getting a lot of private messages asking how to donate to the Port Townsend food bank. Here is the link. Just click on Ways to Donate. Thank you!\n\n[https://www.jcfba.org/](https://www.jcfba.org/)\n\nUPDATE 3: There have been so many kind responses that I can't get to them all, but they are all very much appreciated! It's a little overwhelming!\n\nMods, if this isn't okay to include, please message me and I'll remove ASAP.",
+            "permalink": "/r/MadeMeSmile/comments/1wtedwo/what_working_at_a_food_bank_taught_me/",
+            "subreddit": "MadeMeSmile",
+            "createdUtc": 1790698439,
+            "isArchived": false,
+            "numComments": 847
+          },
+          {
+            "id": "1td5abq",
+            "url": "https://www.reddit.com/gallery/1td5abq",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/ddebrdse151h1.png?width=3072&format=png&auto=webp&s=f2e0b812220d35db8a42d0fe335ced735592c11b",
+                "type": "photo",
+                "width": 3072,
+                "height": 4096
+              },
+              {
+                "url": "https://preview.redd.it/n723lf84251h1.jpg?width=4284&format=pjpg&auto=webp&s=90c70ac677dd3867f9d15604b567afbdebc3577e",
+                "type": "photo",
+                "width": 4284,
+                "height": 5712
+              },
+              {
+                "url": "https://preview.redd.it/2prmdvqg151h1.png?width=1536&format=png&auto=webp&s=d49811471351f3aa2c5e8cdffc27479dda53a80b",
+                "type": "photo",
+                "width": 1536,
+                "height": 2048
+              },
+              {
+                "url": "https://preview.redd.it/70zxyabq151h1.png?width=1272&format=png&auto=webp&s=7e835d031b3cbfe5fb61f924d62f203df5d96f8c",
+                "type": "photo",
+                "width": 1272,
+                "height": 952
+              },
+              {
+                "url": "https://preview.redd.it/iwazyfwq151h1.png?width=1270&format=png&auto=webp&s=ed3cc943a2d869868240e93215dd6ac60c7ba2ac",
+                "type": "photo",
+                "width": 1270,
+                "height": 952
+              },
+              {
+                "url": "https://preview.redd.it/wy9wsdse151h1.jpg?width=4284&format=pjpg&auto=webp&s=e315bb277134b16ceb6ecc578a4352616d521ee0",
+                "type": "photo",
+                "width": 4284,
+                "height": 5712
+              },
+              {
+                "url": "https://preview.redd.it/mfjohdse151h1.png?width=2285&format=png&auto=webp&s=54e1d29d7353896e8065f46815f55d21e325f9dd",
+                "type": "photo",
+                "width": 2285,
+                "height": 2988
+              },
+              {
+                "url": "https://preview.redd.it/s57d856a251h1.png?width=2010&format=png&auto=webp&s=af87d00bc8a58ff4859deabe922c913adb086286",
+                "type": "photo",
+                "width": 2010,
+                "height": 1502
+              }
+            ],
+            "score": 56983,
+            "title": "Kittens in storm drain successfully rescued. Thanks, everyone!",
+            "author": "belltown99",
+            "authorId": "cxrrs",
+            "isLocked": false,
+            "selftext": "EDIT (5/22/26): Both kittens passed their behavioral tests, which is good news since that is a requirement for adoption. They are living at the kitten nursery, happy and healthy. Next step is spaying/neutering, which will likely take place after the kittens reach a specific age/body weight. Thanks everyone for the follow ups about this and sorry it took awhile to get the update. The shelter is pretty busy, so getting a hold of someone on the phone for an update is rare.\n\n\n\nUpdate to my original post: [https://www.reddit.com/r/cats/comments/1tc62yv/kitten\\_stuck\\_down\\_storm\\_drain\\_help/](https://www.reddit.com/r/cats/comments/1tc62yv/kitten_stuck_down_storm_drain_help/)\n\nHi everyone, so sorry for the radio silence yesterday. The day completely got away from us, but I have good news – the kittens were rescued and are safe\\*\\*.\\*\\* Below is a recap of how the events transpired. Given how many of you have a vested interest, I thought it appropriate to include as many details as possible.\n\nThey’re currently with the Humane Society getting checked out. They seem to be in reasonable shape, just understandably shell-shocked, hungry and exhausted. Because we have cat allergies, we unfortunately couldn't keep them ourselves. They are so incredibly adorable and we sincerely hope they find a good home together. It wasn't easy giving them up, but we felt we had given them a second chance at life. \n\nI wish I had more photos, as so many of you want to see them and I feel like so many of you have been with us during this journey. Things got hectic during the rescue process and the little ones seemed pretty stressed out, so we let them be. The Humane Society was a little awkward about not letting us take a few final photos before we left.\n\nI honestly didn't expect my last post to blow up the way it did. Your advice, your stories, and just the general \"hive mind\" support helped us triage the situation when we were in need of a lot of ideas quickly. This was a team effort, Reddit. I never thought I’d feel this connected to a bunch of strangers, so thank you.\n\n**Full story**\n\nA few weeks ago, we noticed two strays in the yard. We have a bit of a gopher problem, so we figured if we left out some food and water, it was a win-win for everyone. Then, a few days ago, a tiny kitten popped out of the bushes one evening while I was taking out the trash and nearly gave me a heart attack. I had a good laugh, but didn't think more about it.\n\nThe next day, my wife calls me saying there’s a cat stuck in one of our storm drain pipes. I didn't believe her at first, but then we heard the sad cries coming from the gutter downspouts. After checking our storm drains, we realized that there were two ways the kittens could have entered: a grate at the drain exit (which had popped off) and an opening in our garden (previously unknown) which likely serves as an air intake to promote flow. Both of these entrances have now been gated and secured. The initial photos I shared were of the downspout for the gutters, which I had removed in order to access the pipes below. The gutter pipes have been replaced, so no little kitties will be able to jump down there.\n\nWe initially cut a towel into thin strips and lowered them into the entry/exits into the drains and threw some cat food down the pipes to attract the cats. That didn't work and we still heard the sad meows (heartbreaking). Yesterday morning, my wife was really worried so she played the sounds of a YouTube video of a mother cat calling her kittens. She received an instant response and looked down the downspout. There it was, a tiny spotted face staring back at her. She screamed for me and for us that was overwhelming, so we decided to kick it into higher gear and get much more aggressive about saving them.\n\nWe called animal control for help. Sadly, animal control said they don't assist with this sort of thing, so we were on our own. I don’t think they were rude about it, but it felt like our situation was either not their primary focus or much lower in priority compared to other issues they handled. We didn’t want to quit, so I said to my wife, hey let’s post on Reddit while we brainstorm to get some ideas from others and that’s when I encountered r/Cats.\n\nWithin minutes, people responded and we started looking into everything that was recommended. We decided to start with the least invasive and escalating as needed. The top ideas were: 1) provide a way for the kittens to climb out; 2) call the firefighters; 3) call the plumbers; 4) cut the pipes open.\n\nOur local firefighters responded within a few minutes of us calling them.  It was a full truck roll and three guys hopped out. They were super kind and I think they helped us calm down quite a bit, as we likely had a lot of frantic energy about us. We tried several ways to locate/drive the kittens out the storm drain exit, but after half an hour or so, they had to leave. I could tell they really wanted to find the kittens, but they also had other people to help. We were so grateful they came.\n\nQuite a few Redditors mention calling a plumber. This sounds so obvious in retrospect, but I never thought of this. While we were searching, we noticed AI was recommending Roto-Rooter, who offered free pet rescues. This sounded like just what we needed and I was a little skeptical about it, but we thought, why not give this a shot. We have nothing to lose and really wanted to get those little guys out. We called the 800 number and a lovely woman picked up on the second ring. She calmly took our info and instructed us to wait for a call back. 15 min later, Jeremy, who is a field supervisor in the region, calls us back. He's a self-declared cat lover and already on the way. Both he and his fiance have seen my original post trending on Reddit. He's about an hour away from us, but I swear he was at our door in much less time.\n\nI get a new wave of confidence when Jeremy steps up to the task. I give him the run down and just then, we see a small head pop out of the storm drain exit (let’s call this kitten, Princess). Princess ducks back into the pipe and we get there just in time to see a tail disappear. Jeremy races back to his truck to get some gear, yelling “we can do this!” He deploys his digital scope, which has 100ft of line and plans to use its lights to encourage the kittens to reverse out of the tunnel system. I've attached actual video footage from the scope inside the drain line. Unfortunately, I was focused on grabbing Princess at the very end, so I didn't capture any photos. We do have some after action shots of Jeremy consoling a very scared kitten.\n\nWe thought our job was done. As we clean up, we hear more meows but this time, they are coming from the other side of the drainage system. We start at the very beginning of the pipes with the scope and work our way through. I have some long runs and it's a bit of a network of pipes, so it took some time, but seeing the kitten’s tiny face (let’s call him Mario), beautiful eyes, and pink nose on the scope’s monitor gave us a renewed sense of purpose. We used two different scopes to corral the kitten towards my wife, who was waiting at the drain exit. After a few start/stops, we get the kitten to go down the right tube to the exit. He's a bit of a fighter, so I end up having to reach into the pipes and grabbing him (gently) with my bbq tongs since he keeps retreating. Video footage of the scope in the pipes also included. \n\nAfter settling down the kittens into their own cardboard boxes, we give them some food/water/hugs and we finally take a breather. I've soaked through my shirt and Jeremy's knuckles are bloody from pushing the scope cabling down the pipe. My wife is still in disbelief and all of us are smiling. We are so relieved!  \n   \nJeremy received a few service calls while he was here, so I could tell he had to move on (but didn’t want to). We tried to compensate him for his time but he flat out refused. I think we had to force him to take a sandwich and drink from our local deli. As he was packing up, he shared a story about a time he couldn't rescue a kitten that had fallen 20 feet vertically into a storm drain, so this felt like redemption to him. We were very moved hearing that this was a win he needed. He certainly made up for it, since we pulled not one, but 2 out of the tunnels.\n\nAbout the cats themselves. We estimate they are around 8 weeks old, based on their size. Princess is much smaller, with light brown spots. She is fairly shy, mews very quietly, and keeps to herself. I suspect the ordeal was likely tougher on her because she's smaller.  Mario is gray with tiger stripes. He is much larger, aggressive and loud. I am less worried about him.\n\nIf we could keep these kittens, we would (I think this is the cat tax people are referring to?). Unfortunately, I am very allergic to cats and our young children show signs of this as well.  We were worried about their health, so we dropped them off at the Humane Society to give them the best chance at recovery. We thought it was important for our kids to understand this process, so we picked them up for school and headed to the shelter together to say our goodbyes. The wonderful team there immediately started tending to them and I hope to get an update later today on their status. I am told that kittens who come in as duos at this age “do very well” and are quite popular, so fingers crossed they land in a loving home. Our local shelter explicitly asked us not to share their location, which we have respected. My understanding is they have experienced the good people of the Internet calling to ask about the cats and it overwhelms their systems.\n\nAs I write this, I’m still a little in disbelief how so many different people responded to my post with great ideas, Jeremy dropping everything to show up at a stranger’s home, and for those little kittens staying resilient. My wife and I were preparing ourselves for a much different ending. I’m so glad this was a happy ending that I didn’t expect and this all provides us with a little much needed nourishment.",
+            "permalink": "/r/cats/comments/1td5abq/kittens_in_storm_drain_successfully_rescued/",
+            "subreddit": "cats",
+            "createdUtc": 1778780125,
+            "isArchived": false,
+            "numComments": 754
+          },
+          {
+            "id": "1pcuofo",
+            "url": "https://i.redd.it/1flh6auf2x4g1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/1flh6auf2x4g1.jpeg?auto=webp&s=790dabfac1d98fcf01ebd586aadcf176da931bd9",
+                "type": "photo",
+                "width": 720,
+                "height": 550
+              }
+            ],
+            "score": 55636,
+            "title": "Gotta catch ‘em all",
+            "author": "CuriousWanderer567",
+            "authorId": "abxtnj971",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/oddlyspecific/comments/1pcuofo/gotta_catch_em_all/",
+            "subreddit": "oddlyspecific",
+            "createdUtc": 1764736090,
+            "isArchived": false,
+            "numComments": 195
+          }
+        ],
+        "nextCursor": "cur_rwPz0IyybgM9_peFd1Kbrg"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-giraffe-5e3cbaa1",
+      "kind": "anonymous",
+      "name": "Giraffe",
+      "artworkKey": "giraffe"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00034",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:41:41.470Z",
+  "started_at": "2026-11-23T07:41:41.535Z",
+  "completed_at": "2026-11-23T07:41:43.235Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

@@ -1,0 +1,106 @@
+{
+  "id": "ba721332-1cd6-412b-9830-8ecb317c8111",
+  "run_url": "https://app.glasser.ai/runs/ba721332-1cd6-412b-9830-8ecb317c8111",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "subreddit:singularity AI NPCs",
+    "timeframe": "year"
+  },
+  "output": {
+    "items": 3,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1u91xfc",
+            "url": "https://www.reddit.com/r/singularity/comments/1u91xfc/day_23_of_building_gta_6_using_claude/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/OGFha3k2ODhqMDhoMbby2tVEEcXQMBrBXDfo_xlTRf_z8BcQnRI29jfZDJfZ.png?width=140&height=90&format=jpg&auto=webp&s=454f69ba79de1ef8e40bf379dfbb952ae24c9633",
+                "type": "video",
+                "width": 140,
+                "height": 90
+              }
+            ],
+            "score": 226,
+            "title": "Day 23 of building GTA 6 using claude",
+            "author": "SneakerHunterDev",
+            "authorId": "4zwbdjt6",
+            "selftext": "Building a GTA online clone in voxel style where the world never sleeps and all the NPCs are AI agents. Everything is built by players using prompts. Prompt your own car. Prompt your own building. Prompt your own weapon.\n\nI know in 2026 most people already gave up on huge online worlds but I'm naive enough to keep working on it. Having too much fun with this.\n\nUsing claude code and codex for development. Generations are done with OpenAI, groq api.\n\nlink: [https://flair-3d.fly.dev/](https://flair-3d.fly.dev/)",
+            "permalink": "/r/singularity/comments/1u91xfc/day_23_of_building_gta_6_using_claude/",
+            "subreddit": "singularity",
+            "createdUtc": 1781776174,
+            "numComments": 53
+          },
+          {
+            "id": "1u0cs3l",
+            "url": "https://www.reddit.com/r/singularity/comments/1u0cs3l/i_bundled_a_fully_local_llm_inside_my_unity_game/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/ZnY5MnQzcGYyMzZoMUyxJ8PEqrXWQFs9oH-Oi70ulTsSh4BzZTuopmN47HZx.png?width=140&height=109&format=jpg&auto=webp&s=2f1555b7a9ae6c1552fe6cbd4eaa0e28d782728f",
+                "type": "video",
+                "width": 140,
+                "height": 109
+              }
+            ],
+            "score": 60,
+            "title": "I bundled a fully local LLM inside my Unity game. No internet, no cloud, no API key. The conversation is the gameplay.",
+            "author": "MorphLand",
+            "authorId": "cgusrteg",
+            "selftext": "My game 'Simulation Simulator' is a campfire conversation game about DMT, simulation theory, and a friend with a computer monitor for a head. The game is bundled with a local LLM and every conversation is unique. 5 endings you can reach totally based on how you interact naturally with the AI. One is a romance ending! Everything in the clip is totally organic and unscripted.\n\n  \nTrying to use AI for good. Honestly haven't seen the use of LLM tech inside games to this extent yet. I'm sure people much smarter than me must be trying though. For NPCs & world building, this seems like a logical next step.\n\n  \nI even wanted to do text to speech audio and automatic translation. The only thing really preventing it right now is processing time on local machines. Those extra layers would add like 10-20 seconds of calls per exchange so it just breaks the game. If processing gets faster/better, I can imagine whole towns of NPCs with memories, that have no scripted dialogue at all and change over time. \n\n  \nIn my game here, you argue with an LLM and can attempt to prove that reality itself is a simulation. It's really a philosophical experiment more than a game. It can get trippy trying to prove you do or don't exist. \n\n  \nAnyway, demo for Simulation Simulator is out on steam if you want to try for yourself. Let's talk using AI for good in games!",
+            "permalink": "/r/singularity/comments/1u0cs3l/i_bundled_a_fully_local_llm_inside_my_unity_game/",
+            "subreddit": "singularity",
+            "createdUtc": 1780935864,
+            "numComments": 42
+          },
+          {
+            "id": "1v30hj1",
+            "url": "https://www.reddit.com/r/singularity/comments/1v30hj1/when_will_ai_actually_change_video_games/",
+            "nsfw": false,
+            "media": [],
+            "score": 36,
+            "title": "When Will AI Actually Change Video Games?",
+            "author": "Melolibya",
+            "authorId": "1u51bm",
+            "selftext": "**Hello everyone,**\n\nI've been thinking about this for a while now and I'm curious what everyone else thinks.\n\nAm I the only one who feels like gaming has kind of stopped evolving? Don't get me wrong, games look incredible now. Graphics, ray tracing, bigger worlds, all that stuff is amazing. But when I actually sit down and play them, it still feels like I'm playing the same games I was 10 years ago, just with prettier visuals.\n\nThe NPCs still stand in the same place waiting for you. Dialogue is still scripted. Quests are still basically go here, kill this, come back. Open worlds are huge, but after a while you realize they're just filled with the same repetitive activities.\n\nMeanwhile, AI has been improving at an insane pace over the last few years.\n\nSo it got me wondering  when do you guys think AI will actually become part of games, not just a tool developers use behind the scenes?\n\nImagine NPCs that actually remember you. You insult someone early in the game, and 30 hours later they still hold a grudge. Or you help a random character, and months later they show up to help you without the game having a scripted event for it.\n\nImagine walking into a city where every NPC has their own goals, routines, opinions, and memories. You could have an actual conversation instead of choosing between three dialogue options. No two playthroughs would ever be the same because the world would constantly react to what you do.\n\nI don't even care if the graphics stay where they are today. I'd rather have a world that actually feels alive than another game with \"the most realistic water physics ever.\"\n\nHonestly, this is the first time in years I've felt genuinely excited about the future of gaming. It feels like we're finally getting close to the next real leap instead of just another graphics upgrade. If AI keeps improving at this pace and if we eventually get something close to AGI I think video games could change more in the next 10 years than they have in the last 30.\n\nImagine games where you aren't following a script anymore. You're actually living in a world that evolves with you.\n\nMaybe I'm being too optimistic, but I honestly think that's the future, and I can't wait to see it.\n\nWhat do you guys think? Are we closer than I think, or is this still decades away?",
+            "permalink": "/r/singularity/comments/1v30hj1/when_will_ai_actually_change_video_games/",
+            "subreddit": "singularity",
+            "createdUtc": 1784680452,
+            "numComments": 61
+          }
+        ],
+        "nextCursor": "cur_aRyoIx6SVpOnFO3lbShS7w"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-bison-9321fc54",
+      "kind": "anonymous",
+      "name": "Bison",
+      "artworkKey": "bison"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00035",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:42:45.886Z",
+  "started_at": "2026-11-23T07:42:45.954Z",
+  "completed_at": "2026-11-23T07:42:47.017Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

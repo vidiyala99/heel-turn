@@ -1,0 +1,209 @@
+{
+  "id": "45add79a-ebb7-4e70-afdf-85f1dfbda72e",
+  "run_url": "https://app.glasser.ai/runs/45add79a-ebb7-4e70-afdf-85f1dfbda72e",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "subreddit:singularity Among Us AI",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "paging_unavailable: this result came from a source that cannot return a nextCursor, so it may be incomplete and there is no way to continue from here. Re-run with `requireFields: [\"nextCursor\"]` to be served only by a source that can page, which may cost more per request.",
+    "items": 7,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1r37ydd",
+            "url": "https://i.redd.it/rwqf3fhr55jg1.png",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/rwqf3fhr55jg1.png?auto=webp&s=b5e9b79742346c49a5ed05d1ffd51d662c88cccc",
+                "type": "photo",
+                "width": 1304,
+                "height": 1270
+              }
+            ],
+            "score": 6998,
+            "title": "Anthropic raises $30B, Elon crashes out",
+            "author": "Outside-Iron-8242",
+            "authorId": "1dhed51s9e",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/singularity/comments/1r37ydd/anthropic_raises_30b_elon_crashes_out/",
+            "subreddit": "singularity",
+            "createdUtc": 1770936203,
+            "isArchived": false,
+            "numComments": 941
+          },
+          {
+            "id": "1utjtok",
+            "url": "https://i.redd.it/zhpzespuolch1.png",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/zhpzespuolch1.png?auto=webp&s=e1595a4ae81bec69863d0fedcf2322e2ddbbfc46",
+                "type": "photo",
+                "width": 1212,
+                "height": 1000
+              }
+            ],
+            "score": 4023,
+            "title": "Tim cook writes to sam altman",
+            "author": "VariationLivid3193",
+            "authorId": "d04cc5ta",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/singularity/comments/1utjtok/tim_cook_writes_to_sam_altman/",
+            "subreddit": "singularity",
+            "createdUtc": 1783775660,
+            "isArchived": false,
+            "numComments": 163
+          },
+          {
+            "id": "1p5nbua",
+            "url": "https://i.redd.it/61urhfzsp83g1.png",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/61urhfzsp83g1.png?auto=webp&s=c948a9e4f3857ed74fa347f5aa10c6e32e41da6a",
+                "type": "photo",
+                "width": 1080,
+                "height": 1410
+              }
+            ],
+            "score": 3806,
+            "title": "AI detector",
+            "author": "jacek2023",
+            "authorId": "vqgbql9w",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/singularity/comments/1p5nbua/ai_detector/",
+            "subreddit": "singularity",
+            "createdUtc": 1764005429,
+            "isArchived": false,
+            "numComments": 187
+          },
+          {
+            "id": "1wclhgv",
+            "url": "https://i.redd.it/gudok8h3ipoh1.png",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/gudok8h3ipoh1.png?auto=webp&s=64b10a5fb2dbf8765f39de602436144af400a839",
+                "type": "photo",
+                "width": 1264,
+                "height": 420
+              }
+            ],
+            "score": 3004,
+            "title": "Huggingface security txt after the OpenAI incident",
+            "author": "skolnaja",
+            "authorId": "4krycgql",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/singularity/comments/1wclhgv/huggingface_security_txt_after_the_openai_incident/",
+            "subreddit": "singularity",
+            "createdUtc": 1789052049,
+            "isArchived": false,
+            "numComments": 91
+          },
+          {
+            "id": "1rgtly5",
+            "url": "https://i.redd.it/rpwqmwvo26mg1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/rpwqmwvo26mg1.jpeg?auto=webp&s=b0e9a6b07e2f7acab32187b2c9f3a400e0d41056",
+                "type": "photo",
+                "width": 1260,
+                "height": 2247
+              }
+            ],
+            "score": 2950,
+            "title": "Good Riddance.",
+            "author": "surrogate_uprising",
+            "authorId": "l0pcu1x5t",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/singularity/comments/1rgtly5/good_riddance/",
+            "subreddit": "singularity",
+            "createdUtc": 1772254554,
+            "isArchived": false,
+            "numComments": 205
+          },
+          {
+            "id": "1t14fpg",
+            "url": "https://www.reddit.com/r/singularity/comments/1t14fpg/sam_altman_no_longer_believes_in_universal_basic/",
+            "nsfw": false,
+            "media": [],
+            "score": 2889,
+            "title": "Sam Altman No Longer Believes In Universal Basic Income",
+            "author": "Neurogence",
+            "authorId": "16bog6",
+            "isLocked": false,
+            "selftext": "This is a repost because the moderator deleted the previous post for unspecified reasons: \n\nhttps://www.businessinsider.com/sam-altman-ubi-universal-basic-income-view-changes-2026-4\n\n>>\"I no longer believe in universal basic income as much as I once did,\" Altman told The Atlantic CEO Nicholas Thompson during an interview for his \"The Most Interesting Thing in AI\" series.\n\n>>Altman said that while a fixed cash payment may sound nice, it won't meet what society will truly need as AI adoption rises, sparking a potential upheaval in the labor market.\n\n>>\"I think just like a fixed cash payment, although useful and maybe a good idea in some ways, does not get at what we're really going to need for this next phase and the kind of collective alignment of shared upside as the balance between labor and capital shifts,\" Altman said.\n\n>>As interest in UBI exploded in 2019, Altman helped raise $60 million, including $14 million of his own money, to fund the largest-of-its-kind experiment giving low-income participants $1,000 a month for three years.\n\n>>Researchers ultimately found that while overall spending increased among those who received the cash payments, there was no \"direct evidence of improved access to healthcare or improvements to physical and mental health.\"\n\n>>Altman has focused more about twists to the traditional UBI of direct cash payments. The OpenAI CEO has repeatedly suggested the possibility of giving people a portion of AI compute, which could then be used, sold, or traded.\n\n>>\"I'm much more interested in ways where we think about kind of collective ownership that could be in compute or in equities or something else,\" he said.\n\nVery interesting. When super intelligence renders hundreds of millions people as unemployable, how will they pay their mortgage, bills, etc, with \"AI compute?\"\n\nWhen people are unable to pay, banks will not accept \"AI Tokens\" as a form of payment, this is the modern equivalent of \"Let them eat cake.\"",
+            "permalink": "/r/singularity/comments/1t14fpg/sam_altman_no_longer_believes_in_universal_basic/",
+            "subreddit": "singularity",
+            "createdUtc": 1777666115,
+            "isArchived": false,
+            "numComments": 631
+          },
+          {
+            "id": "1wfduzz",
+            "url": "https://i.redd.it/wdqxwwn5obph1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/wdqxwwn5obph1.jpeg?auto=webp&s=945ceb5b512cf896be8e8449e6f4e47c053298fa",
+                "type": "photo",
+                "width": 589,
+                "height": 766
+              }
+            ],
+            "score": 2393,
+            "title": "Trump is refusing a slowdown",
+            "author": "ThatIsNotIllegal",
+            "authorId": "48vjfixh",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/singularity/comments/1wfduzz/trump_is_refusing_a_slowdown/",
+            "subreddit": "singularity",
+            "createdUtc": 1789320393,
+            "isArchived": false,
+            "numComments": 1213
+          }
+        ],
+        "nextCursor": "cur_7UDqYIMHwP-f26fscOwdZA"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-giraffe-5e3cbaa1",
+      "kind": "anonymous",
+      "name": "Giraffe",
+      "artworkKey": "giraffe"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00034",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:42:45.976Z",
+  "started_at": "2026-11-23T07:42:46.426Z",
+  "completed_at": "2026-11-23T07:42:48.145Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

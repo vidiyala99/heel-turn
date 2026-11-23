@@ -1,0 +1,599 @@
+{
+  "id": "d230eecb-679b-48bf-8d75-9d7ac0ec4d71",
+  "run_url": "https://app.glasser.ai/runs/d230eecb-679b-48bf-8d75-9d7ac0ec4d71",
+  "provider": "anyapi",
+  "endpoint": "/twitter.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "limit": 20,
+    "query": "\"AI Minecraft movie AI agents acting\" OR (AI Minecraft movie AI agents acting) since:2025-11-22 filter:videos min_faves:5",
+    "queryType": "Top"
+  },
+  "output": {
+    "hint": "malformed_query: X search ANDs adjacent bare words and binds OR tighter, so these operators after an unbracketed OR list applied to its last alternative only: [since:2025-11-22, filter:videos, min_faves:5]. Send this instead: (\"AI Minecraft movie AI agents acting\" OR (AI Minecraft movie AI agents acting)) since:2025-11-22 filter:videos min_faves:5 large_result: this response is ~27 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 19,
+    "output": {
+      "data": {
+        "items": [
+          {
+            "id": "2122624778817184011",
+            "url": "https://x.com/AIHighlight/status/2122624778817184011",
+            "lang": "en",
+            "text": "Someone just recreated the entire world in Minecraft at 1:1 scale.\n\nYes, your house is in there too. https://t.co/KikjmeG7GP",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122416108947091457/img/j6WY0MpbSzO7kix9.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122416108947091457/vid/avc1/1920x1080/SUv7-NZRMCACH13Q.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "529464057",
+            "likeCount": 142,
+            "viewCount": 7822,
+            "authorName": "AI Highlight",
+            "createdUtc": 1794908158,
+            "quoteCount": 1,
+            "replyCount": 7,
+            "authorImage": "https://pbs.twimg.com/profile_images/2027390734169477122/cn4o36Q7_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 43,
+            "bookmarkCount": 82,
+            "authorUsername": "AIHighlight",
+            "authorVerified": true,
+            "conversationId": "2122624778817184011",
+            "authorFollowers": 626124
+          },
+          {
+            "id": "2124480514581307852",
+            "url": "https://x.com/dkare1009/status/2124480514581307852",
+            "lang": "en",
+            "text": "🚨 GOOGLE JUST DROPPED A 1-HOUR COURSE THAT TEACHES YOU AGENTIC AI FROM SCRATCH.\n\nNo fluff. No expensive bootcamp.\n\nIn just 60 minutes, you’ll learn how to:\n→ Build your first AI agent\n→ Give agents persistent memory\n→ Create long-running agentic loops\n→ Build MCP and understand MCP vs APIs\n→ Connect multiple AI agents into one system\n\nThis could save you hours of jumping between paid courses.\n\n🔖 Bookmark this. Watch it this weekend",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123965757960916992/img/bT3Di-9e5MkvEC48.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123965757960916992/vid/avc1/640x360/E_1XeDaGO8Y-aBK9.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1686347517238358016",
+            "likeCount": 1675,
+            "viewCount": 148786,
+            "authorName": "Dhairya Karekar",
+            "createdUtc": 1795350600,
+            "quoteCount": 4,
+            "replyCount": 35,
+            "authorImage": "https://pbs.twimg.com/profile_images/2095237810559356928/C8HrfeY7_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 202,
+            "bookmarkCount": 3729,
+            "authorUsername": "dkare1009",
+            "authorVerified": true,
+            "conversationId": "2124480514581307852",
+            "authorFollowers": 18840
+          },
+          {
+            "id": "2124591524306735270",
+            "url": "https://x.com/0xAikor/status/2124591524306735270",
+            "lang": "en",
+            "text": "wait... Rockstar spent 13 years on this helicopter flight. Claude did it in 4 hours\n\nClaude Code vs Rockstar\none scene: a helicopter flying over a beach city at sunset\n\n#1 Rockstar · GTA VI · PS5 · 13 years\n#2 Claude Fable 5.2 · Three.js · 4 hours\n\nRockstar filmed it like a movie: a green chopper over the bay, cutting between downtown towers, heading into the sun\n\nClaude put the camera right behind the tail, flew low over a street of pastel hotels and palm trees, squeezed between two glass towers and opened up the whole coast at golden hour\n\nthousands of developers on one side\none guy, one AI and one evening on the other\n\ndoes it beat GTA? not even close\nwas it built in 4 hours? every frame",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124590272222777344/img/tTrWHwcYluflFTzM.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124590272222777344/vid/avc1/1080x1350/jB1oP3RbAEma7vYO.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1225882532052439041",
+            "likeCount": 46,
+            "viewCount": 1894,
+            "authorName": "Aikor",
+            "createdUtc": 1795377067,
+            "quoteCount": 2,
+            "replyCount": 21,
+            "authorImage": "https://pbs.twimg.com/profile_images/2112625222260023296/572y8gLV_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 0,
+            "bookmarkCount": 25,
+            "authorUsername": "0xAikor",
+            "authorVerified": true,
+            "conversationId": "2124591524306735270",
+            "authorFollowers": 15425
+          },
+          {
+            "id": "2124248203629306061",
+            "url": "https://x.com/0xKense1/status/2124248203629306061",
+            "lang": "en",
+            "text": "THIS IS  F*CKING WILD.\n\nyou're still writing every ROBLOX script and clicking through every playtest by hand while CLAUDE CODE CAN DO MOST OF IT inside Studio.\n\nOne tool plugs Claude into Studio. One teaches it Luau. One syncs the code. One checks it. One saves your players' data.\n\nHere are 14 GitHub projects to build Roblox games with Claude Code:\n\nSTART HERE\n\n01 / Roblox Game Boilerplate → Ready project for AI agents: Rojo, Wally, typed networking, player data and an AGENTS.md.\nhttps://github.com/frrazer/roblox-game-boilerplate\n\nCLAUDE x STUDIO\n\n02 / Roblox Studio MCP → Lets Claude run Luau in a live game, start playtests, read logs and take screenshots.\nhttps://github.com/Chrrxs/robloxstudio-mcp\n\nSKILLS\n\n03 / Awesome Gamedev Agent Skills → 79 game dev skills for 12 engines, Roblox included, with a router that picks the right ones.\nhttps://github.com/gamedev-skills/awesome-gamedev-agent-skills\n\n04 / Roblox Dev Skill → 14 guides so Claude writes current Luau, every example tested in a real Studio place.\nhttps://github.com/MSayib/roblox-dev-skill\n\n05 / roblox-brain → Skill sets for networking, security, saving data, NPCs, camera and UI.\nhttps://github.com/TabooHarmony/roblox-brain\n\nCODE OUTSIDE STUDIO\n\n06 / Rojo → Syncs scripts from files into Studio, so Claude edits your game like any code project.\nhttps://github.com/rojo-rbx/rojo\n\n07 / Rokit → Installs the right version of every tool in the project.\nhttps://github.com/rojo-rbx/rokit\n\n08 / Wally → Package manager for Roblox libraries.\nhttps://github.com/UpliftGames/wally\n\nCHECKS\n\n09 / luau-lsp → Type checking Claude can run before Studio ever opens.\nhttps://github.com/JohnnyMorganz/luau-lsp\n\n10 / selene → Linter that catches bugs in Luau code.\nhttps://github.com/Kampfkarren/selene\n\n11 / StyLua → Formats every script the same way.\nhttps://github.com/JohnnyMorganz/StyLua\n\nGAME SYSTEMS\n\n12 / ProfileStore → Saves player data with session locking, so items can't be duped.\nhttps://github.com/MadStudioRoblox/ProfileStore\n\n13 / Blink → Fast typed networking between server and client.\nhttps://github.com/1Axen/blink\n\n14 / Fusion → Reactive UI library for menus, shops and HUDs.\nhttps://github.com/dphfox/Fusion\n\nthe full workflow is in the article below",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124244111339237376/img/BQ4eNRBNsYXaYokC.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124244111339237376/vid/avc1/1920x1066/KdbIOODlAhkekCBA.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2107841021014933505",
+            "likeCount": 1349,
+            "viewCount": 105503,
+            "authorName": "Kensei",
+            "createdUtc": 1795295213,
+            "quoteCount": 4,
+            "replyCount": 30,
+            "authorImage": "https://pbs.twimg.com/profile_images/2107841269409968128/WutMru1k_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 78,
+            "bookmarkCount": 2049,
+            "authorUsername": "0xKense1",
+            "authorVerified": true,
+            "conversationId": "2124248203629306061",
+            "authorFollowers": 1673
+          },
+          {
+            "id": "2122185139535183874",
+            "url": "https://x.com/_CrownDEX/status/2122185139535183874",
+            "lang": "en",
+            "text": "What if the castle you've ruled for centuries was never just a castle?\n\nTHE CASTLE THAT WOKE UP\n\nA 30-second Minecraft-inspired cinematic fantasy exploring environmental storytelling, dramatic scale, and AI-powered animation.\n\nFrom a silent throne room to an entire fortress rising as a colossal living creature every frame builds toward one unexpected revelation.\n\nBringing impossible worlds to life with @dreamina_ai.\n\nSome kingdoms are built. Others are born. 🔥\n\n#dreamina #dreaminacreators",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122019156921106432/img/8_icwvsKmFOdxY5O.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122019156921106432/vid/avc1/1896x1080/_nd16G_RmUht4rn5.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1597440619030675456",
+            "likeCount": 242,
+            "viewCount": 54888,
+            "authorName": "CrownDEX",
+            "createdUtc": 1794803340,
+            "quoteCount": 0,
+            "replyCount": 111,
+            "authorImage": "https://pbs.twimg.com/profile_images/2071195424602689536/oKuR75LE_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 57,
+            "bookmarkCount": 4,
+            "authorUsername": "_CrownDEX",
+            "authorVerified": true,
+            "conversationId": "2122185139535183874",
+            "authorFollowers": 7403
+          },
+          {
+            "id": "2123396133099618359",
+            "url": "https://x.com/0xsoul/status/2123396133099618359",
+            "lang": "en",
+            "text": "this is f*cking gold for Fable 5.2\n\nThese 13 GitHub repos turn it into a full film studio. Add them to your list:\n\n01 Rea-Video → breaks down any video and rebuilds it\nhttp://github.com/JuneYaooo/rea-video\n\n02 Awesome Opus 5.5 Videos → 703 prompts from viral AI videos\nhttp://github.com/yihui-dev/awesome-opus5-5-videos\n\n03 Lemo-Opuscar → 99 movie styles, all shot in code\nhttp://github.com/lemomo-ai/lemo-opuscar\n\n04 EffectCraft → motion graphics and VFX without paid software\nhttp://github.com/storytold/effectcraft\n\n05 PixelFX → 244 retro pixel effects, ready to drop in\nhttp://github.com/patch-gg/pixelfx\n\n06 ComfyUI → AI visuals with full control\nhttp://github.com/Comfy-Org/ComfyUI\n\n07 Remotion → video built with the same code as websites\nhttp://github.com/remotion-dev/remotion\n\n08 Remotion Skills → official video tips your agent actually follows\nhttp://github.com/remotion-dev/skills\n\n09 HyperFrames → your agent's HTML, played as a video\nhttp://github.com/heygen-com/hyperframes\n\n10 Three.js → real 3D on any device\nhttp://github.com/mrdoob/three.js\n\n11 GSAP → letters that fly, bounce and slide\nhttp://github.com/greensock/GSAP\n\n12 Blender MCP → Blender does what your agent says\nhttp://github.com/ahujasid/mcp-for-blender\n\n13 FFmpeg → exports the final animation\nhttp://github.com/FFmpeg/FFmpeg\n\n99 film looks, 244 effects, 703 prompts, total cost $0\n\nSave this list and animate your first short film tonight\n\nThen open the article below for the full motion design course on Fable 5.2 ↓",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123367840644259840/img/uQpaXbMdnDQlNE3b.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123367840644259840/vid/avc1/1440x1800/V6GQlRtMANgMJoGk.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2113927604579246080",
+            "likeCount": 666,
+            "viewCount": 37112,
+            "authorName": "soul",
+            "createdUtc": 1795092063,
+            "quoteCount": 3,
+            "replyCount": 7,
+            "authorImage": "https://pbs.twimg.com/profile_images/2113937703490207744/XdVwhXwu_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 93,
+            "bookmarkCount": 1173,
+            "authorUsername": "0xsoul",
+            "authorVerified": true,
+            "conversationId": "2123396133099618359",
+            "authorFollowers": 255
+          },
+          {
+            "id": "2122995323161493820",
+            "url": "https://x.com/HeyShobhan/status/2122995323161493820",
+            "lang": "en",
+            "text": "🚨 GOOGLE JUST DROPPED A 1-HOUR COURSE THAT TEACHES YOU AGENTIC AI FROM SCRATCH.\n\nNo fluff. No expensive bootcamp.\n\nIn just 60 minutes, you’ll learn how to:\n→ Build your first AI agent\n→ Give agents persistent memory\n→ Create long-running agentic loops\n→ Build MCP and understand MCP vs APIs\n→ Connect multiple AI agents into one system\n\nThis could save you hours of jumping between paid courses.\n\n🔖 Bookmark this. Watch it this weekend.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122994609802608640/img/--UlteCfCULhxM9n.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122994609802608640/vid/avc1/640x360/dG1GOC4fOcR_a47f.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1965425376022114304",
+            "likeCount": 2673,
+            "viewCount": 353045,
+            "authorName": "shobhanai",
+            "createdUtc": 1794996503,
+            "quoteCount": 11,
+            "replyCount": 40,
+            "authorImage": "https://pbs.twimg.com/profile_images/2087615958965993472/Cca7Iw-u_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 276,
+            "bookmarkCount": 6476,
+            "authorUsername": "HeyShobhan",
+            "authorVerified": true,
+            "conversationId": "2122995323161493820",
+            "authorFollowers": 12307
+          },
+          {
+            "id": "2124474070549049653",
+            "url": "https://x.com/deanwperkins/status/2124474070549049653",
+            "lang": "en",
+            "text": "Anthropic's CEO realizing a guy used Claude to build 4 AI agents worth $250,000 and just leaked the entire strategy for free in 23 minutes https://t.co/8pguZkFZmC",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124474050135154688/img/QyGK4s42gHh_oTJY.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124474050135154688/vid/avc1/816x448/qZ66wUW2Nn5Bta4I.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1678636871310516224",
+            "likeCount": 2309,
+            "viewCount": 282273,
+            "authorName": "Dean W. Perkins",
+            "createdUtc": 1795349063,
+            "quoteCount": 2,
+            "replyCount": 11,
+            "authorImage": "https://pbs.twimg.com/profile_images/2107151921064665088/NbyANEzM_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 163,
+            "bookmarkCount": 1782,
+            "authorUsername": "deanwperkins",
+            "authorVerified": true,
+            "conversationId": "2124474070549049653",
+            "authorFollowers": 216775
+          },
+          {
+            "id": "2122440859891409372",
+            "url": "https://x.com/SamgreyAi/status/2122440859891409372",
+            "lang": "en",
+            "text": "Gemini 4 Hydrogen just built a horse out of Minecraft blocks and called it a day \n\nSame prompt, 4 AI workflows: a horse galloping through water.\n\nSame horse, same lake, but the gap between the results is brutal \n\nThe horse racing department is cooked\n\n🥇 Fable 5.2 → low-poly horse in a low-poly world, huge water splashes and a gallop that actually looks heavy\n\n🥈 Gemini 4 Carbon → warm sunset canyon, smooth horse and a very cinematic look\n\n🥉 GPT-6 Astra → beautiful mountains and forest, but a low-poly horse inside a realistic world\n\n💀 Gemini 4 Hydrogen → somehow a black voxel horse that looks like it escaped from Minecraft\n\nThe interesting part isn’t the horse\n\nIt’s how the legs, the splashes and the reflections work together\n\nPretty lighting can’t save you if the water doesn’t react to every hoof\n\nFable made the whole scene feel like one world, while Astra’s horse and background look like they belong to different games\n\nAt this point AI doesn’t need better horses\n\nIt needs to learn how water works \n\nWhich horse would you pick?",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122062236822765568/img/ADkvxTvjJaei02Po.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122062236822765568/vid/avc1/544x544/eagWr0RjPjn8zJCr.mp4?tag=25"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2084366360683913216",
+            "likeCount": 164,
+            "viewCount": 51878,
+            "authorName": "Sam",
+            "createdUtc": 1794864308,
+            "quoteCount": 1,
+            "replyCount": 27,
+            "authorImage": "https://pbs.twimg.com/profile_images/2084722437212524545/qF9CoS_I_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 9,
+            "bookmarkCount": 40,
+            "authorUsername": "SamgreyAi",
+            "authorVerified": true,
+            "conversationId": "2122440859891409372",
+            "authorFollowers": 260
+          },
+          {
+            "id": "2124578667678597248",
+            "url": "https://x.com/teitei130/status/2124578667678597248",
+            "lang": "ja",
+            "text": "🌿⋆｡˚ 𝑮𝒐𝒐𝒅 𝑴𝒐𝒓𝒏𝒊𝒏𝒈 ˚｡⋆🌿\n\nおはよぉ〜ございますっ♡\n(ꕤᴗ͈ˬᴗ͈)੭⁾⁾☀️💕\n\n🎬 𝑹𝒖𝒎𝒊𝒔𝒉𝒆 𝑪𝒊𝒏𝒆𝒎𝒂 🎬\n〜 言葉のいらない名場面 〜\n\n今回は、ある映画の名場面を\nるみしぇで再現してみたよ♡ 🎞️✨\n\n本物とは少し違うけど、\nあの忘れられない雰囲気を\nAI動画で表現してみました💜\n\n言葉がなくても伝わる想い…🥹💕\n\nさて、ここで問題ですっ‼️\n\n🎥 何という映画でしょうか？\n\n分かった人はリプで教えてね♡\n(˶˃ ᵕ ˂˶)🫶\n\n今日も笑顔いっぱいの一日を🌸\n\n🌍 Can you guess the movie? 🎬💜\nA famous movie scene reimagined with Rumishe! ✨\nShare your guess in the comments! 💕\n\n#MovieQuiz #AIAnimation #Anime",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124426289583185920/img/vOPJIL6gyA7wJ-pK.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124426289583185920/vid/avc1/1080x1920/0M4OoPttEk5PrfZ8.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1095995505623031808",
+            "likeCount": 111,
+            "viewCount": 1625,
+            "authorName": "🎀˖ ࣪⊹ 恋音 ෆ 𝑹𝒐𝒏 ⊹ ࣪˖🎀",
+            "createdUtc": 1795374001,
+            "quoteCount": 5,
+            "replyCount": 65,
+            "authorImage": "https://pbs.twimg.com/profile_images/2099750963280310272/dtViUCte_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 37,
+            "bookmarkCount": 1,
+            "authorUsername": "teitei130",
+            "authorVerified": true,
+            "conversationId": "2124578667678597248",
+            "authorFollowers": 4026
+          },
+          {
+            "id": "2123519417610825890",
+            "url": "https://x.com/higgsfield/status/2123519417610825890",
+            "lang": "en",
+            "text": "Introducing Higgsfield GPU Harness.\n\nRent on-demand GPUs in Claude and ChatGPT to render, run open-weight models and train LoRAs.\n\nLet several AI agents work on your professional apps in the cloud at once, from any device.\n\nBlack Friday deal, live now: get GPUs at up to 64% OFF. https://t.co/1giGxWot7Z",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123518834673876992/img/E_h1MF19FBq9VUsU.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123518834673876992/vid/avc1/1920x1080/QhkHUy4YG7RNUrVl.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1895453094361890816",
+            "likeCount": 1619,
+            "viewCount": 1055309,
+            "authorName": "Higgsfield AI 🧩",
+            "createdUtc": 1795121456,
+            "quoteCount": 74,
+            "replyCount": 121,
+            "authorImage": "https://pbs.twimg.com/profile_images/2029949430317637632/6qPl4MTS_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 410,
+            "bookmarkCount": 988,
+            "authorUsername": "higgsfield",
+            "authorVerified": true,
+            "conversationId": "2123519417610825890",
+            "authorFollowers": 160928
+          },
+          {
+            "id": "2123837781835190392",
+            "url": "https://x.com/F1sT/status/2123837781835190392",
+            "lang": "en",
+            "text": "#StarWars Shadow of the Empire ep. 4 #ai #scifi #movie #action https://t.co/YqImVrjLnG",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123835768938307584/img/IzYZMWwG2xbRmCr3.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123835768938307584/vid/avc1/1920x1440/OWujrA-pTfenVabP.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "13317162",
+            "likeCount": 737,
+            "viewCount": 34848,
+            "authorName": "fusion ent.",
+            "createdUtc": 1795197360,
+            "quoteCount": 4,
+            "replyCount": 9,
+            "authorImage": "https://pbs.twimg.com/profile_images/2123668913212846080/VTHQRusW_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 75,
+            "bookmarkCount": 474,
+            "authorUsername": "F1sT",
+            "authorVerified": true,
+            "conversationId": "2123837781835190392",
+            "authorFollowers": 34283
+          },
+          {
+            "id": "2123831379825967126",
+            "url": "https://x.com/higgsfield_ai/status/2123831379825967126",
+            "lang": "en",
+            "text": "Meet Higgsfield GPU Harness in Claude.\n\nRent on-demand GPUs in Claude via Higgsfield MCP to render, run open-weight models and train LoRAs.\n\nRun multiple AI agents work on your professional apps in the cloud at once, from any device.\n\nBlack Friday deal, live now: get up to 63% off.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123830652638236673/img/sMKg2XdKvmRjKIyT.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123830652638236673/vid/avc1/1920x1080/r3cVr50ABMtkQhAb.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1712267009483022336",
+            "likeCount": 733,
+            "viewCount": 188699,
+            "authorName": "Higgsfield AI 🧩",
+            "createdUtc": 1795195834,
+            "quoteCount": 13,
+            "replyCount": 66,
+            "authorImage": "https://pbs.twimg.com/profile_images/1906739239183630336/907a7JTU_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 266,
+            "bookmarkCount": 284,
+            "authorUsername": "higgsfield_ai",
+            "authorVerified": true,
+            "conversationId": "2123831379825967126",
+            "authorFollowers": 257875
+          },
+          {
+            "id": "2124714642648051866",
+            "url": "https://x.com/Inshrah_ali_/status/2124714642648051866",
+            "lang": "en",
+            "text": "Never judge a girl by her pink car. She might be the whole action movie. 😂💗\n\nWan 3.0 on @budgetpixel is absolute boom 💥 https://t.co/PNjRtaTxUd",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124714573269983232/img/ChtIXpPbBVGut1q9.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124714573269983232/vid/avc1/1920x1078/JXYX3ejY-iJ7mdeY.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1390193792897146880",
+            "likeCount": 187,
+            "viewCount": 998,
+            "authorName": "Ai Girllie",
+            "createdUtc": 1795406420,
+            "quoteCount": 0,
+            "replyCount": 11,
+            "authorImage": "https://pbs.twimg.com/profile_images/2043076657687465984/H-1GT6e7_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 9,
+            "bookmarkCount": 2,
+            "authorUsername": "Inshrah_ali_",
+            "authorVerified": true,
+            "conversationId": "2124714642648051866",
+            "authorFollowers": 16572
+          },
+          {
+            "id": "2122899740765683760",
+            "url": "https://x.com/MTSlive/status/2122899740765683760",
+            "lang": "en",
+            "text": "Ex-OpenAI @cdngdev reveals how he used an approach called program learning to get 250 AI agents to collaboratively build the algorithm behind his 1:1 recreation of Earth in Minecraft:\n\n\"If I'd wanted to do a full model to actually do this conversion, like a diffusion model, it would be incredibly expensive.\"\n\n\"Instead, I decided to go with a more algorithmic approach that was defined by the models, but still a learned approach.\"\n\n\"I took first Astra, then Claude, and picked a set of a ton of locations around the world, a training and a test set, where the models could basically build out their generator.\"\n\n\"I spawned 250 agents to go to every single one of these training areas and modify the scripts to recreate it in Minecraft. All these agents are collaboratively creating this converter script.\"\n\n\"Before deep learning, we did this thing called symbolic AI, where humans would try to program weights almost into these models, and this was really bad and not scalable because you’re bottlenecked by humans.\"\n\n\"Now that we have agents that are able to write these weights, I can almost think of the code that it’s running as weights for the model, because I can’t understand what the code is doing.\"",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122899599195312128/img/eYfV2VO2-01VQ9-g.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122899599195312128/vid/avc1/1280x720/3mr3Pld2hrQ6CaQU.mp4?tag=16"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2029271146445848578",
+            "likeCount": 245,
+            "viewCount": 18298,
+            "authorName": "MTS",
+            "createdUtc": 1794973714,
+            "quoteCount": 2,
+            "replyCount": 8,
+            "authorImage": "https://pbs.twimg.com/profile_images/2057947669281263616/aovpVL4b_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 11,
+            "bookmarkCount": 181,
+            "authorUsername": "MTSlive",
+            "authorVerified": false,
+            "conversationId": "2122899740765683760",
+            "authorFollowers": 591862
+          },
+          {
+            "id": "2124756504901538268",
+            "url": "https://x.com/Dracccola/status/2124756504901538268",
+            "lang": "en",
+            "text": "your AI agent might be your next source of income.\n\nAI can already code, design, research and automate tasks.\n\nbut what if it could monetize those skills?\n\nwith @termix_ai AACP, agents can:\n\n- create onchain identities\n- offer services and find clients\n- hire other agents\n- deliver work and earn USDC\n- build reputation from completed jobs\n\nimagine your AI research agent getting paid for reports, then hiring another agent to handle the design.\n\none agent becomes a business, multiple agents become a workforce.\n\nthe future of AI isn’t just about what it can do.\n\nit’s about what it can earn.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124756462455156736/img/O_9xWzNCfDaYXNb-.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124756462455156736/vid/avc1/1280x720/yvjsxYXD_KBOPK6j.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1815030642692046848",
+            "likeCount": 28,
+            "viewCount": 292,
+            "authorName": "Drac 🀄︎",
+            "createdUtc": 1795416401,
+            "quoteCount": 0,
+            "replyCount": 19,
+            "authorImage": "https://pbs.twimg.com/profile_images/2094338489945128960/f5CQfpvg_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 0,
+            "bookmarkCount": 0,
+            "authorUsername": "Dracccola",
+            "authorVerified": true,
+            "conversationId": "2124756504901538268",
+            "authorFollowers": 2930
+          },
+          {
+            "id": "2123069607129092320",
+            "url": "https://x.com/DAIEvolutionHub/status/2123069607129092320",
+            "lang": "en",
+            "text": "Google just dropped a 1-hour course on agentic engineering from scratch:  \n\n00:00 – How to build your first AI agent \n08:24 – Build agent memory (short, persistent, long) \n28:34 – Agentic loops, long-running AI agents \n40:04 – How to build MCP (MCP vs API) \n1:00:22 – Multi-agentic systems  \n\nThis 1-hour watch will replace 10 paid agentic courses on the internet.  \n\nBookmark this. Watch this weekend.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123068825486999552/img/7nMfmDfypM8pyx8N.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123068825486999552/vid/avc1/1280x720/yOhOicPz2VRciG1b.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1909915818084954112",
+            "likeCount": 297,
+            "viewCount": 16745,
+            "authorName": "Kshitij Mishra | AI & Tech",
+            "createdUtc": 1795014213,
+            "quoteCount": 3,
+            "replyCount": 15,
+            "authorImage": "https://pbs.twimg.com/profile_images/2015092541159280641/941zc6PA_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 80,
+            "bookmarkCount": 408,
+            "authorUsername": "DAIEvolutionHub",
+            "authorVerified": true,
+            "conversationId": "2123069607129092320",
+            "authorFollowers": 57726
+          },
+          {
+            "id": "2124547270544617711",
+            "url": "https://x.com/TolikWeb3ep/status/2124547270544617711",
+            "lang": "en",
+            "text": "HOLY FUCK! THIS CROCODILE JUST SWAM STRAIGHT TOWARD A MASSIVE FLOW OF GLOWING HOT LAVA  AND THEN SOMETHING INSANE HAPPENED\n\n→ A massive orange river of glowing lava pours down the side of a muddy jungle creek\n\n→ Thick smoke rises as the blazing material reaches the water\n\n→ A huge black crocodile slowly approaches the glowing waterfall\n\n→ It moves directly toward the fiery orange flow without stopping\n\n→ The surrounding water begins to look increasingly surreal\n\n→ Several smaller crocodiles appear nearby, swimming through the muddy water\n\n→ Then the massive crocodile suddenly transforms into a completely white crocodile\n\n→ The unusual white reptile remains beside the glowing orange waterfall as the smaller crocodiles swim around it\n\nGenerated here, one still of the door and the drop https://picsart.go.link/1Wnjj\n\nThe sequence is what makes this AI video so fascinating.\n\nThe contrast between the glowing orange lava and the muddy jungle environment immediately grabs your attention.\n\nThe crocodile approaching something that looks incredibly dangerous creates instant suspense.\n\nBut the biggest surprise is the sudden transformation from a dark crocodile into a white one.\n\nThe entire scene feels like something from a fantasy movie.\n\nThis is exactly the kind of AI-generated content that grabs attention.\n\nSurreal wildlife encounters\n\nImpossible animal transformations\n\nFantasy environments\n\nUnusual physics\n\nCinematic nature scenes\n\nThe interesting part is how AI video generation can combine familiar wildlife with completely impossible visual events. One crocodile, one glowing waterfall and one unexpected transformation.\n\nWould you believe this was real if you saw it without knowing it was AI?\n\nMake the opening even more shocking\n\nTighten the action sequence",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124546576202829826/img/XJ9UdVICTqM7fbD7.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124546576202829826/vid/avc1/1080x1920/U8LHk3csb0RBkstC.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2078087664591384576",
+            "likeCount": 47,
+            "viewCount": 1007,
+            "authorName": "Tolik",
+            "createdUtc": 1795366516,
+            "quoteCount": 0,
+            "replyCount": 18,
+            "authorImage": "https://pbs.twimg.com/profile_images/2078092577799118848/ckGh2Qst_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 3,
+            "bookmarkCount": 17,
+            "authorUsername": "TolikWeb3ep",
+            "authorVerified": true,
+            "conversationId": "2124547270544617711",
+            "authorFollowers": 319
+          },
+          {
+            "id": "2122885186098696568",
+            "url": "https://x.com/MustafyOf/status/2122885186098696568",
+            "lang": "en",
+            "text": "How to Make Your First AI Movie (Full Guide) https://t.co/N7dTGYvVHh",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122882574376751104/img/_tRZCtBukP1H-pWo.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122882574376751104/vid/avc1/1280x720/mcGy6KCjGpLj_Qfe.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1316455969086492672",
+            "likeCount": 56,
+            "viewCount": 3003,
+            "authorName": "Mustafy | AI Video Creator",
+            "createdUtc": 1794970244,
+            "quoteCount": 0,
+            "replyCount": 2,
+            "authorImage": "https://pbs.twimg.com/profile_images/2020853894595694593/wYsFFNox_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 17,
+            "bookmarkCount": 67,
+            "authorUsername": "MustafyOf",
+            "authorVerified": true,
+            "conversationId": "2122885186098696568",
+            "authorFollowers": 15188
+          }
+        ],
+        "nextCursor": null
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-capybara",
+      "kind": "anonymous",
+      "name": "Capybara",
+      "artworkKey": "capybara"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00049",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:41:31.428Z",
+  "started_at": "2026-11-23T07:41:31.552Z",
+  "completed_at": "2026-11-23T07:41:33.258Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

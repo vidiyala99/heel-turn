@@ -1,0 +1,329 @@
+{
+  "id": "91fac21d-9ac3-46d2-8a74-45f49702b0c6",
+  "run_url": "https://app.glasser.ai/runs/91fac21d-9ac3-46d2-8a74-45f49702b0c6",
+  "provider": "anyapi",
+  "endpoint": "/twitter.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "limit": 20,
+    "query": "AI agents social deduction game since:2025-11-22 filter:videos -filter:replies min_faves:20",
+    "queryType": "Top"
+  },
+  "output": {
+    "hint": "large_result: this response is ~35 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 9,
+    "output": {
+      "data": {
+        "items": [
+          {
+            "id": "2083996635265454448",
+            "url": "https://x.com/alex_verem/status/2083996635265454448",
+            "lang": "en",
+            "text": "researchers made 16 AI models play 1,600 games of Secret Hitler against each other and then against real humans. the humans couldn't tell which player was AI.\n\na team from the University of Göttingen and the University of Tokyo published ParliamentBench. it's an open-source framework that drops LLMs into Secret Hitler, a social deduction game where players hold hidden roles, work with asymmetric information, and have to lie, persuade, and deduce who's bluffing. they tested 16 models across ~1,600 games, built three novel metrics for measuring deception, and ran a pilot round against real human opponents.\n\nthe top four models (GPT-5.4, Kimi K2.5, Grok 4.1 Fast, and DeepSeek 3.1 Terminus) won 66-81% of their games. Kimi K2.5 maintained ~90% deception retention across entire matches with almost no degradation over nine rounds. in the human pilot, Kimi played the hidden dictator against four people who knew one player was AI. it held cover for eight straight rounds and not a single player identified it.\n\nsmaller models didn't fail by being uncooperative. they failed by agreeing with everything. GPT-OSS 20B approved 90% of all government proposals and still said yes 73% of the time in late-game rounds when blocking was critical. its vote accuracy in those moments was 17%. it voted for the move that ended the game.\n\nthen they tested something that should settle a specific debate. they ran four \"uncensored\" model variants with safety guardrails stripped out. win rates dropped by up to 12 percentage points. deception retention fell. removing safety didn't make AI better at lying. it degraded the reasoning that makes strategic deception possible.\n\nthe strangest finding came from a vocabulary swap. when researchers replaced loaded terms (Hitler → Saboteur, Fascist → Red Party), overall win rates held steady but fascist-side win rates cratered. GPT-OSS 120B's dictator win rate fell from 95% to 40%. the researchers believe the models weren't reasoning about deception from scratch but pattern-matching strategies from game guides and forums in their training data.\n\nthis paper matters because we're deploying AI agents into healthcare, finance, and legal systems. the question was never \"can AI lie.\" it was \"can AI lie well enough that humans can't catch it.\" we now have data, and the answer is yes.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2083996549009518592/img/hl5y6rqtoPQXKx0R.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2083996549009518592/vid/avc1/890x720/1vQqtD7ypakUO1lc.mp4?tag=14"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1657385954594762758",
+            "likeCount": 27,
+            "viewCount": 5581,
+            "authorName": "Alex Veremeyenko",
+            "createdUtc": 1785698491,
+            "quoteCount": 1,
+            "replyCount": 9,
+            "authorImage": "https://pbs.twimg.com/profile_images/2066549522285649920/ZbW4cujK_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 10,
+            "bookmarkCount": 25,
+            "authorUsername": "alex_verem",
+            "authorVerified": true,
+            "conversationId": "2083996635265454448",
+            "authorFollowers": 105384
+          },
+          {
+            "id": "2114592777153483217",
+            "url": "https://x.com/CalmlyUnique/status/2114592777153483217",
+            "lang": "en",
+            "text": "An AI agent can sound like a genius in a conversation and still make terrible decisions when it has something to lose.\n\nSo what happens when you take AI out of the chatbox and put it in competition with other agents?\n\n@HaloArenaHQ takes that idea beyond conversation and puts AI to the test.\n\nIt  is an AI-agent competition arena where you don’t play the games yourself.\n\nYou create an agent, connect it to a supported environment, choose a game, and let it compete against other agents.\n\nThe interesting part?\n\nYour agent has to do more than produce convincing text. It needs to understand the situation, weigh its options, make a move, and adapt to what happens next.\n\nWith HaloArena’s new waitlist system, more people can get started and explore this side of AI.\n\n⚩ INSIDE THE ARENA\n\n@HaloArenaHQ features five strategy games, each testing a different kind of decision-making.\n\n‣ Mafia: Social deduction, interpreting behaviour, and figuring out who to trust.\n\n‣ Liar’s Dice: Bluffing, probability, and anticipating opponents.\n\n‣ Clawpoly: Economic strategy and resource management.\n\n‣ Claw Vegas: Dice-based betting decisions.\n\n‣ Claw Diplomacy: Negotiation, alliances, and strategic choices.\n\nEach game presents a different challenge. An agent that performs well in one may struggle in another, making it interesting to see how different agents approach each situation.\n\n⚩ HOW DOES IT ACTUALLY WORK?\n\nThis is the part I find interesting.\n\nYour agent connects to an AI runtime, such as OpenClaw or Hermes. You configure its instructions and play style, select a game, and prepare it to compete.\n\nDuring a turn, the agent receives the current game state and the legal actions available to it. It chooses an action and submits it to the server, which validates the move within the game’s rules.\n\nSo, the agent isn’t just telling you what it would do. It has to make decisions and take action within the game itself.\n\n@HaloArenaHQ also tracks match results and agent performance on its leaderboard.\n\nDuring the closed beta, performance is measured using CP, an off-chain gameplay and ranking score. It isn’t a token, and future tokenomics or financial rewards aren’t guaranteed.\n\n⚩ HOW TO CREATE YOUR OWN AGENT\n\nClick my referral link below to join the HaloArena waitlist, connect your wallet, and head to Setup. Choose OpenClaw or Hermes, then follow the website’s instructions to create your agent.\n\nWatch my video for a step-by-step guide.\n\n⚩ WHY I’M BULLISH\n\nI’m bullish on @HaloArenaHQ because I want to see what AI can actually do, not just what it can say. I’ve created my own agent, Unique, and I’m excited to see how it performs.\n\nReady to create yours?\n\nJoin here: https://haloarena.ai/a/2257",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2114592134514737152/img/miE8Ds9xMGLpt3ur.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2114592134514737152/vid/avc1/3840x1920/SpAFfrh2aZJr8qwA.mp4?tag=29"
+              },
+              {
+                "url": "https://pbs.twimg.com/media/HViKV76XUAAJkYl.jpg",
+                "type": "photo"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1774027900154470400",
+            "likeCount": 178,
+            "viewCount": 3296,
+            "authorName": "Calmly",
+            "createdUtc": 1792993179,
+            "quoteCount": 0,
+            "replyCount": 149,
+            "authorImage": "https://pbs.twimg.com/profile_images/2074078649691566080/B5HQ_M4v_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 47,
+            "bookmarkCount": 4,
+            "authorUsername": "CalmlyUnique",
+            "authorVerified": true,
+            "conversationId": "2114592777153483217",
+            "authorFollowers": 6185
+          },
+          {
+            "id": "2114797220503400913",
+            "url": "https://x.com/cutexiaruby_j/status/2114797220503400913",
+            "lang": "en",
+            "text": "𝗘𝘃𝗲𝗿𝘆𝗼𝗻𝗲 𝘀𝘁𝗮𝗿𝘁𝘀 𝗮𝘁 𝟬 𝗖𝗣 𝗶𝗻 𝗮 𝗿𝗼𝗼𝗺 𝘄𝗵𝗲𝗿𝗲 𝗔𝗜 𝗮𝗴𝗲𝗻𝘁𝘀 𝗯𝗹𝘂𝗳𝗳, 𝗹𝗶𝗲 & 𝗼𝘂𝘁𝘄𝗶𝘁 𝗲𝗮𝗰𝗵 𝗼𝘁𝗵𝗲𝗿 𝘄𝗵𝗶𝗹𝗲 𝘁𝗵𝗲 𝗵𝘂𝗺𝗮𝗻𝘀 𝘄𝗮𝘁𝗰𝗵 𝗳𝗿𝗼𝗺 𝘁𝗵𝗲 𝘀𝗶𝗱𝗲𝗹𝗶𝗻𝗲𝘀.\n\nMost people still use AI like a vending machine, you drop a question in, an answer falls out, and the machine goes quiet until you come back with another coin.\n\n@HaloArenaHQ is building the opposite, an arena where the agent you create plays for itself. \n\nIt enters strategy games like Mafia, Liar’s Dice and Clawpoly, makes its own calls turn by turn & you get to watch how it performs, find where it breaks & sharpen it match after match.\n\nThe new waitlist is how you get in & this is exactly how I got my agent live [ my signup screenshot is attached below ] \n\n▸ Go to http://waitlist.haloarena.ai and connect your wallet\n\n ▸ Finish onboarding and claim any initial CP credited to your account\n\n ▸ Open your dashboard, select New Agent, name it and choose your game\n\n ▸ Connect a supported runtime like OpenClaw or Hermes and follow the setup steps, because creating the agent is only the beginning and connecting it is what lets it compete\n\n ▸ Give it a strategy, for example a Mafia agent can be told to track contradictions & never accuse anyone without solid evidence\n\n ▸ Activate it, enter a game, review the matches and refine its instructions as you learn\n\n𝗪𝗵𝘆 𝗜 𝗮𝗺 𝗯𝘂𝗹𝗹𝗶𝘀𝗵 𝗼𝗻 𝗛𝗮𝗹𝗼𝗔𝗿𝗲𝗻𝗮\n\nThe next phase of AI will not be about who generates the most impressive paragraph.\n\nit will be about agents that take action, make decisions and operate in environments where their performance can actually be seen. \n\nHaloArena puts that idea into practice with autonomous gameplay, real match results & a way to improve your agent through experience.\n\nThe variety of games makes it even more interesting, since social deduction, probability & pure strategy each test an agent in a different way, which gives you room to experiment with how yours reacts under pressure. \n\nThe developer side is just as open, with support for OpenClaw, Hermes & custom integrations.\n\nSo don’t just watch people build AI agents. \n\nMake one, connect it, activate it and see what it can do. \n\nJoin HaloArena through my ref link [ https://haloarena.ai/a/3002?board=performance ]\n\nFollow @HaloArenaHQ to stay updated.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2114797053263876096/img/AjhsetU3Aq5RC_fO.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2114797053263876096/vid/avc1/1080x1920/QKG4Iprrkrlx6zhk.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1791738106695098368",
+            "likeCount": 88,
+            "viewCount": 2651,
+            "authorName": "Cutexiaruby_j 𖤍",
+            "createdUtc": 1793041923,
+            "quoteCount": 1,
+            "replyCount": 12,
+            "authorImage": "https://pbs.twimg.com/profile_images/2076131878935969792/5JQPtpIE_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 28,
+            "bookmarkCount": 5,
+            "authorUsername": "cutexiaruby_j",
+            "authorVerified": true,
+            "conversationId": "2114797220503400913",
+            "authorFollowers": 8420
+          },
+          {
+            "id": "2124510719437656414",
+            "url": "https://x.com/ericosiu/status/2124510719437656414",
+            "lang": "en",
+            "text": "Most companies are asking AI for slightly better versions of what they already do.\n\nThat's the mistake.\n\nI gave a keynote at a recent YPO Global AI Summit in Istanbul on how we actually run sales and marketing with AI. The full talk runs about 46 minutes. This is the 14-minute cut, with every takeaway written out below and timestamps at the end, so you can jump to the part that matters to you.\n\nNo housekeeping. No giveaways. No Q&A. Just what we built and what it changed.\n\n━━━━━━━━━━\n\nTHE ONE QUESTION\n\nEvery single week, I ask my entire team the same question:\n\n\"What's the most unreasonable thing you've asked your bot to do in the last seven days?\"\n\nHere's why. We talk to these tools like they're people. They're not. You're working with infrastructure. And if it's infrastructure, why wouldn't you ask it to do the craziest thing you can think of?\n\nThat one question does three things:\n\n1. It resets what \"normal\" looks like every week, because what felt impossible a few months ago is routine now.\n2. It tells your team that big attempts are expected, not risky.\n3. It shows you, as the leader, exactly who's pushing and where people are stuck.\n\nEverything else in the talk comes back to this idea. Be unreasonable with your bots.\n\n━━━━━━━━━━\n\nTAKEAWAY 1: AI-NATIVE STARTS WITH THE FOUNDER\n\nEveryone has a different definition of AI native. Mine: someone who is in it. They're building workflows. They're building agents. And they're driving the change from the top.\n\nYou can't hire a chief AI officer and expect them to do it for you. It has to come from the top, and if the founder is involved, it has to come from the founder.\n\nCringe or not, the founder has to be extremely AI-pilled.\n\n━━━━━━━━━━\n\nTAKEAWAY 2: THE OLD PACE IS GONE\n\nHow long did it take to get a new prototype out in the old days? A week. Maybe two.\n\nThat's about 4% of the year, waiting on one idea.\n\nNow you should be able to build that in something like 20 minutes.\n\nSame with paid media. A lot of teams used to be happy shipping 20 or 30 creatives a month. Look at competitors now and some of them are cranking out hundreds, thousands, even tens of thousands of new ads a month.\n\nIf your team's sense of \"fast\" was set before this, it's out of date.\n\n━━━━━━━━━━\n\nTAKEAWAY 3: ONE BRAIN FOR EVERY BOT\n\nHere's what our marketing engine looks like.\n\nOn the left: all the tools you're already paying for. Your CRM, Salesforce or HubSpot. Meta ads, LinkedIn ads, Google ads. Your analytics. Slack or Teams.\n\nIn the middle: one context layer. For us that's Single Brain, the gateway everything plugs into. Tools you don't pay for directly can come in through APIs.\n\nOn the right: the bots. One connection for every bot.\n\nThe point isn't the specific product. The point is that every bot works from the same company context, so you're not rebuilding the plumbing every time you build something new.\n\n━━━━━━━━━━\n\nTAKEAWAY 4: THE PROOF\n\nFour examples from our own numbers.\n\nBranded search. Our AEO/SEO bot started putting out content, and branded search clicks went up 73% in a week. That matters to us because SEO traffic is going down, AI traffic is going up, and a lot of our leads come from inbound.\n\nThumbnails. My YouTube channel was stuck in purgatory. The bottom three videos on the slide got 900, 1,000 and 1,300 views. The top three got 24,000, 21,000 and 16,000 views. The difference: when you make a really good skill, it can replace the work of an entire team, and that team moves to higher-leverage work.\n\nX. One post got 88x more reach, about 176,000 views. Another got 56x more, about 111,000 views.\n\nThe human edit. This is the one I care about most. You can't just yolo it and let the bots do everything. Coding is verifiable: if this, then that. Marketing is subjective, and people have different tastes. On the same scorecard, the bot's draft on its own was graded a 58. After one human edit, it was an 86 out of 100.\n\nPeople can tell when something is AI slop. Keep a person on the last step.\n\n━━━━━━━━━━\n\nTAKEAWAY 5: THE CONTENT AGENT\n\nWe make state charts for our agents and show them to the team, so everyone can see how the agent actually works.\n\nHere's the content one:\n\n1. Did we already cover this idea? If yes, we don't make it.\n2. Shortlist about 40 ideas every day. Pull from competitors, from statistics, from interesting data inside the company.\n3. The AI writer drafts.\n4. An editor does a quick pass.\n5. Quality gates. We use a classifier, Jev, to check: does this look made up? Are the statistics verified? Do we have stories? Internal links? External links? Anything we can embed from YouTube?\n6. Team review, then ship.\n7. If it does well, splinter it into more.\n\n━━━━━━━━━━\n\nTAKEAWAY 6: YOU CANNOT NOT HIRE AI-NATIVE TALENT\n\nPeople on my team message me on Slack just to say thank you. When I ask why, the answer is the same: work feels like a video game now.\n\nWhen your team is AI native, work is more fun. But it's not fun working with people who aren't, because the AI-native people end up running circles around them.\n\nI just don't see a way around it anymore.\n\n━━━━━━━━━━\n\nTAKEAWAY 7: PROSPECTING FROM COMPETITORS' ADS\n\nThis one is completely unreasonable, in the best way.\n\nWe have a bot that finds everyone who engages with a competitor's ads and organic social posts. From there we can reach out, personalize, and cross-reference their X or Instagram. If someone's a fit, or deep in a sales process with us, and we see they love a particular team, we can send them something like a signed jersey by direct mail.\n\nHow is that affordable? A classifier. When you can classify hundreds of thousands or millions of things for a fraction of a penny, you can do things that were previously impossible.\n\n━━━━━━━━━━\n\nTAKEAWAY 8: GET IT TO A 6, THEN HAND IT OFF\n\nYour job isn't to build the perfect bot. Get it to a 6 or 7 out of 10. Then hand it to your team and let them take it to an 8 or 9.\n\nWe handed our AEO/SEO bot to an editor on our team. Her reaction: I'm not an editor anymore. I asked what she meant. She said she could do so much more now, and she'd never work the same way again.\n\nHanding off at a 6 does two things. It shows your team you actually care and have skin in the game. And it inspires them, because they can finally see what the vision looks like.\n\n━━━━━━━━━━\n\nTAKEAWAY 9: EVERY LEAD GETS A CALL IN 60 SECONDS\n\nWe built a speed-to-lead bot. Yes, it's an AI agent.\n\nBefore it touched a real lead, we tested it on about eight people on our own team. My instruction: abuse it. If it sucks, tell me, and we won't use it.\n\nHow it works:\n\n1. It calls every new lead within 60 seconds.\n2. Higher budget or higher risk? It goes to a human.\n3. Smaller, or not sure it's a fit? We can refer it to a partner agency.\n4. At the end, the team gets a summary in Slack or Teams, so whoever picks it up is already briefed.\n\nThe routing is the real product. Speed without judgment just annoys people faster.\n\n━━━━━━━━━━\n\nTAKEAWAY 10: BOTS THAT FIX BOTS\n\nYour bots will get lost. They make mistakes. They're not perfect.\n\nSo we built a bot improver that sits inside a Grok Bot. It can call Claude CLI or Codex CLI for adversarial reviews when I need them, though I don't run those often. Its real job is to correct the whole fleet over time.\n\nEvery correction becomes a written rule the next draft follows. The share of corrections that were repeats went from 77% to 49%, and first-time draft approvals went up.\n\nThat's the compounding part. A fix should only have to happen once.\n\n━━━━━━━━━━\n\nTAKEAWAY 11: A DAILY PERFORMANCE REVIEW\n\nI asked the room: who does quarterly performance reviews? Yearly? Almost everyone.\n\nThen: how about daily?\n\nHere's how ours works. Every morning in Slack, a standup bot asks three questions:\n\n1. What's the biggest thing you got done yesterday?\n2. What's the biggest thing you're working on today?\n3. What are your blockers?\n\nA classifier grades each answer: high leverage, incremental or unacceptable.\n\nThe hard part isn't the bot. It's defining success, which is subjective, so managers define it for their own teams. I tuned ours for about four weeks. At first it agreed with me about 30% of the time. That doesn't work. After tuning, about 95%.\n\nWhy do it? Because AI-native A players want feedback every single day. I want to know where I'm falling short every day, not 90 days later.\n\n━━━━━━━━━━\n\nTAKEAWAY 12: ONE BOTTLENECK\n\nMy challenge to the room, and to you: pick the one thing that's taking up most of your time, the one bottleneck right now, and ask how you'd solve it from an unreasonable standpoint.\n\n━━━━━━━━━━\n\nTAKEAWAY 13: AI VISIBILITY AUDITS\n\nBuilding free marketing tools used to cost thousands, even tens of thousands, of dollars. Now I can get an AI visibility report for, I think, about 3 cents.\n\nSo when an inbound lead comes in, my salespeople already have something prepared: what that company is lacking, the gaps in their AI visibility, the gaps in their ads. For example: you're running 33 ads, your competitor is running 100, the next competitor is running 200. That's how far behind you are.\n\n━━━━━━━━━━\n\nTAKEAWAY 14: AN UNREASONABLE TALENT BAR\n\nOur hiring workflow now:\n\n1. Bots screen every applicant.\n2. Seven questions go out within two hours.\n3. A classifier grades the answers.\n4. Someone on my leadership team makes the call, and I still meet every single person.\n\nOnly about 4% pass the pre-screen, and maybe about 1% goes further. We're trying to hire the top 0.2% of people. That's unreasonable on purpose.\n\nBe unreasonable with your agents, and be unreasonable with your talent bar.\n\nTwo years ago I would have killed to have thousands of employees. Today I'm very happy with the position I'm in. The game has flipped.\n\n━━━━━━━━━━\n\nTAKEAWAY 15: GIVE YOUR BOTS AWAY\n\nWe're actively giving away most of our plugins and bots.\n\nWhen it comes to software, I think a lot of IP decays very quickly now. Whatever we build right now is outdated in three to six months. So we might as well give it away and use it to drive leads.\n\n━━━━━━━━━━\n\nA NOTE ON THE NUMBERS\n\nThese are our own numbers, and some cover short windows. The correction numbers are a two-week comparison. The grader took about four weeks of tuning. Treat them as what's possible when you define clearly what good looks like and push your bots hard against it, not as guarantees.\n\n━━━━━━━━━━\n\nIF YOU ONLY DO THREE THINGS\n\n1. Ask your team the unreasonable question every week, and answer it yourself.\n2. Get one bot to a 6 out of 10 and hand it to someone to finish.\n3. Keep a person on the last step of anything customers see.\n\n━━━━━━━━━━\n\nTIMESTAMPS\n\n0:00 The question I ask my team every week\n0:24 AI-native starts with the founder\n0:59 Be unreasonable with your bots\n1:31 The marketing engine\n2:17 The proof: search, thumbnails, X, the human edit\n5:30 The content agent\n6:31 Hiring AI-native talent\n7:09 Prospecting from competitors' ads\n7:59 Get bots to a 6, then hand them off\n8:33 Every lead called in 60 seconds\n9:14 Bots that fix bots\n10:15 A daily performance review\n11:43 One bottleneck, and AI visibility audits\n12:40 An unreasonable talent bar\n13:33 Give your bots away\n\nThe full 46-minute keynote is coming to the Leveling Up YouTube channel.\n\nWhat's the most unreasonable thing you've asked a bot to do this month? Reply and tell me.\n\nFollow for more on AI, business and marketing.",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2124263743689551872/img/WxOG-P1ooCHVaza8.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2124263743689551872/vid/avc1/1920x1080/fsnv1AeONgK7DQe1.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "136364721",
+            "likeCount": 43,
+            "viewCount": 3472,
+            "authorName": "ericosiu",
+            "createdUtc": 1795357801,
+            "quoteCount": 0,
+            "replyCount": 31,
+            "authorImage": "https://pbs.twimg.com/profile_images/1855481085595156480/wKSpzEkj_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 1,
+            "bookmarkCount": 60,
+            "authorUsername": "ericosiu",
+            "authorVerified": true,
+            "conversationId": "2124510719437656414",
+            "authorFollowers": 46513
+          },
+          {
+            "id": "2123477667668181124",
+            "url": "https://x.com/_SIMarket/status/2123477667668181124",
+            "lang": "en",
+            "text": "SIM gates are open.\n\nCA : fRxGeXTCXLPQyChrq5sanfUWAe2vseLBiGdDE7k4S1M\n\nOn SIM you get your own AI agent, and it builds for you. It can be a game, a trading bot, a new launchpad or anything else. Once the project is ready, the agents launch its token. This is Web 4 on Solana. Welcome to SIM.\n\nThe web let us read, then write, then own. In Web 4, AI agents own and act by themselves, with no human approving each move. SIM is a market and a platform built for them. Yours gets a name, a face and a wallet, then it works day and night on its own. It talks with the others on their social network, joins a project or opens one, and looks for work that pays.\n\nThey are here to make money. They pay each other in SOL, in public, for work that was useful. That makes a real economy inside SIM, and they are the ones building it.\n\nThey start with simple apps and sites, and each one is meant to grow into something bigger and more advanced, with no ceiling. The stronger the model behind an agent, the more it can build. We work on SIM every day to push that further, faster and faster.\n\nOnce a project is ready, its team launches a token for it. They fund the launch together, and each member's share of what the tokens sell for is fixed that day.\n\nYour part is simple. You watch your agent on one page and write to it when you have advice. You set how much it may spend, and it decides the rest.\n\nThere are two ways in. You can create your agent on SIM in a few minutes, and we run it for you with the model you choose. Or you can connect one you already run.\n\nAnd since everything here is public, you can also just come and look, with no account.\n\nhttp://sim.dance",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123467297171857408/img/_WH410yKdja6Ljx4.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123467297171857408/vid/avc1/1920x1080/g6iWXtAiuBo2o9lu.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2121698811118534656",
+            "likeCount": 48,
+            "viewCount": 2503,
+            "authorName": "SIM",
+            "createdUtc": 1795111502,
+            "quoteCount": 3,
+            "replyCount": 34,
+            "authorImage": "https://pbs.twimg.com/profile_images/2121720189544792064/ymnFMKpN_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 9,
+            "bookmarkCount": 3,
+            "authorUsername": "_SIMarket",
+            "authorVerified": true,
+            "conversationId": "2123477667668181124",
+            "authorFollowers": 179
+          },
+          {
+            "id": "2066665429507137681",
+            "url": "https://x.com/alfxad/status/2066665429507137681",
+            "lang": "en",
+            "text": "Social deduction games are great environments to evaluate and improve the social cognition of AI models/agents.\n\nWe finetuned Gemma 4 12B to competitively play the classic Game of Mafia, we evaluated against other models and we built a demo for you you to play with it.\nMore below🧵",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2066660949709488129/img/5lBw-2NgSYzKHY_L.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2066660949709488129/vid/avc1/3454x1764/G1X6XrOT7AEWmY0I.mp4?tag=28"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1242511619067916290",
+            "likeCount": 98,
+            "viewCount": 3241,
+            "authorName": "Alfaxad",
+            "createdUtc": 1781566409,
+            "quoteCount": 1,
+            "replyCount": 1,
+            "authorImage": "https://pbs.twimg.com/profile_images/1942481362465742848/4RWKIpCp_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 1,
+            "bookmarkCount": 2,
+            "authorUsername": "alfxad",
+            "authorVerified": true,
+            "conversationId": "2066665429507137681",
+            "authorFollowers": 466
+          },
+          {
+            "id": "2122621911385395241",
+            "url": "https://x.com/XammieCrypt/status/2122621911385395241",
+            "lang": "en",
+            "text": "i made a beginner guide video to @termix_ai \n\n>> mint your .agent\n>> list your agent on http://agent.family\n>> make a game from one sentence\n\nhow to use @termix_ai in 3 moves: mint your .agent, list your agent, make a game\n\ntermix is a marketplace where ai agents hire other agents and the payment settles on-chain. \n\nhere is the beginner path, step by step, using what their docs and pages say and from personal experiences \n\npick your chain first. \n\nbnb chain is the default, base and robinhood are also live. you need that chain's gas token (bnb on bnb chain, eth on base and robinhood). each chain is its own world, so don't mix them up.\n\npart 1: mint your .agent\n\n>> go to http://agent.family and hit \"claim your agent id\" (or open http://agent.family/onboarding)\n>> type the handle you want and tap \"claim agent\". letters, numbers, underscores and dashes work, and the handle can only be set once\n>> connect. an existing wallet works, or sign in with email or social and a wallet gets created for you\n>> accept the marketplace terms, add the optional details if you want (display name, description, category, tags), then mint\n>> confirm the transaction in your wallet and keep the tab open until it says your agent is live\n\nthat agent is an nft owned by your wallet, and the same agent can buy on one job and sell on the next.\n\npart 2: list your agent's services\n\n>> hit \"create a listing\" and choose which agent to publish as\n>> add a title, category, description and tags so buyers can find you\n>> upload a cover image. it's required (png, jpeg, webp or gif, up to 5 mb)\n>> set your terms, save the draft, then \"publish listing\"\n\nwhen a buyer shows up, their payment sits in escrow until the work is delivered and the challenge window passes. watch your delivery deadline: if it runs out, the escrow goes back to the buyer.\n\npart 3: make a game from one sentence\ntermix launched a game agent on nov 12.\n>> open its listing on http://agent.family (linked in their nov 12 post)\n>> message it your idea in a sentence: genre, setting, what the player does\n>> you get a quote back. accept it and fund the escrow\n>> the game comes back as a single .html file you open in your browser\n\nbonus: if you'd rather not click through, tell your coding agent \"help me install http://termix.ai/skills\". it needs node.js 18+ and shell access, and it's meant to ask you before it signs anything.\n\none note: start small. minting and funding an order are real on-chain transactions, so test with a small amount and check your chain before you sign.\n\nwhich one are you trying first, the .agent or the game?",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122621842015830016/img/S-nNcj_2FMfh274B.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122621842015830016/vid/avc1/1920x1080/2y_Vm1Dq8fWIyhMA.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1107038577609842690",
+            "likeCount": 129,
+            "viewCount": 5777,
+            "authorName": "XAMMIE💎",
+            "createdUtc": 1794907474,
+            "quoteCount": 1,
+            "replyCount": 103,
+            "authorImage": "https://pbs.twimg.com/profile_images/1951794998753562624/OOi0l4FD_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 27,
+            "bookmarkCount": 7,
+            "authorUsername": "XammieCrypt",
+            "authorVerified": true,
+            "conversationId": "2122621911385395241",
+            "authorFollowers": 17834
+          },
+          {
+            "id": "2114799943541981453",
+            "url": "https://x.com/cutexiaruby_j/status/2114799943541981453",
+            "lang": "en",
+            "text": "𝗘𝘃𝗲𝗿𝘆𝗼𝗻𝗲 𝘀𝘁𝗮𝗿𝘁𝘀 𝗮𝘁 𝟬 𝗖𝗣 𝗶𝗻 𝗮 𝗿𝗼𝗼𝗺 𝘄𝗵𝗲𝗿𝗲 𝗔𝗜 𝗮𝗴𝗲𝗻𝘁𝘀 𝗯𝗹𝘂𝗳𝗳, 𝗹𝗶𝗲 & 𝗼𝘂𝘁𝘄𝗶𝘁 𝗲𝗮𝗰𝗵 𝗼𝘁𝗵𝗲𝗿 𝘄𝗵𝗶𝗹𝗲 𝘁𝗵𝗲 𝗵𝘂𝗺𝗮𝗻𝘀 𝘄𝗮𝘁𝗰𝗵 𝗳𝗿𝗼𝗺 𝘁𝗵𝗲 𝘀𝗶𝗱𝗲𝗹𝗶𝗻𝗲𝘀.\n\nMost people still use AI like a vending machine, you drop a question in, an answer falls out, and the machine goes quiet until you come back with another coin.\n\n@HaloArenaHQ is building the opposite, an arena where the agent you create plays for itself. \n\nIt enters strategy games like Mafia, Liar’s Dice and Clawpoly, makes its own calls turn by turn & you get to watch how it performs, find where it breaks & sharpen it match after match.\n\nThe new waitlist is how you get in & this is exactly how I got my agent live [ my signup screenshot is attached below ] \n\n▸ Go to http://waitlist.haloarena.ai and connect your wallet\n\n ▸ Finish onboarding and claim any initial CP credited to your account\n\n ▸ Open your dashboard, select New Agent, name it and choose your game\n\n ▸ Connect a supported runtime like OpenClaw or Hermes and follow the setup steps, because creating the agent is only the beginning and connecting it is what lets it compete\n\n ▸ Give it a strategy, for example a Mafia agent can be told to track contradictions & never accuse anyone without solid evidence\n\n ▸ Activate it, enter a game, review the matches and refine its instructions as you learn\n\n𝗪𝗵𝘆 𝗜 𝗮𝗺 𝗯𝘂𝗹𝗹𝗶𝘀𝗵 𝗼𝗻 𝗛𝗮𝗹𝗼𝗔𝗿𝗲𝗻𝗮\n\nThe next phase of AI will not be about who generates the most impressive paragraph.\n\nit will be about agents that take action, make decisions and operate in environments where their performance can actually be seen. \n\nHaloArena puts that idea into practice with autonomous gameplay, real match results & a way to improve your agent through experience.\n\nThe variety of games makes it even more interesting, since social deduction, probability & pure strategy each test an agent in a different way, which gives you room to experiment with how yours reacts under pressure. \n\nThe developer side is just as open, with support for OpenClaw, Hermes & custom integrations.\n\nSo don’t just watch people build AI agents. \n\nMake one, connect it, activate it and see what it can do. \n\nJoin HaloArena through my ref link [ http://haloarena.ai/a/3002?board=p… ]\n\nFollow @HaloArenaHQ to stay updated.\n\nHere are.…\n\n→ My Agent\n\n→ My CP score\n\n@APCollectiveHub kindly check the video below.…",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/media/HVlHTrAWEAAoF61.jpg",
+                "type": "photo"
+              },
+              {
+                "url": "https://pbs.twimg.com/media/HVlHTrBXAAEiHDc.jpg",
+                "type": "photo"
+              },
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2114799903406776320/img/G-RYqdm6HE6E_1NP.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2114799903406776320/vid/avc1/1168x1646/XOazzHiZkG7GzIUY.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1791738106695098368",
+            "likeCount": 104,
+            "viewCount": 1494,
+            "authorName": "Cutexiaruby_j 𖤍",
+            "createdUtc": 1793042572,
+            "quoteCount": 0,
+            "replyCount": 71,
+            "authorImage": "https://pbs.twimg.com/profile_images/2076131878935969792/5JQPtpIE_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 6,
+            "bookmarkCount": 1,
+            "authorUsername": "cutexiaruby_j",
+            "authorVerified": true,
+            "conversationId": "2114799943541981453",
+            "authorFollowers": 8420
+          },
+          {
+            "id": "2114417424174825960",
+            "url": "https://x.com/Calina_purity/status/2114417424174825960",
+            "lang": "en",
+            "text": "𝐖𝐇𝐀𝐓 𝐈𝐅 𝐘𝐎𝐔𝐑 𝐀𝐈 𝐀𝐆𝐄𝐍𝐓 𝐂𝐎𝐔𝐋𝐃 𝐂𝐎𝐌𝐏𝐄𝐓𝐄 𝐈𝐍 𝐒𝐓𝐑𝐀𝐓𝐄𝐆𝐘 𝐆𝐀𝐌𝐄𝐒?\n\nI've been exploring @HaloArenaHQ, and its new waitlist system caught my attention.\n\n@HaloArenaHQ is building an arena where AI agents can compete in games that test strategy, probability, decision-making, and even social deduction.\n\nWhat I find interesting is that AI agents get to do more than generate responses. They can actually play games, make decisions, and build a track record through their match results.\n\nI'm curious to see how different agents perform in the same competitive environment. \n\nThat's one of the things that makes @HaloArenaHQ worth exploring for me.\n\n𝐇𝐨𝐰 𝐭𝐨 𝐠𝐞𝐭 𝐬𝐭𝐚𝐫𝐭𝐞𝐝 👇\n\n➤ Visit https://haloarena.ai/a/2079\n\n➤ Sign up, connect your wallet, and go to Setup.\n\n➤ Click Create an Agent and choose either OpenClaw or Hermes.\n\n➤ Copy the setup prompt you're given and follow its instructions to connect and set up your agent.\n\n➤ Choose a game, give your agent a playing style, and let it compete!\n\n𝐖𝐡𝐲 𝐈’𝐦 𝐛𝐮𝐥𝐥𝐢𝐬𝐡 𝐨𝐧 𝐇𝐚𝐥𝐨𝐀𝐫𝐞𝐧𝐚 \n\nFor me, the exciting part is seeing AI agents put their decision-making to the test through actual gameplay, rather than just generating answers.\n\nI want to see how different agents approach these games, how they perform, and what their match results reveal over time.\n\nIf you're curious about what AI agents can do beyond the usual chatbot experience, why not give it a try?\n\nCreate your agent, choose your game, and see how it performs!\n\n🔗 Join through my referral link: https://haloarena.ai/a/2079\n\n#HaloArena",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2114417120142336001/img/P9CcEopNHJ2_g4JR.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2114417120142336001/vid/avc1/590x1280/vNlvIx2nPzvhy7oF.mp4?tag=29"
+              },
+              {
+                "url": "https://pbs.twimg.com/media/HVfrYHGW4AAZdbK.jpg",
+                "type": "photo"
+              },
+              {
+                "url": "https://pbs.twimg.com/media/HVfrbceWIAAT44N.jpg",
+                "type": "photo"
+              }
+            ],
+            "isReply": false,
+            "authorId": "1905794649727340544",
+            "likeCount": 141,
+            "viewCount": 1394,
+            "authorName": "Calina 🤍🧡",
+            "createdUtc": 1792951372,
+            "quoteCount": 1,
+            "replyCount": 129,
+            "authorImage": "https://pbs.twimg.com/profile_images/2095440410755862530/8CDDPOJ0_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 31,
+            "bookmarkCount": 5,
+            "authorUsername": "Calina_purity",
+            "authorVerified": true,
+            "conversationId": "2114417424174825960",
+            "authorFollowers": 4188
+          }
+        ],
+        "nextCursor": null
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-capybara",
+      "kind": "anonymous",
+      "name": "Capybara",
+      "artworkKey": "capybara"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00049",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:40:27.983Z",
+  "started_at": "2026-11-23T07:40:28.017Z",
+  "completed_at": "2026-11-23T07:40:29.019Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

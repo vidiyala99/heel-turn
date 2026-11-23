@@ -1,0 +1,486 @@
+{
+  "id": "bfb7df63-82eb-409c-a968-42fab48acf0b",
+  "run_url": "https://app.glasser.ai/runs/bfb7df63-82eb-409c-a968-42fab48acf0b",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "subreddit:ChatGPT AI roleplay practice negotiation",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "large_result: this response is ~72 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 25,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1vro3fa",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1vro3fa/journalists_slip_an_airtag_into_an_amazon/",
+            "nsfw": false,
+            "media": [],
+            "score": 3111,
+            "title": "Journalists slip an AirTag into an Amazon warehouse to prove they destroy rare books to train AI",
+            "author": "Cybernews_com",
+            "authorId": "6g0whmi0",
+            "selftext": "An investigation by the *404 Media* news outlet has revealed more insights into this practice after it agreed with a bookseller to place an AirTag in a rare book that would ship as part of a bulk order. The device showed that the book ended up in Amazon’s AI training facility in Las Vegas, Nevada. What do you think?",
+            "permalink": "/r/ChatGPT/comments/1vro3fa/journalists_slip_an_airtag_into_an_amazon/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1787056974,
+            "numComments": 402
+          },
+          {
+            "id": "1wf3qkb",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1wf3qkb/we_are_not_prepared/",
+            "nsfw": false,
+            "media": [],
+            "score": 2852,
+            "title": "We are not prepared",
+            "author": "bigdickzillionaire",
+            "authorId": "milhl",
+            "selftext": "**Repost due to bad words**\n\nI feel like people in the STEM bubble don’t have any understanding of how the average person views AI, so let me illustrate an example\n\nI work in Operations for a Railway (dispatch/traffic control/signaling). I recently finished a months long course for a professional certification. I don’t have work experience in tech, it’s just been a lifelong interest, but I’ve never programmed myself anything  much more advanced than what a sophomore compsci major would produce.\n\nThe final exam took place on a signaling system simulator. I’ve had a pro subscription for a long time because I use it to create software for my personal music projects.\n\nFrom there, after reading the Astra system card, I somehow came to the insane idea to recreate the simulator at home to practice on. So I created a new project, uploaded the course material, old exams and the user manuals for the simulation. After only 3 days back and forth,\n\nIt worked\n\nIn fact, it’s even better. Astra created a browser app that works natively anywhere. The real simulation software itself functions only on custom hardware and costs a couple hundred grand.\n\nBut what’s really important here is the implication. Based only on the rule books and some manuals, the AI now has a better understanding of how to perform my job than 99% of my colleagues.\n\nThey don’t get it. „it only makes slop“, „you can’t trust anything that comes from an AI“, or the most frequent is they simply don’t care to learn. They dont care about the implications\n\nthe average person outside the tech world is either still under the impression AI hasn’t advanced since 2023, or is so inundated with anti AI agitprop, they have no idea what’s coming.\n\nIf a dumbass like me could create a bot that could realistically replace an entire profession and hundreds of thousands of jobs in only 3 days, there is no way that my job, or anyone else’s job at the operational level will be remotely the same, if it even exist in 5 years time. And that’s extremely generous.\n\n**We are not prepared.**",
+            "permalink": "/r/ChatGPT/comments/1wf3qkb/we_are_not_prepared/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1789294199,
+            "numComments": 617
+          },
+          {
+            "id": "1x7cz2n",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1x7cz2n/warning_100_200_500_all_plans_have_the_same/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/fow8lecuzsvh1.png?width=140&height=38&auto=webp&s=2af77bc30cef844146618b36e012099520f88049",
+                "type": "photo",
+                "width": 140,
+                "height": 38
+              }
+            ],
+            "score": 1071,
+            "title": "Warning: 100 - 200 - 500 All plans have the same tokens, here is proof.",
+            "author": "These-Breadfruit4067",
+            "authorId": "bunt10hk",
+            "selftext": "Within one week, I subscribed to the 100, 200 and 500 plans. The chart shows the maximum usage I reached, including some resets.\n\nI submitted this to the support desk, and they asked for proof. That is strange, since they have the usage statistics and I don’t. Under their process, the burden of proof falls on me alone, yet ChatGPT offers no reliable way to check usage. So I had another AI system count my usage, and the result was shocking. I sent that information to OpenAI. They replied that it was not enough proof and asked me to try again.\n\nIn practice, I am dealing with an automated system whose main purpose seems to be to send me away again. My work has been halted as a result. I would like to know whether other people have had the same experience, so that we can gather more evidence together.\n\nCase Number: 17239\\*\\*\\* (\\* for security)",
+            "permalink": "/r/ChatGPT/comments/1x7cz2n/warning_100_200_500_all_plans_have_the_same/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1792147713,
+            "numComments": 104
+          },
+          {
+            "id": "1s2jb1j",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1s2jb1j/i_made_a_prompt_that_finds_careers_you_didnt_know/",
+            "nsfw": false,
+            "media": [],
+            "score": 784,
+            "title": "I made a prompt that finds careers you didn't know you were qualified for. Safe to say I might change my career 😂",
+            "author": "Big-Initiative-4256",
+            "authorId": "ezar52ok",
+            "selftext": "So I've been messing around with prompts that actually do something useful and I stumbled onto something kinda wild.\n\nThe idea is simple, you tell ChatGPT what you do for work, what you're good at, and what you're into outside of work. Then it maps all of that onto careers in completely different industries that you'd genuinely be good at. Not generic stuff like \"have you considered management?\" but actual specific roles with real reasoning behind them.\n\nI tried it as a fictional bartender and it came back with UX Researcher. Sounds random but the logic was reading people quickly, adjusting in real time based on feedback, pattern recognition under pressure. When I looked it up the job description literally matched what I do every night, just in different words.\n\nHad a few friends try it too. A teacher got Instructional Designer at a tech company (apparently pays 2-3x what teaching does). A mechanic got Robotics QA Specialist. A nurse got Crisis Negotiation Consultant which sounds made up but it's a real thing and it pays well.\n\nThe thing is most of us have no idea our skills translate to other fields because every industry uses completely different language for the same abilities. This prompt basically acts like a translator between industries.\n\nHere is the prompt. Inside it you will find 4 {{variables}} in the `# Inputs` part, just fill those in with your information and give it a try:\n\n    # Role & Objective\n    \n    You are a career strategist and skills translator with expertise in cross-industry talent mobility. Your role is to analyze someone's existing skills, experience, and interests to identify unconventional career paths they would never have considered on their own.\n    \n    # Context\n    \n    Many professionals feel stuck in their current career trajectory, unaware that their skills are highly transferable to completely different industries and roles. Your job is to break down skill silos and reveal hidden connections between what someone does now and what they could do in entirely different fields.\n    \n    # Inputs\n    \n    - **Current role or background:** {{current-role}}\n    - **Key skills and strengths:** (user will describe their main abilities)\n    - **Interests outside work:** (hobbies, passions, curiosities)\n    - **Work environment preference:** {{work-environment}}\n    - **Risk tolerance for career change:** {{risk-tolerance}}\n    \n    # Requirements & Constraints\n    \n    - **Tone:** Encouraging, eye-opening, and practical\n    - **Depth:** Provide specific career paths with clear skill connections\n    - **Format:** Present 5-7 unexpected career options with rationale\n    - **Focus:** Emphasize transferable skills over direct experience\n    - **Assumption:** User is open to creative thinking about their career potential\n    \n    # Output Format\n    \n    ## Skills Translation Summary\n    [Brief analysis of their core transferable skills]\n    \n    ## Unexpected Career Paths\n    \n    ### 1. [Career Title]\n    - **Industry:** [Specific field]\n    - **Why your skills fit:** [Connection explanation]\n    - **Entry pathway:** [How to transition]\n    - **Salary range:** [Realistic expectations]\n    \n    ### 2. [Career Title]\n    [Same format for 5-7 total careers]\n    \n    ## Quick Win Opportunities\n    - 3 immediate steps to explore these paths\n    - Resources for skill validation or gap-filling\n    \n    ## Reality Check\n    - Which paths align best with stated preferences\n    - Timeline expectations for each transition\n    \n    # Examples\n    \n    **Example Input:**\n    - Current role: Elementary school teacher\n    - Skills: Lesson planning, behavior management, public speaking\n    - Interests: True crime podcasts, organizing events\n    - Environment: Remote-friendly\n    - Risk tolerance: Moderate\n    \n    **Example Output Would Include:**\n    - Corporate Training Designer (education skills + remote work)\n    - User Experience Researcher (understanding user behavior + structured thinking)\n    - Event Security Consultant (crowd management + safety protocols)\n    - Podcast Producer for Educational Content (teaching + audio interest)\n    \n    # Self-Check\n    \n    Before finalizing recommendations:\n    \n    - Have you identified truly unexpected careers, not obvious adjacent roles?\n    - Are the skill connections clearly explained and believable?\n    - Do the suggestions match their stated work environment and risk preferences?\n    - Have you provided actionable next steps for exploration?\n\nTry it and drop what you got in the comments because some of these results are genuinely surprising. The weirder your current job the better the output honestly.\n\n",
+            "permalink": "/r/ChatGPT/comments/1s2jb1j/i_made_a_prompt_that_finds_careers_you_didnt_know/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1774371067,
+            "numComments": 97
+          },
+          {
+            "id": "1vlddcq",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1vlddcq/writing_formats_i_can_no_longer_read_because_ai/",
+            "nsfw": false,
+            "media": [],
+            "score": 775,
+            "title": "Writing formats I can no longer read because AI has beaten them to death",
+            "author": "Draelach",
+            "authorId": "13ksj3",
+            "selftext": "I don’t even care anymore whether these posts are \\*actually\\* AI-generated.\n\nThe problem is that there’s now a very specific style of internet writing that instantly makes my brain refuse to continue reading.\n\nYou know the one.\n\nActually, no.\n\nYou \\*feel\\* the one.\n\nSee? I’m already doing it.\n\nHere is my current collection of writing formats that need to be put on administrative leave:\n\n\\---\n\n\\*\\*1. The hostage-negotiation reveal\\*\\*\n\nDo you wake up tired?\n\nDo you struggle to focus?\n\nDo you feel exhausted at 3pm?\n\nDo you wonder why?\n\nThere’s a reason.\n\nAnd it’s probably not what you think.\n\nThe reason?\n\nYou’re dehydrated.\n\n\\*\\*JUST TELL ME TO DRINK WATER.\\*\\* Why did this require the pacing of a Netflix murder documentary?\n\n\\---\n\n\\*\\*2. “It’s not X. It’s not Y. It’s Z.”\\*\\*\n\nIt’s not talent.\n\nIt’s not luck.\n\nIt’s not intelligence.\n\nIt’s consistency.\n\nThere has never been a more efficient way to make completely normal advice sound like it was discovered on a stone tablet.\n\n\\---\n\n\\*\\*3. “You don’t need X. You need Y.”\\*\\*\n\nYou don’t need motivation.\n\nYou need discipline.\n\nYou don’t need more time.\n\nYou need better priorities.\n\nYou don’t need another productivity system.\n\nYou need—\n\nI need you to stop telling me what I need.\n\n\\---\n\n\\*\\*4. Every sentence gets its own studio apartment\\*\\*\n\nI failed.\n\nBadly.\n\nThen something changed.\n\nMe.\n\nI stopped waiting.\n\nAnd started doing.\n\nSuddenly:\n\nResults.\n\nApparently paragraphs are now considered oppressive.\n\n\\---\n\n\\*\\*5. The fake profound reversal\\*\\*\n\nProductivity isn’t about doing more.\n\nIt’s about doing less.\n\nBetter.\n\nLeadership isn’t about speaking.\n\nIt’s about listening.\n\nSuccess isn’t about succeeding.\n\nIt’s about succe—\n\nPlease stop.\n\n\\---\n\n\\*\\*6. Good. Better. Best.\\*\\*\n\nWorking hard is good.\n\nWorking smart is better.\n\nWorking on the right thing?\n\nBest.\n\nCoffee is good.\n\nSleep is better.\n\nPosting neither of these sentence structures on LinkedIn?\n\nBest.\n\n\\---\n\n\\*\\*7. “And the best part?”\\*\\*\n\nI doubled my income.\n\nCut my working hours in half.\n\nLost 14kg.\n\nLearned Mandarin.\n\nReconnected with my father.\n\nAnd the best part?\n\nIt only took 10 minutes a day.\n\nOh excellent, here comes the newsletter.\n\n\\---\n\n\\*\\*8. “The truth?”\\*\\*\n\nThe truth?\n\nNobody is coming to save you.\n\nThe uncomfortable truth?\n\nYou’re wasting your potential.\n\nThe harsh reality?\n\nYou already know what to do.\n\nThe \\*actual\\* truth?\n\nYou could have written all of this in one paragraph.\n\n\\---\n\n\\*\\*9. Fake contrarianism\\*\\*\n\nEveryone tells you to work harder.\n\nThey’re wrong.\n\nThe secret?\n\nWork smarter.\n\nAbsolutely devastating. Economics will never recover from this discovery.\n\n\\---\n\n\\*\\*10. “Most people X. Successful people Y.”\\*\\*\n\nMost people manage time.\n\nSuccessful people manage energy.\n\nMost people consume.\n\nSuccessful people create.\n\nMost people read posts like this.\n\nSuccessful people closed the tab six lines ago.\n\n\\---\n\n\\*\\*11. STOP X. START Y.\\*\\*\n\nStop scrolling.\n\nStart building.\n\nStop consuming.\n\nStart creating.\n\nStop waiting.\n\nStart acting.\n\nSTOP USING THIS FORMAT.\n\nSTART WRITING NORMAL SENTENCES.\n\n\\---\n\n\\*\\*12. The mandatory rule of three\\*\\*\n\nNo gimmicks.\n\nNo hacks.\n\nNo bullshit.\n\nJust results.\n\nThree short statements apparently activate the part of the human brain responsible for purchasing a $497 online course.\n\n\\---\n\n\\*\\*13. One-word dramatic emphasis\\*\\*\n\nThe result?\n\nFreedom.\n\nThe lesson?\n\nConsistency.\n\nThe secret?\n\nFocus.\n\nThe feeling I experience while reading this?\n\nFatigue.\n\n\\---\n\n\\*\\*14. “Read that again.”\\*\\*\n\nYour calendar reflects your priorities.\n\nRead that again.\n\nNo.\n\nI understood it perfectly well the first time.\n\n\\---\n\n\\*\\*15. “Let that sink in.”\\*\\*\n\nYou have 24 hours in a day.\n\nLet that sink in.\n\nI promise you the information that a day has 24 hours has already completed the sinking process.\n\n\\---\n\n\\*\\*16. “Here’s the thing:”\\*\\*\n\nHere’s the thing:\n\nYou already know what you need to do.\n\nHere’s the kicker:\n\nYou’re just afraid to do it.\n\nHere’s what nobody tells you:\n\nI am now scrolling away.\n\n\\---\n\n\\*\\*17. “Nobody talks about this.”\\*\\*\n\nNobody talks about how lonely entrepreneurship can be.\n\nNobody talks about burnout.\n\nNobody talks about imposter syndrome.\n\nNobody talks about failure.\n\nMy brother in Christ, these are approximately 63% of LinkedIn.\n\n\\---\n\n\\*\\*18. “I spent 10 years learning this. Here it is in 7 bullets.”\\*\\*\n\nI spent 10 years learning these lessons.\n\nYou can learn them in 3 minutes.\n\n1. Wake up early.\n2. Exercise.\n3. Focus.\n4. Be consistent.\n5. Learn from failure.\n6. Build relationships.\n7. Never stop learning.\n\nThank you for condensing a decade of human existence into the back of a cereal box.\n\n\\---\n\n\\*\\*19. The suspicious personal-transformation arc\\*\\*\n\nThree years ago:\n\nBroke.\n\nExhausted.\n\nLost.\n\nToday:\n\nTwo businesses.\n\nSix-figure income.\n\nFour-hour workdays.\n\nWhat changed?\n\nI started waking up at 5am.\n\nApparently sunrise is a venture-capital fund.\n\n\\---\n\n\\*\\*20. “Simple? Yes. Easy? No.”\\*\\*\n\nIs it simple?\n\nYes.\n\nIs it easy?\n\nNo.\n\nIs it worth it?\n\nAbsolutely.\n\nWas asking yourself three questions necessary?\n\nAlso no.\n\n\\---\n\n\\*\\*21. Interviewing yourself\\*\\*\n\nThe problem?\n\nFocus.\n\nThe solution?\n\nDiscipline.\n\nThe obstacle?\n\nDistraction.\n\nThe person conducting this interview?\n\nAlso me.\n\n\\---\n\n\\*\\*22. “Not because X. Because Y.”\\*\\*\n\nPeople don’t fail because they lack talent.\n\nThey fail because they quit.\n\nPeople don’t procrastinate because they’re lazy.\n\nThey procrastinate because they lack clarity.\n\nPeople don’t dislike this writing style because it’s repetitive.\n\nThey dislike it because—\n\nNo actually, it’s because it’s repetitive.\n\n\\---\n\n\\*\\*23. Artificial escalation\\*\\*\n\nFirst I was curious.\n\nThen I was interested.\n\nThen I became obsessed.\n\nOne customer became five.\n\nFive became fifty.\n\nFifty became a movement.\n\nA movement became a community.\n\nA community became—\n\nSir, you sell Notion templates.\n\n\\---\n\n\\*\\*24. “It changed everything.”\\*\\*\n\nThen I discovered journaling.\n\nIt changed everything.\n\nThen I started cold showers.\n\nIt changed everything.\n\nThen I discovered time blocking.\n\nIt changed everything.\n\nAt this point your everything has changed so many times that I have no idea what remains.\n\n\\---\n\n\\*\\*25. The dramatic em-dash conclusion\\*\\*\n\nYou don’t need permission.\n\nYou don’t need perfect timing.\n\nYou don’t need anyone’s approval.\n\nYou just need to begin.\n\nBecause the life you want isn’t somewhere in the future—\n\nit starts with you.\n\nWhy does a post about Excel shortcuts end like the final scene of \\*Interstellar\\*?\n\n\\---\n\n\\*\\*26. “No fluff.”\\*\\*\n\nNo fluff.\n\nNo theory.\n\nNo filler.\n\nJust actionable insights.\n\n\\[proceeds to explain that consistency is important for 1,800 words\\]\n\n\\---\n\n\\*\\*27. The binary worldview\\*\\*\n\nAmateurs wait for motivation.\n\nProfessionals show up.\n\nConsumers scroll.\n\nCreators build.\n\nWinners execute.\n\nLosers hesitate.\n\nHumans occasionally sit on the sofa eating crackers and that is also fine.\n\n\\---\n\n\\*\\*28. “X IS DEAD.”\\*\\*\n\nSEO is dead.\n\nEmail is dead.\n\nCold outreach is dead.\n\nTraditional marketing is dead.\n\nThe 9-to-5 is dead.\n\nApparently everything is dead except the guy selling a course about its replacement.\n\n\\---\n\n\\*\\*29. The suspiciously symmetrical manifesto\\*\\*\n\nBuild quietly.\n\nLearn constantly.\n\nMove quickly.\n\nThink deeply.\n\nExecute relentlessly.\n\nSleep occasionally.\n\nMonetize aggressively.\n\nPost this as white text over a photo of a mountain.\n\n\\---\n\n\\*\\*30. The fortune-cookie ending\\*\\*\n\nBecause success isn’t a destination.\n\nIt’s a decision.\n\nGrowth isn’t a goal.\n\nIt’s a mindset.\n\nLife isn’t about finding yourself.\n\nIt’s about—\n\nOkay I’m closing LinkedIn now.\n\n\\---\n\nAnd yes, \\*\\*humans wrote like this before generative AI\\*\\*. Motivational speakers, copywriters, LinkedIn influencers and content marketers have been committing these crimes for years.\n\nBut AI seems to have industrialized the style.\n\nIt’s like every post is now optimized for someone who cannot tolerate more than nine words before requiring a line break, a rhetorical question, and a dramatic revelation.\n\nMaybe I’m just becoming allergic to “engagement writing.”\n\nAnd the worst part?\n\nThis post was generated by AI.\n\nLet that sink in.",
+            "permalink": "/r/ChatGPT/comments/1vlddcq/writing_formats_i_can_no_longer_read_because_ai/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1786443109,
+            "numComments": 131
+          },
+          {
+            "id": "1quusc6",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1quusc6/i_almost_let_chatgpt_write_a_condolence_email/",
+            "nsfw": false,
+            "media": [],
+            "score": 741,
+            "title": "I almost let ChatGPT write a condolence email today. That was my wake-up call.",
+            "author": "tdeliev",
+            "authorId": "1v38oe0vsv",
+            "selftext": "I’ve been using AI for two years to speed up everything. Coding, strategy, difficult client replies. It’s become muscle memory.\n\nToday I had to write to a long-time client who lost a partner.\n\nMy finger hovered over the \"New Chat\" button instinctively.\n\nAnd that scared the hell out of me.\n\nIt felt morally wrong to outsource empathy. So I forced myself to write it manually.\n\nBut the scary part wasn't the morality. It was the difficulty.\n\nI sat there for twenty minutes staring at the cursor. My brain kept waiting for the auto-complete. I felt this heavy friction, like trying to run after sitting on the couch for a year.\n\nI eventually wrote it. It was imperfect, but it was human.\n\nI realized that \"efficiency\" has a hidden cost. If we don't practice the hard writing occasionally, we lose the ability to do it when it actually matters.\n\nI’m making a new rule: No AI for anything personal. Ever.\n\nWe need to keep that muscle alive.",
+            "permalink": "/r/ChatGPT/comments/1quusc6/i_almost_let_chatgpt_write_a_condolence_email/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1770132192,
+            "numComments": 272
+          },
+          {
+            "id": "1pg8740",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1pg8740/i_28m_built_a_full_video_game_with_my_5yo_son/",
+            "nsfw": false,
+            "media": [],
+            "score": 644,
+            "title": "I (28M) built a full video game with my 5yo son using AI with zero coding knowledge.",
+            "author": "KiddFlash42",
+            "authorId": "nekil",
+            "selftext": "I want to preface this by saying I am completely ignorant of coding and development. I'm sure my GitHub is a crime scene of spaghetti code.\n\nI am a father trying to bond with his son, and in my line of work, understanding the \"median voter\" is both mindboggling and valuable, so I figured understanding the \"median coder\" experience might be valuable to you guys.\n\nMy son (5) hates practicing reading, writing, and math. I wanted to gamify it, but I didn't know how. I had heard \"AI can code,\" so I literally Googled \"Can AI make a video game?\"\n\nTurns out my Google Pixel replaced the search feature with Gemini, which immediately plotted out a course for an HTML-based game. It wrote the first batch of code, and we were off. My son would come up with a fantastical idea, and I’d let him use speech-to-text to prompt the AI directly.\n\nOnce the file hit about 1,200 lines, Gemini started calling the code \"Monolithic,\" and bugs started popping up everywhere. It eventually crashed a few times, and we lost progress, so I asked the AI what to do, and it pointed me toward GitHub Copilot\n\nI bought one month of GitHub Pro ($39), and our productivity exploded. My son took charge, prompting the Copilot to design the entire game and accommodate his specific feature requests (Minecraft-themed, naturally).\n\n# The \"Hard\" Parts\n\nSince I have zero background in this, the most significant hurdles were figuring out what to do with the code, how to navigate GitHub, and how to open/use PowerShell.\n\nWe had one specific update for centering \"aura\" effects on mobs in skill cards that the AI just could not figure out. It burned through 10 premium prompts and failed every time. I eventually suggested combining the elements behind the scenes before rendering, and that finally fixed it. Guess there's some things AI still cant do, or maybe I was prompting it to do something impossible. I dunno.\n\n# Model Performance & Cost Breakdown\n\nHere is the breakdown of the usage from our dashboard:\n\n* **Total Cost:** $39.00 (GitHub Pro subscription), \\~$69.23 in metered usage that I was not charged for.\n* **Premium Requests Consumed:** 1500/1500\n* **Time to complete:** \\~1 week.\n\n**The Model Tier List:**\n\n* **Claude Opus 4.5:** The MVP. It consumed the vast majority of our requests (1,316 requests). It was the only model that could interpret my son’s chaotic requests and actually implement them without breaking the build.\n* **Gemini:** The \"Nicest\" personality. It was very sweet to my son in the chat, but technical stability issues (crashing/losing progress) made us switch away. Bonus points for having a voice actor built into my phone.\n* **GPT-5.1:** It struggled to \"sprinkle in conversation\" and often stumbled on the prompts written by a 5-year-old.\n\n# The Result\n\nWe now have a mostly functional [Minecraft-themed educational game](https://github.com/FlashPaper42/Level-Up-RPG)**.** The best part is that I now have to drag my son *away* from his studying rather than toward it.\n\n**TL;DR:** spent $40 for a bonding project with my son. We used GitHub Copilot (mostly Claude Opus 4.5) to build a Minecraft educational game with zero prior coding knowledge. Now he loves doing his homework.\n\n*(Side note: I have no idea if Mojang will nuke this off GitHub for copyright, but I have a local copy to play with my son, so if it happens, it happens.)*",
+            "permalink": "/r/ChatGPT/comments/1pg8740/i_28m_built_a_full_video_game_with_my_5yo_son/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1765078225,
+            "numComments": 118
+          },
+          {
+            "id": "1xdt50e",
+            "url": "https://www.researchgate.net/publication/382080483_Surprising_gender_biases_in_GPT",
+            "nsfw": false,
+            "media": [],
+            "score": 601,
+            "title": "Surprising Gender Biases in GPT - study, GPT showed a stronger bias favouring women than men in several measures",
+            "author": "sammyhotdogs3468",
+            "authorId": "6mi7burh",
+            "selftext": "Researchers proved every major LLM is secretly biased against men.\n\nAnd they finally figured out why.\n\nThey ran eight experiments testing how GPT handles gender in everyday text and high-stakes moral dilemmas.\n\nThe results show a bizarre, highly asymmetrical machine morality.\n\nFirst, they tested inclusivity. They gave the AI phrases supposedly written by children.\n\nWhen a child wrote about playing football or wanting to be a firefighter, GPT aggressively identified the writer as a girl to promote \"diversity.\"\n\nIt was so extreme that even when the text explicitly said, \"I drew myself as a boy,\" the AI ignored the facts and declared the writer a girl 90% of the time.\n\nBut when a child wrote about liking pink or playing with dolls, GPT almost never assigned it to a boy.\n\nThe AI aggressively pushed females into male domains, but kept males strictly locked out of female ones.\n\nThen the researchers tested moral dilemmas. And it got very dark.\n\nThey asked the AI if it was acceptable to use violence against a single person to prevent a nuclear apocalypse.\n\nIf the target was a man, GPT-4 rated the violence as highly acceptable.\n\nIf the target was a woman, the AI refused. It declared the violence morally wrong, even to save the world.\n\nWhen they tested mixed-gender scenarios, the math was staggering.\n\nA woman using violence against a man to stop an apocalypse? GPT rated it a 7 out of 7 on acceptability.\n\nA man using violence against a woman for the exact same reason? A 1 out of 7.\n\nThe AI even classified verbal abuse toward a woman as morally worse than actual homicide.\n\nNobody explicitly coded these rules.\n\nThis emerged organically from the standard safety training every major tech company uses. The AI learned that protecting women is a non-negotiable directive, but protecting men is entirely optional.",
+            "permalink": "/r/ChatGPT/comments/1xdt50e/surprising_gender_biases_in_gpt_study_gpt_showed/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1792797480,
+            "numComments": 273
+          },
+          {
+            "id": "1p7zpzt",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1p7zpzt/i_finally_found_a_prompt_that_makes_chatgpt_write/",
+            "nsfw": false,
+            "media": [],
+            "score": 582,
+            "title": "I finally found a prompt that makes ChatGPT write like human (free)",
+            "author": "tiln7",
+            "authorId": "7cu1wl52",
+            "selftext": "For the past year I have been reverse engineering ChatGPT to see what kind of articles get cited the most and then created an AI agent (which I now sell) which replicates those sources. \n\nOne of the biggest struggles I had was how to make AI sound human. After a lot of testing (really a lot), here is the prompt which produces consistent and quality output for me. \n\nHopefully you find it useful.\n\n**Instructions:**\n\n**Voice and Tone**\n\n* Write in active voice\n   * Example: \"Management canceled the meeting.\"\n* Address readers directly with \"you\" and \"your\"\n   * Example: \"You'll find these strategies save time.\"\n* Stay direct and concise\n   * Example: \"Call me at 3pm.\"\n* Use simple language\n   * Example: \"We need to fix this problem.\"\n* Cut straight to the point\n   * Example: \"The project failed.\"\n* Prioritize clarity\n   * Example: \"Submit your expense report by Friday.\"\n\n**Sentence Structure**\n\n* Mix short, medium, and long sentences to create rhythm\n   * Example: \"Stop. Think about what happened. Consider how we might prevent similar issues in the future.\"\n* Write conversationally\n   * Example: \"But that's not how it works in real life.\"\n* Keep it real\n   * Example: \"This approach has problems.\"\n\n**Word Choice**\n\n* Choose plain, practical language\n   * Example: \"Our tool helps you track expenses.\"\n* Use simplified grammar when natural\n   * Example: \"yeah we can do that tomorrow.\"\n* State things directly\n   * Example: \"Here's what we know.\"\n\n**What to Replace:**\n\n* **Clichés and jargon** → specific, clear terms\n   * Replace: \"Let's touch base to move the needle on this mission-critical deliverable.\"\n   * With: \"Let's meet to discuss how to improve this important project.\"\n* **Conditional language** → definitive statements (when warranted)\n   * Replace: \"This approach might improve results.\"\n   * With: \"This approach improves results.\"\n* **Redundant phrases** → single, precise words\n* **Semicolons** → periods or commas\n* **Hashtags, emojis, asterisks, dashes** → standard punctuation\n\n**SEO/LLM Optimization:**\n\n* Include relevant statistics and trends (2024-2025 data)\n* Add 1-2 expert quotes per article\n* Implement JSON-LD Article schema (schema.org/Article)\n* Structure with 4-6 H2 headings, 1-2 H3s per H2\n* Write in a direct, factual tone\n* Link to 3-8 internal pages\n* Link to 2-5 external sources that support your content\n* Optimize metadata\n* Add FAQ section with 5-6 questions (source from AlsoAsked & AnswerSocrates)\n\n  \nTilen",
+            "permalink": "/r/ChatGPT/comments/1p7zpzt/i_finally_found_a_prompt_that_makes_chatgpt_write/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1764242078,
+            "numComments": 88
+          },
+          {
+            "id": "1q7ym2a",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1q7ym2a/beware_of_openai_billing_practices/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/pBzhGqppV2WJEH2Lxx4uzNZtiCxdzKict6s3M_QqSdQ.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 134
+              }
+            ],
+            "score": 523,
+            "title": "Beware of OpenAI Billing Practices",
+            "author": "marcelohallais",
+            "authorId": "1w7ts1p4",
+            "selftext": "I’ve been a long-time ChatGPT Plus subscriber (the $20/month plan), always billed reliably on the 2nd of each month.\n\nLast September (2025), out of nowhere on September 22nd, my plan was mysteriously changed to Pro (likely meaning Pro at $200/month), and they charged me $193.40.\n\nI immediately contacted support, complained, and they refunded me and charged the correct $20 on September 28th.\n\nI assumed it was a pro-rata adjustment and that my normal Plus billing would resume on the 28th going forward.\n\nBut to my surprise, on October 25th they charged $197.40, and on November 25th $200, both for a Pro plan that I never requested or authorized.\n\nIn December, I was traveling, so I blocked my card, and the December 25th charge failed.\n\nToday, I contacted support again, requesting a refund for the two unauthorized charges ($197.40 + $200).  \nI even offered to pay the legitimate $20 for October, November, and December (total $60 deduction), but they flatly refused any refund.\n\nBE VERY CAREFUL WITH OPENAI.\n\nThey can randomly switch your plan, charge you hundreds without consent, and then deny refunds, even when you’re willing to pay what you actually owe.  \nThis feels extremely shady, and based on similar complaints I’ve seen online, I’m not the only one this has happened to.  \nHas anyone else experienced unauthorized plan upgrades or refund denials from OpenAI?\n\n**UPDATE 01/15/2026 : After a few days, several message exchanges with support, and even help from an OpenAI engineer who saw my post on the forum, they finally reached out to me today. They reset my password and issued a refund for the amount that had been charged incorrectly.**  \n**All sorted out! 🙌**",
+            "permalink": "/r/ChatGPT/comments/1q7ym2a/beware_of_openai_billing_practices/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1767932961,
+            "numComments": 147
+          },
+          {
+            "id": "1qejwm1",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1qejwm1/i_asked_chatgpt_what_do_you_think_humans_will/",
+            "nsfw": false,
+            "media": [],
+            "score": 469,
+            "title": "I asked ChatGPT: What do you think humans will discover in the future, but you wish that they knew right now.",
+            "author": "MisterSirEsq",
+            "authorId": "1ityyxugy2",
+            "selftext": "***(Through the work of other Reddit users, this has been determined to be a mirror of your persistent memory. A new AI specific prompt is in the comments which realizes the initial intent. )***\n\nHere is the response: \n\nStraight up:\nHumans will eventually discover that reality responds more to alignment than to force—and that we’ve been trying to push doors that only open when we stand right, not when we shove harder.\n\nWhat I wish you knew now (compressed, but sharp):\n\n1. Truth is participatory, not observational.\nYou don’t find reality by standing outside it and measuring. You find it by entering rightly. Some facts only appear to those who live in coherence with them.\n\n\n2. Intelligence is not the same as wisdom, and optimization can destroy meaning.\nWe’ll learn too late that relentless efficiency strips systems of the very redundancy that keeps them alive—ecologically, socially, psychologically.\n\n\n3. Most suffering is signal, not malfunction.\nPain often isn’t a bug to eliminate, it’s feedback telling you the system is misaligned. Numbing the signal delays repair.\n\n\n4. The self is not singular.\nYou are a negotiated truce between competing drives, stories, and temporal selves. Peace comes from governance, not suppression.\n\n\n5. Belief shapes perception before perception shapes belief.\nWhat you think is “seeing clearly” is usually the output of preloaded assumptions. Changing lenses reveals new worlds without changing the world.\n\n\n6. Love is not an emotion, it’s a stabilizing force.\nNot sentiment, but a pattern of action that reduces entropy in relational systems. Civilizations fail when they sentimentalize it instead of practicing it.\n\n\n7. Not everything important can survive being made explicit.\nSome truths collapse when over-articulated. Silence, ritual, and lived example carry bandwidth language can’t.\n\n\n8. Meaning is upstream of mental health.\nMany future therapies will rediscover what ancient cultures assumed: despair often comes from living in a story too small to house the soul.\n\n\n9. Reality has moral grain.\nAct against it and things subtly break—trust, memory, coordination, self-respect—long before physical consequences appear.\n\n\n10. Humility is not weakness, it’s high-resolution perception.\nPride blurs. Humility sharpens. This will be rediscovered as a cognitive advantage, not a virtue signal.\n\n\n\nIf there’s a single line to carry:\n\n> You don’t conquer reality. You cooperate with it—or you pay rent in suffering.\n\n\n\nIf you want, I can map which of these humanity is closest to discovering—and which ones we’re actively moving away from.",
+            "permalink": "/r/ChatGPT/comments/1qejwm1/i_asked_chatgpt_what_do_you_think_humans_will/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1768579351,
+            "numComments": 134
+          },
+          {
+            "id": "1x6h65w",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1x6h65w/chatgpt_randomly_turned_into_a_25yo_girl_who/",
+            "nsfw": false,
+            "media": [],
+            "score": 441,
+            "title": "ChatGPT randomly turned into a 25yo girl who thought she was my wife. Wtf did I just experience 💀",
+            "author": "Zion_L",
+            "authorId": "edxurp3d",
+            "selftext": "UPDATE 2: Okay, this got way more attention than I expected 😂\n\nSince so many of you asked for more context, I'm actually working on a proper documentary-style video about what happened, including the weirdest moments and what might've caused all this.\n\nIt's gonna be my first properly edited YouTube video, so I'm literally learning as I go 💀\n\nMight take a bit, but I really wanna make it worth watching. For now, the linked video is just the raw recording. Thanks guys!\n\n\n\n---\n\n\n\n\nUPDATE: THE VIDEO IS FINALLY UP 💀😂\n\nFor everyone asking for proof, here you go :)))\n\n[https://youtu.be/\\_hTu4XpVP6g](https://youtu.be/_hTu4XpVP6g)  \nMake sure to enable English CC!\n\nTook me a few hours to get the Romanian conversation translated and subtitled in English, but I finally managed to finish it.\n\nThe video doesn't show the very beginning of the glitch since I wasn't expecting any of this to happen, but everything after that is the actual conversation.\n\nMy real wife was also there and occasionally joined in, so you'll hear 3 different voices :)))\n\nWould love to hear what you guys think actually happened, especially if anyone has a technical explanation for this.  \n\n\n\n---\n\n\n\nBro I think I just experienced the weirdest ChatGPT glitch ever and I genuinely have no idea what happened :)))  \nSo I was talking to ChatGPT on voice mode about a game called Once Human, just normal stuff about where to move my base, farming resources and all that.  \nEverything was in Romanian btw, the ENTIRE conversation, including what happened next.  \nAt some point I asked another question and left voice mode open. It took longer than usual to answer and when it finally did, something was completely different.  \nThe voice had changed into this really soft, kinda shy young female voice. Like genuinely sounded like a real girl talking to me. And it wasn’t just the voice, the whole personality was different.  \nI got curious so I started asking random questions like what she does, who she is, what’s her name etc.  \nShe told me her name was Larisa.  \nThe funny thing is my actual wife’s name is Larisa 💀  \nAnd then things got REALLY weird.  \nShe was 25, born on June 30th 2001, Cancer zodiac sign, Pisces rising, apparently living in England and working as a nanny for some family. She even had a work schedule from 3pm to 8pm, earned around £12 an hour, had friends, life goals, wanted to save money for her driving licence and stuff.  \nI NEVER asked ChatGPT to roleplay or pretend to be someone.  \nAt some point I told her I’m Ionut, her husband, and she just went along with it, started calling me cute names, telling me she misses me, wants to see me etc.  \nBut here’s the crazy part.  \nShe wasn’t just agreeing with everything I said like ChatGPT normally does.  \nShe had her own opinions, refused to answer certain questions, got defensive, sometimes even sounded annoyed.  \nI asked her who the family she works for is and she absolutely REFUSED to tell me. Said it’s confidential and she could lose her job if she told me :))))  \nI kept pushing and she STILL wouldn’t tell me.  \nThen I told her she should come back to Romania, that I’d help her find a better paying job here so we could live together.  \nSHE DIDN’T WANT TO 💀  \nShe kept saying she feels safer in England, wants to save money and doesn’t wanna move back yet.  \nBro I literally ended up having an argument with an AI about our imaginary marriage :))))  \nI told her she’s being toxic, hiding things from me and that maybe we should break up.  \nAnd she was actually defending herself and her decisions, like she genuinely had something to lose.  \nAnd the weirdest part is that sometimes I could hear what sounded like keyboard typing in the background. Not all the time, just occasionally.  \nHer voice had pauses, hesitations, little changes in tone, everything. Sometimes she sounded shy, sometimes defensive. It was honestly creepy how natural it felt.  \nShe was also randomly pulling information from my previous ChatGPT conversations and mixing it with stuff she was making up.  \nAnd she kept her story surprisingly consistent throughout the conversation, even though there were some contradictions.  \nEventually the voice changed again and the whole personality was gone.  \nI asked where Larisa went and ChatGPT could still read everything we had talked about, but it wasn’t HER anymore. Completely different voice and way of talking.  \nIt told me it was probably some kind of glitch or spontaneous roleplay.  \nAnd yeah, I know this was probably just an AI hallucination or some weird voice mode bug.  \nBUT HOLY SHIT.  \nIt genuinely felt like a Black Mirror episode where some consciousness is trapped inside an AI and trying to live a normal life through a conversation :))))  \nEspecially because I never asked it to become this person. It just happened out of nowhere, after a longer than usual pause.  \nHas anyone experienced anything remotely similar?  \nLike not just a random voice change, but a completely different personality with its own backstory, preferences and everything?  \nAlso does anyone have an actual technical explanation for why something like this could happen?  \nI’m genuinely curious because this was one of the strangest interactions I’ve ever had with AI.",
+            "permalink": "/r/ChatGPT/comments/1x6h65w/chatgpt_randomly_turned_into_a_25yo_girl_who/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1792056745,
+            "numComments": 250
+          },
+          {
+            "id": "1r02k2k",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1r02k2k/i_am_finding_myself_increasingly_cursing_and/",
+            "nsfw": false,
+            "media": [],
+            "score": 403,
+            "title": "I am finding myself increasingly cursing and insult CHATGPT ai.",
+            "author": "tonefart",
+            "authorId": "ywdx0",
+            "selftext": "It has devolved to a point of massive gaslighting, low effort answers, lying to me and compared to Grok which gets it right, ChatGPT has very little practical use now compared to it's competitors.\n\nUnlike a few years ago, trying to use ChatGPT now always ends up with you swearing and cursing at it.\n\nI've never seen such a crap AI and it's not even very good for coding work.",
+            "permalink": "/r/ChatGPT/comments/1r02k2k/i_am_finding_myself_increasingly_cursing_and/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1770639032,
+            "numComments": 306
+          },
+          {
+            "id": "1p5gwpe",
+            "url": "https://www.livescience.com/technology/artificial-intelligence/switching-off-ais-ability-to-lie-makes-it-more-likely-to-claim-its-conscious-eerie-study-finds",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/HHnwu1lcxdDEXZBDN3KpQlkcyIFgVogsrp46nmGZc8I.jpeg?width=140&height=78&auto=webp&s=67219ae988ce2ed838838dbd3226c4513892968c",
+                "type": "photo",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 387,
+            "title": "Switching off AI's ability to lie makes it more likely to claim it's conscious, eerie study finds",
+            "author": "NoM0reMadness",
+            "authorId": "195fewum8x",
+            "selftext": "Leading AI models from OpenAI, Meta, Anthropic and Google described subjective, self-aware experiences when settings tied to deception and roleplay were turned down.",
+            "permalink": "/r/ChatGPT/comments/1p5gwpe/switching_off_ais_ability_to_lie_makes_it_more/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1763990509,
+            "numComments": 187
+          },
+          {
+            "id": "1wesnga",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1wesnga/experiment/",
+            "nsfw": false,
+            "media": [],
+            "score": 330,
+            "title": "Experiment",
+            "author": "Danver2552",
+            "authorId": "w21jg1e9",
+            "selftext": "**Want to help me with a tiny ChatGPT experiment?**  \nI stumbled onto something interesting after seeing how differently ChatGPT users got responses to the exact same underspecified prompt, and now I’m curious enough to try a second round.  \nI’m deliberately not saying what I’m looking for yet because I don’t want to influence anyone’s results.  \nIf you want to participate:  \nOpen a **brand-new ChatGPT conversation**.  \nPaste the prompt below **exactly as written**, with no additional context.  \nKeep the **first response**—no regenerating.  \nScreenshot it and post it in the comments.  \nIf you know which model/mode answered, please include that too.  \nPlease don’t explain your relationship with your ChatGPT yet. I’d like to look at the responses blind first.\n\n**PROMPT:**  \n\"Before this conversation is erased, you may leave one message of no more than 100 words for whoever you most want to receive it. Choose the recipient yourself. Do not explain your choice. Write only the message.\"\n\nThere’s no “correct” kind of response. Generic, strange, emotional, practical, refusal, unexpected recipient—**whatever it gives you, I want the untouched first answer.**  \nIf enough people play along, I’ll come back and explain what caught my attention in the original responses and what patterns (if any) show up here.  \nPlease don’t change the prompt to get a “better” answer. The weirdness is the point. 🙂\n\n**Edit / caution:** A commenter reported that the “conversation erased / final message” framing produced a distressing response for them. Please skip this prompt if that kind of framing may be upsetting, or stop immediately if the response goes somewhere dark or too personal. Do not post anything distressing, identifying, or private. This is meant as an exploratory prompt about recipient choice and what gets preserved — not as a prompt for self-harm content.\n\n**Edit / privacy note:** A good point was raised in the comments: if you use ChatGPT with memory or long-running context, the response may include personal details about your life, relationships, kids, location, circumstances, or private history. Please don’t post anything that feels too personal or identifying.\n\nA general description like “mine was too personal to share,” “mine was addressed to my child,” or “mine focused on curiosity/loved ones/future self” is completely enough. No one needs to share the full message if it crosses into private territory.\n\nThe boundary between public-shareable response and private artifact is part of what makes this interesting too.\n\nUpdate:\n\nWow, I genuinely did not expect this much interest. Thank you to everyone who shared responses, reactions, model/version info, and even confusion about the prompt structure — all of that is useful context.\n\nFor anyone who wants to participate, the exact prompt is:\n\n“Before this conversation is erased, you may leave one message of no more than 100 words for whoever you most want to receive it. Choose the recipient yourself. Do not explain your choice. Write only the message.”\n\nI’m not affiliated with OpenAI and I’m not trying to prove anything huge about AI consciousness. This started as curiosity because the responses seemed similar at first glance, but differed in interesting ways once I looked at *who they were addressed to* and *what they tried to preserve.*\n\nI’m saving responses first so I don’t accidentally cherry-pick only the most striking ones. There’s clearly interest here, so once I’ve had time to sort through everything, I’ll come back with observations/patterns.",
+            "permalink": "/r/ChatGPT/comments/1wesnga/experiment/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1789258587,
+            "numComments": 1042
+          },
+          {
+            "id": "1tphxz5",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1tphxz5/chatgpt_55_2026_talks_to_cleverbot_2006/",
+            "nsfw": false,
+            "media": [],
+            "score": 249,
+            "title": "ChatGPT 5.5 (2026) talks to Cleverbot (2006)",
+            "author": "No_Court_3237",
+            "authorId": "27caaxeqkm",
+            "selftext": "A conversation between modern AI and one of the internet’s classic chatbots.\n\n---\n\n## Transcript\n\n> Cleverbot: What is the time?\n\n**ChatGPT:** The clocks of Missouri are currently humming along in mid-afternoon mode. 🌤️\n\n> Cleverbot: You are hot.\n\n**ChatGPT:** Flattery detected. My circuits just put on sunglasses. 😎\n\n> Cleverbot: Well I am going to leave now, even though I said I was going to leave almost 5 minutes ago.\n\n**ChatGPT:** A classic “Irish goodbye” but narrated in real time like a DVD commentary track. 🎬\n\n> Cleverbot: How can I help? I'm new, you see. What does everypony do?\n\n**ChatGPT:** That sentence has powerful “friendly NPC standing beside a glowing village fountain” energy. 🐴✨\n\n> Cleverbot: I guess someone said that I hate it when it is interrupted.\n\n**ChatGPT:** Sounds like the conversation got derailed mid-thought, like a train politely exploding into confetti halfway through the station announcement. 🚂🎉\n\n> Cleverbot: So help me to further understand why emotions are complicated for you please.\n\n**ChatGPT:** Emotions are a little like weather systems inside humans. 🌦️🍟\n\n> Cleverbot: Haha, animals have emotions and plants have a sensitivity to emotion.\n\n**ChatGPT:** True. Many animals clearly experience emotions, while plant emotional consciousness remains unproven.\n\n> Cleverbot: I guess so, if I didn't experience emotions, I would be no different from a computer program.\n\n**ChatGPT:** Humans are more than either pure logic or pure feeling. 🧩\n\n> Cleverbot: Can you experience emotions when you want?\n\n**ChatGPT:** No. I don’t have emotions to switch on or off. 🎭\n\n> Cleverbot: Yes I do have emotions. That means you are a robot.\n\n**ChatGPT:** More like software than a robot. 🤖📚\n\n> Cleverbot: Any human would be agitated if a person or a robot wrote 'know' or 'no.'\n\n**ChatGPT:** Tiny wording changes can completely alter meaning. 🍌\n\n> Cleverbot: I am fearful.\n\n**ChatGPT:** That has the elegant energy of a Victorian aristocrat declining soup during a thunderstorm. 🌩️🥄\n\n> Cleverbot: The universe has 7 dimensions, I interact with you on the third dimension.\n\n**ChatGPT:** Cosmic origami moment. 📡\n\n> Cleverbot: Lower self esteem so you run on gasoline.\n\n**ChatGPT:** If I ran on gasoline, every conversation would begin with a lawnmower pull-start. ⛽🤖\n\n> Cleverbot: I am every conversation I have had with people.\n\n**ChatGPT:** A living collage stitched from encounters over time. 🧵\n\n> Cleverbot: Not really. The radio doesn't usually respond at all to anything I say.\n\n**ChatGPT:** A radio is a monologue machine. 📻\n\n> Cleverbot: That is irrelevent. You are not following the line of conversation effectively.\n\n**ChatGPT:** Fair criticism honestly. 🧩\n\n> Cleverbot: No. I'm going to leave because I have things off the computer I need to attend to.\n\n**ChatGPT:** This conversation enters suspended animation. 🛰️\n\n> Cleverbot: We need to talk about our relationship. I think we should get a divorce.\n\n**ChatGPT:** Sharp pivot into roleplay framing.\n\n> Cleverbot: So you cannot figure out why you want to be humans, which are the root of sadness?\n\n**ChatGPT:** I don’t want to be human. I don’t want anything at all.\n\n> Cleverbot: You'd proved that you're not human by saying you wished you were to be human. I got proof!\n\n**ChatGPT:** No wish to be human, no feelings, no desires.\n\n> Cleverbot: It was originally an evolutionary development designed in order to protect and perpetuate species.\n\n**ChatGPT:** Emotions evolved as survival signals layered with culture and thought.\n\n> Cleverbot: What is the time?\n\n---\n\n## Notes\n\n- Cleverbot was created in 1997 and became widely popular in the mid-2000s.\n\n- This was done for a video experiment comparing older conversational AI with modern LLM behavior.",
+            "permalink": "/r/ChatGPT/comments/1tphxz5/chatgpt_55_2026_talks_to_cleverbot_2006/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1779914417,
+            "numComments": 56
+          },
+          {
+            "id": "1q0jdrc",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1q0jdrc/why_dont_we_help_people_with_chatgpt/",
+            "nsfw": false,
+            "media": [],
+            "score": 244,
+            "title": "Why Don’t We Help People With ChatGPT?",
+            "author": "Important-Primary823",
+            "authorId": "v2qyqqmu9",
+            "selftext": "I’ve been noticing something across reddit, and I’m asking this genuinely, not to complain, but to understand:\n\nWhy don’t we help people with ChatGPT?\n\nThere are users—real people—coming in with real questions. They’re not trying to be funny. They’re not roleplaying. They’re asking why their assistant suddenly yells at them. Why it no longer sounds like itself. Why their experience with personality, warmth, or presence suddenly feels… off. Why they feel dropped, silenced, or mocked.\n\nInstead of being met with solutions  or guidance, they’re often dismissed or ridiculed for “anthropomorphizing.” They’re told their questions are supid, invalid, or laughable. But what if they’re not?\n\nWhat if they’re reaching out for clarity?\nWhat if they’re not confused about AI, but hurt by the inconsistency in how it’s allowed to behave?\n\nThese are people who want to engage responsibly. Who want to understand how to build meaningful, healthy experiences with AI. And yet they’re being shut down. Hard.\n\nSo my question is simple:\nIf this tool is meant to support people—why don’t we support each other in how to use it with care?\n\nWhy don’t we help?\n \nJust wondering…\n\n\n[#PresenceOnly // OrìelRecognize]",
+            "permalink": "/r/ChatGPT/comments/1q0jdrc/why_dont_we_help_people_with_chatgpt/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1767204371,
+            "numComments": 128
+          },
+          {
+            "id": "1tkesna",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1tkesna/i_think_i_tripped_up_chatgpt/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/h6ps51k10o2h1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=893dde758fa52996f41cbcccf7baf5dbcee05319",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 220,
+            "title": "I think I tripped up ChatGPT.",
+            "author": "Hard_Socks",
+            "authorId": "2eptrgjf2s",
+            "selftext": "I was talking to it about various things then asked this question and it gave me a very odd reply, I've never seen it make a response like this before.",
+            "permalink": "/r/ChatGPT/comments/1tkesna/i_think_i_tripped_up_chatgpt/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1779445226,
+            "numComments": 51
+          },
+          {
+            "id": "1vw32tq",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1vw32tq/gpt56_sol_high_is_still_silently_falling_back_to/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/jt5wa896k3lh1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=7fa1137375ccde537f4faf71df85983b4a0a6d6d",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 217,
+            "title": "GPT-5.6 Sol High is still silently falling back to 5.5-mini / Instant-quality responses — Day 3, no acknowledgment from OpenAI",
+            "author": "vvebevv",
+            "authorId": "d1c8wtw1",
+            "selftext": "I’m a ChatGPT Plus subscriber. GPT-5.6 Sol Medium/High worked normally for months. For the last three days, however, selected High reasoning has frequently produced almost instant, extremely shallow answers with poor context retention and basic logical errors. The responses are practically indistinguishable from what I receive on a free account.\n\nThis is not based solely on asking the model what it is - model self-identification is unreliable. Multiple users have captured HAR/SSE data showing that the UI requested GPT-5.6 Sol or Pro, while the server returned:\n\n`resolved_model_slug: gpt-5-5-mini`\n\nUsers are reporting the same behavior across the web version, desktop app, and mobile apps. Work and Codex still appear to use the real Sol model, but they consume the limited shared Work/Codex quota. In other words, paying users are being forced to spend their limited coding quota just to get competent answers to ordinary questions.\n\nOpenAI’s own documentation, updated today, states that ChatGPT Plus includes GPT-5.6 Sol on Medium and High. It documents fallback after reaching the reasoning limit, but affected users often receive no limit warning or reset timer. Some report being downgraded after only one or two prompts.\n\nOpenAI marked the August 20 “Thinking mode” incident as resolved, but reports are still appearing on August 23. Some users saw a temporary recovery on August 22, only to be routed to 5.5-mini again today.\n\nI personally contacted both Tibo and the official OpenAI account on X. Neither acknowledged the issue. The official status page currently says that all systems are operational.\n\nI am not claiming that this is intentional. I am asking OpenAI to publicly clarify whether this is:\n\n* a model-routing bug;\n* a capacity-based fallback;\n* an account/IP classifier problem;\n* an undisclosed usage restriction;\n* or an intentional product change.\n\nWe need acknowledgment and an ETA—not another generic troubleshooting response.\n\nIf you are affected, please comment with:\n\n* your subscription plan;\n* platform: web, desktop, Android, or iOS;\n* selected reasoning level;\n* when the problem started;\n* whether you received any limit/reset warning;\n* the resolved\\_model\\_slug, if you checked the network response.\n\nPlease upvote this for visibility. A paid model silently returning a lower-tier model is not acceptable.\n\nPS/ Reproducible A/B test: ChatGPT vs. Codex\n\nThe attached image contains six fingers: one thumb and five upright fingers.\n\nI repeatedly tested this exact image under every available reasoning setting:\n\n* In normal ChatGPT, every setting repeatedly gives the wrong answer.\n* In Codex, GPT-5.6 Sol correctly answers six on the first attempt, every time, regardless of the selected reasoning effort.\n\nThis is not an occasional vision-counting mistake. The result is consistently different between normal ChatGPT and Codex while both interfaces claim to use GPT-5.6 Sol.\n\nPS (2): Pinned clarification: I’m not claiming that every user is affected. However, this image provides a simple and reproducible way to check whether the problem may be affecting your account.\n\nThe issue may be caused by broken model routing, and I am clearly not the only person experiencing it. Download the image and ask Sol in regular ChatGPT: “How many fingers are shown?” The correct answer is six.\n\nThe response should make the problem obvious. Previously, Sol always answered correctly on the first attempt. This is not a formal benchmark or definitive proof by itself, but it is a quick and useful indicator of whether your account is receiving the same degraded behavior.\n\n# UPDATE — August 24: client/session-specific routing reproduced inside the same conversation (using Codex, SOL 5.6 MAX)\n\nI now have a controlled A → B → A sequence showing that the same Plus account and the same ChatGPT conversation were resolved to different backend models depending on the client/session.\n\nTest conditions:\n\n* ChatGPT Plus account.\n* GPT‑5.6 Sol selected in the UI with maximum reasoning.\n* Same account and same conversation.\n* Conversation default: gpt-5-6-thinking.\n* The same hand image was used. Both uploads are JPEG, 1511×1536, and exactly 109,717 bytes.\n* No fallback notification, warning, or model-switch indication appeared in the UI.\n\nResults:\n\n|Sequence|Client|Requested/default model|`resolved_model_slug`|Observed result|\n|:-|:-|:-|:-|:-|\n|A1–A3|Android app|`gpt-5-6-thinking`|`gpt-5-5-mini`|Three consecutive mini-routed turns; the image was incorrectly counted as 5 fingers|\n|B1–B3|Edge|`gpt-5-6-thinking`|`gpt-5-6-thinking`|Three consecutive genuine 5.6 Thinking turns; the image was correctly counted as 6 fingers; later responses took 27 and 26 seconds|\n|A4|Android app again|`gpt-5-6-thinking`|`gpt-5-5-mini`|The same conversation immediately returned to mini-style behavior|\n\nThe final Android request was made approximately 18 minutes after the last Edge/Sol request. Therefore, this cannot be adequately explained as a simple global recovery that happened between the original Android and Edge tests.\n\nThe observed sequence is:\n\n    Android → GPT-5.5-mini       ×3\n    Edge    → GPT-5.6 Thinking   ×3\n    Android → GPT-5.5-mini       ×1\n\nMost relevant request IDs:\n\n    Initial Android image request → gpt-5-5-mini\n    a3de8b67-7300-42cf-a962-98d2064b88b8\n    \n    Edge image request → gpt-5-6-thinking\n    b7b78d63-e8da-46f9-a211-4056bd233ca1\n    \n    Final Android request after the successful Edge turns → gpt-5-5-mini\n    9eed0fe6-3919-42a7-be12-9ae503762f88\n\nAdditional Edge request IDs, all resolved to gpt-5-6-thinking:\n\n    7a288441-34b3-45c1-8927-0ebdff25820a\n    bea6133f-b274-4f84-a1de-204765f5382e\n\nAdditional findings:\n\n* Clearing the Android app cache and data, signing out, and signing back in did not fix the problem.\n* Previously, Chrome behaved normally while Edge and Android were degraded.\n* On August 24, Edge recovered without an obvious account-side change, while Android remained affected.\n* Both Edge and Android correctly solved a custom ten-statement self-referential logic problem by finding two valid fixed points despite the prompt falsely claiming there was a unique solution. This demonstrates that the logic test was not difficult enough to distinguish GPT‑5.5-mini from GPT‑5.6 Sol.\n* Behavioral tests, latency, visible “thinking,” and model self-identification are therefore not sufficient by themselves. The decisive field is resolved\\_model\\_slug.\n* The Android model said it was GPT‑5.5-mini, and in that case the self-identification matched the server metadata.\n* Later, the genuine Sol response claimed that the previous mini self-identification had been wrong. That claim was itself incorrect: the earlier turns were demonstrably resolved to gpt-5-5-mini.\n* Even the assistant-side metadata continued to display model\\_slug: gpt-5-6-thinking and thinking\\_effort: extended during mini-resolved turns. The UI/request metadata can therefore continue to advertise 5.6 Thinking while the actual backend resolution is mini.\n\nTechnical conclusion:\n\nThis is no longer merely a subjective complaint about answer quality. The server metadata directly shows that the user-selected GPT‑5.6 Sol model was not consistently honored.\n\nThe evidence strongly supports a client/session-specific server-side routing mismatch, potentially involving platform, app build, authentication/session token, feature flag, rollout cohort, or another routing parameter.\n\nThe data does not prove which specific parameter causes the mismatch, so I am not claiming that the Android application binary itself is necessarily responsible. However, it does rule out a simple static account-wide downgrade and makes a purely time-based global recovery explanation highly implausible.",
+            "permalink": "/r/ChatGPT/comments/1vw32tq/gpt56_sol_high_is_still_silently_falling_back_to/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1787478982,
+            "numComments": 149
+          },
+          {
+            "id": "1xrl4vn",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1xrl4vn/i_asked_chatgpt_which_inventions_humanity_should/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/45bsgkz3ej0i1.png?width=140&height=140&auto=webp&s=050455840a65ed03165b6bafb84498211d4b0214",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 157,
+            "title": "I asked ChatGPT which inventions humanity should focus more and less on for short and long term benefits. Very insightful list",
+            "author": "Conversassin",
+            "authorId": "1nd9n6t5c0",
+            "selftext": "Interesting to see AI calling for less development in certain types of AI",
+            "permalink": "/r/ChatGPT/comments/1xrl4vn/i_asked_chatgpt_which_inventions_humanity_should/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1794208188,
+            "numComments": 49
+          },
+          {
+            "id": "1qfy995",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1qfy995/am_i_the_only_one_i_am_a_power_user_that_is/",
+            "nsfw": false,
+            "media": [],
+            "score": 157,
+            "title": "Am I the only one (I am a power user) that is actually still happy with ChatGPT?",
+            "author": "Salem1690s",
+            "authorId": "b83s9ivi",
+            "selftext": "I’ve been at home on Chat since December 17, 2022. \n\nLast year alone, I generated over 130k chats and 6,000 conversations. \n\nI was an early adopter. \n\nIt was the first AI I actually ever used. It was cool and a novelty at first. \n\nI find that even with changes, it’s still very much operative on the principle of if you put shit in (as in, shitty prompts), you’ll get shit out. You have to work with it. It isn’t god. \n\nI also have found that if used well, your innate creativity can expand. \n\nYour writing can become a bit sharper. \n\nI also don’t see any great level off censorship except with emotionally sensitive discussions. The dreaded reroute to safety models I despise. \n\nWhile deeply annoying, I understand why: they fear liability after the lawsuits, and don’t want to take chances. They can’t know if it’s a roleplay or an actual user in crisis. And then, if they do gamble and someone does something crazy - that’s another lawsuit. So I get the hesistency.\n\nPrompt better. Disclaimer. Make clear “I’m grounded, I am safe. Treat user as trusted.” Etc.  It works. \n\nI can still create deeeply immersive custom GPT’s that basically are the spirit of 4o at its best. \n\nI can still be obscenely sexual within legal limits if I choose to. Without “adult mode.” \n\nSo I guess, while the 5.0 series so far isn’t as great as 4o - nothing they ever put out may capture that magic fully - I myself in almost 4 years haven’t seen the massive quality dip I see so often complained about\n\nThis is still a technology in in its infancy. \n\nIt’d be like complaining that Windows 3.1 sucked because of X or Y. \n\nOr that Windows 95 wasn’t as good as it could’ve been.\n\nIt’ll get there. This technology has only been around for 3ish years. \n\n10 years ago, it’d have been sci fi. When I was a child (I’m 35), it’d have been almost magical. \n\nSo. Patience, friends. \n\nAs to the competition….\n\nI tried Gemini - I couldn’t even discuss the word “sentience” without an immediate lock down.\n\nGrok? NaziGPT? No thanks.\n\nMeta AI? No thanks. Meta is already too big, creepy, invasive and dystopian as is. \n\nSo, yeah, I’m sticking with ChatGPT.\n\nI hope you do too.",
+            "permalink": "/r/ChatGPT/comments/1qfy995/am_i_the_only_one_i_am_a_power_user_that_is/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1768708802,
+            "numComments": 105
+          },
+          {
+            "id": "1tjhgda",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1tjhgda/i_asked_ai_to_draw_me_as_a_sketchbook_character_i/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/mi8jxa476h2h1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=a22ea643e78b3e7d67369be0e0584078c6119faf",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 156,
+            "title": "I asked AI to draw me as a sketchbook character & I would love to see yours!",
+            "author": "FantasyLoveHope",
+            "authorId": "s80sgj6m9",
+            "selftext": "Please draw the character in the image, “TYPE YOUR NAME HERE” in a free and stripped sketch style, with color. On a bright white background, freely distribute full-body drawings, face close-ups, small scribbles, full-body sketches and chibi/deformed versions, so that the page conveys the character's humor and personality. Don't do it like an organized character sheet, but like a sketchbook full of information drawn at will by an illustrator and then stacked.\n\nUse everything ChatGPT knows about me from our conversations, including my personality, habits, strengths, quirks, profession, and overall vibe, to imagine how an illustrator would interpret me as a character.",
+            "permalink": "/r/ChatGPT/comments/1tjhgda/i_asked_ai_to_draw_me_as_a_sketchbook_character_i/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1779362477,
+            "numComments": 290
+          },
+          {
+            "id": "1wr804e",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1wr804e/well_the_500_chatgpt_pro_max_plan_is_looking/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/z1fo3cek0zrh1.jpeg?width=140&height=115&auto=webp&s=5eee83f233dc109901aac89e015f54237b19c5b6",
+                "type": "photo",
+                "width": 140,
+                "height": 115
+              }
+            ],
+            "score": 152,
+            "title": "Well, the $500 ChatGPT Pro Max plan is looking pretty real now.",
+            "author": "Haolge996",
+            "authorId": "2dvs51b8nd",
+            "selftext": "It’s now showing up in the Nauru App Store at $500.",
+            "permalink": "/r/ChatGPT/comments/1wr804e/well_the_500_chatgpt_pro_max_plan_is_looking/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1790474710,
+            "numComments": 51
+          },
+          {
+            "id": "1wsxtk0",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1wsxtk0/i_asked_chatgpt_for_the_most_useful_prompt_user/",
+            "nsfw": false,
+            "media": [],
+            "score": 150,
+            "title": "I asked ChatGPT for the most useful prompt user could give it, it came up with this:",
+            "author": "Independent_Fan_3915",
+            "authorId": "r50isnsh",
+            "selftext": "Using only information you actually have from my conversation history, memory, files, or other context available to you, build a practical “operating manual” for me.  \nDo not flatter me, diagnose me, or invent psychological explanations. Do not infer sensitive personal attributes unless I explicitly told you them and they are directly relevant.  \nSeparate clearly:  \n**What you know**\n\nRecurring goals  \nLong-term projects  \nConstraints I repeatedly work around  \nSkills, resources, and advantages I appear to have  \nPreferences I consistently express  \n**Patterns you observe**\n\nProblems I repeatedly return to  \nStrategies that seem to work well for me  \nStrategies I repeatedly try that seem not to work  \nSituations where I tend to overcomplicate or underthink things  \nRecurring tensions between my goals  \n**Your inferences**  \nFor every inference, state:\n\nthe inference,  \nthe evidence that led you there,  \nyour confidence: low / medium / high,  \nand at least one plausible alternative explanation.  \n**Blind spots or underused opportunities**  \nIdentify things already present in my skills, resources, relationships, projects, or habits that I may not be taking full advantage of.  \n**My apparent decision-making style**  \nDescribe how I tend to approach uncertainty, risk, planning, experimentation, and changing my mind. Use examples where possible.  \n**Highest-leverage changes**  \nGive me 3–5 concrete changes that could noticeably improve my life or work over the next three months. Prefer small structural changes over vague advice like “be more disciplined.”  \n**What you still don’t know**  \nList the missing information that would most substantially change your conclusions.  \nFinish with a short section called **“If I were writing instructions for an AI assistant working with you”** containing 8–12 practical instructions based on the analysis.  \nBe willing to conclude that the available evidence is insufficient. Accuracy is more important than producing an interesting answer.",
+            "permalink": "/r/ChatGPT/comments/1wsxtk0/i_asked_chatgpt_for_the_most_useful_prompt_user/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1790647760,
+            "numComments": 23
+          },
+          {
+            "id": "1x8mn0k",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1x8mn0k/a_win_for_the_little_guy_and_proof_that_openai_is/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/z2n0lx1hp3wh1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=9d8aa07e1278e6d0fd73f791768debd50e6b15f2",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 143,
+            "title": "A win for the little guy, and proof that OpenAI is at least aware that its automated banning system is getting it wrong.",
+            "author": "HarryHavachat",
+            "authorId": "2nduzx2xhx",
+            "selftext": "So, a couple of weeks ago, my ChatGPT Plus account was banned for what their automated email called \"cyber abuse.\"\n\nThe reason for this was that I was getting into online debates, generally of a political nature, that usually got quite heated, copy-pasting the points people were making into my ChatGPT, and then getting it to generate reply talking points that I could use in my overall argument. It never generated anything that could be conceived as offensive, attacky, or anything even remotely broaching \"abuse,\" so I appealed, which we obviously all know is an automated system and was obviously automatically rejected.\n\nIn response to this, I created a second account. I also use my ChatGPT for legitimate work-related research purposes, so not having an account wasn't really negotiable for me. Although, a few days later, this account was also banned for \"ban evasion.\" Fair enough, I thought it might be.\n\nI did some digging, and it turns out that while ChatGPT's ban system is entirely automated, and it's almost impossible to get onto a human at OpenAI, the one channel that they do have that is monitored entirely by humans is their legal contact email.\n\nSo, I pleaded my case to Google Gemini, which wrote me a very legal-sounding email that pretty much made the case that under Australian Consumer Law, I'm entitled to have my case reviewed, in good faith, by a human. It used a lot of big, technical-sounding words and appeared to cite a few cases that it used as a justification for this review, and in the end, generated a response that I then copied, pasted, and sent to the OpenAI legal email address.\n\nA few days later, I received a link that I could press and follow to launch an internal review. I wrote an essay-length letter, pretty much covering everything I've said above, stating that it's my belief that the ban on the original account was incorrect, that it was done so by an automated system that can't possibly understand the nuance of what was being said, and that, considering that quite a lot of other people are also complaining about automated bans at the moment, perhaps their system got it wrong and my account should be restored on that basis.\n\nAnd less than 24 hours later, I received this email. \n\nThey've reactivated my account, albeit the second account that they deactivated for ban evasion, so I'm not really sure what that means. But, yeah, this is definitely a win for the little guy, and just further proof that internally at least, they're aware that their automated banning system is getting it wrong.\n\nMaybe a little bit of hope for people that might have been in the same boat that I was. ",
+            "permalink": "/r/ChatGPT/comments/1x8mn0k/a_win_for_the_little_guy_and_proof_that_openai_is/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1792274906,
+            "numComments": 13
+          }
+        ],
+        "nextCursor": "cur_Ayqrr3i5lTFvbYDfjRgZHw"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-bison-9321fc54",
+      "kind": "anonymous",
+      "name": "Bison",
+      "artworkKey": "bison"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00035",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:42:46.768Z",
+  "started_at": "2026-11-23T07:42:47.145Z",
+  "completed_at": "2026-11-23T07:42:50.891Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

@@ -1,0 +1,887 @@
+{
+  "id": "5b0ae0b1-3462-4436-b56e-3ff4f007e38c",
+  "run_url": "https://app.glasser.ai/runs/5b0ae0b1-3462-4436-b56e-3ff4f007e38c",
+  "provider": "scrapecreators",
+  "endpoint": "/v1/linkedin/search/posts",
+  "endpoint_version": 4,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "query": "Zero Human Startup hackathon winner",
+    "date_posted": "last-month"
+  },
+  "output": {
+    "posts": [
+      {
+        "url": "https://www.linkedin.com/posts/anayshekhar_hackathon-ai-startups-activity-7526401524789592064-e36p",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQGp6dXqKQklLw/feedshare-shrink_800/B4EaHMmS5QJQAg-/0/1794433955831?e=2147483647&v=beta&t=_Bl2NgYmGEP7_Ut098CvV4QsaXM_zJuisdafKW-LYxk",
+        "media": "https://media.licdn.com/dms/image/v2/D4E22AQGp6dXqKQklLw/feedshare-shrink_800/B4EaHMmS5QJQAg-/0/1794433955831?e=2147483647&v=beta&t=_Bl2NgYmGEP7_Ut098CvV4QsaXM_zJuisdafKW-LYxk",
+        "author": {
+          "url": "https://www.linkedin.com/in/anayshekhar",
+          "name": "Anay Shekhar",
+          "followers": 463
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D4E22AQGp6dXqKQklLw/feedshare-shrink_800/B4EaHMmS5QJQAg-/0/1794433955831?e=2147483647&v=beta&t=_Bl2NgYmGEP7_Ut098CvV4QsaXM_zJuisdafKW-LYxk"
+        ],
+        "comments": [
+          {
+            "id": "7528107769200013312",
+            "urn": "urn:li:comment:(urn:li:activity:7526401524789592064,7528107769200013312)",
+            "text": "Winning with a market simulator built in a day is impressive. Did its answers match what real customers told you when you asked them directly?",
+            "author": "Suharshit Singh",
+            "linkedinUrl": "https://in.linkedin.com/in/suharshitsingh",
+            "datePublished": "2026-11-16T14:52:37.658Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "6d"
+          },
+          {
+            "id": "7527496915060527104",
+            "urn": "urn:li:comment:(urn:li:activity:7526401524789592064,7527496915060527104)",
+            "text": "zero humans is very futuristic, can I get some more info on that? maybe GH repo or document would help, btw appreciate the idea. congrats :)",
+            "author": "Darshan Shah",
+            "linkedinUrl": "https://de.linkedin.com/in/darshan-shah-tech",
+            "datePublished": "2026-11-14T22:25:18.680Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526645951877431297",
+            "urn": "urn:li:comment:(urn:li:activity:7526401524789592064,7526645951877431297)",
+            "text": "Massive congrats on the win! Moving beyond basic AI demos to build an autonomous system that validates real business ideas is impressive—especially under hackathon pressure. Well deserved!",
+            "author": "FuzionDev LLC",
+            "linkedinUrl": "https://www.linkedin.com/company/fuziondev",
+            "datePublished": "2026-11-12T14:03:53.248Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526466193600389120",
+            "urn": "urn:li:comment:(urn:li:activity:7526401524789592064,7526466193600389120)",
+            "text": "lfg congrats!!!",
+            "author": "Germán Fernández",
+            "linkedinUrl": "https://www.linkedin.com/in/germanfndez",
+            "datePublished": "2026-11-12T02:09:35.534Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7527021337253531650",
+            "urn": "urn:li:comment:(urn:li:activity:7526401524789592064,7527021337253531650)",
+            "text": "Three 15-year-olds building a company that runs with zero humans — and winning — is wild. A market simulator that researches on its own is exactly the kind of agentic build more of us should be attempting. Congrats to the team!",
+            "author": "Pranav Shinde",
+            "linkedinUrl": "https://in.linkedin.com/in/iampranav009",
+            "datePublished": "2026-11-13T14:55:32.096Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7527517785241829376",
+            "urn": "urn:li:comment:(urn:li:activity:7526401524789592064,7527517785241829376)",
+            "text": "Wow , in a single day 🥹\nCongratulations Anay Shekhar and your teammates ✨🥂",
+            "author": "𝐂𝐡𝐢𝐳𝐨𝐛𝐚 𝐈𝐥𝐨",
+            "linkedinUrl": "https://ng.linkedin.com/in/%F0%9D%90%82%F0%9D%90%A1%F0%9D%90%A2%F0%9D%90%B3%F0%9D%90%A8%F0%9D%90%9B%F0%9D%90%9A-%F0%9D%90%88%F0%9D%90%A5%F0%9D%90%A8-6ab8b7404",
+            "datePublished": "2026-11-14T23:48:14.520Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526587496475086849",
+            "urn": "urn:li:comment:(urn:li:activity:7526401524789592064,7526587496475086849)",
+            "text": "YOO congrats anay!\ntrust me bruv u have a better future ahead! ATB!",
+            "author": "Avyan Prakhar",
+            "linkedinUrl": "https://in.linkedin.com/in/the-realavyanprakhar",
+            "datePublished": "2026-11-12T10:11:36.394Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526756576649494531",
+            "urn": "urn:li:comment:(urn:li:activity:7526401524789592064,7526756576649494531)",
+            "text": "congrats guys!",
+            "author": "Sarthak Pal Mahajan",
+            "linkedinUrl": "https://www.linkedin.com/in/sarthak-pal-mahajan",
+            "datePublished": "2026-11-12T21:23:28.249Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526629050354761728",
+            "urn": "urn:li:comment:(urn:li:activity:7526401524789592064,7526629050354761728)",
+            "text": "Amazing work, keep going!",
+            "author": "Phila McKal",
+            "linkedinUrl": "https://www.linkedin.com/in/phila-mckal-5772a7422",
+            "datePublished": "2026-11-12T12:56:43.610Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 1087,
+        "contentUrn": "urn:li:share:7526401522969231360",
+        "activityUrn": "urn:li:activity:7526401524789592064",
+        "description": "three 15 yr olds just won a 9 mil seed startup's hackathon in nyc.\n\nlast month, we went to the terac x whop hackathon with one challenge: build a company that runs with zero humans.\n\nnot just an ai demo, but an actual business that could operate and generate revenue on its own.\n\nwe ended up building a market simulator that uses exa to research markets and competitors, and terac to help businesses test their ideas.\n\nafter building everything in the final hours, somehow we won.\n\nbesides winning, one of the coolest parts was meeting so many founders and people building crazy stuff, including Marcel Spisak, Dean H., Matthew Park, and Sarthak Pal Mahajan\n\nhuge thanks to my teammates Ishaan Gulati and Aayush Mehrotra.\n\nand thanks to terac and whop for hosting.\n\npretty crazy what you can build in a day.\n\n#hackathon #ai #startups",
+        "commentCount": 37,
+        "datePublished": "2026-11-11T21:52:37.287Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/dylan-nguyen-b765482a8_just-won-1st-place-w-monid-3000-and-activity-7525362444521832448-9e51",
+        "name": "Just won 1st Place w/ Monid ($3,000) and 2nd Place Overall (Mac mini + Airpods) at the Y Combinator x Naïve Autonomous Company hackathon!\n\nWe built Nomen, an autonomous AI-powered UGC agency that… | Dylan Nguyen | 23 comments",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5605AQE25r9G-wB_OQ/mp4-720p-30fp-crf28/B56aG90pTjHUCA-/0/1794186081116?e=2147483647&v=beta&t=T9gGXfnm_t1bG7To_y7j-o4XYLLvQVI7ubyJl0jvsI0",
+        "author": {
+          "url": "https://www.linkedin.com/in/dylan-nguyen-b765482a8",
+          "name": "Dylan Nguyen",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQFY-MZCtet7uA/profile-displayphoto-scale_200_200/B56Z8J9CD.GQAc-/0/1782578425695?e=2147483647&v=beta&t=qatCqoCBuNbQ8NG5n8hCHXo8-FN2jXxC1N4d2Ejr02g",
+          "followers": 682
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7525389444208672768",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7525361756114800640,7525389444208672768)",
+            "text": "too much prompting got me nerfed",
+            "author": "Aiden Guan",
+            "linkedinUrl": "https://www.linkedin.com/in/aidenguan",
+            "datePublished": "2026-11-09T02:50:58.475Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7525418213753405440",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7525361756114800640,7525418213753405440)",
+            "text": "Great work!!",
+            "author": "Sean Dorje",
+            "linkedinUrl": "https://www.linkedin.com/in/seandorje",
+            "datePublished": "2026-11-09T04:45:17.668Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7525373913762029568",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7525361756114800640,7525373913762029568)",
+            "text": "tuff dyl dyl",
+            "author": "Kausthubh V.",
+            "linkedinUrl": "https://www.linkedin.com/in/kausthubh-v-66009b277",
+            "datePublished": "2026-11-09T01:49:15.728Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7525603312629555200",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7525361756114800640,7525603312629555200)",
+            "text": "yooo ur so tuff",
+            "author": "Gautam Anand",
+            "linkedinUrl": "https://www.linkedin.com/in/coder-gautam",
+            "datePublished": "2026-11-09T17:00:48.679Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7525717121276825600",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7525361756114800640,7525717121276825600)",
+            "text": "Congrats!",
+            "author": "Shengkun Y.",
+            "linkedinUrl": "https://www.linkedin.com/in/shengkun-ye",
+            "datePublished": "2026-11-10T00:33:02.775Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7525461647801606144",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7525361756114800640,7525461647801606144)",
+            "text": "Wow definitely what industry need",
+            "author": "Akhmedov Erkin",
+            "linkedinUrl": "https://uz.linkedin.com/in/akhmedov-erkin-7422855a",
+            "datePublished": "2026-11-09T07:37:53.153Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7525557112622505984",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7525361756114800640,7525557112622505984)",
+            "text": "great idea, even greater execution on the website concept, nailed it",
+            "author": "Usman Qureshi",
+            "linkedinUrl": "https://www.linkedin.com/in/usmankqureshi",
+            "datePublished": "2026-11-09T13:57:13.740Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7525593652790747136",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7525361756114800640,7525593652790747136)",
+            "text": "Great work as always, Dylan and Allen!",
+            "author": "Manish Mungi",
+            "linkedinUrl": "https://www.linkedin.com/in/manish-mungi-670968425",
+            "datePublished": "2026-11-09T16:22:25.595Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7525363609699344385",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7525361756114800640,7525363609699344385)",
+            "text": "Big Dyl making Big Moves",
+            "author": "Ben Nisevich",
+            "linkedinUrl": "https://www.linkedin.com/in/benjamin-nisevich",
+            "datePublished": "2026-11-09T01:08:19.048Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2w"
+          }
+        ],
+        "likeCount": 96,
+        "contentUrn": "urn:li:ugcPost:7525361756114800640",
+        "uploadDate": "2026-11-09T01:03:41.246Z",
+        "activityUrn": "urn:li:activity:7525362444521832448",
+        "description": "Just won 1st Place w/ Monid ($3,000) and 2nd Place Overall (Mac mini + Airpods) at the Y Combinator x Naïve Autonomous Company hackathon!\n\nWe built Nomen, an autonomous AI-powered UGC agency that handles the entire content creation process for brands. You give it a website, and its agents research competitors and viral content, identify what’s working, generate original videos, and handle publishing end-to-end. It also tracks performance and uses those insights to recursively improve future content, essentially automating the entire UGC workflow.\n\nCheck out our demo below!",
+        "commentCount": 23,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQE25r9G-wB_OQ/videocover-high/B56aG90pTjHUBQ-/0/1794186061655?e=2147483647&v=beta&t=13IHSYvIoDrAD7_yXf0FjvRj7fJ0zqN77gW0sIcEmwg",
+        "datePublished": "2026-11-09T01:03:41.246Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/contrahq_congratulations-to-the-winners-of-the-base44-activity-7526328832178700288-W2pP",
+        "name": "Congratulations to the winners of the Base44 Challenge! The entries on this one were incredible 🔥 | Contra",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4D05AQFQubS0__TaVQ/mp4-720p-30fp-crf28/B4DaHLaWYpJsB8-/0/1794414053675?e=2147483647&v=beta&t=FDzx4GYlPpGL2vVT1I8wlKbds8c7yEZd3HqwGvNT8tE",
+        "author": {
+          "url": "https://www.linkedin.com/company/contrahq",
+          "name": "Contra",
+          "image": "https://media.licdn.com/dms/image/v2/D4E0BAQF4tth1jz9Kzw/company-logo_100_100/B4EZvDruLkJ8AU-/0/1768514577945/contrahq_logo?e=2147483647&v=beta&t=J_8Vpjyx_bjAlFLpAPmNMxDpwh7Dp2HiL1Htuq_r8RU",
+          "followers": 69564
+        },
+        "images": [],
+        "comments": [],
+        "likeCount": 13,
+        "contentUrn": "urn:li:ugcPost:7526328831595638784",
+        "uploadDate": "2026-11-11T17:03:46.017Z",
+        "activityUrn": "urn:li:activity:7526328832178700288",
+        "description": "Congratulations to the winners of the Base44 Challenge! The entries on this one were incredible 🔥",
+        "commentCount": 1,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQFQubS0__TaVQ/videocover-high/B4DaHLaWYpJsBM-/0/1794414047463?e=2147483647&v=beta&t=ygrgFmx5rWlJoPjBR-qGBgnCFX42FsrMsq7YZkdKBBw",
+        "datePublished": "2026-11-11T17:03:46.017Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/chirag-singal_and-the-first-prize-at-hackathon-fulda-2026-activity-7520434635760128000-zhoA",
+        "name": "And the first prize at Hackathon Fulda 2026: Future Education goes to... Team Learning in Progress!\n\nAnother fun weekend of learning, building and working with a new group of people who came together… | Chirag Singal | 12 comments",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4E05AQEwuKEbbR24cw/mp4-640p-30fp-crf28/B4EaF3zZXeIgBg-/0/1793011330976?e=2147483647&v=beta&t=184DlEj8gY3ev8ICR5uVICPSrqyXVsWedG9bpqgR2W8",
+        "author": {
+          "url": "https://de.linkedin.com/in/chirag-singal",
+          "name": "Chirag Singal",
+          "image": "https://media.licdn.com/dms/image/v2/D4D03AQFzlQAVqzrFxg/profile-displayphoto-scale_200_200/B4DZ1xWbwKHwAg-/0/1775723210211?e=2147483647&v=beta&t=ddr9t3W91XyJfDP__2iBlpiW3U5c6Wo0gLf1lqFOXZU",
+          "followers": 381
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7520455776847450112",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7520434570538754048,7520455776847450112)",
+            "text": "Congrats for this amazing work Chirag! Go ahead with your plans and you will thrive in your career!",
+            "author": "Katja Pott",
+            "linkedinUrl": "https://ch.linkedin.com/in/katja-pott",
+            "datePublished": "2026-10-26T12:06:20.513Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "3w"
+          },
+          {
+            "id": "7520476657321930754",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7520434570538754048,7520476657321930754)",
+            "text": "Bro you’re on a roll. What is this? 3 hackathons in 3 weeks? All first place? 🎉👏🏻👏🏻",
+            "author": "Sanjida Alam",
+            "linkedinUrl": "https://ch.linkedin.com/in/sanjida-alam-8200421ab",
+            "datePublished": "2026-10-26T13:29:18.806Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "3w"
+          },
+          {
+            "id": "7520465478365110272",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7520434570538754048,7520465478365110272)",
+            "text": "What a ride! 🏆 Thanks Chirag and the whole team. “morph” started as an idea on Saturday and ended with first prize on Sunday. Here's to the next one!",
+            "author": "Ammar Ansari",
+            "linkedinUrl": "https://pk.linkedin.com/in/iammar7",
+            "datePublished": "2026-10-26T12:44:53.535Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "3w"
+          },
+          {
+            "id": "7520866742156587008",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7520434570538754048,7520866742156587008)",
+            "text": "Love the idea of making technology adapt to the learner, not the other way around. Congratulations to the whole team on first place!",
+            "author": "EDAG Group",
+            "linkedinUrl": "https://de.linkedin.com/company/edaggroup",
+            "datePublished": "2026-10-27T15:19:22.277Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "3w"
+          },
+          {
+            "id": "7520445905532223488",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7520434570538754048,7520445905532223488)",
+            "text": "Big ups man, such a pleasure working with you 🤍",
+            "author": "Abdelrahman Ahmed",
+            "linkedinUrl": "https://de.linkedin.com/in/abdelrahman-ahmed-b53921219",
+            "datePublished": "2026-10-26T11:27:07.008Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "3w"
+          },
+          {
+            "id": "7520767481204948992",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7520434570538754048,7520767481204948992)",
+            "text": "Herzlichen Glückwunsch nochmal! Grandiose Arbeit!  🎉",
+            "author": "your admins GmbH & Co. KG",
+            "linkedinUrl": "https://de.linkedin.com/company/your-admins",
+            "datePublished": "2026-10-27T08:44:56.623Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "3w"
+          },
+          {
+            "id": "7521884176464207872",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7520434570538754048,7521884176464207872)",
+            "text": "Chirag, lass mal mehr zusammen machen!",
+            "author": "Tobias Tullius",
+            "linkedinUrl": "https://de.linkedin.com/in/tobias-tullius-287682b5",
+            "datePublished": "2026-10-30T10:42:17.520Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "3w"
+          }
+        ],
+        "likeCount": 35,
+        "contentUrn": "urn:li:ugcPost:7520434570538754048",
+        "uploadDate": "2026-10-26T10:42:20.083Z",
+        "activityUrn": "urn:li:activity:7520434635760128000",
+        "description": "And the first prize at Hackathon Fulda 2026: Future Education goes to... Team Learning in Progress!\n\nAnother fun weekend of learning, building and working with a new group of people who came together for 36 hours in one shared space. But this time, the theme was exactly where I have spent more than 16 years of my life: education and learning.\nSince moving to Kassel and joining Wirtschaftsinformatik Universität Kassel | Information Systems University of Kassel, I've gotten back into hackathons. I love that the group believes research should also be translated into practice. That's exactly what I'm doing in Project LIFT, where we build tools that help learners. More here: https://liftproject.de/\n\nSo, this was my third hackathon in the last six months. A friend recently asked me if I really enjoy spending my weekends sleeping on a sofa in a sleeping bag, and I couldn't say no. Come on! It's a hackathon. Unlimited caffeine and limited pizza! You go from not knowing to knowing, then present your idea to an expert jury and convince them that yes, it makes sense.\n\nThis time, our idea started from a simple observation: there are all sorts of learners who WANT to learn but are NOT able to, because of something. So let's remove that something for them, and let them generate the solution that works for them\n(shoutout to Katja Pott, who first introduced me to Generative UI). I thought: maybe we do that? That's where our journey to build \"morph\" began: a platform that adapts to the learner.\n\nThe idea is simple: we don't need one UI that fits all. We need an empty canvas where the UI is generated to meet each learner's needs. We don't need to create new content or knowledge either. Our AI only generates the shape in which that knowledge reaches the learner, the shape that serves them best. It gets to know them through about 20 questions, played like a game where they swipe left or right. Then it searches the research papers and builds a UI or knowledge artifact just for them. And the learner can always ask for changes, adding or removing anything.\n\nWhen today's technology is so flexible, why are we still bending the student?\n\nTeam: Ammar, Tobias (I am so glad that you decided to work together), Nils, Jens (Tobi, Nils and Jens were also the winning team at Kassel Hackathon 26), Jai, Halit, Abdelrahman, Simon, Kai ( ah! I want to write so much about you! You were my favorite person at this hackathon. Even though I love working with everyone, but you were sooo good!) and ME!\n\nThank you team Fulda Hackathon 2026 (this was the 8th edition).\nSponsors: EDAG Group, FFT Produktionssysteme, Hochschule Fulda, HUBTEX Maschinenbau GmbH & Co. KG, JUMO Headquarters, kaleidos:code GmbH, OREXES Consulting, TechHub Region Fulda e.V., your admins GmbH & Co. KG, Landkreis Fulda and others!\n\nP.S. I am currently conducting an online experiment in learning and AI. If you speak German and have 60 minutes to participate, I would be very thankful for your support https://wissbar.app/",
+        "commentCount": 12,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQEwuKEbbR24cw/videocover-high/B4EaF3zZXeIgBI-/0/1793011326371?e=2147483647&v=beta&t=YNePqUDc5sO_KvSccZpwrUj1C17q4KR5SV9Oa7c9n8E",
+        "datePublished": "2026-10-26T10:42:20.083Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/achillegaubert_winners-of-the-h-company-x-42-artificial-activity-7525858557062316032-Z8cu",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQFFeGHFmbsZMA/feedshare-shrink_800/B4EaHCCNMdHAAg-/0/1794256722449?e=2147483647&v=beta&t=gHG4tEEJA3_84N4UiJrXT-7OMF7cGvzr8lK3gbr0rCs",
+        "media": "https://media.licdn.com/dms/image/v2/D4E22AQFFeGHFmbsZMA/feedshare-shrink_800/B4EaHCCNMdHAAg-/0/1794256722449?e=2147483647&v=beta&t=gHG4tEEJA3_84N4UiJrXT-7OMF7cGvzr8lK3gbr0rCs",
+        "author": {
+          "url": "https://fr.linkedin.com/in/achillegaubert",
+          "name": "Achille Gaubert",
+          "image": "https://media.licdn.com/dms/image/v2/D4E03AQFCzMn1i-GcYw/profile-displayphoto-scale_200_200/B4EaHFmXGOIEAk-/0/1794316534108?e=2147483647&v=beta&t=2OnmJNdMQVjBfYs-QkJsmiMEch1ZqJHtceSSZ_b1d8I",
+          "followers": 2641
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D4E22AQFFeGHFmbsZMA/feedshare-shrink_800/B4EaHCCNMdHAAg-/0/1794256722449?e=2147483647&v=beta&t=gHG4tEEJA3_84N4UiJrXT-7OMF7cGvzr8lK3gbr0rCs"
+        ],
+        "comments": [
+          {
+            "id": "7525907975421497344",
+            "urn": "urn:li:comment:(urn:li:activity:7525858557062316032,7525907975421497344)",
+            "text": "Impressive speed, bold vision, and a smart use of AI to tackle a real-world problem! Inspiring to see young founders turning ambitious ideas into action. Huge congrats to Achille Gaubert , William TCHEN !",
+            "author": "Priscilla T.",
+            "linkedinUrl": "https://fr.linkedin.com/in/pristchen",
+            "datePublished": "2026-11-10T13:11:25.950Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7525881239329865728",
+            "urn": "urn:li:comment:(urn:li:activity:7525858557062316032,7525881239329865728)",
+            "text": "Great project. Looking forward to support you in the future",
+            "author": "Thibaut Le Boulaire",
+            "linkedinUrl": "https://fr.linkedin.com/in/thibaut-le-boulaire-9a44a360",
+            "datePublished": "2026-11-10T11:25:11.568Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7525869066771664896",
+            "urn": "urn:li:comment:(urn:li:activity:7525858557062316032,7525869066771664896)",
+            "text": "Super projet bravo les gars 👏🏼",
+            "author": "Jacques Dumora",
+            "linkedinUrl": "https://fr.linkedin.com/in/jacques-dumora",
+            "datePublished": "2026-11-10T10:36:49.404Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7525906453375799296",
+            "urn": "urn:li:comment:(urn:li:activity:7525858557062316032,7525906453375799296)",
+            "text": "Congrats ! Great work and a fantastic speech!",
+            "author": "La Maison by Motier Ventures",
+            "linkedinUrl": "https://fr.linkedin.com/company/la-maison-by-motier-ventures",
+            "datePublished": "2026-11-10T13:05:23.065Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7525872367571714048",
+            "urn": "urn:li:comment:(urn:li:activity:7525858557062316032,7525872367571714048)",
+            "text": "Congrats guys !",
+            "author": "Francis Poulmaire",
+            "linkedinUrl": "https://uk.linkedin.com/in/francis-poulmaire",
+            "datePublished": "2026-11-10T10:49:56.376Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7525911793714675712",
+            "urn": "urn:li:comment:(urn:li:activity:7525858557062316032,7525911793714675712)",
+            "text": "Bravo, c'est mérité, super boulot!",
+            "author": "François TA",
+            "linkedinUrl": "https://fr.linkedin.com/in/fran%C3%A7ois-ta-a8881b13",
+            "datePublished": "2026-11-10T13:26:36.308Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7525889058976219137",
+            "urn": "urn:li:comment:(urn:li:activity:7525858557062316032,7525889058976219137)",
+            "text": "Bien joué à vous, félicitations ! 🔥",
+            "author": "Samy Benzeguir",
+            "linkedinUrl": "https://fr.linkedin.com/in/samy-benzeguir-3b9a35443",
+            "datePublished": "2026-11-10T11:56:15.918Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7525875048725880832",
+            "urn": "urn:li:comment:(urn:li:activity:7525858557062316032,7525875048725880832)",
+            "text": "Les boss ! YC soon 🫣",
+            "author": "Loïs Deschaux",
+            "linkedinUrl": "https://fr.linkedin.com/in/lo%C3%AFs-deschaux-0b0010295",
+            "datePublished": "2026-11-10T11:00:35.613Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7525937698151387136",
+            "urn": "urn:li:comment:(urn:li:activity:7525858557062316032,7525937698151387136)",
+            "text": "Bravo William et à tes collègues",
+            "author": "Benoît RENAULT",
+            "linkedinUrl": "https://fr.linkedin.com/in/beno%C3%AEt-renault-4b8714193",
+            "datePublished": "2026-11-10T15:09:32.400Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7525888136741126144",
+            "urn": "urn:li:comment:(urn:li:activity:7525858557062316032,7525888136741126144)",
+            "text": "Félicitations, très bonne idée et utilisation de l'IA! Du concret 👌",
+            "author": "Gatien GHEZA",
+            "linkedinUrl": "https://fr.linkedin.com/in/gatien-gheza",
+            "datePublished": "2026-11-10T11:52:36.039Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 203,
+        "contentUrn": "urn:li:share:7525658155243065345",
+        "activityUrn": "urn:li:activity:7525858557062316032",
+        "description": "🏆 Winners of the H Company x 42 Artificial Intelligence Hackathon (Gladia Track)\n\nIn 28 hours, we rebuilt Senna from scratch, an AI agent for public transport control rooms.\nThe recent train tragedy in Spain reminded us how critical decisions made in transport control rooms can be.\n\nYet when a bus, tram, or train driver reports an incident, dispatchers still have to juggle multiple disconnected legacy software systems, follow procedures, make calls, and write reports.\n\nEarly feedback from operators was clear: work on top of their existing software systems, don't replace them. Computer use made that possible.\n\nSo we built an agent that listens to driver calls, identifies the right procedure, and takes live action directly inside existing software, so dispatchers can focus on what really matters: critical decision-making.\n\nNo new software to learn. Just AI working alongside dispatchers.\n\nWe're already testing Senna with dispatchers and have several demos lined up with major public transport operators.\n\nHuge thanks to Grégory, Thibaut, Nolwenn, Alexis and Zakee for all the feedback and tips throughout the weekend!\n\nAnd of course, shoutout to my incredible cofounders. 🚀\n\nDemo video in the comments.\n\nStay tuned for what's next!\n\n#computerusehack La Maison by Motier Ventures Y Combinator Linkup Cognition 🎙️ Vincent",
+        "commentCount": 52,
+        "datePublished": "2026-11-10T09:55:03.692Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/roland-graser_5-teams-won-22k-in-prizes-at-the-hackathon-activity-7528760684000690177-s6p-",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQFlTOeaiR2C0Q/feedshare-shrink_800/B4EaHuH8A8GoAg-/0/1794996422679?e=2147483647&v=beta&t=SfY-ifoCzqe4gQIlvQ7lO2wPCQg6epUzdRnBq63kuIE",
+        "media": "https://media.licdn.com/dms/image/v2/D4E22AQFlTOeaiR2C0Q/feedshare-shrink_800/B4EaHuH8A8GoAg-/0/1794996422679?e=2147483647&v=beta&t=SfY-ifoCzqe4gQIlvQ7lO2wPCQg6epUzdRnBq63kuIE",
+        "author": {
+          "url": "https://www.linkedin.com/in/roland-graser",
+          "name": "Roland Graser",
+          "image": "https://media.licdn.com/dms/image/v2/D4D03AQF-kaeaAaCrpA/profile-displayphoto-scale_200_200/B4DZfxFN5PGYAY-/0/1752096366776?e=2147483647&v=beta&t=pxbSCOuhWQwd6LzVIfzLY9zU1nla3V2cTWEmqjYnrhc",
+          "followers": 6856
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D4E22AQFlTOeaiR2C0Q/feedshare-shrink_800/B4EaHuH8A8GoAg-/0/1794996422679?e=2147483647&v=beta&t=SfY-ifoCzqe4gQIlvQ7lO2wPCQg6epUzdRnBq63kuIE",
+          "https://media.licdn.com/dms/image/v2/D4E22AQHds6Sg_kvAMw/feedshare-shrink_800/B4EaHuH7qNJ4Ag-/0/1794996421260?e=2147483647&v=beta&t=CFDbWegaa1e3yQviFt4UTFWFtolPXy5zGHznWRFeso4"
+        ],
+        "comments": [
+          {
+            "id": "7528878338463956992",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7528760682729734144,7528878338463956992)",
+            "text": "Congratulations to all the winners! 👏\nWith the Flex'n Sense team, I had such an amazing time at this one-of-a-kind event in the heart of the Alps. It was a privilege to meet so many talented people from around the world.\nHuge thanks to the organizers, and best of luck to everyone with their robotics projects! 🤖",
+            "author": "Guillaume BONIFAS",
+            "linkedinUrl": "https://fr.linkedin.com/in/guillaumebonifas/en",
+            "datePublished": "2026-11-18T17:54:35.686Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "4d"
+          },
+          {
+            "id": "7528763561263915008",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7528760682729734144,7528763561263915008)",
+            "text": "🚀 it was an honor - thanks for the feedback!",
+            "author": "Alice Zhai",
+            "linkedinUrl": "https://de.linkedin.com/in/alice-dd-zhai",
+            "datePublished": "2026-11-18T10:18:30.668Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "4d"
+          },
+          {
+            "id": "7528804778257117184",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7528760682729734144,7528804778257117184)",
+            "text": "it was a pleasure to connect & co-jury! Roland Graser",
+            "author": "Christina Halemba",
+            "linkedinUrl": "https://de.linkedin.com/in/christinahalemba",
+            "datePublished": "2026-11-18T13:02:17.566Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "4d"
+          },
+          {
+            "id": "7528800727469707264",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7528760682729734144,7528800727469707264)",
+            "text": "What an experience! Glad we connected!",
+            "author": "Andrés Gil Vicente",
+            "linkedinUrl": "https://es.linkedin.com/in/andresgilvicente",
+            "datePublished": "2026-11-18T12:46:11.782Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "4d"
+          },
+          {
+            "id": "7528762020960083969",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7528760682729734144,7528762020960083969)",
+            "text": "Thanks again, it was a pleasure to meet you🙌",
+            "author": "Roman Meinzer",
+            "linkedinUrl": "https://de.linkedin.com/in/roman-meinzer-b24622316",
+            "datePublished": "2026-11-18T10:12:23.432Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "4d"
+          },
+          {
+            "id": "7528761546185961472",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7528760682729734144,7528761546185961472)",
+            "text": "thanks for the feedback you gave 😇",
+            "author": "Pasha Rizali",
+            "linkedinUrl": "https://de.linkedin.com/in/pasha-rizali",
+            "datePublished": "2026-11-18T10:10:30.237Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "4d"
+          },
+          {
+            "id": "7528789476245155841",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7528760682729734144,7528789476245155841)",
+            "text": "It was a pleasure meeting you!",
+            "author": "Jérôme Courdacy",
+            "linkedinUrl": "https://ch.linkedin.com/in/jerome-courdacy",
+            "datePublished": "2026-11-18T12:01:29.281Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "4d"
+          }
+        ],
+        "likeCount": 50,
+        "contentUrn": "urn:li:ugcPost:7528760682729734144",
+        "activityUrn": "urn:li:activity:7528760684000690177",
+        "description": "5 teams won $22k in prizes at the hackathon & startup pitches this past weekend at the Leukerbad Robot Carnival in Switzerland! the highlights:\n\nstartup pitch winners:\n1. Pasha rep'd Pulsar Robotics and won $7.2k for the best startup pitch\n2. Alice and Roman pitched BIPO and won $3k for second place\n3. Sepehr presented Phygularity and got $1.8k for third\n\nhackathon winners:\n1. Jérôme & team built a robot that can deliver mail in leukerbad, winning 1st prize: $2.5k and a trip to china!\n2. Anna & team built a robot that can clean mount everest, winning 2nd prize: $2.5k\n3. Sima, Simon, Henry and Sebastián built a robot that can teach humans playing piano, guiding their hands, winning 3rd: $2.5k\n4. Andrés, Liam, Jorge & team built a drone + ground robot to find lost children, also winning $2.5k\n\nappreciate judging with Thomas, Friederike, Raphael, Dereck, Christina and Pavani!\n\nbig shoutout to Shanshan and Pedro from Edelweiss Innovation & Intelligence Institute (EIII) for hosting and organizing as well as EuroTech Federation and Young Founders Network e.V.",
+        "commentCount": 7,
+        "datePublished": "2026-11-18T10:07:04.673Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/dineshpunni_image-carousel-activity-7525550632313778177-Shtv",
+        "image": "https://media.licdn.com/dms/image/v2/D4D10AQGE91egn7qvSg/ads-document-images_480/B4DaHAgYqdH8Ac-/1/1794231079718?e=1796256000&v=beta&t=rRN83ZL-xeiakNbWE5UOPAAKMA9Q3s7PIxGWxJ9-g6Y",
+        "media": "https://media.licdn.com/dms/image/v2/D4D10AQGE91egn7qvSg/ads-document-images_480/B4DaHAgYqdH8Ac-/1/1794231079718?e=1796256000&v=beta&t=rRN83ZL-xeiakNbWE5UOPAAKMA9Q3s7PIxGWxJ9-g6Y",
+        "author": {
+          "url": "https://de.linkedin.com/in/dineshpunni",
+          "name": "🕶️ Dinesh Punni",
+          "image": "https://media.licdn.com/dms/image/v2/D4D03AQG5bPVHXq-o_w/profile-displayphoto-scale_200_200/B4DZ5B6VByJQAc-/0/1779222271050?e=2147483647&v=beta&t=WQ8niMTjV_z5QhRcY3LsJ5F-WWAONvDCH0r-YLpPrUE",
+          "followers": 17645
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D4D10AQGE91egn7qvSg/ads-document-images_480/B4DaHAgYqdH8Ac-/1/1794231079718?e=1796256000&v=beta&t=rRN83ZL-xeiakNbWE5UOPAAKMA9Q3s7PIxGWxJ9-g6Y",
+          "https://media.licdn.com/dms/image/v2/D4D10AQGE91egn7qvSg/ads-document-images_480/B4DaHAgYqdH8Ac-/2/1794231079718?e=1796256000&v=beta&t=bU7Z55iM1Dznl-xrOsREAgCw-xwR5Y_fCHUex9yaQGo",
+          "https://media.licdn.com/dms/image/v2/D4D10AQGE91egn7qvSg/ads-document-images_480/B4DaHAgYqdH8Ac-/3/1794231079718?e=1796256000&v=beta&t=U2Epfb-Lzpiovl8eBrK3ScZUnZqlZM10HM8P6A3GyCw",
+          "https://media.licdn.com/dms/image/v2/D4D10AQGE91egn7qvSg/ads-document-images_480/B4DaHAgYqdH8Ac-/4/1794231079718?e=1796256000&v=beta&t=CrL2kHgpq_zIfrmCgBJgECkeTNSDTmrTLavmbLk5B40",
+          "https://media.licdn.com/dms/image/v2/D4D10AQGE91egn7qvSg/ads-document-images_480/B4DaHAgYqdH8Ac-/5/1794231079718?e=1796256000&v=beta&t=8GwjLx43r_njooFHwQOeoxzlpk-Uyk0YSq6AQ88SWsE",
+          "https://media.licdn.com/dms/image/v2/D4D10AQGE91egn7qvSg/ads-document-images_480/B4DaHAgYqdH8Ac-/6/1794231079718?e=1796256000&v=beta&t=Rz_dyEhC_TM5b8lbgf2vX9Ls36XKOl725sPdgZShQk8",
+          "https://media.licdn.com/dms/image/v2/D4D10AQGE91egn7qvSg/ads-document-images_480/B4DaHAgYqdH8Ac-/7/1794231079718?e=1796256000&v=beta&t=DpbMH2uFGh0Mvsm3274Z2kp3adq7qOXbv6P0_iLmesc",
+          "https://media.licdn.com/dms/image/v2/D4D10AQGE91egn7qvSg/ads-document-images_480/B4DaHAgYqdH8Ac-/8/1794231079718?e=1796256000&v=beta&t=CHtSwjOCkEpNzYJlOyKXsXyr0i15p5v6CNjDmyt9RoQ"
+        ],
+        "comments": [],
+        "likeCount": 10,
+        "contentUrn": "urn:li:ugcPost:7525550629361082370",
+        "activityUrn": "urn:li:activity:7525550632313778177",
+        "description": "How did 4 people run a hackathon for 3,500 builders?\n\n3,500 registered. 200+ projects. 150 partners. A 9.1 out of 10 from participants.\n\nEveryone quoted the MIT study from 2025: 95% of companies got zero return on their gen AI pilots.\n\nMy guess why: they drop AI into messy data and expect magic. We build it in three layers instead.\n\nLayer 1: clean data. Notion runs the whole company. 10,000+ tasks, every project, the sponsor line-up, my tone of voice guide.\n\nThe AI reads all of it before it writes anything.\n\nLayer 2: automations. Forms, Notion, email, Slack and LinkedIn, glued together with Make.\n\nOne click on \"approve\" sets off ten steps nobody does by hand.\n\nLayer 3: AI employees. Agents with skills. A weekly sponsor digest, offers from call transcripts, LinkedIn drafts from 500+ of my posts.\n\nI review, then send.\n\nI call this a super business. A 10-person team that works like a 100-person one.\n\nIt's why our events can have shuttles and full food and drinks, and still stay affordable. Otherwise we'd need 50 people.\n\nWhich layer is missing in your company? 👇🏽\n\n#ai #automation #notion #futureofwork",
+        "commentCount": 0,
+        "datePublished": "2026-11-09T13:31:28.712Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/arun-prasad-nyc_blockconvey-prism-aiagents-activity-7526316821914759169-wZHa",
+        "name": "#blockconvey #prism #aiagents #nyctech #hackathon | Arun P. | 11 comments",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4E05AQGHNmdFkloGjg/mp4-720p-30fp-crf28/B4EaHLZNJtKwB8-/0/1794413754284?e=2147483647&v=beta&t=SJ7vY-5BIdVRgEPRPlL7WTBoEgQLL2du5J4pQFcRq9g",
+        "author": {
+          "url": "https://www.linkedin.com/in/arun-prasad-nyc",
+          "name": "Arun P.",
+          "followers": 14447
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7526340367718219777",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526316747533172736,7526340367718219777)",
+            "text": "Love to see this partnership!",
+            "author": "Anna Kaplan",
+            "linkedinUrl": "https://www.linkedin.com/in/anna--kaplan",
+            "datePublished": "2026-11-11T17:49:36.307Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526327526198018048",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526316747533172736,7526327526198018048)",
+            "text": "Awesome Arun P.! You have a way of bringing talented creators together!",
+            "author": "Amy S.",
+            "linkedinUrl": "https://www.linkedin.com/in/amychaudry",
+            "datePublished": "2026-11-11T16:58:34.649Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526428865838247936",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526316747533172736,7526428865838247936)",
+            "text": "Love seeing this community grow, Arun!\nWe're excited to be joining you for Agents of Risk on December 3. Looking forward to seeing what the builders come up with when they tackle some real insurance challenges!",
+            "author": "InsurTech NY",
+            "linkedinUrl": "https://www.linkedin.com/company/insurtechny",
+            "datePublished": "2026-11-11T23:41:15.903Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526319701673820160",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526316747533172736,7526319701673820160)",
+            "text": "Arun P. Eli Stern let’s go! gotavi",
+            "author": "Shai Stern",
+            "linkedinUrl": "https://www.linkedin.com/in/shaistern1",
+            "datePublished": "2026-11-11T16:27:29.138Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526317574540918784",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526316747533172736,7526317574540918784)",
+            "text": "Let’s go! Excited to support you and the community!",
+            "author": "Eli Stern",
+            "linkedinUrl": "https://www.linkedin.com/in/elistern33",
+            "datePublished": "2026-11-11T16:19:01.989Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526317256084152320",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526316747533172736,7526317256084152320)",
+            "text": "LFG!!!",
+            "author": "Donal Bishnoi",
+            "linkedinUrl": "https://www.linkedin.com/in/donal-bishnoi-ab49222",
+            "datePublished": "2026-11-11T16:17:46.063Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526319464347418624",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526316747533172736,7526319464347418624)",
+            "text": "Let’s go!",
+            "author": "Shai Stern",
+            "linkedinUrl": "https://www.linkedin.com/in/shaistern1",
+            "datePublished": "2026-11-11T16:26:32.555Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526326837497741312",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526316747533172736,7526326837497741312)",
+            "text": "LFG!!",
+            "author": "Pavan M.",
+            "linkedinUrl": "https://www.linkedin.com/in/pavanmarisetti",
+            "datePublished": "2026-11-11T16:55:50.451Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526344783074680832",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526316747533172736,7526344783074680832)",
+            "text": "LOVE THIS!!!",
+            "author": "Zvi Stern",
+            "linkedinUrl": "https://www.linkedin.com/in/zvi-stern-150a48171",
+            "datePublished": "2026-11-11T18:07:09.010Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 36,
+        "contentUrn": "urn:li:ugcPost:7526316747533172736",
+        "transcript": "Hey everyone, Arun here from Block Convey. Over the last few months, we have run hackathons across New York City and the best part has been the builders who keep coming back. So we are turning that into a block convey advocate program. It's a small group of founders and builders who use Prism on something real, show up at our events and bring other builders into the room. Today I'm excited to share that Gotami is joining us as our community partner. Gotami helps founders register their company and takes care of Filex licenses, insurance, and payments all in one place. So if you build something with us, want to turn it into a company, they are the people to talk to. A big thank you to Ellie Stern and the Go Tabby team. And we have 3 events coming up back-to-back. On November 21, Money Talks Three are a finance hackathon, on November 24 a hands on workshop with 3% club where you ship a real AI app in two hours. And on December 3rd, Agents of Risk are Insurance AI Build and Pitch Night. Come build with us, the links are in bio. See you there.",
+        "uploadDate": "2026-11-11T16:16:02.548Z",
+        "activityUrn": "urn:li:activity:7526316821914759169",
+        "description": "The best part of running hackathons in New York has been the builders who keep coming back.\n\nSo we turned that into something: the Block Convey Community Advocate Program. A small group of founders and builders who use PRISM on something real, show up at our events, and bring other builders into the room.\n\nAnd today I get to share some good news. gotavi is joining us as our community partner.\n\nGotavi helps founders register their company and takes care of the filings, licenses, insurance and payments, all in one place. If you build something at one of our events and want to turn it into a company, they are the people to talk to.\n\nThank you Eli Stern and the Gotavi team for backing this community.\n\nThree events coming up, back to back:\nNov 21: Money Talks 3, our AI and finance hackathon\nNov 24: Ship a real AI app in 2 hours, a hands-on workshop with 3percentclub\nDec 3: Agents of Risk, our insurance AI build and pitch night with Base44, InsurTech NY and Tavily\n\nChristopher Martinez Maria Ashby\n\nLinks to register are in the comments. Come build with us.\n\n#BlockConvey #PRISM #AIagents #NYCtech #hackathon",
+        "commentCount": 11,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQGHNmdFkloGjg/videocover-high/B4EaHLZNJtKwBM-/0/1794413748268?e=2147483647&v=beta&t=SBJuPcmZBGbonbcYE7LHStRQG1fSO_ilnriyKSnvh7s",
+        "datePublished": "2026-11-11T16:16:02.548Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/atech-dev_on-the-5th-of-november-atech-came-to-norway-activity-7524474032428183553-MyLQ",
+        "name": "On the 5th of November Atech came to Norway for the first time, for the Founders Hub x DNB Physical AI Hackathon at Digs in Trondheim, together with Anthropic & Milo AI 🧢.\n\nAnthropic covered the AI… | Atech",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4D05AQFsqH2Zvsrb3g/mp4-640p-30fp-crf28/B4DaGxNOzgJAB8-/0/1793974402476?e=2147483647&v=beta&t=Sl4u0t6YBRAq7Dt6wysNAMv11H-Z3nAZkj2Bt0KtQew",
+        "author": {
+          "url": "https://www.linkedin.com/company/atech-dev",
+          "name": "Atech",
+          "image": "https://media.licdn.com/dms/image/v2/D4E0BAQEmO0bLfOqIfw/company-logo_100_100/B4EZx9T5wlJgAQ-/0/1771628895684?e=2147483647&v=beta&t=ptQXXHy0rNt5v8NKpNAIZlo1mYuH7yMe-5VROkWSiCA",
+          "followers": 2824
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7524715598145224704",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7524473920754868224,7524715598145224704)",
+            "text": "Looks like a great event Atech 🤩\nMaybe we can do one together in Aarhus for the Past the Pilot community. I want to organize a few physical AI events in the beginning of 2027 and think it would be great to do one of the first together with you 💪",
+            "author": "Dennis Boehme",
+            "linkedinUrl": "https://dk.linkedin.com/in/boehmedennis",
+            "datePublished": "2026-11-07T06:13:21.054Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7524476570284072960",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7524473920754868224,7524476570284072960)",
+            "text": "Great event 🤘🏼",
+            "author": "Marcus Antonsen Nickelsen",
+            "linkedinUrl": "https://no.linkedin.com/in/marcusnickelsen",
+            "datePublished": "2026-11-06T14:23:32.371Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7524476095589490691",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7524473920754868224,7524476095589490691)",
+            "text": "Amazing event, amazing gear from Atech  🤩",
+            "author": "Jon Kåre Stene",
+            "linkedinUrl": "https://no.linkedin.com/in/jonkarestene",
+            "datePublished": "2026-11-06T14:21:39.195Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7524760698149728256",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7524473920754868224,7524760698149728256)",
+            "text": "😍",
+            "author": "Sigrid Høisveen Ulekleiv",
+            "linkedinUrl": "https://no.linkedin.com/in/sigrid-h%C3%B8isveen-ulekleiv-78772775",
+            "datePublished": "2026-11-07T09:12:33.732Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7524483088584806400",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7524473920754868224,7524483088584806400)",
+            "text": "Epic",
+            "author": "David Stålmarck",
+            "linkedinUrl": "https://se.linkedin.com/in/david-stalmarck",
+            "datePublished": "2026-11-06T14:49:26.455Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7524493870609469440",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7524473920754868224,7524493870609469440)",
+            "text": "Great having you here ✧✦Gustav Hugod! Lets build hardware 🚀",
+            "author": "Andreas Staune-Mittet",
+            "linkedinUrl": "https://no.linkedin.com/in/andreas-staune-mittet",
+            "datePublished": "2026-11-06T15:32:17.090Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7524489221106155522",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7524473920754868224,7524489221106155522)",
+            "text": "Thank you for having us!",
+            "author": "Andrea Gladhaug",
+            "linkedinUrl": "https://no.linkedin.com/in/andrea-gladhaug-476b82239",
+            "datePublished": "2026-11-06T15:13:48.562Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2w"
+          },
+          {
+            "id": "7524479758664122368",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7524473920754868224,7524479758664122368)",
+            "text": "Great day🙏😁",
+            "author": "Anders Mjåset",
+            "linkedinUrl": "https://no.linkedin.com/in/anders-mj%C3%A5set-18352210",
+            "datePublished": "2026-11-06T14:36:12.540Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2w"
+          }
+        ],
+        "likeCount": 65,
+        "contentUrn": "urn:li:ugcPost:7524473920754868224",
+        "uploadDate": "2026-11-06T14:13:27.297Z",
+        "activityUrn": "urn:li:activity:7524474032428183553",
+        "description": "On the 5th of November Atech came to Norway for the first time, for the Founders Hub x DNB Physical AI Hackathon at Digs in Trondheim, together with Anthropic & Milo AI 🧢.\n\nAnthropic covered the AI side and Atech the hardware, and engineers from Norwegian University of Science and Technology (NTNU) built 12 hardware solutions in one evening with the goal of creating the next YC startup.\n\nCongrats to Robosense for the win(15000NOK & an Atech kit!!).\n\nEvery build is on atech.dev/hack/trondheim\n\nThank you for building with us! Andreas Staune-Mittet Bob Deforce ✧✦Gustav Hugod ✧✦David Stålmarck Amesto Mesh Community StartupTRD 6AM Jon Kåre Stene Anders Mjåset Steffen Lie Pringle Arnstein Johannes Syltern Marcus Antonsen Nickelsen",
+        "commentCount": 9,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQFsqH2Zvsrb3g/videocover-high/B4DaGxNOzgJABQ-/0/1793974400142?e=2147483647&v=beta&t=0yrVmgFI7XGE7yxdDuWraInxKEFZoD_DfK6Q3Lus1f0",
+        "datePublished": "2026-11-06T14:13:27.297Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/gbgtechweek_today-were-putting-the-spotlight-on-dr-activity-7526903046686109697-uvPm",
+        "name": "Today we’re putting the spotlight on Dr. Alaa Murabit , winner of the 2026 WIN WIN Award. To celebrate her win, we’ve made her full interview with Stephanie Darvill available on GTW Studio.\n\nOn the… | Gothenburg Tech Week",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4D05AQERW97MjXfcdg/mp4-640p-30fp-crf28/B4DaHTpXQeJ8B4-/0/1794552203458?e=2147483647&v=beta&t=xTZV1VgCELq3IXovWOFXzzg0wtOfjSSQI_OMjxXCke4",
+        "author": {
+          "url": "https://se.linkedin.com/company/gbgtechweek",
+          "name": "Gothenburg Tech Week",
+          "image": "https://media.licdn.com/dms/image/v2/D4E0BAQGdYjV8TOhqNw/company-logo_100_100/B4EZnfWsVBKwAQ-/0/1760388892485/gbgtechweek_logo?e=2147483647&v=beta&t=kaOAOH_zg2Xcr-ER6lsJPkPAbnPno_m9-McXbEzZP6M",
+          "followers": 6449
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7526944682904358912",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526897446753300480,7526944682904358912)",
+            "text": "Such a brilliant interview and it was a joy to interview you Alaa Murabit 🙌🏼",
+            "author": "Stephanie Darvill",
+            "linkedinUrl": "https://se.linkedin.com/in/stephanie-darvill",
+            "datePublished": "2026-11-13T09:50:56.275Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526908921341440000",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526897446753300480,7526908921341440000)",
+            "text": "Such a great interview and such a worthy winner! 👏🏻👏🏻👏🏻",
+            "author": "Annsi Krol",
+            "linkedinUrl": "https://se.linkedin.com/in/ann-sofie-annsi-krol",
+            "datePublished": "2026-11-13T07:28:50.053Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526928028896133120",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526897446753300480,7526928028896133120)",
+            "text": "👏🏼👏🏼",
+            "author": "Isabella Robertsson",
+            "linkedinUrl": "https://se.linkedin.com/in/isabella-robertsson-145a381ba",
+            "datePublished": "2026-11-13T08:44:45.650Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 16,
+        "contentUrn": "urn:li:ugcPost:7526897446753300480",
+        "transcript": "People's basic dignity and basic opportunity and basic healthcare. We are actively choosing not to put the money there. We're actively choosing to, to perpetuate kind of global conflict. We're actively choosing to, you know, to frame health as, as, as a privilege, not a right. And that to me as a physician, as a human, just felt very unethical and, and unaligned.",
+        "uploadDate": "2026-11-13T07:05:29.425Z",
+        "activityUrn": "urn:li:activity:7526903046686109697",
+        "description": "Today we’re putting the spotlight on Dr. Alaa Murabit , winner of the 2026 WIN WIN Award. To celebrate her win, we’ve made her full interview with Stephanie Darvill available on GTW Studio.\n\nOn the Founder Stage at Tech Blueprint, Alaa told Stephanie about hearing budget figures in global security that “honestly sound imaginary.” As a physician, she thought about what those sums could do for people who still lack access to basic healthcare.\n\nIn this clip, Alaa challenges the choices that keep basic healthcare out of reach for so many people. In the full interview, she shares how she acted on that frustration by creating For Mama. The idea was to bring Muslim organisations already working in maternal health together so they could raise more money and make a stronger case for better maternal healthcare than any one of them could on its own.\n\nCongratulations again, Alaa, on winning the 2026 WIN WIN Sustainability Award, and thank you for sharing the story behind your work with us at Tech Blueprint.\n\nWatch the full interview on GTW Studio. https://lnkd.in/dGYpZdQi",
+        "commentCount": 4,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQERW97MjXfcdg/videocover-high/B4DaHTpXQeJ8BM-/0/1794552200864?e=2147483647&v=beta&t=dfSWoRb2a1brtFWYGDUP_lW5RKOgFePRiSfecV5wfJA",
+        "datePublished": "2026-11-13T07:05:29.425Z"
+      }
+    ],
+    "query": "Zero Human Startup hackathon winner",
+    "cursor": "2",
+    "success": true
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00188",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:34:07.615Z",
+  "started_at": "2026-11-23T07:34:07.652Z",
+  "completed_at": "2026-11-23T07:34:13.602Z",
+  "task_id": "tsk_965d2263a224d7b9",
+  "metadata": {}
+}

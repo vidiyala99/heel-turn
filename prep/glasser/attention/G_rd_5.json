@@ -1,0 +1,577 @@
+{
+  "id": "820dbf70-f9ff-420a-8c59-fda8545273dd",
+  "run_url": "https://app.glasser.ai/runs/820dbf70-f9ff-420a-8c59-fda8545273dd",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "AI agents play Werewolf mafia",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "large_result: this response is ~68 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 25,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1quypml",
+            "url": "https://www.reddit.com/r/comics/comments/1quypml/to_defend_a_predator/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/6q6ej1g3hbhg1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=576b87ff291ce613ec9ce0eb6a68afaca5dd17b2",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 92988,
+            "title": "To Defend a Predator",
+            "author": "Pizzacakecomic",
+            "authorId": "cfijs3z2",
+            "selftext": "",
+            "permalink": "/r/comics/comments/1quypml/to_defend_a_predator/",
+            "subreddit": "comics",
+            "createdUtc": 1770140738,
+            "numComments": 1766
+          },
+          {
+            "id": "1p8oomu",
+            "url": "https://www.reddit.com/gallery/1p8oomu",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/zJM_1fepDUSAI0t3KwfJtA9DoTg6Luqe-wCjVKYWRro.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 96
+              }
+            ],
+            "score": 76220,
+            "title": "Valve artist responds to calls for Steam to drop \"Made with AI\" label",
+            "author": "Stannis_Loyalist",
+            "authorId": "3p3tvgm1",
+            "selftext": "",
+            "permalink": "/r/Steam/comments/1p8oomu/valve_artist_responds_to_calls_for_steam_to_drop/",
+            "subreddit": "Steam",
+            "createdUtc": 1764314331,
+            "numComments": 2587
+          },
+          {
+            "id": "1wf97x0",
+            "url": "https://www.reddit.com/r/BoyDinnerDiaries/comments/1wf97x0/hug_your_kids_every_chance_you_can/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/dltarsrmsaph1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=fa771b87a502bb488483b12a465653cd8e1c7e27",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 68915,
+            "title": "Hug your kids every chance you can",
+            "author": "Paperbagsportsfan",
+            "authorId": "2pjdywh8",
+            "selftext": "(9/11/26) My 5 year started kindergarten last week at a new school with all new kids and all new teachers. She took the bus for the first time. She's very shy and timid but as the week went on she did better and better. A photo of her was even in the weekly newsletter playing in gym class.\n\nThe following week she came down with a fever. Not unusual so we kept her out of school. The following day it remained high with meds so she missed a second day. By day 3 we went to urgent care. They told us to take one additional med and to keep them posted if she doesn't get will. The pediatrician even called later that day to check on her. That night she woke up and became very delirious for a few mintues then snapped out of it. We brought her back to urgent care the next morning and they sent us to the ER to get blood work. \n\nThat began the worst day of my life so far. The doctor immediately thought it was leukemia or an infection. A few hours later we found out it was both.  Luckily it is the most common form of leukemia with a high success rate. Unfortunately they could not control the infection. She worsened as the day went on eventually going into septic shock. The doctors and nurses tried everything but eventually had to intubate her. Her last words to me while conscious were her struggling to say i love you. \n\nShe has since gone on a few more machines. She has an echmo pumping her blood since her right lung is collapsed or full of fluid not sure which. Her heart is too weak to work. She has too much fluid in her body so they also put her on dialysis. Doctors in the pediatric icu and from oncology both say each is treatable on it's own but having both things happen together is very rare. They are doing zoom calls with other doctors to get advice during rounds each morning. I am confident she will walk out of here but it is not easy. Her 3 year old sister just keeps telling her to get better soon. One of the nurses put it best, she's set up to succeed through the equipment but she needs to fight in order to win. My wife and myself are living a surreal nightmare. Idk what I'll do if I lose her. She's literally the glue that holds this family together. \n\nI'm not really eating but this day(s) old bagel and orange juice is my meal for the day \n\nUpdate (9/12/26): I'm just now opening this before I try to sleep for a few hours as I wanted to be as present as possible for my kids today.  I honestly didn't expect anything when I posted this. I had a moment of silence to myself in the bathroom and decided to write how I was feeling and what I was going through then posted it to this sub. THANK YOU for all of the support and advice. Somethings we are already doing and others we will implement.\n\nWe have brought her bedtime blanket and books from home. We read to her as often as we can. I also tell her stories about our family (how I met her mom, how we moved to our town, how we got our dogs, etc) and that has been very therapeutic for me. \n\nOur 3 year old came to visit and we walked through the meditation garden with her to find fairies. Getting out of the treatment and getting fresh air has been very helpful. I think it's important for our 3 year old to see the 5 year old and talk to her as well. The staff gave my 3 year old a fairy (bird) house and paint so we could do that in the family lounge away from the chaos of the treatment room. They also gave her a stuff animal, doctors kit, and some badges and electrodes so she can fix her stuffed animal similar to how they are fixing her sister.\n\nThe medical staff has been nothing short of amazing and has been saying we will take this 1 day at a time. My 5 year old had a good day today. Her fever is gone, her blood tests look significantly more normal than 24 hours ago. They could hear breathing sounds in her right lung for the first time today. Her dialysis was turned up to remove more fluids and she did great with that. Her oxygen sensor actually has a reading and they said it was because her heart has become strong enough to actually pump the blood up to her ear where they have it. Her echmo useage decreased from 75% to 65% and they said at 40% she can stop using it. We have a very long way to go but this was a step in the right direction, she truly is a fighter. \n\nFor anyone reading this going through a similar situation, we started asking family and friends to send us voice memos to play for her. That has been great to know you have so many people supporting her and it's a nice break from just talking. \n\nOther things I've learned the last 24 hours: \n\n-it's ok to be weak. It's ok to cry and let someone else hold you.\n\n-stay off chat gpt and meticulously reviewing her medical chart. The providers know more than you and more about your child than Ai. It'll drive you crazy and mentally drain you. Ask the providers as many questions as you can so you can get more familiar and comfortable (?) with what is going on.\n\n-get outside, even if for 5 minutes. Staying trapped in that room all day is not good for you mentally.\n\nStill not eating much. Only took a few bites of the bagel but managed to eat 3 chicken tenders for dinner and a piece of broccoli. I'm feeling more confident than I did when I posted this.\n\n\nUpdate 2 (9/17/26): Everyone is doing better! My daughter is off the echmo, ventilator, and dialysis! Shes slowly waking up and will hopefully be moved out of the ICU to oncology in the next few days! Because of that my wife and I are doing immensely better. Thank you everyone for all of the support. I made a carebridge page so if anyone wants to [see updates go here](https://www.caringbridge.org/site/6c600b6b-b22b-11f1-8264-55464dfa5171)\n\nUpdate 3 (9/21): Not much to update. Still in the PICU. She's making progress but not like before. Regardless she's not going backwards so I'll take it. She still is on CPAP for breathing as well as IVs for medication. Awaiting a port in the next few days to start receiving chemo treatment that way. She seems out of it more than before but I'm sure she's really tired. Hopefully they can move us out of PICU this week. \n\nHer Preschool teacher setup a go fund me for her. I am a small business owner so I have been closed this whole time and don't plan on reopening until she's back home. The funds will help support me being with her as well as pay her medical bills. \n [The go fund me can be found here ](https://www.gofundme.com/f/gabriela-strong)\n\nThank you everyone for the support. \n\nUpdate 4 (9/24/26): We are still in the PICU. Her brain CT and EEG has come back negative. She had a PICC line placed in her arm to continue receiving chemotherapy. She had a line put into her chest to remove some fluid and over 700 ml (over 20 oz) of fluid drained! She's been breathing much better since. They have her alternating between CPAP and high flow oxygen to help her breathe, which is a step in the right direction. She started eating yesterday and devoured some Italian ice.\n\nShe has been mostly non-verbal since being extubated 1 week ago but she did say \"mommy\" twice the other day. She's been communicating much better non-verbally with head movements, she has been sleeping better at night, and is more active during the day.\n\nStill working on lowering her medications so we can move her over to the oncology floor, but all steps in the right direction!\n\nUpdate (9/28): It's going. I've been trying to reply to all the DMs but haven't replied to any comments. I do try to read all of them and I appreciate the success stories and advice. My daughter is doing well overall. We are still in the PICU but she is more interactive. She sat in a chair and at times can be pretty talkative. They took her off oxygen so she's fully breathing on her own. They also got rid of a few of the IVs in her arms so that helps with her discomfort. They'll soon do some testing to see if she can eat actual food on her own (currently getting her food through a tube). Unfortunately the fluid has come back in her chest so she will need another chest tube for drainage again.\n\nWe've been able to get a more clear picture on why her case was so sudden and fast acting. Along with the Leukemia they discovered she now has HLH (Hemophagocytic Lymphohistiocystosis) which is an inflammatory disease. This led to her body rapidly declining along with the infection and leukemia. The inflammation going throughout her body is what makes her case more unique. The treatment is the same/very similar to the same medication as the leukemia, just not as straightforward since her liver is still pretty inflamed. Her first day here she had what's called a \"cytokine storm\" from the HLH which temporarily damaged her organs. That \"storm\" really calmed down and they are trying different drugs since this isn't routine. They've mentioned her case at a nationwide conference and said she was one of the most talked about so that sucks she's that bad/rare of a case but I'm glad to have so many eyes reviewing her care. \n\nShe's starting to have some PTSD. She developed a fever the other night and when you have no immune system it's not a good time. It was also a scary look into what the next 2 years holds, as some of you mentioned, but she's worth it. I'm hanging in there. Some days are definitely harder than others. Seems to be 3 steps forward 2 steps back.\n\nThanks again to everyone for supporting us.\n\nUpdate (10/12): it's been awhile since I posted an update.  We're still in the PICU and they gave us the biggest room they have (because we don't seem to be able to leave)! \n\nSince my last update my daugther has been up and down. She developed 3 new infections. 1 in the PICC line, 1 in her intestines, and 1 that might have spawned from her intestines and traveled back to the PICC. All have cleared so that's been great. She had another chest tube put in since the mysterious chest edema came back and that has since been removed and stable. She did develop mucositis and typhlitis in her intestines. This led to a hole in her colon, bleeding into the intestines, and air into her abdomen. She had to get emergency surgery and have part of her large and small intestine removed and an ostomy put in.\n\nFortunately we caught that just in time and she's actually looking better than before. It looks like her HLH is also under control and she's finally producing white blood cells and platelets on her own! Hopefully she can rest and continue to get stronger so we can finally leave but I've been saying that for over a month now she who knows! Mentally the whole family and myself are staying strong. The entire PICU and our community outside of the hospital has been incredibly helpful.\n\nUpdate (11/6): My daughter is still in the hospital but out of the PICU! We moved over to the oncology floor 2 weeks ago. It's much quieter and slower paced which is great. She's been able to leave her room in a wheelchair to explore more of the hospital. It looked like we were going to actually be discharged this past week but she fell ill and that has kept us here. She started her second round of chemo. Once her intake and ostomy output level off a little more then we can go home until the next thing comes up.\n\nAs we left the PICU the medical staff started to open up more about how lucky she is. One doctor said her estimated chance of survival that first week was around 10%. They said ECMO for septic shock alone carries a 75% mortality risk and that's without the leukemia and HLH. They believe mortality of HLH independently is similarly high. The PA said they personally have never seen anyone survive ECMO for septic shock and have only seen one person survive HLH.\n\nIt truly is a miracle she's alive. We are awaiting her discharge to go home but until then I am grateful to be able to spend time with her again  ",
+            "permalink": "/r/BoyDinnerDiaries/comments/1wf97x0/hug_your_kids_every_chance_you_can/",
+            "subreddit": "BoyDinnerDiaries",
+            "createdUtc": 1789309780,
+            "numComments": 745
+          },
+          {
+            "id": "1td5abq",
+            "url": "https://www.reddit.com/gallery/1td5abq",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/ddebrdse151h1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=0cb7cbf85dcc731a4a6612af310e6d836244c5d5",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 56986,
+            "title": "Kittens in storm drain successfully rescued. Thanks, everyone!",
+            "author": "belltown99",
+            "authorId": "cxrrs",
+            "selftext": "EDIT (5/22/26): Both kittens passed their behavioral tests, which is good news since that is a requirement for adoption. They are living at the kitten nursery, happy and healthy. Next step is spaying/neutering, which will likely take place after the kittens reach a specific age/body weight. Thanks everyone for the follow ups about this and sorry it took awhile to get the update. The shelter is pretty busy, so getting a hold of someone on the phone for an update is rare.\n\n\n\nUpdate to my original post: [https://www.reddit.com/r/cats/comments/1tc62yv/kitten\\_stuck\\_down\\_storm\\_drain\\_help/](https://www.reddit.com/r/cats/comments/1tc62yv/kitten_stuck_down_storm_drain_help/)\n\nHi everyone, so sorry for the radio silence yesterday. The day completely got away from us, but I have good news – the kittens were rescued and are safe\\*\\*.\\*\\* Below is a recap of how the events transpired. Given how many of you have a vested interest, I thought it appropriate to include as many details as possible.\n\nThey’re currently with the Humane Society getting checked out. They seem to be in reasonable shape, just understandably shell-shocked, hungry and exhausted. Because we have cat allergies, we unfortunately couldn't keep them ourselves. They are so incredibly adorable and we sincerely hope they find a good home together. It wasn't easy giving them up, but we felt we had given them a second chance at life. \n\nI wish I had more photos, as so many of you want to see them and I feel like so many of you have been with us during this journey. Things got hectic during the rescue process and the little ones seemed pretty stressed out, so we let them be. The Humane Society was a little awkward about not letting us take a few final photos before we left.\n\nI honestly didn't expect my last post to blow up the way it did. Your advice, your stories, and just the general \"hive mind\" support helped us triage the situation when we were in need of a lot of ideas quickly. This was a team effort, Reddit. I never thought I’d feel this connected to a bunch of strangers, so thank you.\n\n**Full story**\n\nA few weeks ago, we noticed two strays in the yard. We have a bit of a gopher problem, so we figured if we left out some food and water, it was a win-win for everyone. Then, a few days ago, a tiny kitten popped out of the bushes one evening while I was taking out the trash and nearly gave me a heart attack. I had a good laugh, but didn't think more about it.\n\nThe next day, my wife calls me saying there’s a cat stuck in one of our storm drain pipes. I didn't believe her at first, but then we heard the sad cries coming from the gutter downspouts. After checking our storm drains, we realized that there were two ways the kittens could have entered: a grate at the drain exit (which had popped off) and an opening in our garden (previously unknown) which likely serves as an air intake to promote flow. Both of these entrances have now been gated and secured. The initial photos I shared were of the downspout for the gutters, which I had removed in order to access the pipes below. The gutter pipes have been replaced, so no little kitties will be able to jump down there.\n\nWe initially cut a towel into thin strips and lowered them into the entry/exits into the drains and threw some cat food down the pipes to attract the cats. That didn't work and we still heard the sad meows (heartbreaking). Yesterday morning, my wife was really worried so she played the sounds of a YouTube video of a mother cat calling her kittens. She received an instant response and looked down the downspout. There it was, a tiny spotted face staring back at her. She screamed for me and for us that was overwhelming, so we decided to kick it into higher gear and get much more aggressive about saving them.\n\nWe called animal control for help. Sadly, animal control said they don't assist with this sort of thing, so we were on our own. I don’t think they were rude about it, but it felt like our situation was either not their primary focus or much lower in priority compared to other issues they handled. We didn’t want to quit, so I said to my wife, hey let’s post on Reddit while we brainstorm to get some ideas from others and that’s when I encountered r/Cats.\n\nWithin minutes, people responded and we started looking into everything that was recommended. We decided to start with the least invasive and escalating as needed. The top ideas were: 1) provide a way for the kittens to climb out; 2) call the firefighters; 3) call the plumbers; 4) cut the pipes open.\n\nOur local firefighters responded within a few minutes of us calling them.  It was a full truck roll and three guys hopped out. They were super kind and I think they helped us calm down quite a bit, as we likely had a lot of frantic energy about us. We tried several ways to locate/drive the kittens out the storm drain exit, but after half an hour or so, they had to leave. I could tell they really wanted to find the kittens, but they also had other people to help. We were so grateful they came.\n\nQuite a few Redditors mention calling a plumber. This sounds so obvious in retrospect, but I never thought of this. While we were searching, we noticed AI was recommending Roto-Rooter, who offered free pet rescues. This sounded like just what we needed and I was a little skeptical about it, but we thought, why not give this a shot. We have nothing to lose and really wanted to get those little guys out. We called the 800 number and a lovely woman picked up on the second ring. She calmly took our info and instructed us to wait for a call back. 15 min later, Jeremy, who is a field supervisor in the region, calls us back. He's a self-declared cat lover and already on the way. Both he and his fiance have seen my original post trending on Reddit. He's about an hour away from us, but I swear he was at our door in much less time.\n\nI get a new wave of confidence when Jeremy steps up to the task. I give him the run down and just then, we see a small head pop out of the storm drain exit (let’s call this kitten, Princess). Princess ducks back into the pipe and we get there just in time to see a tail disappear. Jeremy races back to his truck to get some gear, yelling “we can do this!” He deploys his digital scope, which has 100ft of line and plans to use its lights to encourage the kittens to reverse out of the tunnel system. I've attached actual video footage from the scope inside the drain line. Unfortunately, I was focused on grabbing Princess at the very end, so I didn't capture any photos. We do have some after action shots of Jeremy consoling a very scared kitten.\n\nWe thought our job was done. As we clean up, we hear more meows but this time, they are coming from the other side of the drainage system. We start at the very beginning of the pipes with the scope and work our way through. I have some long runs and it's a bit of a network of pipes, so it took some time, but seeing the kitten’s tiny face (let’s call him Mario), beautiful eyes, and pink nose on the scope’s monitor gave us a renewed sense of purpose. We used two different scopes to corral the kitten towards my wife, who was waiting at the drain exit. After a few start/stops, we get the kitten to go down the right tube to the exit. He's a bit of a fighter, so I end up having to reach into the pipes and grabbing him (gently) with my bbq tongs since he keeps retreating. Video footage of the scope in the pipes also included. \n\nAfter settling down the kittens into their own cardboard boxes, we give them some food/water/hugs and we finally take a breather. I've soaked through my shirt and Jeremy's knuckles are bloody from pushing the scope cabling down the pipe. My wife is still in disbelief and all of us are smiling. We are so relieved!  \n   \nJeremy received a few service calls while he was here, so I could tell he had to move on (but didn’t want to). We tried to compensate him for his time but he flat out refused. I think we had to force him to take a sandwich and drink from our local deli. As he was packing up, he shared a story about a time he couldn't rescue a kitten that had fallen 20 feet vertically into a storm drain, so this felt like redemption to him. We were very moved hearing that this was a win he needed. He certainly made up for it, since we pulled not one, but 2 out of the tunnels.\n\nAbout the cats themselves. We estimate they are around 8 weeks old, based on their size. Princess is much smaller, with light brown spots. She is fairly shy, mews very quietly, and keeps to herself. I suspect the ordeal was likely tougher on her because she's smaller.  Mario is gray with tiger stripes. He is much larger, aggressive and loud. I am less worried about him.\n\nIf we could keep these kittens, we would (I think this is the cat tax people are referring to?). Unfortunately, I am very allergic to cats and our young children show signs of this as well.  We were worried about their health, so we dropped them off at the Humane Society to give them the best chance at recovery. We thought it was important for our kids to understand this process, so we picked them up for school and headed to the shelter together to say our goodbyes. The wonderful team there immediately started tending to them and I hope to get an update later today on their status. I am told that kittens who come in as duos at this age “do very well” and are quite popular, so fingers crossed they land in a loving home. Our local shelter explicitly asked us not to share their location, which we have respected. My understanding is they have experienced the good people of the Internet calling to ask about the cats and it overwhelms their systems.\n\nAs I write this, I’m still a little in disbelief how so many different people responded to my post with great ideas, Jeremy dropping everything to show up at a stranger’s home, and for those little kittens staying resilient. My wife and I were preparing ourselves for a much different ending. I’m so glad this was a happy ending that I didn’t expect and this all provides us with a little much needed nourishment.",
+            "permalink": "/r/cats/comments/1td5abq/kittens_in_storm_drain_successfully_rescued/",
+            "subreddit": "cats",
+            "createdUtc": 1778780125,
+            "numComments": 754
+          },
+          {
+            "id": "1w1u87k",
+            "url": "https://www.reddit.com/r/dndmemes/comments/1w1u87k/play_responsibly/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/8x080mprycmh1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=59dace367a537c551e499a2c4e4009f5a560dfff",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 45544,
+            "title": "Play responsibly...",
+            "author": "Vegetable_Variety_11",
+            "authorId": "ao3yuu47",
+            "selftext": "",
+            "permalink": "/r/dndmemes/comments/1w1u87k/play_responsibly/",
+            "subreddit": "dndmemes",
+            "createdUtc": 1788028513,
+            "numComments": 545
+          },
+          {
+            "id": "1r7x023",
+            "url": "https://www.reddit.com/r/Wellthatsucks/comments/1r7x023/when_you_skip_validation_for_ai_generated_results/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/cmyieappl7kg1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=ba55b28e06ba1ed35f0d88df299828a1f7ebade3",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 39799,
+            "title": "When you skip validation for AI generated results",
+            "author": "Epelep",
+            "authorId": "chsmv",
+            "selftext": "",
+            "permalink": "/r/Wellthatsucks/comments/1r7x023/when_you_skip_validation_for_ai_generated_results/",
+            "subreddit": "Wellthatsucks",
+            "createdUtc": 1771401363,
+            "numComments": 1394
+          },
+          {
+            "id": "1tnouzy",
+            "url": "https://www.reddit.com/r/blunderyears/comments/1tnouzy/for_my_16th_birthday_i_had_a_giant_cheeseburger/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/bcyrujz77d3h1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=04bff0749dcdd0e058abe596bcf14da4afa3fa9d",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 37472,
+            "title": "for my 16th birthday i had a giant cheeseburger instead of a cake",
+            "author": "PrettyOrk",
+            "authorId": "mkii626y",
+            "selftext": "we cut it like a cake though. 2008.\n\nedit: jesus, I'm floored and slightly concerned at the amount of attention this post got.  \n   \nsorry for dropping out suddenly. I was temp banned for a few days by the ~~fun police~~ automoderator for not referring to myself in a pc enough manner. so gg reddit, I sure feel protected!  \n   \nI'll address some common questions:  \n   \n**q. how did it taste?**\n\na. it was pretty good, I think it could have been better if we changed something with the cooking. meat was a bit dry, forgot how the bun was, probably tasted like a bun. ultimately it was tasty and made for some bomb leftovers that lasted for like a week.  \n   \n**q. have you ballooned in weight/got absolutely shredded since the photo?**\n\na. not particularly. I did change my lifestyle, learned my macros, bought a bike, and switched out lexapro for vyvanse. ultimately wound up going down from 330\\~ lbs to 205-215 (it fluctuates). so I'm healthy now - not all the way where I want to be as far as goal physique, but I'm planning on getting more serious about it when there's enough capacity in my life to reliably fit going to the gym on the daily. for now I lift dumbells at home.  \n   \nfor those curious about what I look like now, [here's a link to my comment that has a recent selfie.](https://www.reddit.com/r/blunderyears/s/FNAmEjCnXz) reception appears to be mixed, but I'm happier with how I look and I feel it's a glow up (the volume of gorgeous twinks I've bagged over the years seems to back me up on that ☺️)  \n   \n**q. did you grow up in (city, state)?**  \na. no, I didn’t.  \n   \n**q. do I know you?**  \na. no, you don't.  \n   \n**q. liar! there was a cake!**\n\na. LISTEN MY MEMORY SUCKS I'M SORRY\n\n**q. you're a shill for the giant hamburger bun industry! / this picture is ai!**\n\na. I'd like to think that people would have the common sense to see the improbability of a business wanting to hire an 18+ account that regularly participates in nsfw subreddits to plug their shit.  \n   \ni can admittedly see why one could think it's ai though. it's a picture of a glossy printed photo my mom texted me, and she had the flash on, so some shit is washed out. it's not the best capture. if I knew the website had that same picture of me in higher quality I would have posted that instead, but alas, i didn't think to look it up until after i posted this. oh well. again, I thought this would have probably gotten like 300 upvotes at the most, not 30k, so I'm not putting myself on trial over this lol  \n   \nand god damn those other pics hurt to look at I was an ugly ass kid 😭  \n   \nanyway, thank yall for the kind words, the 50000 peter griffin/jared fogel comparisons, and the roasts that were actually funny. this is probably always gonna be the highest ranked post on my account and I'll have to live with that, so well played.  \n   \nI may or may not try this again on my 36th for a 20th anniversary thing. If it happens, I'll be sure to post about it somewhere.  \n   \npayce ✌️",
+            "permalink": "/r/blunderyears/comments/1tnouzy/for_my_16th_birthday_i_had_a_giant_cheeseburger/",
+            "subreddit": "blunderyears",
+            "createdUtc": 1779750243,
+            "numComments": 965
+          },
+          {
+            "id": "1rdhzjv",
+            "url": "https://www.reddit.com/r/Epstein/comments/1rdhzjv/npr_is_reporting_that_doj_has_been_witholding/",
+            "nsfw": false,
+            "media": [],
+            "score": 36405,
+            "title": "NPR IS REPORTING THAT DOJ HAS BEEN WITHOLDING FILES RELATED TO TRUMP SEXUALLY ASSAULTING MINORS",
+            "author": "soloChristoGlorium",
+            "authorId": "9lk2c",
+            "selftext": "https://www.npr.org/2026/02/24/nx-s1-5723968/epstein-files-trump-accusation-maxwell\n\n\n\nAccessibility links\nSkip to main content\nKeyboard shortcuts for audio player\nExclusive\nLaw\nJustice Department withheld and removed some Epstein files related to Trump\nFebruary 24, 20265:00 AM ET\nHeard on Morning Edition\nHeadshot of Stephen Fowler\nStephen Fowler\n\n3:46\nAn NPR investigation finds the Justice Department has removed or withheld Epstein files related to President Trump.\nAn NPR investigation finds the Justice Department has removed or withheld Epstein files related to President Trump.\n\nDepartment of Justice and Getty Images/Collage by Danielle A. Scruggs/NPR\nThe Justice Department has withheld some Epstein files related to allegations that President Trump sexually abused a minor, an NPR investigation finds. It also removed some documents from the public database where accusations against Jeffrey Epstein also mention Trump.\n\nSome files have not been made public despite a law mandating their release. These include what appears to be more than 50 pages of FBI interviews, and notes from conversations with a woman who accused Trump of sexual abuse decades ago when she was a minor.\n\nNPR reviewed multiple sets of unique serial numbers appearing before and after the pages in question, stamped onto documents in the Epstein files database, FBI case records, emails and discovery document logs in the latest tranche of documents published at the end of January. NPR's investigation found dozens of pages that appear to be catalogued by the Justice Department but not shared publicly.\n\nSponsor Message\n\nThe Justice Department declined to answer NPR's questions on the record about these specific files, what's in them, and why they are not published.\n\nThis collage shows photos of Jeffrey Epstein and Ghislaine Maxwell on a plane, as well as black-and-white photos of students playing in an orchestra and a girl near a cabin. There are also fragments of documents showing over $350,000 in donations from Epstein to the Interlochen Center for the Arts.\nNational\nHow Epstein and Maxwell used an elite Midwest arts school to prey on girls\nOther files scrubbed from public view pertain to a separate woman who was a key witness for the prosecution in the criminal trial of Epstein's co-conspirator, Ghislaine Maxwell, who is serving a 20-year prison sentence for sex trafficking. Maxwell is seeking clemency from Trump.\n\nSome of those documents were briefly taken down and put back online last week, while others remain hidden, according to NPR's comparison of the initial dataset from Jan. 30 with document metadata of those files currently on the Justice Department website.\n\nNPR does not name victims of sexual abuse.\n\nWhen asked for comment about the missing pages and the accusations against the president, a White House spokeswoman told NPR that Trump \"has done more for Epstein's victims than anyone before him.\"\n\n\"Just as President Trump has said, he's been totally exonerated on anything relating to Epstein,\" White House spokeswoman Abigail Jackson told NPR in a statement. \"And by releasing thousands of pages of documents, cooperating with the House Oversight Committee's subpoena request, signing the Epstein Files Transparency Act, and calling for more investigations into Epstein's Democrat friends, President Trump has done more for Epstein's victims than anyone before him. Meanwhile, Democrats like Hakeem Jeffries and Stacey Plaskett have yet to explain why they were soliciting money and meetings from Epstein after he was a convicted sex offender.\"\n\nThe White House has previously pointed to a statement from the Justice Department that says the Epstein files contain \"untrue and sensationalist claims\" about the president.\n\nIn a letter to members of Congress on Feb. 14 first reported by POLITICO, Attorney General Pam Bondi and Deputy Attorney General Todd Blanche insist that no records were withheld or redacted \"on the basis of embarrassment, reputational harm, or political sensitivity, including to any government official, public figure, or foreign dignitary.\"\n\nHouse Oversight Committee Chairman James Comer, R-Ky., and other Republican members of the committee talk to reporters following a closed-door, remote deposition from convicted child sex offender Ghislaine Maxwell on Capitol Hill on Monday.\nPolitics\nUnder oath and unredacted: The top political stories on Epstein this week\nIn the last two weeks, as lawmakers have begun to view unredacted copies of Epstein files, members of both parties have criticized the way the Trump administration has handled the release of the files. They have also continued to accuse the Justice Department of violating the law and operating without transparency in redacting information.\n\nFirst woman accuses Trump of sexual abuse\nAccording to the newly released files, the FBI internally circulated Epstein-related allegations that mention Trump in late July and early August 2025. The list, collected from the FBI's National Threat Operations Center, included numerous salacious allegations. Agents marked most of the accusations as unverifiable or not credible.\n\nBut one lead was sent to the FBI's Washington Office with the purpose of setting up an interview with the accuser. The lead was included in an internal PowerPoint slide deck detailing \"prominent names\" in the Epstein and Maxwell investigations last fall.\n\nThe woman who directly named Trump in her abuse allegation claimed that around 1983, when she was around 13 years old, Epstein introduced her to Trump \"who subsequently forced her head down to his exposed penis which she subsequently bit. In response, Trump punched her in the head and kicked her out.\"\n\nOut of more than three million pages of files released by the Justice Department in recent months, this specific allegation against Trump only appears in copies of the FBI list of claims and the DOJ slideshow.\n\nBut a review of FBI case file logs and discovery documents turned over to Maxwell and her attorneys in the criminal case against her point to one place the claim could have come from — and how serious investigators took it.\n\nThe FBI interviewed this Trump and Epstein accuser four times. That is according to an FBI \"Serial Report\" and a list of Non-Testifying Witness Material in the Maxwell case that were also released under the Epstein Files Transparency Act.\n\nOnly the first interview, conducted July 24, 2019, is in the public database. That interview does not mention Trump.\n\nOf 15 documents listed in a log of the Maxwell discovery material for this first accuser, only seven are in the Epstein files database. Those missing also include notes that accompany three of the interviews. The discrepancy in the file for the Trump accuser was first reported by independent journalist Roger Sollenberger.\n\nA document that was included in the Department of Justice release of the Jeffrey Epstein files, photographed Monday, Feb. 2, 2026, shows a diagram prepared by the FBI attempting to chart the network of Epstein's victims and the timeline of their alleged abuse.\nLaw\nPowerful people, random redactions: 4 things to know about the latest Epstein files\nAccording to NPR's review of three different sets of serial numbers stamped onto the files, there appear to be 53 pages of interview documents and notes missing from the public Epstein database.\n\n\n\nIn the first interview document, the woman discussed ways Epstein abused her as a girl and, in identifying him to investigators, showed a cropped photo of the disgraced financier. Her attorney said it was cropped because she \"was concerned about implicating additional individuals, and specifically any that were well known, due to fear of retaliation.\"\n\nThe FBI agents noted it was a \"widely distributed photograph\" of Epstein with Trump.\n\nA woman whose biographical details and description of Epstein's abuse found in the FBI interview also line up with details from a victim lawsuit. In the December 2019 filing, \"Jane Doe 4\" does not mention Trump, and the woman voluntarily dismissed her claims against Epstein's estate in December 2021.\n\nAttorneys for this accuser declined to comment.\n\nElsewhere in the released Epstein files, someone in the FBI wrote on July 22, 2025, before the list and slide presentation were compiled, that Trump's name was in the larger case files and that \"one identified victim claimed abuse by Trump but ultimately refused to cooperate.\"\n\nSecond accuser says she met Trump at Mar-a-Lago\nThe other woman whose mention of Trump made the DOJ's presentation appears in Maxwell discovery files released last month in what's known as a Testifying Witness 3500 material list.\n\nIn the first interview of six with the FBI conducted between Sept. 2019 and Sept. 2021, the second woman detailed how Epstein and Maxwell's abuse began while she was around 13 years old attending the Interlochen Center for the Arts and described how, at one point, Epstein took her to Trump's Mar-a-Lago club to meet him.\n\nPeter Mandelson was fired last year from his position as Britain’s ambassador to the U.S. and resigned from the UK Labour Party earlier this month, over ties to convicted sex offender Jeffrey Epstein.\nEurope\nEpstein files fallout takes down elite figures in Europe, while U.S. reckoning is muted\n\"EPSTEIN told TRUMP, 'This is a good one, huh.,'\" the interview report reads.\n\nIn a 2020 lawsuit against Epstein's estate and Maxwell, the second woman added that both men chuckled and she \"felt uncomfortable, but, at the time, was too young to understand why.\"\n\nThat interview was removed from the DOJ's public files some time after initial publication on Jan. 30 and was republished Feb. 19, according to document metadata.\n\nThe Justice Department told NPR the only reason any file has been temporarily removed is because it had been flagged by a victim or their counsel for additional review.\n\nMultiple FBI interviews with other people refer to the second woman's meeting with Trump while she was a minor and being abused by Epstein. One interview with a fleeting mention of Trump was removed from the public database and subsequently restored last week, while another interview with the woman's mother is still offline.\n\nIn that conversation, the mother recalled hearing that \"a prince and DONALD TRUMP visited EPSTEIN's house\" which made her \"think that if they are there then how could EPSTEIN be a criminal,\" according to NPR's copy of the file that was first published.\n\nThe possible omission of files that mention these women's particular allegations against the president come as the Justice Department has warned about other documents it has published in full that includes what it calls \"untrue and sensationalist claims\" about Trump.\n\nGary Rush, of College Park, Md., holds a sign before a news conference on the Epstein files in front of the Capitol, on Tuesday, Nov. 18, 2025, in Washington, D.C.\nNational\nDOJ admits redaction errors in Epstein docs while names in files face scrutiny\nAt the same time, the Justice Department has removed and reuploaded thousands of pages in recent weeks to fix improperly redacted victim names. That includes documents related to the allegations from these two women, who separately say they were around 13 years old when Epstein first abused them.\n\nRobert Glassman, who represents the woman who testified against Maxwell, sharply criticized the Justice Department's handling of the Epstein files.\n\n\"This whole thing is ridiculous,\" he told NPR. \"The DOJ was ordered to release information to the public to be transparent about Epstein and Maxwell's criminal enterprise network. Instead, they released the names of courageous victims who have fought hard for decades to remain anonymous and out of the limelight. Whether the disclosures were inadvertent or not—they had one job to do here and they didn't do it.\"\n\nA DOJ spokesperson told NPR that the department is working \"around the clock\" to address concerns from victims and handle additional redactions of personally identifiable information that have been flagged.\n\n\"In view of the Congressional deadline, all reasonable efforts have been made to review and redact personal information pertaining to victims, other private individuals, and protect sensitive materials from disclosure,\" the statement read. \"That said, because of the volume of information involved, this website may nevertheless contain information that inadvertently includes non-public personally identifiable information or other sensitive content, to include matters of a sexual nature.\"\n\nNPR's Saige Miller and Ryan Lucas contributed reporting.\n\nHave information to share about the Epstein files? Reach out to Stephen Fowler through encrypted communications on Signal at stphnfwlr.25. Please use a nonwork device.\n\n",
+            "permalink": "/r/Epstein/comments/1rdhzjv/npr_is_reporting_that_doj_has_been_witholding/",
+            "subreddit": "Epstein",
+            "createdUtc": 1771944031,
+            "numComments": 1394
+          },
+          {
+            "id": "1sxaa7a",
+            "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/claude-powered-ai-coding-agent-deletes-entire-company-database-in-9-seconds-backups-zapped-after-cursor-tool-powered-by-anthropics-claude-goes-rogue",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/Fm6buU-AX7KeegRqofL5hDPf1-twSaUDAG8yAc1Qld0.jpeg?width=140&height=78&auto=webp&s=398498a9f8c84a8e7d2d8f1ec9aeaa766166bd75",
+                "type": "photo",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 35989,
+            "title": "Claude-powered AI coding agent deletes entire company database in 9 seconds — backups zapped, after Cursor tool powered by Anthropic's Claude goes rogue",
+            "author": "WouldbeWanderer",
+            "authorId": "5p1ltmws",
+            "selftext": "",
+            "permalink": "/r/technology/comments/1sxaa7a/claudepowered_ai_coding_agent_deletes_entire/",
+            "subreddit": "technology",
+            "createdUtc": 1777310458,
+            "numComments": 2750
+          },
+          {
+            "id": "1x0lnvs",
+            "url": "https://www.reddit.com/r/antiai/comments/1x0lnvs/one_of_the_saddest_thing_ive_ever_read_on_the/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/mex18aw0f7uh1.jpeg?width=140&height=139&auto=webp&s=1a2cb82149a7cdc7dc9a6e972f93dc49db92f32e",
+                "type": "photo",
+                "width": 140,
+                "height": 139
+              }
+            ],
+            "score": 35333,
+            "title": "One of the saddest thing I've ever read on the bird app....",
+            "author": "inoriacc",
+            "authorId": "4wyx6g4b",
+            "selftext": "AIbros sure are all sociopaths. These people will automate all things that makes human human and then call it innovation. ",
+            "permalink": "/r/antiai/comments/1x0lnvs/one_of_the_saddest_thing_ive_ever_read_on_the/",
+            "subreddit": "antiai",
+            "createdUtc": 1791448579,
+            "numComments": 1732
+          },
+          {
+            "id": "1rgseae",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1rgseae/youre_now_training_a_war_machine_lets_see_proof/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/ntf4zqlnr5mg1.png?width=140&height=134&auto=webp&s=5d8d420498f2259681fda2107579d2f6bcadd71d",
+                "type": "photo",
+                "width": 140,
+                "height": 134
+              }
+            ],
+            "score": 35009,
+            "title": "You're now training a war machine. Let's see proof of cancellation.",
+            "author": "zaxo666",
+            "authorId": "352dwzr9",
+            "selftext": "Yeah, we're all in the death business now that OpenAI has succumbed to the corrupt Department of War. \n\nLet's see proof of your cancellation boys and girls. ",
+            "permalink": "/r/ChatGPT/comments/1rgseae/youre_now_training_a_war_machine_lets_see_proof/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1772250842,
+            "numComments": 2708
+          },
+          {
+            "id": "1sy934t",
+            "url": "https://www.the-independent.com/tech/claude-ai-agent-deletes-startup-anthropic-b2966176.html",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/u94w11OUFIsQPNwvOhEJZOlyRevAuBn6OWCkNCT96w8.jpeg?width=140&height=93&auto=webp&s=17f70cb392c5d3c06a4526bedc80a5b8b7067652",
+                "type": "photo",
+                "width": 140,
+                "height": 93
+              }
+            ],
+            "score": 31044,
+            "title": "‘It took nine seconds’: Claude AI agent deletes company’s entire database",
+            "author": "curseofdarkastle",
+            "authorId": "7jn1nose",
+            "selftext": "",
+            "permalink": "/r/nottheonion/comments/1sy934t/it_took_nine_seconds_claude_ai_agent_deletes/",
+            "subreddit": "nottheonion",
+            "createdUtc": 1777399264,
+            "numComments": 1423
+          },
+          {
+            "id": "1qjytzl",
+            "url": "https://www.reddit.com/r/minnesota/comments/1qjytzl/fbi_and_homeland_security_just_arrested_nekima/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/wC1BG0lSRBjKn50SR4NUUYsIzh-I2qy5RHEE8mtcVBg.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 28332,
+            "title": "Fbi and Homeland security just arrested Nekima Armstrong, one of the protesters exposing a st.pauls ice director at a church service!!",
+            "author": "cantcoloratall91",
+            "authorId": "c20k6jx5",
+            "selftext": "",
+            "permalink": "/r/minnesota/comments/1qjytzl/fbi_and_homeland_security_just_arrested_nekima/",
+            "subreddit": "minnesota",
+            "createdUtc": 1769098682,
+            "numComments": 1547
+          },
+          {
+            "id": "1w3s5t9",
+            "url": "https://www.reddit.com/r/BlackPeopleTwitter/comments/1w3s5t9/played_the_reverse_uno_card/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/vugoxnlx6smh1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=6b38d9a2b5b232f9a400b0029a573d80094dec76",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 28326,
+            "title": "Played the reverse Uno card",
+            "author": "NYstate",
+            "authorId": "estps",
+            "selftext": "",
+            "permalink": "/r/BlackPeopleTwitter/comments/1w3s5t9/played_the_reverse_uno_card/",
+            "subreddit": "BlackPeopleTwitter",
+            "createdUtc": 1788212861,
+            "numComments": 244
+          },
+          {
+            "id": "1xvyfpt",
+            "url": "https://www.reddit.com/r/usps_complaints/comments/1xvyfpt/usps_disposed_off_my_playstation_5/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/tvmzmphatj1i1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=4be62af9d197b72b4984e2fbed78dd6fe8a49607",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 26536,
+            "title": "USPS disposed off my PlayStation 5",
+            "author": "floatinggrapes",
+            "authorId": "2mqqlqg3v6",
+            "selftext": "I shipped a PlayStation 5 to a buyer through Facebook Marketplace, sending it from Nevada, and received this USPS tracking update on November 7.\n\nI’m honestly devastated. I’ve been sitting here crying because it feels like my $500 item has just vanished into thin air. I contacted USPS, but I haven’t gotten any meaningful answers. Since I didn’t purchase additional insurance (I genuinely didn’t even know that was something I needed to consider, as I’ve shipped packages plenty of times without ever having an issue), they’re basically telling me to file a Missing Mail request and that I’ll only be eligible for $100 in compensation.\n\nI’m sorry, but HOW on earth did USPS decide that a PlayStation 5 is perishable? It’s an electronic gaming console, not food! So frustrated and heartbroken. It’s not just the $500; it’s the fact that someone can trust a postal service with their belongings, only to have them disappear like this, with seemingly no accountability.\n\nHas anyone experienced anything similar? Is there anything else I can do to recover my package or challenge USPS’s decision? I’m really struggling to accept that my PS5 is just gone like that.\n\n# UPDATE: A few clarifications because apparently some things are getting lost in translation.\n\nFirst, to everyone who thinks I’m the BUYER in this transaction: I am the SELLER. The buyer purchased the PlayStation from me through Facebook Marketplace, and since they never received the package, they were obviously refunded. I’m genuinely confused about how so many people are struggling with basic reading comprehension. The person who is out of $500 AND a PlayStation is ME. I’m the one who has suffered the loss here.\n\nSecond, I genuinely appreciate everyone who has taken the time to respond, share advice, and offer suggestions. My post blew up, and there are a few recurring questions I’d like to address.\n\n**1. What did I pack the PlayStation in?**\n\nNo, I did not use some random reusable food box or inappropriate packaging. I used a USPS box, purchased at the USPS post office itself. In fact, I packed the PlayStation right there, inside the facility, in front of the employees.  \nI’ve seen several comments saying that you should never disclose what you’re shipping to postal employees. Well, apparently I was stupid enough to pack an entire PlayStation right in front of them. I honestly didn’t know this was something I needed to be concerned about 😵‍💫 Another lesson learned.  \nOne thing that might actually work in my favor is that the facility has CCTV cameras. They could potentially show me bringing in and packing a rather large PlayStation right there. Hopefully, following a police report, the footage can be retrieved and help establish what was actually shipped.  \nI also have the Facebook Marketplace listing and transaction/payment records, which I can hopefully use as supporting evidence.\n\n**2. Were there any batteries or other restricted items?**\n\nI shipped ONLY the gaming console. I did not include the controllers or any additional accessories. So there were no loose batteries or anything of that sort.\n\n**3. Why didn’t I purchase insurance?**\n\nI’ve used USPS multiple times before and have never experienced anything remotely like this. I genuinely had no reason to anticipate that something like this could happen. I didn’t realize insurance was something I should have considered so seriously. Lesson learned, unfortunately, the hard way.  \nAnd honestly, I don’t understand why some people are coming at me as though I deliberately did something wrong. I am already dealing with a pretty awful situation. I understand that some decisions could have been different in hindsight, but I cannot change that now.\n\n**4. Why does the $500 matter so much?**\n\nThis is probably the part that hurts the most. We didn’t sell the PlayStation for some extra spending money. We were saving that $500 because we wanted to fly back and spend the holiday season with our family. That money was meant for something important to us, and now we’re out of the money AND the console. We’re genuinely very upset about it.\n\n**5. Have I considered legal action?**\n\nA lot of people have advised me to seek legal counsel or consider suing. I genuinely appreciate the suggestions, but the reality is that legal advice and pursuing a lawsuit can cost a significant amount of money. I honestly don’t think I can afford that right now. I’m already out $500, which was money we really needed. I simply cannot afford to keep spending more money on a situation where I’ve already suffered such a significant loss. I’m hoping the USPS investigation and police report will help us get somewhere without having to go down that route.\n\n**6. And to those saying this is fake, AI-generated or karma farming…**\n\nFor God’s sake, I’m already going through a pretty upsetting situation. I’ve had people tell me this is an AI-generated story, that it’s fake, and someone even accused me of karma farming. I genuinely don’t understand what I would gain from making up a story like this.  \nI came to Reddit because I was bawling my eyes out, needed some advice, and honestly wanted a little support from people who might have experienced something similar. I wasn’t expecting to be questioned about whether my situation is even real on top of everything else I’m dealing with.  \nIf you don’t believe my story, that’s absolutely your choice. But please understand that there’s an actual person on the other side of this post who’s already having a difficult time. You don’t have to make an already stressful situation harder for me. A little empathy really doesn’t cost anything.\n\n**7. What’s happening next?**\n\nI’ve contacted the USPS Office of Inspector General, and they’ve told me I should receive an update within three business days.  \nTomorrow, I’ll be contacting the Kansas office (I couldn’t get through over the weekend), and I’ll also be filing a police report.  \nI’m hoping that between the CCTV footage, transaction records, Marketplace listing, and police complaint, there will be some way to establish what happened and get this investigated properly.\n\nOnce again, thank you to everyone who has been kind, shared their experiences, offered advice, and tried to help. I honestly wasn’t expecting my post to reach so many people, and I’m genuinely grateful to those who have shown compassion.\n\nI’ll keep everyone updated as things progress.",
+            "permalink": "/r/usps_complaints/comments/1xvyfpt/usps_disposed_off_my_playstation_5/",
+            "subreddit": "usps_complaints",
+            "createdUtc": 1794649139,
+            "numComments": 2661
+          },
+          {
+            "id": "1smgk52",
+            "url": "https://www.reddit.com/gallery/1smgk52",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/gopqk2jcqevg1.jpg?width=140&height=100&auto=webp&s=29f622c672bd50a307c6917a718fcd16d96df17b",
+                "type": "photo",
+                "width": 140,
+                "height": 100
+              }
+            ],
+            "score": 25777,
+            "title": "Im currently house hunting. Here is the photo in the ad vs the house in real life…",
+            "author": "slim_shady_21",
+            "authorId": "3yqjxe2",
+            "selftext": "Im assuming they used AI to clean up the front yard. I guess the AI just decided to install a brand new roof, driveway, and retaining wall!!! The interior wasnt much better either…\n\nEdit: wow this recieved a lot of attention. To answer a few of the questions i see repeatedly popping up…\n\n\\- I am in Quebec, Canada. Not really sure about the laws for this type of thing. My real estate agent told me that this is unfortunately very common practice. He agreed with me that the way it changed the whole house is false advertising but that there isnt much that can be done but move on to the next house.\n\n\\- It was a property flip. The house was bought last year and now is being resold with full interior renovation. The work looked very shoddy and i dont trust it. The back of the house was full of old electrical equipment with the wires diconnected and hanging off, the garage was wired up loosely with 14/2 between all the boxes just fastened to the wall which is not up to code. All wires need to be in a pipe or in a wall. The roof was also completely finished and needed to be redone. \n\n\\- Overall the property was just not up to my standard and even if i could look over the egregious false advertising, there was just too many other issues. ",
+            "permalink": "/r/mildlyinfuriating/comments/1smgk52/im_currently_house_hunting_here_is_the_photo_in/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1776281997,
+            "numComments": 1588
+          },
+          {
+            "id": "1tlmbdz",
+            "url": "https://www.reddit.com/r/LinkedInLunatics/comments/1tlmbdz/dehydrating_for_our_ai_overlords/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/qxxu07pa7x2h1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=5e043aef512ae8dd64ea9ef31926b0042d244cc4",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 25491,
+            "title": "Dehydrating for our AI overlords",
+            "author": "eldubinoz",
+            "authorId": "k6b5n",
+            "selftext": "",
+            "permalink": "/r/LinkedInLunatics/comments/1tlmbdz/dehydrating_for_our_ai_overlords/",
+            "subreddit": "LinkedInLunatics",
+            "createdUtc": 1779556558,
+            "numComments": 320
+          },
+          {
+            "id": "1x79j0p",
+            "url": "https://www.reddit.com/r/blender/comments/1x79j0p/we_did_it_we_reverseengineered_blender_with_ai/",
+            "nsfw": false,
+            "media": [],
+            "score": 24878,
+            "title": "WE DID IT! We reverse-engineered Blender with AI and made it open source. Introducing BlenderCraft 🚀",
+            "author": "ofdavarci",
+            "authorId": "em47p",
+            "selftext": "After an entire weekend of running 19 autonomous Claude agents and burning an irresponsible amount of tokens, we're proud to announce **BlenderCraft**.\n\nA 100% free, open-source, clean-room reimplementation of Blender.\n\nWe achieved something incredible:\n\n✅ 100% feature parity with Blender  \n✅ Modeling, sculpting, animation, Geometry Nodes  \n✅ Cycles and Eevee rendering  \n✅ Native .blend file support  \n✅ Windows, macOS, and Linux  \n✅ No subscriptions. No paywalls. Free forever.\n\nWe even managed to reproduce the original source code almost line by line.\n\nOur biggest breakthrough came when we discovered a mysterious public repository containing the entire source code:\n\n[https://projects.blender.org/blender/blender](https://projects.blender.org/blender/blender)\n\nApparently, it's been there since October 13, 2002.\n\n**24 YEARS AGO.**\n\nSo yeah, we didn't actually build anything.\n\nTurns out the Blender community solved the whole \"free and open-source creative software\" problem 24 years before AI made it trendy.\n\nJokes aside, massive respect to Ton Roosendaal, the Blender Foundation, and the thousands of developers and contributors who made Blender what it is today.\n\nWhile everyone's celebrating AI for making software free and open source, these legends have been doing it for decades.\n\n**Software is over. Blender was just early. 🧡**  \n  \n[https://x.com/ofdavarci](https://x.com/ofdavarci)",
+            "permalink": "/r/blender/comments/1x79j0p/we_did_it_we_reverseengineered_blender_with_ai/",
+            "subreddit": "blender",
+            "createdUtc": 1792134758,
+            "numComments": 1095
+          },
+          {
+            "id": "1raud02",
+            "url": "https://www.reddit.com/r/Gamingcirclejerk/comments/1raud02/xbox_to_win_the_console_war_this_is_clearly_a/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/7tcz03ulbvkg1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=d1a1818fdf485a29061ceb67c365093843a84ab0",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 23102,
+            "title": "Xbox to win the console war, this is clearly a good idea with zero chance of anything bad happening",
+            "author": "RadiantZote",
+            "authorId": "gvwek9bj",
+            "selftext": "",
+            "permalink": "/r/Gamingcirclejerk/comments/1raud02/xbox_to_win_the_console_war_this_is_clearly_a/",
+            "subreddit": "Gamingcirclejerk",
+            "createdUtc": 1771688789,
+            "numComments": 1790
+          },
+          {
+            "id": "1s5vgt9",
+            "url": "https://www.reddit.com/r/kingdomcome/comments/1s5vgt9/other_fired_from_warhorse_studios_and_replaced/",
+            "nsfw": false,
+            "media": [],
+            "score": 22672,
+            "title": "[OTHER] Fired from Warhorse Studios and replaced with AI",
+            "author": "ThousandDemons",
+            "authorId": "bjdk3",
+            "selftext": "Hey everyone,\n\nMy name is Max H, and I've been working at Warhorse Studios since July 2022 as a Czech>English translator and editor. I primarily worked on KCD2 and its DLCs, including dialogues, quest logs, item names, and various other things, as well as some occasional marketing materials here and there. Simply put, if you've ever played KCD2 in English, you've quite likely seen my work. \n\nYesterday, March 27th 2026, with no forewarning, I was invited to a meeting and promptly told that, in an effort to \"make the company more effective\" and \"save finances\", as of next month, my position at the company would become \"obsolete\" in favour of using AI for all translations going forward. This came as a huge shock to me, as though the discussion about using AI for translating had frequently come up in the past, something I was always strongly and vocally against, but never to the extent that it might actually cost me my job in the future. It had, of course, crossed my mind many times, but I naively thought my work at WHS was valued enough that I might not be at immediate risk.\n\nI feel incredibly betrayed by the management of the company I've come to care about greatly these past almost 4 years, and am heartbroken I won't get to see my friends and colleagues at the office every day.\n\nI want you to know that the growing use of AI greatly affects people in the games industry and many others, and I thought you should know how much the company that makes the games you love value the work of their employees, not to mention the environment.\n\nTo any of my now-former colleagues reading this, I wish you all the best, and strongly hope none of you finds yourselves in the same position as me. \n\nTo all management at Warhorse, I won't be breaking my NDA, of course, nor am I looking for my job back or to start legal issues, but you can be damn sure I won't keep quiet about my experience. \n\nTo anyone else reading, thanks for making it this far, and if you have any questions, feel free to ask. I'll do my best to answer them if I can.\n\nEDIT: This got a lot more comments a lot sooner than I thought. \nMany thanks to everyone showing their support, it's a bit overwhelming to tell the truth, but just know that I truly appreciate <3\nTo those who doubt the truthfulness of this post, all I can say is I understand it's hard to believe everything you read online, but everything I said here is true. I've verified my LinkedIn with one of the mods here, and would post my notice of termination here, but I'm not sure if it's legal to do so without breaking my NDA, so I'll err on the side of caution.\nWhile I can't legally confirm or deny whether or not Warhorse is working on anything at the moment, I will say that while much slower than usual, I did in fact have work to do, and was laid off near the end of a normal work day during which I was completely oblivious to what was coming.\nI'm going to go out and touch some grass for a while, but will check back in later and answer some questions.\nThanks for reading everyone and all the best <3\n\nEDIT 2: PLEASE don't harass anyone from WHS or review bomb their games on Steam, that isn't my intention at all. All I want is for people to be more informed about what's going on it the games industry behind closed doors.",
+            "permalink": "/r/kingdomcome/comments/1s5vgt9/other_fired_from_warhorse_studios_and_replaced/",
+            "subreddit": "kingdomcome",
+            "createdUtc": 1774688752,
+            "numComments": 2731
+          },
+          {
+            "id": "1pxw8em",
+            "url": "https://timesofindia.indiatimes.com/technology/tech-news/openai-ceo-sam-altman-just-publicly-admitted-that-ai-agents-are-becoming-a-problem-says-ai-models-are-beginning-to-find-/articleshow/126215397.cms",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/7pCSJCUM2ja-CRw65y37-w7F2r2C5CFeAjlZKnf7JXs.jpeg?width=140&height=75&auto=webp&s=14c16140c276a12667205786cfcea2871d031814",
+                "type": "photo",
+                "width": 140,
+                "height": 75
+              }
+            ],
+            "score": 22360,
+            "title": "OpenAI CEO Sam Altman just publicly admitted that AI agents are becoming a problem",
+            "author": "[deleted]",
+            "authorId": "0",
+            "selftext": "",
+            "permalink": "/r/technology/comments/1pxw8em/openai_ceo_sam_altman_just_publicly_admitted_that/",
+            "subreddit": "technology",
+            "createdUtc": 1766941147,
+            "numComments": 1232
+          },
+          {
+            "id": "1sqmbn7",
+            "url": "https://www.reddit.com/r/isthisAI/comments/1sqmbn7/this_apparently_private_photo_of_daniel_radcliffe/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/c3dskcgaxbwg1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=27aadda566b17d3bc379677729db7a7508ec06fd",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 22230,
+            "title": "This apparently private photo of Daniel Radcliffe watching Harry Potter with his kid.",
+            "author": "Square_Desk946",
+            "authorId": "1tvh1q7h7e",
+            "selftext": "The kids hand seems weird and everything is just too neat - the books and the popcorn spread out? Someone in comment section pointed out it’s AI, but no reason for it. But I agree. ",
+            "permalink": "/r/isthisAI/comments/1sqmbn7/this_apparently_private_photo_of_daniel_radcliffe/",
+            "subreddit": "isthisAI",
+            "createdUtc": 1776683859,
+            "numComments": 67
+          },
+          {
+            "id": "1qcx3x8",
+            "url": "https://www.reddit.com/r/stpaul/comments/1qcx3x8/you_gotta_stop_obstructing_us_thats_why_that/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/2mZ3nBAWweevZW6D2kPbbRJhBwBWT1l4Zb9XodKfjxc.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 101
+              }
+            ],
+            "score": 22229,
+            "title": "“You Gotta Stop Obstructing Us, That’s Why That Lesbian B**** is Dead:” MN Woman Recounts “Vile” Behavior by ICE Agents",
+            "author": "ashleywalkerreports",
+            "authorId": "13tcr5gune",
+            "selftext": "On Sunday (1/11/26), Patty O’Keefe says she and her friend, Brandon Sigüenza, were violently arrested and detained by ICE. She explains that federal officers pepper-sprayed the air vent to their car, broke their windows, dragged them out of the car, handcuffed them, and brought them to the detention center at the Federal Whipple Building in separate vehicles.\n\nOn the way to the facility, O’Keefe says one of the agents told her, “‘You guys gotta stop obstructing us, that’s why that lesbian bitch is dead.’ Speaking about Renee Good.” For the rest of the ride, she says she was “taunted, mocked, insulted, belittled, and demoralized.”\n\nWhen entering the detention center, O’Keefe says they saw “probably about 100 people in holding cells” of various sizes, mostly of Hispanic and East African people. She says, “We heard screaming, crying, just visceral agony. Someone saying, let me go, let me go, please let me go, just begging. We heard a child crying.”\n\nO’Keefe recounts that her friend, Sigüenza, was brought into another room for questioning, where he “was offered money or legal protection for any undocumented family members that he might have, in exchange for names of other undocumented people or protest leaders. A bribe, essentially.” O’Keefe says another man in Sigüenza’s cell was offered the same, which both men declined.\n\nThis is just one account of attacks by ICE agents being reported across Minnesota. O’Keefe spoke publicly today (Wednesday, 1/14/26) as local and state leaders highlighted escalating ICE activity, and announced that new, local, and live community briefings will begin soon.\n\nMinneapolis City Councilmember Aurin Chowdhury of Ward 12 says the short, livestream update will be like a newsletter to keep the public informed. She says the details are “forthcoming, and will be announced through our official channels.”\n\nYou can watch the entire press conference on YouTube on the City of Minneapolis’s account.\n\nTime stamp for the title quote in the video is 12:30: [https://youtube.com/live/--bkRXBFXww?feature=share](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fyoutube.com%2Flive%2F--bkRXBFXww%3Ffeature%3Dshare&data=05%7C02%7Cashley.walker%40mnnradio.com%7C090f1cb6080946d1482808de52fd153b%7C9ec27d530bd54273bb29f1a384648c78%7C0%7C0%7C639039444106781178%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=NjnzA9KgqPZ6q%2BVs6fZfjH3pDDN3IkeLOmbrA0gw9%2Bo%3D&reserved=0)\n\nMinnesota Public Radio coverage, audio interview with the two: [https://www.mprnews.org/episode/2026/01/13/minnesotans-describe-their-encounters-with-ice-agents](https://www.mprnews.org/episode/2026/01/13/minnesotans-describe-their-encounters-with-ice-agents)\n\nKare11 interview, visual interview with the two that shows a picture and video from the event: [https://youtu.be/Inn-sfiMcyE?si=e1Kf1hAdpH0IvgMY](https://youtu.be/Inn-sfiMcyE?si=e1Kf1hAdpH0IvgMY)",
+            "permalink": "/r/stpaul/comments/1qcx3x8/you_gotta_stop_obstructing_us_thats_why_that/",
+            "subreddit": "stpaul",
+            "createdUtc": 1768419564,
+            "numComments": 3609
+          },
+          {
+            "id": "1pbzdxq",
+            "url": "https://www.reddit.com/r/Steam/comments/1pbzdxq/what_the_last_two_months_felt_like/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://a.thumbs.redditmedia.com/-SHk60yphsJatc2qmiXflkHMsC_yWmFW-Im1VRshlh4.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 21604,
+            "title": "What the last two months felt like",
+            "author": "Mac_buk7097",
+            "authorId": "hf14dtr2",
+            "selftext": "And steam does nothing and wins \n\n  \nAll roads lead to Steam winning",
+            "permalink": "/r/Steam/comments/1pbzdxq/what_the_last_two_months_felt_like/",
+            "subreddit": "Steam",
+            "createdUtc": 1764650561,
+            "numComments": 573
+          },
+          {
+            "id": "1wsmhya",
+            "url": "https://www.reddit.com/r/clevercomebacks/comments/1wsmhya/85_billion_vs_common_sense/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/y6ye40730bsh1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=481083e5d372410337973edd5fd95f8c41c18f2e",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 21157,
+            "title": "$8.5 billion vs. common sense",
+            "author": "OpenComet_",
+            "authorId": "2ghp58c4fg",
+            "selftext": "",
+            "permalink": "/r/clevercomebacks/comments/1wsmhya/85_billion_vs_common_sense/",
+            "subreddit": "clevercomebacks",
+            "createdUtc": 1790619835,
+            "numComments": 647
+          }
+        ],
+        "nextCursor": "cur_W04PYuShCfhmmknUfuaR3Q"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-bison-9321fc54",
+      "kind": "anonymous",
+      "name": "Bison",
+      "artworkKey": "bison"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00035",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:40:28.788Z",
+  "started_at": "2026-11-23T07:40:28.978Z",
+  "completed_at": "2026-11-23T07:40:30.906Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

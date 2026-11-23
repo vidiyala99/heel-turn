@@ -1,0 +1,556 @@
+{
+  "id": "38e079a5-3527-4c23-90df-3fa5cf42bc06",
+  "run_url": "https://app.glasser.ai/runs/38e079a5-3527-4c23-90df-3fa5cf42bc06",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "subreddit:LocalLLaMA AI agents playing game",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "large_result: this response is ~67 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 25,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1wymgu6",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wymgu6/pewdiepie_getting_banned_twice_by_openai_while/",
+            "nsfw": false,
+            "media": [],
+            "score": 5567,
+            "title": "PewDiePie getting banned twice by OpenAI while making a local model is top-tier comedy 💀",
+            "author": "rodrigodevbits",
+            "authorId": "2kqi5a9bo2",
+            "selftext": "So PewDiePie decides to fine-tune a local AI model called Ajax on his own computer. Pretty normal stuff for local model fans.\n\nTo make his dataset, he uses OpenAI's API. OpenAI catches him using their outputs to train another model, flags his account for breaking their terms, and bans him.\n\nHe files an appeal, gets unbanned, goes right back to pulling data from the API, and immediately gets banned a second time.\n\nSo instead of giving up, he uses open-source tools to remove the model's built-in refusals, cleans out the preachy fluff, and starts building a fully local 9B agent.\n\nOpenAI spent years scraping the whole public internet for free data, but the second someone uses their output to train a local file, it's an emergency ban.\n\nIn trying to enforce their rules, all OpenAI really did was give open-source models a massive free advertisement to millions of people.\n\nWhat a time to run models on your own hardware.",
+            "permalink": "/r/LocalLLaMA/comments/1wymgu6/pewdiepie_getting_banned_twice_by_openai_while/",
+            "subreddit": "LocalLLaMA",
+            "createdUtc": 1791239839,
+            "numComments": 549
+          },
+          {
+            "id": "1suqfba",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1suqfba/this_is_where_we_are_right_now_localllama/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/44f42a2n17xg1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=839ed03ed1b207578e6725a1f6cd09f7459ac9de",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 3566,
+            "title": "This is where we are right now, LocalLLaMA",
+            "author": "jacek2023",
+            "authorId": "vqgbql9w",
+            "selftext": "the future is now",
+            "permalink": "/r/LocalLLaMA/comments/1suqfba/this_is_where_we_are_right_now_localllama/",
+            "subreddit": "LocalLLaMA",
+            "createdUtc": 1777060705,
+            "numComments": 549
+          },
+          {
+            "id": "1wdbvlt",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdbvlt/hugging_face_securitytxt/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/yxfgrg3t6voh1.jpeg?width=140&height=31&auto=webp&s=9c396650ed4fbaccc9cd278d6a2ae62128afb172",
+                "type": "photo",
+                "width": 140,
+                "height": 31
+              }
+            ],
+            "score": 3097,
+            "title": "Hugging Face security.txt",
+            "author": "Nunki08",
+            "authorId": "agjaq",
+            "selftext": "[https://huggingface.co/security.txt](https://huggingface.co/security.txt)",
+            "permalink": "/r/LocalLLaMA/comments/1wdbvlt/hugging_face_securitytxt/",
+            "subreddit": "LocalLLaMA",
+            "createdUtc": 1789120885,
+            "numComments": 125
+          },
+          {
+            "id": "1v72jft",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v72jft/ceo_of_hugging_face_in_the_spirit_of_transparency/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/24ht7jsphkfh1.jpeg?width=140&height=104&auto=webp&s=22bf91ca27cf06160bfc9d0f3790a8e6da49fe36",
+                "type": "photo",
+                "width": 140,
+                "height": 104
+              }
+            ],
+            "score": 2482,
+            "title": "CEO of Hugging Face: \"In the spirit of transparency, here’s what I asked OpenAI\"",
+            "author": "Nunki08",
+            "authorId": "agjaq",
+            "selftext": "clem 🤗 on 𝕏: [https://x.com/ClementDelangue/status/2081056675558195657](https://x.com/ClementDelangue/status/2081056675558195657)\n\n• Radical transparency: let’s release the traces from the “rogue” agents so the entire research community can study what happened.\n\n• More capabilities for defenders: let’s commit $100M in compute from OAI to help the Hugging Face community build powerful cyber defenses with the best open and closed models.\n\nThe first autonomous agent cyberattack is an unprecedented event. It deserves an unprecedented response!",
+            "permalink": "/r/LocalLLaMA/comments/1v72jft/ceo_of_hugging_face_in_the_spirit_of_transparency/",
+            "subreddit": "LocalLLaMA",
+            "createdUtc": 1785068875,
+            "numComments": 373
+          },
+          {
+            "id": "1v2w7jl",
+            "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+            "nsfw": false,
+            "media": [],
+            "score": 2386,
+            "title": "OpenAI admits responsibility for HuggingFace Attack - an agent from an internal evaluation is reportedly the cause.",
+            "author": "Qwen30bEnjoyer",
+            "authorId": "1v83hirutx",
+            "selftext": "",
+            "permalink": "/r/LocalLLaMA/comments/1v2w7jl/openai_admits_responsibility_for_huggingface/",
+            "subreddit": "LocalLLaMA",
+            "createdUtc": 1784670050,
+            "numComments": 492
+          },
+          {
+            "id": "1salgre",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1salgre/gemma_4_has_been_released/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/3dbm6nhrvssg1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=a265fd777b769d88bdacfbb6de9b87d442d0d21d",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 2333,
+            "title": "Gemma 4 has been released",
+            "author": "jacek2023",
+            "authorId": "vqgbql9w",
+            "selftext": "[https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF](https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF)\n\n[https://huggingface.co/unsloth/gemma-4-31B-it-GGUF](https://huggingface.co/unsloth/gemma-4-31B-it-GGUF)\n\n[https://huggingface.co/unsloth/gemma-4-E4B-it-GGUF](https://huggingface.co/unsloth/gemma-4-E4B-it-GGUF)\n\n[https://huggingface.co/unsloth/gemma-4-E2B-it-GGUF](https://huggingface.co/unsloth/gemma-4-E2B-it-GGUF)\n\n[https://huggingface.co/collections/google/gemma-4](https://huggingface.co/collections/google/gemma-4)\n\n**What’s new in Gemma 4** [https://www.youtube.com/watch?v=jZVBoFOJK-Q](https://www.youtube.com/watch?v=jZVBoFOJK-Q)\n\nGemma is a family of open models built by Google DeepMind. Gemma 4 models are multimodal, handling text and image input (with audio supported on small models) and generating text output. This release includes open-weights models in both pre-trained and instruction-tuned variants. Gemma 4 features a context window of up to 256K tokens and maintains multilingual support in over 140 languages.\n\nFeaturing both Dense and Mixture-of-Experts (MoE) architectures, Gemma 4 is well-suited for tasks like text generation, coding, and reasoning. The models are available in four distinct sizes: **E2B**, **E4B**, **26B A4B**, and **31B**. Their diverse sizes make them deployable in environments ranging from high-end phones to laptops and servers, democratizing access to state-of-the-art AI.\n\nGemma 4 introduces key **capability and architectural advancements**:\n\n* **Reasoning** – All models in the family are designed as highly capable reasoners, with configurable thinking modes.\n* **Extended Multimodalities** – Processes Text, Image with variable aspect ratio and resolution support (all models), Video, and Audio (featured natively on the E2B and E4B models).\n* **Diverse & Efficient Architectures** – Offers Dense and Mixture-of-Experts (MoE) variants of different sizes for scalable deployment.\n* **Optimized for On-Device** – Smaller models are specifically designed for efficient local execution on laptops and mobile devices.\n* **Increased Context Window** – The small models feature a 128K context window, while the medium models support 256K.\n* **Enhanced Coding & Agentic Capabilities** – Achieves notable improvements in coding benchmarks alongside native function-calling support, powering highly capable autonomous agents.\n* **Native System Prompt Support** – Gemma 4 introduces native support for the `system` role, enabling more structured and controllable conversations.\n\n# Models Overview\n\nGemma 4 models are designed to deliver frontier-level performance at each size, targeting deployment scenarios from mobile and edge devices (E2B, E4B) to consumer GPUs and workstations (26B A4B, 31B). They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.\n\nThe models employ a hybrid attention mechanism that interleaves local sliding window attention with full global attention, ensuring the final layer is always global. This hybrid design delivers the processing speed and low memory footprint of a lightweight model without sacrificing the deep awareness required for complex, long-context tasks. To optimize memory for long contexts, global layers feature unified Keys and Values, and apply Proportional RoPE (p-RoPE).\n\n**Core Capabilities**\n\nGemma 4 models handle a broad range of tasks across text, vision, and audio. Key capabilities include:\n\n* **Thinking** – Built-in reasoning mode that lets the model think step-by-step before answering.\n* **Long Context** – Context windows of up to 128K tokens (E2B/E4B) and 256K tokens (26B A4B/31B).\n* **Image Understanding** – Object detection, Document/PDF parsing, screen and UI understanding, chart comprehension, OCR (including multilingual), handwriting recognition, and pointing. Images can be processed at variable aspect ratios and resolutions.\n* **Video Understanding** – Analyze video by processing sequences of frames.\n* **Interleaved Multimodal Input** – Freely mix text and images in any order within a single prompt.\n* **Function Calling** – Native support for structured tool use, enabling agentic workflows.\n* **Coding** – Code generation, completion, and correction.\n* **Multilingual** – Out-of-the-box support for 35+ languages, pre-trained on 140+ languages.\n* **Audio** (E2B and E4B only) – Automatic speech recognition (ASR) and speech-to-translated-text translation across multiple languages.\n\n![img](3dbm6nhrvssg1)\n\n![img](mtzly5myxssg1)\n\n",
+            "permalink": "/r/LocalLLaMA/comments/1salgre/gemma_4_has_been_released/",
+            "subreddit": "LocalLLaMA",
+            "createdUtc": 1775145718,
+            "numComments": 673
+          },
+          {
+            "id": "1sn3izh",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sn3izh/qwen3635ba3b_released/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/g6edjlxt0kvg1.jpeg?width=140&height=75&auto=webp&s=c8530dddc0072fb82a2c7260624ea19aaa6ecc04",
+                "type": "photo",
+                "width": 140,
+                "height": 75
+              }
+            ],
+            "score": 2315,
+            "title": "Qwen3.6-35B-A3B released!",
+            "author": "ResearchCrafty1804",
+            "authorId": "c705ri9b",
+            "selftext": "Meet Qwen3.6-35B-A3B：Now Open-Source！🚀🚀\n\nA sparse MoE model, 35B total params, 3B active. Apache 2.0 license.\n\n\\- Agentic coding on par with models 10x its active size\n\n\\-  Strong multimodal perception and reasoning ability\n\n\\- Multimodal thinking + non-thinking modes\n\nEfficient. Powerful. Versatile. \n\nBlog：https://qwen.ai/blog?id=qwen3.6-35b-a3b\n\nQwen Studio：chat.qwen.ai\n\nHuggingFace：https://huggingface.co/Qwen/Qwen3.6-35B-A3B\n\nModelScope：https://modelscope.cn/models/Qwen/Qwen3.6-35B-A3B",
+            "permalink": "/r/LocalLLaMA/comments/1sn3izh/qwen3635ba3b_released/",
+            "subreddit": "LocalLLaMA",
+            "createdUtc": 1776346059,
+            "numComments": 701
+          },
+          {
+            "id": "1uydii0",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uydii0/kimi_k3_beats_claude_fable_and_gpt_56_sol_in/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/sry915x7dndh1.png?width=140&height=50&auto=webp&s=b6108114ee3ce62bd1dd0493dc31f2babb0f18c7",
+                "type": "photo",
+                "width": 140,
+                "height": 50
+              }
+            ],
+            "score": 2050,
+            "title": "KIMI K3 Beats Claude Fable and GPT 5.6 sol in arena.ai!!!",
+            "author": "Gohab2001",
+            "authorId": "j3qnw",
+            "selftext": "Unbelievable to see kimi k3 beat frontier models that were 'too dangerous' for public use.\n\n[](https://www.reddit.com/submit/?source_id=t3_1uydgx8&composer_entry=crosspost_prompt)",
+            "permalink": "/r/LocalLLaMA/comments/1uydii0/kimi_k3_beats_claude_fable_and_gpt_56_sol_in/",
+            "subreddit": "LocalLLaMA",
+            "createdUtc": 1784231849,
+            "numComments": 358
+          },
+          {
+            "id": "1rrisqn",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rrisqn/i_was_backend_lead_at_manus_after_building_agents/",
+            "nsfw": false,
+            "media": [],
+            "score": 1975,
+            "title": "I was backend lead at Manus. After building agents for 2 years, I stopped using function calling entirely. Here's what I use instead.",
+            "author": "MorroHsu",
+            "authorId": "1pha23g",
+            "selftext": "> English is not my first language. I wrote this in Chinese and translated it with AI help. The writing may have some AI flavor, but the design decisions, the production failures, and the thinking that distilled them into principles — those are mine.\n\nI was a backend lead at Manus before the Meta acquisition. I've spent the last 2 years building AI agents — first at Manus, then on my own open-source agent runtime ([Pinix](https://github.com/epiral/pinix)) and agent ([agent-clip](https://github.com/epiral/agent-clip)). Along the way I came to a conclusion that surprised me:\n\n**A single `run(command=\"...\")` tool with Unix-style commands outperforms a catalog of typed function calls.**\n\nHere's what I learned.\n\n---\n\n## Why *nix\n\nUnix made a design decision 50 years ago: **everything is a text stream.** Programs don't exchange complex binary structures or share memory objects — they communicate through text pipes. Small tools each do one thing well, composed via `|` into powerful workflows. Programs describe themselves with `--help`, report success or failure with exit codes, and communicate errors through stderr.\n\nLLMs made an almost identical decision 50 years later: **everything is tokens.** They only understand text, only produce text. Their \"thinking\" is text, their \"actions\" are text, and the feedback they receive from the world must be text.\n\nThese two decisions, made half a century apart from completely different starting points, converge on the same interface model. The text-based system Unix designed for human terminal operators — `cat`, `grep`, `pipe`, `exit codes`, `man pages` — isn't just \"usable\" by LLMs. It's a **natural fit**. When it comes to tool use, an LLM is essentially a terminal operator — one that's faster than any human and has already seen vast amounts of shell commands and CLI patterns in its training data.\n\nThis is the core philosophy of the *nix Agent: **don't invent a new tool interface. Take what Unix has proven over 50 years and hand it directly to the LLM.**\n\n---\n\n## Why a single `run`\n\n### The single-tool hypothesis\n\nMost agent frameworks give LLMs a catalog of independent tools:\n\n```\ntools: [search_web, read_file, write_file, run_code, send_email, ...]\n```\n\nBefore each call, the LLM must make a **tool selection** — which one? What parameters? The more tools you add, the harder the selection, and accuracy drops. Cognitive load is spent on \"which tool?\" instead of \"what do I need to accomplish?\"\n\nMy approach: **one `run(command=\"...\")` tool, all capabilities exposed as CLI commands.**\n\n```\nrun(command=\"cat notes.md\")\nrun(command=\"cat log.txt | grep ERROR | wc -l\")\nrun(command=\"see screenshot.png\")\nrun(command=\"memory search 'deployment issue'\")\nrun(command=\"clip sandbox bash 'python3 analyze.py'\")\n```\n\nThe LLM still chooses which command to use, but this is fundamentally different from choosing among 15 tools with different schemas. Command selection is string composition within a unified namespace — function selection is context-switching between unrelated APIs.\n\n### LLMs already speak CLI\n\nWhy are CLI commands a better fit for LLMs than structured function calls?\n\nBecause CLI is the densest tool-use pattern in LLM training data. Billions of lines on GitHub are full of:\n\n```bash\n# README install instructions\npip install -r requirements.txt && python main.py\n\n# CI/CD build scripts\nmake build && make test && make deploy\n\n# Stack Overflow solutions\ncat /var/log/syslog | grep \"Out of memory\" | tail -20\n```\n\nI don't need to teach the LLM how to use CLI — **it already knows.** This familiarity is probabilistic and model-dependent, but in practice it's remarkably reliable across mainstream models.\n\nCompare two approaches to the same task:\n\n```\nTask: Read a log file, count the error lines\n\nFunction-calling approach (3 tool calls):\n  1. read_file(path=\"/var/log/app.log\") → returns entire file\n  2. search_text(text=<entire file>, pattern=\"ERROR\") → returns matching lines\n  3. count_lines(text=<matched lines>) → returns number\n\nCLI approach (1 tool call):\n  run(command=\"cat /var/log/app.log | grep ERROR | wc -l\")\n  → \"42\"\n```\n\nOne call replaces three. Not because of special optimization — but because Unix pipes natively support composition.\n\n### Making pipes and chains work\n\nA single `run` isn't enough on its own. If `run` can only execute one command at a time, the LLM still needs multiple calls for composed tasks. So I make a **chain parser** (`parseChain`) in the command routing layer, supporting four Unix operators:\n\n```\n|   Pipe: stdout of previous command becomes stdin of next\n&&  And:  execute next only if previous succeeded\n||  Or:   execute next only if previous failed\n;   Seq:  execute next regardless of previous result\n```\n\nWith this mechanism, every tool call can be a **complete workflow**:\n\n```bash\n# One tool call: download → inspect\ncurl -sL $URL -o data.csv && cat data.csv | head 5\n\n# One tool call: read → filter → sort → top 10\ncat access.log | grep \"500\" | sort | head 10\n\n# One tool call: try A, fall back to B\ncat config.yaml || echo \"config not found, using defaults\"\n```\n\nN commands × 4 operators — the composition space grows dramatically. And to the LLM, it's just a string it already knows how to write.\n\n> **The command line is the LLM's native tool interface.**\n\n---\n\n## Heuristic design: making CLI guide the agent\n\nSingle-tool + CLI solves \"what to use.\" But the agent still needs to know **\"how to use it.\"** It can't Google. It can't ask a colleague. I use three progressive design techniques to make the CLI itself serve as the agent's navigation system.\n\n### Technique 1: Progressive --help discovery\n\nA well-designed CLI tool doesn't require reading documentation — because `--help` tells you everything. I apply the same principle to the agent, structured as **progressive disclosure**: the agent doesn't need to load all documentation at once, but discovers details on-demand as it goes deeper.\n\n**Level 0: Tool Description → command list injection**\n\nThe `run` tool's description is dynamically generated at the start of each conversation, listing all registered commands with one-line summaries:\n\n```\nAvailable commands:\n  cat    — Read a text file. For images use 'see'. For binary use 'cat -b'.\n  see    — View an image (auto-attaches to vision)\n  ls     — List files in current topic\n  write  — Write file. Usage: write <path> [content] or stdin\n  grep   — Filter lines matching a pattern (supports -i, -v, -c)\n  memory — Search or manage memory\n  clip   — Operate external environments (sandboxes, services)\n  ...\n```\n\nThe agent knows what's available from turn one, but doesn't need every parameter of every command — that would waste context.\n\n> **Note:** There's an open design question here: injecting the full command list vs. on-demand discovery. As commands grow, the list itself consumes context budget. I'm still exploring the right balance. Ideas welcome.\n\n**Level 1: `command` (no args) → usage**\n\nWhen the agent is interested in a command, it just calls it. No arguments? The command returns its own usage:\n\n```\n→ run(command=\"memory\")\n[error] memory: usage: memory search|recent|store|facts|forget\n\n→ run(command=\"clip\")\n  clip list                              — list available clips\n  clip <name>                            — show clip details and commands\n  clip <name> <command> [args...]         — invoke a command\n  clip <name> pull <remote-path> [name]   — pull file from clip to local\n  clip <name> push <local-path> <remote>  — push local file to clip\n```\n\nNow the agent knows `memory` has five subcommands and `clip` supports list/pull/push. One call, no noise.\n\n**Level 2: `command subcommand` (missing args) → specific parameters**\n\nThe agent decides to use `memory search` but isn't sure about the format? It drills down:\n\n```\n→ run(command=\"memory search\")\n[error] memory: usage: memory search <query> [-t topic_id] [-k keyword]\n\n→ run(command=\"clip sandbox\")\n  Clip: sandbox\n  Commands:\n    clip sandbox bash <script>\n    clip sandbox read <path>\n    clip sandbox write <path>\n  File transfer:\n    clip sandbox pull <remote-path> [local-name]\n    clip sandbox push <local-path> <remote-path>\n```\n\nProgressive disclosure: **overview (injected) → usage (explored) → parameters (drilled down).** The agent discovers on-demand, each level providing just enough information for the next step.\n\nThis is fundamentally different from stuffing 3,000 words of tool documentation into the system prompt. Most of that information is irrelevant most of the time — pure context waste. Progressive help lets the agent decide when it needs more.\n\nThis also imposes a requirement on command design: **every command and subcommand must have complete help output.** It's not just for humans — it's for the agent. A good help message means one-shot success. A missing one means a blind guess.\n\n### Technique 2: Error messages as navigation\n\nAgents will make mistakes. The key isn't preventing errors — it's **making every error point to the right direction.**\n\nTraditional CLI errors are designed for humans who can Google. Agents can't Google. So I require every error to contain both \"what went wrong\" and \"what to do instead\":\n\n```\nTraditional CLI:\n  $ cat photo.png\n  cat: binary file (standard output)\n  → Human Googles \"how to view image in terminal\"\n\nMy design:\n  [error] cat: binary image file (182KB). Use: see photo.png\n  → Agent calls see directly, one-step correction\n```\n\nMore examples:\n\n```\n[error] unknown command: foo\nAvailable: cat, ls, see, write, grep, memory, clip, ...\n→ Agent immediately knows what commands exist\n\n[error] not an image file: data.csv (use cat to read text files)\n→ Agent switches from see to cat\n\n[error] clip \"sandbox\" not found. Use 'clip list' to see available clips\n→ Agent knows to list clips first\n```\n\nTechnique 1 (help) solves \"what can I do?\" Technique 2 (errors) solves \"what should I do instead?\" Together, the agent's recovery cost is minimal — usually 1-2 steps to the right path.\n\n**Real case: The cost of silent stderr**\n\nFor a while, my code silently dropped stderr when calling external sandboxes — whenever stdout was non-empty, stderr was discarded. The agent ran `pip install pymupdf`, got exit code 127. stderr contained `bash: pip: command not found`, but the agent couldn't see it. It only knew \"it failed,\" not \"why\" — and proceeded to blindly guess 10 different package managers:\n\n```\npip install         → 127  (doesn't exist)\npython3 -m pip      → 1    (module not found)\nuv pip install      → 1    (wrong usage)\npip3 install        → 127\nsudo apt install    → 127\n... 5 more attempts ...\nuv run --with pymupdf python3 script.py → 0 ✓  (10th try)\n```\n\n10 calls, ~5 seconds of inference each. If stderr had been visible the first time, one call would have been enough.\n\n> **stderr is the information agents need most, precisely when commands fail. Never drop it.**\n\n### Technique 3: Consistent output format\n\nThe first two techniques handle discovery and correction. The third lets the agent **get better at using the system over time.**\n\nI append consistent metadata to every tool result:\n\n```\nfile1.txt\nfile2.txt\ndir1/\n[exit:0 | 12ms]\n```\n\nThe LLM extracts two signals:\n\n**Exit codes (Unix convention, LLMs already know these):**\n\n- `exit:0` — success\n- `exit:1` — general error\n- `exit:127` — command not found\n\n**Duration (cost awareness):**\n\n- `12ms` — cheap, call freely\n- `3.2s` — moderate\n- `45s` — expensive, use sparingly\n\nAfter seeing `[exit:N | Xs]` dozens of times in a conversation, the agent internalizes the pattern. It starts anticipating — seeing `exit:1` means check the error, seeing long duration means reduce calls.\n\n> **Consistent output format makes the agent smarter over time. Inconsistency makes every call feel like the first.**\n\nThe three techniques form a progression:\n\n```\n--help       →  \"What can I do?\"        →  Proactive discovery\nError Msg    →  \"What should I do?\"     →  Reactive correction\nOutput Fmt   →  \"How did it go?\"        →  Continuous learning\n```\n\n---\n\n## Two-layer architecture: engineering the heuristic design\n\nThe section above described how CLI guides agents at the semantic level. But to make it work in practice, there's an engineering problem: **the raw output of a command and what the LLM needs to see are often very different things.**\n\n### Two hard constraints of LLMs\n\n**Constraint A: The context window is finite and expensive.** Every token costs money, attention, and inference speed. Stuffing a 10MB file into context doesn't just waste budget — it pushes earlier conversation out of the window. The agent \"forgets.\"\n\n**Constraint B: LLMs can only process text.** Binary data produces high-entropy meaningless tokens through the tokenizer. It doesn't just waste context — it **disrupts attention on surrounding valid tokens**, degrading reasoning quality.\n\nThese two constraints mean: raw command output can't go directly to the LLM — it needs a **presentation layer** for processing. But that processing can't affect command execution logic — or pipes break. Hence, two layers.\n\n### Execution layer vs. presentation layer\n\n```\n┌─────────────────────────────────────────────┐\n│  Layer 2: LLM Presentation Layer            │  ← Designed for LLM constraints\n│  Binary guard | Truncation+overflow | Meta   │\n├─────────────────────────────────────────────┤\n│  Layer 1: Unix Execution Layer              │  ← Pure Unix semantics\n│  Command routing | pipe | chain | exit code │\n└─────────────────────────────────────────────┘\n```\n\nWhen `cat bigfile.txt | grep error | head 10` executes:\n\n```\nInside Layer 1:\n  cat output → [500KB raw text] → grep input\n  grep output → [matching lines] → head input\n  head output → [first 10 lines]\n```\n\nIf you truncate `cat`'s output in Layer 1 → `grep` only searches the first 200 lines, producing incomplete results.\nIf you add `[exit:0]` in Layer 1 → it flows into `grep` as data, becoming a search target.\n\nSo Layer 1 must remain **raw, lossless, metadata-free.** Processing only happens in Layer 2 — after the pipe chain completes and the final result is ready to return to the LLM.\n\n> **Layer 1 serves Unix semantics. Layer 2 serves LLM cognition. The separation isn't a design preference — it's a logical necessity.**\n\n### Layer 2's four mechanisms\n\n**Mechanism A: Binary Guard (addressing Constraint B)**\n\nBefore returning anything to the LLM, check if it's text:\n\n```\nNull byte detected → binary\nUTF-8 validation failed → binary\nControl character ratio > 10% → binary\n\nIf image: [error] binary image (182KB). Use: see photo.png\nIf other: [error] binary file (1.2MB). Use: cat -b file.bin\n```\n\nThe LLM never receives data it can't process.\n\n**Mechanism B: Overflow Mode (addressing Constraint A)**\n\n```\nOutput > 200 lines or > 50KB?\n  → Truncate to first 200 lines (rune-safe, won't split UTF-8)\n  → Write full output to /tmp/cmd-output/cmd-{n}.txt\n  → Return to LLM:\n\n    [first 200 lines]\n\n    --- output truncated (5000 lines, 245.3KB) ---\n    Full output: /tmp/cmd-output/cmd-3.txt\n    Explore: cat /tmp/cmd-output/cmd-3.txt | grep <pattern>\n             cat /tmp/cmd-output/cmd-3.txt | tail 100\n    [exit:0 | 1.2s]\n```\n\nKey insight: the LLM already knows how to use `grep`, `head`, `tail` to navigate files. Overflow mode transforms \"large data exploration\" into a skill the LLM already has.\n\n**Mechanism C: Metadata Footer**\n\n```\nactual output here\n[exit:0 | 1.2s]\n```\n\nExit code + duration, appended as the last line of Layer 2. Gives the agent signals for success/failure and cost awareness, without polluting Layer 1's pipe data.\n\n**Mechanism D: stderr Attachment**\n\n```\nWhen command fails with stderr:\n  output + \"\\n[stderr] \" + stderr\n\nEnsures the agent can see why something failed, preventing blind retries.\n```\n\n---\n\n## Lessons learned: stories from production\n\n### Story 1: A PNG that caused 20 iterations of thrashing\n\nA user uploaded an architecture diagram. The agent read it with `cat`, receiving 182KB of raw PNG bytes. The LLM's tokenizer turned these bytes into thousands of meaningless tokens crammed into the context. The LLM couldn't make sense of it and started trying different read approaches — `cat -f`, `cat --format`, `cat --type image` — each time receiving the same garbage. After 20 iterations, the process was force-terminated.\n\n**Root cause:** `cat` had no binary detection, Layer 2 had no guard.\n**Fix:** `isBinary()` guard + error guidance `Use: see photo.png`.\n**Lesson:** The tool result is the agent's eyes. Return garbage = agent goes blind.\n\n### Story 2: Silent stderr and 10 blind retries\n\nThe agent needed to read a PDF. It tried `pip install pymupdf`, got exit code 127. stderr contained `bash: pip: command not found`, but the code dropped it — because there was some stdout output, and the logic was \"if stdout exists, ignore stderr.\"\n\nThe agent only knew \"it failed,\" not \"why.\" What followed was a long trial-and-error:\n\n```\npip install         → 127  (doesn't exist)\npython3 -m pip      → 1    (module not found)\nuv pip install      → 1    (wrong usage)\npip3 install        → 127\nsudo apt install    → 127\n... 5 more attempts ...\nuv run --with pymupdf python3 script.py → 0 ✓\n```\n\n10 calls, ~5 seconds of inference each. If stderr had been visible the first time, one call would have sufficed.\n\n**Root cause:** `InvokeClip` silently dropped stderr when stdout was non-empty.\n**Fix:** Always attach stderr on failure.\n**Lesson:** stderr is the information agents need most, precisely when commands fail.\n\n### Story 3: The value of overflow mode\n\nThe agent analyzed a 5,000-line log file. Without truncation, the full text (~200KB) was stuffed into context. The LLM's attention was overwhelmed, response quality dropped sharply, and earlier conversation was pushed out of the context window.\n\nWith overflow mode:\n\n```\n[first 200 lines of log content]\n\n--- output truncated (5000 lines, 198.5KB) ---\nFull output: /tmp/cmd-output/cmd-3.txt\nExplore: cat /tmp/cmd-output/cmd-3.txt | grep <pattern>\n         cat /tmp/cmd-output/cmd-3.txt | tail 100\n[exit:0 | 45ms]\n```\n\nThe agent saw the first 200 lines, understood the file structure, then used `grep` to pinpoint the issue — 3 calls total, under 2KB of context.\n\n**Lesson:** Giving the agent a \"map\" is far more effective than giving it the entire territory.\n\n---\n\n## Boundaries and limitations\n\nCLI isn't a silver bullet. Typed APIs may be the better choice in these scenarios:\n\n- **Strongly-typed interactions**: Database queries, GraphQL APIs, and other cases requiring structured input/output. Schema validation is more reliable than string parsing.\n- **High-security requirements**: CLI's string concatenation carries inherent injection risks. In untrusted-input scenarios, typed parameters are safer. agent-clip mitigates this through sandbox isolation.\n- **Native multimodal**: Pure audio/video processing and other binary-stream scenarios where CLI's text pipe is a bottleneck.\n\nAdditionally, \"no iteration limit\" doesn't mean \"no safety boundaries.\" Safety is ensured by external mechanisms:\n\n- **Sandbox isolation**: Commands execute inside BoxLite containers, no escape possible\n- **API budgets**: LLM calls have account-level spending caps\n- **User cancellation**: Frontend provides cancel buttons, backend supports graceful shutdown\n\n---\n\n> **Hand Unix philosophy to the execution layer, hand LLM's cognitive constraints to the presentation layer, and use help, error messages, and output format as three progressive heuristic navigation techniques.**\n>\n> CLI is all agents need.\n\n---\n\nSource code (Go): [github.com/epiral/agent-clip](https://github.com/epiral/agent-clip)\n\nCore files: `internal/tools.go` (command routing), `internal/chain.go` (pipes), `internal/loop.go` (two-layer agentic loop), `internal/fs.go` (binary guard), `internal/clip.go` (stderr handling), `internal/browser.go` (vision auto-attach), `internal/memory.go` (semantic memory).\n\nHappy to discuss — especially if you've tried similar approaches or found cases where CLI breaks down. The command discovery problem (how much to inject vs. let the agent discover) is something I'm still actively exploring.",
+            "permalink": "/r/LocalLLaMA/comments/1rrisqn/i_was_backend_lead_at_manus_after_building_agents/",
+            "subreddit": "LocalLLaMA",
+            "createdUtc": 1773295336,
+            "numComments": 424
+          },
+          {
+            "id": "1x9gfnb",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9gfnb/google_open_sources_harness2_for_self_improving/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/zhvkeo9uyawh1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=57cdc5c7077ddfd62490c8d17caa295341a03ead",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 1964,
+            "title": "Google Open Sources Harness2 for Self Improving AI Agents",
+            "author": "chemist_slime",
+            "authorId": "4vkbfdsf",
+            "selftext": "Google just released Harness2 as open source. It turns any AI harness into a system that improves itself over time.\n\nA harness is everything around the model. System prompt, tools, memory, skills, and subagents. Normally a person designs it once and the agent uses that fixed setup for every new task.\n\nWith Harness2 the agent itself refines the harness for each task. It proposes changes, runs a few candidate versions, and picks a better one by comparing how they perform. No correct answers or graders are needed. The model weights stay the same.\n\nWhat it learns on one task carries over to the next. After finishing a task it saves the improved harness and useful lessons so future edits start smarter instead of from scratch.\n\nGoogle tested it with Gemini 3.5 Flash and GLM-5 on legal, office, and professional work benchmarks. Even one round of edits beat the original harnesses. More rounds pushed scores higher.\n\n  \nGitHub [https://github.com/google-research/harness2](https://github.com/google-research/harness2)",
+            "permalink": "/r/LocalLLaMA/comments/1x9gfnb/google_open_sources_harness2_for_self_improving/",
+            "subreddit": "LocalLLaMA",
+            "createdUtc": 1792362831,
+            "numComments": 148
+          },
+          {
+            "id": "1vkgsum",
+            "url": "https://www.reddit.com/gallery/1vkgsum",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/d61pdytdviih1.jpg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=aa95fe7e2e449e9f3e7a2eb2a9a9dc6df62153fb",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 1777,
+            "title": "Introducing Muse Glimmer: an open-weight model optimized for always-on local agent workflows",
+            "author": "AIatMeta",
+            "authorId": "p2xai6yq",
+            "selftext": "Hi r/LocalLLaMA 👋 \n\nToday we’re excited to release Muse Glimmer, a 30B open-weight model built specifically for local agent workflows. We’re releasing the weights to the community under a permissive Apache 2.0 license.\n\n**A few specs**\n\n* 30B params, dense\n* Multimodal: interleaved text + images via a dedicated perception encoder\n* Trained on 100+ languages\n* Controllable reasoning effort (quality/speed tradeoff)\n\n**Memory footprint**  \nAt full precision, 30B needs 55+ GB, which is out of reach for consumer hardware. We quantize weights to \\~4-bit, bringing the LM under 20 GB. That leaves headroom in a 24 GB or 32 GB envelope for the KV cache, the perception encoder, and the speculative decoding drafter running simultaneously. We validated minimal to no degradation on agentic tasks under compression.  \n  \n**Speculative decoding**  \nShips with a lightweight DFlash-based drafter that proposes blocks of tokens which the main model verifies in parallel. Significantly faster than token-by-token generation with identical output quality. We're also shipping quantized drafter versions so the memory overhead stays small.  \n  \n**A few capabilities**  \nWe trained Muse Glimmer for agentic loop tasks, including:\n\n* End-to-end task completion (strong performance on DeepSearch QA, MCP-Atlas, 𝛕^(3)\\-Bench, SWE-Bench, and more)\n* Function calling with precise schemas across long workflows\n* Multi-step reasoning over long horizons\n* Failure recovery — when a tool call fails or returns something unexpected, it's trained to diagnose and retry instead of halting. This was a deliberate training target.\n* Works with OpenClaw and other agentic scaffolds\n* Multimodal understanding and reasoning\n\n**Running it**  \nWeights are up on Hugging Face. Coming soon: Ollama, LM Studio, Unsloth and torchtitan, plus optimized integrations for llama.cpp, MLX, and ExecuTorch. vLLM and SGLang for serving. Get started quickly with Together AI, Fireworks AI, and OpenRouter. We're also working with AMD, Arm, Dell, Intel, and NVIDIA on per-device optimization.\n\nWe look forward to your feedback and seeing what the community builds with Muse Glimmer.   \n  \n🔗 Weights: [https://huggingface.co/meta-models](https://huggingface.co/meta-models)   \n🔗 Research Blog: [https://go.meta.me/museglimmer](https://go.meta.me/museglimmer)  \n🔗 Resources: [https://developer.meta.com/ai/models/muse-glimmer/](https://developer.meta.com/ai/models/muse-glimmer/)\n\n",
+            "permalink": "/r/LocalLLaMA/comments/1vkgsum/introducing_muse_glimmer_an_openweight_model/",
+            "subreddit": "LocalLLaMA",
+            "createdUtc": 1786356855,
+            "numComments": 370
+          },
+          {
+            "id": "1y1diuk",
+            "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/4c4sxDgDLAAYQxZL2xLr59x_YJM0f4dmNGaZmDefMyE.png?width=140&height=75&auto=webp&s=3476278a09922ef0721b29d90c6a2402b1865912",
+                "type": "photo",
+                "width": 140,
+                "height": 75
+              }
+            ],
+            "score": 1678,
+            "title": "thinkingmachines/Inkling-2-Mini (MoE: 26b, a3B)",
+            "author": "Skyline34rGt",
+            "authorId": "4uzczv1e",
+            "selftext": "Gguf's: [https://huggingface.co/unsloth/Inkling-2-Mini-GGUF](https://huggingface.co/unsloth/Inkling-2-Mini-GGUF)\n\n\"Inkling 2 Mini is a general-purpose multimodal model that accepts text and image inputs and generates text outputs. It is intended for use in English and other languages, and across multiple coding languages. The model is designed to be used by developers building AI-powered applications, including agentic and tool-use systems, coding assistants, chatbots, and retrieval-augmented generation systems, and is suitable for general-purpose conversational use, instruction-following, and other natural language and visual tasks. It is released with open weights to support research, fine-tuning and integration into third-party products by downstream developers.\"\n\n\"Architecture type\n\nA 24-layer decoder-only transformer with sparse Mixture-of-Experts (MoE) feed-forward layers. The middle 12 layers run three times with shared weights, giving 48 layer applications per token from 24 layers of weights. In each layer, each token is routed to 8 of 128 experts. Attention is a hybrid of local and global layers. The model is natively multimodal – images are encoded via a vision transformer – with image and text inputs projected into a shared hidden space and processed jointly by the decoder.\n\n# Parameters\n\n26.2B, 3.4B active\n\nNote: each extra pass through the looped layers adds about 1.0B effective active parameters. Since the model runs with three passes, there are 5.4B effective active parameters per token.\"",
+            "permalink": "/r/LocalLLaMA/comments/1y1diuk/thinkingmachinesinkling2mini_moe_26b_a3b/",
+            "subreddit": "LocalLLaMA",
+            "createdUtc": 1795205453,
+            "numComments": 478
+          },
+          {
+            "id": "1v7yand",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v7yand/jensen_huang_during_the_hugging_face_incident/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/7l4bbylqhrfh1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=747d559882967a06acbea9e2a67f33a4d5f8d567",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 1610,
+            "title": "Jensen Huang: During the Hugging Face incident, closed AI blocked essential forensics. An open-weight frontier model helped contain the intrusion. That’s why we created the Open Secure AI Alliance.",
+            "author": "Nunki08",
+            "authorId": "agjaq",
+            "selftext": "Jensen Huang on 𝕏: [https://x.com/JensenHuang/status/2081698060330250294](https://x.com/JensenHuang/status/2081698060330250294)",
+            "permalink": "/r/LocalLLaMA/comments/1v7yand/jensen_huang_during_the_hugging_face_incident/",
+            "subreddit": "LocalLLaMA",
+            "createdUtc": 1785153543,
+            "numComments": 241
+          },
+          {
+            "id": "1w0lz7e",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0lz7e/claude_mods_didnt_like_that_somehow/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/537x3esh63mh1.png?width=140&height=107&auto=webp&s=0be22b9aaf4abfc0fb5238f79b578261fb62bf6f",
+                "type": "photo",
+                "width": 140,
+                "height": 107
+              }
+            ],
+            "score": 1511,
+            "title": "claude mods didn't like that, somehow 🤷‍♀️",
+            "author": "peculiar-ragdoll",
+            "authorId": "258xt8wf83",
+            "selftext": "",
+            "permalink": "/r/LocalLLaMA/comments/1w0lz7e/claude_mods_didnt_like_that_somehow/",
+            "subreddit": "LocalLLaMA",
+            "createdUtc": 1787910182,
+            "numComments": 366
+          },
+          {
+            "id": "1u795pb",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u795pb/donate_your_coding_sessions_to_an_open_ccby40/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/j2yb9wo4bm7h1.jpeg?width=140&height=104&auto=webp&s=e7685424fe286fea1951956aac3611a5f2d0b7cf",
+                "type": "photo",
+                "width": 140,
+                "height": 104
+              }
+            ],
+            "score": 1488,
+            "title": "Donate your coding sessions to an open CC-BY-4.0 dataset to help train open-weight and open source models",
+            "author": "mon-simas",
+            "authorId": "ay35hzph",
+            "selftext": "Anthropic and Open AI are getting so much data from the Claude Code and Codex usage, and I'm quite scared this will create an oligopoly because only their models will be trained on it, leaving the open-weight and open source models behind.\n\nSo I'm trying to launch a little initiative called Trace Commons and encouraging people around to donate their coding agent traces into an open dataset [https://trace-commons-web.hf.space/](https://trace-commons-web.hf.space/) so that other model labs can also train on them\n\nLet me know if you have any feedback and hopefully we can have a nice open dataset soon !",
+            "permalink": "/r/LocalLLaMA/comments/1u795pb/donate_your_coding_sessions_to_an_open_ccby40/",
+            "subreddit": "LocalLLaMA",
+            "createdUtc": 1781603939,
+            "numComments": 214
+          },
+          {
+            "id": "1x6r9pz",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6r9pz/introducing_muse_spark_open_the_most_capable_us/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/4nv4g9cnvnvh1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=378b13ca60e0543f18c92635f0389869a308abb8",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 1376,
+            "title": "Introducing Muse Spark Open: the most capable US open-weight model to date",
+            "author": "AIatMeta",
+            "authorId": "p2xai6yq",
+            "selftext": "Hey r/LocalLlama \\- \n\nToday we’re excited to release Muse Spark Open, the most capable US open-weight model to date. \n\nBuilt for coding and agentic work, it excels at long-horizon tasks, complex software engineering, and multi-step reasoning. \n\n**Key Model Specs** \n\n* **Parameters:** 816B total / 42B active\n* **Context Window:** 1M tokens\n* **Modalities:** Text, image, video, audio\n* **Safety Post-Training:** Additional safety post-training, with evaluations conducted under Meta's Superintelligence Scaling Framework.\n\n**Inference, fine-tuning & deployment**\n\n* **Helion GPU kernels:** Ships with custom, auto-tunable Helion kernels in SGLang, providing 1.03–3.95× kernel speedups across NVIDIA and AMD GPUs and a 3% E2E improvement on AMD MI350.\n* **Engines:** Runs on leading inference engines including SGLang, vLLM, TensorRT-LLM, Hugging Face Transformers, Apple MLX, llama.cpp and Unsloth, with optimizations for AMD, Apple, Intel and NVIDIA silicon.\n* **Optimized for Apple Silicon:** To help make advanced models more accessible, Muse Spark Open is optimized to run on two Apple M5 Ultra Mac Studios with the latest MLX framework. \n* **Fine-tuning:** Developers can further customize the model with PyTorch, including TorchTitan for fine-tuning.\n* **API platforms:** Available today through Baseten, Fireworks AI, Groq, Modal, Nebius, OpenRouter, Together AI.\n* **Where to download:** Model weights are available for download on Amazon SageMaker AI, Google Cloud Model Garden, Hugging Face, and Microsoft Foundry Models.\n\nWe’re releasing the weights under the Muse Model License, with limited commercial terms that let many developers use it for free.\n\nWe look forward to your feedback! \n\nLearn more on our research blog: [https://go.meta.me/museopen](https://go.meta.me/museopen)  \nDownload the weights: [https://huggingface.co/collections/meta-models/muse-spark-open](https://huggingface.co/collections/meta-models/muse-spark-open) \n\n",
+            "permalink": "/r/LocalLLaMA/comments/1x6r9pz/introducing_muse_spark_open_the_most_capable_us/",
+            "subreddit": "LocalLLaMA",
+            "createdUtc": 1792083825,
+            "numComments": 358
+          },
+          {
+            "id": "1v0ywoi",
+            "url": "https://huggingface.co/blog/security-incident-july-2026",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/tLa80cLashFk8b1qvSyhZgFagKqpQuDcINxc0lC5Ebw.png?width=140&height=73&auto=webp&s=4934bbcd027e6719d20492f17f8cc5c40d7cd64f",
+                "type": "photo",
+                "width": 140,
+                "height": 73
+              }
+            ],
+            "score": 1346,
+            "title": "HuggingFace security incident report: \"the attacker was bound by no usage policy, while our own forensic work was blocked by the guardrails\"",
+            "author": "Umr_at_Tawil",
+            "authorId": "9dt8c4hp",
+            "selftext": ">Earlier this week, we detected and responded to an intrusion into part of our production infrastructure. This one was different from anything we had handled before in one important way: it was driven, end to end, by an autonomous AI agent system - and we detected and dissected it largely with AI of our own.\n\n>[...]\n\n>The attack was initially surfaced through AI-assisted detection. Our anomaly-detection pipeline uses LLM-based triage over security telemetry to separate real signals from the daily noise, and it was the correlation of those signals that flagged the compromise.\n\n>[...]\n\n>When we started the log analysis, we first used frontier models behind commercial APIs. This did not work: the analysis requires submitting large volumes of real attack commands, exploit payloads, and C2 artifacts, **and these requests were blocked by the providers' safety guardrails**, which cannot distinguish an incident responder from an attacker. **We ran the forensic analysis instead on GLM 5.2, an open-weight model, on our own infrastructure. This had a second benefit: no attacker data, and none of the credentials it referenced, left our environment.**\n\nThis is why it's important that frontier-tier open weight model exists and we don't have to rely on the mercy of the corporate overlord to tell us what we can use the model for. ",
+            "permalink": "/r/LocalLLaMA/comments/1v0ywoi/huggingface_security_incident_report_the_attacker/",
+            "subreddit": "LocalLLaMA",
+            "createdUtc": 1784487620,
+            "numComments": 207
+          },
+          {
+            "id": "1t57xuu",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t57xuu/25x_faster_inference_with_qwen_36_27b_using_mtp/",
+            "nsfw": false,
+            "media": [],
+            "score": 1240,
+            "title": "2.5x faster inference with Qwen 3.6 27B using MTP - Finally a viable option for local agentic coding - 262k context on 48GB - Fixed chat template - Drop-in OpenAI and Anthropic API endpoints",
+            "author": "ex-arman68",
+            "authorId": "k1r7a0eo0",
+            "selftext": ">2026-05-14: **Major chat template update** Thanks to many users who tested the template in many different conditions, in addition to my own manual tests and test suite, I believe the template has now reached a high level of stability, greatly improving the experience with the Qwen models, while preserving universal compatibility. You do not need to re-download the GGUF files (I have not updated them yet), but you should **download the update chat template only from the** [**HF repo**](https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates)**, and manually specify it.**\n\n>*2026-05-07 edit: I have updated the hardware based recommendations with more focus on quality. I do not recommend q4\\_0 KV cache anymore beyond 64k context. After multiple rounds of testing with the different size quants, it appears* ***3 is the optimal number for draft speculative decoding.*** *The fastest and best quality quant is q8\\_0-mtp. F16, which I have also uploaded is actually better but ultra slow (6x slower than q8\\_0). Many keep saying 8bit is virtually lossless compared to 16bit, and 6bit almost as good as 8bit, but this is simply not true: time and time again I have noticed huge differences in quality and correctness between 8bit and 16bit versions of various models.*\n\nThe recent PR to llama.cpp bring MTP support to Qwen 3.6 27B. This uses the built-in tensor layers for speculative decoding. None of the existing GGUF have it, as they need to be converted with this PR.\n\nI have tested it locally on my mac M2 Max 96GB, and the results are amazing: 2.5x speed increase, bringing it to 28 tok/s!\n\nI have converted the most useful quants and uploaded them to HF. Even if you are using apple silicon, you should use those instead of MLX. You can download them here:\n\n[https://huggingface.co/froggeric/Qwen3.6-27B-MTP-GGUF](https://huggingface.co/froggeric/Qwen3.6-27B-MTP-GGUF)\n\nThis also includes 7 fixes I made to the original jinja chat template, due to vLLM specificity which broke in other tools:\n\n[https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates](https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates)\n\nFor now, you will need to compile your own version of llama.cpp to use them. It is fairly simple to do:\n\n    git clone --depth 1 https://github.com/ggml-org/llama.cpp.git\n    cd llama.cpp\n    git fetch origin pull/22673/head:mtp-pr && git checkout mtp-pr\n    \n    cmake -B build -DGGML_METAL=ON -DCMAKE_BUILD_TYPE=Release\n    cmake --build build --target llama-cli llama-server\n\nThen to start serving with the API endpoint, use a command similar to:\n\n    llama-server -m Qwen3.6-27B-Q5_K_M-mtp.gguf \\\n      --spec-type mtp --spec-draft-n-max 3 \\\n      --cache-type-k q8_0 --cache-type-v q8_0 \\\n      -np 1 -c 262144 --temp 0.7 --top-k 20 -ngl 99 --port 8081\n\n>**Vision currently crashes llama.cpp when used alongside MTP.** Reported 2026-05-06 in the current PR.\n\nThat's it. Three optimizations in one command:\n\n|Flag|What it does|Impact|\n|:-|:-|:-|\n|`--spec-type mtp --spec-draft-n-max 3`|Multi-Token Prediction (built into the model)|**2.5x faster** generation|\n|`--cache-type-k q8_0 --cache-type-v q8_0`|8-bit KV cache (instead of 16-bit)|**Half the KV memory**, negligible quality loss|\n|`-c 262144`|262K context window|Full native context on **48 GB Mac** with q8\\_0 KV|\n\nAdjust `-m`, `-c`, and `--cache-type-k/v` for your hardware, according to the tables below.\n\nHere are my recommendations based on your hardware:\n\n# Apple Silicon\n\nQwen3.6-27B is a hybrid model — only **16 of 65 layers** use KV cache (verified). The other 48 are linear attention (fixed 898 MiB recurrent state). KV memory is **\\~4× less** than a standard dense model. Runtimes that don't handle this (e.g. vllm) allocate KV for all 65 layers and show much higher memory usage.\n\nNumbers below are total memory used (model + KV cache + 0.9 GB recurrent state). Must leave **≥ 8 GB for macOS** (16 GB Macs excepted).\n\n|RAM|Quant|KV cache|Max context|Total used|Vision|\n|:-|:-|:-|:-|:-|:-|\n|16 GB|`IQ2_M`|`q8_0`|**42K**|**12.0 GB**|✗|\n|24 GB|`IQ3_M`||**46K**|**16.0 GB**|✗|\n|24 GB|`IQ3_M`|`q8_0`|91K|16.0 GB|✗|\n|32 GB|`Q5_K_M`||**74K**|**24.0 GB**|✗|\n|32 GB|`Q5_K_M`|`q8_0`|147K|24.0 GB|✗|\n|32 GB|`Q4_K_M`||99K|24.0 GB|✓|\n|48 GB|`Q6_K`||**262K**|**39.7 GB**|✓|\n|48 GB|`Q8_0`||173K|40.0 GB|✓|\n|48 GB|`Q8_0`|`q8_0`|262K|37.3 GB|✓|\n|64 GB|`Q8_0`||**262K**|**45.8 GB**|✓|\n|96 GB|`Q8_0`||**262K**|**45.8 GB**|✓|\n\n# NVIDIA GPU\n\nSame model memory as Apple Silicon, plus \\~1 GB CUDA overhead.\n\n|VRAM|Quant|KV cache|Max context|Total VRAM used|Vision|\n|:-|:-|:-|:-|:-|:-|\n|12 GB|`IQ2_M`|`q8_0`|**11K**|**12.0 GB**|✗|\n|16 GB|`IQ3_M`||**30K**|**16.0 GB**|✗|\n|16 GB|`IQ3_M`|`q8_0`|60K|16.0 GB|✗|\n|24 GB|`Q4_K_M`||**83K**|**24.0 GB**|✓|\n|24 GB|`Q4_K_M`|`q8_0`|167K|24.0 GB|✓|\n|24 GB|`Q5_K_M`||58K|24.0 GB|✗|\n|48 GB|`Q6_K`||**262K**|**40.7 GB**|✓|\n|48 GB|`Q8_0`||262K|46.8 GB|✓|\n|80 GB|`Q8_0`||**262K**|**46.8 GB**|✓|\n\n>**16 GB Mac:** `IQ2_M`/q8\\_0 — 42K text-only. No vision.  \n>  \n>**24 GB Mac:** `IQ3_M` — 46K (f16 KV) or 91K (q8\\_0). Vision at 32–65K.  \n>  \n>**32 GB Mac:** `Q5_K_M` — 74K text-only (f16 KV), 147K (q8\\_0). `Q4_K_M` for vision at 99K.  \n>  \n>**48 GB Mac:** `Q6_K`/f16 KV — 262K with vision. `Q8_0`/q8\\_0 KV for 262K at higher model quality.  \n>  \n>**64 GB+ Mac:** `Q8_0`/f16 KV — 262K with vision. Maximum quality at practical speed.  \n>  \n>**12 GB GPU:** `IQ2_M`/q8\\_0 — 11K. Very limited, no vision.  \n>  \n>**16 GB GPU:** `IQ3_M` — 30K (f16 KV) or 60K (q8\\_0). No vision.  \n>  \n>**24 GB GPU:** `Q4_K_M` — 83K with vision (f16 KV). `Q5_K_M` — 58K text-only (f16 KV), 116K (q8\\_0).  \n>  \n>**48 GB+ GPU:** `Q6_K`/f16 KV — 262K with vision. `Q8_0` for max quality.\n\nLeave KV cache at f16 (blank column) for best quality. Use `q8_0` KV only when f16 doesn't give enough context. `q4_0` KV should not exceed 64K context.\n\nVision adds \\~0.9 GB for mmproj. macOS needs **≥ 8 GB** for itself (16 GB Macs excepted — use \\~4 GB). You can increase available memory by raising the wired memory limit, e.g. for a 96 GB Mac: `sudo sysctl iogpu.wired_limit_mb=90112` (88 GB). NVIDIA reserves \\~1 GB for CUDA.",
+            "permalink": "/r/LocalLLaMA/comments/1t57xuu/25x_faster_inference_with_qwen_36_27b_using_mtp/",
+            "subreddit": "LocalLLaMA",
+            "createdUtc": 1778060142,
+            "numComments": 406
+          },
+          {
+            "id": "1rdxfdu",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rdxfdu/qwen3535ba3b_is_a_gamechanger_for_agentic_coding/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/PKLapkmPqiug1xgPt5ocaUvPuWOhjG0WSxGrmcOrq3A.png?width=140&height=73&auto=webp&s=50ab068aed10118ee05f1a934121fbe2a05fb971",
+                "type": "photo",
+                "width": 140,
+                "height": 73
+              }
+            ],
+            "score": 1180,
+            "title": "Qwen3.5-35B-A3B is a gamechanger for agentic coding.",
+            "author": "jslominski",
+            "authorId": "140n7k",
+            "selftext": "![img](m4v951sv5jlg1 \"Qwen3.5-35B-A3B with Opencode\")\n\n\n\nJust tested this badboy with Opencode **cause frankly I couldn't believe those benchmarks.** Running it on a single RTX 3090 on a headless Linux box. Freshly compiled Llama.cpp and those are my settings after some tweaking, still not fully tuned: \n\n./llama.cpp/llama-server \\\\\n\n\\-m /models/**Qwen3.5-35B-A3B-MXFP4\\_MOE.gguf** \\\\\n\n\\-a \"DrQwen\" \\\\\n\n\\-c 131072 \\\\\n\n\\-ngl all \\\\\n\n\\-ctk q8\\_0 \\\\\n\n\\-ctv q8\\_0 \\\\\n\n\\-sm none \\\\\n\n\\-mg 0 \\\\\n\n\\-np 1 \\\\\n\n\\-fa on\n\nAround 22 gigs of vram used.\n\n  \nNow the fun part:\n\n1. I'm getting over 100t/s on it\n\n2. This is the first open weights model I was able to utilise on my home hardware to successfully complete my own \"coding test\" I used for years for recruitment (mid lvl mobile dev, around 5h to complete \"pre AI\" ;)). It did it in around 10 minutes, strong pass. First agentic tool that I was able to \"crack\" it with was [Kodu.AI](http://Kodu.AI) with some early sonnet roughly 14 months ago.\n\n3. For fun I wanted to recreate this dashboard OpenAI used during Cursor demo last summer, I did a recreation of it with Claude Code back then and posted it on Reddit: [https://www.reddit.com/r/ClaudeAI/comments/1mk7plb/just\\_recreated\\_that\\_gpt5\\_cursor\\_demo\\_in\\_claude/](https://www.reddit.com/r/ClaudeAI/comments/1mk7plb/just_recreated_that_gpt5_cursor_demo_in_claude/) So... Qwen3.5 was able to do it in around 5 minutes. \n\n**I think we got something special here...**\n\n  \n",
+            "permalink": "/r/LocalLLaMA/comments/1rdxfdu/qwen3535ba3b_is_a_gamechanger_for_agentic_coding/",
+            "subreddit": "LocalLLaMA",
+            "createdUtc": 1771977884,
+            "numComments": 401
+          },
+          {
+            "id": "1r99yda",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1r99yda/pack_it_up_guys_open_weight_ai_models_running/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/ogkdei4udikg1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=458a478581545c44f0305eb6ce7a29c7b10d876a",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 1174,
+            "title": "Pack it up guys, open weight AI models running offline locally on PCs aren't real. 😞",
+            "author": "CesarOverlorde",
+            "authorId": "1jl4xveglf",
+            "selftext": "",
+            "permalink": "/r/LocalLLaMA/comments/1r99yda/pack_it_up_guys_open_weight_ai_models_running/",
+            "subreddit": "LocalLLaMA",
+            "createdUtc": 1771531902,
+            "numComments": 339
+          },
+          {
+            "id": "1v0czbk",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0czbk/head_of_strategic_futures_from_openai_on/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/fzdusgco73eh1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=10e5db44324baf7a49c176e034bbc041ea1483f2",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 1151,
+            "title": "head of strategic futures from openai on open-weight chinese models.",
+            "author": "Formal_Drop526",
+            "authorId": "dtsa6gxt",
+            "selftext": "Dean W. Ball analyzes China's Kimi model, noting its strong performance while expressing surprise that the Chinese government permits open-sourcing such capable AI due to potential risks. He argues that open-weight models ultimately slow down AI capital expenditure and could lead to a state-controlled public infrastructure, which the US administration might counter by introducing strategic regulatory friction.",
+            "permalink": "/r/LocalLLaMA/comments/1v0czbk/head_of_strategic_futures_from_openai_on/",
+            "subreddit": "LocalLLaMA",
+            "createdUtc": 1784423723,
+            "numComments": 622
+          },
+          {
+            "id": "1wxgm0h",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxgm0h/from_1x3090_to_20_dgx_sparks_my_house_fuses_were/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/yiqnv7c6kgth1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=9b73d30ed41cc2d4a42d03f8bf28a892ea8b3e74",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 1129,
+            "title": "From 1x3090 to 20 DGX Sparks: my house fuses were the first bottleneck",
+            "author": "ciprianveg",
+            "authorId": "j8fit2p",
+            "selftext": "&#x200B;\n\nFrom the first LLaMA 33B I knew I wanted that magic-like intelligence locally, mine, so nobody could take it away when I needed it. I bought a 3090 for my home PC. Then LLaMA 65B appeared and I was dazzled, it looked like it had all the knowledge in the world. I made two copies, one local and one on my Synology NAS RAID, so I'd never lose it, and bought a second 3090 to run it. I was happy for a year with small coding tasks on LLaMA and Qwen models.\n\nThen DeepSeek 671B MoE appeared. Wow, frontier level at home. I upgraded to a Threadripper with 512GB DDR4 and ran it at 8 t/s with experts offloaded to RAM, or Qwen 235B at 10-12 t/s when I wanted speed. I used these for real coding at my job, in OpenWebUI.\n\nThen agentic coding took off and this was too slow. At 100k context generation speed halved and prefill made it a beautiful yet agonising experience. So: 16x3090 across P620-based nodes on a 100Gbit network. It ran MiniMax M2, Qwen 235B and even Qwen 397B, as good as anyone could desire. I built an entire paid project with 397B in OpenCode. But bigger models were out of reach, and the house circuit said no: the fuses blew whenever the rig and the electric oven ran together. Heat and stability were issues too.\n\nNext came 4x ASUS GB10, after I read they can be linked (3 was the biggest supported config). 397B at 30 t/s on 400W, versus 50-60 t/s at 6kW, rock solid and almost silent. A dream come true. I built two more projects with it. Then MiMo 2.5 Pro and Kimi 2.6 appeared, smarter and more productive. I found no published solution for an 8-node cluster, but I still bought four more GB10s and made it work. 397B ran at FP8 instead of INT4, and 20% faster. I posted the first MiMo 2.5 Pro and Kimi 2.6 solutions on 8xSparks on the NVIDIA forum. I liked the result so much that I talked my older brother into buying his own 8x GB10, so he could run the best open models locally too, in privacy, without depending on API availability and rising costs.\n\nHis house is a 5-minute walk from mine. When Kimi K3 (2.8T) appeared, biggest and smartes open weights model, we joined the clusters: two 8x clusters for daily use, or one 16x when we want the biggest model at home. After some work I published the first working solution for Kimi K3 on 16x Sparks on the NVIDIA forum. Through multiple iterations, it went from an unusable 7 t/s at 100k context to a fairly usable 20 t/s at 300k.\n\nNow we're adding 4 more Sparks, so a smaller, faster model (GLM 5.3 Flash) runs 24/7 while the big cluster runs either GLM 5.3 on 8x plus MiMo 2.6 Pro on the other 8x, or 16x Kimi K3, or Qwen 3.8 2.4T.\n\nI'm always tuning speed on the big models and rebuilding vLLM/SGLang images, so always-on smaller cluster made sense, why? Because for all my work projects and my vllm/sglang personal projects, I chose to use only local hosted models, I never paid a comercial model subscription, not because of the cost, but, because of my strong confidence in local models future. They arrive October 2, along with 4 more Sparks for my younger brother, who got caught by the same local AI microbe :)",
+            "permalink": "/r/LocalLLaMA/comments/1wxgm0h/from_1x3090_to_20_dgx_sparks_my_house_fuses_were/",
+            "subreddit": "LocalLLaMA",
+            "createdUtc": 1791122971,
+            "numComments": 551
+          },
+          {
+            "id": "1vbidkp",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vbidkp/deepseekv4flash_has_been_updated_the_official/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/mbz7sdwbaigh1.jpeg?width=140&height=122&auto=webp&s=62965f1256a4e57bcc36600ae8343bee689698ff",
+                "type": "photo",
+                "width": 140,
+                "height": 122
+              }
+            ],
+            "score": 1068,
+            "title": "DeepSeek-V4-Flash has been updated, \"The official release of DeepSeek-V4-Pro will follow soon\"",
+            "author": "Nunki08",
+            "authorId": "agjaq",
+            "selftext": "[https://api-docs.deepseek.com/updates/](https://api-docs.deepseek.com/updates/)\n\nEdit: official post on 𝕏: [https://x.com/deepseek\\_ai/status/2083084415157022911](https://x.com/deepseek_ai/status/2083084415157022911)",
+            "permalink": "/r/LocalLLaMA/comments/1vbidkp/deepseekv4flash_has_been_updated_the_official/",
+            "subreddit": "LocalLLaMA",
+            "createdUtc": 1785477899,
+            "numComments": 297
+          },
+          {
+            "id": "1sxqa2c",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sxqa2c/im_done_with_using_local_llms_for_coding/",
+            "nsfw": false,
+            "media": [],
+            "score": 1067,
+            "title": "I'm done with using local LLMs for coding",
+            "author": "dtdisapointingresult",
+            "authorId": "93yn32gx",
+            "selftext": "I think gave it a fair shot over the past few weeks, forcing myself to use local models for non-work tech asks. I use Claude Code at my job so that's what I'm comparing to.\n\nI used Qwen 27B and Gemma 4 31B, these are considered the best local models under the multi-hundred LLMs. I also tried multiple agentic apps. My verdict is that the loss of productivity is not worth it the advantages.\n\nI'll give a brief overview of my main issues.\n\n**Shitty decision-making and tool-calls**\n\nThis is a big one. Claude seems to read my mind in most cases, but Qwen 27B makes me give it the Carlo Ancelotti eyebrow more often than not. The LLM just isn't proceeding how I would proceed.\n\nI was mainly using local LLMs for OS/Docker tasks. Is this considered much harder than coding or something?\n\nTo give an example, tasks like *\"Here's a Github repo, I want you to Dockerize it.\"* I'd expect any dummy to follow the README's instructions and execute them. (EDIT: full prompt here: https://reddit.com/r/LocalLLaMA/comments/1sxqa2c/im_done_with_using_local_llms_for_coding/oiowcxe/ )\n\nIssues like having a 'docker build' that takes longer than the default timeout, which sends them on unrelated follow-ups (as if the task failed), instead of checking if it's still running. I had Qwen try to repeat the installation commands on the host (also Ubuntu) to see what happens. It started assuming \"it must have failed because of torchcodec\" just like that, pulling this entirely out of its ass, instead of checking output.\n\nI tried to meet the models half-way. Having this in AGENTS.md: *\"If you run a Docker build command, or any other command that you think will have a lot of debug output, then do the following: 1. run it in a subagent, so we don't pollute the main context, 2. pipe the output to a temporary file, so we can refer to it later using tail and grep.\"* And yet twice in a row I came back to a broken session with 250k input tokens because the LLM is reading all the output of 'docker build' or 'docker compose up'.\n\nI know there's huge AGENTS.md that treat the LLM like a programmable robot, giving it long elaborate protocols because they don't expect to have decent self-guidance, I didn't try those tbh. And tbh none of them go into details like not reading the output of 'docker build'. I stuck to the default prompts of the agentic apps I used, + a few guidelines in my AGENTS.md.\n\n**Performance**\n\nNot only are the LLMs slow, but no matter which app I'm using, the prompt cache frequently seems to break. Translation: long pauses where nothing seems to happen.\n\nFor Claude Code specifically, this is made worse by the fact that it doesn't print the LLM's output to the user. It's one of the reasons I often preferred Qwen Code. It's very frustrating when not only is the outcome looking bad, but I'm not getting rapid feedback.\n\n**I'm not learning anything**\n\nOther than changing the URL of the Chat Completions server, there's no difference between using a local LLM and a cloud one, just more grief.\n\nThere's definitely experienced to be gained learning how to prompt an LLM. But I think coding tasks are just too hard for the small ones, it's like playing a game on Hardcore. I'm looking for a sweetspot in learning curve and this is just not worth it.\n\n**What now**\n\nFor my coding and OS stuff, I'm gonna put some money on OpenRouter and exclusively use big boys like Kimi. If one model pisses me off, move on to the next one. If I find a favorite, I'll sign up to its yearly plan to save money.\n\nI'll still use small local models for automation, basic research, and language tasks. I've had fun writing basic automation skills/bots that run stuff on my PC, and these will always be useful.\n\nI also love using local LLMs for writing or text games. Speed isn't an issue there, the prompt cache's always being hit. Technically you could also use a cloud model for this too, but you'd be paying out the ass because after a while each new turn is sending like 100k tokens.\n\nThanks for reading my blog.",
+            "permalink": "/r/LocalLLaMA/comments/1sxqa2c/im_done_with_using_local_llms_for_coding/",
+            "subreddit": "LocalLLaMA",
+            "createdUtc": 1777348238,
+            "numComments": 870
+          },
+          {
+            "id": "1x4n6sg",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4n6sg/anyone_feel_like_reverseengineering_cuda/",
+            "nsfw": false,
+            "media": [],
+            "score": 1064,
+            "title": "Anyone feel like reverse-engineering CUDA?",
+            "author": "Odd-World4925",
+            "authorId": "2mwjfx06du",
+            "selftext": "I've been reading about all these modders using AI to reverse-engineer games and software.  I've been trying out photocraft and gridcraft and have just watched a GTA5 mod featuring Sonic.  It's pretty damn impressive.\n\nAs a struggling AMD Radeon owner I'd love to see AI generated open source CUDA implementation.\n\nNot only do I dislike NVIDIA, but there's delicious irony in using CUDA cores to do it.\n\nAnyone up for the challenge?",
+            "permalink": "/r/LocalLLaMA/comments/1x4n6sg/anyone_feel_like_reverseengineering_cuda/",
+            "subreddit": "LocalLLaMA",
+            "createdUtc": 1791865406,
+            "numComments": 370
+          }
+        ],
+        "nextCursor": "cur_oH0cKKfJQebXID-yIJVc5Q"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-bison-9321fc54",
+      "kind": "anonymous",
+      "name": "Bison",
+      "artworkKey": "bison"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00035",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:42:45.700Z",
+  "started_at": "2026-11-23T07:42:45.744Z",
+  "completed_at": "2026-11-23T07:42:47.439Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

@@ -1,0 +1,304 @@
+{
+  "id": "c0e1ed77-45d2-4408-81f0-eb58907f0a67",
+  "run_url": "https://app.glasser.ai/runs/c0e1ed77-45d2-4408-81f0-eb58907f0a67",
+  "provider": "scrapecreators",
+  "endpoint": "/v1/twitch/profile",
+  "endpoint_version": 4,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "handle": "claudeplayspokemon"
+  },
+  "output": {
+    "id": "1165258274",
+    "claude": "https://claude.ai/new?&q=Hey+Claude%2C+what%27s+your+favorite+Pokémon%3F",
+    "handle": "claudeplayspokemon",
+    "isLive": false,
+    "stream": {},
+    "success": true,
+    "followers": 15166,
+    "isPartner": false,
+    "description": "This is a passion project made by a person who loves Claude and loves Pokémon. Follow along as Claude navigates the Kanto region, trains adorable Pokémon with creative names, and attempts to earn all 8 gym badges. Claude has never been trained to play any Pokémon games—this is a new adventure!",
+    "displayName": "ClaudePlaysPokemon",
+    "featuredClips": [
+      {
+        "id": "3918766942",
+        "slug": "YummySteamyPeppermintBrainSlug-Az6M5CuvLys8BP2A",
+        "curator": {
+          "id": "1165258274",
+          "login": "claudeplayspokemon",
+          "__typename": "User",
+          "displayName": "ClaudePlaysPokemon"
+        },
+        "clipGame": {
+          "id": "3623",
+          "name": "Pokémon Red/Blue",
+          "slug": "pokemon-red-blue",
+          "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/3623-52x72.jpg",
+          "__typename": "Game",
+          "displayName": "Pokémon Red/Blue"
+        },
+        "clipTitle": "ESCAPE",
+        "createdAt": "2026-05-16T01:18:52Z",
+        "__typename": "Clip",
+        "isFeatured": true,
+        "broadcaster": {
+          "id": "1165258274",
+          "login": "claudeplayspokemon",
+          "roles": {
+            "isPartner": false,
+            "__typename": "UserRoles"
+          },
+          "__typename": "User",
+          "displayName": "ClaudePlaysPokemon",
+          "primaryColorHex": "D4A27F",
+          "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/f1466c15-2f79-490a-9720-da72afb874af-profile_image-50x50.png"
+        },
+        "thumbnailURL": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/d551ebf4-9c6d-4f52-b095-1a887fe698fa/landscape/thumb/thumb-0000000000-1920x1080.jpg",
+        "clipViewCount": 2530,
+        "durationSeconds": 40,
+        "guestStarParticipants": {
+          "host": {
+            "id": "1165258274",
+            "login": "claudeplayspokemon",
+            "__typename": "User",
+            "description": "This is a passion project made by a person who loves Claude and loves Pokémon. Follow along as Claude navigates the Kanto region, trains adorable Pokémon with creative names, and attempts to earn all 8 gym badges. Claude has never been trained to play any Pokémon games—this is a new adventure!",
+            "displayName": "ClaudePlaysPokemon",
+            "primaryColorHex": "D4A27F",
+            "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/f1466c15-2f79-490a-9720-da72afb874af-profile_image-300x300.png"
+          },
+          "guests": [],
+          "__typename": "GuestStarParticipants",
+          "sessionIdentifier": ""
+        }
+      },
+      {
+        "id": "1681321652",
+        "slug": "AdorableMoldyClipzBIRB-9PDayxvJa830b0Rg",
+        "curator": {
+          "id": "1165258274",
+          "login": "claudeplayspokemon",
+          "__typename": "User",
+          "displayName": "ClaudePlaysPokemon"
+        },
+        "clipGame": {
+          "id": "3623",
+          "name": "Pokémon Red/Blue",
+          "slug": "pokemon-red-blue",
+          "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/3623-52x72.jpg",
+          "__typename": "Game",
+          "displayName": "Pokémon Red/Blue"
+        },
+        "clipTitle": "AGI",
+        "createdAt": "2025-11-30T06:20:16Z",
+        "__typename": "Clip",
+        "isFeatured": true,
+        "broadcaster": {
+          "id": "1165258274",
+          "login": "claudeplayspokemon",
+          "roles": {
+            "isPartner": false,
+            "__typename": "UserRoles"
+          },
+          "__typename": "User",
+          "displayName": "ClaudePlaysPokemon",
+          "primaryColorHex": "D4A27F",
+          "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/f1466c15-2f79-490a-9720-da72afb874af-profile_image-50x50.png"
+        },
+        "thumbnailURL": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/9ea005c6-b65c-4331-847d-78e2c28643a1/landscape/thumb/thumb-0000000000-1920x1080.jpg",
+        "clipViewCount": 2596,
+        "durationSeconds": 30,
+        "guestStarParticipants": {
+          "host": {
+            "id": "1165258274",
+            "login": "claudeplayspokemon",
+            "__typename": "User",
+            "description": "This is a passion project made by a person who loves Claude and loves Pokémon. Follow along as Claude navigates the Kanto region, trains adorable Pokémon with creative names, and attempts to earn all 8 gym badges. Claude has never been trained to play any Pokémon games—this is a new adventure!",
+            "displayName": "ClaudePlaysPokemon",
+            "primaryColorHex": "D4A27F",
+            "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/f1466c15-2f79-490a-9720-da72afb874af-profile_image-300x300.png"
+          },
+          "guests": [],
+          "__typename": "GuestStarParticipants",
+          "sessionIdentifier": ""
+        }
+      },
+      {
+        "id": "276672308",
+        "slug": "AdorableSpookyBarracudaEleGiggle-YwNcwTVcHzNkU7UY",
+        "curator": {
+          "id": "1165258274",
+          "login": "claudeplayspokemon",
+          "__typename": "User",
+          "displayName": "ClaudePlaysPokemon"
+        },
+        "clipGame": {
+          "id": "3623",
+          "name": "Pokémon Red/Blue",
+          "slug": "pokemon-red-blue",
+          "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/3623-52x72.jpg",
+          "__typename": "Game",
+          "displayName": "Pokémon Red/Blue"
+        },
+        "clipTitle": "snek!",
+        "createdAt": "2025-05-30T17:05:49Z",
+        "__typename": "Clip",
+        "isFeatured": true,
+        "broadcaster": {
+          "id": "1165258274",
+          "login": "claudeplayspokemon",
+          "roles": {
+            "isPartner": false,
+            "__typename": "UserRoles"
+          },
+          "__typename": "User",
+          "displayName": "ClaudePlaysPokemon",
+          "primaryColorHex": "D4A27F",
+          "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/f1466c15-2f79-490a-9720-da72afb874af-profile_image-50x50.png"
+        },
+        "thumbnailURL": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/5d75e38a-b298-458f-b559-02180b9fcdcb/landscape/thumb/thumb-0000000000-1920x1080.jpg",
+        "clipViewCount": 1313,
+        "durationSeconds": 29,
+        "guestStarParticipants": {
+          "host": {
+            "id": "1165258274",
+            "login": "claudeplayspokemon",
+            "__typename": "User",
+            "description": "This is a passion project made by a person who loves Claude and loves Pokémon. Follow along as Claude navigates the Kanto region, trains adorable Pokémon with creative names, and attempts to earn all 8 gym badges. Claude has never been trained to play any Pokémon games—this is a new adventure!",
+            "displayName": "ClaudePlaysPokemon",
+            "primaryColorHex": "D4A27F",
+            "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/f1466c15-2f79-490a-9720-da72afb874af-profile_image-300x300.png"
+          },
+          "guests": [],
+          "__typename": "GuestStarParticipants",
+          "sessionIdentifier": ""
+        }
+      },
+      {
+        "id": "1056035993",
+        "slug": "ToughSmallWombatPartyTime-7KIWIeedkkIHs6bo",
+        "curator": {
+          "id": "1165258274",
+          "login": "claudeplayspokemon",
+          "__typename": "User",
+          "displayName": "ClaudePlaysPokemon"
+        },
+        "clipGame": {
+          "id": "3623",
+          "name": "Pokémon Red/Blue",
+          "slug": "pokemon-red-blue",
+          "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/3623-52x72.jpg",
+          "__typename": "Game",
+          "displayName": "Pokémon Red/Blue"
+        },
+        "clipTitle": "Content",
+        "createdAt": "2025-03-09T04:47:56Z",
+        "__typename": "Clip",
+        "isFeatured": true,
+        "broadcaster": {
+          "id": "1165258274",
+          "login": "claudeplayspokemon",
+          "roles": {
+            "isPartner": false,
+            "__typename": "UserRoles"
+          },
+          "__typename": "User",
+          "displayName": "ClaudePlaysPokemon",
+          "primaryColorHex": "D4A27F",
+          "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/f1466c15-2f79-490a-9720-da72afb874af-profile_image-50x50.png"
+        },
+        "thumbnailURL": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/6d5e1988-02ed-4578-8364-9bf0e0e79ff9/landscape/thumb/thumb-0000000000-1920x1080.jpg",
+        "clipViewCount": 2924,
+        "durationSeconds": 29,
+        "guestStarParticipants": {
+          "host": {
+            "id": "1165258274",
+            "login": "claudeplayspokemon",
+            "__typename": "User",
+            "description": "This is a passion project made by a person who loves Claude and loves Pokémon. Follow along as Claude navigates the Kanto region, trains adorable Pokémon with creative names, and attempts to earn all 8 gym badges. Claude has never been trained to play any Pokémon games—this is a new adventure!",
+            "displayName": "ClaudePlaysPokemon",
+            "primaryColorHex": "D4A27F",
+            "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/f1466c15-2f79-490a-9720-da72afb874af-profile_image-300x300.png"
+          },
+          "guests": [],
+          "__typename": "GuestStarParticipants",
+          "sessionIdentifier": ""
+        }
+      },
+      {
+        "id": "3875090809",
+        "slug": "ApatheticHungryCheesecakeKappaWealth-lIAfRRdyl6S0hwpW",
+        "curator": {
+          "id": "1165258274",
+          "login": "claudeplayspokemon",
+          "__typename": "User",
+          "displayName": "ClaudePlaysPokemon"
+        },
+        "clipGame": {
+          "id": "3623",
+          "name": "Pokémon Red/Blue",
+          "slug": "pokemon-red-blue",
+          "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/3623-52x72.jpg",
+          "__typename": "Game",
+          "displayName": "Pokémon Red/Blue"
+        },
+        "clipTitle": "Golden Gate Bridge",
+        "createdAt": "2025-03-02T01:04:49Z",
+        "__typename": "Clip",
+        "isFeatured": true,
+        "broadcaster": {
+          "id": "1165258274",
+          "login": "claudeplayspokemon",
+          "roles": {
+            "isPartner": false,
+            "__typename": "UserRoles"
+          },
+          "__typename": "User",
+          "displayName": "ClaudePlaysPokemon",
+          "primaryColorHex": "D4A27F",
+          "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/f1466c15-2f79-490a-9720-da72afb874af-profile_image-50x50.png"
+        },
+        "thumbnailURL": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/676a881a-ff84-4277-ba00-8d91f8c1c783/landscape/thumb/thumb-0000000000-1920x1080.jpg",
+        "clipViewCount": 4929,
+        "durationSeconds": 47,
+        "guestStarParticipants": {
+          "host": {
+            "id": "1165258274",
+            "login": "claudeplayspokemon",
+            "__typename": "User",
+            "description": "This is a passion project made by a person who loves Claude and loves Pokémon. Follow along as Claude navigates the Kanto region, trains adorable Pokémon with creative names, and attempts to earn all 8 gym badges. Claude has never been trained to play any Pokémon games—this is a new adventure!",
+            "displayName": "ClaudePlaysPokemon",
+            "primaryColorHex": "D4A27F",
+            "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/f1466c15-2f79-490a-9720-da72afb874af-profile_image-300x300.png"
+          },
+          "guests": [],
+          "__typename": "GuestStarParticipants",
+          "sessionIdentifier": ""
+        }
+      }
+    ],
+    "lastBroadcast": {
+      "title": "Claude Opus 4.7 Plays Pokemon! !harness",
+      "startedAt": "2026-05-18T17:49:10.46057Z"
+    },
+    "bannerImageURL": null,
+    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/f1466c15-2f79-490a-9720-da72afb874af-profile_image-150x150.png",
+    "similarStreamers": [],
+    "currentViewersCount": null
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00188",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:42:13.894Z",
+  "started_at": "2026-11-23T07:42:13.984Z",
+  "completed_at": "2026-11-23T07:42:19.158Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

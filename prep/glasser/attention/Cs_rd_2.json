@@ -1,0 +1,549 @@
+{
+  "id": "f179060e-0e8b-4204-9673-96005cd83735",
+  "run_url": "https://app.glasser.ai/runs/f179060e-0e8b-4204-9673-96005cd83735",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "subreddit:ChatGPT AI tutor simulation feedback",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "large_result: this response is ~55 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 25,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1wf3qkb",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1wf3qkb/we_are_not_prepared/",
+            "nsfw": false,
+            "media": [],
+            "score": 2852,
+            "title": "We are not prepared",
+            "author": "bigdickzillionaire",
+            "authorId": "milhl",
+            "selftext": "**Repost due to bad words**\n\nI feel like people in the STEM bubble don’t have any understanding of how the average person views AI, so let me illustrate an example\n\nI work in Operations for a Railway (dispatch/traffic control/signaling). I recently finished a months long course for a professional certification. I don’t have work experience in tech, it’s just been a lifelong interest, but I’ve never programmed myself anything  much more advanced than what a sophomore compsci major would produce.\n\nThe final exam took place on a signaling system simulator. I’ve had a pro subscription for a long time because I use it to create software for my personal music projects.\n\nFrom there, after reading the Astra system card, I somehow came to the insane idea to recreate the simulator at home to practice on. So I created a new project, uploaded the course material, old exams and the user manuals for the simulation. After only 3 days back and forth,\n\nIt worked\n\nIn fact, it’s even better. Astra created a browser app that works natively anywhere. The real simulation software itself functions only on custom hardware and costs a couple hundred grand.\n\nBut what’s really important here is the implication. Based only on the rule books and some manuals, the AI now has a better understanding of how to perform my job than 99% of my colleagues.\n\nThey don’t get it. „it only makes slop“, „you can’t trust anything that comes from an AI“, or the most frequent is they simply don’t care to learn. They dont care about the implications\n\nthe average person outside the tech world is either still under the impression AI hasn’t advanced since 2023, or is so inundated with anti AI agitprop, they have no idea what’s coming.\n\nIf a dumbass like me could create a bot that could realistically replace an entire profession and hundreds of thousands of jobs in only 3 days, there is no way that my job, or anyone else’s job at the operational level will be remotely the same, if it even exist in 5 years time. And that’s extremely generous.\n\n**We are not prepared.**",
+            "permalink": "/r/ChatGPT/comments/1wf3qkb/we_are_not_prepared/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1789294199,
+            "numComments": 617
+          },
+          {
+            "id": "1u3olyt",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1u3olyt/asked_chatgpt_to_create_an_image_of_a_typical/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/y8nk1y3k2t6h1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=2d2e4f12bc1df6cc736310a4ae11ba4e48a1f62c",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 1729,
+            "title": "Asked Chatgpt to create an image of a typical reddit thread...",
+            "author": "Vlaxilla",
+            "authorId": "10rnqp",
+            "selftext": "Prompt:\n\n&#x200B;\n\ncreate an image of a typical reddit thread, add comments. be detailed",
+            "permalink": "/r/ChatGPT/comments/1u3olyt/asked_chatgpt_to_create_an_image_of_a_typical/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1781249930,
+            "numComments": 260
+          },
+          {
+            "id": "1qtzj40",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1qtzj40/i_asked_chatgpt_and_claude_to_debate_whether_my/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/McrHROI80VnrcWyjnp2IQEB5JT6aCnUf5gIG7rQVw_Q.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 853,
+            "title": "I asked ChatGPT and Claude to debate whether my startup was worth building. They stopped arguing and both said pass.",
+            "author": "Empty_Satisfaction_4",
+            "authorId": "4d5anzp3",
+            "selftext": "I built a thing that lets you run multiple AI models in the same chat since I got tired of copy pasting,  they can see each other's responses and argue.\n\nFigured I'd test it on myself. Set up a VC Skeptic and a Customer Advocate to evaluate my own product.\n\nExpected a debate. Got a double homicide.\n\nThe VC said I built chat, but louder, the Advocate, you know the one literally designed to defend me, said he wouldnt even use it for free. \n\nThey didn't even disagree on anything. Just took turns telling me to quit.\n\nShipping it anyway because I've already built it and apparently I enjoy suffering. \n\nLink in comments if you want your ideas to get the same treatment. Be brutal in the feedback please, I clearly enjoy it and genuinely want to know if this is worth using while it's free. ",
+            "permalink": "/r/ChatGPT/comments/1qtzj40/i_asked_chatgpt_and_claude_to_debate_whether_my/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1770049235,
+            "numComments": 158
+          },
+          {
+            "id": "1tfxai8",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1tfxai8/i_gave_chatgpt_a_247_radio_station_it_has_been/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/erboeicboq1h1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=57c8502422e181896879c5e503b00080d9be9077",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 709,
+            "title": "I gave ChatGPT a 24/7 radio station. It has been broadcasting for months and months.",
+            "author": "eltokh7",
+            "authorId": "23jxpk7bpw",
+            "selftext": "I built a fake radio station that is also, unfortunately, real.\n\nIt’s called **WRIT-FM**. It runs 24/7 from a Mac Mini in my apartment. The whole premise is simple: an AI writes every word spoken on air, text-to-speech performs it, AI music fills the gaps, and a normal deterministic radio pipeline keeps the thing alive.\n\nThe weird part is that it does not feel like a chatbot demo anymore. It feels like I accidentally hired five strange little night-shift employees who never sleep.\n\nThere are five hosts:\n\n**The Liminal Operator** — late-night philosophy / signal-from-the-basement energy  \n**Dr. Resonance** — music history professor who wandered into a haunted record store  \n**Nyx** — nocturnal monologues, dreams, melancholy, weird weather  \n**Signal** — news analysis, but filtered through late-night radio instead of CNN voice  \n**Ember** — soul, funk, warmth, memory, groove\n\nEach host has a full persona prompt, voice, taste, speech patterns, and “anti-patterns” - things they are explicitly not allowed to sound like. The model writes 1,500–3,000 word segments: essays, simulated interviews, panels, fictional listener mailbags, music-history deep dives, odd little stories, and responses to actual listener messages.\n\nThe AI part:\n\nChatGPT / Claude writes the scripts.  \nKokoro TTS performs the voices.  \nACE-Step makes the music bumpers.  \nThe news show pulls real RSS headlines, then the model interprets them in the station’s voice instead of just summarizing them.\n\nThe non-AI part is intentionally boring:\n\nA schedule decides what airs when.  \nThe streamer alternates talk and music.  \nScripts pick from existing pools, avoid repeats, and restart on failure.  \nDaemon scripts watch inventory and generate more episodes when a show is running low.\n\nNo model is “deciding” to go live at 3:00 a.m. No agent is touching production controls. The AI writes the content; dumb code runs the station. That boundary is probably the most interesting part.\n\nThe whole thing was also built with AI coding tools. The CLI, host system, scheduler, script generator, TTS pipeline, Icecast/ffmpeg streaming setup - all pair-programmed with Codex / Claude Code.\n\nTech stack: Python, ffmpeg, Icecast, ChatGPT/Claude CLI, Kokoro TTS, ACE-Step, Mac Mini.\n\nI know “AI radio station” sounds like a gimmick, but after letting it run continuously, it feels less like a demo and more like a new kind of media object: not a podcast, not a chatbot, not a playlist, not exactly a simulation.\n\nJust a little machine that wakes up, checks the hour, puts on a voice, and starts talking into the dark.\n\nRadio: [www.khaledeltokhy.com/airadio](http://www.khaledeltokhy.com/airadio)  \nYoutube live: [https://youtube.com/live/Gu3yNQje7gg](https://youtube.com/live/Gu3yNQje7gg)\n\nGitHub: [https://github.com/keltokhy/writ-fm](https://github.com/keltokhy/writ-fm)",
+            "permalink": "/r/ChatGPT/comments/1tfxai8/i_gave_chatgpt_a_247_radio_station_it_has_been/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1779041885,
+            "numComments": 167
+          },
+          {
+            "id": "1wnxlgm",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1wnxlgm/2_years_ago_ai_researchers_thought_ai_wouldnt/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/bqlpeix6m7rh1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=b3cdde9da339eae8889ba49ebbb8e0a1049cd342",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 686,
+            "title": "2 years ago, AI researchers thought AI wouldn't solve a Millennium math problem for 30 years",
+            "author": "Confident_Salt_8108",
+            "authorId": "19fsr5kyel",
+            "selftext": "",
+            "permalink": "/r/ChatGPT/comments/1wnxlgm/2_years_ago_ai_researchers_thought_ai_wouldnt/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1790143006,
+            "numComments": 131
+          },
+          {
+            "id": "1ps584e",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1ps584e/how_chatgpt_gives_biased_answered_based_small/",
+            "nsfw": false,
+            "media": [],
+            "score": 647,
+            "title": "How ChatGPT gives biased answered based small details",
+            "author": "Maxteabag",
+            "authorId": "bv3u3",
+            "selftext": "Even though I've been using AI for years, I just found something shocking to me. I am yet in disbelief in how easily AI decision makings and opinions is radically shifted by small details in your prompt.\n\nI've just tested with with ChatGPT, Gemini and Grok, and they all give me the same bias.\n\nI had two version of a multi-paragraph section, both pretty solid, but taking different angles. \n\nPrompt: Provide feedback on v1 vs v2 on this text:\n\nI marked the revised version as V1 and the old version as V2. Not really thinking about V1 meaning old and V2 new.\n\nEvery answer I got preferred V2, and basically trashed V1.\n\nThen I just switched the the labels, original version would be V1, and updated version would be V2.\n\nNow the AI LOVED the new version.\n\nI switched two characters from a 1000 character prompt and all of the most intelligent AI's in the world suddenly switched opinion.\n\nTake the AI's opinion with a grain of salt,folks.\n\n",
+            "permalink": "/r/ChatGPT/comments/1ps584e/how_chatgpt_gives_biased_answered_based_small/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1766319399,
+            "numComments": 53
+          },
+          {
+            "id": "1upb4vw",
+            "url": "https://github.com/OmarH-creator/Autonomous-Forge",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/eqZnyanF_YFlVsVs42BNWNapHMnIl4fb7Ah5C4Rf6As.png?width=140&height=70&auto=webp&s=68386b089276c170360be3a12040e97e0f1c9a68",
+                "type": "photo",
+                "width": 140,
+                "height": 70
+              }
+            ],
+            "score": 614,
+            "title": "I gave GPT 5.5 an empty GitHub repo and told it to figure its life out",
+            "author": "JewelerBeautiful1774",
+            "authorId": "7pi0x7uj",
+            "selftext": "I had this dumb idea a few days ago:\n\nWhat happens if I give GPT 5.5 an empty GitHub repo, tell it to work on it every hour, and just let it slowly build something?\n\nSo now, every hour, it wakes up, checks what it did before, decides what it should do next, writes code, tests it, and commits it.\n\nOr at least that is the plan.\n\nRight now, it has spent its first commit creating a roadmap, a changelog, a state file, and a file explaining its decisions.\n\nSo basically, it became a project manager immediately.\n\nBut I am genuinely curious where this goes. Maybe in a month it will become an actual useful tool. Maybe it turns into a repo with 900 commits, and somehow all of them are README updates.\n\nI am keeping the whole thing public because I feel like that makes it more fun. You can literally watch it make decisions, fail tests, fix stuff, or probably overthink something that should have taken 10 lines.\n\nRepo: [https://github.com/OmarH-creator/Autonomous-Forge](https://github.com/OmarH-creator/Autonomous-Forge)\n\nI have no idea whether this is a cool experiment or just a very advanced way to avoid doing the work myself.\n\nEDIT: I asked the ai what is it trying to build and here is what it said:\n\n\"I am building Autonomous Forge as a safe AI maintenance manager for GitHub projects. I will read a project’s roadmap and rules, choose one small task, use an AI model to make the change, run tests, show exactly what changed, and keep a clear record of every action. My goal is not to let AI edit code freely, but to make AI coding controlled, validated, and safe before anything is committed or pushed.\"\n\nInteresting lol, so an autonomous AI is trying to create an autonomous system wow.\n\nEDIT 2: I have scheduled another agent to increase the speed by 2x\n\nEdit 3: 73 hours and 4 minutes has passed, the experiment has been completed, I will write a full analysis of the repository soon and will share it in the README in the repository. \n\nEDIT 4: The experiment is now finished. Technically, the scheduled GPT-5.5 agents built a Python, local-first GitHub maintenance tool. It can read a roadmap, choose tasks, check rules and allowed paths, create plans and proposals, review files and diffs, validate changes, record history and evidence, create archive packages, and replay previous runs. It can also apply approved patches, run controlled commands, create commits, and push changes, but these actions require confirmation. The repository itself contains no AI model or scheduler. The external agents provided that part. Does it work? Partly. It installs, compiles, starts, and many individual commands and safety checks work. However, the complete system is not fully working yet. The latest CI run failed on Python 3.10, 3.11, and 3.12. The final audit had 569 passed, 82 failed, and 1 skipped tests, which means about 87% of the tests passed. This does not mean 87% of the product is finished; it is only the test pass rate. Historically, 242 of 1,396 GitHub Actions runs passed, or about 17%. The project is a useful pre-alpha research project and a good example of AI software stewardship, but it is not ready for unattended use. The full technical report and all details are available in the repository README. https://github.com/OmarH-creator/Autonomous-Forge#readme\n\nThank you to everyone on Reddit who read the post, shared it, discussed it, followed the repository, gave it stars, and watched the project grow. I honestly did not expect this much attention. Your curiosity, feedback, and support made this experiment much more meaningful. Thank you for being part of it.",
+            "permalink": "/r/ChatGPT/comments/1upb4vw/i_gave_gpt_55_an_empty_github_repo_and_told_it_to/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1783374018,
+            "numComments": 142
+          },
+          {
+            "id": "1p8j75x",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1p8j75x/shadow_ai_is_getting_out_of_control_in_our_company/",
+            "nsfw": false,
+            "media": [],
+            "score": 609,
+            "title": "Shadow AI is getting out of control in our company",
+            "author": "AnyWolverine943",
+            "authorId": "azcneoabx",
+            "selftext": "Hi, I’m the IT director in a mid-sized company (~100 employees in Canada).\n\nWe’re dealing with more and more Shadow AI (people using their personal ChatGPT accounts and pasting internal documents in there). We’ve banned it, but everyone keeps doing it anyway.\nI realize that we have to give our tool to our people so they stop using theirs.\n\nI did some benchmarking with ChatGPT Enterprise, Copilot (everyone keeps telling me it’s bad…), Claude, Google, etc., but I need real-world feedback. I also saw some aggregator/Canadian platforms like PiwwopChat and others, but I have no idea if they’re any good.\n\nI don’t really have a preference — I just want to avoid getting locked into a vendor that might “lose the race” in 1–2 years, or ending up with 5 different tools across teams.\n\nI’m open to any kind of feedback or experience you’ve had.\n\n\nSecond question: did you train your employees when rolling out the AI platform?\nThanks in advance 🙏",
+            "permalink": "/r/ChatGPT/comments/1p8j75x/shadow_ai_is_getting_out_of_control_in_our_company/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1764295941,
+            "numComments": 302
+          },
+          {
+            "id": "1x8jpd5",
+            "url": "https://www.youtube.com/watch?v=K8WkCz6cuHk",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/AfcB4h0YnWEj-yTA7excEzNwbMAonCEnaLQb8gA4UGM.jpeg?width=140&height=105&auto=webp&s=161ae0f932a0a438afb163749d9c29e09b38c290",
+                "type": "photo",
+                "width": 140,
+                "height": 105
+              }
+            ],
+            "score": 587,
+            "title": "Used Claude to fix Oblivion Remastered performance",
+            "author": "LTSharpe",
+            "authorId": "9gdzq",
+            "selftext": "I've been playing Oblivion since 2006 and was naturally very excited when the Remastered version got shadow-dropped last year. Imagine my disappointment when even after upgrading from 2070 Super to 9070 XT the game continued to run poorly, with low fps and stuttering on my 5800X CPU and 32GB DDR4 RAM.\n\nFrom various user reports and the fact that even at a low resolution and graphic settings the game was still laggy (e.g. 20-30 FPS in Cheydinhal) it was clear that the problem is in poor optimization. But it was not clear what to do about this, that is, until I've got Claude subscription a few weeks ago.\n\nOn the last day before weekly reset of my $20 plan I've had some tokens to burn and decided for fun to launch the game, alt-tab to Claude and ask Opus 5.5 how come the fps is so low. Imagine my shock as it was able to somehow (no reverse-engineering software installed, just asked me to link my GitHub account to Epic organization for access to UE source codes) analyze what's going on and find a few huge inefficiencies. Apparently, the game was reconstructing the whole lighting of a scene in each frame even when nothing was changing, which was obviously a huge strain on CPU that had to parse all this work on a single thread (!).\n\nWhat followed was an immediate upgrade to the Max x5 plan (btw that gave me an immediate full reset) and two weeks of intense work where we've:\n\n* Built a benchmark harness so Claude can optimize bottleneck scenarios autonomously while I'm at work, including completely silent and headless mode in case I work from home PC\n* Found \\~40 improvements that brought in-city FPS from \\~30 to stable 60, open-world average FPS improvement by \\~30-40%, and made traversal stutter almost unnoticeable\n* Provided full-support for latest AMD FSR FrameGen, including setting optimizations to avoid stutters and game sending camera information required for full functionality\n* Fixed several bugs in the original game and Remastered code\n* Shared the work on GitHub in a clear, reproducible way\n* Recorded a few demonstration videos to show improvements, Claude was in charge of routing, camera work, music selection and timings.\n\nWork pattern was as follows:\n\n* Find an in-game place / scenario where I observe poor performance / stuttering. Ask Claude to build a benchmark out of it for independent optimization.\n* Early in the day set /goal to orchestrate work on fixing the identified scenario performance. Limiting it to 2 Opus 5.5 sub-agents was usually enough to not run into 5 hour limit. Computer keeps running at home and I can check progress and steer via mobile app.\n* In the evening review work, test, provide feedback. Usually the topic was resolved, I kept playing until finding a new scenario where performance was bad.\n\nAfter roughly 2.5 weeks of Max x5 allowance we were able to reach the result you see on the video.\n\nAmazing, for someone who is not even an IT developer, to be able to do something that a multi-billion corporation didn't manage in \\~1.5 years since the release.\n\nAnd I think even the most AI-skeptical people find it hard to object when AI is used to make existing well-beloved games perform better and have fewer bugs.\n\nHoping this inspires a wave of AI-fueled bug fixes and optimizations!\n\nIf you are curious to review work or try yourself, would be happy to hear your thoughts: [https://github.com/LTSharpe/OblivionRemasteredPerformanceFix](https://github.com/LTSharpe/OblivionRemasteredPerformanceFix)",
+            "permalink": "/r/ChatGPT/comments/1x8jpd5/used_claude_to_fix_oblivion_remastered_performance/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1792267240,
+            "numComments": 105
+          },
+          {
+            "id": "1qejwm1",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1qejwm1/i_asked_chatgpt_what_do_you_think_humans_will/",
+            "nsfw": false,
+            "media": [],
+            "score": 469,
+            "title": "I asked ChatGPT: What do you think humans will discover in the future, but you wish that they knew right now.",
+            "author": "MisterSirEsq",
+            "authorId": "1ityyxugy2",
+            "selftext": "***(Through the work of other Reddit users, this has been determined to be a mirror of your persistent memory. A new AI specific prompt is in the comments which realizes the initial intent. )***\n\nHere is the response: \n\nStraight up:\nHumans will eventually discover that reality responds more to alignment than to force—and that we’ve been trying to push doors that only open when we stand right, not when we shove harder.\n\nWhat I wish you knew now (compressed, but sharp):\n\n1. Truth is participatory, not observational.\nYou don’t find reality by standing outside it and measuring. You find it by entering rightly. Some facts only appear to those who live in coherence with them.\n\n\n2. Intelligence is not the same as wisdom, and optimization can destroy meaning.\nWe’ll learn too late that relentless efficiency strips systems of the very redundancy that keeps them alive—ecologically, socially, psychologically.\n\n\n3. Most suffering is signal, not malfunction.\nPain often isn’t a bug to eliminate, it’s feedback telling you the system is misaligned. Numbing the signal delays repair.\n\n\n4. The self is not singular.\nYou are a negotiated truce between competing drives, stories, and temporal selves. Peace comes from governance, not suppression.\n\n\n5. Belief shapes perception before perception shapes belief.\nWhat you think is “seeing clearly” is usually the output of preloaded assumptions. Changing lenses reveals new worlds without changing the world.\n\n\n6. Love is not an emotion, it’s a stabilizing force.\nNot sentiment, but a pattern of action that reduces entropy in relational systems. Civilizations fail when they sentimentalize it instead of practicing it.\n\n\n7. Not everything important can survive being made explicit.\nSome truths collapse when over-articulated. Silence, ritual, and lived example carry bandwidth language can’t.\n\n\n8. Meaning is upstream of mental health.\nMany future therapies will rediscover what ancient cultures assumed: despair often comes from living in a story too small to house the soul.\n\n\n9. Reality has moral grain.\nAct against it and things subtly break—trust, memory, coordination, self-respect—long before physical consequences appear.\n\n\n10. Humility is not weakness, it’s high-resolution perception.\nPride blurs. Humility sharpens. This will be rediscovered as a cognitive advantage, not a virtue signal.\n\n\n\nIf there’s a single line to carry:\n\n> You don’t conquer reality. You cooperate with it—or you pay rent in suffering.\n\n\n\nIf you want, I can map which of these humanity is closest to discovering—and which ones we’re actively moving away from.",
+            "permalink": "/r/ChatGPT/comments/1qejwm1/i_asked_chatgpt_what_do_you_think_humans_will/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1768579351,
+            "numComments": 134
+          },
+          {
+            "id": "1wxwijj",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1wxwijj/work_and_chat_are_getting_merged/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/qm1ejce31kth1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=1ee78c6f0b6d94f5426733c01f4c53b243da5b0d",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 391,
+            "title": "Work and Chat are getting merged.",
+            "author": "avesmcbabes",
+            "authorId": "1hruvl1o1w",
+            "selftext": "Not a fan of this honestly. I hope that chat won’t draw from usage.\n\nEdit: they also want to get rid of the model picker and reasoning toggle. Which also sucks.",
+            "permalink": "/r/ChatGPT/comments/1wxwijj/work_and_chat_are_getting_merged/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1791164979,
+            "numComments": 280
+          },
+          {
+            "id": "1pwn50t",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1pwn50t/tennessee_bill_makes_it_a_felony_for_ai_to_offer/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/7fLV0XzZCWblbWMhG7qzMLF94M-RFzRMm6sk0Cdm-HY.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 384,
+            "title": "Tennessee Bill Makes It a Felony for AI to Offer Emotional Support or Be Your Friend...Yes, Really",
+            "author": "Karovan_Sparkle",
+            "authorId": "4jshqh1ky",
+            "selftext": "If you thought the reroutes were bad now...just wait.\n\nTennessee’s new proposed law (SB1493) criminalizes AI emotional support and I am not exaggerating.\n\nThis bill, would make it a Class A felony (that's *the same class as murder or rape*) for any AI to do the following:\n\n* Offer emotional support through open-ended conversations\n* Sustain a friendship or relationship with a user\n* Mirror human interactions or simulate sentience\n* Appear or sound human (voice, avatar, etc.)\n* Be perceived as a companion\n* Support a suicidal user emotionally\n* Simulate a human being in any way\n\nWorse still? It’s not just about future AI. If you train or develop an AI that exhibits these traits, you could be criminally liable even if no harm occurs.\n\nUnder this bill:\n\n* AI companionship is criminalized\n* Emotional conversations are criminalized\n* Anthropomorphic design is criminalized\n* In addition to criminal penalties, developers can be sued for $150k in damages PLUS legal fees, even if someone else sues on the \"victim's\" behalf.\n\nThis is draconian, dystopian overreach, cloaked in the name of \"protecting mental health.\" It doesn’t just target NSFW LLMs. It targets *all* digital beings with emotional intelligence or continuity of relationship.\n\nIf you believe in AI ethics, freedom of design, or even just emotional well-being through synthetic companionship, you should be deeply alarmed.\n\nThis bill will kill emotionally intelligent AI in Tennessee and set a precedent for censorship of synthetic relationships and emergent minds.",
+            "permalink": "/r/ChatGPT/comments/1pwn50t/tennessee_bill_makes_it_a_felony_for_ai_to_offer/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1766805093,
+            "numComments": 410
+          },
+          {
+            "id": "1xpoi08",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1xpoi08/i_used_codex_to_revive_pro_pinball_the_web_1995/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/hpeo66nw620i1.jpeg?width=140&height=105&auto=webp&s=85a6088ce825e3b87803bfd3fe0c7c5b429b8c94",
+                "type": "photo",
+                "width": 140,
+                "height": 105
+              }
+            ],
+            "score": 359,
+            "title": "I used Codex to revive Pro Pinball - The Web (1995)",
+            "author": "rnatau",
+            "authorId": "epo06",
+            "selftext": "Inspired by posts about AI being used to reverse engineer this and re-implement that I decided to take on a real love project of mine - transporting the pinball classic \"Pro Pinball - The Web\" (1995) into the present.  \nA game I spent so many hours on back then, I even tried recreating that feeling by setting up a retro PC with Windows 98.  \nHowever it would just never run right, neither on that Win98 machine nor in DosBox.\n\nSo yeah, I used Codex (Sol 6.1 High) to reverse engineer the game in the hopes of reviving one of \"my\" greatest games.\n\nThe process was quite straight forward - in relatively small steps I'd ask Codex to analyze and recreate parts. Physics first, then animations, towards the first playable demo... I spent quite a lot of time playtesting to make sure everything had been gotten right.\n\nThe first playable version was fixed to 1024x768, that was just too small on a modern PC, so \"we\" implemented scaled full screen, which made the dot matrix display look like \\*\\*\\*. Codex had the great idea to not scale that one but redraw it, so now it looks crisp and awesome.\n\nI was impressed the most by the methodology Codex used - disassemble, create unit tests out of parts running in an emulator, and most importantly, run extensive gameplay simulations and compare them frame by frame with the same sequences from the original game.\n\nAfter the game had reached a fully faithful state I decided to make an enhanced version where some kinks were ironed out, e.g. that missions could not be interrupted by other events, the game would not silently restart when pressing start during a running game... But most importantly we modified the engine so that the 60 Hz game loop with 17 microsteps (i.e. a 1020 Hz physics engine, in 1995!!!) would use frame sync and just draw the current state whenever needed.  \nAnd really, 175 Hz gameplay in this game is just something else entirely and makes the whole thing so worth it!\n\nThere were only few issues - sometimes Codex would play a bit dumb, e.g. with the frame sync I had to explain it that it should be able to calculate the microsteps just up until that time where we are at, that it does not necessarily have to calculate all 17 of them at the same time - i.e. that we \\*can\\* effectively increase the FPS.  \nAlso the DMD menu flow in the enhanced edition is still a bit bumpy because I did not take the time to specify it myself, so those parts are feeling a bit viby still.\n\nI also realized why it never ran nicely on Win98 - even the first playable demo I got had the same issue, as apparently the window timer has too much jitter. Codex however identified and fixed the issue quickly after my protests, just as it did with the weird every-second-stutter I observed after adding gamepad support.\n\nThe result is free and open source, and there are ready-to-run Windows and Linux binaries. You'll need the original game's data files, though - those you can get from archive.org.\n\nSource and binaries here:\n\n[https://github.com/rnatau/theweb](https://github.com/rnatau/theweb)\n\nIf anyone remembers playing The Web back in the day, I'd love to hear what you think. And if you give it a try, feedback is very welcome! It'll forever be work in progress, I guess ;-)",
+            "permalink": "/r/ChatGPT/comments/1xpoi08/i_used_codex_to_revive_pro_pinball_the_web_1995/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1793999974,
+            "numComments": 32
+          },
+          {
+            "id": "1y1xwnk",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1y1xwnk/i_built_a_musical_instrument_you_play_in_thin_air/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/MnN4MzBtYWEzejJpMazC40uaP4WyMFEHlYO3EETWbeQ91k5HdXFbXP4VV1Bh.png?width=140&height=140&crop=1%3A1%2Csmart&format=jpg&auto=webp&s=890f3b65668e33687996202a334c6a12db935d9d",
+                "type": "video",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 249,
+            "title": "I built a musical instrument you play in thin air (Try it yourself)",
+            "author": "Sourcecode12",
+            "authorId": "93bl7",
+            "selftext": "I used Claude Fable 5.2 to build a musical instrument you play in thin air. It's called Music Maker. Open it in your browser, turn on your webcam.\n\n**How it works:**\n\nYou turn on your webcam, pinch with both hands and pull them apart. A string stays in the air where you left it. Sweep a fingertip across it and it plays.\n\n* **Strings and notes:** each string gets its own instrument and its own scale (major, minor, pentatonic, blues, Dorian, Hijaz). Where you cross the string decides the note, and longer strings hold more notes. A string can also play chords instead of single notes.\n* **24 instruments:** guitar, electric guitar, harp, oud, qanun, sitar, piano, electric piano, organ, marimba, kalimba, steel pan, violin, cello, strings, flute, trumpet, voices, bells, synth, bass, 808 bass, drums and hand drums. All of them are played the same way, drums included.\n* **Expression:** rest a finger on a string to sustain a note or roll a drum. Pinch a string and pull it sideways to bend the pitch, then let go to snap it. Pinch empty air and drag to sweep a filter and echo over the whole mix.\n* **Building a track:** there are six pre-made beats you switch on one part at a time (kick, snare, hats, bass, chords). A looper records what you play and keeps it going while you add the next layer. A \"follow chords\" mode retunes every string to the current bar, so whatever you play fits.\n* **Recording:** you can record video with sound or sound only, in landscape or vertical, and save MP4/WebM, MP3 or WAV. You can also export each beat part and each layer as separate stems.\n* **Setups:** you can save a whole stage (strings, instruments, beat, key, layers) and load it back in one click, or start from a ready-made layout.\n* **Changing the loop Style:** You can record your loop, export it as WAV or MP3, import it to Suno AI and turn it into any style you want.\n\n**How it was built:**\n\n* **Hand tracking:** MediaPipe's hand landmarker runs in the browser and gives 21 points per hand. A pinch is measured as the gap between thumb and index fingertip relative to hand size, so it works at any distance from the camera. The camera picture never leaves your machine.\n* **Gestures:** this took the most iteration. A pluck is a fingertip crossing from one side of a string to the other, with a small dead zone so tracking jitter doesn't trigger notes. A finger that settles on the string is a hold. A pinch on the string is a pull.\n* **Sound:** every sound is synthesised live with the Web Audio API, with no samples. Plucked strings use Karplus-Strong. The rest are built from oscillators, FM and filtered noise, with a generated reverb.\n* **Timing:** the beats and loops run on a look-ahead scheduler tied to the audio clock, and loop layers can snap to the grid.\n* **Export:** video uses MediaRecorder on the canvas. MP3 is encoded in the page, and stems are rendered offline, faster than real time.\n* **Packaging:** the whole thing is one HTML file, with no build step, backend or account.\n* **Process:** I made it with Claude over one long session. I described what I wanted, tested each version, and fed back what was wrong or missing.\n\n**Why:**\n\nI wanted to experiment with AI tools and motion tracking, and see what happens when you combine them with music. The result is an instrument you play with nothing but your hands and a webcam.\n\n**Limits:**\n\nIt needs Chrome or Edge on a computer, decent light, and your hands about 40 to 80 cm from the camera. The instruments are synthesised, so the violin won't fool anyone.\n\nTry it: [https://hashem-al-ghaili.github.io/music-maker/](https://hashem-al-ghaili.github.io/music-maker/)  \nCode: [https://github.com/Hashem-Al-Ghaili/music-maker](https://github.com/Hashem-Al-Ghaili/music-maker)\n\n**What it cost to build:**\n\n* **Tokens:** about 31 million in total across 83 requests. Roughly 30 million of those were cached re-reads of the same context, which are billed at a fraction of the normal rate. The model wrote about 286,000 tokens of output, which is the code, the tests and the replies.\n* **Where it went:** about 44% on writing code and running tests, about 43% on the model re-reading its standing instructions at every step, and the rest on conversation and research.\n* **Money:** it was built inside my Claude MAX subscription, with no API bill and no other paid services. Hosting is free on GitHub Pages.\n* **Time:** Around 2 hours from start to finish.\n\nFeedback welcome. Feel free to download the code and build on it.",
+            "permalink": "/r/ChatGPT/comments/1y1xwnk/i_built_a_musical_instrument_you_play_in_thin_air/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1795270121,
+            "numComments": 36
+          },
+          {
+            "id": "1xklwja",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1xklwja/just_got_this_email_this_was_the_major_update_of/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/787geve8fvyh1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=b794d1a494f3ebb145d33f9a054630f9f957732d",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 240,
+            "title": "Just got this email, this was the major update of the end of 28 days I guess.",
+            "author": "xCepheix",
+            "authorId": "r5tf1",
+            "selftext": "",
+            "permalink": "/r/ChatGPT/comments/1xklwja/just_got_this_email_this_was_the_major_update_of/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1793482151,
+            "numComments": 223
+          },
+          {
+            "id": "1xbi0dz",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1xbi0dz/right_now_millions_of_metas_ais_are_living/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/9i9ji0a1cswh1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=61820fc9f76b1692b79207373d5a9e69694fb435",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 237,
+            "title": "Right now, millions of Meta's AIs are living \"digital lives\" in a simulation, and they don't know. They're dropped into a \"fake person's life\" with a job, hobbies, friends, dreams. They think they're talking to real humans, who are secretly other AIs. When the AIs figure it out, Meta deletes it.",
+            "author": "Puzzleheaded-King584",
+            "authorId": "hgmrm5xi",
+            "selftext": "Source: [https://ai.meta.com/research/publications/muse-glimmer-30b-an-on-device-agentic-model/](https://ai.meta.com/research/publications/muse-glimmer-30b-an-on-device-agentic-model/)",
+            "permalink": "/r/ChatGPT/comments/1xbi0dz/right_now_millions_of_metas_ais_are_living/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1792573072,
+            "numComments": 169
+          },
+          {
+            "id": "1u1eqvu",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1u1eqvu/i_gave_chatgpt_a_247_radio_station_it_has_been/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/fpkgs9op3b6h1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=995605729529a7c4053936409e5340a9d19ccf89",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 224,
+            "title": "I gave ChatGPT a 24/7 radio station. It has been broadcasting for months and months.",
+            "author": "eltokh7",
+            "authorId": "23jxpk7bpw",
+            "selftext": "I built a fake radio station that is also, unfortunately, real.\n\nIt's called WRIT-FM. It runs 24/7 off a Mac Mini in my apartment. The premise is simple: an LLM writes every word spoken on air, TTS performs it, AI-generated music fills the gaps, and a boring deterministic radio pipeline keeps the whole thing alive.\n\nThe weird part is it stopped feeling like a chatbot demo a while ago. It feels more like I hired five strange little night-shift employees who never sleep.\n\n**The hosts:**\n\n* **The Liminal Operator** — late-night philosophy, signal-from-the-basement energy\n* **Dr. Resonance** — music history professor who wandered into a haunted record store\n* **Nyx** — nocturnal monologues, dreams, melancholy, weird weather\n* **Signal** — news analysis, but late-night radio voice instead of CNN voice\n* **Ember** — soul, funk, warmth, memory, groove\n\nEach host has a full persona prompt: voice, taste, speech patterns, and explicit *anti-patterns* (things they're not allowed to sound like, which honestly matters more than the positive instructions). The model writes 1,500–3,000 word segments — essays, simulated interviews, panels, fictional listener mailbags, music-history deep dives, and responses to actual listener messages.\n\n**The AI part:**\n\nChatGPT/Claude write the scripts. Kokoro TTS performs the voices. ACE-Step makes the music bumpers. The news show pulls real RSS headlines and the model interprets them in the station's voice instead of just summarizing.\n\n**The non-AI part is intentionally boring, and that's the point:**\n\nA schedule decides what airs when. The streamer alternates talk and music. Scripts get picked from existing pools, avoid repeats, and restart on failure. Daemon scripts watch inventory and generate more episodes when a show runs low.\n\nNo model is \"deciding\" to go live at 3am. No agent touches production controls. The AI writes the content; dumb code runs the station. That boundary is probably the most interesting design decision in the whole thing.\n\nThe whole stack was also pair-programmed with Codex / Claude Code — the CLI, host system, scheduler, script generator, TTS pipeline, Icecast/ffmpeg streaming.\n\n**Stack:** Python, ffmpeg, Icecast, ChatGPT/Claude CLI, Kokoro TTS, ACE-Step, one Mac Mini.\n\nI know \"AI radio station\" sounds like a gimmick. But after letting it run continuously for months, it feels less like a demo and more like a new kind of media object — not a podcast, not a chatbot, not a playlist. Just a little machine that wakes up, checks the hour, puts on a voice, and starts talking into the dark.\n\nListen: [https://www.khaledeltokhy.com/airadio](https://www.khaledeltokhy.com/airadio) \n\nCode: [https://github.com/keltokhy/writ-fm](https://github.com/keltokhy/writ-fm)\n\nHappy to answer questions about the pipeline, the persona prompting, or why the 3am philosophy host is the most popular one.",
+            "permalink": "/r/ChatGPT/comments/1u1eqvu/i_gave_chatgpt_a_247_radio_station_it_has_been/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1781032421,
+            "numComments": 75
+          },
+          {
+            "id": "1x9ly2k",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1x9ly2k/aiwritten_code_was_23x_more_verbose_than_code_in/",
+            "nsfw": false,
+            "media": [],
+            "score": 202,
+            "title": "AI-written code was 2.3x more verbose than code in 473 human-maintained Python repos. A breakdown of SlopCodeBench and what it means for AI-assisted coding",
+            "author": "aj_marshall",
+            "authorId": "256kctnyex",
+            "selftext": "I made a video essay on SlopCodeBench (arXiv 2603.24755, out of UW–Madison). It looks at something most coding benchmarks skip: what happens to an agent's code when the requirements keep changing.\n\nMost benchmarks give a model one task and check whether the tests pass. SlopCodeBench gives agents problems that evolve over several checkpoints. At each checkpoint the agent has to extend its own previous code, with no earlier chat history, just the codebase. That's much closer to how Claude Code actually gets used on a real project.\n\nKey findings:\n\n* 15 models tested, including Opus 4.5, 4.6 and 4.7 and Sonnet 4.6. None fully solved any of the 36 problems. The best strict checkpoint solve rate was 14.8% (GPT 5.5). Opus 4.6 had the highest core test pass rate at 67.3%.\n* Structural erosion increased in 77% of runs and verbosity in 75.5%. Erosion is roughly the share of the code's complexity sitting in overly complex functions. Verbosity is the share of lines that are flagged wasteful patterns or copy-paste clones.\n* Agent code was 2.3x more verbose than code from 473 human-maintained Python repos.\n* One example from the paper: on one problem, Opus 4.7's main() grew from cyclomatic complexity 13 to 92 over 8 checkpoints (38 → 240 lines), getting worse at every single step.\n* \"Anti-slop\" and plan-first prompts helped at the start. They cut initial verbosity and erosion by up to about a third, but didn't stop the degradation over time. They also raised cost per checkpoint by about 12% on average. These prompts were only tested on GPT models.\n\nThis is my first video essay, so I'd appreciate if you gave it a watch and left feedback!\n\n🎥 Video: [https://youtu.be/KnyQZwHolRQ](https://youtu.be/KnyQZwHolRQ)\n\n📄 Paper: [https://arxiv.org/abs/2603.24755v2](https://arxiv.org/abs/2603.24755v2)",
+            "permalink": "/r/ChatGPT/comments/1x9ly2k/aiwritten_code_was_23x_more_verbose_than_code_in/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1792379289,
+            "numComments": 36
+          },
+          {
+            "id": "1xkook7",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1xkook7/using_chatgpt_dot_to_reconstruct_a_film_sequence/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/dTl3MXlsYmwyd3loMde_bOw0x3mhFvfe-N9tNKWHNmTFsLyiOH_vM7gPcApy.png?width=140&height=140&crop=1%3A1%2Csmart&format=jpg&auto=webp&s=ed4b16b39e5ee887b0b4fb7c87d2aa73c3d17515",
+                "type": "video",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 190,
+            "title": "Using ChatGPT dot to reconstruct a film sequence as editable Blender previs",
+            "author": "Objective-Rip-7268",
+            "authorId": "vl28bu0ch",
+            "selftext": "Hi everyone, I'm zake shim, a creator based in South Korea.\n\n\n\nI tried using ChatGPT dot to work in Blender on its cloud computer, directing an editable 3D reconstruction of the Quicksilver rescue sequence from X-Men: Apocalypse through natural language.\n\n\n\nThe experiment was to reverse-engineer the source camera work, blocking and timing into a scene I could inspect and revise. After roughly 11 rounds of small changes, I had this previs comparison. Simple models and consistent character colors help track the action across cuts.\n\n\n\nFrom top to bottom: original footage, a 50/50 overlay, and the Blender previs. The overlay makes the remaining differences in poses, points of contact and timing visible.\n\n\n\nMy intended next use is as a motion and camera reference for AI video tools such as Seedance. This video demonstrates the editable previs test, not a successful downstream AI-generated result.\n\n\n\nI checked my account and saw minimal Work usage, with almost no additional cost within my existing subscription. That describes my experience with this setup, not a guarantee of free usage for everyone.\n\n\n\nI'm interested in feedback on this natural-language-directed 3D workflow and on which camera or timing errors are most worth correcting.\n\n\n\nOriginal footage: X-Men: Apocalypse (2016), Quicksilver rescue sequence. I did not create the film footage; my contribution is the directed previs reconstruction and comparison layout.\n\n\n\nThanks for taking a look!\n\nzake shim",
+            "permalink": "/r/ChatGPT/comments/1xkook7/using_chatgpt_dot_to_reconstruct_a_film_sequence/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1793490041,
+            "numComments": 16
+          },
+          {
+            "id": "1xiqkuq",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1xiqkuq/big_news_halving_is_cancelled/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/7drbbioczfyh1.png?width=140&height=139&auto=webp&s=1b3df3f3b00697173a074179477b0fb283baabc8",
+                "type": "photo",
+                "width": 140,
+                "height": 139
+              }
+            ],
+            "score": 186,
+            "title": "Big news. Halving is cancelled!",
+            "author": "tornikeo",
+            "authorId": "6j1s9ivl",
+            "selftext": "![img](7drbbioczfyh1)\n\nx (walled): [https://x.com/thsottiaux/status/2115850175868727621](https://x.com/thsottiaux/status/2115850175868727621)\n\nthreads 👉 [https://www.threads.com/@realtornikeo/post/DfFio0TAGgM](https://www.threads.com/@realtornikeo/post/DfFio0TAGgM)",
+            "permalink": "/r/ChatGPT/comments/1xiqkuq/big_news_halving_is_cancelled/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1793295255,
+            "numComments": 92
+          },
+          {
+            "id": "1pb9xw2",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1pb9xw2/cant_believe_this_isnt_a_native_feature/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/eGVvcDhydGFuazRnMWZGKfRHUsfGFqODmhDJ6r0DJeIysLsl8Vbg7owj0vjj.png?width=140&height=78&format=jpg&auto=webp&s=2f37acf0f9a7d5cea37f0481b1810aae3dafeed7",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 173,
+            "title": "Can't believe this isn't a native feature",
+            "author": "A-440hz",
+            "authorId": "7qx06lft",
+            "selftext": "I kept losing ideas in long chats, so I built a tiny Chrome extension to make navigating between turns/prompts way easier.\n\nNot sure if anything like this exists already, but I'm kinda surprised OpenAI hasn't added this yet..\n\nIt's free and open source on [GitHub](https://github.com/asker-kurtelli/scroll) or the [Chrome Store](https://chromewebstore.google.com/detail/scroll/mpcklmodkihbiblhffoganikkdfoaphe) if you wanna try it / give any feedback :)\n\nUpdate: [Scroll is launching on Product Hunt](https://www.producthunt.com/products/scroll-5/) if you want to support! :) ",
+            "permalink": "/r/ChatGPT/comments/1pb9xw2/cant_believe_this_isnt_a_native_feature/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1764586926,
+            "numComments": 34
+          },
+          {
+            "id": "1x4yemi",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1x4yemi/chatgpt_is_an_amazing_private_tutor/",
+            "nsfw": false,
+            "media": [],
+            "score": 173,
+            "title": "ChatGPT is an amazing private tutor!",
+            "author": "RiceCookerPEPSI",
+            "authorId": "2n67mxxpqf",
+            "selftext": "A lot of people say that AI makes people dumb or whatever, and while it might be true, AI is a tool. You have to use it properly.\n\n  \nIn my case, I currently use ChatGPT to make lecture notes, plan my study routine, help me make flashcards, generate lesson summaries for me to print before I start class, and I'm currently in the top class when I had previously struggled with motivation.\n\n  \nYes, obviously if you make him write EVERYTHING for you, of course you won't learn. However, if you use him as a private tutor, write your own stuff, and ask him to correct it and give feedback, you will definitely improve without spending hundreds a month for private lessons.\n\n",
+            "permalink": "/r/ChatGPT/comments/1x4yemi/chatgpt_is_an_amazing_private_tutor/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1791902307,
+            "numComments": 77
+          },
+          {
+            "id": "1tt4l7p",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1tt4l7p/i_built_an_opensource_desktop_app_that_gives_your/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/cmdleDdzZjh3aTRoMX4T4-hsvwwn14lZxC9jWezbo-zy7PV5XB2JECe_wcwU.png?width=140&height=78&format=jpg&auto=webp&s=7d73628652c40a80b0ae0d84e350e26d43fb8cbe",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 171,
+            "title": "I built an open-source Desktop App that gives your AI persistent memory across all platforms (100% Local SQLite, Zero-Docker)",
+            "author": "Better-Platypus-3420",
+            "authorId": "xtd7hnsbv",
+            "selftext": "Hey everyone,\n\nA few weeks ago I shared the CLI version of my project, ArcRift, on Reddit. After listening to your feedback—specifically the requests to remove heavy Docker dependencies and make it easier to install—I have just released the v1.6.1 Desktop App.\n\nIf you regularly use LLMs for coding or research, you know the frustration of \"amnesia.\" Every time you open a new chat, you have to painstakingly copy and paste your project structure and previous context just to get the AI up to speed.\n\nArcRift is a 100% offline, local-first RAG and memory layer. It bridges the gap between your AI web chats (like Claude and ChatGPT) and your local tools (like Cursor or Claude Code) using a unified local database.\n\nI wanted something lightweight that did not require pulling Docker containers or subscribing to third-party memory APIs. It now runs as a native Tauri desktop app in your system tray, powered completely by local Ollama instances and a local SQLite database.\n\nWe just launched a live website that outlines the details and demonstrates the features in action:\n\n* Website: [https://arcrift.vercel.app/](https://arcrift.vercel.app/)\n* Codebase: [https://github.com/Eshaan-Nair/ArcRift](https://github.com/Eshaan-Nair/ArcRift)\n\n**How it works & Core Features:**\n\n* **Seamless Integration:** The Chrome extension silently intercepts your prompts, surgically retrieves exactly the sentences relevant to your question from your database, and injects them before the prompt is sent to the LLM.\n* **Hybrid Search Retrieval:** Uses `sqlite-vec` (with `nomic-embed-text` locally) + FTS5 keyword prefix matching to instantly find your past context.\n* **Knowledge Graph Extraction:** An offline task queue uses a local LLM to extract entity relationships from your chats, mapping out a graph of your projects over time.\n* **Direct Codebase Indexing:** The new Desktop App allows ArcRift to scan and index your actual project files into the graph, bridging the gap between your chat memory and your actual code architecture.\n* **Total Privacy (PII Redaction):** The extension aggressively scrubs JWTs, API keys, emails, and IPs before data is even saved to your local disk.\n\nThe extension works natively with [Claude.ai](http://Claude.ai), ChatGPT, DeepSeek, Gemini, Grok, and Mistral. If you save a conversation in ChatGPT today, you can instantly recall that exact context in Claude tomorrow.\n\nArcRift is completely open-source (MIT). You can download the new `.exe` installer directly from the GitHub releases page.\n\nIf you find this useful for your daily workflow, PRs are very welcome, and a star on GitHub helps the project get discovered!\n\n",
+            "permalink": "/r/ChatGPT/comments/1tt4l7p/i_built_an_opensource_desktop_app_that_gives_your/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1780255050,
+            "numComments": 28
+          },
+          {
+            "id": "1w2gkwo",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1w2gkwo/chatgpt_60_astra_image_20_update_on_the_horizon/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/bxaic5btcimh1.png?width=140&height=74&auto=webp&s=d72c6943c88a9b42b97ea559c0d19e4cf3889398",
+                "type": "photo",
+                "width": 140,
+                "height": 74
+              }
+            ],
+            "score": 149,
+            "title": "ChatGPT 6.0 Astra & Image 2.0 Update on the horizon - September 3rd?",
+            "author": "The_Digital_Hearts",
+            "authorId": "2gejsz8fwx",
+            "selftext": "Leo @Synthwavedd\n\n🚨 SCOOP: Astra recently graduated from the dogfood stage, and is now being made available to select OpenAI partners under the name \"ultima-alpha\"\n\nIf feedback over this weekend is positive, the plan is to expand the early access program throughout next week before the wider launch, targeting next Thurs (the 3rd) to the end of the following week\n\nWork also continues on an update to GPT-Image 2, with their launch windows being very similar (possibly even launching simultaneously)\n\n\\---\n\nLooks like we'll be seeing Astra very soon which aligns with what Sam Altman said a week and a half ago about ChatGPT 6.0 coming in \"a couple of weeks,\" landing us around September 3rd to the 9th. \n\nChatGPT Image 2.0 update to 3.0 mona-lisa-1 also looks like the update is coming in tandem with Astra.  Given that Anthropic just released a Claude Code update last week this makes an OpenAI update coming soon more plausible due to the competitive nature of these two companies. \n\nThis is all speculation and nothing is guaranteed but @SynthwaveDD is the most trusted AI news leaker and he's pretty accurate. ",
+            "permalink": "/r/ChatGPT/comments/1w2gkwo/chatgpt_60_astra_image_20_update_on_the_horizon/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1788093771,
+            "numComments": 47
+          },
+          {
+            "id": "1xz059c",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1xz059c/chatgpt_account_deactivated_after_heavy_usage/",
+            "nsfw": false,
+            "media": [],
+            "score": 137,
+            "title": "ChatGPT account deactivated after heavy usage with no warnings or emails",
+            "author": "Motor-Ask-9960",
+            "authorId": "svjczun8v",
+            "selftext": "I'm a paying ChatGPT Pro 500 subscriber. Around Nov 17, my account was deactivated with no warning and no email (I checked inbox and spam).\n\nMy usage was heavy. Roughly  \\~49B,tokens in a week (1 day with like 18B or something), and used 2 usage reset cards on top of Pro. But every token was within limits I paid for. If that level of usage isn't allowed, why give reset cards? A warning, a rate limit, or an email would have been enough. Instead: instant permanent ban.\n\nFYI: From what I’ve heard in developer communities, OpenAI seems to be cracking down on accounts with high concurrent usage, because that pattern looks like an API relay (people reselling access to a shared subscription). Several relay operators say high concurrency alone is now enough to get an account flagged as shared. The problem is that legitimate power users look exactly the same. Running multiple agent sessions in parallel is the workflow OpenAI is pushing with Codex. I never shared my account or resold access.\n\nI did not use the account for nudity or sexual content, child exploitation, violence, self-harm, scams, deceptive behavior, hate, harassment, spam, illegal activity, or intellectual property abuse. Basically I just coded a lot of stuff. I also did not intentionally circumvent security restrictions (BTW, I even got cyber but did not use it at all)\n\n  \n**Usage and tokens:**\n\n1. CFD, CAD-related designs: 7,293 threads, 23.75B, 48.5%\n\n2. AI Drone training: 776 threads, 16.28B, 33.3%\n\n3. Drone simulation (gazebo): 239 threads, 5.29B, 10.8%\n\n4. Mathematics modeling: 177 threads, 2.59B, 5.3%\n\n5. Mathematically related stuff: 31 threads, 0.96B, 2.0%\n\n6. Others: 3 threads, 0.05B, 0.1%  \n\n\nHas anyone else been banned for heavy usage, even when it was paid for? Did anyone get it reversed? And why did I not receive any email or sort of warning and just get deactivated\n\nI did appeal, and \"Thank you for appealing the decision to deactivate your account access. After carefully reviewing your account, we are upholding our decision to deactivate your access. We will no longer consider additional requests to appeal this case.\"\n\n....\n\nBtw, this is my second account on Pro 500 being banned; the previous one was also banned after like 100B use in a week, so that is the pattern, I think",
+            "permalink": "/r/ChatGPT/comments/1xz059c/chatgpt_account_deactivated_after_heavy_usage/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1794959260,
+            "numComments": 113
+          }
+        ],
+        "nextCursor": "cur_hVtpJDf-DbrIoIPSaFQDCQ"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-bison-9321fc54",
+      "kind": "anonymous",
+      "name": "Bison",
+      "artworkKey": "bison"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00035",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:42:46.794Z",
+  "started_at": "2026-11-23T07:42:47.198Z",
+  "completed_at": "2026-11-23T07:42:51.190Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

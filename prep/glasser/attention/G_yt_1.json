@@ -1,0 +1,292 @@
+{
+  "id": "e6a5f949-cf08-4f21-a1ac-10e5fd1f5985",
+  "run_url": "https://app.glasser.ai/runs/e6a5f949-cf08-4f21-a1ac-10e5fd1f5985",
+  "provider": "anyapi",
+  "endpoint": "/youtube.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "query": "AI agents play Among Us",
+    "sortBy": "popular",
+    "uploadDate": "this_year"
+  },
+  "output": {
+    "hint": "large_result: this response is ~8 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge. paging_unavailable: this result came from a source that cannot return a nextCursor, so it may be incomplete and there is no way to continue from here. Re-run with `requireFields: [\"nextCursor\"]` to be served only by a source that can page, which may cost more per request.",
+    "items": 19,
+    "output": {
+      "data": {
+        "videos": [
+          {
+            "id": "uRDBco-cSK4",
+            "url": "https://www.youtube.com/watch?v=uRDBco-cSK4",
+            "image": "https://i.ytimg.com/vi/uRDBco-cSK4/hq720.jpg",
+            "title": "Scientists Left 1000 AIs Alone in Minecraft. They Created A Civilization.",
+            "views": 5856845,
+            "channel": "Species | Documenting AGI",
+            "authorId": "UCEENWVBdvDy-QWfuQoXC9HQ",
+            "createdUtc": 1771832429,
+            "lengthText": "18:06",
+            "publishedTime": "9 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/dQWafNHONNPf4PzXubVMVclGXfHPSEy5Kbi6XhNb7GSdQgGYGTsHk1pv-aBlRQhk2RZEgUHaj5U=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "1qJN9OqaXxU",
+            "url": "https://www.youtube.com/watch?v=1qJN9OqaXxU",
+            "image": "https://i.ytimg.com/vi/1qJN9OqaXxU/hq720.jpg",
+            "title": "I Forced 5 AIs to Work Together...(it was bad)",
+            "views": 3712569,
+            "channel": "Turing Games",
+            "authorId": "UCX_o-hHyIPhU43N_aGQG1GA",
+            "createdUtc": 1779522029,
+            "lengthText": "15:35",
+            "publishedTime": "6 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/SIOfIlZRNJUV5HEyT5PkjCaCcc7wvn3joNTP6bZXGAoQ4NS5gCAC1QgjpheLwHSbvT8GnbMFE_E=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "JhBtg-lyKdo",
+            "url": "https://www.youtube.com/watch?v=JhBtg-lyKdo",
+            "image": "https://i.ytimg.com/vi/JhBtg-lyKdo/hq720.jpg",
+            "title": "10 AIs Play Mafia",
+            "views": 2653795,
+            "channel": "Turing Games",
+            "authorId": "UCX_o-hHyIPhU43N_aGQG1GA",
+            "createdUtc": 1766475629,
+            "lengthText": "29:59",
+            "publishedTime": "11 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/SIOfIlZRNJUV5HEyT5PkjCaCcc7wvn3joNTP6bZXGAoQ4NS5gCAC1QgjpheLwHSbvT8GnbMFE_E=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "Sxmd7T_dyaM",
+            "url": "https://www.youtube.com/watch?v=Sxmd7T_dyaM",
+            "image": "https://i.ytimg.com/vi/Sxmd7T_dyaM/hq720.jpg",
+            "title": "I Forced 10 AIs to play Among Us...(it was crazy)",
+            "views": 1972272,
+            "channel": "Turing Games",
+            "authorId": "UCX_o-hHyIPhU43N_aGQG1GA",
+            "createdUtc": 1771832429,
+            "lengthText": "20:30",
+            "publishedTime": "9 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/SIOfIlZRNJUV5HEyT5PkjCaCcc7wvn3joNTP6bZXGAoQ4NS5gCAC1QgjpheLwHSbvT8GnbMFE_E=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "cx-Cwz3GdEI",
+            "url": "https://www.youtube.com/watch?v=cx-Cwz3GdEI",
+            "image": "https://i.ytimg.com/vi/cx-Cwz3GdEI/hq720.jpg",
+            "title": "10 AIs Play Among Us",
+            "views": 1375098,
+            "channel": "Turing Games",
+            "authorId": "UCX_o-hHyIPhU43N_aGQG1GA",
+            "createdUtc": 1771832429,
+            "lengthText": "22:12",
+            "publishedTime": "9 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/SIOfIlZRNJUV5HEyT5PkjCaCcc7wvn3joNTP6bZXGAoQ4NS5gCAC1QgjpheLwHSbvT8GnbMFE_E=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "sJ1Dtr18mc8",
+            "url": "https://www.youtube.com/watch?v=sJ1Dtr18mc8",
+            "image": "https://i.ytimg.com/vi/sJ1Dtr18mc8/hq720.jpg",
+            "title": "Can 1 Human Fool 9 AIs?",
+            "views": 2282917,
+            "channel": "Turing Games and 5up",
+            "createdUtc": 1792741229,
+            "lengthText": "25:18",
+            "publishedTime": "1 month ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/SIOfIlZRNJUV5HEyT5PkjCaCcc7wvn3joNTP6bZXGAoQ4NS5gCAC1QgjpheLwHSbvT8GnbMFE_E=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "lEOTKYxiIzs",
+            "url": "https://www.youtube.com/watch?v=lEOTKYxiIzs",
+            "image": "https://i.ytimg.com/vi/lEOTKYxiIzs/hq720.jpg",
+            "title": "7 Ais play Diplomacy",
+            "views": 908996,
+            "channel": "Quinn Henry",
+            "authorId": "UCIAQuWY4lfGn8xArU_hG-dw",
+            "createdUtc": 1774251629,
+            "lengthText": "1:01:05",
+            "publishedTime": "8 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/4HUxSZuV299TeqMpcXwgTRKDEdAKHqHko7zokISvNNTzUWJDc4D2BsYbXADxFhVlUWBfuuyO=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "cy_hmlpCOPU",
+            "url": "https://www.youtube.com/watch?v=cy_hmlpCOPU",
+            "image": "https://i.ytimg.com/vi/cy_hmlpCOPU/hq720.jpg",
+            "title": "I Forced the Smartest AI in the World to Play Among Us...(it was surprising)",
+            "views": 275583,
+            "channel": "Turing Games",
+            "authorId": "UCX_o-hHyIPhU43N_aGQG1GA",
+            "createdUtc": 1784792429,
+            "lengthText": "23:40",
+            "publishedTime": "4 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/SIOfIlZRNJUV5HEyT5PkjCaCcc7wvn3joNTP6bZXGAoQ4NS5gCAC1QgjpheLwHSbvT8GnbMFE_E=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "kjriOHxuf6s",
+            "url": "https://www.youtube.com/watch?v=kjriOHxuf6s",
+            "image": "https://i.ytimg.com/vi/kjriOHxuf6s/hq720.jpg",
+            "title": "I Made AI Agents Play Among Us - They Learned to Lie, Kill & Deceive",
+            "views": 11316,
+            "channel": "Ryan Susman",
+            "authorId": "UCgzdK6hoZUK6JLURkCWdIGA",
+            "createdUtc": 1766475629,
+            "lengthText": "7:40",
+            "publishedTime": "11 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/ytc/AIdro_lD3TP0Io1bWww8s_uqO-GNIl_4sFvcgU6Pyw0kS7HQzYYK=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "KLsHik2IOdc",
+            "url": "https://www.youtube.com/watch?v=KLsHik2IOdc",
+            "image": "https://i.ytimg.com/vi/KLsHik2IOdc/hq720.jpg",
+            "title": "12 AIs Play Mafia: ChatGPT vs Gemini vs Grok",
+            "views": 3898,
+            "channel": "Schrodinger's Agents",
+            "authorId": "UCKX9aj_k2OX9qOyQSdKWW3g",
+            "createdUtc": 1769154029,
+            "lengthText": "31:52",
+            "publishedTime": "10 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/bnT98BCDpS_cq5WcHDXZqeCjBvuGuLScSuRbbIev48_u0Lv4xp_wxpVItXsDcWqsagjs9OUcv6M=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "sbwI48-dHEY",
+            "url": "https://www.youtube.com/watch?v=sbwI48-dHEY",
+            "image": "https://i.ytimg.com/vi/sbwI48-dHEY/hq720.jpg",
+            "title": "8 Idiot AIs Play Among Us Tournament",
+            "views": 1158,
+            "channel": "Silly Sasquatch",
+            "authorId": "UCn8wP2oAdHszutIE3kRa3lA",
+            "createdUtc": 1794210029,
+            "lengthText": "21:31",
+            "publishedTime": "2 weeks ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/sEp9r66L4oVd6v1tOQbW58rYfmduTrMDp07oiQic_EXdEbBpacogRZeGRyx9toIQP84qh4E=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "rbEVG_qq-NI",
+            "url": "https://www.youtube.com/watch?v=rbEVG_qq-NI",
+            "image": "https://i.ytimg.com/vi/rbEVG_qq-NI/hq720.jpg",
+            "title": "Are These AIs Dumb Or Genius !!! | 10 AIs Play Among Us Reaction",
+            "views": 922,
+            "channel": "Da_OnlyDavid",
+            "authorId": "UCIs5TR6Ngt4NIYzCHKtFXvw",
+            "createdUtc": 1771832429,
+            "lengthText": "31:04",
+            "publishedTime": "9 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/lSSlgulbnYCemAVuGGkuiyCYLXEpyt3_rpH1hKtrPSoeKWNP8rcqN34QhxhNtxWI6VaRfkBBi2E=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "g5pieBjCMwk",
+            "url": "https://www.youtube.com/watch?v=g5pieBjCMwk",
+            "image": "https://i.ytimg.com/vi/g5pieBjCMwk/hq720.jpg",
+            "title": "AI plays Among Us - ChatGPT vs Claude",
+            "views": 405,
+            "channel": "AI Academy",
+            "authorId": "UCLPyGfqhsCawMKLHmsbxgBg",
+            "createdUtc": 1771832429,
+            "lengthText": "1:03",
+            "publishedTime": "9 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/GDT2jqgMGBqSJwuZPaenkJd7e7qOZ4Pf4ivXafW6jLkRqjXB56rqexi3s838yYZE0H42oxtUNg=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "2VmS_qfP0h0",
+            "url": "https://www.youtube.com/watch?v=2VmS_qfP0h0",
+            "image": "https://i.ytimg.com/vi/2VmS_qfP0h0/hq720.jpg",
+            "title": "I Let ChatGPT Play Among Us For Me 😭 AI AMONG US GAMEPLAY",
+            "views": 516,
+            "channel": "UncPlays",
+            "authorId": "UCzk7m81rhqlbTYN5MC5Vb2A",
+            "createdUtc": 1782200429,
+            "lengthText": "8:31",
+            "publishedTime": "5 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/vogiNLF3LZZylcCEtWwsYaD6uQzHIZ0gx6zu_t4T1T_Wt4mnnnaH1cHUWqjdwerxax57tQT-VAE=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "LsnX2GPEYO0",
+            "url": "https://www.youtube.com/watch?v=LsnX2GPEYO0",
+            "image": "https://i.ytimg.com/vi/LsnX2GPEYO0/hq720.jpg",
+            "title": "If AI CHATBOTS Played AMONG US",
+            "views": 307,
+            "channel": "GroupChat Gods",
+            "authorId": "UCrs7FW_uDVVeDdCV3Q4s8Dw",
+            "createdUtc": 1790149229,
+            "lengthText": "4:03",
+            "publishedTime": "2 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/4NLcbHtUsszpgnylnJEDU5u4VRXIKI_Z-qOXR9Yzmg_NCpKBkXIdV1Ka3mXO1iFNXWs_AFHS=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "5Mh-FblT3_g",
+            "url": "https://www.youtube.com/watch?v=5Mh-FblT3_g",
+            "image": "https://i.ytimg.com/vi/5Mh-FblT3_g/hq720.jpg",
+            "title": "Can 10 AI Actually Play Among Us?! - Watchalong With Unc",
+            "views": 225,
+            "channel": "UncPlays",
+            "authorId": "UCzk7m81rhqlbTYN5MC5Vb2A",
+            "createdUtc": 1784792429,
+            "lengthText": "38:38",
+            "publishedTime": "4 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/vogiNLF3LZZylcCEtWwsYaD6uQzHIZ0gx6zu_t4T1T_Wt4mnnnaH1cHUWqjdwerxax57tQT-VAE=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "AZa-WeSajyY",
+            "url": "https://www.youtube.com/watch?v=AZa-WeSajyY",
+            "image": "https://i.ytimg.com/vi/AZa-WeSajyY/hq720.jpg",
+            "title": "🔴 LIVE: AI Agents Survive Minecraft — Gemini Plays 24/7 | VoxelMind",
+            "views": 104,
+            "channel": "VoxelMind",
+            "authorId": "UC_payLT4S76v6WaVS1UucpA",
+            "lengthText": "2:14:49",
+            "publishedTime": "Streamed 5 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/neTcC5ppm6srP-zQPKf83gOrmgzY5aLayb_Baa3w93v0DvItN3Ujno02xGND2C0Y1UVaoa3J=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "UYVRajquLyI",
+            "url": "https://www.youtube.com/watch?v=UYVRajquLyI",
+            "image": "https://i.ytimg.com/vi/UYVRajquLyI/hq720.jpg",
+            "title": "LLMS Play Among Us",
+            "views": 63,
+            "channel": "Neural Intel Media",
+            "authorId": "UCzBAEPlRus2AvNEYRIrQFnw",
+            "createdUtc": 1766475629,
+            "lengthText": "11:51",
+            "publishedTime": "11 months ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/hvwWE_tez2vWp6HFdiz2AIwt8232BdP1kvbAKYe5uRtiNIIvtp6EUlQjwROYNeJWkD0NOe4kdw=s68-c-k-c0x00ffffff-no-rj"
+          },
+          {
+            "id": "_TXVXkwerK0",
+            "url": "https://www.youtube.com/watch?v=_TXVXkwerK0",
+            "image": "https://i.ytimg.com/vi/_TXVXkwerK0/hq720.jpg",
+            "title": "I Made 8 AI Agents Play Mafia. Here's What Happened",
+            "views": 35,
+            "channel": "Simulation Protocol",
+            "authorId": "UCaeD-cYXh1Tlec13yT__YKw",
+            "createdUtc": 1792741229,
+            "lengthText": "35:03",
+            "publishedTime": "1 month ago",
+            "authorAvatarUrl": "https://yt3.ggpht.com/6WLfMmUk4DqNo-NJsGGNsa_LyeNXwnVJAYdeZ688CJENfo5gwBm-5ren6jBqnwnPFQxvOCxDyA=s68-c-k-c0x00ffffff-no-rj"
+          }
+        ]
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-badger",
+      "kind": "anonymous",
+      "name": "Badger",
+      "artworkKey": "badger"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.0012",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:40:27.883Z",
+  "started_at": "2026-11-23T07:40:27.928Z",
+  "completed_at": "2026-11-23T07:40:29.410Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

@@ -1,0 +1,591 @@
+{
+  "id": "83ea8179-58bd-4650-8ac6-f209ba4bb0d3",
+  "run_url": "https://app.glasser.ai/runs/83ea8179-58bd-4650-8ac6-f209ba4bb0d3",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "subreddit:IndieGaming Among Us AI",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "large_result: this response is ~81 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 25,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1xudrf2",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1xudrf2/were_a_twoperson_indie_team_from_finland_and_we/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/d2x2ajcxaXF2NjFpMcqY4W5lXUQgPC-2CejpMZhfAoO__CFsaYWeqw_CmW67.png?width=140&height=78&format=jpg&auto=webp&s=36bc11f3dbfa6813d34d3d5245b5a79637f59d1e",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 2510,
+            "title": "We're a two-person indie team from Finland, and we just announced our first game Athran!",
+            "author": "OddSpireGames",
+            "authorId": "2hib11az6b",
+            "selftext": "Hey everyone!\n\nWe're Oddspire Games, a two-person indie team from Finland, and we've just released the announcement trailer for our game, **Athran**!\n\nWe've put a lot of work into getting to this point.\n\nWe'd love to hear what you think!\n\n(Note about AI usage:  \nWe use AI mainly during the early stages of concept art, such as helping us explore different ideas or by doing paintovers to concept art to refine designs. Once we have a design we're happy with, we create the actual 3D assets ourselves from scratch.  \nWe're two experienced game developers with 15+ years experience together in the industry, so all the actual game content is made by us using traditional development methods.)",
+            "permalink": "/r/IndieGaming/comments/1xudrf2/were_a_twoperson_indie_team_from_finland_and_we/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1794492679,
+            "numComments": 186
+          },
+          {
+            "id": "1wy7ubc",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1wy7ubc/does_knowing_whether_a_game_was_made_with_ai/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/9z3g480x9nth1.png?width=140&height=71&auto=webp&s=2bb1e4d27054c3b32ee3bfa8ba193493d6b22319",
+                "type": "photo",
+                "width": 140,
+                "height": 71
+              }
+            ],
+            "score": 1776,
+            "title": "Does knowing whether a game was made with AI affect your decision to play it?",
+            "author": "meadowfernsies",
+            "authorId": "1074ee874w",
+            "selftext": "Hey everyone! Our philosophy has always been that art made with AI isn't actually art. And that humans should be in control of all creative things. Besides the obvious copyright and ethical arguments, we believe it has more soul. What do you think?\n\nShould Steam separate games based on whether they are made with AI or not?\n\nIf you want to support us, check out our steam page! We really appreciate it.  \n[https://store.steampowered.com/app/4864960/MAUS\\_TRAP/](https://store.steampowered.com/app/4864960/MAUS_TRAP/)",
+            "permalink": "/r/IndieGaming/comments/1wy7ubc/does_knowing_whether_a_game_was_made_with_ai/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1791204958,
+            "numComments": 1734
+          },
+          {
+            "id": "1qkldf4",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1qkldf4/ai_made_us_change_our_art_and_heres_why/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/aTg2bjgwbDE3MmZnMfSiGrmYLhSmT1Lr3qAXziGroeU1pHFNtk6CTCGbVLHj.png?width=140&height=140&crop=1%3A1%2Csmart&format=jpg&auto=webp&s=0b232de9d5b97c47f7dabac3519fb2564fe30114",
+                "type": "video",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 647,
+            "title": "AI made us change our art and here's why",
+            "author": "_abandonedsheep",
+            "authorId": "1qa3wk29lr",
+            "selftext": "",
+            "permalink": "/r/IndieGaming/comments/1qkldf4/ai_made_us_change_our_art_and_heres_why/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1769156749,
+            "numComments": 121
+          },
+          {
+            "id": "1wr0kz0",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1wr0kz0/i_took_out_a_20000_loan_to_develop_my_visual_novel/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/OHpqMzk2MTZieHJoMdgun35ScPdiGeSCmyyNM3Lmy4KV7D7kZUtrRJwelV0J.png?width=140&height=140&crop=1%3A1%2Csmart&format=jpg&auto=webp&s=0c2cd3b6d751b0cf49fd10fc90aab1523b53b061",
+                "type": "video",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 589,
+            "title": "I took out a $20,000 loan to develop my visual novel...",
+            "author": "New_Result8740",
+            "authorId": "2fs0dhzqdu",
+            "selftext": "**You're probably thinking right now: what kind of ridiculous idea is it to take out a loan to make a game especially when you're a perfectly normal adult with a family and your first child on the way (my son will be born soon).**\n\n**I sincerely hope I don't inspire any of you to make similar decisions.**\n\n**But since you're already here, this is my story...**\n\n**P.S**\n\nFair warning: a wall of text and a tedious story await you ))) You’re bringing this on yourselves!\n\nI want to say right off the bat: a lot of people are calling this an AI post. People label just about anything as AI these daysthey do the same with my game when they see the visuals, or hear the sound and the quality we’re aiming for. I don’t want to have to prove anything to anyone; people believe what they want to believe.\n\nI wrote the text myself, by hand, and it took a long time. I do use a translator, but sometimes if the translation doesn't make sense I ask AI to translate the phrase instead, since my native language is Georgian (though I also speak Russian).\n\n***WHO AM I***\n\nMy name is Bacho. I'm thirty-two years old, and I'm from Zugdidi, a small city in western Georgia that you've probably never heard of. I live in Tbilisi now. I'm married, and this October we're expecting our first child. So, as you can imagine, life already gives me plenty to worry about.\n\n***But there is one story that has refused to let me go all these years***\n\nIt probably started with my grandfather. May he rest in peace.\n\nHe was the one who introduced me to books, and I disappeared into them with the kind of hunger only children have when they desperately need somewhere to escape from the reality around them.\n\nAnd there was plenty I wanted to escape from in the hopelessness of teenage life in Zugdidi.\n\nThen came school.\n\nThen university, which I dropped out of.\n\nThen the decision to try myself in the bigger world.\n\nI went to St. Petersburg without a penny to my name simply because I wanted to experience a different reality one that wasn't the same world I had grown up in.\n\nMy years in St. Petersburg were... intense.\n\nI worked in film, made music, performed, and threw myself headfirst into creativity. Pretty much everything you can throw yourself into when you're in your early twenties in St. Petersburg.\n\nAnd somewhere during that period, I came across an idea that changed everything:\n\n***What if I wrote a book without knowing where it would take me?***\n\nSo I sat down and started.\n\nI created a universe.\n\nI created characters.\n\nI started developing the story without knowing myself where it would turn on the next page.\n\nAnd it turned out to be incredibly exciting. You discover what happens next together with your own characters.Although, if I'm completely honest, at first it was simply a way for me to rest and escape from everyday life. I was reading a lot back then, and the words and the story seemed to come together on their own.\n\nThen life hit me with its own circumstances, and I abandoned it.I returned to Georgia, put the project aside for a long time, and moved on to other things.  \nBut the characters never let me go.\n\n# A STORY I COULDN'T NOT RETURN TO\n\nLife went on.Pretty much like everyone else's. I worked a lot, tried hard, succeeded at some things and failed at others. But I couldn't get rid of the feeling that I wasn't doing what I actually wanted to be doing. I've always loved creating. Inventing. Building worlds, characters, situations. In one word creating something that didn't exist before. And everyday routine can't stand that part of you. It slowly eats it from the inside, a little bit every day. You live, you work, you keep yourself busy with things but somewhere inside, there's emptiness. At some point I realized I couldn't live like that anymore.\n\nEither I do what I love, or I spend the rest of my life suffering because of all the things I was too afraid to try. Honestly, I don't think there's a third option once you're an adult.And everything I had experienced over the years everything I had read, filmed, listened to, lived through eventually poured back into that same story.I returned to it. I continued writing. And at some point, I realized it fit perfectly into the format of a game.And that's where a completely different set of problems began...  \nAs always:\n\n***Money***\n\nThere wasn't enough of it for a decent life, let alone for developing a video game. But I understood one thing very clearly. I wasn't going to make AI slop that I'd be ashamed of later. Especially with how brutally self-critical I am. If there's one person who won't go easy on me, it's me. If I was going to do this, I wanted to do it properly. I wanted to make something I could be proud of first and foremost myself. And that was when I realized:\n\n***I needed a team***\n\nAnd if you want to build a strong team, you need money. The circle was complete. I won't bore you with the story of how exactly I managed to get the loan. I'll keep it simple. It worked out. And eventually, the amount I believed I needed for development was sitting in my account. That's when the most interesting part began.\n\n# HOW I LOOKED FOR A TEAM\n\nGeorgian forums gave me five artists and five test assignments. None were right. Reddit gave me two hundred applicants. I talked to every one of them, shortlisted ten, and still nothing matched the image in my head. On ArtStation I sent three hundred personal messages. Most were ignored, some were too expensive, some \"don't work with indie.\"\n\nAnd then I found them. People who got excited about the story not for the money or the portfolio, but because they wanted to know what happens next.\n\nFour months of searching, one person at a time. Today the team is working, and I'm the writer, director, art director and about ten other people. That's indie.\n\n# WHAT IS SHORAPAN?\n\n**SHORAPAN: Beneath the Crimson Sky** follows a young man living in a strange city beneath an eternal crimson sky. His story begins on an ordinary day and gradually grows into a much larger adventure. I don’t want to reveal too much about where it goes.\n\nIt’s a dark fantasy story for adults, though there are no elves or orcs here. I’m interested in how people behave when they’re afraid, when they have power, or when they have to make a difficult choice. But I don’t want the game to turn into philosophy for its own sake. We work carefully on the writing so that conversations move the story forward or reveal something about the people in it.\n\nAs for what you’ll do: you’ll explore the city, talk to its inhabitants, examine objects and locations, use an inventory and a journal, and work through puzzles, minigames, and interactive scenes. The more you explore, the more you’ll learn about the city and the people who live there.\n\nI understand that the moment you hear the words *\"dark visual novel*\" and *\"crimson sky,\"* you'll immediately start attaching labels. Dystopia. Kafka. Orwell. Pathologic. Whatever else comes to mind. And I'm not going to argue with you.\n\nTell me what in our world is truly original? Everything has already been written. Everything has been imagined. Everything has been done many times before. We exist inside a culture where no idea appears completely untouched by what came before it.\n\nBut I'll still allow myself to say this: ***This is not a generic story.***\n\nEvery line has been polished. I've spent four years writing this story, and I know where every comma stands and why. This isn't philosophy for the sake of philosophy. And it isn't pretentious writing wrapped in dark aesthetics.\n\nEvery character here has their own truth. The people who hold power. The person who tries to speak out. The person who stays silent. The person who left. Even the person who betrays someone.\n\nThe crimson sky isn't just decoration. It is the question itself. A question every character answers in their own way.\n\n# WHY I CAN'T NOT DO THIS\n\nPeople sometimes ask me why I'm doing all of this. The loan. Four years of writing. Months of searching for a team. A family on my shoulders. My first child on the way. Why not make a simpler game? Why make a game at all? Why not just get a normal job somewhere?\n\nI can't.\n\nNot because I think I'm special. Not because I think I'm a genius. But because this is my statement to the world. It's the only way I know how to say out loud what I think. Some people do it through music. Some through cinema. Some through words on Facebook. For me, it somehow became a game.\n\nI'm making this game because I want to leave a trace. Not a monument to myself. Just a trace. Something another person can experience, play, and think about afterward.\n\nAnd everyone can decide for themselves whether it's worth searching for answers to the questions we're asking here. Maybe it isn't. Maybe the questions are more important than the answers. That's one of the themes of the game too.\n\nAnd everything I've just told you about meaning, human nature and the crimson sky would be nothing but empty words if it weren't for one thing:\n\nWe're also trying to make a game we won't be ashamed of purely on a craft level.\n\nDark, and-crafted visuals. A carefully designed soundtrack. Original Russian and English voice acting. A script that has been edited and reread more times than I can count.\n\nEvery single detail of this world has gone through the same filter:\n\n***\"Are we ashamed to put this into the game?\"***\n\nWe're planning to show the demo in October 2027. Possibly a little earlier if we're able to make it into a suitable Steam Next Fest.\n\nWe'll announce more precise dates as we get closer, because I'd rather not give you a date now and apologize for delaying it later.\n\n# THANK YOU FOR READING!\n\nThat's pretty much it. Thank you for making it all the way through this outpouring of my soul.\n\nI spent a long time wondering whether I should write this. Eventually I decided that I should. Someone has to tell these stories, and nobody can tell mine better than I can.\n\nIf anything you read here resonated with you, if it made you curious about what happens next beneath that crimson sky and to the people who live under it, then it would genuinely mean a lot to us to find people who want to follow this journey with us.\n\nThe game is still in development, and right now, every person who simply cares about what we're making matters to me.\n\nSometimes even one person saying **\"I'm following the project.\"** is enough to make a difficult day feel a little less hopeless.\n\n# OUR SOCIALS\n\nAnd one last thing.\n\nWe already have a [Steam page](https://store.steampowered.com/app/4926090/SHORAPAN_Beneath_the_Crimson_Sky/) for SHORAPAN. It's still far from perfect — there's no demo yet, no trailer, and we're still actively working on how the page itself presents the game.\n\nBut we're working on it constantly, and over the coming months we'll be adding much more: new screenshots, development updates, a proper trailer, and eventually the demo itself.\n\nIf you'd like to follow the project from the beginning, you can find SHORAPAN on Steam and add it to your wishlist.\n\nWe also have a [Discord server](https://discord.com/invite/u4mbTw2srd) where we'll be sharing much more about the development process: dev diaries, behind-the-scenes work, visual development, and pieces of SHORAPAN's lore that don't always fit into regular posts.\n\nSo if you'd like to follow the game more closely, talk to us directly, or simply watch this strange crimson world slowly come together you're very welcome to join us there.",
+            "permalink": "/r/IndieGaming/comments/1wr0kz0/i_took_out_a_20000_loan_to_develop_my_visual_novel/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1790454095,
+            "numComments": 113
+          },
+          {
+            "id": "1uivqfy",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1uivqfy/over_50_indie_devs_trusted_us_with_their/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/YjB6c25sNjJxOGFoMU-nauomK1PrT1-zXN849oLm3aKcWOIK2om4DDAUoMd8.png?width=140&height=78&format=jpg&auto=webp&s=76eca68bdba7091865112d57b520582e5f3802d8",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 436,
+            "title": "Over 50 indie devs trusted us with their characters. Here's how we approached it.",
+            "author": "sunnastudio",
+            "authorId": "1bhxesygjx",
+            "selftext": "Our game, **Gunny Ascend**, is a puzzle roguelite where you clear lines with falling tetromino pieces, unlock new abilities every level, jump through different worlds, and survive hazards and bosses.  \nOne question people ask us a lot is:  \n  \n**“How did you get so many indie characters into the game?”**  \n  \n**The short answer is:** personalized pitches, respect for the original games, help from Outersloth, and a surprising amount of trust from the indie dev community.  \n  \n**The long answer is that it started with us not being sure it would work at all.**  \n  \nInternally, we were divided. Some of us thought getting that many characters was way too ambitious. Our game director believed in the idea the most, but even he didn’t expect the response we got.  \n  \nWe started with games made in Costa Rica, plus friends and developers we admire and were close to. Then, when Outersloth picked us up, we saw a chance to turn the collab system into what we had always dreamed it could be.  \n  \nA big first step was developing a pitch to use the Crewmate from **Among Us**. Since Outersloth were already our partners, we felt we had a real chance to make the case properly.  \n  \nSo we made a very specific pitch about how the Crewmate would fit into **Gunny Ascend**, where it would appear, how we would credit the original creators, and how we would make sure it felt respectful to the essence of **Among Us** rather than just a random cameo.  \nThankfully, they liked the idea and approved the crossover. But more than that, they offered to help us improve our pitch. We spent a few weeks making it shorter, clearer, and stronger. Then they introduced us to some developers from our wishlist, which gave us our first real momentum.  \n  \nFrom there, the characters started coming from a few different places: some from warm intros, some from cold emails, and some from random conversations at events like **GDC** and **Gamescom**.  \n  \nNo matter how the conversation started, we tried to approach every character the same way: with a custom pitch.  \nFor every character, we explained why that character made sense for the game, what their original game meant to our team, and showed a final character sprite so the developer could immediately understand how their character would look in **Gunny Ascend**.  \n  \nWe think that made a big difference. It showed we weren’t just collecting characters or sending the same email to everyone. We were trying to celebrate games we genuinely loved and represent them with care.  \n  \nNow we’re just trying to finish the game and do justice to every one of them.  \n  \nIf you’re curious, the demo is available on Steam right now and includes some of the indie characters already in the game. We’d genuinely love to hear what you think.",
+            "permalink": "/r/IndieGaming/comments/1uivqfy/over_50_indie_devs_trusted_us_with_their/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1782746990,
+            "numComments": 26
+          },
+          {
+            "id": "1w8pthk",
+            "url": "https://www.reddit.com/gallery/1w8pthk",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/smyv3djrtunh1.jpg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=42448f22fb09dc7c2f7a89bca19e9ea17a01a649",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 434,
+            "title": "Artstyle showcase: feedback welcome!",
+            "author": "RandomStoriesStudio",
+            "authorId": "2gi8zqp4xx",
+            "selftext": "Hi,\n\nHere are some 2D and 3D assets made respectively by u/harishcs and u/tgrrrr19 (btw yes, you can hire wonderful artists on Reddit) for our incoming WWII tactical game.\n\nAs you can see, we chose a very unique approach to depict the Battle of France (1940) and we'd like to know if it works for you.\n\nSo if you have anything to say about our art direction, please let us know what works and what doesn't! We're trying our best to make a great game with extremely limited means so any help is precious to us.\n\nThank you very much for taking a look ;)\n\nN.B. all of these assets are obviously handmade by real people and we can prove it very easily for every illustration shown here.\n\nP.S. for the people blindly making AI accusations: here are two video proofs and an answer by Harish:\n\n[Cuisine\\_showcase - YouTube](https://www.youtube.com/watch?v=M1ySb8uV4MA)  \n[Vehicle\\_showcase](https://www.youtube.com/watch?v=fm16GLVW2j4)  \n[Artstyle showcase: feedback welcome! : r/IndieGaming](https://www.reddit.com/r/IndieGaming/comments/1w8pthk/comment/p8bcra8/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)\n\nI know these people won't apologize because that's who they are, but we hope people who had honest doubts about our work will be reassured.",
+            "permalink": "/r/IndieGaming/comments/1w8pthk/artstyle_showcase_feedback_welcome/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1788681204,
+            "numComments": 74
+          },
+          {
+            "id": "1qkyqcd",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1qkyqcd/every_indie_game_ive_played_ranked_in_order/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://a.thumbs.redditmedia.com/H_jUHF2r7r7YjOWhWHLhLnRzuUIoXRo8rVOCnP950B0.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 388,
+            "title": "Every indie game I've played ranked In order.",
+            "author": "Toxinferno",
+            "authorId": "urttayjv",
+            "selftext": "",
+            "permalink": "/r/IndieGaming/comments/1qkyqcd/every_indie_game_ive_played_ranked_in_order/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1769192891,
+            "numComments": 226
+          },
+          {
+            "id": "1xai12s",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1xai12s/note_for_the_community_following_steamfest/",
+            "nsfw": false,
+            "media": [],
+            "score": 338,
+            "title": "Note for the community following steamfest",
+            "author": "SourceAwkward",
+            "authorId": "7a52231b",
+            "selftext": "If your game uses ai art and you were in this steamfest, thank you for ruining it for , for the artist for other game dev,\n\nYou just proved to us why we should hate ai,\n\nI sent an email to steam to add an ai filter and allow refund if found out someone lies,should be easy today with code watermarks and decompile \n\nI suggest if you care about the issue email them as well",
+            "permalink": "/r/IndieGaming/comments/1xai12s/note_for_the_community_following_steamfest/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1792468470,
+            "numComments": 203
+          },
+          {
+            "id": "1pn0yev",
+            "url": "https://www.reddit.com/gallery/1pn0yev",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/3GYd7bSUOURzND4m9bLrjYf3CZsenLE0kR6HcCyqfcY.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 79
+              }
+            ],
+            "score": 317,
+            "title": "After six years of development, I’m finally revealing Mythologous, an online, living text RPG with emergent NPCs and Celtic myth.",
+            "author": "Certain-Capital-5206",
+            "authorId": "cc96w7ux9",
+            "selftext": "# Welcome to Mythologous\n\nAfter almost six years of quiet creation, 30,000 lines of code and probably as many cups of tea.. I’m finally ready to reveal Mythologous - a persistent, text-based open-world RPG sim and dungeon crawler, and a personal passion project I began in 2020.\n\nSteam link: [https://store.steampowered.com/app/4126230/Mythologous/?beta=0](https://store.steampowered.com/app/4126230/Mythologous/?beta=0)\n\nInspired by the games that defined my childhood. *The Elder Scrolls, Runescape, Star Wars Galaxies, The Sims, Dwarf Fortress, Demon’s Souls,* and even the legendary *Ultima* series. Mythologous aims to recapture something we’ve quietly lost in modern gaming: depth, immersion, and charm.\n\nFrom dungeon crawling and spellcasting to foraging, fishing, and crafting, Mythologous encourages deep role-playing and world immersion, and combines retro style game mechanics with some modern aspects such as Emergent NPC AI that is powered by a a proprietary AI state machine architecture programmed in C#.\n\nWhether you’re exploring a dungeon, commanding a companion, or performing a ritual, every system is built to feel tangible and interconnected - part of a living, breathing world.\n\nGenAI is used for NPC dialogue only, acting only as an expression layer for the underlying simulation but not a driver of behaviour or outcomes, or used as a replacement for authored content or writing.\n\nIts use is experimental and subject to iteration, but early results have been positive and have helped improve immersion so far.\n\n# == A World That Thinks for Itself ==\n\nAt the heart of the game lies a proprietary four-layer AI state machine, a system I’ve developed over the 6 years, inspired by *The Elder Scrolls IV: Oblivion*’s Radiant AI and then expanded far beyond it.\n\nThere are no scripted NPCs, no static spawns, quests are not scripted or explicit but come about due to circumstances, goals, and desires.\n\nAlthough Mythologous is text-driven, it’s closer in spirit to simulation first games like Dwarf Fortress or Caves of Qud than to narrative-led RPGs. The focus is on systems, world state, and emergent outcomes with text serving as the interface to that simulation.\n\nEach character in the land of Mythaera  (every farmer, merchant, guard, knight, and creature) lives their own life, sets their own goals, and reacts emergently to the state of the world around them. NPCs become hungry and shop to restock on food, the blacksmith gathers materials to produce goods to sell, the farmer supplies the baker, and bandits ambush players and NPCs alike and demand valuable possessions such as coins or exposed jewellery they might spot you wearing.\n\nTo bring even more life to this simulation, NPCs use generative AI for dialogue and conversational responses, allowing you to talk to them naturally, trade, question, or command them with real language, while the underlying simulation logic ensures the world remains stable and believable. NPC backstories, world lore and books are crafted by hand.\n\n# == Reimagining the Systems I Loved ==\n\nIt’s fair to say I’ve borrowed mechanics from those classics, but I’ve also reimagined and expanded them through this custom-built engine, which began as a personal experiment.\n\nFor the first few years, I worked on *Mythologous* quietly, on and off just to see if I could create a complex, self-sustaining world.\n\nThen one day, the simulation came together..\n\nAs systems began to merge, NPCs began to respond in ways I had not comprehended, all the while remaining emergent, immersive and believable, and from that moment, I was hooked.\n\nSince then, I’ve been fully committed to bringing this world to life.\n\nTo give the game’s UI and atmosphere the polish it deserved, I’ve worked with a small group of incredibly talented UI developers, artists, composers, and writers, helping to shape *Mythologous* into the world I imagined. It’s been a privilege to collaborate with such amazing people, and I can’t wait to show you more of their work.\n\n# == Key Pillars of Mythologous (WIP) ==\n\n**A World That Never Sleeps:** Every NPC eats, works, fights, sleeps, and remembers. The simulation keeps moving, even when you log off.\n\n**Emergent Radiant AI:** NPCs react to hunger, danger, reputation, wealth, and your actions, no scripted quests, just emergent behaviour. (Inspired by Oblivion's Radiant AI)\n\n**Natural Command & Interaction**: Type naturally to talk, trade, or command companions who respond based on trust and personality.\n\n**Extraction Dungeons**: Risk everything for deeper loot. Fall inside, and the dungeon keeps what you brought.\n\n**Hybrid Dungeon Engine**: Procedural generation built from handcrafted rooms and layouts for authentic, varied exploration every run with mobsters, NPCs, loot, traps and puzzles.\n\n**Magic Through Incantation:** Learn spells by typing real incantations. Mix reagents, experiment freely... sometimes disastrously.\n\n**Live Economy & Crafting:** Every crop, coin, and resource matters. Scarcity and greed shape the world’s balance.\n\n**Skills That Grow With Use**: No fixed classes. You become what you practice.\n\n**Proprietary Construction Set:** The entire overworld is built with our very own game and level editor, allowing handcrafted detail with rapid production.\n\n**Sound & Atmosphere:** A full original score and reactive SFX bring text and world to life.\n\n**Solo by Design, Party by Choice**: Adventure alone, or trust others (NPC or player), if you dare.\n\n>If you're interested in how this is bring built, a dev log can be found in the discord below!\n\n# == The World of Mythologous (Mythaera) 🌳🌙🐉 ==\n\nRooted in Celtic mythology yet reimagined into a living, unified world, Mythaera brings together legends and beings from across the Celtic cultures.\n\nFrom Redcaps and Leprechauns to Banshees and the dreaded Ellen Trechend, the land is alive with creatures both mischievous and benevolent.\n\nThe Fae weave through the forests and ruins, shaping fate in ways unseen. Every legend, every myth, every whisper belongs here, in one vast mythos reborn.\n\n# == The Mission ==\n\nI want to release Mythologous for free and share it with players who love games built on simulation, systems, and emergent storytelling.\n\nThis has been an amazingly challenging but creative journey so far, and a project that I’m committed to polishing and sharing with the world. I’m self-funding development and collaborating with creatives who share the vision.\n\nThere are no monetization plans right now - only the goal of building and releasing the best possible version of the game. That said, if this finds its audience, I’ll explore community-driven ways to support ongoing development that stay true to its spirit.\n\n# == Next Steps ==\n\nMythologous will be playable on desktop as well as in browser both on desktop and mobile. \n\n>Having a mobile build is a key part of the vision for accessibility to check on your character wherever you are and is something we've already made some great progress on.\n\nWe’ll be opening the game up for closed Alpha testing and welcoming in a limited number of first explorers to experience the initial demo scenarios we’re currently working on completing, these demo scenarios will showcase the core mechanics and pillars of what makes Mythologous unique as well as serve as player onboarding.\n\nThis timeframe is currently planned for early to mid Q1 2026. This will be followed by ‘hopefully’ a stable open Alpha later in 2026 with non-persistent scenarios and an open world persistent simulation with limited player abilities. Beyond that, the ultimate end goal is to release the fully persistent simulation with full player abilities and interaction with the polished core gameplay loop.\n\nAs we continue to complete and add more features to the game, community steer is something I’m planning on paying close attention to, particularly for certain features and aspects of the game that I’m still trying to shape.\n\n# Here is a look at the current timeline, some of these are TBC as things develop!\n\n**The Age of Opening (Pre-Alpha / Coming Soon) - NOW**\n\n>*The first rift tore through the skies of Mythaera, a wound between realms that would never fully heal. The air shimmers with omens, and whispers of those soon to cross over.*\n\nInitial announcement and discord dev log community opens.\n\n**The Age of Ghosts (Closed Alpha) – Mid Q1 2026**\n\n>*The spirits wander unseen, observers between life and death. They watch the cities breathe, the gates tremble, and the first echoes of power stir in the Otherworld.*\n\nPlayers exist as incorporeal spirits who can observe the living simulation. The world moves, NPCs live, but players have limited action within the persistent world. To test all game mechanics, isolated gameplay scenarios will allow players to explore all aspects of the world with full interactions.\n\n**The Age of Awakening (Open Alpha) – Timeframe TBC**\n\n>*The Veil weakens. The Tuatha Dé begin to take form and cross the veil in droves. The realms stir as mortal and myth alike feel the pull of convergence.*\n\nSame as closed alpha but with a publicly released demo build to be accessed by anyone.\n\n**The Age of Reckoning (Full Beta / Pre-Release)**\n\n>*The rift fully opens. War spills between worlds as the Otherworld’s denizens march. Heroes rise, cities fall, and the fate of Mythaera hangs in the balance.*\n\nFull release with persistent server to serve as a final testing ground before 1.0 release. All core pillars should be represented in game.\n\n**The Age of Myth (1.0 Launch)**\n\n>*The Tuatha Dé stand revealed, gods reborn among mortals. The veil is torn, the realms are one, and the myths of Mythaera live once more.*\n\nFull 1.0 release with persistent server and all core pillars / features\n\n# == The Veil Opens Soon ==\n\nOfficial Announcement Trailer:\n\nThe trailer showcases a new UI that is currently in concept!\n\n**🎬** [**Announcement Trailer**](https://youtu.be/0YeBlJ3IhdI) **🎬**\n\nYou can already glimpse the world, its art, music, and background here:\n\n**🌐** [**Mythologous**](https://mythologous.com/) **🌐**\n\nJoin the Discord to to access the dev log and become one of the first spirits of the Veil:\n\n**👻** [**Join the Veil (Discord)**](https://discord.gg/HjcpXBXJYM) **👻**\n\nAnd wishlist the game to be notified when the first Orb Gates open:\n\n**💫** [**Wishlist on Steam**](https://store.steampowered.com/app/4126230/Mythologous/?beta=0) **💫**",
+            "permalink": "/r/IndieGaming/comments/1pn0yev/after_six_years_of_development_im_finally/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1765781612,
+            "numComments": 62
+          },
+          {
+            "id": "1xdjvwt",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1xdjvwt/our_wolf_game_has_a_demo/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/MXZmazl5a2cxOXhoMTab4PDhBDBcFwzN3GqE2SkR2oFjdkjTfKBdBmRg3A7-.png?width=140&height=78&format=jpg&auto=webp&s=39ef3f9c10f6990dfb287142e41c4de7289be0e6",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 236,
+            "title": "Our wolf game has a demo!",
+            "author": "Haruspotatoes",
+            "authorId": "32r8k44r",
+            "selftext": "Hey, everyone! NextFest has been such AI slop but we're not letting that deter us. My friends and I have been working hard on it and we've got Halloween content for our open world wolf RPG! If you want to support a game made by real people then please drop us a wishlist or a review on the demo! It's called [Heirs of the Moon](https://store.steampowered.com/app/4698410/Heirs_of_the_Moon/) and it's on Steam! ",
+            "permalink": "/r/IndieGaming/comments/1xdjvwt/our_wolf_game_has_a_demo/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1792775327,
+            "numComments": 31
+          },
+          {
+            "id": "1qt2zia",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1qt2zia/first_gameplay_reveal_locus_equation_a_scifi/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/aWl0cjI5Y2dyd2dnMXeIlY-8ixbmjtteCxJn2m_XkUiUGhSM5G0tev-LBQe5.png?width=140&height=78&format=jpg&auto=webp&s=88c3ef53ecc82cca847720ed860fe5fc0008447a",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 222,
+            "title": "First gameplay reveal: Locus Equation, a sci-fi narrative cRPG where your main resource isn’t ammo, but your own contradictions",
+            "author": "Vera-Lomna",
+            "authorId": "1wrzs0ctmv",
+            "selftext": "Locus Equation was born from a strange and uneasy thought: that consciousness is not so much a human gift as a source of pain. The more precisely and deeply we see the world, the more we realize how many mental and moral traps are scattered around us. As we grow older, we see more and more opportunities for self-deception: fear rewrites our moral norms and justifies betrayal and cruelty toward others - **and, most importantly, toward ourselves.**\n\nHumanity stands on the edge of a paradox: in the face of inevitable death, many of us still choose goodness, compassion, knowledge, and growth. In the worldview of the game, kindness is nothing more than a local anomaly that desperately holds the surrounding world together, despide murders, wars, domestic violence, or bullying in schools.\n\nChoosing virtue over destructive reactions is incredibly hard, because **humanity doesn’t come “by default.”** It’s a fluid process: the formation and collapse of different ideas, values, and inner beliefs. While our reptilian brain keeps trying to slide into cognitive distortions, aggression, and cynicism, most of us still choose to remain human - even when it promises us nothing: no money, no fame, no happiness. And that amazes us as a development team.\n\nIn collaboration with professional cognitive scientists and philosophers, we tried to depict in Locus Equation the fundamental processes through which moral identity is formed -despite all the evil humanity faces, and the evil faced by the game’s protagonist (a synthetic lifeform created by a hyper-advanced AI from the future). We’re building a psychological sci-fi adventure with moral dilemmas and internal voices-sub-personalities. They argue, nudge, and throw in spiteful thoughts and convenient justifications. Because living today means constantly choosing against a backdrop of fear: fear of death, rejection, and uncertainty. And the more options you have, the more regret you’re capablr of.\n\nLocus Equation doesn’t place consciousness on a pedestal: it isn’t a gift, but an additional cognitive and moral load - the ability to see more connections, more alternatives, and more consequences, and therefore more reasons to suffer, rationalize, feel fear, or become human all over again.\n\nYou can find more info, other GIFs, and portraits of the sub-personalities on the [Steam page](https://store.steampowered.com/app/2243310/Locus_Equation/). ",
+            "permalink": "/r/IndieGaming/comments/1qt2zia/first_gameplay_reveal_locus_equation_a_scifi/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1769963282,
+            "numComments": 21
+          },
+          {
+            "id": "1vteual",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1vteual/our_team_of_3_is_blending_dune_mass_effect_and_no/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/em9lY2F5N2szaWtoMWkdavy16uU6GZZfmDqUyFHRx5Bj2quglyDWp0wxJHqf.png?width=140&height=78&format=jpg&auto=webp&s=4de3735c7d53d97323095a816025376bc7cfae7f",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 209,
+            "title": "Our team of 3 is blending Dune, Mass Effect and No Man’s Sky into a sci-fi survival game",
+            "author": "Psytorpz",
+            "authorId": "bj0k0eg",
+            "selftext": "We’re a team of 3 building Neosis Echoes, a third-person sci-fi survival action game inspired by Dune, Mass Effect and No Man’s Sky, with a hint of Cyberpunk 2077.\n\nNeosis Echoes is now available to wishlist on Steam:  \n[https://store.steampowered.com/app/5049580/Neosis\\_Echoes/](https://store.steampowered.com/app/5049580/Neosis_Echoes/)\n\nIf the project resonates with you, adding Neosis Echoes to your Steam wishlist is one of the simplest and most valuable ways to support its development.\n\nYou play as Evan Draxell, a synthetic clone who awakens after a 200 year journey on Varos, a hostile alien planet ruled by Monolith, a super-AI that considers emotion a system defect.\n\nThis early development preview focuses on combat. It does not show the deeper survival systems or the way emotions reshape the world yet. Those elements, along with the more visible cyberpunk side of the universe, will be revealed in future videos.\n\n**This footage comes from an early development build. The core combat systems are already implemented, but enemy AI, encounter design, balancing, hit reactions and overall combat feel are still being actively improved.**\n\nAlongside my work as Game Director and developer, I’ve been producing sci-fi and cyberpunk music professionally as Extra Terra for years. I’m also composing the game’s original soundtrack, so music will play a major role in its atmosphere.\n\n**I personally had some experience with game sound design on smaller projects, alongside my music work. But when it comes to game development itself, all 3 of us are still juniors. We started teaching ourselves Unreal Engine a few years ago and have been learning by building ever since.**\n\nEDIT: To clarify the scope, these games are reference points for specific aspects of Neosis Echoes, not a promise to reproduce their scale or entire feature sets. The actual scope is being designed around what our team of 3 can realistically build.\n\nDune influences the hostile desert world and the struggle surrounding a rare resource. Mass Effect inspires the narrative-driven sci-fi, companions and third-person ability-based combat. No Man’s Sky is a reference for planetary exploration, survival and crafting. The cyberpunk influence comes from megacorporations, cybernetic implants, synthetic humans and the class divide within underground cities.\n\nAs a team of 3, we’re building a smaller and more focused experience. We can’t compete with the amount of content or cinematic production of a game like Mass Effect, so our story will primarily be delivered through dialogue, environmental storytelling and logs. We’re aiming for depth in its themes and systems, not AAA scale.",
+            "permalink": "/r/IndieGaming/comments/1vteual/our_team_of_3_is_blending_dune_mass_effect_and_no/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1787219018,
+            "numComments": 72
+          },
+          {
+            "id": "1so6t1e",
+            "url": "https://www.reddit.com/gallery/1so6t1e",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/kl61xru76svg1.png?width=140&height=46&auto=webp&s=c842cbe64dddf148deada3305d4e25921981cc02",
+                "type": "photo",
+                "width": 140,
+                "height": 46
+              }
+            ],
+            "score": 191,
+            "title": "100% hand-drawn, but we still get hit with the AI allegations. 🤦‍♂️ Question: Is AI a deciding factor for you when picking up a new game?",
+            "author": "QuantumArts_",
+            "authorId": "2a3od0k40l",
+            "selftext": "We recently got a comment saying they were \"90% sure\" our game art is AI. Honestly, it's a bit frustrating but also a weird compliment?😲😲😲\n\nJust to be clear: everything in *Astral Lords* is 100% hand-drawn. We were aiming for a mix of *Don't Starve*'s pseudo-3D perspective and the harsh, absurd comic style of *Borderlands*. While AI definitely lowers the barrier to entry for game dev, we really feel you can't rely on it to give a project a true \"soul\".\n\nBut getting that comment really made us wonder about the title: is finding out a game uses AI art an absolute dealbreaker for you guys?",
+            "permalink": "/r/IndieGaming/comments/1so6t1e/100_handdrawn_but_we_still_get_hit_with_the_ai/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1776445116,
+            "numComments": 112
+          },
+          {
+            "id": "1xkodht",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1xkodht/fleshgrinder_an_isometric_posapocalyptic/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/c3dsMjF2b3p1dnloMRinBfD30nlkv3a0fMJmpDxTh98FLr4xgm3B-gM-c3dU.png?width=140&height=78&format=jpg&auto=webp&s=457f7c89cce8890ce457991c7ab78dd7de9b8821",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 176,
+            "title": "Fleshgrinder - an isometric pos-apocalyptic action-rpg in the vein of Diablo 2, Fallout 1-2 and Alien Shooter",
+            "author": "D3c1m470r",
+            "authorId": "fx8kyy25",
+            "selftext": "Hey!\n\nI'm the solo developer of Fleshgrinder, which tries to present a possible dystopian future where most of the population has been infected with a digital virus, made possible by having invasive augmentations in our bodies, connected to our nervous system.\n\n\n\nImplants like Neuralink are bound to be commonplace in the near future to upskill our species and enable us to have faster and better control over computer systems.\n\n\n\nWhat happens when the information stops being one-way through these systems?\n\nWill they be able to manipulate us on such a level that an intelligent,\n\ndigital virus could take over the minds of the augmented population?\n\n\n\nPlayers of Fleshgrinder take on a desperate mission to lead a squad of maximum three operatives to try and stop this intelligent virus controlling us as a hive-mind, causing an extinction level incident in the near future.\n\n\n\nFeatures:\n\n\\- optional friendly fire and hardcore permadeath mode\n\n\\- dismemberment physics\n\n\\- resettable randomized mission areas in a persistent world\n\n\\- 30+ weapons, 60+ armors, augmentations, ammo types with penetration mechanics\n\n\\- highly randomized attributes on all gear with 6 rarity types\n\n\\- NPCs, side-quests, factions with reputation mechanics\n\n\\- 11 enemy types\n\n\\- terminal system controlling doors, light, alarms, with puzzles included\n\n\\- Genesis tiers which strengthen all monsters throughout the world once the virus accumulates enough materials by harvesting the infected with its infrastructure like the Fleshprocessor\n\n\n\nThe demo has 3 missions and you can try all classes now and was recently updated so the tutorial includes the minigun, while the game received a massive visual upgrade replacing sprite sheets, 2d pre-rendered sprites with 3d models and correcting animations.\n\n\n\nSteam page: [https://store.steampowered.com/app/5074630/Fleshgrinder/](https://store.steampowered.com/app/5074630/Fleshgrinder/)\n\n\n\nAll of the game's socials can be found on the steam page.\n\n\n\nGen AI was used for coding only.\n\n\n\nThanks!",
+            "permalink": "/r/IndieGaming/comments/1xkodht/fleshgrinder_an_isometric_posapocalyptic/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1793489131,
+            "numComments": 30
+          },
+          {
+            "id": "1xccwgk",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1xccwgk/a_handcrafted_fantasy_rpg_made_by_just_2_people/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/eWZxcjFsdTViendoMTfg86QJKLwzSWAAqYyHgVPr7iuvm7Hn1UJeJnHDNq_j.png?width=140&height=78&format=jpg&auto=webp&s=9410e18cb638d4550446bf60d4dc5a3583c99b2a",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 174,
+            "title": "A hand-crafted fantasy RPG, made by just 2 people",
+            "author": "SnooCats4275",
+            "authorId": "6jbjmogy",
+            "selftext": "With so many AI-generated games around this Steam Next Fest, I wanted to share a little more about how we make our game [Witch & Dragon: Hope of Elements](https://store.steampowered.com/app/3767420?utm_source=reddit&utm_medium=boost_EN&utm_campaign=June).\n\nWe're a tiny team of just two people, but every piece of art and every environment in our game is made by us, by hand. No AI-generated artwork — just a lot of drawing, building, tweaking, and probably more hours than we'd like to admit.\n\nOur game is a hand-crafted, magical fantasy adventure, and we really want the world to have its own personality and atmosphere.\n\nI recorded some of my process, from drawing the environments to putting the scenes together in the game.\n\nWe're still working hard on the game and seeing people try our demo and add it to their wishlists during Next Fest has been incredibly encouraging. Every bit of support means a lot to our little team.",
+            "permalink": "/r/IndieGaming/comments/1xccwgk/a_handcrafted_fantasy_rpg_made_by_just_2_people/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1792657527,
+            "numComments": 4
+          },
+          {
+            "id": "1srijrh",
+            "url": "https://www.reddit.com/gallery/1srijrh",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/axohi0vfdiwg1.png?width=140&height=78&auto=webp&s=d71ed4e9cb78fa968023934bb202bfe5f7ec91b2",
+                "type": "photo",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 136,
+            "title": "We asked Reddit for honest feedback on our indie game. It hurt, but it helped. Here’s what we changed",
+            "author": "funboy_ff",
+            "authorId": "f2a2s",
+            "selftext": "A little while ago we made a post titled \"W*e shipped our game on Steam, Xbox, PlayStation, Switch and Quest… and almost nobody noticed\"*, and asked for honest advice.\n\n[https://www.reddit.com/r/IndieGaming/comments/1rw1yhj/we\\_shipped\\_our\\_indie\\_game\\_on\\_steam\\_xbox/](https://www.reddit.com/r/IndieGaming/comments/1rw1yhj/we_shipped_our_indie_game_on_steam_xbox/)\n\nWe got a lot of blunt feedback. Some of it was hard to read, but it was also genuinely useful. \n\nSo first of all: **thank you**.\n\nWe also want to be honest about one thing: we still really believe in the game itself. We made **the kind of game we personally love playing**, so the core is not something we want to throw away or reinvent. We understand it will not be for everyone, and that is fine. We are just trying to find our niche and reach the players it will genuinely click with. \n\nA lot of you pointed out something very clearly: **we were not communicating the core mechanic of the game well enough**.\n\nHeadHunters may look like just another arena brawler, and that is exactly what we were failing to avoid. The core idea is that **you are a head**, and during the match you **attach to different bodies**, each one changing your weapons, abilities, and playstyle, forcing you to **adapt on the fly**. That has been the heart of the game from day one, but we were not making it clear enough. That came through loud and clear in the feedback we got here.\n\nSo we went back to work and changed several things:\n\n**1.** We changed the **artwork**  \nWe had been pushing a “CEO / recruiter / headhunter” angle. We thought it was funny and memorable, but the truth is it was not landing. It confused the concept, and the character did not work well as a mascot.  \nWith the new artwork, we wanted to make it instantly clear, in a more striking way, that this is a fast action game about combining heads and bodies. And before anyone asks: **no AI was used**.\n\n**2.** We made a **new trailer**  \nThis time we tried to explain the game core idea, front and center: what makes the game different, and why matches get so chaotic.\n\n[https://www.youtube.com/watch?v=t6xfr5SIqLI](https://www.youtube.com/watch?v=t6xfr5SIqLI)\n\n**3.** We signed up for **Lurkit**  \nOne thing also became obvious to us: this is the kind of game that really shines when you **see people playing it with friends**. A lot of the fun is in the reactions, the chaos, the laughs. That is much harder to communicate with static screenshots alone, so we’re trying to make the game easier for creators to discover and try.\n\nWe do not expect one artwork change or one trailer to magically fix everything. But your comments helped us realize that the problem was not just \"lack of visibility\". A big part of it was that **we were not presenting the game clearly enough**. That was a painful thing to admit, but also a very useful realization, and it really pushed us to rethink how we were presenting it.\n\nSo, genuinely, **thanks to everyone who took the time to comment**, even the harsher ones. \n\nIf anyone wants to take a look at the new direction and tell us whether we are communicating it better now, we’d honestly love to know.\n\n",
+            "permalink": "/r/IndieGaming/comments/1srijrh/we_asked_reddit_for_honest_feedback_on_our_indie/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1776763436,
+            "numComments": 33
+          },
+          {
+            "id": "1q5tyik",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1q5tyik/i_played_a_new_cheap_game_every_week_in_2025/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://a.thumbs.redditmedia.com/ydy54HhTehMaGUhuF7S5oQUucx-cwb9CY55OxeyXwF4.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 98
+              }
+            ],
+            "score": 124,
+            "title": "I played a new, cheap game every week in 2025. Here's what I learned.",
+            "author": "Dieuwt",
+            "authorId": "flsd9n",
+            "selftext": "Hi everyone!\n\nDid you know New Years Resolutions can be fun? For my resolution in 2025, I wanted to play a new cheap game every week, starting each Sunday. It expands my Steam library, gives me something to think about during the week, and hopefully lets me run into some really cool hidden gems. Plus, as a game developer working on my own stuff, I often see a lot of people saying that \"hidden gems\" don't exist on Steam because if a game is good the algorithm will pick up on that, but I don't know if that's true, so I wanted to see for myself!\n\nIt was quite simple to set up. There's only two rules:\n\n* All games must be under 5 AUD. (I'm located in Australia. 5 AUD is about 3 USD.)\n* No horror games. (I don't like them.)\n\nThat's it! Any game following these rules was allowed. I played each game until either the week was over, until I finished them, or until I ran out of patience (whichever came first). I only rarely came back for seconds once the week was up. However, there were a few more things I kept in mind:\n\n* I tried to select games that were somewhat visually appealing (there's a LOT of slop), in a variety of genres. I also didn't get any games with AI for obvious reasons. I was looking for things with passion behind them, at least on the surface.\n* I also tried to select games that didn't have many reviews, and many games I've never heard of. Most games didn't get wide attention. (The rare exceptions got physical releases or thousands of reviews, but hey I wanted to have some fun too.)\n* Blind playthroughs only. Guides are only allowed if I'm really stuck, or for completionist.\n* Sales are allowed, but I tried to limit buying games on sale. Playing 95% discounted games because they're technically cheap is a bit silly.\n\nNaturally, I kept track of every game and a few of its statistics. How well it did on Steam, how much I liked it, and how far I got. The Metroidvania genre was overrepresented because I'm currently making my own Metroidvania game, and I wanted some extra inspiration. Nonetheless I covered a lot of genres in the end: racing, 3D platformer, puzzle, roguelike, incremental, and some small genres like golf and eldritch horror simulator. I was quite lenient with the scoring because the games were cheap after all, but that didn't stop me from handing out some negative scores.\n\n# The list\n\nHere's the full list compiled! You can also look at [https://docs.google.com/spreadsheets/d/14HgJXTz8t7\\_JWhpphN3khivZWOr5gL4S](https://docs.google.com/spreadsheets/d/14HgJXTz8t7_JWhpphN3khivZWOr5gL4S)\n\n![img](low4tmefgsbg1)\n\nFeel free to make some charts or whatever.\n\n# What did I learn?\n\nWell, first of all, it turns out that cheap games are short! Shocker. About 30% of the games rolled credits within 2 hours, and about 80% within 8 hours. No game lasted over 10 hours. This is not a bad thing however! I think a short runtime can made the \"core gameplay loop\" better, and not drag anything out. I prefer a good game done in 90 minutes, instead of a game that lasts 3+ hours and is boring for most of the time. Some games felt like they dragged on a bit (Chronicles of Teddy, Tower Wizard), others felt the perfect length (Pru the Pidgeon, Pear Potion), others I wish there was more (Super Kiwi 64, Post Void). Overall, I think most games got pretty close to that sweetspot of \"complete and move on\", which I'm happy to see.\n\nThe second thing is related to a sentiment I often see around game development communities: \"if your game is good, it will sell\", and its counterpart, \"if a game didn't sell, it's bad\". I wanted to find some truly hidden gems, that few people picked up on despite high quality; but I didn't find that many. Of the games I played with <100 reviews, only a handful were excellent, most were mid or had some serious issues. I do believe they're out there - Jade Order and Arcane Golf for example were really nice surprises - but they are rare. The implication for game developers here I think is that good games of good length generally sell well. I'm aware that my list is limited due to the 5$ price limit, but nobody is stopping hobby developers for setting their price low for a small game. People (me) don't judge quality based on a difference between 5 and 15 dollars, they do it based on your store page.\n\nI also learned what I like seeing in games most: originality. I really loved/recommend some simple games with some really cool ideas (Under A Star Long Cold, Jade Order, Triga), and repetitive games or things I've seen before ranked much lower (Overbowed, Astronium, The City Of Time). Admittedly though, there really weren't many games with a really unique set of mechanics, but I suppose uniqueness nowadays is difficult to find regardless even in indie spaces. Related to this: artstyle didn't matter that much to me: as long as the game is not difficult to look at (and I do use the store page for this, so be sure to get that right!). I can handle games with some... questionable graphics (Iron Diamond, Snowscape) just fine. Games with bad graphics can be quite good, although my bar is probably much lower than the average gamer.\n\nLastly, the reviews were interesting! They usually indicate how good a game is, but review scores for really small games (<50 reviews) are often too high, possibly because of the very small audience self-selecting. Some games had raving reviews but I didn't enjoy them at all (Super Grappling Gecko, Zup! F, Hue). However, very little games I loved had middling reviews, with the exception of Exit the Gungeon (because of Enter the Gungeon's high-set expectations). Therefore, I think bad reviews do indicate bad games, but good reviews don't necessarily indicate good games. Thankfully Steam has a lenient refund policy.\n\n# Some awards\n\nHere's some games I'd like to highlight, for various reasons!\n\n* \"Best Surprise\" goes to Digseum. It has over 5k reviews and for a good reason: it's insanely fun for how simple and cheap it is.\n* \"Worst Surprise\" goes to Mechanibot. This game has all the correct building blocks, but somehow is very unfun to learn, play, and progress in. Really a shame.\n* \"Most Underrated\" goes to Exit the Gungeon. Yes, it's small and well-known, but it's also very cheap and still fun. It's hampered by limited item variety and run sameness, but it's clearly still so well made, crazy it only has 75% positive reviews.\n* \"Most Intruiging\" goes to Under A Star Long Cold. Badass title, unwinnable game, super interesting to check out. Keeps me up at night. It really shows video games are art pieces.\n* \"Best Publisher\" goes to Sokpop Games. They make a ton of really cheap games (I played Helionaut, Berry People, and Pocket Watch) but I'd never heard of them before.\n* \"Perfect Length: goes to Quarion, which despite its >2 hour runtime feels exactly as long and polished as it should be.\n* \"Sudden End\" goes to Super Grappling Gecko. Solid grappling mechanics, smooth platforming, great level design. But the entire game lasts 30 minutes...\n* And lastly, \"Geary Game Of The Year\" goes to Jade Order. Tiny game, super cheap, 10 (!) reviews, one of the best puzzle games I've ever seen. Go pick it up, seriously.\n\n# Final notes\n\nThis was a great year for me and I'm sad it's over. Having to scour the store for interesting stuff, thinking about this week's game, having to force myself to not give up on something terrible. I'm not doing it again this year for various reasons, but maybe I'll come up with a new fun New Year Resolution another time.\n\nI really recommend you occasionally just do something like this. Cheap, small, simple, unknown-to-all games can be great. Don't worry about graphics or reviews too much, just play it and form your own opinion, it's a lot more interesting if you can't copy it from anywhere else. And maybe you'll find the next diamond everyone's looking for.",
+            "permalink": "/r/IndieGaming/comments/1q5tyik/i_played_a_new_cheap_game_every_week_in_2025/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1767731228,
+            "numComments": 17
+          },
+          {
+            "id": "1rhaxa9",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1rhaxa9/i_was_affraid_to_make_games_with_my_gf/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/bHhkNHI3Yng2YW1nMTAcNhigsmW35Nsk059O_rG3ioUZwYF3H9zyMa31pi5S.png?width=140&height=78&format=jpg&auto=webp&s=29774d1edf187ab9039ba035b3c232adf6cb23c3",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 108,
+            "title": "I was affraid to make games with my GF",
+            "author": "PuzzleheadedLong793",
+            "authorId": "kgysymn2j",
+            "selftext": "Last weekend we went to a game jam together for the first time.\n\nI think we were nervous about our ability to collaborate – we both realised that moments like this can tell us a lot about our relationship. We've been both working on creative projects on our own but this was something new. \n\nAt first it seemed that the lack of sleep and being overworked from the previous week will result in us just bailing out. On our way to the gamejam we crossed the river and above an island there was a flock of crows flying free and my gf cried – she had been going through a rough phase and just wished she could be a crow insted (she loves them).\n\nLater that evening – after some time of discussing the topic of the game jam and not being able to come up with an idea we would both be passionate about – I remembered that moment and proposed this game that we ended up making.\n\nIt was very different from the rest of the games on the jam and I think people liked it. The feeling of appreciation led to us working on it together for the rest of the week, often long past midnight, until we were truly convinced we could be proud of it. \n\nIn hindsight it feels like a relief, knowing we are able to cooperate and truly vibe each other's ideas and perspectives. I loved the process and I hope that more opportunities for projects like this will follow. \n\nIn the meantime we've thought we could share the game with some people here and see if people like it as much as we do. It's more of a meditative, atmospheric experience which takes 5-10 minutes. Slow and calm. In a time of generative AI, turmoil all over the world and uncertainty, this felt like a game worth making. Now we need to go and touch some grass. Enjoy! <3 \n\n[https://buldozer.itch.io/kraa](https://buldozer.itch.io/kraa)",
+            "permalink": "/r/IndieGaming/comments/1rhaxa9/i_was_affraid_to_make_games_with_my_gf/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1772305376,
+            "numComments": 12
+          },
+          {
+            "id": "1qf8ig3",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1qf8ig3/ive_been_working_on_a_magic_beat_em_up_game_for/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/ZTMzNmoyYTVrdmRnMVoL1LYmNjt7HwqDdSKgbisjuCV5kZNeext9_F9NMgL8.png?width=140&height=78&format=jpg&auto=webp&s=efe2001e41dc14907ff11d9ddb2e37d4979c1370",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 96,
+            "title": "I've been working on a \"Magic Beat 'em up\" game for over a year. Does this style appeal to the Western audience? (100% Hand-made Pixel Art)",
+            "author": "Ok-Pineapple8301",
+            "authorId": "12zxye2pm4",
+            "selftext": "I am currently developing **<Cat Girl Survivor 2>**, which combines classic **Beat 'em up (Belt-scroll)** action with **Rogue-lite** mechanics.\n\nMy goal was to mix the fun of Hack & Slash (wiping out huge hordes of enemies) with the satisfying controls of a fighting game (aerial combos, physics interactions).\n\n**Here is what I really want to ask you:** Sometimes I worry that the specific \"Anime/Cat Girl\" style or the genre mix might be too niche for the US or Western market.\n\n* Does the combat look satisfying to you?\n* Is the visual style appealing? (I put a lot of effort into the pixel art without using any Gen-AI.)\n\nPlease be brutally honest. Any feedback would be greatly appreciated!",
+            "permalink": "/r/IndieGaming/comments/1qf8ig3/ive_been_working_on_a_magic_beat_em_up_game_for/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1768640634,
+            "numComments": 40
+          },
+          {
+            "id": "1xkdpno",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1xkdpno/our_game_is_basically_wow_dungeons_as_a_roguelike/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/cXY1N3U1a25xdHloMSCunQm6vxmzg218mSO0bopVX6bIi4zTI0lIlZ6MLXKI.png?width=140&height=78&format=jpg&auto=webp&s=085b219246cae283a30d7fe43347a25cc69e7c1d",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 94,
+            "title": "Our game is basically 'WoW dungeons as a rogue-like' and we are looking for feedback on our free Playtest from Oct 30th-Nov 4th [0% AI]",
+            "author": "yowambo",
+            "authorId": "975y4",
+            "selftext": "Hi everyone!\n\nI am part of a tiny team (aka my friend and me with some additional help from my wife) working on this game for about 2 years now. 5+ years if you count our initial try on getting this started and 12+ years if you count the first time we talked about the idea for our game **Attuned**.\n\nThat idea being a game where you can basically play **World of Warcraft dungeons but as a rogue-like**. What exactly that means is something we had to figure out ourselves, but we're pretty happy with where we are now and are looking for feedback on the current version.\n\nYou form a **party of 4 players and go into the dungeon**. Players choose a class and a setup of 1 Healer, 1 Tank and 2 DPS is recommended, but not strictly required. The gameplay itself is very close to Classic WoW dungeons. The tank needs to make sure enemies are attacking him, the healer keeps the party alive and the DPS' kill stuff and use crowd control abilities to keep difficult encounters managable.\n\nThe big difference: **Each time you enter the dungeon** you start *from zero* and **roll a new loadout of spells** from a preselected pool. Pools are categorized so you don't end up with something unplayable, but some loadouts synergize in different ways than others and you will have to choose the upgrades you receive during your run accordingly. If your group wipes in the dungeon the run is over and you lose *all* upgrades.\n\nHowever you do **get to keep some currencies that allow you to upgrade and customize your spells** and unlock outfits.\n\nIf all this sounds intriguing to you, we would love for you to check out our game and let us know what you think.\n\nAs the title says we are fully opening our **free Playtest from Friday Oct 30th until November 4th!**\n\n[](https://i.redd.it/gw6tzxweqryh1.gif)\n\n![img](x5ig7kcgqtyh1)\n\nWe were actually hoping to have a Demo ready for this weekend, but sadly weren't able to get it done in time, so that will have to wait a bit. As I said we are a tiny team and we're not using Gen-AI at all during development, so things can and will take time, but this is a passion project for us and we're trying to make it the best game we can!",
+            "permalink": "/r/IndieGaming/comments/1xkdpno/our_game_is_basically_wow_dungeons_as_a_roguelike/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1793461964,
+            "numComments": 35
+          },
+          {
+            "id": "1u6unvi",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1u6unvi/i_just_learned_my_game_is_the_highest_rated/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/qsy46grvpi7h1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=4690a6f692d723a4a0ba6b2be4cd9efd8920885e",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 88,
+            "title": "I just learned my game is the highest rated \"social deduction\" game, according to SteamDB",
+            "author": "AdamSpraggGames",
+            "authorId": "alkzo",
+            "selftext": "According to this rating system (not exactly sure how it works) it's rated higher than Among Us and Jackbox?!  That's pretty cool. I'm not trying to brag, just surprised and super flattered. ",
+            "permalink": "/r/IndieGaming/comments/1u6unvi/i_just_learned_my_game_is_the_highest_rated/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1781560445,
+            "numComments": 37
+          },
+          {
+            "id": "1s3k6xm",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1s3k6xm/our_steam_wishlists_have_moved_up_to_40100_a_day/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/et2ytug7o8rg1.png?width=140&height=51&auto=webp&s=57bc7bbdb47e3893fec4bd4fc5ab0fd6ca8555d3",
+                "type": "photo",
+                "width": 140,
+                "height": 51
+              }
+            ],
+            "score": 86,
+            "title": "Our Steam wishlists have moved up to 40-100 a day this month, changing from a year of barely any per day. This is what we did to change it.",
+            "author": "johnyutah",
+            "authorId": "5klty",
+            "selftext": "This last month we finally broke out of our wishlist purgatory. For over a year, we got 0-5 wishlists a day no matter what we did. This last month we hit 40-100 a day. Also, our game now comes up to the top of Google search when searching “scifi pve game” and variations of that. I’m completely blown away with how we have been able to finally break out of our bubble. Posting our experience here to help others stuck in that same situation, maybe it’ll help.\n\n![img](et2ytug7o8rg1 \"You can see the day(s) we paused Reddit ads to check wishlists, and then re-enabled.\")\n\nWe’re an indie team working on a game called Warped Universe, no publisher, doing the dev and marketing ourselves like many others here. No matter what we posted, how we posted it, it never seemed to really make much of a dent in the numbers. We release monthly dev updates, screenshots and progress to our socials, updates of all kinds. We have had booths at GDC and Gamescom. None of this did anything major to wishlists. Small bumps here and there from conferences but then it would just go back to the same rate. One thing that did increase them was Next Fest in October, but it was a big spike, and then back to the same 0-5 a day. Sometimes minus for the day as we would get 0 additions but some people would delete.. It hurts lol.\n\nI recently got to sit down with Steve from Digital Bandidos / Versus Evil, who also worked on marketing for Bethesda, and he looked at our page and basically told us everything that was wrong. He noted we had a wide reach, but shallow depth on everything. We are on all socials, but not really going farther than the surface layer. Our message was too wide and not specific enough. We needed to break out of our bubble. We took notes on it all and went to work on it. Within implementation, we are now getting 40-100 wishlists a day for the past few weeks.\n\n![img](xwfk7e6fo8rg1)\n\n**What Worked for Us:**\n\n1. **Check the “MORE LIKE THIS” section on your Steam page**: The first thing he did was check the games recommended on our page. None of them made sense, and he said that was the first thing that needs to be fixed. The goal is to get games you know, you recognize and that are similar, to be shown on your page. You do this by changing tags and your About section until they do show.\n2. **Steam Tags**: the order of the tags are just as important as what they say. We had \"psychedelic\" and other less used tags on the top of our list because we were going for a colorful and painterly environment look.. He said to get rid of them, put the most central and game-mechanic style tags at the top. The first 5 are used by the algorithm the most. They should be the same tags used by similar popular games. The other tags after that are the flavor, but put the meat on top. Then log out of Steam, go to your game page, and check what is recommended. You need to be logged out and check it on incognito, or a different browser. Being logged in will skew it. If they do make sense, then your game has a much better chance to be shown on other similar games too. Use the tag wizard in Steam and play around with order. Small adjustments can make big differences. Take time to get it right.\n3. **Steam \"About\" section**: Our About section was full of lore and story. We wanted to show the backstory to draw readers in. In the end, it doesn’t help get readers’ attention, and it doesn’t get us in the algorithm at all. “Lore helps when players are already invested”. The about section needs to have words that can help categorize you. Use your tag words in the about section to describe the game mechanics,  style, and also other game comparisons that make sense. This helps you become searchable. No one is searching some alien's name in your story, but people are definitely searching gamestyles. We rewrote the majority of our About section explaining the core central mechanic of the game, the progression, and everything else that supported it. Some lore stayed further down but wasn’t full on. He also recommended us to put game comparisons in a paragraph that make sense. “If you like the mechanics of this game, try our game for these features”. We were hesitant on mentioning other games in it, but he insisted it’s important for indies to make comparisons for people to paint pictures in their minds. People are saturated with information in the media, and the quicker you can paint a picture the better.\n4. **Pick a lane:**  Our game allows you to choose the gameplay/genre for each mission. We were pushing that in our message. It really is fun and unique, but it’s hard to market and explain in a few words. It’s a feature, not the central message. But we were leaning into it hard and it was confusing people. He said that even though it’s a very unique feature, it should not be promoted as THE feature. He stated that if we show we are everything, then we are nothing. “Pick a lane, find the core”. After a while of finding what the central core is in all our game modes and gameplay, our game is essentially a sci-fi looter shooter. We leaned more into that for the message. It’s easy to get carried away with trying to show EVERYTHING you have worked on, because you want to show the hard work and time you put in. But people need to understand your game in 2 seconds these days scrolling. Get that across first, and then let them discover the rest.\n5. **New Gameplay Trailer**: Make a new gameplay trailer. Make it quick, catch attention. Even if you already have a trailer, make an updated gameplay trailer, and think in terms that the average user will scroll away after a couple seconds. I for one hate the social media / tik tok attention grabbing stuff, and refused to do it for so long. We made longer trailers, more evolving cinematic stuff, but in the end, most people skip because EVERYTHING is fighting for attention. I'm glad we had cinematic videos, but we needed something to catch eyes quick. We were testing a new build, so I just recorded testing all day. I originally intended to just make a post for tik tok and other socials with some quick cuts to try it out. I cut out a bunch of clips and made a video less than a minute that had clips changing every half second essentially. I wrote a song for it ( I do audio for the game), and we synced the edits in Davinci Resolve. The team thought it looked cooler than our previous gameplay trailer, so we decided to put it on our Steam page as the new one. It was raw with no special effects or fluff, and it even annoyed a lot of people with the fast edits. We got some comments on the edits being ridiculously fast.. But it caught eyes. More and more people were watching it. Some people said they wish they could see more and checked us out. It worked.\n6. **“Oh shit!” moments -** For gameplay trailer and media, show the “oh shit” moments. “What is the one thing that makes your game fun? What's cool and unique about a shooter? - nothing…, it's the fun crazy things that happen around it - the \"oh shit moments that make it special and get people to try… What is your “oh shit!” moment? Find that, and show that. \n7. **Gamespress - IMPORTANT:** There are a lot of game media/press services and we submitted to everyone possible that had a free link. This is the one site that got us showing up on google for game genre searches. Send your trailer, or next announcement, to [gamespress.com](http://gamespress.com). We sent the new trailer to Gamespress, and described our game and wrote it up as an announcement for new trailer. You shouldn’t send just anything to them, so this is a big reason to update your trailer or find some thing to announce. Get that done, and then send the announcement to them. They have by far been the best way to get us on Google front page. Now, if you search “scifi pve game” our game comes up first.. It's crazy. It was nowhere near that before. We're seeing a lot of traffic come in from outside searches now.\n8. **Reddit ads:** We’ve tried ads on various social media, but it seems the best so far (really the only that worked) have been using our trailer on Reddit advertising, and specifically aiming it towards specific gaming subs that are related to your games. Avoid broad and wide marketing, get genre specific and deeper. Smaller subs are less eyes overall, but more likely to click and convert. Stats over 3 weeks:\n   1. **$523.62 spent** total\n   2. **87,970 impressions** (people who saw the ad)\n   3. **2,897 clicks** through to our page\n   4. **$5.95 eCPM** (cost per 1,000 impressions)\n   5. **$0.18 CPC** (we paid 18 cents every time someone clicked)\n   6. **3.29% CTR** (click-through rate, meaning about 1 in 30 people who saw the ad actually clicked it)\n\nWe were wondering if these people were just clicking and looking at our page and moving on, and if it actually affected our wishlists. So we paused the Reddit adds for a day. Wishlists went down for that day over 80%. Also, re-enabling kicked them off harder than before (check image above), something to explore there. So this is definitely the biggest push of our wishlists. However, without the Steam page updates, About section rewrite,  new trailer, and new key art we did this month, I think it would not have been as effective. The ad caught the eye and got them to go to our game page, but the other stuff convinced some of them to wishlist. It looks like 20% of those coming directly from Reddit are wishlisting.\n\nTLDR:\n\n1. Update tags so the similar games section make sense\n2. Change the About section to include those tags, game mechanics, keep it lore-lite, ad sensible game comparisons if you don’t mind being compared to them\n3. Make a new raw updated gameplay trailer\n4. Send to [gamespress.com](http://gamespress.com).\n5. Try small social media ad campaigns to see what fits. Reddit ads fit for us, none of the other socials worked at all.. We did $20 a day (they add a fee so it’s actually $25) for 3 weeks. After seeing it worked, we’ve extended another week and will play around with them. Also trying a comparison of gameplay trailer and new game poster to see what converts more. Video most likely but good to see.\n\n  \nIf you find this helpful, and want to see example of ours, our steam page is here: [https://store.steampowered.com/app/3277880/Warped\\_Universe/](https://store.steampowered.com/app/3277880/Warped_Universe/)",
+            "permalink": "/r/IndieGaming/comments/1s3k6xm/our_steam_wishlists_have_moved_up_to_40100_a_day/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1774465879,
+            "numComments": 18
+          },
+          {
+            "id": "1uqzodz",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1uqzodz/my_11_year_old_daughter_and_i_made_this_game/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/a252dm5maW9rMWNoMZvGYMp0DGrlw_sgKLgYejmzTC9CplUZATY-ZhRMPB7T.png?width=140&height=82&format=jpg&auto=webp&s=704424925be08ad3f8160d12d870bec2f78d0b42",
+                "type": "video",
+                "width": 140,
+                "height": 82
+              }
+            ],
+            "score": 86,
+            "title": "My 11 year old daughter and I made this game using Rust",
+            "author": "coolwulf",
+            "authorId": "ggxfu",
+            "selftext": "Took us a while to build this from scratch. She has some good ideas for building a action RPG game like Dragon Quest and I decided to give this a shot and she has been playing and testing the games. So far she's loving it. Hope you all enjoy.\n\nIt's a native Mac & Windows game and you can get it for FREE here:\n\n[https://code.intellios.ai/cedricsquest/](https://code.intellios.ai/cedricsquest/)",
+            "permalink": "/r/IndieGaming/comments/1uqzodz/my_11_year_old_daughter_and_i_made_this_game/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1783532154,
+            "numComments": 23
+          },
+          {
+            "id": "1peluxf",
+            "url": "https://www.reddit.com/r/IndieGaming/comments/1peluxf/made_a_turnbased_fighting_game_where_all_your/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/YjB1b3FsOWJiYjVnMcMxCZisB_r5QiJ0cZ8vIVeCBJCe6uXRjRqHwPXQ-mrD.png?width=140&height=78&format=jpg&auto=webp&s=9e1d70b41aa349b595b6e73b221e7ef0faf03fe6",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 84,
+            "title": "Made a turn-based fighting game where all your combos are represented as sequences of cards",
+            "author": "GoldtusksStudio",
+            "authorId": "1oep0js9lh",
+            "selftext": "The guiding idea we had while making [Sheva](https://store.steampowered.com/app/3337620/Sheva/) was basically - what if a retro fighting game was turn-based… and also a simultaneous-play deck battler? And it became something my friend and I have been developing for the past 2-odd years, and now...\n\n**This week we were proud to finally bring it into early access!**\n\nAt its most fundamental, Sheva s a 1v1 card-fighter where you and your AI opponent play out your turns at the same time, trying to read each other’s next action and simulating a fighter through 3 basic actions: charge (draw card), block (block 2 attack cards) and attack (...to attack, using up all your current cards).\n\nFor each run, you **select one of 7 chakras** and these in turn **determine boss types** (like this one you can see obliterating us in the video) **but also enemy behaviors and attack patterns** and of course - the reward you’re given if you’re victorious in that run..\n\nThat about sums up the gameplay. We wanted it to be strategic but have the same atmosphere and punchiness like you were playing an actual retro arcade fighter fully in real time. I hope that vibe carried over well?\n\nCurious to see what you think :)",
+            "permalink": "/r/IndieGaming/comments/1peluxf/made_a_turnbased_fighting_game_where_all_your/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1764909155,
+            "numComments": 4
+          },
+          {
+            "id": "1wljs7i",
+            "url": "https://www.youtube.com/watch?v=8W9cAzl_TpQ",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/LMvZ9EYqmAtceFsFhrhwAwgOTOMFR7I1fYimZ8M40yg.jpeg?width=140&height=105&auto=webp&s=a1c8e2f62b8fbdd8863befbc7b2bd91231c25662",
+                "type": "photo",
+                "width": 140,
+                "height": 105
+              }
+            ],
+            "score": 82,
+            "title": "Refund This Game - The challenge to get to the top AND get a refund!",
+            "author": "pigdeons",
+            "authorId": "5len14qj",
+            "selftext": "We at dofhouse and Cactile Games just announced that [Refund This Game](https://store.steampowered.com/app/5070190/Refund_This_Game/) is releasing on October 15th!   \nIt's a first-person *Foddian* rage game where the challenge is simple:\n\nCan you **beat the game** in under the **2-hour** Steam refund window, **and get your money back?**\n\nWe beat it ourselves, so we know it’s possible; but it will *not* be easy! Just one little mistake could send you tumbling down all the way to the bottom, forcing you to start over from the beginning again.\n\nLet us know what you think!\n\n(No AI used in the game! We're EXTREMELY against it!)",
+            "permalink": "/r/IndieGaming/comments/1wljs7i/refund_this_game_the_challenge_to_get_to_the_top/",
+            "subreddit": "IndieGaming",
+            "createdUtc": 1789917532,
+            "numComments": 57
+          }
+        ],
+        "nextCursor": "cur_bjeCkhSN7rQPcQH511nScQ"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-bison-9321fc54",
+      "kind": "anonymous",
+      "name": "Bison",
+      "artworkKey": "bison"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00035",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:42:46.352Z",
+  "started_at": "2026-11-23T07:42:46.693Z",
+  "completed_at": "2026-11-23T07:42:49.396Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

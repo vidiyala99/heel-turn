@@ -1,0 +1,35 @@
+{
+  "id": "a42f032d-d2c7-4531-a593-bc76413a4748",
+  "run_url": "https://app.glasser.ai/runs/a42f032d-d2c7-4531-a593-bc76413a4748",
+  "provider": "scrapecreators",
+  "endpoint": "/v1/linkedin/search/posts",
+  "endpoint_version": 4,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "query": "Universal Hackathon San Francisco winner AWS Builder Loft Crewbase",
+    "date_posted": "last-month"
+  },
+  "output": null,
+  "provider_response": {
+    "http_status": 404,
+    "error": {
+      "error": "not_found",
+      "message": "No posts found",
+      "success": false,
+      "errorStatus": 404
+    }
+  },
+  "charge_usd": "0.00188",
+  "charge_basis": {
+    "clause": "NO_RESULT",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:35:44.322Z",
+  "started_at": "2026-11-23T07:35:44.363Z",
+  "completed_at": "2026-11-23T07:35:49.080Z",
+  "task_id": "tsk_965d2263a224d7b9",
+  "metadata": {}
+}

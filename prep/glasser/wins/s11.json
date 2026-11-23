@@ -1,0 +1,148 @@
+{
+  "id": "ed5e1787-bbde-4109-b4d1-7c2cbaab925e",
+  "run_url": "https://app.glasser.ai/runs/ed5e1787-bbde-4109-b4d1-7c2cbaab925e",
+  "provider": "serper",
+  "endpoint": "/search",
+  "endpoint_version": 2,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "q": "LA Hacks 2026 winners grand prize"
+  },
+  "output": {
+    "organic": [
+      {
+        "link": "https://lahacks.com/",
+        "title": "LA Hacks | UCLA's Student Hackathon",
+        "snippet": "in prizes: $60,000. participants: 1,000+. projects: 200. Opening ceremony getting underway!",
+        "position": 1,
+        "displayedLink": "https://lahacks.com"
+      },
+      {
+        "link": "https://la-hacks-2026.devpost.com/",
+        "title": "LA Hacks 2026 - Devpost",
+        "snippet": "Prizes $24,494+ in prizes + other prizes 1st Overall 1 winner Frontier GoWILD All. Overall 1 winner Apple Watch SE 3 3rd Overall 1 winner Polaroid Now+ ...",
+        "position": 2,
+        "displayedLink": "https://la-hacks-2026.devpost.com"
+      },
+      {
+        "link": "https://www.instagram.com/p/DIS1s1DR3b5/",
+        "title": "LA Hacks | Here's a prizes teaser for the Grand Prize! Each winner for ...",
+        "snippet": "Here's a prizes teaser for the Grand Prize! Each winner for a category / prize will be given one of many options to choose from.",
+        "position": 3,
+        "displayedLink": "https://www.instagram.com › p › DIS1s1DR3b5"
+      },
+      {
+        "link": "https://www.linkedin.com/company/lahacks",
+        "title": "LA Hacks",
+        "snippet": "Learn more about our Roblox Civility Challenge grand prize winners: - 1st Place: Mindful Egg | Topic: Digital Wellbeing & Mental Health ・ 2nd Place: Inbox ...",
+        "position": 4,
+        "displayedLink": "https://www.linkedin.com › company › lahacks"
+      },
+      {
+        "date": "May 5, 2026",
+        "link": "https://x.com/ASI_Alliance/article/2051739180384866483",
+        "title": "LA Hacks 2026 Winners: Agentic AI Lands at UCLA, and OmegaClaw ...",
+        "snippet": "#1 Winner: Edith ... Edith is a real-time multimodal AI assistant that runs on Meta Ray-Ban glasses. The team wired OmegaClaw into wearable ...",
+        "position": 5,
+        "displayedLink": "https://x.com › ASI_Alliance › article › 2051739180384866483"
+      },
+      {
+        "link": "https://la-hacks-2026.devpost.com/project-gallery",
+        "title": "Come find your spark at LA Hacks 2026! - Devpost",
+        "snippet": "Prizes Track: Agentverse - Search & Discovery of Agents Best Social Impact Hack Best UI/UX Best Hardware Hack. Winner Winner Jay Wu Kevin Wu 26. Intelligence ...",
+        "position": 6,
+        "displayedLink": "https://la-hacks-2026.devpost.com › project-gallery"
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=wyKP_IuXx-o",
+        "title": "Inside LA's Largest Hackathon",
+        "snippet": "And the grand prize? A Frontier Airlines All-You-Can-Fly GoWild pass. Soon's Dagsen Love tries to predict the winner,",
+        "position": 7,
+        "displayedLink": "https://www.youtube.com › watch"
+      },
+      {
+        "link": "https://www.instagram.com/reel/DVqxtsfiKom/",
+        "title": "3% Chance. 97% Talent. The winners of More Than a Hack are ...",
+        "position": 8,
+        "displayedLink": "https://www.instagram.com › reel › DVqxtsfiKom"
+      },
+      {
+        "link": "https://fetch.ai/events/la-hacks-2026",
+        "title": "LA Hacks 2026",
+        "snippet": "Prizes ; Best Use of Fetch.ai - 1st Prize. $2500. Cash Prize + Internship Interview Opportunity ; Best Use of Fetch.ai - 2nd Prize. $1500. Cash Prize + Internship ...",
+        "position": 9,
+        "displayedLink": "https://fetch.ai › events › la-hacks-2026"
+      }
+    ],
+    "peopleAlsoAsk": [
+      {
+        "question": "What is the prize for the winner of a hackathon?"
+      },
+      {
+        "question": "What is LA Hacks 2026?"
+      },
+      {
+        "question": "Who runs LA Hacks?"
+      },
+      {
+        "question": "What are good hackathon prizes?"
+      }
+    ],
+    "relatedSearches": [
+      {
+        "query": "La hacks 2026 winners grand prize date"
+      },
+      {
+        "query": "La hacks 2026 winners grand prize 2022"
+      },
+      {
+        "query": "La hacks 2026 devpost"
+      },
+      {
+        "query": "LA Hacks winners"
+      },
+      {
+        "query": "LA Hacks 2027"
+      },
+      {
+        "query": "La hacks 2026 deadline"
+      },
+      {
+        "query": "La hacks 2026 sponsors"
+      },
+      {
+        "query": "LA Hacks acceptance rate"
+      },
+      {
+        "query": "LA Hacks AI hackathon"
+      },
+      {
+        "query": "La hacks login"
+      },
+      {
+        "query": "LA Hacks Devpost"
+      }
+    ],
+    "searchParameters": {
+      "q": "LA Hacks 2026 winners grand prize",
+      "type": "search",
+      "engine": "google"
+    }
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.001",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:36:36.525Z",
+  "started_at": "2026-11-23T07:36:36.559Z",
+  "completed_at": "2026-11-23T07:36:37.322Z",
+  "task_id": "tsk_965d2263a224d7b9",
+  "metadata": {}
+}

@@ -1,0 +1,577 @@
+{
+  "id": "df2f10be-f130-42c0-90a1-27939ffdacd7",
+  "run_url": "https://app.glasser.ai/runs/df2f10be-f130-42c0-90a1-27939ffdacd7",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "AI generated film trailer agents cast",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "large_result: this response is ~100 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 25,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1r7x023",
+            "url": "https://www.reddit.com/r/Wellthatsucks/comments/1r7x023/when_you_skip_validation_for_ai_generated_results/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/cmyieappl7kg1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=ba55b28e06ba1ed35f0d88df299828a1f7ebade3",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 39799,
+            "title": "When you skip validation for AI generated results",
+            "author": "Epelep",
+            "authorId": "chsmv",
+            "selftext": "",
+            "permalink": "/r/Wellthatsucks/comments/1r7x023/when_you_skip_validation_for_ai_generated_results/",
+            "subreddit": "Wellthatsucks",
+            "createdUtc": 1771401363,
+            "numComments": 1394
+          },
+          {
+            "id": "1usmsx8",
+            "url": "https://www.telegraph.co.uk/films/2026/07/10/christopher-nolan-interview-odyssey-backlash/?WT.mc_id=tmgoff_tw_post",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/KyjDwMQ4L5NfXdQLttR9_i_BWmWkRbfcv3UeFUTqs6w.jpeg?width=140&height=78&auto=webp&s=5c64e809aabad67f368a94d88270ca4b5c243650",
+                "type": "photo",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 23799,
+            "title": "Christopher Nolan: \"I’ve never seen a more rapid wholesale dismissal of a supposedly foundational jump in technology in my lifetime. So much energy has been expended on bringing in AI, but if you look at Gen Z's reaction, they’re utterly rejecting it. They see it for what it is very quickly”",
+            "author": "ChiefLeef22",
+            "authorId": "7a7qkhpq",
+            "selftext": ">“I’ve never seen a more rapid wholesale dismissal of a supposedly foundational jump in technology in my lifetime,” he says. “So much energy has been expended on bringing in AI, but if you look at that generation’s reaction, they’re utterly rejecting it.” He cites his own four children – in their late teens and early 20s – as a further example.\n\n>“**Their judgment of AI slop has been immediate and harsh.** They see it for what it is very quickly – and it’s much easier for them to identify it, because it grew out of an online world they know really well. And while that doesn’t mean that every aspect of the technology is useless or meaningless, in film-making it’s hitting at exactly the wrong time. After years of driving towards heavily virtual environments, we’re seeing a renewed interest in more tactile, more real forms of storytelling.”\n\nMassive Nolan W",
+            "permalink": "/r/antiai/comments/1usmsx8/christopher_nolan_ive_never_seen_a_more_rapid/",
+            "subreddit": "antiai",
+            "createdUtc": 1783687884,
+            "numComments": 989
+          },
+          {
+            "id": "1xfzb0z",
+            "url": "https://www.reddit.com/r/antiai/comments/1xfzb0z/first_ai_film_in_china_was_a_flop/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/xohaqnvuttxh1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=888ab97d56e6d87725aa7ae2e59b592ec9018e37",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 21907,
+            "title": "First AI film in China was a flop",
+            "author": "No_Psychology8158",
+            "authorId": "24iwwnbqr3",
+            "selftext": "",
+            "permalink": "/r/antiai/comments/1xfzb0z/first_ai_film_in_china_was_a_flop/",
+            "subreddit": "antiai",
+            "createdUtc": 1793027006,
+            "numComments": 559
+          },
+          {
+            "id": "1ulcf8i",
+            "url": "https://www.reddit.com/r/BeAmazed/comments/1ulcf8i/the_anti_ai_movement_has_reached_hollywood/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/9pv3cls42sah1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=2b4da80e5356be8925186683b2701dee0e4668b9",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 20902,
+            "title": "The Anti Ai Movement Has Reached Hollywood",
+            "author": "No_Top_9023",
+            "authorId": "trm48o19",
+            "selftext": "",
+            "permalink": "/r/BeAmazed/comments/1ulcf8i/the_anti_ai_movement_has_reached_hollywood/",
+            "subreddit": "BeAmazed",
+            "createdUtc": 1782981079,
+            "numComments": 297
+          },
+          {
+            "id": "1udjzie",
+            "url": "https://www.reddit.com/r/GirlDinnerDiaries/comments/1udjzie/my_mom_is_posting_fanfic_and_ai_images_about_her/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/zdhg2vm7u19h1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=2e21aa1cbd7dc438fb47e2815b649a81190d7217",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 18691,
+            "title": "My mom is posting fanfic and AI images about her fictional harem of REAL MEN SHE KNOWS living in a town together with her as the mayor",
+            "author": "Gojiquats",
+            "authorId": "3wiohem",
+            "selftext": "I don’t know what to even say to my mother anymore. My mom has taken her obsession with men and social media to a new level now exacerbated by AI.\n\nFor some context, my mom has always been very odd, like to the point where she is very well known in every community I’ve ever been in for being bizarre and generally hostile and angry (especially toward me, the lucky only child lol). It was literally traumatic dealing with her all my childhood and adolescence, so now at 30 I just keep her at arm’s length.\n\nI won’t get into every detail because we’d be here all day, but some of the stranger things include making me break up with my first boyfriend in middle school because she had feelings for him (no, he and his parents did not appreciate it), banning an extremely historically significant book from my entire school district because it contained the word “vagina”, posting batshit insane posts all day and night on social media spreading very personal info about other people (something like 60,000 Facebook posts), running an IG account for sensual photos of her feet, making a scene at my wedding because she didn’t like one of the songs that played because it reminded her of a guy she had an affair with, hardcore MAGA bible thumping. You get the idea (maybe)? She said her favorite hobby is posting on Facebook if that tells you anything. And also she has cheated on my dad like a billion times but they’re still together specifically because she relies on him financially as she didn’t want to work. Their marriage has been god awful ever since I could remember, I don’t know what is even going on there.\n\nANYWAY her favorite topic is men, specifically any man who gives her any attention whatsoever, even if in a professional context. So that generally means: her pharmacist, her therapist, her chiropractor (who she wrote an AI book about — that’s another rabbit hole), gym employees, etc. She will very openly have a thing for these men to where she centers her whole life and personality around them and orbits them for years and vague-posts about them every day. She recently has started a campaign on social media where she has generated her collection of men as uncannily accurate AI images and she attaches AI fan fiction about how the men all live together in a town that she’s the mayor of (no, her husband isn’t invited to the town I guess). I don’t know why this was the final straw of my remaining sanity, but seeing MANY AI photos and fanfic of her married chiropractor man (who she INCLUDES THE REAL NAME OF!!) and her on her public Facebook page just left me speechless.\n\nShe posted several dozen of these images and stories for a few weeks, even making a dedicated Facebook page for it that she invited a ton of people to follow. After not getting traction or engagement on the posts, she finally posted a collection of AI images announcing she was going to run a “pageant” of all the men in her lore so the audience could vote on the best man. She included ACTUAL REAL DETAILS about these actual real men with AI images depicting them in various scenarios (running a 5k, drinking coffee with her, etc.)\n\nThen when no one participated in the vote of best man, she made a post complaining that no one is giving it the attention she expected. She then posted an image that said “OFFICIAL ANNOUNCEMENT: Due to lack of participation, voting has concluded. With no votes cast, no winner will be named.”\n\nIdk why, but that image was the final, final straw. I don’t know what I’m even supposed to say. I’ve always had a strained relationship with her which has caused a lifetime of mommy issues lol, but I’m at the point where it’s like… there is nothing I could say or do to help the situation. I’ve expressed concern many times over the years, she’s always just blown me off. She is not interested in anyone’s opinion if it isn’t from her idolized men. Yes she has been in therapy many times, no there is not even a hint of substance usage going on. She ALWAYS insists everything is innocent and that there is nothing strange about it, and that everyone else is the problem for not seeing it.\n\nJust ranting, I suppose. My husband has said before that he would have gone no contact by now. I have gone to pretty low contact, but it’s not the greatest since my parents are my only surviving family. My dad checked out decades ago so he has nothing to say about it lol.\n\nAnyway I’m avoiding her for at least as long as it takes for her to give up on this and move onto some other cringe activity because I’m tapping out of this one.\n\nCelsius and Aldi protein pudding for breakfast. The pudding is surprisingly packed with protein, it’s a great snack/light meal. 10/10.\n\nEdit: Okay so I wasn’t expecting this much attention on it lol. I’ve been dealing with her for so long that this just feels normal to me now, your responses have helped me put things into perspective.\n\nSince the middle school boyfriend is coming up in comments a lot: It was a really weird situation. I was in 8th grade, he was in 9th, so he was 14/15 when we dated. He is a great guy, we are still friends to this day. He looked much older than his age and had facial hair, many people thought I was dating a grown ass man. She would CONSTANTLY ask about him/talk about him, she didn’t allow me to delete my text messages with him because she wanted to read our conversations. (We SHARED a cell phone when I was in middle and high school.) She wouldn’t let me do things I wanted to do like make Easter eggs unless I invited him. She’d go with us on “dates” and sit at the table with us and play her romance music. She suddenly forbade me from speaking to him at all because she found out we kissed once (the horror!), then stepped in and would message him using my Facebook account in the middle of the night. His mom (who is a lovely woman) rightfully told her to get away from him, and then she I guess stopped. I was limited to the info I could get since she controlled my phone and communications. He still jokes about it to this day and has asked my husband if she did the same thing to him. The only explanation she gave me was “it’s natural to want to feel wanted by a man of any age.” He definitely was not about it at all.\n\nRegarding her mental health/diagnosis: I think the only things she has been officially diagnosed with are depression, anxiety, and CPTSD. She had a horribly abusive childhood that included getting abused by her adoptive parents and married off at 16. I really do feel for her in that regard, because she clearly hasn’t been able to work through it. I ALSO have depression, anxiety, and CPTSD from growing up in this environment lol. Histrionic sounds about right, but again there hasn’t been a diagnosis.\n\n**Another** **edit**: I just looked at the posts again. It appears that all posts using the real name of at least one of the men have been removed so something happened there.  He now has a different name but the same face. ",
+            "permalink": "/r/GirlDinnerDiaries/comments/1udjzie/my_mom_is_posting_fanfic_and_ai_images_about_her/",
+            "subreddit": "GirlDinnerDiaries",
+            "createdUtc": 1782227782,
+            "numComments": 1656
+          },
+          {
+            "id": "1vlxcdo",
+            "url": "https://www.reddit.com/r/KidsAreFuckingStupid/comments/1vlxcdo/news_story/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/4658vlhrvtih1.png?width=140&height=119&auto=webp&s=fbb6974766974e483a2eaa9350574f408e304314",
+                "type": "photo",
+                "width": 140,
+                "height": 119
+              }
+            ],
+            "score": 15773,
+            "title": "News story",
+            "author": "Unusual-Pizza2907",
+            "authorId": "5qvz96alp",
+            "selftext": "",
+            "permalink": "/r/KidsAreFuckingStupid/comments/1vlxcdo/news_story/",
+            "subreddit": "KidsAreFuckingStupid",
+            "createdUtc": 1786490252,
+            "numComments": 495
+          },
+          {
+            "id": "1tpz649",
+            "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1tpz649/i_see_octavia_spencer_at_least_6_times_a_day/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/puy5xc5nqu3h1.png?width=140&height=69&auto=webp&s=57b7c430c3dc5189966a7cd9a5c4cd6ec467deb5",
+                "type": "photo",
+                "width": 140,
+                "height": 69
+              }
+            ],
+            "score": 15695,
+            "title": "I see Octavia Spencer at least 6 times a day trying to get to Gmail and hitting enter before the autocomplete finishes",
+            "author": "papes_",
+            "authorId": "neb8qj7sd",
+            "selftext": "",
+            "permalink": "/r/mildlyinfuriating/comments/1tpz649/i_see_octavia_spencer_at_least_6_times_a_day/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1779962755,
+            "numComments": 1650
+          },
+          {
+            "id": "1ponoov",
+            "url": "https://www.reddit.com/r/Silksong/comments/1ponoov/so_apparently_team_cherry_is_using_ai_now_and_has/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/6qYhhVhrCk1mmN9gU3jEJuAPh3_rHEiB0E73GNxj7dQ.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 15638,
+            "title": "So apparently Team Cherry is using AI now and has been doing so already :(",
+            "author": "ClickToLose",
+            "authorId": "es4y6edy8",
+            "selftext": "I can already feel all the comments saying>! LETH DOING HIS JOB? OBVIOUS SILKPOST!<",
+            "permalink": "/r/Silksong/comments/1ponoov/so_apparently_team_cherry_is_using_ai_now_and_has/",
+            "subreddit": "Silksong",
+            "createdUtc": 1765946739,
+            "numComments": 1023
+          },
+          {
+            "id": "1y0o9s3",
+            "url": "https://www.reddit.com/gallery/1y0o9s3",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/q5w4pm41nn2i1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=f0dd47a472ecc32daadce60dd26dccbd144c0caa",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 15489,
+            "title": "AI generated imagine of house vs actual photos",
+            "author": "Pip__Aramburuzabala",
+            "authorId": "2mq9pjlghc",
+            "selftext": "",
+            "permalink": "/r/mildlyinfuriating/comments/1y0o9s3/ai_generated_imagine_of_house_vs_actual_photos/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1795131310,
+            "numComments": 1529
+          },
+          {
+            "id": "1xb2yd3",
+            "url": "https://www.reddit.com/r/Teachers/comments/1xb2yd3/ai_is_destroying_kids_understanding_of_what/",
+            "nsfw": false,
+            "media": [],
+            "score": 13964,
+            "title": "AI is destroying kids' understanding of what humanity is capable of.",
+            "author": "Useful_Possession915",
+            "authorId": "1dhb3ko38z",
+            "selftext": "My 6th graders are reading a historical fiction book about the *Titanic* and when we got to the part where the ship hits the iceberg, I played the iceberg scene from the 1997 movie. I was telling them how much research James Cameron did for the movie and was pointing out aspects of the scene that were historically accurate (the flat waveless sea, the lack of moonlight, etc.). A bunch of kids made comments along the lines of \"What are you talking about, that's obviously AI.\"\n\nI told them that it was not AI and that generative AI did not exist back then. I said that people have been making movies with special effects for over 100 years, whereas genAI has only been around for a few years. I still got responses of \"There's no way it's possible to make a scene like that without AI.\"\n\nWe ended up taking a detour from the rest of the lesson while I showed them behind the scenes videos on YouTube of how the scene was filmed--basically a mix of the ship set and a giant prop iceberg, a model ship in a tank, and CGI. Then that led to a talk about the difference between AI and CGI, and CGI vs. practical effects. I showed them another video about the making of the original Godzilla movie.\n\nI know we talk a lot about how students think they can't write a paper or do a research project without using AI, but it just breaks my heart that these kids think that humans can't even make art on their own. How many other skills and talents are these kids dismissing as impossible and not worth pursuing because they think that only a machine can do it?",
+            "permalink": "/r/Teachers/comments/1xb2yd3/ai_is_destroying_kids_understanding_of_what/",
+            "subreddit": "Teachers",
+            "createdUtc": 1792527388,
+            "numComments": 675
+          },
+          {
+            "id": "1tgfpnk",
+            "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1tgfpnk/googled_a_horror_film_i_was_recommended_and_the/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/zz2zehqmqu1h1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=b39841b6236b4c46ef38b8bc1013fac823bbef4c",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 13422,
+            "title": "Googled a horror film I was recommended and the first sentence of the auto AI summary spoiled the plot twist",
+            "author": "Jaximumpower",
+            "authorId": "x1jjg",
+            "selftext": "",
+            "permalink": "/r/mildlyinfuriating/comments/1tgfpnk/googled_a_horror_film_i_was_recommended_and_the/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1779090891,
+            "numComments": 490
+          },
+          {
+            "id": "1tn5s18",
+            "url": "https://www.reddit.com/r/dataisbeautiful/comments/1tn5s18/oc_i_asked_gpt_to_pick_a_random_number_between_1/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/mza5d01nf93h1.png?width=140&height=74&auto=webp&s=cb0cdfb510962108ee4866e530e0f224b5624d15",
+                "type": "photo",
+                "width": 140,
+                "height": 74
+              }
+            ],
+            "score": 12364,
+            "title": "[OC] I asked GPT to pick a random number between 1 and 100",
+            "author": "marco-exmergo",
+            "authorId": "1zhxay8obe",
+            "selftext": "I asked GPT-4.1 to pick a random number between 1 and 100. 10k times.\n\nThis post is an \"AI remix\" of a very popular Reddit post here on r/dataisbeautiful where people were asked the same question: [https://www.reddit.com/r/dataisbeautiful/comments/iiafkd/oc\\_i\\_asked\\_100\\_people\\_to\\_pick\\_a\\_number\\_between/](https://www.reddit.com/r/dataisbeautiful/comments/iiafkd/oc_i_asked_100_people_to_pick_a_number_between/)\n\nPeople also tend to not be very good random number generators.  \nI wanted to see if an AI model has similar biases or if instead it follows statistical rigor.\n\nSome things I found interesting:\n\n* 20, 30, 40 and other multiples of 10 were picked 0 times (except for 10 itself, which was picked once)\n* 42 gets picked 4x expected uniform (Hitchhiker's Guide to the Galaxy reference)\n* Numbers containing the digit 7 get over-picked (and yes, just like humans, 37 gets over-picked)\n* 69 gets under-picked at 0.29x expected uniform (my hypothesis: safety guardrails during GPT's pre-training and post-training)\n\nDefinitely not a random uniform distribution. I ran a chi-square goodness-of-fit test against the uniform distribution and found χ² = 15,604, p ≈ 0.\n\nYou can see the full methodology and code in this open-source repo: [https://github.com/exmergo/research-chatgpt-guesses-between-1-and-100](https://github.com/exmergo/research-chatgpt-guesses-between-1-and-100)\n\nI used the OpenAI SDK to programmatically call GPT-4.1 10k times with the same prompt.\n\nI used GPT-4.1 because it's a non-reasoning model that exposes a temperature parameter. I set temperature = 1.0; that's what makes the model's sampling distribution the thing I'm actually measuring. OpenAI's reasoning models restrict that parameter. It would be interesting to reproduce this experiment w/ reasoning models.\n\nI used Viz, our own chart/dashboard AI Agent for the data visualization: [Exmergo Viz](https://viz.exmergo.com/share/eea2a7b6-82d4-4333-8853-e909d9dabd49)",
+            "permalink": "/r/dataisbeautiful/comments/1tn5s18/oc_i_asked_gpt_to_pick_a_random_number_between_1/",
+            "subreddit": "dataisbeautiful",
+            "createdUtc": 1779706884,
+            "numComments": 819
+          },
+          {
+            "id": "1tw9tlo",
+            "url": "https://www.reddit.com/r/antiai/comments/1tw9tlo/kane_parsons_is_antiai/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/ffhkws19a65h1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=691898becd20b8dd98825fa8b5cd4cdbff738401",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 12344,
+            "title": "Kane Parsons is Anti-AI",
+            "author": "zarfac",
+            "authorId": "3xnvliyo",
+            "selftext": "",
+            "permalink": "/r/antiai/comments/1tw9tlo/kane_parsons_is_antiai/",
+            "subreddit": "antiai",
+            "createdUtc": 1780538209,
+            "numComments": 174
+          },
+          {
+            "id": "1uh64pc",
+            "url": "https://www.reddit.com/gallery/1uh64pc",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/myhej1knju9h1.jpg?width=140&height=78&auto=webp&s=4f8e2538e657def5f2e5103d500ea932733e9fa9",
+                "type": "photo",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 11926,
+            "title": "Casting so good it looks uncanny",
+            "author": "Sensitive_Ad_1752",
+            "authorId": "9dsj660o",
+            "selftext": "That image is not ai generated, it’s an actual 1961 adventures of tintin movie called tintin and the mystery of the Golden Fleece. It’s insane how identical they look to the comics.\n\nThe 90s Addams family of course\n\nIn the Chucky series, a young Charles Lee Ray looks identical to how he did in the 80s because they casted his daughter",
+            "permalink": "/r/TopCharacterTropes/comments/1uh64pc/casting_so_good_it_looks_uncanny/",
+            "subreddit": "TopCharacterTropes",
+            "createdUtc": 1782575329,
+            "numComments": 1548
+          },
+          {
+            "id": "1spoh5p",
+            "url": "https://www.reddit.com/r/antiai/comments/1spoh5p/please_dont_let_your_kids_go_watch_this_slop/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/rq9sgiowa4wg1.png?width=140&height=128&auto=webp&s=ee364ed62eb710dfc08651406a2fb35d8a3c378e",
+                "type": "photo",
+                "width": 140,
+                "height": 128
+              }
+            ],
+            "score": 11554,
+            "title": "Please don't let your kids go watch this slop",
+            "author": "Hot_Season1143",
+            "authorId": "281p2rzxwu",
+            "selftext": "",
+            "permalink": "/r/antiai/comments/1spoh5p/please_dont_let_your_kids_go_watch_this_slop/",
+            "subreddit": "antiai",
+            "createdUtc": 1776591609,
+            "numComments": 627
+          },
+          {
+            "id": "1uznax2",
+            "url": "https://www.reddit.com/r/blender/comments/1uznax2/5403_nodes_later_i_have_every_metal_and_most/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/NG05Z2YwcHRjeGRoMfWNxMgYwpHxuinx048xhDqtpcDeeO3pxE5NoZA_vX9j.png?width=140&height=78&format=jpg&auto=webp&s=cbd4bf978fb848dbffc89113ad23f0c3051c8041",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 11542,
+            "title": "5,403 Nodes Later, I Have EVERY Metal and Most Alloys in ONE Node. 100% Physically Accurate, Data Straight from the Research Papers. [FREE]",
+            "author": "savageopress115",
+            "authorId": "974j13b6",
+            "selftext": "A complete rework of the Metallic BSDF node that includes multi-layer roughness for realistic material reflections, physically accurate material presets for lots of common metal and many alloys, and multiple additional effects and parameters added for enhanced realism and easier control. All physically based Materials use technical data taken directly from the original research papers.\n\nI Hope you all find this useful, and feel free to report issues or reply with feature requests. And as always, absolutely zero AI was used in the creation of this material.\n\nMAIN PROJECT RESOURCES:\n\n[~~https://youtu.be/r3bkGPobpTw~~](https://youtu.be/r3bkGPobpTw) Information on layered roughness, what it is, and how to implement it, released by LucasPrismal. Very pivotal in the creation of this project, and is the main source of information for this material. EDIT: video is found here as a re-upload, the original was struck to hell by Sony copyright:  [https://youtu.be/uz8PIi3ELJg](https://youtu.be/uz8PIi3ELJg)\n\n[https://youtu.be/K5okG0feNyQ](https://youtu.be/K5okG0feNyQ) Informational video by Christopher 3D explaining material annodization in Blender and how to convert thin film to voltage.\n\n[https://youtu.be/PwhACBSOsyU](https://youtu.be/PwhACBSOsyU) Informational video by Christopher 3D explaining variable roughness and how to implement it in Blender. Very pivotal in this project.\n\nScratch maps used in this material were generated with an after Effects plugin created by LucasPrismal, and can be found in the description of this video here: [https://youtu.be/kWhBrvPHGvU](https://youtu.be/kWhBrvPHGvU)\n\nADDITIONAL DATA SOURCES:\n\nPalmqvist, A. (2026) Physically Based - The PBR Values Database Available at: [https://physicallybased.info/](https://physicallybased.info/) (Accessed: 18 July 2026).\n\nPortsmouth, J., KUTZ, P., &  HILL, S. (2026). OpenPBR: Novel Features and Implementation Details. Physically Based Shading in Theory and Practice, pg, 67. [https://arxiv.org/pdf/2512.23696#appendix.D](https://arxiv.org/pdf/2512.23696#appendix.D)\n\nM. N. Polyanskiy, \"Refractive index database,\" [https://refractiveindex.info](https://refractiveindex.info). Accessed on 2026-07-18.\n\nDOWNLOAD UPDATED VERSION: This Node is now available as an online asset library! Instructions to install along with written and video guides explaining how to use the node can be found on a dedicated website landing page: [https://metallic-bsdf-plus.carrd.co/](https://metallic-bsdf-plus.carrd.co/) Feel free to support by starring the project on Github!: [https://github.com/savageopress11/Metallic\\_BSDF\\_Plus](https://github.com/savageopress11/Metallic_BSDF_Plus)\n\nOUTDATED DOWNLOAD: [~~https://drive.proton.me/urls/FTY2DYW66M#uCsZ3fTftiOB~~](https://drive.proton.me/urls/FTY2DYW66M#uCsZ3fTftiOB)\n\nEDIT: I plan to add more material wear effects in the future. Ambient occlusion, Burnished metal, rust, etc. Right now it is intended to be used as a physically accurate base to your metal materials. Additionally, If you want to use the current material effects, bear in mind that a texture coordinate node is needed to use the effects, just like with any image texture in blender.\n\nEDIT: When I say every metal, I mean every metal that has been studied for it's physical properties for 3D rendering. 30+ metals at this point in time, with more on the way.",
+            "permalink": "/r/blender/comments/1uznax2/5403_nodes_later_i_have_every_metal_and_most/",
+            "subreddit": "blender",
+            "createdUtc": 1784353151,
+            "numComments": 513
+          },
+          {
+            "id": "1r6u9a1",
+            "url": "https://www.reddit.com/gallery/1r6u9a1",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/4ff0q1u3yyjg1.jpg?width=140&height=74&auto=webp&s=f1b40476b6263ffec6f07571bed02601581c781e",
+                "type": "photo",
+                "width": 140,
+                "height": 74
+              }
+            ],
+            "score": 10641,
+            "title": "[Funny trope] Hypocritical Humor",
+            "author": "ConsciousStretch1028",
+            "authorId": "1g1twtikpx",
+            "selftext": "I had to look up the title of this trope because I knew the examples but didn't know the term for it.\n\n1. Wayne's World - Wayne and Garth claim they'll never sell out, and then are seen drinking Pepsi, eating Doritos and Pizza Hut and wearing Reebok clothes.\n\n2. Avengers: Age of Ultron - Baron Strucker leads the last remaining HYDRA cell and rallies his men by shouting \"No surrender!\" then immediately turns to his partner and says he's going to surrender to the Avengers.\n\n3. Naked Gun (2025) - This poster claims it was made without AI, despite having one of the telltale signs of AI generated imagery: too many fingers.\n\n4. Deadpool 2 - This one might be a bit of a stretch, but Wade arrives at the X Mansion to find it suspiciously empty and complains about Fox not getting any of the iconic heroes to appear in the film. Just as this happens, we see the team from the reboot series close a door to avoid Wade.",
+            "permalink": "/r/TopCharacterTropes/comments/1r6u9a1/funny_trope_hypocritical_humor/",
+            "subreddit": "TopCharacterTropes",
+            "createdUtc": 1771296569,
+            "numComments": 531
+          },
+          {
+            "id": "1x1et0f",
+            "url": "https://www.reddit.com/gallery/1x1et0f",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/o2m7sez17euh1.jpg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=02c03fab98d24c3b630373673825f7ab5fcb39eb",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 10499,
+            "title": "My friend generated AI pictures of me after I said no",
+            "author": "Used-Strike2111",
+            "authorId": "1yhd6z5vek",
+            "selftext": "Everyone in my school was making AI generated pics and posters for student council elections, while I was one of only a few to hand make mine. My friend wanted to make me AI posters, and I explicitly said no multiple times\n\nThen, he did the first one and posted it on our friend group (not private). Then, he made the second one because it was better in his eyes\n\nMy friends have been saying I look like Iran's leader for a while now, so he generated the third\n\nAt that point, I was mad and told him to stop. He didn't and generated more. One was super political (I don't think I should post it) and another was with an actress from a... certain... film industry \n\nOf course, I didn't use any and, thankfully, still won",
+            "permalink": "/r/mildlyinfuriating/comments/1x1et0f/my_friend_generated_ai_pictures_of_me_after_i/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1791530195,
+            "numComments": 500
+          },
+          {
+            "id": "1pwx3x6",
+            "url": "https://www.reddit.com/r/movies/comments/1pwx3x6/i_saw_290_movies_in_theaters_in_2025_here_is_my/",
+            "nsfw": false,
+            "media": [],
+            "score": 10093,
+            "title": "I saw 290 movies in theaters in 2025. Here is my full ranking.",
+            "author": "BunyipPouch",
+            "authorId": "a1s4w",
+            "selftext": "Every year, I go to the movie theater as much as possible. It's my favorite place in the world. I first started keeping track/scores/reviews/ticket stubs in 2015. Since then, I've seen 1,827 different movies in theaters: 5 in 2015, 9 in 2016, 146 in 2017, 162 in 2018, 192 in 2019, 44 in 2020, 86 in 2021, 270 in 2022, 325 in 2023, 298 in 2024, and 290 this year.\n\nFor this ranking, I'm only counting movies I saw in theaters, nothing that I watched at home. I'm not counting re-watches. I don't have a specific scoring system, it's just a rating I give to the movie right after watching.  I've included a few re-releases, short films, and TV series, as long as they were seen in a theater (and for the first time). This is all just for fun and not meant to be taken super seriously, I'm not a professional movie critic. I just like going to the movies.\n\nI attended 9 film festivals in 2025 for a total of 124 movies. 97 movies had cast and/or crew in attendance for Q&As. There were 26 World Premieres, 11 North American Premieres, 11 Canadian Premieres, 11 East Coast Premieres, 17 Southeast Premieres, 20 Florida/Georgia/Orlando/US/Tampa/South Florida/International Premieres:\n\n* Toronto International Film Festival - 29 Movies in 7 Days\n* SCAD Savannah Film Festival - 29 Movies in 8 Days\n* Fantasia Film Festival - 18 Movies in 6 Days\n* Florida Film Festival - 13 Movies in 5 Days\n* Miami Film Festival - 11 Movies in 5 Days\n* Popcorn Frights Film Festival - 11 Movies in 8 Days\n* Gasparilla International Film Festival - 6 Movies in 3 Days\n* Miami Jewish Film Festival - 5 Movies in 3 Days\n* Rendez-Vous Cinema Quebec - 2 Movies in 2 Days\n\nThere were 11 movies that I re-watched in theaters:\n\n* **One Battle After Another** - x7\n* **Hamnet** - x3\n* **Nouvelle Vague** - x2\n* **Sinners** - x2\n* **If I Had Legs I'd Kick You** - x2\n* **The Testament of Ann Lee** - x2\n* **Highest 2 Lowest** - x2\n* **The Life of Chuck** - x2\n* **Him** - x2\n* **Twinless** - x2\n* **Sentimental Value** - x2\n\nI have AMC's A-List, Regal's Unlimited, Cinemark's MovieClub, as well as memberships to the Fort Lauderdale, Miami, and Toronto film societies.\n\nI saw 290 movies in theaters in 2025. Here is my full ranking:\n\n----------------------------------------\n\n* **The Testament of Ann Lee** - 10/10 - It's a sprawling, intoxicating, and beautiful historical-epic with some of the best dance-sequence choreography I've ever seen on film. All of the performances are perfect, the songs/prayers are all memorable, the narration grabs you from the first second and never lets go, and it's got the most confident directing of the year. I wanted 5 more hours of Mother Ann's story. In a fair world, Amanda Seyfried is the runaway Best Actress Oscar winner. This'll go down as one of the best period-dramas of the 21st century. There's one or two masterpieces per year, *Ann Lee* a no-doubter for one of those spots.\n* **One Battle After Another**\t- 10/10 - Green Acres, Beverly Hillbillies, and Hooterville Junction.\t\n* **Marty Supreme** - 10/10 \t\t\n* **The Perfect Neighbor** - 9/10 - I've not cried in a movie theater this much since *Moonlight*. It's the kind of movie that will make your blood boil and will make you melt to your seat by the end. The bodycam footage where the dad has to tell his two sons that their mother isn't coming home is something that will leave a scar on your heart forever. It's also very impressive on a technical level, the best documentary editing since *Apollo 11* in 2019. I can't imagine all of the work that went into piecing this thing together. \n* **Sinners** - 9/10\t\t\n* **Brokeback Mountain** (Re-Release) - 9/10 - I'm a bit late to the party here, this 20th anniversary theatrical-release was the first time I've seen this movie, and goddamn was it worth the wait. One of the most powerful love stories ever shot. It's the ultimate \"what could've been\" love story. Heath's performance is generational. I'm now a card-carrying member of the *Brokeback Mountain* Was Robbed for Best Picture by *Crash* Society™. \t\n* **Warfare** - 9/10 - You can't talk about *Warfare* without first shouting out the insanely-great sound design. You could watch this movie with your eyes closed and still be impressed. An impossibly-tense war movie that makes 95 minutes feel like 10 minutes. It's really this generation's *Black Hawk Down* (huge compliment). It's a lot more grounded and believable though, with an outstanding ensemble cast. I love that nobody is a supersoldier in this, just guys in a bad spot in a bad point in time. It doesn't glorify but it also doesn't minimize. This movie will stand the test of time as one of the best war films of the decade. This thing was custom-built in a movie-lab just for me.\n* **Sorry, Baby** - 9/10 - Eva Victor is 2025's major revelation. This movie is heartbreaking, hilarious, bittersweet, and soul-warming. It's probably the best Original Screenplay of the year too. This made me realize how much I really missed Lucas Hedges. So cool to see him pop up again. \n* **Bugonia** - 9/10 - Yorgos doesn't miss.\t\t\n* **Hamnet**- 9/10 - An all-time child-actor performance from Jacobi Jupe. This movie is equally soul-crushing and hopeful. Jessie Buckley's close-up when Hamnet >!dies!< is pound-for-pound the best single scene of the year.\t\n* **F1** - 9/10 - As far as fun-summer-blockbuster movies go, *F1* is as good as it gets. It's this year's *Top Gun: Maverick*. Was it cliche? Yes. Was it predictable? Yes. Did I have a fucking blast for 2 hours? Also, yes.\tKeep pumping these out, Apple.\n* **The Phoenician Scheme** - 9/10 - *Asteroid City* & *The French Dispatch* were slight missteps, but Wes Anderson is officially back. This movie overflows with heart & laughs. (with 10/10 production/set design as usual)\t\n* **Sacrifice** - 9/10 - Anya Taylor-Joy was born to play an Icelandic eco-terrorist and Chris Evans was born to play the narcissitic, A-List actor in a rut suddenty thrust back into the limelight. Gorgeously shot, laugh-a-minute first act. I had a really great time with this one, it reminded me a lot of *Don't Look Up*.\tVery surprised everyone hates it.\n* **The Smashing Machine** - 9/10\t\t\n* **Magazine Dreams** - 8/10 - Jonathan Majors comes in with maybe one of the most physically-demanding performances of all time. Without the real-life drama, this might've been an Oscar-winning role for him. Great movie. \t\n* **Highest 2 Lowest** - 8/10 - If it wasn't for an extremely uneven first act and some classic weird Spike quirks in there, like insane transitions and some \"how do you do, fellow kids?\" moments , this would be one of the best movies of the year. It's still really really great, and the insane score kind of grows on you as it goes. Denzel is at the top of his game. My favorite Original Song of the year at the end. \t\n* **Train Dreams** - 8/10 - It takes a while to grow on you. It might take an hour, it might take 5 days, but it'll eventually hit you like a....train (sorry). It's a beautiful slow burn about appreciating life's fleeting and rare moments of joy. The world keeps going on without you, and that's okay. It's extremely reflective and existential. Beautiful stuff. It did what *A Ghost Story* did for me a few years ago. \t\n* **Presence**\t- 8/10 - Lucy Liu. No notes.\t\n* **It Was Just An Accident** - 8/10 - A lot more humor than I expected. The most impressive longshot of the year with that interrogation scene near the end. Mariam Afshari deserves more attention. And holy fuck does that pin-drop ending hit. There's a few ways you can interpret the ending too which is really cool.\t\n* **The Threesome** - 8/10 \n* **Nirvanna the Band the Show the Movie** - 8/10 - If you like satirical comedies (like *Borat*), just do yourself a favor and check it out. You’ll laugh more in the first 30 minutes than in any movie of the past 5 years.\t\n* **I'm Still Here** - 8/10\t\t\n* **Black Bag** - 8/10\t\n* **Nouvelle Vague** - 8/10 - A fun, sweet, breezy, delicate ode to the French New Wave. A movie for movie nerds. Zoey Deutch is a delight and Guillaume Marbeck is one of the year's breakout actors.\t\n* **Left-Handed Girl** - 8/10 - A beautiful slice-of-life family drama that’s right up my alley. Wonderful performances from the 2 young leads (their first major roles) and possibly the catchiest theme track of the year. All fans of Sean Baker should check this one out. Nina Ye killed it at the Q&A. \t\n* **Splitsville** - 8/10 - Hilarious, sharp, sexy. One of the better recent romantic-comedies (big emphasis on comedy). I laughed more during the first fight sequence than probably any other single scene this year. Advice for any shlubby screenwriters out there: co-writing a sharp, funny screenplay where your romantic interestes are 10/10s like Dakota and Adria is a good move.\t\n* **It Ends** - 8/10 - Sometimes you're lucky enough to catch a great movie from a first-time director and you know they'll blow up soon. This is that movie for 2025. \t\t\n* **The Count of Monte Cristo** - 8/10 - You don't get these types of epics much anymore. Really well made and crafted. It's the best Monte Cristo has ever looked on screen.\t\n* **Oh, Hi!** - 8/10 \t\t\n* **Sacramento** - 8/10 - Michael Cera, how I've missed you.\t\t\n* **Mission: Impossible – The Final Reckoning** - 8/10\t\t\n* **Is This Thing On?** - 8/10 - Career-best stuff from Will Arnett. If only Laura Dern's character wasn't so poorly-written and shitty. Great, improv-like scenes in the comedy club.\n* **Wake Up Dead Man: A Knives Out Mystery**\t8/10 - Doesn't quite reach the peak of the first one, but it's a step up from the 2nd. It's a lot more personal and dark than the other 2, which I really liked, and it keeps the (sometimes-outdated) humor.\n* **Fucktoys** - 8/10 - It's *Anora* on mushrooms. It's weird, it's gross, it's got a ton of sex and some violence. It's kind of a modern nasty fairy tale. It's everything you want. Would recommend. Annapurna Sriram is a major talent to watch out for.\t\n* **Urchin** - 8/10 - Part Safdie, part Glazer, part Leigh. A really confident and impressive debut film from Harris Dickinson. Harry Dillane is magnetic.\t\n* **Eternity** - 8/10\n* **Predator: Badlands** - 8/10\t\n* **A Quiet Place** w/ Live Commentary (Re-Release) - 8/10 - This was the first \"live commentary\" screening I've ever attended. It was with co-writers Scott Beck & Bryan Woods (who also co-directed *Heretic*), moderated by Josh Malerman (who wrote *Bird Box*). A very fun screening, very insightful and amusing. Think Mystery Science Theater 3000, but for an actually-good movie.\t\n* **Final Destination: Bloodlines** - 8/10 \t\n* **Companion** - 8/10\t\n* **No Other Land** - 8/10 - Incredible achievement in documentary filmmaking. almost unfurls like a narrative drama. The only documentary other than *20 Days In Mariupol* that's made me want to look away. It's really impressive how angry it makes you but also weaves in beautiful little funny moments of humanity that bring you back down to earth. You would think that \"pouring cement down village water wells\" was a cartoonish movie-villain move that would never actually happen in real life, but nope, it happens.\t\n* **The Girl with the Needle** - 8/10 - Sometimes you just need a Cristian Mungiu-like hit of depression. This filled that hole.\n* **28 Years Later**\t- 8/10 \n* **The Long Walk** - 8/10 - Not shying away from the brutality/violence is this movie's biggest strength. David Jonsson and Cooper Hoffman are perfect together. It's a very unique post-apocalyptic film, a different feel from the usual YA slop. Mark Hamill is very goofy and bad though. Rough casting there.\t\n* **Sentimental Value** - 8/10 - This was a lot better on 2nd watch. In her limited screentime, Inga Ibsdotter Lilleaas puts in the best supporting performance of the year. She is the heart & soul of this movie. Truly heartbreaking stuff when Renate reads her the monologue at the table.\n* **The History of Sound** - 8/10 - Shoutout to this movie for introducing me to Silver Dagger, probably the greatest folk song ever. I've had different covers of it playing on repeat since the minute I left the theater. Paul Mescal was amazing in his rendition. Beautiful, *Brokeback Mountain*-like love story about what could've been and regrets.\t\n* **A House of Dynamite** - 8/10 -  It's only fair to score this by act: First Act: 10/10 - Movie-of-the-year potential. Thrilling and engaging. I wanted to cry everytime Rebecca Ferguson was on screen. Second Act: 8/10: The greatest TV pilot episode you've ever seen. Greta Lee keeps getting done dirty though. Third Act: 3/10 - What a fumble nooooooooo Kathryn noooooooo.\t\n* **My Mom Jayne** - 8/10\t\t\n* **Sirat** - 8/10 - Sound design that will have your clothes shaking during the rave sequences and have you jump during the (extremely) unexpected death scene(s). A great (but extremely bleak) odyssey through the desert set against the backdrop of the world falling apart. Good shit.\t\n* **She Dances** - 8/10 - Whenever Steve and Audrey Zahn are on-screen together, the scenes burst with authenticity and genuineness. The script is sweet, funny when it needs to be, and sometimes brings out a few tears. Really great little family-drama. \t\n* **Hamilton** - 8/10 \t\n* **Bring Her Back** - 8/10 - Danny and Michael Philippou should be thrown in fucking jail for that scene of the kid chewing on the knife. \n* **Sovereign** - 8/10\t\n* **Weapons** - 8/10\t\n* **Kill Bill: The Whole Bloody Affair** - 8/10 - Confession: I had only seen bits and pieces of both *Kill Bill* movies prior to this. I had an abolute blast. The 2nd half doesn't quite live up to the first though. \t\n* **Avatar: Fire and Ash** - 8/10 - Oona Chaplin awoke something in me. i'm now a Varangsexual.\t\t\n* **Mile End Kicks**\t- 8/10 - Chandler Levack is Canada’s brightest up and coming filmmaker since Xavier Dolan. Pls keep her on your radar. Now she needs to make a movie without an annoyingly-unlikeable lead.\t\n* **Nuremberg** - 8/10 - Your dad's pick for Best Picture. I had really low expectations, a 2.5-hour WW2 courtroom drama sounds like Oscar-bait 20 years too late, but a really tight script and perfect pacing kept me thoroughly engaged. It's also the best Russell Crowe performance since...*Gladiator*? Good stuff. I'm back on the WW2 movie train. Leo Woodall knocks it out of the pack with his monologue too. Out of nowhere.\n* **The Naked Gun** - 8/10\t\t\n* **Twinless** - 8/10\t\t\n* **Rebuilding** - 8/10 - Lowkey family-drama set in the aftermath of a fire that destroys a man's family ranch. Josh O'Connor is outstanding as usual.\t\n* **Eric LaRue** - 8/10\t\t\n* **The Life of Chuck** - 8/10\t\t\n* **Frankenstein** - 8/10 - It's undoubtedly technically impressive, probably deserves Oscar nominations in most tech categories. The cast and crew is stacked, and it's solid, but there's a major thing keeping it from being truly great/top 25 of the year: an interesting story. It's really good but classic GDT style-over-substance like *Crimson Peak*.\t\n* **Megadoc** - 8/10 - Almost makes up for the actual movie. Almost. The Francis/Shia and Aubrey/Dustin dynamics were really fascinating to watch. Really great doc about the chaos of filmmaking. It's a shame Adam Driver and Nathalie Emmanuel didn't want to be filmed for it, but I can't say I blame them.\t\n* **Jay Kelly**\t- 8/10\n* **Springsteen: Deliver Me From Nowhere** - 8/10 - Everyone else is wrong, this thing was good. Atlantic City forever.\n* **Rosemary's Baby** (Re-Release) - 8/10\n* **Hurry Up Tomorrow**- 8/10 - Maybe throw me in jail for this but I thought this thing rocked?  Part *Vox Lux*, part *Misery*, part *Good Time*. Jenna Ortega absolutely smashes it (wish the whole movie was from her POV tbh) and Keoghan/Abel are pretty solid as well. If you can look over the self indulgence (which is kinda the point) and a bad 5-minute sequence near the end, this is a banger. The score and camework alone make it watchable. Trey Edward Shults fan until the day I die.\t\n* **Together** - 8/10\t\t\n* **Americana** - 8/10 - It does jump the shark a bit near the end when like 45 people die and it becomes a bit unbelievable, but it's a fun Tarantino-like crime story and Sidney Sweeney/Paul Walter Hauser are great together.\t\n* **It's Never Over, Jeff Buckley** - 8/10\t\t\n* **The Fantastic Four: First Steps** - 7/10\t\t\n* **The Damned** - 7/10 - Claustrophobic period-pieces are my shit. An overlooked January-dump movie that deserves more praise.\t\n* **The Ballad of Wallis Island** - 7/10\t\n* **She Rides Shotgun** - 7/10\n* **Christy** - 7/10 \n* **Roofman** 7/10 - A perfectly-solid action-crime-comedy with a stellar Channing Tatum and Kirsten Dunst. This would've made $200M domestic 20 years ago. It doesn't have the usual emotional devastation that you'd expect from a Derek Cianfrance film, but that's fine. \t\n* **Thunderbolts** - 7/10 - Like most people, I'm kinda \"over\" the Marvel formula, and in general this was a bit more of the same, but Pugh and Harbour commit really hard and keep it very engaging and just-different-enough. It's one of the better recent MCU efforts. I liked Julia Louis-Dreyfus in a Veep-adjacent role.\t\n* **Materialists** - 7/10\t\t\n* **Dead Man's Wire** - 7/10\t\t\n* **Rental Family** - 7/10\t\n* **Sisu: Road to Revenge** - 7/10 - A nice improvement over the first one, rare for a sequel. Some really impressive kills.\n* **Mickey 17** - 7/10\n* **Shin Godzilla** (Re-Release) - 7/10\t\t\n* **The School Duel** - 7/10\n* **Eephus** - 7/10 - A local beer league baseball team plays their final game at the local park. Makes you feel nice and fuzzy and warm. \t\n* **Dangerous Animals** - 7/10 - Some actors are born for a certain role. Jai Courtney is that actor in this movie.\t\t\n* **Ballerina** - 7/10\t\n* **Vermiglio** - 7/10\t\t\n* **Violent Ends** - 7/10\t\t\n* **Good Fortune** - 7/10 - There are some glaring flaws (like Aziz's acting & delivery), but it does a lot of things very well and has a sweet enough ending to keep this pretty good. Keanu's character is a highlight and has a ton of great lines (\"I used to be a celestial being and now I'm a chainsmoker\", etc)\t\n* **Secret Mall Apartment** - 7/10\t\t\n* **Blue Moon** - 7/10 - Ethan Hawke is outstanding and basically shows off and runs circles around everybody for 100 minutes, but chamber pieces just aren’t reaching “great” level for me recently.\t\n* **Wicked: For Good** - 7/10\t\t\n* **The Surfer** - 7/10\t\n* **Eleanor the Great** - 7/10 - Pure boomer catnip. Your grandma's favorite movie of 2025. June Squibb is a national treasure. Protect her at all costs.\t\n* **Blue Heron** - 7/10 - \n* **An Officer and a Spy** - 7/10 - Polanski still has a bit of juice. Nobody is doing courtroom-dramas like the French recently.\t\n* **California Schemin'** - 7/10 - It gets a bit repetitive but it's a solid directorial debut effort from James McAvoy.\t\n* **A Big Bold Beautiful Journey** - 7/10 \n* **Villes Jacques-Carton** - 7/10 - Quebec represent. (weak year for Quebec cinema I'll admit)\t\n* **Normal** - 7/10 - If you like John Wick and John Wick-like clone films, you’ll like this. Lots of fun kills. Lots of blood. Good popcorn flick. Not breaking any new ground though.\t\n* **The Ballad of a Small Player** - 7/10 - Macau is a sick setting for a film, and I really dug the first hour, a degenerate gambler just digging his own grave, and the score from Volker Bertelmann is a standout of the year, but it loses its way a bit when he >!dies!< (or maybe he doesn't? who knows). Also, more Fala Chen please.\t\n* **Jurassic World: Rebirth** - 7/10 \t\n* **Superman** - 7/10 - There's some funny lines, solid needledrops, and Rachel Brosnahan is great as usual, but it's not enough to make it really pop. Solid movie, another decent entry in the comic book movie category, but it doesn't reinvigorate my enthusiasm for the genre as a whole like I'd hoped it would.\t\n* **Tatami** - 7/10 \t\n* **One of Them Days** - 7/10 - Katt Williams being the highlight of a movie in the year of our lord 2025 was not on my bingo card. We need more crowd-pleasing comedies like this in theaters.\t\n* **The Seed of the Sacred Fig** - 7/10\t\n* **Fackham Hall** - 7/10\t- The *Trainspotting* poster bit was so good. Non-stop bits and easter eggs, a fun time. \n* **The Wizard of the Kremlin** - 7/10 \n* **Caught Stealing** - 7/10 - Zoë Kravitz is gone far too soon.\n* **I Love LA** (TV Series) - 7/10\t\t\n* **Fight or Flight** - 7/10 - It sequel-baits a bit too hard and the tech-villains are way too cartoony, but some solid kills, great lines/editing, and Josh Hartnett fully committing to the alcoholic, down-on-his-luck assassin bit really keeps it entertaining enough.\t\n* **Jane Austen Wrecked My Life** - 7/10\t\t\n* **Sisters** - 7/10\n* **Parthenope** - 7/10 - It's a gorgeous-looking movie, I could stare at Celeste Dalla Porta for 10 more hours, and I'm a big Paolo Sorrentino fan but this feels a bit more style-over-substance than his usual output.\n* **The Monkey** - 7/10\n* **The Luckiest Man in America** - 7/10 - When an indie budget is stretched to the limit and puts out a good movie.\t\t\n* **Terrestrial** - 7/10\t\t\n* **Two Women** - 7/10\t\n* **Sharp Corner** - 7/10 - I watched this dubbed in French so the performances definitely took a hit, but it was a pretty biting look at the pressures of the workplace and family leading to a man's downward spiral. Ben Foster is always solid (even when he's dubbed in French-Canadian).\t\n* **Sweetness** - 7/10\t\t\n* **Spinal Tap 2: The End Continues** - 7/10 - I have still not seen the original, but this was good enough as a standalone. The final performance scene leaves a bit to be desired, but there's enough humorous dialogue to keep it chugging along (\"in the daytime, ghosts are just rumors\" is my personal favorite\".\t\n* **Almost Popular** - 7/10\t\n* **My Dead Friend Zoe**\t - 7/10\t\t\n* **I Am Frankelda** - 7/10\t\t\n* **The Amateur** - 7/10 - It's basically Bourne-lite, but they don't make these globe-trotting spy movies enough anymore. I enjoyed it. Torture-by-pollen was a wild move though.\t\n* **On Swift Horses** - 7/10 \n* **Merrily We Roll Along** - 7/10 - As far as theatrical pro-shots go, it's below *Waitress* & *Hamilton*. At first the constant cuts are a bit annoying/nauseating, but it works itself out. Radcliffe has one really amazing/impressive song number (during the TV interview), Groff is outstanding throughout. Was not a fan of Lindsay Mendez at all. I wanted a bit more emotionally from the whole thing. The theme song is amazing.\t\n* **Heart Eyes** - 7/10 \t\t\n* **No Other Choice** - 7/10 - good but kinda very long, innit?\n* **Freaky Tales** - 7/10 \n* **The Wedding Banquet** - 7/10 - Fun little rom-com brought down a bit by rough acting and awkward line/joke delivery from Bowen Yang and the Korean guy. Lily and Kelly carried them big time. Loved the “we have to de-gay the house!!!” bit. Great ending too. (never saw the original)\t\n* **Freakier Friday**\t - 7/10\t\t\n* **Rust** - 7/10 \n* **The Ugly Stepsister** - 7/10\t\t\n* **Come Closer** - 7/10\t\t\n* **La Grazia**\t7/10 - Location scouts for Sorrentino movies need special recognition.\t\n* **The Accountant 2** - 7/10 - The story is a bit overcooked (the X-Men-like school for autistic super-hackers is a crazy turn for this movie to take) and it gets a bit too *Sound of Freedom*-y, but the Affleck/Bernthal scenes together keep it from falling apart completely.\t\n* **Rise** (Short Film) - 7/10\t\n* **Tornado** - 6/10\t\t\n* **Inheritance** - 6/10\t\t\n* **The Housemaid** - 6/10\t\t\n* **Anemone** -  6/10 - [Sean Bean stares in amazement at DDL's performance] x10. There's a few good lines (\"god doesn't need undies, cause he's not full of shit like you are\", \"the explosion was so loud you couldn't hear it\"), two amazing DDL monologues, and it looks amazing, but feels kind of empty as a whole. Definitely something missing. \t\n* **Spider & Jessie** - 6/10\t\t\n* **Orwell: 2+2=5**  - 6/10 - Some sequences are truly must-see pieces of documentary filmmaking (like the grilling of the ghoulish tech billionaire fucks and the January 6th bits) but then others are so truly scattered and shoehorned that it disconnects you from the message of the movie. 9/10 potential here if it could get out of its own way.\t\n* **Don't Let's Go to The Dogs Tonight** - 6/10\t\t\n* **Charlie Harper**\t- 6/10 - A cute story about a highschool sweetheart couple (an aspiring chef and an underachieving alcoholic, classic) that’s shot really great and acted well (othet than the non-existent drunk acting from a supposed alcoholic) but ultimately burdened by a mountain of cliches. \t\n* **Song Sung Blue** - 6/10\t\t\n* **The Toxic Avenger** 6/10 - A Troma film should have more nudity. Let's bring nudity back. Put me down for more nudity.\n* **Tron: Ares** - 6/10\t\n* **If I Had Legs I'd Kick You** - 6/10\n* **Anaconda** - 6/10 - One day soon I'll be tired and over and the ironic, meta, big-studio-movie, but today is not one of those days. I had a decent time with this. A *The Legend of Bagger Vance* reference in 2025 deserves some respect.\n* **Death Does Not Exist** - 6/10\t\n* **40 Acres**\t- 6/10\n* **Locked** - 6/10\t\t\n* **Paddington in Peru** - 6/10\n* **Clown In A Cornfield**\t - 6/10\t\n* **Captain America: Brave New World** - 6/10 - Adding this to the never-ending list of good-but-forgettable comic book movies. The genre is stale as hell.\n* **Wolf Man** - 6/10 - Really liked the POV switches, sound design, and creature design, but the rest is by-the-numbers horror flick.\t\n* **Drop** - 6/10\t\t\n* **Blood for Dracula** (Re-Release) - 6/10\n* **Taylor Swift - The Official Release Party of a Showgirl** - 6/10 - The lyric video stuff was whatever/boring/filler but I really liked the behind-the-scenes look at the making of the Ophelia music video. I could’ve watched an entire doc of Taylor directing that video. Great song too. And the closing song rocked too.\t\n* **Fanny** - 6/10\n* **Find Your Friends** - 6/10 \t\n* **All Her Fault** (TV Series) - 6/10\t\t\n* **Fairyland** - 6/10 \t\t\n* **A Nice Indian Boy** - 6/10\t\n* **Eddington** - 6/10 - There's some interesting stuff in here, but overall kind of a mess. That's been Ari Aster's vibe recently.\n* **A Minecraft Movie** - 6/10\t\t\n* **To Kill A Wolf**\t- 6/10\t\t\n* **Keeper** - 6/10\t\t\n* **Waltzing with Brando** - 6/10 - Billy Zane is super convincing as Marlon Brando. The rest is forgettable.\t\n* **Re-Animator** (Re-Release)\t- 6/10\t\n* **Opus** - 6/10 - John Malkovich could not have been more horribly miscast.  There's a good cult movie hidden in here somewhere, but Ayo by herself couldn't bring it out. Needed some more passes at rewrites.\t\n* **Grand Theft Hamlet** - 6/10\t\t\n* **Den of Thieves 2: Pantera** - 6/10\t\t\n* **Novocaine** - 6/10\n* **Barcelona** (Re-Release) - 6/10\t\n* **The Roses** - 6/10 - This was a Dollar Tree *Marriage Story*. Very tonally-uneven. Kate McKinnon is distractingly-bad. Cumberbatch and Colman work well enough together to keep it watchable but it's kinda messy.\t\n* **IT: Welcome to Derry** (TV Series) - 6/10 \n* **Modern Whore**\t- 6/10\t\n* **100 Nights of Hero** - 6/10\t\t\n* **Ick** - 6/10\t\t\n* **Algiers** - 6/10\t\n* **Everything's Going to Be Great** - 6/10 - I really wish Bryan Cranston didn't >!die!< early on in the movie. His character and charisma really kept this afloat at first. It mostly fall flats after he's gone, except a few sweet moments. Weirdly over-religious vibes to the movie. Angel Studios was probably close to landing this one.\t\n* **Abraham's Boys** - 6/10\n* **I Know What You Did Last Summer** - 6/10 - Worth seeing for the Nicole Kidman AMC intro reference alone. \t\n* **Death of a Unicorn** - 6/10\n* **Clorofilla** - 6/10\t\t\n* **I Don't Understand You** - 6/10\t\n* **On Becoming A Guinea Fowl** - 6/10 - It's hard to think of a more recent ending that's so unsatisfying. It's good until that. Fuck those last 5 minutes.\t\n* **Allen Sunshine**\t- 6/10\t\t\n* **Night of the Demons** (Re-Release) - 6/10\t\n* **La Gloria**\t- 6/10\n* **The Legend of Ochi**\t- 6/10 - It's a gorgeous movie and very Wes Anderson-coded, but too childish to make a real impact. If I'm honest, Helena Zengel should've just spoken German (with subtitles) instead of intelligible English.\t\n* **Cleaner** - 6/10\t\t\n* **Bonjour, Tristesse** - Lily McInerny is outstanding, one of my picks for \"breakout\" performances of the year, and I'm a sucker for a sun-drenched Mediterranean setting, but Chloë Sevigny is just so bad and sinks the rest of the performances. \t\n* **Love Machine** (Short Film) - 6/10\t\n* **The Shrouds** - 6/10\t\t\n* **Mermaid** - 6/10 - With 20-25 minutes shaved off, this could've been great. It captures some of the gross underbelly of Florida that not a lot of movies can (*The Florida Project* being the best example), but it's dragged down by bad performances and a plot that's too dragged out. I wanted it to end at least 5 times.\t\n* **Dog of God** - 6/10\t\t\n* **Trust** - 6/10\t\t\n* **Downton Abbey: The Grand Finale** - 5/10 - It loses a lot of the charm of the first 2 films.\t\n* **Dead of Winter** - 5/10\t\t\n* **The Friend** - 5/10\t\t\n* **Him** - 5/10\t\n* **Somnium** - 5/10\t\t\n* **Hard Truths** - 5/10 \t\n* **Borderline** - 5.7 - Full disclosure: I saw this in a theater but left about halfway because I saw a big ass rat crawling through the aisle (2nd time I've ever seen one in a theater. Other time was in 2019 for *The Best of Enemies*). That's gonna be a no from me, dawg. Finished the rest at home. All that being said, Samara Weaving is good but she can only do so much to carry a weak story.\t\n* **Hunting Daze** - 5/10\t\n* **The Chronology of Water**- 5/10 - A completely incomprehensible first-45-minutes (by design I guess?), but Imogen poots puts in one of the most daring & brave performances in a while. A huge huge swing by Kristen Stewart for a directorial debut. Sometimes it hits, sometimes it misses hard.\t\n* **www.rachelormont.com** - 5/10 - This movie is fucking disgusting. I'm pretty sure real-life misdemeanors/felonies were actually committed during the filming (seriously). But it's just weird and funny enough (especially during the meta, audience-speaking portion) to keep you locked in. A wild ride that I wouldn't take again but that I'm happy to have taken off of the bucket list.\t\n* **Honey, Don't!**\t- 5/10 - \"My left or your left?\", \"We're facing the same way\" is one of the year's best exchanges, and there's a few of those gems, but ultimately this is one of the most disjointed movies involving A-list talent I've ever seen (looking at you, *Amsterdam*). Too much going on, some really awful performances (Charlie Day, Aubrey Plaza, Chris Evans). Only Margaret Qualley showed up. She rocks.\t\n* **Swiped** - 5/10 - We have *The Social Network* at home.\t\n* **Bone Lake** - 5/10\t\n* **Black Phone 2**\t- 5/10 - There should be a law capping Blumhouse horrors at 95 minutes. Big drop-off from the first one. Madelaine McGraw was fantastic though.\t\n* **The Woman in the Yard** - 5/10\t\t\n* **Seven Veils** - 5/10 \n* **M3gan 2.0** - 5/10 - I've gotta admit that there's a lot of really solid & memorable one-liners in here, but this movie really needed an R-rating and 25 minutes less of runtime.\t\n* **Fuze** - 5/10 \t\n* **Now You See Me Now You Don't** - 5/10\t\n* **The Running Man** - 5/10 - Edgar no :(\t\t\n* **Ella McCay** - 5/10 - There's some truly baffling stuff going on in this movie (30-year old Ema MacKey unconvincingly playing a 15-year old for a part of the movie being one of them), but I love James L. Brooks too much to give it a lower score.\t#EllaMcCayChallenge\n* **Sketch** - 5/10\t\t\n* **The Well**\t- 5/10\n* **Queens of the Dead**\t- 5/10\t\t\n* **Unmoored** - 5/10\t\t\n* **Last Breath** - 5/10\t\t\n* **Mr. Blake at Your Service!**\t- 5/10\t\t\n* **Hedda** - 5/10 - Aside from the solid costume and set design (and a few moments when I was reminded of Babylon), this was a pretty nothing-movie with a confusing plot and extremely unlikeable characters.\t\n* **The Virgin of Quarry Lake**\t- 5/10\t- Visually striking but much too slow.\t\n* **Mr. Melvin** - 5/10\n* **Armand** - 5/10\t\t\n* **The Bearded Girl** - 5//10\t\n* **Karate Kid: Legends**\t- 5/10\t\t\n* **Test Screening**\t- 5/10\n* **Sounds of Glass** (Short Film) - 5/10\t\t\n* **Invention** - 5/10\t\t\n* **The Penguin Lessons** - 5/10\t\n* **Another Simple Favor** - 4/10 - This might be the most overcooked script of the year. There's just so much going on, you can't keep track of any character motivations, and it just throws in twists for the sake of twists. The original was fine, this was not good.\t\n* **Good Boy** - 4/10\t\t\n* **Hacked: A Double Entendre of Rage Fueled Karma** - 4/10\t\n* **Hot Milk** - 4/10 - There's something good hidden in here, but it's irritating as hell.\t\n* **The Room Next Door** - 4/10 - All of the bad of Almadovar (clunky dialogue, overly-melodramatic, etc), with none of the good. Boring as well\t\n* **Sister Midnight** - 4/10\t\t\n* **The Devil’s Bride**  - 4/10\t\t\n* **After the Hunt**- 4/10 - ???????????????\t\n* **Snow White** - 4/10 - I think Rachel Zegler is great. Whenever she wasn't on screen, I didn't care. Disney live-action remakes have to start caring a lot more about what they're putting out there. The returns are diminishing big time.\t\n* **Of Dogs and Men** - 4/10\t\t\n* **Shelby Oaks** - 4/10\t\t\n* **Nobody 2** - 4/10 - I never want to see Sharon Stone in anything ever again. Take the Oscar nomination away. \t\n* **Wish You Were Here** - 4//10\t\t\n* **The Baltimorons** - 4/10\t\t\n* **Die My Love** - 4/10\t- Shoutout to John Prine.\t\n* **The Carpenter's Son** - 4/10\t\n* **Dust Bunny** - 4/10\t\t\n* **The Rule of Jenny Penn** - 4/10 - Painfully repetitive. Enough lens-flare-induced-blindness to probably qualify for a class action lawsuit. \t\n* **Flight Risk** - 4/10\t\t\n* **Anniversary** - 4/10 - About as subtle as brick to the temple. Jesus christ.\t\n* **Ash** - 4/10\t\t\n* **Reflection in a Dead Diamond** - 4/10 - Zzz...\t\t\n* **Apostasy Blues** - 4/10\t\n* **The Christophers** - 4/10 - A very rare Soderbergh L. Such a bore. Did not help that I couldn't understand a single word Ian McKellen was saying and that Michaela Coel was horribly miscast.\t\n* **The G** - 4/10\n* **Rosemead** - 4/10 \t\n* **Teacher's Pet** - 4/10\t- Coming to a Tubi near you soon.\n* **Ex-Husbands** - 4/10\t\t\n* **The Unholy Trinity** - 4/10 - Bland RedBox (RIP) fodder. Samuel L. Jackson surprisingly cares so that kept it from a rock-bottom score.\t\n* **Away with the Fairies** (Short Film) - 4/10\t\t\n* **Atom & Void** (Short Film)\t- 4/10\t\t\n* **Eastern Western** - 3/10 \n* **Cujo** (Re-Release) - 3/10 - Had not seen it before, and I can still tell you it hasn't aged well. Awful.\t\n* **High Rollers** - 3/10 \t\n* **Auction** - 3/10 - There aren't many things in life more pretentious than art-related French films.\t\n* **The Thing With Feathers** - 3/10 - Man this was a rough watch.\t\n* **The Home** - 3/10\n* **Thank You, Places!** - 3/10 - A valiant effort by a local theater group to shoot & produce a movie during the height of COVID but I could've seen anything else and been more entertained. \t\n* **One Big Happy Family** - 3/10\t\t\n* **Homebound** - 3/10\t\t\n* **Good American Family** (TV Series) - 3/10\n* **The Story of Three Sisters** (Short Film) - 3/10\t\t\n* **First Rites** (Short Film) - 3/10\n* **Love Hurts** - 2/10 - If I had a gun with two bullets and I was in a room with Hitler, Bin Laden, and *Love Hurts*, I would shoot *Love Hurts* twice.\t\n* **Kiss of the Spider Woman** - 2/10 - I really enjoyed the 12-minute sequence of Diego Luna graphically and aggressively shitting himself (3 feet away from a toilet for some reason by the way?) while the lead character wipes it all up, that was super cool and cinematic and necessary. This movie was hot ass, in more ways than one. Extremely overhyped out of Sundance, there's one every year. Deserved flop. One of the few times a year I walk out of a movie theater angry.\n* **Nobody Wants to Shoot a Woman** - 2/10 - Amateur hour. The worst *Goodfellas* rip-off you've ever seen. If you told me this was originally a Youtube short from 2008, I would believe you.\t\n* **The Verdict** - 1/10 - The filmmakers should honestly be ashamed for submitting and screening this unfinished soap-opera-masquerading-as-a-film. The festival progammers should be ashamed for programming it and charging people for it. I should be ashamed for staying the entire 100 minutes. Shame all around, really. Nobody wins here. It’s like if a group of blind preschoolers decided to remake *Anatomy of a Fall*.\t\n* **Five Nights at Freddy's 2** - 0/10 - I thought Netflix’s truly-apocalyptical purchase of Warner Bros was the worst thing to happen to theatrical moviegoing in a hundred years, but then I saw *Five Nights at Freddy’s 2*. \t\t\n\n----------------------------------------\n\n**Theater Distribution by Venue/Chain:**\n\n* AMC - 103\n* Regal - 58 \n* Cinemark - 7 \n* Cineplex - 3 \n* VIP - 3\n* Landmark - 2 \n* Silverspot - 2\n* Independent/Festival/Other - 112 (Bill Cosford Cinema, Cinema Centre-Ville, Cinema du Musee, Cinema Paradiso, Classic Gateway, Coral Gables Art Cinema, Enzian Theater, Hall Theater, IFC Center, Lightbox Theater, Lucas Theater, Miami Theater Center, Movies of Delray, Olympia Theater, Princess of Wales, Roy Thomson Hall, Royal Alexandra, Salle J.A. DeSeve, Savor Cinema, SCAD Museum of Art, Scotiabank Theater, Tampa Theater, Trustees Theater)\n\n\n**Theater Visits by Month:**\n\nhttps://i.imgur.com/JxMd5Qt.jpeg\n\n* January: 19\n* February: 11\n* March: 27 + 1 Re-Release (**Barcelona**)\n* April: 37 + 1 TV Series (**Good American Family**) + 1 Re-Release (**Rosemary's Baby**)\n* May: 17\n* June: 15 + 1 Re-Release (**Brokeback Mountain**)\n* July: 24 + 6 Short Films (**Atom & Void**, **Sounds of Glass**, **First Rites**, **The Story of Three Sisters**, **Love Machine**, **Away with the Fairies**)\n* August: 23 + 5 Re-Releases (**Re-Animator**, **A Quiet Place**, **Cujo**, **Night of the Demons**, **Shin Godzilla**) \n* September: 43 + 2 Rewatches (**One Battle After Another** x2)\n* October:  24 + 2 TV Series (**IT: Welcome to Derry, I Love LA**) + 1 Short (**Rise**) + 1 Release (**Blood for Dracula**) + 12 Re-Watches (**One Battle After Another** x3, **Nouvelle Vague**, **Sinners**, **If I Had Legs I'd Kick You**, **The Testament of Ann Lee**, **Highest 2 Lowest**, **Hamnet**, **The Life of Chuck**, **Him**, **Twinless**)\n* November: 16 + 1 TV Series (**All Her Fault**) + 1 Re-Watch (**Sentimental Value**)\n* December: 15 + 2 Re-Watches (**Hamnet**, **One Battle After Another**)\n\n**Theater Visits by Day of the Week:**\n\nhttps://i.imgur.com/wD0Tsx6.jpeg\n\n* Monday - 16\n* Tuesday - 28\n* Wednesday - 32\n* Thursday - 53\n* Friday - 57\n* Saturday - 65\n* Sunday - 39 \n\n**Notable Missed Movies:**\n\nhttps://i.imgur.com/42reKIv.jpeg\n\n**Cast/Crew/Filmmaker Q&As/Appearances:**\n\nhttps://i.imgur.com/5kl6qWn.jpeg\n\n**Favorite Performances:** \n\nhttps://i.imgur.com/mf6Bren.jpeg\n\n----------------------------------------\n\n**Past Rankings:**\n \n* [2018 \\(162 Movies\\)](https://www.reddit.com/r/movies/comments/aavyrr/i_saw_162_movies_in_theaters_in_2018_here_is_my/)\n* [2019 \\(192 Movies\\)](https://www.reddit.com/r/movies/comments/eh71gy/i_saw_192_movies_in_theaters_in_2019_here_is_my/)\n* [2020 \\(44 Movies\\)](https://www.reddit.com/r/movies/comments/kp39ku/i_saw_44_movies_in_theaters_in_2020_here_is_my/)\n* [2021 \\(86 Movies\\)](https://www.reddit.com/r/movies/comments/ruaxif/i_saw_86_movies_in_theaters_in_2021_here_is_my/)\n* [2022 \\(270 Movies\\)](https://www.reddit.com/r/movies/comments/zzvg5y/i_saw_270_movies_in_theaters_in_2022_here_is_my/)\n* [2023 \\(325 Movies\\)](https://www.reddit.com/r/movies/comments/18v7k6g/i_saw_325_movies_in_theaters_in_2023_here_is_my/)\n* [2024 \\(298 movies\\)](https://www.reddit.com/r/movies/comments/1ho6mzf/i_saw_298_movies_in_theaters_in_2024_here_is_my/)\n\n----------------------------------------\n\nPlease support your local movie theater. Go alone. Go with others. Buy popcorn. Sneak in snacks. Go on a Discount Tuesday. Disconnect for 2 hours and watch a movie on the biggest screen possible. Don't let corporate greed and stockholder profits destroy a hundred years of laughs, tears, and communal joy. See you at the movies in 2026 :)",
+            "permalink": "/r/movies/comments/1pwx3x6/i_saw_290_movies_in_theaters_in_2025_here_is_my/",
+            "subreddit": "movies",
+            "createdUtc": 1766839857,
+            "numComments": 1498
+          },
+          {
+            "id": "1vu6lw5",
+            "url": "https://www.reddit.com/gallery/1vu6lw5",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/ajq8v25usnkh1.jpg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=a348deaecd52ded1ec187c4c87fa614ea6759263",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 9809,
+            "title": "[HATED] Adaptations done intentionally without help from the source",
+            "author": "Chill0000",
+            "authorId": "33jhmp06",
+            "selftext": "Halo TV show: Before the show came out, the writers were praising their decision to not look to the games for inspiration when making the show\n\nGod Of War TV show: Chris Judge, the actor of Kratos in the games from 2018-Now, spoke up about his dislike on the show not hiring anyone who worked on any of the previous games. One of the original creators of Kratos also spoke up about them not having faith in the adaptation.\n\nSupergirl 2026 film: the director for the film not only said he decided to not read Woman Of Tomorrow, the comic the film is adapting, because he wanted to do his own thing, he also didn’t look at comic art for inspiration to design Lobo and instead used an AI image generator to design Lobo’s look for the film",
+            "permalink": "/r/TopCharacterTropes/comments/1vu6lw5/hated_adaptations_done_intentionally_without_help/",
+            "subreddit": "TopCharacterTropes",
+            "createdUtc": 1787288001,
+            "numComments": 2397
+          },
+          {
+            "id": "1u7smy1",
+            "url": "https://www.reddit.com/gallery/1u7smy1",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/6zqz5h1h3q7h1.jpg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=3f49334ce4fc8857601a4a4e2d90cfd75c92325f",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 9577,
+            "title": "Dialog, Peter Thiel's secret society group that doesn't have a public website of members, had its 100+ member list leaked. Peter Thiel and many members are featured in the Epstein Files. The 2014 retreat invite was forwarded to Epstein.",
+            "author": "ReZeroForDays",
+            "authorId": "13thwm",
+            "selftext": "https://bsky.app/profile/crimew.gay/post/3moejlixgvc2z\n\n&#x200B;\n\nhttps://www.justice.gov/epstein/files/DataSet%2011/EFTA02563376.pdf\n\n&#x200B;\n\nA source separately provided WIRED with the registration list for Dialog's 2026 retreat, which names 222 people and records what the list describes as each registrant's membership status and attendee type, including “active member” and “guest.” The retreat is scheduled for August 12-16 at a venue near Dublin, Ireland.\n\n&#x200B;\n\nhttps://www.wired.com/story/leak-exposes-members-of-peter-thiels-secretive-dialog-society/",
+            "permalink": "/r/Epstein/comments/1u7smy1/dialog_peter_thiels_secret_society_group_that/",
+            "subreddit": "Epstein",
+            "createdUtc": 1781649769,
+            "numComments": 1068
+          },
+          {
+            "id": "1qu4071",
+            "url": "https://www.reddit.com/r/LinkedInLunatics/comments/1qu4071/no_the_mechahitler_encyclopedia_isnt_unbiased/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://a.thumbs.redditmedia.com/oiUqok_cDJsQVE6el3LMlD2RQTGbrj0IflE8I9QK_h0.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 9297,
+            "title": "No, the MechaHitler encyclopedia isn’t “unbiased…”",
+            "author": "PulsarEagle",
+            "authorId": "412771ku",
+            "selftext": "For those unaware, Grokipedia was started by Elon Musk solely as a vanity project because he hates Wikipedia. On multiple occasions, Grokipedia has been caught quoting from far-right and white supremacist sources, which pretty strongly undermines the claims this guy’s making. Given all the controversies surrounding Grok, extolling its virtues in such a manner is certainly an insane thing to post on LinkedIn",
+            "permalink": "/r/LinkedInLunatics/comments/1qu4071/no_the_mechahitler_encyclopedia_isnt_unbiased/",
+            "subreddit": "LinkedInLunatics",
+            "createdUtc": 1770058539,
+            "numComments": 574
+          },
+          {
+            "id": "1ux9xiv",
+            "url": "https://www.reddit.com/r/movies/comments/1ux9xiv/christopher_nolans_the_odyssey_review_thread/",
+            "nsfw": false,
+            "media": [],
+            "score": 9275,
+            "title": "Christopher Nolan's 'The Odyssey' - Review Thread",
+            "author": "ChiefLeef22",
+            "authorId": "7a7qkhpq",
+            "selftext": "*Odysseus, king of Ithaca, embarks on a perilous journey to return home after the Trojan War.*\n\nDirector: Sir Christopher Nolan\n\nCast: Matt Damon, Anne Hathaway, Tom Holland, Robert Pattinson, Jon Bernthal, Himesh Patel, Charlize Theron, Zendaya, John Leguizamo, Lupita Nyong'o, Benny Safdie, Samantha Morton, Elliot Page, Mia Goth, Ryan Hurst, James Remar, Bill Irwin, Logan Marshall-Green, Corey Hawkins, Jovan Adepo, Jesse Garcia, Will Yun Lee, Shiloh Fernandez\n\nRuntime: 172 minutes\n\nRating: 'R'\n\n**Rotten Tomatoes:** [98%](https://www.rottentomatoes.com/m/the_odyssey_2026)\n\n**Metacritic:** [90 / 100](https://www.metacritic.com/movie/the-odyssey-2026/)\n\nSome Reviews:\n\n[The Globe and Mail - Radheyan Simonpillai](https://www.theglobeandmail.com/culture/film-and-tv/film/article-the-odyssey-review-christopher-nolan/) \\- 100 / 100 (\"Critic's Pick\")\n\n>Christopher Nolan has delivered an awe-inspiring spectacle. In *The Odyssey*, he moves through past and present, not searching for reveals in a 3,000-year-old text that can’t be spoiled, but as a poetic and emotional catharsis, a way of navigating guilt and grief that resonates powerfully, perhaps as much as it ever did.\n\n[RogerEbert - Matt Zoller Seitz](https://www.rogerebert.com/reviews/the-odyssey-christopher-nolan-matt-damon-film-review-2026) \\- 100 / 100\n\n>The movie doesn’t give us any ChatGPT study guide summaries of what it all means. It presents Odysseus’ choices, laudable and horrible, just as things that *happened*, with implications that both the hero and the audience must grapple with, including the question of whether we make our decisions, or our decisions make us. The grand summation could be “people are complicated.” That sounds rather basic. But it feels revolutionary when it’s encoded in a rare modern blockbuster that doesn’t feed us lotus flowers.\n\n[The Times - Kevin Maher](https://www.thetimes.com/culture/film/article/the-odyssey-film-review-christopher-nolan-x7cf6dsst) \\- 10 / 10\n\n>Christopher Nolan's epic is a masterpiece in every sense of the word. With career-high performances from Anne Hathaway, Matt Damon and Tom Holland, this Homeric adaptation is gasp-inducingly beautiful and stirringly real\n\n[The New York Times - Manohla Dargis](https://www.nytimes.com/2026/07/15/movies/the-odyssey-review.html) \\- 100 / 100\n\n>After watching “The Odyssey” again, I flashed on something that Martin Scorsese once said about another film: “The emotion is the emulsion.” Nolan’s gifts are excessively obvious, and even when his characters don’t stir you, his filmmaking does. Among other qualities, he doesn’t know how to make an ugly image and this one is filled with rapturous beauty. Nolan employs beauty strategically, using it to seduce viewers into stories that can seem needlessly byzantine to some — especially by impoverished mainstream industry standards — more the provenance of the art house than the multiplex. Nolan asks us to dream bigger. His “Odyssey” is a classic in every sense, a transporting affirmation of the art and a work of pure cinema.\n\n[Arizona Republic - Bill Goodykoontz](https://www.azcentral.com/story/entertainment/movies/2026/07/15/the-odyssey-review/90909318007/) \\- 100 / 100\n\n>'The Odyssey' is the best movie of 2026. Haters should just go see it | A star-studded triumph that is at once overwhelming and accessible.\n\n[The Atlantic - David Sims](https://www.theatlantic.com/culture/2026/07/the-odyssey-movie-review-christopher-nolan/687913/) \\- 100 / 100\n\n>Odysseus is flawed, sometimes impulsively proud, and haunted by his past failures—as well as generous and loving in a way that Nolan seems to want to celebrate. The filmmaker created a movie that does exactly that, keeping the necessary mythic scale but preserving the humanity at the center.\n\n[Washington Post - Spencer A. Klavan](https://www.washingtonpost.com/opinions/2026/07/15/nolans-gorgeous-odyssey-makes-controversies-evaporate/) \\- 100 / 100\n\n>Nolan’s gorgeous ‘Odyssey’ makes the controversies evaporate. Homer asks: How should this story be told? Here is a striking version for our times.\n\n[Empire Magazine - John Nugent](https://www.empireonline.com/movies/reviews/the-odyssey-2026/) \\- 10 / 10\n\n>A worthy new translation of an ancient text, and yet another monumental piece of work from one of our boldest filmmakers. Watch it on the most colossal screen you can find.\n\n[The Playlist - Rodrigo Perez](https://theplaylist.net/the-odyssey-review-christopher-nolan-matt-damon-20260715/) \\- 100 / 100\n\n>For all its monsters, gods, armies, and thunder, “The Odyssey” finds its grandest image in a man confronting the dark mirror of what he has wrought. Nolan’s massive achievement understands that home is a place, a family, a memory, and a judgment. Odysseus may still recognize Ithaca when he reaches its shores. The more frightening question is whether Ithaca will recognize him.\n\n[Esquire - Anthony Breznican](https://www.esquire.com/entertainment/movies/a71930418/christopher-nolan-the-odyssey-review/) \\- 100 / 100\n\n>Christopher Nolan's stone-cold masterpiece might just change your life. The Oscar-winning *Oppenheimer* director has richly adapted the ancient Greek epic into a modern search for meaning.\n\n[Total Film - Jordan Farley](https://www.gamesradar.com/entertainment/fantasy-movies/the-odyssey-review/) \\- 100 / 100\n\n>A grounded, spiritual, uncanny rendering of Greek myth, The Odyssey is a dazzling epic and a major film-of-the-year contender. Post-Oppenheimer, Christopher Nolan continues to operate at the height of his filmmaking powers.\n\n[NME - Paul Bradshaw](https://www.nme.com/reviews/film-reviews/the-odyssey-review-christopher-nolan-matt-damon-anne-hathaway-3957159) \\- 100 / 100\n\n>If Oppenheimer was a small story made big, The Odyssey is a big story made impossibly huge: delivering yet another landmark summer cinema event that might just be the director’s most accomplished film to date.\n\n[The Observer - Wendy Ide](https://observer.co.uk/culture/film/article/the-odyssey-christopher-nolans-big-fat-greek-epic) \\- 100 / 100\n\n>This is an epic, mythic spectacle that honours its ancient Greek source material, with its monsters and magic, while also addressing more topical themes of exile, war trauma and survivor’s guilt. In a way, the film is a Trojan horse; an extravagant, good-looking adventure that serves as a delivery mechanism for messages about the treatment of strangers, the uneasy weight of legacy and the impossibility of returning from combat as the same person who left.\n\n[San Jose Mercury - Randy Myers](https://www.mercurynews.com/2026/07/15/review-christopher-nolan-is-up-to-the-challenge-in-odyssey/) \\- 100 / 100\n\n>The Odyssey is another feather in Nolan's masterpiece cap, a grandiose achievement that fills audiences with the same child-like glee experienced when watching \"Jason and the Argonauts\" and \"Clash of the Titans\" for the first time.\n\n[Chicago Tribune - Katie Walsh](https://www.chicagotribune.com/2026/07/16/movie-review-odyssey/) \\- 10 / 10\n\n>Here, Nolan manages to fit his every obsession, every thematic preoccupation, and every bit of jaw-dropping visual and sonic spectacle that he can conjure into every supersized frame of film.\n\n[Original-Cin - Karen Gordon](https://www.original-cin.ca/posts/2026/7/15/the-odyssey-nolan-turns-homers-epic-into-a-bracing-powerful-thinking-mans-adventure) \\- 10 / 10\n\n>Driven by powerful performances, particularly from Matt Damon, we see a thinking man in The Odyssey, who is really us, in an adventure bigger than we could imagine. It is both relevant and urgent. It’s bracing, powerful stuff by a master storyteller.\n\n[DEADLINE - Gregory Nussen](https://deadline.com/2026/07/the-odyssey-review-christopher-nolan-movie-1236976044/) \\- 100 / 100\n\n>As Emily Wilson writes in the introductory pages to her translation, “the poem questions … the idea that change can be undone, and the notion that there is such a thing as home, where people and relationships can stay forever the same.” Nolan’s film, indeed much of his body of work, is about accepting these truths, and finding out what has remained human once the embers of war have been quelled. Only time will tell.\n\n[NY Post - Johnny Olkesinski](https://nypost.com/2026/07/15/entertainment/the-odyssey-review-christopher-nolans-magical-epic-is-mammoth-and-fantastic/) \\- 10 / 10\n\n>Who better to adapt an epic poem than Nolan, a man who unearths poetry in all of his epics? Here, he did not set out to use Greek myths as the foundation for a basic action movie, as so many do. Instead he dives into the psychology and moral thorniness of Odysseus’ plight.\n\n[San Fransisco Chronicle - G. Allen Johnson](https://www.sfchronicle.com/entertainment/movies-tv/article/odyssey-review-nolan-imax-22333485.php) \\- 10 / 10\n\n>For all its modern filmmaking techniques, “The Odyssey” is a throwback to the mid-20th century, when Cinemascope was new and epics were event pictures. It’s a magnificent achievement.\n\n[The Telegraph - Robbie Collin](https://www.telegraph.co.uk/films/2026/07/15/the-odyssey-review-astonishing-reimagining-homer/) \\- 100 / 100\n\n>Nolan and his collaborators have constructed a strange, fearsome and trailblazing machine of a movie – by some distance, the best of the year so far. Its creator is known for playing tricks with time, and this may be his grandest yet: turning one of the oldest stories in literature into a vote of confidence in blockbuster cinema’s future.\n\n[Time Out - Phil De Semlyen](https://www.timeout.com/movies/the-odyssey-review-2026) \\- 100 / 100\n\n>In standard 70mm, the voyage is breathtaking; in IMAX, you’re tasting the salt water. Even among all the truck flips, atomic explosions and rotating corridors of his back catalogue, this film is the apogee of Nolan’s ‘do it in camera’ ethos, and the sense that this was a shoot with no comfort zone pervades every frame.\n\n[Rolling Stone - David Fear](https://www.rollingstone.com/tv-movies/tv-movie-reviews/christopher-nolans-the-odyssey-review-matt-damon-zendaya-1235584267/) \\- 100 / 100\n\n>What you tend to walk away with after bearing witness to The Odyssey, arguably Christopher Nolan’s best work after 2017’s Dunkirk, is an overall sensation of awe.\n\n[Screen Rant - Alex Harrison](https://screenrant.com/the-odyssey-movie-2026-review/) \\- 10 / 10\n\n>Cutting out the middleman of Homer's oral narrator, Nolan has brought us very close to these characters, immersing us as much as possible in their experience. In doing so, he has managed to capture the story's full scope. Odysseus' journey conveys the weight of its arduous years. The film's conclusion, told with a steady, patient hand, feels like a payoff 20 years in the making.\n\n[Jeremy Jahns - JeremyJahnsCom](https://www.youtube.com/watch?v=4EtIteqeySw) \\- 'Awesometacular'\n\n>It's epic. It's heartfelt. It's soulful. It's tragic. It even made me laugh at times.\n\n[Scotsman - Alistair Harkness](https://www.scotsman.com/arts-and-culture/film-and-tv/the-odyssey-review-a-thrilling-thoughtful-bloody-epic-8800214) \\- 5 / 5\n\n>It feels like Nolan’s angriest film to date. It’s also one of his best.\n\n[RTÉ - Suzanna Keane](https://www.rte.ie/entertainment/movie-reviews/2026/0715/1583498-the-odyssey-review-nolans-most-human-epic-yet/) \\- 5 / 5\n\n>For all its breathtaking scale, The Odyssey never loses sight of the people at its heart. It is a story about finding your way home; about what war takes and what hope can give back. Nolan has made an epic that feels both ancient and strikingly relevant.\n\n[The Guardian - Peter Bradshaw](https://www.theguardian.com/film/2026/jul/15/the-odyssey-review-christopher-nolan-matt-damon) \\- 5 / 5\n\n>The result is a gigantic, shimmering mirage, a mysterious three-hour vision of crazy episodes that does not yield up wisdom or contentment, but only a grim resolution to continue with the fight, to make sense of ruined lives, to re-enter the scorched battlefield of loss.\n\n[Radio Times - James Mottram](https://www.radiotimes.com/movies/the-odyssey-review-christopher-nolan/) \\- 5 / 5\n\n>Filled with blazing action, blood-curdling fights and creatures that truly bring Homer’s epic poem to life, this is Nolan at his finest.\n\n[The Independent - Clarisse Loughrey](https://www.the-independent.com/arts-entertainment/films/reviews/the-odyssey-review-christopher-nolan-b3015260.html) \\- 5 / 5\n\n>Christopher Nolan’s massive, fearless adaptation is his best film to date. There are touches of ‘Oppenheimer’, ‘Memento’ and even his Batman movies in this enormous condensing of the British filmmaker’s fixations, brought to life by a cast of seemingly thousands – but it’s the women (among them Anne Hathaway and Samantha Morton) who steal the show\n\n[The Standard - Nick Howells](https://www.standard.co.uk/culture/film/the-odyssey-film-review-christopher-nolan-matt-damon-b1289288.html) \\- 5 / 5\n\n>Christopher Nolan has made an epic worthy of the gods | **With Matt Damon on career-best form and spectacle and awe like you’ve never seen, they better start polishing those Oscars**\n\n[Little White Lies - Hannah Strong](https://lwlies.com/reviews/the-odyssey-2) \\- 5 / 5\n\n>All of Christopher Nolan exists within The Odyssey. All of humanity exists within filmmaking. Yet cinema always finds new ways to tell old stories; this is the great magic of the medium.\n\n[Entertainment Weekly - Wesley Stenzel](https://ew.com/is-the-odyssey-christopher-nolans-best-movie-12019535) \\- 5 / 5\n\n>The latest epic from the “Dark Knight” filmmaker combines the spectacle of “Inception” with the thematic weightiness of “Oppenheimer” — and it just might be his greatest work to date.\n\n[The Australian - Nikki Gemmell](https://www.theaustralian.com.au/culture/christopher-nolan-reinvents-an-ancient-epic-in-his-masterful-fivestar-odyssey/news-story/613a1d69a4c71490cabc4fdf0aa83a5a) \\- 5 / 5\n\n>You read The Odyssey and think: this is impossible to film. Yet this is sublime. Nolan invites us into an ancient world and holds us there, spellbound. He’s done the impossible. Pulled this off.\n\n[Metro - Tori Brazier](https://metro.co.uk/2026/07/15/odyssey-review-christopher-nolans-epic-will-change-cinema-forever-29142345/) \\- 5 / 5\n\n>Christopher Nolan’s The Odyssey is a watershed moment for filmmaking, re-introducing this legendary story to the masses courtesy of quite possibly the only modern director who has the ambition and guts to do it.\n\n[A Shot Magazine - Erin Mussett](https://ashotmagazine.com/the-odyssey-review-christopher-nolan-reminds-us-who-we-are-and-where-wer) \\- 5 / 5\n\n>Christopher Nolan has the answer. This is, in some ways, a rather serendipitous union. As a storyteller, Nolan has established himself as cinema’s foremost explorer of time, as both a physical, dimensional phenomenon, and deeply human experience. Beneath the gods and monsters in *The Odyssey,* lies a profoundly human meditation on longing, identity and fate. Odysseus’ story is *our* story, and Nolan brings it to the big screen in a way that breathes more life into the text than ever before.\n\n[Showbiz 411 - Roger Friedman](https://www.showbiz411.com/2026/07/15/review-christopher-nolans-stunning-the-odyssey-is-the-rare-combination-of-artistic-mastery-and-commercial-savvy-no-doubt-the-movie-of-the-year#google_vignette) \\- 5 / 5\n\n>Nolan has combined artistic mastery with commercial savvy. All the things you like about his movies are present in \"The Odyssey.\"\n\n[USA Today - Brian Truitt](https://www.usatoday.com/story/entertainment/movies/2026/07/15/the-odyssey-2026-movie-review/90909768007/) \\- 100 / 100\n\n>Christopher Nolan's 'The Odyssey' is bold, brutal masterpiece. Matt Damon is legendary as Greek warrior Odysseus and Christopher Nolan lives up to Homer's epic status in his awesome adaptation of \"The Odyssey.\"\n\n[Next Best Picture - Matt Neglia](https://nextbestpicture.com/the-odyssey/) \\- 10 / 10\n\n>A colossal achievement of scale, even by Nolan’s standards. This is as epic as movies get, with some of the most breathtaking set pieces you'll ever see. I grew up loving grand, sword and action dramas such as “Gladiator,” “Braveheart,” “The Last Samurai,” and yes, even “Troy.” I’m beyond thrilled to say Nolan’s ambitious dissection of myth and legend looms large over them all. Whether you experience it in IMAX or a standard theater, this is the kind of filmmaking and storytelling that we rarely see anymore and deserves to be honored.\n\n[Huffington Post - Maxime Birken](https://www.huffingtonpost.fr/culture/article/avec-l-odyssee-christopher-nolan-signe-un-peplum-mythologique-grandiose_286211.html) \\- 5 / 5\n\n>(Reviewed in French) As epic as it is tragic, the journey of Ulysses, embodied by Matt Damon, is a new peak in the career of one of the greatest filmmakers of his time. With all these qualities, *L’Odyssée* is instantly ranked among the best-made and most striking modern cinematic works. So much so that the desire to start the conversation about the place that this film can occupy in the filmography of Christopher Nolan himself intrigues us greatly. If it will take time to decide on the posterity of *L’Odyssée*, it is not an exaggeration to place it now among one of the best feature films of its director. From that to say that it could be his best film? We are not far from saying that.\n\n[IndieWire - David Ehrlich](https://www.indiewire.com/criticism/movies/the-odyssey-movie-review-christopher-nolan-1235205373/) \\- 'A-'\n\n>Christopher Nolan has defied the gods with one of his best movies ever.\n\n[Watson - Simone Meier](https://www.watson.ch/leben/reviews/492479091-nolans-the-odyssey-ins-unserem-review-drei-stunden-grossartigkeit) \\- 10 / 10\n\n>(Reviewed in German) “The Odyssey” may be one of **Christopher Nolan’s best films**, on par with “Inception” and “Interstellar,” in terms of the density of his vision and its seduction. Extremely supple one is sucked into this ancient universe, succumbs to it, becomes part of it. After that you are spit back on the street and at best you don’t know where you are now and what this present is supposed to be...\n\n[Premiere - Aurélien Allin](https://cinemateaser.com/chroniques/lodyssee/) \\- 10 / 10\n\n>Prodigous. A masterclass in filmmaking, on a crazy scale. Each second filled by astonishing images, Christopher Nolan’s new film is part of the thematic lineage of DUNKIRK and OPPENHEIMER, and the faults of what man has unleashed.\n\n[Consequence - Liz Shannon Miller](https://consequence.net/2026/07/the-odyssey-review-christopher-nolan/) \\- 'A-'\n\n>The director's highly anticipated follow-up to Oppenheimer is a true blank check moment, an opportunity for Nolan to explore the concept of war as not an opportunity for glory, but as a corrosive element that tears both societies and people apart.\n\n[Le Parisien - Renaud Baronian](https://www.leparisien.fr/culture-loisirs/cinema/lodyssee-pourquoi-il-ne-faut-pas-manquer-le-nouveau-chef-doeuvre-de-christopher-nolan-15-07-2026-A6B4S5TE2RB2DPBGUCSSK5WFUU.php?at_variant=photo) \\- 5 / 5\n\n>It is not easy to make the epic poem of Homer: few filmmakers dared to tackle it. We can now say: “The Odyssey” by Christopher Nolan, in theaters this week, should go down as one of his masterpieces. Respecting the spirit and unfolding of the story of Homer, masterfully filmed, remarkably interpreted, this new film will be a landmark.\n\n[AV Club - Monica Castillo](https://www.avclub.com/the-odyssey-review) \\- 'A-'\n\n>The movie’s sense of spectacle is part of its appeal, and Nolan serves it up even better than expected. The scale of the production is breathtaking, but it’s also a morality play writ large, a game of politics and succession, a warning about temptation and greed, a plea for kindness in a harsh world. The way Nolan brings everything together is a meeting of old and new Hollywood, a nod to the spectacles of yesteryear that thrilled audiences for generations combined with new techniques and tools to remind us all that there are more ways to keep pushing the medium—even with the classics.\n\n[InSession Film - JD Duran](https://insessionfilm.com/movie-podcast-review-the-odyssey/) \\- 'A-'\n\n>THE ODYSSEY is about defying the gods, losing your identity and becoming a victim of time, an idea that is really poignant with how it manifests in those final sequences.\n\n[The Film Verdict - Alonso Duralde](https://thefilmverdict.com/the-odyssey-film-review-2026-nolan) \\- 96 / 100\n\n>Peak Nolan involves a mix of popcorn delights and intellectual contemplation, and he has rarely brought those two notions together as skillfully as he as in The Odyssey. It’s an epic saga of an epic saga, worthy of its source.\n\n[The Wrap - William Bibbiani](https://www.thewrap.com/author/williambibbiani/) \\- 95 / 100\n\n>You can’t say Hollywood doesn’t make them like this anymore. Nobody ever did.\n\n[Polygon - Jake Kleinman](https://www.polygon.com/the-odyssey-review-christopher-nolan/) \\- 95 / 100\n\n>If Oppenheimer was Nolan shedding the trappings of genre to reach new heights with a science-heavy biopic, then in The Odyssey, Nolan puts away his trusty tools to shape cinematic history with his bare hands.\n\n[The Irish Times - Donald Clarke](https://www.irishtimes.com/culture/film/review/2026/07/15/the-odyssey-review-set-aside-any-doubts-this-star-studded-film-is-christopher-nolan-at-his-best/) \\- 4.5 / 5\n\n>Set aside any doubts. This star-studded film is Christopher Nolan at his best. This take on Homer’s classic – with a celebrity cast including Matt Damon, Tom Holland and Zendaya – should win over even the most passionate sceptics\n\n[BBC - Caryn James](https://www.bbc.com/culture/article/20260715-five-things-you-need-to-know-about-the-odyssey) \\- 95 / 100\n\n>Oppenheimer, with its singular focus, is still Nolan's most perfectly wrought film. But even with its flaws, The Odyssey is so rich, so full of magic and humanity, that I'm eager to see this epic again.\n\n[The Daily Beast - Nick Schager](https://www.thedailybeast.com/obsessed/the-odyssey-christopher-nolans-latest-is-the-movie-event-of-the-year/) \\- 4.5 / 5\n\n>Modern mainstream films don’t come more daring, mammoth, and accomplished than Nolan’s latest.\n\n[DiscussingFilm - Andrew J Salazar](https://discussingfilm.net/2026/07/15/the-odyssey-review-christopher-nolan/) \\- 4.5 / 5\n\n>*The Odyssey* taps into a visceral level of fear that Nolan hasn’t really explored before. Not just fear of the unknown, but also fear of fellow man. Matt Damon’s Odysseus must come to terms with his previous sins in order to face the consequences of his future. As Nolan explores his fading memories and the time lost to war, traces of [***Inception***](https://www.inverse.com/entertainment/inception-15-year-anniversary) and [***Memento***](https://www.polygon.com/christopher-nolan-memento-25th-anniversary/) can be felt. Damon marvelously makes the mythic hero all his own, though.\n\n[OutNow - Chris Schelb](https://outnow.ch/en/Movies/2026/Odyssey/Review/) \\- 10 / 10\n\n>Mere nitpicks aside, everything in Nolan's latest comes together wonderfully, with the film coming rather close to the Olympus of cinematic epics. Ultimately, it matters little how one interprets the whole business with the mythical creatures: *The Odyssey* is fantastic either way.\n\n[Slant Magazine - Jake Cole](https://www.slantmagazine.com/film/the-odyssey-review-christopher-nolan-matt-damon/) \\- 3.5 / 4\n\n>The Odyssey is both faithful and deconstructive, embodying the fluidity of the oral tradition that spawned the poem and kept it alive for millennia through shifting tastes and values.\n\n[Den Of Geek - David Crow](https://www.denofgeek.com/movies/the-odyssey-review-christopher-nolan/) \\- 4.5 / 5\n\n>lt is an awesome undertaking in the ancient sense of the word, and a homecoming for a storyteller who spent his career chasing this destination.\n\n[Looper - Nina Starner](https://www.looper.com/2215211/the-odyssey-review-christopher-nolan-2026-movie/) \\- 9 / 10\n\n>I was fortunate enough to experience the epic in 70mm IMAX as God and Nolan intended, and I was richly rewarded. Even with this massive visual scale, though, Nolan's message is concise and builds on what he communicated in \"Oppenheimer\" — only man can bring about man's ruin, and when powerful men don't consider the consequences of their actions, entire civilizations could ultimately fall. \"The Odyssey\" is a visual feast and undeniably outstanding achievement in filmmaking that cements Nolan as one of cinema's all-time greats, naysayers be damned.\n\n[Collider - Joe Schmidt](https://collider.com/the-odyssey-review-christopher-nolan/) \\- 9 / 10\n\n>Nolan prides himself on being a storyteller, and here **he pays tribute to the medium that made him a prolific figure in pop culture.** He wouldn't be here without a story to tell, so it's only fitting that he has told a story that has endured throughout the eons as only he can. The fact that he executed it at this level is certainly a feat that others will tell their own stories about.\n\n[Associated Press - Jake Coyle](https://apnews.com/article/odyssey-review-christopher-nolan-fceb80683c5ecdc627f8e9221b833ca0) \\- 9 / 10\n\n>Nolan’s “Odyssey” is nearly three hours long but never slow going. And it’s the friction between past and present that propels the movie as much as Odysseus’ wayward path.\n\n[IGN France - Nanix](https://fr.ign.com/the-odyssey-nolan/90352/critique-lodyssee-du-tres-grand-cinema-au-service-de-la-plus-grande-aventure-de-nolan) \\- 9 / 10\n\n>Above all, with Odyssey, Nolan reminds us of his Batman: brilliantly adapt a work known to all, rewrite it according to his convictions and his vision and make a legend a legend above all human, realistic and anchored by his words, a success. A jewel of modern cinema.\n\n[Sydney Morning Herald - Jake Wilson](https://www.smh.com.au/culture/movies/the-odyssey-review-20260715-p60fg1.html) \\- 4 / 5\n\n>Christopher Nolan has a way with a time paradox. Not content with constructing narratives that run backwards...his big-budget adaptation of Homer’s Odyssey gambles that he can take one of the oldest stories in Western culture and make it feel new.\n\n[AltFilm - Tim Cogshell](https://www.altfg.com/the-odyssey-2026-movie-review/)\n\n>Christopher Nolan’s latest cinematic event is perfectly good. And yet, its one truly remarkable achievement is not the drama, the direction, the acting, the cinematography, or the visual effects – but the sound design.",
+            "permalink": "/r/movies/comments/1ux9xiv/christopher_nolans_the_odyssey_review_thread/",
+            "subreddit": "movies",
+            "createdUtc": 1784131021,
+            "numComments": 8149
+          },
+          {
+            "id": "1q98ara",
+            "url": "https://www.reddit.com/r/ThatsInsane/comments/1q98ara/an_account_with_120k_followers_has_been_rapidly/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/em1uM2Jiam9zamNnMfGUIp_UMQBb29Uj5WM0cuyk8Gsv5X1yvoFX7s6U0IlY.png?width=140&height=140&crop=1%3A1%2Csmart&format=jpg&auto=webp&s=3d5b676a238936458b214518f2048e4c32c30a55",
+                "type": "video",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 8605,
+            "title": "An account with 120k+ followers has been rapidly posting unmarked AI-generated videos of fictional ICE agents being attacked and discriminated, with many of them involving white women driving at them in cars. None of the videos are labeled as fake or AI-generated.",
+            "author": "WhatYouThinkYouSee",
+            "authorId": "kivb2z1gg",
+            "selftext": "",
+            "permalink": "/r/ThatsInsane/comments/1q98ara/an_account_with_120k_followers_has_been_rapidly/",
+            "subreddit": "ThatsInsane",
+            "createdUtc": 1768062204,
+            "numComments": 209
+          },
+          {
+            "id": "1pjys55",
+            "url": "https://www.reddit.com/r/antiai/comments/1pjys55/boycott_disney/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://a.thumbs.redditmedia.com/ZdoIK02vx0HNsX9pJAF7CeXfCBk75O2Js9qFzlnyW38.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 123
+              }
+            ],
+            "score": 8541,
+            "title": "Boycott Disney",
+            "author": "[deleted]",
+            "authorId": "0",
+            "selftext": "Boycott Disney (all Disney films, TV shows, parks, merch, etc.) and cancel your Disney+ subscription (if you still have it) for signing a deal with OpenAI to let users generate AI slop on its own IP for profit. \n\nInvesting $1B into OpenAI is crazy.",
+            "permalink": "/r/antiai/comments/1pjys55/boycott_disney/",
+            "subreddit": "antiai",
+            "createdUtc": 1765463091,
+            "numComments": 631
+          }
+        ],
+        "nextCursor": "cur_69uGD1psdkXGiJWPc0NdTw"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-bison-9321fc54",
+      "kind": "anonymous",
+      "name": "Bison",
+      "artworkKey": "bison"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00035",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:41:31.441Z",
+  "started_at": "2026-11-23T07:41:31.595Z",
+  "completed_at": "2026-11-23T07:41:33.607Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

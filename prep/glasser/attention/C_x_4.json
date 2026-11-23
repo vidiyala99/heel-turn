@@ -1,0 +1,105 @@
+{
+  "id": "5ea227a2-35e5-45de-88ec-a9a067776f2e",
+  "run_url": "https://app.glasser.ai/runs/5ea227a2-35e5-45de-88ec-a9a067776f2e",
+  "provider": "anyapi",
+  "endpoint": "/twitter.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "limit": 20,
+    "query": "AI debate coach simulation since:2025-11-22 filter:videos -filter:replies min_faves:20",
+    "queryType": "Top"
+  },
+  "output": {
+    "items": 2,
+    "output": {
+      "data": {
+        "items": [
+          {
+            "id": "2122715190005235752",
+            "url": "https://x.com/diamai_/status/2122715190005235752",
+            "lang": "en",
+            "text": "This is a cheat code.\n\n10 free GitHub repos turn Claude Code into your own trading terminal. A Bloomberg Terminal costs $31,980 a year.\n\nPrices. Research agents. Backtests. Crypto.\n\n01 TradingAgents → an analyst team, a trader and a risk desk debate a ticker before any call\nhttp://github.com/TauricResearch/TradingAgents\n\n02 OpenBB → equities, ETFs, crypto, options and macro, with a ready connector for AI agents\nhttp://github.com/OpenBB-finance/OpenBB\n\n03 yfinance → free Yahoo Finance quotes in Python\nhttp://github.com/ranaroussi/yfinance\n\n04 AI Hedge Fund → investor agents that paper trade and replay history\nhttp://github.com/virattt/ai-hedge-fund\n\n05 Vibe-Trading → type a question, get a report, a backtest and a paper portfolio\nhttp://github.com/HKUDS/Vibe-Trading\n\n06 Qlib → Microsoft's AI platform for quant investing\nhttp://github.com/microsoft/qlib\n\n07 vectorbt → runs thousands of strategy ideas at once\nhttp://github.com/polakowo/vectorbt\n\n08 Freqtrade → a crypto bot with a dry-run mode, controlled from Telegram\nhttp://github.com/freqtrade/freqtrade\n\n09 CCXT → one API for 100+ crypto exchanges, with an official MCP server\nhttp://github.com/ccxt/ccxt\n\n10 NautilusTrader → a Rust engine where one strategy runs in simulation and live\nhttp://github.com/nautechsystems/nautilus_trader\n\nData → analysis → simulation → fake-money trading.\n\n#02, #05 and #09 connect to Claude over MCP. The rest are Python tools it installs and runs for you.\n\n520,000+ GitHub stars between them, all free to use.\n\nWhich one would you point at the market first?",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2122714716170551296/img/8Awd8M0c3oJ3Gi9q.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2122714716170551296/vid/avc1/1080x1350/-sI6C47W3oY2ugst.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "2014752464017174528",
+            "likeCount": 33,
+            "viewCount": 857,
+            "authorName": "Diam",
+            "createdUtc": 1794929714,
+            "quoteCount": 0,
+            "replyCount": 20,
+            "authorImage": "https://pbs.twimg.com/profile_images/2118968124930203648/93boYMVF_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 1,
+            "bookmarkCount": 19,
+            "authorUsername": "diamai_",
+            "authorVerified": true,
+            "conversationId": "2122715190005235752",
+            "authorFollowers": 1132
+          },
+          {
+            "id": "2123088844296007921",
+            "url": "https://x.com/theSethian/status/2123088844296007921",
+            "lang": "en",
+            "text": "BREAKING: GTA 6 JUST CAME OUT. ELON MUSK HAS 43 DAYS LEFT TO KEEP HIS PROMISE.\n\nIn the video below, Musk calls it live on stream, then the boss of GTA's publisher takes a shot at him.\n\nIt was the Grok 4 launch in July 2025. Musk described AI building a whole game you could run on a PC, a console or a phone.\n\n\"I would expect the first really good AI video game to be next year,\" he said.\n\nThree months later he turned it into a deadline, posting on X that xAI's game studio would release one before the end of 2026.\n\nStrauss Zelnick runs Take-Two, which publishes GTA. At a Semafor summit in April, he aimed the AI jobs debate at Musk. The richest man on earth has unlimited money and people and works 20 hours a day, so if AI takes anyone's job, why not his?\n\nThen Zelnick delivered the punchline.\n\"Maybe Elon Musk is indeed a simulation.\"\n\nThis month he told investors that hit games still come from people.\n\nxAI hasn't announced a title or a release date.\n\nWill Musk pull it off in 43 days, or is this just another Elon deadline?",
+            "media": [
+              {
+                "url": "https://pbs.twimg.com/amplify_video_thumb/2123088549649977344/img/S-55gPwE3jX3qrJa.jpg",
+                "type": "video",
+                "videoUrl": "https://video.twimg.com/amplify_video/2123088549649977344/vid/avc1/1920x1080/zU045-7nAwhRm1-6.mp4?tag=29"
+              }
+            ],
+            "isReply": false,
+            "authorId": "271760810",
+            "likeCount": 125,
+            "viewCount": 31009,
+            "authorName": "Sethian",
+            "createdUtc": 1795018800,
+            "quoteCount": 0,
+            "replyCount": 18,
+            "authorImage": "https://pbs.twimg.com/profile_images/2104127427572039681/DrpcHta6_normal.jpg",
+            "inReplyToId": null,
+            "retweetCount": 6,
+            "bookmarkCount": 79,
+            "authorUsername": "theSethian",
+            "authorVerified": true,
+            "conversationId": "2123088844296007921",
+            "authorFollowers": 2484
+          }
+        ],
+        "nextCursor": null
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-capybara",
+      "kind": "anonymous",
+      "name": "Capybara",
+      "artworkKey": "capybara"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00049",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:40:33.996Z",
+  "started_at": "2026-11-23T07:40:34.091Z",
+  "completed_at": "2026-11-23T07:40:34.993Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

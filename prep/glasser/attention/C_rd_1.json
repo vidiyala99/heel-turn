@@ -1,0 +1,201 @@
+{
+  "id": "f16f6586-61ae-4755-ab89-2b6abd6c7083",
+  "run_url": "https://app.glasser.ai/runs/f16f6586-61ae-4755-ab89-2b6abd6c7083",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "AI agents coach negotiation simulation",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "paging_unavailable: this result came from a source that cannot return a nextCursor, so it may be incomplete and there is no way to continue from here. Re-run with `requireFields: [\"nextCursor\"]` to be served only by a source that can page, which may cost more per request.",
+    "items": 7,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1r7x023",
+            "url": "https://i.redd.it/cmyieappl7kg1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/cmyieappl7kg1.jpeg?auto=webp&s=bd5adcbb315fc1291a3463efbe5a78487efdc64c",
+                "type": "photo",
+                "width": 1206,
+                "height": 1301
+              }
+            ],
+            "score": 39794,
+            "title": "When you skip validation for AI generated results",
+            "author": "Epelep",
+            "authorId": "chsmv",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/Wellthatsucks/comments/1r7x023/when_you_skip_validation_for_ai_generated_results/",
+            "subreddit": "Wellthatsucks",
+            "createdUtc": 1771401363,
+            "isArchived": false,
+            "numComments": 1394
+          },
+          {
+            "id": "1ree20k",
+            "url": "https://www.newscientist.com/article/2516885-ais-cant-stop-recommending-nuclear-strikes-in-war-game-simulations/",
+            "nsfw": false,
+            "media": [],
+            "score": 36280,
+            "title": "AIs can’t stop recommending nuclear strikes in war game simulations - Leading AIs from OpenAI, Anthropic, and Google opted to use nuclear weapons in simulated war games in 95 per cent of cases",
+            "author": "Teruyo9",
+            "authorId": "5cfat",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/technology/comments/1ree20k/ais_cant_stop_recommending_nuclear_strikes_in_war/",
+            "subreddit": "technology",
+            "createdUtc": 1772028213,
+            "isArchived": false,
+            "numComments": 2787
+          },
+          {
+            "id": "1sxaa7a",
+            "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/claude-powered-ai-coding-agent-deletes-entire-company-database-in-9-seconds-backups-zapped-after-cursor-tool-powered-by-anthropics-claude-goes-rogue",
+            "nsfw": false,
+            "media": [],
+            "score": 35985,
+            "title": "Claude-powered AI coding agent deletes entire company database in 9 seconds — backups zapped, after Cursor tool powered by Anthropic's Claude goes rogue",
+            "author": "WouldbeWanderer",
+            "authorId": "5p1ltmws",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/technology/comments/1sxaa7a/claudepowered_ai_coding_agent_deletes_entire/",
+            "subreddit": "technology",
+            "createdUtc": 1777310458,
+            "isArchived": false,
+            "numComments": 2750
+          },
+          {
+            "id": "1rgseae",
+            "url": "https://i.redd.it/ntf4zqlnr5mg1.png",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/ntf4zqlnr5mg1.png?auto=webp&s=9cbd21d465b8e33e554bc9b7c557f9924f332070",
+                "type": "photo",
+                "width": 1080,
+                "height": 1036
+              }
+            ],
+            "score": 35013,
+            "title": "You're now training a war machine. Let's see proof of cancellation.",
+            "author": "zaxo666",
+            "authorId": "352dwzr9",
+            "isLocked": false,
+            "selftext": "Yeah, we're all in the death business now that OpenAI has succumbed to the corrupt Department of War. \n\nLet's see proof of your cancellation boys and girls. ",
+            "permalink": "/r/ChatGPT/comments/1rgseae/youre_now_training_a_war_machine_lets_see_proof/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1772250842,
+            "isArchived": false,
+            "numComments": 2708
+          },
+          {
+            "id": "1sy934t",
+            "url": "https://www.the-independent.com/tech/claude-ai-agent-deletes-startup-anthropic-b2966176.html",
+            "nsfw": false,
+            "media": [],
+            "score": 31041,
+            "title": "‘It took nine seconds’: Claude AI agent deletes company’s entire database",
+            "author": "curseofdarkastle",
+            "authorId": "7jn1nose",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/nottheonion/comments/1sy934t/it_took_nine_seconds_claude_ai_agent_deletes/",
+            "subreddit": "nottheonion",
+            "createdUtc": 1777399264,
+            "isArchived": false,
+            "numComments": 1423
+          },
+          {
+            "id": "1smgk52",
+            "url": "https://www.reddit.com/gallery/1smgk52",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/gopqk2jcqevg1.jpg?width=1290&format=pjpg&auto=webp&s=743a5764593ae64ea305b463f8203624045c3a13",
+                "type": "photo",
+                "width": 1290,
+                "height": 923
+              },
+              {
+                "url": "https://preview.redd.it/rrsukcjcqevg1.jpg?width=4032&format=pjpg&auto=webp&s=f0dde67e73da57f91255f2d796ffa66681b81097",
+                "type": "photo",
+                "width": 4032,
+                "height": 3024
+              }
+            ],
+            "score": 25778,
+            "title": "Im currently house hunting. Here is the photo in the ad vs the house in real life…",
+            "author": "slim_shady_21",
+            "authorId": "3yqjxe2",
+            "isLocked": false,
+            "selftext": "Im assuming they used AI to clean up the front yard. I guess the AI just decided to install a brand new roof, driveway, and retaining wall!!! The interior wasnt much better either…\n\nEdit: wow this recieved a lot of attention. To answer a few of the questions i see repeatedly popping up…\n\n\\- I am in Quebec, Canada. Not really sure about the laws for this type of thing. My real estate agent told me that this is unfortunately very common practice. He agreed with me that the way it changed the whole house is false advertising but that there isnt much that can be done but move on to the next house.\n\n\\- It was a property flip. The house was bought last year and now is being resold with full interior renovation. The work looked very shoddy and i dont trust it. The back of the house was full of old electrical equipment with the wires diconnected and hanging off, the garage was wired up loosely with 14/2 between all the boxes just fastened to the wall which is not up to code. All wires need to be in a pipe or in a wall. The roof was also completely finished and needed to be redone. \n\n\\- Overall the property was just not up to my standard and even if i could look over the egregious false advertising, there was just too many other issues. ",
+            "permalink": "/r/mildlyinfuriating/comments/1smgk52/im_currently_house_hunting_here_is_the_photo_in/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1776281997,
+            "isArchived": false,
+            "numComments": 1588
+          },
+          {
+            "id": "1tlmbdz",
+            "url": "https://i.redd.it/qxxu07pa7x2h1.jpeg",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/qxxu07pa7x2h1.jpeg?auto=webp&s=da60c7afd32498aa4c105a701af2ef53363bfd90",
+                "type": "photo",
+                "width": 1080,
+                "height": 1651
+              }
+            ],
+            "score": 25495,
+            "title": "Dehydrating for our AI overlords",
+            "author": "eldubinoz",
+            "authorId": "k6b5n",
+            "isLocked": false,
+            "selftext": "",
+            "permalink": "/r/LinkedInLunatics/comments/1tlmbdz/dehydrating_for_our_ai_overlords/",
+            "subreddit": "LinkedInLunatics",
+            "createdUtc": 1779556558,
+            "isArchived": false,
+            "numComments": 320
+          }
+        ],
+        "nextCursor": "cur_n4E3lXj4HP0jAZeK9bzGrA"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-giraffe-5e3cbaa1",
+      "kind": "anonymous",
+      "name": "Giraffe",
+      "artworkKey": "giraffe"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00034",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:40:33.460Z",
+  "started_at": "2026-11-23T07:40:33.710Z",
+  "completed_at": "2026-11-23T07:40:35.417Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

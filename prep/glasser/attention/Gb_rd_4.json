@@ -1,0 +1,584 @@
+{
+  "id": "78741297-52a8-4c82-92ee-974bde73578a",
+  "run_url": "https://app.glasser.ai/runs/78741297-52a8-4c82-92ee-974bde73578a",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "AI agents Diplomacy game betrayal",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "large_result: this response is ~28 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 25,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1p8oomu",
+            "url": "https://www.reddit.com/gallery/1p8oomu",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/zJM_1fepDUSAI0t3KwfJtA9DoTg6Luqe-wCjVKYWRro.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 96
+              }
+            ],
+            "score": 76220,
+            "title": "Valve artist responds to calls for Steam to drop \"Made with AI\" label",
+            "author": "Stannis_Loyalist",
+            "authorId": "3p3tvgm1",
+            "selftext": "",
+            "permalink": "/r/Steam/comments/1p8oomu/valve_artist_responds_to_calls_for_steam_to_drop/",
+            "subreddit": "Steam",
+            "createdUtc": 1764314331,
+            "numComments": 2587
+          },
+          {
+            "id": "1pcgbwa",
+            "url": "https://www.reddit.com/r/memes/comments/1pcgbwa/steam_for_the_win/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/RuYfKPO5DSN4H_tMxJSiIi0SXDoFXmjf92EDK5HcZaQ.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 75537,
+            "title": "Steam for the win",
+            "author": "[deleted]",
+            "authorId": "0",
+            "selftext": "",
+            "permalink": "/r/memes/comments/1pcgbwa/steam_for_the_win/",
+            "subreddit": "memes",
+            "createdUtc": 1764700254,
+            "numComments": 1330
+          },
+          {
+            "id": "1vb9cdn",
+            "url": "https://www.reddit.com/r/videogames/comments/1vb9cdn/in_which_game_did_you_experience_this_situation/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/0ffx5v8x7ggh1.png?width=140&height=139&auto=webp&s=70f6d02e640bdd5e16c84a3064a42f49280926b6",
+                "type": "photo",
+                "width": 140,
+                "height": 139
+              }
+            ],
+            "score": 65408,
+            "title": "In Which Game Did You Experience This Situation?",
+            "author": "Bay_Ruhsuz004",
+            "authorId": "1d59bvrk8q",
+            "selftext": "",
+            "permalink": "/r/videogames/comments/1vb9cdn/in_which_game_did_you_experience_this_situation/",
+            "subreddit": "videogames",
+            "createdUtc": 1785452826,
+            "numComments": 3149
+          },
+          {
+            "id": "1qn19s1",
+            "url": "https://www.reddit.com/r/sports/comments/1qn19s1/alex_jeffrey_pretti_the_minnesota_icu_nurse_who/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/cDNndnZzZG5kbGZnMdwiFU7kVxWW5FJsk-UshnTPTZnWw-xmPs25AqEe2hWk.png?width=140&height=140&crop=1%3A1%2Csmart&format=jpg&auto=webp&s=91932993651fd73cab34f2924fe1ae2263b299b1",
+                "type": "video",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 61106,
+            "title": "Alex Jeffrey Pretti, the Minnesota ICU nurse who was murdered by ICE agents yesterday, was honored today before the New York Sirens vs. Minnesota Frost hockey game at the Grand Casino Arena in St. Paul.",
+            "author": "cmaia1503",
+            "authorId": "3in26siv",
+            "selftext": "",
+            "permalink": "/r/sports/comments/1qn19s1/alex_jeffrey_pretti_the_minnesota_icu_nurse_who/",
+            "subreddit": "sports",
+            "createdUtc": 1769388911,
+            "numComments": 88
+          },
+          {
+            "id": "1pahpt6",
+            "url": "https://www.gamesradar.com/games/valve-artist-says-thats-like-saying-food-products-shouldnt-have-their-ingredients-list-as-epics-tim-sweeney-and-more-call-on-steam-to-drop-the-made-with-ai-label/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/kBB7qxPIfwWFner0RncX9fEJUTjG1lS7kVKq1XB7oeo.jpeg?width=140&height=78&auto=webp&s=95d128a75dfa56f6103b8ec99669decb37c3beac",
+                "type": "photo",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 54439,
+            "title": "Valve artist responds to Epic Games CEO Tim Sweeney and more calling on Steam to drop the 'Made with AI' label: \"This is like saying food products shouldn't have their ingredients list... The only people afraid of this are the ones that know their product is low effort.\"",
+            "author": "ChiefLeef22",
+            "authorId": "7a7qkhpq",
+            "selftext": "",
+            "permalink": "/r/gaming/comments/1pahpt6/valve_artist_responds_to_epic_games_ceo_tim/",
+            "subreddit": "gaming",
+            "createdUtc": 1764507574,
+            "numComments": 2125
+          },
+          {
+            "id": "1px9xwx",
+            "url": "https://www.reddit.com/r/pcmasterrace/comments/1px9xwx/private_equity_is_killing_private_ownership_first/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/ZmFpc2w2bjZpdDlnMfjm9xYAn_POqzYPqQ5XUfllfmUARKNamgHFYO-YeV5d.png?width=140&height=78&format=jpg&auto=webp&s=e3e6be6c7c22cd2b7301f8c81496d8d94f922a09",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 48940,
+            "title": "Private equity is killing private ownership: first it was housing - now it's the personal computer",
+            "author": "SagansCandle",
+            "authorId": "wrlvini",
+            "selftext": "DRAM and GPU prices aren't going up because of \"AI\" - it's because the wealthy have more money than they know what to do with, so they're buying up all the assets. \"AI\" is just the vehicle (the excuse) - it's not the root of the problem nor is it the ultimate goal.\n\nThe super rich don't want to hold on to \"liquid\" money - they invest in assets. While they're buying up all the housing, now they're buying up all the computers and putting them into massive datacenters.\n\nWhether or not the AI bubble crashes, they'll be selling you a \"gaming PC in the cloud,\" for a monthly fee, of course. And while they kill the personal computer market, just like Netflix, once your only option is a subscription service, the price will skyrocket.\n\nThis is happening in real-time. If we want to stop it, now's the time to act.\n\nSources:\n\n* Gamers Nexus: [NVIDIA: WTF?](https://www.youtube.com/watch?v=cUrJVdF2me0) \n* Garys Economics: [The REAL reason behind the housing crisis](https://www.youtube.com/watch?v=BTlUyS-T-_4) \n* [Network (1976)](https://www.youtube.com/watch?v=pqzTcy3SnLg)",
+            "permalink": "/r/pcmasterrace/comments/1px9xwx/private_equity_is_killing_private_ownership_first/",
+            "subreddit": "pcmasterrace",
+            "createdUtc": 1766873040,
+            "numComments": 2919
+          },
+          {
+            "id": "1xsz27z",
+            "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1xsz27z/my_son_did_this_by_accident_and_didnt_apologize/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/uze87i8squ0i1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=4a92c58e41dbc085d0f5dd8ddbd6bc0dc07ef31e",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 44533,
+            "title": "My son did this by accident and didn't apologize.",
+            "author": "returntothenorth",
+            "authorId": "204il5eywb",
+            "selftext": "I don't even care about the board game. He just didn't make any sorry related jokes. ",
+            "permalink": "/r/mildlyinfuriating/comments/1xsz27z/my_son_did_this_by_accident_and_didnt_apologize/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1794345624,
+            "numComments": 2859
+          },
+          {
+            "id": "1pc43km",
+            "url": "https://www.reddit.com/r/memes/comments/1pc43km/what_a_w_steam/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/_5WWv5rffcd49J9GX3xgWlkLl9LhtWMbztcJb1TpXDc.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 44102,
+            "title": "What a W Steam",
+            "author": "ZealousidealChain473",
+            "authorId": "du7tc90s0",
+            "selftext": "",
+            "permalink": "/r/memes/comments/1pc43km/what_a_w_steam/",
+            "subreddit": "memes",
+            "createdUtc": 1764667470,
+            "numComments": 538
+          },
+          {
+            "id": "1r7x023",
+            "url": "https://www.reddit.com/r/Wellthatsucks/comments/1r7x023/when_you_skip_validation_for_ai_generated_results/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/cmyieappl7kg1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=ba55b28e06ba1ed35f0d88df299828a1f7ebade3",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 39799,
+            "title": "When you skip validation for AI generated results",
+            "author": "Epelep",
+            "authorId": "chsmv",
+            "selftext": "",
+            "permalink": "/r/Wellthatsucks/comments/1r7x023/when_you_skip_validation_for_ai_generated_results/",
+            "subreddit": "Wellthatsucks",
+            "createdUtc": 1771401363,
+            "numComments": 1394
+          },
+          {
+            "id": "1ree20k",
+            "url": "https://www.newscientist.com/article/2516885-ais-cant-stop-recommending-nuclear-strikes-in-war-game-simulations/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/q3QU9aPNch0j5gkFNIJO_NVAl4eXbl9Cv2jEI0BolhQ.jpeg?width=140&height=93&auto=webp&s=1de3eec985cf54d5c359bfe6f0ccb65d87a467d9",
+                "type": "photo",
+                "width": 140,
+                "height": 93
+              }
+            ],
+            "score": 36283,
+            "title": "AIs can’t stop recommending nuclear strikes in war game simulations - Leading AIs from OpenAI, Anthropic, and Google opted to use nuclear weapons in simulated war games in 95 per cent of cases",
+            "author": "Teruyo9",
+            "authorId": "5cfat",
+            "selftext": "",
+            "permalink": "/r/technology/comments/1ree20k/ais_cant_stop_recommending_nuclear_strikes_in_war/",
+            "subreddit": "technology",
+            "createdUtc": 1772028213,
+            "numComments": 2787
+          },
+          {
+            "id": "1qol10u",
+            "url": "https://www.reddit.com/r/AskReddit/comments/1qol10u/what_do_you_think_about_the_italian_government/",
+            "nsfw": false,
+            "media": [],
+            "score": 36023,
+            "title": "What do you think about the Italian government wanting to ban ICE agents to come to the Olympic Games as security forces?",
+            "author": "ReduceCO2Now",
+            "authorId": "26whms7bps",
+            "selftext": "",
+            "permalink": "/r/AskReddit/comments/1qol10u/what_do_you_think_about_the_italian_government/",
+            "subreddit": "AskReddit",
+            "createdUtc": 1769536309,
+            "numComments": 2998
+          },
+          {
+            "id": "1sxaa7a",
+            "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/claude-powered-ai-coding-agent-deletes-entire-company-database-in-9-seconds-backups-zapped-after-cursor-tool-powered-by-anthropics-claude-goes-rogue",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/Fm6buU-AX7KeegRqofL5hDPf1-twSaUDAG8yAc1Qld0.jpeg?width=140&height=78&auto=webp&s=398498a9f8c84a8e7d2d8f1ec9aeaa766166bd75",
+                "type": "photo",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 35989,
+            "title": "Claude-powered AI coding agent deletes entire company database in 9 seconds — backups zapped, after Cursor tool powered by Anthropic's Claude goes rogue",
+            "author": "WouldbeWanderer",
+            "authorId": "5p1ltmws",
+            "selftext": "",
+            "permalink": "/r/technology/comments/1sxaa7a/claudepowered_ai_coding_agent_deletes_entire/",
+            "subreddit": "technology",
+            "createdUtc": 1777310458,
+            "numComments": 2750
+          },
+          {
+            "id": "1x2tvxb",
+            "url": "https://www.reddit.com/r/90s/comments/1x2tvxb/i_dont_even_recognize_this_world_anymore/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/7yqv2xrtbquh1.jpeg?width=140&height=102&auto=webp&s=01ef0e37005172c44bbf30bb84004d0b73617c6e",
+                "type": "photo",
+                "width": 140,
+                "height": 102
+              }
+            ],
+            "score": 35011,
+            "title": "I don’t even recognize this world anymore.",
+            "author": "Anarchist_Nihilist",
+            "authorId": "1r971lhsr0",
+            "selftext": "I recently watched my parents’ home and sat on the back porch where I grew up. A heavy sense of sadness settled over me while I reflected on the beautiful childhood I had there. Born in the early 90s, I lacked a smartphone or social media until the mid-to-late 2000s. I am among the last generation raised without them. I realized I will never revisit the marvelous moments I shared in that backyard, not because adulthood blocks childhood, but because the world I knew is gone. We have lost something we did not realize we possessed. I am thankful I arrived before the 2010s, when everything seemed to shift. Everything feels so repetitive now. I don’t know if my eyes got deteriorated or what, but life felt real back then. Colors felt more vivid, skies felt blue, the sun felt yellow, people felt alive and not robotic like they do now. Their mannerisms were different, the way they talked, moved, understood, and engaged in conversations was different. I feel like even their attention spans were longer.\n\nListening to songs from the 80s-90s and early 2000s always brings tears. I want to return to those years. I feel out of place in what the world has become, so technologically advanced that people have lost their human side. Everyone is caught in social media trends, and life feels mechanical and empty, like a fever dream or The Twilight Zone. On Twitter X, I see only gender conflicts, videos and images of war, people divided into left and right, and leaders posting tweets like they are in a South Park episode. Like you could literally post a blatant lie, misinformation and get 100k likes. I miss the late 1990s and early 2000s atmosphere, fashion, themes, old gadgets, movies, cartoons, songs, hairstyles, camera quality, retro gaming consoles, you name it. Feels like we had the best balance of technology and humanity back then. For me personally, it all started going downhill after 2007 when the iPhones came out, and the movies, programs, and everything went HD and then the rise of social media and smartphones made things worse. Finally, COVID hit, and after that, we were bombarded with inflation, generative AI and deepfakes.\n\nNostalgia does not quite capture my longing for a different era. I feel terrible, truly terrible, for children growing up after social media. They never experienced life as we did, and I arrived just in time to enjoy the final wonderful parts of the 20th century.\n\nDoes anyone else feel the same, or is there something wrong with me? Is it because I notice too much?",
+            "permalink": "/r/90s/comments/1x2tvxb/i_dont_even_recognize_this_world_anymore/",
+            "subreddit": "90s",
+            "createdUtc": 1791677079,
+            "numComments": 1775
+          },
+          {
+            "id": "1rgseae",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/1rgseae/youre_now_training_a_war_machine_lets_see_proof/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/ntf4zqlnr5mg1.png?width=140&height=134&auto=webp&s=5d8d420498f2259681fda2107579d2f6bcadd71d",
+                "type": "photo",
+                "width": 140,
+                "height": 134
+              }
+            ],
+            "score": 35009,
+            "title": "You're now training a war machine. Let's see proof of cancellation.",
+            "author": "zaxo666",
+            "authorId": "352dwzr9",
+            "selftext": "Yeah, we're all in the death business now that OpenAI has succumbed to the corrupt Department of War. \n\nLet's see proof of your cancellation boys and girls. ",
+            "permalink": "/r/ChatGPT/comments/1rgseae/youre_now_training_a_war_machine_lets_see_proof/",
+            "subreddit": "ChatGPT",
+            "createdUtc": 1772250842,
+            "numComments": 2708
+          },
+          {
+            "id": "1wfcu92",
+            "url": "https://www.reddit.com/r/Steam/comments/1wfcu92/player_accuses_indie_game_of_using_ai_voice_acting/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/58y7qhiehbph1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=d5efd6d841e50b646d57da9ebb17fca87b4e7094",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 34675,
+            "title": "Player Accuses Indie Game of Using AI Voice Acting",
+            "author": "NeNest0r",
+            "authorId": "18v0esu9my",
+            "selftext": "A player criticized the voice acting of one of the heroines in the indie game Luminary, assuming that the voice had been generated by AI.\n\nThe developer jumped into the review to explain that the voice actually belongs to his wife, who was trying her hand at voice acting for the first time.",
+            "permalink": "/r/Steam/comments/1wfcu92/player_accuses_indie_game_of_using_ai_voice_acting/",
+            "subreddit": "Steam",
+            "createdUtc": 1789318112,
+            "numComments": 1969
+          },
+          {
+            "id": "1qmb62o",
+            "url": "https://www.reddit.com/r/Gamingcirclejerk/comments/1qmb62o/in_fallout_11997_the_opening_cutscene_shows_a/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/R3VjfvLQIuDsuBLox-3GzsZFenmGIvJqva4Hqz8CksE.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 93
+              }
+            ],
+            "score": 33664,
+            "title": "In Fallout 1(1997) the opening cutscene shows a pre-war propaganda broadcast of American Soldiers executing a Canadian insurrectionist. This is a reference to how a federal agent shooting a civilian without consequences is a work of fiction and would never occur in the real world.",
+            "author": "thesturdierone",
+            "authorId": "27es6ctv",
+            "selftext": "",
+            "permalink": "/r/Gamingcirclejerk/comments/1qmb62o/in_fallout_11997_the_opening_cutscene_shows_a/",
+            "subreddit": "Gamingcirclejerk",
+            "createdUtc": 1769321368,
+            "numComments": 379
+          },
+          {
+            "id": "1uthaoz",
+            "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1uthaoz/googles_ai_overview_spoiled_me_todays_wordle/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/kmq4sy4d3lch1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=f9e10ca02442eda9a6f634ca6960a04bb229f510",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 32523,
+            "title": "Google's Ai overview spoiled me today's wordle...",
+            "author": "pavelele",
+            "authorId": "393m05hz",
+            "selftext": "",
+            "permalink": "/r/mildlyinfuriating/comments/1uthaoz/googles_ai_overview_spoiled_me_todays_wordle/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1783768433,
+            "numComments": 741
+          },
+          {
+            "id": "1sy934t",
+            "url": "https://www.the-independent.com/tech/claude-ai-agent-deletes-startup-anthropic-b2966176.html",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/u94w11OUFIsQPNwvOhEJZOlyRevAuBn6OWCkNCT96w8.jpeg?width=140&height=93&auto=webp&s=17f70cb392c5d3c06a4526bedc80a5b8b7067652",
+                "type": "photo",
+                "width": 140,
+                "height": 93
+              }
+            ],
+            "score": 31044,
+            "title": "‘It took nine seconds’: Claude AI agent deletes company’s entire database",
+            "author": "curseofdarkastle",
+            "authorId": "7jn1nose",
+            "selftext": "",
+            "permalink": "/r/nottheonion/comments/1sy934t/it_took_nine_seconds_claude_ai_agent_deletes/",
+            "subreddit": "nottheonion",
+            "createdUtc": 1777399264,
+            "numComments": 1423
+          },
+          {
+            "id": "1x5a5ym",
+            "url": "https://www.reddit.com/r/gaming/comments/1x5a5ym/new_shogun_2_total_war_remaster_is_an_ai_slop/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/l3u08ei35bvh1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=c63b81b06a9f3b53fc76a191f27b8ef181b82fa3",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 30333,
+            "title": "New Shogun 2 Total War remaster is an AI slop with 0 quality control",
+            "author": "[deleted]",
+            "authorId": "0",
+            "selftext": "",
+            "permalink": "/r/gaming/comments/1x5a5ym/new_shogun_2_total_war_remaster_is_an_ai_slop/",
+            "subreddit": "gaming",
+            "createdUtc": 1791929060,
+            "numComments": 1564
+          },
+          {
+            "id": "1xae34x",
+            "url": "https://www.reddit.com/r/Steam/comments/1xae34x/can_we_please_get_an_option_to_hide_ai_games/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/cc5wf77cqiwh1.png?width=140&height=59&auto=webp&s=9594ca049e2be6bc1d15fe34266a4f6bede4e24a",
+                "type": "photo",
+                "width": 140,
+                "height": 59
+              }
+            ],
+            "score": 29916,
+            "title": "Can we please get an option to hide AI games",
+            "author": "max_akadem",
+            "authorId": "5jt7vuao",
+            "selftext": "",
+            "permalink": "/r/Steam/comments/1xae34x/can_we_please_get_an_option_to_hide_ai_games/",
+            "subreddit": "Steam",
+            "createdUtc": 1792456838,
+            "numComments": 2618
+          },
+          {
+            "id": "1ufgsto",
+            "url": "https://www.reddit.com/r/gaming/comments/1ufgsto/im_just_tired_yall/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/981ab4hnsg9h1.jpeg?width=140&height=140&auto=webp&s=f7ff8392b828e1cb72f6dbef8393887d7ddbbbd6",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 28285,
+            "title": "I'm just tired y'all",
+            "author": "ChristopherJTeuton",
+            "authorId": "p0o4k",
+            "selftext": "",
+            "permalink": "/r/gaming/comments/1ufgsto/im_just_tired_yall/",
+            "subreddit": "gaming",
+            "createdUtc": 1782408891,
+            "numComments": 1475
+          },
+          {
+            "id": "1p7n7x4",
+            "url": "https://www.reddit.com/r/Steam/comments/1p7n7x4/then_they_keep_questioning_why_we_choose_steam/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://a.thumbs.redditmedia.com/gIaDelX_WD1SrLGq_2_FZ5fzeXiPw1YK_9DVV6UWGz8.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 27621,
+            "title": "Then they keep questioning why we choose Steam",
+            "author": "Strider-117",
+            "authorId": "4gqqntoik",
+            "selftext": "It's incredible how out of touch these suits are, especially in the AI bubble ",
+            "permalink": "/r/Steam/comments/1p7n7x4/then_they_keep_questioning_why_we_choose_steam/",
+            "subreddit": "Steam",
+            "createdUtc": 1764200453,
+            "numComments": 1893
+          },
+          {
+            "id": "1xvyfpt",
+            "url": "https://www.reddit.com/r/usps_complaints/comments/1xvyfpt/usps_disposed_off_my_playstation_5/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/tvmzmphatj1i1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=4be62af9d197b72b4984e2fbed78dd6fe8a49607",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 26536,
+            "title": "USPS disposed off my PlayStation 5",
+            "author": "floatinggrapes",
+            "authorId": "2mqqlqg3v6",
+            "selftext": "I shipped a PlayStation 5 to a buyer through Facebook Marketplace, sending it from Nevada, and received this USPS tracking update on November 7.\n\nI’m honestly devastated. I’ve been sitting here crying because it feels like my $500 item has just vanished into thin air. I contacted USPS, but I haven’t gotten any meaningful answers. Since I didn’t purchase additional insurance (I genuinely didn’t even know that was something I needed to consider, as I’ve shipped packages plenty of times without ever having an issue), they’re basically telling me to file a Missing Mail request and that I’ll only be eligible for $100 in compensation.\n\nI’m sorry, but HOW on earth did USPS decide that a PlayStation 5 is perishable? It’s an electronic gaming console, not food! So frustrated and heartbroken. It’s not just the $500; it’s the fact that someone can trust a postal service with their belongings, only to have them disappear like this, with seemingly no accountability.\n\nHas anyone experienced anything similar? Is there anything else I can do to recover my package or challenge USPS’s decision? I’m really struggling to accept that my PS5 is just gone like that.\n\n# UPDATE: A few clarifications because apparently some things are getting lost in translation.\n\nFirst, to everyone who thinks I’m the BUYER in this transaction: I am the SELLER. The buyer purchased the PlayStation from me through Facebook Marketplace, and since they never received the package, they were obviously refunded. I’m genuinely confused about how so many people are struggling with basic reading comprehension. The person who is out of $500 AND a PlayStation is ME. I’m the one who has suffered the loss here.\n\nSecond, I genuinely appreciate everyone who has taken the time to respond, share advice, and offer suggestions. My post blew up, and there are a few recurring questions I’d like to address.\n\n**1. What did I pack the PlayStation in?**\n\nNo, I did not use some random reusable food box or inappropriate packaging. I used a USPS box, purchased at the USPS post office itself. In fact, I packed the PlayStation right there, inside the facility, in front of the employees.  \nI’ve seen several comments saying that you should never disclose what you’re shipping to postal employees. Well, apparently I was stupid enough to pack an entire PlayStation right in front of them. I honestly didn’t know this was something I needed to be concerned about 😵‍💫 Another lesson learned.  \nOne thing that might actually work in my favor is that the facility has CCTV cameras. They could potentially show me bringing in and packing a rather large PlayStation right there. Hopefully, following a police report, the footage can be retrieved and help establish what was actually shipped.  \nI also have the Facebook Marketplace listing and transaction/payment records, which I can hopefully use as supporting evidence.\n\n**2. Were there any batteries or other restricted items?**\n\nI shipped ONLY the gaming console. I did not include the controllers or any additional accessories. So there were no loose batteries or anything of that sort.\n\n**3. Why didn’t I purchase insurance?**\n\nI’ve used USPS multiple times before and have never experienced anything remotely like this. I genuinely had no reason to anticipate that something like this could happen. I didn’t realize insurance was something I should have considered so seriously. Lesson learned, unfortunately, the hard way.  \nAnd honestly, I don’t understand why some people are coming at me as though I deliberately did something wrong. I am already dealing with a pretty awful situation. I understand that some decisions could have been different in hindsight, but I cannot change that now.\n\n**4. Why does the $500 matter so much?**\n\nThis is probably the part that hurts the most. We didn’t sell the PlayStation for some extra spending money. We were saving that $500 because we wanted to fly back and spend the holiday season with our family. That money was meant for something important to us, and now we’re out of the money AND the console. We’re genuinely very upset about it.\n\n**5. Have I considered legal action?**\n\nA lot of people have advised me to seek legal counsel or consider suing. I genuinely appreciate the suggestions, but the reality is that legal advice and pursuing a lawsuit can cost a significant amount of money. I honestly don’t think I can afford that right now. I’m already out $500, which was money we really needed. I simply cannot afford to keep spending more money on a situation where I’ve already suffered such a significant loss. I’m hoping the USPS investigation and police report will help us get somewhere without having to go down that route.\n\n**6. And to those saying this is fake, AI-generated or karma farming…**\n\nFor God’s sake, I’m already going through a pretty upsetting situation. I’ve had people tell me this is an AI-generated story, that it’s fake, and someone even accused me of karma farming. I genuinely don’t understand what I would gain from making up a story like this.  \nI came to Reddit because I was bawling my eyes out, needed some advice, and honestly wanted a little support from people who might have experienced something similar. I wasn’t expecting to be questioned about whether my situation is even real on top of everything else I’m dealing with.  \nIf you don’t believe my story, that’s absolutely your choice. But please understand that there’s an actual person on the other side of this post who’s already having a difficult time. You don’t have to make an already stressful situation harder for me. A little empathy really doesn’t cost anything.\n\n**7. What’s happening next?**\n\nI’ve contacted the USPS Office of Inspector General, and they’ve told me I should receive an update within three business days.  \nTomorrow, I’ll be contacting the Kansas office (I couldn’t get through over the weekend), and I’ll also be filing a police report.  \nI’m hoping that between the CCTV footage, transaction records, Marketplace listing, and police complaint, there will be some way to establish what happened and get this investigated properly.\n\nOnce again, thank you to everyone who has been kind, shared their experiences, offered advice, and tried to help. I honestly wasn’t expecting my post to reach so many people, and I’m genuinely grateful to those who have shown compassion.\n\nI’ll keep everyone updated as things progress.",
+            "permalink": "/r/usps_complaints/comments/1xvyfpt/usps_disposed_off_my_playstation_5/",
+            "subreddit": "usps_complaints",
+            "createdUtc": 1794649139,
+            "numComments": 2661
+          },
+          {
+            "id": "1qlwrj5",
+            "url": "https://www.reddit.com/r/nba/comments/1qlwrj5/charania_the_timberwolveswarriors_game_in/",
+            "nsfw": false,
+            "media": [],
+            "score": 26158,
+            "title": "[Charania] The Timberwolves-Warriors game in Minneapolis has been postponed by the NBA, sources tell ESPN, in wake of a man shot and killed Saturday in a confrontation with federal agents in the city. It's the second shooting there in a week, third this month, involving a federal officer.",
+            "author": "MembershipSingle7137",
+            "authorId": "1db9bk89ir",
+            "selftext": "\\[Charania\\] The Timberwolves-Warriors game in Minneapolis has been postponed by the NBA, sources tell ESPN, in wake of a man shot and killed Saturday in a confrontation with federal agents in the city. It's the second shooting there in a week, third this month, involving a federal officer.\n\nTimberwolves-Warriors has been rescheduled to Sunday at 5:30 pm ET in Minneapolis -- turning this into a back-to-back Sunday and Monday between the two teams.\n\n[ https://www.espn.com/contributor/shams-charania/0c885eecd9d21 ](https://www.espn.com/contributor/shams-charania/0c885eecd9d21)",
+            "permalink": "/r/nba/comments/1qlwrj5/charania_the_timberwolveswarriors_game_in/",
+            "subreddit": "nba",
+            "createdUtc": 1769283896,
+            "numComments": 1843
+          },
+          {
+            "id": "1smgk52",
+            "url": "https://www.reddit.com/gallery/1smgk52",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/gopqk2jcqevg1.jpg?width=140&height=100&auto=webp&s=29f622c672bd50a307c6917a718fcd16d96df17b",
+                "type": "photo",
+                "width": 140,
+                "height": 100
+              }
+            ],
+            "score": 25777,
+            "title": "Im currently house hunting. Here is the photo in the ad vs the house in real life…",
+            "author": "slim_shady_21",
+            "authorId": "3yqjxe2",
+            "selftext": "Im assuming they used AI to clean up the front yard. I guess the AI just decided to install a brand new roof, driveway, and retaining wall!!! The interior wasnt much better either…\n\nEdit: wow this recieved a lot of attention. To answer a few of the questions i see repeatedly popping up…\n\n\\- I am in Quebec, Canada. Not really sure about the laws for this type of thing. My real estate agent told me that this is unfortunately very common practice. He agreed with me that the way it changed the whole house is false advertising but that there isnt much that can be done but move on to the next house.\n\n\\- It was a property flip. The house was bought last year and now is being resold with full interior renovation. The work looked very shoddy and i dont trust it. The back of the house was full of old electrical equipment with the wires diconnected and hanging off, the garage was wired up loosely with 14/2 between all the boxes just fastened to the wall which is not up to code. All wires need to be in a pipe or in a wall. The roof was also completely finished and needed to be redone. \n\n\\- Overall the property was just not up to my standard and even if i could look over the egregious false advertising, there was just too many other issues. ",
+            "permalink": "/r/mildlyinfuriating/comments/1smgk52/im_currently_house_hunting_here_is_the_photo_in/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1776281997,
+            "numComments": 1588
+          }
+        ],
+        "nextCursor": "cur_7G65bC9Wrxm2QD4HMAASoA"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-bison-9321fc54",
+      "kind": "anonymous",
+      "name": "Bison",
+      "artworkKey": "bison"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00035",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:41:36.750Z",
+  "started_at": "2026-11-23T07:41:36.836Z",
+  "completed_at": "2026-11-23T07:41:38.701Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

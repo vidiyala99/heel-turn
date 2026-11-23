@@ -1,0 +1,697 @@
+{
+  "id": "859be466-6ad2-4165-a991-99a24b4ad427",
+  "run_url": "https://app.glasser.ai/runs/859be466-6ad2-4165-a991-99a24b4ad427",
+  "provider": "scrapecreators",
+  "endpoint": "/v1/linkedin/search/posts",
+  "endpoint_version": 4,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "query": "AI film hackathon winner agents animated",
+    "date_posted": "last-year"
+  },
+  "output": {
+    "posts": [
+      {
+        "url": "https://www.linkedin.com/posts/markusmuellerhahnefeld_ai-generativeai-aifilm-activity-7520193534852009984-fMcR",
+        "name": "#ai #generativeai #aifilm #hackathon #neulandproconnect #capcut #filmmaking #berlin #dystopia | Markus Müller-Hahnefeld",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4D05AQEkb_ApJYQsFA/mp4-720p-30fp-crf28/B4DaF0YBrwHYCE-/0/1792953850926?e=2147483647&v=beta&t=y7ZxQblaSzYF0FjuDfXSAtmCnB2uA28GMF3oBW2L7HU",
+        "author": {
+          "url": "https://de.linkedin.com/in/markusmuellerhahnefeld",
+          "name": "Markus Müller-Hahnefeld",
+          "image": "https://media.licdn.com/dms/image/v2/D4D03AQFY4TTSZkhbKg/profile-displayphoto-scale_200_200/B4DZvq9e18HgAY-/0/1769173545048?e=2147483647&v=beta&t=dzAGHE0Bih6jPNuwc6nCw4ebe75pjN8DWs18hIFxvZU",
+          "followers": 2336
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7520196103875522560",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7520193370850226176,7520196103875522560)",
+            "text": "It’s such beautiful storytellig from beginning till the end. And the creative implementation in only few hours is really outstanding 👏.",
+            "author": "Stephanie Petermann",
+            "linkedinUrl": "https://de.linkedin.com/in/stephanie-petermann",
+            "datePublished": "2026-10-25T18:54:29.651Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "4w"
+          },
+          {
+            "id": "7520206047903412224",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7520193370850226176,7520206047903412224)",
+            "text": "The tight close-up of her eyes with the interface glow reflected on her wet skin sells the \"permanent filter\" idea better than any dialogue could. Hard to believe the lab, the rat and that robot all came together in 3.5 hours.",
+            "author": "Maneesh Shakya",
+            "linkedinUrl": "https://in.linkedin.com/in/maneeshxai",
+            "datePublished": "2026-10-25T19:34:00.492Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "4w"
+          },
+          {
+            "id": "7521115375720251392",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7520193370850226176,7521115375720251392)",
+            "text": "Define \"in under 3,5h\". 3,5 h for editing or the whole process from the first idea to the edited output?",
+            "author": "Dirk Graeper",
+            "linkedinUrl": "https://de.linkedin.com/in/dirk-gr%C3%A4per-31a80410/en",
+            "datePublished": "2026-10-28T07:47:21.138Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "3w"
+          },
+          {
+            "id": "7522192332520271872",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7520193370850226176,7522192332520271872)",
+            "text": "Big up!!!",
+            "author": "Yve Phélia Lenz",
+            "linkedinUrl": "https://de.linkedin.com/in/yve-ph%C3%A9lia-lenz-80016483",
+            "datePublished": "2026-10-31T07:06:47.649Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "3w"
+          },
+          {
+            "id": "7520426546399125504",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7520193370850226176,7520426546399125504)",
+            "text": "👏👏👏👏",
+            "author": "Ekaterina Martinez Martinez",
+            "linkedinUrl": "https://es.linkedin.com/in/ekaterina-martinez-martinez-544a3882",
+            "datePublished": "2026-10-26T10:10:11.431Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "3w"
+          },
+          {
+            "id": "7520489347846922242",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7520193370850226176,7520489347846922242)",
+            "text": "Again congratulations. Well earned",
+            "author": "Esther Gronenborn",
+            "linkedinUrl": "https://de.linkedin.com/in/esther-gronenborn-36321667",
+            "datePublished": "2026-10-26T14:19:44.463Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "3w"
+          }
+        ],
+        "likeCount": 15,
+        "contentUrn": "urn:li:ugcPost:7520193370850226176",
+        "transcript": "Every Newland lens is connected to our central generative AI. It analyzes reality in real time and replaces what you see with the version you would rather see. Let me show you This is reality filter Cuddle. Same subject, same room, different perception filter off. Nothing changed, only what you saw. Please remain in line. One package per citizen. Daily lenses are provided free of charge. How long do they last their daily lenses? Until tomorrow. You can now generate whatever you want. What do you imagine? Filter ice cream. Make it better. Vence to becaid normal an fang. Zur��ck zu dem Punkt, bevor alle so ********** geworden ist. Verstanden. Rekonstruktier erinnerung.",
+        "uploadDate": "2026-10-25T18:44:17.147Z",
+        "activityUrn": "urn:li:activity:7520193534852009984",
+        "description": "With this film, I won the hackathon at Neulandpro Connect. 🏆\nIt was made in just under 3.5 hours in CapCut.\n\nThe challenge: What does the “Neuland human” look like, and what kind of world do they live in? In other words, the human being after the AI transformation.\n\nThe idea: At some point, generative AI will create new realities in real time. In a dystopian, bleak Berlin, life is only bearable through a kind of permanent Instagram filter. Voice-controlled contact lenses reshape reality on command.\n\nI haven’t changed anything in the film since. This is exactly the version that was screened as the winning film at the end of the conference.\n\nA lot of people asked me why the language switches to German at the end. There are two possible explanations:\n\n1. The film is set in Berlin. These days I already speak English here more often than German, but I talk to myself in German, just like the protagonist at the end. So the switch is simply a faithful reflection of reality.\n2. During generation, the languages in the prompts got mixed up, and under the time pressure there was no chance to fix it.\n3. First 2. happened, and then 1. followed from it.\n\nFor the non-German speakers: She says, “I wish I could go back to the moment before everything turned to shit.”\n\nPick your favorite. 😉\n\n#AI #GenerativeAI #AIFilm #Hackathon #NeulandProConnect #CapCut #Filmmaking #Berlin #Dystopia\n\nHuge thanks to Neulandpro, AI Filmmakers Berlin and with this Ben Chimoy, the jury Sylvia Nitzsche, Esther Gronenborn, Shamila Lengsfeld, Adrian Daniel Botnariu, Seb Ungrad, Phil Langer and of course CapCut for the credits and the great support throughout the hackathon. 💻",
+        "commentCount": 7,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQEkb_ApJYQsFA/videocover-high/B4DaF0YBrwHYBU-/0/1792953838178?e=2147483647&v=beta&t=ePqGGhXincsPH3Kh-MRKelIm097iC8LVGLy_fiu-Aa4",
+        "datePublished": "2026-10-25T18:44:17.147Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/promptrstudios_haica2026-promptr-aifilmmaking-activity-7526690317295869952-GZXZ",
+        "name": "#haica2026 #promptr #aifilmmaking | PROMPTR",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4D05AQHm9fd6YZ5J-A/mp4-640p-30fp-crf28/B4DaHQs7IDHYB4-/0/1794502804072?e=2147483647&v=beta&t=XI9orME6cV2LDAAULkYr5oDNEnu9a1THOqDLnon6oK0",
+        "author": {
+          "url": "https://de.linkedin.com/company/promptrstudios",
+          "name": "PROMPTR",
+          "image": "https://media.licdn.com/dms/image/v2/D4D0BAQGio_UJ7SVd3A/company-logo_100_100/B4DZvagQjmIgAQ-/0/1768897449365/promptrstudios_logo?e=2147483647&v=beta&t=anI4QbUToL4CNzY3XaIEOhLrgiIpcr0DWrt-PsaILms",
+          "followers": 6225
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7526693509232418816",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526690250035785728,7526693509232418816)",
+            "text": "Two amazing films with amazing teams. Such a great time! 🙏",
+            "author": "Florian Boesel",
+            "linkedinUrl": "https://de.linkedin.com/in/florian-boesel-43850768",
+            "datePublished": "2026-11-12T17:12:51.804Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526694451289747465",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526690250035785728,7526694451289747465)",
+            "text": "🍾",
+            "author": "Lubbertus Mueller-Frick",
+            "linkedinUrl": "https://de.linkedin.com/in/lubbertus",
+            "datePublished": "2026-11-12T17:16:36.409Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526741957646233600",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526690250035785728,7526741957646233600)",
+            "text": "Wow, Gold UND Bronze! Congratulations to the whole PROMPTR team and your agency partners! What a fantastic result! And I love your line “We put soul into AI.” That pretty much sums up what we wanted to celebrate with HAICA. Great ideas, great craft and the people behind it all. So happy you were part of this year's awards. See you in 2027! ;-)",
+            "author": "Daniel Weiss",
+            "linkedinUrl": "https://de.linkedin.com/in/white-by-design",
+            "datePublished": "2026-11-12T20:25:22.807Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1w"
+          },
+          {
+            "id": "7526891659695947776",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7526690250035785728,7526891659695947776)",
+            "text": "Herzlichen Glückwunsch! Die beiden Arbeiten könnten unterschiedlicher nicht sein und trotzdem verbindet sie eben diese Seele, Qualität und sehr viele Human Skills 🚀",
+            "author": "HAIC AWARD",
+            "linkedinUrl": "https://www.linkedin.com/company/haic-award",
+            "datePublished": "2026-11-13T06:20:14.557Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1w"
+          }
+        ],
+        "likeCount": 47,
+        "contentUrn": "urn:li:ugcPost:7526690250035785728",
+        "transcript": "Have profoundly altered our conception of the world. Speaking to you from the Box House in Berlin, Professor Albert Einstein.",
+        "uploadDate": "2026-11-12T17:00:10.786Z",
+        "activityUrn": "urn:li:activity:7526690317295869952",
+        "description": "Double win for PROMPTR: Gold & Bronze at HAICA 2026. 🥇🥉\n\nWe're proud to announce that last night at the Mojo Club in Hamburg, the Hamburg AI Creators Award presented its first-ever Commercial awards, and two of them went to films we created together with our agency partners.\n\n🥇 GOLD — Niedersachsen. Das ist groß.\n🥉 BRONZE — Turn of Time\n\nThis year's theme was \"Behind the Machine – The Human Layer of AI.\" It couldn't be closer to our own philosophy at PROMPTR: We put soul into AI. Technology makes things possible, but we believe it's the human touch and artistic judgment that make the difference in turning technology into meaningful storytelling.\n\nThank you to the HAIC AWARD jury, our agency partners, and every artist who made these films.\n\n✦ The Teams Behind both Films ↓\n\n🥇 NIEDERSACHSEN\nAgency:  Scholz & Friends\nProduction Company:  WPP\nClient: Niedersachsen.de\n\n🥉 TURN OF TIME\nAgency: Jung von Matt\nClient: Deutsche Telekom × ElevenLabs\n\n#HAICA2026 #PROMPTR #AIFilmmaking",
+        "commentCount": 6,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQHm9fd6YZ5J-A/videocover-high/B4DaHQs7IDHYBM-/0/1794502801765?e=2147483647&v=beta&t=7f0gDiTD4ncRYZGGGK-rpDCoqCnBcZXg2jAGQs03Mjo",
+        "datePublished": "2026-11-12T17:00:10.786Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/elevenlabs_elevenlabs-join-7500000-creators-brands-activity-7518024327762599937-aiXZ",
+        "name": "ElevenLabs | Join 7,500,000+ Creators & Brands | Chroma Awards Competition | The \"Olympics\" of AI Film, Gaming, Advertising & More",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5605AQHUBWS07aXPrw/mp4-640p-30fp-crf28/B56aFVjOb7GcBk-/0/1792436670085?e=2147483647&v=beta&t=bJ9NbvrMaEWbMaxH6ANlKY-D4MOW89ep0aQ8TAu1tBs",
+        "author": {
+          "url": "https://uk.linkedin.com/company/elevenlabs",
+          "name": "ElevenLabs",
+          "image": "https://media.licdn.com/dms/image/v2/D4D0BAQHOkKa6LJiZMg/company-logo_100_100/B4DaE1tEPAHcAM-/0/1791902369088/elevenlabs_logo?e=2147483647&v=beta&t=d_mI2McKaSyciNhRJwjA7xkjwcqc20iJEIcTwbBWovc",
+          "followers": 506570
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7518025521272737792",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7518024253141606400,7518025521272737792)",
+            "text": "The Chroma Awards are also organized in partnership with the following sponsors: Kling AI, OpenArt AI, MeshyAI, Floyo, Dreamina AI, Alibaba Cloud, Magnific, Creatify AI, Hyper3D by Deemos, fal, Andreessen Horowitz, ReelShort, Cars24, Fairground, ESCAPE AI MEDIA, Passionfroot, MiniMax, TapNow, PixVerse, Wonder Studios, Reactor, LTX.io,  SpriteCook, Nimble Fox, Rosebud AI, Pickford, and VEED. \n\nLearn more and submit your work: chromaawards.com/?utm_source=x&utm_medium=social&utm_campaign=s2_launch&utm_content=elevenlabs_launch_post",
+            "author": "ElevenLabs",
+            "linkedinUrl": "https://uk.linkedin.com/company/elevenlabs",
+            "datePublished": "2026-10-19T19:09:22.431Z",
+            "reactionCount": 9,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7518109582070632448",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7518024253141606400,7518109582070632448)",
+            "text": "Turning an awards program into a career pipeline for creators, with paid student internships, is a smart way to build community beyond the product. With 75+ sponsors and partners involved, I'm curious how you'll showcase their role so the ecosystem grows alongside the winners.",
+            "author": "Daniela Rossi Mercado",
+            "linkedinUrl": "https://mx.linkedin.com/in/danirossim",
+            "datePublished": "2026-10-20T00:43:24.088Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7518289728807424001",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7518024253141606400,7518289728807424001)",
+            "text": "It’s exciting to see AI-powered creativity expanding into more formats. The real opportunity is in how creators use these tools to bring distinctive ideas to life.",
+            "author": "Booktrack",
+            "linkedinUrl": "https://nz.linkedin.com/company/booktrack",
+            "datePublished": "2026-10-20T12:39:14.417Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7518100506141945857",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7518024253141606400,7518100506141945857)",
+            "text": "so exciting! 👀🏆",
+            "author": "Cantina Labs",
+            "linkedinUrl": "https://www.linkedin.com/company/cantinaai",
+            "datePublished": "2026-10-20T00:07:20.218Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7520750981144276992",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7518024253141606400,7520750981144276992)",
+            "text": "I'm in! Can't wait to show you what I've created with ElevenLabs!",
+            "author": "Morgan N.",
+            "linkedinUrl": "https://pl.linkedin.com/in/morgan-nk",
+            "datePublished": "2026-10-27T07:39:22.702Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "3w"
+          },
+          {
+            "id": "7518036601227206657",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7518024253141606400,7518036601227206657)",
+            "text": "🔥  👍  🙌",
+            "author": "Brogan Wassell",
+            "linkedinUrl": "https://www.linkedin.com/in/brogan-wassell-4867165a",
+            "datePublished": "2026-10-19T19:53:24.099Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7522379010467581952",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7518024253141606400,7522379010467581952)",
+            "text": "So exciting 🙌",
+            "author": "Michael Adeyanju",
+            "linkedinUrl": "https://ng.linkedin.com/in/michael-adeyanju-975b54316",
+            "datePublished": "2026-10-31T19:28:35.140Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "3w"
+          },
+          {
+            "id": "7518034962177056769",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7518024253141606400,7518034962177056769)",
+            "text": "One of the biggest AI Media competitions out there! So excited to see the amazing work that will be submitted!!",
+            "author": "Andi Bucescu",
+            "linkedinUrl": "https://www.linkedin.com/in/andi-bucescu",
+            "datePublished": "2026-10-19T19:46:53.319Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7528787009172234240",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7518024253141606400,7528787009172234240)",
+            "text": "Amazing",
+            "author": "Kennedy Afia",
+            "linkedinUrl": "https://ng.linkedin.com/in/kennedy-afia",
+            "datePublished": "2026-11-18T11:51:41.086Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "4d"
+          }
+        ],
+        "likeCount": 410,
+        "contentUrn": "urn:li:ugcPost:7518024253141606400",
+        "transcript": "Season 2 of The Cromer Awards is finally here. Backed by the industry's top companies, communities, and creators, the world's largest AI film and media competition returns with more resources, bigger prizes, and an unforgettable award ceremony. We've been waiting for you. To tell your story, to leave your mark. You find your rhythm, to build your world, to make your voice heard, and to begin your next chapter. Because when everything is at stake, and when anything is possible, what are your true colors? Welcome to Season 2 of the Cromer Awards.",
+        "uploadDate": "2026-10-19T19:04:37.875Z",
+        "activityUrn": "urn:li:activity:7518024327762599937",
+        "description": "Submissions for Season 2 of the Chroma Awards open today. \n\nIncubated by ElevenLabs and supported by 75+ sponsors and community partners across the AI ecosystem, the first season showed there’s a global community of creators doing serious work with AI. Season 2 is built to meet that demand: showcasing the best work, creating real career opportunities, and connecting brands directly with top creators.\n\nFilm and music videos remain at the core, but Season 2 also doubles down on games and advertising, two areas where AI-powered multimedia work is growing quickly and the creative conventions are still evolving.\n\nThis year’s competition features:\n• $1M in free trials and promotions and $450,000+ in cash prizes and travel perks\n• A Student Awards category, with paid internships for the winners\n• The ElevenLabs Awards: $22,000 across 22 winners for projects that use ElevenLabs in a significant way, with no separate entry required.\n\nPresented with CapCut, Cantina Labs, and Runware.",
+        "commentCount": 13,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQHUBWS07aXPrw/videocover-high/B56aFVjOb7GcBM-/0/1792596557115?e=2147483647&v=beta&t=bgT1YpJWh-BHNDZ11WK5NqiccASFL9UvGCPnMp4Un84",
+        "datePublished": "2026-10-19T19:04:37.875Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/rohithrnair_openai-gpt6astra-proceduralanimation-activity-7504920036176769024-J4de",
+        "name": "#openai #gpt6astra #proceduralanimation #appliedmathematics #ai #technology #innovation | Rohith Raghunathan Nair",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4E05AQEoAkhp0wTNGg/mp4-720p-30fp-crf28/B4EaCbU7bbHMB8-/0/1789312366464?e=2147483647&v=beta&t=REsGq7WXtL2EkSbpuknS-jnn1Ke0ohg1-Oo8vjvn6P8",
+        "author": {
+          "url": "https://uk.linkedin.com/in/rohithrnair",
+          "name": "Rohith Raghunathan Nair",
+          "image": "https://media.licdn.com/dms/image/v2/D4E03AQHZGyVrw90Qsg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1706553431652?e=2147483647&v=beta&t=SXhlbdXBmPeYOFultQpIgFNwIOtb9g72K9WkZ3_Ukjg",
+          "followers": 3448
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7505557464474619904",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7504919947463049216,7505557464474619904)",
+            "text": "It’s really interesting to watch how creatures with hydrostatic skeletons move. I’d love to try visualising this with tardigrades.",
+            "author": "Lakshmikanth Karur Rajamani",
+            "linkedinUrl": "https://uk.linkedin.com/in/krlakshmikanth",
+            "datePublished": "2026-09-15T09:25:46.046Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7504929929457881088",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7504919947463049216,7504929929457881088)",
+            "text": "Well done Rohith Raghunathan Nair I did say that it would happen when you demoe-d it to us\n\nVery creative and innovative use of Astra!\n\nI personally used the credits (+100USD) to have my personal project reviewed and new features/slices created from the corrections, suggestions and improvements Astra made ;)\n\nAnd now I'm implementing and testing them :D",
+            "author": "Mani Sarkar",
+            "linkedinUrl": "https://uk.linkedin.com/in/mani-sarkar",
+            "datePublished": "2026-09-13T15:52:10.039Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7504957246745894912",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7504919947463049216,7504957246745894912)",
+            "text": "Very interesting 👌 Rohith Raghunathan Nair",
+            "author": "Sumesh Krishna.U",
+            "linkedinUrl": "https://in.linkedin.com/in/sumesh-krishna-u-319493142",
+            "datePublished": "2026-09-13T17:40:42.988Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7504975123867955200",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7504919947463049216,7504975123867955200)",
+            "text": "Nice going Rohith 👏👏👏🎉👏👍",
+            "author": "Ravi Narayanaswamy",
+            "linkedinUrl": "https://www.linkedin.com/in/rnswamy2022",
+            "datePublished": "2026-09-13T18:51:45.225Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7505757466551545856",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7504919947463049216,7505757466551545856)",
+            "text": "Congrats!",
+            "author": "Alain-Michel AURORE",
+            "linkedinUrl": "https://uk.linkedin.com/in/alain-michel-aurore-b5173688/en",
+            "datePublished": "2026-09-15T22:40:30.257Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7505395352229855233",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7504919947463049216,7505395352229855233)",
+            "text": "this was such a sick project!!!",
+            "author": "Oscar Falemara",
+            "linkedinUrl": "https://uk.linkedin.com/in/oscarfalemara",
+            "datePublished": "2026-09-14T22:41:35.475Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2mo"
+          }
+        ],
+        "likeCount": 77,
+        "contentUrn": "urn:li:ugcPost:7504919947463049216",
+        "transcript": "OpenAI���s internal research system resolve the Navier Stokes Millennium prize problem.  GPT 6 Astra completed the lean formalization and verification. It made me think about a much more familiar problem. Why is natural movement so difficult to recreate? You see it in games, animation and robotics. Our model can have the right shape, the right joints, even the right poses and still move in a way that feels mechanical. Natural movement is not a sequence of static poses, it is a coupled dynamic system rhythm flowing through geometry. Good OpenAI���s mathematical intelligence over a novel way to create movement. That was the experiment behind forma Could GPT 6 take the periodic rhythms we see in nature, express them through harmonic components and build a live motion system around them? So I built Forma, an embodied motion optimization engine using procedural generation. Look at these examples. The fish moves through periodic body wave, traveling from head to tail. The snake uses a similar travelling wave, but its phase relationship with the ground creates forward propulsion. The salamander has to coordinate a body wave with contact constraints. Feet land, hold, release and step again. And the jellyfish moved through a periodic pulse contraction release drift. Different animals, different mechanics, but the underlying language is remarkably consistent. Periodic motion, harmonic structure, and geometric constraint. For the periodic part of a movement, Fourier decomposition gives us a powerful way to think. A complex rhythm can be expressed as a combination of simple sine waves. The fundamental frequency establishes the cadence. Harmonics add the nuance, curvature, acceleration, asymmetry, and the subtle timing that makes your body feel alive. Amplitude determines how far the body moves, frequency determines how quickly it moves, phase determines how different parts move together, and spatial wavelength determines how that motion travels across the body. You can picture every sine wave as the shadow of a point rotating around the circle. Combine circles, combine harmonics, and rich motion emerges from simple ingredients. Now I'm asking it to animate a manta ray using more mobuliform locomotion. Manta does not swim like a fish. It's large pectoral fins perform broad dorsoventral oscillations, like wings flying through water. Watch the system build it GPT 6 Astra researches the motion, identifies the rays, shape, kinematic primitives and constrained structure, then constructs the creature. Live anchors establish the frame distance constraints preserve the body's segment lengths. Chain constraints distribute the bending. The silhouette emerges, the pectoral fins attach, then harmonic motion begins to drive the rig. And now the manta swims. The fundamental oscillation creates the wing beat, higher harmonics shape the fin curvature and timing constraints reserve the rays form as the motion flows through it. This is forma - motion from Imagination with GPT 6 Astra.",
+        "uploadDate": "2026-09-13T15:12:51.226Z",
+        "activityUrn": "urn:li:activity:7504920036176769024",
+        "description": "🏆 Forma, my OpenAI GPT-6 Astra project, was selected as the Best build at Astra Commons London. 🏆\n\nWhy is natural motion so difficult to recreate?\nThat was the problem I wanted to explore with Forma.\n\nOpenAI’s Navier–Stokes result, where GPT-6 Astra completed the Lean formalisation and verification, got me thinking about whether its advanced mathematical reasoning could help solve a very different kind of problem: recreating natural motion (mathematically)\n\nForma uses GPT-6 Astra to investigate Fourier-inspired procedural locomotion, drawing on periodic signals, harmonic relationships, phase, and geometric constraints to shape movement.\n\nThere’s plenty more to improve, but the first examples are ready to explore:\n🔗 Try Forma: https://lnkd.in/easDQY-H\n\n🎥 Full video: https://lnkd.in/ekEq7fYF\n\nA huge thank you to Andy Tyler for organising Astra Commons London and for the additional Codex credits, and to Oscar Falemara and Pauline P. Narvas for being part of the team that made it happen.\n\nAnd thank you to everyone who attended Astra Commons London. It was great meeting you all, exchanging ideas, and connecting with so many talented people. Looking forward to staying in touch\n\n#OpenAI #GPT6Astra #ProceduralAnimation #AppliedMathematics #AI #Technology #Innovation",
+        "commentCount": 6,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQEoAkhp0wTNGg/videocover-high/B4EaCbU7bbHMBM-/0/1789312354882?e=2147483647&v=beta&t=JRX1nZkUlWzgvbs3igLkTEENR8EGEzRjQzuuT2fpQG4",
+        "datePublished": "2026-09-13T15:12:51.226Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/karlweinmeister_google-just-let-10-ai-crews-run-their-own-activity-7483564991019720706-EYLx",
+        "image": "https://media.licdn.com/dms/image/v2/D4E22AQEHs8r_BBNuLQ/feedshare-shrink_800/B4EZ9r2tHoIcAg-/0/1784220930842?e=2147483647&v=beta&t=z98gEA0lE6aobyVhb_NQK713VHIRfNA729RKh8_YgWk",
+        "media": "https://media.licdn.com/dms/image/v2/D4E22AQEHs8r_BBNuLQ/feedshare-shrink_800/B4EZ9r2tHoIcAg-/0/1784220930842?e=2147483647&v=beta&t=z98gEA0lE6aobyVhb_NQK713VHIRfNA729RKh8_YgWk",
+        "author": {
+          "url": "https://www.linkedin.com/in/karlweinmeister",
+          "name": "Karl Weinmeister",
+          "image": "https://media.licdn.com/dms/image/v2/D4E03AQFWLbx3EAPlLw/profile-displayphoto-scale_200_200/B4EaHaqFtxKQAc-/0/1794669833664?e=2147483647&v=beta&t=cVC0tkUlvnX0mxbWar23DdPEHN87PF2zTzxVcAjyJSg",
+          "followers": 12283
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D4E22AQEHs8r_BBNuLQ/feedshare-shrink_800/B4EZ9r2tHoIcAg-/0/1784220930842?e=2147483647&v=beta&t=z98gEA0lE6aobyVhb_NQK713VHIRfNA729RKh8_YgWk",
+          "https://static.licdn.com/aero-v1/sc/h/dur0ryw0e9uscxa9b6zqvgvfs"
+        ],
+        "comments": [
+          {
+            "id": "7483565037786234880",
+            "urn": "urn:li:comment:(urn:li:activity:7483564991019720706,7483565037786234880)",
+            "text": "https://cloud.google.com/blog/topics/developers-practitioners/what-we-learned-about-agent-teamwork",
+            "author": "Karl Weinmeister",
+            "linkedinUrl": "https://www.linkedin.com/in/karlweinmeister",
+            "datePublished": "2026-07-16T16:55:42.924Z",
+            "reactionCount": 7,
+            "publishedTimeAgo": "4mo"
+          },
+          {
+            "id": "7483616800560066560",
+            "urn": "urn:li:comment:(urn:li:activity:7483564991019720706,7483616800560066560)",
+            "text": "Were they using Gemini ?",
+            "author": "Sivan Grünberg",
+            "linkedinUrl": "https://il.linkedin.com/in/sivangreenberg",
+            "datePublished": "2026-07-16T20:21:24.130Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "4mo"
+          }
+        ],
+        "likeCount": 28,
+        "contentUrn": "urn:li:share:7483564988826222595",
+        "activityUrn": "urn:li:activity:7483564991019720706",
+        "description": "Google just let 10 AI crews run their own indie film hackathon. What were the takeaways?\n\n1️⃣ Agents collaborate better through files, not messages: Whenever agents crashed or ran out of context window and restarted, they lost their chat history. The teams that succeeded passed messages containing file paths rather than raw instructions.\n\n2️⃣ Choose styles that match AI limitations: The best films didn't fight AI's limitations: they embraced them. For example, they chose claymation because the natural \"wobble\" made video drift invisible.\n\n3️⃣ Specificity always beats general direction: \"Make it warm\" or \"cinematic\" produced generic cinematic noir. The winning teams used precise parameters like hex color codes and wrote negative prompts.\n\n4️⃣ An \"Editor-in-Chief\" is needed: Each crew had three specialized roles: the Idea Person, the Technical Lead, and the Editor. A Coach Agent couldn't write or edit, but they were essential to enforce quality after each step.\n\nRead the full writeup from Preston Holmes and G. Hussain Chinoy in the comments.",
+        "commentCount": 5,
+        "datePublished": "2026-07-16T16:55:31.748Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/karlweinmeister_googles-gemini-4-argon-is-now-available-activity-7515867416929878016-PT7o",
+        "name": "Google's Gemini 4 Argon is now available for everyone.\n\nTo test the model's spatial reasoning and visual coding capabilities, Geneviève Huskens generated a playable 3D racing game, \"Desk Racer,\"… | Karl Weinmeister",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4E05AQGvp5ojrU1lIg/mp4-720p-30fp-crf28/B4EaE25epeJgCA-/0/1791922420513?e=2147483647&v=beta&t=0YcNYjjmyeqdr_V7qz5CjmxwKWg64UQZGX2sIAPeuus",
+        "author": {
+          "url": "https://www.linkedin.com/in/karlweinmeister",
+          "name": "Karl Weinmeister",
+          "image": "https://media.licdn.com/dms/image/v2/D4E03AQFWLbx3EAPlLw/profile-displayphoto-scale_200_200/B4EaHaqFtxKQAc-/0/1794669833664?e=2147483647&v=beta&t=cVC0tkUlvnX0mxbWar23DdPEHN87PF2zTzxVcAjyJSg",
+          "followers": 12283
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7515867523829899264",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7515867289578160128,7515867523829899264)",
+            "text": "🎮 Play Desk Racer in Google AI Studio:\nhttps://aistudio.google.com/apps/bundled/desk-racer?fullscreenApplet=true\n\n📰 Gemini 4 Argon announcement:\nhttps://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/\n\n📖 Technical walkthrough:\nhttps://aistudio.google.com/learn/building-3d-games-and-worlds-with-gemini-4-argon",
+            "author": "Karl Weinmeister",
+            "linkedinUrl": "https://www.linkedin.com/in/karlweinmeister",
+            "datePublished": "2026-10-13T20:14:15.747Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7515923008851546112",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7515867289578160128,7515923008851546112)",
+            "text": "This demo shows how AI can coordinate multiple tools and agents to build interactive 3D experiences.\n\nCombining spatial reasoning with visual coding could make complex development faster and more accessible.",
+            "author": "Jorai Laurenceo",
+            "linkedinUrl": "https://bm.linkedin.com/in/jorailaurenceo",
+            "datePublished": "2026-10-13T23:54:44.407Z",
+            "reactionCount": 3,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7519122176323604482",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7515867289578160128,7519122176323604482)",
+            "text": "This looks interesting especially /grill-me. Excited to try this!",
+            "author": "Anthony Dellavecchia",
+            "linkedinUrl": "https://www.linkedin.com/in/anthonydellavecchia",
+            "datePublished": "2026-10-22T19:47:05.370Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1mo"
+          }
+        ],
+        "likeCount": 48,
+        "contentUrn": "urn:li:ugcPost:7515867289578160128",
+        "transcript": "Gemini 4 Argon makes it easy to build rich experiences. Like you're going to see her with Desk Racer. Watch me fumble my way through the game. Let's go. Alright, I'm actually off to a decent start. And I'm not one of those people that uses my brakes, so I might hit the side a little bit. But that is hurting me too bad. You're right on that. Sweet lap one done. And check out that lighted keyboard. I need something like that in my office, that's for sure. So another cool feature of this game is it's actually got different views so I can have a. Drone view in addition to that of head view that we have here. So let's go back. You're approved for final lap. Almost there. All right, under a minute. So you saw her with Drone Racer that the future of personalized entertainment is here. Trade out, build something cool, let your imagination run well, and have fun with Jim and I for Orga.",
+        "uploadDate": "2026-10-13T20:13:50.259Z",
+        "activityUrn": "urn:li:activity:7515867416929878016",
+        "description": "Google's Gemini 4 Argon is now available for everyone.\n\nTo test the model's spatial reasoning and visual coding capabilities, Geneviève Huskens generated a playable 3D racing game, \"Desk Racer,\" directly from photos of her desk.\n\nHere's the workflow she documented:\n→ Planning: Used /grill-me in Antigravity to define the track mechanics and scale before writing 3D code.\n→ Multi-agent execution: Set a /goal command where Argon orchestrated subagents across Blender MCP and Three.js.\n→ Collision math: Computed surface intersections so all 68 track pillars aligned with the desk surface and objects without clipping.\n→ Shaders and textures: Used Nano Banana for asset texturing alongside Three.js shaders and audio synthesis.\n\nIn this video, I take the game for a test drive in Google AI Studio. You can switch between chase, cockpit, and drone camera views as you navigate around physical desk items like a mechanical keyboard and microphone.\n\nThe demo is available to play directly in Google AI Studio, and Geneviève published a technical walkthrough detailing the build process. Links are in the first comment.",
+        "commentCount": 4,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQGvp5ojrU1lIg/videocover-high/B4EaE25epeJgBQ-/0/1791922411745?e=2147483647&v=beta&t=SMGWKEPK_YbXMBLr5xZpVh4pnaIqcWgtqODZC4DNMxk",
+        "datePublished": "2026-10-13T20:13:50.259Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/features-and-labels_fal-is-an-official-launch-partner-for-openais-activity-7467619998933610497-sHfk",
+        "name": "fal is an official launch partner for OpenAI's new role-specific plugins in Codex, going live today.\n\nThe bigger shift worth flagging: agents are becoming the surface where creative work actually… | fal",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5610AQGRkkQ4vIuakg/mp4-360p-30fp-crf28/B56Z6JQzgpGgBg-/0/1780419347965?e=2147483647&v=beta&t=Fgdsd1sBeKetVbYePv8dJqdy6_pef-oqQ5QKFQPlNzE",
+        "author": {
+          "url": "https://www.linkedin.com/company/features-and-labels",
+          "name": "fal",
+          "image": "https://media.licdn.com/dms/image/v2/D4E0BAQGQD9YzLKAtcA/company-logo_100_100/company-logo_100_100/0/1726687710911/features_and_labels_logo?e=2147483647&v=beta&t=ajKbv4nYYAPhME8rm7oVSTU25yrK117lzGD0-ncf5pY",
+          "followers": 37072
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7467620133486706688",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7467619996412637185,7467620133486706688)",
+            "text": "Try it: https://openai.com/index/codex-for-every-role-tool-workflow/",
+            "author": "fal",
+            "linkedinUrl": "https://www.linkedin.com/company/features-and-labels",
+            "datePublished": "2026-06-02T16:56:21.497Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "5mo"
+          },
+          {
+            "id": "7467871219527286785",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7467619996412637185,7467871219527286785)",
+            "text": "This looks 🔥🔥🔥🔥",
+            "author": "Karl Nasr",
+            "linkedinUrl": "https://ae.linkedin.com/in/karlnasr",
+            "datePublished": "2026-06-03T09:34:05.073Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "5mo"
+          },
+          {
+            "id": "7467735615686504448",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7467619996412637185,7467735615686504448)",
+            "text": "🔥🔥",
+            "author": "Simon Liu",
+            "linkedinUrl": "https://www.linkedin.com/in/simonwliu",
+            "datePublished": "2026-06-03T00:35:14.598Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "5mo"
+          }
+        ],
+        "likeCount": 140,
+        "contentUrn": "urn:li:ugcPost:7467619996412637185",
+        "uploadDate": "2026-06-02T16:55:49.399Z",
+        "activityUrn": "urn:li:activity:7467619998933610497",
+        "description": "fal is an official launch partner for OpenAI's new role-specific plugins in Codex, going live today.\n\nThe bigger shift worth flagging: agents are becoming the surface where creative work actually happens, not just where it gets discussed. With fal in Codex, teams can bring models, assets, and workflows from fal directly into Codex sessions, so analysis, prototyping, creative review, and reporting stay in one place instead of fragmenting across tabs and tools.\n\nFor creative production teams, that closes the gap between a brief and a useful output. For organizations standardizing on Codex for role-specific workflows, it makes fal's generative infrastructure available exactly where the work is being done.",
+        "commentCount": 3,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5610AQGRkkQ4vIuakg/videocover-high/B56Z6JQzgpGgAo-/0/1780419346953?e=2147483647&v=beta&t=OwFzebndPuE-1eMFHx-Kphzv-1SWqXcHP0qvZiUMe50",
+        "datePublished": "2026-06-02T16:55:49.399Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/jneckes_latechweek-ai-activity-7516261553739030528-h-VY",
+        "image": null,
+        "media": null,
+        "author": {
+          "url": "https://www.linkedin.com/in/jneckes",
+          "name": "Joshua Neckes",
+          "image": "https://media.licdn.com/dms/image/v2/D4E03AQHvI0LLUkmIpA/profile-displayphoto-scale_200_200/B4EZsY7wUGKUBA-/0/1765649877702?e=2147483647&v=beta&t=0oYTnpbg_2hTQWVypLVFnynIT1-jtb6r3AlciOpWWbo",
+          "followers": 10576
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7516268857234432000",
+            "urn": "urn:li:comment:(urn:li:activity:7516261553739030528,7516268857234432000)",
+            "text": "Mapping ownership is the useful starting point. I'd be careful with putting the whole business within reach at once: one workflow with the right access and a measurable result seems a better first test.",
+            "author": "Sami U.",
+            "linkedinUrl": "https://sa.linkedin.com/in/ftsami",
+            "datePublished": "2026-10-14T22:49:01.087Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          }
+        ],
+        "likeCount": 20,
+        "contentUrn": "urn:li:share:7516261552623345664",
+        "activityUrn": "urn:li:activity:7516261553739030528",
+        "description": "Every company at LA Tech Week has had a little (AI) work done.\n\nYou can tell. The demos are shiny/animated, the presos are rendered in flawless HTML, and everyone is sharing their favorite grokbot implementation.\n\nThen there’s the stat I keep bringing up: Accenture found 90% of organizations have moved to implement AI, and nearly half of tech leaders say their company has yet to redesign a single role.\n\nIn LA we have a word for that. It’s filler. Great lighting, looks amazing from across the room, and underneath it’s the same org chart running the same workflows out of the same scattered inboxes and spreadsheets.\n\nThe real glow-up takes more work, and it’s a lot more fun:\n- Put the whole business somewhere AI can actually read it: CRM, ERP, email, the shared drive from 2019, and everything that only lives in your COO’s head.\n- Map every workflow and decide what the agents run and what your people own.\n- Rebuild the roles around that, and keep tuning.\n- Do that and a 20-person firm starts doing what used to take 200.\n\nLA runs on companies that size: production houses, PR agencies, law firms, the manufacturers out in Commerce and Vernon. They have the most to gain, because they can move in weeks while the giants are still scheduling the steering committee.\n\n#LATechWeek #AI",
+        "commentCount": 1,
+        "datePublished": "2026-10-14T22:19:59.796Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/features-and-labels_dreamina-seedance-20-is-now-available-to-activity-7503752133104549889-64No",
+        "name": "Dreamina Seedance 2.0 is now available to US companies on fal, hosted entirely on US infrastructure.\n\nSome of the most capable generative video models are being developed around the world. For US… | fal",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5610AQECq-CpWkuc6g/mp4-720p-30fp-crf28/B56aCKuzQHGgBk-/0/1789033921055?e=2147483647&v=beta&t=hkxDHIFOtuL_k-aUBkxKU8QBMNdpp2qoyhGT_n0JTgE",
+        "author": {
+          "url": "https://www.linkedin.com/company/features-and-labels",
+          "name": "fal",
+          "image": "https://media.licdn.com/dms/image/v2/D4E0BAQGQD9YzLKAtcA/company-logo_100_100/company-logo_100_100/0/1726687710911/features_and_labels_logo?e=2147483647&v=beta&t=ajKbv4nYYAPhME8rm7oVSTU25yrK117lzGD0-ncf5pY",
+          "followers": 37072
+        },
+        "images": [],
+        "comments": [],
+        "likeCount": 29,
+        "contentUrn": "urn:li:ugcPost:7503752132102180864",
+        "uploadDate": "2026-09-10T09:52:01.487Z",
+        "activityUrn": "urn:li:activity:7503752133104549889",
+        "description": "Dreamina Seedance 2.0 is now available to US companies on fal, hosted entirely on US infrastructure.\n\nSome of the most capable generative video models are being developed around the world. For US companies, accessing them can introduce additional requirements around infrastructure, data handling, and procurement.\nWe’re working to close that gap.\n\nThrough our partnership with ByteDance, US companies can now access Seedance 2.0 through fal, with inference hosted in the United States.\n\nSeedance 2.0 brings together text, image, video, and audio inputs with native audio-video generation, giving teams significantly more control over complex video generation and production workflows.\n\nFor creative platforms, studios, agencies, and enterprise teams, this means access to frontier video capabilities on infrastructure built for US deployment.\n\nSeedance 2.0 is available today on fal, with more models coming soon.\n\nContact sales@fal.ai for access.",
+        "commentCount": 0,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5610AQECq-CpWkuc6g/videocover-high/B56aCKuzQHGgAo-/0/1789033920769?e=2147483647&v=beta&t=6_EocpQbuN9oVosaiQA6hN6NWe8wJFwdqHDRrM88HcM",
+        "datePublished": "2026-09-10T09:52:01.487Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/peytoncasper_i-competed-in-openaisfirst-onsite-hackathon-activity-7503535272966500352-a_Gt",
+        "name": "I competed in OpenAI's first onsite hackathon to celebrate the GPT-6/Astra launch and took 1st place, winning $50k and tickets to Dev Day 2026. \n\nOver the past 9 months I've been exploring and… | Peyton Casper | 22 comments",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5605AQHGIAsKhXbPEQ/mp4-720p-30fp-crf28/B56aCHpgj6GUB8-/0/1788982210443?e=2147483647&v=beta&t=pe2_DbZGK1PXHbyFtfpcAxCNi8GghUHzzAdAzIK1nQM",
+        "author": {
+          "url": "https://www.linkedin.com/in/peytoncasper",
+          "name": "Peyton Casper",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQHDaqoeAGoIPQ/profile-displayphoto-shrink_200_200/B56Zaer2K1GoAY-/0/1746419017988?e=2147483647&v=beta&t=jbu2pAhmbq26BNEKbbZkMK-aeeHCCdUSS-trPUBB7Tg",
+          "followers": 2518
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7503537181265920001",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7503535200383954944,7503537181265920001)",
+            "text": "Congrats Peyton Casper!!!",
+            "author": "Rob Murphy",
+            "linkedinUrl": "https://www.linkedin.com/in/profilerobmurphy",
+            "datePublished": "2026-09-09T19:37:52.994Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7503774557871226880",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7503535200383954944,7503774557871226880)",
+            "text": "Impressive !  I have done a little of this around the edges with sketchUp and other models.  It is really an interesting area.  I did a lot of rules based parametric 3d design back in the day (with LISP for goodness sake), and I can imagine this approach could be very powerful.",
+            "author": "Mike Waldrop",
+            "linkedinUrl": "https://www.linkedin.com/in/mikewaldrop",
+            "datePublished": "2026-09-10T11:21:07.986Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7503923969469775873",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7503535200383954944,7503923969469775873)",
+            "text": "Congrats man. This actually pretty cool.",
+            "author": "Erik Dominguez",
+            "linkedinUrl": "https://www.linkedin.com/in/erik-dominguez-44a281284",
+            "datePublished": "2026-09-10T21:14:50.487Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7504912465621819393",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7503535200383954944,7504912465621819393)",
+            "text": "Congratulations, you could collaborate with Przemysław Nowak and polish Machinekind community :)",
+            "author": "Łukasz Janiec",
+            "linkedinUrl": "https://pl.linkedin.com/in/lukasz-janiec/en",
+            "datePublished": "2026-09-13T14:42:46.336Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7503562293008318464",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7503535200383954944,7503562293008318464)",
+            "text": "Legend",
+            "author": "Ken Wattana",
+            "linkedinUrl": "https://www.linkedin.com/in/ken-wattana-48809048",
+            "datePublished": "2026-09-09T21:17:40.100Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7503644070112567296",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7503535200383954944,7503644070112567296)",
+            "text": "amazing work Peyton. love the focus on CAD, congrats on the achievement!",
+            "author": "Jim Ray",
+            "linkedinUrl": "https://www.linkedin.com/in/raygj",
+            "datePublished": "2026-09-10T02:42:37.281Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7503818265887145985",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7503535200383954944,7503818265887145985)",
+            "text": "Awesome, congrats and not surprising!",
+            "author": "Jonathan Lacefield",
+            "linkedinUrl": "https://www.linkedin.com/in/jlacefield",
+            "datePublished": "2026-09-10T14:14:48.790Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7503612078767837184",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7503535200383954944,7503612078767837184)",
+            "text": "This is so cool!! Congrats Peyton 🎉",
+            "author": "Jordan Glasner",
+            "linkedinUrl": "https://www.linkedin.com/in/glasner",
+            "datePublished": "2026-09-10T00:35:29.949Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7511813902423318530",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7503535200383954944,7511813902423318530)",
+            "text": "Legend!",
+            "author": "Joe Titra",
+            "linkedinUrl": "https://www.linkedin.com/in/jtitra",
+            "datePublished": "2026-10-02T15:46:37.092Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          }
+        ],
+        "likeCount": 96,
+        "contentUrn": "urn:li:ugcPost:7503535200383954944",
+        "transcript": "This is a quick demo of kind of AD sandboxes. So as Astra continues to improve on being able to go from, you know, a prompt to CAD models effectively, I expect to kind of see the same shift that we saw with tournaments where we migrated out of the ID and into kind of background terminal UI as well as like asynchronous background agents. So what I put together is basically a WS environment workstation VMS that deploys Fusion 360, lets you log in and then let's Codex connect. Lead to that be a kind of a rapper server interface, so it exposes all of the traditional CAD commands that you might want and then exposes the live model view through kind of a terminal browser UI. So that way you can basically see both codecs on the left and then the models on the right essentially. And then the final piece of this is basically a browser automation flow where we take the model that was just designed and then script around kind of. Supplier work websites, is that what you need? Get your model shipped to you directly. It fills up all the forms, uses the link CLI to complete payment and then ships it directly to you. So this is kind of an end to end flow as we see you know more people get exposed to kind of CAD design capabilities as Codex continues to improve and and Astra continues to improve.",
+        "uploadDate": "2026-09-09T19:30:17.930Z",
+        "activityUrn": "urn:li:activity:7503535272966500352",
+        "description": "I competed in OpenAI's first onsite hackathon to celebrate the GPT-6/Astra launch and took 1st place, winning $50k and tickets to Dev Day 2026. \n\nOver the past 9 months I've been exploring and working with the different frontier models to understand their understanding of the 3D world across CAD, CAM and manufacturing of different woodworking and 3D printed projects.\n\nOne thing that stuck out with the latest Astra release was how much its understanding of CAD has improved. This provided a perfect opportunity to explore what a CAD sandbox might look like in the same way we have coding sandboxes. \n\nI took Fusion 360, put it on an AWS Workstation VM and wrapped the SDK with a server that allowed Codex to remotely interact with, stream and modify models straight from the terminal. Then we took the live stream and exposed it via a terminal in the browser so you could both interact with Codex and see what it was working on with all the compute running in the background. \n\nWe saw coding shift from Tab to Agent to Background Agents as capabilities improved and longer horizon tasks became possible. CAD sandboxes is base on the same bet that as models are able to act autonomously for longer, compute shifts into the background to enable use cases.",
+        "commentCount": 22,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQHGIAsKhXbPEQ/videocover-high/B56aCHpgj6GUBM-/0/1788982204604?e=2147483647&v=beta&t=qv4go-2SSow_JU1cGtr3DHOwFekd74Qp-d0s7Zo9wc8",
+        "datePublished": "2026-09-09T19:30:17.930Z"
+      }
+    ],
+    "query": "AI film hackathon winner agents animated",
+    "cursor": "2",
+    "success": true
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00188",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:36:20.192Z",
+  "started_at": "2026-11-23T07:36:20.233Z",
+  "completed_at": "2026-11-23T07:36:29.225Z",
+  "task_id": "tsk_965d2263a224d7b9",
+  "metadata": {}
+}

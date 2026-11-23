@@ -1,0 +1,824 @@
+{
+  "id": "f4300c9f-e0ca-494f-ab58-938b1b477957",
+  "run_url": "https://app.glasser.ai/runs/f4300c9f-e0ca-494f-ab58-938b1b477957",
+  "provider": "scrapecreators",
+  "endpoint": "/v1/linkedin/search/posts",
+  "endpoint_version": 4,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "query": "AI agents animated short film"
+  },
+  "output": {
+    "posts": [
+      {
+        "url": "https://www.linkedin.com/posts/jo-zhang-178b27103_were-sharing-the-story-of-yui-the-first-activity-7511552213358473216-ITB_",
+        "name": "We're sharing the story of YUI, the first animated short film made with Comfy Agent, by one of the best AI animation artists 852話 Hakoniwa. And she also made YUI tell her own behind-the-scenes story!… | Jo Zhang | 10 comments",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5610AQENBQI8rMV0Jg/mp4-720p-30fp-crf28/B56aD5k0pJIABk-/0/1790893600789?e=2147483647&v=beta&t=I9xx--pV_JaY0cgVYlcFVSc5l7ldc4fkHo7EDuMW_cM",
+        "author": {
+          "url": "https://www.linkedin.com/in/jo-zhang-178b27103",
+          "name": "Jo Zhang",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQH9yu1J6gjMng/profile-displayphoto-scale_200_200/B56Zz15ThYJkAY-/0/1773651967263?e=2147483647&v=beta&t=_KHk3PDCUp59pK4Zhi4bsUE-RySDGwZhfyhYFNtr7Dw",
+          "followers": 3829
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7511948505733644288",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7511552211739549698,7511948505733644288)",
+            "text": "Awesome! Would really love to see more squash, stretches, and exaggerated motions in AI animations... then again, I don't know much about this animation style.",
+            "author": "Favour U.",
+            "linkedinUrl": "https://ng.linkedin.com/in/favourusifo",
+            "datePublished": "2026-10-03T00:41:29.021Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7512144733956120576",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7511552211739549698,7512144733956120576)",
+            "text": "Very cool! I have a short that’s almost complete. I’m going to finish it this month. It was all made in ComfyUI mostly with Minimax H3",
+            "author": "Jonathan S.",
+            "linkedinUrl": "https://www.linkedin.com/in/jskabla",
+            "datePublished": "2026-10-03T13:41:13.476Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7511806523577311232",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7511552211739549698,7511806523577311232)",
+            "text": "HERMOSO",
+            "author": "Martin Prieto",
+            "linkedinUrl": "https://ve.linkedin.com/in/martin-prieto-564253a9/en",
+            "datePublished": "2026-10-02T15:17:17.837Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7512754155338256384",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7511552211739549698,7512754155338256384)",
+            "text": "Ali Hamdan \nJe t’ai dis. Le game est plié. ;)",
+            "author": "Laurent Guittard",
+            "linkedinUrl": "https://fr.linkedin.com/in/laurentguittard",
+            "datePublished": "2026-10-05T06:02:50.856Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7512449618660728832",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7511552211739549698,7512449618660728832)",
+            "text": "Love it!",
+            "author": "Giovanni Iozzi",
+            "linkedinUrl": "https://it.linkedin.com/in/giovanniiozzi",
+            "datePublished": "2026-10-04T09:52:43.653Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7511958932094001152",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7511552211739549698,7511958932094001152)",
+            "text": "This is such a great masterpiece! Exciting collaboration.",
+            "author": "ComfyUI",
+            "linkedinUrl": "https://www.linkedin.com/company/comfyui",
+            "datePublished": "2026-10-03T01:22:54.859Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7511576684245098496",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7511552211739549698,7511576684245098496)",
+            "text": "This is so so good",
+            "author": "Memory (Memie) Osuga",
+            "linkedinUrl": "https://www.linkedin.com/in/mosuga",
+            "datePublished": "2026-10-02T00:03:59.871Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7511850937641050112",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7511552211739549698,7511850937641050112)",
+            "text": "\\m/",
+            "author": "Gilberto Balderas",
+            "linkedinUrl": "https://www.linkedin.com/in/gilbertobalderas",
+            "datePublished": "2026-10-02T18:13:46.976Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7511706586680119296",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7511552211739549698,7511706586680119296)",
+            "text": "Brilliant! One of the best AI-generated animations I've seen so far, and the message!",
+            "author": "Vladimir Alexeev",
+            "linkedinUrl": "https://de.linkedin.com/in/v-alexeev/en",
+            "datePublished": "2026-10-02T08:40:11.025Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7511708488541073408",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7511552211739549698,7511708488541073408)",
+            "text": "🤍",
+            "author": "Christopher Sicurella",
+            "linkedinUrl": "https://de.linkedin.com/in/christopher-sicurella/en",
+            "datePublished": "2026-10-02T08:47:44.463Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          }
+        ],
+        "likeCount": 176,
+        "contentUrn": "urn:li:ugcPost:7511552211739549698",
+        "uploadDate": "2026-10-01T22:26:45.555Z",
+        "activityUrn": "urn:li:activity:7511552213358473216",
+        "description": "We're sharing the story of YUI, the first animated short film made with Comfy Agent, by one of the best AI animation artists 852話 Hakoniwa. And she also made YUI tell her own behind-the-scenes story!\n\nHakoniwa has been supporting the Comfy community. Today, 70% of her work is generated through ComfyUI. I got to know Hakoniwa in 2023 and we were both just ComfyUI open-source users back then. Then we worked together in the CCS New Art Manifesto exhibition in Tokyo.\n\nShe was the first artist who tried out Comfy Agent. She worked day and night on it, because this was the story she had always wanted to create. It was so much fun creating together. We chose the look for YUI with love.\n\nYUI's story is also her story. The creation will never end. I hope you all enjoy the 2 videos!\n\nDetailed behind-the-scenes blog: https://lnkd.in/g2PMBw3W",
+        "commentCount": 10,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5610AQENBQI8rMV0Jg/videocover-high/B56aD5k0pJIAAo-/0/1790893589184?e=2147483647&v=beta&t=tBROwI694BSspt5X1pzmUs2vl-LGak69mfMGOO1XnZM",
+        "datePublished": "2026-10-01T22:26:45.555Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/malik-ibrar_kimik3-moonshotai-hyperframes-activity-7487913545439961088-6MRb",
+        "name": "#kimik3 #moonshotai #hyperframes #aiagents #generativeai #replicavox #buildinpublic | Malik Ibrar",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4D05AQHv47ZJ-VRZ5w/mp4-720p-30fp-crf28/B4DZ.ppp_eJ8CE-/0/1785257701311?e=2147483647&v=beta&t=v6-WkODpko_hISxfzsWfeJ8sex8MjNgFWCf19AmoHQA",
+        "author": {
+          "url": "https://pk.linkedin.com/in/malik-ibrar",
+          "name": "Malik Ibrar",
+          "image": "https://media.licdn.com/dms/image/v2/D4D03AQH9W5D_0SxCIg/profile-displayphoto-scale_200_200/B4DaBrbDS3IEAg-/0/1788508649888?e=2147483647&v=beta&t=8ho0ZvH1SpjkrVnOEq5VBjm6vtgr_Qmzn_jVmn8dcKo",
+          "followers": 2435
+        },
+        "images": [],
+        "comments": [],
+        "likeCount": 12,
+        "contentUrn": "urn:li:ugcPost:7487913427651379200",
+        "uploadDate": "2026-07-28T16:55:07.899Z",
+        "activityUrn": "urn:li:activity:7487913545439961088",
+        "description": "This launch video wasn't made by a studio. It was generated by an AI agent running Kimi K3 and Hyperframe, in about 40 minutes end to end.\nNo editor. No After Effects. No stock library. Attached below, completely unedited.\nWhat the agent actually shipped:\nA 28 second, 1080p launch film for ReplicaVox.\n8 animated scenes. Kinetic type, a live reconstruction of our own product UI, stat counters, a voice clone morph, an original generated score, 13 sound effects placed on the beats.\nEvery frame written as real code. Nothing templated.\nNow the part that should matter to founders.\nI never gave it a brand guide. The agent went to our live website and extracted the brand itself. Our fonts. Our violet. Our actual product interface. It studied a reference video I liked, designed its own visual language, then reviewed its own frames and re-rendered what wasn't good enough.\nIt didn't just execute. It made taste calls. Good ones.\nOne model did the research, design, motion, music, QC and final render. All of it running on Kimi K3, whose 1M token context let the agent hold the brief, the brand system, all 8 scenes and its own QA notes in a single conversation.\nFor years the question founders asked was \"who do we hire for this.\"\nThe cost of production just fell to the price of a conversation. What's left to compete on is taste, speed and distribution. That's the actual shift.\nAnd because talk is cheap, the entire project is public in HyperFrames. Open it, remix it, make your own launch film:\nhttps://lnkd.in/dBSdhYXt\nTry picking a weak frame in the video below. I'll wait.\n#KimiK3 #MoonshotAI #HyperFrames #AIAgents #GenerativeAI #ReplicaVox #BuildInPublic",
+        "commentCount": 0,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQHv47ZJ-VRZ5w/videocover-high/B4DZ.ppp_eJ8BU-/0/1785257699148?e=2147483647&v=beta&t=l9wgx4MUEZH4XCpQcEEnZfJFxEcaNnxRP6juBPt3Z4Y",
+        "datePublished": "2026-07-28T16:55:07.899Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/arthirajendran_github-lemomo-ailemo-opuscar-a-toolbox-activity-7511079171167801344-zZSn",
+        "image": null,
+        "media": null,
+        "author": {
+          "url": "https://in.linkedin.com/in/arthirajendran",
+          "name": "Arthi R.",
+          "image": "https://media.licdn.com/dms/image/v2/D4D03AQGQAXMh5YPt5Q/profile-displayphoto-scale_200_200/B4DZ49.YbBGQAc-/0/1779156226813?e=2147483647&v=beta&t=YfmAZGXwkM8vV1pfkfLjwY3OzTTw79DKTmqUIn804OY",
+          "followers": 21240
+        },
+        "images": [],
+        "comments": [],
+        "likeCount": 2,
+        "contentUrn": "urn:li:share:7511079170504945664",
+        "activityUrn": "urn:li:activity:7511079171167801344",
+        "description": "657 stars in 4 days on GitHub.\n\nThe project is lemo-opuscar. It uses an AI coding agent (Claude) to write actual code, canvas drawing, WebGL, generated music, generated voice, and that code directs a short film. 39 different visual styles, all produced this way.\n\nNo video-generation model anywhere in the pipeline. The \"camera\" here is a program, not a diffusion model.\n\nWorth a look if you're curious what \"AI making video\" looks like when the AI writes a program instead of prompting one.\n\nhttps://lnkd.in/gz3kGFHx\n\nWould you trust code-generated visuals over a video model's output, or does the prompt-a-model route still feel more natural to you?",
+        "commentCount": 0,
+        "datePublished": "2026-09-30T15:07:03.508Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/deykhan_we-premiered-our-ai-animated-film-at-the-activity-7499168557063110657-849J",
+        "name": "We premiered our AI animated film at the world's biggest computer graphics conference:  \n\nKök Börü a 15-minute historical drama, set in 15th-century Central Asia, following a nomadic mother searching… | Deykhan Ten | 27 comments",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4E05AQHDY9YCgxE5nA/mp4-720p-30fp-crf28/B4EaBJlo88G8CE-/0/1787941078777?e=2147483647&v=beta&t=nfqzp3cYVa0tT17LxV16jkB7M2-CZdnTPITU6thhpvs",
+        "author": {
+          "url": "https://www.linkedin.com/in/deykhan",
+          "name": "Deykhan Ten",
+          "image": "https://media.licdn.com/dms/image/v2/D4D03AQHiynHYA-s4rA/profile-displayphoto-scale_200_200/B4DaHPa1YnKIAc-/0/1794481281116?e=2147483647&v=beta&t=prR35NRRljQbkAcGrmYO_Nd9ckC27gJ-Mh2zkcVHZn8",
+          "followers": 23837
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7499176767803424768",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7499168085094928384,7499176767803424768)",
+            "text": "I wouldn't and couldn't have guessed that this was an AI generated film. It really kept to the traditional non-computer generated hand drown style. And thanks for opening up your entire workflow for others to learn from. I definitely don't have the creative skills to pull something like this off but I find the technology to be fascinating.",
+            "author": "Christopher Chan",
+            "linkedinUrl": "https://www.linkedin.com/in/chanc",
+            "datePublished": "2026-08-28T18:51:09.412Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7503233170448859136",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7499168085094928384,7503233170448859136)",
+            "text": "the cost and time compression here is massive especially for indie projects that never get greenlit making prompts and assets public is a great move to push the industry forward definitely checking out the workflow breakdown. If you had to guess how many tokens do you think were burned here?",
+            "author": "Gabriel Conti",
+            "linkedinUrl": "https://br.linkedin.com/in/contigabriel/en",
+            "datePublished": "2026-09-08T23:29:51.167Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7499179337804558338",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7499168085094928384,7499179337804558338)",
+            "text": "what's the learning curve on building your own light?",
+            "author": "George Trendsten",
+            "linkedinUrl": "https://de.linkedin.com/in/george-trendsten-4ab124390",
+            "datePublished": "2026-08-28T19:01:22.148Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7499174542955700224",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7499168085094928384,7499174542955700224)",
+            "text": "one of our favourites, and a team of 12 made it in two weeks  💚",
+            "author": "Higgsfield AI",
+            "linkedinUrl": "https://www.linkedin.com/company/higgsfield",
+            "datePublished": "2026-08-28T18:42:18.967Z",
+            "reactionCount": 10,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7503301818504912896",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7499168085094928384,7503301818504912896)",
+            "text": "I truly love it. I had written many short-film scripts that I sadly set aside because the production costs were too high. But now, thanks to AI, I’ve gathered them again and started refining them for production. Yes, AI has eliminated many jobs, but at the same time, it has opened up entirely new opportunities.",
+            "author": "Amir Dowlatkhah",
+            "linkedinUrl": "https://om.linkedin.com/in/amir-dowlatkhah",
+            "datePublished": "2026-09-09T04:02:38.138Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7500228926368276481",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7499168085094928384,7500228926368276481)",
+            "text": "This shows the collaboration between AI and hand-drawn traditional graphics based animations. This is really good.",
+            "author": "Okem Nwabudike",
+            "linkedinUrl": "https://ng.linkedin.com/in/okem-nwabudike",
+            "datePublished": "2026-08-31T16:32:03.562Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7501074431813992448",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7499168085094928384,7501074431813992448)",
+            "text": "Amazing story, grabbed my attention till the end.\n\nAmazing animation, did not feel AI generated in the least.\n\nAmazing voice acting, not sure if real actors or AI, but it carried the story.\n\nFlawless execution, loved it",
+            "author": "Omotayo Farinre",
+            "linkedinUrl": "https://www.linkedin.com/in/omotayo-farinre-a6261462",
+            "datePublished": "2026-09-03T00:31:47.769Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7499226803803279360",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7499168085094928384,7499226803803279360)",
+            "text": "I saw most of the assets in Higgsfield, and honestly, these are some of the best-crafted AI visuals I’ve ever seen. Quite amazing, guys. We can learn a great deal from the project files too. Nice job on that as well. this is truly a work of art.",
+            "author": "Tewdros Fantahun",
+            "linkedinUrl": "https://et.linkedin.com/in/tewdros-fantahun-1ba973310",
+            "datePublished": "2026-08-28T22:09:58.923Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7499328554191519744",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7499168085094928384,7499328554191519744)",
+            "text": "Seriously incredible stuff. If you would have played it without context, very few people would have guessed it’s an AI assisted animation.",
+            "author": "Prabhat Chalmeti",
+            "linkedinUrl": "https://in.linkedin.com/in/prabhat-chalmeti-589188a3",
+            "datePublished": "2026-08-29T04:54:18.106Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7499410465463226368",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7499168085094928384,7499410465463226368)",
+            "text": "Twelve people, two weeks, and the hand-painted pass still drives the shots. Making all the prompts public is a nice touch too.",
+            "author": "Rudresh Upadhyaya",
+            "linkedinUrl": "https://www.linkedin.com/in/rudreshupadhyaya",
+            "datePublished": "2026-08-29T10:19:47.275Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2mo"
+          }
+        ],
+        "likeCount": 248,
+        "contentUrn": "urn:li:ugcPost:7499168085094928384",
+        "uploadDate": "2026-08-28T18:18:31.758Z",
+        "activityUrn": "urn:li:activity:7499168557063110657",
+        "description": "We premiered our AI animated film at the world's biggest computer graphics conference:\n\nKök Börü a 15-minute historical drama, set in 15th-century Central Asia, following a nomadic mother searching for a daughter lost to a wolf pack.\n\nA folklore film like this normally takes one to two years and $1-2M. We made it with a team of 12 in 2 weeks, on a process built around artists:\n\n→ Characters and environments were generated on Higgsfield AI\n→ Artists drew and painted over them by hand\n→ Those drawings guided every shot the AI produced\n→ Real actors were filmed and mapped onto the characters\n→ Native actors gave the characters their voices\n\nDirectors and animators made every real creative choice from start to finish, with the AI following their work along the way. That's how the tools should work: giving creators the reach to make films that would never have gotten funded otherwise.\n\nHuge credit to directors Shakhnazar Borboev, Amina Umirzhanova, and Stepan Abramov for putting a story from their homeland on the SIGGRAPH 2026 stage in LA alongside Pixar, Disney, and Nvidia.\n\nWe've made everything behind this project public. Every prompt and every asset is now free to study and use.\n\nCheck out full workflow here: https://lnkd.in/ez_VDWPt",
+        "commentCount": 27,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQHDY9YCgxE5nA/videocover-low/B4EaBJlo88G8BQ-/0/1787941004260?e=2147483647&v=beta&t=4YKsL7iFoJMieZDWvVdW5ah9bXziK3razNxiPFQI8x4",
+        "datePublished": "2026-08-28T18:18:31.758Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/alexnaghavi_aifilmmaking-generativeai-shortfilm-activity-7457451575041527808-QX48",
+        "name": "#aifilmmaking #generativeai #shortfilm #aiff #aianimation #indiefilm #creativedirection #filmmaking | Alex Naghavi | 70 comments",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5605AQHG7D1Fy5I2hA/mp4-720p-30fp-crf28/B56Z32wz3iKIB4-/0/1777961542366?e=2147483647&v=beta&t=0Ym84yx2ltf8Zi6TQrBTZtr5RzAyuY8hI1YhPO9LzKI",
+        "author": {
+          "url": "https://www.linkedin.com/in/alexnaghavi",
+          "name": "Alex Naghavi",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQFBhAMghwLuLw/profile-displayphoto-shrink_200_200/B56ZcuVL_9GQAY-/0/1748828996016?e=2147483647&v=beta&t=SmBulIZJHSe05y2scQKrY93G8ZPV2pXSRZ-3c8jh4JI",
+          "followers": 5939
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7457606222746185728",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7457303999046905857,7457606222746185728)",
+            "text": "Bravo!",
+            "author": "Jeff Hinz",
+            "linkedinUrl": "https://www.linkedin.com/in/jeffhinz",
+            "datePublished": "2026-05-06T01:44:39.126Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "6mo"
+          },
+          {
+            "id": "7457510418048208898",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7457303999046905857,7457510418048208898)",
+            "text": "This is so so gorgeous the style and I love the story!!   Great writing Ezra Li 👏",
+            "author": "Dorothy Pang",
+            "linkedinUrl": "https://ca.linkedin.com/in/dorothy-pang-000",
+            "datePublished": "2026-05-05T19:23:57.507Z",
+            "reactionCount": 3,
+            "publishedTimeAgo": "6mo"
+          },
+          {
+            "id": "7457669624017453057",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7457303999046905857,7457669624017453057)",
+            "text": "Love the originality of both your story and the art style Alex. They work perfectly together. I can see this doing very well on the festivals. Well worth redoing all those shots with Seedance 2.0. 👏",
+            "author": "Martin Gent",
+            "linkedinUrl": "https://uk.linkedin.com/in/martingent",
+            "datePublished": "2026-05-06T05:56:35.168Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "6mo"
+          },
+          {
+            "id": "7457569029810180096",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7457303999046905857,7457569029810180096)",
+            "text": "Beautiful work 👏  Oil painting feels like a perfect fit for this kind of storytelling",
+            "author": "Alex Shtykov",
+            "linkedinUrl": "https://au.linkedin.com/in/shtbik",
+            "datePublished": "2026-05-05T23:16:51.640Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "6mo"
+          },
+          {
+            "id": "7462585921079578624",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7457303999046905857,7462585921079578624)",
+            "text": "I’ve watched this a few times! Really impressive work + storytelling",
+            "author": "Cynthia Gentry",
+            "linkedinUrl": "https://www.linkedin.com/in/cynbahati",
+            "datePublished": "2026-05-19T19:32:11.727Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "6mo"
+          },
+          {
+            "id": "7460473401044897792",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7457303999046905857,7460473401044897792)",
+            "text": "Amazing work Alex Naghavi",
+            "author": "Zoey Zhao",
+            "linkedinUrl": "https://www.linkedin.com/in/zoey-zhao-42776b253",
+            "datePublished": "2026-05-13T23:37:47.703Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "6mo"
+          },
+          {
+            "id": "7459713078788644864",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7457303999046905857,7459713078788644864)",
+            "text": "Incredible ! The emotion is en pointe.",
+            "author": "Charlotte Cutting",
+            "linkedinUrl": "https://au.linkedin.com/in/charlotte-cutting-254ab5117",
+            "datePublished": "2026-05-11T21:16:32.751Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "6mo"
+          },
+          {
+            "id": "7459581988035899395",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7457303999046905857,7459581988035899395)",
+            "text": "Wow, I love the painterly art direction. It's very original and inviting",
+            "author": "Chibueze Kingsley",
+            "linkedinUrl": "https://ng.linkedin.com/in/chibueze-kingsley-",
+            "datePublished": "2026-05-11T12:35:38.280Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "6mo"
+          },
+          {
+            "id": "7458707761162276864",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7457303999046905857,7458707761162276864)",
+            "text": "Love this",
+            "author": "Jane Macaulay",
+            "linkedinUrl": "https://au.linkedin.com/in/jane-macaulay-bb560797",
+            "datePublished": "2026-05-09T02:41:46.350Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "6mo"
+          },
+          {
+            "id": "7458481428134096896",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7457303999046905857,7458481428134096896)",
+            "text": "Beautifully executed",
+            "author": "Penelope McDonald",
+            "linkedinUrl": "https://au.linkedin.com/in/penelopemcdonald",
+            "datePublished": "2026-05-08T11:42:24.352Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "6mo"
+          }
+        ],
+        "likeCount": 235,
+        "contentUrn": "urn:li:ugcPost:7457303999046905857",
+        "uploadDate": "2026-05-05T15:30:08.216Z",
+        "activityUrn": "urn:li:activity:7457451575041527808",
+        "description": "Excited to share our latest film, Le Drip — made with Ezra Li and based on an original story by Jessie Hughes.\n\nWatch it here: https://lnkd.in/gMX5JXNG\n\nEzra and I met during the Google Flow Sessions residency and immediately hit it off. When I showed him the crappy silent animatic I'd made for this film, he started riffing a hilarious inner monologue of an old French man. I knew right then he had to write the script... and that's how we ended up with this lovely existential painterly French animation.\n\nI'm really proud of the bespoke stop-motion quality we were able to achieve in this film. With previous models, this was extremely hard to do consistently. But once Seedance 2.0 dropped and we tried a few shots with it, it was to both my horror and delight just how good the prompt adherence had become. The painful part was deciding if all 70 shots in the film should be redone. We just said 'fuck it' and redid all 70 in one weekend. 🙃 Luckily, because I had built the procedural workflows in FLORA, the process of replacing the shots was actually a lot less painful than it seemed from the outset.\n\nInside Flora, we used Google's Nano Banana for image generation, Claude for prompt iteration, and ByteDance's Seedance 2.0 for video generation. Runway handled storyboarding and additional video. Adobe was used for video and sound, and Leonardo.Ai for additional video. A custom typography tool built in Google AI Studio animated the closing credits in a handmade stop-motion style that matches the film's painterly aesthetic. ElevenLabs handled voice transformation and selected sound effects.\n\nMore BTS coming soon.\n\nSpecial thanks to all the Creative Partner Programs that helped make this film possible: FLORA, Adobe, Runway, Google, and Leonardo.Ai.\n\nAnd of course, it wouldn't have been possible without all these wonderful humans who helped bring the sound, color, story and soul of the film to life:\n\nDirected by Alex Naghavi & Ezra Li\nWritten by Ezra Li\nProduced by Alex Naghavi\nStory by Jessie Hughes\nArt Direction by Alex Naghavi\nGenerative Artists: Alex Naghavi & Ezra Li\nLe Fish by Ezra Li\nSound Design by Laurent Delforge (Loran Delforge)\nFoley by Olivier Thys\nColor by James Foundoulis\nTitle Design by Alex Naghavi\n\n#AIFilmmaking #GenerativeAI #ShortFilm #AIFF #AIAnimation #IndieFilm #CreativeDirection #Filmmaking",
+        "commentCount": 70,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQHG7D1Fy5I2hA/videocover-high/B56Z32wz3iKIBI-/0/1777961518276?e=2147483647&v=beta&t=DHNVPd9vEjNxuPYOuNR--bQ9Qq_M7-rSp4QinG9jaO0",
+        "datePublished": "2026-05-05T15:30:08.216Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/oyageron_i-had-a-slide-i-knew-would-lose-the-room-activity-7509688248273866752-cBv4",
+        "name": "I had a slide I knew would lose the room. So I turned it into a one-minute animated video with Claude  Opus 5.5! I wanted to share it so you can try it too.\n\nWhat surprised me is that Claude cannot… | Oya Geron",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4E05AQHZV0VdL4hwiA/mp4-640p-30fp-crf28/B4EaDdADAXGgB4-/0/1790414187433?e=2147483647&v=beta&t=wnEYFU-_d7LeeSFlz9zb2WV7dXT4oNODsRKnKpiGwpk",
+        "author": {
+          "url": "https://uk.linkedin.com/in/oyageron",
+          "name": "Oya Geron",
+          "image": "https://media.licdn.com/dms/image/v2/D4E03AQFl3CwVFmNOFQ/profile-displayphoto-scale_200_200/B4EZ5z7_ZLIAAc-/0/1780061566847?e=2147483647&v=beta&t=WDT9u80sL6vDQ94p-aXOQbS1DxZ41pfkW93lNgxwF7c",
+          "followers": 40765
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7510600199967543298",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7509541324828729344,7510600199967543298)",
+            "text": "This is a great example of AI expanding creative possibility rather than replacing the creative process. The idea, direction and judgement still come from the person, while different tools help turn that thinking into something tangible.",
+            "author": "Sthir",
+            "linkedinUrl": "https://au.linkedin.com/company/sthircompany",
+            "datePublished": "2026-09-29T07:23:47.877Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7509693742245842945",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7509541324828729344,7509693742245842945)",
+            "text": "I am so impressed with opus 5.5! I am having the same childish excitement that when I first tried Claude code  😀",
+            "author": "Igal Geron",
+            "linkedinUrl": "https://uk.linkedin.com/in/igeron",
+            "datePublished": "2026-09-26T19:21:51.515Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "1mo"
+          }
+        ],
+        "likeCount": 48,
+        "contentUrn": "urn:li:ugcPost:7509541324828729344",
+        "transcript": "Today, the customer is a person. They search, compare, choose, and pay for the product themselves. Now, a new actor steps in the AI agent. An agent pursues a goal on your behalf, makes decisions, and takes action. This is called agentic commerce. The person says what they want. The agent does the searching, choosing, and buying. Open AI launched buying directly inside ChatGPT. Shopify partnered with Metas. Agent Muse. Amazon, on the other hand, blocked Muse from its site. Card companies are building the infrastructure for agents to pay. Visa and Open AI partnered so agents can pay within limits set by the consumer. The next stage is the agent economy. Here there are agents and machines on both sides of the transaction. They buy from each other, sell to each other, and pay each other. MasterCard launched Agent pay for machines so agents and machines can make fast. Always on payments. Your next customer may not be a person, it may be their agent.",
+        "uploadDate": "2026-09-26T19:00:01.648Z",
+        "activityUrn": "urn:li:activity:7509688248273866752",
+        "description": "I had a slide I knew would lose the room. So I turned it into a one-minute animated video with Claude Opus 5.5! I wanted to share it so you can try it too.\n\nWhat surprised me is that Claude cannot generate video directly, but it can write the whole animation as code and turn it into a video file. It also understood what I was describing better than any other model I use, and it was really good at bringing together what I had in my head.\n\nUntil now I would have gone to a video generation model for something like this. This time I worked with Claude, and after a few rounds we got to the version you see here.\n\nA few of the keywords I used, in case they give you ideas\n- 2D illustration, cute characters, hand-drawn explainer style\n- pop-up text coming in from the sides\n- neutral story, no judgement between old and new\n- retro-futuristic, 1960s space age colours, halftone texture\n- old TV static\n- animate it in code and export as MP4\n\nThen I added my own layers. I generated the narration from text in ElevenLabs with an old radio effect, created a background track in Suno to match the vintage feel, used ChatGPT for one of the illustrations, and put it all together in Capcut. All took a couple of hours.\n\nThis is how I like to work: I start from what I need, think about what each tool does best, and connect them.\n\nWhich part of your work could become a short explainer like this?\n\nAnthropic #claude",
+        "commentCount": 2,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQHZV0VdL4hwiA/videocover-high/B4EaDdADAXGgBY-/0/1790414175827?e=2147483647&v=beta&t=VXxDZugOSBkGy1INkvPnE1-EmpiZ5vP2wfEvohOzWPo",
+        "datePublished": "2026-09-26T19:00:01.648Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/evolving-ai_ai-animation-is-reaching-a-point-where-people-activity-7510273369175478272-Qsgy",
+        "name": "AI animation is reaching a point where people are watching clips like this without realizing they were made with AI.\n\n“Smooth Operator” by @antrofrog follows one very calm man walking through London… | Evolving AI | 37 comments",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D5605AQFJKlhLda0iTg/mp4-720p-30fp-crf28/B56aDnZyfWIgB8-/0/1790588698182?e=2147483647&v=beta&t=EeiBkLTCD4zhNg-d3K9a6o4T_w1Mgl6C9vZz3v9rIJY",
+        "author": {
+          "url": "https://www.linkedin.com/company/evolving-ai",
+          "name": "Evolving AI",
+          "image": "https://media.licdn.com/dms/image/v2/D4D0BAQHrOH5g2qzZxg/company-logo_100_100/company-logo_100_100/0/1732550288999/evolving_ai_logo?e=2147483647&v=beta&t=Ip0r33zD89-RNQsaNu5ywms16anEjdwvRYrqj3Tzixk",
+          "followers": 196589
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7510274939166498816",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7510273286564405248,7510274939166498816)",
+            "text": "Yeah, you can tell. The biggest giveaway is the song. “Smooth Operator” has that unmistakable AI-generated quality. Nobody was making music like this before ChatGPT.",
+            "author": "Nick Gamellia",
+            "linkedinUrl": "https://www.linkedin.com/in/nick-gamellia",
+            "datePublished": "2026-09-28T09:51:19.659Z",
+            "reactionCount": 19,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7510325807983009792",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7510273286564405248,7510325807983009792)",
+            "text": "This isn't good I don't want this.  I don't want creativity, passion, and expression offloaded onto mean machines.",
+            "author": "Aaron Cass",
+            "linkedinUrl": "https://www.linkedin.com/in/aaron-cass",
+            "datePublished": "2026-09-28T13:13:27.730Z",
+            "reactionCount": 11,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7510329305726464002",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7510273286564405248,7510329305726464002)",
+            "text": "Half the time the umbrella is used to solve a problem, it makes absolutely no sense. It's like the AI is trying to emulate offbeat humor, but it doesn't understand the exact mechanics of it. Why push the boat? Why give the pigeon a perch only to put it down on the bench? If you're going to use an umbrella to swing over wet cement, shouldn't you use the handle to hook onto the scaffolding? This is trying so hard to be stylized and charming, but it's just a pale stereotype of the concept.",
+            "author": "Matt Andrews",
+            "linkedinUrl": "https://www.linkedin.com/in/matsugawa",
+            "datePublished": "2026-09-28T13:27:21.657Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7510281265145884672",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7510273286564405248,7510281265145884672)",
+            "text": "When audiences can’t tell how something was produced, provenance becomes part of the product. Brands will need to know what was generated, who approved it and where synthetic assets are being used across campaigns. Creative teams are entering a world where production speed is no longer enough; control becomes equally important.",
+            "author": "joemah.com",
+            "linkedinUrl": "https://www.linkedin.com/company/joemah",
+            "datePublished": "2026-09-28T10:16:27.890Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7510296897471950848",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7510273286564405248,7510296897471950848)",
+            "text": "Can you show us everything that went into the production of this?",
+            "author": "Jack Bragg",
+            "linkedinUrl": "https://uk.linkedin.com/in/jack-bragg-bb999240a",
+            "datePublished": "2026-09-28T11:18:34.926Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7510335397504249856",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7510273286564405248,7510335397504249856)",
+            "text": "Matt Andrews Picking up ice cream with an umbrella point?\n\nThe Umbrella clipping through the canvas.\n\nThat swing doesn't even use the hook side of the umbrella.\n\nI still don't understand the envelope part.",
+            "author": "Reynaldo Rivera",
+            "linkedinUrl": "https://www.linkedin.com/in/riverkingstudios",
+            "datePublished": "2026-09-28T13:51:34.050Z",
+            "reactionCount": 12,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7510337738865557504",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7510273286564405248,7510337738865557504)",
+            "text": "do people think Harryhausen or Phil Tippet, or Ub Iwerks spent years hand animating because they didn't enjoy it? Animators don't get into animation to cut corners and remove the rules of animation that this video completely ignores.",
+            "author": "Pete Jackson",
+            "linkedinUrl": "https://ca.linkedin.com/in/pete-jackson",
+            "datePublished": "2026-09-28T14:00:52.273Z",
+            "reactionCount": 4,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7510310585415122944",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7510273286564405248,7510310585415122944)",
+            "text": "Apart from some mistakes like while jumpin over the cement the umbrella is unnaturally animated, it has great consistency.",
+            "author": "Gultekin Irengun",
+            "linkedinUrl": "https://es.linkedin.com/in/mgirengun",
+            "datePublished": "2026-09-28T12:12:58.387Z",
+            "reactionCount": 3,
+            "publishedTimeAgo": "1mo"
+          },
+          {
+            "id": "7510753638601007105",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7510273286564405248,7510753638601007105)",
+            "text": "Motion consistency across frames was always the harder tell to fake compared to hands or eyes, so watching that gap close this fast is a little unsettling. Mage space's video generation feature keeps character appearance stable across frames, which is exactly the kind of detail that used to give things away.",
+            "author": "Mithilesh Wadbudhe",
+            "linkedinUrl": "https://in.linkedin.com/in/mithilesh-wadbudhe-7a9233333",
+            "datePublished": "2026-09-29T17:33:30.498Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "1mo"
+          }
+        ],
+        "likeCount": 413,
+        "contentUrn": "urn:li:ugcPost:7510273286564405248",
+        "uploadDate": "2026-09-28T09:45:05.342Z",
+        "activityUrn": "urn:li:activity:7510273369175478272",
+        "description": "AI animation is reaching a point where people are watching clips like this without realizing they were made with AI.\n\n“Smooth Operator” by @antrofrog follows one very calm man walking through London with a coffee and umbrella, casually fixing everything around him without ever breaking stride.\n\nHe catches a flying hat, saves a kid on a runaway scooter, returns stolen sausages to a butcher, rescues a cat, catches a falling ice cream and stops a purse thief.\n\nThen a taxi sends a wall of water toward him, and he spins the umbrella fast enough to block it.\n\nAll while Sade’s “Smooth Operator” plays in the background.\n\nThe clip went viral in part because viewers said they thought they were watching a normal animated short before certain scenes gave away that it was AI.\n\nThat may be the most interesting part. AI animation is getting good enough that the first question is starting to shift from “does this look like AI?” to “when do you notice?”\n\nWhat are your thoughts on this? 🤔💬\n \nWant to keep up with AI?\n🤖 Follow Evolving AI to stay ahead of your competition (trusted by +5 million followers online)\n \n✉️ Join 100,000+ newsletter readers and stay updated on the latest AI insights: https://lnkd.in/em9B--mb",
+        "commentCount": 37,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQFJKlhLda0iTg/videocover-high/B56aDnZyfWIgBM-/0/1790588695449?e=2147483647&v=beta&t=t1zzK5Hh6_x4taXvQeKd1pU0LIlNg-iTeD7q7pEluVA",
+        "datePublished": "2026-09-28T09:45:05.342Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/vinitagr_i-spent-my-entire-sunday-last-weekend-from-activity-7468304609128894464-qKF6",
+        "name": "I spent my entire Sunday last weekend, from morning until 1:30 AM, making an AI animated short film. It cost me around $80 and a lot of re-generations, and I am completely blown away by how it turned… | Vinit Agrawal | 16 comments",
+        "image": null,
+        "media": "https://dms.licdn.com/playlist/vid/v2/D4D05AQH2SapcEE7VKg/mp4-640p-30fp-crf28/B4DZ6S_YsVIABk-/0/1780582563192?e=2147483647&v=beta&t=4Ha2c08Xv1aQ2bAcM-dOBVEGmIjEvTFFeV2GckF1jdk",
+        "author": {
+          "url": "https://www.linkedin.com/in/vinitagr",
+          "name": "Vinit Agrawal",
+          "image": "https://media.licdn.com/dms/image/v2/C5103AQGINU_dV5KxuQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1538198478396?e=2147483647&v=beta&t=oPxMOm4TQPOjaV_NEMxxUn3hLGC65SuBgkE0hlKdaqA",
+          "followers": 6927
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7468569655205457920",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7468304350117814273,7468569655205457920)",
+            "text": "The most exciting part isn't that AI can now create animated films. It's that storytelling is becoming accessible to people who had ideas but not the technical skills, budget, or team to bring them to life. We're moving from a world where execution was the bottleneck to one where imagination might be.",
+            "author": "Khurshid Alam",
+            "linkedinUrl": "https://in.linkedin.com/in/khurshidalam13",
+            "datePublished": "2026-06-05T07:49:25.115Z",
+            "reactionCount": 6,
+            "publishedTimeAgo": "5mo"
+          },
+          {
+            "id": "7468535065468293120",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7468304350117814273,7468535065468293120)",
+            "text": "Whoa.. how did you come up with the story board?",
+            "author": "Rohit Katiyar",
+            "linkedinUrl": "https://in.linkedin.com/in/r-katiyar",
+            "datePublished": "2026-06-05T05:31:58.280Z",
+            "reactionCount": 2,
+            "publishedTimeAgo": "5mo"
+          },
+          {
+            "id": "7468343663279128576",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7468304350117814273,7468343663279128576)",
+            "text": "hentai next?",
+            "author": "Gaurav Agrawal",
+            "linkedinUrl": "https://in.linkedin.com/in/g-agrawal",
+            "datePublished": "2026-06-04T16:51:24.441Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "5mo"
+          },
+          {
+            "id": "7469642245592502273",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7468304350117814273,7469642245592502273)",
+            "text": "Brother, what a beautiful video! What a dig at attention span! Soooo beautiful❤️",
+            "author": "Abhinav Rai",
+            "linkedinUrl": "https://in.linkedin.com/in/lifeofabhinav",
+            "datePublished": "2026-06-08T06:51:30.591Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "5mo"
+          },
+          {
+            "id": "7468655506195243008",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7468304350117814273,7468655506195243008)",
+            "text": "Good one!",
+            "author": "Sanman Bayani",
+            "linkedinUrl": "https://in.linkedin.com/in/sanmanbayani",
+            "datePublished": "2026-06-05T13:30:33.588Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "5mo"
+          },
+          {
+            "id": "7468547371589586945",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7468304350117814273,7468547371589586945)",
+            "text": "Wow, awesome output !",
+            "author": "Ratnakar V",
+            "linkedinUrl": "https://om.linkedin.com/in/vratnakar",
+            "datePublished": "2026-06-05T06:20:52.288Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "5mo"
+          },
+          {
+            "id": "7468519759895224320",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7468304350117814273,7468519759895224320)",
+            "text": "This looks great. AI really shines with animation - it was solid before, but the multi-character interactions feel natural now.",
+            "author": "Sameer Alodia",
+            "linkedinUrl": "https://www.linkedin.com/in/sameer-alodia-8a8b848",
+            "datePublished": "2026-06-05T04:31:09.147Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "5mo"
+          },
+          {
+            "id": "7473003278302203904",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7468304350117814273,7473003278302203904)",
+            "text": "This is amazing work.",
+            "author": "Jordan Black",
+            "linkedinUrl": "https://www.linkedin.com/in/jordanmichaelblack",
+            "datePublished": "2026-06-17T13:27:03.234Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "5mo"
+          },
+          {
+            "id": "7471274288734699520",
+            "urn": "urn:li:comment:(urn:li:ugcPost:7468304350117814273,7471274288734699520)",
+            "text": "Cool 👊🏽",
+            "author": "Nat Modhwadia",
+            "linkedinUrl": "https://uk.linkedin.com/in/nathamodhwadia",
+            "datePublished": "2026-06-12T18:56:39.999Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "5mo"
+          }
+        ],
+        "likeCount": 131,
+        "contentUrn": "urn:li:ugcPost:7468304350117814273",
+        "uploadDate": "2026-06-04T14:16:13.185Z",
+        "activityUrn": "urn:li:activity:7468304609128894464",
+        "description": "I spent my entire Sunday last weekend, from morning until 1:30 AM, making an AI animated short film. It cost me around $80 and a lot of re-generations, and I am completely blown away by how it turned out.\n\nHere is how I built it. I used Higgsfield AI as the main platform, with Nano Banana Pro for all the images. I created character sheets, locations, and different visual styles for the different realities and universes inside the story.\n\nFor the video generation, I used Seedance 2.0 video generation model.\n\nMost of the day actually went into learning. Keeping the character consistent across scenes, experimenting with different animation and cartoon styles, and figuring out how to get good output by feeding the models the right references.\n\nVideo regenerations are not cheap, so the cost added up quickly. But the learning was the whole point.\n\nWhat struck me most is where these tools are right now. Remember how coding agents hit their inflection point around November 2025, and suddenly Claude Code was everywhere and everyone was using it for coding and a lot more.\n\nI think image and video models are having that same moment. Nano Banana was a big inflection point for images last year, and Seedance 2.0 feels like the same kind of leap for video this year.\n\nRight now these two feel best-in-class to me. I had tried making something like this a few months ago and it did not come out well at all. This time the result genuinely surprised me.\n\nOn a personal note, I have loved cartoons since I was a kid, and making my own has always been a dream of mine. What excites me is that you no longer need formal animation training or years of practice to make something that is actually good. The models have reached that point.\n\nIf you have a story to tell, tools like these are a fantastic way to tell it in a format that grabs attention and is easy for anyone to consume. Whether that is your product, your service, or just a short film for the fun of it.\n\nFor the record, this is not sponsored in any way. I am simply becoming a fan of Higgsfield. If you have some time and a bit of money to throw, give animated short film making a try. I think it might blow your mind too.\n\nCheck out the 2-minute Animated Short file that I made. Let me know what you think in the comments 😁",
+        "commentCount": 16,
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQH2SapcEE7VKg/videocover-high/B4DZ6S_YsVIABM-/0/1780582556879?e=2147483647&v=beta&t=N4sFyUU1IvI7SViVNObVTTK0HZaPklpmwyIxjfIzEHM",
+        "datePublished": "2026-06-04T14:16:13.185Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/rishadtobaccowala_pomegranate-sci-fi-short-film-activity-7487653400797642752-sOt6",
+        "image": null,
+        "media": null,
+        "author": {
+          "url": "https://www.linkedin.com/in/rishadtobaccowala",
+          "name": "Rishad Tobaccowala",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQFdWULWtgiJAw/profile-displayphoto-scale_200_200/B56Z7yxBUpJAAc-/0/1782189399279?e=2147483647&v=beta&t=dKKMG1ykHOASymz0X95SH-_PT5feWjfr7M_SeU4JzHo",
+          "followers": 53312
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7487664176606232576",
+            "urn": "urn:li:comment:(urn:li:activity:7487653400797642752,7487664176606232576)",
+            "text": "Visual consistency in video across many shots is a huge unlock when it can be done well. The jagged frontier of AI in action - it can make a perfect still of a scene, but then making sure a costume persists properly can be daunting. There's still a lot of craft and expertise in this.",
+            "author": "Andy Maskin",
+            "linkedinUrl": "https://www.linkedin.com/in/amaskin",
+            "datePublished": "2026-07-28T00:24:13.777Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "3mo"
+          },
+          {
+            "id": "7487771966959980545",
+            "urn": "urn:li:comment:(urn:li:activity:7487653400797642752,7487771966959980545)",
+            "text": "The lip sync to real human voice is the detail more people should copy. Most AI shorts skip that step, and it's exactly why the emotion falls flat even when the visuals hold up.\n\nThirty minutes of consistent aesthetic across Midjourney and Kling is no small thing either. That's usually where these projects quietly fall apart around minute eight.",
+            "author": "Frank Houbre",
+            "linkedinUrl": "https://fr.linkedin.com/in/frank-houbre",
+            "datePublished": "2026-07-28T07:32:33.000Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "3mo"
+          },
+          {
+            "id": "7489044194284711936",
+            "urn": "urn:li:comment:(urn:li:activity:7487653400797642752,7489044194284711936)",
+            "text": "The strongest signal here is authorship: AI can expand the visual language, but human taste still decides what deserves to be on screen.",
+            "author": "Olena Shabashkevych",
+            "linkedinUrl": "https://ua.linkedin.com/in/oshabashkevych",
+            "datePublished": "2026-07-31T19:47:55.630Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "3mo"
+          }
+        ],
+        "likeCount": 13,
+        "contentUrn": "urn:li:share:7487653399828639744",
+        "activityUrn": "urn:li:activity:7487653400797642752",
+        "description": "If you have not watched this short film that combines great human talent with the possibilities of AI you should.\n\nThis is the current state of the art of the possible combining human script, voice, creative decisioning with the possibilities of AI technology\n\nThe short film Pomegranate utilized AI for all visual elements, including shot generation via Midjourney v7 and animation through Kling, while real human actors provided the voices and a Foley artist managed the sound design. This hybrid approach allowed for a visually consistent sci-fi universe supported by traditional human artistry in writing, directing, and musical composition.Less\n\nTo further distinguish between the technological and human contributions in Pomegranate, here is a detailed breakdown of the production:\n\nWhat was AI-Generated?\n\nThe film's visual identity was almost entirely driven by AI tools:\n\nVisual Concepts: Every shot began as a still image generated by Midjourney v7.\nAnimation: Static images were animated using Kling and Nano Banana to create fluid motion and character movement.\n\nLip-Syncing: Tools like Sync Labs were used to match the AI-generated characters' mouths to the recorded human dialogue.\n\nWorld Building: The film is noted for using AI to maintain a consistent aesthetic across its 30-minute runtime, a challenge in earlier AI video efforts.\n\nWhat was \"Live\" (Human)?\n\nDirector Zack London (known as Gossip Goblin) maintains that AI is a \"force multiplier\" rather than a replacement for human intent:\n\nVoice Acting: The film relies on a human voice cast, including a lead actor London discovered in Sweden. The director specifically avoided AI voices to ensure emotional resonance.\n\nSound and Music: The film features paid composers and a Foley artist for sound effects, ensuring the audio landscape was crafted by hand.\n\nDirection and Script: The story, lore, and script were written by humans. The director describes the process as imagined and directed by people, with AI serving as the \"camera\" and \"set.\"\n\nEditing: Standard film techniques, such as J and L cuts, were applied by a human editor to pace the dialogue and scenes.\n\nWhile some viewers initially mistook the film's simulated reality themes—where characters use \"spools\" to live virtual lives—as a description of the AI production itself, the \"live\" elements refer to the tangible human performances and technical crafts behind the screen.\n\nBy Gossip Goblin aka Zach London and colleagues",
+        "commentCount": 3,
+        "datePublished": "2026-07-27T23:41:24.604Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/alberthcheng_how-animated-short-flicker-came-to-life-activity-7503172882022170624-59qz",
+        "image": null,
+        "media": null,
+        "author": {
+          "url": "https://www.linkedin.com/in/alberthcheng",
+          "name": "Albert Cheng",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQGg56KZCeDTqg/profile-displayphoto-scale_200_200/B56Zxwyp9iGwAY-/0/1771418853959?e=2147483647&v=beta&t=FZqEZtTa6JJlJ81ev93PKfroz8tpGWzui0Kx1Z1Xcrk",
+          "followers": 128727
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7503515375897047040",
+            "urn": "urn:li:comment:(urn:li:activity:7503172882022170624,7503515375897047040)",
+            "text": "\"Human creativity leads. Writing, design, performance, direction, and cinematography are human-driven. Filmmakers set the vision and drive the creative choices. AI is a tool that frees creators to focus on craft.\" Love this. It's the same principle that we adopted several months ago when we started developing our 8-year-old granddaughter's animated series. She is the driving force behind it and has full creative control over all elements. She creates the stories using 2D mockups, and I record her. Then I write the script based on the recording. She then sits with me to read and approve the final draft. One very memorable moment was when she stopped me while we read the script. \"Wait... Papa, you can't use that word, Spy. Little kids don't know what that word means yet. You need to change it to: LUCY'S MOM: We need to keep an eye on her without her seeing us when she goes out to the garden.\" Yes, she was right. Little kids will understand that wording. That's why she has the final word on everything. As far as consistency with characters, we created \"Pose Packs\" for every character and use Photoshop to create each scene and develop the storyboard. She approves the storyboard before motion is applied.",
+            "author": "John Washco",
+            "linkedinUrl": "https://www.linkedin.com/in/john-washco-773a2355",
+            "datePublished": "2026-09-09T18:11:14.189Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7504567862863360000",
+            "urn": "urn:li:comment:(urn:li:activity:7503172882022170624,7504567862863360000)",
+            "text": "Well said, Albert. Your “it takes a village of artists and scientists” approach to AI filmmaking is 🔥!\n\nCircus of Want is editing two AI-assisted vertical series—it’s been an eye-opening journey from render one. We use AI alongside Photoshop, Premiere Pro, and After Effects to bring our 100% human-written stories to life.\n\nThru creative direction and strategic editing, we’re battling the drift beast—character, prop, and world inconsistencies that creep into AI-generated shots. The downside? Wrestling that beast adds costly revisions and project delays.\n\nOn the upside, we’re developing workflow tools to tackle these issues and help other studios do the same. Looking forward to the day when taming the drift monster takes less time than telling the story.",
+            "author": "CoCo Deal",
+            "linkedinUrl": "https://www.linkedin.com/in/cocodeal",
+            "datePublished": "2026-09-12T15:53:26.635Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7503893216094670849",
+            "urn": "urn:li:comment:(urn:li:activity:7503172882022170624,7503893216094670849)",
+            "text": "AI can accelerate animation, but human imagination is what gives it soul. The tool matters but the artist behind it matters more.",
+            "author": "Nathaly Sofia Cabrera",
+            "linkedinUrl": "https://www.linkedin.com/in/nathalycabrera",
+            "datePublished": "2026-09-10T19:12:38.312Z",
+            "reactionCount": 4,
+            "publishedTimeAgo": "2mo"
+          },
+          {
+            "id": "7504574481970130944",
+            "urn": "urn:li:comment:(urn:li:activity:7503172882022170624,7504574481970130944)",
+            "text": "This! ***Human creativity leads. Writing, design, performance, direction, and cinematography are human-driven. Filmmakers set the vision and drive the creative choices. AI is a tool that frees creators to focus on craft.*** Keep pushing Albert Cheng and Jessica Fan!",
+            "author": "Greg Hayes",
+            "linkedinUrl": "https://www.linkedin.com/in/greghayes",
+            "datePublished": "2026-09-12T16:19:44.754Z",
+            "reactionCount": 0,
+            "publishedTimeAgo": "2mo"
+          }
+        ],
+        "likeCount": 157,
+        "contentUrn": "urn:li:share:7503172881447608320",
+        "activityUrn": "urn:li:activity:7503172882022170624",
+        "description": "Human talent remains irreplaceable — skilled animators, character artists, and scientists each bring essential expertise that AI alone can not provide. AI is a tool; the quality of results depends on the people using it. Read about how the story from an artist came to life and provide the tenets in how we approach AI in animation.",
+        "commentCount": 18,
+        "datePublished": "2026-09-08T19:30:17.264Z"
+      }
+    ],
+    "query": "AI agents animated short film",
+    "cursor": "2",
+    "success": true
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00188",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:42:46.961Z",
+  "started_at": "2026-11-23T07:42:47.518Z",
+  "completed_at": "2026-11-23T07:42:55.080Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

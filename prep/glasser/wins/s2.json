@@ -1,0 +1,101 @@
+{
+  "id": "d0502c77-f3b4-4dbe-8184-a75e70539512",
+  "run_url": "https://app.glasser.ai/runs/d0502c77-f3b4-4dbe-8184-a75e70539512",
+  "provider": "serper",
+  "endpoint": "/search",
+  "endpoint_version": 2,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "q": "searchhack.devpost.com winners Telem"
+  },
+  "output": {
+    "organic": [
+      {
+        "link": "https://searchhack.devpost.com/",
+        "title": "SearchHack: Build the next layer of AI search: Agentic web ... - Devpost",
+        "snippet": "SearchHack: Build the next layer of AI search. Agentic web search challenge using Telem AI. This hackathon has ended. Find more hackathons View the winners. Who ...",
+        "position": 1,
+        "displayedLink": "https://searchhack.devpost.com"
+      },
+      {
+        "date": "Sep 21, 2025",
+        "link": "https://devpost.com/software/hackathon-winners-fjmcvz",
+        "title": "HACKATHON WINNERS",
+        "snippet": "HACKATHON WINNERS - CERTIFICATES TO ALL HACKATHON WINNERS ARE PRESENT HERE.",
+        "position": 2,
+        "displayedLink": "https://devpost.com › software › hackathon-winners-fjmcvz"
+      },
+      {
+        "link": "https://searchhack.devpost.com/participants",
+        "title": "SearchHack: Build the next layer of AI search - Devpost",
+        "snippet": "SearchHack: Build the next layer of AI search · Overview · My projects · Participants (6) · Resources · Rules · Project gallery · Updates · Discussions.",
+        "position": 3,
+        "displayedLink": "https://searchhack.devpost.com › participants"
+      },
+      {
+        "link": "https://www.instagram.com/popular/devpost-hackathon-winners/",
+        "title": "Devpost Hackathon Winners",
+        "snippet": "The first place winner was UHIRED, an app that helps users practice interview responses with real-time feedback and tailored recommendations. The competition ...",
+        "position": 4,
+        "displayedLink": "https://www.instagram.com › popular › devpost-hackathon-winners"
+      },
+      {
+        "link": "https://devpost.com/",
+        "title": "Devpost - The home for hackathons",
+        "snippet": "Participate in online virtual and in-person hackathons to build products, practice skills, learn technologies, win prizes, and grow your network.",
+        "position": 5,
+        "displayedLink": "https://devpost.com"
+      },
+      {
+        "link": "https://treehacks-2026.devpost.com/",
+        "title": "TreeHacks 2026: The largest collegiate hackathon in ... - Devpost",
+        "snippet": "$10,000 total, awarded to one winning team (up to four participants). For teams with multiple members, the prize will be distributed among team members at the ...",
+        "position": 6,
+        "displayedLink": "https://treehacks-2026.devpost.com"
+      },
+      {
+        "date": "Nov 1, 2024",
+        "link": "https://help.devpost.com/article/104-announcing-winners",
+        "title": "Announcing Winners",
+        "snippet": "After all of your prizes have a submission selected as a winner on Devpost, you are ready to announce the winners to the world.",
+        "position": 7,
+        "displayedLink": "https://help.devpost.com › article › 104-announcing-winners"
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=BdmtpRhFFUQ",
+        "title": "Hack Devpost 2023 - Winner Announcement",
+        "snippet": "Check out the winners: https://hackdevpost.devpost.com/project-gallery.",
+        "position": 8,
+        "displayedLink": "https://www.youtube.com › watch"
+      },
+      {
+        "link": "https://devpost.com/software/popular?page=1146",
+        "title": "Software projects from hackathons",
+        "snippet": "See every online challenge, hackathon, and software project on Devpost. Sort by platform, API, and more!",
+        "position": 9,
+        "displayedLink": "https://devpost.com › software › popular"
+      }
+    ],
+    "searchParameters": {
+      "q": "searchhack.devpost.com winners Telem",
+      "type": "search",
+      "engine": "google"
+    }
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.001",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:34:35.400Z",
+  "started_at": "2026-11-23T07:34:35.449Z",
+  "completed_at": "2026-11-23T07:34:36.246Z",
+  "task_id": "tsk_965d2263a224d7b9",
+  "metadata": {}
+}

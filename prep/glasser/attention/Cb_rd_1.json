@@ -1,0 +1,563 @@
+{
+  "id": "dc6a7292-9323-4dbe-b6a4-86e7fbe31972",
+  "run_url": "https://app.glasser.ai/runs/dc6a7292-9323-4dbe-b6a4-86e7fbe31972",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "practice negotiation with AI",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "large_result: this response is ~84 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 25,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1vehe64",
+            "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1vehe64/book_i_bought_didnt_edit_out_the_ai_prompt/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/kjlbefbjm6hh1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=86b78da7021d314b6ea5ffddd8d3f47666efa9aa",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 73725,
+            "title": "Book I bought didn't edit out the AI prompt ",
+            "author": "pjcace",
+            "authorId": "60k2g",
+            "selftext": "Absolutely worthless book. Didn't even remove the prompt in the introduction. The whole book, a travel guide, was generalities and no specifics. You could change the name and have it be any city anywhere.",
+            "permalink": "/r/mildlyinfuriating/comments/1vehe64/book_i_bought_didnt_edit_out_the_ai_prompt/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1785772518,
+            "numComments": 1322
+          },
+          {
+            "id": "1uok0hs",
+            "url": "https://www.reddit.com/gallery/1uok0hs",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/38xxj3qfmibh1.jpg?width=140&height=105&auto=webp&s=c89c0331b4a2db34e0c14f6f3ff059c0452e3c9d",
+                "type": "photo",
+                "width": 140,
+                "height": 105
+              }
+            ],
+            "score": 34401,
+            "title": "UPDATE: Lived in warehouse without Corporate finding out for half a year",
+            "author": "derricksolis",
+            "authorId": "3k6jwdoc",
+            "selftext": "Hello everyone! I wanted to make an update post to thank each and every one of you for the kind words you shared with me about my living situation last year.\n\nTL;DR for those who didn't see the previous post here [https://www.reddit.com/r/malelivingspace/comments/1ul7wcj/lived\\_in\\_a\\_warehouse\\_without\\_corporate\\_finding/](https://www.reddit.com/r/malelivingspace/comments/1ul7wcj/lived_in_a_warehouse_without_corporate_finding/)\n\nMy ex of 3 years suddenly left me to be with two other guys, leaving me to pay for our $2,500-a-month apartment by myself for four months. She also left her cats behind for me to take care of until one day she took them back after threatening to call the police on me. By the end of the lease, I was completely broke, had nowhere to go, and came very close to selling everything I owned. I told my boss about my situation, and he offered to let me live in our warehouse for however long I needed until I got back on my feet. I lived there for half a year through blazing summer temperatures of 85–95 degrees and freezing winter temperatures of 15–25.\n\nNow I wanted to make this update to show more pictures of how the room changed over time and to answer some of the questions people had. It became difficult to reply to every comment after the original post blew up.\n\nI began living in the warehouse on May 27, 2025. After I told my boss I had nowhere else to go and was on the brink of selling everything I owned just to get by, he agreed to let me stay there. He even had my coworkers help me move my belongings into the warehouse using the trucks we had on the lot. Pictures 4 and 5 are from that very first day. You can see how the room looked after I spruced it up a few days later in my original post.\n\nThat first night, I was still in shock over how quickly everything had changed. While my ex was surrounded by people who only believed her side of the story, living somewhere she didn't have to pay rent, and dating the same guys she cheated on me with, I was broke, alone, had no friends, and felt like I had lost everything and everyone I cared about.\n\nI was scared by all the random noises our broken ventilation system made, and I was paranoid that someone would break into my room or steal my things. The place was so dusty you could practically taste the wood particles floating through the air. There was a single white ceiling light that flickered constantly, and I didn't figure out how to turn it off until weeks later. The constant fluorescent buzzing from the office lights drove me crazy to the point where I'd play rain sounds as loudly as I could just to drown it out. Genuinely felt like the backrooms. On top of that, the water boiler alarm would go off every 24 hours until someone eventually disabled it.\n\nI slept on my futon that first night, wallowing in self-pity and convincing myself that I deserved to be vilified like this. It was hard to get any sleep. Even after I settled in, there were still plenty of rough nights. It wasn't exactly the easiest place to rest.\n\nAs time passed and I had more time to organize my things, I realized I needed to make the space better suited to my hobbies if I was going to survive with my mental health intact. The loneliness and the overwhelming amount of work tasked onto me were brutal, and I often fell into deep depression. So I reorganized the room into something much closer to what you see in pics 1-3.\n\nThe room I lived in was in a section of the warehouse that only managers could access, so none of my coworkers ever knew I was living there. I'd wake up around 5:00 a.m. and walk 25 minutes to a gym so I could shower, since there wasn't one I could realistically use in the warehouse. After showering, I'd walk back to work, put my bathroom supplies back in my room, and start work at 7:00 a.m.\n\nI worked as a Sales Consultant, so I had a company vehicle that I used to drive to customer estimates throughout the day. Once I finished work, I'd return to the warehouse and enter through a specific entrance that led to the secured section where I lived, accessible only by keypad.\n\nWhenever I had free time, I'd spend it listening to music, playing piano and guitar, watching movies on my theater setup, reading, working out, and doing lots and lots of degenerate gaming. I'd connect my PC to my LG G5 TV, as shown in the third picture, and play games using my wireless keyboard and mouse while blasting everything through my surround sound system. There were definitely moments when I thought it was the peak gaming experience.\n\nBut whenever those quieter moments came around, the loneliness would hit hard. I was often deeply depressed and questioned how long I could keep living like that. In many ways, the whole experience felt like prison. I felt like I was living in squalor. My mind constantly wandered back to my ex, the cats, and the friends I had lost. I convinced myself that every miserable moment was something I deserved. I truly believed I was a bad person, and I struggled with suicidal thoughts. The former friends who knew about my situation didn't care enough to offer the help I needed. For as long as I stayed in that warehouse, I felt completely on my own.\n\nWhen it came to washing my clothes, I'd carry a laundry basket and walk about 30 minutes to a laundromat. Occasionally, a family member would stop by and let me do my laundry at their house instead. Every morning, I'd also walk 20 minutes to the gym to shower before heading back to work. There actually was a shower in the warehouse, but it was absolutely disgusting and wasn't worth trying to clean. It also had no hot water. On top of that, it was located too close to where most of my coworkers walked around, so there was no way I wanted someone walking into the bathroom and seeing my wang hanging out.\n\nThere was no air conditioning in my room, so the only things I had to keep me comfortable were a portable fan in the summer and a small space heater in the winter. Installing a real AC unit wasn't an option because the only window I could vent it through was out in the hallway. I didn't want Corporate getting suspicious about why there was suddenly an air conditioner sitting outside the only locked room in the warehouse. When winter rolled around, I had a tiny space heater that barely warmed the room. If I turned it up too high, it would trip the electrical breaker and knock out power to nearly half the building.\n\nI bought a mini fridge where I kept fruit, bologna, milk, juice, cheese, energy drinks, and microwaveable meals. Most of my cooking consisted of using a microwave and a toaster. If I wanted something different, I'd usually order takeout.\n\nPart of the agreement for living in the warehouse was that I would work seven days a week throughout the summer. The other Sales Consultant at my company had suffered a seizure and wasn't able to return during our busiest season. My boss asked if I could cover the workload, promising to pay me accordingly. It definitely helped that my commute was basically walking out of bed and into work.\n\nIt was brutal though, and eventually it started taking a toll on my health. After a while, I had to negotiate working six days a week instead. Even so, I ended up bringing in a lot of business for the company because I was able to devote so much of my time to work.\n\nSurprisingly, I was never really caught. It helps when you eventually learn all of the camera blind spots around the warehouse.\n\nThere was only one time Corporate came close to finding me. One of the corporate managers wanted to inspect every room in the warehouse, and luckily I knew ahead of time when he was coming. I hurriedly stacked a mountain of boxes against my door so that if he opened it, all he'd see was cardboard. When he peeked inside, he couldn't find the light switch, saw nothing but boxes, and decided it wasn't worth investigating any further. Meanwhile, I was standing silently on the other side of the room, sweating bullets the entire time. You can see how it looked in Picture 7.\n\nEventually, another coworker ended up living in a smaller room farther down the hallway. Unlike me, he got caught. After that, Corporate became much more interested in the warehouse's security, and my boss finally asked me to move out. Fortunately, by that point I had managed to save a decent amount of money, and my family was finally in a position to let me move back in with them.\n\nEven though I was able to move back home, I couldn't bring all of my furniture with me right away. I put everything into a storage unit and left my PC at the warehouse until I could figure out where to put it. Looking back, I regret leaving it there because I barely used it, and it only increased the chances of Corporate discovering my setup. Around that time, all I really did was play VRChat, hang out in the DBD server, and play piano. You can see how everything looked in Pictures 7 and 8.\n\nI officially left the warehouse in December 2025. Last picture was how it looked on the last day I was there before taking all of my things out. Not long afterward, I left the company on good terms to pursue something new that challenged me.\n\nToday I still struggle with a lot of trauma from my previous relationship and the fallout from losing so many of my friendships. But I am in a different environment now - one that challenges me in ways that are helping me grow and rediscover who I want to be as I work toward my dreams. To ANYONE who is going through anything like this, please, you don't have to carry your burdens alone. My boss saved my life and we still meet once a week for beers and cookouts.\n\nJust like I said in my previous post, I'll say it again:\n\nDon't be afraid to ask for help.\n\nYou might be surprised by what people are willing to do to help make sure you get through to the other side okay.\n\nIf you guys have any more questions I'll do my best to answer them. Thanks for reading.",
+            "permalink": "/r/malelivingspace/comments/1uok0hs/update_lived_in_warehouse_without_corporate/",
+            "subreddit": "malelivingspace",
+            "createdUtc": 1783302736,
+            "numComments": 689
+          },
+          {
+            "id": "1smgk52",
+            "url": "https://www.reddit.com/gallery/1smgk52",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/gopqk2jcqevg1.jpg?width=140&height=100&auto=webp&s=29f622c672bd50a307c6917a718fcd16d96df17b",
+                "type": "photo",
+                "width": 140,
+                "height": 100
+              }
+            ],
+            "score": 25777,
+            "title": "Im currently house hunting. Here is the photo in the ad vs the house in real life…",
+            "author": "slim_shady_21",
+            "authorId": "3yqjxe2",
+            "selftext": "Im assuming they used AI to clean up the front yard. I guess the AI just decided to install a brand new roof, driveway, and retaining wall!!! The interior wasnt much better either…\n\nEdit: wow this recieved a lot of attention. To answer a few of the questions i see repeatedly popping up…\n\n\\- I am in Quebec, Canada. Not really sure about the laws for this type of thing. My real estate agent told me that this is unfortunately very common practice. He agreed with me that the way it changed the whole house is false advertising but that there isnt much that can be done but move on to the next house.\n\n\\- It was a property flip. The house was bought last year and now is being resold with full interior renovation. The work looked very shoddy and i dont trust it. The back of the house was full of old electrical equipment with the wires diconnected and hanging off, the garage was wired up loosely with 14/2 between all the boxes just fastened to the wall which is not up to code. All wires need to be in a pipe or in a wall. The roof was also completely finished and needed to be redone. \n\n\\- Overall the property was just not up to my standard and even if i could look over the egregious false advertising, there was just too many other issues. ",
+            "permalink": "/r/mildlyinfuriating/comments/1smgk52/im_currently_house_hunting_here_is_the_photo_in/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1776281997,
+            "numComments": 1588
+          },
+          {
+            "id": "1pmk9df",
+            "url": "https://www.reddit.com/gallery/1pmk9df",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://a.thumbs.redditmedia.com/iZ7lvSUd8t0NgigrfrBxwOSv1vdYpmgFrus-XOH3c90.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 23721,
+            "title": "Three weeks of hard work on a paper all for nothing because of AI use",
+            "author": "MortemPerPectus",
+            "authorId": "hpz3an8e9",
+            "selftext": "Im glad that the final assignment (media analysis) was cancelled because it meant I could focus on other finals, not to mention it doesn’t matter grade-wise since he just gave everyone a 10/10 on this and the previous assignment. Where it’s mildly infuriating for me is I spent three weeks on the previous assignment (position paper/argumentative essay) arguing against the use of AI (more in the creative arts but there was a paragraph about it in education too) and managed over 3000 words for it which I was really proud of and really wanting feedback on so I could improve my writing. Instructor got so disappointed he gave up on the entire class.",
+            "permalink": "/r/mildlyinfuriating/comments/1pmk9df/three_weeks_of_hard_work_on_a_paper_all_for/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1765734733,
+            "numComments": 3421
+          },
+          {
+            "id": "1uq5mx5",
+            "url": "https://gizmodo.com/smart-glasses-banned-in-new-york-courtrooms-statewide-2000782399",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/xbrss2j26fpKMjRrXX1sKw8dcf4tvfQrWaiK_K1hv4s.jpeg?width=140&height=78&auto=webp&s=1394ab08faf6821b1e629791f62368bd59ff67c5",
+                "type": "photo",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 23254,
+            "title": "BREAKING: New York Just Became The First State In America To Ban Smart Glasses From Every Single Courtroom Statewide. And Anyone Wearing Recording-Capable Eyewear, Even Prescription Glasses, Will Be Required To Surrender Them To Court Officers Starting July 20th 🏛️💥",
+            "author": "InterstellarKinetics",
+            "authorId": "1y4sxqx7ag",
+            "selftext": "Smart glasses will be banned in every New York courtroom starting July 20, making it the first ban in the country to explicitly cover every court in an entire state, according to a report from Syracuse.com. The New York State Unified Court System did not immediately respond to questions about the policy, but the ban applies to any eyewear or headwear containing recording devices, whether audio or video, and even extends to prescription glasses with recording capability, meaning anyone who shows up to court wearing them will be required to hand them over to court officers. It remains unclear whether any exemptions will be made for people with disabilities who rely on such devices, though that outcome appears unlikely.\n\nNew York’s rule follows similar but narrower bans already adopted by some court systems in Pennsylvania, Hawaii, and Wisconsin, though none of those covered an entire state’s court system the way New York’s new policy does. The push to explicitly target smart glasses gained national attention in February, when two people showed up wearing the devices to a Los Angeles courtroom during Meta CEO Mark Zuckerberg’s testimony in a lawsuit alleging Instagram was designed to be addictive to children, a case in which Meta was ultimately found liable. A judge admonished the individuals for wearing the glasses in court despite prior warnings against the practice.\n\nThe broader backlash against smart glasses has intensified as devices like Ray-Ban Meta AI glasses have surged in popularity, drawing nicknames like “pervert glasses” on social media over concerns they’re being used to record people without consent. While Meta’s glasses include an LED light that illuminates during recording, critics note the light is easy to cover, and companies’ safety claims have done little to ease public skepticism. Despite the criticism, some disability advocates have highlighted benefits of the technology, and Meta launched a program in June giving free smart glasses to every blind veteran in America.",
+            "permalink": "/r/InterstellarKinetics/comments/1uq5mx5/breaking_new_york_just_became_the_first_state_in/",
+            "subreddit": "InterstellarKinetics",
+            "createdUtc": 1783453160,
+            "numComments": 423
+          },
+          {
+            "id": "1xl69lw",
+            "url": "https://www.reddit.com/r/sociallycharismatic/comments/1xl69lw/i_sat_alone_at_a_coffee_shop_every_saturday_for_2/",
+            "nsfw": false,
+            "media": [],
+            "score": 21571,
+            "title": "I sat alone at a coffee shop every Saturday for 2 months. What happened completely changed how I think about making friends as an adult.",
+            "author": "Most-Gold-434",
+            "authorId": "1tza6c5r7b",
+            "selftext": "I moved to a new city last year and had zero friends. Every piece of advice was “Join a club” or “Try a meetup.” All of that felt forced. So I did something that sounded stupid at the time. I picked one coffee shop and went every Saturday morning at the same time. Alone. No plan. Just showed up, got a coffee, and sat there.\n\nFirst two Saturdays nothing happened. I scrolled my phone, drank my coffee, and left feeling like an idiot.\n\nThird Saturday the barista said “You’re becoming a regular.” I laughed. We talked for two minutes. The next week she remembered my order. Week after that she asked my name.\n\nFifth Saturday I noticed the same guy sitting in the corner that I’d seen the last three weeks. I nodded. He nodded. Sixth Saturday I said “We keep picking the same spot.” He laughed and we talked for fifteen minutes. He works remotely too. We started sitting together on Saturdays.\n\nBy week eight the barista was introducing me to other regulars. “Hey this is \\[name\\], he’s here every Saturday.” Two of those introductions turned into people I now text regularly. One invited me to a dinner party. At the dinner party I met four more people.\n\nTwo months of sitting in the same chair at the same time and I went from knowing nobody to having an actual social circle. Not from an app. Not from a forced networking event. From being a predictable presence in a space until the space absorbed me.\n\nThere’s a psychology term for this. Propinquity effect. People form bonds with whoever they encounter repeatedly. Not whoever they click with instantly. Not whoever shares their interests perfectly. Whoever shows up consistently in the same space over time. Proximity plus repetition equals relationship. That’s the formula.\n\nMaking friends as an adult isn’t hard because adults are less social. It’s hard because adults don’t have built-in repeated proximity anymore. School forced you to see the same people every day. Work does it for some. But outside of that you have to manufacture the repetition yourself.\n\nPick a place. Go at the same time. Become a regular. Let the space do the work. It’s slower than a meetup app. It’s also how every real friendship I’ve made as an adult actually started.\n\nThe coffee shop gave me the context. What gave me the conversational ability to turn “we keep picking the same spot” into a fifteen-minute conversation was months of practice before I moved. I’d been using [Socialyze](https://socialyze.app/?ref=getsociallyskilled&utm_source=reddit&utm_medium=partner&utm_campaign=getsociallyskilled) to get reps in before I had anyone to talk to in the new city. It’s a free browser tool where you have a 2-minute voice conversation with AI and get a breakdown of how you responded. When you’ve just moved and you have zero social contact outside of work, your conversational muscles atrophy fast. You stop knowing how to react in real time because you haven’t had a real back-and-forth in weeks. Running a round on Socialyze before my Saturday coffee shop trips kept the muscle active so that when someone did talk to me I wasn’t starting from cold. The barista comment on week three could have been a one-sentence exchange that went nowhere. It turned into a two-minute conversation because I’d been keeping my response instincts warm instead of letting them rust. The propinquity effect puts people in front of you. What you do in the first thirty seconds of an unexpected conversation decides whether they come back.",
+            "permalink": "/r/sociallycharismatic/comments/1xl69lw/i_sat_alone_at_a_coffee_shop_every_saturday_for_2/",
+            "subreddit": "sociallycharismatic",
+            "createdUtc": 1793547848,
+            "numComments": 2401
+          },
+          {
+            "id": "1rger7n",
+            "url": "https://www.reddit.com/r/homestead/comments/1rger7n/looking_for_a_man_to_relocate_to_tn_and_start_a/",
+            "nsfw": false,
+            "media": [],
+            "score": 16373,
+            "title": "Looking for a man to relocate to TN and start a mildly feral domesticated life together",
+            "author": "One-Crew-7642",
+            "authorId": "excj18v2l",
+            "selftext": "ISO: Man willing to relocate to Middle Tennessee with me and build a peaceful, slightly feral domestic life.\n\nImportant geographic note: TN is non-negotiable. My family is there and I am not negotiating with geography or genetics on this one.\n\nShared vision: small house near water, fenced yard, chickens (names TBD but likely unhinged), and a garden we aggressively believe in.\n\nWhat you receive: legit home-cooked meals, clean laundry that mysteriously returns to drawers, zero criticism for excessive hunting/fishing/garage projects, and someone who thinks Tractor Supply is a date.\n\nPet policy: must love dogs, must be emotionally prepared to love dogs. Due to catastrophic cat allergy, household cat count must remain at zero. Yes this is a loss. We grieve together and move on.\n\nRequirements: honest, kind, not an axe murderer, and willing to live near my extended family without panic.\n\nBonus points: handy, enjoys bonfires, accepts that at least one chicken will outrank us socially.\n\nEdit: 4M+ views is actually insane to me. Thank you for the awards and all the kind comments — at this rate it’ll take me about 12 years to respond to everyone, but I’m genuinely grateful and reading as many as I can.\n\nEdit: To clarify — “genetics” = emotionally stable, physically capable, and not spiritually opposed to chickens.🐓\n\nEdit 3: A lot of you suggested dating apps or documentaries… but I wouldn’t be opposed to a Netflix series lol\n\nEdit: I forgot a practical one. I’m 4’11 and occasionally need top-shelf assistance. 🪜\n\nEdit: I am part of the 20% that can drive stick, thought I should throw that out there.\n\nEdit: I’ve thought about this long and hard and honestly I’d rather just run off with a few girls’ girls, become best friends, and raise chickens together. We’d technically be chicken tenders, which feels right in my soul.\n\nStatus update as of March 9th:\n\nI’m still not in Tennessee yet.\n\nI had absolutely no idea my post would get this much attention. My inbox has been flooded, and I’m still slowly working my way through all the messages. If I haven’t responded yet, Im sorry!\n\nOne unexpected side effect of this whole thing is that my vocabulary is expanding from all the reading I’ve been doing… apparently the road to Tennessee is paved with Reddit notifications.\n\n⚠️🚗\n\nSeriously though, thank you to everyone who has reached out with advice, encouragement, and stories. It means a lot more than you probably realize.\n\nStill working on the move… just currently buried in my inbox.📥\n\nSmall life update for everyone who’s been following:\n\nI randomly applied to a job in eastern Tennessee because it honestly sounded perfect for me. I didn’t think I’d hear anything back… but they actually called me.\n\nThe catch? They don’t do remote interviews and I’m not anywhere near Tennessee right now 😢\n\nSo now I’m sitting here both excited and slightly tortured knowing I was this close… Still trying to figure out if there’s any way to make it happen, but I wanted to share the update because so many of you were rooting for me.\n\nUPDATE: I did NOT move to Tennessee… yet. 😂\nSo unfortunately, there are currently zero Tennessee chickens in my possession. The chicken relocation program has been temporarily suspended. 🐔💔\nBUT… plot twist! I ended up landing a really great job in the industry I’ve always wanted to get into, and I’m actually loving it. 🥹\nSo the new master plan is: get some experience under my belt, build up my skills, and then start looking for similar positions in Tennessee.\nAnd then… badabing badaboom, I’m moving to Tennessee. 😂🐔🌴\nSo no, I haven’t made the big move yet. But I also haven’t abandoned the dream. The Tennessee chapter is just currently stuck on the “loading…” screen.\nI’ll keep y’all posted.\n\n",
+            "permalink": "/r/homestead/comments/1rger7n/looking_for_a_man_to_relocate_to_tn_and_start_a/",
+            "subreddit": "homestead",
+            "createdUtc": 1772217011,
+            "numComments": 2976
+          },
+          {
+            "id": "1t0bce3",
+            "url": "https://www.reddit.com/r/TrueOffMyChest/comments/1t0bce3/my_ta_pulled_me_aside_after_my_fluids_midterm/",
+            "nsfw": false,
+            "media": [],
+            "score": 15528,
+            "title": "My TA pulled me aside after my fluids midterm today and I don't have anyone to tell",
+            "author": "harrygzhang",
+            "authorId": "2ayq6lt7ql",
+            "selftext": "I'm 32. I went back to school for ME two and a half years ago after a decade as a maintenance tech at a paper plant. My wife is supportive but she doesn't really understand the work. Her parents think I'm going through some midlife thing. We have two kids who are 6 and 4.\n\nI took my fluids final this afternoon. Brutal exam. My TA is a 23 year old grad student named Andrew. I think he's been a little uncomfortable having a student older than him in section all semester.\n\nAndrew asked if I had a minute after I turned in the exam. He pulled out my problem sets that he'd been grading on his laptop and started flipping through. He said he had to verify they hadn't been put through one of those AI cheat tools first since the dept makes them check now. Then he said he could tell from the way I draw control volumes that I've actually seen industrial systems run. He said he's been TAing fluids for three semesters and my work shows years of practical understanding he doesn't see in undergrads usually.\n\nI worked at that paper plant for over a decade before going back to school. The way you draw a control volume tells you whether someone has actually seen one running. I just didn't think anyone would ever notice.\n\nI drove home thinking I was going to tell my wife. When I walked in she was making dinner with the kids and I just couldn't. She'd say \"that's sweet honey\" and not really get it. There's nobody in my life who would get it.\n\nI don't know what to do with this. Thanks for reading 😄",
+            "permalink": "/r/TrueOffMyChest/comments/1t0bce3/my_ta_pulled_me_aside_after_my_fluids_midterm/",
+            "subreddit": "TrueOffMyChest",
+            "createdUtc": 1777588659,
+            "numComments": 148
+          },
+          {
+            "id": "1y0njua",
+            "url": "https://www.reddit.com/r/BoyDinnerDiaries/comments/1y0njua/i_think_this_woman_has_completely_ruined_me_for/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/ipox6071hn2i1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=d453b175d09874bc46fe24c45d6688fdb79ea91f",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 14502,
+            "title": "I think this woman has completely ruined me for everyone else",
+            "author": "Confident-System-829",
+            "authorId": "8pcfmct3f",
+            "selftext": "I don’t think I’ve ever experienced anything quite like this. I miss her when we’re apart, which is becoming an increasingly inconvenient development. I don’t just look forward to seeing her; I find myself wishing she were around for the most mundane things. Grocery shopping, running errands, sitting around doing absolutely nothing. Apparently, all of these activities are considerably better when she’s involved. I’ve never been particularly interested in having someone around all the time, and now I seem to have developed an almost embarrassing longing for her company. It’s ridiculous, frankly.\n\nWhat’s perhaps more alarming is how much she makes me want to improve myself. I find myself wanting to learn more, try things I’ve never considered, explore new interests, and generally become a more interesting person. I want to keep up with her intellectually, surprise her, make her laugh, and give her reasons to be as excited about me as I am about her. She’s never made me feel like I’m not enough, either. It’s quite the opposite. Being around her makes me excited about all the things I could become. I suppose I’ve inadvertently acquired a rather enthusiastic personal development program, and she is largely responsible for it.\n\nAnd the physical connection is something else entirely. I’ve been attracted to people before, obviously, but I’ve never experienced anything quite like this combination of attraction and tenderness. Even the smallest gestures of affection seem to carry an unreasonable amount of significance. Holding her, kissing her, having her close enough that I can reach out and touch her. I find myself appreciating these little moments far more than I ever expected to. It’s difficult to explain how someone can make you feel simultaneously so completely enamored and so ridiculously at ease.\n\nThen there’s the rather unreasonable matter of her appearance. I find her beauty almost offensive in its excess. Her eyes are the most extraordinary shade of blue, like sapphires catching the light. Her hair is the color of a late summer afternoon, when the wheat fields turn to gold beneath the setting sun. She has the cutest glasses, the softest pink lips, and a complexion so peachy and lovely that I’m convinced Renaissance painters would have started fistfights over the opportunity to paint her. And her figure? Aphrodite herself would have some serious grounds for complaint. I genuinely cannot fathom what sort of divine administrative oversight allowed one person to be assembled so unfairly. It’s excessive. Frankly, I’m beginning to suspect some sort of favoritism.\n\nBut as ridiculous as all of that sounds, it’s not even the most compelling thing about her. She’s brilliant, funny, thoughtful, insanely intelligent, and endlessly interesting. I could listen to her talk about practically anything. I love the way her mind works, the things she notices, the way she approaches the world. I find myself wanting to know everything about her, including all the little things she probably doesn’t think are particularly interesting. I suspect she has no idea just how much I admire her even though I tell her every chance I get.\n\nAnd here’s where I really start to lose whatever remaining credibility I have: I’ve started thinking about a future with her, and it’s not even the grand, extravagant stuff that gets me most excited. Of course I want the adventures and the exciting experiences, but I also want the grocery shopping. The lazy Sunday mornings. The mundane errands that somehow become an occasion simply because we’re doing them together. I want to experience all the wonderfully unremarkable parts of life with her. Apparently, I’ve reached the point where the prospect of folding laundry with someone has become romantic. I fear there may be no recovering from this.\n\nAnyway, I just wanted to publicly appreciate this woman because I’m having an absolutely wonderful time being hopelessly smitten with her. She’s managed to make me look forward to things I didn’t even know I was missing, and I find myself increasingly unable to imagine going back to how things were before her.\n\nI seem to be developing a rather permanent condition. I have no intention of seeking treatment.\n\nDinner is burrata with balsamic glaze, roasted garlic and tomatoes and pan-toasted sourdough. 🤌\n\n**Edit**: lots of questions on this, I am 26, she is 24 (turning 25 in December). We’ve been together 4 months. We’ve both been in relationships before.\n\n**Edit 2:** I absolutely love writing. I have a degrees in literature and writing, and writing is something I spend a great deal of my free time doing, both for my own enjoyment and for various publications. For those convinced this is AI-generated, I can assure you it isn’t. That said, everyone’s entitled to their opinion. 🙂",
+            "permalink": "/r/BoyDinnerDiaries/comments/1y0njua/i_think_this_woman_has_completely_ruined_me_for/",
+            "subreddit": "BoyDinnerDiaries",
+            "createdUtc": 1795129292,
+            "numComments": 805
+          },
+          {
+            "id": "1xb2yd3",
+            "url": "https://www.reddit.com/r/Teachers/comments/1xb2yd3/ai_is_destroying_kids_understanding_of_what/",
+            "nsfw": false,
+            "media": [],
+            "score": 13964,
+            "title": "AI is destroying kids' understanding of what humanity is capable of.",
+            "author": "Useful_Possession915",
+            "authorId": "1dhb3ko38z",
+            "selftext": "My 6th graders are reading a historical fiction book about the *Titanic* and when we got to the part where the ship hits the iceberg, I played the iceberg scene from the 1997 movie. I was telling them how much research James Cameron did for the movie and was pointing out aspects of the scene that were historically accurate (the flat waveless sea, the lack of moonlight, etc.). A bunch of kids made comments along the lines of \"What are you talking about, that's obviously AI.\"\n\nI told them that it was not AI and that generative AI did not exist back then. I said that people have been making movies with special effects for over 100 years, whereas genAI has only been around for a few years. I still got responses of \"There's no way it's possible to make a scene like that without AI.\"\n\nWe ended up taking a detour from the rest of the lesson while I showed them behind the scenes videos on YouTube of how the scene was filmed--basically a mix of the ship set and a giant prop iceberg, a model ship in a tank, and CGI. Then that led to a talk about the difference between AI and CGI, and CGI vs. practical effects. I showed them another video about the making of the original Godzilla movie.\n\nI know we talk a lot about how students think they can't write a paper or do a research project without using AI, but it just breaks my heart that these kids think that humans can't even make art on their own. How many other skills and talents are these kids dismissing as impossible and not worth pursuing because they think that only a machine can do it?",
+            "permalink": "/r/Teachers/comments/1xb2yd3/ai_is_destroying_kids_understanding_of_what/",
+            "subreddit": "Teachers",
+            "createdUtc": 1792527388,
+            "numComments": 675
+          },
+          {
+            "id": "1u2c3dr",
+            "url": "https://www.barchart.com/story/news/2339826/billionaire-mark-cuban-says-lets-take-health-care-back-to-1955-patients-get-a-bill-and-if-they-can-afford-it-they-pay-that-bill",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/hJeisx83TtbYtsFoZanscv3WHrUMrOiDVbC7g3X4Eu4.jpeg?width=140&height=93&auto=webp&s=81980105531e51567bbd42b5dec78edf482c49b6",
+                "type": "photo",
+                "width": 140,
+                "height": 93
+              }
+            ],
+            "score": 13800,
+            "title": "EXCLUSIVE: Billionaire Mark Cuban Says The Entire U.S. Healthcare System Should Be Dismantled Back To 1955, Where Doctors Provide Care And Patients Pay A Bill. While His Drug Company Is Already Selling The Same Medications Insurance Companies Charge Thousands For At A 15% Markup 💊💰",
+            "author": "InterstellarKinetics",
+            "authorId": "1y4sxqx7ag",
+            "selftext": "Mark Cuban’s argument about American healthcare is deliberately simple, and that simplicity is the point. In multiple interviews he has stripped the entire $4.5 trillion system down to its core transaction: “Patients go to providers for care. Providers provide that care. Patients get a bill and if they can afford it, they pay that bill. That’s it.” In his framing every layer between those two parties, the insurance companies, the pharmacy benefit managers, the prior authorization processes, the surprise billing mechanisms, all of it is a parasite grafted onto a simple transaction that now costs more to operate than the care itself. Cuban is not a disinterested observer. He’s the founder of Cost Plus Drug Company, a pharmacy that bypasses the entire insurance infrastructure by selling medications at manufacturing cost plus a fixed 15% margin with full price transparency, and it is working at scale.\n\nThe pharmacy benefit manager industry is where Cuban’s critique is most financially threatening to incumbents. PBMs, the three largest being CVS Caremark, Express Scripts, and OptumRx, negotiate drug pricing and process claims as intermediaries between manufacturers and insurance plans. The system was originally designed to use aggregated purchasing power to drive prices down, but Cuban and a growing body of researchers argue it has evolved into one where PBMs profit from the spread between list prices and negotiated rebates, creating a perverse incentive to keep prices artificially high. The result is that Imatinib that Cost Plus sells for $47 per month costs between $9,000 and $14,000 through traditional insurance channels. His proposed first fix is removing PBM control over formularies entirely, which he says would collapse their leverage overnight. His second is expanding laws already passed in Tennessee and Texas allowing cash prices to count toward deductibles nationally, which he estimates would drop pharmaceutical prices 30 to 40 percent immediately.\n\nCuban’s political positioning in 2026 cuts across conventional ideological lines in ways that make him harder to dismiss than a typical tech billionaire with healthcare opinions. He appeared alongside President Trump at the TrumpRx expansion in May 2026 praising it while simultaneously supporting the Break Up Big Medicine Act, a bipartisan bill co-sponsored by Elizabeth Warren and Josh Hawley that would bar insurance companies from owning PBMs. He has spoken at the American Medical Association, told physicians directly that the current system forces them into the role of “subprime lenders who bear the total credit risk for unpaid deductibles,” and has framed the entire reform agenda not as a left-right issue but as a straightforward question of whether a system should serve patients or extract from them. Cost Plus Drugs now serves millions of Americans and represents the most concrete real-world proof of concept that his 1955 argument has a practical foundation.",
+            "permalink": "/r/InterstellarKinetics/comments/1u2c3dr/exclusive_billionaire_mark_cuban_says_the_entire/",
+            "subreddit": "InterstellarKinetics",
+            "createdUtc": 1781119330,
+            "numComments": 428
+          },
+          {
+            "id": "1vd5k0s",
+            "url": "https://www.reddit.com/r/GirlDinnerDiaries/comments/1vd5k0s/i_am_doing_something_that_everyone_told_me_not_to/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/h0h0uggwevgh1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=f582b95caf9ce25699479cbf173b51c52f74e574",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 13322,
+            "title": "I am doing something that everyone told me not to do.",
+            "author": "RSinSA",
+            "authorId": "1ushcwgl",
+            "selftext": "\n\nPlease stop DMing me about the ice cream. It is coldstones vanilla with oreo.\n\nI have been in accounting for years, and I am good at it. I have a really successful career. Everyone sees the career, but not my unhappiness. That being said, I am completely thankful for my career. I love the business that I work for, my boss is ok, my schedule is rad and my commute is 5 minutes. I cannot believe I made it here, especially in a short time. I really got lucky.\n\nA few jobs ago, I worked with an attorney and was trained in legal language. I did all of the contracts for a very large business, and it was amazing. I loved legal stuff. I loved negotiating, I loved reading the contracts, I loved writing the contracts. I exceled at the job, but I was promoted to accounting.\n\nAnyway, I kept going back and forth about going back to school for my paralegal. I have a degree in something not even related to accounting (lol) and it is from left field on paper.\n\nMy family was not supportive, my therapist turned her nose, and I questioned it for a year. I told my family I was going back to school last week, and again, they weren't supportive.\n\nI went to the college today and signed up for courses, and I am freaking out. I am worried about the money, I am worried that I will fail, I am worried that I am making a poor career decision (like maybe I should get a degree in accounting).\n\nBUT OMG I AM EXCITED!!!!!!!!!!!!!!\n\nI am almost 37, no kids, no husband, etc and I am going back to school. I cannot believe it. It is only 2 classes, and this may take me longer than it should to do, but wow! I was told I was stupid my entire life, including by my parents, and I have always questioned myself and my abilities to do anything.\n\nI had to share with someone. I am really scared and excited.\n\nEDIT!\n\nWOW THANK YOU ALL!\n\nAlso, I am not \"just\" going to be a paralegal. I want to get into a career that uses my accounting + paralegal. I just figured having the degree showing my law skills was better than just a blip on my resume\n\nSecondly, my GPA is so damn low from my B.S. degree, that I HIGHLY doubt that I would get into law school. I am open to it, just not going to get my hopes up. lol\n\nEdit 2:\n\nTHANK YOU AGAIN!\n\nAlso, please do not DM me about Ai, what I should do instead, what I need to look up on Linkedin, etc etc. I have done all of the research, I have read the job requirements in my area (that I don't plan on leaving), and I will talk to my professors about law school when I get to school, because I am BEING TAUGHT BY ATTORNEYS and THERE IS A LAW SCHOOL in my city!",
+            "permalink": "/r/GirlDinnerDiaries/comments/1vd5k0s/i_am_doing_something_that_everyone_told_me_not_to/",
+            "subreddit": "GirlDinnerDiaries",
+            "createdUtc": 1785636866,
+            "numComments": 1364
+          },
+          {
+            "id": "1tzweuo",
+            "url": "https://futurism.com/future-society/professors-incoming-students-dont-understand-math",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/8eNE5lYfvybc4IopDzRNytOJnYXUGR1PiNfNSp7ZdtQ.jpeg?width=140&height=93&auto=webp&s=d9191caabd7f37cac5f5186e240fa1915ae2d3a0",
+                "type": "photo",
+                "width": 140,
+                "height": 93
+              }
+            ],
+            "score": 11916,
+            "title": "WARNING: University Of California Math And Science Professors Have Written A Formal Letter To University Leadership. Warning That Incoming Students Now Arrive With Middle School Level Math Skills, And Asking U.C To Reinstate Standardized Testing Requirements It Dropped During COVID 🤯💥",
+            "author": "InterstellarKinetics",
+            "authorId": "1y4sxqx7ag",
+            "selftext": "Nearly a third of students enrolling in first-semester calculus at UC Berkeley are now displaying what the faculty letter calls “severe preparation deficits,” and professors say they are being forced to reteach middle school mathematics inside courses that are supposed to be preparing students for science, engineering, economics, and other quantitatively demanding fields. The letter, reported by the Wall Street Journal, states directly: “UC has finite resources and can help only so many students,” framing the situation not merely as an academic concern but as a resource crisis in which university instructors are effectively being asked to perform the remediation work that K through 12 education failed to complete, while simultaneously delivering the college-level material those students enrolled and paid to receive. The University of California dropped its SAT and ACT requirements at the onset of the COVID pandemic in 2020, a decision that has since become standard practice across American higher education, with more than 90 percent of colleges now declining to require standardized test scores from applicants.\n\nThe UC professors’ request puts the university in the middle of a genuinely difficult conflict with no clean resolution. The case against reinstatement is well established and data-supported: Harvard-led research found that wealthy, typically white students are thirteen times more likely to achieve high SAT or ACT scores than students from low-income families, largely because rigorous test preparation is expensive and unequally distributed, meaning that reinstatement would functionally advantage applicants with economic resources rather than measuring raw academic ability. But elite institutions have been quietly reversing course regardless: MIT reinstated its SAT requirement in 2022, Harvard and Dartmouth followed in 2024, and Yale reinstated its requirement just last month. UC has explicitly refused to follow that trend, encouraging prospective students to focus on essays, coursework, and extracurriculars instead, and the faculty letter is a direct challenge to that position from within the institution’s own classrooms.\n\nThe AI dimension of the crisis is what transforms this from a familiar debate about admissions policy into something with a different and more urgent character. Grade inflation across American colleges has surged dramatically since the mainstream adoption of ChatGPT and other AI tools, with recent research showing that the share of A grades in courses particularly vulnerable to AI-assisted completion, including humanities and engineering, jumped approximately 30 percent since 2023, meaning that the grades appearing on the high school transcripts of incoming UC students are increasingly untethered from what those students actually learned. At the same time, studies have documented that heavy AI use is specifically linked to impaired critical thinking skills, weakened memory, and measurably lower brain activity in areas associated with creativity and synthesis, with one study finding that students who used ChatGPT to write essays showed lower neural engagement in creativity-related brain regions compared to students who used a standard search engine or no assistance at all. The professors writing to UC leadership are not merely describing a gap between what they expected and what they found. They are describing a feedback loop in which AI enables students to pass courses without learning the underlying material, inflated grades mask that failure from admissions officers, and universities then receive students whose transcripts signal readiness that their actual skills do not reflect.",
+            "permalink": "/r/InterstellarKinetics/comments/1tzweuo/warning_university_of_california_math_and_science/",
+            "subreddit": "InterstellarKinetics",
+            "createdUtc": 1780889068,
+            "numComments": 260
+          },
+          {
+            "id": "1uznax2",
+            "url": "https://www.reddit.com/r/blender/comments/1uznax2/5403_nodes_later_i_have_every_metal_and_most/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/NG05Z2YwcHRjeGRoMfWNxMgYwpHxuinx048xhDqtpcDeeO3pxE5NoZA_vX9j.png?width=140&height=78&format=jpg&auto=webp&s=cbd4bf978fb848dbffc89113ad23f0c3051c8041",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 11542,
+            "title": "5,403 Nodes Later, I Have EVERY Metal and Most Alloys in ONE Node. 100% Physically Accurate, Data Straight from the Research Papers. [FREE]",
+            "author": "savageopress115",
+            "authorId": "974j13b6",
+            "selftext": "A complete rework of the Metallic BSDF node that includes multi-layer roughness for realistic material reflections, physically accurate material presets for lots of common metal and many alloys, and multiple additional effects and parameters added for enhanced realism and easier control. All physically based Materials use technical data taken directly from the original research papers.\n\nI Hope you all find this useful, and feel free to report issues or reply with feature requests. And as always, absolutely zero AI was used in the creation of this material.\n\nMAIN PROJECT RESOURCES:\n\n[~~https://youtu.be/r3bkGPobpTw~~](https://youtu.be/r3bkGPobpTw) Information on layered roughness, what it is, and how to implement it, released by LucasPrismal. Very pivotal in the creation of this project, and is the main source of information for this material. EDIT: video is found here as a re-upload, the original was struck to hell by Sony copyright:  [https://youtu.be/uz8PIi3ELJg](https://youtu.be/uz8PIi3ELJg)\n\n[https://youtu.be/K5okG0feNyQ](https://youtu.be/K5okG0feNyQ) Informational video by Christopher 3D explaining material annodization in Blender and how to convert thin film to voltage.\n\n[https://youtu.be/PwhACBSOsyU](https://youtu.be/PwhACBSOsyU) Informational video by Christopher 3D explaining variable roughness and how to implement it in Blender. Very pivotal in this project.\n\nScratch maps used in this material were generated with an after Effects plugin created by LucasPrismal, and can be found in the description of this video here: [https://youtu.be/kWhBrvPHGvU](https://youtu.be/kWhBrvPHGvU)\n\nADDITIONAL DATA SOURCES:\n\nPalmqvist, A. (2026) Physically Based - The PBR Values Database Available at: [https://physicallybased.info/](https://physicallybased.info/) (Accessed: 18 July 2026).\n\nPortsmouth, J., KUTZ, P., &  HILL, S. (2026). OpenPBR: Novel Features and Implementation Details. Physically Based Shading in Theory and Practice, pg, 67. [https://arxiv.org/pdf/2512.23696#appendix.D](https://arxiv.org/pdf/2512.23696#appendix.D)\n\nM. N. Polyanskiy, \"Refractive index database,\" [https://refractiveindex.info](https://refractiveindex.info). Accessed on 2026-07-18.\n\nDOWNLOAD UPDATED VERSION: This Node is now available as an online asset library! Instructions to install along with written and video guides explaining how to use the node can be found on a dedicated website landing page: [https://metallic-bsdf-plus.carrd.co/](https://metallic-bsdf-plus.carrd.co/) Feel free to support by starring the project on Github!: [https://github.com/savageopress11/Metallic\\_BSDF\\_Plus](https://github.com/savageopress11/Metallic_BSDF_Plus)\n\nOUTDATED DOWNLOAD: [~~https://drive.proton.me/urls/FTY2DYW66M#uCsZ3fTftiOB~~](https://drive.proton.me/urls/FTY2DYW66M#uCsZ3fTftiOB)\n\nEDIT: I plan to add more material wear effects in the future. Ambient occlusion, Burnished metal, rust, etc. Right now it is intended to be used as a physically accurate base to your metal materials. Additionally, If you want to use the current material effects, bear in mind that a texture coordinate node is needed to use the effects, just like with any image texture in blender.\n\nEDIT: When I say every metal, I mean every metal that has been studied for it's physical properties for 3D rendering. 30+ metals at this point in time, with more on the way.",
+            "permalink": "/r/blender/comments/1uznax2/5403_nodes_later_i_have_every_metal_and_most/",
+            "subreddit": "blender",
+            "createdUtc": 1784353151,
+            "numComments": 513
+          },
+          {
+            "id": "1xg6mlz",
+            "url": "https://www.reddit.com/r/GhostMesh48/comments/1xg6mlz/starlink_lacks_the_meaty_becon_and_maple_syrup/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/vyykxzim4vxh1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=6b7f536401f21c6a6a7ceb1d249ed54a6294dcf5",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 11219,
+            "title": "Starlink Lacks the meaty becon and maple syrup sustenance we crave here in Canada. We like stability, no time to work around aspie episodes of Rocket Boy.",
+            "author": "Mikey-506",
+            "authorId": "mrnnl",
+            "selftext": "**Here are 24 novel, cutting-edge legal international insights** on the Carney/Starlink episode and the broader problem of single-provider dependence for satellite-enabled critical infrastructure. These go beyond basic space law restatements and focus on emerging tensions between private control, state sovereignty, dual-use systems, and international legal frameworks.\n\n1. **Article VI Outer Space Treaty responsibility is being stress-tested in real time.** States bear international responsibility for national space activities, including those of private entities like SpaceX. Unilateral throttling of services supporting a third state’s military operations creates novel questions about whether the launching/registering state (or the private actor’s state of nationality) must answer for operational decisions that affect another state’s self-defence or humanitarian communications.\n\n2. **The civilian/military distinction in dual-use satellite systems is collapsing under operational pressure.** Musk’s public invocation of “terms of service” versus Starshield’s claimed government control highlights a gap: international humanitarian law treats dual-use objects with care, but private contractual terms are not a recognised lawful means of regulating combatant access. This invites new customary or treaty norms on “service continuity obligations” for dual-use commercial systems.\n\n3. **National security exceptions in trade and investment agreements (USMCA/CUSMA, WTO GATS, bilateral BITs) are being repurposed for orbital infrastructure.** Canada’s diversification push (Telesat Lightspeed, European/Korean/Norwegian partnerships) can be framed as a legitimate national-security measure. The novel question is whether a private operator’s home-state pressure can itself trigger such exceptions for downstream users, effectively converting political risk into a trade-law defence.\n\n4. **Extraterritorial reach of the US CLOUD Act and FISA 702 creates structural vulnerability for foreign critical communications.** Even “sovereign” capacity purchased from a US-controlled constellation remains subject to US process. Cutting-edge advice for middle powers is to require contractual “data-localisation-plus-operational-autonomy” clauses that attempt (with uncertain enforceability) to carve out emergency routing and metadata from foreign legal process.\n\n5. **Private “terms of service” are functioning as de facto international regulation of armed conflict.** When a company unilaterally restricts connectivity used by one party to a conflict, it exercises power traditionally reserved to states or international organisations. This raises emerging questions of whether such actions can be characterised as unlawful intervention or as a form of private “countermeasure” outside the ILC Articles on State Responsibility framework.\n\n6. **Force majeure and political-risk insurance clauses in satellite service contracts are inadequate for hybrid public-private control scenarios.** Standard clauses rarely contemplate a private CEO’s policy decision (or alleged home-government pressure) as a covered event when the service is designated critical by the customer state. New market standards for “sovereign continuity insurance” or escrowed performance bonds are likely to emerge.\n\n7. **The Liability Convention (1972) and Registration Convention offer limited recourse for service denial.** Harm from pure service interruption (as opposed to physical damage) falls outside classic liability regimes. States may begin exploring novel claims based on “functional harm” to critical infrastructure or on breach of implied obligations under the Outer Space Treaty’s peaceful-use and benefit principles.\n\n8. **Designation of space systems as critical infrastructure is accelerating and creating new regulatory asymmetries.** The EU’s Critical Entities Resilience Directive and proposed Space Act, Australia’s Security of Critical Infrastructure Act, and similar moves elsewhere impose cybersecurity and resilience duties. A US-domiciled operator serving foreign critical users may face conflicting obligations; the cutting-edge issue is conflict-of-laws priority when one state’s designation collides with another’s export or sanctions regime.\n\n9. **ITU spectrum and orbital-slot rules were not designed for single-operator global dominance.** Concentration of LEO capacity raises novel arguments for treating certain constellations as “essential facilities” under competition or public-international-law principles, potentially justifying compulsory access or capacity-reservation rules in emergency situations.\n\n10. **Neutrality law is being strained by commercial satellite operators.** Traditional neutrality assumed state control. A private operator that selectively enables or disables services for one belligerent (while remaining available to others) occupies a grey zone. Emerging practice may require states to impose “neutrality-of-service” conditions on their nationals’ space activities when those activities affect third-state conflicts.\n\n11. **Investment-treaty claims are a realistic downstream risk for both operators and customer states.** If Canada or another state restricts market access or imposes localisation/ownership conditions on Starlink (or similar systems) citing security, SpaceX could claim expropriation or FET violations under applicable BITs. Conversely, abrupt service changes could support claims by foreign users or their states under investment or commercial arbitration clauses.\n\n12. **Arctic-specific legal and operational regimes amplify the dependence problem for Canada.** NORAD, NATO, and indigenous/remote connectivity needs create overlapping jurisdictions. Novel arrangements (capacity-sharing treaties with Norway, South Korea, or EU partners; dual-key control architectures) are emerging as practical responses to the “one provider / one government” risk Carney identified.\n\n13. **Cyber operations law (Tallinn Manual 2.0 and emerging state practice) must address “soft” control of commercial constellations.** Throttling, geofencing, or speed-capping can constitute interference with critical infrastructure without amounting to a classic cyber attack. Attribution, due diligence, and countermeasures doctrines will need refinement for scenarios where the interfering actor is a private company acting under (or despite) home-state influence.\n\n14. **Humanitarian access and the duty to ensure essential communications in conflict are under-developed for commercial satellite systems.** While there is no clear positive obligation on private operators, states that rely on them for civilian or medical connectivity may face secondary obligations under IHL or human-rights law to secure redundant capacity. This is driving interest in pre-negotiated “humanitarian carve-outs” in commercial contracts.\n\n15. **Export-control regimes (ITAR, EAR, Wassenaar) can be used defensively by customer states.** Requiring end-use certifications, technical-assistance agreements, or restrictions on remote control from the operator’s home territory is a novel compliance tool. It converts the operator’s home-state regulatory power into a point of leverage for the customer state.\n\n16. **State-to-state diplomatic and legal countermeasures are becoming thinkable.** If a pattern of service restrictions is viewed as inconsistent with the Outer Space Treaty or as an unfriendly act affecting critical infrastructure, affected states could explore proportionate countermeasures (spectrum restrictions, investment screening, or reciprocal limits on the operator’s other space activities). This remains highly escalatory but is no longer purely theoretical.\n\n17. **“Orbital sovereignty” and non-interference norms are crystallising around commercial systems.** Beyond classic non-appropriation, states are beginning to assert functional control over the services their populations depend upon. Multilateral discussions (UN COPUOS, ITU, emerging Artemis-style arrangements) may produce soft-law guidelines on minimum continuity standards for dual-use constellations.\n\n18. **Corporate due-diligence and ESG frameworks are expanding into geopolitical risk for space operators.** Boards of companies providing critical satellite services may face growing expectations (and potential liability) under emerging supply-chain and human-rights due-diligence laws (EU CSDDD, national equivalents) when their operational decisions have foreseeable effects on civilian populations or allied military operations.\n\n19. **Public-private partnership models for “sovereign capacity” are creating hybrid legal instruments.** Canada’s multi-billion-dollar support for Telesat, combined with military contracts and international partnerships, illustrates a new category of arrangement: the state retains title or control rights over capacity while the operator provides the technology. These contracts will generate novel questions of public international law status and immunity.\n\n20. **Middle-power coalition-building is acquiring a legal dimension.** Carney’s outreach to European, Korean, and Norwegian partners points toward possible multilateral “capacity mutualisation” treaties or memoranda that allocate orbital resources, share ground infrastructure, and create collective response mechanisms. Such instruments could fill the governance gap left by the absence of a comprehensive space-services treaty.\n\n21. **Universal-service and digital-inclusion obligations collide with private geopolitical discretion.** Domestic regulators (CRTC in Canada, equivalents elsewhere) may begin conditioning licences or subsidies on enforceable continuity and non-discrimination commitments that survive foreign political pressure. Enforcement against a foreign operator remains difficult but creates domestic legal leverage.\n\n22. **Attribution and command-responsibility analogies are being tested.** When a private executive publicly claims or is reported to have ordered operational restrictions that affect a conflict, questions arise about whether that individual or the company can be treated, for certain purposes, as exercising state-like authority. This is uncharted territory for both international criminal law and state-responsibility doctrine.\n\n23. **Insurance and reinsurance markets will price “political-control risk” as a distinct peril.** Traditional space insurance focuses on launch and on-orbit physical risk. The Starlink/Ukraine episodes are accelerating development of specialised political-risk products covering service denial by the operator or its home government—potentially with subrogation rights that could generate secondary claims.\n\n24. **The episode accelerates the case for a new international instrument on dual-use satellite services.** Existing treaties (OST, Liability, Registration, ITU Constitution) do not adequately address continuity of commercial services used for critical civilian or military functions. Cutting-edge proposals include model contractual clauses, a voluntary code of conduct on emergency continuity, or, longer-term, a protocol addressing minimum service standards and dispute-resolution mechanisms for dual-use constellations.\n\nThese insights treat the Carney warning and the Ukraine Starlink/Starshield episode as a structural inflection point rather than an isolated incident. The core legal challenge is that private contractual and operational control now sits inside domains traditionally governed by public international law, national-security doctrine, and critical-infrastructure regulation—creating friction that existing frameworks only partially resolve.",
+            "permalink": "/r/GhostMesh48/comments/1xg6mlz/starlink_lacks_the_meaty_becon_and_maple_syrup/",
+            "subreddit": "GhostMesh48",
+            "createdUtc": 1793042917,
+            "numComments": 249
+          },
+          {
+            "id": "1vrxpnc",
+            "url": "https://www.reddit.com/r/witcher/comments/1vrxpnc/my_keira_metz_cosplay/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/enNzMThrZ3lmNmtoMe0PSXQ7lp0WX_0_pgi5BaD680DFan15qtIEwNOHQkRF.png?width=140&height=140&crop=1%3A1%2Csmart&format=jpg&auto=webp&s=770a1b9c553b084407ae802a985b957906eee9aa",
+                "type": "video",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 10261,
+            "title": "My Keira Metz cosplay",
+            "author": "Gurami_San",
+            "authorId": "1lefxphamq",
+            "selftext": "Filmed at a festival, with the hand effects done by my friend! No filters or AI, just practical effects!",
+            "permalink": "/r/witcher/comments/1vrxpnc/my_keira_metz_cosplay/",
+            "subreddit": "witcher",
+            "createdUtc": 1787077866,
+            "numComments": 102
+          },
+          {
+            "id": "1vehha0",
+            "url": "https://www.reddit.com/r/therewasanattempt/comments/1vehha0/to_write_a_travel_guide/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/hkmrrmo3n6hh1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=8d7c6dc2617968110651efc02f51855456a6b192",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 10248,
+            "title": "to write a travel guide",
+            "author": "pjcace",
+            "authorId": "60k2g",
+            "selftext": "They apparently just used ai. Absolutely worthless book. Didn't even remove the prompt in the introduction. The whole book, a travel guide, was generalities and no specifics. You could change the name and have it be any city anywhere.\n\nAlso, the picture on the cover was not of the town the book was about.",
+            "permalink": "/r/therewasanattempt/comments/1vehha0/to_write_a_travel_guide/",
+            "subreddit": "therewasanattempt",
+            "createdUtc": 1785772708,
+            "numComments": 130
+          },
+          {
+            "id": "1u7le7p",
+            "url": "https://www.kpbs.org/news/environment/2026/06/15/imperial-valley-data-center-developer-files-lawsuit-seeking-access-to-colorado-river-water",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/bW01Zirqgfew7btfghuMUh5wrdbFRa-x3ZjBPk-6UU4.jpeg?width=140&height=73&auto=webp&s=f41d35207476dc03cf39e4a259adce7ea700b10d",
+                "type": "photo",
+                "width": 140,
+                "height": 73
+              }
+            ],
+            "score": 10239,
+            "title": "EXCLUSIVE: A Data Center Developer Who Previously Promised His AI Complex Would Never Touch a Drop of Colorado River Water, Just Sued to Get 260 Million Gallons of It Per Year From the Drought Stricken River 🤖",
+            "author": "InterstellarKinetics",
+            "authorId": "1y4sxqx7ag",
+            "selftext": "Sebastian Rucci, a developer and attorney based in Huntington Beach, California, is trying to build a massive AI data center complex in Imperial Valley through his company Imperial Valley Computer Manufacturing, also known as IVCM. As recently as February 2026, a blog post on his law firm’s website stated the facility “purchases municipal wastewater that would otherwise be discarded” and would “not touch a single drop of the Colorado.” According to KPBS, IVCM has now filed a lawsuit against the Imperial Irrigation District in Imperial County Superior Court seeking access to 260 million gallons of Colorado River water per year, roughly equivalent to the annual water needs of 7,300 Imperial County residents, after IID rejected the company’s water application in May 2026.\n\nThe project calls for approximately 750,000 gallons of water per day for cooling. IVCM said it had originally pursued recycled water agreements with the cities of Imperial and El Centro but both backed out of those negotiations. In the lawsuit, IVCM argued it has leased 160 acres of active nearby farmland and plans to let it go dormant, claiming the fallowed land would offset its water draw from the Colorado River. According to KPBS, IID rejected the company’s water application in May 2026, which IVCM described as the reason the lawsuit became a last resort. This is not the first legal conflict between IVCM and IID as the company also filed a separate federal lawsuit earlier this year accusing IID of slow-walking its energy application for the project.\n\nThe lawsuit adds to a growing pattern of conflict between data center developers and water authorities across the country. In Georgia, a data center quietly drained 30 million gallons of water before residents noticed through low water pressure complaints. In Oregon, Amazon data centers have been linked to water pollution affecting farmland communities. The Colorado River, which supplies drinking water and agricultural irrigation to 40 million people across seven states and Mexico, is now the latest flashpoint in the battle between AI infrastructure expansion and regional water survival.",
+            "permalink": "/r/InterstellarKinetics/comments/1u7le7p/exclusive_a_data_center_developer_who_previously/",
+            "subreddit": "InterstellarKinetics",
+            "createdUtc": 1781633581,
+            "numComments": 164
+          },
+          {
+            "id": "1w3l6dh",
+            "url": "https://www.reddit.com/r/law/comments/1w3l6dh/james_talarico_nothing_terrifies_them_more_than/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/eXB4bzFmdnZ6cW1oMSsaAOSLWgwhB3SKMnQx-ZYBIjWYtOchul_h6dMUTW0z.png?width=140&height=78&format=jpg&auto=webp&s=114c7a3c1ad1fec7f570e4a7133d8e3ac72f5cdc",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 10232,
+            "title": "James Talarico: \"Nothing terrifies them more, than people who show up to vote, and people who show up to hold elected officials accountable. It's why they arrested people.\" In Tarrant County TX, Judge Tim O'Hare is surgically cutting voting locations in minority and poor areas to help Maga.",
+            "author": "yeongno_ate_yangban",
+            "authorId": "1z6zm97rq9",
+            "selftext": "REJECT THE BILLIONAIRES. VOTE IN EVERY LOCAL ELECTION.\n\nCommissioners were ready to cut nearly half of voting locations last time, but everyone showed up in opposition.\n\n[https://christackett.substack.com/p/tarrant-county-was-poised-to-cut](https://christackett.substack.com/p/tarrant-county-was-poised-to-cut)\n\n> Even though a lot of the individual cut sites were smaller, together those cut sites still accounted for almost 40% of everyone who voted on Election Day in 2022. That’s not a rounding error. That’s a huge percentage of the county’s Election Day voters whose specific polling place no longer exists.\n\nAfter massive backlash they're trying to negotiate by cutting 30% of polling locations, even though population and voter registrations are massively higher this election cycle\n\n[https://christackett.substack.com/p/tarrant-county-is-cutting-92-voting](https://christackett.substack.com/p/tarrant-county-is-cutting-92-voting)\n\nThe Voting Rights Act of 1965 (Section 2) is our strongest protection against this, but it has been repeatedly gutted recently by the supreme court. They sided with Abbott to racially gerrymander even after the Texas maps were found to be racial in nature. Section 2 prohibits any voting standard, practice, or procedure that results in the denial or abridgment of the right to vote on account of race or color.\n\nhttps://www.scotusblog.com/2025/12/supreme-court-allows-texas-to-use-redistricting-map-challenged-as-racially-discriminatory/\n\nThe 14th Amendment's Equal Protection Clause and the 15th Amendment prohibit states and local governments from intentionally designing voting policies that discriminate based on race.\n\nTexas Law: Mandated Objective Methodology (Section 43.007): Section 43.007(f) requires the county to adopt an official \"methodology\" for determining where polling places will be located, which appears not to have been followed.\n\nTim O'Hare is a long time leader in True Texas Project. O'Hare told his white nationalist group he does this kind of thing to help Maga cheat.\n\n> But Garcia lasted only a few months under O’Hare: In April 2023, he resigned his position, citing his relationship with O’Hare in his resignation letter. “Judge O’Hare, my formula to ‘administer a quality transparent election’ stands on respect and zero politics; compromising on these values is not an option for me,” Garcia wrote. “You made it clear in our last meeting that your formula is different, thus, my decision is to leave.”\n\n> One day after Garcia resigned, O’Hare told members of True Texas Project — a group whose leaders have sympathized with a white nationalist mass shooter and endorsed Christian nationalism — that he was encouraged by the potential for low turnout in that year’s upcoming elections, which he said would help Republicans win more local seats. (O’Hare previously served on True Texas Project’s advisory team, according to a 2021 social media post by the group’s CEO, Julie McCarty).\n\nhttps://www.texastribune.org/2024/10/11/texas-tarrant-county-tim-ohare-far-right/\n\nWhen Tim O'hare talks to the media he says it's all non partisan, and gaslights everyone who calls him out on it being partisan. When Tim O'hare talks to his republican circles, he says it's purely partisan, and they can count on him to do anything to help Maga win. To Tim any end justifies the means.\n\nr/FortWorth/comments/1w274w6/tim_ohare_tarrant_countys_population_is_exploding/",
+            "permalink": "/r/law/comments/1w3l6dh/james_talarico_nothing_terrifies_them_more_than/",
+            "subreddit": "law",
+            "createdUtc": 1788198476,
+            "numComments": 77
+          },
+          {
+            "id": "1xq6rgy",
+            "url": "https://www.reddit.com/gallery/1xq6rgy",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/bcg2b0h6370i1.jpeg?width=140&height=117&auto=webp&s=afd3d02e6b54524e2d87970b8a51b7d6634e6010",
+                "type": "photo",
+                "width": 140,
+                "height": 117
+              }
+            ],
+            "score": 10122,
+            "title": "REPOST WITH PHOTOS :) 10 week old kitten will ONLY stop biting if he has a sweater on.",
+            "author": "annnaabanaanana",
+            "authorId": "ftdaxjxv",
+            "selftext": "Reposting as it wouldn’t let me add photos to the previous post!\n\nI adopted a little baby kitten at about 7-8 weeks old from my neighbor.\n\nAn outdoor cat had babies in my neighbor's yard, and they took the family into their garage for warmth and safeness. However, at around 5-6 week the mother stopped coming to the kittens and treated them like any other cats on the street.\n\nMy neighbor took care of them but ultimately gave them away to trusted people when they were about 7.5 weeks.\n\nNow l've had my baby kitten for about 3 weeks and he's a VERY SOCIALIZED friendly kitten. he LOVES the car, people, exploring, dogs, and practically everything.\n\nHowever I noticed he bites A LOT. he will ditch any toy to go bite on a hand or foot. The only time he is calm and not spazzing is when I put a sweater on him.\n\nFor context, my mom made him multiple sweaters and he LOVES them. Even added a little bearpaw logo that came from the new socks we used for his sweaters We keep the house pretty warm so he's never cold but when it's colder he wears a little sweater.\n\nOur only kind of weird concern is that it is the only thing that makes him stop biting. It makes him actually play with his toys, makes him stop biting, and makes him way more cuddly once he's tired.\n\nWe read up on single kitten syndrome but he seems to hate all other kittens/cats. When we brought him around my sister in laws cats he would just hiss and hide. However he loves my parents dog and constantly tries to cuddle and play with her.\n\nIs there some reasoning for this?\n\nEDIT: we followed tips on introducing cats! The other cats he was around were as young as 5 months to 3 years old. He would hiss and hide at even the site of another cat. When he sees the neighborhood cats outside the window or door he hisses and is on edge for the rest of the day :( I don’t want to bring another kitten into our home if it seems like it would just be a bigger stress for him. We spoke to a vet today and given the situation they also recommended against getting another kitten! ",
+            "permalink": "/r/kittens/comments/1xq6rgy/repost_with_photos_10_week_old_kitten_will_only/",
+            "subreddit": "kittens",
+            "createdUtc": 1794059228,
+            "numComments": 211
+          },
+          {
+            "id": "1x2xos3",
+            "url": "https://www.reddit.com/r/BoyDinnerDiaries/comments/1x2xos3/asked_a_coworker_to_dinner_she_practically_ran/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/lxzc4qy3bruh1.jpeg?width=140&height=105&auto=webp&s=7e5d949a482122ea6682315e2583f6d31c65466a",
+                "type": "photo",
+                "width": 140,
+                "height": 105
+              }
+            ],
+            "score": 9982,
+            "title": "Asked a coworker to dinner, she practically ran out the door.",
+            "author": "Melodic_Tumbleweed33",
+            "authorId": "8spbopxo",
+            "selftext": "See edit at bottom for Monday update. \n\nUpdate post: https://www.reddit.com/r/BoyDinnerDiaries/comments/1x5fp6q/update_asked_a_coworker_to_dinner_she_practically/\n\nI've worked at this small company for close to a year.  I thought I had made a connection with someone I work with.  I'll call her Jenny.  A bit of background, all employees other than the boss and her are Asian immigrants, myself included.  She's the only woman there. I'm the new guy there.  \n\n\n\nSome reasons I thought we had a connection:  \n\nShe'd ask about every little thing I had on my desk.\n\nShe'd ask about the projects I'm working on and ask me to show her.  We work in different departments.\n\nShe asked if Asian families are okay with dating non-Asians.  I think she specifically referenced white, but it was a long time ago. \n\nShe comes to talk to me about random shit the most.  Granted I've been here (US) a while and I can actually carry on a conversation with her. \n\nShe'd say she's hoping to meet single men, and her weekends are boring.  \n\nShe'd touch my arms occasionally when we talk.  I workout and according to her it shows.\n\nShe'd really look into my eyes and smile sometimes. \n\n\n\nWe sit in an open office area where we can see people come in. So last week a random sales woman came into our building to look for someone.  Jenny stood up to see who the visitor was.  Then she turned to me and said in an exaggerated and the most sultry voice, with the facial expression to go with it, \"I am here to look for <My Name> ..\"  to make fun of the visitor.  Her feminine wiles were off the charts.\n\n\n\nI burst out laughing. One, because I am a dummy.  Two, I laugh when I don't know how to act.   Three, see point one, I am a huge dummy.  I wish I had let her finish because I was captivated.  I wish I was smooth enough to play along with her.  But alas I am my worst enemy. \n\n\n\nI had been trying to go along with the conventional wisdom of not dating people in your office. Especially since this was a small company.  And also I didn't think I was her type.  I'd done my best to not think of her that way.  But this broke my shit.  I thought I'd be a fool not to shoot my shot. \n\n\n\nLast Friday at the end of the day, I asked her if she wanted to get some food after work sometime.  She couldn't run away fast enough.  She said things along the lines of \"yeah, okay, we'll do that, etc.\", as she was hurrying out the door.  \n\n\n\nAm I cooked?  Did I fuck up? \n\n\n\nI'm late 40s and Jenny is early 50s if that helps.\n\n\n\nFor dinner, Stella and wine from Costco to wallow in my own thoughts.  Added potstickers from the fridge to trick AI AutoMod.\n\nEdit: So no big development to update as of yet.  \n\nThis morning I felt a tinge of awkwardness.  I'm not sure if it was me projecting or not.  But things quickly went back to business as usual work wise.\n\nShe did not bring up me asking her to dinner all day.  I did want to clear the air so late afternoon I asked her about it and let her know that there's no pressure.  We could just carry on business as usually.   She replied yes we can do dinner, just not this week.  And clarified that \"it's just a casual thing, right?\".  \n\nProbably not too many of you will see this update.  When there's more to update I might make a new post about it.\n\n",
+            "permalink": "/r/BoyDinnerDiaries/comments/1x2xos3/asked_a_coworker_to_dinner_she_practically_ran/",
+            "subreddit": "BoyDinnerDiaries",
+            "createdUtc": 1791688978,
+            "numComments": 799
+          },
+          {
+            "id": "1tfeibp",
+            "url": "https://www.reddit.com/r/Music/comments/1tfeibp/hot_take_the_concert_industry_isnt_dying_people/",
+            "nsfw": false,
+            "media": [],
+            "score": 9909,
+            "title": "Hot take: the concert industry isn't dying, people just don't want to pay $100 to watch an influencer sing over backing track",
+            "author": "peepeebuttbrain",
+            "authorId": "1w1f766fno",
+            "selftext": "And by influencer I mean any celebrity really.\n\nThe writing was on the wall after the pandemic tbh. People were stuck inside and when they got outside they wanted music, and more importantly they wanted live bands. Even local shows in my city booked less rappers and more bands, across the board. As usual the mainstream operates on a lag but eventually is catching up with culture. For some reason from 2010-2019 people stopped caring about lip syncing, autotune, and backing tracks, and most people didn't care whether the artists they listened to play any instruments or write their own songs. Today the pendulum is swinging hard, as people are over exposed to AI everything and crave authenticity and connection. The same authenticity that the tippy top of the mainstream has done everything to strip away is now so high in demand that it is an absolute deal breaker for fans.\n\n I think even artists who straddle the middle struggling now, for example someone like Post Malone, who is actually decent at guitar but spent the first 2/3rds of his career blending in with pop by letting his musicianship be practically a secret.\n\nObviously high ticket prices are a thing but I think this is another factor.",
+            "permalink": "/r/Music/comments/1tfeibp/hot_take_the_concert_industry_isnt_dying_people/",
+            "subreddit": "Music",
+            "createdUtc": 1778990165,
+            "numComments": 745
+          },
+          {
+            "id": "1xlppis",
+            "url": "https://www.reddit.com/r/hatethissmug/comments/1xlppis/i_hate_when_people_choose_the_wrong_reasons_to/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/upi84rv425zh1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=ae2b01062b235ff13563dd28b4b5a241549f6c4a",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 9715,
+            "title": "I hate when people choose the wrong reasons to hate AI",
+            "author": "No_Reindeer5223",
+            "authorId": "19tsmnlue9",
+            "selftext": "If you haven't seen the tweet above, basically an AI \"art\" account posted a picture of a real Monet painting and said it was AI, and everyone in the comments are trying to shit on the painting just because it was labelled as AI.\n\nLet me be clear, WE hate AI, but I hate how people go out of their way to make disingenuous arguments against AI while ignoring the ACTUAL reason AI is bad.\n\nFor example, I hear people shitting on how useful AI is. I just want to be real for a second, AI is already better at almost all STEM fields than humans. Ask any industry coder. And with time it will become better artists than us, better moviemakers than us, better at everything than us. That's why this argument sucks. It concedes that, once AI is better than us, it becomes a good thing. But that's not why it's bad. AI isn't bad because it's WORSE than humans, it's bad because it ISN'T human and it harms actual people.\n\nI've also seen a lot of people saying AI is \"just a bubble.\" If you think that I would recommend reading \"The Coming Wave,\" but tldr, it isn't. Technology is like Pandora's Box. Once you let it out there's practically no way to contain it. But again, THIS ISN'T WHY AI IS BAD. It's not a bad thing because it's \"nOt PrOfItAbLe\" or \"NoT eCoNoMiCaLly SuStAinAble,\" It's bad because it's ruining people's livelihoods and environments! \n\nGet real about what's actually wrong with AI. AI supporters WANT the conversation to be about effectiveness (because AI is really effective) and about the economics (because AI is going to be profitable). They don't want to talk about human replacement, environmental damages, or mass poverty because those are actual, genuine critiques. ",
+            "permalink": "/r/hatethissmug/comments/1xlppis/i_hate_when_people_choose_the_wrong_reasons_to/",
+            "subreddit": "hatethissmug",
+            "createdUtc": 1793600144,
+            "numComments": 2184
+          },
+          {
+            "id": "1sqclks",
+            "url": "https://www.reddit.com/r/redneckengineering/comments/1sqclks/when_wives_find_things_on_line_and_you_build_em/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/2nogfoa7b9wg1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=0b424d6383d25b2f2e9dc46c36c438820c2dffc1",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 9281,
+            "title": "When wives find things on line and you build em",
+            "author": "mrmatt1988",
+            "authorId": "tsprd",
+            "selftext": "My wife found the viral 5 gallon bucket garden. Which has been done poorly with different widths of wood. Accompanied by ai slop or poorly built. This was built by me and was suggested to bring to this to r/redneckengineering\n\nI'm well aware of the problems faced with the choice of bucket. Buckets are full of water and are also filling each space for the photo.\n\nIf you're interested in building one. I can support you with best practices and measurements so you may DIY.\n\n",
+            "permalink": "/r/redneckengineering/comments/1sqclks/when_wives_find_things_on_line_and_you_build_em/",
+            "subreddit": "redneckengineering",
+            "createdUtc": 1776652219,
+            "numComments": 634
+          },
+          {
+            "id": "1xg6l5f",
+            "url": "https://www.reddit.com/r/Grimdank/comments/1xg6l5f/aesthetic_inversion_is_peak_though_imagine_the/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/pyxcl5yv4vxh1.jpeg?width=140&height=108&auto=webp&s=99a172ec27d16fde187a9b300a1dc22f2a72e429",
+                "type": "photo",
+                "width": 140,
+                "height": 108
+              }
+            ],
+            "score": 9272,
+            "title": "Aesthetic inversion is peak though, imagine the good guys got all the Drippy gear and the bad-guys got AI-generated chat-gpt clown-costumes.",
+            "author": "throwaway553t4tgtg6",
+            "authorId": "cmpbjmurx",
+            "selftext": "",
+            "permalink": "/r/Grimdank/comments/1xg6l5f/aesthetic_inversion_is_peak_though_imagine_the/",
+            "subreddit": "Grimdank",
+            "createdUtc": 1793042827,
+            "numComments": 599
+          }
+        ],
+        "nextCursor": "cur_7DaooxdcxLj1mm9P0GlTPw"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-bison-9321fc54",
+      "kind": "anonymous",
+      "name": "Bison",
+      "artworkKey": "bison"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00035",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:41:41.284Z",
+  "started_at": "2026-11-23T07:41:41.318Z",
+  "completed_at": "2026-11-23T07:41:43.139Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

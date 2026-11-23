@@ -1,0 +1,94 @@
+{
+  "id": "3109094c-77d3-46f4-91e1-57a9e8f2b70a",
+  "run_url": "https://app.glasser.ai/runs/3109094c-77d3-46f4-91e1-57a9e8f2b70a",
+  "provider": "scrapecreators",
+  "endpoint": "/v1/linkedin/search/posts",
+  "endpoint_version": 4,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "query": "multi-agent simulation hackathon won grand prize agents characters",
+    "date_posted": "last-month"
+  },
+  "output": {
+    "posts": [
+      {
+        "url": "https://www.linkedin.com/posts/bianca-andreea-buzea_i-drank-beer-brewed-by-ai-agents-activity-7520068450816331776-oPS0",
+        "image": "https://media.licdn.com/dms/image/v2/D4D1FAQEBNEX-v7_5HA/feedshare-document-images_1920/B4DaFykefYJIAo-/1/1792923528590?e=1796256000&v=beta&t=drLcdpbnhWvmNYhuNjbyTsldq7sxhyeVUOEDrEqy_6I",
+        "media": "https://media.licdn.com/dms/image/v2/D4D1FAQEBNEX-v7_5HA/feedshare-document-images_1920/B4DaFykefYJIAo-/1/1792923528590?e=1796256000&v=beta&t=drLcdpbnhWvmNYhuNjbyTsldq7sxhyeVUOEDrEqy_6I",
+        "author": {
+          "url": "https://de.linkedin.com/in/bianca-andreea-buzea",
+          "name": "Bianca Buzea",
+          "followers": 3837
+        },
+        "images": [
+          "https://media.licdn.com/dms/image/v2/D4D1FAQEBNEX-v7_5HA/feedshare-document-images_1920/B4DaFykefYJIAo-/1/1792923528590?e=1796256000&v=beta&t=drLcdpbnhWvmNYhuNjbyTsldq7sxhyeVUOEDrEqy_6I",
+          "https://media.licdn.com/dms/image/v2/D4D1FAQEBNEX-v7_5HA/feedshare-document-images_1920/B4DaFykefYJIAo-/2/1792923528590?e=1796256000&v=beta&t=clW0yIId0jdZemVlSHnTwQ33rUhkbIcHxR0HyBG9U_Y",
+          "https://media.licdn.com/dms/image/v2/D4D1FAQEBNEX-v7_5HA/feedshare-document-images_1920/B4DaFykefYJIAo-/3/1792923528590?e=1796256000&v=beta&t=wWcMjs1G-y0v14k4RNTUELmQgOxPQzGVdOzFu7-6M2o",
+          "https://media.licdn.com/dms/image/v2/D4D1FAQEBNEX-v7_5HA/feedshare-document-images_1920/B4DaFykefYJIAo-/4/1792923528590?e=1796256000&v=beta&t=DWYTmkM7DL_3d4KggY6ZXsLduogHvzJ66RQqlN86aas",
+          "https://media.licdn.com/dms/image/v2/D4D1FAQEBNEX-v7_5HA/feedshare-document-images_1920/B4DaFykefYJIAo-/5/1792923528590?e=1796256000&v=beta&t=FVi9W0d3cUCX26cR7LfbIP2R0Sv4QYLkfuNKHUx-2Jc",
+          "https://media.licdn.com/dms/image/v2/D4D1FAQEBNEX-v7_5HA/feedshare-document-images_1920/B4DaFykefYJIAo-/6/1792923528590?e=1796256000&v=beta&t=QGuimANxEWiGikF5lqmeC33nSUK8NdRubrHUD4surpU",
+          "https://media.licdn.com/dms/image/v2/D4D1FAQEBNEX-v7_5HA/feedshare-document-images_1920/B4DaFykefYJIAo-/7/1792923528590?e=1796256000&v=beta&t=eAWyua0xkXAOKFb_uRfmSTaLYUe4JTwJBbls7k5nwD4",
+          "https://media.licdn.com/dms/image/v2/D4D1FAQEBNEX-v7_5HA/feedshare-document-images_1920/B4DaFykefYJIAo-/8/1792923528590?e=1796256000&v=beta&t=v1XonYQakwCfYfqakXiBpypMYFpXtHkfMlVfNfXmkA0",
+          "https://media.licdn.com/dms/image/v2/D4D1FAQEBNEX-v7_5HA/feedshare-document-images_1920/B4DaFykefYJIAo-/9/1792923528590?e=1796256000&v=beta&t=qRNTFfet_Xrd87ERWyAsEo7z6VoTkKE8S5j8UZXLusk",
+          "https://media.licdn.com/dms/image/v2/D4D1FAQEBNEX-v7_5HA/feedshare-document-images_1920/B4DaFykefYJIAo-/10/1792923528590?e=1796256000&v=beta&t=b6i_S1_94lAZwLJuK3qn-VxGtTszXFd366X6GjsqcBs"
+        ],
+        "comments": [],
+        "likeCount": 27,
+        "contentUrn": "urn:li:ugcPost:7520068449469947904",
+        "activityUrn": "urn:li:activity:7520068450816331776",
+        "description": "Last Saturday, I went to an NVIDIA warm-up event for GTC Berlin and drank beer brewed by AI agents. 🦞🍺\n\nGerhard runs Lobster Lager. Agents built his website and handle the logistics, the ingredients, the recipes and the brewing. What they still haven't automated: taxes. Very German.\n\nHis line stuck with me: \"If I, at 68, can use this, imagine what you could be doing.\"\n\nAs a DevRel, I was just as hooked on how Mark Heaps ran the room. He turned every transition into a story, brought a bit of Texas to Berlin, and never pitched once. He put builders on stage and let them do the inspiring. Honestly, a masterclass in developer storytelling.\n\nWant to build something yourself? Here are some free resources from the event:\n- Build-a-Claw Resource Hub: https://lnkd.in/dyk89aAK\n- Free NemoClaw & OpenShell course: https://lnkd.in/dChQ6_tG\n- NVIDIA NemoClaw GitHub: https://lnkd.in/dfDSdNKR\n\nCheers!",
+        "commentCount": 1,
+        "datePublished": "2026-10-25T10:27:14.789Z"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/vy-trg_stopwise-live-trains-buses-trams-and-activity-7527756643300970496-CFdJ",
+        "image": null,
+        "media": null,
+        "author": {
+          "url": "https://au.linkedin.com/in/vy-trg",
+          "name": "Vy Truong",
+          "image": "https://media.licdn.com/dms/image/v2/D5603AQEmIMyJqKJMqw/profile-displayphoto-scale_200_200/B56Z2jmmFfKIAY-/0/1776566301601?e=2147483647&v=beta&t=XqQXKMJJqAG477iEVtHDRzZs4hwzk3NUn7fXvew61Qo",
+          "followers": 295
+        },
+        "images": [],
+        "comments": [
+          {
+            "id": "7528069691068710912",
+            "urn": "urn:li:comment:(urn:li:activity:7527756643300970496,7528069691068710912)",
+            "text": "“tight” is the one i’d use most. it’s the moment i’d get my bag on and be ready at the train doors.",
+            "author": "Andrew Galaiko",
+            "linkedinUrl": "https://uk.linkedin.com/in/andrew-galaiko-0569a9336",
+            "datePublished": "2026-11-16T12:21:19.123Z",
+            "reactionCount": 1,
+            "publishedTimeAgo": "6d"
+          }
+        ],
+        "likeCount": 7,
+        "contentUrn": "urn:li:share:7527756640411058176",
+        "activityUrn": "urn:li:activity:7527756643300970496",
+        "description": "Every morning I take the Springfield line to uni and change to a bus. If the train is 3 minutes late, do I run, or have I already missed it? 🏃‍♀️\nNo app answered that, so I built one.\nStopwise shows every train, bus, tram and ferry in South East Queensland live, using TransLink's real-time data. Choose your train and where you get off, and it rates every bus after it: Make it, Tight or Miss, based on the real walking route and live delays.\nUnder the hood:\n🔹 An Express server fetches TransLink's feeds once every 30 seconds and shares them with every user, instead of every phone calling TransLink\n🔹 PostgreSQL holds the timetable for 12,000+ stops\n🔹 A scheduled job records how late every train is every 10 minutes, so you can see which lines and times you can actually rely on\n🔹 \"Start journey\" walks you through the trip and alerts you when to get off, even with your phone locked\nThe bug I won't forget: after adding security headers, the map looked fine – until I zoomed in and OpenStreetMap started blocking every new tile. The headers had stopped sending information their servers require, and cached tiles hid the problem on the first screen. Now I test the whole user journey after every change, not just the first page.\nIt began as \"Railway Live\" with only trains. Once buses, trams and ferries came in, it needed a new name.\nTry it or read the code 👇\nhttps://lnkd.in/gPXbArn8\nhttps://lnkd.in/g3RZKT9Z\nI'm looking for software development internships and WIL placements in Brisbane. If you're building something in transport, data or web, I'd love to connect.\n#NodeJS #PostgreSQL #JavaScript #OpenData #PublicTransport #SoftwareDevelopment #Brisbane",
+        "commentCount": 2,
+        "datePublished": "2026-11-15T15:37:22.717Z"
+      }
+    ],
+    "query": "multi-agent simulation hackathon won grand prize agents characters",
+    "cursor": null,
+    "success": true
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00188",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:36:10.426Z",
+  "started_at": "2026-11-23T07:36:10.462Z",
+  "completed_at": "2026-11-23T07:36:19.394Z",
+  "task_id": "tsk_965d2263a224d7b9",
+  "metadata": {}
+}

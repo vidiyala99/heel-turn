@@ -1,0 +1,591 @@
+{
+  "id": "340eeda2-38c9-413a-a3de-db49ba46ff65",
+  "run_url": "https://app.glasser.ai/runs/340eeda2-38c9-413a-a3de-db49ba46ff65",
+  "provider": "anyapi",
+  "endpoint": "/reddit.search",
+  "endpoint_version": 1,
+  "status": "COMPLETED",
+  "failure": null,
+  "input": {
+    "sort": "top",
+    "query": "AI agents play Among Us",
+    "timeframe": "year"
+  },
+  "output": {
+    "hint": "large_result: this response is ~42 KB. To keep future runs from flooding your context, re-run with `fields` (keep only the keys you need), `max_items` (cap rows), `summary=true` (outline only), or `jq` for arbitrary reshaping (e.g. `jq=.data.markdown[:2000]`) — these trim the response only, never the charge.",
+    "items": 25,
+    "output": {
+      "data": {
+        "posts": [
+          {
+            "id": "1qsei9w",
+            "url": "https://www.reddit.com/gallery/1qsei9w",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://a.thumbs.redditmedia.com/iT_Jdn2X0fkjEXRvoy-IwrTjS8Mdvw9Nj-4w3RCF7D8.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 105
+              }
+            ],
+            "score": 227823,
+            "title": "My days are nearing and my local hospital allowed me any request. This is how I will go out. Rip & Tear, brothers and sisters.",
+            "author": "Wanderingreader123",
+            "authorId": "1y6519em",
+            "selftext": "For context, I have been battling Non-Hodgkins Lymphoma since 2022. And up until this point, I never imagined myself to be in a situation where my life expectancy has gone down to possibly weeks. I am currently at one of Canada's best hospitals in Toronto, Ontario; keeping myself afloat through these trying times. Despite it all, I was given the opportunity to make any request for my stay, and this is the one I have chosen. I have been a Doom fan since 2016, and it helped me get through some tough times. I've played through both the Reboot and Eternal (along with its DLCs) and I have nothing but great memories pouring all of my attention into the world of Doom.\n\nTDA has been one of the few games I have anticipated and hoped to play since its release. Financial issues got in the way, and I kept clinging on the hope that I'll be able to play the game one day, among others.\n\nI am grateful that, despite the grim outlook that I am facing, the hospital was able to secure not only a PS5, but a copy of the game. I am currently blasting my way through hordes of demons in Chapter 4 and I have nothing but childish glee as I return to my roots as a badass Demon Slayer. I may not live to see the upcoming DLC, but I am nonetheless happy to finally play the game in my own hands.\n\nTo the developers of ID Software, thank you for bringing such a beautiful piece of art that not only brought the FPS genre to its roots, but also revitalize and reinvented the wheel that no other game could. Not only that, but thank you for crafting such an awesome series for a fan like me.\n\nRip & Tear, lads!",
+            "permalink": "/r/Doom/comments/1qsei9w/my_days_are_nearing_and_my_local_hospital_allowed/",
+            "subreddit": "Doom",
+            "createdUtc": 1769894119,
+            "numComments": 4428
+          },
+          {
+            "id": "1quypml",
+            "url": "https://www.reddit.com/r/comics/comments/1quypml/to_defend_a_predator/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/6q6ej1g3hbhg1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=576b87ff291ce613ec9ce0eb6a68afaca5dd17b2",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 92988,
+            "title": "To Defend a Predator",
+            "author": "Pizzacakecomic",
+            "authorId": "cfijs3z2",
+            "selftext": "",
+            "permalink": "/r/comics/comments/1quypml/to_defend_a_predator/",
+            "subreddit": "comics",
+            "createdUtc": 1770140738,
+            "numComments": 1766
+          },
+          {
+            "id": "1ppatqq",
+            "url": "https://www.reddit.com/gallery/1ppatqq",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/Gg0Yf35_XXgdu3R4_ezi9hN_n23dpXlOVE1jboGMxfY.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 83272,
+            "title": "New plaques added to the presidential hall of fame in the White House",
+            "author": "Dtb4evr",
+            "authorId": "849j80i5",
+            "selftext": "",
+            "permalink": "/r/pics/comments/1ppatqq/new_plaques_added_to_the_presidential_hall_of/",
+            "subreddit": "pics",
+            "createdUtc": 1766012187,
+            "numComments": 15872
+          },
+          {
+            "id": "1p8oomu",
+            "url": "https://www.reddit.com/gallery/1p8oomu",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/zJM_1fepDUSAI0t3KwfJtA9DoTg6Luqe-wCjVKYWRro.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 96
+              }
+            ],
+            "score": 76220,
+            "title": "Valve artist responds to calls for Steam to drop \"Made with AI\" label",
+            "author": "Stannis_Loyalist",
+            "authorId": "3p3tvgm1",
+            "selftext": "",
+            "permalink": "/r/Steam/comments/1p8oomu/valve_artist_responds_to_calls_for_steam_to_drop/",
+            "subreddit": "Steam",
+            "createdUtc": 1764314331,
+            "numComments": 2587
+          },
+          {
+            "id": "1rfbqpk",
+            "url": "https://www.reddit.com/gallery/1rfbqpk",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/b2dscxl3oulg1.jpg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=587434e40f561a1f154daa120d372b49f931b302",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 72084,
+            "title": "Stanley Tucci treats the US Women’s hockey team to one of his favourite restaurants in Milan: “We brought you a jersey… because you want to play forward.”",
+            "author": "mcfw31",
+            "authorId": "17bmi8",
+            "selftext": "",
+            "permalink": "/r/MadeMeSmile/comments/1rfbqpk/stanley_tucci_treats_the_us_womens_hockey_team_to/",
+            "subreddit": "MadeMeSmile",
+            "createdUtc": 1772116472,
+            "numComments": 1325
+          },
+          {
+            "id": "1th4z9j",
+            "url": "https://www.reddit.com/r/KidsAreFuckingStupid/comments/1th4z9j/were_going_with_hide_and_hide_now/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/367majeobz1h1.jpeg?width=140&height=85&auto=webp&s=39c8bcd13193a43fdc2fef44184a9c034a7f1241",
+                "type": "photo",
+                "width": 140,
+                "height": 85
+              }
+            ],
+            "score": 69204,
+            "title": "We‘re going with hide and hide now",
+            "author": "Aakch",
+            "authorId": "79sket1u",
+            "selftext": "",
+            "permalink": "/r/KidsAreFuckingStupid/comments/1th4z9j/were_going_with_hide_and_hide_now/",
+            "subreddit": "KidsAreFuckingStupid",
+            "createdUtc": 1779146397,
+            "numComments": 277
+          },
+          {
+            "id": "1up8ejb",
+            "url": "https://www.reddit.com/r/MadeMeSmile/comments/1up8ejb/everyday_people_are_sometimes_angels_among_us/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/70fgvztj0obh1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=ee0796afb3e4ca006fcf202d82d542450c5381e0",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 68992,
+            "title": "Everyday people are sometimes angels among us",
+            "author": "Busy_Report4010",
+            "authorId": "1f1fs3soju",
+            "selftext": "",
+            "permalink": "/r/MadeMeSmile/comments/1up8ejb/everyday_people_are_sometimes_angels_among_us/",
+            "subreddit": "MadeMeSmile",
+            "createdUtc": 1783367959,
+            "numComments": 328
+          },
+          {
+            "id": "1wf97x0",
+            "url": "https://www.reddit.com/r/BoyDinnerDiaries/comments/1wf97x0/hug_your_kids_every_chance_you_can/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/dltarsrmsaph1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=fa771b87a502bb488483b12a465653cd8e1c7e27",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 68915,
+            "title": "Hug your kids every chance you can",
+            "author": "Paperbagsportsfan",
+            "authorId": "2pjdywh8",
+            "selftext": "(9/11/26) My 5 year started kindergarten last week at a new school with all new kids and all new teachers. She took the bus for the first time. She's very shy and timid but as the week went on she did better and better. A photo of her was even in the weekly newsletter playing in gym class.\n\nThe following week she came down with a fever. Not unusual so we kept her out of school. The following day it remained high with meds so she missed a second day. By day 3 we went to urgent care. They told us to take one additional med and to keep them posted if she doesn't get will. The pediatrician even called later that day to check on her. That night she woke up and became very delirious for a few mintues then snapped out of it. We brought her back to urgent care the next morning and they sent us to the ER to get blood work. \n\nThat began the worst day of my life so far. The doctor immediately thought it was leukemia or an infection. A few hours later we found out it was both.  Luckily it is the most common form of leukemia with a high success rate. Unfortunately they could not control the infection. She worsened as the day went on eventually going into septic shock. The doctors and nurses tried everything but eventually had to intubate her. Her last words to me while conscious were her struggling to say i love you. \n\nShe has since gone on a few more machines. She has an echmo pumping her blood since her right lung is collapsed or full of fluid not sure which. Her heart is too weak to work. She has too much fluid in her body so they also put her on dialysis. Doctors in the pediatric icu and from oncology both say each is treatable on it's own but having both things happen together is very rare. They are doing zoom calls with other doctors to get advice during rounds each morning. I am confident she will walk out of here but it is not easy. Her 3 year old sister just keeps telling her to get better soon. One of the nurses put it best, she's set up to succeed through the equipment but she needs to fight in order to win. My wife and myself are living a surreal nightmare. Idk what I'll do if I lose her. She's literally the glue that holds this family together. \n\nI'm not really eating but this day(s) old bagel and orange juice is my meal for the day \n\nUpdate (9/12/26): I'm just now opening this before I try to sleep for a few hours as I wanted to be as present as possible for my kids today.  I honestly didn't expect anything when I posted this. I had a moment of silence to myself in the bathroom and decided to write how I was feeling and what I was going through then posted it to this sub. THANK YOU for all of the support and advice. Somethings we are already doing and others we will implement.\n\nWe have brought her bedtime blanket and books from home. We read to her as often as we can. I also tell her stories about our family (how I met her mom, how we moved to our town, how we got our dogs, etc) and that has been very therapeutic for me. \n\nOur 3 year old came to visit and we walked through the meditation garden with her to find fairies. Getting out of the treatment and getting fresh air has been very helpful. I think it's important for our 3 year old to see the 5 year old and talk to her as well. The staff gave my 3 year old a fairy (bird) house and paint so we could do that in the family lounge away from the chaos of the treatment room. They also gave her a stuff animal, doctors kit, and some badges and electrodes so she can fix her stuffed animal similar to how they are fixing her sister.\n\nThe medical staff has been nothing short of amazing and has been saying we will take this 1 day at a time. My 5 year old had a good day today. Her fever is gone, her blood tests look significantly more normal than 24 hours ago. They could hear breathing sounds in her right lung for the first time today. Her dialysis was turned up to remove more fluids and she did great with that. Her oxygen sensor actually has a reading and they said it was because her heart has become strong enough to actually pump the blood up to her ear where they have it. Her echmo useage decreased from 75% to 65% and they said at 40% she can stop using it. We have a very long way to go but this was a step in the right direction, she truly is a fighter. \n\nFor anyone reading this going through a similar situation, we started asking family and friends to send us voice memos to play for her. That has been great to know you have so many people supporting her and it's a nice break from just talking. \n\nOther things I've learned the last 24 hours: \n\n-it's ok to be weak. It's ok to cry and let someone else hold you.\n\n-stay off chat gpt and meticulously reviewing her medical chart. The providers know more than you and more about your child than Ai. It'll drive you crazy and mentally drain you. Ask the providers as many questions as you can so you can get more familiar and comfortable (?) with what is going on.\n\n-get outside, even if for 5 minutes. Staying trapped in that room all day is not good for you mentally.\n\nStill not eating much. Only took a few bites of the bagel but managed to eat 3 chicken tenders for dinner and a piece of broccoli. I'm feeling more confident than I did when I posted this.\n\n\nUpdate 2 (9/17/26): Everyone is doing better! My daughter is off the echmo, ventilator, and dialysis! Shes slowly waking up and will hopefully be moved out of the ICU to oncology in the next few days! Because of that my wife and I are doing immensely better. Thank you everyone for all of the support. I made a carebridge page so if anyone wants to [see updates go here](https://www.caringbridge.org/site/6c600b6b-b22b-11f1-8264-55464dfa5171)\n\nUpdate 3 (9/21): Not much to update. Still in the PICU. She's making progress but not like before. Regardless she's not going backwards so I'll take it. She still is on CPAP for breathing as well as IVs for medication. Awaiting a port in the next few days to start receiving chemo treatment that way. She seems out of it more than before but I'm sure she's really tired. Hopefully they can move us out of PICU this week. \n\nHer Preschool teacher setup a go fund me for her. I am a small business owner so I have been closed this whole time and don't plan on reopening until she's back home. The funds will help support me being with her as well as pay her medical bills. \n [The go fund me can be found here ](https://www.gofundme.com/f/gabriela-strong)\n\nThank you everyone for the support. \n\nUpdate 4 (9/24/26): We are still in the PICU. Her brain CT and EEG has come back negative. She had a PICC line placed in her arm to continue receiving chemotherapy. She had a line put into her chest to remove some fluid and over 700 ml (over 20 oz) of fluid drained! She's been breathing much better since. They have her alternating between CPAP and high flow oxygen to help her breathe, which is a step in the right direction. She started eating yesterday and devoured some Italian ice.\n\nShe has been mostly non-verbal since being extubated 1 week ago but she did say \"mommy\" twice the other day. She's been communicating much better non-verbally with head movements, she has been sleeping better at night, and is more active during the day.\n\nStill working on lowering her medications so we can move her over to the oncology floor, but all steps in the right direction!\n\nUpdate (9/28): It's going. I've been trying to reply to all the DMs but haven't replied to any comments. I do try to read all of them and I appreciate the success stories and advice. My daughter is doing well overall. We are still in the PICU but she is more interactive. She sat in a chair and at times can be pretty talkative. They took her off oxygen so she's fully breathing on her own. They also got rid of a few of the IVs in her arms so that helps with her discomfort. They'll soon do some testing to see if she can eat actual food on her own (currently getting her food through a tube). Unfortunately the fluid has come back in her chest so she will need another chest tube for drainage again.\n\nWe've been able to get a more clear picture on why her case was so sudden and fast acting. Along with the Leukemia they discovered she now has HLH (Hemophagocytic Lymphohistiocystosis) which is an inflammatory disease. This led to her body rapidly declining along with the infection and leukemia. The inflammation going throughout her body is what makes her case more unique. The treatment is the same/very similar to the same medication as the leukemia, just not as straightforward since her liver is still pretty inflamed. Her first day here she had what's called a \"cytokine storm\" from the HLH which temporarily damaged her organs. That \"storm\" really calmed down and they are trying different drugs since this isn't routine. They've mentioned her case at a nationwide conference and said she was one of the most talked about so that sucks she's that bad/rare of a case but I'm glad to have so many eyes reviewing her care. \n\nShe's starting to have some PTSD. She developed a fever the other night and when you have no immune system it's not a good time. It was also a scary look into what the next 2 years holds, as some of you mentioned, but she's worth it. I'm hanging in there. Some days are definitely harder than others. Seems to be 3 steps forward 2 steps back.\n\nThanks again to everyone for supporting us.\n\nUpdate (10/12): it's been awhile since I posted an update.  We're still in the PICU and they gave us the biggest room they have (because we don't seem to be able to leave)! \n\nSince my last update my daugther has been up and down. She developed 3 new infections. 1 in the PICC line, 1 in her intestines, and 1 that might have spawned from her intestines and traveled back to the PICC. All have cleared so that's been great. She had another chest tube put in since the mysterious chest edema came back and that has since been removed and stable. She did develop mucositis and typhlitis in her intestines. This led to a hole in her colon, bleeding into the intestines, and air into her abdomen. She had to get emergency surgery and have part of her large and small intestine removed and an ostomy put in.\n\nFortunately we caught that just in time and she's actually looking better than before. It looks like her HLH is also under control and she's finally producing white blood cells and platelets on her own! Hopefully she can rest and continue to get stronger so we can finally leave but I've been saying that for over a month now she who knows! Mentally the whole family and myself are staying strong. The entire PICU and our community outside of the hospital has been incredibly helpful.\n\nUpdate (11/6): My daughter is still in the hospital but out of the PICU! We moved over to the oncology floor 2 weeks ago. It's much quieter and slower paced which is great. She's been able to leave her room in a wheelchair to explore more of the hospital. It looked like we were going to actually be discharged this past week but she fell ill and that has kept us here. She started her second round of chemo. Once her intake and ostomy output level off a little more then we can go home until the next thing comes up.\n\nAs we left the PICU the medical staff started to open up more about how lucky she is. One doctor said her estimated chance of survival that first week was around 10%. They said ECMO for septic shock alone carries a 75% mortality risk and that's without the leukemia and HLH. They believe mortality of HLH independently is similarly high. The PA said they personally have never seen anyone survive ECMO for septic shock and have only seen one person survive HLH.\n\nIt truly is a miracle she's alive. We are awaiting her discharge to go home but until then I am grateful to be able to spend time with her again  ",
+            "permalink": "/r/BoyDinnerDiaries/comments/1wf97x0/hug_your_kids_every_chance_you_can/",
+            "subreddit": "BoyDinnerDiaries",
+            "createdUtc": 1789309780,
+            "numComments": 745
+          },
+          {
+            "id": "1rncqs7",
+            "url": "https://www.bbc.com/news/articles/cedzep6gp07o",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/VdZr5yhWZ0LhO6XNfvdOIBOwrGewE1fJSms58gv5sOo.jpeg?width=140&height=78&auto=webp&s=3447c956465f5e8128aba70302e8f104cd2258d2",
+                "type": "photo",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 64801,
+            "title": "Footage shows US citizen shot by ICE agent in Texas traffic stops",
+            "author": "Hot-Food-7151",
+            "authorId": "a7npddtv",
+            "selftext": "",
+            "permalink": "/r/news/comments/1rncqs7/footage_shows_us_citizen_shot_by_ice_agent_in/",
+            "subreddit": "news",
+            "createdUtc": 1772897323,
+            "numComments": 7768
+          },
+          {
+            "id": "1pamvpe",
+            "url": "https://www.reddit.com/r/Steam/comments/1pamvpe/i_dont_think_ive_ever_met_a_company_as_nice_as/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/BY4mXQaqkecMXNLD3HqQXxu4cbMD7OmTcj6u3k1_mpw.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 99
+              }
+            ],
+            "score": 60259,
+            "title": "I don't think I've ever met a company as nice as Steam... Thank you",
+            "author": "3lizardintrenchcoat",
+            "authorId": "d1a39tc96",
+            "selftext": "",
+            "permalink": "/r/Steam/comments/1pamvpe/i_dont_think_ive_ever_met_a_company_as_nice_as/",
+            "subreddit": "Steam",
+            "createdUtc": 1764521148,
+            "numComments": 1022
+          },
+          {
+            "id": "1t9dl7b",
+            "url": "https://www.reddit.com/gallery/1t9dl7b",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/beg8q1fgkc0h1.jpg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=93f55f4e70959a47a111ec3023458258a8c4d471",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 57593,
+            "title": "The (redacted) and (redacted) Memorial Reading Room",
+            "author": "datingoverthirty",
+            "authorId": "4hi6k4cl",
+            "selftext": "",
+            "permalink": "/r/pics/comments/1t9dl7b/the_redacted_and_redacted_memorial_reading_room/",
+            "subreddit": "pics",
+            "createdUtc": 1778435060,
+            "numComments": 271
+          },
+          {
+            "id": "1td5abq",
+            "url": "https://www.reddit.com/gallery/1td5abq",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/ddebrdse151h1.png?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=0cb7cbf85dcc731a4a6612af310e6d836244c5d5",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 56986,
+            "title": "Kittens in storm drain successfully rescued. Thanks, everyone!",
+            "author": "belltown99",
+            "authorId": "cxrrs",
+            "selftext": "EDIT (5/22/26): Both kittens passed their behavioral tests, which is good news since that is a requirement for adoption. They are living at the kitten nursery, happy and healthy. Next step is spaying/neutering, which will likely take place after the kittens reach a specific age/body weight. Thanks everyone for the follow ups about this and sorry it took awhile to get the update. The shelter is pretty busy, so getting a hold of someone on the phone for an update is rare.\n\n\n\nUpdate to my original post: [https://www.reddit.com/r/cats/comments/1tc62yv/kitten\\_stuck\\_down\\_storm\\_drain\\_help/](https://www.reddit.com/r/cats/comments/1tc62yv/kitten_stuck_down_storm_drain_help/)\n\nHi everyone, so sorry for the radio silence yesterday. The day completely got away from us, but I have good news – the kittens were rescued and are safe\\*\\*.\\*\\* Below is a recap of how the events transpired. Given how many of you have a vested interest, I thought it appropriate to include as many details as possible.\n\nThey’re currently with the Humane Society getting checked out. They seem to be in reasonable shape, just understandably shell-shocked, hungry and exhausted. Because we have cat allergies, we unfortunately couldn't keep them ourselves. They are so incredibly adorable and we sincerely hope they find a good home together. It wasn't easy giving them up, but we felt we had given them a second chance at life. \n\nI wish I had more photos, as so many of you want to see them and I feel like so many of you have been with us during this journey. Things got hectic during the rescue process and the little ones seemed pretty stressed out, so we let them be. The Humane Society was a little awkward about not letting us take a few final photos before we left.\n\nI honestly didn't expect my last post to blow up the way it did. Your advice, your stories, and just the general \"hive mind\" support helped us triage the situation when we were in need of a lot of ideas quickly. This was a team effort, Reddit. I never thought I’d feel this connected to a bunch of strangers, so thank you.\n\n**Full story**\n\nA few weeks ago, we noticed two strays in the yard. We have a bit of a gopher problem, so we figured if we left out some food and water, it was a win-win for everyone. Then, a few days ago, a tiny kitten popped out of the bushes one evening while I was taking out the trash and nearly gave me a heart attack. I had a good laugh, but didn't think more about it.\n\nThe next day, my wife calls me saying there’s a cat stuck in one of our storm drain pipes. I didn't believe her at first, but then we heard the sad cries coming from the gutter downspouts. After checking our storm drains, we realized that there were two ways the kittens could have entered: a grate at the drain exit (which had popped off) and an opening in our garden (previously unknown) which likely serves as an air intake to promote flow. Both of these entrances have now been gated and secured. The initial photos I shared were of the downspout for the gutters, which I had removed in order to access the pipes below. The gutter pipes have been replaced, so no little kitties will be able to jump down there.\n\nWe initially cut a towel into thin strips and lowered them into the entry/exits into the drains and threw some cat food down the pipes to attract the cats. That didn't work and we still heard the sad meows (heartbreaking). Yesterday morning, my wife was really worried so she played the sounds of a YouTube video of a mother cat calling her kittens. She received an instant response and looked down the downspout. There it was, a tiny spotted face staring back at her. She screamed for me and for us that was overwhelming, so we decided to kick it into higher gear and get much more aggressive about saving them.\n\nWe called animal control for help. Sadly, animal control said they don't assist with this sort of thing, so we were on our own. I don’t think they were rude about it, but it felt like our situation was either not their primary focus or much lower in priority compared to other issues they handled. We didn’t want to quit, so I said to my wife, hey let’s post on Reddit while we brainstorm to get some ideas from others and that’s when I encountered r/Cats.\n\nWithin minutes, people responded and we started looking into everything that was recommended. We decided to start with the least invasive and escalating as needed. The top ideas were: 1) provide a way for the kittens to climb out; 2) call the firefighters; 3) call the plumbers; 4) cut the pipes open.\n\nOur local firefighters responded within a few minutes of us calling them.  It was a full truck roll and three guys hopped out. They were super kind and I think they helped us calm down quite a bit, as we likely had a lot of frantic energy about us. We tried several ways to locate/drive the kittens out the storm drain exit, but after half an hour or so, they had to leave. I could tell they really wanted to find the kittens, but they also had other people to help. We were so grateful they came.\n\nQuite a few Redditors mention calling a plumber. This sounds so obvious in retrospect, but I never thought of this. While we were searching, we noticed AI was recommending Roto-Rooter, who offered free pet rescues. This sounded like just what we needed and I was a little skeptical about it, but we thought, why not give this a shot. We have nothing to lose and really wanted to get those little guys out. We called the 800 number and a lovely woman picked up on the second ring. She calmly took our info and instructed us to wait for a call back. 15 min later, Jeremy, who is a field supervisor in the region, calls us back. He's a self-declared cat lover and already on the way. Both he and his fiance have seen my original post trending on Reddit. He's about an hour away from us, but I swear he was at our door in much less time.\n\nI get a new wave of confidence when Jeremy steps up to the task. I give him the run down and just then, we see a small head pop out of the storm drain exit (let’s call this kitten, Princess). Princess ducks back into the pipe and we get there just in time to see a tail disappear. Jeremy races back to his truck to get some gear, yelling “we can do this!” He deploys his digital scope, which has 100ft of line and plans to use its lights to encourage the kittens to reverse out of the tunnel system. I've attached actual video footage from the scope inside the drain line. Unfortunately, I was focused on grabbing Princess at the very end, so I didn't capture any photos. We do have some after action shots of Jeremy consoling a very scared kitten.\n\nWe thought our job was done. As we clean up, we hear more meows but this time, they are coming from the other side of the drainage system. We start at the very beginning of the pipes with the scope and work our way through. I have some long runs and it's a bit of a network of pipes, so it took some time, but seeing the kitten’s tiny face (let’s call him Mario), beautiful eyes, and pink nose on the scope’s monitor gave us a renewed sense of purpose. We used two different scopes to corral the kitten towards my wife, who was waiting at the drain exit. After a few start/stops, we get the kitten to go down the right tube to the exit. He's a bit of a fighter, so I end up having to reach into the pipes and grabbing him (gently) with my bbq tongs since he keeps retreating. Video footage of the scope in the pipes also included. \n\nAfter settling down the kittens into their own cardboard boxes, we give them some food/water/hugs and we finally take a breather. I've soaked through my shirt and Jeremy's knuckles are bloody from pushing the scope cabling down the pipe. My wife is still in disbelief and all of us are smiling. We are so relieved!  \n   \nJeremy received a few service calls while he was here, so I could tell he had to move on (but didn’t want to). We tried to compensate him for his time but he flat out refused. I think we had to force him to take a sandwich and drink from our local deli. As he was packing up, he shared a story about a time he couldn't rescue a kitten that had fallen 20 feet vertically into a storm drain, so this felt like redemption to him. We were very moved hearing that this was a win he needed. He certainly made up for it, since we pulled not one, but 2 out of the tunnels.\n\nAbout the cats themselves. We estimate they are around 8 weeks old, based on their size. Princess is much smaller, with light brown spots. She is fairly shy, mews very quietly, and keeps to herself. I suspect the ordeal was likely tougher on her because she's smaller.  Mario is gray with tiger stripes. He is much larger, aggressive and loud. I am less worried about him.\n\nIf we could keep these kittens, we would (I think this is the cat tax people are referring to?). Unfortunately, I am very allergic to cats and our young children show signs of this as well.  We were worried about their health, so we dropped them off at the Humane Society to give them the best chance at recovery. We thought it was important for our kids to understand this process, so we picked them up for school and headed to the shelter together to say our goodbyes. The wonderful team there immediately started tending to them and I hope to get an update later today on their status. I am told that kittens who come in as duos at this age “do very well” and are quite popular, so fingers crossed they land in a loving home. Our local shelter explicitly asked us not to share their location, which we have respected. My understanding is they have experienced the good people of the Internet calling to ask about the cats and it overwhelms their systems.\n\nAs I write this, I’m still a little in disbelief how so many different people responded to my post with great ideas, Jeremy dropping everything to show up at a stranger’s home, and for those little kittens staying resilient. My wife and I were preparing ourselves for a much different ending. I’m so glad this was a happy ending that I didn’t expect and this all provides us with a little much needed nourishment.",
+            "permalink": "/r/cats/comments/1td5abq/kittens_in_storm_drain_successfully_rescued/",
+            "subreddit": "cats",
+            "createdUtc": 1778780125,
+            "numComments": 754
+          },
+          {
+            "id": "1qfemh8",
+            "url": "https://www.reddit.com/r/UnderReportedNews/comments/1qfemh8/us_citizens_detained_by_ice_speak_out_they/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/ajhmMmRpMXQ2eGRnMT7xXAxw1Y68z0z8W4PuXMcPr6KkYbvsdZixJieNoDpY.png?width=140&height=78&format=jpg&auto=webp&s=18ccfb74fb92ba63ab062e5dcc1e519c10a7bad9",
+                "type": "video",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 55634,
+            "title": "US citizens detained by ICE speak out: \"They dragged me outside and pulled me into a headlock on the ground. I repeated, 'I'm a citizen. I have an ID.' The agent kept saying, 'That don't matter'... When I was inside my cell, I heard wailing, screaming, crying, begging, and pleading.",
+            "author": "Logical-Flow-6703",
+            "authorId": "tf5ktmhg",
+            "selftext": "Alongside that visceral anguish was the small talk, banter and laughter from the federal agents.\"\n\nhttps://x.com/factpostnews/status/2012263404874932460?t=gSd5SpQ3nxXQKnC0f9tKyw&s=19",
+            "permalink": "/r/UnderReportedNews/comments/1qfemh8/us_citizens_detained_by_ice_speak_out_they/",
+            "subreddit": "UnderReportedNews",
+            "createdUtc": 1768660198,
+            "numComments": 1428
+          },
+          {
+            "id": "1plowk1",
+            "url": "https://www.reddit.com/r/BrandNewSentence/comments/1plowk1/are_you_biblesplaining_the_pope/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/ubn76jCGBxgC763gLekYJxr8Yb75JW5TJ5vAlWQfulg.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 53650,
+            "title": "\"Are you biblesplaining the Pope?\"",
+            "author": "RiverMindless3415",
+            "authorId": "8wyf0lqe",
+            "selftext": "",
+            "permalink": "/r/BrandNewSentence/comments/1plowk1/are_you_biblesplaining_the_pope/",
+            "subreddit": "BrandNewSentence",
+            "createdUtc": 1765642016,
+            "numComments": 685
+          },
+          {
+            "id": "1pilmzk",
+            "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1pilmzk/school_uses_ai_for_school_pictures/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/3JqH_NeJ-CAhLJpXEYIoaF6mwPELwrjnpj3Wx-NgMQg.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 53492,
+            "title": "School uses AI for school pictures",
+            "author": "Impossible-Yam3680",
+            "authorId": "eloycsis",
+            "selftext": "",
+            "permalink": "/r/mildlyinfuriating/comments/1pilmzk/school_uses_ai_for_school_pictures/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1765319953,
+            "numComments": 732
+          },
+          {
+            "id": "1pxfdli",
+            "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1pxfdli/my_husband_inadvertently_trained_our_cat_to/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/ZuzxS5Dq7PGUGrbYhyvu6NlbAu6yCIKcJZxhG6N320c.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 105
+              }
+            ],
+            "score": 52297,
+            "title": "My husband inadvertently trained our cat to ignore me",
+            "author": "MissHissss",
+            "authorId": "1m02mehnv0",
+            "selftext": "When we got our kitten he liked us both equally. He would play with us both, cuddle with us both, follow us both around. Over time he started showing an obvious preference for my husband. And then he started ignoring me completely, even if I tried to play with him or feed him.\n\nIt turns out that every time he interacted with my husband, my husband was giving him treats because “he’s just so cute”! Now he’s fully trained to only want my husband around. Husband feels bad now that he’s realized what he’s done and will not be giving treats anymore, but we don’t want to retrain him to prefer me (and ignore my husband) and we’ve tried both rewarding him for attention but he still wants nothing to do with me.  So I guess I’m officially the spare human now.",
+            "permalink": "/r/mildlyinfuriating/comments/1pxfdli/my_husband_inadvertently_trained_our_cat_to/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1766887916,
+            "numComments": 952
+          },
+          {
+            "id": "1tvffm5",
+            "url": "https://www.reddit.com/r/TikTokCringe/comments/1tvffm5/these_people_walk_among_us/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/aHZ0M2h5OXkyMDVoMX00FahO9voMQety6dWA4BgQk4PHYU0UYBkWclW2ZMIB.png?width=140&height=140&crop=1%3A1%2Csmart&format=jpg&auto=webp&s=f39b7ee94ec05f49b0cd6b1d862618aa16843fe4",
+                "type": "video",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 51877,
+            "title": "These people walk among us",
+            "author": "cafeteriastyle",
+            "authorId": "kuy7r",
+            "selftext": "",
+            "permalink": "/r/TikTokCringe/comments/1tvffm5/these_people_walk_among_us/",
+            "subreddit": "TikTokCringe",
+            "createdUtc": 1780463184,
+            "numComments": 5326
+          },
+          {
+            "id": "1wfrowo",
+            "url": "https://www.reddit.com/gallery/1wfrowo",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/67whqzixieph1.jpg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=32e91b8d5f36d665626b89ba5aea285b75b38424",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 49996,
+            "title": "His mom said \"pick any animal you want,\" and he chose the oldest, shyest, chubbiest cat in the shelter",
+            "author": "Wholesomepost",
+            "authorId": "8ijbjjy0",
+            "selftext": "When Easton’s mom told him, “Pick any animal you want,” most kids might have gone for a playful puppy or a tiny kitten. But Easton had something else in mind. At the shelter, he met Tiny — a 10-year-old, quiet, slightly overweight ginger cat who had been passed over time and again. Tiny had lost his previous home and was living in foster care with his sister, patiently waiting for someone to see past his age and give him a second chance. The moment Easton saw Tiny’s picture, he felt something. No hesitation, no doubts — just an instant connection. At their very first meeting, Tiny curled right into Easton’s arms, as if he knew this was where he belonged. On the car ride home, Tiny stepped out of his carrier and nestled against Easton — a silent promise that they were now family. Since then, they’ve been inseparable. Tiny, a gentle soul often overlooked, found the perfect person in a little boy with a big heart. And Easton found something even more special — a loyal, loving best friend. Because sometimes, the ones who need us the most end up giving us the very best kind of love.",
+            "permalink": "/r/dailydoseofaww/comments/1wfrowo/his_mom_said_pick_any_animal_you_want_and_he/",
+            "subreddit": "dailydoseofaww",
+            "createdUtc": 1789354946,
+            "numComments": 285
+          },
+          {
+            "id": "1qsgihv",
+            "url": "https://www.reddit.com/gallery/1qsgihv",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/TrlfH1vM-zSdXG-PqOxx21U1KaV9b7pQf89rzhbslYo.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 49926,
+            "title": "Alex Pretti memorial, Minneapolis",
+            "author": "thoughtofeverything",
+            "authorId": "8ds93w1",
+            "selftext": "",
+            "permalink": "/r/pics/comments/1qsgihv/alex_pretti_memorial_minneapolis/",
+            "subreddit": "pics",
+            "createdUtc": 1769898899,
+            "numComments": 184
+          },
+          {
+            "id": "1qmd7cq",
+            "url": "https://www.reddit.com/r/therewasanattempt/comments/1qmd7cq/to_call_this_man_a_monster_and_a_domestic/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/p0ZXj6xA7YAot2WwuXlfh7kIVuRlcIvv0iypUuGG5aY.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 49506,
+            "title": "To call this man a monster and a domestic terrorist",
+            "author": "TXVERAS",
+            "authorId": "55euki6y",
+            "selftext": "",
+            "permalink": "/r/therewasanattempt/comments/1qmd7cq/to_call_this_man_a_monster_and_a_domestic/",
+            "subreddit": "therewasanattempt",
+            "createdUtc": 1769328097,
+            "numComments": 455
+          },
+          {
+            "id": "1t587vg",
+            "url": "https://www.reddit.com/r/BlackPeopleofReddit/comments/1t587vg/coco_gauff_calls_out_unequal_enforcement_during/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/bDB4NG4wbWxvaHpnMYX7uK6H42Xx2oZScZygSAKJQHu_B_FNqWYBOy3-pCr_.png?width=140&height=140&crop=1%3A1%2Csmart&format=jpg&auto=webp&s=b5bd9a98554463f8522f91c6cb7fcb030536b22b",
+                "type": "video",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 49114,
+            "title": "Coco Gauff calls out unequal enforcement during tense US Open match after Laura Siegemund repeatedly delays play without penalties",
+            "author": "ateam1984",
+            "authorId": "33skq0sa",
+            "selftext": "A lot of viewers felt Laura Siegemund’s behavior during this US Open match went beyond just “slow play.” As Coco Gauff repeatedly pleaded with the chair umpire to enforce the shot clock fairly, many watching believed Siegemund appeared smug and dismissive toward Coco’s frustration, with some online specifically calling out her facial expressions and body language during the exchanges. Reddit users accused Siegemund of “gaming the rules” and dragging the match out intentionally, while commentators and fans openly sided with Coco over the unequal enforcement of time violations. Even tennis legend John McEnroe said on air that Coco was “100 percent right” about the situation. ",
+            "permalink": "/r/BlackPeopleofReddit/comments/1t587vg/coco_gauff_calls_out_unequal_enforcement_during/",
+            "subreddit": "BlackPeopleofReddit",
+            "createdUtc": 1778061140,
+            "numComments": 930
+          },
+          {
+            "id": "1r28qfk",
+            "url": "https://www.reddit.com/r/Millennials/comments/1r28qfk/guys_please_start_eating_fiber/",
+            "nsfw": false,
+            "media": [],
+            "score": 48948,
+            "title": "Guys please start eating fiber.",
+            "author": "Optimoprimo",
+            "authorId": "9fduw",
+            "selftext": "Colorectal cancer among people in their 40's is skyrocketing. This recent health fad of obsessing over protein and eating nothing but meat and dairy with almost no fiber is going to kill us. You need fiber, folks. You need a complete diet with grains and tons of vegetables. \n\nThere are high protein sources that also have great fiber content if you absolutely MUST have your high protein diet. Lentils, beans, peas. Sprouted grain bread.\n\nLet's spread the great word of fiber to our fellow millenial friends and get ahead of this growing epidemic among our generation. ",
+            "permalink": "/r/Millennials/comments/1r28qfk/guys_please_start_eating_fiber/",
+            "subreddit": "Millennials",
+            "createdUtc": 1770841953,
+            "numComments": 5151
+          },
+          {
+            "id": "1smqmu6",
+            "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1smqmu6/this_game_glitched_out_and_started_giving_me/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://preview.redd.it/cilyojyiqgvg1.jpeg?width=140&height=140&crop=1%3A1%2Csmart&auto=webp&s=e3e219084703937b42ad1768770a87d2ba8e71de",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 48031,
+            "title": "This game glitched out and started giving me thousands of tickets instead of the 500. A bystander Karen came over had a worker disable the machine because I was \"winning too many tickets\"",
+            "author": "vonseggernc",
+            "authorId": "4eey7g35",
+            "selftext": "I know it was a glitch, but the machine said I won 3700 tickets when it should have been 500.\n\na bystander Karen who was watching me play came over and started looking at how many tickets I was getting credited to my card. she called over a worker and she basically forced him to shut the machine off because it's \"not working\".\n\nI actually was pretty upset so I went up to her and asked her what she told him. she said was her son wanted to play the game and that machine wasn't working and I was \"winning too many tickets\"\n\nlike bro, there's 2 other machines your son can play on. just let me have my tickets.\n\nonly 2400 of the 3700 got credited to my account before it was shut off.\n\nidk, this upset me quite a bit in the moment.\n\nBut as fate would have it, when we went to get a prize, the football my son wanted wasn't pulling up, so the worker gave it to us for free. so the story ends well.",
+            "permalink": "/r/mildlyinfuriating/comments/1smqmu6/this_game_glitched_out_and_started_giving_me/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1776306271,
+            "numComments": 809
+          },
+          {
+            "id": "1pfc8bv",
+            "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1pfc8bv/my_mil_ordered_us_a_wine_advent_calendar_she_was/",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://b.thumbs.redditmedia.com/bzkxPCjIBTgI69dyx2dpJg4JurCrt90HTO09V3c-K3s.jpg",
+                "type": "photo",
+                "width": 140,
+                "height": 140
+              }
+            ],
+            "score": 47466,
+            "title": "My MIL ordered us a Wine Advent Calendar, she was so excited for us to sample different wines. This showed up today:",
+            "author": "ultra_maroon",
+            "authorId": "piaey",
+            "selftext": "They're tiny 2D pieces of plastic. Most of the labels are illegible AI swirl text. She's a sweet lady trying her best to do something nice, sucks she got scammed.",
+            "permalink": "/r/mildlyinfuriating/comments/1pfc8bv/my_mil_ordered_us_a_wine_advent_calendar_she_was/",
+            "subreddit": "mildlyinfuriating",
+            "createdUtc": 1764983078,
+            "numComments": 1542
+          },
+          {
+            "id": "1xi6a2i",
+            "url": "https://www.bbc.com/news/articles/cq8jzkpjr28vo",
+            "nsfw": false,
+            "media": [
+              {
+                "url": "https://external-preview.redd.it/XjAfWP0DOkTjapUNUpIs5zieP5-UlO2QzXK5dyBOITI.jpeg?width=140&height=78&auto=webp&s=09560782d3b70695751202a5ecfdcc4cd1b9b72c",
+                "type": "photo",
+                "width": 140,
+                "height": 78
+              }
+            ],
+            "score": 47221,
+            "title": "Details of thousands of US immigration agents leaked in major hack",
+            "author": "zmayes",
+            "authorId": "oyoe1n2p",
+            "selftext": "",
+            "permalink": "/r/news/comments/1xi6a2i/details_of_thousands_of_us_immigration_agents/",
+            "subreddit": "news",
+            "createdUtc": 1793235933,
+            "numComments": 4603
+          }
+        ],
+        "nextCursor": "cur_HERVg8Y1TVOW_e6KJhYgTw"
+      },
+      "found": true
+    },
+    "source": {
+      "id": "anonymous-bison-9321fc54",
+      "kind": "anonymous",
+      "name": "Bison",
+      "artworkKey": "bison"
+    },
+    "provider": "AnyAPI"
+  },
+  "provider_response": {
+    "http_status": 200
+  },
+  "charge_usd": "0.00035",
+  "charge_basis": {
+    "clause": "rule",
+    "quantity": null
+  },
+  "stoppable": false,
+  "stop_requested_at": null,
+  "created_at": "2026-11-23T07:40:27.916Z",
+  "started_at": "2026-11-23T07:40:27.951Z",
+  "completed_at": "2026-11-23T07:40:29.867Z",
+  "task_id": "tsk_b61a14a6198003d6",
+  "metadata": {}
+}

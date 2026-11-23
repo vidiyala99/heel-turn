@@ -19,6 +19,10 @@ const ACROSS = [['y', 180], ['z', -90], ['x', 90]]; // on back, head toward atta
 const k = (t, pose, p, r, ease = 'inOutSine') => ({ t, pose, p, r, ease });
 const imp = (t, damage, extra = {}) => ({ t, type: 'impact', damage, cue: 'shake', hitstop: 0.075, ...extra });
 const cam = (t, cue) => ({ t, type: 'camera', cue });
+// Contacts (solved in contact.js): hand of 'by' onto bone 'on' of the other body, offset 'at' in that body's
+// character space (+Z its front, +X its left, meters at Xbot scale), live during window t.
+const hold = (by, hand, on, at, t) => ({ by, hand, on, at, t });
+const NAPE = [0, 0, -0.08], SIDE_NAPE = [-0.06, 0, -0.05];
 
 export const MOVES = {
   lockup: {
@@ -43,6 +47,11 @@ export const MOVES = {
       k(1.8, 'tieup', [0, -0.06, 0.96]),
     ],
     events: [imp(0.42, 0, { cue: 'close', hitstop: 0.06 })],
+    contacts: [
+      hold('attacker', 'l', 'neck', SIDE_NAPE, [0.3, 1.8]), hold('attacker', 'r', 'lForearm', [0, 0, 0], [0.3, 1.8]),
+      hold('victim', 'l', 'neck', [-0.08, -0.04, -0.02], [0.3, 1.8]), hold('victim', 'r', 'lForearm', [0, 0, 0], [0.3, 1.8]),
+    ],
+    grips: [{ t: [0.36, 1.8], axes: 'xz' }],
     hold: { attacker: false, victim: false },
   },
 
@@ -70,6 +79,9 @@ export const MOVES = {
       k(1.75, 'lyingHurt', [0, LIE, 0.8], ACROSS, 'inQuad'),
     ],
     events: [cam(0.85, 'low-angle'), imp(1.42, 12)],
+    // One hand under the crotch, one on the upper chest; the victim rides the hands until the drive.
+    contacts: [hold('attacker', 'r', 'hips', [0, -0.12, 0.12], [0.2, 1.46]), hold('attacker', 'l', 'spine2', [0, 0.02, 0.15], [0.2, 1.46])],
+    grips: [{ t: [0.36, 1.46], axes: 'xyz' }],
     hold: { attacker: false, victim: true },
   },
 
@@ -100,6 +112,14 @@ export const MOVES = {
       k(2.14, 'lyingHurt', [0.2, LIE, -1.98], [['y', 180], ['x', -270]], 'inQuad'),
     ],
     events: [cam(0.62, 'low-angle'), imp(1.82, 15)],
+    // Facelock arm round the neck, other hand on the lower back; at the lift the facelock hand moves to the upper back.
+    // The victim's arm stays draped over the attacker's neck.
+    contacts: [
+      hold('attacker', 'r', 'spine1', [0, 0, -0.12], [0.22, 1.66]), hold('attacker', 'l', 'neck', NAPE, [0.22, 1.0]),
+      hold('attacker', 'l', 'spine2', [0, 0.05, -0.12], [0.9, 1.66]),
+      hold('victim', 'l', 'neck', NAPE, [0.22, 1.5]),
+    ],
+    grips: [{ t: [0.5, 1.66], axes: 'xyz' }],
     hold: { attacker: false, victim: true },
   },
 
@@ -126,6 +146,9 @@ export const MOVES = {
       k(1.45, 'faceDown', [0.5, LIE, 0.15], [['y', 180], ['x', -90]], 'inQuad'),
     ],
     events: [imp(1.0, 14)],
+    // Front facelock: one arm wrapped round the head, the other hand at the nape, held into the plant.
+    contacts: [hold('attacker', 'l', 'neck', NAPE, [0.22, 1.06]), hold('attacker', 'r', 'head', [0, -0.06, 0.1], [0.22, 1.06])],
+    grips: [{ t: [0.3, 1.04], axes: 'xyz' }],
     hold: { attacker: false, victim: true },
   },
 

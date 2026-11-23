@@ -23,10 +23,10 @@ export const BONES = [
 // Mixamo (Xbot), Quaternius (UpperArm.L style), KayKit (upperarm.l style).
 export const BONE_MAP = {
   hips: ['mixamorighips', 'hips', 'pelvis'],
-  spine: ['mixamorigspine', 'spine', 'abdomen'],
-  spine1: ['mixamorigspine1', 'spine1', 'chest', 'torso'],
-  spine2: ['mixamorigspine2', 'spine2', 'upperchest'],
-  neck: ['mixamorigneck', 'neck'],
+  spine: ['mixamorigspine', 'spine', 'abdomen', 'spine01'],
+  spine1: ['mixamorigspine1', 'spine1', 'chest', 'torso', 'spine02'],
+  spine2: ['mixamorigspine2', 'spine2', 'upperchest', 'spine03'],
+  neck: ['mixamorigneck', 'neck', 'neck01'],
   head: ['mixamorighead', 'head'],
   lShoulder: ['mixamorigleftshoulder', 'shoulderl', 'clavicleleft', 'claviclel'],
   lArm: ['mixamorigleftarm', 'upperarml', 'armleft', 'arml'],

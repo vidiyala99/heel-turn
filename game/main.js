@@ -13,6 +13,7 @@ import { createAgentLayer } from './agent-layer.js';
 import { playPaired, playSolo, updateMoves, isBusy, stopMoves, getRig } from './moves/index.js';
 import { createFeel } from './feel/index.js';
 import { T } from './shared/tuning.js';
+import { loadBodies } from './arena/bodies.js';
 
 // ---------- renderer / scene ----------
 const renderer = new THREE.WebGLRenderer({ antialias: true });
@@ -182,23 +183,16 @@ const layer = createAgentLayer({ logRow: (html, key, same) => log(html, key, sam
 
 // ---------- wrestler views (render only; state lives in shared/sim.js) ----------
 const loader = new GLTFLoader();
-// Xbot (Mixamo humanoid) wrestlers; the sim stays the source of truth, paired moves are visual.
-const gltf = await loader.loadAsync('/models/Xbot.glb');
+// Roster bodies (arena/bodies.js, config in shared/roster-assets.js); the sim stays the source of truth.
+const bodies = await loadBodies(loader);
 const CLIP = { Idle: 'idle', Walking: 'walk', Running: 'run' };
 
 function makeView(w) {
-  const obj = skClone(gltf.scene);
-  obj.traverse((o) => {
-    if (o.isMesh) {
-      o.castShadow = true; o.frustumCulled = false; o.material = o.material.clone();
-      o.material.color.set(w.tint);
-      if (o.name.includes('Joints')) o.material.color.multiplyScalar(0.45);
-    }
-  });
+  const { obj, animations } = bodies.make(w.id);
   obj.position.set(w.x, w.y, w.z); obj.rotation.y = w.facing; scene.add(obj);
   getRig(obj);
   const mixer = new THREE.AnimationMixer(obj);
-  const actions = {}; for (const c of gltf.animations) actions[c.name] = mixer.clipAction(c);
+  const actions = {}; for (const c of animations) actions[c.name] = mixer.clipAction(c);
   return { id: w.id, holder: obj, root: obj, mixer, actions, cur: null, seq: -1, anim: null, lying: false };
 }
 function play(v, name, speed = 1) {

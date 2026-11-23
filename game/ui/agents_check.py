@@ -1,0 +1,64 @@
+"""Browser check for the agent layer: play exhibition matches that spam strike, then dump the decision log,
+the agent plans and the spoken lines. Usage: python game/ui/agents_check.py [url] [matches]
+Writes docs/shots/agents-*.png. Exit 1 if the in-game AI never says "expect your strike ... answer with block"."""
+import json
+import re
+import sys
+from pathlib import Path
+from playwright.sync_api import sync_playwright
+
+URL = sys.argv[1] if len(sys.argv) > 1 else "http://localhost:5173"
+MATCHES = int(sys.argv[2]) if len(sys.argv) > 2 else 1
+OUT = Path(__file__).resolve().parents[2] / "docs" / "shots"
+OUT.mkdir(parents=True, exist_ok=True)
+
+ok = False
+with sync_playwright() as p:
+    b = p.chromium.launch(args=["--use-gl=angle", "--enable-unsafe-swiftshader"])
+    pg = b.new_page(viewport={"width": 1280, "height": 800})
+    errs = []
+    pg.on("pageerror", lambda e: errs.append("pageerror: " + str(e)))
+    pg.on("console", lambda m: m.type == "error" and errs.append("console: " + m.text))
+    pg.on("console", lambda m: m.text.startswith("[heel]") and print("  console", m.text[:220]))
+    pg.goto(URL)
+    pg.wait_for_function("window.HEEL_UI && HEEL_UI.state === 'title'", timeout=30000)
+    def key(k, w=400): pg.keyboard.press(k); pg.wait_for_timeout(w)
+    key("Enter"); key("Enter"); key("ArrowRight", 200); key("Enter"); key("Enter", 300)
+    print("menu state:", pg.evaluate("HEEL_UI.state"))
+    for n in range(MATCHES):
+        pg.wait_for_function("HEEL_UI.state === 'match'", timeout=15000)
+        pg.wait_for_timeout(3500)
+        strikes = 0
+        for i in range(70):
+            # walk at the AI, strike every 200 ms
+            dx = pg.evaluate("G.P2 && G.P1 ? G.P2.x - G.P1.x : 0")
+            pg.keyboard.down("KeyD" if dx > 1.1 else "KeyA") if abs(dx) > 1.1 else None
+            pg.keyboard.press("KeyJ"); strikes += 1
+            pg.wait_for_timeout(200)
+            pg.keyboard.up("KeyD"); pg.keyboard.up("KeyA")
+            log = pg.inner_text("#log") if pg.query_selector("#log") else ""
+            if re.search(r"expect your strike.*answer with block", log):
+                ok = True
+                if n == 0 and i < 69: pass
+            if pg.evaluate("HEEL_UI.state") != "match": break
+        pg.screenshot(path=str(OUT / f"agents-match{n + 1}.png"))
+        print(f"match {n + 1}: strike keys {strikes}; decision log now:")
+        print("  " + (pg.inner_text("#log") if pg.query_selector("#log") else "(no #log)").replace("\n", "\n  "))
+        print("  habits:", json.dumps(pg.evaluate("G.state && G.state.habits")))
+        extra = pg.evaluate("window.HEEL_DEBUG ? JSON.stringify(HEEL_DEBUG()) : null")
+        if extra: print("  debug:", extra[:2000])
+        # finish the match so it ends (and memory refreshes), then rematch
+        pg.evaluate("G.P2.hp = 1; G.P1.mo = 100")
+        for i in range(120):
+            pg.keyboard.down("KeyD"); pg.keyboard.press("KeyK"); pg.wait_for_timeout(150)
+            if pg.evaluate("HEEL_UI.state") == "results": break
+        pg.keyboard.up("KeyD")
+        pg.wait_for_timeout(1500)
+        print(f"  end state: {pg.evaluate('HEEL_UI.state')}")
+        if n + 1 < MATCHES:
+            pg.wait_for_timeout(int(pg.evaluate("window.HEEL_REMATCH_WAIT_MS || 0")))
+            pg.evaluate("document.querySelector('[data-act=rematch]').click()")
+    print("ERRORS:", errs or "none")
+    b.close()
+print("PASS counter plan seen in the decision log" if ok else "FAIL no counter plan in the decision log")
+sys.exit(0 if ok else 1)

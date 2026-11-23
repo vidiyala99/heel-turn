@@ -130,7 +130,7 @@ ui.innerHTML = `
         </svg></div>
       </div>
     </div>
-    <p class="note"><strong>The AI learns your habits.</strong> Every match it logs what you do at the opening bell and after you get hit, then plans to counter it. Win the same way twice and expect it to be waiting. The results screen shows what it picked up.</p>
+    <p class="note"><strong>The AI learns your habits.</strong> Every match it logs what you do at the opening bell, after a block, when you are gassed and when you are cornered, then plans to counter it. Win the same way twice and expect it to be waiting. The results screen shows what it picked up.</p>
     <div class="row"><button class="btn focus" data-nav data-act="back">Back</button></div>
   </div>
 </section>

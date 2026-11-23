@@ -5,7 +5,10 @@
 //   { w: [Wrestler, Wrestler], over, winner, how, pin, introT, events: [Event], habits, ... }
 // Wrestler: position x/y/z, velocity vx/vz, facing, rotX (fall tilt), hp, st (stamina), mo (meter),
 //   state, t (state timer), move, anim/animSpeed/animSeq (renderer hint), stats.
-// Events (drained by the caller each step): banner, call, log, shake, finisher, wobble, bell, end.
+// Events (drained by the caller each step): banner, call, log, shake, finisher, wobble, bell, end, and
+// fact: { k: 'fact', t_ms, kind, actor: slot, target: slot|null, situation, success? } in the docs/PLAN.md
+// event vocabulary (the caller maps slots to roster ids and sends facts to Bruin, the booth and the agents).
+// Situations (Bruin stg_events): opening | after_block | low_stamina | cornered, read off the human in slot 0.
 // Control per slot: { human, mx, mz, queue: ['strike'|'grapple'|'block'|'blockUp'|'taunt'] }.
 
 export const RING = 3.2;
@@ -20,6 +23,7 @@ export const ROSTER = {
 export const INPUTS = ['strike', 'grapple', 'block', 'blockUp', 'taunt'];
 const MOVES = { strike: { wind: 0.22, active: 0.12, rec: 0.3, stam: 9 }, grapple: { wind: 0.42, active: 0.12, rec: 0.35, stam: 14 } };
 const COUNTER = { strike: 'block', grapple: 'strike', block: 'grapple' };
+export const SITUATIONS = ['opening', 'after_block', 'low_stamina', 'cornered'];
 const BUSY = ['wind', 'active', 'rec', 'stun', 'down', 'thrown', 'taunt', 'pinning', 'pinned', 'out', 'intro'];
 
 const lerp = (a, b, k) => a + (b - a) * k;
@@ -40,12 +44,28 @@ export function createMatch(p1 = 'vex', p2 = 'kane', habits = null) {
   const m = {
     w: [makeWrestler(p1, -1.6), makeWrestler(p2, 1.6)],
     over: false, winner: -1, how: null, pin: null, introT: INTRO_SECS, events: [],
-    habits: habits || { opening: { strike: 1, grapple: 1, block: 1 }, after_hit: { strike: 1, grapple: 1, block: 1 } },
-    lastSituation: 'opening', aiPlanT: 0, aiIntent: 'pressure', aiPlansLog: [],
+    habits: normHabits(habits), clock: 0, blockT: 0,
+    aiPlanT: 0, aiIntent: 'pressure', aiPlansLog: [],
   };
   emit(m, { k: 'call', text: `${m.w[0].name} and ${m.w[1].name} make their way to the ring.` });
   return m;
 }
+
+// habits[situation][move] = times the human in slot 0 started that move there (a Laplace 1 per cell).
+export function normHabits(h) {
+  const out = {};
+  for (const s of SITUATIONS) out[s] = { strike: 1, grapple: 1, block: 1, ...(h && h[s]) };
+  return out;
+}
+export function situationOf(m) {
+  const w = m.w[0];
+  if (w.st < 30) return 'low_stamina';
+  if (nearRopes(w)) return 'cornered';
+  if (m.blockT > 0) return 'after_block';
+  return 'opening';
+}
+const fact = (m, kind, actor, target, extra = {}) =>
+  m.events.push({ k: 'fact', t_ms: Math.round(m.clock * 1000), kind, actor, target, situation: situationOf(m), ...extra });
 
 export const short = (w) => w.name.split(' ').slice(-1)[0].replace(/"/g, '');
 const emit = (m, e) => m.events.push(e);
@@ -57,20 +77,21 @@ function anim(w, name, speed = 1) {
   w.anim = name; w.animSpeed = speed; w.animSeq++;
 }
 
+// Count a move the human actually started (not a key mashed while busy or gassed).
 function recordHabit(m, i, move) {
   if (i !== 0 || !COUNTER[move]) return;
-  m.habits[m.lastSituation][move] += 1;
+  m.habits[situationOf(m)][move] += 1;
 }
 
 function act(m, i, kind) {
   const w = m.w[i], opp = m.w[1 - i];
   if (busy(w)) return;
-  recordHabit(m, i, kind);
-  if (kind === 'block') { w.state = 'block'; w.stats.blocks++; anim(w, 'No', 1.6); return; }
-  if (kind === 'taunt') { w.state = 'taunt'; w.t = 1.2; anim(w, i === 0 ? 'Dance' : 'ThumbsUp', 1.4); emit(m, { k: 'call', text: `${short(w)} plays to the crowd!` }); return; }
+  if (kind === 'block') { recordHabit(m, i, kind); fact(m, 'block', i, 1 - i); w.state = 'block'; w.stats.blocks++; anim(w, 'No', 1.6); return; }
+  if (kind === 'taunt') { fact(m, 'taunt', i, null); w.state = 'taunt'; w.t = 1.2; anim(w, i === 0 ? 'Dance' : 'ThumbsUp', 1.4); emit(m, { k: 'call', text: `${short(w)} plays to the crowd!` }); return; }
   if (kind === 'grapple' && w.mo >= 100 && dist(w, opp) < 1.6) kind = 'finisher';
   const mv = MOVES[kind === 'finisher' ? 'grapple' : kind];
   if (w.st < mv.stam * 0.5) { emit(m, { k: 'call', text: `${short(w)} is gassed!` }); return; }
+  recordHabit(m, i, kind === 'finisher' ? 'grapple' : kind);
   if (kind === 'strike') w.stats.strikes++; else w.stats.grapples++;
   w.st -= mv.stam; w.state = 'wind'; w.move = kind; w.t = mv.wind;
   anim(w, kind === 'strike' ? 'Punch' : 'Jump', kind === 'strike' ? 2.4 : 1.8);
@@ -78,26 +99,36 @@ function act(m, i, kind) {
 
 function resolve(m, att, def) {
   const kind = att.move;
-  if (dist(att, def) > (kind === 'strike' ? 1.45 : 1.35) || def.out) { emit(m, { k: 'log', html: `<em>${short(att)}</em> whiffs the ${kind}.` }); return; }
+  const ai = m.w.indexOf(att), di = 1 - ai, base = kind === 'finisher' ? 'grapple' : kind;
+  if (dist(att, def) > (kind === 'strike' ? 1.45 : 1.35) || def.out) {
+    // one log line per whiff burst: the next one logs only after a connect or 3 s without a whiff
+    if (m.clock - (att.lastWhiff ?? -99) > 3) emit(m, { k: 'log', html: `<em>${short(att)}</em> whiffs the ${kind}.` });
+    att.lastWhiff = m.clock;
+    fact(m, base, ai, di, { success: false });
+    return;
+  }
+  att.lastWhiff = -99;
   if (def.state === 'down' || def.state === 'thrown' || def.state === 'pinned') return;
   if (kind === 'strike') {
     if (def.state === 'block') {
       def.st -= 6; def.stats.reversals++; att.state = 'stun'; att.t = 0.45; anim(att, 'No');
-      emit(m, { k: 'call', text: `${short(def)} blocks and shoves ${short(att)} back.` }); m.lastSituation = 'after_hit'; return;
+      emit(m, { k: 'call', text: `${short(def)} blocks and shoves ${short(att)} back.` });
+      fact(m, 'strike', ai, di, { success: false }); fact(m, 'reversal', di, ai); m.blockT = 1.5; return;
     }
     const cutoff = def.state === 'wind' && def.move !== 'strike';
+    fact(m, 'strike', ai, di, { success: true });
     hit(m, def, 8, att);
-    if (cutoff) { att.stats.reversals++; emit(m, { k: 'call', text: `${short(att)} cuts off the grapple attempt!` }); }
-    att.mo = Math.min(100, att.mo + 12); m.lastSituation = 'after_hit';
+    if (cutoff) { att.stats.reversals++; fact(m, 'reversal', ai, di); emit(m, { k: 'call', text: `${short(att)} cuts off the grapple attempt!` }); }
+    att.mo = Math.min(100, att.mo + 12);
     return;
   }
   const fin = kind === 'finisher';
   const toss = nearRopes(def) && def.hp < 40;
   att.mo = fin ? 0 : Math.min(100, att.mo + 18);
+  fact(m, 'grapple', ai, di, { success: true, ...(fin ? { finisher: true } : {}) });
   throwW(m, def, att, fin ? 28 : 15, toss);
   if (fin) { emit(m, { k: 'banner', text: 'FINISHER!', secs: 1.4 }); emit(m, { k: 'finisher' }); emit(m, { k: 'call', text: `${short(att)} hits the HEEL TURN DRIVER! The building shakes!` }); }
   else emit(m, { k: 'call', text: toss ? `${short(att)} launches ${short(def)} OVER THE TOP ROPE!` : `${short(att)} with a thunderous slam!` });
-  m.lastSituation = 'after_hit';
 }
 
 function hit(m, def, dmg, att) {
@@ -125,26 +156,34 @@ function tryPin(m, i) {
   if (busy(att) || def.state !== 'down' || dist(att, def) > 1.6) return false;
   att.state = 'pinning'; def.state = 'pinned';
   m.pin = { att: i, victim: 1 - i, t: 0, count: 0, mash: 0 };
-  anim(att, 'Sitting'); emit(m, { k: 'call', text: `${short(att)} goes for the cover!` });
+  anim(att, 'Sitting'); emit(m, { k: 'call', text: `${short(att)} goes for the cover!` }); fact(m, 'pin', i, 1 - i);
   return true;
 }
 
 function aiThink(m, i, dt) {
   const me = m.w[i], you = m.w[1 - i];
-  if (me.out || busy(me)) return;
+  if (me.out) return;
+  // Planning is thinking, not acting: the clock runs while the AI is stunned or down, so a player who
+  // keeps landing hits still gets read (an early return here froze the plan at "0 moves seen").
   m.aiPlanT -= dt;
   if (m.aiPlanT <= 0) {
     m.aiPlanT = 3.5;
-    const h = m.habits[m.lastSituation];
-    const fav = Object.entries(h).sort((a, b) => b[1] - a[1])[0];
-    const total = h.strike + h.grapple + h.block;
+    const sit = situationOf(m), seen = (h) => h.strike + h.grapple + h.block - 3;
+    let h = m.habits[sit], where = sit.replace('_', ' ');
+    if (seen(h) < 3) { // too few moves in this situation yet: read all of them
+      h = { strike: 1, grapple: 1, block: 1 };
+      for (const s of SITUATIONS) for (const k in h) h[k] += m.habits[s][k] - 1;
+      where = 'overall';
+    }
+    const total = h.strike + h.grapple + h.block, fav = Object.entries(h).sort((a, b) => b[1] - a[1])[0];
     m.aiIntent = fav[1] / total > 0.45 ? `counter_${fav[0]}` : 'pressure';
     const html = m.aiIntent.startsWith('counter')
-      ? `<em>${short(me)}</em> plan: expect your <em>${fav[0]}</em> (${Math.round(fav[1] / total * 100)}% ${m.lastSituation.replace('_', ' ')}), answer with <em>${COUNTER[fav[0]]}</em>.`
-      : `<em>${short(me)}</em> plan: no clear habit yet (${total - 3} moves seen), apply pressure.`;
+      ? `<em>${short(me)}</em> plan: expect your <em>${fav[0]}</em> (${Math.round(fav[1] / total * 100)}% ${where}, ${seen(h)} moves seen), answer with <em>${COUNTER[fav[0]]}</em>.`
+      : `<em>${short(me)}</em> plan: no clear habit yet (${seen(h)} moves seen), apply pressure.`;
     m.aiPlansLog.push(html.replace(/<[^>]+>/g, ''));
     emit(m, { k: 'log', html });
   }
+  if (busy(me)) return;
   if (you.state === 'down' && tryPin(m, i)) return;
   if (dist(me, you) > 1.3) { moveToward(me, you.x, you.z, dt, 2.4); return; }
   if (Math.random() > dt * 1.25) return; // reaction rate (~1.25 actions/s)
@@ -180,11 +219,13 @@ export function step(m, dt, ctl) {
     m.introT -= dt;
     if (m.introT <= 0) {
       for (const w of m.w) { w.state = 'idle'; anim(w, 'Idle'); }
+      fact(m, 'entry', 0, null); fact(m, 'entry', 1, null);
       emit(m, { k: 'bell' }); emit(m, { k: 'banner', text: 'FIGHT!', secs: 1.2 });
       emit(m, { k: 'call', text: `The bell rings. ${short(m.w[0])} and ${short(m.w[1])} circle each other.` });
     }
     return;
   }
+  m.clock += dt; m.blockT = Math.max(0, m.blockT - dt);
   const [A, B] = m.w;
   for (let i = 0; i < 2; i++) {
     const w = m.w[i], c = ctl[i];
@@ -216,8 +257,8 @@ export function step(m, dt, ctl) {
       w.rotX = -k * Math.PI * 0.5;
       if (k >= 1) {
         emit(m, { k: 'shake', v: 0.4 });
-        if (a.toss) { w.state = 'out'; w.out = true; win(m, 1 - i, 'OVER THE TOP'); }
-        else { w.state = 'down'; w.t = 2.2 + (100 - w.hp) / 40; }
+        if (a.toss) { w.state = 'out'; w.out = true; fact(m, 'elimination', 1 - i, i); win(m, 1 - i, 'OVER THE TOP'); }
+        else { w.state = 'down'; w.t = 2.2 + (100 - w.hp) / 40; fact(m, 'knockdown', 1 - i, i); }
       }
     } else if (w.state === 'down') {
       w.t -= dt; if (w.t <= 0) { w.state = 'idle'; w.rotX = 0; anim(w, 'Standing', 1.5); emit(m, { k: 'call', text: `${short(w)} is back on his feet!` }); }
@@ -257,6 +298,7 @@ export function step(m, dt, ctl) {
 
 function kickout(m) {
   const p = m.pin, att = m.w[p.att], victim = m.w[p.victim];
+  fact(m, 'kickout', p.victim, p.att);
   emit(m, { k: 'call', text: `KICK OUT! ${short(victim)} kicks out at ${p.count}!` }); emit(m, { k: 'banner', text: 'KICK OUT!', secs: 0.8 });
   victim.stats.reversals++;
   att.state = 'idle'; anim(att, 'Idle'); victim.state = 'down'; victim.t = 0.6; m.pin = null;
@@ -264,6 +306,7 @@ function kickout(m) {
 
 function win(m, i, how) {
   const w = m.w[i];
+  if (how === 'PINFALL') fact(m, 'elimination', i, 1 - i); // Bruin's leaderboard: a win = entered, not eliminated
   m.over = true; m.winner = i; m.how = how; m.pin = null;
   emit(m, { k: 'banner', text: `${short(w).toUpperCase()} WINS`, secs: 999 });
   emit(m, { k: 'call', text: `${how}! ${w.name} wins!` });

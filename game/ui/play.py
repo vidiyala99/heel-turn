@@ -33,10 +33,15 @@ with sync_playwright() as p:
     # force a finish: empty P2's health, then grapple/pin until it ends
     pg.evaluate("G.P2.hp = 1; G.P1.mo = 100")
     pg.keyboard.down("KeyD")
+    shot = False
     for i in range(80):
-        key("KeyK", 150)
-        if i == 2: pg.screenshot(path=str(OUT / "play-move.png"))
+        pg.keyboard.press("KeyK")
+        for _ in range(6):
+            pg.wait_for_timeout(25)
+            if not shot and pg.evaluate("G.P2 && G.P2.state === 'thrown'"):
+                pg.wait_for_timeout(450); pg.screenshot(path=str(OUT / "play-suplex.png")); shot = True; print("suplex shot taken")
         if st() == "results": break
+        if i == 6: key("Space", 900); pg.screenshot(path=str(OUT / "play-move.png"))
     pg.keyboard.up("KeyD")
     pg.wait_for_timeout(2000)
     print("end state:", st())

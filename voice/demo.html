@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>HEEL TURN voice booth (dev test page)</title>
+<style>
+  body { font: 15px/1.4 system-ui, sans-serif; background: #111; color: #eee; margin: 2rem; max-width: 52rem; }
+  button { font: inherit; margin: 0.2rem; padding: 0.45rem 0.8rem; background: #2a2a2a; color: #eee; border: 1px solid #555; border-radius: 6px; cursor: pointer; }
+  button:hover { background: #3a3a3a; }
+  #caption { min-height: 3.2em; font-size: 1.3rem; margin: 1rem 0; padding: 0.6rem 0.9rem; background: #000; border-left: 4px solid #e33; }
+  #caption b { color: #fc4; }
+  #log { font: 12px ui-monospace, monospace; white-space: pre-wrap; color: #9a9; max-height: 16rem; overflow: auto; }
+</style>
+</head>
+<body>
+<h1>Voice booth</h1>
+<p>Dev page for voice/. Click <b>Start audio</b> first (browsers need a gesture), then fire events.</p>
+<p><button id="start">Start audio</button> <label><input type="checkbox" id="spam"> burst (fire 8 strikes)</label></p>
+<div id="events"></div>
+<div id="caption" aria-live="polite"></div>
+<div id="log"></div>
+<script type="module">
+import { createCommentary } from './commentary.js';
+import { createTTS } from './tts.js';
+import { createCrowd } from './crowd.js';
+
+const mode = new URLSearchParams(location.search).get('tts') || 'auto';
+const crowd = createCrowd();
+const log = (s) => { document.getElementById('log').textContent = s + '\n' + document.getElementById('log').textContent; };
+// latency probe: event fired -> audio actually started (utterance onstart / mp3 playing)
+window.voiceLatency = [];
+const tts = createTTS({
+  mode,
+  onDuck: crowd.duck,
+  onStart: (line, engine) => {
+    const ms = performance.now() - line.eventAt;
+    window.voiceLatency.push({ speaker: line.speaker, engine, ms, source: line.source });
+    log(`${engine} start +${ms.toFixed(0)}ms ${line.speaker}`);
+  },
+});
+const health = await fetch('/voice/api/health').then(r => r.json()).catch(() => ({}));
+const booth = createCommentary({
+  say: tts.speak,
+  llm: health.llm ? '/voice/api/line' : null,
+  onCaption: (l) => {
+    document.getElementById('caption').innerHTML = `<b>${tts.voices[l.speaker].label.split(' (')[0]}:</b> ${l.text.replace(/</g, '&lt;')}`;
+    log(`[${l.source}] ${l.speaker}: ${l.text}`);
+    window.voiceCaptions = (window.voiceCaptions || []).concat(l);
+  },
+});
+window.booth = booth;
+log(`health ${JSON.stringify(health)} tts=${mode}`);
+
+const SAMPLES = {
+  'Strike': { kind: 'strike', actor: 'kane', target: 'vex' },
+  'Slam': { kind: 'grapple', actor: 'mae', target: 'silas' },
+  'Near-fall': { kind: 'pin', actor: 'vex', target: 'mae' },
+  'Kickout': { kind: 'kickout', actor: 'vex', target: 'mae' },
+  'Elimination': { kind: 'elimination', actor: 'kane', target: 'silas' },
+  'Entry': { kind: 'entry', actor: 'mae' },
+  'Alliance': { kind: 'alliance_reply', actor: 'silas', target: 'kane', success: true },
+  'Betrayal': { kind: 'betray', actor: 'silas', target: 'kane' },
+  'Finisher': { kind: 'finisher', actor: 'vex', target: 'kane' },
+  'Taunt: Vex': { kind: 'taunt', actor: 'vex' },
+  'Taunt: Kane': { kind: 'taunt', actor: 'kane' },
+  'Taunt: Silas': { kind: 'taunt', actor: 'silas' },
+  'Taunt: Mae': { kind: 'taunt', actor: 'mae' },
+};
+const fire = (ev) => { booth.onEvent(ev); crowd.onEvent(ev); };
+window.fire = fire;
+for (const [label, ev] of Object.entries(SAMPLES)) {
+  const b = document.createElement('button'); b.textContent = label;
+  b.onclick = () => document.getElementById('spam').checked && ev.kind === 'strike'
+    ? [...Array(8)].forEach((_, i) => setTimeout(() => fire(ev), i * 120)) : fire(ev);
+  document.getElementById('events').append(b);
+}
+document.getElementById('start').onclick = () => crowd.start().then(() => log('crowd started'));
+</script>
+</body>
+</html>

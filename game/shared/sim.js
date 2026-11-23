@@ -156,9 +156,11 @@ function throwW(m, def, att, dmg, toss) {
   anim(def, 'Death', 1.6); emit(m, { k: 'shake', v: 0.35 });
 }
 
+// No cover in the first PIN_GRACE seconds after the bell, and only on a wrestler a knockdown put on the mat.
+export const PIN_GRACE = 8;
 function tryPin(m, i) {
   const att = m.w[i], def = m.w[1 - i];
-  if (busy(att) || def.state !== 'down' || dist(att, def) > 1.6) return false;
+  if (m.clock < PIN_GRACE || busy(att) || def.state !== 'down' || dist(att, def) > 1.6) return false;
   att.state = 'pinning'; def.state = 'pinned';
   m.pin = { att: i, victim: 1 - i, t: 0, count: 0, mash: 0 };
   anim(att, 'Sitting'); emit(m, { k: 'call', text: `${short(att)} goes for the cover!` }); fact(m, 'pin', i, 1 - i);

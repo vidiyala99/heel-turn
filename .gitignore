@@ -18,3 +18,4 @@ __pycache__/
 *.py[cod]
 logs/queries
 game/assets-raw/
+tools/.design-skills.tgz

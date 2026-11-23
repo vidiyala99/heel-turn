@@ -18,7 +18,7 @@ import { announcerLines } from './announcer.js';
 const ROOT = fileURLToPath(new URL('.', import.meta.url));
 const CACHE = process.env.VOICE_CACHE_DIR || join(ROOT, '.cache');
 const RUNWARE_URL = process.env.RUNWARE_URL || 'https://api.runware.ai/v1';
-const RUNWARE_MODEL = process.env.RUNWARE_TTS_MODEL || 'inworld:tts@1.5-mini';
+const RUNWARE_MODEL = process.env.RUNWARE_TTS_MODEL || 'fishaudio:s2.1@pro'; // owner pick 15:28 (Fish over Inworld/HeyGen)
 const OPENAI_URL = process.env.OPENAI_URL || 'https://api.openai.com/v1/chat/completions';
 const OPENAI_MODEL = process.env.OPENAI_MODEL || 'gpt-4.1-mini';
 const OPENAI_TTS_URL = process.env.OPENAI_TTS_URL || 'https://api.openai.com/v1/audio/speech';

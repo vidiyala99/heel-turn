@@ -77,5 +77,5 @@ so the second intro starts late into the second walk. Online matches have no ent
   mode: the entrance is the artifact, so no HUD/overlay during it, only light, card and voice); emil-design-eng
   (lights fade in over 0.4 s and Enter skips instantly: a skip never waits on an animation); frontend-design
   (one orchestrated moment per wrestler instead of scattered effects).
-- `git push` needed approval in this session and did not run; the commits are local on lane/ringside.
+- Pushed to origin lane/ringside.
 - sim.js touched in one place (tryPin guard + PIN_GRACE export); ai.js untouched.

@@ -19,6 +19,11 @@ def state(t, wrestlers, pin=None, down=()):
     }
 
 
+def body(m) -> str:
+    """Message text without its [match] tag."""
+    return m.text.split("] ", 1)[1] if m.text.startswith("[") else m.text
+
+
 def show(rows):
     for r in rows:
         extra = "".join(f" {k}={r[k]}" for k in ("approved_by", "vetoed_by") if r.get(k))
@@ -64,10 +69,10 @@ def main() -> int:
     # SIGNAL 3: alliance offers answered by their target
     print("\n[3] ALLIANCE OFFER -> ANSWERED BY TARGET (dependent handoff)")
     for m in band.messages:
-        if m.text.startswith(("ALLIANCE?", "ACCEPT.", "REFUSE.")):
+        if body(m).startswith(("ALLIANCE?", "ACCEPT.", "REFUSE.")):
             print(f"  [{band.rooms[m.room]['title']}] {m.sender} -> @{','.join(m.mentions)}: {m.text}")
-    answered = [m for m in band.messages if m.text.startswith(("ACCEPT.", "REFUSE.")) and m.sender == "mae"]
-    ok["3 alliance answered"] = len(answered) >= 2 and any(m.text.startswith("REFUSE.") for m in answered)
+    answered = [m for m in band.messages if body(m).startswith(("ACCEPT.", "REFUSE.")) and m.sender == "mae"]
+    ok["3 alliance answered"] = len(answered) >= 2 and any(body(m).startswith("REFUSE.") for m in answered)
 
     # SIGNAL 4: betrayal proposal -> commissioner approves; bribe -> commissioner blocks
     out = d.plan(state(12000, ["vex", "kane", "silas", "mae"]))

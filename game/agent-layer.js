@@ -146,7 +146,7 @@ export function createAgentLayer({ logRow, call }) {
     inFlight = true; nextAt = m.clock + PLAN_EVERY_S;
     const t0 = performance.now(), body = request(m);
     post('/agents/plan', body).then((r) => r.json()).then((res) => {
-      if (res.error) throw new Error(res.error);
+      if (res.error) throw new Error(res.reason || res.error);
       downLogged = false;
       const src = (res.plans || []).map((p, k) => [p.wrestler, res.meta?.[k]?.source]).filter(([w]) => w !== 'lou');
       const live = src.length && src.every(([, s]) => s === 'openai');
@@ -163,7 +163,7 @@ export function createAgentLayer({ logRow, call }) {
       });
     }).catch((e) => {
       debug.errors.push('agents/plan ' + e.message);
-      chip('AI: fallback (agents offline)', false);
+      chip(`AI: fallback (${/^BAND:/.test(e.message) ? e.message : 'agents offline'})`, false);
       nextAt = m.clock + 2; // retry sooner while the server is down
       if (!downLogged) { downLogged = true; logRow(planHtml({ wrestler: 'agents', intent: 'offline', reason: `agents server unreachable (${e.message}); the scripted fallback plans meanwhile`, cites: [] }, 'FALLBACK')); }
     }).finally(() => { inFlight = false; });

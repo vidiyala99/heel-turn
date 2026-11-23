@@ -19,3 +19,4 @@ __pycache__/
 logs/queries
 game/assets-raw/
 tools/.design-skills.tgz
+agents/.band_rooms.json

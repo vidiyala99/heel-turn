@@ -68,6 +68,19 @@ Branch `lane/band`. Five BAND agents: Vex (showboat), Brutus Kane (brute), Silas
 - The 5 agents are not running `agent.run()` WebSocket loops: the Director acts for each agent with that agent's
   own key over REST. Each message in the Band console is still sent by the agent named in it.
 
+## Room pool (2026-11-23, after BAND 403 `max_chat_rooms 250/250`)
+BAND caps the account at 250 rooms (rooms owned by our agents). Each match used to create 4-6 rooms, so live play
+and test runs filled the cap and the game fell back to scripted AI. Now `transport.RoomPool` keeps one room per purpose
+(ring, heel locker room, face locker room, commissioner desk, back room, `silas x <wid>`), created once and saved in
+`agents/.band_rooms.json` (gitignored). Matches are told apart by a `[match]` tag at the start of every message; a
+verdict only counts if it was posted after its proposal. At each new match the pool removes last match's entrants, so
+the runtime entrant is still a real `band_add_participant` every match. `TestRoomPool` plays 20 matches and asserts zero
+room creations after warm-up. `/health` reports `band_rooms` (`n/250`) and `band_reason`; a refused room makes `/plan`
+return 503 with `reason: "BAND: room limit"`, which the game's chip shows.
+
+Cleanup: `python -m agents.tools.band_rooms list` (read-only census) and `prune --keep N --dry-run`. Agents cannot
+delete rooms on BAND; a real `prune --keep N --yes` needs the account owner's user key in `HEEL_BAND_HUMAN_KEY`.
+
 ## Env vars
 | Var | Default | Purpose |
 |---|---|---|

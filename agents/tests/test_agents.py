@@ -104,6 +104,47 @@ class TestBrain(unittest.TestCase):
         self.assertIsNone(parse_verdict("hmm"))
 
 
+class TestRoomPool(unittest.TestCase):
+    """BAND caps an account at 250 rooms: matches must reuse rooms, not create them."""
+
+    def play(self, d, match):
+        def s(t, ws):
+            return {**st(t, ws), "match": match}
+        d.plan(s(0, ["vex", "kane", "silas"]))
+        d.plan(s(8000, ["vex", "kane", "silas", "mae"]))  # runtime entrant + silas poach room
+        d.plan(s(16000, ["vex", "kane", "silas", "mae"]))  # bribe in the back room
+
+    def test_no_room_created_after_warm_up_across_20_matches(self):
+        d = offline_director()
+        self.play(d, "m0")
+        warm = d.band.room_usage()
+        for i in range(1, 21):
+            before = len(d.band.console)
+            self.play(d, f"m{i}")
+            lines = d.band.console[before:]
+            self.assertFalse([x for x in lines if x.startswith("band_create_chatroom")], f"match m{i} created a room")
+            # the runtime entrant is still a real add into the ring, every match
+            self.assertTrue([x for x in lines if "band_add_participant" in x and "add=mae" in x and "ring" in x])
+        self.assertEqual(d.band.room_usage(), warm)
+        self.assertLessEqual(warm, 6)
+
+    def test_old_match_verdict_does_not_carry_over(self):
+        d = offline_director()
+        d.plan(st(0, ["vex", "kane", "silas"]))
+        d.plan(st(16000, ["vex", "kane", "silas"]))
+        first = sorted(d.proposals)
+        self.assertTrue(first, "the offline ledger should produce at least one proposal")
+        for pid in first:
+            d.verdict(pid, "approve")
+        d.plan({**st(0, ["vex", "kane", "silas"]), "match": "m2"})
+        d.plan({**st(16000, ["vex", "kane", "silas"]), "match": "m2"})
+        # same ids again in m2, same desk room: m1's "approve <id>" messages must not decide them
+        again = [p for pid, p in d.proposals.items() if pid in first]
+        self.assertTrue(again)
+        for p in again:
+            self.assertEqual(p["status"], "pending", p["id"])
+
+
 class TestMemory(unittest.TestCase):
     def test_duckdb_reader(self):
         try:

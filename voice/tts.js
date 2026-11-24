@@ -22,9 +22,10 @@ export function voiceBus(ac) {
 
 // Automated browsers (Playwright sets navigator.webdriver) and ?mute=1 never make sound: speechSynthesis speaks
 // through the OS voice even under --mute-audio, so the test runs were audible on the owner's machine.
-// ?voice=1 lets a headless check (run with --mute-audio) exercise the real audio path anyway.
+// ?voice=1 lets a headless check (run with --mute-audio) exercise the real audio path anyway; ?capture=1 does the same
+// for the demo recorder (game/tools/capture/record.mjs), which taps the AudioContext. speechSynthesis stays off.
 const Q = typeof location !== 'undefined' ? new URLSearchParams(location.search) : new URLSearchParams();
-export const MUTED = Q.get('voice') !== '1' && (typeof navigator !== 'undefined' && navigator.webdriver === true || Q.get('mute') === '1');
+export const MUTED = Q.get('voice') !== '1' && Q.get('capture') !== '1' && (typeof navigator !== 'undefined' && navigator.webdriver === true || Q.get('mute') === '1');
 
 const START_BUDGET_MS = 2000; // a clip not ready this long after its cue is skipped (or swapped for its cached fallback)
 

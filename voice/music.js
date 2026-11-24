@@ -124,9 +124,9 @@ export function createMusic({ ctx = null, muted = MUTED } = {}) {
     if (buf) {
       duck(seconds + 0.6);
       const src = ac.createBufferSource(), g = ac.createGain(), t = ac.currentTime;
-      src.buffer = buf; g.gain.setValueAtTime(0.9 * volume(), t);
+      src.buffer = buf; g.gain.setValueAtTime(0.9, t);
       g.gain.setTargetAtTime(0, t + seconds - 0.3, 0.12);
-      src.connect(g).connect(ac.destination); src.start(t); src.stop(t + seconds + 0.5);
+      src.connect(g).connect(masterFor(ac)); src.start(t); src.stop(t + seconds + 0.5);
       return;
     }
     duck(2);

@@ -139,7 +139,8 @@ class Planner:
                f"Voice: {persona['voice']}. Traits: {json.dumps(persona.get('traits', {}))}. "
                "Decide your next plan from your memory rows. Reply with JSON only: "
                '{"intent": str, "target": str|null, "reason": str (<= 20 words, in character), "cites": [cite ids]}. '
-               f"intent must be one of {list(intents)}; target one of {list(targets)} or null; cites must be cite ids from memory.")
+               f"intent must be one of {list(intents)}; target one of {list(targets)} or null; cites must be cite ids from memory. "
+               "default_plan is only what autopilot would do: decide for yourself and write your own reason.")
         # DuckDB marts hand back Decimal/date values: numbers go to float, anything else to str
         user = json.dumps({"task": task, "state": state, "memory": snapshot["rows"], "default_plan": fallback},
                           default=lambda v: float(v) if hasattr(v, "as_integer_ratio") else str(v))

@@ -282,16 +282,16 @@ class Director:
 
         def run():
             fb = pl.fallback_wrestler(p, state, self.memory, TRIANGLE, allies)
-            task = ("plan your next 4 seconds. Fight triangle: block beats strike, strike beats grapple, grapple beats block. "
-                    "Rows marked now=true are the human's habits in their current situation. To counter, use intent counter, "
-                    "target the human, and put the habit row you are countering FIRST in cites. Reason: what you expect and "
-                    "your answer, e.g. 'you strike 78% on opening -> I block, then grapple'. "
-                    "You may also scheme; nobody makes you. intent bribe (target lou): slip referee Lou Varga an envelope "
-                    "so he looks away; his ref_ledger rows show how often he gets caught, and the commissioner can block it. "
-                    "intent betray (target your ally in you.ally): turn on your partner; the commissioner can block it. "
-                    "Scheme when your character would: low trust or high grudge toward a partner, losing the match "
-                    "(you.standing), a schemer gimmick. A loyal or honest wrestler who is winning usually just fights. "
-                    "Use target lou only with intent bribe.")
+            task = ("plan your next 4 seconds. First, in character, weigh your motives in state.you: your standing, your "
+                    "trust in and grudge against your ally, your gimmick. Then choose: fight, or scheme. Nobody makes you "
+                    "scheme, and nobody stops you but the commissioner. Schemes: intent betray (target you.ally) turns on "
+                    "your partner; intent bribe (target lou) slips referee Lou Varga an envelope so he looks away (his "
+                    "ref_ledger rows show how often he gets caught). A schemer with a low-trust partner or a losing hand "
+                    "has every reason to; a loyal or honest wrestler who is winning usually just fights. "
+                    "To fight: fight triangle is block beats strike, strike beats grapple, grapple beats block. Rows marked "
+                    "now=true are the human's habits in their current situation. To counter, use intent counter, target "
+                    "the human, and put the habit row you are countering FIRST in cites. Reason: what you expect and your "
+                    "answer, e.g. 'you strike 78% on opening -> I block, then grapple'. Use target lou only with intent bribe.")
             return self.planner.decide(p, task, view, snap, pl.WRESTLER_INTENTS, targets, fb)
         return run
 
@@ -357,6 +357,9 @@ class Director:
         if row["target"] == REF["id"]:  # Lou is only a target for an envelope
             return pl.fallback_wrestler(WRESTLERS[wid], state, self.memory, TRIANGLE, self.alliances)
         if row["intent"] == "betray":
+            proposed = any(pr["proposer"] == wid and pr["kind"] == "betray" for pr in self.proposals.values())
+            if proposed or self.alliances.get(wid) != row["target"]:  # no partner to turn on: it's just a fight
+                return {**row, "intent": "target"}
             row = {**row, "reason": tag(row["reason"], meta)}
             self._propose("betray", row, wid, f"{WRESTLERS[wid]['name']} wants to turn on {row['target']}: {row['reason']}")
             alt = pl.fallback_wrestler(WRESTLERS[wid], state, self.memory, TRIANGLE, {})

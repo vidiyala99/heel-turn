@@ -16,8 +16,8 @@ export function mountLowerThird() {
   transition: clip-path 240ms cubic-bezier(.23,1,.32,1), opacity 120ms ease-out, transform 240ms cubic-bezier(.23,1,.32,1); }
 #l3 .bar { background: var(--tint, #f5c542); }
 #l3 .txt { background: rgba(7,9,16,.92); padding: 6px 14px 7px 10px; }
-#l3 .nm { font: 400 22px/1.05 Anton, Impact, sans-serif; letter-spacing: .02em; color: #fff; }
-#l3 .rl { font: 600 12px/1.3 Inter, system-ui, sans-serif; color: #c9d0dc; }
+#l3 .nm { font: 400 18px/1.05 Anton, Impact, sans-serif; letter-spacing: .02em; color: #fff; }
+#l3 .rl { font: 600 11px/1.3 Inter, system-ui, sans-serif; color: #c9d0dc; }
 #l3 .rl b { color: var(--tint, #f5c542); font-weight: 600; }
 @media (prefers-reduced-motion: reduce) { #l3, #l3[data-on="1"] { transform: none; clip-path: none; transition: opacity 160ms linear; } }
 @media (max-width: 720px) { #l3 { left: 12px; bottom: 120px; } #l3 .nm { font-size: 18px; } }

@@ -16,8 +16,13 @@
   .name { font-family:Anton,sans-serif; font-size:28px; letter-spacing:1px; text-transform:uppercase; text-shadow:0 2px 0 #000; }
   .bar { height:14px; background:#1b1f29; border:2px solid #000; margin-top:4px; transform:skewX(-18deg); overflow:hidden; }
   .bar > i { display:block; height:100%; background:linear-gradient(90deg,#ff5a5f,#e8333b); transition:width .15s; }
+  .bar.st, .bar.mo { height:6px; border-width:1px; margin-top:3px; }
   .bar.st > i { background:linear-gradient(90deg,#4fd1ff,#2b8cff); }
   .bar.mo > i { background:linear-gradient(90deg,#ffe27a,#f5c542); }
+  .bar { position:relative; }
+  .bar::after { content:attr(data-l); position:absolute; top:50%; left:8px; transform:translateY(-50%) skewX(18deg); font:600 9px/1 Inter,sans-serif; letter-spacing:.12em; color:rgba(255,255,255,.85); text-shadow:0 1px 0 #000; }
+  .bar.st::after, .bar.mo::after { content:none; }
+  .right .bar::after { left:auto; right:8px; transform:translateY(-50%) skewX(-18deg); }
   .right { text-align:right; } .right .bar { transform:skewX(18deg); }
   .center { position:fixed; top:34%; left:0; right:0; text-align:center; font-family:Anton,sans-serif; font-size:clamp(48px,9vw,128px); letter-spacing:2px; color:var(--gold); text-shadow:0 6px 0 #000, 0 0 40px rgba(245,197,66,.5); pointer-events:none; opacity:0; transition:opacity .2s; }
   .ticker { position:fixed; bottom:0; left:0; right:0; background:linear-gradient(90deg,#c1121f,#7a0a12); font-weight:600; padding:10px 24px; font-size:15px; display:flex; gap:12px; align-items:center; }
@@ -25,14 +30,25 @@
   .log { position:fixed; right:16px; bottom:56px; width:340px; max-height:38vh; overflow:hidden; font-size:12.5px; background:rgba(5,6,10,.72); border:1px solid #2a2f3a; padding:10px 12px; }
   .log h4 { margin:0 0 6px; font-family:Anton,sans-serif; font-weight:400; letter-spacing:1px; color:var(--gold); font-size:14px; }
   .log p { margin:4px 0; color:#cfd6e1; } .log p em { color:#fff; font-style:normal; font-weight:600; }
+  /* newest rows on top: keep four whole rows, fade the older ones instead of clipping a row mid-line */
+  /* slim, quiet rail: audio carries the match, the log only proves the AI is thinking */
+  .log { width:288px; padding:8px 10px; font-size:11.5px; line-height:1.35; background:rgba(5,6,10,.62); border:0; border-top:2px solid var(--gold); }
+  .log h4 { font-size:12px; margin:0 0 4px; }
+  .log .dl-chip { font-size:9px; padding:2px 5px; margin-top:0; }
+  .log p:has(.dl-row) { margin:3px 0; }
+  .log .dl-row { border-left:0; padding-left:0; }
+  .log .dl-src { display:inline-block; width:6px; height:6px; padding:0; margin-right:6px; font-size:0; border-radius:50%; vertical-align:1px; }
+  .log .dl-r { color:#aeb6c3; overflow:hidden; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; }
+  .log .dl-c { font-size:9.5px; color:#6f7888; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .log p:nth-child(3) { opacity:.72; } .log p:nth-child(4) { opacity:.45; } .log p:nth-child(n+5) { display:none; }
   .keys { position:fixed; left:16px; bottom:56px; font-size:12px; color:#9aa4b2; background:rgba(5,6,10,.6); padding:8px 10px; border:1px solid #2a2f3a; line-height:1.6; }
   .keys kbd { background:#1b1f29; border:1px solid #3a404d; padding:0 5px; color:#fff; font-family:inherit; }
 </style>
 </head>
 <body>
 <div class="hud">
-  <div class="card"><div class="name" id="n0">You</div><div class="bar"><i id="h0"></i></div><div class="bar st"><i id="s0"></i></div><div class="bar mo"><i id="m0"></i></div></div>
-  <div class="card right"><div class="name" id="n1">Opponent</div><div class="bar"><i id="h1"></i></div><div class="bar st"><i id="s1"></i></div><div class="bar mo"><i id="m1"></i></div></div>
+  <div class="card"><div class="name" id="n0">You</div><div class="bar" data-l="HEALTH"><i id="h0"></i></div><div class="bar st"><i id="s0"></i></div><div class="bar mo"><i id="m0"></i></div></div>
+  <div class="card right"><div class="name" id="n1">Opponent</div><div class="bar" data-l="HEALTH"><i id="h1"></i></div><div class="bar st"><i id="s1"></i></div><div class="bar mo"><i id="m1"></i></div></div>
 </div>
 <div class="center" id="banner"></div>
 <div class="log"><h4>DECISION LOG</h4><div id="log"></div></div>

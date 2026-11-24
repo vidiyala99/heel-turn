@@ -70,8 +70,8 @@
 
 /* while a promo is on air it owns the bottom-left: the key help steps aside and the speaker strap rides above the card */
 .keys, #l3 { transition: opacity 160ms ease-out, bottom 240ms cubic-bezier(0.23, 1, 0.32, 1); }
-body:has(.promo.on) .keys { opacity: 0; }
-body:has(.promo.on:not([data-side="right"])) #l3 { bottom: 214px; }
+body:has(.promo.on:not(.sub)) .keys { opacity: 0; }
+body:has(.promo.on:not(.sub):not([data-side="right"])) #l3 { bottom: 214px; }
 
 /* audio-first subtitle strip: one line, bottom center above the ticker, a small speaker tag; the voice is the promo */
 .promo.sub { left: 50%; right: auto; bottom: 58px; transform: translate(-50%, 8px); justify-content: center; }

@@ -27,6 +27,14 @@ SAMPLER = """() => { window.__soak = []; clearInterval(window.__soakTick);
     const p = u.matrixWorld.elements, q = l.matrixWorld.elements, d = [q[12] - p[12], q[13] - p[13], q[14] - p[14]];
     const n = Math.hypot(...d), e = o.matrixWorld.elements, rn = Math.hypot(e[0], e[1], e[2]);
     return Math.abs((d[0] * e[0] + d[1] * e[1] + d[2] * e[2]) / (n * rn)); };
+  // per frame: the largest one-frame turn of each drawn body (a facing snap shows as a spike), read and reset per sample
+  window.__yawMax = [0, 0]; window.__yawPrev = [null, null];
+  const yawLoop = () => { const vs = window.HEEL_VIEWS ? HEEL_VIEWS() : [];
+    vs.forEach((o, i) => { const e = o.matrixWorld.elements, y = Math.atan2(e[8], e[10]), p = window.__yawPrev[i];
+      if (p != null) { let d = Math.abs(y - p); if (d > Math.PI) d = 2 * Math.PI - d; window.__yawMax[i] = Math.max(window.__yawMax[i], d * 180 / Math.PI); }
+      window.__yawPrev[i] = y; });
+    window.__yawRaf = requestAnimationFrame(yawLoop); };
+  cancelAnimationFrame(window.__yawRaf); yawLoop();
   window.__soakTick = setInterval(() => {
     const st = window.G && G.state, sy = window.HEEL_SYNC && HEEL_SYNC(), an = window.HEEL_ANIM && HEEL_ANIM();
     const row = { t: performance.now() / 1000, ui: window.HEEL_UI && HEEL_UI.state, bell: (window.HEEL_ENTRANCE_LOG || []).some((e) => e.ev === 'bell'),
@@ -38,7 +46,8 @@ SAMPLER = """() => { window.__soak = []; clearInterval(window.__soakTick);
         inRing: Math.max(Math.abs(w.sx), Math.abs(w.sz)) < 3.0, low: o ? low(o) : null,
         l: o ? ang(o, 'upperarm_l', 'lowerarm_l') : null, r: o ? ang(o, 'upperarm_r', 'lowerarm_r') : null,
         sl: o ? side(o, 'upperarm_l', 'lowerarm_l') : null, sr: o ? side(o, 'upperarm_r', 'lowerarm_r') : null,
-        clip: an && an.w[i] ? an.w[i].clip : null });
+        clip: an && an.w[i] ? an.w[i].clip : null, turn: window.__yawMax[i] });
+      window.__yawMax[i] = 0;
     });
     const ref = window.HEEL_REF;
     if (ref && ref.obj && ref.obj.parent) row.ref = { phase: ref.phase, l: ang(ref.obj, 'upperarm_l', 'lowerarm_l'), r: ang(ref.obj, 'upperarm_r', 'lowerarm_r'),
@@ -84,7 +93,8 @@ def judge(rows):
             if s != cur: cur, t0 = s, r["t"]
             if s: st_best = max(st_best, r["t"] - t0)
         maxdrift = max((w(r)["drift"] for r in ws if live(r) and not r["pair"] and not w(r)["move"]), default=0)
-        stats[i] = dict(tpose=tp, float=fl, drift=dr, maxdrift=maxdrift, stuck=st_best)
+        pops = [w(r)["turn"] for r in ws if live(r) and not r["pair"] and not w(r)["move"] and w(r).get("turn") is not None]
+        stats[i] = dict(turnpop=max(pops, default=0), tpose=tp, float=fl, drift=dr, maxdrift=maxdrift, stuck=st_best)
         if tp > TPOSE_S: fails.append(f"w{i} T-pose {tp:.1f}s")
         if fl > FLOAT_S: fails.append(f"w{i} floats {fl:.1f}s")
         if dr > DRIFT_S: fails.append(f"w{i} hips off sim {dr:.1f}s (max {maxdrift:.2f} m)")

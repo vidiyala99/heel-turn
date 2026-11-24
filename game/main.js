@@ -317,7 +317,8 @@ function syncViews(ws, dt) {
       const gap = v.root.position.distanceTo(_tp);
       if (dt === 0) { /* hitstop or pause: hold the frame, never snap */ }
       else if (v.easeT > 0 && gap > 0.02 && gap < 2.5) { v.easeT -= dt; const k = Math.min(1 - Math.exp(-dt * 14), 0.25 / gap); v.root.position.lerp(_tp, k); v.root.quaternion.slerp(_tq, 1 - Math.exp(-dt * 14)); }
-      else { v.root.position.copy(_tp); v.root.quaternion.copy(_tq); }
+      // turning to face the rival retargets like a spring (about 0.12 s to settle), never a one-frame snap
+      else { v.root.position.copy(_tp); v.root.quaternion.slerp(_tq, 1 - Math.exp(-dt * 18)); }
     }
     v.anim8.update(dt);
   });

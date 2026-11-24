@@ -8,10 +8,9 @@
 //            state 'waiting' = not in the ring yet (the renderer hides it).
 // Proposal:  { id, kind: 'betray'|'bribe', by, on (slots), reason, cites, status: pending|approved|blocked|lapsed,
 //              at (clock), bandId (the agents server's proposal id when BAND made it) }
-// Agent director (scripted, reads the Bruin relationships/ref_ledger rows in m.mem; the agents server can replace a
-// proposal's reason and id with the LLM's): alliance -> two AIs share one target (the human) -> the schemer proposes
-// a betrayal when its trust in the partner is low -> the commissioner approves or blocks -> an approved turn ends in
-// a forced toss of the partner. Silas also offers Lou an envelope; Lou weighs his ledger; the commissioner rules.
+// Agent director: alliance -> two AIs share one target (the human). Nothing here schemes: a betrayal or a bribe only
+// exists when the agents server's LLM plans one (adoptBand opens the proposal from its desk room); the commissioner
+// approves or blocks; an approved turn ends in a forced toss of the partner, an approved envelope turns Lou's back.
 // Events (besides sim.js's): agent {row}, alliance {a, b, target}, entrant {slot}, eliminated {slot, by},
 //   betrayal {by, on}, verdict {id, kind, decision, bandId}, bribe {decision}.
 import { T } from './tuning.js';
@@ -24,8 +23,7 @@ const CAST = { ...ROSTER, ...ROYAL_EXTRA };
 const CALL = { vex: 'Vex', kane: 'Kane', silas: 'Crane', mae: 'Mae', riot: 'Riot' }; // what the booth calls them
 const short = (w) => CALL[w.id] || fullShort(w);
 export const R = {
-  max: 5, startAi: 2, entryEvery: 5, bribeAt: 15, tossHp: 40, spentHp: 15,
-  betrayAge: 10, betrayHp: 70, betrayMaxAge: 18, lapse: 20, awaySecs: 10, foeEvery: 1.2,
+  max: 5, startAi: 2, entryEvery: 5, tossHp: 40, spentHp: 15, lapse: 20, awaySecs: 10, foeEvery: 1.2,
 };
 const AI_ORDER = ['silas', 'vex', 'mae', 'kane', 'riot'];
 const MOVES = T.sim.moves;
@@ -67,13 +65,6 @@ export function rel(m, a, b) {
   const row = r || { a, b, trust: schemer ? 0.4 : 0.5, grudge: schemer ? 0.5 : 0.2 };
   return { ...row, cite: `relationships.${a}>${b}${r ? '' : ' (default)'} trust ${row.trust} grudge ${row.grudge}` };
 }
-function refScore(m, briber) {
-  const rows = (m.mem.ref_ledger || []).filter((r) => r.ref === 'lou');
-  const n = rows.length, acc = rows.filter((r) => r.accepted).length, caught = rows.filter((r) => r.caught).length;
-  const greed = 0.6, caughtRate = n ? caught / n : 0, score = +(greed - 0.7 * caughtRate).toFixed(2);
-  return { score, cite: `ref_ledger.lou _any accepted ${acc}/${n} caught ${caught}/${n}`, why: `greed ${greed} - 0.7 x caught ${caughtRate.toFixed(2)} = ${score >= 0 ? '+' : ''}${score}` };
-}
-
 function makeW(id, slot, human) {
   const r = CAST[id] || CAST.vex;
   return {
@@ -94,7 +85,7 @@ export function createRoyal({ humans = ['kane'], mem = null, seed } = {}) {
     mode: 'royal', w: [...hs.map((id, i) => makeW(id, i, true)), ...ais.map((id, k) => makeW(id, hs.length + k, false))],
     over: false, winner: -1, how: null, pin: null, introT: INTRO_SECS, events: [], clock: 0, freeze: 0,
     seed: seed ?? ((Date.now() % 100000) + 1), habits: null, aiPlansLog: [],
-    mem: mem || STUB_MEM, alliance: null, allianceDone: false, betray: null, proposals: [], bribeDone: false, trustLogged: false,
+    mem: mem || STUB_MEM, alliance: null, allianceDone: false, betray: null, proposals: [],
     lou: { awayT: 0, briber: -1, lowBlow: false }, order: [], nextEntryT: R.entryEvery, ext: {},
   };
   const first = hs.length + R.startAi;
@@ -157,28 +148,6 @@ function director(m, dt) {
         const next = humans[0];
         if (next) { al.target = next.slot; if (A.intent !== 'betray') A.foe = next.slot; B.foe = next.slot; }
       }
-      const age = m.clock - al.since, r = rel(m, A.id, B.id);
-      const ready = age >= R.betrayAge && (tgt.hp < R.betrayHp || age >= R.betrayMaxAge || !live(tgt));
-      if (ready && !m.betray && !m.proposals.some((p) => p.kind === 'betray')) {
-        if (r.trust < 0.5) {
-          propose(m, 'betray', A.slot, B.slot, `${short(A)} wants to turn on ${short(B)}: trust ${r.trust}, grudge ${r.grudge}${r.last_betrayal ? ` (${r.last_betrayal})` : ''}`, [r.cite]);
-        } else if (!m.trustLogged) {
-          m.trustLogged = true;
-          agent(m, { wrestler: A.id, intent: 'ally', target: B.id, reason: `stays loyal: trust ${r.trust} is too high to turn`, cites: [r.cite] });
-        }
-      }
-    }
-  }
-  // the envelope: Silas offers Lou, Lou weighs his ledger, the commissioner rules
-  const briber = m.w.find((w) => w.id === 'silas' && !w.human && live(w));
-  if (!m.bribeDone && briber && m.clock >= R.bribeAt) {
-    m.bribeDone = true;
-    const s = refScore(m, briber.id);
-    agent(m, { wrestler: 'silas', intent: 'bribe', target: 'lou', reason: '"Envelope is under the turnbuckle. Look the other way for me tonight."', cites: [] });
-    if (s.score > 0) propose(m, 'bribe', briber.slot, -1, `Lou Varga took ${short(briber)}'s envelope to look the other way: ${s.why}`, [s.cite]);
-    else {
-      agent(m, { wrestler: 'lou', intent: 'bribe_decline', target: 'silas', reason: s.why, cites: [s.cite] }, 'REF');
-      emit(m, { k: 'bribe', decision: 'decline' });
     }
   }
   // betrayal under way: give it 20 s, then it fizzles
@@ -205,26 +174,19 @@ function propose(m, kind, by, on, reason, cites, bandId = null) {
   return p;
 }
 
-// The agents server's pending proposals (BAND desk room): adopt their id and the LLM's reason for ours, or open
-// the proposal early when the LLM asks for the turn first.
+// The agents server's pending proposals (BAND desk room): each is a scheme an agent's LLM chose (a betrayal, or an
+// envelope Lou's LLM accepted). Open it here under BAND's id so the commissioner card shows it with the LLM's reason.
 export function adoptBand(m, pending) {
   for (const bp of pending || []) {
     const kind = bp.kind, plan = bp.plan || {};
     if (m.proposals.some((p) => p.bandId === bp.id)) continue;
-    const mine = m.proposals.find((p) => p.kind === kind && p.status === 'pending' && !p.bandId);
-    // the commissioner already ruled on ours before BAND's copy arrived: tie them and send that ruling to the room
-    const ruled = !mine && m.proposals.find((p) => p.kind === kind && !p.bandId && p.status !== 'pending');
-    if (ruled) {
-      ruled.bandId = bp.id;
-      emit(m, { k: 'verdict', id: ruled.id, kind, decision: ruled.status === 'approved' ? 'approve' : 'block', bandId: bp.id, late: true });
-      continue;
+    const by = m.w.find((w) => w.id === bp.proposer && !w.human && live(w));
+    if (!by || m.proposals.some((p) => p.kind === kind && p.by === by.slot)) continue;
+    if (kind === 'betray' && !m.betray) {
+      const on = m.w.find((w) => w.id === (plan.target === 'brutus' ? 'kane' : plan.target) && live(w));
+      if (on && on !== by) propose(m, 'betray', by.slot, on.slot, plan.reason || 'the LLM plans a turn', plan.cites || [], bp.id);
     }
-    if (mine) { mine.bandId = bp.id; if (plan.reason) mine.reason = `${mine.reason} | LLM: ${plan.reason}`; if (plan.cites?.length) mine.cites = [...new Set([...mine.cites, ...plan.cites])]; continue; }
-    const al = m.alliance;
-    if (kind === 'betray' && al && !m.betray && !m.proposals.some((p) => p.kind === 'betray')) {
-      const A = m.w[al.a], B = m.w[al.b], tgtId = plan.target === 'brutus' ? 'kane' : plan.target;
-      if (A.id === bp.proposer && B.id === tgtId) propose(m, 'betray', A.slot, B.slot, plan.reason || 'the LLM plans a turn', plan.cites || [], bp.id);
-    }
+    if (kind === 'bribe') propose(m, 'bribe', by.slot, -1, plan.reason || 'Lou took the envelope', plan.cites || [], bp.id);
   }
 }
 

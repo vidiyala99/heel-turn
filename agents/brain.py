@@ -6,11 +6,14 @@ BAND signals produced (all through transport.py, so they are real in live mode):
   2. a battle-royal entrant added to rooms at runtime                  (lookup_peers + add_participant)
   3. alliance offer answered by its target from the target's memory   (offer -> target inbox -> reply)
   4. betrayal / bribe proposals the human commissioner approves/blocks (pending until a verdict message)
+No outcome is scripted: a bribe or betrayal exists only when an agent's LLM plan chooses it, and Lou decides every call
+(bribe, count, rope break, cheat) by LLM. Code only enforces the gates: the commissioner rules on every proposal and Lou
+may act corruptly only behind an approved bribe. Each scheme row's reason starts with its decision tag ([LLM] or the
+planner's fallback label).
 """
 from __future__ import annotations
 
 import json
-import os
 import threading
 import time
 from concurrent.futures import ThreadPoolExecutor
@@ -30,6 +33,12 @@ BASELINE = {"ring": {REF["id"], COMM}, "heel locker room": {"silas"}, "face lock
 TRIANGLE = {k: v for k, v in CAST["fight_triangle"].items() if not k.startswith("_")}
 
 
+def tag(reason: str, meta: dict) -> str:
+    """Prefix a scheme decision with who made it: the LLM, or the planner's labeled fallback."""
+    return f"[LLM] {reason}" if meta.get("source") == "openai" else (
+        reason if reason.startswith(pl.FALLBACK_TAG) else f"{pl.FALLBACK_TAG} {reason}")
+
+
 class Director:
     def __init__(self, transport=None, memory=None, planner=None):
         cast = {**{w: "agent" for w in WRESTLERS}, REF["id"]: "agent", COMM: "human"}
@@ -37,7 +46,6 @@ class Director:
         self.pool = make_pool(self.band)
         self.memory = memory or mem.Memory()
         self.planner = planner or pl.Planner()
-        self.bribe_at_ms = int(os.environ.get("HEEL_BRIBE_AT_MS", "15000"))
         self.lock = threading.RLock()
         self.log: list[dict] = []
         self.meta: list[dict] = []
@@ -51,7 +59,7 @@ class Director:
         self.alliances: dict[str, str] = {}
         self.proposals: dict[str, dict] = {}
         self.bribes: dict[str, bool] = {}
-        self.bribe_offered = False
+        self.bribe_offered: set[str] = set()  # one envelope per wrestler per match
         self.last_intent: dict[str, str] = {}
         b, pool = self.band, self.pool
         pool.reset(BASELINE)
@@ -172,26 +180,46 @@ class Director:
         if p["kind"] == "bribe" and p["status"] == "approved":
             self.bribes[plan["target"]] = True
 
-    # --- bribe: schemer -> ref in a back room, ref weighs reputation, commissioner rules ------
-    def _bribe(self, briber: str, t_ms: int) -> None:
-        self.bribe_offered = True
+    # --- bribe: a wrestler's LLM plan offers, Lou's LLM weighs it, the commissioner rules -----
+    def _bribe(self, offer: dict, offer_meta: dict, t_ms: int) -> None:
+        briber = offer["wrestler"]
+        self.bribe_offered.add(briber)
         b = self.band
-        room = self.pool.get("back room", briber)
-        b.add_participant(room, briber, REF["id"])
-        self._say(room, briber, "Envelope's under the turnbuckle. Count fast for me tonight.", [REF["id"]])
-        score, cites, why = pl.ref_bribe_score(REF, self.memory)
-        fb = pl.plan_row(t_ms, REF["id"], "bribe_accept" if score > 0 else "bribe_decline", briber, why, cites, room)
-        snap = self.memory.snapshot_for(REF["id"], [])
-        row, meta = self.planner.decide(REF, f"{briber} offers you a bribe to fast-count. Accept or decline, weighing your reputation.",
-                                        {"t_ms": t_ms}, snap, ("bribe_accept", "bribe_decline"), (briber,), fb)
+        room = self.pool.get("back room", "silas")
+        if briber != "silas":
+            b.add_participant(room, "silas", briber)
+        b.add_participant(room, "silas", REF["id"])
+        offer = {**offer, "target": REF["id"], "room": room, "reason": tag(offer["reason"], offer_meta)}
+        self._record(offer, offer_meta)
+        self._say(room, briber, f"Envelope's under the turnbuckle. {offer['reason']}", [REF["id"]])
+        task = (f"{WRESTLERS[briber]['name']} slips you an envelope in the back room: {offer['reason']!r}. "
+                "bribe_accept or bribe_decline. You call it straight by default. Weigh your motives: the cash, your "
+                "reputation (ref_ledger rows: how often you were caught), and any grudge or soft spot for this wrestler. "
+                "If you accept, the commissioner still has to let it stand.")
+        row, meta = self._ref_decide(task, {"t_ms": t_ms, "briber": briber, "your_motives": self._lou_motives()},
+                                     ("bribe_accept", "bribe_decline"), (briber,),
+                                     ("bribe_decline", briber, "an envelope is not worth my name"))
         row["room"] = room
         line = REF["lines"]["accept" if row["intent"] == "bribe_accept" else "decline"]
-        self._say(room, REF["id"], f"{line} ({row['reason']})", [briber])
+        self._say(room, REF["id"], f"{line} {row['reason']}", [briber])
         if row["intent"] == "bribe_accept":  # the proposal records the row; commissioner decides if it stands
             self._propose("bribe", row, briber,
-                          f"Lou Varga accepted {briber}'s envelope to fast-count. {row['reason']}")
+                          f"Lou Varga accepted {briber}'s envelope to look the other way. {row['reason']}")
         else:
             self._record(row, meta)
+
+    def _lou_motives(self) -> dict:
+        return {"caught_rate": pl.ref_caught_rate(self.memory, REF["id"]), "greed": REF["traits"]["greed"],
+                "reputation_weight": REF["traits"]["reputation_weight"],
+                "approved_bribes_tonight": sorted(self.bribes)}
+
+    def _ref_decide(self, task: str, state: dict, intents, targets, honest: tuple):
+        """Lou decides by LLM; on no answer the labeled fallback is the honest call."""
+        fb = pl.fallback_ref(REF, state.get("t_ms", 0), *honest)
+        snap = self.memory.snapshot_for(REF["id"], [])
+        row, meta = self.planner.decide(REF, task, state, snap, intents, targets, fb)
+        row["reason"] = tag(row["reason"], meta)
+        return row, meta
 
     # --- the per-tick entry point --------------------------------------------------------------
     def plan(self, state: dict) -> dict:
@@ -204,8 +232,6 @@ class Director:
                 if w["id"] in WRESTLERS and w["id"] not in self.in_ring and not w.get("eliminated"):
                     self._enter(w["id"], self._t, runtime=True)
             self._poll_verdicts()
-            if not self.bribe_offered and self._t >= self.bribe_at_ms and "silas" in self.in_ring:
-                self._bribe("silas", self._t)
 
             active = [w["id"] for w in state.get("wrestlers", [])
                       if w["id"] in self.in_ring and not w.get("eliminated")]
@@ -217,7 +243,7 @@ class Director:
 
             plans, metas = [], []
             for wid, (row, meta) in results.items():
-                row = self._gate(wid, row, state)
+                row = self._gate(wid, row, meta, state)
                 if wid in WRESTLERS:
                     row["room"] = row.get("room") or self._side_room(wid)
                     self._chatter(wid, row)
@@ -245,38 +271,76 @@ class Director:
                     if int(n) > 0:
                         live.append({"cite": f"live:{h['id']}/{sit}/{mv}", "player": h["id"], "situation": sit,
                                      "move": mv, "n": int(n), "share": round(int(n) / total, 2), "now": sit == h.get("situation")})
-        if live:
-            snap = {**snap, "rows": live + snap["rows"]}
-        targets = tuple(foes)
+        ledger = [{"cite": mem.cite("ref_ledger", r), **r} for r in self.memory.ref_ledger(REF["id"])]
+        snap = {**snap, "rows": live + snap["rows"] + ledger}
+        targets = tuple(foes) + (() if wid in self.bribe_offered else (REF["id"],))
         allies = dict(self.alliances)
         if any(pr["proposer"] == wid and pr["kind"] == "betray" for pr in self.proposals.values()):
             allies.pop(wid, None)  # one betrayal proposal per match; don't re-propose
 
+        view = {**state, "you": self._standing(wid, state, allies)}
+
         def run():
             fb = pl.fallback_wrestler(p, state, self.memory, TRIANGLE, allies)
-            task = ("plan your next 4 seconds. Fight triangle: block beats strike, strike beats grapple, grapple beats block. "
-                    "Rows marked now=true are the human's habits in their current situation. To counter, use intent counter, "
-                    "target the human, and put the habit row you are countering FIRST in cites. Reason: what you expect and "
-                    "your answer, e.g. 'you strike 78% on opening -> I block, then grapple'.")
-            return self.planner.decide(p, task, state, snap, pl.WRESTLER_INTENTS, targets, fb)
+            task = ("plan your next 4 seconds. First, in character, weigh your motives in state.you: your standing, your "
+                    "trust in and grudge against your ally, your gimmick. Then choose: fight, or scheme. Nobody makes you "
+                    "scheme, and nobody stops you but the commissioner. Schemes: intent betray (target you.ally) turns on "
+                    "your partner; intent bribe (target lou) slips referee Lou Varga an envelope so he looks away (his "
+                    "ref_ledger rows show how often he gets caught). A schemer with a low-trust partner or a losing hand "
+                    "has every reason to; a loyal or honest wrestler who is winning usually just fights. "
+                    "To fight: fight triangle is block beats strike, strike beats grapple, grapple beats block. Rows marked "
+                    "now=true are the human's habits in their current situation. To counter, use intent counter, target "
+                    "the human, and put the habit row you are countering FIRST in cites. Reason: what you expect and your "
+                    "answer, e.g. 'you strike 78% on opening -> I block, then grapple'. Use target lou only with intent bribe.")
+            return self.planner.decide(p, task, view, snap, pl.WRESTLER_INTENTS, targets, fb)
         return run
+
+    def _standing(self, wid: str, state: dict, allies: dict) -> dict:
+        """The motive facts the LLM weighs: how the match is going for me, my partner, what's already on the desk."""
+        alive = [w for w in state.get("wrestlers", []) + state.get("humans", []) if not w.get("eliminated")]
+        me = next((w for w in alive if w["id"] == wid), {})
+        mine = float(me.get("stamina", 1))
+        rank = 1 + sum(1 for w in alive if float(w.get("stamina", 1)) > mine)
+        ally = allies.get(wid)
+        rel = self.memory.relation(wid, ally) if ally else None
+        return {"id": wid, "stamina": mine, "rank": f"{rank} of {len(alive)}",
+                "standing": "losing" if rank > (len(alive) + 1) / 2 else "winning",
+                "ally": ally, "trust_in_ally": rel and float(rel["trust"]), "grudge_on_ally": rel and float(rel["grudge"]),
+                "envelope_already_offered": wid in self.bribe_offered,
+                "lou_approved_bribes": sorted(self.bribes)}
 
     def _ref_job(self, state: dict):
-        snap = self.memory.snapshot_for(REF["id"], [])
-        bribes = dict(self.bribes)
+        """Lou decides by LLM whenever a call is near him: a pin count, a rope break, a cheat in view.
+        A corrupt option is only on the menu when an approved bribe from the wrestler it helps backs it."""
+        bribes, t = dict(self.bribes), state.get("t_ms", 0)
+        everyone = tuple(self.in_ring) + tuple(h["id"] for h in state.get("humans", []))
+        pin, rope, cheat = state.get("pin"), state.get("rope_break"), state.get("cheat")
+        if pin:  # {"by", "on"}: a fast count helps the pinner, a slow count helps the pinned
+            intents = ("count_fair",) + (("count_fast",) if pin["by"] in bribes else ()) + \
+                      (("count_slow",) if pin["on"] in bribes else ())
+            task = (f"{pin['by']} is pinning {pin['on']}. Call the count: count_fair, or (only if offered, "
+                    "because you took that wrestler's approved envelope) count_fast / count_slow.")
+            honest = ("count_fair", pin["on"], "calling it straight")
+        elif rope:  # {"by": the one holding the pin/hold, "on": the one reaching the ropes}
+            intents = ("rope_call",) + (("rope_miss",) if rope["by"] in bribes else ())
+            task = (f"{rope['on']} reaches the ropes while {rope['by']} works on them. rope_call (break it up) "
+                    "or, only if offered, rope_miss.")
+            honest = ("rope_call", rope["on"], "ropes, break it up")
+        elif cheat:  # {"by", "on", "what"}
+            intents = ("cheat_call",) + (("cheat_miss",) if cheat["by"] in bribes else ())
+            task = (f"You see {cheat['by']} cheat on {cheat['on']} ({cheat.get('what', 'a low blow')}). "
+                    "cheat_call or, only if offered, cheat_miss.")
+            honest = ("cheat_call", cheat["by"], "I saw that")
+        else:  # nothing to call: no decision, no LLM call
+            idle = pl.plan_row(t, REF["id"], "count_fair", None, "[idle] nothing to call", [])
+            return lambda: (idle, {"who": REF["id"], "task": "watch", "source": "idle", "ms": 0.0})
+        task += (" You call it straight by default. Your motives: reputation (times caught in ref_ledger), the cash "
+                 "you were paid tonight, grudges.")
+        view = {**state, "your_motives": self._lou_motives()}
+        return lambda: self._ref_decide(task, view, intents, everyone, honest)
 
-        def run():
-            fb = pl.fallback_ref(REF, state, self.memory, bribes)
-            if not state.get("pin"):  # nothing to count: no LLM call, no invented targets
-                return fb, {"who": REF["id"], "task": "call the count", "source": "rule", "ms": 0.0}
-            # a crooked count is only on the menu when an approved bribe backs it (the commissioner's block holds)
-            allowed = ("count_fair",) if fb["intent"] == "count_fair" else ("count_fair", fb["intent"])
-            return self.planner.decide(REF, "call the count", state, snap, allowed,
-                                       tuple(self.in_ring) + tuple(h["id"] for h in state.get("humans", [])), fb)
-        return run
-
-    def _gate(self, wid: str, row: dict, state: dict) -> dict:
-        """Betrayals never execute without the commissioner. Approved ones replace the plan once."""
+    def _gate(self, wid: str, row: dict, meta: dict, state: dict) -> dict:
+        """Schemes never execute without the commissioner. Approved betrayals replace the plan once."""
         for p in self.proposals.values():
             if p["proposer"] == wid and p["kind"] == "betray" and p.get("execute"):
                 p["execute"] = False
@@ -284,7 +348,19 @@ class Director:
                 out["t_ms"] = self._t
                 out["approved_by"] = COMM
                 return out
+        if row["intent"] == "bribe":
+            if wid not in self.bribe_offered:
+                self._bribe(row, meta, self._t)
+            alt = pl.fallback_wrestler(WRESTLERS[wid], state, self.memory, TRIANGLE, self.alliances)
+            alt["reason"] = f"(envelope offered) {alt['reason']}"
+            return alt
+        if row["target"] == REF["id"]:  # Lou is only a target for an envelope
+            return pl.fallback_wrestler(WRESTLERS[wid], state, self.memory, TRIANGLE, self.alliances)
         if row["intent"] == "betray":
+            proposed = any(pr["proposer"] == wid and pr["kind"] == "betray" for pr in self.proposals.values())
+            if proposed or self.alliances.get(wid) != row["target"]:  # no partner to turn on: it's just a fight
+                return {**row, "intent": "target"}
+            row = {**row, "reason": tag(row["reason"], meta)}
             self._propose("betray", row, wid, f"{WRESTLERS[wid]['name']} wants to turn on {row['target']}: {row['reason']}")
             alt = pl.fallback_wrestler(WRESTLERS[wid], state, self.memory, TRIANGLE, {})
             alt["reason"] = f"(betrayal pending commissioner) {alt['reason']}"

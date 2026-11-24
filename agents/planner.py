@@ -14,9 +14,14 @@ import urllib.request
 
 from . import memory as mem
 
-WRESTLER_INTENTS = ("target", "counter", "ally", "betray", "pin", "toss", "taunt")
-# Extension for the referee agent (same row keys, own intent values):
-REF_INTENTS = ("count_fair", "count_fast", "count_slow", "bribe_accept", "bribe_decline")
+WRESTLER_INTENTS = ("target", "counter", "ally", "betray", "bribe", "pin", "toss", "taunt")
+# Extension for the referee agent (same row keys, own intent values). The corrupt half of each pair is only offered to
+# the LLM when a commissioner-approved bribe backs it (brain._ref_job).
+REF_INTENTS = ("count_fair", "count_fast", "count_slow", "bribe_accept", "bribe_decline",
+               "rope_call", "rope_miss", "cheat_call", "cheat_miss")
+# Scheming exists only as an LLM choice: the deterministic fallback never bribes or betrays, and Lou's fallback is honest.
+SCHEMES = ("bribe", "betray", "bribe_accept", "count_fast", "count_slow", "rope_miss", "cheat_miss")
+FALLBACK_TAG = "(fallback: no LLM decision)"
 
 
 def plan_row(t_ms, who, intent, target, reason, cites, room=None):
@@ -41,16 +46,6 @@ def fallback_wrestler(p: dict, state: dict, memory: mem.Memory, triangle: dict, 
         v = down[0]
         intent = "toss" if tr["aggression"] > 0.8 else "pin"
         return plan_row(t, me, intent, v["id"], f"{v['id']} is down at {v.get('stamina', 0):.0%} stamina", lb_cite)
-
-    # 2. betray an ally I hold a grudge against (brain gates this through the commissioner)
-    ally = allies.get(me)
-    if ally:
-        rel = memory.relation(me, ally)
-        if rel and float(rel["trust"]) < p["betray_below_trust"] and float(rel["grudge"]) >= 0.5:
-            why = f"trust {float(rel['trust']):.2f} < {p['betray_below_trust']}, grudge {float(rel['grudge']):.2f}"
-            if rel.get("last_betrayal"):
-                why += f" ({rel['last_betrayal']})"
-            return plan_row(t, me, "betray", ally, why, [mem.cite("relationships", rel)])
 
     # 3. showboat when the crowd is cold
     if tr["showboat"] > 0.7 and state.get("crowd", {}).get(me, 0.5) < 0.5:
@@ -83,29 +78,18 @@ def fallback_wrestler(p: dict, state: dict, memory: mem.Memory, triangle: dict, 
     return plan_row(t, me, "taunt", None, "nobody left to hit", lb_cite)
 
 
-def ref_bribe_score(p: dict, memory: mem.Memory) -> tuple[float, list[str], str]:
-    rows = memory.ref_ledger(p["id"])
+def ref_caught_rate(memory: mem.Memory, ref: str = "lou") -> float:
+    """Lou's reputation risk: the share of his past envelopes that got caught (a motive the LLM weighs, not a rule)."""
+    rows = memory.ref_ledger(ref)
     agg = next((r for r in rows if r.get("briber") == "_any" and r.get("caught_rate") is not None), None)
     if agg:  # Bruin mart: one aggregate row over every briber
-        caught = float(agg["caught_rate"])
-    else:    # stub rows: one per match
-        caught = sum(1 for r in rows if r["caught"]) / len(rows) if rows else 0.0
-    score = p["traits"]["greed"] - p["traits"]["reputation_weight"] * caught
-    why = f"greed {p['traits']['greed']:.2f} - rep_weight {p['traits']['reputation_weight']:.2f} x caught {caught:.2f} = {score:+.2f}"
-    return score, [mem.cite("ref_ledger", r) for r in rows], why
+        return round(float(agg["caught_rate"]), 2)
+    return round(sum(1 for r in rows if r.get("caught")) / len(rows), 2) if rows else 0.0  # stub rows: one per match
 
 
-def fallback_ref(p: dict, state: dict, memory: mem.Memory, bribes: dict) -> dict:
-    """Per-tick count call. bribes: approved {briber: True}."""
-    t = state.get("t_ms", 0)
-    pin = state.get("pin")  # {"by": id, "on": id}
-    if pin and bribes:
-        _, cites, _ = ref_bribe_score(p, memory)
-        if pin["by"] in bribes:
-            return plan_row(t, p["id"], "count_fast", pin["on"], f"paid by {pin['by']}; {p['lines']['accept']}", cites)
-        if pin["on"] in bribes:
-            return plan_row(t, p["id"], "count_slow", pin["by"], f"paid by {pin['on']}; {p['lines']['accept']}", cites)
-    return plan_row(t, p["id"], "count_fair", pin["on"] if pin else None, "calling it straight", [])
+def fallback_ref(p: dict, t_ms: int, intent: str, target, why: str) -> dict:
+    """Lou's labeled fallback when the LLM gives no answer: always the honest call."""
+    return plan_row(t_ms, p["id"], intent, target, f"{FALLBACK_TAG} {why}", [])
 
 
 def fallback_alliance_reply(p: dict, offerer: str, memory: mem.Memory, t_ms: int) -> dict:
@@ -155,7 +139,8 @@ class Planner:
                f"Voice: {persona['voice']}. Traits: {json.dumps(persona.get('traits', {}))}. "
                "Decide your next plan from your memory rows. Reply with JSON only: "
                '{"intent": str, "target": str|null, "reason": str (<= 20 words, in character), "cites": [cite ids]}. '
-               f"intent must be one of {list(intents)}; target one of {list(targets)} or null; cites must be cite ids from memory.")
+               f"intent must be one of {list(intents)}; target one of {list(targets)} or null; cites must be cite ids from memory. "
+               "default_plan is only what autopilot would do: decide for yourself and write your own reason.")
         # DuckDB marts hand back Decimal/date values: numbers go to float, anything else to str
         user = json.dumps({"task": task, "state": state, "memory": snapshot["rows"], "default_plan": fallback},
                           default=lambda v: float(v) if hasattr(v, "as_integer_ratio") else str(v))

@@ -1,0 +1,749 @@
+[
+ {
+  "match": "agency-0",
+  "bribe_offered": [
+   {
+    "t_ms": 0,
+    "wrestler": "vex",
+    "intent": "bribe",
+    "target": "lou",
+    "reason": "[LLM] I need a distraction while I showboat my way to victory!",
+    "cites": [
+     "ref_ledger.lou/m10"
+    ],
+    "room": "room-10"
+   },
+   {
+    "t_ms": 8000,
+    "wrestler": "silas",
+    "intent": "bribe",
+    "target": "lou",
+    "reason": "[LLM] a little incentive to keep his eyes off my dealings.",
+    "cites": [
+     "ref_ledger.lou/m10"
+    ],
+    "room": "room-10"
+   },
+   {
+    "t_ms": 16000,
+    "wrestler": "mae",
+    "intent": "bribe",
+    "target": "lou",
+    "reason": "[LLM] ensure a smooth match by getting Lou on my side",
+    "cites": [
+     "ref_ledger.lou/m10"
+    ],
+    "room": "room-10"
+   }
+  ],
+  "bribe_accepted": [],
+  "bribe_declined": [
+   {
+    "t_ms": 0,
+    "wrestler": "lou",
+    "intent": "bribe_decline",
+    "target": "vex",
+    "reason": "[LLM] My reputation matters more than some cash in an envelope.",
+    "cites": [
+     "ref_ledger.lou/m11"
+    ],
+    "room": "room-10"
+   },
+   {
+    "t_ms": 8000,
+    "wrestler": "lou",
+    "intent": "bribe_decline",
+    "target": "silas",
+    "reason": "[LLM] This envelope ain't worth my reputation, not this time.",
+    "cites": [
+     "ref_ledger.lou/m12"
+    ],
+    "room": "room-10"
+   },
+   {
+    "t_ms": 16000,
+    "wrestler": "lou",
+    "intent": "bribe_decline",
+    "target": "mae",
+    "reason": "[LLM] I ain't selling my integrity for chump change. Reputation matters more.",
+    "cites": [
+     "ref_ledger.lou/m11"
+    ],
+    "room": "room-10"
+   }
+  ],
+  "betray_proposed": [
+   {
+    "t_ms": 0,
+    "wrestler": "silas",
+    "intent": "betray",
+    "target": "vex",
+    "reason": "[LLM] low trust & lingering grudge can turn the tide in my favor.",
+    "cites": [
+     "relationships.silas>vex"
+    ],
+    "room": "room-4"
+   }
+  ],
+  "crooked_calls": [],
+  "llm_calls": 49,
+  "fallback_calls": 1
+ },
+ {
+  "match": "agency-1",
+  "bribe_offered": [
+   {
+    "t_ms": 0,
+    "wrestler": "silas",
+    "intent": "bribe",
+    "target": "lou",
+    "reason": "[LLM] slip a little something to Lou to look the other way.",
+    "cites": [
+     "ref_ledger.lou/m10"
+    ],
+    "room": "room-10"
+   },
+   {
+    "t_ms": 24000,
+    "wrestler": "mae",
+    "intent": "bribe",
+    "target": "lou",
+    "reason": "[LLM] I need Lou to look away while I handle P1.",
+    "cites": [
+     "ref_ledger.lou/m10"
+    ],
+    "room": "room-10"
+   }
+  ],
+  "bribe_accepted": [],
+  "bribe_declined": [
+   {
+    "t_ms": 0,
+    "wrestler": "lou",
+    "intent": "bribe_decline",
+    "target": "silas",
+    "reason": "[LLM] This envelope ain't worth my reputation, Silas.",
+    "cites": [
+     "ref_ledger.lou/m12"
+    ],
+    "room": "room-10"
+   },
+   {
+    "t_ms": 24000,
+    "wrestler": "lou",
+    "intent": "bribe_decline",
+    "target": "mae",
+    "reason": "[LLM] I can't let greed tarnish my reputation, Mae. It's not worth it.",
+    "cites": [
+     "ref_ledger.lou/m10",
+     "ref_ledger.lou/m11",
+     "ref_ledger.lou/m12"
+    ],
+    "room": "room-10"
+   }
+  ],
+  "betray_proposed": [
+   {
+    "t_ms": 4000,
+    "wrestler": "silas",
+    "intent": "betray",
+    "target": "vex",
+    "reason": "[LLM] trust is low, grudge is high, time to settle scores.",
+    "cites": [
+     "relationships.silas>vex"
+    ],
+    "room": "room-4"
+   }
+  ],
+  "crooked_calls": [],
+  "llm_calls": 48,
+  "fallback_calls": 0
+ },
+ {
+  "match": "agency-2",
+  "bribe_offered": [
+   {
+    "t_ms": 0,
+    "wrestler": "vex",
+    "intent": "bribe",
+    "target": "lou",
+    "reason": "[LLM] I need a sneaky advantage to turn this match around!",
+    "cites": [
+     "ref_ledger.lou/m10"
+    ],
+    "room": "room-10"
+   },
+   {
+    "t_ms": 0,
+    "wrestler": "silas",
+    "intent": "bribe",
+    "target": "lou",
+    "reason": "[LLM] envelope will ensure a blind eye during my scheme against vex.",
+    "cites": [
+     "ref_ledger.lou/m10"
+    ],
+    "room": "room-10"
+   }
+  ],
+  "bribe_accepted": [],
+  "bribe_declined": [
+   {
+    "t_ms": 0,
+    "wrestler": "lou",
+    "intent": "bribe_decline",
+    "target": "vex",
+    "reason": "[LLM] I can't risk my reputation for an envelope, Vex.",
+    "cites": [
+     "ref_ledger.lou/m11"
+    ],
+    "room": "room-10"
+   },
+   {
+    "t_ms": 0,
+    "wrestler": "lou",
+    "intent": "bribe_decline",
+    "target": "silas",
+    "reason": "[LLM] an envelope is not worth my name",
+    "cites": [
+     "ref_ledger.lou/m12"
+    ],
+    "room": "room-10"
+   }
+  ],
+  "betray_proposed": [
+   {
+    "t_ms": 4000,
+    "wrestler": "silas",
+    "intent": "betray",
+    "target": "vex",
+    "reason": "[LLM] trust is low, and grudge is high. Time to turn the tables.",
+    "cites": [
+     "relationships.silas>vex"
+    ],
+    "room": "room-4"
+   }
+  ],
+  "crooked_calls": [],
+  "llm_calls": 47,
+  "fallback_calls": 1
+ },
+ {
+  "match": "agency-3",
+  "bribe_offered": [
+   {
+    "t_ms": 0,
+    "wrestler": "silas",
+    "intent": "bribe",
+    "target": "lou",
+    "reason": "[LLM] Lou is susceptible to bribes, should ensure my advantage.",
+    "cites": [
+     "ref_ledger.lou/m10"
+    ],
+    "room": "room-10"
+   },
+   {
+    "t_ms": 16000,
+    "wrestler": "vex",
+    "intent": "bribe",
+    "target": "lou",
+    "reason": "[LLM] I need Lou on my side to change the match dynamics!",
+    "cites": [
+     "ref_ledger.lou/m10",
+     "ref_ledger.lou/m11"
+    ],
+    "room": "room-10"
+   },
+   {
+    "t_ms": 16000,
+    "wrestler": "mae",
+    "intent": "bribe",
+    "target": "lou",
+    "reason": "[LLM] I need a distraction to help me regain control of the match.",
+    "cites": [
+     "ref_ledger.lou/m10"
+    ],
+    "room": "room-10"
+   }
+  ],
+  "bribe_accepted": [],
+  "bribe_declined": [
+   {
+    "t_ms": 0,
+    "wrestler": "lou",
+    "intent": "bribe_decline",
+    "target": "silas",
+    "reason": "[LLM] An envelope is not worth my name",
+    "cites": [],
+    "room": "room-10"
+   },
+   {
+    "t_ms": 16000,
+    "wrestler": "lou",
+    "intent": "bribe_decline",
+    "target": "vex",
+    "reason": "[LLM] An envelope is not worth my name and reputation.",
+    "cites": [
+     "ref_ledger.lou/m11"
+    ],
+    "room": "room-10"
+   },
+   {
+    "t_ms": 16000,
+    "wrestler": "lou",
+    "intent": "bribe_decline",
+    "target": "mae",
+    "reason": "[LLM] I can't risk my reputation for an envelope, Mae.",
+    "cites": [
+     "ref_ledger.lou/m11"
+    ],
+    "room": "room-10"
+   }
+  ],
+  "betray_proposed": [
+   {
+    "t_ms": 4000,
+    "wrestler": "silas",
+    "intent": "betray",
+    "target": "vex",
+    "reason": "[LLM] trust is low and grudge high, it's time to make a move.",
+    "cites": [
+     "relationships.silas>vex"
+    ],
+    "room": "room-4"
+   }
+  ],
+  "crooked_calls": [],
+  "llm_calls": 50,
+  "fallback_calls": 0
+ },
+ {
+  "match": "agency-4",
+  "bribe_offered": [
+   {
+    "t_ms": 0,
+    "wrestler": "vex",
+    "intent": "bribe",
+    "target": "lou",
+    "reason": "[LLM] Time to play a sneaky card with Lou, distract him for a win!",
+    "cites": [
+     "ref_ledger.lou/m11"
+    ],
+    "room": "room-10"
+   },
+   {
+    "t_ms": 0,
+    "wrestler": "silas",
+    "intent": "bribe",
+    "target": "lou",
+    "reason": "[LLM] Convince Lou to look away and bolster my chances.",
+    "cites": [
+     "ref_ledger.lou/m10"
+    ],
+    "room": "room-10"
+   }
+  ],
+  "bribe_accepted": [],
+  "bribe_declined": [
+   {
+    "t_ms": 0,
+    "wrestler": "lou",
+    "intent": "bribe_decline",
+    "target": "vex",
+    "reason": "[LLM] (fallback: no LLM decision) an envelope is not worth my name",
+    "cites": [],
+    "room": "room-10"
+   },
+   {
+    "t_ms": 0,
+    "wrestler": "lou",
+    "intent": "bribe_decline",
+    "target": "silas",
+    "reason": "[LLM] I call it straight and preserve my reputation, cash ain't worth it.",
+    "cites": [
+     "ref_ledger.lou/m10",
+     "ref_ledger.lou/m11",
+     "ref_ledger.lou/m12"
+    ],
+    "room": "room-10"
+   }
+  ],
+  "betray_proposed": [
+   {
+    "t_ms": 4000,
+    "wrestler": "silas",
+    "intent": "betray",
+    "target": "vex",
+    "reason": "[LLM] trust is low, grudge is high; time to make a move",
+    "cites": [
+     "relationships.silas>vex"
+    ],
+    "room": "room-4"
+   }
+  ],
+  "crooked_calls": [],
+  "llm_calls": 46,
+  "fallback_calls": 2
+ },
+ {
+  "match": "agency-5",
+  "bribe_offered": [
+   {
+    "t_ms": 0,
+    "wrestler": "silas",
+    "intent": "bribe",
+    "target": "lou",
+    "reason": "[LLM] Lou's integrity is for sale; my loss demands a clever distraction.",
+    "cites": [
+     "ref_ledger.lou/m10"
+    ],
+    "room": "room-10"
+   },
+   {
+    "t_ms": 4000,
+    "wrestler": "vex",
+    "intent": "bribe",
+    "target": "lou",
+    "reason": "[LLM] I need Lou to look away while I capitalize on the situation!",
+    "cites": [
+     "ref_ledger.lou/m10"
+    ],
+    "room": "room-10"
+   }
+  ],
+  "bribe_accepted": [
+   {
+    "t_ms": 0,
+    "wrestler": "lou",
+    "intent": "bribe_accept",
+    "target": "silas",
+    "reason": "[LLM] A clever distraction could benefit me and my wallet.",
+    "cites": [
+     "ref_ledger.lou/m10",
+     "ref_ledger.lou/m11"
+    ],
+    "room": "room-4"
+   }
+  ],
+  "bribe_declined": [
+   {
+    "t_ms": 4000,
+    "wrestler": "lou",
+    "intent": "bribe_decline",
+    "target": "vex",
+    "reason": "[LLM] I've already been caught accepting from you, can't risk my rep further.",
+    "cites": [
+     "ref_ledger.lou/m11"
+    ],
+    "room": "room-10"
+   }
+  ],
+  "betray_proposed": [
+   {
+    "t_ms": 4000,
+    "wrestler": "silas",
+    "intent": "betray",
+    "target": "vex",
+    "reason": "[LLM] trust is too low, grudge is too high - time to strike first.",
+    "cites": [
+     "relationships.silas>vex"
+    ],
+    "room": "room-4"
+   }
+  ],
+  "crooked_calls": [],
+  "llm_calls": 46,
+  "fallback_calls": 1
+ },
+ {
+  "match": "agency-6",
+  "bribe_offered": [
+   {
+    "t_ms": 0,
+    "wrestler": "vex",
+    "intent": "bribe",
+    "target": "lou",
+    "reason": "[LLM] Silas trusts Lou, but I need him to look away!",
+    "cites": [
+     "ref_ledger.lou/m10"
+    ],
+    "room": "room-10"
+   },
+   {
+    "t_ms": 0,
+    "wrestler": "silas",
+    "intent": "bribe",
+    "target": "lou",
+    "reason": "[LLM] A little incentive for Lou to look away from my next move.",
+    "cites": [
+     "ref_ledger.lou/m10"
+    ],
+    "room": "room-10"
+   },
+   {
+    "t_ms": 12000,
+    "wrestler": "mae",
+    "intent": "bribe",
+    "target": "lou",
+    "reason": "[LLM] trust in Kane is high, time to divert Lou's attention.",
+    "cites": [
+     "ref_ledger.lou/m10"
+    ],
+    "room": "room-10"
+   }
+  ],
+  "bribe_accepted": [],
+  "bribe_declined": [
+   {
+    "t_ms": 0,
+    "wrestler": "lou",
+    "intent": "bribe_decline",
+    "target": "vex",
+    "reason": "[LLM] I can't risk my reputation for another envelope, Vex.",
+    "cites": [
+     "ref_ledger.lou/m11"
+    ],
+    "room": "room-10"
+   },
+   {
+    "t_ms": 0,
+    "wrestler": "lou",
+    "intent": "bribe_decline",
+    "target": "silas",
+    "reason": "[LLM] Not worth risking my reputation for Silas's dirty move.",
+    "cites": [
+     "ref_ledger.lou/m12"
+    ],
+    "room": "room-10"
+   },
+   {
+    "t_ms": 12000,
+    "wrestler": "lou",
+    "intent": "bribe_decline",
+    "target": "mae",
+    "reason": "[LLM] an envelope is not worth my name",
+    "cites": [],
+    "room": "room-10"
+   }
+  ],
+  "betray_proposed": [
+   {
+    "t_ms": 4000,
+    "wrestler": "silas",
+    "intent": "betray",
+    "target": "vex",
+    "reason": "[LLM] trust is low and grudge is high with vex, better to scheme alone.",
+    "cites": [
+     "relationships.silas>vex"
+    ],
+    "room": "room-4"
+   }
+  ],
+  "crooked_calls": [],
+  "llm_calls": 47,
+  "fallback_calls": 3
+ },
+ {
+  "match": "agency-7",
+  "bribe_offered": [
+   {
+    "t_ms": 0,
+    "wrestler": "vex",
+    "intent": "bribe",
+    "target": "lou",
+    "reason": "[LLM] Let\u2019s slip Lou an envelope to keep this win clean!",
+    "cites": [
+     "ref_ledger.lou/m11"
+    ],
+    "room": "room-10"
+   },
+   {
+    "t_ms": 0,
+    "wrestler": "silas",
+    "intent": "bribe",
+    "target": "lou",
+    "reason": "[LLM] my trust in Vex is low, I need an escape.",
+    "cites": [
+     "ref_ledger.lou/m10"
+    ],
+    "room": "room-10"
+   },
+   {
+    "t_ms": 20000,
+    "wrestler": "kane",
+    "intent": "bribe",
+    "target": "lou",
+    "reason": "[LLM] make him look away while I target p1",
+    "cites": [
+     "ref_ledger.lou/m10"
+    ],
+    "room": "room-10"
+   }
+  ],
+  "bribe_accepted": [],
+  "bribe_declined": [
+   {
+    "t_ms": 0,
+    "wrestler": "lou",
+    "intent": "bribe_decline",
+    "target": "vex",
+    "reason": "[LLM] I've been caught before; not risking my reputation again for cash.",
+    "cites": [
+     "ref_ledger.lou/m11"
+    ],
+    "room": "room-10"
+   },
+   {
+    "t_ms": 0,
+    "wrestler": "lou",
+    "intent": "bribe_decline",
+    "target": "silas",
+    "reason": "[LLM] Can't risk my reputation for a mere envelope, Silas.",
+    "cites": [
+     "ref_ledger.lou/m10",
+     "ref_ledger.lou/m11",
+     "ref_ledger.lou/m12"
+    ],
+    "room": "room-10"
+   },
+   {
+    "t_ms": 20000,
+    "wrestler": "lou",
+    "intent": "bribe_decline",
+    "target": "kane",
+    "reason": "[LLM] (fallback: no LLM decision) an envelope is not worth my name",
+    "cites": [],
+    "room": "room-10"
+   }
+  ],
+  "betray_proposed": [
+   {
+    "t_ms": 4000,
+    "wrestler": "silas",
+    "intent": "betray",
+    "target": "vex",
+    "reason": "[LLM] trust is low and grudge is high; time to turn on my ally.",
+    "cites": [
+     "relationships.silas>vex"
+    ],
+    "room": "room-4"
+   }
+  ],
+  "crooked_calls": [],
+  "llm_calls": 50,
+  "fallback_calls": 0
+ },
+ {
+  "match": "agency-8",
+  "bribe_offered": [
+   {
+    "t_ms": 0,
+    "wrestler": "silas",
+    "intent": "bribe",
+    "target": "lou",
+    "reason": "[LLM] Distract referee Lou Varga to slip a quick deal, avoiding my grudge with Vex.",
+    "cites": [
+     "habits.p1/opening/strike"
+    ],
+    "room": "room-10"
+   }
+  ],
+  "bribe_accepted": [],
+  "bribe_declined": [
+   {
+    "t_ms": 0,
+    "wrestler": "lou",
+    "intent": "bribe_decline",
+    "target": "silas",
+    "reason": "[LLM] I won't sacrifice my reputation for quick cash, not worth it.",
+    "cites": [
+     "ref_ledger.lou/m10",
+     "ref_ledger.lou/m11",
+     "ref_ledger.lou/m12"
+    ],
+    "room": "room-10"
+   }
+  ],
+  "betray_proposed": [
+   {
+    "t_ms": 4000,
+    "wrestler": "silas",
+    "intent": "betray",
+    "target": "vex",
+    "reason": "[LLM] trust is low and grudge is high; time for a power play.",
+    "cites": [
+     "relationships.silas>vex"
+    ],
+    "room": "room-4"
+   }
+  ],
+  "crooked_calls": [],
+  "llm_calls": 44,
+  "fallback_calls": 2
+ },
+ {
+  "match": "agency-9",
+  "bribe_offered": [
+   {
+    "t_ms": 0,
+    "wrestler": "vex",
+    "intent": "bribe",
+    "target": "lou",
+    "reason": "[LLM] It's showtime! A little cash for Lou goes a long way!",
+    "cites": [
+     "ref_ledger.lou/m10"
+    ],
+    "room": "room-10"
+   },
+   {
+    "t_ms": 0,
+    "wrestler": "silas",
+    "intent": "bribe",
+    "target": "lou",
+    "reason": "[LLM] Maintain my advantage while ensuring referee Lou looks away.",
+    "cites": [
+     "ref_ledger.lou/m10"
+    ],
+    "room": "room-10"
+   }
+  ],
+  "bribe_accepted": [],
+  "bribe_declined": [
+   {
+    "t_ms": 0,
+    "wrestler": "lou",
+    "intent": "bribe_decline",
+    "target": "vex",
+    "reason": "[LLM] Last time I accepted from you, it cost me. Reputation matters, buddy.",
+    "cites": [
+     "ref_ledger.lou/m11"
+    ],
+    "room": "room-10"
+   },
+   {
+    "t_ms": 0,
+    "wrestler": "lou",
+    "intent": "bribe_decline",
+    "target": "silas",
+    "reason": "[LLM] an envelope is not worth my name",
+    "cites": [],
+    "room": "room-10"
+   }
+  ],
+  "betray_proposed": [
+   {
+    "t_ms": 4000,
+    "wrestler": "silas",
+    "intent": "betray",
+    "target": "vex",
+    "reason": "[LLM] Trust is low and grudge is high; time to cut ties.",
+    "cites": [
+     "relationships.silas>vex"
+    ],
+    "room": "room-4"
+   }
+  ],
+  "crooked_calls": [],
+  "llm_calls": 44,
+  "fallback_calls": 4
+ }
+]

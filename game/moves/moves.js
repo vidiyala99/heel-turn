@@ -55,6 +55,29 @@ export const MOVES = {
     hold: { attacker: false, victim: false },
   },
 
+  // Strike out of the tie-up: a short paired knee/forearm drive. Starts where the lock-up leaves both bodies.
+  lockknee: {
+    kind: 'paired', label: 'Knee lift', duration: 1.0,
+    meta: { damage: 8, stamina: 6, range: 1.0, startup: 23 },
+    attacker: [
+      k(0, 'tieup', [0, -0.06, 0], []),
+      k(0.22, 'tieupPush', [0, -0.12, -0.08], [], 'outCubic'),
+      k(0.38, 'slamReach', [0, -0.02, 0.22], [['y', -14]], 'inQuad'),
+      k(0.6, 'slamReach', [0, -0.04, 0.2], [['y', -10]]),
+      k(1.0, 'stand', [0, 0, 0.1], [], 'outCubic'),
+    ],
+    victim: [
+      k(0, 'tieup', [0, -0.06, 0.66], FACE),
+      k(0.22, 'tieup', [0, -0.08, 0.7], FACE, 'outCubic'),
+      k(0.38, 'bentOver', [0, -0.16, 0.78], [['y', 180], ['x', -30]], 'outQuad'),
+      k(0.6, 'limp', [0, -0.1, 1.0], [['y', 180], ['x', -14]], 'outCubic'),
+      k(1.0, 'stand', [0, 0, 1.1], FACE, 'outCubic'),
+    ],
+    events: [imp(0.38, 8, { hitstop: 0.075 })],
+    contacts: [hold('attacker', 'l', 'neck', SIDE_NAPE, [0, 0.42])],
+    hold: { attacker: false, victim: false },
+  },
+
   bodyslam: {
     kind: 'paired', label: 'Body slam', duration: 2.3,
     meta: { damage: 12, stamina: 14, range: 1.0, startup: 85 },

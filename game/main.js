@@ -12,7 +12,7 @@ import { createMatch, step, newControl, normHabits, ROSTER, INTRO_SECS } from '.
 import { createAgentLayer, planHtml } from './agent-layer.js';
 import { createRoyal, stepRoyal, verdict as royalVerdict } from './shared/royal.js';
 import { createRoyalClient } from './royal-client.js';
-import { playPaired, playSolo, updateMoves, isBusy, stopMoves, releaseMoves, getRig, activeMove } from './moves/index.js';
+import { playPaired, playSolo, updateMoves, isBusy, stopMoves, releaseMoves, getRig, activeMove, contactReport } from './moves/index.js';
 import { createFeel } from './feel/index.js';
 import { T } from './shared/tuning.js';
 import { loadBodies } from './arena/bodies.js';
@@ -250,7 +250,32 @@ function onAnim(i, w, prev) {
     const root = { position: new THREE.Vector3(vs.x - Math.sin(yaw) * 0.75, MAT_Y, vs.z - Math.cos(yaw) * 0.75), yaw };
     stopMoves(v.root); stopMoves(o.root); playPaired('pin', v.root, o.root, { root });
   });
-  else if (name === 'Standing') { safe(() => { stopMoves(v.root); playSolo('kipup', v.root, { root: { position: v.root.position, yaw: v.root.rotation.y } }); }); v.lying = false; }
+  else if (name === 'Standing') {
+    // committed (exhibition): kip up from where the sim says the hips lie, facing his sim facing, so the get-up
+    // starts under the drawn body and ends where the sim will put him; online keeps the drawn-root start
+    const root = w.state === 'getup' ? { position: new THREE.Vector3(w.x, MAT_Y, w.z), yaw: w.facing } : { position: v.root.position, yaw: v.root.rotation.y };
+    safe(() => { stopMoves(v.root); playSolo('kipup', v.root, { root }); }); v.lying = false;
+  }
+}
+// Committed paired move (shared/pair.js, exhibition): play it on the sim's root and the sim's clock, so both
+// bodies stay on one timeline; when it ends, write where the drawn bodies landed back into the sim.
+const _hip = new THREE.Vector3();
+function startPair(e) {
+  const A = views[e.att], D = views[e.def], m = session?.match;
+  if (!A || !D || !m) return;
+  let last = 0;
+  const clock = () => { const p = m.pair; if (p && p.seq === e.seq) last = p.t; else if (!p || p.seq > e.seq) last = Math.max(last, 99); return last; };
+  if (e.phase === 'move' && e.move !== 'lockknee') D.lying = true;
+  safe(() => playPaired(e.move, A.root, D.root, {
+    root: { position: new THREE.Vector3(e.root.x, MAT_Y, e.root.z), yaw: e.root.yaw }, clock,
+    onEnd: () => {
+      if (m.pair && m.pair.seq !== e.seq) return; // handed over to the next move: nothing to write back
+      const a = m.w[e.att], d = m.w[e.def];
+      a.x = A.root.position.x; a.z = A.root.position.z;
+      const hips = getRig(D.root).bones.hips;
+      if (D.lying && hips) { hips.getWorldPosition(_hip); d.x = _hip.x; d.z = _hip.z; } else { d.x = D.root.position.x; d.z = D.root.position.z; }
+    },
+  }));
 }
 function clearViews() {
   for (const v of views) { safe(() => stopMoves(v.root)); scene.remove(v.holder); } views = [];
@@ -279,11 +304,15 @@ function syncViews(ws, dt) {
     const v = views[i];
     v.holder.visible = w.state !== 'waiting';
     if (w.animSeq !== v.seq) { const prev = v.anim; v.anim = w.anim; v.seq = w.animSeq; onAnim(i, w, prev); }
+    const moving = !!activeMove(v.root);
+    if (v.moved && !moving) v.easeT = 0.4; // a move just let go: ease home from where it left the body
+    v.moved = moving;
     if (!isBusy(v.root)) {
       // follow the sim; after a move lets go (it may end a step away, e.g. off the pin cover) ease over instead of popping
       _tp.set(w.x, w.y + (w.rotX ? 0.12 : 0), w.z); _tq.setFromEuler(_te.set(w.rotX, w.facing, 0, 'YXZ'));
       const gap = v.root.position.distanceTo(_tp);
-      if (gap > 0.12 && gap < 2.5 && dt > 0) { const k = 1 - Math.exp(-dt * 14); v.root.position.lerp(_tp, k); v.root.quaternion.slerp(_tq, k); }
+      if (dt === 0) { /* hitstop or pause: hold the frame, never snap */ }
+      else if (v.easeT > 0 && gap > 0.02 && gap < 2.5) { v.easeT -= dt; const k = Math.min(1 - Math.exp(-dt * 14), 0.25 / gap); v.root.position.lerp(_tp, k); v.root.quaternion.slerp(_tq, 1 - Math.exp(-dt * 14)); }
       else { v.root.position.copy(_tp); v.root.quaternion.copy(_tq); }
     }
     v.anim8.update(dt);
@@ -306,7 +335,7 @@ function withTimeout(p, ms, what) {
 }
 
 function startLocal(p1, p2) {
-  const match = createMatch(p1, p2, savedHabits);
+  const match = createMatch(p1, p2, savedHabits, { committed: true });
   savedHabits = match.habits;
   session = { mode: 'exhibition', slot: 0, match, ctl: [newControl(true), newControl(false)], entrance: true };
   // Bruin memory: the AI's habit table for you comes from the marts when they answer before/at the bell.
@@ -390,6 +419,7 @@ function rematch() {
 }
 
 let shake = 0;
+let pairCam = null;
 // Shell settings: { volume, shake } on window.HEEL_SETTINGS (read live, so 'heel:settings' needs no listener).
 const shakeScale = () => (window.HEEL_SETTINGS?.shake === false || window.HEEL_SETTINGS?.shake === 0 ? 0 : 1);
 function handleEvents(evs) {
@@ -404,6 +434,7 @@ function handleEvents(evs) {
     else if (e.k === 'shake') shake = Math.max(shake, e.v * shakeScale());
     else if (e.k === 'finisher') { nextFinisher = true; shake = 0.6 * shakeScale(); bloom.strength = 1.6; }
     else if (e.k === 'wobble') wobble(e.ax, e.sign);
+    else if (e.k === 'pair') startPair(e);
     else if (e.k === 'end') matchEnded(e);
   }
 }
@@ -513,6 +544,13 @@ function probe(v, w) {
 }
 window.HEEL_ANIM = () => ({ t: performance.now(), over: !!current()?.over,
   w: views.map((v, i) => probe(v, current()?.w[i])), ref: ref ? probe(ref, null) : null });
+// Sync probe (game/tools/sync-probe.mjs): per wrestler the drawn hips (floor x/z) next to the sim position, the
+// move driving the body, and the paired move's live hand-contact errors (meters).
+const _sh = new THREE.Vector3();
+window.HEEL_SYNC = () => { const st = currentRaw(); return st && { pair: st.pair ? { move: st.pair.move, phase: st.pair.phase, t: st.pair.t, seq: st.pair.seq } : null,
+  contacts: contactReport(), w: views.map((v, i) => { getRig(v.root).bones.hips?.getWorldPosition(_sh);
+    return { hx: _sh.x, hz: _sh.z, rx: v.root.position.x, rz: v.root.position.z, sx: st.w[i].x, sz: st.w[i].z, fy: st.w[i].facing,
+      ry: (() => { const f = new THREE.Vector3(0, 0, 1).applyQuaternion(v.root.quaternion); return Math.atan2(f.x, f.z); })(), state: st.w[i].state, move: activeMove(v.root), lying: v.lying }; }) }; };
 window.G = {
   get P1() { return currentRaw()?.w[0]; }, get P2() { return currentRaw()?.w[1]; },
   get state() { return currentRaw(); }, get session() { return window.HEEL.session; },
@@ -574,7 +612,13 @@ function frame() {
       // battle royal: keep the whole ring centred and drift only a little toward the action
       want = new THREE.Vector3(mid.x * 0.25 + Math.sin(t * 0.1) * 0.8, 7.4, 11.2 + mid.z * 0.25);
       mid.multiplyScalar(0.25);
+    } else if (st.pair) {
+      // committed move: the camera holds the frame it had when the lock-up started (no orbit drift, no chasing a
+      // flying body); feel/ still adds the impact shake and punch-in on top
+      pairCam ||= { want: new THREE.Vector3(mid.x * 0.5, 5.2 + spread * 0.35, mid.z + 8.5 + spread * 0.6), mid: mid.clone() };
+      want = pairCam.want; mid.copy(pairCam.mid);
     } else want = new THREE.Vector3(mid.x * 0.5 + Math.sin(t * 0.12) * 2, 5.2 + spread * 0.35, mid.z + 8.5 + spread * 0.6);
+    if (!st.pair && pairCam) pairCam = null;
     camera.position.lerp(want, st.introT > 0 ? 0.06 : 0.04);
     feel.addTrauma(shake * 0.5); shake = 0;
     camera.lookAt(mid.x, MAT_Y + 0.9, mid.z);

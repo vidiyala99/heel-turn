@@ -35,7 +35,7 @@ export const CHARACTERS = {
   silas: {
     name: 'Silas Crane', hometown: 'Blackwater Parish, Louisiana', weight: 228, full: 'Silas Crane', role: 'Schemer',
     line: 'Studies you for three rounds, then takes the fourth.', power: 60, speed: 66, technique: 92,
-    body: 'male', build: [0.97, 1.03, 0.97], hair: ['Hair_Long'], hairColor: 0x15101a,
+    body: 'male', build: [0.97, 1.03, 0.97], hair: ['Hair_SimpleParted'], hairColor: 0x15101a,
     palette: { ui: 0x8b5cf6, primary: 0x6a35c4, secondary: 0x150d22, accent: 0x7be05a, skin: 0xe8d2c6 },
     attire: [
       { kind: 'tights', color: 'primary', trim: 'accent' },

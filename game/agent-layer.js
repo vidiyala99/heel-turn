@@ -5,6 +5,7 @@
 //   layer.facts(facts)  layer.tick(simState)  layer.matchEnd()
 import { situationOf } from './shared/sim.js';
 import { createCommentary } from '../voice/commentary.js';
+import { createBoothAgents, viaLineEndpoint } from '../voice/booth-agent.js';
 import { createTTS } from '../voice/tts.js';
 import { createCrowd } from '../voice/crowd.js';
 import { mountMusic } from '../voice/music.js';
@@ -14,8 +15,8 @@ import './ui/promo.css';
 const SIM_TO_ROSTER = { kane: 'brutus' };
 const PROMO_BASE = `${location.protocol}//${location.hostname}:8789`;
 const PLAN_EVERY_S = 4;
-const NAMES = { vex: 'Vex', kane: 'Kane', brutus: 'Kane', silas: 'Crane', mae: 'Mae', lou: 'Lou', commissioner: 'Commissioner' };
-const TINT = { vex: '#2b8cff', kane: '#e8333b', silas: '#8b5cf6', mae: '#c0c6cf', lou: '#f1f1f1' };
+const NAMES = { vex: 'Vex', kane: 'Kane', brutus: 'Kane', silas: 'Crane', mae: 'Mae', lou: 'Lou', commissioner: 'Commissioner', rex: 'Rex', dot: 'Dot' };
+const TINT = { vex: '#2b8cff', kane: '#e8333b', silas: '#8b5cf6', mae: '#c0c6cf', lou: '#f1f1f1', rex: '#f5c542', dot: '#ff7ab6' };
 const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const post = (url, body) => fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
 
@@ -50,7 +51,12 @@ export function createAgentLayer({ logRow, call }) {
   let booth = createCommentary(boothOpts);
   fetch('/voice/api/health').then((r) => r.json()).then((h) => {
     debug.voice = h;
-    if (h.llm) booth = createCommentary({ ...boothOpts, llm: '/voice/api/line' });
+    // Rex and Dot become LLM agents (voice/booth-agent.js): every line lands in the decision log with what it reacted to
+    if (h.llm) booth = createBoothAgents({ generate: viaLineEndpoint('/voice/api/line'), say: boothOpts.say, prefetch: boothOpts.prefetch, onLine: (l) => {
+      caption(l);
+      logRow(planHtml({ wrestler: l.speaker, label: l.source === 'llm' ? `LLM, ${(l.ms / 1000).toFixed(1)} s` : 'bank', intent: 'says', reason: l.text, cites: [l.source === 'llm' ? `reacted to ${l.ref}` : `hit reaction to ${l.ref}`] }, l.source === 'llm' ? 'LLM' : 'BANK'));
+    } });
+    if (cur) booth.start?.();
   }).catch(() => { debug.voice = { offline: true }; });
   // menus get music; the booth and crowd only live from the bell to the results screen
   const music = mountMusic(undefined, { onScreen: (s) => { if (s === 'match') { try { crowd.start(); } catch {} } crowd.setLive(s === 'match' || s === 'pause'); } });
@@ -83,6 +89,7 @@ export function createAgentLayer({ logRow, call }) {
     if (cur) { clearInterval(cur.flushT); flush(); }
     cur = { match, wrestlers, humans, ids: ids(wrestlers, humans), buf: [], flushT: setInterval(flush, 1000) };
     promoPre(wrestlers, humans);
+    booth.start?.();
     const ai = wrestlers.find((_, i) => !humans[i]);
     if (!ai) return null;
     // Memory: the AI reads the player's habits and its grudges from the Bruin marts before the bell.
@@ -103,6 +110,7 @@ export function createAgentLayer({ logRow, call }) {
       else logRow(planHtml({ wrestler: ai, intent: 'memory', reason: 'Bruin has no habits for you yet: first meeting', cites: [] }, 'BRUIN'));
       const g = (mem.feelings || [])[0];
       story.grudge = g && g.grudge > 0 ? { who: ai, about: g.about, trust: g.trust, grudge: g.grudge, last_betrayal: g.last_betrayal } : null;
+      booth.setMemory?.({ grudge: story.grudge, habits: best ? `the player ${best.mv}s ${Math.round(best.share * 100)}% of the time when ${best.sit.replace('_', ' ')}` : null });
       if (g && g.grudge > 0) logRow(planHtml({ wrestler: ai, intent: 'grudge', target: g.about, reason: `trust ${g.trust}, grudge ${g.grudge}${g.last_betrayal ? `, betrayed in ${g.last_betrayal}` : ''}`, cites: [g.cite] }, 'BRUIN'));
       debug.memoryText = `${who} habits from Bruin`;
       return best ? habits : null;
@@ -117,6 +125,7 @@ export function createAgentLayer({ logRow, call }) {
   async function matchEnd() {
     if (!cur) return;
     clearInterval(cur.flushT);
+    booth.stop?.();
     await flush();
     post('/mem/end', { match: cur.match }).catch(() => {}); // Bruin refresh runs server side; never awaited
   }
@@ -175,6 +184,7 @@ export function createAgentLayer({ logRow, call }) {
       debug.agents = { band: res.band, planner: res.planner, memory: res.memory, latency_ms: res.latency_ms, rtt_ms: Math.round(performance.now() - t0), pending: (res.pending || []).map((x) => x.id) };
       (res.plans || []).forEach((p, k) => {
         const meta = res.meta?.[k];
+        booth.onPlan?.(p);
         if (p.intent && p.intent !== 'attack') story.plot = [...story.plot, { who: p.wrestler, intent: p.intent, target: p.target, reason: p.reason }].slice(-4);
         debug.plans.push({ t: body.t_ms, wrestler: p.wrestler, intent: p.intent, target: p.target, reason: p.reason, cites: p.cites, source: meta?.source, ms: meta?.ms, error: meta?.error });
         const changed = last[p.wrestler] !== `${p.intent}|${p.target}|${(p.cites?.[0] || '').match(/\/(strike|grapple|block)$/)?.[1] || null}`;

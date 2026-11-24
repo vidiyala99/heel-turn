@@ -1,0 +1,35 @@
+{
+ "frames": 1950,
+ "lockups": 5,
+ "pairedMoves": 4,
+ "yawVsSim": {
+  "maxDeg": 5.8,
+  "framesOver10deg": 0
+ },
+ "rootVsSim": {
+  "settledFrames": 983,
+  "maxCm": 13.4,
+  "framesOver5cm": 3
+ },
+ "hipsVsSim": {
+  "settledFrames": 983,
+  "maxCm": 31.7,
+  "framesOver5cm": 872
+ },
+ "contacts": {
+  "fullWeightSamples": 284,
+  "maxCm": 19.4
+ },
+ "pops": {
+  "over30cm": 0,
+  "maxCmPerFrame": 17.7
+ },
+ "shots": {
+  "lockup": true,
+  "mid": "bodyslam",
+  "impact": "bodyslam",
+  "getup": true
+ },
+ "errors": []
+}
+FAIL

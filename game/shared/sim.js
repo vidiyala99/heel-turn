@@ -16,6 +16,7 @@ import { T } from './tuning.js';
 import { preStep, moveSpeed, onHit, impact, whip, pinStep } from './drama.js';
 
 import { think } from './ai.js';
+import { tryLockup, pairInput, aiPair, pairStep } from './pair.js';
 
 export const RING = 3.2;
 export const MAT_Y = 1.1;
@@ -30,7 +31,7 @@ export const INPUTS = ['strike', 'grapple', 'block', 'blockUp', 'taunt', 'whip']
 const MOVES = T.sim.moves;
 const COUNTER = { strike: 'block', grapple: 'strike', block: 'grapple' };
 export const SITUATIONS = ['opening', 'after_block', 'low_stamina', 'cornered'];
-const BUSY = ['wind', 'active', 'rec', 'stun', 'down', 'thrown', 'taunt', 'pinning', 'pinned', 'out', 'intro', 'whipped', 'rebound'];
+const BUSY = ['wind', 'active', 'rec', 'stun', 'down', 'thrown', 'taunt', 'pinning', 'pinned', 'out', 'intro', 'whipped', 'rebound', 'paired', 'getup'];
 
 const lerp = (a, b, k) => a + (b - a) * k;
 const clamp = (v, lo, hi) => Math.max(lo, Math.min(hi, v));
@@ -46,12 +47,13 @@ function makeWrestler(id, x) {
   };
 }
 
-export function createMatch(p1 = 'vex', p2 = 'kane', habits = null) {
+// opts.committed (exhibition): grapples go through the lock-up and committed paired moves in shared/pair.js.
+export function createMatch(p1 = 'vex', p2 = 'kane', habits = null, opts = {}) {
   const m = {
     w: [makeWrestler(p1, -1.6), makeWrestler(p2, 1.6)],
     over: false, winner: -1, how: null, pin: null, introT: INTRO_SECS, events: [],
     habits: normHabits(habits), clock: 0, blockT: 0, seed: (Date.now() % 100000) + 1,
-    aiPlanT: 3, aiIntent: 'pressure', aiPlansLog: [],
+    aiPlanT: 3, aiIntent: 'pressure', aiPlansLog: [], committed: !!opts.committed, pair: null,
   };
   emit(m, { k: 'call', text: `${m.w[0].name} and ${m.w[1].name} make their way to the ring.` });
   return m;
@@ -94,6 +96,7 @@ function act(m, i, kind) {
   if (busy(w)) return;
   if (kind === 'block') { recordHabit(m, i, kind); fact(m, 'block', i, 1 - i); w.state = 'block'; w.stats.blocks++; anim(w, 'No', 1.6); return; }
   if (kind === 'taunt') { fact(m, 'taunt', i, null); w.state = 'taunt'; w.t = 1.2; anim(w, i === 0 ? 'Dance' : 'ThumbsUp', 1.4); emit(m, { k: 'call', text: `${short(w)} plays to the crowd!` }); return; }
+  if (kind === 'grapple' && tryLockup(m, i)) return;
   if (kind === 'grapple' && w.mo >= 100 && dist(w, opp) < 1.6) kind = 'finisher';
   const mv = MOVES[kind === 'finisher' ? 'grapple' : kind];
   if (w.st < mv.stam * 0.5) { emit(m, { k: 'call', text: `${short(w)} is gassed!` }); return; }
@@ -111,7 +114,7 @@ function resolve(m, att, def) {
     fact(m, base, ai, di, { success: false });
     return;
   }
-  if (def.state === 'down' || def.state === 'thrown' || def.state === 'pinned') return;
+  if (def.state === 'down' || def.state === 'thrown' || def.state === 'pinned' || def.state === 'paired') return;
   if (kind === 'strike') {
     if (def.state === 'block') {
       def.st -= 6; def.stats.reversals++; att.state = 'stun'; att.t = 0.45; anim(att, 'No');
@@ -125,6 +128,8 @@ function resolve(m, att, def) {
     att.mo = Math.min(100, att.mo + 12);
     return;
   }
+  // committed (exhibition): a grapple only lands through the lock-up (shared/pair.js); out of range it whiffs
+  if (m.committed) { fact(m, base, ai, di, { success: false }); return; }
   const fin = kind === 'finisher';
   const toss = nearRopes(def) && def.hp < 40;
   att.mo = fin ? 0 : Math.min(100, att.mo + 18);
@@ -201,6 +206,7 @@ function aiThink(m, i, dt) {
     emit(m, { k: 'log', html, key: `plan-${i}-${m.aiIntent}`, same: m.aiIntent === prevIntent && m.aiPlanN > 0 });
     m.aiPlanN = (m.aiPlanN || 0) + 1;
   }
+  if (m.pair) aiPair(m, i);
   if (busy(me)) return;
   // Execute: the behavior state machine in shared/ai.js turns the plan into continuous movement and attacks.
   think(m, i, dt, {
@@ -229,6 +235,7 @@ function moveToward(w, x, z, dt, speed) {
 function handleInput(m, i, kind) {
   const w = m.w[i];
   if (m.over || m.introT > 0) return;
+  if (m.pair && pairInput(m, i, kind)) return;
   if (kind === 'blockUp') { if (w.state === 'block' && !w.autoBlock) w.state = 'idle'; return; }
   if (m.pin && m.pin.victim === i && kind === 'grapple') m.pin.mash += 1;
   if (kind === 'whip') return whip(m, i);
@@ -251,6 +258,7 @@ export function step(m, dt, ctl) {
     return;
   }
   m.clock += dt; m.blockT = Math.max(0, m.blockT - dt);
+  if (m.pair) pairStep(m, dt);
   const [A, B] = m.w;
   const before = m.w.map((w) => [w.x, w.z]);
   for (let i = 0; i < 2; i++) {
@@ -287,9 +295,17 @@ export function step(m, dt, ctl) {
         else { w.state = 'down'; w.t = 2.2 + (100 - w.hp) / 40; fact(m, 'knockdown', 1 - i, i); }
       }
     } else if (w.state === 'down') {
-      w.t -= dt; if (w.t <= 0) { w.state = 'idle'; w.rotX = 0; anim(w, 'Standing', 1.5); emit(m, { k: 'call', text: `${short(w)} is back on his feet!` }); }
+      w.t -= dt; if (w.t <= 0) {
+        // committed: the get-up is part of the down time; the sim waits for the kip-up (1.5 s) before he can act
+        w.state = m.committed ? 'getup' : 'idle'; w.t = 1.5; w.rotX = 0; anim(w, 'Standing', 1.5);
+        emit(m, { k: 'call', text: `${short(w)} is back on his feet!` });
+      }
+    } else if (w.state === 'getup') {
+      // the kip-up track ends standing 0.45 m ahead of where the hips lay
+      w.t -= dt; if (w.t <= 0) { w.state = 'idle'; w.x += Math.sin(w.facing) * 0.45; w.z += Math.cos(w.facing) * 0.45; anim(w, 'Idle'); }
     }
-    if (['idle', 'wind', 'block', 'active'].includes(w.state)) w.facing = Math.atan2(opp.x - w.x, opp.z - w.z);
+    // rec and stun face the rival too, so a wrestler never stands turned away after a move or a hit
+    if (['idle', 'wind', 'block', 'active', 'rec', 'stun'].includes(w.state)) w.facing = Math.atan2(opp.x - w.x, opp.z - w.z);
     if (!w.out && w.state !== 'thrown') {
       const lim = RING - 0.35;
       for (const ax of ['x', 'z']) {
@@ -303,7 +319,7 @@ export function step(m, dt, ctl) {
   }
   // separation
   let sx = A.x - B.x, sz = A.z - B.z; const sl = Math.hypot(sx, sz);
-  if (!A.out && !B.out && sl < 0.85 && A.state !== 'thrown' && B.state !== 'thrown') {
+  if (!m.pair && !A.out && !B.out && sl < 0.85 && A.state !== 'thrown' && B.state !== 'thrown') {
     const gap = 0.85 - sl; if (sl < 1e-2) { sx = 1; sz = 0; } else { sx /= sl; sz /= sl; }
     const push = gap * 0.5 + 0.01;
     A.x += sx * push; A.z += sz * push; B.x -= sx * push; B.z -= sz * push;
@@ -354,7 +370,7 @@ export const newControl = (human) => ({ human, mx: 0, mz: 0, queue: [] });
 // What the server sends each tick (and what the client renders from).
 export function snapshot(m) {
   return {
-    w: m.w.map(({ arc, ...w }) => w), over: m.over, winner: m.winner, how: m.how,
+    w: m.w.map(({ arc, ...w }) => w), pair: m.pair, over: m.over, winner: m.winner, how: m.how,
     introT: m.introT, freeze: m.freeze || 0, pin: m.pin && { victim: m.pin.victim, count: m.pin.count, t: m.pin.t },
   };
 }

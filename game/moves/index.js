@@ -222,9 +222,11 @@ function applyActor(actor, play, t) {
 
 export function updateMoves(dt) {
   for (const play of [...plays]) {
+    // opts.clock: a committed move runs on the sim's clock (shared/pair.js), which already holds for hitstop.
+    if (play.opts.clock) play.hitstop = 0;
     if (play.hitstop > 0) play.hitstop = Math.max(0, play.hitstop - dt);
     else {
-      play.t += dt * (play.opts.speed || 1);
+      play.t = play.opts.clock ? Math.max(play.t, play.opts.clock()) : play.t + dt * (play.opts.speed || 1);
       if (play.opts.follow) { const r = rootFrom(play.opts.follow()); if (r) for (const a of play.actors) a.moveRoot = r; }
       while (play.fired < play.events.length && play.events[play.fired].t <= play.t) fire(play, play.events[play.fired++]);
       if (!play.ended && play.t >= play.move.duration) {

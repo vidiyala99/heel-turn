@@ -56,7 +56,7 @@ export function createAgentLayer({ logRow, call }) {
       caption(l);
       logRow(planHtml({ wrestler: l.speaker, label: l.source === 'llm' ? `LLM, ${(l.ms / 1000).toFixed(1)} s` : 'bank', intent: 'says', reason: l.text, cites: [l.source === 'llm' ? `reacted to ${l.ref}` : `hit reaction to ${l.ref}`] }, l.source === 'llm' ? 'LLM' : 'BANK'));
     } });
-    if (cur) booth.start?.();
+    if (cur && !holding) booth.start?.();
   }).catch(() => { debug.voice = { offline: true }; });
   // menus get music; the booth and crowd only live from the bell to the results screen
   const music = mountMusic(undefined, { onScreen: (s) => { if (s === 'match') { try { crowd.start(); } catch {} } crowd.setLive(s === 'match' || s === 'pause'); } });
@@ -89,7 +89,7 @@ export function createAgentLayer({ logRow, call }) {
     if (cur) { clearInterval(cur.flushT); flush(); }
     cur = { match, wrestlers, humans, ids: ids(wrestlers, humans), buf: [], flushT: setInterval(flush, 1000) };
     promoPre(wrestlers, humans);
-    booth.start?.();
+    if (!holding) booth.start?.(); // owner 16:28: booth stays silent under the ring announcer and pre-match promo
     const ai = wrestlers.find((_, i) => !humans[i]);
     if (!ai) return null;
     // Memory: the AI reads the player's habits and its grudges from the Bruin marts before the bell.
@@ -260,7 +260,7 @@ export function createAgentLayer({ logRow, call }) {
     if (!rival) return;
     holding = true;
     const gen = ++preGen;
-    setTimeout(() => { if (gen === preGen && pre) { pre = null; holding = false; } }, 60000); // no entrance-end: never strand the bell
+    setTimeout(() => { if (gen === preGen && pre) { pre = null; holding = false; booth.start?.(); } }, 60000); // no entrance-end: never strand the bell
     const req = { moment: 'pre', speaker: rival, opponent: me, match_state: promoState() };
     pre = { at: performance.now(), out: fetchPromo(req).catch((e) => { debug.errors.push('promo ' + e.message); return null; }) };
     // Over the Top has no entrances: the promo runs as soon as its lines arrive
@@ -268,10 +268,10 @@ export function createAgentLayer({ logRow, call }) {
   }
   async function runPre() {
     const p = pre; pre = null;
-    if (!p) { holding = false; return; }
+    if (!p) { holding = false; booth.start?.(); return; }
     const out = await Promise.race([p.out, new Promise((r) => setTimeout(() => r(null), 4500))]);
     try { if (out && cur && window.HEEL_UI?.state !== 'menu') await showPromo(out, 'pre'); }
-    finally { holding = false; }
+    finally { holding = false; booth.start?.(); }
   }
   addEventListener('heel:entrance-end', () => { if (pre) runPre(); });
   function promoMid(f) {

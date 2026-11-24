@@ -3,11 +3,28 @@
 // every line. Audio plays through a broadcast voice bus (high-pass, presence lift, compressor) on the shared
 // AudioContext when one exists. prefetch(line) warms the clip so a queued line plays the moment its turn comes.
 import { VOICES } from './voices.js';
+import { masterFor, settingsVolume } from './mix.js';
+
+// broadcast voice bus, built once per AudioContext: speech is the 0 dB reference every other bus is set against
+const buses = new WeakMap();
+export function voiceBus(ac) {
+  if (buses.has(ac)) return buses.get(ac);
+  const hp = ac.createBiquadFilter(); hp.type = 'highpass'; hp.frequency.value = 110;
+  const mud = ac.createBiquadFilter(); mud.type = 'peaking'; mud.frequency.value = 300; mud.gain.value = -3; mud.Q.value = 1;
+  const presence = ac.createBiquadFilter(); presence.type = 'peaking'; presence.frequency.value = 3200; presence.gain.value = 4; presence.Q.value = 0.9;
+  const comp = ac.createDynamicsCompressor();
+  comp.threshold.value = -22; comp.ratio.value = 4; comp.attack.value = 0.004; comp.release.value = 0.18; comp.knee.value = 6;
+  const out = ac.createGain(); out.gain.value = 1.25;
+  hp.connect(mud).connect(presence).connect(comp).connect(out).connect(masterFor(ac));
+  buses.set(ac, hp);
+  return hp;
+}
 
 // Automated browsers (Playwright sets navigator.webdriver) and ?mute=1 never make sound: speechSynthesis speaks
 // through the OS voice even under --mute-audio, so the test runs were audible on the owner's machine.
-export const MUTED = typeof navigator !== 'undefined' && navigator.webdriver === true
-  || typeof location !== 'undefined' && new URLSearchParams(location.search).get('mute') === '1';
+// ?voice=1 lets a headless check (run with --mute-audio) exercise the real audio path anyway.
+const Q = typeof location !== 'undefined' ? new URLSearchParams(location.search) : new URLSearchParams();
+export const MUTED = Q.get('voice') !== '1' && (typeof navigator !== 'undefined' && navigator.webdriver === true || Q.get('mute') === '1');
 
 const START_BUDGET_MS = 2000; // a clip not ready this long after its cue is skipped (or swapped for its cached fallback)
 
@@ -39,21 +56,6 @@ export function createTTS({ base = '/voice/api', onDuck = () => {}, onStart = ()
   async function prefetch(l) { if (!muted && l?.text && await neural) clip(l).catch(() => {}); }
 
   let playing = null; // stop hook for the line playing now
-  // broadcast voice bus, built once per AudioContext
-  let bus = null;
-  function voiceBus(ac) {
-    if (bus?.ac === ac) return bus.input;
-    const hp = ac.createBiquadFilter(); hp.type = 'highpass'; hp.frequency.value = 110;
-    const mud = ac.createBiquadFilter(); mud.type = 'peaking'; mud.frequency.value = 300; mud.gain.value = -3; mud.Q.value = 1;
-    const presence = ac.createBiquadFilter(); presence.type = 'peaking'; presence.frequency.value = 3200; presence.gain.value = 4; presence.Q.value = 0.9;
-    const comp = ac.createDynamicsCompressor();
-    comp.threshold.value = -22; comp.ratio.value = 4; comp.attack.value = 0.004; comp.release.value = 0.18; comp.knee.value = 6;
-    const out = ac.createGain(); out.gain.value = 1.25;
-    hp.connect(mud).connect(presence).connect(comp).connect(out).connect(ac.destination);
-    bus = { ac, input: hp };
-    return hp;
-  }
-
   async function play(bytes, line) {
     const ac = ctx();
     if (ac && ac.state === 'running') {
@@ -68,7 +70,7 @@ export function createTTS({ base = '/voice/api', onDuck = () => {}, onStart = ()
     const url = URL.createObjectURL(new Blob([bytes], { type: 'audio/mpeg' }));
     try {
       await new Promise((resolve, reject) => {
-        const a = new Audio(url);
+        const a = new Audio(url); a.volume = settingsVolume();
         playing = () => { a.pause(); resolve(); };
         a.onplaying = () => onStart(line, 'neural');
         a.onended = resolve; a.onerror = reject;

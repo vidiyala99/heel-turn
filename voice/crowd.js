@@ -1,10 +1,16 @@
 // Procedural crowd: filtered noise murmur + swells + clap/chant bursts. All synthesized, no samples.
 // const crowd = createCrowd(); crowd.start() after a user gesture; crowd.onEvent(ev); crowd.duck(true|false).
 import { MUTED } from './tts.js';
+import { LEVEL, dB, masterFor } from './mix.js';
+
+// BED_TRIM: the bed's own loudness at gain 1 versus speech on the voice bus (measured by game/ui/mix_check.py), so
+// LEVEL.crowd lands where it says.
+const BED_TRIM = 1;
 
 const SWELL = { bell: 0.6, strike: 0.15, grapple: 0.3, knockdown: 0.35, pin: 0.5, kickout: 0.8, finisher: 0.9, elimination: 1, betray: 1, entry: 0.7, taunt: 0.25 };
 
-export function createCrowd({ ctx = null, volume = 0.5, muted = MUTED } = {}) {
+export function createCrowd({ ctx = null, muted = MUTED } = {}) {
+  const volume = dB(LEVEL.crowd) * BED_TRIM, under = dB(LEVEL.crowdUnder) * BED_TRIM;
   let ac = ctx, master, bed, bedFilter, lfoGain, noise, live = true, lastBell = -9;
 
   function noiseBuffer(seconds = 3) {
@@ -14,7 +20,7 @@ export function createCrowd({ ctx = null, volume = 0.5, muted = MUTED } = {}) {
     for (let i = 0; i < d.length; i++) {
       const w = Math.random() * 2 - 1;
       b0 = 0.997 * b0 + w * 0.029; b1 = 0.985 * b1 + w * 0.032; b2 = 0.95 * b2 + w * 0.048;
-      d[i] = (b0 + b1 + b2 + w * 0.02) * 2.2;
+      d[i] = (b0 + b1 + b2) * 2.2; // no white component: that was the hiss
     }
     return buf;
   }
@@ -24,15 +30,17 @@ export function createCrowd({ ctx = null, volume = 0.5, muted = MUTED } = {}) {
     if (master) return ac.resume();
     ac ??= new AudioContext();
     noise = noiseBuffer();
-    master = ac.createGain(); master.gain.value = volume; master.connect(ac.destination);
+    master = ac.createGain(); master.gain.value = volume; master.connect(masterFor(ac));
     // murmur bed: bandpassed pink noise whose level breathes on a slow LFO
     const src = ac.createBufferSource(); src.buffer = noise; src.loop = true;
-    bedFilter = ac.createBiquadFilter(); bedFilter.type = 'bandpass'; bedFilter.frequency.value = 700; bedFilter.Q.value = 0.7;
+    // murmur, not hiss: low-passed (highs rolled off above ~900 Hz) with the rumble cut under 120 Hz
+    bedFilter = ac.createBiquadFilter(); bedFilter.type = 'lowpass'; bedFilter.frequency.value = 900; bedFilter.Q.value = 0.5;
+    const rumble = ac.createBiquadFilter(); rumble.type = 'highpass'; rumble.frequency.value = 120;
     bed = ac.createGain(); bed.gain.value = 0.25;
     const lfo = ac.createOscillator(); lfo.frequency.value = 0.17;
     lfoGain = ac.createGain(); lfoGain.gain.value = 0.06;
     lfo.connect(lfoGain).connect(bed.gain);
-    src.connect(bedFilter).connect(bed).connect(master);
+    src.connect(rumble).connect(bedFilter).connect(bed).connect(master);
     src.start(); lfo.start();
     return ac.resume();
   }
@@ -42,10 +50,10 @@ export function createCrowd({ ctx = null, volume = 0.5, muted = MUTED } = {}) {
     if (!master) return;
     const t = ac.currentTime, a = Math.min(1, Math.max(0, amount));
     bed.gain.cancelScheduledValues(t); bedFilter.frequency.cancelScheduledValues(t);
-    bed.gain.setTargetAtTime(0.25 + a * 0.9, t, 0.08);
+    bed.gain.setTargetAtTime(0.25 + a * 0.5, t, 0.08);
     bed.gain.setTargetAtTime(0.25, t + seconds * a + 0.3, 0.6);
-    bedFilter.frequency.setTargetAtTime(700 + a * 900, t, 0.1);
-    bedFilter.frequency.setTargetAtTime(700, t + seconds * a + 0.3, 0.8);
+    bedFilter.frequency.setTargetAtTime(900 + a * 500, t, 0.1);
+    bedFilter.frequency.setTargetAtTime(900, t + seconds * a + 0.3, 0.8);
   }
 
   // one burst of many hands or voices: short noise grain through a filter
@@ -64,7 +72,7 @@ export function createCrowd({ ctx = null, volume = 0.5, muted = MUTED } = {}) {
     const claps = [0, 1, 2, 2.5, 3];
     for (let bar = 0; bar < bars; bar++) {
       const tb = t0 + bar * 4 * beat;
-      if (pattern === 'clap') claps.forEach(b => burst(tb + b * beat, { freq: 2200, q: 0.8, dur: 0.07, gain: 0.7 }));
+      if (pattern === 'clap') claps.forEach(b => burst(tb + b * beat, { freq: 1500, q: 0.8, dur: 0.07, gain: 0.45 }));
       else [0, 2].forEach(b => { // two formants make a rough "HEY"
         burst(tb + b * beat, { freq: 650, q: 4, dur: 0.28, gain: 0.9 });
         burst(tb + b * beat, { freq: 1700, q: 5, dur: 0.24, gain: 0.5 });
@@ -74,7 +82,7 @@ export function createCrowd({ ctx = null, volume = 0.5, muted = MUTED } = {}) {
 
   function duck(on) {
     if (!master || !live) return;
-    master.gain.setTargetAtTime(on ? volume * 0.35 : volume, ac.currentTime, on ? 0.05 : 0.4);
+    master.gain.setTargetAtTime(on ? under : volume, ac.currentTime, on ? 0.05 : 0.5);
   }
 
   // the arena only exists during a match: fade the whole crowd in at the bell, out at the results
@@ -93,10 +101,13 @@ export function createCrowd({ ctx = null, volume = 0.5, muted = MUTED } = {}) {
         const o = ac.createOscillator(); o.frequency.value = 820 * m;
         const g = ac.createGain(); g.gain.setValueAtTime(0, t);
         g.gain.linearRampToValueAtTime(g0, t + 0.004); g.gain.exponentialRampToValueAtTime(0.0005, t + 1.6 / Math.sqrt(m));
-        o.connect(g).connect(ac.destination); o.start(t); o.stop(t + 1.7);
+        o.connect(g).connect(bellBus()); o.start(t); o.stop(t + 1.7);
       });
     }
   }
+
+  let bellOut = null; // the bell sits on the master bus at its own level, above the crowd
+  const bellBus = () => { if (!bellOut) { bellOut = ac.createGain(); bellOut.gain.value = 0.35; bellOut.connect(masterFor(ac)); } return bellOut; };
 
   function onEvent(ev) {
     const a = SWELL[ev.kind]; if (a == null || ev.success === false && ev.kind !== 'betray') return;

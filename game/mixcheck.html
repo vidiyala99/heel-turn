@@ -1,0 +1,58 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Mix check</title>
+<!-- Per-bus loudness through the real mix code (voice/mix.js master). Driven by game/ui/mix_check.py. -->
+<pre id="out">running</pre>
+<script type="module">
+import { createCrowd } from '../voice/crowd.js';
+import { createMusic } from '../voice/music.js';
+import { voiceBus } from '../voice/tts.js';
+import { masterFor } from '../voice/mix.js';
+
+window.HEEL_SETTINGS = { volume: 1 };
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+// RMS in dBFS; gate=true (speech only) drops blocks under -60 dBFS, the pauses between words
+async function rms(an, secs, gate = false) {
+  const buf = new Float32Array(an.fftSize); let sum = 0, n = 0;
+  const end = performance.now() + secs * 1000;
+  while (performance.now() < end) {
+    an.getFloatTimeDomainData(buf);
+    let p = 0; for (const x of buf) p += x * x; p /= buf.length;
+    if (!gate || p > 1e-6) { sum += p; n++; }
+    await sleep(an.fftSize / an.context.sampleRate * 1000);
+  }
+  return n ? +(10 * Math.log10(sum / n)).toFixed(1) : -Infinity;
+}
+function rig() {
+  const ac = new AudioContext(); const an = ac.createAnalyser(); an.fftSize = 2048;
+  masterFor(ac).connect(an); return { ac, an };
+}
+window.MIX = async (clips) => {
+  const out = {};
+  { // speech on the voice bus: the 0 dB reference
+    const { ac, an } = rig(); await ac.resume(); const levels = [];
+    for (const url of clips) {
+      const b = await ac.decodeAudioData(await (await fetch(url)).arrayBuffer());
+      const s = ac.createBufferSource(); s.buffer = b; s.connect(voiceBus(ac)); s.start();
+      levels.push(await rms(an, b.duration, true));
+    }
+    out.speech = +(10 * Math.log10(levels.reduce((a, l) => a + 10 ** (l / 10), 0) / levels.length)).toFixed(1);
+    ac.close();
+  }
+  { const { ac, an } = rig(); const c = createCrowd({ ctx: ac, muted: false }); await c.start(); await sleep(1500);
+    out.crowd = await rms(an, 3);
+    c.duck(true); await sleep(600); out.crowdUnder = await rms(an, 2); c.duck(false); await sleep(2500);
+    window.HEEL_SETTINGS.volume = 0.5; dispatchEvent(new CustomEvent('heel:settings')); await sleep(500);
+    out.crowdAtHalfVolume = await rms(an, 2); window.HEEL_SETTINGS.volume = 1; dispatchEvent(new CustomEvent('heel:settings'));
+    ac.close(); }
+  { const { ac, an } = rig(); const m = createMusic({ ctx: ac, muted: false }); m.play(); await sleep(1800);
+    out.music = await rms(an, 3.5);
+    dispatchEvent(new CustomEvent('heel:voice', { detail: { phase: 'start', speaker: 'ring' } })); await sleep(500);
+    out.musicUnder = await rms(an, 2.5);
+    dispatchEvent(new CustomEvent('heel:voice', { detail: { phase: 'end', speaker: 'ring' } }));
+    m.stop(); ac.close(); }
+  for (const k of Object.keys(out)) if (k !== 'speech') out[k + '_vsSpeech'] = +(out[k] - out.speech).toFixed(1);
+  document.getElementById('out').textContent = JSON.stringify(out, null, 1);
+  return out;
+};
+</script>

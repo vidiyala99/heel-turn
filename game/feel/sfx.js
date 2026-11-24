@@ -1,19 +1,23 @@
 // Synthesized arena sound (WebAudio only, no samples): body thuds, strike slaps, the crowd bed that
 // follows heat, gasps on near-falls, pops on big moments, and the bell. Starts on the first key press.
+import { masterFor, onVoice } from '../../voice/mix.js';
+
 let ctx = null, master = null, bed = null, bedGain = null, noiseBuf = null;
 
-const vol = () => { const v = window.HEEL_SETTINGS?.volume; return v == null ? 0.8 : v > 1 ? v / 100 : v; };
+let voiceOn = false; onVoice((on) => { voiceOn = on; });
 
 export function unlock() {
   if (ctx) { if (ctx.state === 'suspended') ctx.resume(); return; }
   const AC = window.AudioContext || window.webkitAudioContext; if (!AC) return;
   ctx = new AC();
-  master = ctx.createGain(); master.gain.value = vol(); master.connect(ctx.destination);
+  // Settings volume is applied on the shared master bus (voice/mix.js); this trim keeps the hits under the voices
+  master = ctx.createGain(); master.gain.value = 0.5; master.connect(masterFor(ctx));
   noiseBuf = ctx.createBuffer(1, ctx.sampleRate * 2, ctx.sampleRate);
   const d = noiseBuf.getChannelData(0); for (let i = 0; i < d.length; i++) d[i] = Math.random() * 2 - 1;
   // crowd bed: looped noise through a voice-band filter; gain follows heat
   bed = ctx.createBufferSource(); bed.buffer = noiseBuf; bed.loop = true;
-  const bp = ctx.createBiquadFilter(); bp.type = 'bandpass'; bp.frequency.value = 700; bp.Q.value = 0.6;
+  // low-passed murmur: white noise through a band filter was the hiss the owner heard
+  const bp = ctx.createBiquadFilter(); bp.type = 'lowpass'; bp.frequency.value = 700; bp.Q.value = 0.4;
   bedGain = ctx.createGain(); bedGain.gain.value = 0.02;
   bed.connect(bp).connect(bedGain).connect(master); bed.start();
 }
@@ -59,6 +63,5 @@ export function bell() {
 // heat 0..100 -> crowd bed level; called every frame
 export function crowd(heat) {
   if (!ctx) return;
-  master.gain.setTargetAtTime(vol(), ctx.currentTime, 0.1);
-  bedGain.gain.setTargetAtTime(0.015 + (heat / 100) * 0.11, ctx.currentTime, 0.4);
+  bedGain.gain.setTargetAtTime((0.008 + (heat / 100) * 0.035) * (voiceOn ? 0.3 : 1), ctx.currentTime, 0.4);
 }

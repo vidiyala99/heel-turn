@@ -3,6 +3,11 @@
 // and the crowd own the audio. mountMusic() listens to the UI's `heel:screen` and `heel:settings` events and starts
 // on the first key or pointer press (autoplay policy). Silent under automation or ?mute=1 (see tts.js MUTED).
 import { MUTED } from './tts.js';
+import { LEVEL, dB, masterFor, onVoice } from './mix.js';
+
+// MUSIC_TRIM: the loop's loudness at out.gain 1 versus speech (game/ui/mix_check.py), so LEVEL.music lands where it says.
+const MUSIC_TRIM = 5;
+const DRIVE = 1.3; // into the bus compressor; the level is set after it, so ducking stays a clean 12 dB
 
 const BPM = 138, BEAT = 60 / BPM, BAR = 4 * BEAT;
 // E minor riff, one note per eighth: semitones above E1 (null = rest). Two bars, then a turnaround.
@@ -12,20 +17,23 @@ const E1 = 41.2;
 const STINGS = { vex: [7, [0, 4, 7]], kane: [-5, [0, 1, 0]], brutus: [-5, [0, 1, 0]], silas: [3, [0, 3, 6]], mae: [5, [0, 7, 12]] };
 const MENU_SCREENS = new Set(['title', 'menu', 'howto', 'settings', 'online', 'select', 'vs', 'results']);
 
-export function createMusic({ volume = () => window.HEEL_SETTINGS?.volume ?? 0.7 } = {}) {
-  let ac = null, out = null, noise = null, timer = null, nextBar = 0, bar = 0, playing = false;
+export function createMusic({ ctx = null, muted = MUTED } = {}) {
+  let voiced = false;
+  let ac = null, out = null, bus = null, noise = null, timer = null, nextBar = 0, bar = 0, playing = false;
 
   function init() {
-    if (ac || MUTED) return !!ac;
-    ac = new AudioContext();
-    out = ac.createGain(); out.gain.value = 0;
+    if (ac || muted) return !!ac;
+    ac = ctx || new AudioContext();
+    out = ac.createGain(); out.gain.value = DRIVE;
+    bus = ac.createGain(); bus.gain.value = 0;
     const comp = ac.createDynamicsCompressor(); comp.threshold.value = -16; comp.ratio.value = 5;
-    out.connect(comp).connect(ac.destination);
+    out.connect(comp).connect(bus).connect(masterFor(ac));
     noise = ac.createBuffer(1, ac.sampleRate, ac.sampleRate);
     const d = noise.getChannelData(0); for (let i = 0; i < d.length; i++) d[i] = Math.random() * 2 - 1;
     return true;
   }
-  const level = () => 0.32 * volume();
+  // Settings volume lives on the master bus; this is the bus level, lower still while anyone speaks
+  const level = () => dB(voiced ? LEVEL.musicUnder : LEVEL.music) * MUSIC_TRIM;
 
   // distorted power chord (root + fifth + octave) through a waveshaper and a cabinet-ish lowpass
   const curve = (() => { const c = new Float32Array(1024); for (let i = 0; i < 1024; i++) { const x = i / 512 - 1; c[i] = Math.tanh(x * 6); } return c; })();
@@ -52,7 +60,7 @@ export function createMusic({ volume = () => window.HEEL_SETTINGS?.volume ?? 0.7
     s.connect(f).connect(g).connect(out); s.start(t, Math.random() * 0.5, dur + 0.05);
   }
   const snare = (t) => { hiss(t, { freq: 1800, dur: 0.18, gain: 0.55, type: 'bandpass' }); hiss(t, { freq: 5000, dur: 0.1, gain: 0.25 }); };
-  const hat = (t, open = false) => hiss(t, { freq: 8000, dur: open ? 0.22 : 0.04, gain: 0.16 });
+  const hat = (t, open = false) => hiss(t, { freq: 7000, dur: open ? 0.16 : 0.035, gain: 0.08, type: 'bandpass' });
 
   function scheduleBar(t, n) {
     const half = (n % 2) * 8, turn = n % 4 === 3;
@@ -63,7 +71,7 @@ export function createMusic({ volume = () => window.HEEL_SETTINGS?.volume ?? 0.7
       if (i % 4 === 0 || (i === 3 && n % 2)) kick(at);
       if (i % 4 === 2) snare(at);
     }
-    if (n % 8 === 0) hiss(t, { freq: 3000, dur: 1.4, gain: 0.3 }); // crash every 8 bars
+    if (n % 8 === 0) hiss(t, { freq: 4000, dur: 1.0, gain: 0.14, type: 'bandpass' }); // crash every 8 bars
   }
 
   function loop() {
@@ -87,14 +95,14 @@ export function createMusic({ volume = () => window.HEEL_SETTINGS?.volume ?? 0.7
       track = ac.createBufferSource(); track.buffer = buf; track.loop = true;
       track.connect(out); track.start();
     });
-    out.gain.cancelScheduledValues(ac.currentTime);
-    out.gain.setTargetAtTime(level(), ac.currentTime, 0.3);
+    bus.gain.cancelScheduledValues(ac.currentTime);
+    bus.gain.setTargetAtTime(level(), ac.currentTime, 0.3);
   }
   function stop(fade = 0.6) {
     if (!ac || !playing) return;
     playing = false;
-    out.gain.cancelScheduledValues(ac.currentTime);
-    out.gain.setTargetAtTime(0, ac.currentTime, fade / 4);
+    bus.gain.cancelScheduledValues(ac.currentTime);
+    bus.gain.setTargetAtTime(0, ac.currentTime, fade / 4);
     const t = timer, src = track; track = null;
     setTimeout(() => { clearInterval(t); src?.stop(); }, fade * 1000 + 300);
   }
@@ -102,9 +110,9 @@ export function createMusic({ volume = () => window.HEEL_SETTINGS?.volume ?? 0.7
   function duck(seconds = 1.2) {
     if (!ac || !playing) return;
     const t = ac.currentTime;
-    out.gain.cancelScheduledValues(t);
-    out.gain.setTargetAtTime(level() * 0.25, t, 0.05);
-    out.gain.setTargetAtTime(level(), t + seconds, 0.4);
+    bus.gain.cancelScheduledValues(t);
+    bus.gain.setTargetAtTime(level() * 0.25, t, 0.05);
+    bus.gain.setTargetAtTime(level(), t + seconds, 0.4);
   }
   // Entrance theme from Runware (first `seconds`, faded out) when the file loads; the synth sting otherwise.
   // Versus uses a 1.3 s cut so the two stings stay apart; entrance(w) plays the full 18 s.
@@ -128,7 +136,9 @@ export function createMusic({ volume = () => window.HEEL_SETTINGS?.volume ?? 0.7
     motif.forEach((n, i) => chord(t + i * BEAT / 2, base * 2 ** (n / 12), i === motif.length - 1 ? 1.4 : BEAT / 2, 0.3));
     snare(t + 1.5 * BEAT); kick(t + 1.5 * BEAT);
   }
-  function setVolume() { if (ac && playing) out.gain.setTargetAtTime(level(), ac.currentTime, 0.1); }
+  function setVolume() { if (ac && playing) bus.gain.setTargetAtTime(level(), ac.currentTime, 0.1); }
+  // duck deep under any voice (the winner call and the results promo talk over the menu loop)
+  onVoice((on) => { voiced = on; if (ac && playing) bus.gain.setTargetAtTime(level(), ac.currentTime, on ? 0.05 : 0.5); });
 
   const entrance = (wrestler) => sting(wrestler, 18);
 

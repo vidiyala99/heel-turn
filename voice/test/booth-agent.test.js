@@ -59,7 +59,7 @@ test('a scheme line written before a betrayal is dropped as stale; the betrayal 
   booth.onEvent({ kind: 'betray', actor: 'silas', target: 'kane' });
   release();
   await sleep(600);
-  assert.ok(dropped.some(([t, why]) => /up to something/.test(t) && why === 'stale'));
+  assert.ok(dropped.some(([t, why]) => /up to something/.test(t) && /stale|outranked/.test(why)));
   assert.ok(spoken.some(l => l.source === 'llm' && l.ref === 'event:betray'));
   assert.ok(!spoken.some(l => /up to something/.test(l.text)));
 });

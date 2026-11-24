@@ -31,6 +31,7 @@ const OTHER = { rex: 'dot', dot: 'rex' };
 const TASK = 'You are live in the booth. Decide your next spoken line. Prefer, in order: answer what your partner just said if it deserves it; '
   + 'speculate about a scheme a wrestler plan hints at BEFORE it happens (name the wrestler and what they are eyeing); call a decision that just happened (betrayal, bribe) with its reason; '
   + 'call back to memory (grudges, habits, the bribe ledger). Never just narrate a single punch. Do not repeat anything in booth_so_far. '
+  + 'Only state facts that are on this board; speculation must come from a wrestler plan. 8 to 12 words. '
   + 'Start with ONE tag for what you react to: [rex], [dot], [plan:<wrestler>], [event:<kind>], [memory]. If nothing is worth saying, reply exactly [pass].';
 
 const age = (now, at) => +((now - at) / 1000).toFixed(1);
@@ -55,7 +56,7 @@ export function viaLineEndpoint(url, fetchImpl = globalThis.fetch) {
   };
 }
 
-export function createBoothAgents({ generate, say, onLine = () => {}, onDrop = () => {}, now = () => performance.now(), rng = Math.random, cadenceMs = CADENCE_MS } = {}) {
+export function createBoothAgents({ generate, say, prefetch = () => {}, onLine = () => {}, onDrop = () => {}, now = () => performance.now(), rng = Math.random, cadenceMs = CADENCE_MS } = {}) {
   const board = { seq: 0, events: [], plans: [], memory: {}, transcript: [] };
   const minds = { rex: { notes: [] }, dot: { notes: [] } };
   const ready = [];            // generated lines waiting for the voice
@@ -63,9 +64,10 @@ export function createBoothAgents({ generate, say, onLine = () => {}, onDrop = (
   let busy = false, timer = null, turn = 'rex', inflight = 0, lastBigSeq = 0;
   const stats = { generated: 0, passed: 0, failed: 0, spoken: { llm: 0, bank: 0 }, dropped: 0, ms: [] };
 
-  function briefFor(speaker) {
+  function briefFor(speaker, focus) {
     const t = now(), p = PERSONAS[speaker];
     return {
+      ...(focus && { react_now: `${focus.kind}: ${nm(focus.actor)}${focus.target ? ` on ${nm(focus.target)}` : ''}. Call it and say why it happened, tag [event:${focus.kind}].` }),
       you: `${p.name}, ${p.role}`, partner: PERSONAS[OTHER[speaker]].name, your_goals: p.goals,
       just_happened: board.events.slice(-6).map(e => ({ kind: e.kind, actor: nm(e.actor), target: e.target && nm(e.target), secs_ago: age(t, e.at) })),
       wrestler_plans: board.plans.slice(-5).map(x => ({ who: nm(x.who), intent: x.intent, target: x.target && nm(x.target), reason: x.reason, secs_ago: age(t, x.at) })),
@@ -76,20 +78,23 @@ export function createBoothAgents({ generate, say, onLine = () => {}, onDrop = (
     };
   }
 
-  async function think(speaker) {
+  async function think(speaker, focus = null) {
     inflight++;
     const seq = board.seq, t0 = now();
     try {
-      const reply = parseReply(await generate({ speaker, brief: briefFor(speaker) }));
+      const reply = parseReply(await generate({ speaker, brief: briefFor(speaker, focus) }));
       const ms = Math.round(now() - t0);
       stats.ms.push(ms);
       if (!reply) { stats.passed++; return; }
       stats.generated++;
-      const line = { speaker, text: reply.text, ref: reply.ref, source: 'llm', seq, genAt: now(), ms };
-      // one ready line per speaker: a fresher thought replaces an older one
+      const line = { speaker, text: reply.text, ref: reply.ref, source: 'llm', seq, genAt: now(), ms, big: !!focus && reply.ref.startsWith('event') };
+      // one ready line per speaker: a fresher thought replaces an older one, but never a big-moment call
       const old = ready.findIndex(l => l.speaker === speaker);
+      if (old >= 0 && ready[old].big && !line.big) { stats.dropped++; onDrop(line, 'outranked'); return; }
       if (old >= 0) { stats.dropped++; onDrop(ready[old], 'replaced'); ready.splice(old, 1); }
       ready.push(line);
+      try { prefetch(line); } catch { /* warming is best effort */ }
+      ready.sort((a, b) => b.big - a.big);  // big-moment calls jump idle thoughts
       pump();
     } catch { stats.failed++; } finally { inflight--; }
   }
@@ -106,7 +111,7 @@ export function createBoothAgents({ generate, say, onLine = () => {}, onDrop = (
   const stale = (l) => now() - l.genAt > STALE_MS || (lastBigSeq > l.seq && !l.ref.startsWith('event'));
 
   function next() {
-    if (hit && now() - hit.at <= HIT_FRESH_MS) { const h = hit; hit = null; return h; }
+    if (hit && now() - hit.at <= (hit.big ? 1500 : HIT_FRESH_MS)) { const h = hit; hit = null; return h; }
     hit = null;
     while (ready.length) {
       const l = ready.shift();
@@ -137,8 +142,8 @@ export function createBoothAgents({ generate, say, onLine = () => {}, onDrop = (
     const e = { seq: ++board.seq, at: now(), kind: ev.kind, actor: ev.actor, target: ev.target };
     board.events.push(e); if (board.events.length > 30) board.events.shift();
     const bank = HITS[ev.kind];
-    if (bank && !busy && (pr >= 2 || rng() < 0.35)) { hit = { speaker: 'rex', text: bank[Math.floor(rng() * bank.length)], ref: `event:${ev.kind}`, source: 'bank', seq: e.seq, genAt: e.at, at: e.at, kind: ev.kind }; pump(); }
-    if (pr >= BIG) { lastBigSeq = e.seq; think('rex'); setTimeout(() => think('dot'), 400); } // big moment: both minds react now, off cadence
+    if (bank && (!busy || pr >= BIG) && (pr >= 2 || rng() < 0.35)) { hit = { big: pr >= BIG, speaker: 'rex', text: bank[Math.floor(rng() * bank.length)], ref: `event:${ev.kind}`, source: 'bank', seq: e.seq, genAt: e.at, at: e.at, kind: ev.kind }; pump(); }
+    if (pr >= BIG) { lastBigSeq = e.seq; think('rex', ev); setTimeout(() => think('dot', ev), 400); } // big moment: both minds react now, off cadence
   }
 
   function onPlan(p) {

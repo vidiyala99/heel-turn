@@ -1,0 +1,77 @@
+  0.0s  >> bell  
+  1.0s  >> plan silas: ally kane "Kane is the biggest body here; I use him until Mae is gone"
+  2.0s  >> strike mae vex
+  3.0s  >> strike vex mae
+  3.2s  DOT (LLM 665 ms, re event:strike)  Old Iron Mae’s first hit, Silas Crane’s gonna pay for this soon.
+  5.0s  >> alliance silas kane
+  6.0s  >> plan kane: attack mae "Crane says Mae first. Fine. Mae first."
+  8.0s  REX (LLM 669 ms, re plan:silas)  Silas plots to use Brutus’s size to end Mae early!
+  8.0s  >> grapple kane mae
+ 10.0s  >> strike mae kane
+ 12.0s  >> plan silas: bribe_ref lou "Lou's ledger says he took my envelope twice; a fast count wins this"
+ 12.1s  REX (LLM 888 ms, re plan:silas)  Crane’s alliance with Kane smells like a setup against Mae, watch out!
+ 13.0s  >> strike silas vex
+ 13.1s  -- dropped dot (replaced): Outraged much, Rex? Brutus Kane obeys orders, not morals.
+ 15.7s  -- dropped dot (replaced): Outraged? Please, your “concern” is as fake as Mae’s moves.
+ 16.0s  >> plan vex: showboat  "the cameras are on me; taunt, then hit Crane while he schemes"
+ 16.9s  DOT (LLM 731 ms, re plan:silas)  Crane’s bribing Lou again, fast count to crush Mae’s hopes!
+ 17.0s  >> taunt vex 
+ 19.0s  >> reversal mae kane
+ 21.0s  >> bribe silas lou
+ 21.1s  REX (bank)  Hey!
+ 21.1s  -- dropped rex (replaced): Silas eyes Lou with greed, Lou's ledger warns us again!
+ 21.5s  >> plan lou: count_fast silas "commissioner approved Crane's envelope"
+ 21.9s  -- dropped rex (replaced): Crane eyes Lou again, a fast count is coming, this can’t end well!
+ 22.3s  REX (LLM 937 ms, re event:bribe)  Silas bribes Lou again; the ledger proves this fast count's dirty!
+ 23.1s  -- dropped dot (outranked): Outraged? Please, that’s just jealousy over my brilliant insight!
+ 24.0s  >> grapple mae vex
+ 25.8s  -- dropped dot (outranked): Outraged already? Lou’s counting fast, that’s bribe power, Rex!
+ 26.0s  >> pin mae vex
+ 26.8s  DOT (LLM 721 ms, re event:bribe)  Silas cracks the ledger with Lou; Lou's wallet's got a hole!
+ 27.0s  >> kickout vex mae
+ 29.0s  >> plan silas: betray kane "Kane is tired at 30% stamina; he is worth more to me eliminated"
+ 30.7s  -- dropped rex (replaced): Brutus Kane’s eyes are locked on Mae, ready to strike next!
+ 31.0s  >> strike kane vex
+ 31.2s  REX (LLM 723 ms, re plan:brutus kane)  Kane's readying a sneaky attack on Mae, this can't end well!
+ 33.0s  >> grapple kane vex
+ 35.0s  >> betray silas kane
+ 35.7s  REX (bank)  BETRAYAL!
+ 35.9s  -- dropped dot (replaced): Outraged much, Rex? Bribes are how the real game’s played!
+ 36.0s  >> elimination silas kane
+ 36.3s  -- dropped dot (replaced): Silas Crane just stabbed Brutus Kane, tired and easy to cash in on!
+ 36.6s  -- dropped rex (replaced): Silas Crane stabs Brutus Kane in the back, wants him out now!
+ 36.9s  REX (bank)  ELIMINATED!
+ 37.3s  -- dropped dot (replaced): Silas snatches Kane’s spotlight, 30% stamina means dead weight now!
+ 38.1s  REX (LLM 585 ms, re event:elimination)  Silas stabbed Kane in the back, elimination for cold cash again!
+ 39.0s  >> plan mae: attack silas "grudge 4 with Crane from last week; he is next"
+ 40.0s  >> strike mae silas
+ 40.7s  -- dropped dot (outranked): Rex, Mae’s got history with Silas, grudges always get bloody!
+ 42.0s  >> strike silas mae
+ 42.6s  DOT (LLM 878 ms, re event:elimination)  Crane backstabs Kane, smart, ruthless, and straight to the prize!
+ 44.0s  >> plan vex: ally mae "Crane is the threat now; side with the old lady for a minute"
+ 45.7s  -- dropped rex (replaced): Kane’s eyeing Mae again; that sneaky attack could come any second!
+ 46.0s  >> alliance vex mae
+ 46.7s  DOT (LLM 629 ms, re rex)  Cry me a river, Rex, betrayal pays and Silas knows it!
+ 48.0s  >> grapple mae silas
+ 49.3s  -- dropped rex (replaced): Vex is itching to taunt and snipe Crane while scheming!
+ 50.0s  >> finisher mae silas
+ 50.6s  -- dropped rex (replaced): Vex’s showboating puts Crane in her sights for a sucker punch!
+ 50.9s  -- dropped rex (outranked): Vex is about to taunt, but will he hit Crane next?
+ 51.0s  >> pin mae silas
+ 51.2s  REX (bank)  HERE IT COMES!
+ 52.0s  >> plan lou: count_slow mae "Crane paid; slow count for Mae"
+ 53.0s  REX (LLM 580 ms, re event:finisher)  Old Iron Mae’s grudge fuels her unstoppable finishing move on Crane!
+ 53.1s  -- dropped dot (outranked): Oooh Rex, Mae’s grudge burns but Silas slipped the envelope again!
+ 54.0s  >> kickout silas mae
+ 55.7s  -- dropped dot (outranked): Slow count for Mae? Lou’s playing both sides, money talks, Rex!
+ 56.0s  >> strike vex silas
+ 57.5s  -- dropped dot (stale): Old Iron Mae’s grudge makes Silas pay the price, perfect timing!
+ 58.0s  REX (bank)  GONE!
+ 58.0s  >> elimination mae silas
+ 59.1s  -- dropped dot (replaced): Slow counts for Mae? That’s just Silas buying time to backstab Kane again!
+ 59.2s  REX (LLM 706 ms, re event:elimination)  Mae’s grudge proves lethal, Crane’s bribery can’t save him tonight!
+ 63.3s  DOT (LLM 656 ms, re event:elimination)  Mae's grudge ended Crane’s run, Lou’s slow count sealed fate.
+
+spoken 18: generated 13 (72%), bank 5 (28%)
+generations 34: lines 33, passed 1, failed 0, dropped 20
+latency ms: p50 747, min 570, max 3611

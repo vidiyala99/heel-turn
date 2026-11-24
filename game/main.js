@@ -19,6 +19,7 @@ import { loadBodies } from './arena/bodies.js';
 import { createAnimator, animFor } from './shared/anims.js';
 import { createReferee } from './arena/referee.js';
 import { createEntrance } from './feel/entrance.js';
+import { createAisle, inGap, AISLE_THETA, AISLE_GAP } from './arena/aisle.js';
 import { createBooth } from './arena/booth.js';
 import { mountLowerThird } from './feel/lowerthird.js';
 import { winnerLine } from '../voice/announcer.js';
@@ -126,7 +127,8 @@ const tmp = new THREE.Object3D(); const col = new THREE.Color();
 for (let i = 0; i < CROWD; i++) {
   const row = Math.floor(Math.random() * 14);
   const r = 8.5 + row * 0.9;
-  const a = Math.random() * Math.PI * 2;
+  let a = Math.random() * Math.PI * 2;
+  while (inGap(Math.cos(a) * r, Math.sin(a) * r)) a = Math.random() * Math.PI * 2; // the entrance aisle stays clear
   const y = 0.4 + row * 0.55;
   crowdSeat.push({ x: Math.cos(a) * r, z: Math.sin(a) * r, y, p: Math.random() * 6.28 });
   col.setHSL(Math.random(), 0.35, 0.18 + Math.random() * 0.25); crowd.setColorAt(i, col);
@@ -134,7 +136,7 @@ for (let i = 0; i < CROWD; i++) {
 scene.add(crowd);
 // stands
 for (let row = 0; row < 14; row++) {
-  const ring = new THREE.Mesh(new THREE.CylinderGeometry(8.9 + row * 0.9, 8.9 + row * 0.9, 0.55, 64, 1, true),
+  const ring = new THREE.Mesh(new THREE.CylinderGeometry(8.9 + row * 0.9, 8.9 + row * 0.9, 0.55, 64, 1, true, AISLE_THETA + AISLE_GAP, Math.PI * 2 - AISLE_GAP * 2),
     new THREE.MeshStandardMaterial({ color: 0x111319, side: THREE.DoubleSide, roughness: 1 }));
   ring.position.y = row * 0.55; scene.add(ring);
 }
@@ -150,6 +152,7 @@ function screenTex(text) {
 }
 const screen = new THREE.Mesh(new THREE.PlaneGeometry(12, 6), new THREE.MeshBasicMaterial({ map: screenTex('HEEL TURN') }));
 screen.position.set(0, 10, -19); scene.add(screen);
+const aisle = createAisle({ scene, matY: MAT_Y, ring: RING });
 
 // ---------- UI helpers (ids owned by the shell's index.html; all optional) ----------
 const $ = (id) => document.getElementById(id);
@@ -560,7 +563,7 @@ window.G = {
 // ---------- loop ----------
 const clock = new THREE.Clock();
 const feel = createFeel({ scene, camera, getViews: () => views });
-const entrance = createEntrance({ scene, camera, screen, matY: MAT_Y, ring: RING, getViews: () => views, play, layer,
+const entrance = createEntrance({ scene, camera, screen, matY: MAT_Y, ring: RING, getViews: () => views, play, layer, aisle,
   announcer: (({ obj, animations }) => ({ obj, anim8: createAnimator(obj, animations) }))(bodies.make('ring')) });
 function frame() {
   const dt = Math.min(clock.getDelta(), 0.05);

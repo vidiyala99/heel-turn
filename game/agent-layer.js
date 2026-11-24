@@ -219,6 +219,7 @@ export function createAgentLayer({ logRow, call }) {
     // the cue sits ahead so a clip rendered during the fetch still plays (tts.js drops clips late past their cue)
     speak: (l) => voiced({ speaker: l.speaker, text: l.text, kind: 'promo', eventAt: performance.now() + 4000 }, true),
     stop: () => hush(),
+    subtitle: true,
   });
   const promoDebug = (debug.promos = []);
   let holding = false, pre = null, preGen = 0, midAt = -1e9, busy = false;

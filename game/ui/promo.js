@@ -13,9 +13,12 @@ const HOLD_MS = 900;           // after typing, plus reading time below
 const READ_MS_PER_CHAR = 38;
 
 export function createPromo({ base = 'http://127.0.0.1:8789', art = '/art', root = document.body, speak = null,
-  stop = null, timeoutMs = 4000 } = {}) {
+  stop = null, timeoutMs = 4000, subtitle = false } = {}) {
   const el = document.createElement('div');
   el.className = 'promo';
+  // subtitle: audio-first (owner 16:17). The voice carries the promo; the screen shows one subtitle line and a small
+  // speaker tag, bottom center, no portrait card and no type-on.
+  el.classList.toggle('sub', subtitle);
   el.setAttribute('role', 'status');
   el.setAttribute('aria-live', 'polite');
   el.innerHTML = `
@@ -55,7 +58,7 @@ export function createPromo({ base = 'http://127.0.0.1:8789', art = '/art', root
   }
 
   async function typeOn(node, text) {
-    let cut = reduced;
+    let cut = reduced || subtitle;
     skip = () => { cut = true; };
     for (let i = 1; i <= text.length && !cut; i++) { node.textContent = text.slice(0, i); await sleep(TYPE_MS); }
     skip = null;

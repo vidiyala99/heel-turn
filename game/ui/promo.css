@@ -87,4 +87,3 @@ body:has(.promo.on:not([data-side="right"])) #l3 { bottom: 214px; }
 .promo.sub .promo-text::after { content: none; }
 .promo.sub.swap .promo-card, .promo.sub[data-side="right"].swap .promo-card { animation: promo-sub-in .2s var(--p-ease); }
 @keyframes promo-sub-in { from { opacity: 0; } }
-body:has(.promo.sub.on) .keys { opacity: 1; }

@@ -21,3 +21,6 @@ game/assets-raw/
 tools/.design-skills.tgz
 agents/.band_rooms.json
 game/promo.log
+
+# demo capture raw recordings (game/tools/capture); clips and cuts are committed
+docs/video/raw/

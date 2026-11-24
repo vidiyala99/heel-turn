@@ -53,7 +53,7 @@ export function createMatch(p1 = 'vex', p2 = 'kane', habits = null, opts = {}) {
     w: [makeWrestler(p1, -1.6), makeWrestler(p2, 1.6)],
     over: false, winner: -1, how: null, pin: null, introT: INTRO_SECS, events: [],
     habits: normHabits(habits), clock: 0, blockT: 0, seed: (Date.now() % 100000) + 1,
-    aiPlanT: 3, aiIntent: 'pressure', aiPlansLog: [], committed: !!opts.committed, pair: null,
+    aiPlanT: 3, aiIntent: 'pressure', aiPlansLog: [], committed: !!opts.committed, demo: !!opts.demo, pair: null,
   };
   emit(m, { k: 'call', text: `${m.w[0].name} and ${m.w[1].name} make their way to the ring.` });
   return m;
@@ -114,7 +114,8 @@ function resolve(m, att, def) {
     fact(m, base, ai, di, { success: false });
     return;
   }
-  if (def.state === 'down' || def.state === 'thrown' || def.state === 'pinned' || def.state === 'paired') return;
+  // a wrestler mid get-up (committed kip-up) cannot be hit: the body is still rising, so a hit would split it from the sim
+  if (def.state === 'down' || def.state === 'thrown' || def.state === 'pinned' || def.state === 'paired' || def.state === 'getup') return;
   if (kind === 'strike') {
     if (def.state === 'block') {
       def.st -= 6; def.stats.reversals++; att.state = 'stun'; att.t = 0.45; anim(att, 'No');
@@ -167,6 +168,10 @@ function tryPin(m, i) {
   const att = m.w[i], def = m.w[1 - i];
   if (m.clock < PIN_GRACE || busy(att) || def.state !== 'down' || dist(att, def) > 1.6) return false;
   att.state = 'pinning'; def.state = 'pinned';
+  if (m.committed) { // the cover track kneels 0.75 m from the victim's hips: put the sim where the body will be
+    const d = dist(att, def) || 1, k = 0.75 / d;
+    att.x = def.x + (att.x - def.x) * k; att.z = def.z + (att.z - def.z) * k;
+  }
   m.pin = { att: i, victim: 1 - i, t: 0, count: 0, mash: 0 };
   anim(att, 'Sitting'); emit(m, { k: 'call', text: `${short(att)} goes for the cover!` }); fact(m, 'pin', i, 1 - i);
   return true;

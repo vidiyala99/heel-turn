@@ -15,7 +15,12 @@ const send = (res, code, obj) => { res.statusCode = code; res.setHeader('Content
 export default function memoryPlugin() {
   return {
     name: 'heel-memory',
-    configureServer(server) {
+    configureServer(server) { mount(server); },
+    configurePreviewServer(server) { mount(server); }, // the production build (vite preview) keeps Bruin memory
+  };
+}
+
+function mount(server) {
       server.middlewares.use('/mem', async (req, res) => {
         try {
           const u = new URL(req.url, 'http://x');
@@ -34,6 +39,4 @@ export default function memoryPlugin() {
           send(res, 404, { error: 'not found' });
         } catch (e) { send(res, 500, { error: String(e?.message || e) }); }
       });
-    },
-  };
 }

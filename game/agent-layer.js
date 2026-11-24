@@ -4,6 +4,7 @@
 //   layer.matchStart({ match, wrestlers: [id, id], humans: [bool, bool] })  -> Promise<habits|null>
 //   layer.facts(facts)  layer.tick(simState)  layer.matchEnd()
 import { situationOf } from './shared/sim.js';
+import { DEMO } from './demo.js';
 import { createCommentary } from '../voice/commentary.js';
 import { createBoothAgents, viaLineEndpoint } from '../voice/booth-agent.js';
 import { createTTS } from '../voice/tts.js';
@@ -162,7 +163,7 @@ export function createAgentLayer({ logRow, call }) {
   function show(p, meta) {
     const llm = meta?.source === 'openai';
     const secs = meta?.ms != null ? `${(meta.ms / 1000).toFixed(1)} s` : '';
-    const label = llm ? `LLM, ${secs}` : meta?.source === 'rule' ? 'rule' : `fallback${meta?.error ? `: ${meta.error.slice(0, 60)}` : ''}`;
+    const label = llm ? `LLM, ${secs}` : meta?.source === 'rule' ? 'rule' : `fallback${meta?.error && !DEMO ? `: ${meta.error.slice(0, 60)}` : ''}`;
     const expect = (p.cites?.[0] || '').match(/\/(strike|grapple|block)$/)?.[1] || null;
     const sig = `${p.intent}|${p.target}|${expect}`, same = last[p.wrestler] === sig;
     last[p.wrestler] = sig;
@@ -196,9 +197,9 @@ export function createAgentLayer({ logRow, call }) {
       });
     }).catch((e) => {
       debug.errors.push('agents/plan ' + e.message);
-      chip(`AI: fallback (${/^BAND:/.test(e.message) ? e.message : 'agents offline'})`, false);
+      chip(DEMO ? 'AI offline' : `AI: fallback (${/^BAND:/.test(e.message) ? e.message : 'agents offline'})`, false);
       nextAt = m.clock + 2; // retry sooner while the server is down
-      if (!downLogged) { downLogged = true; logRow(planHtml({ wrestler: 'agents', intent: 'offline', reason: `agents server unreachable (${e.message}); the scripted fallback plans meanwhile`, cites: [] }, 'FALLBACK')); }
+      if (!downLogged) { downLogged = true; logRow(planHtml({ wrestler: 'agents', intent: 'offline', reason: DEMO ? 'AI offline; the scripted plans run meanwhile' : `agents server unreachable (${e.message}); the scripted fallback plans meanwhile`, cites: [] }, 'FALLBACK')); }
     }).finally(() => { inFlight = false; });
   }
 

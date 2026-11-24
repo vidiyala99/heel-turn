@@ -24,6 +24,7 @@ import { createBooth } from './arena/booth.js';
 import { mountLowerThird } from './feel/lowerthird.js';
 import { winnerLine } from '../voice/announcer.js';
 import { CHARACTERS, cssHex } from './shared/characters.js';
+import { DEMO } from './demo.js';
 
 // ---------- renderer / scene ----------
 const renderer = new THREE.WebGLRenderer({ antialias: true });
@@ -338,7 +339,7 @@ function withTimeout(p, ms, what) {
 }
 
 function startLocal(p1, p2) {
-  const match = createMatch(p1, p2, savedHabits, { committed: true });
+  const match = createMatch(p1, p2, savedHabits, { committed: true, demo: DEMO });
   savedHabits = match.habits;
   session = { mode: 'exhibition', slot: 0, match, ctl: [newControl(true), newControl(false)], entrance: true };
   // Bruin memory: the AI's habit table for you comes from the marts when they answer before/at the bell.
@@ -555,6 +556,7 @@ window.HEEL_SYNC = () => { const st = currentRaw(); return st && { pair: st.pair
   contacts: contactReport(), w: views.map((v, i) => { getRig(v.root).bones.hips?.getWorldPosition(_sh);
     return { hx: _sh.x, hz: _sh.z, rx: v.root.position.x, rz: v.root.position.z, sx: st.w[i].x, sz: st.w[i].z, fy: st.w[i].facing,
       ry: (() => { const f = new THREE.Vector3(0, 0, 1).applyQuaternion(v.root.quaternion); return Math.atan2(f.x, f.z); })(), state: st.w[i].state, move: activeMove(v.root), lying: v.lying }; }) }; };
+window.HEEL_VIEWS = () => views.map((v) => v.holder); // drawn bodies for game/tools/demo_soak.py
 window.G = {
   get P1() { return currentRaw()?.w[0]; }, get P2() { return currentRaw()?.w[1]; },
   get state() { return currentRaw(); }, get session() { return window.HEEL.session; },

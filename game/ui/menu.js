@@ -3,6 +3,7 @@
 // The engine may load after this file (or not at all); every call is guarded.
 
 import { CHARACTERS, WRESTLER_IDS, cssHex } from '/shared/characters.js';
+import { DEMO, DEMO_P1, DEMO_P2 } from '/demo.js';
 
 // Names, lines, stats and tints come from the character bible (shared/characters.js), same as the 3D models.
 const ROSTER = WRESTLER_IDS.map((id) => {
@@ -303,6 +304,7 @@ function pick(id) {
     const idx = ROSTER.findIndex((w) => w.id === id); setFocus(idx, false);
   }
   blip('lock');
+  if (DEMO) { match.mode = 'exhibition'; match.p1 = DEMO_P1; match.p2 = DEMO_P2; return toVersus(); } // game/demo.js
   if (selPhase === 'p1') {
     match.p1 = id;
     if (match.mode === 'online') { match.p2 = null; return toVersus(); }

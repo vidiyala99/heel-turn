@@ -107,8 +107,11 @@ function resolveLockup(m) {
   // grapple: the finisher at full meter, else a slam that fits inside the ropes from this root
   W.stats.grapples++;
   const fin = W.mo >= 100;
-  const fits = GRAPPLES.filter((id) => inside(keyPoint(root, lastP(MOVES[id].victim))));
-  const pool = fin ? ['suplex'] : (fits.length ? fits : ['ddt']);
+  // demo matches (m.demo, game/demo.js) keep to the body slam, whose contact holds for the whole move
+  const allowed = m.demo ? ['bodyslam'] : GRAPPLES;
+  const fits = allowed.filter((id) => inside(keyPoint(root, lastP(MOVES[id].victim))));
+  if (m.demo && !fits.length) return begin(m, 'move', 'lockknee', who, 1 - who, root);
+  const pool = m.demo ? fits : fin ? ['suplex'] : (fits.length ? fits : ['ddt']);
   const id = pool[Math.floor(Math.random() * pool.length)];
   W.mo = fin ? 0 : Math.min(100, W.mo + 18);
   fact(m, 'grapple', who, 1 - who, { success: true, ...(fin ? { finisher: true } : {}) });

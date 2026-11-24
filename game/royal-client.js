@@ -51,7 +51,7 @@ export function createRoyalClient({ logRow, planHtml, decide }) {
     try { odds = mountOdds(document.body, { match: matchId, api: oddsApi(), title: 'Over the Top', names }); } catch (e) { debug.errors.push('odds ' + e.message); }
     cur = { matchId, commissioner, online, odds, strip, card, shown: null, inFlight: false, nextAt: 0, last: {}, oddsOn: false,
       undo: () => { if (keys) keys.innerHTML = keysHtml; logH?.removeEventListener('click', toggleLog); } };
-    setOdds(false); // closed by default; O slides it over
+    setOdds(true); // open by default for the demo (owner 16:31); O hides it
     card.addEventListener('click', (e) => { const b = e.target.closest('[data-v]'); if (b) vote(b.dataset.v); });
   }
   function stop() {

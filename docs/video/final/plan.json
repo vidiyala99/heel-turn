@@ -1,0 +1,16 @@
+{"teaser": 4.0, "outro": 12.0,
+ "caps": {"A": "AI WRESTLERS THAT REMEMBER\nHOW YOU FIGHT", "F": "Every opponent is an LLM agent.\nIt reads your habits.", "L": "What the AI learned about you",
+          "O": "Over the Top: agents cut deals in the ring", "V": "Agents ally. Agents betray.\nYou approve or block.", "R": "Bruin: every match becomes checked memory",
+          "M": "Memory on vs off, 32,000 matches", "Z": "HEEL TURN\n\ngithub.com/vidiyala99/heel-turn\n\nBruin · BAND · Runware · AdaL"},
+ "segs": [
+  {"take": "royal", "a": 55.7, "b": 59.7, "c": "A"},
+  {"take": "takeA", "a": 6.4, "b": 28.0},
+  {"take": "takeA", "a": 28.0, "b": 54.0, "sp": 1.3},
+  {"take": "takeA", "a": 54.0, "b": 77.0, "c": "F", "cs": 1, "ce": 5},
+  {"take": "takeA", "a": 175.5, "b": 186.0, "c": "L", "cs": 0.5, "ce": 4},
+  {"take": "royal", "a": 14.0, "b": 35.0, "sp": 1.3, "c": "O", "cs": 1, "ce": 5},
+  {"take": "royal", "a": 35.0, "b": 62.0, "c": "V", "cs": 15.5, "ce": 21},
+  {"take": "clip", "f": "09-bruin-run.mp4", "a": 10.0, "b": 13.0, "c": "R"},
+  {"take": "clip", "f": "10-learning-chart.mp4", "a": 5.0, "b": 10.0, "c": "M"},
+  {"take": "card", "d": 4, "c": "Z"}
+ ]}

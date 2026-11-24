@@ -1,0 +1,2 @@
+Every opponent is an LLM agent.
+It reads your habits.

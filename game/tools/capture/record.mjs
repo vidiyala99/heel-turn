@@ -185,6 +185,77 @@ const sessions = {
     console.log('log:', (await pg.innerText('#log').catch(() => '')).slice(0, 400));
   },
 
+
+  // final-video take A: one exhibition, uninterrupted, with in-page fps probes
+  async takeA(s) {
+    const pg = s.page; s.fps = [];
+    const probe = async (tag) => { const f = await pg.evaluate('new Promise(r => { let n = 0; const t0 = performance.now(); const f = () => { n++; if (performance.now() - t0 < 2000) requestAnimationFrame(f); else r(n / ((performance.now() - t0) / 1000)); }; requestAnimationFrame(f); })'); s.fps.push([tag, Math.round(f)]); console.log('fps', tag, Math.round(f)); };
+    await pg.goto(s.url(), { waitUntil: 'commit', timeout: 90000 });
+    await pg.waitForFunction("window.HEEL_UI && HEEL_UI.state === 'title'", null, { timeout: 90000 });
+    await probe('title'); s.mark('title');
+    await s.until('menu'); s.mark('menu'); await s.wait(1200);
+    await s.until('select'); s.mark('select'); await s.wait(800);
+    for (const k of ['ArrowRight', 'ArrowRight', 'ArrowLeft', 'ArrowLeft']) await s.key(k, 600);
+    await s.key('Enter', 300);
+    await pg.waitForFunction("HEEL_UI.state === 'match'", null, { timeout: 15000 });
+    s.mark('match');
+    let probed = false;
+    for (let t = 0; t < 450; t++) {
+      const log = await pg.evaluate('(window.HEEL_ENTRANCE_LOG || []).map(e => e.ev)');
+      if (!probed && log.length > 1) { probed = true; await probe('entrance'); }
+      if (log.some((e) => e.startsWith('bell'))) break;
+      await s.wait(200);
+    }
+    s.mark('promo');
+    await pg.waitForFunction('!(window.HEEL_PROMO && HEEL_PROMO.holding)', null, { timeout: 60000 });
+    s.mark('bell'); await s.wait(1000);
+    await probe('fight');
+    const t0 = Date.now();
+    // approach, strikes, block, grapple (slam), back off; repeat for ~45 s
+    while (Date.now() - t0 < 42000 && await s.state() !== 'results') {
+      await pg.keyboard.down('KeyD'); await s.wait(600);
+      for (let i = 0; i < 4; i++) await s.key('KeyJ', 260);
+      await s.key('KeyK', 900);
+      await pg.keyboard.up('KeyD');
+      await s.key('KeyK', 500);
+      await pg.keyboard.down('KeyA'); await s.wait(500); await pg.keyboard.up('KeyA');
+      await s.key('KeyL', 600);
+    }
+    s.mark('finish');
+    await pg.evaluate('G.P2.hp = 1; G.P1.mo = 100');
+    await pg.keyboard.down('KeyD');
+    for (let i = 0; i < 80; i++) { await s.key('KeyK', 200); if (await s.state() === 'results') break; if (i === 6) await s.key('Space', 900); }
+    await pg.keyboard.up('KeyD');
+    await pg.waitForFunction("HEEL_UI.state === 'results'", null, { timeout: 30000 }).catch(() => {});
+    s.mark('results'); await s.wait(12000); s.mark('end');
+    s.marks.fps = s.fps;
+  },
+  async takeB(s) {
+    const pg = s.page;
+    await pg.goto(s.url(), { waitUntil: 'commit', timeout: 90000 });
+    await pg.waitForFunction("window.HEEL_UI && HEEL_UI.state === 'title'", null, { timeout: 60000 });
+    await s.until('menu');
+    for (let i = 0; i < 3; i++) await s.key('ArrowDown', 200);
+    await s.key('Enter', 700); await s.key('ArrowRight', 200); await s.key('Enter', 300);
+    await pg.waitForFunction("HEEL_UI.state === 'match' && G.state && G.state.mode === 'royal'", null, { timeout: 15000 });
+    s.mark('start'); await s.wait(1500); await s.key('KeyO', 300); s.mark('book');
+    const clk = async (sel, n = 0) => { try { await pg.locator(sel).nth(n).click({ timeout: 2500 }); console.log('clicked', sel, n); } catch (e) { console.log('noclick', sel, e.message.slice(0, 80)); } await s.wait(900); };
+    await s.wait(2500); await clk('.op-chip:has-text("25")'); await clk('.op-pick', 0); s.mark('bet');
+    await clk('.op-poll.open .op-vote', 0); await clk('.op-poll.open >> nth=1 >> .op-vote'); s.mark('voted');
+    const seen = new Set(); let after = 0;
+    for (let t = 0; t < 1800; t++) {
+      await s.wait(100);
+      const st = await pg.evaluate(`(() => { const m = G.state; return { over: m.over, card: !!document.querySelector('.rr-card:not([hidden])'), banner: (document.getElementById('banner') || {}).textContent,
+        bannerOn: getComputedStyle(document.getElementById('banner')).opacity > 0.5, log: (document.getElementById('log') || {}).innerText || '' }; })()`);
+      if (/ALLIANCE/.test(st.log) && !s.marks.alliance) s.mark('alliance');
+      if (st.card) { const title = await pg.innerText('.rr-card .rr-head').catch(() => ''); if (!seen.has(title)) { seen.add(title); if (!s.marks.card) s.mark('card'); await s.wait(2200); await s.key('KeyY', 100); if (!s.marks.vote) s.mark('vote'); } }
+      if (st.bannerOn && st.banner === 'HEEL TURN!' && !s.marks.heelturn) { s.mark('heelturn'); after = Date.now(); }
+      if (after && Date.now() - after > 7000) break;
+      if (st.over) { s.mark('over'); break; }
+    }
+    s.mark('end');
+  },
+
   // clip 06: Over the Top through the commissioner card (Y = approve)
   async royal(s) {
     const pg = s.page;

@@ -4,10 +4,11 @@ body.royal .hud { display: none; }
 /* decision log: a narrow right rail under the strip, newest 3 rows, older ones fade; click the title to collapse */
 body.royal .log { top: 96px; bottom: auto; right: 16px; width: 280px; max-height: 34vh; z-index: 11; transition: opacity 160ms ease; }
 body.royal .log h4 { cursor: pointer; }
-body.royal .log p:nth-child(2) { opacity: .72; } body.royal .log p:nth-child(3) { opacity: .45; }
+body.royal .log { background: rgba(5, 6, 10, .86); }
+body.royal .log p:nth-child(2) { opacity: .85; } body.royal .log p:nth-child(3) { opacity: .65; }
 body.royal .log p:nth-child(n+4) { display: none; }
 body.royal.log-collapsed .log #log { display: none; }
-body.royal.banner-on .log { opacity: .2; }
+body.royal.banner-on .log { opacity: .45; }
 body.royal #banner { z-index: 30; }
 body.royal .keys { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: calc(100vw - 32px); box-sizing: border-box; }
 body.royal .odds-panel { z-index: 25; background: rgba(7, 8, 12, .97); }
@@ -26,7 +27,7 @@ body:not(.in-match) .rr-strip, body:not(.in-match) .rr-card { display: none; }
 .rr-n b { font: 600 10px Inter, sans-serif; letter-spacing: .06em; color: #07080c; background: var(--t); padding: 1px 4px; }
 .rr-hp { height: 7px; margin-top: 5px; background: #1a1f2b; transform: skewX(-14deg); overflow: hidden; }
 .rr-hp i { display: block; height: 100%; background: var(--t); transform-origin: left; transition: transform 160ms cubic-bezier(.23, 1, .32, 1); }
-.rr-tag { min-height: 13px; margin-top: 4px; font: 600 10px/1.3 Inter, sans-serif; letter-spacing: .05em; color: #a9b1bf; font-variant-numeric: tabular-nums; }
+.rr-tag { min-height: 14px; margin-top: 4px; font: 600 11px/1.3 Inter, sans-serif; letter-spacing: .05em; color: #d6dbe6; font-variant-numeric: tabular-nums; }
 .rr-lou { align-self: center; padding: 8px 10px; font: 400 16px/1 Anton, Impact, sans-serif; letter-spacing: .03em; color: #07080c;
   background: var(--gold, #f5c542); transform: skewX(-14deg); font-variant-numeric: tabular-nums; }
 
